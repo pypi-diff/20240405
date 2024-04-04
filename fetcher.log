@@ -628,3 +628,90 @@
 [2024-04-05 00:22:57] INFO root fetch - processPackages [windmill-api]: Remove: archive file [/home/abi/fetcher/tmp/windmill_api-1.99.0.tar.gz]
 [2024-04-05 00:22:57] INFO root fetch - main [MainThread]: End processing [windmill-api]: success
 [2024-04-05 00:22:57] INFO root fetch - main [MainThread]: Store serial: [22628416]
+[2024-04-05 00:25:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22628416]
+[2024-04-05 00:25:06] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-04-05 00:25:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dialog-workflow-local
+[2024-04-05 00:25:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: kdp-python-connector
+[2024-04-05 00:25:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyrtz2
+[2024-04-05 00:25:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: swarms
+[2024-04-05 00:25:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: neon-skill-caffeinewiz
+[2024-04-05 00:25:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cpg-utils
+[2024-04-05 00:25:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: dingman-openapi-server-dev
+[2024-04-05 00:25:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: django-intra
+[2024-04-05 00:25:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pybob-sdk
+[2024-04-05 00:25:06] INFO root fetch - processPackages [dialog-workflow-local]: New version: [0.0.87] Old Version: [0.0.86]
+[2024-04-05 00:25:06] INFO root fetch - processPackages [pyrtz2]: New version: [1.1.7] Old Version: [1.1.0]
+[2024-04-05 00:25:06] INFO root fetch - processPackages [swarms]: New version: [4.7.5] Old Version: [4.7.4]
+[2024-04-05 00:25:06] INFO root fetch - processPackages [dialog-workflow-local]: Downloading https://files.pythonhosted.org/packages/be/a6/7c1e6f5928dff6f9f4771632b17cf0c8b846cd4a92cb8483e27626caa091/dialog-workflow-local-0.0.86.tar.gz
+[2024-04-05 00:25:06] INFO root fetch - processPackages [neon-skill-caffeinewiz]: New version: [1.0.2a1] Old Version: [1.0.1a5]
+[2024-04-05 00:25:06] INFO root fetch - processPackages [pybob-sdk]: New version: [0.1.8] Old Version: [0.1.7]
+[2024-04-05 00:25:06] WARNING root fetch - processPackages [django-intra]: Skipping, unable to determine old version
+[2024-04-05 00:25:06] INFO root fetch - main [MainThread]: End processing [django-intra] error
+[2024-04-05 00:25:06] INFO root fetch - processPackages [dingman-openapi-server-dev]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-05 00:25:06] INFO root fetch - processPackages [kdp-python-connector]: New version: [0.63.0] Old Version: [0.62.0]
+[2024-04-05 00:25:06] INFO root fetch - processPackages [cpg-utils]: New version: [4.9.4] Old Version: [4.9.3]
+[2024-04-05 00:25:06] INFO root fetch - processPackages [swarms]: Downloading https://files.pythonhosted.org/packages/e1/2e/2c1e33774ee651180c734f8431910749518242e0f740799349447f878639/swarms-4.7.4.tar.gz
+[2024-04-05 00:25:06] WARNING root fetch - processPackages [dialog-workflow-local]: Timeout reached during download
+[2024-04-05 00:25:06] INFO root fetch - processPackages [neon-skill-caffeinewiz]: Downloading https://files.pythonhosted.org/packages/21/73/36f273d3ca71fa336c1cd4dea7a2d3f11f0498327dba50e0a7190f6eb0ce/neon-skill-caffeinewiz-1.0.1a5.tar.gz
+[2024-04-05 00:25:06] ERROR root fetch - processPackages [pyrtz2]: Unable to fetch info: No such project/version 'pyrtz2' 1.1.7
+[2024-04-05 00:25:06] INFO root fetch - main [MainThread]: End processing [pyrtz2] error
+[2024-04-05 00:25:06] WARNING root fetch - processPackages [swarms]: Timeout reached during download
+[2024-04-05 00:25:06] INFO root fetch - processPackages [kdp-python-connector]: Downloading https://files.pythonhosted.org/packages/6b/19/fc01f3d98ee0192439eeed417c5820637b7b80dff0da97fba0c6ae9db877/kdp-python-connector-0.62.0.tar.gz
+[2024-04-05 00:25:06] INFO root fetch - processPackages [dialog-workflow-local]: Downloading https://files.pythonhosted.org/packages/5a/80/70e28f1e18c6dd4410a5f7eb7ad30ed0ccbd3cb6f512474c537abd232f96/dialog_workflow_local-0.0.87-py3-none-any.whl
+[2024-04-05 00:25:06] INFO root fetch - processPackages [pybob-sdk]: Downloading https://files.pythonhosted.org/packages/e5/70/5dc550b8a9c5b4ab5538c7e5236cd4ca9ca871ee33d21c4d03bb717102e0/pybob_sdk-0.1.7.tar.gz
+[2024-04-05 00:25:06] INFO root fetch - processPackages [dingman-openapi-server-dev]: Downloading https://files.pythonhosted.org/packages/0a/e0/a22b71c7a082395d67c3fc0251a257b5111b3d7e421ed01a12c627b3eb56/dingman-openapi-server-dev-1.0.8.tar.gz
+[2024-04-05 00:25:06] INFO root fetch - processPackages [cpg-utils]: Downloading https://files.pythonhosted.org/packages/32/f1/d04bb9132bf324be3a758832e63ba9d716258b71bb27f888abd45dc0ceac/cpg-utils-4.9.3.tar.gz
+[2024-04-05 00:25:06] INFO root fetch - processPackages [swarms]: Downloading https://files.pythonhosted.org/packages/76/ef/4b7dafe0add0630b03f7af70a9773e098257bc8beca49d017679ac3538dd/swarms-4.7.5.tar.gz
+[2024-04-05 00:25:06] WARNING root fetch - processPackages [neon-skill-caffeinewiz]: Timeout reached during download
+[2024-04-05 00:25:06] WARNING root fetch - processPackages [dialog-workflow-local]: Timeout reached during download
+[2024-04-05 00:25:06] INFO root fetch - processPackages [dialog-workflow-local]: executing diffoscope
+[2024-04-05 00:25:06] INFO root fetch - processPackages [dialog-workflow-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dialog-workflow-local-0.0.86.tar.gz tmp/dialog_workflow_local-0.0.87-py3-none-any.whl.zip --markdown 20240405/d/dialog-workflow-local/0.0.86-0.0.87/diff.md --exclude *.pyd
+[2024-04-05 00:25:06] WARNING root fetch - processPackages [pybob-sdk]: Timeout reached during download
+[2024-04-05 00:25:06] WARNING root fetch - processPackages [kdp-python-connector]: Timeout reached during download
+[2024-04-05 00:25:06] WARNING root fetch - processPackages [dingman-openapi-server-dev]: Timeout reached during download
+[2024-04-05 00:25:06] WARNING root fetch - processPackages [cpg-utils]: Timeout reached during download
+[2024-04-05 00:25:06] WARNING root fetch - processPackages [swarms]: Timeout reached during download
+[2024-04-05 00:25:06] INFO root fetch - processPackages [swarms]: executing diffoscope
+[2024-04-05 00:25:06] INFO root fetch - processPackages [swarms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/swarms-4.7.4.tar.gz tmp/swarms-4.7.5.tar.gz --markdown 20240405/s/swarms/4.7.4-4.7.5/diff.md --exclude *.pyd
+[2024-04-05 00:25:06] INFO root fetch - processPackages [neon-skill-caffeinewiz]: Downloading https://files.pythonhosted.org/packages/4d/20/f3c266baf84fca80efa096d0b4682a29450ef2337e44b6aae643b98645d5/neon-skill-caffeinewiz-1.0.2a1.tar.gz
+[2024-04-05 00:25:06] INFO root fetch - processPackages [pybob-sdk]: Downloading https://files.pythonhosted.org/packages/79/ee/05068cf2dbdf6b96850dc5de65d7287e104737460420c5fbe1c9957c666f/pybob_sdk-0.1.8.tar.gz
+[2024-04-05 00:25:07] INFO root fetch - processPackages [kdp-python-connector]: Downloading https://files.pythonhosted.org/packages/9b/c5/a9855b57424e54fd2828b763d77c0b46e158673b7e944ac05edae65d420f/kdp-python-connector-0.63.0.tar.gz
+[2024-04-05 00:25:07] INFO root fetch - processPackages [dingman-openapi-server-dev]: Downloading https://files.pythonhosted.org/packages/e4/c2/a7a9179d9294fd9fc6405f23a2718a8df0fd29cc68a702c76645d487ab33/dingman-openapi-server-dev-1.0.9.tar.gz
+[2024-04-05 00:25:07] WARNING root fetch - processPackages [neon-skill-caffeinewiz]: Timeout reached during download
+[2024-04-05 00:25:07] INFO root fetch - processPackages [neon-skill-caffeinewiz]: executing diffoscope
+[2024-04-05 00:25:07] INFO root fetch - processPackages [neon-skill-caffeinewiz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neon-skill-caffeinewiz-1.0.1a5.tar.gz tmp/neon-skill-caffeinewiz-1.0.2a1.tar.gz --markdown 20240405/n/neon-skill-caffeinewiz/1.0.1a5-1.0.2a1/diff.md --exclude *.pyd
+[2024-04-05 00:25:07] WARNING root fetch - processPackages [pybob-sdk]: Timeout reached during download
+[2024-04-05 00:25:07] INFO root fetch - processPackages [pybob-sdk]: executing diffoscope
+[2024-04-05 00:25:07] INFO root fetch - processPackages [pybob-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pybob_sdk-0.1.7.tar.gz tmp/pybob_sdk-0.1.8.tar.gz --markdown 20240405/p/pybob-sdk/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2024-04-05 00:25:07] INFO root fetch - processPackages [cpg-utils]: Downloading https://files.pythonhosted.org/packages/96/f7/3f4ff1940fe551a1650746dfd3913d16297c1713e428cae38a7e2a193c7b/cpg-utils-4.9.4.tar.gz
+[2024-04-05 00:25:07] WARNING root fetch - processPackages [kdp-python-connector]: Timeout reached during download
+[2024-04-05 00:25:07] INFO root fetch - processPackages [kdp-python-connector]: executing diffoscope
+[2024-04-05 00:25:07] INFO root fetch - processPackages [kdp-python-connector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kdp-python-connector-0.62.0.tar.gz tmp/kdp-python-connector-0.63.0.tar.gz --markdown 20240405/k/kdp-python-connector/0.62.0-0.63.0/diff.md --exclude *.pyd
+[2024-04-05 00:25:07] WARNING root fetch - processPackages [dingman-openapi-server-dev]: Timeout reached during download
+[2024-04-05 00:25:07] INFO root fetch - processPackages [dingman-openapi-server-dev]: executing diffoscope
+[2024-04-05 00:25:07] INFO root fetch - processPackages [dingman-openapi-server-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dingman-openapi-server-dev-1.0.8.tar.gz tmp/dingman-openapi-server-dev-1.0.9.tar.gz --markdown 20240405/d/dingman-openapi-server-dev/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2024-04-05 00:25:07] WARNING root fetch - processPackages [cpg-utils]: Timeout reached during download
+[2024-04-05 00:25:07] INFO root fetch - processPackages [cpg-utils]: executing diffoscope
+[2024-04-05 00:25:07] INFO root fetch - processPackages [cpg-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cpg-utils-4.9.3.tar.gz tmp/cpg-utils-4.9.4.tar.gz --markdown 20240405/c/cpg-utils/4.9.3-4.9.4/diff.md --exclude *.pyd
+[2024-04-05 00:25:07] INFO root fetch - processPackages [dialog-workflow-local]: Remove: archive file [/home/abi/fetcher/tmp/dialog-workflow-local-0.0.86.tar.gz]
+[2024-04-05 00:25:07] INFO root fetch - processPackages [dialog-workflow-local]: Remove: archive file [/home/abi/fetcher/tmp/dialog_workflow_local-0.0.87-py3-none-any.whl.zip]
+[2024-04-05 00:25:07] INFO root fetch - main [MainThread]: End processing [dialog-workflow-local]: success
+[2024-04-05 00:25:07] INFO root fetch - processPackages [pybob-sdk]: Remove: archive file [/home/abi/fetcher/tmp/pybob_sdk-0.1.7.tar.gz]
+[2024-04-05 00:25:07] INFO root fetch - processPackages [pybob-sdk]: Remove: archive file [/home/abi/fetcher/tmp/pybob_sdk-0.1.8.tar.gz]
+[2024-04-05 00:25:07] INFO root fetch - main [MainThread]: End processing [pybob-sdk]: success
+[2024-04-05 00:25:07] INFO root fetch - processPackages [neon-skill-caffeinewiz]: Remove: archive file [/home/abi/fetcher/tmp/neon-skill-caffeinewiz-1.0.1a5.tar.gz]
+[2024-04-05 00:25:07] INFO root fetch - processPackages [neon-skill-caffeinewiz]: Remove: archive file [/home/abi/fetcher/tmp/neon-skill-caffeinewiz-1.0.2a1.tar.gz]
+[2024-04-05 00:25:07] INFO root fetch - main [MainThread]: End processing [neon-skill-caffeinewiz]: success
+[2024-04-05 00:25:07] INFO root fetch - processPackages [cpg-utils]: Remove: archive file [/home/abi/fetcher/tmp/cpg-utils-4.9.3.tar.gz]
+[2024-04-05 00:25:07] INFO root fetch - processPackages [cpg-utils]: Remove: archive file [/home/abi/fetcher/tmp/cpg-utils-4.9.4.tar.gz]
+[2024-04-05 00:25:07] INFO root fetch - main [MainThread]: End processing [cpg-utils]: success
+[2024-04-05 00:25:08] INFO root fetch - processPackages [dingman-openapi-server-dev]: Remove: archive file [/home/abi/fetcher/tmp/dingman-openapi-server-dev-1.0.8.tar.gz]
+[2024-04-05 00:25:08] INFO root fetch - processPackages [dingman-openapi-server-dev]: Remove: archive file [/home/abi/fetcher/tmp/dingman-openapi-server-dev-1.0.9.tar.gz]
+[2024-04-05 00:25:08] INFO root fetch - main [MainThread]: End processing [dingman-openapi-server-dev]: success
+[2024-04-05 00:25:08] INFO root fetch - processPackages [kdp-python-connector]: Remove: archive file [/home/abi/fetcher/tmp/kdp-python-connector-0.62.0.tar.gz]
+[2024-04-05 00:25:08] INFO root fetch - processPackages [kdp-python-connector]: Remove: archive file [/home/abi/fetcher/tmp/kdp-python-connector-0.63.0.tar.gz]
+[2024-04-05 00:25:08] INFO root fetch - main [MainThread]: End processing [kdp-python-connector]: success
+[2024-04-05 00:25:08] INFO root fetch - processPackages [swarms]: Remove: archive file [/home/abi/fetcher/tmp/swarms-4.7.4.tar.gz]
+[2024-04-05 00:25:08] INFO root fetch - processPackages [swarms]: Remove: archive file [/home/abi/fetcher/tmp/swarms-4.7.5.tar.gz]
+[2024-04-05 00:25:08] INFO root fetch - main [MainThread]: End processing [swarms]: success
+[2024-04-05 00:25:08] INFO root fetch - main [MainThread]: Store serial: [22628443]
