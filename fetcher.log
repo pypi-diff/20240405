@@ -1802,3 +1802,75 @@
 [2024-04-05 01:24:37] INFO root fetch - processPackages [imjoy-jupyterlab-extension]: Remove: archive file [/home/abi/fetcher/tmp/imjoy_jupyterlab_extension-0.2.5.tar.gz]
 [2024-04-05 01:24:37] INFO root fetch - main [MainThread]: End processing [imjoy-jupyterlab-extension]: success
 [2024-04-05 01:24:37] INFO root fetch - main [MainThread]: Store serial: [22628805]
+[2024-04-05 01:26:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22628805]
+[2024-04-05 01:26:45] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-05 01:26:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: arize-phoenix
+[2024-04-05 01:26:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: avtomat-aws
+[2024-04-05 01:26:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: exponential-backoff-ca
+[2024-04-05 01:26:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tinymm
+[2024-04-05 01:26:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: truss
+[2024-04-05 01:26:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: not1mm
+[2024-04-05 01:26:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: idasen-ha
+[2024-04-05 01:26:45] INFO root fetch - processPackages [exponential-backoff-ca]: New version: [2.1] Old Version: [2]
+[2024-04-05 01:26:45] INFO root fetch - processPackages [truss]: New version: [0.9.9rc2] Old Version: [0.9.9rc1]
+[2024-04-05 01:26:45] INFO root fetch - processPackages [not1mm]: New version: [24.4.4] Old Version: [24.4.2.1]
+[2024-04-05 01:26:45] INFO root fetch - processPackages [arize-phoenix]: New version: [3.9.0] Old Version: [3.8.0]
+[2024-04-05 01:26:45] INFO root fetch - processPackages [exponential-backoff-ca]: Downloading https://files.pythonhosted.org/packages/ca/5e/ea7bdb45b029528bf89605fa444263aab9a0725b6d14bd2601767b71f3ca/exponential_backoff_ca-2.tar.gz
+[2024-04-05 01:26:45] WARNING root fetch - processPackages [tinymm]: Skipping, unable to determine old version
+[2024-04-05 01:26:45] INFO root fetch - main [MainThread]: End processing [tinymm] error
+[2024-04-05 01:26:45] INFO root fetch - processPackages [idasen-ha]: New version: [2.5.2] Old Version: [2.5.1]
+[2024-04-05 01:26:45] INFO root fetch - processPackages [avtomat-aws]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-04-05 01:26:45] INFO root fetch - processPackages [not1mm]: Downloading https://files.pythonhosted.org/packages/fb/9c/f0adb511710e37f4e8d9964b6d0635f2fa178e81635980142d6e89970541/not1mm-24.4.2.1.tar.gz
+[2024-04-05 01:26:45] INFO root fetch - processPackages [arize-phoenix]: Downloading https://files.pythonhosted.org/packages/32/54/dd1420c784f6709327cced1d2bbed61aa40764329217758438d2eb1f4b2b/arize_phoenix-3.8.0.tar.gz
+[2024-04-05 01:26:45] INFO root fetch - processPackages [truss]: Downloading https://files.pythonhosted.org/packages/2d/ef/618d465ff644292e8368dbceb5986e5e02741c746dc835553cc229f2b9ce/truss-0.9.9rc1.tar.gz
+[2024-04-05 01:26:45] WARNING root fetch - processPackages [exponential-backoff-ca]: Timeout reached during download
+[2024-04-05 01:26:45] INFO root fetch - processPackages [exponential-backoff-ca]: Downloading https://files.pythonhosted.org/packages/3e/71/6088c7620d5ff813feedd93fda8b7ab386ad32d3a2f5d486a3c69292e24b/exponential_backoff_ca-2.1.tar.gz
+[2024-04-05 01:26:45] INFO root fetch - processPackages [idasen-ha]: Downloading https://files.pythonhosted.org/packages/61/5c/2afbc523a11ace85a40abfa597a9f29e63cc1dd90ccf4546356882bc4446/idasen-ha-2.5.1.tar.gz
+[2024-04-05 01:26:46] INFO root fetch - processPackages [avtomat-aws]: Downloading https://files.pythonhosted.org/packages/57/bf/1404fa1daa742f100120ab95fdc1891e614cc7ee3961894316e60d23d223/avtomat_aws-0.0.2.tar.gz
+[2024-04-05 01:26:46] WARNING root fetch - processPackages [truss]: Timeout reached during download
+[2024-04-05 01:26:46] WARNING root fetch - processPackages [exponential-backoff-ca]: Timeout reached during download
+[2024-04-05 01:26:46] INFO root fetch - processPackages [exponential-backoff-ca]: executing diffoscope
+[2024-04-05 01:26:46] INFO root fetch - processPackages [exponential-backoff-ca]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/exponential_backoff_ca-2.tar.gz tmp/exponential_backoff_ca-2.1.tar.gz --markdown 20240405/e/exponential-backoff-ca/2-2.1/diff.md --exclude *.pyd
+[2024-04-05 01:26:46] WARNING root fetch - processPackages [arize-phoenix]: Timeout reached during download
+[2024-04-05 01:26:46] WARNING root fetch - processPackages [idasen-ha]: Timeout reached during download
+[2024-04-05 01:26:46] WARNING root fetch - processPackages [avtomat-aws]: Timeout reached during download
+[2024-04-05 01:26:46] WARNING root fetch - processPackages [not1mm]: Timeout reached during download
+[2024-04-05 01:26:46] INFO root fetch - processPackages [arize-phoenix]: Downloading https://files.pythonhosted.org/packages/f5/d6/dd38a21fc9a3d21b359c58ab0bd8f66d4b72e734d82e17836fad3bb992dc/arize_phoenix-3.9.0.tar.gz
+[2024-04-05 01:26:46] INFO root fetch - processPackages [truss]: Downloading https://files.pythonhosted.org/packages/cc/a9/f201f8b8bce80d8d676942003e3c8fd730029a5bd8f3dab93befd15a7e26/truss-0.9.9rc2.tar.gz
+[2024-04-05 01:26:46] INFO root fetch - processPackages [not1mm]: Downloading https://files.pythonhosted.org/packages/ae/7f/d9f27be158b688fade6245338013815f31d17d8dcfcdeff36b7da6e03170/not1mm-24.4.4.tar.gz
+[2024-04-05 01:26:46] INFO root fetch - processPackages [idasen-ha]: Downloading https://files.pythonhosted.org/packages/cd/ed/b65e29561558bf01819b70d711f1054f6fb3bf154435a32e2ca51c70fe85/idasen-ha-2.5.2.tar.gz
+[2024-04-05 01:26:46] INFO root fetch - processPackages [avtomat-aws]: Downloading https://files.pythonhosted.org/packages/6a/55/79e93753fc6519670777958584fa83257181300a41400cdc3913aacbe2a1/avtomat_aws-0.0.3.tar.gz
+[2024-04-05 01:26:46] WARNING root fetch - processPackages [truss]: Timeout reached during download
+[2024-04-05 01:26:46] INFO root fetch - processPackages [truss]: executing diffoscope
+[2024-04-05 01:26:46] INFO root fetch - processPackages [truss]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/truss-0.9.9rc1.tar.gz tmp/truss-0.9.9rc2.tar.gz --markdown 20240405/t/truss/0.9.9rc1-0.9.9rc2/diff.md --exclude *.pyd
+[2024-04-05 01:26:46] WARNING root fetch - processPackages [arize-phoenix]: Timeout reached during download
+[2024-04-05 01:26:46] INFO root fetch - processPackages [arize-phoenix]: executing diffoscope
+[2024-04-05 01:26:46] INFO root fetch - processPackages [arize-phoenix]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arize_phoenix-3.8.0.tar.gz tmp/arize_phoenix-3.9.0.tar.gz --markdown 20240405/a/arize-phoenix/3.8.0-3.9.0/diff.md --exclude *.pyd
+[2024-04-05 01:26:46] WARNING root fetch - processPackages [idasen-ha]: Timeout reached during download
+[2024-04-05 01:26:46] INFO root fetch - processPackages [idasen-ha]: executing diffoscope
+[2024-04-05 01:26:46] INFO root fetch - processPackages [idasen-ha]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/idasen-ha-2.5.1.tar.gz tmp/idasen-ha-2.5.2.tar.gz --markdown 20240405/i/idasen-ha/2.5.1-2.5.2/diff.md --exclude *.pyd
+[2024-04-05 01:26:46] WARNING root fetch - processPackages [avtomat-aws]: Timeout reached during download
+[2024-04-05 01:26:46] INFO root fetch - processPackages [avtomat-aws]: executing diffoscope
+[2024-04-05 01:26:46] INFO root fetch - processPackages [avtomat-aws]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/avtomat_aws-0.0.2.tar.gz tmp/avtomat_aws-0.0.3.tar.gz --markdown 20240405/a/avtomat-aws/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2024-04-05 01:26:46] WARNING root fetch - processPackages [not1mm]: Timeout reached during download
+[2024-04-05 01:26:46] INFO root fetch - processPackages [not1mm]: executing diffoscope
+[2024-04-05 01:26:46] INFO root fetch - processPackages [not1mm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/not1mm-24.4.2.1.tar.gz tmp/not1mm-24.4.4.tar.gz --markdown 20240405/n/not1mm/24.4.2.1-24.4.4/diff.md --exclude *.pyd
+[2024-04-05 01:26:46] INFO root fetch - processPackages [exponential-backoff-ca]: Remove: archive file [/home/abi/fetcher/tmp/exponential_backoff_ca-2.tar.gz]
+[2024-04-05 01:26:46] INFO root fetch - processPackages [exponential-backoff-ca]: Remove: archive file [/home/abi/fetcher/tmp/exponential_backoff_ca-2.1.tar.gz]
+[2024-04-05 01:26:46] INFO root fetch - main [MainThread]: End processing [exponential-backoff-ca]: success
+[2024-04-05 01:26:47] INFO root fetch - processPackages [idasen-ha]: Remove: archive file [/home/abi/fetcher/tmp/idasen-ha-2.5.1.tar.gz]
+[2024-04-05 01:26:47] INFO root fetch - processPackages [idasen-ha]: Remove: archive file [/home/abi/fetcher/tmp/idasen-ha-2.5.2.tar.gz]
+[2024-04-05 01:26:47] INFO root fetch - main [MainThread]: End processing [idasen-ha]: success
+[2024-04-05 01:26:47] INFO root fetch - processPackages [avtomat-aws]: Remove: archive file [/home/abi/fetcher/tmp/avtomat_aws-0.0.2.tar.gz]
+[2024-04-05 01:26:47] INFO root fetch - processPackages [avtomat-aws]: Remove: archive file [/home/abi/fetcher/tmp/avtomat_aws-0.0.3.tar.gz]
+[2024-04-05 01:26:47] INFO root fetch - main [MainThread]: End processing [avtomat-aws]: success
+[2024-04-05 01:26:47] INFO root fetch - processPackages [truss]: Remove: archive file [/home/abi/fetcher/tmp/truss-0.9.9rc1.tar.gz]
+[2024-04-05 01:26:47] INFO root fetch - processPackages [truss]: Remove: archive file [/home/abi/fetcher/tmp/truss-0.9.9rc2.tar.gz]
+[2024-04-05 01:26:47] INFO root fetch - main [MainThread]: End processing [truss]: success
+[2024-04-05 01:26:48] INFO root fetch - processPackages [not1mm]: Remove: archive file [/home/abi/fetcher/tmp/not1mm-24.4.2.1.tar.gz]
+[2024-04-05 01:26:48] INFO root fetch - processPackages [not1mm]: Remove: archive file [/home/abi/fetcher/tmp/not1mm-24.4.4.tar.gz]
+[2024-04-05 01:26:48] INFO root fetch - main [MainThread]: End processing [not1mm]: success
+[2024-04-05 01:27:10] INFO root fetch - processPackages [arize-phoenix]: Remove: archive file [/home/abi/fetcher/tmp/arize_phoenix-3.8.0.tar.gz]
+[2024-04-05 01:27:10] INFO root fetch - processPackages [arize-phoenix]: Remove: archive file [/home/abi/fetcher/tmp/arize_phoenix-3.9.0.tar.gz]
+[2024-04-05 01:27:10] INFO root fetch - main [MainThread]: End processing [arize-phoenix]: success
+[2024-04-05 01:27:10] INFO root fetch - main [MainThread]: Store serial: [22628828]
