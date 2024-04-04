@@ -1924,3 +1924,42 @@
 [2024-04-05 01:29:23] INFO root fetch - processPackages [google-cloud-pipeline-components]: Remove: archive file [/home/abi/fetcher/tmp/google_cloud_pipeline_components-2.9.0-py3-none-any.whl.zip]
 [2024-04-05 01:29:23] INFO root fetch - main [MainThread]: End processing [google-cloud-pipeline-components]: success
 [2024-04-05 01:29:23] INFO root fetch - main [MainThread]: Store serial: [22628844]
+[2024-04-05 01:31:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22628844]
+[2024-04-05 01:31:32] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-05 01:31:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: botw-flag-util
+[2024-04-05 01:31:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: filing
+[2024-04-05 01:31:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: manga-scrape
+[2024-04-05 01:31:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cartesify-backend
+[2024-04-05 01:31:32] INFO root fetch - processPackages [cartesify-backend]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-05 01:31:32] INFO root fetch - processPackages [manga-scrape]: New version: [4.9.0] Old Version: [4.8.0]
+[2024-04-05 01:31:33] WARNING root fetch - processPackages [filing]: Skipping, unable to determine old version
+[2024-04-05 01:31:33] INFO root fetch - main [MainThread]: End processing [filing] error
+[2024-04-05 01:31:33] INFO root fetch - processPackages [cartesify-backend]: Downloading https://files.pythonhosted.org/packages/8d/66/8ba7d886e1f2e507b220841f3d5f9a8a14aa25b06d8aad875257555719e3/cartesify_backend-0.0.8.tar.gz
+[2024-04-05 01:31:33] INFO root fetch - processPackages [botw-flag-util]: New version: [0.3.6] Old Version: [0.3.5]
+[2024-04-05 01:31:33] INFO root fetch - processPackages [manga-scrape]: Downloading https://files.pythonhosted.org/packages/bd/f8/0b1c4e019f16b186ed6cc5e5d90e416c4c610bdffb21fae5a0c787b18513/manga_scrape-4.8.0.tar.gz
+[2024-04-05 01:31:33] WARNING root fetch - processPackages [cartesify-backend]: Timeout reached during download
+[2024-04-05 01:31:33] WARNING root fetch - processPackages [manga-scrape]: Timeout reached during download
+[2024-04-05 01:31:33] INFO root fetch - processPackages [botw-flag-util]: Downloading https://files.pythonhosted.org/packages/6c/13/b62aa1d5991aa522a70d189cf1bd7bf8cb0204300f17c59e3262d67f87d8/botw_flag_util-0.3.5.tar.gz
+[2024-04-05 01:31:33] INFO root fetch - processPackages [cartesify-backend]: Downloading https://files.pythonhosted.org/packages/d6/92/3a1ee788fa672cfa95a4e1ec9713ec76ef023911989a189d6709beb81dde/cartesify_backend-0.0.9.tar.gz
+[2024-04-05 01:31:33] INFO root fetch - processPackages [manga-scrape]: Downloading https://files.pythonhosted.org/packages/2b/c5/ce06b355f4b6a9087524a466a76eb5a124e0fe06d2a3d0326e3693d1f160/manga_scrape-4.9.0.tar.gz
+[2024-04-05 01:31:33] WARNING root fetch - processPackages [manga-scrape]: Timeout reached during download
+[2024-04-05 01:31:33] INFO root fetch - processPackages [manga-scrape]: executing diffoscope
+[2024-04-05 01:31:33] INFO root fetch - processPackages [manga-scrape]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/manga_scrape-4.8.0.tar.gz tmp/manga_scrape-4.9.0.tar.gz --markdown 20240405/m/manga-scrape/4.8.0-4.9.0/diff.md --exclude *.pyd
+[2024-04-05 01:31:33] WARNING root fetch - processPackages [botw-flag-util]: Timeout reached during download
+[2024-04-05 01:31:33] WARNING root fetch - processPackages [cartesify-backend]: Timeout reached during download
+[2024-04-05 01:31:33] INFO root fetch - processPackages [cartesify-backend]: executing diffoscope
+[2024-04-05 01:31:33] INFO root fetch - processPackages [cartesify-backend]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cartesify_backend-0.0.8.tar.gz tmp/cartesify_backend-0.0.9.tar.gz --markdown 20240405/c/cartesify-backend/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2024-04-05 01:31:33] INFO root fetch - processPackages [botw-flag-util]: Downloading https://files.pythonhosted.org/packages/a2/6e/87e4d174f1017f77a39fcab10dd03f5137a1010b2ed2ed2ba0aaf65e6ece/botw_flag_util-0.3.6.tar.gz
+[2024-04-05 01:31:33] WARNING root fetch - processPackages [botw-flag-util]: Timeout reached during download
+[2024-04-05 01:31:33] INFO root fetch - processPackages [botw-flag-util]: executing diffoscope
+[2024-04-05 01:31:33] INFO root fetch - processPackages [botw-flag-util]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/botw_flag_util-0.3.5.tar.gz tmp/botw_flag_util-0.3.6.tar.gz --markdown 20240405/b/botw-flag-util/0.3.5-0.3.6/diff.md --exclude *.pyd
+[2024-04-05 01:31:34] INFO root fetch - processPackages [manga-scrape]: Remove: archive file [/home/abi/fetcher/tmp/manga_scrape-4.8.0.tar.gz]
+[2024-04-05 01:31:34] INFO root fetch - processPackages [manga-scrape]: Remove: archive file [/home/abi/fetcher/tmp/manga_scrape-4.9.0.tar.gz]
+[2024-04-05 01:31:34] INFO root fetch - main [MainThread]: End processing [manga-scrape]: success
+[2024-04-05 01:31:34] INFO root fetch - processPackages [cartesify-backend]: Remove: archive file [/home/abi/fetcher/tmp/cartesify_backend-0.0.8.tar.gz]
+[2024-04-05 01:31:34] INFO root fetch - processPackages [cartesify-backend]: Remove: archive file [/home/abi/fetcher/tmp/cartesify_backend-0.0.9.tar.gz]
+[2024-04-05 01:31:34] INFO root fetch - main [MainThread]: End processing [cartesify-backend]: success
+[2024-04-05 01:31:34] INFO root fetch - processPackages [botw-flag-util]: Remove: archive file [/home/abi/fetcher/tmp/botw_flag_util-0.3.5.tar.gz]
+[2024-04-05 01:31:34] INFO root fetch - processPackages [botw-flag-util]: Remove: archive file [/home/abi/fetcher/tmp/botw_flag_util-0.3.6.tar.gz]
+[2024-04-05 01:31:34] INFO root fetch - main [MainThread]: End processing [botw-flag-util]: success
+[2024-04-05 01:31:34] INFO root fetch - main [MainThread]: Store serial: [22628860]
