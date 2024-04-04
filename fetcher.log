@@ -768,3 +768,94 @@
 [2024-04-05 00:29:30] INFO root fetch - processPackages [kkappkit]: Remove: archive file [/home/abi/fetcher/tmp/kkappkit-0.9.1.tar.gz]
 [2024-04-05 00:29:30] INFO root fetch - main [MainThread]: End processing [kkappkit]: success
 [2024-04-05 00:29:30] INFO root fetch - main [MainThread]: Store serial: [22628458]
+[2024-04-05 00:31:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22628458]
+[2024-04-05 00:31:39] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-05 00:31:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: graymatter_swissknife
+[2024-04-05 00:31:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: jupyter-ai
+[2024-04-05 00:31:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: jupyter-ai-magics
+[2024-04-05 00:31:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: meerkatio
+[2024-04-05 00:31:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cartesify-backend
+[2024-04-05 00:31:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: druida
+[2024-04-05 00:31:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: dank-mids
+[2024-04-05 00:31:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: seidart
+[2024-04-05 00:31:39] INFO root fetch - processPackages [cartesify-backend]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-05 00:31:39] INFO root fetch - processPackages [druida]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-05 00:31:39] INFO root fetch - processPackages [druida]: Downloading https://files.pythonhosted.org/packages/54/4a/598451ade8bde7f369deba69feb62cde24693585acb81aed1eb62547c114/druida-0.0.8.tar.gz
+[2024-04-05 00:31:39] INFO root fetch - processPackages [jupyter-ai-magics]: New version: [2.9.1] Old Version: [2.9.0]
+[2024-04-05 00:31:39] INFO root fetch - processPackages [cartesify-backend]: Downloading https://files.pythonhosted.org/packages/8d/66/8ba7d886e1f2e507b220841f3d5f9a8a14aa25b06d8aad875257555719e3/cartesify_backend-0.0.8.tar.gz
+[2024-04-05 00:31:39] INFO root fetch - processPackages [dank-mids]: New version: [4.20.9] Old Version: [4.20.84]
+[2024-04-05 00:31:39] INFO root fetch - processPackages [graymatter_swissknife]: New version: [1.1.0] Old Version: [1.0.2]
+[2024-04-05 00:31:39] INFO root fetch - processPackages [meerkatio]: New version: [1.9] Old Version: [1.8]
+[2024-04-05 00:31:39] INFO root fetch - processPackages [jupyter-ai]: New version: [2.9.1] Old Version: [2.9.0]
+[2024-04-05 00:31:39] INFO root fetch - processPackages [seidart]: New version: [0.0.9] Old Version: [0.0.19]
+[2024-04-05 00:31:39] WARNING root fetch - processPackages [cartesify-backend]: Timeout reached during download
+[2024-04-05 00:31:39] WARNING root fetch - processPackages [druida]: Timeout reached during download
+[2024-04-05 00:31:39] INFO root fetch - processPackages [jupyter-ai-magics]: Downloading https://files.pythonhosted.org/packages/5c/82/b9fec8e8bd26f144f73e0ea913306dad065a83c874392cd805e42314c96b/jupyter_ai_magics-2.9.0.tar.gz
+[2024-04-05 00:31:39] INFO root fetch - processPackages [dank-mids]: Downloading https://files.pythonhosted.org/packages/36/77/285287bdf97151568fc04f96cc27af5bad6fda376233d2a1d4cac2c64e81/dank_mids-4.20.84.tar.gz
+[2024-04-05 00:31:39] INFO root fetch - processPackages [graymatter_swissknife]: Downloading https://files.pythonhosted.org/packages/ec/49/11084735635616f543d1378ef577de25fe6c09f66db74088608735cc145b/graymatter_swissknife-1.0.2.tar.gz
+[2024-04-05 00:31:39] INFO root fetch - processPackages [jupyter-ai]: Downloading https://files.pythonhosted.org/packages/37/82/310f93972ebcfed1716a151e1517e7a2d0448e677a2f5f0b18ab72578264/jupyter_ai-2.9.0.tar.gz
+[2024-04-05 00:31:39] INFO root fetch - processPackages [meerkatio]: Downloading https://files.pythonhosted.org/packages/e5/fd/261dc958ee6d8a3e53b051c78ad8edcf248e7d4658a3e2c110f3ffe869e3/meerkatio-1.8.tar.gz
+[2024-04-05 00:31:39] INFO root fetch - processPackages [cartesify-backend]: Downloading https://files.pythonhosted.org/packages/d6/92/3a1ee788fa672cfa95a4e1ec9713ec76ef023911989a189d6709beb81dde/cartesify_backend-0.0.9.tar.gz
+[2024-04-05 00:31:39] INFO root fetch - processPackages [druida]: Downloading https://files.pythonhosted.org/packages/c2/fc/04f7092cb544ce2c35e3be2dd5ff20bee19fcc5ba5378898e0f03e15b8a9/druida-0.0.9.tar.gz
+[2024-04-05 00:31:39] INFO root fetch - processPackages [seidart]: Downloading https://files.pythonhosted.org/packages/a8/76/417374988a1040569af831a259084d62bb9a5ff6d2908492a9324e85361a/seidart-0.0.19-cp311-cp311-manylinux_2_17_i686.manylinux2014_i686.whl
+[2024-04-05 00:31:39] WARNING root fetch - processPackages [jupyter-ai-magics]: Timeout reached during download
+[2024-04-05 00:31:39] WARNING root fetch - processPackages [meerkatio]: Timeout reached during download
+[2024-04-05 00:31:39] WARNING root fetch - processPackages [cartesify-backend]: Timeout reached during download
+[2024-04-05 00:31:39] INFO root fetch - processPackages [cartesify-backend]: executing diffoscope
+[2024-04-05 00:31:39] INFO root fetch - processPackages [cartesify-backend]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cartesify_backend-0.0.8.tar.gz tmp/cartesify_backend-0.0.9.tar.gz --markdown 20240405/c/cartesify-backend/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2024-04-05 00:31:39] WARNING root fetch - processPackages [dank-mids]: Timeout reached during download
+[2024-04-05 00:31:39] WARNING root fetch - processPackages [druida]: Timeout reached during download
+[2024-04-05 00:31:39] INFO root fetch - processPackages [druida]: executing diffoscope
+[2024-04-05 00:31:39] INFO root fetch - processPackages [druida]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/druida-0.0.8.tar.gz tmp/druida-0.0.9.tar.gz --markdown 20240405/d/druida/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2024-04-05 00:31:39] WARNING root fetch - processPackages [graymatter_swissknife]: Timeout reached during download
+[2024-04-05 00:31:39] INFO root fetch - processPackages [jupyter-ai-magics]: Downloading https://files.pythonhosted.org/packages/92/e2/cff5a094dc2175fc664fe31c75325663f93e19ab059ec133fb99c706ec40/jupyter_ai_magics-2.9.1.tar.gz
+[2024-04-05 00:31:39] INFO root fetch - processPackages [meerkatio]: Downloading https://files.pythonhosted.org/packages/02/4a/5748f5d36887df5b8fec7273a9e74215ee90bb6fca85518af3e2eef28f76/meerkatio-1.9.tar.gz
+[2024-04-05 00:31:39] INFO root fetch - processPackages [dank-mids]: Downloading https://files.pythonhosted.org/packages/e9/d0/a0c6c8d2d154a0250f47b30968e60098b0d44d3b35571e97a925b9b3984f/dank_mids-4.20.9.tar.gz
+[2024-04-05 00:31:39] INFO root fetch - processPackages [graymatter_swissknife]: Downloading https://files.pythonhosted.org/packages/44/fc/0f81dc8b4209f0d5be6f8a98638fad8756729c25a69e38594a553b189813/graymatter_swissknife-1.1.0.tar.gz
+[2024-04-05 00:31:39] WARNING root fetch - processPackages [jupyter-ai-magics]: Timeout reached during download
+[2024-04-05 00:31:39] INFO root fetch - processPackages [jupyter-ai-magics]: executing diffoscope
+[2024-04-05 00:31:39] INFO root fetch - processPackages [jupyter-ai-magics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jupyter_ai_magics-2.9.0.tar.gz tmp/jupyter_ai_magics-2.9.1.tar.gz --markdown 20240405/j/jupyter-ai-magics/2.9.0-2.9.1/diff.md --exclude *.pyd
+[2024-04-05 00:31:40] WARNING root fetch - processPackages [meerkatio]: Timeout reached during download
+[2024-04-05 00:31:40] INFO root fetch - processPackages [meerkatio]: executing diffoscope
+[2024-04-05 00:31:40] INFO root fetch - processPackages [meerkatio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/meerkatio-1.8.tar.gz tmp/meerkatio-1.9.tar.gz --markdown 20240405/m/meerkatio/1.8-1.9/diff.md --exclude *.pyd
+[2024-04-05 00:31:40] WARNING root fetch - processPackages [dank-mids]: Timeout reached during download
+[2024-04-05 00:31:40] INFO root fetch - processPackages [dank-mids]: executing diffoscope
+[2024-04-05 00:31:40] INFO root fetch - processPackages [dank-mids]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dank_mids-4.20.84.tar.gz tmp/dank_mids-4.20.9.tar.gz --markdown 20240405/d/dank-mids/4.20.84-4.20.9/diff.md --exclude *.pyd
+[2024-04-05 00:31:40] WARNING root fetch - processPackages [graymatter_swissknife]: Timeout reached during download
+[2024-04-05 00:31:40] INFO root fetch - processPackages [graymatter_swissknife]: executing diffoscope
+[2024-04-05 00:31:40] INFO root fetch - processPackages [graymatter_swissknife]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/graymatter_swissknife-1.0.2.tar.gz tmp/graymatter_swissknife-1.1.0.tar.gz --markdown 20240405/g/graymatter_swissknife/1.0.2-1.1.0/diff.md --exclude *.pyd
+[2024-04-05 00:31:40] WARNING root fetch - processPackages [jupyter-ai]: Timeout reached during download
+[2024-04-05 00:31:40] INFO root fetch - processPackages [cartesify-backend]: Remove: archive file [/home/abi/fetcher/tmp/cartesify_backend-0.0.8.tar.gz]
+[2024-04-05 00:31:40] INFO root fetch - processPackages [cartesify-backend]: Remove: archive file [/home/abi/fetcher/tmp/cartesify_backend-0.0.9.tar.gz]
+[2024-04-05 00:31:40] INFO root fetch - main [MainThread]: End processing [cartesify-backend]: success
+[2024-04-05 00:31:40] INFO root fetch - processPackages [jupyter-ai]: Downloading https://files.pythonhosted.org/packages/f3/e8/d74488780293d9f34a193447c002a290122ea69a64176d351e2a3f36e1b6/jupyter_ai-2.9.1.tar.gz
+[2024-04-05 00:31:40] INFO root fetch - processPackages [druida]: Remove: archive file [/home/abi/fetcher/tmp/druida-0.0.8.tar.gz]
+[2024-04-05 00:31:40] INFO root fetch - processPackages [druida]: Remove: archive file [/home/abi/fetcher/tmp/druida-0.0.9.tar.gz]
+[2024-04-05 00:31:40] INFO root fetch - main [MainThread]: End processing [druida]: success
+[2024-04-05 00:31:40] INFO root fetch - processPackages [meerkatio]: Remove: archive file [/home/abi/fetcher/tmp/meerkatio-1.8.tar.gz]
+[2024-04-05 00:31:40] INFO root fetch - processPackages [meerkatio]: Remove: archive file [/home/abi/fetcher/tmp/meerkatio-1.9.tar.gz]
+[2024-04-05 00:31:40] INFO root fetch - main [MainThread]: End processing [meerkatio]: success
+[2024-04-05 00:31:40] INFO root fetch - processPackages [jupyter-ai-magics]: Remove: archive file [/home/abi/fetcher/tmp/jupyter_ai_magics-2.9.0.tar.gz]
+[2024-04-05 00:31:40] INFO root fetch - processPackages [jupyter-ai-magics]: Remove: archive file [/home/abi/fetcher/tmp/jupyter_ai_magics-2.9.1.tar.gz]
+[2024-04-05 00:31:40] INFO root fetch - main [MainThread]: End processing [jupyter-ai-magics]: success
+[2024-04-05 00:31:40] INFO root fetch - processPackages [dank-mids]: Remove: archive file [/home/abi/fetcher/tmp/dank_mids-4.20.84.tar.gz]
+[2024-04-05 00:31:40] INFO root fetch - processPackages [dank-mids]: Remove: archive file [/home/abi/fetcher/tmp/dank_mids-4.20.9.tar.gz]
+[2024-04-05 00:31:40] INFO root fetch - main [MainThread]: End processing [dank-mids]: success
+[2024-04-05 00:31:40] WARNING root fetch - processPackages [seidart]: Timeout reached during download
+[2024-04-05 00:31:41] INFO root fetch - processPackages [graymatter_swissknife]: Remove: archive file [/home/abi/fetcher/tmp/graymatter_swissknife-1.0.2.tar.gz]
+[2024-04-05 00:31:41] INFO root fetch - processPackages [graymatter_swissknife]: Remove: archive file [/home/abi/fetcher/tmp/graymatter_swissknife-1.1.0.tar.gz]
+[2024-04-05 00:31:41] INFO root fetch - main [MainThread]: End processing [graymatter_swissknife]: success
+[2024-04-05 00:31:41] INFO root fetch - processPackages [seidart]: Downloading https://files.pythonhosted.org/packages/11/ff/d5e0f2a44a731aecb77e12ddc51bd89f9f0733eb8f08ba131b387ec3e649/seidart-0.0.9-cp311-cp311-manylinux_2_24_x86_64.whl
+[2024-04-05 00:31:41] WARNING root fetch - processPackages [jupyter-ai]: Timeout reached during download
+[2024-04-05 00:31:41] INFO root fetch - processPackages [jupyter-ai]: executing diffoscope
+[2024-04-05 00:31:41] INFO root fetch - processPackages [jupyter-ai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jupyter_ai-2.9.0.tar.gz tmp/jupyter_ai-2.9.1.tar.gz --markdown 20240405/j/jupyter-ai/2.9.0-2.9.1/diff.md --exclude *.pyd
+[2024-04-05 00:31:41] WARNING root fetch - processPackages [seidart]: Timeout reached during download
+[2024-04-05 00:31:41] INFO root fetch - processPackages [seidart]: executing diffoscope
+[2024-04-05 00:31:41] INFO root fetch - processPackages [seidart]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seidart-0.0.19-cp311-cp311-manylinux_2_17_i686.manylinux2014_i686.whl.zip tmp/seidart-0.0.9-cp311-cp311-manylinux_2_24_x86_64.whl.zip --markdown 20240405/s/seidart/0.0.19-0.0.9/diff.md --exclude *.pyd
+[2024-04-05 00:31:42] INFO root fetch - processPackages [seidart]: Remove: archive file [/home/abi/fetcher/tmp/seidart-0.0.19-cp311-cp311-manylinux_2_17_i686.manylinux2014_i686.whl.zip]
+[2024-04-05 00:31:42] INFO root fetch - processPackages [seidart]: Remove: archive file [/home/abi/fetcher/tmp/seidart-0.0.9-cp311-cp311-manylinux_2_24_x86_64.whl.zip]
+[2024-04-05 00:31:42] INFO root fetch - main [MainThread]: End processing [seidart]: success
+[2024-04-05 00:31:42] INFO root fetch - processPackages [jupyter-ai]: Remove: archive file [/home/abi/fetcher/tmp/jupyter_ai-2.9.0.tar.gz]
+[2024-04-05 00:31:42] INFO root fetch - processPackages [jupyter-ai]: Remove: archive file [/home/abi/fetcher/tmp/jupyter_ai-2.9.1.tar.gz]
+[2024-04-05 00:31:42] INFO root fetch - main [MainThread]: End processing [jupyter-ai]: success
+[2024-04-05 00:31:42] INFO root fetch - main [MainThread]: Store serial: [22628482]
