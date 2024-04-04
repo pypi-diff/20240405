@@ -45,3 +45,48 @@
 [2024-04-05 00:01:03] INFO root fetch - processPackages [qcs-api-client]: Remove: archive file [/home/abi/fetcher/tmp/qcs-api-client-0.9.0.tar.gz]
 [2024-04-05 00:01:03] INFO root fetch - main [MainThread]: End processing [qcs-api-client]: success
 [2024-04-05 00:01:03] INFO root fetch - main [MainThread]: Store serial: [22628159]
+[2024-04-05 00:03:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22628159]
+[2024-04-05 00:03:11] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-05 00:03:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: execdata
+[2024-04-05 00:03:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: twittter
+[2024-04-05 00:03:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: frid
+[2024-04-05 00:03:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyrtz2
+[2024-04-05 00:03:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: trame-client
+[2024-04-05 00:03:11] INFO root fetch - processPackages [execdata]: New version: [5.2.4] Old Version: [5.2.3]
+[2024-04-05 00:03:11] INFO root fetch - processPackages [pyrtz2]: New version: [1.1.6] Old Version: [1.1.0]
+[2024-04-05 00:03:11] WARNING root fetch - processPackages [twittter]: Skipping, unable to determine old version
+[2024-04-05 00:03:11] INFO root fetch - processPackages [pyrtz2]: Downloading https://files.pythonhosted.org/packages/4b/9b/d7c5583d3bc55cf464bfe1403b660bb8b7e3dbfc6ac9c55b0f2518ceaee2/pyrtz2-1.1.0.tar.gz
+[2024-04-05 00:03:11] INFO root fetch - main [MainThread]: End processing [twittter] error
+[2024-04-05 00:03:11] INFO root fetch - processPackages [frid]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-04-05 00:03:11] INFO root fetch - processPackages [execdata]: Downloading https://files.pythonhosted.org/packages/f1/30/500ca8d41ac699238a3a4710062808d608b0a0aca7eccf98be899745070e/execdata-5.2.3.tar.gz
+[2024-04-05 00:03:11] INFO root fetch - processPackages [trame-client]: New version: [2.9.4] Old Version: [2.9.3]
+[2024-04-05 00:03:11] WARNING root fetch - processPackages [execdata]: Timeout reached during download
+[2024-04-05 00:03:11] WARNING root fetch - processPackages [pyrtz2]: Timeout reached during download
+[2024-04-05 00:03:11] INFO root fetch - processPackages [frid]: Downloading https://files.pythonhosted.org/packages/07/8b/43bc71df13c86cb2f95afdda049fce0c53c85330354013ffe0256d970925/frid-0.0.3.tar.gz
+[2024-04-05 00:03:11] INFO root fetch - processPackages [execdata]: Downloading https://files.pythonhosted.org/packages/86/8f/992db8decf3f772cad67e12ca2c0a13993a7f5420111285cc41e892ec0c3/execdata-5.2.4.tar.gz
+[2024-04-05 00:03:11] INFO root fetch - processPackages [trame-client]: Downloading https://files.pythonhosted.org/packages/7e/b0/65261df5d918cf1ae3ad6f3076476975a4d28df85ebd345434471d54f108/trame-client-2.9.3.tar.gz
+[2024-04-05 00:03:11] ERROR root fetch - processPackages [pyrtz2]: Unable to fetch info: No such project/version 'pyrtz2' 1.1.6
+[2024-04-05 00:03:11] INFO root fetch - main [MainThread]: End processing [pyrtz2] error
+[2024-04-05 00:03:11] WARNING root fetch - processPackages [frid]: Timeout reached during download
+[2024-04-05 00:03:11] WARNING root fetch - processPackages [execdata]: Timeout reached during download
+[2024-04-05 00:03:11] INFO root fetch - processPackages [execdata]: executing diffoscope
+[2024-04-05 00:03:11] INFO root fetch - processPackages [execdata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/execdata-5.2.3.tar.gz tmp/execdata-5.2.4.tar.gz --markdown 20240405/e/execdata/5.2.3-5.2.4/diff.md --exclude *.pyd
+[2024-04-05 00:03:12] INFO root fetch - processPackages [frid]: Downloading https://files.pythonhosted.org/packages/7e/28/c88374b9000ef483300f0d86a87f65586d3a037d28be40ff729435325870/frid-0.0.4.tar.gz
+[2024-04-05 00:03:12] WARNING root fetch - processPackages [frid]: Timeout reached during download
+[2024-04-05 00:03:12] INFO root fetch - processPackages [frid]: executing diffoscope
+[2024-04-05 00:03:12] INFO root fetch - processPackages [frid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/frid-0.0.3.tar.gz tmp/frid-0.0.4.tar.gz --markdown 20240405/f/frid/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2024-04-05 00:03:12] WARNING root fetch - processPackages [trame-client]: Timeout reached during download
+[2024-04-05 00:03:12] INFO root fetch - processPackages [trame-client]: Downloading https://files.pythonhosted.org/packages/55/2a/686108adb0902cd2753e174fd6829d315ea9d3135fdc89b3561ebd81aeec/trame-client-2.9.4.tar.gz
+[2024-04-05 00:03:12] WARNING root fetch - processPackages [trame-client]: Timeout reached during download
+[2024-04-05 00:03:12] INFO root fetch - processPackages [trame-client]: executing diffoscope
+[2024-04-05 00:03:12] INFO root fetch - processPackages [trame-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trame-client-2.9.3.tar.gz tmp/trame-client-2.9.4.tar.gz --markdown 20240405/t/trame-client/2.9.3-2.9.4/diff.md --exclude *.pyd
+[2024-04-05 00:03:12] INFO root fetch - processPackages [execdata]: Remove: archive file [/home/abi/fetcher/tmp/execdata-5.2.3.tar.gz]
+[2024-04-05 00:03:12] INFO root fetch - processPackages [execdata]: Remove: archive file [/home/abi/fetcher/tmp/execdata-5.2.4.tar.gz]
+[2024-04-05 00:03:12] INFO root fetch - main [MainThread]: End processing [execdata]: success
+[2024-04-05 00:03:12] INFO root fetch - processPackages [frid]: Remove: archive file [/home/abi/fetcher/tmp/frid-0.0.3.tar.gz]
+[2024-04-05 00:03:12] INFO root fetch - processPackages [frid]: Remove: archive file [/home/abi/fetcher/tmp/frid-0.0.4.tar.gz]
+[2024-04-05 00:03:12] INFO root fetch - main [MainThread]: End processing [frid]: success
+[2024-04-05 00:03:13] INFO root fetch - processPackages [trame-client]: Remove: archive file [/home/abi/fetcher/tmp/trame-client-2.9.3.tar.gz]
+[2024-04-05 00:03:13] INFO root fetch - processPackages [trame-client]: Remove: archive file [/home/abi/fetcher/tmp/trame-client-2.9.4.tar.gz]
+[2024-04-05 00:03:13] INFO root fetch - main [MainThread]: End processing [trame-client]: success
+[2024-04-05 00:03:13] INFO root fetch - main [MainThread]: Store serial: [22628177]
