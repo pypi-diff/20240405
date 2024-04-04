@@ -987,3 +987,28 @@
 [2024-04-05 00:42:32] INFO root fetch - processPackages [dg-face-tracking]: Remove: archive file [/home/abi/fetcher/tmp/dg_face_tracking-0.0.9-py3-none-any.whl.zip]
 [2024-04-05 00:42:32] INFO root fetch - main [MainThread]: End processing [dg-face-tracking]: success
 [2024-04-05 00:42:32] INFO root fetch - main [MainThread]: Store serial: [22628567]
+[2024-04-05 00:44:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22628567]
+[2024-04-05 00:44:41] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-05 00:44:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pybob-sdk
+[2024-04-05 00:44:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: squirrels
+[2024-04-05 00:44:41] INFO root fetch - processPackages [pybob-sdk]: New version: [0.1.8] Old Version: [0.1.7]
+[2024-04-05 00:44:41] INFO root fetch - processPackages [pybob-sdk]: Downloading https://files.pythonhosted.org/packages/e5/70/5dc550b8a9c5b4ab5538c7e5236cd4ca9ca871ee33d21c4d03bb717102e0/pybob_sdk-0.1.7.tar.gz
+[2024-04-05 00:44:41] INFO root fetch - processPackages [squirrels]: New version: [0.2.2] Old Version: [0.2.1]
+[2024-04-05 00:44:41] WARNING root fetch - processPackages [pybob-sdk]: Timeout reached during download
+[2024-04-05 00:44:41] INFO root fetch - processPackages [squirrels]: Downloading https://files.pythonhosted.org/packages/38/e2/1a54b7d1fb713e4c33c015c56814cf29785053f5e0eff9b81d815d00b2ef/squirrels-0.2.1.tar.gz
+[2024-04-05 00:44:41] INFO root fetch - processPackages [pybob-sdk]: Downloading https://files.pythonhosted.org/packages/79/ee/05068cf2dbdf6b96850dc5de65d7287e104737460420c5fbe1c9957c666f/pybob_sdk-0.1.8.tar.gz
+[2024-04-05 00:44:41] WARNING root fetch - processPackages [pybob-sdk]: Timeout reached during download
+[2024-04-05 00:44:41] INFO root fetch - processPackages [pybob-sdk]: executing diffoscope
+[2024-04-05 00:44:41] INFO root fetch - processPackages [pybob-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pybob_sdk-0.1.7.tar.gz tmp/pybob_sdk-0.1.8.tar.gz --markdown 20240405/p/pybob-sdk/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2024-04-05 00:44:42] WARNING root fetch - processPackages [squirrels]: Timeout reached during download
+[2024-04-05 00:44:42] INFO root fetch - processPackages [squirrels]: Downloading https://files.pythonhosted.org/packages/d3/9e/a6975bb4374e800c6eb140b1f01daba7949c887a84ba559978d4cdadd433/squirrels-0.2.2.tar.gz
+[2024-04-05 00:44:42] WARNING root fetch - processPackages [squirrels]: Timeout reached during download
+[2024-04-05 00:44:42] INFO root fetch - processPackages [squirrels]: executing diffoscope
+[2024-04-05 00:44:42] INFO root fetch - processPackages [squirrels]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/squirrels-0.2.1.tar.gz tmp/squirrels-0.2.2.tar.gz --markdown 20240405/s/squirrels/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2024-04-05 00:44:42] INFO root fetch - processPackages [pybob-sdk]: Remove: archive file [/home/abi/fetcher/tmp/pybob_sdk-0.1.7.tar.gz]
+[2024-04-05 00:44:42] INFO root fetch - processPackages [pybob-sdk]: Remove: archive file [/home/abi/fetcher/tmp/pybob_sdk-0.1.8.tar.gz]
+[2024-04-05 00:44:42] INFO root fetch - main [MainThread]: End processing [pybob-sdk]: success
+[2024-04-05 00:44:43] INFO root fetch - processPackages [squirrels]: Remove: archive file [/home/abi/fetcher/tmp/squirrels-0.2.1.tar.gz]
+[2024-04-05 00:44:43] INFO root fetch - processPackages [squirrels]: Remove: archive file [/home/abi/fetcher/tmp/squirrels-0.2.2.tar.gz]
+[2024-04-05 00:44:43] INFO root fetch - main [MainThread]: End processing [squirrels]: success
+[2024-04-05 00:44:43] INFO root fetch - main [MainThread]: Store serial: [22628573]
