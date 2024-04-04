@@ -2031,3 +2031,60 @@
 [2024-04-05 01:36:00] INFO root fetch - processPackages [yt-dlp]: Remove: archive file [/home/abi/fetcher/tmp/yt_dlp-2024.4.3.233315.dev0.tar.gz]
 [2024-04-05 01:36:00] INFO root fetch - main [MainThread]: End processing [yt-dlp]: success
 [2024-04-05 01:36:00] INFO root fetch - main [MainThread]: Store serial: [22628891]
+[2024-04-05 01:38:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22628891]
+[2024-04-05 01:38:09] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-05 01:38:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cartesify-backend
+[2024-04-05 01:38:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyTMD
+[2024-04-05 01:38:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: gdsfactory
+[2024-04-05 01:38:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: xgt
+[2024-04-05 01:38:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyinaturalist-convert
+[2024-04-05 01:38:09] INFO root fetch - processPackages [cartesify-backend]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-05 01:38:09] INFO root fetch - processPackages [cartesify-backend]: Downloading https://files.pythonhosted.org/packages/8d/66/8ba7d886e1f2e507b220841f3d5f9a8a14aa25b06d8aad875257555719e3/cartesify_backend-0.0.8.tar.gz
+[2024-04-05 01:38:09] INFO root fetch - processPackages [xgt]: New version: [1.9.0] Old Version: [1.8.0]
+[2024-04-05 01:38:09] INFO root fetch - processPackages [pyinaturalist-convert]: New version: [0.6.3] Old Version: [0.6.2]
+[2024-04-05 01:38:09] INFO root fetch - processPackages [pyTMD]: New version: [2.1.1] Old Version: [2.1.0]
+[2024-04-05 01:38:09] INFO root fetch - processPackages [gdsfactory]: New version: [7.9.4] Old Version: [7.9.3]
+[2024-04-05 01:38:10] WARNING root fetch - processPackages [cartesify-backend]: Timeout reached during download
+[2024-04-05 01:38:10] INFO root fetch - processPackages [cartesify-backend]: Downloading https://files.pythonhosted.org/packages/d6/92/3a1ee788fa672cfa95a4e1ec9713ec76ef023911989a189d6709beb81dde/cartesify_backend-0.0.9.tar.gz
+[2024-04-05 01:38:10] INFO root fetch - processPackages [pyTMD]: Downloading https://files.pythonhosted.org/packages/3d/d3/36ef5618ca3bbec75a96d889889f92803162fd480e554cbebd43765581e6/pyTMD-2.1.0.tar.gz
+[2024-04-05 01:38:10] INFO root fetch - processPackages [xgt]: Downloading https://files.pythonhosted.org/packages/2c/df/2fc18eb5e7f103b270ca2977f0e7121aff3da5013e5e785093bf51cd3b06/xgt-1.8.0.tar.gz
+[2024-04-05 01:38:10] INFO root fetch - processPackages [gdsfactory]: Downloading https://files.pythonhosted.org/packages/1c/96/7a29503ca823dbf6601482ccaa06c4ed69751cfe757c588af2d42d0144a1/gdsfactory-7.9.3.tar.gz
+[2024-04-05 01:38:10] INFO root fetch - processPackages [pyinaturalist-convert]: Downloading https://files.pythonhosted.org/packages/10/48/cbc025fa919decdea25dcba8810a6f2c65b259371549e6d1e62ff03f439a/pyinaturalist_convert-0.6.2.tar.gz
+[2024-04-05 01:38:10] WARNING root fetch - processPackages [cartesify-backend]: Timeout reached during download
+[2024-04-05 01:38:10] INFO root fetch - processPackages [cartesify-backend]: executing diffoscope
+[2024-04-05 01:38:10] INFO root fetch - processPackages [cartesify-backend]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cartesify_backend-0.0.8.tar.gz tmp/cartesify_backend-0.0.9.tar.gz --markdown 20240405/c/cartesify-backend/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2024-04-05 01:38:10] WARNING root fetch - processPackages [gdsfactory]: Timeout reached during download
+[2024-04-05 01:38:10] INFO root fetch - processPackages [gdsfactory]: Downloading https://files.pythonhosted.org/packages/9f/1a/628268e13c9a7b40bfd62de355f5bf3a597a44e601c8a59044e8b419bfe9/gdsfactory-7.9.4.tar.gz
+[2024-04-05 01:38:10] INFO root fetch - processPackages [cartesify-backend]: Remove: archive file [/home/abi/fetcher/tmp/cartesify_backend-0.0.8.tar.gz]
+[2024-04-05 01:38:10] INFO root fetch - processPackages [cartesify-backend]: Remove: archive file [/home/abi/fetcher/tmp/cartesify_backend-0.0.9.tar.gz]
+[2024-04-05 01:38:10] INFO root fetch - main [MainThread]: End processing [cartesify-backend]: success
+[2024-04-05 01:38:10] WARNING root fetch - processPackages [pyinaturalist-convert]: Timeout reached during download
+[2024-04-05 01:38:10] WARNING root fetch - processPackages [gdsfactory]: Timeout reached during download
+[2024-04-05 01:38:10] INFO root fetch - processPackages [gdsfactory]: executing diffoscope
+[2024-04-05 01:38:10] INFO root fetch - processPackages [gdsfactory]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gdsfactory-7.9.3.tar.gz tmp/gdsfactory-7.9.4.tar.gz --markdown 20240405/g/gdsfactory/7.9.3-7.9.4/diff.md --exclude *.pyd
+[2024-04-05 01:38:10] WARNING root fetch - processPackages [xgt]: Timeout reached during download
+[2024-04-05 01:38:10] INFO root fetch - processPackages [pyinaturalist-convert]: Downloading https://files.pythonhosted.org/packages/d9/1b/c81fd30705b65bec58622b1f0efae5f65aba8d13c75ae42056c700db535d/pyinaturalist_convert-0.6.3.tar.gz
+[2024-04-05 01:38:10] INFO root fetch - processPackages [xgt]: Downloading https://files.pythonhosted.org/packages/40/f9/e2a36c7adb0517a7efa93b81f0aca7bc4fb667d19f520104c30ec32a315a/xgt-1.9.0.tar.gz
+[2024-04-05 01:38:11] WARNING root fetch - processPackages [xgt]: Timeout reached during download
+[2024-04-05 01:38:11] INFO root fetch - processPackages [xgt]: executing diffoscope
+[2024-04-05 01:38:11] INFO root fetch - processPackages [xgt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xgt-1.8.0.tar.gz tmp/xgt-1.9.0.tar.gz --markdown 20240405/x/xgt/1.8.0-1.9.0/diff.md --exclude *.pyd
+[2024-04-05 01:38:11] WARNING root fetch - processPackages [pyinaturalist-convert]: Timeout reached during download
+[2024-04-05 01:38:11] INFO root fetch - processPackages [pyinaturalist-convert]: executing diffoscope
+[2024-04-05 01:38:11] INFO root fetch - processPackages [pyinaturalist-convert]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyinaturalist_convert-0.6.2.tar.gz tmp/pyinaturalist_convert-0.6.3.tar.gz --markdown 20240405/p/pyinaturalist-convert/0.6.2-0.6.3/diff.md --exclude *.pyd
+[2024-04-05 01:38:11] INFO root fetch - processPackages [xgt]: Remove: archive file [/home/abi/fetcher/tmp/xgt-1.8.0.tar.gz]
+[2024-04-05 01:38:11] INFO root fetch - processPackages [xgt]: Remove: archive file [/home/abi/fetcher/tmp/xgt-1.9.0.tar.gz]
+[2024-04-05 01:38:11] INFO root fetch - main [MainThread]: End processing [xgt]: success
+[2024-04-05 01:38:11] WARNING root fetch - processPackages [pyTMD]: Timeout reached during download
+[2024-04-05 01:38:11] INFO root fetch - processPackages [pyTMD]: Downloading https://files.pythonhosted.org/packages/98/72/16906a5381ba49597b22580ab864fa243fbd92f0bdd125469792fe2c3309/pyTMD-2.1.1.tar.gz
+[2024-04-05 01:38:12] WARNING root fetch - processPackages [pyTMD]: Timeout reached during download
+[2024-04-05 01:38:12] INFO root fetch - processPackages [pyTMD]: executing diffoscope
+[2024-04-05 01:38:12] INFO root fetch - processPackages [pyTMD]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyTMD-2.1.0.tar.gz tmp/pyTMD-2.1.1.tar.gz --markdown 20240405/p/pyTMD/2.1.0-2.1.1/diff.md --exclude *.pyd
+[2024-04-05 01:38:13] INFO root fetch - processPackages [gdsfactory]: Remove: archive file [/home/abi/fetcher/tmp/gdsfactory-7.9.3.tar.gz]
+[2024-04-05 01:38:13] INFO root fetch - processPackages [gdsfactory]: Remove: archive file [/home/abi/fetcher/tmp/gdsfactory-7.9.4.tar.gz]
+[2024-04-05 01:38:13] INFO root fetch - main [MainThread]: End processing [gdsfactory]: success
+[2024-04-05 01:38:14] INFO root fetch - processPackages [pyTMD]: Remove: archive file [/home/abi/fetcher/tmp/pyTMD-2.1.0.tar.gz]
+[2024-04-05 01:38:14] INFO root fetch - processPackages [pyTMD]: Remove: archive file [/home/abi/fetcher/tmp/pyTMD-2.1.1.tar.gz]
+[2024-04-05 01:38:14] INFO root fetch - main [MainThread]: End processing [pyTMD]: success
+[2024-04-05 01:41:11] ERROR root fetch - processPackages [pyinaturalist-convert]: Timeout during execution of pkgdiff
+[2024-04-05 01:41:11] INFO root fetch - main [MainThread]: End processing [pyinaturalist-convert] error
+[2024-04-05 01:41:11] INFO root fetch - main [MainThread]: Store serial: [22628905]
