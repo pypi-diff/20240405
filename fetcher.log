@@ -715,3 +715,28 @@
 [2024-04-05 00:25:08] INFO root fetch - processPackages [swarms]: Remove: archive file [/home/abi/fetcher/tmp/swarms-4.7.5.tar.gz]
 [2024-04-05 00:25:08] INFO root fetch - main [MainThread]: End processing [swarms]: success
 [2024-04-05 00:25:08] INFO root fetch - main [MainThread]: Store serial: [22628443]
+[2024-04-05 00:27:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22628443]
+[2024-04-05 00:27:16] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-05 00:27:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: auxiliary
+[2024-04-05 00:27:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: f5-sphinx-theme
+[2024-04-05 00:27:16] INFO root fetch - processPackages [f5-sphinx-theme]: New version: [2.4.2] Old Version: [2.4.1]
+[2024-04-05 00:27:16] INFO root fetch - processPackages [f5-sphinx-theme]: Downloading https://files.pythonhosted.org/packages/e9/18/7a1d521b894085852f5baf3a4f1e8fd015abbdd5bc582ca1151b7d8ae8c9/f5_sphinx_theme-2.4.1.tar.gz
+[2024-04-05 00:27:16] INFO root fetch - processPackages [auxiliary]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-05 00:27:17] WARNING root fetch - processPackages [f5-sphinx-theme]: Timeout reached during download
+[2024-04-05 00:27:17] INFO root fetch - processPackages [auxiliary]: Downloading https://files.pythonhosted.org/packages/19/81/bd79651ca6a83164fac73f7e55b95b86570717bbde6af9f8096f1484a52a/auxiliary-0.0.8.tar.gz
+[2024-04-05 00:27:17] WARNING root fetch - processPackages [auxiliary]: Timeout reached during download
+[2024-04-05 00:27:17] INFO root fetch - processPackages [f5-sphinx-theme]: Downloading https://files.pythonhosted.org/packages/49/93/8857535432662918efb182f6f3e424bb1d0e147b5fdd39a15d3b77e41a37/f5_sphinx_theme-2.4.2.tar.gz
+[2024-04-05 00:27:17] INFO root fetch - processPackages [auxiliary]: Downloading https://files.pythonhosted.org/packages/72/d4/032a017b528147790a1d7cd41eb98daaf43de9b78fb08d4fcb6c682d501c/auxiliary-0.0.9.tar.gz
+[2024-04-05 00:27:17] WARNING root fetch - processPackages [f5-sphinx-theme]: Timeout reached during download
+[2024-04-05 00:27:17] INFO root fetch - processPackages [f5-sphinx-theme]: executing diffoscope
+[2024-04-05 00:27:17] INFO root fetch - processPackages [f5-sphinx-theme]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/f5_sphinx_theme-2.4.1.tar.gz tmp/f5_sphinx_theme-2.4.2.tar.gz --markdown 20240405/f/f5-sphinx-theme/2.4.1-2.4.2/diff.md --exclude *.pyd
+[2024-04-05 00:27:17] WARNING root fetch - processPackages [auxiliary]: Timeout reached during download
+[2024-04-05 00:27:17] INFO root fetch - processPackages [auxiliary]: executing diffoscope
+[2024-04-05 00:27:17] INFO root fetch - processPackages [auxiliary]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/auxiliary-0.0.8.tar.gz tmp/auxiliary-0.0.9.tar.gz --markdown 20240405/a/auxiliary/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2024-04-05 00:27:18] INFO root fetch - processPackages [auxiliary]: Remove: archive file [/home/abi/fetcher/tmp/auxiliary-0.0.8.tar.gz]
+[2024-04-05 00:27:18] INFO root fetch - processPackages [auxiliary]: Remove: archive file [/home/abi/fetcher/tmp/auxiliary-0.0.9.tar.gz]
+[2024-04-05 00:27:18] INFO root fetch - main [MainThread]: End processing [auxiliary]: success
+[2024-04-05 00:27:18] INFO root fetch - processPackages [f5-sphinx-theme]: Remove: archive file [/home/abi/fetcher/tmp/f5_sphinx_theme-2.4.1.tar.gz]
+[2024-04-05 00:27:18] INFO root fetch - processPackages [f5-sphinx-theme]: Remove: archive file [/home/abi/fetcher/tmp/f5_sphinx_theme-2.4.2.tar.gz]
+[2024-04-05 00:27:18] INFO root fetch - main [MainThread]: End processing [f5-sphinx-theme]: success
+[2024-04-05 00:27:18] INFO root fetch - main [MainThread]: Store serial: [22628449]
