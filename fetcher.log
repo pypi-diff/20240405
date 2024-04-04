@@ -2234,3 +2234,74 @@
 [2024-04-05 01:47:48] INFO root fetch - processPackages [unstructured]: Remove: archive file [/home/abi/fetcher/tmp/unstructured-0.9.3.tar.gz]
 [2024-04-05 01:47:48] INFO root fetch - main [MainThread]: End processing [unstructured]: success
 [2024-04-05 01:47:48] INFO root fetch - main [MainThread]: Store serial: [22628942]
+[2024-04-05 01:49:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22628942]
+[2024-04-05 01:49:57] INFO root fetch - main [MainThread]: No changed packages found
+[2024-04-05 01:51:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22628943]
+[2024-04-05 01:52:02] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-05 01:52:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: PythonProjectBootstrapper
+[2024-04-05 01:52:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: OZI
+[2024-04-05 01:52:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: typer-slim
+[2024-04-05 01:52:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: typer
+[2024-04-05 01:52:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: typer-cli
+[2024-04-05 01:52:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: processing-pypelines
+[2024-04-05 01:52:02] INFO root fetch - processPackages [typer]: New version: [0.9.4] Old Version: [0.9.3]
+[2024-04-05 01:52:02] INFO root fetch - processPackages [processing-pypelines]: New version: [0.0.53] Old Version: [0.0.52]
+[2024-04-05 01:52:02] INFO root fetch - processPackages [OZI]: New version: [0.0.99] Old Version: [0.0.98]
+[2024-04-05 01:52:02] INFO root fetch - processPackages [PythonProjectBootstrapper]: New version: [0.2.3] Old Version: [0.2.2]
+[2024-04-05 01:52:02] INFO root fetch - processPackages [typer-slim]: New version: [0.12.dev2] Old Version: [0.12.dev1]
+[2024-04-05 01:52:02] INFO root fetch - processPackages [typer-cli]: New version: [0.12.dev2] Old Version: [0.12.dev1]
+[2024-04-05 01:52:02] INFO root fetch - processPackages [processing-pypelines]: Downloading https://files.pythonhosted.org/packages/42/82/f50becf0999eae4066b7d77fff8a34dfa1c5cf76cabe5d72dd266242c2b8/processing-pypelines-0.0.52.tar.gz
+[2024-04-05 01:52:02] INFO root fetch - processPackages [OZI]: Downloading https://files.pythonhosted.org/packages/38/2b/d8f8ce2f774ca66b1e32e65068783b15ac56715cbfa1ab1faef6d2c91a13/OZI-0.0.98-py39-none-any.whl
+[2024-04-05 01:52:02] INFO root fetch - processPackages [typer]: Downloading https://files.pythonhosted.org/packages/12/ce/0d95b86b827fc8bd4b53e42b7dfdcd56d6665ff93d7ba72128b52f22bb7b/typer-0.9.3.tar.gz
+[2024-04-05 01:52:02] INFO root fetch - processPackages [PythonProjectBootstrapper]: Downloading https://files.pythonhosted.org/packages/37/53/a3704ace062c7ca8bf7e1b0e02e03cacc4f02ca31cb5667bac9a5ee4e55a/PythonProjectBootstrapper-0.2.2-py3-none-any.whl
+[2024-04-05 01:52:02] WARNING root fetch - processPackages [processing-pypelines]: Timeout reached during download
+[2024-04-05 01:52:02] INFO root fetch - processPackages [typer-slim]: Downloading https://files.pythonhosted.org/packages/cb/a6/4e8be954c0aaa350e10d12a7fc024771267177c9f4755af87074842fb10e/typer_slim-0.12.dev1.tar.gz
+[2024-04-05 01:52:02] WARNING root fetch - processPackages [OZI]: Timeout reached during download
+[2024-04-05 01:52:02] INFO root fetch - processPackages [typer-cli]: Downloading https://files.pythonhosted.org/packages/9b/23/f855226c537b501ce5c9fdaf2212a05301d4433ca4b38bd412812a3dd224/typer_cli-0.12.dev1.tar.gz
+[2024-04-05 01:52:02] WARNING root fetch - processPackages [PythonProjectBootstrapper]: Timeout reached during download
+[2024-04-05 01:52:02] INFO root fetch - processPackages [OZI]: Downloading https://files.pythonhosted.org/packages/4c/bb/b5eaa9984b59532639030a4989b508e0252f662844d9a3e3f9a3d9aeef2c/OZI-0.0.99-py39-none-any.whl
+[2024-04-05 01:52:02] WARNING root fetch - processPackages [typer]: Timeout reached during download
+[2024-04-05 01:52:02] WARNING root fetch - processPackages [typer-slim]: Timeout reached during download
+[2024-04-05 01:52:02] INFO root fetch - processPackages [processing-pypelines]: Downloading https://files.pythonhosted.org/packages/48/43/228172f79cf6978df9b27f3aebf473c3dead766b0294fca475f69daeda4a/processing-pypelines-0.0.53.tar.gz
+[2024-04-05 01:52:02] INFO root fetch - processPackages [typer]: Downloading https://files.pythonhosted.org/packages/e9/7d/b1e0399aa5e27071f0042784681d28417f3e526c61f62c8e3635ee5ad334/typer-0.9.4.tar.gz
+[2024-04-05 01:52:02] WARNING root fetch - processPackages [OZI]: Timeout reached during download
+[2024-04-05 01:52:02] WARNING root fetch - processPackages [typer-cli]: Timeout reached during download
+[2024-04-05 01:52:02] INFO root fetch - processPackages [OZI]: executing diffoscope
+[2024-04-05 01:52:02] INFO root fetch - processPackages [OZI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/OZI-0.0.98-py39-none-any.whl.zip tmp/OZI-0.0.99-py39-none-any.whl.zip --markdown 20240405/O/OZI/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2024-04-05 01:52:02] INFO root fetch - processPackages [PythonProjectBootstrapper]: Downloading https://files.pythonhosted.org/packages/4b/2a/c7215e68479846710cef279d6e33e229ea9429c22f4bbbbc8f1a268c632b/PythonProjectBootstrapper-0.2.3-py3-none-any.whl
+[2024-04-05 01:52:02] WARNING root fetch - processPackages [processing-pypelines]: Timeout reached during download
+[2024-04-05 01:52:02] INFO root fetch - processPackages [processing-pypelines]: executing diffoscope
+[2024-04-05 01:52:02] INFO root fetch - processPackages [processing-pypelines]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/processing-pypelines-0.0.52.tar.gz tmp/processing-pypelines-0.0.53.tar.gz --markdown 20240405/p/processing-pypelines/0.0.52-0.0.53/diff.md --exclude *.pyd
+[2024-04-05 01:52:03] INFO root fetch - processPackages [typer-slim]: Downloading https://files.pythonhosted.org/packages/7f/8f/8d67dc6028f51bb725c581c65fdfdc8c1f1cdfe1ef08bfde5929a39f1ebd/typer_slim-0.12.dev2.tar.gz
+[2024-04-05 01:52:03] WARNING root fetch - processPackages [typer]: Timeout reached during download
+[2024-04-05 01:52:03] INFO root fetch - processPackages [typer]: executing diffoscope
+[2024-04-05 01:52:03] INFO root fetch - processPackages [typer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/typer-0.9.3.tar.gz tmp/typer-0.9.4.tar.gz --markdown 20240405/t/typer/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2024-04-05 01:52:03] WARNING root fetch - processPackages [PythonProjectBootstrapper]: Timeout reached during download
+[2024-04-05 01:52:03] INFO root fetch - processPackages [PythonProjectBootstrapper]: executing diffoscope
+[2024-04-05 01:52:03] INFO root fetch - processPackages [PythonProjectBootstrapper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PythonProjectBootstrapper-0.2.2-py3-none-any.whl.zip tmp/PythonProjectBootstrapper-0.2.3-py3-none-any.whl.zip --markdown 20240405/P/PythonProjectBootstrapper/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2024-04-05 01:52:03] WARNING root fetch - processPackages [typer-slim]: Timeout reached during download
+[2024-04-05 01:52:03] INFO root fetch - processPackages [typer-slim]: executing diffoscope
+[2024-04-05 01:52:03] INFO root fetch - processPackages [typer-slim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/typer_slim-0.12.dev1.tar.gz tmp/typer_slim-0.12.dev2.tar.gz --markdown 20240405/t/typer-slim/0.12.dev1-0.12.dev2/diff.md --exclude *.pyd
+[2024-04-05 01:52:03] INFO root fetch - processPackages [typer-cli]: Downloading https://files.pythonhosted.org/packages/a0/75/a6c5ec35c6e901812dbefabc73897ca7b1f9e8daf3d90f73f76c933cb3b4/typer_cli-0.12.dev2.tar.gz
+[2024-04-05 01:52:03] WARNING root fetch - processPackages [typer-cli]: Timeout reached during download
+[2024-04-05 01:52:03] INFO root fetch - processPackages [typer-cli]: executing diffoscope
+[2024-04-05 01:52:03] INFO root fetch - processPackages [typer-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/typer_cli-0.12.dev1.tar.gz tmp/typer_cli-0.12.dev2.tar.gz --markdown 20240405/t/typer-cli/0.12.dev1-0.12.dev2/diff.md --exclude *.pyd
+[2024-04-05 01:52:03] INFO root fetch - processPackages [processing-pypelines]: Remove: archive file [/home/abi/fetcher/tmp/processing-pypelines-0.0.52.tar.gz]
+[2024-04-05 01:52:03] INFO root fetch - processPackages [processing-pypelines]: Remove: archive file [/home/abi/fetcher/tmp/processing-pypelines-0.0.53.tar.gz]
+[2024-04-05 01:52:03] INFO root fetch - main [MainThread]: End processing [processing-pypelines]: success
+[2024-04-05 01:52:03] INFO root fetch - processPackages [PythonProjectBootstrapper]: Remove: archive file [/home/abi/fetcher/tmp/PythonProjectBootstrapper-0.2.2-py3-none-any.whl.zip]
+[2024-04-05 01:52:03] INFO root fetch - processPackages [PythonProjectBootstrapper]: Remove: archive file [/home/abi/fetcher/tmp/PythonProjectBootstrapper-0.2.3-py3-none-any.whl.zip]
+[2024-04-05 01:52:03] INFO root fetch - main [MainThread]: End processing [PythonProjectBootstrapper]: success
+[2024-04-05 01:52:03] INFO root fetch - processPackages [typer-cli]: Remove: archive file [/home/abi/fetcher/tmp/typer_cli-0.12.dev1.tar.gz]
+[2024-04-05 01:52:03] INFO root fetch - processPackages [typer-cli]: Remove: archive file [/home/abi/fetcher/tmp/typer_cli-0.12.dev2.tar.gz]
+[2024-04-05 01:52:03] INFO root fetch - main [MainThread]: End processing [typer-cli]: success
+[2024-04-05 01:52:04] INFO root fetch - processPackages [OZI]: Remove: archive file [/home/abi/fetcher/tmp/OZI-0.0.98-py39-none-any.whl.zip]
+[2024-04-05 01:52:04] INFO root fetch - processPackages [OZI]: Remove: archive file [/home/abi/fetcher/tmp/OZI-0.0.99-py39-none-any.whl.zip]
+[2024-04-05 01:52:04] INFO root fetch - main [MainThread]: End processing [OZI]: success
+[2024-04-05 01:52:04] INFO root fetch - processPackages [typer-slim]: Remove: archive file [/home/abi/fetcher/tmp/typer_slim-0.12.dev1.tar.gz]
+[2024-04-05 01:52:04] INFO root fetch - processPackages [typer-slim]: Remove: archive file [/home/abi/fetcher/tmp/typer_slim-0.12.dev2.tar.gz]
+[2024-04-05 01:52:04] INFO root fetch - main [MainThread]: End processing [typer-slim]: success
+[2024-04-05 01:52:04] INFO root fetch - processPackages [typer]: Remove: archive file [/home/abi/fetcher/tmp/typer-0.9.3.tar.gz]
+[2024-04-05 01:52:04] INFO root fetch - processPackages [typer]: Remove: archive file [/home/abi/fetcher/tmp/typer-0.9.4.tar.gz]
+[2024-04-05 01:52:04] INFO root fetch - main [MainThread]: End processing [typer]: success
+[2024-04-05 01:52:04] INFO root fetch - main [MainThread]: Store serial: [22628962]
