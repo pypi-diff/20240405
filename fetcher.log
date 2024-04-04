@@ -740,3 +740,31 @@
 [2024-04-05 00:27:18] INFO root fetch - processPackages [f5-sphinx-theme]: Remove: archive file [/home/abi/fetcher/tmp/f5_sphinx_theme-2.4.2.tar.gz]
 [2024-04-05 00:27:18] INFO root fetch - main [MainThread]: End processing [f5-sphinx-theme]: success
 [2024-04-05 00:27:18] INFO root fetch - main [MainThread]: Store serial: [22628449]
+[2024-04-05 00:29:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22628449]
+[2024-04-05 00:29:26] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-05 00:29:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: method-python
+[2024-04-05 00:29:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: kkappkit
+[2024-04-05 00:29:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: django-intra
+[2024-04-05 00:29:26] WARNING root fetch - processPackages [django-intra]: Skipping, unable to determine old version
+[2024-04-05 00:29:26] INFO root fetch - main [MainThread]: End processing [django-intra] error
+[2024-04-05 00:29:26] INFO root fetch - processPackages [kkappkit]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-04-05 00:29:26] INFO root fetch - processPackages [method-python]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-05 00:29:26] INFO root fetch - processPackages [kkappkit]: Downloading https://files.pythonhosted.org/packages/e5/57/bf4e9e8216200edba252ae059ca7af20e56aa5bb76e6155489032b0371e6/kkappkit-0.9.0.tar.gz
+[2024-04-05 00:29:26] INFO root fetch - processPackages [method-python]: Downloading https://files.pythonhosted.org/packages/37/37/71dbbc918421329929ffc514c93be2fd35723929b342f0e2157af8cc99f1/method-python-0.0.8.tar.gz
+[2024-04-05 00:29:27] WARNING root fetch - processPackages [method-python]: Timeout reached during download
+[2024-04-05 00:29:27] INFO root fetch - processPackages [method-python]: Downloading https://files.pythonhosted.org/packages/4a/d2/f1c08f7f8078de6a6993fc42361601a1c87e5538fca285cd1690011bc0c5/method-python-0.0.9.tar.gz
+[2024-04-05 00:29:27] WARNING root fetch - processPackages [method-python]: Timeout reached during download
+[2024-04-05 00:29:27] INFO root fetch - processPackages [method-python]: executing diffoscope
+[2024-04-05 00:29:27] INFO root fetch - processPackages [method-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/method-python-0.0.8.tar.gz tmp/method-python-0.0.9.tar.gz --markdown 20240405/m/method-python/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2024-04-05 00:29:27] WARNING root fetch - processPackages [kkappkit]: Timeout reached during download
+[2024-04-05 00:29:27] INFO root fetch - processPackages [kkappkit]: Downloading https://files.pythonhosted.org/packages/04/89/d66107ea47baf9d7789b9d1e910d4bcf1f45230ff597ac00429cf6b0728e/kkappkit-0.9.1.tar.gz
+[2024-04-05 00:29:27] INFO root fetch - processPackages [method-python]: Remove: archive file [/home/abi/fetcher/tmp/method-python-0.0.8.tar.gz]
+[2024-04-05 00:29:27] INFO root fetch - processPackages [method-python]: Remove: archive file [/home/abi/fetcher/tmp/method-python-0.0.9.tar.gz]
+[2024-04-05 00:29:27] INFO root fetch - main [MainThread]: End processing [method-python]: success
+[2024-04-05 00:29:28] WARNING root fetch - processPackages [kkappkit]: Timeout reached during download
+[2024-04-05 00:29:28] INFO root fetch - processPackages [kkappkit]: executing diffoscope
+[2024-04-05 00:29:28] INFO root fetch - processPackages [kkappkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kkappkit-0.9.0.tar.gz tmp/kkappkit-0.9.1.tar.gz --markdown 20240405/k/kkappkit/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2024-04-05 00:29:30] INFO root fetch - processPackages [kkappkit]: Remove: archive file [/home/abi/fetcher/tmp/kkappkit-0.9.0.tar.gz]
+[2024-04-05 00:29:30] INFO root fetch - processPackages [kkappkit]: Remove: archive file [/home/abi/fetcher/tmp/kkappkit-0.9.1.tar.gz]
+[2024-04-05 00:29:30] INFO root fetch - main [MainThread]: End processing [kkappkit]: success
+[2024-04-05 00:29:30] INFO root fetch - main [MainThread]: Store serial: [22628458]
