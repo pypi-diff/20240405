@@ -1170,3 +1170,28 @@
 [2024-04-05 00:55:46] INFO root fetch - processPackages [iroh]: Remove: archive file [/home/abi/fetcher/tmp/iroh-0.2.0-py3-none-win_amd64.whl.zip]
 [2024-04-05 00:55:46] INFO root fetch - main [MainThread]: End processing [iroh]: success
 [2024-04-05 00:55:46] INFO root fetch - main [MainThread]: Store serial: [22628614]
+[2024-04-05 00:57:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22628614]
+[2024-04-05 00:57:56] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-05 00:57:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: crim_intervals
+[2024-04-05 00:57:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: fast-templates
+[2024-04-05 00:57:56] INFO root fetch - processPackages [fast-templates]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-05 00:57:56] INFO root fetch - processPackages [crim_intervals]: New version: [2.0.9] Old Version: [2.0.8]
+[2024-04-05 00:57:56] INFO root fetch - processPackages [crim_intervals]: Downloading https://files.pythonhosted.org/packages/14/10/db1639610adea92e48bee314e4539d2ae8c2d70f743cf00f19636fa93fae/crim_intervals-2.0.8.tar.gz
+[2024-04-05 00:57:56] INFO root fetch - processPackages [fast-templates]: Downloading https://files.pythonhosted.org/packages/b0/d7/db93b4ac5350f95e3348c8152de82a4be03a443dc44987418b900341968e/fast-templates-0.1.8.tar.gz
+[2024-04-05 00:57:56] WARNING root fetch - processPackages [crim_intervals]: Timeout reached during download
+[2024-04-05 00:57:56] WARNING root fetch - processPackages [fast-templates]: Timeout reached during download
+[2024-04-05 00:57:56] INFO root fetch - processPackages [crim_intervals]: Downloading https://files.pythonhosted.org/packages/36/f0/00176e039f8e2b2fdea7dd3a42ec3c2f1bd95c9baed349d57619592266e6/crim_intervals-2.0.9.tar.gz
+[2024-04-05 00:57:56] INFO root fetch - processPackages [fast-templates]: Downloading https://files.pythonhosted.org/packages/f5/7c/15456084c4bbbdc917b3210fd690dc6fb9386073a0fafc41e7eba3dba652/fast-templates-0.1.9.tar.gz
+[2024-04-05 00:57:56] WARNING root fetch - processPackages [crim_intervals]: Timeout reached during download
+[2024-04-05 00:57:56] WARNING root fetch - processPackages [fast-templates]: Timeout reached during download
+[2024-04-05 00:57:56] INFO root fetch - processPackages [crim_intervals]: executing diffoscope
+[2024-04-05 00:57:56] INFO root fetch - processPackages [crim_intervals]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crim_intervals-2.0.8.tar.gz tmp/crim_intervals-2.0.9.tar.gz --markdown 20240405/c/crim_intervals/2.0.8-2.0.9/diff.md --exclude *.pyd
+[2024-04-05 00:57:56] INFO root fetch - processPackages [fast-templates]: executing diffoscope
+[2024-04-05 00:57:56] INFO root fetch - processPackages [fast-templates]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fast-templates-0.1.8.tar.gz tmp/fast-templates-0.1.9.tar.gz --markdown 20240405/f/fast-templates/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2024-04-05 00:57:57] INFO root fetch - processPackages [crim_intervals]: Remove: archive file [/home/abi/fetcher/tmp/crim_intervals-2.0.8.tar.gz]
+[2024-04-05 00:57:57] INFO root fetch - processPackages [crim_intervals]: Remove: archive file [/home/abi/fetcher/tmp/crim_intervals-2.0.9.tar.gz]
+[2024-04-05 00:57:57] INFO root fetch - main [MainThread]: End processing [crim_intervals]: success
+[2024-04-05 00:57:57] INFO root fetch - processPackages [fast-templates]: Remove: archive file [/home/abi/fetcher/tmp/fast-templates-0.1.8.tar.gz]
+[2024-04-05 00:57:57] INFO root fetch - processPackages [fast-templates]: Remove: archive file [/home/abi/fetcher/tmp/fast-templates-0.1.9.tar.gz]
+[2024-04-05 00:57:57] INFO root fetch - main [MainThread]: End processing [fast-templates]: success
+[2024-04-05 00:57:57] INFO root fetch - main [MainThread]: Store serial: [22628623]
