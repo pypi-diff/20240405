@@ -2209,3 +2209,28 @@
 [2024-04-05 01:45:37] INFO root fetch - processPackages [xontrib-prompt-starship]: Remove: archive file [/home/abi/fetcher/tmp/xontrib-prompt-starship-0.3.6.tar.gz]
 [2024-04-05 01:45:37] INFO root fetch - main [MainThread]: End processing [xontrib-prompt-starship]: success
 [2024-04-05 01:45:37] INFO root fetch - main [MainThread]: Store serial: [22628936]
+[2024-04-05 01:47:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22628936]
+[2024-04-05 01:47:45] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-05 01:47:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: feno
+[2024-04-05 01:47:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: unstructured
+[2024-04-05 01:47:45] INFO root fetch - processPackages [unstructured]: New version: [0.9.3] Old Version: [0.9.2]
+[2024-04-05 01:47:45] INFO root fetch - processPackages [feno]: New version: [0.1.1] Old Version: [0.0.9]
+[2024-04-05 01:47:46] INFO root fetch - processPackages [unstructured]: Downloading https://files.pythonhosted.org/packages/2b/07/65dbf266473566e0ec468de7b1dde0f34f9ec418de3f2fd0a36ec1c81a29/unstructured-0.9.2.tar.gz
+[2024-04-05 01:47:46] INFO root fetch - processPackages [feno]: Downloading https://files.pythonhosted.org/packages/de/36/657d11df0af123591e21b555b31bfaeaa3819bfc923d78b7b2940d464fc5/feno-0.0.9.tar.gz
+[2024-04-05 01:47:46] WARNING root fetch - processPackages [feno]: Timeout reached during download
+[2024-04-05 01:47:46] INFO root fetch - processPackages [feno]: Downloading https://files.pythonhosted.org/packages/95/ec/bd51af4ccadeb4613bc2b3c85490878d4aebe0f64a20cf1b3008d8348bd7/feno-0.1.1.tar.gz
+[2024-04-05 01:47:46] WARNING root fetch - processPackages [feno]: Timeout reached during download
+[2024-04-05 01:47:46] INFO root fetch - processPackages [feno]: executing diffoscope
+[2024-04-05 01:47:46] INFO root fetch - processPackages [feno]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/feno-0.0.9.tar.gz tmp/feno-0.1.1.tar.gz --markdown 20240405/f/feno/0.0.9-0.1.1/diff.md --exclude *.pyd
+[2024-04-05 01:47:46] WARNING root fetch - processPackages [unstructured]: Timeout reached during download
+[2024-04-05 01:47:46] INFO root fetch - processPackages [unstructured]: Downloading https://files.pythonhosted.org/packages/ac/a9/a2a4960862c51f378935fe68784e0e92c49da56872740acd70e6c10853e0/unstructured-0.9.3.tar.gz
+[2024-04-05 01:47:47] WARNING root fetch - processPackages [unstructured]: Timeout reached during download
+[2024-04-05 01:47:47] INFO root fetch - processPackages [unstructured]: executing diffoscope
+[2024-04-05 01:47:47] INFO root fetch - processPackages [unstructured]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unstructured-0.9.2.tar.gz tmp/unstructured-0.9.3.tar.gz --markdown 20240405/u/unstructured/0.9.2-0.9.3/diff.md --exclude *.pyd
+[2024-04-05 01:47:47] INFO root fetch - processPackages [feno]: Remove: archive file [/home/abi/fetcher/tmp/feno-0.0.9.tar.gz]
+[2024-04-05 01:47:47] INFO root fetch - processPackages [feno]: Remove: archive file [/home/abi/fetcher/tmp/feno-0.1.1.tar.gz]
+[2024-04-05 01:47:47] INFO root fetch - main [MainThread]: End processing [feno]: success
+[2024-04-05 01:47:48] INFO root fetch - processPackages [unstructured]: Remove: archive file [/home/abi/fetcher/tmp/unstructured-0.9.2.tar.gz]
+[2024-04-05 01:47:48] INFO root fetch - processPackages [unstructured]: Remove: archive file [/home/abi/fetcher/tmp/unstructured-0.9.3.tar.gz]
+[2024-04-05 01:47:48] INFO root fetch - main [MainThread]: End processing [unstructured]: success
+[2024-04-05 01:47:48] INFO root fetch - main [MainThread]: Store serial: [22628942]
