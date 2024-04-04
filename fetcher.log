@@ -451,3 +451,42 @@
 [2024-04-05 00:16:23] INFO root fetch - processPackages [lean-dojo]: Remove: archive file [/home/abi/fetcher/tmp/lean_dojo-1.8.0.tar.gz]
 [2024-04-05 00:16:23] INFO root fetch - main [MainThread]: End processing [lean-dojo]: success
 [2024-04-05 00:16:23] INFO root fetch - main [MainThread]: Store serial: [22628366]
+[2024-04-05 00:18:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22628366]
+[2024-04-05 00:18:31] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-05 00:18:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: celldega
+[2024-04-05 00:18:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: coiled
+[2024-04-05 00:18:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: qless-with-throttles
+[2024-04-05 00:18:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pybob-sdk
+[2024-04-05 00:18:32] INFO root fetch - processPackages [coiled]: New version: [1.9.1.dev9] Old Version: [1.9.1.dev8]
+[2024-04-05 00:18:32] WARNING root fetch - processPackages [celldega]: Skipping, unable to determine old version
+[2024-04-05 00:18:32] INFO root fetch - main [MainThread]: End processing [celldega] error
+[2024-04-05 00:18:32] INFO root fetch - processPackages [qless-with-throttles]: New version: [0.12.0a9] Old Version: [0.12.0a8]
+[2024-04-05 00:18:32] INFO root fetch - processPackages [pybob-sdk]: New version: [0.1.6] Old Version: [0.1.5]
+[2024-04-05 00:18:32] INFO root fetch - processPackages [coiled]: Downloading https://files.pythonhosted.org/packages/8b/97/14337c08d9fc8bec2c9c7a5961519e141cf75d7dffa582bb987eecacefa4/coiled-1.9.1.dev8.tar.gz
+[2024-04-05 00:18:32] WARNING root fetch - processPackages [coiled]: Timeout reached during download
+[2024-04-05 00:18:32] INFO root fetch - processPackages [qless-with-throttles]: Downloading https://files.pythonhosted.org/packages/38/82/5755ba0114a466dd7c68fdb3060f7539d116eedc4f5d98d96272f2df54fd/qless-with-throttles-0.12.0a8.tar.gz
+[2024-04-05 00:18:32] INFO root fetch - processPackages [pybob-sdk]: Downloading https://files.pythonhosted.org/packages/1f/3a/ea770bd89dd7a4e84e6c53af250f84abcaabdadf88a9335c752c05e413a9/pybob_sdk-0.1.5.tar.gz
+[2024-04-05 00:18:32] INFO root fetch - processPackages [coiled]: Downloading https://files.pythonhosted.org/packages/58/16/aec6b9100728dfee740792b7dd55fc6e56240fdadb5ef317a1d120e019d7/coiled-1.9.1.dev9.tar.gz
+[2024-04-05 00:18:32] WARNING root fetch - processPackages [qless-with-throttles]: Timeout reached during download
+[2024-04-05 00:18:32] WARNING root fetch - processPackages [pybob-sdk]: Timeout reached during download
+[2024-04-05 00:18:32] WARNING root fetch - processPackages [coiled]: Timeout reached during download
+[2024-04-05 00:18:32] INFO root fetch - processPackages [coiled]: executing diffoscope
+[2024-04-05 00:18:32] INFO root fetch - processPackages [coiled]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coiled-1.9.1.dev8.tar.gz tmp/coiled-1.9.1.dev9.tar.gz --markdown 20240405/c/coiled/1.9.1.dev8-1.9.1.dev9/diff.md --exclude *.pyd
+[2024-04-05 00:18:32] INFO root fetch - processPackages [qless-with-throttles]: Downloading https://files.pythonhosted.org/packages/5a/d4/b8a4d3f5182f4fe2cba33b5e341890ec71807ba729a06275253839b97faf/qless-with-throttles-0.12.0a9.tar.gz
+[2024-04-05 00:18:32] INFO root fetch - processPackages [pybob-sdk]: Downloading https://files.pythonhosted.org/packages/cd/d2/860007cce83c5f5b2a2e97f9083c731c07b563cb029a17af74d570ec7f1f/pybob_sdk-0.1.6.tar.gz
+[2024-04-05 00:18:32] WARNING root fetch - processPackages [qless-with-throttles]: Timeout reached during download
+[2024-04-05 00:18:32] INFO root fetch - processPackages [qless-with-throttles]: executing diffoscope
+[2024-04-05 00:18:32] INFO root fetch - processPackages [qless-with-throttles]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qless-with-throttles-0.12.0a8.tar.gz tmp/qless-with-throttles-0.12.0a9.tar.gz --markdown 20240405/q/qless-with-throttles/0.12.0a8-0.12.0a9/diff.md --exclude *.pyd
+[2024-04-05 00:18:33] WARNING root fetch - processPackages [pybob-sdk]: Timeout reached during download
+[2024-04-05 00:18:33] INFO root fetch - processPackages [pybob-sdk]: executing diffoscope
+[2024-04-05 00:18:33] INFO root fetch - processPackages [pybob-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pybob_sdk-0.1.5.tar.gz tmp/pybob_sdk-0.1.6.tar.gz --markdown 20240405/p/pybob-sdk/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2024-04-05 00:18:33] INFO root fetch - processPackages [coiled]: Remove: archive file [/home/abi/fetcher/tmp/coiled-1.9.1.dev8.tar.gz]
+[2024-04-05 00:18:33] INFO root fetch - processPackages [coiled]: Remove: archive file [/home/abi/fetcher/tmp/coiled-1.9.1.dev9.tar.gz]
+[2024-04-05 00:18:33] INFO root fetch - main [MainThread]: End processing [coiled]: success
+[2024-04-05 00:18:33] INFO root fetch - processPackages [pybob-sdk]: Remove: archive file [/home/abi/fetcher/tmp/pybob_sdk-0.1.5.tar.gz]
+[2024-04-05 00:18:33] INFO root fetch - processPackages [pybob-sdk]: Remove: archive file [/home/abi/fetcher/tmp/pybob_sdk-0.1.6.tar.gz]
+[2024-04-05 00:18:33] INFO root fetch - main [MainThread]: End processing [pybob-sdk]: success
+[2024-04-05 00:18:33] INFO root fetch - processPackages [qless-with-throttles]: Remove: archive file [/home/abi/fetcher/tmp/qless-with-throttles-0.12.0a8.tar.gz]
+[2024-04-05 00:18:33] INFO root fetch - processPackages [qless-with-throttles]: Remove: archive file [/home/abi/fetcher/tmp/qless-with-throttles-0.12.0a9.tar.gz]
+[2024-04-05 00:18:33] INFO root fetch - main [MainThread]: End processing [qless-with-throttles]: success
+[2024-04-05 00:18:33] INFO root fetch - main [MainThread]: Store serial: [22628381]
