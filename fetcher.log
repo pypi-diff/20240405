@@ -859,3 +859,50 @@
 [2024-04-05 00:31:42] INFO root fetch - processPackages [jupyter-ai]: Remove: archive file [/home/abi/fetcher/tmp/jupyter_ai-2.9.1.tar.gz]
 [2024-04-05 00:31:42] INFO root fetch - main [MainThread]: End processing [jupyter-ai]: success
 [2024-04-05 00:31:42] INFO root fetch - main [MainThread]: Store serial: [22628482]
+[2024-04-05 00:33:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22628482]
+[2024-04-05 00:33:51] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-05 00:33:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sciencebasepy
+[2024-04-05 00:33:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: licensecheck
+[2024-04-05 00:33:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pepeline
+[2024-04-05 00:33:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cartesify-backend
+[2024-04-05 00:33:51] INFO root fetch - processPackages [cartesify-backend]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-05 00:33:51] INFO root fetch - processPackages [licensecheck]: New version: [2024.1.5] Old Version: [2024.1.4]
+[2024-04-05 00:33:51] INFO root fetch - processPackages [cartesify-backend]: Downloading https://files.pythonhosted.org/packages/8d/66/8ba7d886e1f2e507b220841f3d5f9a8a14aa25b06d8aad875257555719e3/cartesify_backend-0.0.8.tar.gz
+[2024-04-05 00:33:51] INFO root fetch - processPackages [licensecheck]: Downloading https://files.pythonhosted.org/packages/a9/35/827ff6805abfb1e60b03deac8c1186725eefdba66e9437fb0db29801eefd/licensecheck-2024.1.4.tar.gz
+[2024-04-05 00:33:51] INFO root fetch - processPackages [sciencebasepy]: New version: [2.0.9] Old Version: [2.0.8]
+[2024-04-05 00:33:51] WARNING root fetch - processPackages [cartesify-backend]: Timeout reached during download
+[2024-04-05 00:33:51] WARNING root fetch - processPackages [licensecheck]: Timeout reached during download
+[2024-04-05 00:33:51] INFO root fetch - processPackages [pepeline]: New version: [0.2.2] Old Version: [0.2.1]
+[2024-04-05 00:33:52] INFO root fetch - processPackages [sciencebasepy]: Downloading https://files.pythonhosted.org/packages/4e/23/67220533ad78c2257796633607a77597bc2dd00875da7e89e25f6192e5ee/sciencebasepy-2.0.8.tar.gz
+[2024-04-05 00:33:52] INFO root fetch - processPackages [cartesify-backend]: Downloading https://files.pythonhosted.org/packages/d6/92/3a1ee788fa672cfa95a4e1ec9713ec76ef023911989a189d6709beb81dde/cartesify_backend-0.0.9.tar.gz
+[2024-04-05 00:33:52] INFO root fetch - processPackages [licensecheck]: Downloading https://files.pythonhosted.org/packages/d8/56/d8f2c4be6fa3cb5c46d9545580ca1cf37e55f7a8ca7d0a2c7d371d514c98/licensecheck-2024.1.5.tar.gz
+[2024-04-05 00:33:52] WARNING root fetch - processPackages [sciencebasepy]: Timeout reached during download
+[2024-04-05 00:33:52] WARNING root fetch - processPackages [cartesify-backend]: Timeout reached during download
+[2024-04-05 00:33:52] INFO root fetch - processPackages [cartesify-backend]: executing diffoscope
+[2024-04-05 00:33:52] INFO root fetch - processPackages [cartesify-backend]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cartesify_backend-0.0.8.tar.gz tmp/cartesify_backend-0.0.9.tar.gz --markdown 20240405/c/cartesify-backend/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2024-04-05 00:33:52] WARNING root fetch - processPackages [licensecheck]: Timeout reached during download
+[2024-04-05 00:33:52] INFO root fetch - processPackages [licensecheck]: executing diffoscope
+[2024-04-05 00:33:52] INFO root fetch - processPackages [licensecheck]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/licensecheck-2024.1.4.tar.gz tmp/licensecheck-2024.1.5.tar.gz --markdown 20240405/l/licensecheck/2024.1.4-2024.1.5/diff.md --exclude *.pyd
+[2024-04-05 00:33:52] INFO root fetch - processPackages [pepeline]: Downloading https://files.pythonhosted.org/packages/7e/72/76a0cde1e8ae730102e6ac78680e704a3587973e48e3998cfc19e5dab204/pepeline-0.2.1.tar.gz
+[2024-04-05 00:33:52] INFO root fetch - processPackages [sciencebasepy]: Downloading https://files.pythonhosted.org/packages/56/0c/84c84f6b39b6df27441201218d44027729469f570f635c9c6b51f25b760a/sciencebasepy-2.0.9.tar.gz
+[2024-04-05 00:33:52] WARNING root fetch - processPackages [pepeline]: Timeout reached during download
+[2024-04-05 00:33:52] WARNING root fetch - processPackages [sciencebasepy]: Timeout reached during download
+[2024-04-05 00:33:52] INFO root fetch - processPackages [sciencebasepy]: executing diffoscope
+[2024-04-05 00:33:52] INFO root fetch - processPackages [sciencebasepy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sciencebasepy-2.0.8.tar.gz tmp/sciencebasepy-2.0.9.tar.gz --markdown 20240405/s/sciencebasepy/2.0.8-2.0.9/diff.md --exclude *.pyd
+[2024-04-05 00:33:52] INFO root fetch - processPackages [pepeline]: Downloading https://files.pythonhosted.org/packages/be/5f/694cc1934dbfecca68ea4e27ff292f4e1c59cb88f62df05b699265ade7d3/pepeline-0.2.2-cp312-none-win_amd64.whl
+[2024-04-05 00:33:52] INFO root fetch - processPackages [cartesify-backend]: Remove: archive file [/home/abi/fetcher/tmp/cartesify_backend-0.0.8.tar.gz]
+[2024-04-05 00:33:52] INFO root fetch - processPackages [cartesify-backend]: Remove: archive file [/home/abi/fetcher/tmp/cartesify_backend-0.0.9.tar.gz]
+[2024-04-05 00:33:52] INFO root fetch - main [MainThread]: End processing [cartesify-backend]: success
+[2024-04-05 00:33:52] INFO root fetch - processPackages [licensecheck]: Remove: archive file [/home/abi/fetcher/tmp/licensecheck-2024.1.4.tar.gz]
+[2024-04-05 00:33:52] INFO root fetch - processPackages [licensecheck]: Remove: archive file [/home/abi/fetcher/tmp/licensecheck-2024.1.5.tar.gz]
+[2024-04-05 00:33:52] INFO root fetch - main [MainThread]: End processing [licensecheck]: success
+[2024-04-05 00:33:52] INFO root fetch - processPackages [sciencebasepy]: Remove: archive file [/home/abi/fetcher/tmp/sciencebasepy-2.0.8.tar.gz]
+[2024-04-05 00:33:52] INFO root fetch - processPackages [sciencebasepy]: Remove: archive file [/home/abi/fetcher/tmp/sciencebasepy-2.0.9.tar.gz]
+[2024-04-05 00:33:52] INFO root fetch - main [MainThread]: End processing [sciencebasepy]: success
+[2024-04-05 00:33:54] WARNING root fetch - processPackages [pepeline]: Timeout reached during download
+[2024-04-05 00:33:54] INFO root fetch - processPackages [pepeline]: executing diffoscope
+[2024-04-05 00:33:54] INFO root fetch - processPackages [pepeline]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepeline-0.2.1.tar.gz tmp/pepeline-0.2.2-cp312-none-win_amd64.whl.zip --markdown 20240405/p/pepeline/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2024-04-05 00:33:54] INFO root fetch - processPackages [pepeline]: Remove: archive file [/home/abi/fetcher/tmp/pepeline-0.2.1.tar.gz]
+[2024-04-05 00:33:54] INFO root fetch - processPackages [pepeline]: Remove: archive file [/home/abi/fetcher/tmp/pepeline-0.2.2-cp312-none-win_amd64.whl.zip]
+[2024-04-05 00:33:54] INFO root fetch - main [MainThread]: End processing [pepeline]: success
+[2024-04-05 00:33:54] INFO root fetch - main [MainThread]: Store serial: [22628524]
