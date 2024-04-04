@@ -2336,3 +2336,17 @@
 [2024-04-05 01:54:16] INFO root fetch - processPackages [bible_verse]: Remove: archive file [/home/abi/fetcher/tmp/bible_verse-0.2.0.tar.gz]
 [2024-04-05 01:54:16] INFO root fetch - main [MainThread]: End processing [bible_verse]: success
 [2024-04-05 01:54:16] INFO root fetch - main [MainThread]: Store serial: [22628977]
+[2024-04-05 01:56:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22628977]
+[2024-04-05 01:56:24] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-04-05 01:56:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: git-stats-report
+[2024-04-05 01:56:24] INFO root fetch - processPackages [git-stats-report]: New version: [0.3.2] Old Version: [0.3.1]
+[2024-04-05 01:56:24] INFO root fetch - processPackages [git-stats-report]: Downloading https://files.pythonhosted.org/packages/68/a1/199301d2813b2b428cba1df5156a8f53b385033d64adf83bc8a93bbdaa5e/git-stats-report-0.3.1.tar.gz
+[2024-04-05 01:56:25] WARNING root fetch - processPackages [git-stats-report]: Timeout reached during download
+[2024-04-05 01:56:25] INFO root fetch - processPackages [git-stats-report]: Downloading https://files.pythonhosted.org/packages/78/47/f418cc654abfac934dc3544393f917420964210fe840296277c5d471e4d8/git-stats-report-0.3.2.tar.gz
+[2024-04-05 01:56:25] WARNING root fetch - processPackages [git-stats-report]: Timeout reached during download
+[2024-04-05 01:56:25] INFO root fetch - processPackages [git-stats-report]: executing diffoscope
+[2024-04-05 01:56:25] INFO root fetch - processPackages [git-stats-report]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/git-stats-report-0.3.1.tar.gz tmp/git-stats-report-0.3.2.tar.gz --markdown 20240405/g/git-stats-report/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2024-04-05 01:56:26] INFO root fetch - processPackages [git-stats-report]: Remove: archive file [/home/abi/fetcher/tmp/git-stats-report-0.3.1.tar.gz]
+[2024-04-05 01:56:26] INFO root fetch - processPackages [git-stats-report]: Remove: archive file [/home/abi/fetcher/tmp/git-stats-report-0.3.2.tar.gz]
+[2024-04-05 01:56:26] INFO root fetch - main [MainThread]: End processing [git-stats-report]: success
+[2024-04-05 01:56:26] INFO root fetch - main [MainThread]: Store serial: [22628980]
