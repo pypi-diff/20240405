@@ -268,3 +268,35 @@
 [2024-04-05 00:07:39] INFO root fetch - processPackages [sberpm]: Remove: archive file [/home/abi/fetcher/tmp/sberpm-2.6.3rc0.tar.gz]
 [2024-04-05 00:07:39] INFO root fetch - main [MainThread]: End processing [sberpm]: success
 [2024-04-05 00:07:39] INFO root fetch - main [MainThread]: Store serial: [22628220]
+[2024-04-05 00:09:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22628220]
+[2024-04-05 00:09:48] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-05 00:09:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: autoanki
+[2024-04-05 00:09:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pynapple
+[2024-04-05 00:09:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fishhook
+[2024-04-05 00:09:48] INFO root fetch - processPackages [autoanki]: New version: [1.1.0] Old Version: [1.0.9]
+[2024-04-05 00:09:48] INFO root fetch - processPackages [pynapple]: New version: [0.6.2] Old Version: [0.6.1]
+[2024-04-05 00:09:48] INFO root fetch - processPackages [fishhook]: New version: [0.3.2] Old Version: [0.3.1]
+[2024-04-05 00:09:48] INFO root fetch - processPackages [pynapple]: Downloading https://files.pythonhosted.org/packages/c2/f9/ea425017db65e4fa6d7e96f4bfc8fb20f0a7e164275d0ddc5c984402ee5a/pynapple-0.6.1-py2.py3-none-any.whl
+[2024-04-05 00:09:48] INFO root fetch - processPackages [autoanki]: Downloading https://files.pythonhosted.org/packages/12/75/501b4877fb3407f0a610e6cc524a5c68114bbe27faa41721465631ea93f8/autoanki-1.0.9.tar.gz
+[2024-04-05 00:09:49] INFO root fetch - processPackages [fishhook]: Downloading https://files.pythonhosted.org/packages/41/7c/0723b5d1b44830fa75115f28e1612cca6f28e5286f730cd993dc015effd9/fishhook-0.3.1.tar.gz
+[2024-04-05 00:09:49] WARNING root fetch - processPackages [autoanki]: Timeout reached during download
+[2024-04-05 00:09:49] WARNING root fetch - processPackages [pynapple]: Timeout reached during download
+[2024-04-05 00:09:49] WARNING root fetch - processPackages [fishhook]: Timeout reached during download
+[2024-04-05 00:09:49] INFO root fetch - processPackages [autoanki]: Downloading https://files.pythonhosted.org/packages/64/6a/2cb1098526a735a214d682651435a5e64a4e2fd19b2f94f0983babace1fa/autoanki-1.1.0.tar.gz
+[2024-04-05 00:09:49] INFO root fetch - processPackages [pynapple]: Downloading https://files.pythonhosted.org/packages/25/9a/76757f2b37e8e07fc8e11c842c85487c04adaa7084bb22952bd0f87260b6/pynapple-0.6.2.tar.gz
+[2024-04-05 00:09:49] WARNING root fetch - processPackages [pynapple]: Skipping package: exceeds size limit 94907369>=10485760
+[2024-04-05 00:09:49] INFO root fetch - main [MainThread]: End processing [pynapple] error
+[2024-04-05 00:09:49] INFO root fetch - processPackages [fishhook]: Downloading https://files.pythonhosted.org/packages/ab/a8/1305d7f4d6e14abd64d380dcd92c8fc98b47c5a7a92c4802255581f8c144/fishhook-0.3.2-cp310-cp310-win_amd64.whl
+[2024-04-05 00:09:49] WARNING root fetch - processPackages [autoanki]: Timeout reached during download
+[2024-04-05 00:09:49] INFO root fetch - processPackages [autoanki]: executing diffoscope
+[2024-04-05 00:09:49] INFO root fetch - processPackages [autoanki]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autoanki-1.0.9.tar.gz tmp/autoanki-1.1.0.tar.gz --markdown 20240405/a/autoanki/1.0.9-1.1.0/diff.md --exclude *.pyd
+[2024-04-05 00:09:49] INFO root fetch - processPackages [autoanki]: Remove: archive file [/home/abi/fetcher/tmp/autoanki-1.0.9.tar.gz]
+[2024-04-05 00:09:49] INFO root fetch - processPackages [autoanki]: Remove: archive file [/home/abi/fetcher/tmp/autoanki-1.1.0.tar.gz]
+[2024-04-05 00:09:49] INFO root fetch - main [MainThread]: End processing [autoanki]: success
+[2024-04-05 00:09:50] WARNING root fetch - processPackages [fishhook]: Timeout reached during download
+[2024-04-05 00:09:50] INFO root fetch - processPackages [fishhook]: executing diffoscope
+[2024-04-05 00:09:50] INFO root fetch - processPackages [fishhook]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fishhook-0.3.1.tar.gz tmp/fishhook-0.3.2-cp310-cp310-win_amd64.whl.zip --markdown 20240405/f/fishhook/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2024-04-05 00:09:50] INFO root fetch - processPackages [fishhook]: Remove: archive file [/home/abi/fetcher/tmp/fishhook-0.3.1.tar.gz]
+[2024-04-05 00:09:50] INFO root fetch - processPackages [fishhook]: Remove: archive file [/home/abi/fetcher/tmp/fishhook-0.3.2-cp310-cp310-win_amd64.whl.zip]
+[2024-04-05 00:09:50] INFO root fetch - main [MainThread]: End processing [fishhook]: success
+[2024-04-05 00:09:50] INFO root fetch - main [MainThread]: Store serial: [22628255]
