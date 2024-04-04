@@ -1195,3 +1195,39 @@
 [2024-04-05 00:57:57] INFO root fetch - processPackages [fast-templates]: Remove: archive file [/home/abi/fetcher/tmp/fast-templates-0.1.9.tar.gz]
 [2024-04-05 00:57:57] INFO root fetch - main [MainThread]: End processing [fast-templates]: success
 [2024-04-05 00:57:57] INFO root fetch - main [MainThread]: Store serial: [22628623]
+[2024-04-05 01:00:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22628623]
+[2024-04-05 01:00:06] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-05 01:00:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cdk-image-pipeline
+[2024-04-05 01:00:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: taskara
+[2024-04-05 01:00:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: blackneedles
+[2024-04-05 01:00:06] INFO root fetch - processPackages [taskara]: New version: [0.1.8] Old Version: [0.1.7]
+[2024-04-05 01:00:06] INFO root fetch - processPackages [blackneedles]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-04-05 01:00:06] INFO root fetch - processPackages [taskara]: Downloading https://files.pythonhosted.org/packages/d6/1e/172ae85d48722a1e28b9526c0bb34465bd7920d0c8e6858e25a3f8c528a9/taskara-0.1.7.tar.gz
+[2024-04-05 01:00:06] INFO root fetch - processPackages [blackneedles]: Downloading https://files.pythonhosted.org/packages/4c/b8/32bd736f71e1ef53b8d4291606c7f5436cf79d1e697f4e5b43fc850e77c1/blackneedles-0.1.1.tar.gz
+[2024-04-05 01:00:06] INFO root fetch - processPackages [cdk-image-pipeline]: New version: [0.5.9] Old Version: [0.5.8]
+[2024-04-05 01:00:06] WARNING root fetch - processPackages [blackneedles]: Timeout reached during download
+[2024-04-05 01:00:06] WARNING root fetch - processPackages [taskara]: Timeout reached during download
+[2024-04-05 01:00:06] INFO root fetch - processPackages [cdk-image-pipeline]: Downloading https://files.pythonhosted.org/packages/89/e4/13205ca0899fa56500854db926cce250628dd694b8862db8cc74c53ee463/cdk-image-pipeline-0.5.8.tar.gz
+[2024-04-05 01:00:06] INFO root fetch - processPackages [blackneedles]: Downloading https://files.pythonhosted.org/packages/89/17/27cefaac57e7b668bb97ff3b24ea7bd22b998c38f72874c31608a2eca03c/blackneedles-0.1.2.tar.gz
+[2024-04-05 01:00:06] INFO root fetch - processPackages [taskara]: Downloading https://files.pythonhosted.org/packages/c0/4f/e9467a6dd755091e2fe2294b58569b289c5252fd70463791829fd99fbfd7/taskara-0.1.8.tar.gz
+[2024-04-05 01:00:06] WARNING root fetch - processPackages [blackneedles]: Timeout reached during download
+[2024-04-05 01:00:06] INFO root fetch - processPackages [blackneedles]: executing diffoscope
+[2024-04-05 01:00:06] INFO root fetch - processPackages [blackneedles]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/blackneedles-0.1.1.tar.gz tmp/blackneedles-0.1.2.tar.gz --markdown 20240405/b/blackneedles/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2024-04-05 01:00:06] WARNING root fetch - processPackages [taskara]: Timeout reached during download
+[2024-04-05 01:00:06] INFO root fetch - processPackages [taskara]: executing diffoscope
+[2024-04-05 01:00:06] INFO root fetch - processPackages [taskara]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/taskara-0.1.7.tar.gz tmp/taskara-0.1.8.tar.gz --markdown 20240405/t/taskara/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2024-04-05 01:00:06] WARNING root fetch - processPackages [cdk-image-pipeline]: Timeout reached during download
+[2024-04-05 01:00:07] INFO root fetch - processPackages [cdk-image-pipeline]: Downloading https://files.pythonhosted.org/packages/17/47/3621b859151bcfb29e25014308c3c0e1c4709e1c448cf3119a735d43098a/cdk-image-pipeline-0.5.9.tar.gz
+[2024-04-05 01:00:07] WARNING root fetch - processPackages [cdk-image-pipeline]: Timeout reached during download
+[2024-04-05 01:00:07] INFO root fetch - processPackages [cdk-image-pipeline]: executing diffoscope
+[2024-04-05 01:00:07] INFO root fetch - processPackages [cdk-image-pipeline]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-image-pipeline-0.5.8.tar.gz tmp/cdk-image-pipeline-0.5.9.tar.gz --markdown 20240405/c/cdk-image-pipeline/0.5.8-0.5.9/diff.md --exclude *.pyd
+[2024-04-05 01:00:07] INFO root fetch - processPackages [blackneedles]: Remove: archive file [/home/abi/fetcher/tmp/blackneedles-0.1.1.tar.gz]
+[2024-04-05 01:00:07] INFO root fetch - processPackages [blackneedles]: Remove: archive file [/home/abi/fetcher/tmp/blackneedles-0.1.2.tar.gz]
+[2024-04-05 01:00:07] INFO root fetch - main [MainThread]: End processing [blackneedles]: success
+[2024-04-05 01:00:07] INFO root fetch - processPackages [taskara]: Remove: archive file [/home/abi/fetcher/tmp/taskara-0.1.7.tar.gz]
+[2024-04-05 01:00:07] INFO root fetch - processPackages [taskara]: Remove: archive file [/home/abi/fetcher/tmp/taskara-0.1.8.tar.gz]
+[2024-04-05 01:00:07] INFO root fetch - main [MainThread]: End processing [taskara]: success
+[2024-04-05 01:00:07] INFO root fetch - processPackages [cdk-image-pipeline]: Remove: archive file [/home/abi/fetcher/tmp/cdk-image-pipeline-0.5.8.tar.gz]
+[2024-04-05 01:00:07] INFO root fetch - processPackages [cdk-image-pipeline]: Remove: archive file [/home/abi/fetcher/tmp/cdk-image-pipeline-0.5.9.tar.gz]
+[2024-04-05 01:00:07] INFO root fetch - main [MainThread]: End processing [cdk-image-pipeline]: success
+[2024-04-05 01:00:07] INFO root fetch - main [MainThread]: Store serial: [22628632]
