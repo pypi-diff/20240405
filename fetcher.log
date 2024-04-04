@@ -2305,3 +2305,34 @@
 [2024-04-05 01:52:04] INFO root fetch - processPackages [typer]: Remove: archive file [/home/abi/fetcher/tmp/typer-0.9.4.tar.gz]
 [2024-04-05 01:52:04] INFO root fetch - main [MainThread]: End processing [typer]: success
 [2024-04-05 01:52:04] INFO root fetch - main [MainThread]: Store serial: [22628962]
+[2024-04-05 01:54:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22628962]
+[2024-04-05 01:54:14] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-05 01:54:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sample-package-tst
+[2024-04-05 01:54:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bible_verse
+[2024-04-05 01:54:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: groundlight
+[2024-04-05 01:54:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pixi-kernel
+[2024-04-05 01:54:14] WARNING root fetch - processPackages [sample-package-tst]: Skipping, unable to determine old version
+[2024-04-05 01:54:14] INFO root fetch - main [MainThread]: End processing [sample-package-tst] error
+[2024-04-05 01:54:14] INFO root fetch - processPackages [groundlight]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-04-05 01:54:14] INFO root fetch - processPackages [bible_verse]: New version: [0.2.0] Old Version: [0.1.2]
+[2024-04-05 01:54:14] WARNING root fetch - processPackages [pixi-kernel]: Skipping, unable to determine old version
+[2024-04-05 01:54:14] INFO root fetch - main [MainThread]: End processing [pixi-kernel] error
+[2024-04-05 01:54:15] INFO root fetch - processPackages [bible_verse]: Downloading https://files.pythonhosted.org/packages/89/15/3598bf4ccdda432d0ed21544d54e2d9126f63deec57dd2329470ed2201df/bible_verse-0.1.2.tar.gz
+[2024-04-05 01:54:15] INFO root fetch - processPackages [groundlight]: Downloading https://files.pythonhosted.org/packages/3a/df/76ee87a63f1fc0c43e8f923ccbd7cc4cd09452b2a87ab397f93766cda801/groundlight-0.9.0.tar.gz
+[2024-04-05 01:54:15] WARNING root fetch - processPackages [groundlight]: Timeout reached during download
+[2024-04-05 01:54:15] WARNING root fetch - processPackages [bible_verse]: Timeout reached during download
+[2024-04-05 01:54:15] INFO root fetch - processPackages [groundlight]: Downloading https://files.pythonhosted.org/packages/ef/6b/31809c56b9597c3d1a1308c41d7f7426a9bca64fe57525282e51fdd9ff22/groundlight-0.9.1.tar.gz
+[2024-04-05 01:54:15] INFO root fetch - processPackages [bible_verse]: Downloading https://files.pythonhosted.org/packages/33/9c/42a1d52590821a18b0fef27defdddab5a72be393dbdc90ae54e8e1c6a8d3/bible_verse-0.2.0.tar.gz
+[2024-04-05 01:54:15] WARNING root fetch - processPackages [groundlight]: Timeout reached during download
+[2024-04-05 01:54:15] INFO root fetch - processPackages [groundlight]: executing diffoscope
+[2024-04-05 01:54:15] INFO root fetch - processPackages [groundlight]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/groundlight-0.9.0.tar.gz tmp/groundlight-0.9.1.tar.gz --markdown 20240405/g/groundlight/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2024-04-05 01:54:15] WARNING root fetch - processPackages [bible_verse]: Timeout reached during download
+[2024-04-05 01:54:15] INFO root fetch - processPackages [bible_verse]: executing diffoscope
+[2024-04-05 01:54:15] INFO root fetch - processPackages [bible_verse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bible_verse-0.1.2.tar.gz tmp/bible_verse-0.2.0.tar.gz --markdown 20240405/b/bible_verse/0.1.2-0.2.0/diff.md --exclude *.pyd
+[2024-04-05 01:54:16] INFO root fetch - processPackages [groundlight]: Remove: archive file [/home/abi/fetcher/tmp/groundlight-0.9.0.tar.gz]
+[2024-04-05 01:54:16] INFO root fetch - processPackages [groundlight]: Remove: archive file [/home/abi/fetcher/tmp/groundlight-0.9.1.tar.gz]
+[2024-04-05 01:54:16] INFO root fetch - main [MainThread]: End processing [groundlight]: success
+[2024-04-05 01:54:16] INFO root fetch - processPackages [bible_verse]: Remove: archive file [/home/abi/fetcher/tmp/bible_verse-0.1.2.tar.gz]
+[2024-04-05 01:54:16] INFO root fetch - processPackages [bible_verse]: Remove: archive file [/home/abi/fetcher/tmp/bible_verse-0.2.0.tar.gz]
+[2024-04-05 01:54:16] INFO root fetch - main [MainThread]: End processing [bible_verse]: success
+[2024-04-05 01:54:16] INFO root fetch - main [MainThread]: Store serial: [22628977]
