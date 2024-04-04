@@ -300,3 +300,50 @@
 [2024-04-05 00:09:50] INFO root fetch - processPackages [fishhook]: Remove: archive file [/home/abi/fetcher/tmp/fishhook-0.3.2-cp310-cp310-win_amd64.whl.zip]
 [2024-04-05 00:09:50] INFO root fetch - main [MainThread]: End processing [fishhook]: success
 [2024-04-05 00:09:50] INFO root fetch - main [MainThread]: Store serial: [22628255]
+[2024-04-05 00:11:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22628255]
+[2024-04-05 00:11:58] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-05 00:11:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: llama-index
+[2024-04-05 00:11:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: navigator-api
+[2024-04-05 00:11:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: iam-sarif-report
+[2024-04-05 00:11:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pytest-helm-templates
+[2024-04-05 00:11:59] INFO root fetch - processPackages [pytest-helm-templates]: New version: [0.0.1a2] Old Version: [0.0.1a1]
+[2024-04-05 00:11:59] INFO root fetch - processPackages [pytest-helm-templates]: Downloading https://files.pythonhosted.org/packages/69/e5/d00d14fa5c31603be4eb664944fe2b6d6b76d0461ec92a8add248b9fa808/pytest-helm-templates-0.0.1a1.tar.gz
+[2024-04-05 00:11:59] INFO root fetch - processPackages [navigator-api]: New version: [2.8.9] Old Version: [2.8.8]
+[2024-04-05 00:11:59] INFO root fetch - processPackages [llama-index]: New version: [0.9.9] Old Version: [0.9.8.post1]
+[2024-04-05 00:11:59] INFO root fetch - processPackages [iam-sarif-report]: New version: [2.3.2] Old Version: [2.3.1]
+[2024-04-05 00:11:59] WARNING root fetch - processPackages [pytest-helm-templates]: Timeout reached during download
+[2024-04-05 00:11:59] INFO root fetch - processPackages [pytest-helm-templates]: Downloading https://files.pythonhosted.org/packages/6c/e4/d36d993c97345132171c3ea12588d892918862706c0eb1d30a68169334fe/pytest-helm-templates-0.0.1a2.tar.gz
+[2024-04-05 00:11:59] INFO root fetch - processPackages [iam-sarif-report]: Downloading https://files.pythonhosted.org/packages/90/de/7d3cf3e56e600e786d95dec9fa7d4ba4403acf4d8ef345eb469951545b0c/iam-sarif-report-2.3.1.tar.gz
+[2024-04-05 00:11:59] INFO root fetch - processPackages [navigator-api]: Downloading https://files.pythonhosted.org/packages/4a/c1/4d2ef0e02aedcb067c1226d3312106df0168bc742bbe6ff3199051a654c5/navigator_api-2.8.8-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-04-05 00:11:59] INFO root fetch - processPackages [llama-index]: Downloading https://files.pythonhosted.org/packages/ff/05/5239ef88ab93061d5535beb6c21d17f0b463aa0c48c1c9baa8d0a5941098/llama_index-0.9.8.post1.tar.gz
+[2024-04-05 00:11:59] WARNING root fetch - processPackages [pytest-helm-templates]: Timeout reached during download
+[2024-04-05 00:11:59] INFO root fetch - processPackages [pytest-helm-templates]: executing diffoscope
+[2024-04-05 00:11:59] INFO root fetch - processPackages [pytest-helm-templates]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest-helm-templates-0.0.1a1.tar.gz tmp/pytest-helm-templates-0.0.1a2.tar.gz --markdown 20240405/p/pytest-helm-templates/0.0.1a1-0.0.1a2/diff.md --exclude *.pyd
+[2024-04-05 00:11:59] WARNING root fetch - processPackages [iam-sarif-report]: Timeout reached during download
+[2024-04-05 00:11:59] WARNING root fetch - processPackages [llama-index]: Timeout reached during download
+[2024-04-05 00:11:59] WARNING root fetch - processPackages [navigator-api]: Timeout reached during download
+[2024-04-05 00:11:59] INFO root fetch - processPackages [iam-sarif-report]: Downloading https://files.pythonhosted.org/packages/53/ef/c4dede1a2c71d2afdaed43dff917818f2c1282c10e1e8b1d906580901bc8/iam-sarif-report-2.3.2.tar.gz
+[2024-04-05 00:11:59] INFO root fetch - processPackages [llama-index]: Downloading https://files.pythonhosted.org/packages/09/9b/6a7d14763cd2bdfe4705633fd1b850857e7c64d269c6cebd5d7bbc646187/llama_index-0.9.9.tar.gz
+[2024-04-05 00:11:59] INFO root fetch - processPackages [navigator-api]: Downloading https://files.pythonhosted.org/packages/23/9d/d6e87407f60468f5fc607bc9db56b812d4afaf5641fdc7365a5b358ccfb4/navigator_api-2.8.9-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-04-05 00:11:59] WARNING root fetch - processPackages [iam-sarif-report]: Timeout reached during download
+[2024-04-05 00:11:59] INFO root fetch - processPackages [iam-sarif-report]: executing diffoscope
+[2024-04-05 00:11:59] INFO root fetch - processPackages [iam-sarif-report]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iam-sarif-report-2.3.1.tar.gz tmp/iam-sarif-report-2.3.2.tar.gz --markdown 20240405/i/iam-sarif-report/2.3.1-2.3.2/diff.md --exclude *.pyd
+[2024-04-05 00:12:00] WARNING root fetch - processPackages [llama-index]: Timeout reached during download
+[2024-04-05 00:12:00] INFO root fetch - processPackages [llama-index]: executing diffoscope
+[2024-04-05 00:12:00] INFO root fetch - processPackages [llama-index]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llama_index-0.9.8.post1.tar.gz tmp/llama_index-0.9.9.tar.gz --markdown 20240405/l/llama-index/0.9.8.post1-0.9.9/diff.md --exclude *.pyd
+[2024-04-05 00:12:00] INFO root fetch - processPackages [pytest-helm-templates]: Remove: archive file [/home/abi/fetcher/tmp/pytest-helm-templates-0.0.1a1.tar.gz]
+[2024-04-05 00:12:00] INFO root fetch - processPackages [pytest-helm-templates]: Remove: archive file [/home/abi/fetcher/tmp/pytest-helm-templates-0.0.1a2.tar.gz]
+[2024-04-05 00:12:00] INFO root fetch - main [MainThread]: End processing [pytest-helm-templates]: success
+[2024-04-05 00:12:00] WARNING root fetch - processPackages [navigator-api]: Timeout reached during download
+[2024-04-05 00:12:00] INFO root fetch - processPackages [navigator-api]: executing diffoscope
+[2024-04-05 00:12:00] INFO root fetch - processPackages [navigator-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/navigator_api-2.8.8-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/navigator_api-2.8.9-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20240405/n/navigator-api/2.8.8-2.8.9/diff.md --exclude *.pyd
+[2024-04-05 00:12:00] INFO root fetch - processPackages [iam-sarif-report]: Remove: archive file [/home/abi/fetcher/tmp/iam-sarif-report-2.3.1.tar.gz]
+[2024-04-05 00:12:00] INFO root fetch - processPackages [iam-sarif-report]: Remove: archive file [/home/abi/fetcher/tmp/iam-sarif-report-2.3.2.tar.gz]
+[2024-04-05 00:12:00] INFO root fetch - main [MainThread]: End processing [iam-sarif-report]: success
+[2024-04-05 00:12:00] INFO root fetch - processPackages [navigator-api]: Remove: archive file [/home/abi/fetcher/tmp/navigator_api-2.8.8-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-04-05 00:12:00] INFO root fetch - processPackages [navigator-api]: Remove: archive file [/home/abi/fetcher/tmp/navigator_api-2.8.9-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-04-05 00:12:00] INFO root fetch - main [MainThread]: End processing [navigator-api]: success
+[2024-04-05 00:12:02] INFO root fetch - processPackages [llama-index]: Remove: archive file [/home/abi/fetcher/tmp/llama_index-0.9.8.post1.tar.gz]
+[2024-04-05 00:12:02] INFO root fetch - processPackages [llama-index]: Remove: archive file [/home/abi/fetcher/tmp/llama_index-0.9.9.tar.gz]
+[2024-04-05 00:12:02] INFO root fetch - main [MainThread]: End processing [llama-index]: success
+[2024-04-05 00:12:02] INFO root fetch - main [MainThread]: Store serial: [22628320]
