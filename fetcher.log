@@ -1874,3 +1874,53 @@
 [2024-04-05 01:27:10] INFO root fetch - processPackages [arize-phoenix]: Remove: archive file [/home/abi/fetcher/tmp/arize_phoenix-3.9.0.tar.gz]
 [2024-04-05 01:27:10] INFO root fetch - main [MainThread]: End processing [arize-phoenix]: success
 [2024-04-05 01:27:10] INFO root fetch - main [MainThread]: Store serial: [22628828]
+[2024-04-05 01:29:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22628828]
+[2024-04-05 01:29:18] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-05 01:29:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: svgcheck
+[2024-04-05 01:29:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: google-cloud-pipeline-components
+[2024-04-05 01:29:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: keras-nightly
+[2024-04-05 01:29:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: trace-attributes
+[2024-04-05 01:29:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: securities
+[2024-04-05 01:29:19] INFO root fetch - processPackages [trace-attributes]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-05 01:29:19] INFO root fetch - processPackages [trace-attributes]: Downloading https://files.pythonhosted.org/packages/1e/90/74b7e4574ffcc661df330fae415d85a9beb6bbc7cda3796494b4405d6070/trace-attributes-1.0.8.tar.gz
+[2024-04-05 01:29:19] WARNING root fetch - processPackages [securities]: Skipping, unable to determine old version
+[2024-04-05 01:29:19] INFO root fetch - main [MainThread]: End processing [securities] error
+[2024-04-05 01:29:19] INFO root fetch - processPackages [svgcheck]: New version: [0.8.0] Old Version: [0.7.1]
+[2024-04-05 01:29:19] INFO root fetch - processPackages [google-cloud-pipeline-components]: New version: [2.9.0] Old Version: [2.8.0]
+[2024-04-05 01:29:19] INFO root fetch - processPackages [keras-nightly]: New version: [3.2.0.dev2024040423] Old Version: [3.2.0.dev2024040303]
+[2024-04-05 01:29:19] WARNING root fetch - processPackages [trace-attributes]: Timeout reached during download
+[2024-04-05 01:29:19] INFO root fetch - processPackages [trace-attributes]: Downloading https://files.pythonhosted.org/packages/9f/67/9cb8e2c92791a6e07f7ac6e1651f1abcc16a82196a21da9eb5e10f1bd0dd/trace-attributes-1.0.9.tar.gz
+[2024-04-05 01:29:19] INFO root fetch - processPackages [google-cloud-pipeline-components]: Downloading https://files.pythonhosted.org/packages/55/8c/3f0b52dc6e1cc21eaea163d8f3f256f60f5181d67483a699a685fb2385a5/google_cloud_pipeline_components-2.8.0-py3-none-any.whl
+[2024-04-05 01:29:19] INFO root fetch - processPackages [svgcheck]: Downloading https://files.pythonhosted.org/packages/8b/8b/3813d35cbbde266fd0b76e8385c257bc8cd2579acd40b7842de38725cdee/svgcheck-0.7.1.tar.gz
+[2024-04-05 01:29:19] INFO root fetch - processPackages [keras-nightly]: Downloading https://files.pythonhosted.org/packages/1b/fc/e97d01d51aaecb5b31fdf3f9bc90f8707ee3fae48ec68f744730d5a4d13a/keras-nightly-3.2.0.dev2024040303.tar.gz
+[2024-04-05 01:29:19] WARNING root fetch - processPackages [trace-attributes]: Timeout reached during download
+[2024-04-05 01:29:19] INFO root fetch - processPackages [trace-attributes]: executing diffoscope
+[2024-04-05 01:29:19] INFO root fetch - processPackages [trace-attributes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trace-attributes-1.0.8.tar.gz tmp/trace-attributes-1.0.9.tar.gz --markdown 20240405/t/trace-attributes/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2024-04-05 01:29:19] WARNING root fetch - processPackages [svgcheck]: Timeout reached during download
+[2024-04-05 01:29:19] WARNING root fetch - processPackages [keras-nightly]: Timeout reached during download
+[2024-04-05 01:29:19] WARNING root fetch - processPackages [google-cloud-pipeline-components]: Timeout reached during download
+[2024-04-05 01:29:19] INFO root fetch - processPackages [svgcheck]: Downloading https://files.pythonhosted.org/packages/e9/e7/bee97fde9aa01bcaa7df4287493226f9f72c66daf9920ca584bdc16e631c/svgcheck-0.8.0.tar.gz
+[2024-04-05 01:29:19] INFO root fetch - processPackages [keras-nightly]: Downloading https://files.pythonhosted.org/packages/82/e7/929346231523687949e1442b34052f08e01134c2536b0cf6365fbd0f0361/keras-nightly-3.2.0.dev2024040423.tar.gz
+[2024-04-05 01:29:19] INFO root fetch - processPackages [google-cloud-pipeline-components]: Downloading https://files.pythonhosted.org/packages/31/34/68b20e4037a47bef1f7c0570b65ba53015f553784babb82684fb2a055941/google_cloud_pipeline_components-2.9.0-py3-none-any.whl
+[2024-04-05 01:29:19] WARNING root fetch - processPackages [svgcheck]: Timeout reached during download
+[2024-04-05 01:29:19] INFO root fetch - processPackages [svgcheck]: executing diffoscope
+[2024-04-05 01:29:19] INFO root fetch - processPackages [svgcheck]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/svgcheck-0.7.1.tar.gz tmp/svgcheck-0.8.0.tar.gz --markdown 20240405/s/svgcheck/0.7.1-0.8.0/diff.md --exclude *.pyd
+[2024-04-05 01:29:20] INFO root fetch - processPackages [trace-attributes]: Remove: archive file [/home/abi/fetcher/tmp/trace-attributes-1.0.8.tar.gz]
+[2024-04-05 01:29:20] INFO root fetch - processPackages [trace-attributes]: Remove: archive file [/home/abi/fetcher/tmp/trace-attributes-1.0.9.tar.gz]
+[2024-04-05 01:29:20] INFO root fetch - main [MainThread]: End processing [trace-attributes]: success
+[2024-04-05 01:29:20] WARNING root fetch - processPackages [google-cloud-pipeline-components]: Timeout reached during download
+[2024-04-05 01:29:20] INFO root fetch - processPackages [google-cloud-pipeline-components]: executing diffoscope
+[2024-04-05 01:29:20] INFO root fetch - processPackages [google-cloud-pipeline-components]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/google_cloud_pipeline_components-2.8.0-py3-none-any.whl.zip tmp/google_cloud_pipeline_components-2.9.0-py3-none-any.whl.zip --markdown 20240405/g/google-cloud-pipeline-components/2.8.0-2.9.0/diff.md --exclude *.pyd
+[2024-04-05 01:29:20] WARNING root fetch - processPackages [keras-nightly]: Timeout reached during download
+[2024-04-05 01:29:20] INFO root fetch - processPackages [keras-nightly]: executing diffoscope
+[2024-04-05 01:29:20] INFO root fetch - processPackages [keras-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/keras-nightly-3.2.0.dev2024040303.tar.gz tmp/keras-nightly-3.2.0.dev2024040423.tar.gz --markdown 20240405/k/keras-nightly/3.2.0.dev2024040303-3.2.0.dev2024040423/diff.md --exclude *.pyd
+[2024-04-05 01:29:22] INFO root fetch - processPackages [keras-nightly]: Remove: archive file [/home/abi/fetcher/tmp/keras-nightly-3.2.0.dev2024040303.tar.gz]
+[2024-04-05 01:29:22] INFO root fetch - processPackages [keras-nightly]: Remove: archive file [/home/abi/fetcher/tmp/keras-nightly-3.2.0.dev2024040423.tar.gz]
+[2024-04-05 01:29:22] INFO root fetch - main [MainThread]: End processing [keras-nightly]: success
+[2024-04-05 01:29:23] INFO root fetch - processPackages [svgcheck]: Remove: archive file [/home/abi/fetcher/tmp/svgcheck-0.7.1.tar.gz]
+[2024-04-05 01:29:23] INFO root fetch - processPackages [svgcheck]: Remove: archive file [/home/abi/fetcher/tmp/svgcheck-0.8.0.tar.gz]
+[2024-04-05 01:29:23] INFO root fetch - main [MainThread]: End processing [svgcheck]: success
+[2024-04-05 01:29:23] INFO root fetch - processPackages [google-cloud-pipeline-components]: Remove: archive file [/home/abi/fetcher/tmp/google_cloud_pipeline_components-2.8.0-py3-none-any.whl.zip]
+[2024-04-05 01:29:23] INFO root fetch - processPackages [google-cloud-pipeline-components]: Remove: archive file [/home/abi/fetcher/tmp/google_cloud_pipeline_components-2.9.0-py3-none-any.whl.zip]
+[2024-04-05 01:29:23] INFO root fetch - main [MainThread]: End processing [google-cloud-pipeline-components]: success
+[2024-04-05 01:29:23] INFO root fetch - main [MainThread]: Store serial: [22628844]
