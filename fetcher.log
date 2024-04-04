@@ -1563,3 +1563,75 @@
 [2024-04-05 01:15:27] INFO root fetch - processPackages [sentry-arroyo]: Remove: archive file [/home/abi/fetcher/tmp/sentry-arroyo-2.9.1.tar.gz]
 [2024-04-05 01:15:27] INFO root fetch - main [MainThread]: End processing [sentry-arroyo]: success
 [2024-04-05 01:15:27] INFO root fetch - main [MainThread]: Store serial: [22628724]
+[2024-04-05 01:17:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22628724]
+[2024-04-05 01:17:35] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-05 01:17:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyAFQ
+[2024-04-05 01:17:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: deployfish
+[2024-04-05 01:17:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: arize-phoenix
+[2024-04-05 01:17:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: deployfish-mysql
+[2024-04-05 01:17:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: shuttleasgi
+[2024-04-05 01:17:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: py-near
+[2024-04-05 01:17:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: user-context-remote
+[2024-04-05 01:17:36] INFO root fetch - processPackages [user-context-remote]: New version: [0.0.72] Old Version: [0.0.71]
+[2024-04-05 01:17:36] INFO root fetch - processPackages [py-near]: New version: [1.1.9] Old Version: [1.1.8]
+[2024-04-05 01:17:36] INFO root fetch - processPackages [pyAFQ]: New version: [1.3.1] Old Version: [1.3]
+[2024-04-05 01:17:36] WARNING root fetch - processPackages [shuttleasgi]: Skipping, unable to determine old version
+[2024-04-05 01:17:36] INFO root fetch - main [MainThread]: End processing [shuttleasgi] error
+[2024-04-05 01:17:36] INFO root fetch - processPackages [deployfish-mysql]: New version: [1.2.9] Old Version: [1.2.8]
+[2024-04-05 01:17:36] INFO root fetch - processPackages [user-context-remote]: Downloading https://files.pythonhosted.org/packages/62/d2/7c8d71d3f2e2b075f2e858583ebeaaf4f199b5e257556e740d5c785a34b1/user-context-remote-0.0.71.tar.gz
+[2024-04-05 01:17:36] INFO root fetch - processPackages [py-near]: Downloading https://files.pythonhosted.org/packages/aa/de/beface0702603924b5d0a916d15f1c6cc26697783b8191af8e33620e805d/py_near-1.1.8.tar.gz
+[2024-04-05 01:17:36] INFO root fetch - processPackages [deployfish]: New version: [1.9.6] Old Version: [1.9.5]
+[2024-04-05 01:17:36] INFO root fetch - processPackages [arize-phoenix]: New version: [3.9.0] Old Version: [3.8.0]
+[2024-04-05 01:17:36] WARNING root fetch - processPackages [user-context-remote]: Timeout reached during download
+[2024-04-05 01:17:36] WARNING root fetch - processPackages [py-near]: Timeout reached during download
+[2024-04-05 01:17:36] INFO root fetch - processPackages [pyAFQ]: Downloading https://files.pythonhosted.org/packages/70/40/3a1590672f39c1dec517217a5d17706cb3f8c3b465a0cec388da90fc30ef/pyAFQ-1.3.tar.gz
+[2024-04-05 01:17:36] INFO root fetch - processPackages [deployfish-mysql]: Downloading https://files.pythonhosted.org/packages/7e/a7/c62ac14679c3ac33986fe8c20b6a075a2d92fd6090cb2cd2e7191665e349/deployfish-mysql-1.2.8.tar.gz
+[2024-04-05 01:17:36] INFO root fetch - processPackages [deployfish]: Downloading https://files.pythonhosted.org/packages/9d/d7/c6216956d9be271f193368959212bc2df2a2991f5f538fc6949a9ffb5cf1/deployfish-1.9.5.tar.gz
+[2024-04-05 01:17:36] INFO root fetch - processPackages [py-near]: Downloading https://files.pythonhosted.org/packages/3e/73/28d02d95d66304797b8d5f4f59e2c20a6e393c56657b991e31c16ca77e9f/py_near-1.1.9.tar.gz
+[2024-04-05 01:17:36] INFO root fetch - processPackages [arize-phoenix]: Downloading https://files.pythonhosted.org/packages/32/54/dd1420c784f6709327cced1d2bbed61aa40764329217758438d2eb1f4b2b/arize_phoenix-3.8.0.tar.gz
+[2024-04-05 01:17:36] INFO root fetch - processPackages [user-context-remote]: Downloading https://files.pythonhosted.org/packages/a3/2f/4fc45e2e6635273483cee6d8e89e138d7efd917ee73f9239dff17b0340b5/user-context-remote-0.0.72.tar.gz
+[2024-04-05 01:17:36] WARNING root fetch - processPackages [py-near]: Timeout reached during download
+[2024-04-05 01:17:36] INFO root fetch - processPackages [py-near]: executing diffoscope
+[2024-04-05 01:17:36] INFO root fetch - processPackages [py-near]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py_near-1.1.8.tar.gz tmp/py_near-1.1.9.tar.gz --markdown 20240405/p/py-near/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2024-04-05 01:17:36] WARNING root fetch - processPackages [deployfish]: Timeout reached during download
+[2024-04-05 01:17:36] WARNING root fetch - processPackages [deployfish-mysql]: Timeout reached during download
+[2024-04-05 01:17:36] WARNING root fetch - processPackages [arize-phoenix]: Timeout reached during download
+[2024-04-05 01:17:36] WARNING root fetch - processPackages [user-context-remote]: Timeout reached during download
+[2024-04-05 01:17:36] INFO root fetch - processPackages [user-context-remote]: executing diffoscope
+[2024-04-05 01:17:36] INFO root fetch - processPackages [user-context-remote]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/user-context-remote-0.0.71.tar.gz tmp/user-context-remote-0.0.72.tar.gz --markdown 20240405/u/user-context-remote/0.0.71-0.0.72/diff.md --exclude *.pyd
+[2024-04-05 01:17:36] INFO root fetch - processPackages [deployfish]: Downloading https://files.pythonhosted.org/packages/52/7d/9a175e9cf46a38849c3d62138417864d11754e457d39f248e23a1aa39c79/deployfish-1.9.6.tar.gz
+[2024-04-05 01:17:36] INFO root fetch - processPackages [deployfish-mysql]: Downloading https://files.pythonhosted.org/packages/2c/94/f0e35f9272be1b55ea99e7942bfa200f0cd91b41bdcef12aa7781d50e19f/deployfish-mysql-1.2.9.tar.gz
+[2024-04-05 01:17:37] WARNING root fetch - processPackages [pyAFQ]: Timeout reached during download
+[2024-04-05 01:17:37] WARNING root fetch - processPackages [deployfish]: Timeout reached during download
+[2024-04-05 01:17:37] INFO root fetch - processPackages [deployfish]: executing diffoscope
+[2024-04-05 01:17:37] INFO root fetch - processPackages [deployfish]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deployfish-1.9.5.tar.gz tmp/deployfish-1.9.6.tar.gz --markdown 20240405/d/deployfish/1.9.5-1.9.6/diff.md --exclude *.pyd
+[2024-04-05 01:17:37] INFO root fetch - processPackages [arize-phoenix]: Downloading https://files.pythonhosted.org/packages/f5/d6/dd38a21fc9a3d21b359c58ab0bd8f66d4b72e734d82e17836fad3bb992dc/arize_phoenix-3.9.0.tar.gz
+[2024-04-05 01:17:37] WARNING root fetch - processPackages [deployfish-mysql]: Timeout reached during download
+[2024-04-05 01:17:37] INFO root fetch - processPackages [deployfish-mysql]: executing diffoscope
+[2024-04-05 01:17:37] INFO root fetch - processPackages [deployfish-mysql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deployfish-mysql-1.2.8.tar.gz tmp/deployfish-mysql-1.2.9.tar.gz --markdown 20240405/d/deployfish-mysql/1.2.8-1.2.9/diff.md --exclude *.pyd
+[2024-04-05 01:17:37] INFO root fetch - processPackages [pyAFQ]: Downloading https://files.pythonhosted.org/packages/0d/c5/497ec16e0211da10aab27928d9abad3e6adfd1bd2154042a3468de590e8b/pyAFQ-1.3.1.tar.gz
+[2024-04-05 01:17:37] WARNING root fetch - processPackages [pyAFQ]: Timeout reached during download
+[2024-04-05 01:17:37] INFO root fetch - processPackages [pyAFQ]: executing diffoscope
+[2024-04-05 01:17:37] INFO root fetch - processPackages [pyAFQ]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyAFQ-1.3.tar.gz tmp/pyAFQ-1.3.1.tar.gz --markdown 20240405/p/pyAFQ/1.3-1.3.1/diff.md --exclude *.pyd
+[2024-04-05 01:17:37] WARNING root fetch - processPackages [arize-phoenix]: Timeout reached during download
+[2024-04-05 01:17:37] INFO root fetch - processPackages [arize-phoenix]: executing diffoscope
+[2024-04-05 01:17:37] INFO root fetch - processPackages [arize-phoenix]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arize_phoenix-3.8.0.tar.gz tmp/arize_phoenix-3.9.0.tar.gz --markdown 20240405/a/arize-phoenix/3.8.0-3.9.0/diff.md --exclude *.pyd
+[2024-04-05 01:17:37] INFO root fetch - processPackages [py-near]: Remove: archive file [/home/abi/fetcher/tmp/py_near-1.1.8.tar.gz]
+[2024-04-05 01:17:37] INFO root fetch - processPackages [py-near]: Remove: archive file [/home/abi/fetcher/tmp/py_near-1.1.9.tar.gz]
+[2024-04-05 01:17:37] INFO root fetch - main [MainThread]: End processing [py-near]: success
+[2024-04-05 01:17:37] INFO root fetch - processPackages [user-context-remote]: Remove: archive file [/home/abi/fetcher/tmp/user-context-remote-0.0.71.tar.gz]
+[2024-04-05 01:17:37] INFO root fetch - processPackages [user-context-remote]: Remove: archive file [/home/abi/fetcher/tmp/user-context-remote-0.0.72.tar.gz]
+[2024-04-05 01:17:37] INFO root fetch - main [MainThread]: End processing [user-context-remote]: success
+[2024-04-05 01:17:37] INFO root fetch - processPackages [deployfish-mysql]: Remove: archive file [/home/abi/fetcher/tmp/deployfish-mysql-1.2.8.tar.gz]
+[2024-04-05 01:17:37] INFO root fetch - processPackages [deployfish-mysql]: Remove: archive file [/home/abi/fetcher/tmp/deployfish-mysql-1.2.9.tar.gz]
+[2024-04-05 01:17:37] INFO root fetch - main [MainThread]: End processing [deployfish-mysql]: success
+[2024-04-05 01:17:38] INFO root fetch - processPackages [deployfish]: Remove: archive file [/home/abi/fetcher/tmp/deployfish-1.9.5.tar.gz]
+[2024-04-05 01:17:38] INFO root fetch - processPackages [deployfish]: Remove: archive file [/home/abi/fetcher/tmp/deployfish-1.9.6.tar.gz]
+[2024-04-05 01:17:38] INFO root fetch - main [MainThread]: End processing [deployfish]: success
+[2024-04-05 01:17:38] INFO root fetch - processPackages [pyAFQ]: Remove: archive file [/home/abi/fetcher/tmp/pyAFQ-1.3.tar.gz]
+[2024-04-05 01:17:38] INFO root fetch - processPackages [pyAFQ]: Remove: archive file [/home/abi/fetcher/tmp/pyAFQ-1.3.1.tar.gz]
+[2024-04-05 01:17:38] INFO root fetch - main [MainThread]: End processing [pyAFQ]: success
+[2024-04-05 01:18:01] INFO root fetch - processPackages [arize-phoenix]: Remove: archive file [/home/abi/fetcher/tmp/arize_phoenix-3.8.0.tar.gz]
+[2024-04-05 01:18:01] INFO root fetch - processPackages [arize-phoenix]: Remove: archive file [/home/abi/fetcher/tmp/arize_phoenix-3.9.0.tar.gz]
+[2024-04-05 01:18:01] INFO root fetch - main [MainThread]: End processing [arize-phoenix]: success
+[2024-04-05 01:18:01] INFO root fetch - main [MainThread]: Store serial: [22628748]
