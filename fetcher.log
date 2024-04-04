@@ -1369,3 +1369,94 @@
 [2024-04-05 01:06:42] INFO root fetch - processPackages [bigframes]: Remove: archive file [/home/abi/fetcher/tmp/bigframes-1.1.0.tar.gz]
 [2024-04-05 01:06:42] INFO root fetch - main [MainThread]: End processing [bigframes]: success
 [2024-04-05 01:06:42] INFO root fetch - main [MainThread]: Store serial: [22628671]
+[2024-04-05 01:08:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22628671]
+[2024-04-05 01:08:51] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-05 01:08:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: GraphSL
+[2024-04-05 01:08:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: py-near
+[2024-04-05 01:08:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fast-templates
+[2024-04-05 01:08:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo-addon-auth-signup-verify-email
+[2024-04-05 01:08:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo-addon-report-xlsx
+[2024-04-05 01:08:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo-addon-report-py3o
+[2024-04-05 01:08:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: odoo-addon-report-xml
+[2024-04-05 01:08:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: zephony
+[2024-04-05 01:08:52] INFO root fetch - processPackages [fast-templates]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-05 01:08:52] INFO root fetch - processPackages [py-near]: New version: [1.1.9] Old Version: [1.1.8]
+[2024-04-05 01:08:52] INFO root fetch - processPackages [odoo-addon-auth-signup-verify-email]: New version: [16.0.1.0.1] Old Version: [16.0.1.0.0.7]
+[2024-04-05 01:08:52] INFO root fetch - processPackages [odoo-addon-report-py3o]: New version: [16.0.1.0.2] Old Version: [16.0.1.0.1.1]
+[2024-04-05 01:08:52] INFO root fetch - processPackages [fast-templates]: Downloading https://files.pythonhosted.org/packages/b0/d7/db93b4ac5350f95e3348c8152de82a4be03a443dc44987418b900341968e/fast-templates-0.1.8.tar.gz
+[2024-04-05 01:08:52] INFO root fetch - processPackages [py-near]: Downloading https://files.pythonhosted.org/packages/aa/de/beface0702603924b5d0a916d15f1c6cc26697783b8191af8e33620e805d/py_near-1.1.8.tar.gz
+[2024-04-05 01:08:52] INFO root fetch - processPackages [GraphSL]: New version: [0.7] Old Version: [0.6]
+[2024-04-05 01:08:52] INFO root fetch - processPackages [odoo-addon-report-xml]: New version: [17.0.1.0.0.4] Old Version: [17.0.1.0.0.3]
+[2024-04-05 01:08:52] INFO root fetch - processPackages [zephony]: New version: [1.7.1] Old Version: [1.7]
+[2024-04-05 01:08:52] INFO root fetch - processPackages [odoo-addon-report-xlsx]: New version: [17.0.1.0.0.3] Old Version: [17.0.1.0.0.2]
+[2024-04-05 01:08:52] WARNING root fetch - processPackages [fast-templates]: Timeout reached during download
+[2024-04-05 01:08:52] INFO root fetch - processPackages [odoo-addon-auth-signup-verify-email]: Downloading https://files.pythonhosted.org/packages/ca/9d/6fde727a1f4d31f76a34cbdf82ccfc398c94d27b32df001cc9466b4eebd0/odoo_addon_auth_signup_verify_email-16.0.1.0.0.7-py3-none-any.whl
+[2024-04-05 01:08:52] WARNING root fetch - processPackages [py-near]: Timeout reached during download
+[2024-04-05 01:08:52] INFO root fetch - processPackages [odoo-addon-report-py3o]: Downloading https://files.pythonhosted.org/packages/00/bd/cf7db4633d33790d8033d347aa4155b8b55252aa49ae75e0927caf7c4075/odoo_addon_report_py3o-16.0.1.0.1.1-py3-none-any.whl
+[2024-04-05 01:08:52] INFO root fetch - processPackages [odoo-addon-report-xml]: Downloading https://files.pythonhosted.org/packages/7e/75/71e010d2e2a6855b41ce3e8af92c520380a93b1dd131f7826ad669eb8067/odoo_addon_report_xml-17.0.1.0.0.3-py3-none-any.whl
+[2024-04-05 01:08:52] INFO root fetch - processPackages [GraphSL]: Downloading https://files.pythonhosted.org/packages/2d/69/6ed96a88efc76198ccbdf98543554e1ec32d81e2762eb02176a65a703027/GraphSL-0.6.tar.gz
+[2024-04-05 01:08:52] INFO root fetch - processPackages [odoo-addon-report-xlsx]: Downloading https://files.pythonhosted.org/packages/d7/5c/3af1f51c6e0b884beacd11564e734f96c63df7aa4015828efb63d7119d0c/odoo_addon_report_xlsx-17.0.1.0.0.2-py3-none-any.whl
+[2024-04-05 01:08:52] INFO root fetch - processPackages [fast-templates]: Downloading https://files.pythonhosted.org/packages/f5/7c/15456084c4bbbdc917b3210fd690dc6fb9386073a0fafc41e7eba3dba652/fast-templates-0.1.9.tar.gz
+[2024-04-05 01:08:52] INFO root fetch - processPackages [py-near]: Downloading https://files.pythonhosted.org/packages/3e/73/28d02d95d66304797b8d5f4f59e2c20a6e393c56657b991e31c16ca77e9f/py_near-1.1.9.tar.gz
+[2024-04-05 01:08:52] WARNING root fetch - processPackages [odoo-addon-auth-signup-verify-email]: Timeout reached during download
+[2024-04-05 01:08:52] WARNING root fetch - processPackages [odoo-addon-report-py3o]: Timeout reached during download
+[2024-04-05 01:08:52] WARNING root fetch - processPackages [fast-templates]: Timeout reached during download
+[2024-04-05 01:08:52] INFO root fetch - processPackages [fast-templates]: executing diffoscope
+[2024-04-05 01:08:52] INFO root fetch - processPackages [fast-templates]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fast-templates-0.1.8.tar.gz tmp/fast-templates-0.1.9.tar.gz --markdown 20240405/f/fast-templates/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2024-04-05 01:08:52] WARNING root fetch - processPackages [GraphSL]: Timeout reached during download
+[2024-04-05 01:08:52] WARNING root fetch - processPackages [odoo-addon-report-xml]: Timeout reached during download
+[2024-04-05 01:08:52] INFO root fetch - processPackages [zephony]: Downloading https://files.pythonhosted.org/packages/23/4e/58a7459f11947bf9ba19e56ccd99d12fb9d2551018c1c664911c6bb7f8b8/zephony-1.7.tar.gz
+[2024-04-05 01:08:52] WARNING root fetch - processPackages [odoo-addon-report-xlsx]: Timeout reached during download
+[2024-04-05 01:08:52] WARNING root fetch - processPackages [py-near]: Timeout reached during download
+[2024-04-05 01:08:52] INFO root fetch - processPackages [py-near]: executing diffoscope
+[2024-04-05 01:08:52] INFO root fetch - processPackages [py-near]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py_near-1.1.8.tar.gz tmp/py_near-1.1.9.tar.gz --markdown 20240405/p/py-near/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2024-04-05 01:08:52] WARNING root fetch - processPackages [zephony]: Timeout reached during download
+[2024-04-05 01:08:52] INFO root fetch - processPackages [odoo-addon-auth-signup-verify-email]: Downloading https://files.pythonhosted.org/packages/c3/6f/dc9f9d66a1220f82834a7d2c4de076b5e2cfa431ade23649734d9e95aa14/odoo_addon_auth_signup_verify_email-16.0.1.0.1-py3-none-any.whl
+[2024-04-05 01:08:52] INFO root fetch - processPackages [odoo-addon-report-py3o]: Downloading https://files.pythonhosted.org/packages/5c/31/50a55219be151928719c8328b1138803d47d068e7300a9fd06bc9e9498fe/odoo_addon_report_py3o-16.0.1.0.2-py3-none-any.whl
+[2024-04-05 01:08:52] INFO root fetch - processPackages [GraphSL]: Downloading https://files.pythonhosted.org/packages/ff/31/e0eba85372c400aa45f4cea751aec0c87c9d2cfbfaec9d7d970a05b082ef/GraphSL-0.7.tar.gz
+[2024-04-05 01:08:52] INFO root fetch - processPackages [odoo-addon-report-xml]: Downloading https://files.pythonhosted.org/packages/2e/b6/149401a1d9f230d856b9fe43d2df4a64f73f695cc7dcf131892334452afc/odoo_addon_report_xml-17.0.1.0.0.4-py3-none-any.whl
+[2024-04-05 01:08:52] INFO root fetch - processPackages [odoo-addon-report-xlsx]: Downloading https://files.pythonhosted.org/packages/d6/75/d9028fb29e46f62af230a656b61a2573d5da80555bc69ebf10c3c4663760/odoo_addon_report_xlsx-17.0.1.0.0.3-py3-none-any.whl
+[2024-04-05 01:08:52] WARNING root fetch - processPackages [odoo-addon-auth-signup-verify-email]: Timeout reached during download
+[2024-04-05 01:08:52] INFO root fetch - processPackages [odoo-addon-auth-signup-verify-email]: executing diffoscope
+[2024-04-05 01:08:52] INFO root fetch - processPackages [odoo-addon-auth-signup-verify-email]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_auth_signup_verify_email-16.0.1.0.0.7-py3-none-any.whl.zip tmp/odoo_addon_auth_signup_verify_email-16.0.1.0.1-py3-none-any.whl.zip --markdown 20240405/o/odoo-addon-auth-signup-verify-email/16.0.1.0.0.7-16.0.1.0.1/diff.md --exclude *.pyd
+[2024-04-05 01:08:53] WARNING root fetch - processPackages [odoo-addon-report-py3o]: Timeout reached during download
+[2024-04-05 01:08:53] INFO root fetch - processPackages [zephony]: Downloading https://files.pythonhosted.org/packages/d4/07/3a58585053d7bbc86f2256699d3b0da25e0cb65756fb8210b83a882c9d57/zephony-1.7.1.tar.gz
+[2024-04-05 01:08:53] INFO root fetch - processPackages [odoo-addon-report-py3o]: executing diffoscope
+[2024-04-05 01:08:53] INFO root fetch - processPackages [odoo-addon-report-py3o]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_report_py3o-16.0.1.0.1.1-py3-none-any.whl.zip tmp/odoo_addon_report_py3o-16.0.1.0.2-py3-none-any.whl.zip --markdown 20240405/o/odoo-addon-report-py3o/16.0.1.0.1.1-16.0.1.0.2/diff.md --exclude *.pyd
+[2024-04-05 01:08:53] WARNING root fetch - processPackages [GraphSL]: Timeout reached during download
+[2024-04-05 01:08:53] INFO root fetch - processPackages [GraphSL]: executing diffoscope
+[2024-04-05 01:08:53] INFO root fetch - processPackages [GraphSL]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/GraphSL-0.6.tar.gz tmp/GraphSL-0.7.tar.gz --markdown 20240405/G/GraphSL/0.6-0.7/diff.md --exclude *.pyd
+[2024-04-05 01:08:53] WARNING root fetch - processPackages [odoo-addon-report-xml]: Timeout reached during download
+[2024-04-05 01:08:53] INFO root fetch - processPackages [odoo-addon-report-xml]: executing diffoscope
+[2024-04-05 01:08:53] INFO root fetch - processPackages [odoo-addon-report-xml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_report_xml-17.0.1.0.0.3-py3-none-any.whl.zip tmp/odoo_addon_report_xml-17.0.1.0.0.4-py3-none-any.whl.zip --markdown 20240405/o/odoo-addon-report-xml/17.0.1.0.0.3-17.0.1.0.0.4/diff.md --exclude *.pyd
+[2024-04-05 01:08:53] WARNING root fetch - processPackages [odoo-addon-report-xlsx]: Timeout reached during download
+[2024-04-05 01:08:53] INFO root fetch - processPackages [odoo-addon-report-xlsx]: executing diffoscope
+[2024-04-05 01:08:53] INFO root fetch - processPackages [odoo-addon-report-xlsx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_report_xlsx-17.0.1.0.0.2-py3-none-any.whl.zip tmp/odoo_addon_report_xlsx-17.0.1.0.0.3-py3-none-any.whl.zip --markdown 20240405/o/odoo-addon-report-xlsx/17.0.1.0.0.2-17.0.1.0.0.3/diff.md --exclude *.pyd
+[2024-04-05 01:08:53] WARNING root fetch - processPackages [zephony]: Timeout reached during download
+[2024-04-05 01:08:53] INFO root fetch - processPackages [zephony]: executing diffoscope
+[2024-04-05 01:08:53] INFO root fetch - processPackages [zephony]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zephony-1.7.tar.gz tmp/zephony-1.7.1.tar.gz --markdown 20240405/z/zephony/1.7-1.7.1/diff.md --exclude *.pyd
+[2024-04-05 01:08:53] INFO root fetch - processPackages [fast-templates]: Remove: archive file [/home/abi/fetcher/tmp/fast-templates-0.1.8.tar.gz]
+[2024-04-05 01:08:53] INFO root fetch - processPackages [fast-templates]: Remove: archive file [/home/abi/fetcher/tmp/fast-templates-0.1.9.tar.gz]
+[2024-04-05 01:08:53] INFO root fetch - main [MainThread]: End processing [fast-templates]: success
+[2024-04-05 01:08:53] INFO root fetch - processPackages [py-near]: Remove: archive file [/home/abi/fetcher/tmp/py_near-1.1.8.tar.gz]
+[2024-04-05 01:08:53] INFO root fetch - processPackages [py-near]: Remove: archive file [/home/abi/fetcher/tmp/py_near-1.1.9.tar.gz]
+[2024-04-05 01:08:53] INFO root fetch - main [MainThread]: End processing [py-near]: success
+[2024-04-05 01:08:53] INFO root fetch - processPackages [odoo-addon-report-xlsx]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_report_xlsx-17.0.1.0.0.2-py3-none-any.whl.zip]
+[2024-04-05 01:08:53] INFO root fetch - processPackages [odoo-addon-report-xlsx]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_report_xlsx-17.0.1.0.0.3-py3-none-any.whl.zip]
+[2024-04-05 01:08:53] INFO root fetch - main [MainThread]: End processing [odoo-addon-report-xlsx]: success
+[2024-04-05 01:08:54] INFO root fetch - processPackages [GraphSL]: Remove: archive file [/home/abi/fetcher/tmp/GraphSL-0.6.tar.gz]
+[2024-04-05 01:08:54] INFO root fetch - processPackages [GraphSL]: Remove: archive file [/home/abi/fetcher/tmp/GraphSL-0.7.tar.gz]
+[2024-04-05 01:08:54] INFO root fetch - main [MainThread]: End processing [GraphSL]: success
+[2024-04-05 01:08:54] INFO root fetch - processPackages [odoo-addon-auth-signup-verify-email]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_auth_signup_verify_email-16.0.1.0.0.7-py3-none-any.whl.zip]
+[2024-04-05 01:08:54] INFO root fetch - processPackages [odoo-addon-auth-signup-verify-email]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_auth_signup_verify_email-16.0.1.0.1-py3-none-any.whl.zip]
+[2024-04-05 01:08:54] INFO root fetch - main [MainThread]: End processing [odoo-addon-auth-signup-verify-email]: success
+[2024-04-05 01:08:54] INFO root fetch - processPackages [odoo-addon-report-py3o]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_report_py3o-16.0.1.0.1.1-py3-none-any.whl.zip]
+[2024-04-05 01:08:54] INFO root fetch - processPackages [odoo-addon-report-py3o]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_report_py3o-16.0.1.0.2-py3-none-any.whl.zip]
+[2024-04-05 01:08:54] INFO root fetch - main [MainThread]: End processing [odoo-addon-report-py3o]: success
+[2024-04-05 01:08:54] INFO root fetch - processPackages [zephony]: Remove: archive file [/home/abi/fetcher/tmp/zephony-1.7.tar.gz]
+[2024-04-05 01:08:54] INFO root fetch - processPackages [zephony]: Remove: archive file [/home/abi/fetcher/tmp/zephony-1.7.1.tar.gz]
+[2024-04-05 01:08:54] INFO root fetch - main [MainThread]: End processing [zephony]: success
+[2024-04-05 01:08:54] INFO root fetch - processPackages [odoo-addon-report-xml]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_report_xml-17.0.1.0.0.3-py3-none-any.whl.zip]
+[2024-04-05 01:08:54] INFO root fetch - processPackages [odoo-addon-report-xml]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_report_xml-17.0.1.0.0.4-py3-none-any.whl.zip]
+[2024-04-05 01:08:54] INFO root fetch - main [MainThread]: End processing [odoo-addon-report-xml]: success
+[2024-04-05 01:08:54] INFO root fetch - main [MainThread]: Store serial: [22628690]
