@@ -1289,3 +1289,33 @@
 [2024-04-05 01:02:20] INFO root fetch - processPackages [yowasp-wavedrom]: Remove: archive file [/home/abi/fetcher/tmp/yowasp_wavedrom-3.5.0.4-py3-none-any.whl.zip]
 [2024-04-05 01:02:20] INFO root fetch - main [MainThread]: End processing [yowasp-wavedrom]: success
 [2024-04-05 01:02:20] INFO root fetch - main [MainThread]: Store serial: [22628646]
+[2024-04-05 01:04:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22628646]
+[2024-04-05 01:04:28] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-05 01:04:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: langtrace-python-sdk
+[2024-04-05 01:04:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: surfkit
+[2024-04-05 01:04:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: grooveshop-django-api
+[2024-04-05 01:04:28] INFO root fetch - processPackages [surfkit]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-05 01:04:28] INFO root fetch - processPackages [surfkit]: Downloading https://files.pythonhosted.org/packages/00/dc/343980c083ea4ae8ce963639c51b39c0b3ba7869e96ca748256ff1b67925/surfkit-0.1.8.tar.gz
+[2024-04-05 01:04:28] INFO root fetch - processPackages [langtrace-python-sdk]: New version: [1.2.9] Old Version: [1.2.8]
+[2024-04-05 01:04:28] INFO root fetch - processPackages [grooveshop-django-api]: New version: [0.96.0] Old Version: [0.95.0]
+[2024-04-05 01:04:29] WARNING root fetch - processPackages [surfkit]: Timeout reached during download
+[2024-04-05 01:04:29] INFO root fetch - processPackages [langtrace-python-sdk]: Downloading https://files.pythonhosted.org/packages/a4/ef/481e0ed40325edb8017528b343798616b10c4cdd501969ba15e16d95d4db/langtrace_python_sdk-1.2.8.tar.gz
+[2024-04-05 01:04:29] INFO root fetch - processPackages [grooveshop-django-api]: Downloading https://files.pythonhosted.org/packages/ab/5b/f140b67e4699e59d0ba54fae5b0c8aa9e48067a982ba66102b99b0220e2b/grooveshop_django_api-0.95.0.tar.gz
+[2024-04-05 01:04:29] WARNING root fetch - processPackages [grooveshop-django-api]: Skipping package: exceeds size limit 33612186>=10485760
+[2024-04-05 01:04:29] INFO root fetch - main [MainThread]: End processing [grooveshop-django-api] error
+[2024-04-05 01:04:29] INFO root fetch - processPackages [surfkit]: Downloading https://files.pythonhosted.org/packages/e2/bd/4b842eb12eca8c3a3ea5d2915b52f91a3259c7e0160d2a0a88aeb13ae4a7/surfkit-0.1.9.tar.gz
+[2024-04-05 01:04:29] WARNING root fetch - processPackages [langtrace-python-sdk]: Timeout reached during download
+[2024-04-05 01:04:29] WARNING root fetch - processPackages [surfkit]: Timeout reached during download
+[2024-04-05 01:04:29] INFO root fetch - processPackages [surfkit]: executing diffoscope
+[2024-04-05 01:04:29] INFO root fetch - processPackages [surfkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/surfkit-0.1.8.tar.gz tmp/surfkit-0.1.9.tar.gz --markdown 20240405/s/surfkit/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2024-04-05 01:04:29] INFO root fetch - processPackages [langtrace-python-sdk]: Downloading https://files.pythonhosted.org/packages/c1/d6/f58d5bf271b0dd4701d47b4b17041a9bc5e9129514abef119cd8be7fbb48/langtrace_python_sdk-1.2.9.tar.gz
+[2024-04-05 01:04:29] WARNING root fetch - processPackages [langtrace-python-sdk]: Timeout reached during download
+[2024-04-05 01:04:29] INFO root fetch - processPackages [langtrace-python-sdk]: executing diffoscope
+[2024-04-05 01:04:29] INFO root fetch - processPackages [langtrace-python-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langtrace_python_sdk-1.2.8.tar.gz tmp/langtrace_python_sdk-1.2.9.tar.gz --markdown 20240405/l/langtrace-python-sdk/1.2.8-1.2.9/diff.md --exclude *.pyd
+[2024-04-05 01:04:29] INFO root fetch - processPackages [surfkit]: Remove: archive file [/home/abi/fetcher/tmp/surfkit-0.1.8.tar.gz]
+[2024-04-05 01:04:29] INFO root fetch - processPackages [surfkit]: Remove: archive file [/home/abi/fetcher/tmp/surfkit-0.1.9.tar.gz]
+[2024-04-05 01:04:29] INFO root fetch - main [MainThread]: End processing [surfkit]: success
+[2024-04-05 01:04:30] INFO root fetch - processPackages [langtrace-python-sdk]: Remove: archive file [/home/abi/fetcher/tmp/langtrace_python_sdk-1.2.8.tar.gz]
+[2024-04-05 01:04:30] INFO root fetch - processPackages [langtrace-python-sdk]: Remove: archive file [/home/abi/fetcher/tmp/langtrace_python_sdk-1.2.9.tar.gz]
+[2024-04-05 01:04:30] INFO root fetch - main [MainThread]: End processing [langtrace-python-sdk]: success
+[2024-04-05 01:04:30] INFO root fetch - main [MainThread]: Store serial: [22628654]
