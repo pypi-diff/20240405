@@ -90,3 +90,90 @@
 [2024-04-05 00:03:13] INFO root fetch - processPackages [trame-client]: Remove: archive file [/home/abi/fetcher/tmp/trame-client-2.9.4.tar.gz]
 [2024-04-05 00:03:13] INFO root fetch - main [MainThread]: End processing [trame-client]: success
 [2024-04-05 00:03:13] INFO root fetch - main [MainThread]: Store serial: [22628177]
+[2024-04-05 00:05:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22628177]
+[2024-04-05 00:05:21] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-05 00:05:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo-addon-stock-release-channel-process-end-time
+[2024-04-05 00:05:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pysuso
+[2024-04-05 00:05:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: licensecheck
+[2024-04-05 00:05:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: flowdapt
+[2024-04-05 00:05:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: secator
+[2024-04-05 00:05:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: utils-huna
+[2024-04-05 00:05:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: gwpopulation
+[2024-04-05 00:05:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: seaplane
+[2024-04-05 00:05:22] INFO root fetch - processPackages [pysuso]: New version: [0.3.0] Old Version: [0.2.0]
+[2024-04-05 00:05:22] INFO root fetch - processPackages [utils-huna]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-05 00:05:22] INFO root fetch - processPackages [secator]: New version: [0.1.0] Old Version: [0.0.1]
+[2024-04-05 00:05:22] INFO root fetch - processPackages [gwpopulation]: New version: [1.0.0rc1] Old Version: [1.0.0rc0]
+[2024-04-05 00:05:22] INFO root fetch - processPackages [flowdapt]: New version: [0.1.8] Old Version: [0.1.7]
+[2024-04-05 00:05:22] INFO root fetch - processPackages [licensecheck]: New version: [2024.1.5] Old Version: [2024.1.4]
+[2024-04-05 00:05:22] INFO root fetch - processPackages [odoo-addon-stock-release-channel-process-end-time]: New version: [16.0.1.7.0] Old Version: [16.0.1.6.0]
+[2024-04-05 00:05:22] INFO root fetch - processPackages [seaplane]: New version: [0.6a9] Old Version: [0.6a8]
+[2024-04-05 00:05:22] INFO root fetch - processPackages [pysuso]: Downloading https://files.pythonhosted.org/packages/03/7c/8a123a64ee50388b3f707d6bdea63efb5aa85721bd739abc4a59b7d6a3c8/pysuso-0.2.0.tar.gz
+[2024-04-05 00:05:22] INFO root fetch - processPackages [odoo-addon-stock-release-channel-process-end-time]: Downloading https://files.pythonhosted.org/packages/0d/d3/0b039dda643708bb722fef90a95a2920e17823fc9998f0e4bb0845dd6685/odoo_addon_stock_release_channel_process_end_time-16.0.1.6.0-py3-none-any.whl
+[2024-04-05 00:05:22] INFO root fetch - processPackages [secator]: Downloading https://files.pythonhosted.org/packages/dd/3c/d998b3c199f9ffd705660a3afff30305448106b3f09d10d85ec96788e24d/secator-0.0.1.tar.gz
+[2024-04-05 00:05:22] INFO root fetch - processPackages [utils-huna]: Downloading https://files.pythonhosted.org/packages/c0/a1/c42c13c10f377ab892890655a651d0b4ff4f873f4b9e88551448c272fc3f/utils_huna-0.1.8.tar.gz
+[2024-04-05 00:05:22] INFO root fetch - processPackages [flowdapt]: Downloading https://files.pythonhosted.org/packages/0d/f2/6d57cea64a45b8519a1118dff4226e29144c63e1b12767f12417fa2ffa2a/flowdapt-0.1.7-py3-none-any.whl
+[2024-04-05 00:05:22] INFO root fetch - processPackages [seaplane]: Downloading https://files.pythonhosted.org/packages/04/dc/2ce684388fd09571ac42495b70c05571bfe81f9789cc84e483e1368b8c5c/seaplane-0.6a8.tar.gz
+[2024-04-05 00:05:22] INFO root fetch - processPackages [licensecheck]: Downloading https://files.pythonhosted.org/packages/a9/35/827ff6805abfb1e60b03deac8c1186725eefdba66e9437fb0db29801eefd/licensecheck-2024.1.4.tar.gz
+[2024-04-05 00:05:22] INFO root fetch - processPackages [gwpopulation]: Downloading https://files.pythonhosted.org/packages/7f/b1/8a86b6f350f423def2c4dbc404e7633fe835865abd742e3872b02af22219/gwpopulation-1.0.0rc0.tar.gz
+[2024-04-05 00:05:22] WARNING root fetch - processPackages [pysuso]: Timeout reached during download
+[2024-04-05 00:05:22] WARNING root fetch - processPackages [odoo-addon-stock-release-channel-process-end-time]: Timeout reached during download
+[2024-04-05 00:05:22] WARNING root fetch - processPackages [utils-huna]: Timeout reached during download
+[2024-04-05 00:05:22] WARNING root fetch - processPackages [licensecheck]: Timeout reached during download
+[2024-04-05 00:05:22] WARNING root fetch - processPackages [flowdapt]: Timeout reached during download
+[2024-04-05 00:05:22] WARNING root fetch - processPackages [secator]: Timeout reached during download
+[2024-04-05 00:05:22] WARNING root fetch - processPackages [seaplane]: Timeout reached during download
+[2024-04-05 00:05:22] INFO root fetch - processPackages [pysuso]: Downloading https://files.pythonhosted.org/packages/45/41/0399d8197365c7fa752975f6f5f23316ff0d88f66c5414b887b32b224758/pysuso-0.3.0.tar.gz
+[2024-04-05 00:05:22] INFO root fetch - processPackages [odoo-addon-stock-release-channel-process-end-time]: Downloading https://files.pythonhosted.org/packages/a1/ae/fab6279633fd3593f5f435bd49ede3c838cafe401a2ce6142269a35455ec/odoo_addon_stock_release_channel_process_end_time-16.0.1.7.0-py3-none-any.whl
+[2024-04-05 00:05:22] INFO root fetch - processPackages [utils-huna]: Downloading https://files.pythonhosted.org/packages/ca/cd/f7d0ae814607b4075cda6e27f7a524abf866c9a13900de1ccd60b4c278fb/utils_huna-0.1.9.tar.gz
+[2024-04-05 00:05:22] INFO root fetch - processPackages [flowdapt]: Downloading https://files.pythonhosted.org/packages/49/3d/d83e7ab254c36843a6878f8f46f488c7b3a5f24f7acc2b4f7eeeb8ed76b4/flowdapt-0.1.8-py3-none-any.whl
+[2024-04-05 00:05:22] INFO root fetch - processPackages [licensecheck]: Downloading https://files.pythonhosted.org/packages/d8/56/d8f2c4be6fa3cb5c46d9545580ca1cf37e55f7a8ca7d0a2c7d371d514c98/licensecheck-2024.1.5.tar.gz
+[2024-04-05 00:05:22] INFO root fetch - processPackages [secator]: Downloading https://files.pythonhosted.org/packages/56/58/30191c13c09ed7320562a523d510a7c55e7d5fde3aaa9102c88a0d422f27/secator-0.1.0.tar.gz
+[2024-04-05 00:05:22] WARNING root fetch - processPackages [pysuso]: Timeout reached during download
+[2024-04-05 00:05:22] INFO root fetch - processPackages [pysuso]: executing diffoscope
+[2024-04-05 00:05:22] INFO root fetch - processPackages [pysuso]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pysuso-0.2.0.tar.gz tmp/pysuso-0.3.0.tar.gz --markdown 20240405/p/pysuso/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2024-04-05 00:05:22] WARNING root fetch - processPackages [odoo-addon-stock-release-channel-process-end-time]: Timeout reached during download
+[2024-04-05 00:05:22] INFO root fetch - processPackages [odoo-addon-stock-release-channel-process-end-time]: executing diffoscope
+[2024-04-05 00:05:22] INFO root fetch - processPackages [odoo-addon-stock-release-channel-process-end-time]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_stock_release_channel_process_end_time-16.0.1.6.0-py3-none-any.whl.zip tmp/odoo_addon_stock_release_channel_process_end_time-16.0.1.7.0-py3-none-any.whl.zip --markdown 20240405/o/odoo-addon-stock-release-channel-process-end-time/16.0.1.6.0-16.0.1.7.0/diff.md --exclude *.pyd
+[2024-04-05 00:05:22] WARNING root fetch - processPackages [secator]: Skipping package: exceeds size limit 23065174>=10485760
+[2024-04-05 00:05:22] INFO root fetch - main [MainThread]: End processing [secator] error
+[2024-04-05 00:05:22] WARNING root fetch - processPackages [utils-huna]: Timeout reached during download
+[2024-04-05 00:05:22] INFO root fetch - processPackages [utils-huna]: executing diffoscope
+[2024-04-05 00:05:22] INFO root fetch - processPackages [utils-huna]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/utils_huna-0.1.8.tar.gz tmp/utils_huna-0.1.9.tar.gz --markdown 20240405/u/utils-huna/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2024-04-05 00:05:22] INFO root fetch - processPackages [seaplane]: Downloading https://files.pythonhosted.org/packages/f1/5a/1fe41b722a3a104c44fe09fec599272ee8aef30de93b169fde92a324d98d/seaplane-0.6a9.tar.gz
+[2024-04-05 00:05:22] WARNING root fetch - processPackages [licensecheck]: Timeout reached during download
+[2024-04-05 00:05:22] INFO root fetch - processPackages [licensecheck]: executing diffoscope
+[2024-04-05 00:05:22] INFO root fetch - processPackages [licensecheck]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/licensecheck-2024.1.4.tar.gz tmp/licensecheck-2024.1.5.tar.gz --markdown 20240405/l/licensecheck/2024.1.4-2024.1.5/diff.md --exclude *.pyd
+[2024-04-05 00:05:22] WARNING root fetch - processPackages [flowdapt]: Timeout reached during download
+[2024-04-05 00:05:22] INFO root fetch - processPackages [flowdapt]: executing diffoscope
+[2024-04-05 00:05:22] INFO root fetch - processPackages [flowdapt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flowdapt-0.1.7-py3-none-any.whl.zip tmp/flowdapt-0.1.8-py3-none-any.whl.zip --markdown 20240405/f/flowdapt/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2024-04-05 00:05:23] WARNING root fetch - processPackages [seaplane]: Timeout reached during download
+[2024-04-05 00:05:23] INFO root fetch - processPackages [seaplane]: executing diffoscope
+[2024-04-05 00:05:23] INFO root fetch - processPackages [seaplane]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seaplane-0.6a8.tar.gz tmp/seaplane-0.6a9.tar.gz --markdown 20240405/s/seaplane/0.6a8-0.6a9/diff.md --exclude *.pyd
+[2024-04-05 00:05:23] WARNING root fetch - processPackages [gwpopulation]: Timeout reached during download
+[2024-04-05 00:05:23] INFO root fetch - processPackages [pysuso]: Remove: archive file [/home/abi/fetcher/tmp/pysuso-0.2.0.tar.gz]
+[2024-04-05 00:05:23] INFO root fetch - processPackages [pysuso]: Remove: archive file [/home/abi/fetcher/tmp/pysuso-0.3.0.tar.gz]
+[2024-04-05 00:05:23] INFO root fetch - main [MainThread]: End processing [pysuso]: success
+[2024-04-05 00:05:23] INFO root fetch - processPackages [utils-huna]: Remove: archive file [/home/abi/fetcher/tmp/utils_huna-0.1.8.tar.gz]
+[2024-04-05 00:05:23] INFO root fetch - processPackages [utils-huna]: Remove: archive file [/home/abi/fetcher/tmp/utils_huna-0.1.9.tar.gz]
+[2024-04-05 00:05:23] INFO root fetch - main [MainThread]: End processing [utils-huna]: success
+[2024-04-05 00:05:23] INFO root fetch - processPackages [licensecheck]: Remove: archive file [/home/abi/fetcher/tmp/licensecheck-2024.1.4.tar.gz]
+[2024-04-05 00:05:23] INFO root fetch - processPackages [licensecheck]: Remove: archive file [/home/abi/fetcher/tmp/licensecheck-2024.1.5.tar.gz]
+[2024-04-05 00:05:23] INFO root fetch - main [MainThread]: End processing [licensecheck]: success
+[2024-04-05 00:05:23] INFO root fetch - processPackages [odoo-addon-stock-release-channel-process-end-time]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_stock_release_channel_process_end_time-16.0.1.6.0-py3-none-any.whl.zip]
+[2024-04-05 00:05:23] INFO root fetch - processPackages [odoo-addon-stock-release-channel-process-end-time]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_stock_release_channel_process_end_time-16.0.1.7.0-py3-none-any.whl.zip]
+[2024-04-05 00:05:23] INFO root fetch - main [MainThread]: End processing [odoo-addon-stock-release-channel-process-end-time]: success
+[2024-04-05 00:05:23] INFO root fetch - processPackages [seaplane]: Remove: archive file [/home/abi/fetcher/tmp/seaplane-0.6a8.tar.gz]
+[2024-04-05 00:05:23] INFO root fetch - processPackages [seaplane]: Remove: archive file [/home/abi/fetcher/tmp/seaplane-0.6a9.tar.gz]
+[2024-04-05 00:05:23] INFO root fetch - main [MainThread]: End processing [seaplane]: success
+[2024-04-05 00:05:23] INFO root fetch - processPackages [gwpopulation]: Downloading https://files.pythonhosted.org/packages/fc/15/62e23df3dc9a26e98e02c3796146c36c5d874619fae4051c680815aea792/gwpopulation-1.0.0rc1.tar.gz
+[2024-04-05 00:05:24] INFO root fetch - processPackages [flowdapt]: Remove: archive file [/home/abi/fetcher/tmp/flowdapt-0.1.7-py3-none-any.whl.zip]
+[2024-04-05 00:05:24] INFO root fetch - processPackages [flowdapt]: Remove: archive file [/home/abi/fetcher/tmp/flowdapt-0.1.8-py3-none-any.whl.zip]
+[2024-04-05 00:05:24] INFO root fetch - main [MainThread]: End processing [flowdapt]: success
+[2024-04-05 00:05:24] WARNING root fetch - processPackages [gwpopulation]: Timeout reached during download
+[2024-04-05 00:05:24] INFO root fetch - processPackages [gwpopulation]: executing diffoscope
+[2024-04-05 00:05:24] INFO root fetch - processPackages [gwpopulation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gwpopulation-1.0.0rc0.tar.gz tmp/gwpopulation-1.0.0rc1.tar.gz --markdown 20240405/g/gwpopulation/1.0.0rc0-1.0.0rc1/diff.md --exclude *.pyd
+[2024-04-05 00:05:25] INFO root fetch - processPackages [gwpopulation]: Remove: archive file [/home/abi/fetcher/tmp/gwpopulation-1.0.0rc0.tar.gz]
+[2024-04-05 00:05:25] INFO root fetch - processPackages [gwpopulation]: Remove: archive file [/home/abi/fetcher/tmp/gwpopulation-1.0.0rc1.tar.gz]
+[2024-04-05 00:05:25] INFO root fetch - main [MainThread]: End processing [gwpopulation]: success
+[2024-04-05 00:05:25] INFO root fetch - main [MainThread]: Store serial: [22628199]
