@@ -1460,3 +1460,31 @@
 [2024-04-05 01:08:54] INFO root fetch - processPackages [odoo-addon-report-xml]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_report_xml-17.0.1.0.0.4-py3-none-any.whl.zip]
 [2024-04-05 01:08:54] INFO root fetch - main [MainThread]: End processing [odoo-addon-report-xml]: success
 [2024-04-05 01:08:54] INFO root fetch - main [MainThread]: Store serial: [22628690]
+[2024-04-05 01:10:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22628690]
+[2024-04-05 01:11:03] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-05 01:11:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: qbraid-core
+[2024-04-05 01:11:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: user-context-remote
+[2024-04-05 01:11:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: antur
+[2024-04-05 01:11:03] INFO root fetch - processPackages [user-context-remote]: New version: [0.0.71] Old Version: [0.0.70]
+[2024-04-05 01:11:03] INFO root fetch - processPackages [user-context-remote]: Downloading https://files.pythonhosted.org/packages/22/81/e7553640ae58558748f229e315b7ba7e3306f4dd923ed990bbd6fb2a90f6/user-context-remote-0.0.70.tar.gz
+[2024-04-05 01:11:03] WARNING root fetch - processPackages [antur]: Skipping, unable to determine old version
+[2024-04-05 01:11:03] INFO root fetch - main [MainThread]: End processing [antur] error
+[2024-04-05 01:11:03] INFO root fetch - processPackages [qbraid-core]: New version: [0.1.0.dev4] Old Version: [0.1.0.dev3]
+[2024-04-05 01:11:03] WARNING root fetch - processPackages [user-context-remote]: Timeout reached during download
+[2024-04-05 01:11:03] INFO root fetch - processPackages [qbraid-core]: Downloading https://files.pythonhosted.org/packages/66/03/613aa6ca188c1e5d3284a3707ac08032944a2ed19917591cd6623e5dcd05/qbraid-core-0.1.0.dev3.tar.gz
+[2024-04-05 01:11:03] INFO root fetch - processPackages [user-context-remote]: Downloading https://files.pythonhosted.org/packages/62/d2/7c8d71d3f2e2b075f2e858583ebeaaf4f199b5e257556e740d5c785a34b1/user-context-remote-0.0.71.tar.gz
+[2024-04-05 01:11:03] WARNING root fetch - processPackages [qbraid-core]: Timeout reached during download
+[2024-04-05 01:11:03] WARNING root fetch - processPackages [user-context-remote]: Timeout reached during download
+[2024-04-05 01:11:03] INFO root fetch - processPackages [user-context-remote]: executing diffoscope
+[2024-04-05 01:11:03] INFO root fetch - processPackages [user-context-remote]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/user-context-remote-0.0.70.tar.gz tmp/user-context-remote-0.0.71.tar.gz --markdown 20240405/u/user-context-remote/0.0.70-0.0.71/diff.md --exclude *.pyd
+[2024-04-05 01:11:03] INFO root fetch - processPackages [qbraid-core]: Downloading https://files.pythonhosted.org/packages/ab/6c/64ba9683d74923bfc86db687d0a858e36a4fd7489379072a0147bc0a6308/qbraid-core-0.1.0.dev4.tar.gz
+[2024-04-05 01:11:03] WARNING root fetch - processPackages [qbraid-core]: Timeout reached during download
+[2024-04-05 01:11:03] INFO root fetch - processPackages [qbraid-core]: executing diffoscope
+[2024-04-05 01:11:03] INFO root fetch - processPackages [qbraid-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qbraid-core-0.1.0.dev3.tar.gz tmp/qbraid-core-0.1.0.dev4.tar.gz --markdown 20240405/q/qbraid-core/0.1.0.dev3-0.1.0.dev4/diff.md --exclude *.pyd
+[2024-04-05 01:11:04] INFO root fetch - processPackages [user-context-remote]: Remove: archive file [/home/abi/fetcher/tmp/user-context-remote-0.0.70.tar.gz]
+[2024-04-05 01:11:04] INFO root fetch - processPackages [user-context-remote]: Remove: archive file [/home/abi/fetcher/tmp/user-context-remote-0.0.71.tar.gz]
+[2024-04-05 01:11:04] INFO root fetch - main [MainThread]: End processing [user-context-remote]: success
+[2024-04-05 01:11:04] INFO root fetch - processPackages [qbraid-core]: Remove: archive file [/home/abi/fetcher/tmp/qbraid-core-0.1.0.dev3.tar.gz]
+[2024-04-05 01:11:04] INFO root fetch - processPackages [qbraid-core]: Remove: archive file [/home/abi/fetcher/tmp/qbraid-core-0.1.0.dev4.tar.gz]
+[2024-04-05 01:11:04] INFO root fetch - main [MainThread]: End processing [qbraid-core]: success
+[2024-04-05 01:11:04] INFO root fetch - main [MainThread]: Store serial: [22628703]
