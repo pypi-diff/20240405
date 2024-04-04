@@ -2006,3 +2006,28 @@
 [2024-04-05 01:33:44] INFO root fetch - processPackages [azure-functions-extension-base]: Remove: archive file [/home/abi/fetcher/tmp/azure-functions-extension-base-1.0.0a4.tar.gz]
 [2024-04-05 01:33:44] INFO root fetch - main [MainThread]: End processing [azure-functions-extension-base]: success
 [2024-04-05 01:33:44] INFO root fetch - main [MainThread]: Store serial: [22628883]
+[2024-04-05 01:35:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22628883]
+[2024-04-05 01:35:54] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-05 01:35:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pybob-sdk
+[2024-04-05 01:35:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: yt-dlp
+[2024-04-05 01:35:54] INFO root fetch - processPackages [pybob-sdk]: New version: [0.1.81] Old Version: [0.1.8]
+[2024-04-05 01:35:54] INFO root fetch - processPackages [yt-dlp]: New version: [2024.4.3.233315.dev0] Old Version: [2024.4.1.232704.dev0]
+[2024-04-05 01:35:54] INFO root fetch - processPackages [pybob-sdk]: Downloading https://files.pythonhosted.org/packages/79/ee/05068cf2dbdf6b96850dc5de65d7287e104737460420c5fbe1c9957c666f/pybob_sdk-0.1.8.tar.gz
+[2024-04-05 01:35:54] WARNING root fetch - processPackages [pybob-sdk]: Timeout reached during download
+[2024-04-05 01:35:54] INFO root fetch - processPackages [yt-dlp]: Downloading https://files.pythonhosted.org/packages/29/7e/936f468700d556d35bc0df1a7cae77aa3e15090cfbc114428a0bb52d2cf0/yt_dlp-2024.4.1.232704.dev0.tar.gz
+[2024-04-05 01:35:54] INFO root fetch - processPackages [pybob-sdk]: Downloading https://files.pythonhosted.org/packages/40/77/ee6d022e61e41b7eac8425fad1c6a7256fbc163fea295a319e2159ac5bde/pybob_sdk-0.1.81.tar.gz
+[2024-04-05 01:35:54] WARNING root fetch - processPackages [pybob-sdk]: Timeout reached during download
+[2024-04-05 01:35:54] INFO root fetch - processPackages [pybob-sdk]: executing diffoscope
+[2024-04-05 01:35:54] INFO root fetch - processPackages [pybob-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pybob_sdk-0.1.8.tar.gz tmp/pybob_sdk-0.1.81.tar.gz --markdown 20240405/p/pybob-sdk/0.1.8-0.1.81/diff.md --exclude *.pyd
+[2024-04-05 01:35:54] WARNING root fetch - processPackages [yt-dlp]: Timeout reached during download
+[2024-04-05 01:35:54] INFO root fetch - processPackages [yt-dlp]: Downloading https://files.pythonhosted.org/packages/74/52/68228e16ff6c748229682306118bdd516395e746ff4ed15ca15b590f3298/yt_dlp-2024.4.3.233315.dev0.tar.gz
+[2024-04-05 01:35:55] INFO root fetch - processPackages [pybob-sdk]: Remove: archive file [/home/abi/fetcher/tmp/pybob_sdk-0.1.8.tar.gz]
+[2024-04-05 01:35:55] INFO root fetch - processPackages [pybob-sdk]: Remove: archive file [/home/abi/fetcher/tmp/pybob_sdk-0.1.81.tar.gz]
+[2024-04-05 01:35:55] INFO root fetch - main [MainThread]: End processing [pybob-sdk]: success
+[2024-04-05 01:35:55] WARNING root fetch - processPackages [yt-dlp]: Timeout reached during download
+[2024-04-05 01:35:55] INFO root fetch - processPackages [yt-dlp]: executing diffoscope
+[2024-04-05 01:35:55] INFO root fetch - processPackages [yt-dlp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yt_dlp-2024.4.1.232704.dev0.tar.gz tmp/yt_dlp-2024.4.3.233315.dev0.tar.gz --markdown 20240405/y/yt-dlp/2024.4.1.232704.dev0-2024.4.3.233315.dev0/diff.md --exclude *.pyd
+[2024-04-05 01:36:00] INFO root fetch - processPackages [yt-dlp]: Remove: archive file [/home/abi/fetcher/tmp/yt_dlp-2024.4.1.232704.dev0.tar.gz]
+[2024-04-05 01:36:00] INFO root fetch - processPackages [yt-dlp]: Remove: archive file [/home/abi/fetcher/tmp/yt_dlp-2024.4.3.233315.dev0.tar.gz]
+[2024-04-05 01:36:00] INFO root fetch - main [MainThread]: End processing [yt-dlp]: success
+[2024-04-05 01:36:00] INFO root fetch - main [MainThread]: Store serial: [22628891]
