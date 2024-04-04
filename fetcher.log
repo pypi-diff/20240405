@@ -1012,3 +1012,39 @@
 [2024-04-05 00:44:43] INFO root fetch - processPackages [squirrels]: Remove: archive file [/home/abi/fetcher/tmp/squirrels-0.2.2.tar.gz]
 [2024-04-05 00:44:43] INFO root fetch - main [MainThread]: End processing [squirrels]: success
 [2024-04-05 00:44:43] INFO root fetch - main [MainThread]: Store serial: [22628573]
+[2024-04-05 00:46:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22628573]
+[2024-04-05 00:46:51] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-05 00:46:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: natsio
+[2024-04-05 00:46:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: finisterra
+[2024-04-05 00:46:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dublib
+[2024-04-05 00:46:51] INFO root fetch - processPackages [dublib]: New version: [0.4.0] Old Version: [0.3.1]
+[2024-04-05 00:46:51] INFO root fetch - processPackages [natsio]: New version: [0.2.1] Old Version: [0.2.0]
+[2024-04-05 00:46:51] INFO root fetch - processPackages [finisterra]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-05 00:46:51] INFO root fetch - processPackages [natsio]: Downloading https://files.pythonhosted.org/packages/08/2c/0046b95fa07cd838106c1ce4aee775e79356ad39bf9aaa61244a58de2870/natsio-0.2.0.tar.gz
+[2024-04-05 00:46:51] INFO root fetch - processPackages [finisterra]: Downloading https://files.pythonhosted.org/packages/b6/bf/195a1850e81169f476d3d3ca9ef8c21c89088d98c5739b2e6b3e241d7ac4/finisterra-1.0.8.tar.gz
+[2024-04-05 00:46:51] INFO root fetch - processPackages [dublib]: Downloading https://files.pythonhosted.org/packages/eb/44/089f372aa06d1c7aee66929e0bbc55f6090e8632a61264a2a8105d05e478/dublib-0.3.1.tar.gz
+[2024-04-05 00:46:52] WARNING root fetch - processPackages [natsio]: Timeout reached during download
+[2024-04-05 00:46:52] WARNING root fetch - processPackages [dublib]: Timeout reached during download
+[2024-04-05 00:46:52] WARNING root fetch - processPackages [finisterra]: Timeout reached during download
+[2024-04-05 00:46:52] INFO root fetch - processPackages [natsio]: Downloading https://files.pythonhosted.org/packages/53/84/e2ad881c2016b63d575694071dcc8fffd6465e9c8426d0354acf95324d62/natsio-0.2.1.tar.gz
+[2024-04-05 00:46:52] INFO root fetch - processPackages [dublib]: Downloading https://files.pythonhosted.org/packages/12/5b/eec9a7138f2a0642d61c016f683c5b08159f93f097a33ecf36c16d0c863c/dublib-0.4.0.tar.gz
+[2024-04-05 00:46:52] INFO root fetch - processPackages [finisterra]: Downloading https://files.pythonhosted.org/packages/68/8a/02f80cdb16a2f8155583c78bc947832a816e1d8d728091c4ac97d9225473/finisterra-1.0.9.tar.gz
+[2024-04-05 00:46:52] WARNING root fetch - processPackages [natsio]: Timeout reached during download
+[2024-04-05 00:46:52] INFO root fetch - processPackages [natsio]: executing diffoscope
+[2024-04-05 00:46:52] INFO root fetch - processPackages [natsio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/natsio-0.2.0.tar.gz tmp/natsio-0.2.1.tar.gz --markdown 20240405/n/natsio/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2024-04-05 00:46:52] WARNING root fetch - processPackages [dublib]: Timeout reached during download
+[2024-04-05 00:46:52] INFO root fetch - processPackages [dublib]: executing diffoscope
+[2024-04-05 00:46:52] INFO root fetch - processPackages [dublib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dublib-0.3.1.tar.gz tmp/dublib-0.4.0.tar.gz --markdown 20240405/d/dublib/0.3.1-0.4.0/diff.md --exclude *.pyd
+[2024-04-05 00:46:52] WARNING root fetch - processPackages [finisterra]: Timeout reached during download
+[2024-04-05 00:46:52] INFO root fetch - processPackages [finisterra]: executing diffoscope
+[2024-04-05 00:46:52] INFO root fetch - processPackages [finisterra]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/finisterra-1.0.8.tar.gz tmp/finisterra-1.0.9.tar.gz --markdown 20240405/f/finisterra/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2024-04-05 00:46:53] INFO root fetch - processPackages [natsio]: Remove: archive file [/home/abi/fetcher/tmp/natsio-0.2.0.tar.gz]
+[2024-04-05 00:46:53] INFO root fetch - processPackages [natsio]: Remove: archive file [/home/abi/fetcher/tmp/natsio-0.2.1.tar.gz]
+[2024-04-05 00:46:53] INFO root fetch - main [MainThread]: End processing [natsio]: success
+[2024-04-05 00:46:53] INFO root fetch - processPackages [dublib]: Remove: archive file [/home/abi/fetcher/tmp/dublib-0.3.1.tar.gz]
+[2024-04-05 00:46:53] INFO root fetch - processPackages [dublib]: Remove: archive file [/home/abi/fetcher/tmp/dublib-0.4.0.tar.gz]
+[2024-04-05 00:46:53] INFO root fetch - main [MainThread]: End processing [dublib]: success
+[2024-04-05 00:46:53] INFO root fetch - processPackages [finisterra]: Remove: archive file [/home/abi/fetcher/tmp/finisterra-1.0.8.tar.gz]
+[2024-04-05 00:46:53] INFO root fetch - processPackages [finisterra]: Remove: archive file [/home/abi/fetcher/tmp/finisterra-1.0.9.tar.gz]
+[2024-04-05 00:46:53] INFO root fetch - main [MainThread]: End processing [finisterra]: success
+[2024-04-05 00:46:53] INFO root fetch - main [MainThread]: Store serial: [22628582]
