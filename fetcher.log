@@ -388,3 +388,66 @@
 [2024-04-05 00:14:13] INFO root fetch - processPackages [universal-test-tool]: Remove: archive file [/home/abi/fetcher/tmp/universal-test-tool-0.1.9.tar.gz]
 [2024-04-05 00:14:13] INFO root fetch - main [MainThread]: End processing [universal-test-tool]: success
 [2024-04-05 00:14:13] INFO root fetch - main [MainThread]: Store serial: [22628341]
+[2024-04-05 00:16:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22628341]
+[2024-04-05 00:16:21] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-05 00:16:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: Spanners
+[2024-04-05 00:16:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: llama-index-embeddings-clip
+[2024-04-05 00:16:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: secator
+[2024-04-05 00:16:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: emergingtrajectories
+[2024-04-05 00:16:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: f5-sphinx-theme
+[2024-04-05 00:16:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: lean-dojo
+[2024-04-05 00:16:21] INFO root fetch - processPackages [secator]: New version: [0.1.0] Old Version: [0.0.1]
+[2024-04-05 00:16:21] INFO root fetch - processPackages [Spanners]: New version: [1.9] Old Version: [1.8]
+[2024-04-05 00:16:21] INFO root fetch - processPackages [emergingtrajectories]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-04-05 00:16:21] INFO root fetch - processPackages [f5-sphinx-theme]: New version: [2.4.1] Old Version: [2.4.0]
+[2024-04-05 00:16:21] INFO root fetch - processPackages [Spanners]: Downloading https://files.pythonhosted.org/packages/ec/86/1efe3a501658a13f9b7aad44b505a2972426843c73d0738e65924ee1f41e/Spanners-1.8.tar.gz
+[2024-04-05 00:16:22] INFO root fetch - processPackages [llama-index-embeddings-clip]: New version: [0.1.5] Old Version: [0.1.4]
+[2024-04-05 00:16:22] INFO root fetch - processPackages [emergingtrajectories]: Downloading https://files.pythonhosted.org/packages/1f/3e/3229d6759c17920a1ecd3722791f03aed62c9a3f9ef850794188474c7fb5/emergingtrajectories-0.2.8.tar.gz
+[2024-04-05 00:16:22] INFO root fetch - processPackages [f5-sphinx-theme]: Downloading https://files.pythonhosted.org/packages/82/e4/a1eadddbb94f8baf47fda305a16a88dea2c5344857d218d9faed09f27b34/f5_sphinx_theme-2.4.0.tar.gz
+[2024-04-05 00:16:22] INFO root fetch - processPackages [lean-dojo]: New version: [1.8.0] Old Version: [1.7.1]
+[2024-04-05 00:16:22] INFO root fetch - processPackages [secator]: Downloading https://files.pythonhosted.org/packages/56/58/30191c13c09ed7320562a523d510a7c55e7d5fde3aaa9102c88a0d422f27/secator-0.1.0.tar.gz
+[2024-04-05 00:16:22] WARNING root fetch - processPackages [secator]: Skipping package: exceeds size limit 23065174>=10485760
+[2024-04-05 00:16:22] INFO root fetch - main [MainThread]: End processing [secator] error
+[2024-04-05 00:16:22] WARNING root fetch - processPackages [Spanners]: Timeout reached during download
+[2024-04-05 00:16:22] WARNING root fetch - processPackages [emergingtrajectories]: Timeout reached during download
+[2024-04-05 00:16:22] WARNING root fetch - processPackages [f5-sphinx-theme]: Timeout reached during download
+[2024-04-05 00:16:22] INFO root fetch - processPackages [llama-index-embeddings-clip]: Downloading https://files.pythonhosted.org/packages/3b/53/6fce1f90f4a124fc37cca8b307c17d516799fc96956ebd1eacaae2ebac10/llama_index_embeddings_clip-0.1.4.tar.gz
+[2024-04-05 00:16:22] INFO root fetch - processPackages [Spanners]: Downloading https://files.pythonhosted.org/packages/22/cf/2f5ef8209fda07ae81f12a3d565097b9636f8490dfff99c6a432eb62e091/Spanners-1.9.tar.gz
+[2024-04-05 00:16:22] INFO root fetch - processPackages [emergingtrajectories]: Downloading https://files.pythonhosted.org/packages/44/2f/dc231c0377b6642a32797154e1fd951c910f0b0cd2dbf06a9b7ef5c3c3cc/emergingtrajectories-0.2.9.tar.gz
+[2024-04-05 00:16:22] INFO root fetch - processPackages [lean-dojo]: Downloading https://files.pythonhosted.org/packages/bc/53/79a4b12e403aafbdd4e23f72a9bacd11468724b1be91de297799f06ce82e/lean_dojo-1.7.1.tar.gz
+[2024-04-05 00:16:22] INFO root fetch - processPackages [f5-sphinx-theme]: Downloading https://files.pythonhosted.org/packages/e9/18/7a1d521b894085852f5baf3a4f1e8fd015abbdd5bc582ca1151b7d8ae8c9/f5_sphinx_theme-2.4.1.tar.gz
+[2024-04-05 00:16:22] WARNING root fetch - processPackages [Spanners]: Timeout reached during download
+[2024-04-05 00:16:22] INFO root fetch - processPackages [Spanners]: executing diffoscope
+[2024-04-05 00:16:22] INFO root fetch - processPackages [Spanners]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Spanners-1.8.tar.gz tmp/Spanners-1.9.tar.gz --markdown 20240405/S/Spanners/1.8-1.9/diff.md --exclude *.pyd
+[2024-04-05 00:16:22] WARNING root fetch - processPackages [emergingtrajectories]: Timeout reached during download
+[2024-04-05 00:16:22] INFO root fetch - processPackages [emergingtrajectories]: executing diffoscope
+[2024-04-05 00:16:22] INFO root fetch - processPackages [emergingtrajectories]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/emergingtrajectories-0.2.8.tar.gz tmp/emergingtrajectories-0.2.9.tar.gz --markdown 20240405/e/emergingtrajectories/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2024-04-05 00:16:22] WARNING root fetch - processPackages [lean-dojo]: Timeout reached during download
+[2024-04-05 00:16:22] WARNING root fetch - processPackages [llama-index-embeddings-clip]: Timeout reached during download
+[2024-04-05 00:16:22] WARNING root fetch - processPackages [f5-sphinx-theme]: Timeout reached during download
+[2024-04-05 00:16:22] INFO root fetch - processPackages [f5-sphinx-theme]: executing diffoscope
+[2024-04-05 00:16:22] INFO root fetch - processPackages [f5-sphinx-theme]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/f5_sphinx_theme-2.4.0.tar.gz tmp/f5_sphinx_theme-2.4.1.tar.gz --markdown 20240405/f/f5-sphinx-theme/2.4.0-2.4.1/diff.md --exclude *.pyd
+[2024-04-05 00:16:22] INFO root fetch - processPackages [llama-index-embeddings-clip]: Downloading https://files.pythonhosted.org/packages/5a/a5/cb79fc6c263bf5c98ad008e4283bad98f40491e40c40bbccc55c3df9c96d/llama_index_embeddings_clip-0.1.5.tar.gz
+[2024-04-05 00:16:22] INFO root fetch - processPackages [lean-dojo]: Downloading https://files.pythonhosted.org/packages/91/31/c16889c958598391c6515fd45f45ffbe6748c472b2cb9ba107a3d862cafd/lean_dojo-1.8.0.tar.gz
+[2024-04-05 00:16:22] WARNING root fetch - processPackages [llama-index-embeddings-clip]: Timeout reached during download
+[2024-04-05 00:16:22] INFO root fetch - processPackages [llama-index-embeddings-clip]: executing diffoscope
+[2024-04-05 00:16:22] INFO root fetch - processPackages [llama-index-embeddings-clip]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llama_index_embeddings_clip-0.1.4.tar.gz tmp/llama_index_embeddings_clip-0.1.5.tar.gz --markdown 20240405/l/llama-index-embeddings-clip/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2024-04-05 00:16:22] WARNING root fetch - processPackages [lean-dojo]: Timeout reached during download
+[2024-04-05 00:16:22] INFO root fetch - processPackages [lean-dojo]: executing diffoscope
+[2024-04-05 00:16:22] INFO root fetch - processPackages [lean-dojo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lean_dojo-1.7.1.tar.gz tmp/lean_dojo-1.8.0.tar.gz --markdown 20240405/l/lean-dojo/1.7.1-1.8.0/diff.md --exclude *.pyd
+[2024-04-05 00:16:23] INFO root fetch - processPackages [Spanners]: Remove: archive file [/home/abi/fetcher/tmp/Spanners-1.8.tar.gz]
+[2024-04-05 00:16:23] INFO root fetch - processPackages [Spanners]: Remove: archive file [/home/abi/fetcher/tmp/Spanners-1.9.tar.gz]
+[2024-04-05 00:16:23] INFO root fetch - main [MainThread]: End processing [Spanners]: success
+[2024-04-05 00:16:23] INFO root fetch - processPackages [emergingtrajectories]: Remove: archive file [/home/abi/fetcher/tmp/emergingtrajectories-0.2.8.tar.gz]
+[2024-04-05 00:16:23] INFO root fetch - processPackages [emergingtrajectories]: Remove: archive file [/home/abi/fetcher/tmp/emergingtrajectories-0.2.9.tar.gz]
+[2024-04-05 00:16:23] INFO root fetch - main [MainThread]: End processing [emergingtrajectories]: success
+[2024-04-05 00:16:23] INFO root fetch - processPackages [llama-index-embeddings-clip]: Remove: archive file [/home/abi/fetcher/tmp/llama_index_embeddings_clip-0.1.4.tar.gz]
+[2024-04-05 00:16:23] INFO root fetch - processPackages [llama-index-embeddings-clip]: Remove: archive file [/home/abi/fetcher/tmp/llama_index_embeddings_clip-0.1.5.tar.gz]
+[2024-04-05 00:16:23] INFO root fetch - main [MainThread]: End processing [llama-index-embeddings-clip]: success
+[2024-04-05 00:16:23] INFO root fetch - processPackages [f5-sphinx-theme]: Remove: archive file [/home/abi/fetcher/tmp/f5_sphinx_theme-2.4.0.tar.gz]
+[2024-04-05 00:16:23] INFO root fetch - processPackages [f5-sphinx-theme]: Remove: archive file [/home/abi/fetcher/tmp/f5_sphinx_theme-2.4.1.tar.gz]
+[2024-04-05 00:16:23] INFO root fetch - main [MainThread]: End processing [f5-sphinx-theme]: success
+[2024-04-05 00:16:23] INFO root fetch - processPackages [lean-dojo]: Remove: archive file [/home/abi/fetcher/tmp/lean_dojo-1.7.1.tar.gz]
+[2024-04-05 00:16:23] INFO root fetch - processPackages [lean-dojo]: Remove: archive file [/home/abi/fetcher/tmp/lean_dojo-1.8.0.tar.gz]
+[2024-04-05 00:16:23] INFO root fetch - main [MainThread]: End processing [lean-dojo]: success
+[2024-04-05 00:16:23] INFO root fetch - main [MainThread]: Store serial: [22628366]
