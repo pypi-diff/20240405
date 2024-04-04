@@ -1319,3 +1319,53 @@
 [2024-04-05 01:04:30] INFO root fetch - processPackages [langtrace-python-sdk]: Remove: archive file [/home/abi/fetcher/tmp/langtrace_python_sdk-1.2.9.tar.gz]
 [2024-04-05 01:04:30] INFO root fetch - main [MainThread]: End processing [langtrace-python-sdk]: success
 [2024-04-05 01:04:30] INFO root fetch - main [MainThread]: Store serial: [22628654]
+[2024-04-05 01:06:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22628654]
+[2024-04-05 01:06:39] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-05 01:06:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bigframes
+[2024-04-05 01:06:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tmnt
+[2024-04-05 01:06:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: shippo-legacy
+[2024-04-05 01:06:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: groups-local
+[2024-04-05 01:06:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: flwr-nightly
+[2024-04-05 01:06:39] WARNING root fetch - processPackages [shippo-legacy]: Skipping, unable to determine old version
+[2024-04-05 01:06:39] INFO root fetch - main [MainThread]: End processing [shippo-legacy] error
+[2024-04-05 01:06:40] INFO root fetch - processPackages [groups-local]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-05 01:06:40] INFO root fetch - processPackages [bigframes]: New version: [1.1.0] Old Version: [1.0.0]
+[2024-04-05 01:06:40] INFO root fetch - processPackages [flwr-nightly]: New version: [1.9.0.dev20240404] Old Version: [1.9.0.dev20240403]
+[2024-04-05 01:06:40] INFO root fetch - processPackages [tmnt]: New version: [0.7.4b20231227] Old Version: [0.7.47b20240404]
+[2024-04-05 01:06:40] INFO root fetch - processPackages [bigframes]: Downloading https://files.pythonhosted.org/packages/73/b2/fd1fdaf4a0872052c9f25d10e4de26858bc07697d132efc2832fe33f669a/bigframes-1.0.0.tar.gz
+[2024-04-05 01:06:40] INFO root fetch - processPackages [groups-local]: Downloading https://files.pythonhosted.org/packages/6d/46/ca2635e1d6c8f7cad5134d2647a61a40022092fb5b86528572828b3195a5/groups-local-0.0.8.tar.gz
+[2024-04-05 01:06:40] INFO root fetch - processPackages [flwr-nightly]: Downloading https://files.pythonhosted.org/packages/6c/7e/79658fe3779b1dc3bd8b189beac25a0024fc57b547a6438ac394e1cae49b/flwr_nightly-1.9.0.dev20240403.tar.gz
+[2024-04-05 01:06:40] INFO root fetch - processPackages [tmnt]: Downloading https://files.pythonhosted.org/packages/26/67/b5a152b02bc83a8f92b36b37b9e45dbbdcf64ef6f1c4e588ccc1e41fdb0f/tmnt-0.7.47b20240404.tar.gz
+[2024-04-05 01:06:40] WARNING root fetch - processPackages [groups-local]: Timeout reached during download
+[2024-04-05 01:06:40] WARNING root fetch - processPackages [bigframes]: Timeout reached during download
+[2024-04-05 01:06:40] WARNING root fetch - processPackages [flwr-nightly]: Timeout reached during download
+[2024-04-05 01:06:40] WARNING root fetch - processPackages [tmnt]: Timeout reached during download
+[2024-04-05 01:06:40] INFO root fetch - processPackages [groups-local]: Downloading https://files.pythonhosted.org/packages/b6/a8/b9747901af0f33b23ed26b55906c2b7181378d22fa25be12ab68af641fc0/groups-local-0.0.9.tar.gz
+[2024-04-05 01:06:40] INFO root fetch - processPackages [bigframes]: Downloading https://files.pythonhosted.org/packages/93/ef/e48f07e3cdffa7e27e22102c8dd642813755d1c2dbf1d05fd5088e896535/bigframes-1.1.0.tar.gz
+[2024-04-05 01:06:40] INFO root fetch - processPackages [flwr-nightly]: Downloading https://files.pythonhosted.org/packages/f0/da/7976ebb76357dca6afc76a13de83e5bb160ac33cdcb0c5213bb3f9cc97ed/flwr_nightly-1.9.0.dev20240404.tar.gz
+[2024-04-05 01:06:40] INFO root fetch - processPackages [tmnt]: Downloading https://files.pythonhosted.org/packages/ea/3a/0cd54af36ea52550ab5b0361342ea6cbae9843227af8a4fe56d32695a1f3/tmnt-0.7.4b20231227.tar.gz
+[2024-04-05 01:06:40] WARNING root fetch - processPackages [groups-local]: Timeout reached during download
+[2024-04-05 01:06:40] INFO root fetch - processPackages [groups-local]: executing diffoscope
+[2024-04-05 01:06:40] INFO root fetch - processPackages [groups-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/groups-local-0.0.8.tar.gz tmp/groups-local-0.0.9.tar.gz --markdown 20240405/g/groups-local/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2024-04-05 01:06:40] WARNING root fetch - processPackages [flwr-nightly]: Timeout reached during download
+[2024-04-05 01:06:40] INFO root fetch - processPackages [flwr-nightly]: executing diffoscope
+[2024-04-05 01:06:40] INFO root fetch - processPackages [flwr-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flwr_nightly-1.9.0.dev20240403.tar.gz tmp/flwr_nightly-1.9.0.dev20240404.tar.gz --markdown 20240405/f/flwr-nightly/1.9.0.dev20240403-1.9.0.dev20240404/diff.md --exclude *.pyd
+[2024-04-05 01:06:40] WARNING root fetch - processPackages [bigframes]: Timeout reached during download
+[2024-04-05 01:06:40] INFO root fetch - processPackages [bigframes]: executing diffoscope
+[2024-04-05 01:06:40] INFO root fetch - processPackages [bigframes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigframes-1.0.0.tar.gz tmp/bigframes-1.1.0.tar.gz --markdown 20240405/b/bigframes/1.0.0-1.1.0/diff.md --exclude *.pyd
+[2024-04-05 01:06:40] WARNING root fetch - processPackages [tmnt]: Timeout reached during download
+[2024-04-05 01:06:40] INFO root fetch - processPackages [tmnt]: executing diffoscope
+[2024-04-05 01:06:40] INFO root fetch - processPackages [tmnt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tmnt-0.7.47b20240404.tar.gz tmp/tmnt-0.7.4b20231227.tar.gz --markdown 20240405/t/tmnt/0.7.47b20240404-0.7.4b20231227/diff.md --exclude *.pyd
+[2024-04-05 01:06:41] INFO root fetch - processPackages [groups-local]: Remove: archive file [/home/abi/fetcher/tmp/groups-local-0.0.8.tar.gz]
+[2024-04-05 01:06:41] INFO root fetch - processPackages [groups-local]: Remove: archive file [/home/abi/fetcher/tmp/groups-local-0.0.9.tar.gz]
+[2024-04-05 01:06:41] INFO root fetch - main [MainThread]: End processing [groups-local]: success
+[2024-04-05 01:06:41] INFO root fetch - processPackages [tmnt]: Remove: archive file [/home/abi/fetcher/tmp/tmnt-0.7.47b20240404.tar.gz]
+[2024-04-05 01:06:41] INFO root fetch - processPackages [tmnt]: Remove: archive file [/home/abi/fetcher/tmp/tmnt-0.7.4b20231227.tar.gz]
+[2024-04-05 01:06:41] INFO root fetch - main [MainThread]: End processing [tmnt]: success
+[2024-04-05 01:06:41] INFO root fetch - processPackages [flwr-nightly]: Remove: archive file [/home/abi/fetcher/tmp/flwr_nightly-1.9.0.dev20240403.tar.gz]
+[2024-04-05 01:06:41] INFO root fetch - processPackages [flwr-nightly]: Remove: archive file [/home/abi/fetcher/tmp/flwr_nightly-1.9.0.dev20240404.tar.gz]
+[2024-04-05 01:06:41] INFO root fetch - main [MainThread]: End processing [flwr-nightly]: success
+[2024-04-05 01:06:42] INFO root fetch - processPackages [bigframes]: Remove: archive file [/home/abi/fetcher/tmp/bigframes-1.0.0.tar.gz]
+[2024-04-05 01:06:42] INFO root fetch - processPackages [bigframes]: Remove: archive file [/home/abi/fetcher/tmp/bigframes-1.1.0.tar.gz]
+[2024-04-05 01:06:42] INFO root fetch - main [MainThread]: End processing [bigframes]: success
+[2024-04-05 01:06:42] INFO root fetch - main [MainThread]: Store serial: [22628671]
