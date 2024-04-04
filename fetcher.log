@@ -962,3 +962,28 @@
 [2024-04-05 00:40:21] INFO root fetch - processPackages [git-subrepo]: Remove: archive file [/home/abi/fetcher/tmp/git_subrepo-0.4.6.post1-py3-none-any.whl.zip]
 [2024-04-05 00:40:21] INFO root fetch - main [MainThread]: End processing [git-subrepo]: success
 [2024-04-05 00:40:21] INFO root fetch - main [MainThread]: Store serial: [22628562]
+[2024-04-05 00:42:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22628562]
+[2024-04-05 00:42:31] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-05 00:42:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dg-face-tracking
+[2024-04-05 00:42:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: user-context-remote
+[2024-04-05 00:42:31] INFO root fetch - processPackages [user-context-remote]: New version: [0.0.69] Old Version: [0.0.68]
+[2024-04-05 00:42:31] INFO root fetch - processPackages [user-context-remote]: Downloading https://files.pythonhosted.org/packages/81/e3/daab94bb4bb47f6b678bee551bc2a652c8c84c9dfffdc60e06757cc29d23/user-context-remote-0.0.68.tar.gz
+[2024-04-05 00:42:31] INFO root fetch - processPackages [dg-face-tracking]: New version: [0.0.9] Old Version: [0.0.7]
+[2024-04-05 00:42:31] WARNING root fetch - processPackages [user-context-remote]: Timeout reached during download
+[2024-04-05 00:42:31] INFO root fetch - processPackages [dg-face-tracking]: Downloading https://files.pythonhosted.org/packages/07/b8/1963d9ee34ddcec8413a7b1c03596d276380fe5ab31fd1da601aeff80b72/dg_face_tracking-0.0.7-py3-none-any.whl
+[2024-04-05 00:42:31] INFO root fetch - processPackages [user-context-remote]: Downloading https://files.pythonhosted.org/packages/f9/f4/5dd63126e06c7fac3c1974f728c32e773ae6b2d7ccf13d3ea178a2b09ea4/user-context-remote-0.0.69.tar.gz
+[2024-04-05 00:42:31] WARNING root fetch - processPackages [dg-face-tracking]: Timeout reached during download
+[2024-04-05 00:42:31] WARNING root fetch - processPackages [user-context-remote]: Timeout reached during download
+[2024-04-05 00:42:31] INFO root fetch - processPackages [user-context-remote]: executing diffoscope
+[2024-04-05 00:42:31] INFO root fetch - processPackages [user-context-remote]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/user-context-remote-0.0.68.tar.gz tmp/user-context-remote-0.0.69.tar.gz --markdown 20240405/u/user-context-remote/0.0.68-0.0.69/diff.md --exclude *.pyd
+[2024-04-05 00:42:32] INFO root fetch - processPackages [dg-face-tracking]: Downloading https://files.pythonhosted.org/packages/79/cd/f31021b923a85c65086f8f5e6fb2fe050b0d48d5ee2576c02a1040f0cc64/dg_face_tracking-0.0.9-py3-none-any.whl
+[2024-04-05 00:42:32] WARNING root fetch - processPackages [dg-face-tracking]: Timeout reached during download
+[2024-04-05 00:42:32] INFO root fetch - processPackages [dg-face-tracking]: executing diffoscope
+[2024-04-05 00:42:32] INFO root fetch - processPackages [dg-face-tracking]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dg_face_tracking-0.0.7-py3-none-any.whl.zip tmp/dg_face_tracking-0.0.9-py3-none-any.whl.zip --markdown 20240405/d/dg-face-tracking/0.0.7-0.0.9/diff.md --exclude *.pyd
+[2024-04-05 00:42:32] INFO root fetch - processPackages [user-context-remote]: Remove: archive file [/home/abi/fetcher/tmp/user-context-remote-0.0.68.tar.gz]
+[2024-04-05 00:42:32] INFO root fetch - processPackages [user-context-remote]: Remove: archive file [/home/abi/fetcher/tmp/user-context-remote-0.0.69.tar.gz]
+[2024-04-05 00:42:32] INFO root fetch - main [MainThread]: End processing [user-context-remote]: success
+[2024-04-05 00:42:32] INFO root fetch - processPackages [dg-face-tracking]: Remove: archive file [/home/abi/fetcher/tmp/dg_face_tracking-0.0.7-py3-none-any.whl.zip]
+[2024-04-05 00:42:32] INFO root fetch - processPackages [dg-face-tracking]: Remove: archive file [/home/abi/fetcher/tmp/dg_face_tracking-0.0.9-py3-none-any.whl.zip]
+[2024-04-05 00:42:32] INFO root fetch - main [MainThread]: End processing [dg-face-tracking]: success
+[2024-04-05 00:42:32] INFO root fetch - main [MainThread]: Store serial: [22628567]
