@@ -1048,3 +1048,17 @@
 [2024-04-05 00:46:53] INFO root fetch - processPackages [finisterra]: Remove: archive file [/home/abi/fetcher/tmp/finisterra-1.0.9.tar.gz]
 [2024-04-05 00:46:53] INFO root fetch - main [MainThread]: End processing [finisterra]: success
 [2024-04-05 00:46:53] INFO root fetch - main [MainThread]: Store serial: [22628582]
+[2024-04-05 00:48:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22628582]
+[2024-04-05 00:49:02] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-04-05 00:49:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: user-context-remote
+[2024-04-05 00:49:02] INFO root fetch - processPackages [user-context-remote]: New version: [0.0.70] Old Version: [0.0.69]
+[2024-04-05 00:49:02] INFO root fetch - processPackages [user-context-remote]: Downloading https://files.pythonhosted.org/packages/f9/f4/5dd63126e06c7fac3c1974f728c32e773ae6b2d7ccf13d3ea178a2b09ea4/user-context-remote-0.0.69.tar.gz
+[2024-04-05 00:49:02] WARNING root fetch - processPackages [user-context-remote]: Timeout reached during download
+[2024-04-05 00:49:02] INFO root fetch - processPackages [user-context-remote]: Downloading https://files.pythonhosted.org/packages/22/81/e7553640ae58558748f229e315b7ba7e3306f4dd923ed990bbd6fb2a90f6/user-context-remote-0.0.70.tar.gz
+[2024-04-05 00:49:02] WARNING root fetch - processPackages [user-context-remote]: Timeout reached during download
+[2024-04-05 00:49:02] INFO root fetch - processPackages [user-context-remote]: executing diffoscope
+[2024-04-05 00:49:02] INFO root fetch - processPackages [user-context-remote]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/user-context-remote-0.0.69.tar.gz tmp/user-context-remote-0.0.70.tar.gz --markdown 20240405/u/user-context-remote/0.0.69-0.0.70/diff.md --exclude *.pyd
+[2024-04-05 00:49:03] INFO root fetch - processPackages [user-context-remote]: Remove: archive file [/home/abi/fetcher/tmp/user-context-remote-0.0.69.tar.gz]
+[2024-04-05 00:49:03] INFO root fetch - processPackages [user-context-remote]: Remove: archive file [/home/abi/fetcher/tmp/user-context-remote-0.0.70.tar.gz]
+[2024-04-05 00:49:03] INFO root fetch - main [MainThread]: End processing [user-context-remote]: success
+[2024-04-05 00:49:03] INFO root fetch - main [MainThread]: Store serial: [22628585]
