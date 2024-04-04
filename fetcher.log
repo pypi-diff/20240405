@@ -2350,3 +2350,50 @@
 [2024-04-05 01:56:26] INFO root fetch - processPackages [git-stats-report]: Remove: archive file [/home/abi/fetcher/tmp/git-stats-report-0.3.2.tar.gz]
 [2024-04-05 01:56:26] INFO root fetch - main [MainThread]: End processing [git-stats-report]: success
 [2024-04-05 01:56:26] INFO root fetch - main [MainThread]: Store serial: [22628980]
+[2024-04-05 01:58:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22628980]
+[2024-04-05 01:58:34] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-05 01:58:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: neon-utils
+[2024-04-05 01:58:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: r0c
+[2024-04-05 01:58:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: FactScoreLite
+[2024-04-05 01:58:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: seidart
+[2024-04-05 01:58:34] INFO root fetch - processPackages [FactScoreLite]: New version: [0.3.0] Old Version: [0.2.1]
+[2024-04-05 01:58:34] INFO root fetch - processPackages [FactScoreLite]: Downloading https://files.pythonhosted.org/packages/cb/54/050626bc6b4b8c57829b8f52771ef60f6361c903e7eb42fb099ca13d01ec/FactScoreLite-0.2.1.tar.gz
+[2024-04-05 01:58:34] INFO root fetch - processPackages [r0c]: New version: [1.6.0] Old Version: [1.5.3]
+[2024-04-05 01:58:34] INFO root fetch - processPackages [seidart]: New version: [0.0.9] Old Version: [0.0.21]
+[2024-04-05 01:58:34] INFO root fetch - processPackages [neon-utils]: New version: [1.9.2a3] Old Version: [1.9.2a2]
+[2024-04-05 01:58:34] WARNING root fetch - processPackages [FactScoreLite]: Timeout reached during download
+[2024-04-05 01:58:35] INFO root fetch - processPackages [r0c]: Downloading https://files.pythonhosted.org/packages/99/a1/3d5375da9eafdb3030d5a852553d22a24396aa524b285c1908458b690ade/r0c-1.5.3.tar.gz
+[2024-04-05 01:58:35] INFO root fetch - processPackages [seidart]: Downloading https://files.pythonhosted.org/packages/67/98/0412b6993235eec364431fccca7f4f661aa9ab3f74d6d2bc118852358dd5/seidart-0.0.21-cp311-cp311-win_amd64.whl
+[2024-04-05 01:58:35] INFO root fetch - processPackages [FactScoreLite]: Downloading https://files.pythonhosted.org/packages/70/ec/ede1d0dd39a82efb91f1f329d2f562319e1e93ef758e48b330210df6190b/FactScoreLite-0.3.0.tar.gz
+[2024-04-05 01:58:35] INFO root fetch - processPackages [neon-utils]: Downloading https://files.pythonhosted.org/packages/67/22/64430452d1aba1dee233f2f391b47a6cebd1fb70157350d44234d5f4a384/neon-utils-1.9.2a2.tar.gz
+[2024-04-05 01:58:35] WARNING root fetch - processPackages [FactScoreLite]: Timeout reached during download
+[2024-04-05 01:58:35] INFO root fetch - processPackages [FactScoreLite]: executing diffoscope
+[2024-04-05 01:58:35] INFO root fetch - processPackages [FactScoreLite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/FactScoreLite-0.2.1.tar.gz tmp/FactScoreLite-0.3.0.tar.gz --markdown 20240405/F/FactScoreLite/0.2.1-0.3.0/diff.md --exclude *.pyd
+[2024-04-05 01:58:35] WARNING root fetch - processPackages [neon-utils]: Timeout reached during download
+[2024-04-05 01:58:35] WARNING root fetch - processPackages [r0c]: Timeout reached during download
+[2024-04-05 01:58:35] INFO root fetch - processPackages [neon-utils]: Downloading https://files.pythonhosted.org/packages/25/d9/cdd38848f28905563dd54d2620c9f27954b4d3cbf6bda5a211a9409682dc/neon-utils-1.9.2a3.tar.gz
+[2024-04-05 01:58:35] INFO root fetch - processPackages [r0c]: Downloading https://files.pythonhosted.org/packages/d8/33/89333cfaa5dd6e758ab2c4aa3b39439226d90142d6cf2197086f93d5801b/r0c-1.6.0.tar.gz
+[2024-04-05 01:58:35] WARNING root fetch - processPackages [seidart]: Timeout reached during download
+[2024-04-05 01:58:35] WARNING root fetch - processPackages [r0c]: Timeout reached during download
+[2024-04-05 01:58:35] INFO root fetch - processPackages [r0c]: executing diffoscope
+[2024-04-05 01:58:35] INFO root fetch - processPackages [r0c]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/r0c-1.5.3.tar.gz tmp/r0c-1.6.0.tar.gz --markdown 20240405/r/r0c/1.5.3-1.6.0/diff.md --exclude *.pyd
+[2024-04-05 01:58:35] WARNING root fetch - processPackages [neon-utils]: Timeout reached during download
+[2024-04-05 01:58:35] INFO root fetch - processPackages [neon-utils]: executing diffoscope
+[2024-04-05 01:58:35] INFO root fetch - processPackages [neon-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neon-utils-1.9.2a2.tar.gz tmp/neon-utils-1.9.2a3.tar.gz --markdown 20240405/n/neon-utils/1.9.2a2-1.9.2a3/diff.md --exclude *.pyd
+[2024-04-05 01:58:35] INFO root fetch - processPackages [FactScoreLite]: Remove: archive file [/home/abi/fetcher/tmp/FactScoreLite-0.2.1.tar.gz]
+[2024-04-05 01:58:35] INFO root fetch - processPackages [FactScoreLite]: Remove: archive file [/home/abi/fetcher/tmp/FactScoreLite-0.3.0.tar.gz]
+[2024-04-05 01:58:35] INFO root fetch - main [MainThread]: End processing [FactScoreLite]: success
+[2024-04-05 01:58:36] INFO root fetch - processPackages [seidart]: Downloading https://files.pythonhosted.org/packages/11/ff/d5e0f2a44a731aecb77e12ddc51bd89f9f0733eb8f08ba131b387ec3e649/seidart-0.0.9-cp311-cp311-manylinux_2_24_x86_64.whl
+[2024-04-05 01:58:36] INFO root fetch - processPackages [r0c]: Remove: archive file [/home/abi/fetcher/tmp/r0c-1.5.3.tar.gz]
+[2024-04-05 01:58:36] INFO root fetch - processPackages [r0c]: Remove: archive file [/home/abi/fetcher/tmp/r0c-1.6.0.tar.gz]
+[2024-04-05 01:58:36] INFO root fetch - main [MainThread]: End processing [r0c]: success
+[2024-04-05 01:58:36] WARNING root fetch - processPackages [seidart]: Timeout reached during download
+[2024-04-05 01:58:36] INFO root fetch - processPackages [seidart]: executing diffoscope
+[2024-04-05 01:58:36] INFO root fetch - processPackages [seidart]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seidart-0.0.21-cp311-cp311-win_amd64.whl.zip tmp/seidart-0.0.9-cp311-cp311-manylinux_2_24_x86_64.whl.zip --markdown 20240405/s/seidart/0.0.21-0.0.9/diff.md --exclude *.pyd
+[2024-04-05 01:58:36] INFO root fetch - processPackages [neon-utils]: Remove: archive file [/home/abi/fetcher/tmp/neon-utils-1.9.2a2.tar.gz]
+[2024-04-05 01:58:36] INFO root fetch - processPackages [neon-utils]: Remove: archive file [/home/abi/fetcher/tmp/neon-utils-1.9.2a3.tar.gz]
+[2024-04-05 01:58:36] INFO root fetch - main [MainThread]: End processing [neon-utils]: success
+[2024-04-05 01:58:37] INFO root fetch - processPackages [seidart]: Remove: archive file [/home/abi/fetcher/tmp/seidart-0.0.21-cp311-cp311-win_amd64.whl.zip]
+[2024-04-05 01:58:37] INFO root fetch - processPackages [seidart]: Remove: archive file [/home/abi/fetcher/tmp/seidart-0.0.9-cp311-cp311-manylinux_2_24_x86_64.whl.zip]
+[2024-04-05 01:58:37] INFO root fetch - main [MainThread]: End processing [seidart]: success
+[2024-04-05 01:58:37] INFO root fetch - main [MainThread]: Store serial: [22628996]
