@@ -1741,3 +1741,64 @@
 [2024-04-05 01:22:26] INFO root fetch - processPackages [jupyter-ai]: Remove: archive file [/home/abi/fetcher/tmp/jupyter_ai-2.9.1.tar.gz]
 [2024-04-05 01:22:26] INFO root fetch - main [MainThread]: End processing [jupyter-ai]: success
 [2024-04-05 01:22:26] INFO root fetch - main [MainThread]: Store serial: [22628784]
+[2024-04-05 01:24:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22628784]
+[2024-04-05 01:24:34] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-05 01:24:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: arize-phoenix-evals
+[2024-04-05 01:24:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: imjoy-jupyterlab-extension
+[2024-04-05 01:24:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ploomber-cloud
+[2024-04-05 01:24:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: py-near
+[2024-04-05 01:24:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: confluentfucci
+[2024-04-05 01:24:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: airbyte-source-declarative-manifest
+[2024-04-05 01:24:35] INFO root fetch - processPackages [py-near]: New version: [1.1.9] Old Version: [1.1.8]
+[2024-04-05 01:24:35] INFO root fetch - processPackages [arize-phoenix-evals]: New version: [0.6.1] Old Version: [0.6.0]
+[2024-04-05 01:24:35] INFO root fetch - processPackages [imjoy-jupyterlab-extension]: New version: [0.2.5] Old Version: [0.1.9]
+[2024-04-05 01:24:35] INFO root fetch - processPackages [py-near]: Downloading https://files.pythonhosted.org/packages/aa/de/beface0702603924b5d0a916d15f1c6cc26697783b8191af8e33620e805d/py_near-1.1.8.tar.gz
+[2024-04-05 01:24:35] INFO root fetch - processPackages [ploomber-cloud]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-05 01:24:35] WARNING root fetch - processPackages [airbyte-source-declarative-manifest]: Skipping, unable to determine old version
+[2024-04-05 01:24:35] INFO root fetch - main [MainThread]: End processing [airbyte-source-declarative-manifest] error
+[2024-04-05 01:24:35] INFO root fetch - processPackages [confluentfucci]: New version: [1.0.5] Old Version: [1.0.4]
+[2024-04-05 01:24:35] WARNING root fetch - processPackages [py-near]: Timeout reached during download
+[2024-04-05 01:24:35] INFO root fetch - processPackages [imjoy-jupyterlab-extension]: Downloading https://files.pythonhosted.org/packages/f6/ad/69d414327fe2de59c2ec90a4db63b73c52e476535ef80e043b807284fe64/imjoy-jupyterlab-extension-0.1.9.tar.gz
+[2024-04-05 01:24:35] INFO root fetch - processPackages [ploomber-cloud]: Downloading https://files.pythonhosted.org/packages/09/b7/440dcb1a0920e2be01c8f414f613165ff78c6816833a687736a9dc9162b1/ploomber-cloud-0.1.8.tar.gz
+[2024-04-05 01:24:35] INFO root fetch - processPackages [confluentfucci]: Downloading https://files.pythonhosted.org/packages/ac/b6/dd3a14f2eed957bbb74562a0d58adf6a4e7f069a2dab78b8b6e424ad66ca/confluentfucci-1.0.4.tar.gz
+[2024-04-05 01:24:35] INFO root fetch - processPackages [py-near]: Downloading https://files.pythonhosted.org/packages/3e/73/28d02d95d66304797b8d5f4f59e2c20a6e393c56657b991e31c16ca77e9f/py_near-1.1.9.tar.gz
+[2024-04-05 01:24:35] WARNING root fetch - processPackages [ploomber-cloud]: Timeout reached during download
+[2024-04-05 01:24:35] WARNING root fetch - processPackages [confluentfucci]: Timeout reached during download
+[2024-04-05 01:24:35] WARNING root fetch - processPackages [imjoy-jupyterlab-extension]: Timeout reached during download
+[2024-04-05 01:24:35] INFO root fetch - processPackages [arize-phoenix-evals]: Downloading https://files.pythonhosted.org/packages/8c/a8/8703e31bc8e6d5af809a0bbb5c47c99f77a544b0e2332d1d845fffd34be3/arize_phoenix_evals-0.6.0.tar.gz
+[2024-04-05 01:24:35] WARNING root fetch - processPackages [py-near]: Timeout reached during download
+[2024-04-05 01:24:35] INFO root fetch - processPackages [py-near]: executing diffoscope
+[2024-04-05 01:24:35] INFO root fetch - processPackages [py-near]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py_near-1.1.8.tar.gz tmp/py_near-1.1.9.tar.gz --markdown 20240405/p/py-near/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2024-04-05 01:24:35] WARNING root fetch - processPackages [arize-phoenix-evals]: Timeout reached during download
+[2024-04-05 01:24:35] INFO root fetch - processPackages [ploomber-cloud]: Downloading https://files.pythonhosted.org/packages/e6/f8/f4451ff0cb54c012c89da5286d33c3f73ca21e606814f7366bd6cda4738a/ploomber-cloud-0.1.9.tar.gz
+[2024-04-05 01:24:35] INFO root fetch - processPackages [confluentfucci]: Downloading https://files.pythonhosted.org/packages/f3/6d/d630662e4682fd3a41484fe4b1d79159c357af77c5180ae3c6087031fc21/confluentfucci-1.0.5.tar.gz
+[2024-04-05 01:24:35] INFO root fetch - processPackages [imjoy-jupyterlab-extension]: Downloading https://files.pythonhosted.org/packages/1c/2f/8c262747448ebf7fefba614172beac423cca0a13e6355af9859d5ee10628/imjoy_jupyterlab_extension-0.2.5.tar.gz
+[2024-04-05 01:24:35] WARNING root fetch - processPackages [ploomber-cloud]: Timeout reached during download
+[2024-04-05 01:24:35] INFO root fetch - processPackages [ploomber-cloud]: executing diffoscope
+[2024-04-05 01:24:35] INFO root fetch - processPackages [ploomber-cloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ploomber-cloud-0.1.8.tar.gz tmp/ploomber-cloud-0.1.9.tar.gz --markdown 20240405/p/ploomber-cloud/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2024-04-05 01:24:35] WARNING root fetch - processPackages [confluentfucci]: Timeout reached during download
+[2024-04-05 01:24:35] INFO root fetch - processPackages [confluentfucci]: executing diffoscope
+[2024-04-05 01:24:35] INFO root fetch - processPackages [confluentfucci]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/confluentfucci-1.0.4.tar.gz tmp/confluentfucci-1.0.5.tar.gz --markdown 20240405/c/confluentfucci/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2024-04-05 01:24:35] INFO root fetch - processPackages [arize-phoenix-evals]: Downloading https://files.pythonhosted.org/packages/8f/ed/8bb443c9fdd38c4a5fe63f003ebaf26224de0f3330c02bdc3a0a4503e970/arize_phoenix_evals-0.6.1.tar.gz
+[2024-04-05 01:24:36] WARNING root fetch - processPackages [arize-phoenix-evals]: Timeout reached during download
+[2024-04-05 01:24:36] INFO root fetch - processPackages [arize-phoenix-evals]: executing diffoscope
+[2024-04-05 01:24:36] INFO root fetch - processPackages [arize-phoenix-evals]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arize_phoenix_evals-0.6.0.tar.gz tmp/arize_phoenix_evals-0.6.1.tar.gz --markdown 20240405/a/arize-phoenix-evals/0.6.0-0.6.1/diff.md --exclude *.pyd
+[2024-04-05 01:24:36] WARNING root fetch - processPackages [imjoy-jupyterlab-extension]: Timeout reached during download
+[2024-04-05 01:24:36] INFO root fetch - processPackages [py-near]: Remove: archive file [/home/abi/fetcher/tmp/py_near-1.1.8.tar.gz]
+[2024-04-05 01:24:36] INFO root fetch - processPackages [py-near]: Remove: archive file [/home/abi/fetcher/tmp/py_near-1.1.9.tar.gz]
+[2024-04-05 01:24:36] INFO root fetch - main [MainThread]: End processing [py-near]: success
+[2024-04-05 01:24:36] INFO root fetch - processPackages [imjoy-jupyterlab-extension]: executing diffoscope
+[2024-04-05 01:24:36] INFO root fetch - processPackages [imjoy-jupyterlab-extension]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/imjoy-jupyterlab-extension-0.1.9.tar.gz tmp/imjoy_jupyterlab_extension-0.2.5.tar.gz --markdown 20240405/i/imjoy-jupyterlab-extension/0.1.9-0.2.5/diff.md --exclude *.pyd
+[2024-04-05 01:24:36] INFO root fetch - processPackages [confluentfucci]: Remove: archive file [/home/abi/fetcher/tmp/confluentfucci-1.0.4.tar.gz]
+[2024-04-05 01:24:36] INFO root fetch - processPackages [confluentfucci]: Remove: archive file [/home/abi/fetcher/tmp/confluentfucci-1.0.5.tar.gz]
+[2024-04-05 01:24:36] INFO root fetch - main [MainThread]: End processing [confluentfucci]: success
+[2024-04-05 01:24:36] INFO root fetch - processPackages [ploomber-cloud]: Remove: archive file [/home/abi/fetcher/tmp/ploomber-cloud-0.1.8.tar.gz]
+[2024-04-05 01:24:36] INFO root fetch - processPackages [ploomber-cloud]: Remove: archive file [/home/abi/fetcher/tmp/ploomber-cloud-0.1.9.tar.gz]
+[2024-04-05 01:24:36] INFO root fetch - main [MainThread]: End processing [ploomber-cloud]: success
+[2024-04-05 01:24:36] INFO root fetch - processPackages [arize-phoenix-evals]: Remove: archive file [/home/abi/fetcher/tmp/arize_phoenix_evals-0.6.0.tar.gz]
+[2024-04-05 01:24:36] INFO root fetch - processPackages [arize-phoenix-evals]: Remove: archive file [/home/abi/fetcher/tmp/arize_phoenix_evals-0.6.1.tar.gz]
+[2024-04-05 01:24:36] INFO root fetch - main [MainThread]: End processing [arize-phoenix-evals]: success
+[2024-04-05 01:24:37] INFO root fetch - processPackages [imjoy-jupyterlab-extension]: Remove: archive file [/home/abi/fetcher/tmp/imjoy-jupyterlab-extension-0.1.9.tar.gz]
+[2024-04-05 01:24:37] INFO root fetch - processPackages [imjoy-jupyterlab-extension]: Remove: archive file [/home/abi/fetcher/tmp/imjoy_jupyterlab_extension-0.2.5.tar.gz]
+[2024-04-05 01:24:37] INFO root fetch - main [MainThread]: End processing [imjoy-jupyterlab-extension]: success
+[2024-04-05 01:24:37] INFO root fetch - main [MainThread]: Store serial: [22628805]
