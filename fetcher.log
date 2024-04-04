@@ -177,3 +177,94 @@
 [2024-04-05 00:05:25] INFO root fetch - processPackages [gwpopulation]: Remove: archive file [/home/abi/fetcher/tmp/gwpopulation-1.0.0rc1.tar.gz]
 [2024-04-05 00:05:25] INFO root fetch - main [MainThread]: End processing [gwpopulation]: success
 [2024-04-05 00:05:25] INFO root fetch - main [MainThread]: Store serial: [22628199]
+[2024-04-05 00:07:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22628199]
+[2024-04-05 00:07:33] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-05 00:07:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: robotframework-confluentkafkalibrary
+[2024-04-05 00:07:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: uf-toolkit
+[2024-04-05 00:07:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: weblinx
+[2024-04-05 00:07:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cam-utils
+[2024-04-05 00:07:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: zetascale
+[2024-04-05 00:07:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: rai-sdk
+[2024-04-05 00:07:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: sberpm
+[2024-04-05 00:07:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: gattlib-py
+[2024-04-05 00:07:34] INFO root fetch - processPackages [sberpm]: New version: [2.6.3rc0] Old Version: [2.6.2rc1]
+[2024-04-05 00:07:34] INFO root fetch - processPackages [cam-utils]: New version: [0.2.6] Old Version: [0.2.5]
+[2024-04-05 00:07:34] INFO root fetch - processPackages [gattlib-py]: New version: [0.5.1] Old Version: [0.5.0]
+[2024-04-05 00:07:34] INFO root fetch - processPackages [robotframework-confluentkafkalibrary]: New version: [2.0.2.post4] Old Version: [2.0.2.post3]
+[2024-04-05 00:07:34] INFO root fetch - processPackages [sberpm]: Downloading https://files.pythonhosted.org/packages/9b/ab/8964d3926b074f73ca533dc5b89ade8fb5c8f0ff0996f2eec4c2e0c110d1/sberpm-2.6.2rc1.tar.gz
+[2024-04-05 00:07:34] INFO root fetch - processPackages [weblinx]: New version: [0.2.4] Old Version: [0.2.3]
+[2024-04-05 00:07:34] INFO root fetch - processPackages [uf-toolkit]: New version: [0.2.1] Old Version: [0.2.0]
+[2024-04-05 00:07:34] INFO root fetch - processPackages [cam-utils]: Downloading https://files.pythonhosted.org/packages/4f/c3/5969a70da7e248693ddb132a8e852fdfd1115d1500752cf47de02cd17e9c/cam_utils-0.2.5.tar.gz
+[2024-04-05 00:07:34] INFO root fetch - processPackages [rai-sdk]: New version: [0.7.4] Old Version: [0.7.3]
+[2024-04-05 00:07:34] INFO root fetch - processPackages [gattlib-py]: Downloading https://files.pythonhosted.org/packages/f4/c4/31a29ef23250fee51d3177cac33cefbf711930b9199059d1bb1131177fc8/gattlib-py-0.5.0.tar.gz
+[2024-04-05 00:07:34] INFO root fetch - processPackages [zetascale]: New version: [2.3.0] Old Version: [2.2.9]
+[2024-04-05 00:07:34] WARNING root fetch - processPackages [cam-utils]: Timeout reached during download
+[2024-04-05 00:07:34] WARNING root fetch - processPackages [gattlib-py]: Timeout reached during download
+[2024-04-05 00:07:34] WARNING root fetch - processPackages [sberpm]: Timeout reached during download
+[2024-04-05 00:07:34] INFO root fetch - processPackages [robotframework-confluentkafkalibrary]: Downloading https://files.pythonhosted.org/packages/76/3f/a75d22c37829f45ff671e909b62b3668fd91212850092e1102643677b7fe/robotframework-confluentkafkalibrary-2.0.2.post3.tar.gz
+[2024-04-05 00:07:34] INFO root fetch - processPackages [rai-sdk]: Downloading https://files.pythonhosted.org/packages/b7/7d/e4e82c7bc03941bdf8b0a033fe007403d0a984766c3005ce62089cb7b5fa/rai-sdk-0.7.3.tar.gz
+[2024-04-05 00:07:34] INFO root fetch - processPackages [uf-toolkit]: Downloading https://files.pythonhosted.org/packages/a2/7a/a84c30fe91466567ff2aac7026d612324e7f868bbe28d51779e3cb43cabf/uf-toolkit-0.2.0.tar.gz
+[2024-04-05 00:07:34] INFO root fetch - processPackages [weblinx]: Downloading https://files.pythonhosted.org/packages/79/18/ac1fbbbb4379d495254f001e235f6f3fc70bdc6e03aeb3d9320f8a244fc2/weblinx-0.2.3.tar.gz
+[2024-04-05 00:07:34] INFO root fetch - processPackages [cam-utils]: Downloading https://files.pythonhosted.org/packages/38/d0/a0cbc899d303ce9620802fb14f4e304f001d8c90d310537622a48f1aeff5/cam_utils-0.2.6.tar.gz
+[2024-04-05 00:07:34] INFO root fetch - processPackages [gattlib-py]: Downloading https://files.pythonhosted.org/packages/bb/1d/67ad93d191d61817d62b646fbbfd4cfabef72f75911c6de11f8278497464/gattlib-py-0.5.1.tar.gz
+[2024-04-05 00:07:34] INFO root fetch - processPackages [zetascale]: Downloading https://files.pythonhosted.org/packages/60/a9/463b1fa1cf4133c58073eb30ead10b26eb5c497f13a1c3c224023fd3d328/zetascale-2.2.9.tar.gz
+[2024-04-05 00:07:34] WARNING root fetch - processPackages [robotframework-confluentkafkalibrary]: Timeout reached during download
+[2024-04-05 00:07:34] INFO root fetch - processPackages [sberpm]: Downloading https://files.pythonhosted.org/packages/56/8b/7a98f0d1e0dec6c92142a12bbe2fde731846b3692b9241db59a43e948486/sberpm-2.6.3rc0.tar.gz
+[2024-04-05 00:07:34] WARNING root fetch - processPackages [uf-toolkit]: Timeout reached during download
+[2024-04-05 00:07:34] WARNING root fetch - processPackages [weblinx]: Timeout reached during download
+[2024-04-05 00:07:34] WARNING root fetch - processPackages [rai-sdk]: Timeout reached during download
+[2024-04-05 00:07:34] WARNING root fetch - processPackages [gattlib-py]: Timeout reached during download
+[2024-04-05 00:07:34] INFO root fetch - processPackages [gattlib-py]: executing diffoscope
+[2024-04-05 00:07:34] INFO root fetch - processPackages [gattlib-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gattlib-py-0.5.0.tar.gz tmp/gattlib-py-0.5.1.tar.gz --markdown 20240405/g/gattlib-py/0.5.0-0.5.1/diff.md --exclude *.pyd
+[2024-04-05 00:07:34] WARNING root fetch - processPackages [cam-utils]: Timeout reached during download
+[2024-04-05 00:07:34] INFO root fetch - processPackages [cam-utils]: executing diffoscope
+[2024-04-05 00:07:34] INFO root fetch - processPackages [cam-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cam_utils-0.2.5.tar.gz tmp/cam_utils-0.2.6.tar.gz --markdown 20240405/c/cam-utils/0.2.5-0.2.6/diff.md --exclude *.pyd
+[2024-04-05 00:07:34] WARNING root fetch - processPackages [zetascale]: Timeout reached during download
+[2024-04-05 00:07:34] WARNING root fetch - processPackages [sberpm]: Timeout reached during download
+[2024-04-05 00:07:34] INFO root fetch - processPackages [sberpm]: executing diffoscope
+[2024-04-05 00:07:34] INFO root fetch - processPackages [sberpm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sberpm-2.6.2rc1.tar.gz tmp/sberpm-2.6.3rc0.tar.gz --markdown 20240405/s/sberpm/2.6.2rc1-2.6.3rc0/diff.md --exclude *.pyd
+[2024-04-05 00:07:34] INFO root fetch - processPackages [robotframework-confluentkafkalibrary]: Downloading https://files.pythonhosted.org/packages/71/2a/f8af426972b325ad1933c6485c80aabc74c8cba430a6cf9a84610e6f186e/robotframework-confluentkafkalibrary-2.0.2.post4.tar.gz
+[2024-04-05 00:07:34] INFO root fetch - processPackages [zetascale]: Downloading https://files.pythonhosted.org/packages/1d/e9/23e7f6ccec7b529499caee4b44c92d2b7a0024a4c0d38276b291d9f8f1c6/zetascale-2.3.0.tar.gz
+[2024-04-05 00:07:34] INFO root fetch - processPackages [weblinx]: Downloading https://files.pythonhosted.org/packages/fa/b8/315f7c935646e27045cbbbba73189dc31149e70597b6e46a79e84d8f1b3c/weblinx-0.2.4.tar.gz
+[2024-04-05 00:07:34] INFO root fetch - processPackages [uf-toolkit]: Downloading https://files.pythonhosted.org/packages/f0/fa/c5c34d6bc87df15891d610c542db79f863be41e750ba1dd5a5cc0d983386/uf_toolkit-0.2.1-py3-none-any.whl
+[2024-04-05 00:07:34] INFO root fetch - processPackages [rai-sdk]: Downloading https://files.pythonhosted.org/packages/8b/ad/961c9259206d64c811f57080da076f04e0a26b50e2c81fef9ba64deead9e/rai-sdk-0.7.4.tar.gz
+[2024-04-05 00:07:35] WARNING root fetch - processPackages [robotframework-confluentkafkalibrary]: Timeout reached during download
+[2024-04-05 00:07:35] INFO root fetch - processPackages [robotframework-confluentkafkalibrary]: executing diffoscope
+[2024-04-05 00:07:35] INFO root fetch - processPackages [robotframework-confluentkafkalibrary]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/robotframework-confluentkafkalibrary-2.0.2.post3.tar.gz tmp/robotframework-confluentkafkalibrary-2.0.2.post4.tar.gz --markdown 20240405/r/robotframework-confluentkafkalibrary/2.0.2.post3-2.0.2.post4/diff.md --exclude *.pyd
+[2024-04-05 00:07:35] WARNING root fetch - processPackages [uf-toolkit]: Timeout reached during download
+[2024-04-05 00:07:35] INFO root fetch - processPackages [uf-toolkit]: executing diffoscope
+[2024-04-05 00:07:35] INFO root fetch - processPackages [uf-toolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/uf-toolkit-0.2.0.tar.gz tmp/uf_toolkit-0.2.1-py3-none-any.whl.zip --markdown 20240405/u/uf-toolkit/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2024-04-05 00:07:35] WARNING root fetch - processPackages [zetascale]: Timeout reached during download
+[2024-04-05 00:07:35] INFO root fetch - processPackages [zetascale]: executing diffoscope
+[2024-04-05 00:07:35] INFO root fetch - processPackages [zetascale]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zetascale-2.2.9.tar.gz tmp/zetascale-2.3.0.tar.gz --markdown 20240405/z/zetascale/2.2.9-2.3.0/diff.md --exclude *.pyd
+[2024-04-05 00:07:35] WARNING root fetch - processPackages [weblinx]: Timeout reached during download
+[2024-04-05 00:07:35] INFO root fetch - processPackages [weblinx]: executing diffoscope
+[2024-04-05 00:07:35] INFO root fetch - processPackages [weblinx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/weblinx-0.2.3.tar.gz tmp/weblinx-0.2.4.tar.gz --markdown 20240405/w/weblinx/0.2.3-0.2.4/diff.md --exclude *.pyd
+[2024-04-05 00:07:35] WARNING root fetch - processPackages [rai-sdk]: Timeout reached during download
+[2024-04-05 00:07:35] INFO root fetch - processPackages [rai-sdk]: executing diffoscope
+[2024-04-05 00:07:35] INFO root fetch - processPackages [rai-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rai-sdk-0.7.3.tar.gz tmp/rai-sdk-0.7.4.tar.gz --markdown 20240405/r/rai-sdk/0.7.3-0.7.4/diff.md --exclude *.pyd
+[2024-04-05 00:07:35] INFO root fetch - processPackages [cam-utils]: Remove: archive file [/home/abi/fetcher/tmp/cam_utils-0.2.5.tar.gz]
+[2024-04-05 00:07:35] INFO root fetch - processPackages [cam-utils]: Remove: archive file [/home/abi/fetcher/tmp/cam_utils-0.2.6.tar.gz]
+[2024-04-05 00:07:35] INFO root fetch - main [MainThread]: End processing [cam-utils]: success
+[2024-04-05 00:07:35] INFO root fetch - processPackages [gattlib-py]: Remove: archive file [/home/abi/fetcher/tmp/gattlib-py-0.5.0.tar.gz]
+[2024-04-05 00:07:35] INFO root fetch - processPackages [gattlib-py]: Remove: archive file [/home/abi/fetcher/tmp/gattlib-py-0.5.1.tar.gz]
+[2024-04-05 00:07:35] INFO root fetch - main [MainThread]: End processing [gattlib-py]: success
+[2024-04-05 00:07:35] INFO root fetch - processPackages [robotframework-confluentkafkalibrary]: Remove: archive file [/home/abi/fetcher/tmp/robotframework-confluentkafkalibrary-2.0.2.post3.tar.gz]
+[2024-04-05 00:07:35] INFO root fetch - processPackages [robotframework-confluentkafkalibrary]: Remove: archive file [/home/abi/fetcher/tmp/robotframework-confluentkafkalibrary-2.0.2.post4.tar.gz]
+[2024-04-05 00:07:35] INFO root fetch - main [MainThread]: End processing [robotframework-confluentkafkalibrary]: success
+[2024-04-05 00:07:35] INFO root fetch - processPackages [rai-sdk]: Remove: archive file [/home/abi/fetcher/tmp/rai-sdk-0.7.3.tar.gz]
+[2024-04-05 00:07:35] INFO root fetch - processPackages [rai-sdk]: Remove: archive file [/home/abi/fetcher/tmp/rai-sdk-0.7.4.tar.gz]
+[2024-04-05 00:07:35] INFO root fetch - main [MainThread]: End processing [rai-sdk]: success
+[2024-04-05 00:07:36] INFO root fetch - processPackages [uf-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/uf-toolkit-0.2.0.tar.gz]
+[2024-04-05 00:07:36] INFO root fetch - processPackages [uf-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/uf_toolkit-0.2.1-py3-none-any.whl.zip]
+[2024-04-05 00:07:36] INFO root fetch - main [MainThread]: End processing [uf-toolkit]: success
+[2024-04-05 00:07:36] INFO root fetch - processPackages [weblinx]: Remove: archive file [/home/abi/fetcher/tmp/weblinx-0.2.3.tar.gz]
+[2024-04-05 00:07:36] INFO root fetch - processPackages [weblinx]: Remove: archive file [/home/abi/fetcher/tmp/weblinx-0.2.4.tar.gz]
+[2024-04-05 00:07:36] INFO root fetch - main [MainThread]: End processing [weblinx]: success
+[2024-04-05 00:07:36] INFO root fetch - processPackages [zetascale]: Remove: archive file [/home/abi/fetcher/tmp/zetascale-2.2.9.tar.gz]
+[2024-04-05 00:07:36] INFO root fetch - processPackages [zetascale]: Remove: archive file [/home/abi/fetcher/tmp/zetascale-2.3.0.tar.gz]
+[2024-04-05 00:07:36] INFO root fetch - main [MainThread]: End processing [zetascale]: success
+[2024-04-05 00:07:39] INFO root fetch - processPackages [sberpm]: Remove: archive file [/home/abi/fetcher/tmp/sberpm-2.6.2rc1.tar.gz]
+[2024-04-05 00:07:39] INFO root fetch - processPackages [sberpm]: Remove: archive file [/home/abi/fetcher/tmp/sberpm-2.6.3rc0.tar.gz]
+[2024-04-05 00:07:39] INFO root fetch - main [MainThread]: End processing [sberpm]: success
+[2024-04-05 00:07:39] INFO root fetch - main [MainThread]: Store serial: [22628220]
