@@ -1635,3 +1635,40 @@
 [2024-04-05 01:18:01] INFO root fetch - processPackages [arize-phoenix]: Remove: archive file [/home/abi/fetcher/tmp/arize_phoenix-3.9.0.tar.gz]
 [2024-04-05 01:18:01] INFO root fetch - main [MainThread]: End processing [arize-phoenix]: success
 [2024-04-05 01:18:01] INFO root fetch - main [MainThread]: Store serial: [22628748]
+[2024-04-05 01:20:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22628748]
+[2024-04-05 01:20:11] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-05 01:20:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: somatic
+[2024-04-05 01:20:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: quantconnect-stubs
+[2024-04-05 01:20:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: regex-compose
+[2024-04-05 01:20:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: somatic
+[2024-04-05 01:20:11] INFO root fetch - processPackages [somatic]: New version: [3.0.1] Old Version: [3.0.0]
+[2024-04-05 01:20:11] INFO root fetch - processPackages [somatic]: New version: [3.0.1] Old Version: [3.0.0]
+[2024-04-05 01:20:11] WARNING root fetch - processPackages [regex-compose]: Skipping, unable to determine old version
+[2024-04-05 01:20:11] INFO root fetch - main [MainThread]: End processing [regex-compose] error
+[2024-04-05 01:20:11] INFO root fetch - processPackages [quantconnect-stubs]: New version: [9998] Old Version: [9997]
+[2024-04-05 01:20:11] INFO root fetch - processPackages [somatic]: Downloading https://files.pythonhosted.org/packages/8d/95/eef2f2145beb26384984e1a13d3baea98055c8ea767392a6b8da4e94e637/somatic-3.0.0.tar.gz
+[2024-04-05 01:20:11] INFO root fetch - processPackages [somatic]: Downloading https://files.pythonhosted.org/packages/8d/95/eef2f2145beb26384984e1a13d3baea98055c8ea767392a6b8da4e94e637/somatic-3.0.0.tar.gz
+[2024-04-05 01:20:11] INFO root fetch - processPackages [quantconnect-stubs]: Downloading https://files.pythonhosted.org/packages/c1/05/f15c16a3f852decfd032ce1688dfdf02fd7289f1780742453533e8c55209/quantconnect-stubs-9997.tar.gz
+[2024-04-05 01:20:11] WARNING root fetch - processPackages [somatic]: Timeout reached during download
+[2024-04-05 01:20:11] WARNING root fetch - processPackages [somatic]: Timeout reached during download
+[2024-04-05 01:20:11] WARNING root fetch - processPackages [quantconnect-stubs]: Timeout reached during download
+[2024-04-05 01:20:11] INFO root fetch - processPackages [somatic]: Downloading https://files.pythonhosted.org/packages/b9/bb/8848945c23cd3a7bef252c760c0782c823fd470b31cb7d8c853f98468210/somatic-3.0.1.tar.gz
+[2024-04-05 01:20:11] INFO root fetch - processPackages [somatic]: Downloading https://files.pythonhosted.org/packages/b9/bb/8848945c23cd3a7bef252c760c0782c823fd470b31cb7d8c853f98468210/somatic-3.0.1.tar.gz
+[2024-04-05 01:20:12] WARNING root fetch - processPackages [somatic]: Timeout reached during download
+[2024-04-05 01:20:12] INFO root fetch - processPackages [somatic]: executing diffoscope
+[2024-04-05 01:20:12] INFO root fetch - processPackages [somatic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/somatic-3.0.0.tar.gz tmp/somatic-3.0.1.tar.gz --markdown 20240405/s/somatic/3.0.0-3.0.1/diff.md --exclude *.pyd
+[2024-04-05 01:20:12] WARNING root fetch - processPackages [somatic]: Timeout reached during download
+[2024-04-05 01:20:12] INFO root fetch - processPackages [somatic]: executing diffoscope
+[2024-04-05 01:20:12] INFO root fetch - processPackages [somatic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/somatic-3.0.0.tar.gz tmp/somatic-3.0.1.tar.gz --markdown 20240405/s/somatic/3.0.0-3.0.1/diff.md --exclude *.pyd
+[2024-04-05 01:20:12] INFO root fetch - processPackages [quantconnect-stubs]: Downloading https://files.pythonhosted.org/packages/b7/4c/71e6bb724f14efcd8865f2aa692528a4c45877c58f5cf8c964a8e0fc0e74/quantconnect-stubs-9998.tar.gz
+[2024-04-05 01:20:12] WARNING root fetch - processPackages [quantconnect-stubs]: Timeout reached during download
+[2024-04-05 01:20:12] INFO root fetch - processPackages [quantconnect-stubs]: executing diffoscope
+[2024-04-05 01:20:12] INFO root fetch - processPackages [quantconnect-stubs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quantconnect-stubs-9997.tar.gz tmp/quantconnect-stubs-9998.tar.gz --markdown 20240405/q/quantconnect-stubs/9997-9998/diff.md --exclude *.pyd
+[2024-04-05 01:20:12] INFO root fetch - processPackages [somatic]: Remove: archive file [/home/abi/fetcher/tmp/somatic-3.0.0.tar.gz]
+[2024-04-05 01:20:12] INFO root fetch - processPackages [somatic]: Remove: archive file [/home/abi/fetcher/tmp/somatic-3.0.1.tar.gz]
+[2024-04-05 01:20:12] INFO root fetch - main [MainThread]: End processing [somatic]: success
+[2024-04-05 01:20:12] INFO root fetch - main [MainThread]: End processing [somatic]: success
+[2024-04-05 01:20:15] INFO root fetch - processPackages [quantconnect-stubs]: Remove: archive file [/home/abi/fetcher/tmp/quantconnect-stubs-9997.tar.gz]
+[2024-04-05 01:20:15] INFO root fetch - processPackages [quantconnect-stubs]: Remove: archive file [/home/abi/fetcher/tmp/quantconnect-stubs-9998.tar.gz]
+[2024-04-05 01:20:15] INFO root fetch - main [MainThread]: End processing [quantconnect-stubs]: success
+[2024-04-05 01:20:15] INFO root fetch - main [MainThread]: Store serial: [22628766]
