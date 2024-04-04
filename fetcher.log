@@ -347,3 +347,44 @@
 [2024-04-05 00:12:02] INFO root fetch - processPackages [llama-index]: Remove: archive file [/home/abi/fetcher/tmp/llama_index-0.9.9.tar.gz]
 [2024-04-05 00:12:02] INFO root fetch - main [MainThread]: End processing [llama-index]: success
 [2024-04-05 00:12:02] INFO root fetch - main [MainThread]: Store serial: [22628320]
+[2024-04-05 00:14:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22628320]
+[2024-04-05 00:14:11] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-05 00:14:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: libera_utils
+[2024-04-05 00:14:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: blackneedles
+[2024-04-05 00:14:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: llama-index-finetuning
+[2024-04-05 00:14:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: universal-test-tool
+[2024-04-05 00:14:12] INFO root fetch - processPackages [libera_utils]: New version: [2.2.2rc5] Old Version: [2.2.2rc4]
+[2024-04-05 00:14:12] INFO root fetch - processPackages [llama-index-finetuning]: New version: [0.1.5] Old Version: [0.1.4]
+[2024-04-05 00:14:12] INFO root fetch - processPackages [blackneedles]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-04-05 00:14:12] INFO root fetch - processPackages [universal-test-tool]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-05 00:14:12] INFO root fetch - processPackages [libera_utils]: Downloading https://files.pythonhosted.org/packages/83/4e/caccf4e3e00e5990c910a715f050b4c23bb42bad8116a78de9ecfa5eb303/libera_utils-2.2.2rc4.tar.gz
+[2024-04-05 00:14:12] INFO root fetch - processPackages [llama-index-finetuning]: Downloading https://files.pythonhosted.org/packages/d1/74/b56d9259632b0f91fd96f7e55b8047761bb09f617a9ea670472209d2f140/llama_index_finetuning-0.1.4.tar.gz
+[2024-04-05 00:14:12] INFO root fetch - processPackages [universal-test-tool]: Downloading https://files.pythonhosted.org/packages/1b/42/c4f18f266ee39c08806d5cae3b334abd284513687b0688982c03ac501ab0/universal-test-tool-0.1.8.tar.gz
+[2024-04-05 00:14:12] INFO root fetch - processPackages [blackneedles]: Downloading https://files.pythonhosted.org/packages/4c/b8/32bd736f71e1ef53b8d4291606c7f5436cf79d1e697f4e5b43fc850e77c1/blackneedles-0.1.1.tar.gz
+[2024-04-05 00:14:12] WARNING root fetch - processPackages [libera_utils]: Skipping package: exceeds size limit 31167027>=10485760
+[2024-04-05 00:14:12] INFO root fetch - main [MainThread]: End processing [libera_utils] error
+[2024-04-05 00:14:12] WARNING root fetch - processPackages [llama-index-finetuning]: Timeout reached during download
+[2024-04-05 00:14:12] WARNING root fetch - processPackages [blackneedles]: Timeout reached during download
+[2024-04-05 00:14:12] WARNING root fetch - processPackages [universal-test-tool]: Timeout reached during download
+[2024-04-05 00:14:12] INFO root fetch - processPackages [blackneedles]: Downloading https://files.pythonhosted.org/packages/89/17/27cefaac57e7b668bb97ff3b24ea7bd22b998c38f72874c31608a2eca03c/blackneedles-0.1.2.tar.gz
+[2024-04-05 00:14:12] INFO root fetch - processPackages [llama-index-finetuning]: Downloading https://files.pythonhosted.org/packages/3f/da/b226f2a347b57953ca172832a7935c426383e3afc544000afcd8ecbe8619/llama_index_finetuning-0.1.5.tar.gz
+[2024-04-05 00:14:12] INFO root fetch - processPackages [universal-test-tool]: Downloading https://files.pythonhosted.org/packages/b2/73/b23bcc62ee6e0bc71f8595bfb563a341ffba127512c0c1799bf9a12a4a42/universal-test-tool-0.1.9.tar.gz
+[2024-04-05 00:14:12] WARNING root fetch - processPackages [blackneedles]: Timeout reached during download
+[2024-04-05 00:14:12] INFO root fetch - processPackages [blackneedles]: executing diffoscope
+[2024-04-05 00:14:12] INFO root fetch - processPackages [blackneedles]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/blackneedles-0.1.1.tar.gz tmp/blackneedles-0.1.2.tar.gz --markdown 20240405/b/blackneedles/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2024-04-05 00:14:12] WARNING root fetch - processPackages [llama-index-finetuning]: Timeout reached during download
+[2024-04-05 00:14:12] INFO root fetch - processPackages [llama-index-finetuning]: executing diffoscope
+[2024-04-05 00:14:12] INFO root fetch - processPackages [llama-index-finetuning]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llama_index_finetuning-0.1.4.tar.gz tmp/llama_index_finetuning-0.1.5.tar.gz --markdown 20240405/l/llama-index-finetuning/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2024-04-05 00:14:13] WARNING root fetch - processPackages [universal-test-tool]: Timeout reached during download
+[2024-04-05 00:14:13] INFO root fetch - processPackages [universal-test-tool]: executing diffoscope
+[2024-04-05 00:14:13] INFO root fetch - processPackages [universal-test-tool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/universal-test-tool-0.1.8.tar.gz tmp/universal-test-tool-0.1.9.tar.gz --markdown 20240405/u/universal-test-tool/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2024-04-05 00:14:13] INFO root fetch - processPackages [blackneedles]: Remove: archive file [/home/abi/fetcher/tmp/blackneedles-0.1.1.tar.gz]
+[2024-04-05 00:14:13] INFO root fetch - processPackages [blackneedles]: Remove: archive file [/home/abi/fetcher/tmp/blackneedles-0.1.2.tar.gz]
+[2024-04-05 00:14:13] INFO root fetch - main [MainThread]: End processing [blackneedles]: success
+[2024-04-05 00:14:13] INFO root fetch - processPackages [llama-index-finetuning]: Remove: archive file [/home/abi/fetcher/tmp/llama_index_finetuning-0.1.4.tar.gz]
+[2024-04-05 00:14:13] INFO root fetch - processPackages [llama-index-finetuning]: Remove: archive file [/home/abi/fetcher/tmp/llama_index_finetuning-0.1.5.tar.gz]
+[2024-04-05 00:14:13] INFO root fetch - main [MainThread]: End processing [llama-index-finetuning]: success
+[2024-04-05 00:14:13] INFO root fetch - processPackages [universal-test-tool]: Remove: archive file [/home/abi/fetcher/tmp/universal-test-tool-0.1.8.tar.gz]
+[2024-04-05 00:14:13] INFO root fetch - processPackages [universal-test-tool]: Remove: archive file [/home/abi/fetcher/tmp/universal-test-tool-0.1.9.tar.gz]
+[2024-04-05 00:14:13] INFO root fetch - main [MainThread]: End processing [universal-test-tool]: success
+[2024-04-05 00:14:13] INFO root fetch - main [MainThread]: Store serial: [22628341]
