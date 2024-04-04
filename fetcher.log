@@ -1062,3 +1062,28 @@
 [2024-04-05 00:49:03] INFO root fetch - processPackages [user-context-remote]: Remove: archive file [/home/abi/fetcher/tmp/user-context-remote-0.0.70.tar.gz]
 [2024-04-05 00:49:03] INFO root fetch - main [MainThread]: End processing [user-context-remote]: success
 [2024-04-05 00:49:03] INFO root fetch - main [MainThread]: Store serial: [22628585]
+[2024-04-05 00:51:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22628585]
+[2024-04-05 00:51:11] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-05 00:51:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: openfga-sdk
+[2024-04-05 00:51:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: stripe
+[2024-04-05 00:51:11] INFO root fetch - processPackages [stripe]: New version: [8.9.0b1] Old Version: [8.9.0]
+[2024-04-05 00:51:11] INFO root fetch - processPackages [openfga-sdk]: New version: [0.4.2] Old Version: [0.4.1]
+[2024-04-05 00:51:11] INFO root fetch - processPackages [stripe]: Downloading https://files.pythonhosted.org/packages/45/25/f914558692e8ebb78c358e7b46d4d635531f787cca348d75561f86a3fbaf/stripe-8.9.0.tar.gz
+[2024-04-05 00:51:11] INFO root fetch - processPackages [openfga-sdk]: Downloading https://files.pythonhosted.org/packages/80/a5/8a9e00ca08622b96a70015dbcdd5e4ac3c57794192613a3cba4e93ad6421/openfga-sdk-0.4.1.tar.gz
+[2024-04-05 00:51:11] WARNING root fetch - processPackages [openfga-sdk]: Timeout reached during download
+[2024-04-05 00:51:11] WARNING root fetch - processPackages [stripe]: Timeout reached during download
+[2024-04-05 00:51:12] INFO root fetch - processPackages [openfga-sdk]: Downloading https://files.pythonhosted.org/packages/08/b8/0f39853934a5aed36e2854cec1f64798be8aa7f70f88b9ddd2efa05bd2dc/openfga-sdk-0.4.2.tar.gz
+[2024-04-05 00:51:12] INFO root fetch - processPackages [stripe]: Downloading https://files.pythonhosted.org/packages/0b/4d/6fd857cc97f5d31be2005ccc222b282e450e192ecea871a7d2362d18372b/stripe-8.9.0b1.tar.gz
+[2024-04-05 00:51:12] WARNING root fetch - processPackages [openfga-sdk]: Timeout reached during download
+[2024-04-05 00:51:12] INFO root fetch - processPackages [openfga-sdk]: executing diffoscope
+[2024-04-05 00:51:12] INFO root fetch - processPackages [openfga-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openfga-sdk-0.4.1.tar.gz tmp/openfga-sdk-0.4.2.tar.gz --markdown 20240405/o/openfga-sdk/0.4.1-0.4.2/diff.md --exclude *.pyd
+[2024-04-05 00:51:12] WARNING root fetch - processPackages [stripe]: Timeout reached during download
+[2024-04-05 00:51:12] INFO root fetch - processPackages [stripe]: executing diffoscope
+[2024-04-05 00:51:12] INFO root fetch - processPackages [stripe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stripe-8.9.0.tar.gz tmp/stripe-8.9.0b1.tar.gz --markdown 20240405/s/stripe/8.9.0-8.9.0b1/diff.md --exclude *.pyd
+[2024-04-05 00:51:13] INFO root fetch - processPackages [openfga-sdk]: Remove: archive file [/home/abi/fetcher/tmp/openfga-sdk-0.4.1.tar.gz]
+[2024-04-05 00:51:13] INFO root fetch - processPackages [openfga-sdk]: Remove: archive file [/home/abi/fetcher/tmp/openfga-sdk-0.4.2.tar.gz]
+[2024-04-05 00:51:13] INFO root fetch - main [MainThread]: End processing [openfga-sdk]: success
+[2024-04-05 00:51:18] INFO root fetch - processPackages [stripe]: Remove: archive file [/home/abi/fetcher/tmp/stripe-8.9.0.tar.gz]
+[2024-04-05 00:51:18] INFO root fetch - processPackages [stripe]: Remove: archive file [/home/abi/fetcher/tmp/stripe-8.9.0b1.tar.gz]
+[2024-04-05 00:51:18] INFO root fetch - main [MainThread]: End processing [stripe]: success
+[2024-04-05 00:51:18] INFO root fetch - main [MainThread]: Store serial: [22628591]
