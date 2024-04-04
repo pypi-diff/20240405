@@ -2162,3 +2162,50 @@
 [2024-04-05 01:43:27] INFO root fetch - processPackages [seeq]: Remove: archive file [/home/abi/fetcher/tmp/seeq-64.2.0.tar.gz]
 [2024-04-05 01:43:27] INFO root fetch - main [MainThread]: End processing [seeq]: success
 [2024-04-05 01:43:27] INFO root fetch - main [MainThread]: Store serial: [22628924]
+[2024-04-05 01:45:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22628924]
+[2024-04-05 01:45:35] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-05 01:45:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: antur
+[2024-04-05 01:45:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: confluentfucci
+[2024-04-05 01:45:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: plasmidcanvas
+[2024-04-05 01:45:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: xontrib-prompt-starship
+[2024-04-05 01:45:35] INFO root fetch - processPackages [confluentfucci]: New version: [1.0.5] Old Version: [1.0.4]
+[2024-04-05 01:45:35] INFO root fetch - processPackages [confluentfucci]: Downloading https://files.pythonhosted.org/packages/ac/b6/dd3a14f2eed957bbb74562a0d58adf6a4e7f069a2dab78b8b6e424ad66ca/confluentfucci-1.0.4.tar.gz
+[2024-04-05 01:45:35] INFO root fetch - processPackages [plasmidcanvas]: New version: [1.0.0] Old Version: [0.1.0]
+[2024-04-05 01:45:35] INFO root fetch - processPackages [xontrib-prompt-starship]: New version: [0.3.6] Old Version: [0.3.5]
+[2024-04-05 01:45:35] INFO root fetch - processPackages [antur]: New version: [0.2.0] Old Version: [0.1.0]
+[2024-04-05 01:45:36] WARNING root fetch - processPackages [confluentfucci]: Timeout reached during download
+[2024-04-05 01:45:36] INFO root fetch - processPackages [antur]: Downloading https://files.pythonhosted.org/packages/22/f1/91383dba71b5020a280e197479d96eec4cfb0b963ea252313532a8e2ce18/antur-0.1.0.tar.gz
+[2024-04-05 01:45:36] INFO root fetch - processPackages [confluentfucci]: Downloading https://files.pythonhosted.org/packages/f3/6d/d630662e4682fd3a41484fe4b1d79159c357af77c5180ae3c6087031fc21/confluentfucci-1.0.5.tar.gz
+[2024-04-05 01:45:36] INFO root fetch - processPackages [xontrib-prompt-starship]: Downloading https://files.pythonhosted.org/packages/d2/8e/f7a9095c2a1a017a78d5b13552964b0dee456603837f0a052706489a55a9/xontrib-prompt-starship-0.3.5.tar.gz
+[2024-04-05 01:45:36] INFO root fetch - processPackages [plasmidcanvas]: Downloading https://files.pythonhosted.org/packages/a3/6e/bd4752595f42371e4d84f5f7ada06eca97bdd9a24e2172118da8bc2fde37/plasmidcanvas-0.1.0.tar.gz
+[2024-04-05 01:45:36] WARNING root fetch - processPackages [antur]: Timeout reached during download
+[2024-04-05 01:45:36] WARNING root fetch - processPackages [confluentfucci]: Timeout reached during download
+[2024-04-05 01:45:36] INFO root fetch - processPackages [confluentfucci]: executing diffoscope
+[2024-04-05 01:45:36] INFO root fetch - processPackages [confluentfucci]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/confluentfucci-1.0.4.tar.gz tmp/confluentfucci-1.0.5.tar.gz --markdown 20240405/c/confluentfucci/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2024-04-05 01:45:36] WARNING root fetch - processPackages [plasmidcanvas]: Timeout reached during download
+[2024-04-05 01:45:36] WARNING root fetch - processPackages [xontrib-prompt-starship]: Timeout reached during download
+[2024-04-05 01:45:36] INFO root fetch - processPackages [antur]: Downloading https://files.pythonhosted.org/packages/bb/3a/fc965a5979dde28073e0f355b9165dc46b17cba53b03654f07dc0fe23a04/antur-0.2.0.tar.gz
+[2024-04-05 01:45:36] INFO root fetch - processPackages [plasmidcanvas]: Downloading https://files.pythonhosted.org/packages/e7/da/46a99d21743e7051e3212c894b22767c5755b8d1fa19b4b782a1f867e258/plasmidcanvas-1.0.0.tar.gz
+[2024-04-05 01:45:36] WARNING root fetch - processPackages [antur]: Timeout reached during download
+[2024-04-05 01:45:36] INFO root fetch - processPackages [antur]: executing diffoscope
+[2024-04-05 01:45:36] INFO root fetch - processPackages [antur]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/antur-0.1.0.tar.gz tmp/antur-0.2.0.tar.gz --markdown 20240405/a/antur/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2024-04-05 01:45:36] INFO root fetch - processPackages [xontrib-prompt-starship]: Downloading https://files.pythonhosted.org/packages/34/5b/c858bebb3577b3d6b219ebec2398520b2a8976250790c7c40bf25f8cbf67/xontrib-prompt-starship-0.3.6.tar.gz
+[2024-04-05 01:45:36] WARNING root fetch - processPackages [plasmidcanvas]: Timeout reached during download
+[2024-04-05 01:45:36] INFO root fetch - processPackages [plasmidcanvas]: executing diffoscope
+[2024-04-05 01:45:36] INFO root fetch - processPackages [plasmidcanvas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/plasmidcanvas-0.1.0.tar.gz tmp/plasmidcanvas-1.0.0.tar.gz --markdown 20240405/p/plasmidcanvas/0.1.0-1.0.0/diff.md --exclude *.pyd
+[2024-04-05 01:45:36] WARNING root fetch - processPackages [xontrib-prompt-starship]: Timeout reached during download
+[2024-04-05 01:45:36] INFO root fetch - processPackages [xontrib-prompt-starship]: executing diffoscope
+[2024-04-05 01:45:36] INFO root fetch - processPackages [xontrib-prompt-starship]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xontrib-prompt-starship-0.3.5.tar.gz tmp/xontrib-prompt-starship-0.3.6.tar.gz --markdown 20240405/x/xontrib-prompt-starship/0.3.5-0.3.6/diff.md --exclude *.pyd
+[2024-04-05 01:45:36] INFO root fetch - processPackages [confluentfucci]: Remove: archive file [/home/abi/fetcher/tmp/confluentfucci-1.0.4.tar.gz]
+[2024-04-05 01:45:36] INFO root fetch - processPackages [confluentfucci]: Remove: archive file [/home/abi/fetcher/tmp/confluentfucci-1.0.5.tar.gz]
+[2024-04-05 01:45:36] INFO root fetch - main [MainThread]: End processing [confluentfucci]: success
+[2024-04-05 01:45:37] INFO root fetch - processPackages [antur]: Remove: archive file [/home/abi/fetcher/tmp/antur-0.1.0.tar.gz]
+[2024-04-05 01:45:37] INFO root fetch - processPackages [antur]: Remove: archive file [/home/abi/fetcher/tmp/antur-0.2.0.tar.gz]
+[2024-04-05 01:45:37] INFO root fetch - main [MainThread]: End processing [antur]: success
+[2024-04-05 01:45:37] INFO root fetch - processPackages [plasmidcanvas]: Remove: archive file [/home/abi/fetcher/tmp/plasmidcanvas-0.1.0.tar.gz]
+[2024-04-05 01:45:37] INFO root fetch - processPackages [plasmidcanvas]: Remove: archive file [/home/abi/fetcher/tmp/plasmidcanvas-1.0.0.tar.gz]
+[2024-04-05 01:45:37] INFO root fetch - main [MainThread]: End processing [plasmidcanvas]: success
+[2024-04-05 01:45:37] INFO root fetch - processPackages [xontrib-prompt-starship]: Remove: archive file [/home/abi/fetcher/tmp/xontrib-prompt-starship-0.3.5.tar.gz]
+[2024-04-05 01:45:37] INFO root fetch - processPackages [xontrib-prompt-starship]: Remove: archive file [/home/abi/fetcher/tmp/xontrib-prompt-starship-0.3.6.tar.gz]
+[2024-04-05 01:45:37] INFO root fetch - main [MainThread]: End processing [xontrib-prompt-starship]: success
+[2024-04-05 01:45:37] INFO root fetch - main [MainThread]: Store serial: [22628936]
