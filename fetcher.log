@@ -1672,3 +1672,72 @@
 [2024-04-05 01:20:15] INFO root fetch - processPackages [quantconnect-stubs]: Remove: archive file [/home/abi/fetcher/tmp/quantconnect-stubs-9998.tar.gz]
 [2024-04-05 01:20:15] INFO root fetch - main [MainThread]: End processing [quantconnect-stubs]: success
 [2024-04-05 01:20:15] INFO root fetch - main [MainThread]: Store serial: [22628766]
+[2024-04-05 01:22:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22628766]
+[2024-04-05 01:22:23] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-05 01:22:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: truss
+[2024-04-05 01:22:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: marzpy
+[2024-04-05 01:22:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: jaraco.context
+[2024-04-05 01:22:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cartesify-backend
+[2024-04-05 01:22:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: jupyter-ai
+[2024-04-05 01:22:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: jupyter-ai-magics
+[2024-04-05 01:22:23] INFO root fetch - processPackages [cartesify-backend]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-05 01:22:24] INFO root fetch - processPackages [jaraco.context]: New version: [5.0.0] Old Version: [4.3.0]
+[2024-04-05 01:22:24] INFO root fetch - processPackages [jupyter-ai-magics]: New version: [2.9.1] Old Version: [2.9.0]
+[2024-04-05 01:22:24] INFO root fetch - processPackages [jupyter-ai]: New version: [2.9.1] Old Version: [2.9.0]
+[2024-04-05 01:22:24] INFO root fetch - processPackages [truss]: New version: [0.9.9rc1] Old Version: [0.9.8]
+[2024-04-05 01:22:24] INFO root fetch - processPackages [cartesify-backend]: Downloading https://files.pythonhosted.org/packages/8d/66/8ba7d886e1f2e507b220841f3d5f9a8a14aa25b06d8aad875257555719e3/cartesify_backend-0.0.8.tar.gz
+[2024-04-05 01:22:24] INFO root fetch - processPackages [marzpy]: New version: [0.0.3] Old Version: [0.0.1]
+[2024-04-05 01:22:24] INFO root fetch - processPackages [jupyter-ai]: Downloading https://files.pythonhosted.org/packages/37/82/310f93972ebcfed1716a151e1517e7a2d0448e677a2f5f0b18ab72578264/jupyter_ai-2.9.0.tar.gz
+[2024-04-05 01:22:24] INFO root fetch - processPackages [jupyter-ai-magics]: Downloading https://files.pythonhosted.org/packages/5c/82/b9fec8e8bd26f144f73e0ea913306dad065a83c874392cd805e42314c96b/jupyter_ai_magics-2.9.0.tar.gz
+[2024-04-05 01:22:24] INFO root fetch - processPackages [truss]: Downloading https://files.pythonhosted.org/packages/88/31/35ce46c187567cb4b652d6e4c47e974c1e66130068b0434103573722f724/truss-0.9.8.tar.gz
+[2024-04-05 01:22:24] INFO root fetch - processPackages [jaraco.context]: Downloading https://files.pythonhosted.org/packages/7c/b4/fa71f82b83ebeed95fe45ce587d6cba85b7c09ef3d9f61602f92f45e90db/jaraco.context-4.3.0.tar.gz
+[2024-04-05 01:22:24] WARNING root fetch - processPackages [cartesify-backend]: Timeout reached during download
+[2024-04-05 01:22:24] WARNING root fetch - processPackages [jupyter-ai-magics]: Timeout reached during download
+[2024-04-05 01:22:24] WARNING root fetch - processPackages [truss]: Timeout reached during download
+[2024-04-05 01:22:24] INFO root fetch - processPackages [cartesify-backend]: Downloading https://files.pythonhosted.org/packages/d6/92/3a1ee788fa672cfa95a4e1ec9713ec76ef023911989a189d6709beb81dde/cartesify_backend-0.0.9.tar.gz
+[2024-04-05 01:22:24] INFO root fetch - processPackages [marzpy]: Downloading https://files.pythonhosted.org/packages/ec/89/7db81bbb61d2b0f8c9d98872d0157c22f6774bbc4143b68d51d99428bcad/marzpy-0.0.1.tar.gz
+[2024-04-05 01:22:24] WARNING root fetch - processPackages [jaraco.context]: Timeout reached during download
+[2024-04-05 01:22:24] INFO root fetch - processPackages [truss]: Downloading https://files.pythonhosted.org/packages/2d/ef/618d465ff644292e8368dbceb5986e5e02741c746dc835553cc229f2b9ce/truss-0.9.9rc1.tar.gz
+[2024-04-05 01:22:24] WARNING root fetch - processPackages [jupyter-ai]: Timeout reached during download
+[2024-04-05 01:22:24] INFO root fetch - processPackages [jupyter-ai-magics]: Downloading https://files.pythonhosted.org/packages/92/e2/cff5a094dc2175fc664fe31c75325663f93e19ab059ec133fb99c706ec40/jupyter_ai_magics-2.9.1.tar.gz
+[2024-04-05 01:22:24] INFO root fetch - processPackages [jaraco.context]: Downloading https://files.pythonhosted.org/packages/89/78/34e28de506022cf5565dedc81860fbd3166ed019d43aac5c16c9bc061343/jaraco.context-5.0.0.tar.gz
+[2024-04-05 01:22:24] WARNING root fetch - processPackages [cartesify-backend]: Timeout reached during download
+[2024-04-05 01:22:24] INFO root fetch - processPackages [cartesify-backend]: executing diffoscope
+[2024-04-05 01:22:24] INFO root fetch - processPackages [cartesify-backend]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cartesify_backend-0.0.8.tar.gz tmp/cartesify_backend-0.0.9.tar.gz --markdown 20240405/c/cartesify-backend/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2024-04-05 01:22:24] WARNING root fetch - processPackages [marzpy]: Timeout reached during download
+[2024-04-05 01:22:24] WARNING root fetch - processPackages [truss]: Timeout reached during download
+[2024-04-05 01:22:24] INFO root fetch - processPackages [truss]: executing diffoscope
+[2024-04-05 01:22:24] INFO root fetch - processPackages [truss]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/truss-0.9.8.tar.gz tmp/truss-0.9.9rc1.tar.gz --markdown 20240405/t/truss/0.9.8-0.9.9rc1/diff.md --exclude *.pyd
+[2024-04-05 01:22:24] INFO root fetch - processPackages [jupyter-ai]: Downloading https://files.pythonhosted.org/packages/f3/e8/d74488780293d9f34a193447c002a290122ea69a64176d351e2a3f36e1b6/jupyter_ai-2.9.1.tar.gz
+[2024-04-05 01:22:24] WARNING root fetch - processPackages [jupyter-ai-magics]: Timeout reached during download
+[2024-04-05 01:22:24] INFO root fetch - processPackages [jupyter-ai-magics]: executing diffoscope
+[2024-04-05 01:22:24] INFO root fetch - processPackages [jupyter-ai-magics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jupyter_ai_magics-2.9.0.tar.gz tmp/jupyter_ai_magics-2.9.1.tar.gz --markdown 20240405/j/jupyter-ai-magics/2.9.0-2.9.1/diff.md --exclude *.pyd
+[2024-04-05 01:22:24] WARNING root fetch - processPackages [jaraco.context]: Timeout reached during download
+[2024-04-05 01:22:24] INFO root fetch - processPackages [jaraco.context]: executing diffoscope
+[2024-04-05 01:22:24] INFO root fetch - processPackages [jaraco.context]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jaraco.context-4.3.0.tar.gz tmp/jaraco.context-5.0.0.tar.gz --markdown 20240405/j/jaraco.context/4.3.0-5.0.0/diff.md --exclude *.pyd
+[2024-04-05 01:22:24] INFO root fetch - processPackages [marzpy]: Downloading https://files.pythonhosted.org/packages/4b/1e/1e414dce5083f8844021b3cbaf1413d610c196aa30d28e5b8461e2a4a116/marzpy-0.0.3.tar.gz
+[2024-04-05 01:22:24] WARNING root fetch - processPackages [jupyter-ai]: Timeout reached during download
+[2024-04-05 01:22:24] INFO root fetch - processPackages [jupyter-ai]: executing diffoscope
+[2024-04-05 01:22:24] INFO root fetch - processPackages [jupyter-ai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jupyter_ai-2.9.0.tar.gz tmp/jupyter_ai-2.9.1.tar.gz --markdown 20240405/j/jupyter-ai/2.9.0-2.9.1/diff.md --exclude *.pyd
+[2024-04-05 01:22:24] WARNING root fetch - processPackages [marzpy]: Timeout reached during download
+[2024-04-05 01:22:24] INFO root fetch - processPackages [marzpy]: executing diffoscope
+[2024-04-05 01:22:24] INFO root fetch - processPackages [marzpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/marzpy-0.0.1.tar.gz tmp/marzpy-0.0.3.tar.gz --markdown 20240405/m/marzpy/0.0.1-0.0.3/diff.md --exclude *.pyd
+[2024-04-05 01:22:25] INFO root fetch - processPackages [cartesify-backend]: Remove: archive file [/home/abi/fetcher/tmp/cartesify_backend-0.0.8.tar.gz]
+[2024-04-05 01:22:25] INFO root fetch - processPackages [cartesify-backend]: Remove: archive file [/home/abi/fetcher/tmp/cartesify_backend-0.0.9.tar.gz]
+[2024-04-05 01:22:25] INFO root fetch - main [MainThread]: End processing [cartesify-backend]: success
+[2024-04-05 01:22:25] INFO root fetch - processPackages [jupyter-ai-magics]: Remove: archive file [/home/abi/fetcher/tmp/jupyter_ai_magics-2.9.0.tar.gz]
+[2024-04-05 01:22:25] INFO root fetch - processPackages [jupyter-ai-magics]: Remove: archive file [/home/abi/fetcher/tmp/jupyter_ai_magics-2.9.1.tar.gz]
+[2024-04-05 01:22:25] INFO root fetch - main [MainThread]: End processing [jupyter-ai-magics]: success
+[2024-04-05 01:22:25] INFO root fetch - processPackages [jaraco.context]: Remove: archive file [/home/abi/fetcher/tmp/jaraco.context-4.3.0.tar.gz]
+[2024-04-05 01:22:25] INFO root fetch - processPackages [jaraco.context]: Remove: archive file [/home/abi/fetcher/tmp/jaraco.context-5.0.0.tar.gz]
+[2024-04-05 01:22:25] INFO root fetch - main [MainThread]: End processing [jaraco.context]: success
+[2024-04-05 01:22:25] INFO root fetch - processPackages [marzpy]: Remove: archive file [/home/abi/fetcher/tmp/marzpy-0.0.1.tar.gz]
+[2024-04-05 01:22:25] INFO root fetch - processPackages [marzpy]: Remove: archive file [/home/abi/fetcher/tmp/marzpy-0.0.3.tar.gz]
+[2024-04-05 01:22:25] INFO root fetch - main [MainThread]: End processing [marzpy]: success
+[2024-04-05 01:22:25] INFO root fetch - processPackages [truss]: Remove: archive file [/home/abi/fetcher/tmp/truss-0.9.8.tar.gz]
+[2024-04-05 01:22:25] INFO root fetch - processPackages [truss]: Remove: archive file [/home/abi/fetcher/tmp/truss-0.9.9rc1.tar.gz]
+[2024-04-05 01:22:25] INFO root fetch - main [MainThread]: End processing [truss]: success
+[2024-04-05 01:22:26] INFO root fetch - processPackages [jupyter-ai]: Remove: archive file [/home/abi/fetcher/tmp/jupyter_ai-2.9.0.tar.gz]
+[2024-04-05 01:22:26] INFO root fetch - processPackages [jupyter-ai]: Remove: archive file [/home/abi/fetcher/tmp/jupyter_ai-2.9.1.tar.gz]
+[2024-04-05 01:22:26] INFO root fetch - main [MainThread]: End processing [jupyter-ai]: success
+[2024-04-05 01:22:26] INFO root fetch - main [MainThread]: Store serial: [22628784]
