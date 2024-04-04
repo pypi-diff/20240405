@@ -1231,3 +1231,61 @@
 [2024-04-05 01:00:07] INFO root fetch - processPackages [cdk-image-pipeline]: Remove: archive file [/home/abi/fetcher/tmp/cdk-image-pipeline-0.5.9.tar.gz]
 [2024-04-05 01:00:07] INFO root fetch - main [MainThread]: End processing [cdk-image-pipeline]: success
 [2024-04-05 01:00:07] INFO root fetch - main [MainThread]: Store serial: [22628632]
+[2024-04-05 01:02:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22628632]
+[2024-04-05 01:02:16] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-05 01:02:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: exponential-backoff-ca
+[2024-04-05 01:02:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: FactScoreLite
+[2024-04-05 01:02:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: yowasp-wavedrom
+[2024-04-05 01:02:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: py-near
+[2024-04-05 01:02:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: kdp-python-connector
+[2024-04-05 01:02:16] INFO root fetch - processPackages [kdp-python-connector]: New version: [0.63.0] Old Version: [0.62.0]
+[2024-04-05 01:02:16] INFO root fetch - processPackages [py-near]: New version: [1.1.9] Old Version: [1.1.8]
+[2024-04-05 01:02:16] INFO root fetch - processPackages [kdp-python-connector]: Downloading https://files.pythonhosted.org/packages/6b/19/fc01f3d98ee0192439eeed417c5820637b7b80dff0da97fba0c6ae9db877/kdp-python-connector-0.62.0.tar.gz
+[2024-04-05 01:02:16] INFO root fetch - processPackages [py-near]: Downloading https://files.pythonhosted.org/packages/aa/de/beface0702603924b5d0a916d15f1c6cc26697783b8191af8e33620e805d/py_near-1.1.8.tar.gz
+[2024-04-05 01:02:16] INFO root fetch - processPackages [yowasp-wavedrom]: New version: [3.5.0.4] Old Version: [3.5.0.3]
+[2024-04-05 01:02:16] INFO root fetch - processPackages [exponential-backoff-ca]: New version: [2.1] Old Version: [2]
+[2024-04-05 01:02:16] INFO root fetch - processPackages [FactScoreLite]: New version: [0.3.0] Old Version: [0.2.1]
+[2024-04-05 01:02:16] WARNING root fetch - processPackages [py-near]: Timeout reached during download
+[2024-04-05 01:02:16] WARNING root fetch - processPackages [kdp-python-connector]: Timeout reached during download
+[2024-04-05 01:02:16] INFO root fetch - processPackages [yowasp-wavedrom]: Downloading https://files.pythonhosted.org/packages/43/20/7f833a3f52768aa33a30e4400c845ae11a3b472e46cb28e0ead294aa1c58/yowasp_wavedrom-3.5.0.3-py3-none-any.whl
+[2024-04-05 01:02:16] INFO root fetch - processPackages [exponential-backoff-ca]: Downloading https://files.pythonhosted.org/packages/ca/5e/ea7bdb45b029528bf89605fa444263aab9a0725b6d14bd2601767b71f3ca/exponential_backoff_ca-2.tar.gz
+[2024-04-05 01:02:16] INFO root fetch - processPackages [py-near]: Downloading https://files.pythonhosted.org/packages/3e/73/28d02d95d66304797b8d5f4f59e2c20a6e393c56657b991e31c16ca77e9f/py_near-1.1.9.tar.gz
+[2024-04-05 01:02:16] INFO root fetch - processPackages [kdp-python-connector]: Downloading https://files.pythonhosted.org/packages/9b/c5/a9855b57424e54fd2828b763d77c0b46e158673b7e944ac05edae65d420f/kdp-python-connector-0.63.0.tar.gz
+[2024-04-05 01:02:16] INFO root fetch - processPackages [FactScoreLite]: Downloading https://files.pythonhosted.org/packages/cb/54/050626bc6b4b8c57829b8f52771ef60f6361c903e7eb42fb099ca13d01ec/FactScoreLite-0.2.1.tar.gz
+[2024-04-05 01:02:16] WARNING root fetch - processPackages [yowasp-wavedrom]: Timeout reached during download
+[2024-04-05 01:02:16] WARNING root fetch - processPackages [py-near]: Timeout reached during download
+[2024-04-05 01:02:16] INFO root fetch - processPackages [py-near]: executing diffoscope
+[2024-04-05 01:02:16] INFO root fetch - processPackages [py-near]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py_near-1.1.8.tar.gz tmp/py_near-1.1.9.tar.gz --markdown 20240405/p/py-near/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2024-04-05 01:02:16] WARNING root fetch - processPackages [exponential-backoff-ca]: Timeout reached during download
+[2024-04-05 01:02:16] WARNING root fetch - processPackages [kdp-python-connector]: Timeout reached during download
+[2024-04-05 01:02:16] INFO root fetch - processPackages [kdp-python-connector]: executing diffoscope
+[2024-04-05 01:02:16] INFO root fetch - processPackages [kdp-python-connector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kdp-python-connector-0.62.0.tar.gz tmp/kdp-python-connector-0.63.0.tar.gz --markdown 20240405/k/kdp-python-connector/0.62.0-0.63.0/diff.md --exclude *.pyd
+[2024-04-05 01:02:16] WARNING root fetch - processPackages [FactScoreLite]: Timeout reached during download
+[2024-04-05 01:02:17] INFO root fetch - processPackages [yowasp-wavedrom]: Downloading https://files.pythonhosted.org/packages/36/af/a4f152c92e617abf807e92af5a2eb3df26287ce9fafa25ac574082b6a5da/yowasp_wavedrom-3.5.0.4-py3-none-any.whl
+[2024-04-05 01:02:17] INFO root fetch - processPackages [exponential-backoff-ca]: Downloading https://files.pythonhosted.org/packages/3e/71/6088c7620d5ff813feedd93fda8b7ab386ad32d3a2f5d486a3c69292e24b/exponential_backoff_ca-2.1.tar.gz
+[2024-04-05 01:02:17] INFO root fetch - processPackages [FactScoreLite]: Downloading https://files.pythonhosted.org/packages/70/ec/ede1d0dd39a82efb91f1f329d2f562319e1e93ef758e48b330210df6190b/FactScoreLite-0.3.0.tar.gz
+[2024-04-05 01:02:17] WARNING root fetch - processPackages [yowasp-wavedrom]: Timeout reached during download
+[2024-04-05 01:02:17] INFO root fetch - processPackages [yowasp-wavedrom]: executing diffoscope
+[2024-04-05 01:02:17] INFO root fetch - processPackages [yowasp-wavedrom]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yowasp_wavedrom-3.5.0.3-py3-none-any.whl.zip tmp/yowasp_wavedrom-3.5.0.4-py3-none-any.whl.zip --markdown 20240405/y/yowasp-wavedrom/3.5.0.3-3.5.0.4/diff.md --exclude *.pyd
+[2024-04-05 01:02:17] WARNING root fetch - processPackages [exponential-backoff-ca]: Timeout reached during download
+[2024-04-05 01:02:17] INFO root fetch - processPackages [exponential-backoff-ca]: executing diffoscope
+[2024-04-05 01:02:17] INFO root fetch - processPackages [exponential-backoff-ca]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/exponential_backoff_ca-2.tar.gz tmp/exponential_backoff_ca-2.1.tar.gz --markdown 20240405/e/exponential-backoff-ca/2-2.1/diff.md --exclude *.pyd
+[2024-04-05 01:02:17] WARNING root fetch - processPackages [FactScoreLite]: Timeout reached during download
+[2024-04-05 01:02:17] INFO root fetch - processPackages [FactScoreLite]: executing diffoscope
+[2024-04-05 01:02:17] INFO root fetch - processPackages [FactScoreLite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/FactScoreLite-0.2.1.tar.gz tmp/FactScoreLite-0.3.0.tar.gz --markdown 20240405/F/FactScoreLite/0.2.1-0.3.0/diff.md --exclude *.pyd
+[2024-04-05 01:02:17] INFO root fetch - processPackages [kdp-python-connector]: Remove: archive file [/home/abi/fetcher/tmp/kdp-python-connector-0.62.0.tar.gz]
+[2024-04-05 01:02:17] INFO root fetch - processPackages [kdp-python-connector]: Remove: archive file [/home/abi/fetcher/tmp/kdp-python-connector-0.63.0.tar.gz]
+[2024-04-05 01:02:17] INFO root fetch - main [MainThread]: End processing [kdp-python-connector]: success
+[2024-04-05 01:02:17] INFO root fetch - processPackages [py-near]: Remove: archive file [/home/abi/fetcher/tmp/py_near-1.1.8.tar.gz]
+[2024-04-05 01:02:17] INFO root fetch - processPackages [py-near]: Remove: archive file [/home/abi/fetcher/tmp/py_near-1.1.9.tar.gz]
+[2024-04-05 01:02:17] INFO root fetch - main [MainThread]: End processing [py-near]: success
+[2024-04-05 01:02:17] INFO root fetch - processPackages [FactScoreLite]: Remove: archive file [/home/abi/fetcher/tmp/FactScoreLite-0.2.1.tar.gz]
+[2024-04-05 01:02:17] INFO root fetch - processPackages [FactScoreLite]: Remove: archive file [/home/abi/fetcher/tmp/FactScoreLite-0.3.0.tar.gz]
+[2024-04-05 01:02:17] INFO root fetch - main [MainThread]: End processing [FactScoreLite]: success
+[2024-04-05 01:02:17] INFO root fetch - processPackages [exponential-backoff-ca]: Remove: archive file [/home/abi/fetcher/tmp/exponential_backoff_ca-2.tar.gz]
+[2024-04-05 01:02:17] INFO root fetch - processPackages [exponential-backoff-ca]: Remove: archive file [/home/abi/fetcher/tmp/exponential_backoff_ca-2.1.tar.gz]
+[2024-04-05 01:02:17] INFO root fetch - main [MainThread]: End processing [exponential-backoff-ca]: success
+[2024-04-05 01:02:20] INFO root fetch - processPackages [yowasp-wavedrom]: Remove: archive file [/home/abi/fetcher/tmp/yowasp_wavedrom-3.5.0.3-py3-none-any.whl.zip]
+[2024-04-05 01:02:20] INFO root fetch - processPackages [yowasp-wavedrom]: Remove: archive file [/home/abi/fetcher/tmp/yowasp_wavedrom-3.5.0.4-py3-none-any.whl.zip]
+[2024-04-05 01:02:20] INFO root fetch - main [MainThread]: End processing [yowasp-wavedrom]: success
+[2024-04-05 01:02:20] INFO root fetch - main [MainThread]: Store serial: [22628646]
