@@ -1488,3 +1488,17 @@
 [2024-04-05 01:11:04] INFO root fetch - processPackages [qbraid-core]: Remove: archive file [/home/abi/fetcher/tmp/qbraid-core-0.1.0.dev4.tar.gz]
 [2024-04-05 01:11:04] INFO root fetch - main [MainThread]: End processing [qbraid-core]: success
 [2024-04-05 01:11:04] INFO root fetch - main [MainThread]: Store serial: [22628703]
+[2024-04-05 01:13:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22628703]
+[2024-04-05 01:13:14] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-04-05 01:13:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: EasyOutput
+[2024-04-05 01:13:14] INFO root fetch - processPackages [EasyOutput]: New version: [0.0.7] Old Version: [0.0.6]
+[2024-04-05 01:13:14] INFO root fetch - processPackages [EasyOutput]: Downloading https://files.pythonhosted.org/packages/c2/be/c9f53efa40f4ab0a62005fdd018653909e6c756d388348ca7128ff761eea/EasyOutput-0.0.6.tar.gz
+[2024-04-05 01:13:14] WARNING root fetch - processPackages [EasyOutput]: Timeout reached during download
+[2024-04-05 01:13:14] INFO root fetch - processPackages [EasyOutput]: Downloading https://files.pythonhosted.org/packages/a8/e2/b39dcb418dbad44b42d95e52b185b8bcd0e3ec4d5455e6b7603641a34691/easyoutput-0.0.7.tar.gz
+[2024-04-05 01:13:15] WARNING root fetch - processPackages [EasyOutput]: Timeout reached during download
+[2024-04-05 01:13:15] INFO root fetch - processPackages [EasyOutput]: executing diffoscope
+[2024-04-05 01:13:15] INFO root fetch - processPackages [EasyOutput]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/EasyOutput-0.0.6.tar.gz tmp/easyoutput-0.0.7.tar.gz --markdown 20240405/E/EasyOutput/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2024-04-05 01:13:15] INFO root fetch - processPackages [EasyOutput]: Remove: archive file [/home/abi/fetcher/tmp/EasyOutput-0.0.6.tar.gz]
+[2024-04-05 01:13:15] INFO root fetch - processPackages [EasyOutput]: Remove: archive file [/home/abi/fetcher/tmp/easyoutput-0.0.7.tar.gz]
+[2024-04-05 01:13:15] INFO root fetch - main [MainThread]: End processing [EasyOutput]: success
+[2024-04-05 01:13:15] INFO root fetch - main [MainThread]: Store serial: [22628707]
