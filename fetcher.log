@@ -944,3 +944,21 @@
 [2024-04-05 00:38:11] INFO root fetch - processPackages [swarms]: Remove: archive file [/home/abi/fetcher/tmp/swarms-4.7.6.tar.gz]
 [2024-04-05 00:38:11] INFO root fetch - main [MainThread]: End processing [swarms]: success
 [2024-04-05 00:38:11] INFO root fetch - main [MainThread]: Store serial: [22628556]
+[2024-04-05 00:40:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22628556]
+[2024-04-05 00:40:20] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-05 00:40:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyrtz2
+[2024-04-05 00:40:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: git-subrepo
+[2024-04-05 00:40:20] INFO root fetch - processPackages [pyrtz2]: New version: [1.1.8] Old Version: [1.1.0]
+[2024-04-05 00:40:20] INFO root fetch - processPackages [git-subrepo]: New version: [0.4.6.post1] Old Version: [0.4.6]
+[2024-04-05 00:40:20] ERROR root fetch - processPackages [pyrtz2]: Unable to fetch info: No such project/version 'pyrtz2' 1.1.8
+[2024-04-05 00:40:20] INFO root fetch - main [MainThread]: End processing [pyrtz2] error
+[2024-04-05 00:40:20] INFO root fetch - processPackages [git-subrepo]: Downloading https://files.pythonhosted.org/packages/0e/b7/3e13bfb3f2be581c04acca2b22ddc05938e64dd3daf4bbd9d446df16831d/git_subrepo-0.4.6-py3-none-any.whl
+[2024-04-05 00:40:20] WARNING root fetch - processPackages [git-subrepo]: Timeout reached during download
+[2024-04-05 00:40:20] INFO root fetch - processPackages [git-subrepo]: Downloading https://files.pythonhosted.org/packages/8c/67/6e08c5849f450066a5f4e0e906257403dad7c712ad36eacf9e69f400ea57/git_subrepo-0.4.6.post1-py3-none-any.whl
+[2024-04-05 00:40:21] WARNING root fetch - processPackages [git-subrepo]: Timeout reached during download
+[2024-04-05 00:40:21] INFO root fetch - processPackages [git-subrepo]: executing diffoscope
+[2024-04-05 00:40:21] INFO root fetch - processPackages [git-subrepo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/git_subrepo-0.4.6-py3-none-any.whl.zip tmp/git_subrepo-0.4.6.post1-py3-none-any.whl.zip --markdown 20240405/g/git-subrepo/0.4.6-0.4.6.post1/diff.md --exclude *.pyd
+[2024-04-05 00:40:21] INFO root fetch - processPackages [git-subrepo]: Remove: archive file [/home/abi/fetcher/tmp/git_subrepo-0.4.6-py3-none-any.whl.zip]
+[2024-04-05 00:40:21] INFO root fetch - processPackages [git-subrepo]: Remove: archive file [/home/abi/fetcher/tmp/git_subrepo-0.4.6.post1-py3-none-any.whl.zip]
+[2024-04-05 00:40:21] INFO root fetch - main [MainThread]: End processing [git-subrepo]: success
+[2024-04-05 00:40:21] INFO root fetch - main [MainThread]: Store serial: [22628562]
