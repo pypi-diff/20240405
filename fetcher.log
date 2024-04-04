@@ -906,3 +906,41 @@
 [2024-04-05 00:33:54] INFO root fetch - processPackages [pepeline]: Remove: archive file [/home/abi/fetcher/tmp/pepeline-0.2.2-cp312-none-win_amd64.whl.zip]
 [2024-04-05 00:33:54] INFO root fetch - main [MainThread]: End processing [pepeline]: success
 [2024-04-05 00:33:54] INFO root fetch - main [MainThread]: Store serial: [22628524]
+[2024-04-05 00:35:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22628524]
+[2024-04-05 00:36:03] INFO root fetch - main [MainThread]: No changed packages found
+[2024-04-05 00:38:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22628547]
+[2024-04-05 00:38:09] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-05 00:38:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: minigram-py
+[2024-04-05 00:38:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: swarms
+[2024-04-05 00:38:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nativesvttk
+[2024-04-05 00:38:09] INFO root fetch - processPackages [nativesvttk]: New version: [9.0] Old Version: [8.0]
+[2024-04-05 00:38:09] INFO root fetch - processPackages [swarms]: New version: [4.7.6] Old Version: [4.7.5]
+[2024-04-05 00:38:09] INFO root fetch - processPackages [minigram-py]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-04-05 00:38:09] INFO root fetch - processPackages [nativesvttk]: Downloading https://files.pythonhosted.org/packages/57/38/ece67a89c96c6da98d467f52df0c5dcaf9d84677b2d454f73235fbb9a99a/nativesvttk-8.0.tar.gz
+[2024-04-05 00:38:10] INFO root fetch - processPackages [swarms]: Downloading https://files.pythonhosted.org/packages/76/ef/4b7dafe0add0630b03f7af70a9773e098257bc8beca49d017679ac3538dd/swarms-4.7.5.tar.gz
+[2024-04-05 00:38:10] WARNING root fetch - processPackages [nativesvttk]: Timeout reached during download
+[2024-04-05 00:38:10] WARNING root fetch - processPackages [swarms]: Timeout reached during download
+[2024-04-05 00:38:10] INFO root fetch - processPackages [minigram-py]: Downloading https://files.pythonhosted.org/packages/c4/cd/733d7027a1338109a6e722a127ecd0904ecc320419cf8d0d217f959f5333/minigram_py-0.1.2.tar.gz
+[2024-04-05 00:38:10] INFO root fetch - processPackages [nativesvttk]: Downloading https://files.pythonhosted.org/packages/79/ff/f86a135af5c03017330fae2ca316f6d78f9bbbdfc60ef557ba89066194f5/nativesvttk-9.0.tar.gz
+[2024-04-05 00:38:10] WARNING root fetch - processPackages [minigram-py]: Timeout reached during download
+[2024-04-05 00:38:10] INFO root fetch - processPackages [swarms]: Downloading https://files.pythonhosted.org/packages/fb/df/38fae5a8ba941fe8d5759767360e3ab6a552fd8595b36ebe33e07727d928/swarms-4.7.6.tar.gz
+[2024-04-05 00:38:10] WARNING root fetch - processPackages [nativesvttk]: Timeout reached during download
+[2024-04-05 00:38:10] INFO root fetch - processPackages [nativesvttk]: executing diffoscope
+[2024-04-05 00:38:10] INFO root fetch - processPackages [nativesvttk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nativesvttk-8.0.tar.gz tmp/nativesvttk-9.0.tar.gz --markdown 20240405/n/nativesvttk/8.0-9.0/diff.md --exclude *.pyd
+[2024-04-05 00:38:10] INFO root fetch - processPackages [minigram-py]: Downloading https://files.pythonhosted.org/packages/49/75/4491d5f27b0d5d137164d0f7a5e096d4f8cd0763e14dd3b6b5f6a49e38a1/minigram_py-0.1.3.tar.gz
+[2024-04-05 00:38:10] WARNING root fetch - processPackages [swarms]: Timeout reached during download
+[2024-04-05 00:38:10] INFO root fetch - processPackages [swarms]: executing diffoscope
+[2024-04-05 00:38:10] INFO root fetch - processPackages [swarms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/swarms-4.7.5.tar.gz tmp/swarms-4.7.6.tar.gz --markdown 20240405/s/swarms/4.7.5-4.7.6/diff.md --exclude *.pyd
+[2024-04-05 00:38:10] WARNING root fetch - processPackages [minigram-py]: Timeout reached during download
+[2024-04-05 00:38:10] INFO root fetch - processPackages [minigram-py]: executing diffoscope
+[2024-04-05 00:38:10] INFO root fetch - processPackages [minigram-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/minigram_py-0.1.2.tar.gz tmp/minigram_py-0.1.3.tar.gz --markdown 20240405/m/minigram-py/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2024-04-05 00:38:11] INFO root fetch - processPackages [nativesvttk]: Remove: archive file [/home/abi/fetcher/tmp/nativesvttk-8.0.tar.gz]
+[2024-04-05 00:38:11] INFO root fetch - processPackages [nativesvttk]: Remove: archive file [/home/abi/fetcher/tmp/nativesvttk-9.0.tar.gz]
+[2024-04-05 00:38:11] INFO root fetch - main [MainThread]: End processing [nativesvttk]: success
+[2024-04-05 00:38:11] INFO root fetch - processPackages [minigram-py]: Remove: archive file [/home/abi/fetcher/tmp/minigram_py-0.1.2.tar.gz]
+[2024-04-05 00:38:11] INFO root fetch - processPackages [minigram-py]: Remove: archive file [/home/abi/fetcher/tmp/minigram_py-0.1.3.tar.gz]
+[2024-04-05 00:38:11] INFO root fetch - main [MainThread]: End processing [minigram-py]: success
+[2024-04-05 00:38:11] INFO root fetch - processPackages [swarms]: Remove: archive file [/home/abi/fetcher/tmp/swarms-4.7.5.tar.gz]
+[2024-04-05 00:38:11] INFO root fetch - processPackages [swarms]: Remove: archive file [/home/abi/fetcher/tmp/swarms-4.7.6.tar.gz]
+[2024-04-05 00:38:11] INFO root fetch - main [MainThread]: End processing [swarms]: success
+[2024-04-05 00:38:11] INFO root fetch - main [MainThread]: Store serial: [22628556]
