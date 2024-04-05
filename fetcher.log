@@ -22154,3 +22154,61 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2024-04-05 14:23:03] INFO root fetch - processPackages [dlk]: Remove: archive file [/home/abi/fetcher/tmp/dlk-0.1.0.tar.gz]
 [2024-04-05 14:23:03] INFO root fetch - main [MainThread]: End processing [dlk]: success
 [2024-04-05 14:23:03] INFO root fetch - main [MainThread]: Store serial: [22635814]
+[2024-04-05 14:25:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22635814]
+[2024-04-05 14:25:11] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-05 14:25:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: equation-database
+[2024-04-05 14:25:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bankid6
+[2024-04-05 14:25:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: flowpyter-task
+[2024-04-05 14:25:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pulumi-spotinst
+[2024-04-05 14:25:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: sunholo
+[2024-04-05 14:25:11] INFO root fetch - processPackages [sunholo]: New version: [0.8.9] Old Version: [0.8.8]
+[2024-04-05 14:25:11] INFO root fetch - processPackages [flowpyter-task]: New version: [1.1.3.post0.dev5] Old Version: [1.1.3.post0.dev3]
+[2024-04-05 14:25:11] INFO root fetch - processPackages [bankid6]: New version: [1.0.3] Old Version: [1.0.2]
+[2024-04-05 14:25:11] INFO root fetch - processPackages [equation-database]: New version: [2024.4.5] Old Version: [2024.4.4]
+[2024-04-05 14:25:12] INFO root fetch - processPackages [sunholo]: Downloading https://files.pythonhosted.org/packages/cc/35/0cc2a83f59b1ddd740a568e10894833a89bedfc91b8ebd172a427676694a/sunholo-0.8.8.tar.gz
+[2024-04-05 14:25:12] INFO root fetch - processPackages [pulumi-spotinst]: New version: [3.9.0a1633346805] Old Version: [3.9.0]
+[2024-04-05 14:25:12] WARNING root fetch - processPackages [sunholo]: Timeout reached during download
+[2024-04-05 14:25:12] INFO root fetch - processPackages [flowpyter-task]: Downloading https://files.pythonhosted.org/packages/cb/51/52db30b500f2990963ba57406f03ef163781576217e7fd91d2f93f12de17/flowpyter-task-1.1.3.post0.dev3.tar.gz
+[2024-04-05 14:25:12] INFO root fetch - processPackages [bankid6]: Downloading https://files.pythonhosted.org/packages/30/0e/ada1982aa3d5710103de9e6c71a4660666fb02087f33ca5dffa996a23401/bankid6-1.0.2.tar.gz
+[2024-04-05 14:25:12] INFO root fetch - processPackages [equation-database]: Downloading https://files.pythonhosted.org/packages/e7/fe/da7ed7899ac8990736b6105cb488fd814b7bbeccf69319700d376c9a4422/equation_database-2024.4.4.tar.gz
+[2024-04-05 14:25:12] INFO root fetch - processPackages [pulumi-spotinst]: Downloading https://files.pythonhosted.org/packages/e0/9f/6d2c1a705d6b6019bea4cba0aa49eceea4eb2d84cfdcb18f45db81e06fb5/pulumi_spotinst-3.9.0.tar.gz
+[2024-04-05 14:25:12] INFO root fetch - processPackages [sunholo]: Downloading https://files.pythonhosted.org/packages/f4/84/78248df3236e593119b75003e77cf5b5bd0761e53dc91c6a148cb0571cf9/sunholo-0.8.9.tar.gz
+[2024-04-05 14:25:12] WARNING root fetch - processPackages [flowpyter-task]: Timeout reached during download
+[2024-04-05 14:25:12] WARNING root fetch - processPackages [equation-database]: Timeout reached during download
+[2024-04-05 14:25:12] WARNING root fetch - processPackages [bankid6]: Timeout reached during download
+[2024-04-05 14:25:12] WARNING root fetch - processPackages [sunholo]: Timeout reached during download
+[2024-04-05 14:25:12] INFO root fetch - processPackages [sunholo]: executing diffoscope
+[2024-04-05 14:25:12] INFO root fetch - processPackages [sunholo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sunholo-0.8.8.tar.gz tmp/sunholo-0.8.9.tar.gz --markdown 20240405/s/sunholo/0.8.8-0.8.9/diff.md --exclude *.pyd
+[2024-04-05 14:25:12] INFO root fetch - processPackages [flowpyter-task]: Downloading https://files.pythonhosted.org/packages/d8/c2/b837d99a87cc50bd1794b76d39ddc061e4850e17b9f6e1b1b56ec19f25e3/flowpyter-task-1.1.3.post0.dev5.tar.gz
+[2024-04-05 14:25:12] WARNING root fetch - processPackages [pulumi-spotinst]: Timeout reached during download
+[2024-04-05 14:25:12] INFO root fetch - processPackages [equation-database]: Downloading https://files.pythonhosted.org/packages/85/f7/b1c0167fc3f2784abf6c7ab348db93c321fad1c9fc97341f32c28b087d15/equation_database-2024.4.5.tar.gz
+[2024-04-05 14:25:12] INFO root fetch - processPackages [bankid6]: Downloading https://files.pythonhosted.org/packages/12/76/515793830d10cd5322ba287a2877c6f945f2e298556736f142d4d0484abc/bankid6-1.0.3.tar.gz
+[2024-04-05 14:25:12] WARNING root fetch - processPackages [flowpyter-task]: Timeout reached during download
+[2024-04-05 14:25:12] INFO root fetch - processPackages [flowpyter-task]: executing diffoscope
+[2024-04-05 14:25:12] INFO root fetch - processPackages [flowpyter-task]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flowpyter-task-1.1.3.post0.dev3.tar.gz tmp/flowpyter-task-1.1.3.post0.dev5.tar.gz --markdown 20240405/f/flowpyter-task/1.1.3.post0.dev3-1.1.3.post0.dev5/diff.md --exclude *.pyd
+[2024-04-05 14:25:12] WARNING root fetch - processPackages [equation-database]: Timeout reached during download
+[2024-04-05 14:25:12] INFO root fetch - processPackages [equation-database]: executing diffoscope
+[2024-04-05 14:25:12] INFO root fetch - processPackages [equation-database]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/equation_database-2024.4.4.tar.gz tmp/equation_database-2024.4.5.tar.gz --markdown 20240405/e/equation-database/2024.4.4-2024.4.5/diff.md --exclude *.pyd
+[2024-04-05 14:25:12] WARNING root fetch - processPackages [bankid6]: Timeout reached during download
+[2024-04-05 14:25:12] INFO root fetch - processPackages [bankid6]: executing diffoscope
+[2024-04-05 14:25:12] INFO root fetch - processPackages [bankid6]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bankid6-1.0.2.tar.gz tmp/bankid6-1.0.3.tar.gz --markdown 20240405/b/bankid6/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2024-04-05 14:25:12] INFO root fetch - processPackages [pulumi-spotinst]: Downloading https://files.pythonhosted.org/packages/b4/06/83d6eb3763a877d39e3d2a09063ba3fd6542fa6a214e6c3d5240414d041d/pulumi_spotinst-3.9.0a1633346805.tar.gz
+[2024-04-05 14:25:12] WARNING root fetch - processPackages [pulumi-spotinst]: Timeout reached during download
+[2024-04-05 14:25:12] INFO root fetch - processPackages [pulumi-spotinst]: executing diffoscope
+[2024-04-05 14:25:12] INFO root fetch - processPackages [pulumi-spotinst]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_spotinst-3.9.0.tar.gz tmp/pulumi_spotinst-3.9.0a1633346805.tar.gz --markdown 20240405/p/pulumi-spotinst/3.9.0-3.9.0a1633346805/diff.md --exclude *.pyd
+[2024-04-05 14:25:13] INFO root fetch - processPackages [equation-database]: Remove: archive file [/home/abi/fetcher/tmp/equation_database-2024.4.4.tar.gz]
+[2024-04-05 14:25:13] INFO root fetch - processPackages [equation-database]: Remove: archive file [/home/abi/fetcher/tmp/equation_database-2024.4.5.tar.gz]
+[2024-04-05 14:25:13] INFO root fetch - main [MainThread]: End processing [equation-database]: success
+[2024-04-05 14:25:13] INFO root fetch - processPackages [flowpyter-task]: Remove: archive file [/home/abi/fetcher/tmp/flowpyter-task-1.1.3.post0.dev3.tar.gz]
+[2024-04-05 14:25:13] INFO root fetch - processPackages [flowpyter-task]: Remove: archive file [/home/abi/fetcher/tmp/flowpyter-task-1.1.3.post0.dev5.tar.gz]
+[2024-04-05 14:25:13] INFO root fetch - main [MainThread]: End processing [flowpyter-task]: success
+[2024-04-05 14:25:13] INFO root fetch - processPackages [sunholo]: Remove: archive file [/home/abi/fetcher/tmp/sunholo-0.8.8.tar.gz]
+[2024-04-05 14:25:13] INFO root fetch - processPackages [sunholo]: Remove: archive file [/home/abi/fetcher/tmp/sunholo-0.8.9.tar.gz]
+[2024-04-05 14:25:13] INFO root fetch - main [MainThread]: End processing [sunholo]: success
+[2024-04-05 14:25:13] INFO root fetch - processPackages [bankid6]: Remove: archive file [/home/abi/fetcher/tmp/bankid6-1.0.2.tar.gz]
+[2024-04-05 14:25:13] INFO root fetch - processPackages [bankid6]: Remove: archive file [/home/abi/fetcher/tmp/bankid6-1.0.3.tar.gz]
+[2024-04-05 14:25:13] INFO root fetch - main [MainThread]: End processing [bankid6]: success
+[2024-04-05 14:25:13] INFO root fetch - processPackages [pulumi-spotinst]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_spotinst-3.9.0.tar.gz]
+[2024-04-05 14:25:13] INFO root fetch - processPackages [pulumi-spotinst]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_spotinst-3.9.0a1633346805.tar.gz]
+[2024-04-05 14:25:13] INFO root fetch - main [MainThread]: End processing [pulumi-spotinst]: success
+[2024-04-05 14:25:13] INFO root fetch - main [MainThread]: Store serial: [22635830]
