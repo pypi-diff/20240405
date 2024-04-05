@@ -11641,3 +11641,17 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2024-04-05 06:33:41] INFO root fetch - processPackages [rippling-flux-sdk]: Remove: archive file [/home/abi/fetcher/tmp/rippling_flux_sdk-0.9.27.tar.gz]
 [2024-04-05 06:33:41] INFO root fetch - main [MainThread]: End processing [rippling-flux-sdk]: success
 [2024-04-05 06:33:41] INFO root fetch - main [MainThread]: Store serial: [22631754]
+[2024-04-05 06:35:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22631754]
+[2024-04-05 06:35:50] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-04-05 06:35:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: flat_profiler
+[2024-04-05 06:35:50] INFO root fetch - processPackages [flat_profiler]: New version: [0.2.2] Old Version: [0.2.1]
+[2024-04-05 06:35:50] INFO root fetch - processPackages [flat_profiler]: Downloading https://files.pythonhosted.org/packages/a2/53/efa3bf52343535eb005381e36fc0ebfbb009ad580fb1fde81e4bdd3a39ad/flat_profiler-0.2.1.tar.gz
+[2024-04-05 06:35:50] WARNING root fetch - processPackages [flat_profiler]: Timeout reached during download
+[2024-04-05 06:35:50] INFO root fetch - processPackages [flat_profiler]: Downloading https://files.pythonhosted.org/packages/a2/77/f889fe8f0bfb850ebcb08336353f03c3fe9e860982349828cb51714c0c02/flat_profiler-0.2.2.tar.gz
+[2024-04-05 06:35:51] WARNING root fetch - processPackages [flat_profiler]: Timeout reached during download
+[2024-04-05 06:35:51] INFO root fetch - processPackages [flat_profiler]: executing diffoscope
+[2024-04-05 06:35:51] INFO root fetch - processPackages [flat_profiler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flat_profiler-0.2.1.tar.gz tmp/flat_profiler-0.2.2.tar.gz --markdown 20240405/f/flat_profiler/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2024-04-05 06:35:51] INFO root fetch - processPackages [flat_profiler]: Remove: archive file [/home/abi/fetcher/tmp/flat_profiler-0.2.1.tar.gz]
+[2024-04-05 06:35:51] INFO root fetch - processPackages [flat_profiler]: Remove: archive file [/home/abi/fetcher/tmp/flat_profiler-0.2.2.tar.gz]
+[2024-04-05 06:35:51] INFO root fetch - main [MainThread]: End processing [flat_profiler]: success
+[2024-04-05 06:35:51] INFO root fetch - main [MainThread]: Store serial: [22631757]
