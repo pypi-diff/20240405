@@ -14647,3 +14647,25 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2024-04-05 09:18:01] INFO root fetch - processPackages [nifcloud-cli]: Remove: archive file [/home/abi/fetcher/tmp/nifcloud-cli-1.9.0.tar.gz]
 [2024-04-05 09:18:01] INFO root fetch - main [MainThread]: End processing [nifcloud-cli]: success
 [2024-04-05 09:18:01] INFO root fetch - main [MainThread]: Store serial: [22632793]
+[2024-04-05 09:20:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22632793]
+[2024-04-05 09:20:10] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-05 09:20:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tendril-structures-imageset
+[2024-04-05 09:20:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lwk
+[2024-04-05 09:20:10] INFO root fetch - processPackages [tendril-structures-imageset]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-05 09:20:10] INFO root fetch - processPackages [tendril-structures-imageset]: Downloading https://files.pythonhosted.org/packages/17/18/cf65d3cb23fbc43347ad7ac4d7f84c260232e89364beba6f30e6027be38f/tendril-structures-imageset-0.1.8.tar.gz
+[2024-04-05 09:20:10] INFO root fetch - processPackages [lwk]: New version: [0.2.0] Old Version: [0.0.0]
+[2024-04-05 09:20:10] WARNING root fetch - processPackages [tendril-structures-imageset]: Timeout reached during download
+[2024-04-05 09:20:10] WARNING root fetch - processPackages [lwk]: fallback to get urls: [0.0.0]
+[2024-04-05 09:20:10] WARNING root fetch - processPackages [lwk]: None
+[2024-04-05 09:20:10] WARNING root fetch - processPackages [lwk]: None
+[2024-04-05 09:20:10] WARNING root fetch - processPackages [lwk]: unable to get url for both version [0.0.0]
+[2024-04-05 09:20:10] INFO root fetch - processPackages [tendril-structures-imageset]: Downloading https://files.pythonhosted.org/packages/14/58/73d5225572e6f9f36687db53ef2664f99f317842200fb4ea27b45583b2a3/tendril-structures-imageset-0.1.9.tar.gz
+[2024-04-05 09:20:10] WARNING root fetch - processPackages [lwk]: None
+[2024-04-05 09:20:10] INFO root fetch - main [MainThread]: End processing [lwk] error
+[2024-04-05 09:20:10] WARNING root fetch - processPackages [tendril-structures-imageset]: Timeout reached during download
+[2024-04-05 09:20:10] INFO root fetch - processPackages [tendril-structures-imageset]: executing diffoscope
+[2024-04-05 09:20:10] INFO root fetch - processPackages [tendril-structures-imageset]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tendril-structures-imageset-0.1.8.tar.gz tmp/tendril-structures-imageset-0.1.9.tar.gz --markdown 20240405/t/tendril-structures-imageset/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2024-04-05 09:20:11] INFO root fetch - processPackages [tendril-structures-imageset]: Remove: archive file [/home/abi/fetcher/tmp/tendril-structures-imageset-0.1.8.tar.gz]
+[2024-04-05 09:20:11] INFO root fetch - processPackages [tendril-structures-imageset]: Remove: archive file [/home/abi/fetcher/tmp/tendril-structures-imageset-0.1.9.tar.gz]
+[2024-04-05 09:20:11] INFO root fetch - main [MainThread]: End processing [tendril-structures-imageset]: success
+[2024-04-05 09:20:11] INFO root fetch - main [MainThread]: Store serial: [22632795]
