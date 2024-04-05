@@ -18640,3 +18640,83 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2024-04-05 12:08:33] INFO root fetch - processPackages [Geode-Conversion]: Remove: archive file [/home/abi/fetcher/tmp/Geode_Conversion-5.2.7rc1-cp39-cp39-win_amd64.whl.zip]
 [2024-04-05 12:08:33] INFO root fetch - main [MainThread]: End processing [Geode-Conversion]: success
 [2024-04-05 12:08:33] INFO root fetch - main [MainThread]: Store serial: [22634360]
+[2024-04-05 12:10:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22634360]
+[2024-04-05 12:10:42] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-05 12:10:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: Protego
+[2024-04-05 12:10:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dbt-platform-helper
+[2024-04-05 12:10:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sirji-agents
+[2024-04-05 12:10:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cheltuieli
+[2024-04-05 12:10:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: freegenius
+[2024-04-05 12:10:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pyfilebrowser
+[2024-04-05 12:10:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: dol-cookbook
+[2024-04-05 12:10:42] INFO root fetch - processPackages [sirji-agents]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-04-05 12:10:42] INFO root fetch - processPackages [Protego]: New version: [0.3.0] Old Version: [0.2.1]
+[2024-04-05 12:10:42] INFO root fetch - processPackages [freegenius]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-05 12:10:42] INFO root fetch - processPackages [dbt-platform-helper]: New version: [6.2.0] Old Version: [6.1.0]
+[2024-04-05 12:10:43] INFO root fetch - processPackages [sirji-agents]: Downloading https://files.pythonhosted.org/packages/d7/97/62245b488b2a4718ddceb9443ee7a8b679cdd443fdb3f773a0cfbbb7fbb6/sirji-agents-0.0.4.tar.gz
+[2024-04-05 12:10:43] INFO root fetch - processPackages [cheltuieli]: New version: [0.2.0] Old Version: [0.1.9]
+[2024-04-05 12:10:43] INFO root fetch - processPackages [dol-cookbook]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-04-05 12:10:43] INFO root fetch - processPackages [pyfilebrowser]: New version: [0.0.8] Old Version: [0.0.7]
+[2024-04-05 12:10:43] INFO root fetch - processPackages [Protego]: Downloading https://files.pythonhosted.org/packages/3b/cd/de2f063d94115593bdff20d17f461522c90519fb3f5c46e6b4851e17b94e/Protego-0.2.1.tar.gz
+[2024-04-05 12:10:43] INFO root fetch - processPackages [freegenius]: Downloading https://files.pythonhosted.org/packages/6f/a0/f28ee0e233993d710b958fb4eca9f4892fdc879db0894cb221c3c672db85/freegenius-0.0.8.tar.gz
+[2024-04-05 12:10:43] WARNING root fetch - processPackages [sirji-agents]: Timeout reached during download
+[2024-04-05 12:10:43] INFO root fetch - processPackages [dbt-platform-helper]: Downloading https://files.pythonhosted.org/packages/db/14/32adb62ba0742c5ec3f947b15767bb2ab656fc8a2e8ed2f2c3aac0cc3120/dbt_platform_helper-6.1.0.tar.gz
+[2024-04-05 12:10:43] INFO root fetch - processPackages [cheltuieli]: Downloading https://files.pythonhosted.org/packages/fd/92/57144f4b3848320d52219250fa2c28d3559500a49ed12fb4c7113542a717/cheltuieli-0.1.9.tar.gz
+[2024-04-05 12:10:43] INFO root fetch - processPackages [pyfilebrowser]: Downloading https://files.pythonhosted.org/packages/93/ff/7dd4d4bb67dc4f6d93899e6ec8325859a68b81bbc3d8a651b81211108cc8/pyfilebrowser-0.0.7-py3-none-any.whl
+[2024-04-05 12:10:43] INFO root fetch - processPackages [dol-cookbook]: Downloading https://files.pythonhosted.org/packages/d8/6b/b8acbe637c5950c02f74bf479da3ae6f39e6e22bc0b5f4999acc43d39447/dol_cookbook-0.1.0.tar.gz
+[2024-04-05 12:10:43] INFO root fetch - processPackages [sirji-agents]: Downloading https://files.pythonhosted.org/packages/d6/33/0b508fef313042b5271853f2230bc1475e7207c3934aa55f30a84f0910bb/sirji-agents-0.0.5.tar.gz
+[2024-04-05 12:10:43] WARNING root fetch - processPackages [freegenius]: Timeout reached during download
+[2024-04-05 12:10:43] WARNING root fetch - processPackages [cheltuieli]: Timeout reached during download
+[2024-04-05 12:10:43] WARNING root fetch - processPackages [dol-cookbook]: Timeout reached during download
+[2024-04-05 12:10:43] WARNING root fetch - processPackages [sirji-agents]: Timeout reached during download
+[2024-04-05 12:10:43] INFO root fetch - processPackages [sirji-agents]: executing diffoscope
+[2024-04-05 12:10:43] INFO root fetch - processPackages [sirji-agents]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sirji-agents-0.0.4.tar.gz tmp/sirji-agents-0.0.5.tar.gz --markdown 20240405/s/sirji-agents/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2024-04-05 12:10:43] WARNING root fetch - processPackages [pyfilebrowser]: Timeout reached during download
+[2024-04-05 12:10:43] WARNING root fetch - processPackages [dbt-platform-helper]: Timeout reached during download
+[2024-04-05 12:10:43] INFO root fetch - processPackages [freegenius]: Downloading https://files.pythonhosted.org/packages/64/a9/f3ae6b148a4bd786790a124582c069ff16ee88fb307a8ebff8181577bb4d/freegenius-0.0.9.tar.gz
+[2024-04-05 12:10:43] WARNING root fetch - processPackages [Protego]: Timeout reached during download
+[2024-04-05 12:10:43] INFO root fetch - processPackages [cheltuieli]: Downloading https://files.pythonhosted.org/packages/e6/0e/93dfe4048c63e44d41880cbddfe2e4e1e4f275b4ff85332e654abacae161/cheltuieli-0.2.0.tar.gz
+[2024-04-05 12:10:43] INFO root fetch - processPackages [dol-cookbook]: Downloading https://files.pythonhosted.org/packages/aa/18/60e872bbf4913ef8193d7bec12e6194948aa14fd5657f25c1b9546330efe/dol_cookbook-0.1.1.tar.gz
+[2024-04-05 12:10:43] WARNING root fetch - processPackages [freegenius]: Timeout reached during download
+[2024-04-05 12:10:43] INFO root fetch - processPackages [freegenius]: executing diffoscope
+[2024-04-05 12:10:43] INFO root fetch - processPackages [freegenius]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/freegenius-0.0.8.tar.gz tmp/freegenius-0.0.9.tar.gz --markdown 20240405/f/freegenius/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2024-04-05 12:10:43] INFO root fetch - processPackages [dbt-platform-helper]: Downloading https://files.pythonhosted.org/packages/5c/fa/39a8f611728c9af1f98d2e2bb796d7972aa76378744c1696db586176eb06/dbt_platform_helper-6.2.0.tar.gz
+[2024-04-05 12:10:43] INFO root fetch - processPackages [pyfilebrowser]: Downloading https://files.pythonhosted.org/packages/99/72/c5f8c2b9b59f8cfb2c0de455782ed6f188f22e58fcb1b9b14cb26286a7ed/pyfilebrowser-0.0.8-py3-none-any.whl
+[2024-04-05 12:10:43] WARNING root fetch - processPackages [dol-cookbook]: Timeout reached during download
+[2024-04-05 12:10:43] INFO root fetch - processPackages [dol-cookbook]: executing diffoscope
+[2024-04-05 12:10:43] INFO root fetch - processPackages [dol-cookbook]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dol_cookbook-0.1.0.tar.gz tmp/dol_cookbook-0.1.1.tar.gz --markdown 20240405/d/dol-cookbook/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2024-04-05 12:10:43] INFO root fetch - processPackages [Protego]: Downloading https://files.pythonhosted.org/packages/2c/7e/fc128cfd3bb8e081165fcdaad44ab5fff73678fbebc51f79f733c57c5295/Protego-0.3.0.tar.gz
+[2024-04-05 12:10:43] WARNING root fetch - processPackages [cheltuieli]: Timeout reached during download
+[2024-04-05 12:10:43] WARNING root fetch - processPackages [pyfilebrowser]: Timeout reached during download
+[2024-04-05 12:10:43] INFO root fetch - processPackages [cheltuieli]: executing diffoscope
+[2024-04-05 12:10:43] INFO root fetch - processPackages [cheltuieli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cheltuieli-0.1.9.tar.gz tmp/cheltuieli-0.2.0.tar.gz --markdown 20240405/c/cheltuieli/0.1.9-0.2.0/diff.md --exclude *.pyd
+[2024-04-05 12:10:43] INFO root fetch - processPackages [pyfilebrowser]: executing diffoscope
+[2024-04-05 12:10:43] INFO root fetch - processPackages [pyfilebrowser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyfilebrowser-0.0.7-py3-none-any.whl.zip tmp/pyfilebrowser-0.0.8-py3-none-any.whl.zip --markdown 20240405/p/pyfilebrowser/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2024-04-05 12:10:43] WARNING root fetch - processPackages [dbt-platform-helper]: Timeout reached during download
+[2024-04-05 12:10:43] INFO root fetch - processPackages [dbt-platform-helper]: executing diffoscope
+[2024-04-05 12:10:43] INFO root fetch - processPackages [dbt-platform-helper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbt_platform_helper-6.1.0.tar.gz tmp/dbt_platform_helper-6.2.0.tar.gz --markdown 20240405/d/dbt-platform-helper/6.1.0-6.2.0/diff.md --exclude *.pyd
+[2024-04-05 12:10:44] INFO root fetch - processPackages [sirji-agents]: Remove: archive file [/home/abi/fetcher/tmp/sirji-agents-0.0.4.tar.gz]
+[2024-04-05 12:10:44] INFO root fetch - processPackages [sirji-agents]: Remove: archive file [/home/abi/fetcher/tmp/sirji-agents-0.0.5.tar.gz]
+[2024-04-05 12:10:44] INFO root fetch - main [MainThread]: End processing [sirji-agents]: success
+[2024-04-05 12:10:44] WARNING root fetch - processPackages [Protego]: Timeout reached during download
+[2024-04-05 12:10:44] INFO root fetch - processPackages [Protego]: executing diffoscope
+[2024-04-05 12:10:44] INFO root fetch - processPackages [Protego]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Protego-0.2.1.tar.gz tmp/Protego-0.3.0.tar.gz --markdown 20240405/P/Protego/0.2.1-0.3.0/diff.md --exclude *.pyd
+[2024-04-05 12:10:44] INFO root fetch - processPackages [dol-cookbook]: Remove: archive file [/home/abi/fetcher/tmp/dol_cookbook-0.1.0.tar.gz]
+[2024-04-05 12:10:44] INFO root fetch - processPackages [dol-cookbook]: Remove: archive file [/home/abi/fetcher/tmp/dol_cookbook-0.1.1.tar.gz]
+[2024-04-05 12:10:44] INFO root fetch - main [MainThread]: End processing [dol-cookbook]: success
+[2024-04-05 12:10:44] INFO root fetch - processPackages [freegenius]: Remove: archive file [/home/abi/fetcher/tmp/freegenius-0.0.8.tar.gz]
+[2024-04-05 12:10:44] INFO root fetch - processPackages [freegenius]: Remove: archive file [/home/abi/fetcher/tmp/freegenius-0.0.9.tar.gz]
+[2024-04-05 12:10:44] INFO root fetch - main [MainThread]: End processing [freegenius]: success
+[2024-04-05 12:10:44] INFO root fetch - processPackages [cheltuieli]: Remove: archive file [/home/abi/fetcher/tmp/cheltuieli-0.1.9.tar.gz]
+[2024-04-05 12:10:44] INFO root fetch - processPackages [cheltuieli]: Remove: archive file [/home/abi/fetcher/tmp/cheltuieli-0.2.0.tar.gz]
+[2024-04-05 12:10:44] INFO root fetch - main [MainThread]: End processing [cheltuieli]: success
+[2024-04-05 12:10:44] INFO root fetch - processPackages [pyfilebrowser]: Remove: archive file [/home/abi/fetcher/tmp/pyfilebrowser-0.0.7-py3-none-any.whl.zip]
+[2024-04-05 12:10:44] INFO root fetch - processPackages [pyfilebrowser]: Remove: archive file [/home/abi/fetcher/tmp/pyfilebrowser-0.0.8-py3-none-any.whl.zip]
+[2024-04-05 12:10:44] INFO root fetch - main [MainThread]: End processing [pyfilebrowser]: success
+[2024-04-05 12:10:44] INFO root fetch - processPackages [dbt-platform-helper]: Remove: archive file [/home/abi/fetcher/tmp/dbt_platform_helper-6.1.0.tar.gz]
+[2024-04-05 12:10:44] INFO root fetch - processPackages [dbt-platform-helper]: Remove: archive file [/home/abi/fetcher/tmp/dbt_platform_helper-6.2.0.tar.gz]
+[2024-04-05 12:10:44] INFO root fetch - main [MainThread]: End processing [dbt-platform-helper]: success
+[2024-04-05 12:10:58] INFO root fetch - processPackages [Protego]: Remove: archive file [/home/abi/fetcher/tmp/Protego-0.2.1.tar.gz]
+[2024-04-05 12:10:58] INFO root fetch - processPackages [Protego]: Remove: archive file [/home/abi/fetcher/tmp/Protego-0.3.0.tar.gz]
+[2024-04-05 12:10:58] INFO root fetch - main [MainThread]: End processing [Protego]: success
+[2024-04-05 12:10:58] INFO root fetch - main [MainThread]: Store serial: [22634384]
