@@ -2595,3 +2595,72 @@
 [2024-04-05 02:09:48] INFO root fetch - processPackages [newscatcherapi-python-sdk]: Remove: archive file [/home/abi/fetcher/tmp/newscatcherapi_python_sdk-6.0.2.tar.gz]
 [2024-04-05 02:09:48] INFO root fetch - main [MainThread]: End processing [newscatcherapi-python-sdk]: success
 [2024-04-05 02:09:48] INFO root fetch - main [MainThread]: Store serial: [22629052]
+[2024-04-05 02:11:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22629052]
+[2024-04-05 02:11:57] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-05 02:11:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: openbb-nightly
+[2024-04-05 02:11:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: spectral-recovery
+[2024-04-05 02:11:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mct-quantizers-nightly
+[2024-04-05 02:11:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: langtrace-python-sdk
+[2024-04-05 02:11:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cpop
+[2024-04-05 02:11:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: tictacsync
+[2024-04-05 02:11:58] INFO root fetch - processPackages [cpop]: New version: [29.0.0] Old Version: [28.5.0]
+[2024-04-05 02:11:58] INFO root fetch - processPackages [tictacsync]: New version: [0.3a2] Old Version: [0.3a1]
+[2024-04-05 02:11:58] INFO root fetch - processPackages [langtrace-python-sdk]: New version: [1.2.9] Old Version: [1.2.8]
+[2024-04-05 02:11:58] INFO root fetch - processPackages [cpop]: Downloading https://files.pythonhosted.org/packages/3d/05/c8aaedb66bcd5036855d6b2bba3cecbcc62ac35bcb40c9f0a17a9399024b/cpop-28.5.0.tar.gz
+[2024-04-05 02:11:58] INFO root fetch - processPackages [spectral-recovery]: New version: [0.3.2] Old Version: [0.3.1]
+[2024-04-05 02:11:58] INFO root fetch - processPackages [tictacsync]: Downloading https://files.pythonhosted.org/packages/bb/84/04737aec46ffb7c5a7d31024fc86fbaebb5498570ee0878c3824c6957c79/tictacsync-0.3a1.tar.gz
+[2024-04-05 02:11:58] INFO root fetch - processPackages [mct-quantizers-nightly]: New version: [1.4.0.20240405.post1044] Old Version: [1.4.0.20240404.post90207]
+[2024-04-05 02:11:58] INFO root fetch - processPackages [openbb-nightly]: New version: [4.1.6.dev202404050009] Old Version: [4.1.6.dev202404040010]
+[2024-04-05 02:11:58] INFO root fetch - processPackages [langtrace-python-sdk]: Downloading https://files.pythonhosted.org/packages/a4/ef/481e0ed40325edb8017528b343798616b10c4cdd501969ba15e16d95d4db/langtrace_python_sdk-1.2.8.tar.gz
+[2024-04-05 02:11:58] WARNING root fetch - processPackages [tictacsync]: Timeout reached during download
+[2024-04-05 02:11:58] WARNING root fetch - processPackages [cpop]: Timeout reached during download
+[2024-04-05 02:11:58] INFO root fetch - processPackages [spectral-recovery]: Downloading https://files.pythonhosted.org/packages/fc/f8/bcbe292c6b4a9c59cfd2a9e034f455f31a57abd1f1fa29b8ceed6d67f61a/spectral_recovery-0.3.1.tar.gz
+[2024-04-05 02:11:58] INFO root fetch - processPackages [mct-quantizers-nightly]: Downloading https://files.pythonhosted.org/packages/7f/c9/f8abdbd01ba8bb8fad1f45bfd96965d7bdfb44683aabd01b8d0ed49edf77/mct-quantizers-nightly-1.4.0.20240404.post90207.tar.gz
+[2024-04-05 02:11:58] INFO root fetch - processPackages [openbb-nightly]: Downloading https://files.pythonhosted.org/packages/47/eb/15abe4c2108e2030c216623da8898c842845837c20d8551a6b6cbb0fe85a/openbb_nightly-4.1.6.dev202404040010.tar.gz
+[2024-04-05 02:11:58] WARNING root fetch - processPackages [langtrace-python-sdk]: Timeout reached during download
+[2024-04-05 02:11:58] WARNING root fetch - processPackages [spectral-recovery]: Timeout reached during download
+[2024-04-05 02:11:58] INFO root fetch - processPackages [tictacsync]: Downloading https://files.pythonhosted.org/packages/77/af/36b8b1244d986af11ee2ae5ef49faa6fa35bb44075a6abb8da05f1cedad3/tictacsync-0.3a2.tar.gz
+[2024-04-05 02:11:58] INFO root fetch - processPackages [langtrace-python-sdk]: Downloading https://files.pythonhosted.org/packages/c1/d6/f58d5bf271b0dd4701d47b4b17041a9bc5e9129514abef119cd8be7fbb48/langtrace_python_sdk-1.2.9.tar.gz
+[2024-04-05 02:11:58] WARNING root fetch - processPackages [mct-quantizers-nightly]: Timeout reached during download
+[2024-04-05 02:11:58] WARNING root fetch - processPackages [tictacsync]: Timeout reached during download
+[2024-04-05 02:11:58] INFO root fetch - processPackages [tictacsync]: executing diffoscope
+[2024-04-05 02:11:58] INFO root fetch - processPackages [tictacsync]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tictacsync-0.3a1.tar.gz tmp/tictacsync-0.3a2.tar.gz --markdown 20240405/t/tictacsync/0.3a1-0.3a2/diff.md --exclude *.pyd
+[2024-04-05 02:11:58] WARNING root fetch - processPackages [langtrace-python-sdk]: Timeout reached during download
+[2024-04-05 02:11:58] INFO root fetch - processPackages [langtrace-python-sdk]: executing diffoscope
+[2024-04-05 02:11:58] INFO root fetch - processPackages [langtrace-python-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langtrace_python_sdk-1.2.8.tar.gz tmp/langtrace_python_sdk-1.2.9.tar.gz --markdown 20240405/l/langtrace-python-sdk/1.2.8-1.2.9/diff.md --exclude *.pyd
+[2024-04-05 02:11:58] INFO root fetch - processPackages [spectral-recovery]: Downloading https://files.pythonhosted.org/packages/72/ec/2df3182c12634a03668c76aa4c1c726861cc57acea44992a731319260fa5/spectral_recovery-0.3.2.tar.gz
+[2024-04-05 02:11:58] INFO root fetch - processPackages [cpop]: Downloading https://files.pythonhosted.org/packages/13/fb/81df2d4fb60b8b116042d4d5bb2dab293f8b1e1cad5c46de526ed356188a/cpop-29.0.0.tar.gz
+[2024-04-05 02:11:58] INFO root fetch - processPackages [mct-quantizers-nightly]: Downloading https://files.pythonhosted.org/packages/63/97/ad48c1030da646aee7e53e8dcc68837135420572c6fb9249a887d2d54b5f/mct-quantizers-nightly-1.4.0.20240405.post1044.tar.gz
+[2024-04-05 02:11:58] WARNING root fetch - processPackages [openbb-nightly]: Timeout reached during download
+[2024-04-05 02:11:58] WARNING root fetch - processPackages [spectral-recovery]: Timeout reached during download
+[2024-04-05 02:11:58] INFO root fetch - processPackages [spectral-recovery]: executing diffoscope
+[2024-04-05 02:11:58] INFO root fetch - processPackages [spectral-recovery]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spectral_recovery-0.3.1.tar.gz tmp/spectral_recovery-0.3.2.tar.gz --markdown 20240405/s/spectral-recovery/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2024-04-05 02:11:58] WARNING root fetch - processPackages [mct-quantizers-nightly]: Timeout reached during download
+[2024-04-05 02:11:58] INFO root fetch - processPackages [mct-quantizers-nightly]: executing diffoscope
+[2024-04-05 02:11:58] INFO root fetch - processPackages [mct-quantizers-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mct-quantizers-nightly-1.4.0.20240404.post90207.tar.gz tmp/mct-quantizers-nightly-1.4.0.20240405.post1044.tar.gz --markdown 20240405/m/mct-quantizers-nightly/1.4.0.20240404.post90207-1.4.0.20240405.post1044/diff.md --exclude *.pyd
+[2024-04-05 02:11:58] WARNING root fetch - processPackages [cpop]: Timeout reached during download
+[2024-04-05 02:11:58] INFO root fetch - processPackages [cpop]: executing diffoscope
+[2024-04-05 02:11:58] INFO root fetch - processPackages [cpop]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cpop-28.5.0.tar.gz tmp/cpop-29.0.0.tar.gz --markdown 20240405/c/cpop/28.5.0-29.0.0/diff.md --exclude *.pyd
+[2024-04-05 02:11:59] INFO root fetch - processPackages [openbb-nightly]: Downloading https://files.pythonhosted.org/packages/2a/c3/9cacbfe6345177234fd6e26b6b4322af22cd42bfe2a9f56061ac575c6f87/openbb_nightly-4.1.6.dev202404050009.tar.gz
+[2024-04-05 02:11:59] WARNING root fetch - processPackages [openbb-nightly]: Timeout reached during download
+[2024-04-05 02:11:59] INFO root fetch - processPackages [openbb-nightly]: executing diffoscope
+[2024-04-05 02:11:59] INFO root fetch - processPackages [openbb-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openbb_nightly-4.1.6.dev202404040010.tar.gz tmp/openbb_nightly-4.1.6.dev202404050009.tar.gz --markdown 20240405/o/openbb-nightly/4.1.6.dev202404040010-4.1.6.dev202404050009/diff.md --exclude *.pyd
+[2024-04-05 02:11:59] INFO root fetch - processPackages [tictacsync]: Remove: archive file [/home/abi/fetcher/tmp/tictacsync-0.3a1.tar.gz]
+[2024-04-05 02:11:59] INFO root fetch - processPackages [tictacsync]: Remove: archive file [/home/abi/fetcher/tmp/tictacsync-0.3a2.tar.gz]
+[2024-04-05 02:11:59] INFO root fetch - main [MainThread]: End processing [tictacsync]: success
+[2024-04-05 02:11:59] INFO root fetch - processPackages [langtrace-python-sdk]: Remove: archive file [/home/abi/fetcher/tmp/langtrace_python_sdk-1.2.8.tar.gz]
+[2024-04-05 02:11:59] INFO root fetch - processPackages [langtrace-python-sdk]: Remove: archive file [/home/abi/fetcher/tmp/langtrace_python_sdk-1.2.9.tar.gz]
+[2024-04-05 02:11:59] INFO root fetch - main [MainThread]: End processing [langtrace-python-sdk]: success
+[2024-04-05 02:11:59] INFO root fetch - processPackages [spectral-recovery]: Remove: archive file [/home/abi/fetcher/tmp/spectral_recovery-0.3.1.tar.gz]
+[2024-04-05 02:11:59] INFO root fetch - processPackages [spectral-recovery]: Remove: archive file [/home/abi/fetcher/tmp/spectral_recovery-0.3.2.tar.gz]
+[2024-04-05 02:11:59] INFO root fetch - main [MainThread]: End processing [spectral-recovery]: success
+[2024-04-05 02:11:59] INFO root fetch - processPackages [cpop]: Remove: archive file [/home/abi/fetcher/tmp/cpop-28.5.0.tar.gz]
+[2024-04-05 02:11:59] INFO root fetch - processPackages [cpop]: Remove: archive file [/home/abi/fetcher/tmp/cpop-29.0.0.tar.gz]
+[2024-04-05 02:11:59] INFO root fetch - main [MainThread]: End processing [cpop]: success
+[2024-04-05 02:11:59] INFO root fetch - processPackages [mct-quantizers-nightly]: Remove: archive file [/home/abi/fetcher/tmp/mct-quantizers-nightly-1.4.0.20240404.post90207.tar.gz]
+[2024-04-05 02:11:59] INFO root fetch - processPackages [mct-quantizers-nightly]: Remove: archive file [/home/abi/fetcher/tmp/mct-quantizers-nightly-1.4.0.20240405.post1044.tar.gz]
+[2024-04-05 02:11:59] INFO root fetch - main [MainThread]: End processing [mct-quantizers-nightly]: success
+[2024-04-05 02:12:02] INFO root fetch - processPackages [openbb-nightly]: Remove: archive file [/home/abi/fetcher/tmp/openbb_nightly-4.1.6.dev202404040010.tar.gz]
+[2024-04-05 02:12:02] INFO root fetch - processPackages [openbb-nightly]: Remove: archive file [/home/abi/fetcher/tmp/openbb_nightly-4.1.6.dev202404050009.tar.gz]
+[2024-04-05 02:12:02] INFO root fetch - main [MainThread]: End processing [openbb-nightly]: success
+[2024-04-05 02:12:02] INFO root fetch - main [MainThread]: Store serial: [22629071]
