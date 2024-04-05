@@ -9654,3 +9654,189 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2024-04-05 04:39:12] INFO root fetch - processPackages [odoo11-addon-account-financial-report]: Remove: archive file [/home/abi/fetcher/tmp/odoo11_addon_account_financial_report-11.0.2.6.0.99.dev9-py2.py3-none-any.whl.zip]
 [2024-04-05 04:39:12] INFO root fetch - main [MainThread]: End processing [odoo11-addon-account-financial-report]: success
 [2024-04-05 04:39:12] INFO root fetch - main [MainThread]: Store serial: [22631208]
+[2024-04-05 04:41:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22631208]
+[2024-04-05 04:41:22] INFO root fetch - main [MainThread]: Found 19 changed packages
+[2024-04-05 04:41:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: test-tele
+[2024-04-05 04:41:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: backend.ai-accelerator-cuda-open
+[2024-04-05 04:41:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: backend.ai-accelerator-mock
+[2024-04-05 04:41:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: backend.ai-agent
+[2024-04-05 04:41:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: backend.ai-cli
+[2024-04-05 04:41:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: backend.ai-client
+[2024-04-05 04:41:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: odoo-addon-partner-statement
+[2024-04-05 04:41:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: backend.ai-common
+[2024-04-05 04:41:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: backend.ai-install
+[2024-04-05 04:41:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: backend.ai-kernel
+[2024-04-05 04:41:22] WARNING root fetch - processPackages [test-tele]: Skipping, unable to determine old version
+[2024-04-05 04:41:22] INFO root fetch - processPackages [test-tele]: Start processing: backend.ai-kernel-binary
+[2024-04-05 04:41:22] INFO root fetch - main [MainThread]: End processing [test-tele] error
+[2024-04-05 04:41:22] INFO root fetch - processPackages [odoo-addon-partner-statement]: New version: [16.0.1.0.1.2] Old Version: [16.0.1.0.1]
+[2024-04-05 04:41:22] INFO root fetch - processPackages [backend.ai-accelerator-cuda-open]: New version: [24.3.0rc3] Old Version: [24.3.0rc2]
+[2024-04-05 04:41:22] INFO root fetch - processPackages [backend.ai-install]: New version: [24.3.0rc3] Old Version: [24.3.0rc2]
+[2024-04-05 04:41:22] INFO root fetch - processPackages [backend.ai-accelerator-mock]: New version: [24.3.0rc3] Old Version: [24.3.0rc2]
+[2024-04-05 04:41:22] INFO root fetch - processPackages [backend.ai-common]: New version: [24.3.0rc3] Old Version: [24.3.0rc2]
+[2024-04-05 04:41:22] INFO root fetch - processPackages [backend.ai-cli]: New version: [24.3.0rc3] Old Version: [24.3.0rc2]
+[2024-04-05 04:41:22] INFO root fetch - processPackages [backend.ai-client]: New version: [24.3.0rc3] Old Version: [24.3.0rc2]
+[2024-04-05 04:41:22] INFO root fetch - processPackages [backend.ai-kernel]: New version: [24.3.0rc3] Old Version: [24.3.0rc2]
+[2024-04-05 04:41:22] INFO root fetch - processPackages [backend.ai-agent]: New version: [24.3.0rc3] Old Version: [24.3.0rc2]
+[2024-04-05 04:41:22] INFO root fetch - processPackages [backend.ai-kernel-binary]: New version: [24.3.0rc3] Old Version: [24.3.0rc2]
+[2024-04-05 04:41:23] INFO root fetch - processPackages [odoo-addon-partner-statement]: Downloading https://files.pythonhosted.org/packages/58/40/da7c204444e2b57c3b3377f0d5df91399d5efeb38ccf61235ef6c54bb86b/odoo_addon_partner_statement-16.0.1.0.1-py3-none-any.whl
+[2024-04-05 04:41:23] INFO root fetch - processPackages [backend.ai-accelerator-cuda-open]: Downloading https://files.pythonhosted.org/packages/ef/c7/6538c5deca90ef285af85ac30e775fd5bb9c5bdbd6432615a3e39bfeca7d/backend.ai-accelerator-cuda-open-24.3.0rc2.tar.gz
+[2024-04-05 04:41:23] INFO root fetch - processPackages [backend.ai-install]: Downloading https://files.pythonhosted.org/packages/9f/43/221eafd86c05fb1947d1208554f0b4f0cd96fcb6df86d4b6b0ec0845c0d9/backend.ai-install-24.3.0rc2.tar.gz
+[2024-04-05 04:41:23] INFO root fetch - processPackages [backend.ai-accelerator-mock]: Downloading https://files.pythonhosted.org/packages/15/d7/051d3ec951adb67df3199430727198e629d47ec0b3f490ccac15c6c52b4f/backend.ai-accelerator-mock-24.3.0rc2.tar.gz
+[2024-04-05 04:41:23] INFO root fetch - processPackages [backend.ai-client]: Downloading https://files.pythonhosted.org/packages/5c/ff/a2c41e3ed35029398c8cce85cfe63c9c5878ec311c497eeef51e135fd1a2/backend.ai-client-24.3.0rc2.tar.gz
+[2024-04-05 04:41:23] INFO root fetch - processPackages [backend.ai-kernel]: Downloading https://files.pythonhosted.org/packages/43/11/0f2bb9ba8f81f2ddb99dafcda11787f00e97bc54db777382ef72ea5682c5/backend.ai-kernel-24.3.0rc2.tar.gz
+[2024-04-05 04:41:23] INFO root fetch - processPackages [backend.ai-common]: Downloading https://files.pythonhosted.org/packages/50/aa/78df0f65afa77d32ef935dd1495b42b0ba93db72b4a90a4fbe5afb9b1e15/backend.ai-common-24.3.0rc2.tar.gz
+[2024-04-05 04:41:23] INFO root fetch - processPackages [backend.ai-cli]: Downloading https://files.pythonhosted.org/packages/5e/08/fd805eadcdcb8cdfd53eea055bbd6f20087ea4021be60ba206cac57bb254/backend.ai-cli-24.3.0rc2.tar.gz
+[2024-04-05 04:41:23] INFO root fetch - processPackages [backend.ai-agent]: Downloading https://files.pythonhosted.org/packages/e9/ee/278773e2459572a75f58cb13a6dfb73b3c7cf6f03ffc0fd542c08fc96c96/backend.ai-agent-24.3.0rc2.tar.gz
+[2024-04-05 04:41:23] INFO root fetch - processPackages [backend.ai-kernel-binary]: Downloading https://files.pythonhosted.org/packages/03/26/8ae5742028234b82f5ec0d9fb5d87f743d7311d35fd046e6aa3e06b3d0d4/backend.ai-kernel-binary-24.3.0rc2.tar.gz
+[2024-04-05 04:41:23] WARNING root fetch - processPackages [backend.ai-accelerator-cuda-open]: Timeout reached during download
+[2024-04-05 04:41:23] WARNING root fetch - processPackages [backend.ai-agent]: Skipping package: exceeds size limit 17983781>=10485760
+[2024-04-05 04:41:23] INFO root fetch - processPackages [backend.ai-agent]: Start processing: backend.ai-kernel-helper
+[2024-04-05 04:41:23] INFO root fetch - main [MainThread]: End processing [backend.ai-agent] error
+[2024-04-05 04:41:23] WARNING root fetch - processPackages [odoo-addon-partner-statement]: Timeout reached during download
+[2024-04-05 04:41:23] WARNING root fetch - processPackages [backend.ai-accelerator-mock]: Timeout reached during download
+[2024-04-05 04:41:23] WARNING root fetch - processPackages [backend.ai-kernel-binary]: Skipping package: exceeds size limit 25001254>=10485760
+[2024-04-05 04:41:23] INFO root fetch - processPackages [backend.ai-kernel-binary]: Start processing: backend.ai-manager
+[2024-04-05 04:41:23] INFO root fetch - main [MainThread]: End processing [backend.ai-kernel-binary] error
+[2024-04-05 04:41:23] WARNING root fetch - processPackages [backend.ai-client]: Timeout reached during download
+[2024-04-05 04:41:23] WARNING root fetch - processPackages [backend.ai-cli]: Timeout reached during download
+[2024-04-05 04:41:23] WARNING root fetch - processPackages [backend.ai-kernel]: Timeout reached during download
+[2024-04-05 04:41:23] WARNING root fetch - processPackages [backend.ai-common]: Timeout reached during download
+[2024-04-05 04:41:23] WARNING root fetch - processPackages [backend.ai-install]: Timeout reached during download
+[2024-04-05 04:41:23] INFO root fetch - processPackages [backend.ai-kernel-helper]: New version: [24.3.0rc3] Old Version: [24.3.0rc2]
+[2024-04-05 04:41:23] INFO root fetch - processPackages [backend.ai-accelerator-cuda-open]: Downloading https://files.pythonhosted.org/packages/e6/5e/246200d0dd481aeb93dc659fa004d634ee2faebec33f762458dda932323e/backend.ai-accelerator-cuda-open-24.3.0rc3.tar.gz
+[2024-04-05 04:41:23] INFO root fetch - processPackages [odoo-addon-partner-statement]: Downloading https://files.pythonhosted.org/packages/bc/d4/87c69e24abb9b7adb28789a7c4e857d60908acda9631bf276294e97c81f1/odoo_addon_partner_statement-16.0.1.0.1.2-py3-none-any.whl
+[2024-04-05 04:41:23] INFO root fetch - processPackages [backend.ai-manager]: New version: [24.3.0rc3] Old Version: [24.3.0rc2]
+[2024-04-05 04:41:23] INFO root fetch - processPackages [backend.ai-accelerator-mock]: Downloading https://files.pythonhosted.org/packages/73/af/518132e76a226c38b78155a62e9774cc512accaa72af89b342aa5a41147f/backend.ai-accelerator-mock-24.3.0rc3.tar.gz
+[2024-04-05 04:41:23] INFO root fetch - processPackages [backend.ai-kernel]: Downloading https://files.pythonhosted.org/packages/95/6a/7a0549c0e7d34fc4a1a12220b526771dbaa21d8f53d54984f8a8ef730f4f/backend.ai-kernel-24.3.0rc3.tar.gz
+[2024-04-05 04:41:23] INFO root fetch - processPackages [backend.ai-client]: Downloading https://files.pythonhosted.org/packages/82/e4/4dcee83baf6c9d7f0aeb58b984991907db8777d9f4ae91edb9241a73be12/backend.ai-client-24.3.0rc3.tar.gz
+[2024-04-05 04:41:23] INFO root fetch - processPackages [backend.ai-cli]: Downloading https://files.pythonhosted.org/packages/96/69/48c5e7824cc950bcfe1da573494bc7d06b8fd5fa5b42494745751b66c083/backend.ai-cli-24.3.0rc3.tar.gz
+[2024-04-05 04:41:23] INFO root fetch - processPackages [backend.ai-install]: Downloading https://files.pythonhosted.org/packages/26/a9/a5a9b9a91632b4292cc65c075016356c5872a4505678af8ed1474040d719/backend.ai-install-24.3.0rc3.tar.gz
+[2024-04-05 04:41:23] INFO root fetch - processPackages [backend.ai-common]: Downloading https://files.pythonhosted.org/packages/bd/3c/44cfc2b9b8fdb563930e132ff6bd8e73c16229806a521b8a86787ed032a6/backend.ai-common-24.3.0rc3.tar.gz
+[2024-04-05 04:41:23] WARNING root fetch - processPackages [backend.ai-accelerator-cuda-open]: Timeout reached during download
+[2024-04-05 04:41:23] INFO root fetch - processPackages [backend.ai-accelerator-cuda-open]: executing diffoscope
+[2024-04-05 04:41:23] INFO root fetch - processPackages [backend.ai-accelerator-cuda-open]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/backend.ai-accelerator-cuda-open-24.3.0rc2.tar.gz tmp/backend.ai-accelerator-cuda-open-24.3.0rc3.tar.gz --markdown 20240405/b/backend.ai-accelerator-cuda-open/24.3.0rc2-24.3.0rc3/diff.md --exclude *.pyd
+[2024-04-05 04:41:23] WARNING root fetch - processPackages [odoo-addon-partner-statement]: Timeout reached during download
+[2024-04-05 04:41:23] WARNING root fetch - processPackages [backend.ai-kernel]: Timeout reached during download
+[2024-04-05 04:41:23] INFO root fetch - processPackages [odoo-addon-partner-statement]: executing diffoscope
+[2024-04-05 04:41:23] INFO root fetch - processPackages [odoo-addon-partner-statement]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_partner_statement-16.0.1.0.1-py3-none-any.whl.zip tmp/odoo_addon_partner_statement-16.0.1.0.1.2-py3-none-any.whl.zip --markdown 20240405/o/odoo-addon-partner-statement/16.0.1.0.1-16.0.1.0.1.2/diff.md --exclude *.pyd
+[2024-04-05 04:41:23] INFO root fetch - processPackages [backend.ai-kernel]: executing diffoscope
+[2024-04-05 04:41:23] INFO root fetch - processPackages [backend.ai-kernel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/backend.ai-kernel-24.3.0rc2.tar.gz tmp/backend.ai-kernel-24.3.0rc3.tar.gz --markdown 20240405/b/backend.ai-kernel/24.3.0rc2-24.3.0rc3/diff.md --exclude *.pyd
+[2024-04-05 04:41:23] WARNING root fetch - processPackages [backend.ai-cli]: Timeout reached during download
+[2024-04-05 04:41:23] INFO root fetch - processPackages [backend.ai-cli]: executing diffoscope
+[2024-04-05 04:41:23] INFO root fetch - processPackages [backend.ai-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/backend.ai-cli-24.3.0rc2.tar.gz tmp/backend.ai-cli-24.3.0rc3.tar.gz --markdown 20240405/b/backend.ai-cli/24.3.0rc2-24.3.0rc3/diff.md --exclude *.pyd
+[2024-04-05 04:41:23] WARNING root fetch - processPackages [backend.ai-client]: Timeout reached during download
+[2024-04-05 04:41:23] INFO root fetch - processPackages [backend.ai-client]: executing diffoscope
+[2024-04-05 04:41:23] INFO root fetch - processPackages [backend.ai-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/backend.ai-client-24.3.0rc2.tar.gz tmp/backend.ai-client-24.3.0rc3.tar.gz --markdown 20240405/b/backend.ai-client/24.3.0rc2-24.3.0rc3/diff.md --exclude *.pyd
+[2024-04-05 04:41:23] WARNING root fetch - processPackages [backend.ai-accelerator-mock]: Timeout reached during download
+[2024-04-05 04:41:23] INFO root fetch - processPackages [backend.ai-manager]: Downloading https://files.pythonhosted.org/packages/b3/88/3e81d29540c9e8e78b057ee05df3d9b249501fe19492e911e4b8d7679be7/backend.ai-manager-24.3.0rc2.tar.gz
+[2024-04-05 04:41:23] INFO root fetch - processPackages [backend.ai-accelerator-mock]: executing diffoscope
+[2024-04-05 04:41:23] INFO root fetch - processPackages [backend.ai-accelerator-mock]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/backend.ai-accelerator-mock-24.3.0rc2.tar.gz tmp/backend.ai-accelerator-mock-24.3.0rc3.tar.gz --markdown 20240405/b/backend.ai-accelerator-mock/24.3.0rc2-24.3.0rc3/diff.md --exclude *.pyd
+[2024-04-05 04:41:23] WARNING root fetch - processPackages [backend.ai-install]: Timeout reached during download
+[2024-04-05 04:41:23] INFO root fetch - processPackages [backend.ai-install]: executing diffoscope
+[2024-04-05 04:41:23] INFO root fetch - processPackages [backend.ai-install]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/backend.ai-install-24.3.0rc2.tar.gz tmp/backend.ai-install-24.3.0rc3.tar.gz --markdown 20240405/b/backend.ai-install/24.3.0rc2-24.3.0rc3/diff.md --exclude *.pyd
+[2024-04-05 04:41:23] WARNING root fetch - processPackages [backend.ai-common]: Timeout reached during download
+[2024-04-05 04:41:23] INFO root fetch - processPackages [backend.ai-common]: executing diffoscope
+[2024-04-05 04:41:23] INFO root fetch - processPackages [backend.ai-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/backend.ai-common-24.3.0rc2.tar.gz tmp/backend.ai-common-24.3.0rc3.tar.gz --markdown 20240405/b/backend.ai-common/24.3.0rc2-24.3.0rc3/diff.md --exclude *.pyd
+[2024-04-05 04:41:24] INFO root fetch - processPackages [backend.ai-kernel-helper]: Downloading https://files.pythonhosted.org/packages/d3/76/ca4a7d1b938cdcaa3f3f5099a6e14a221612fa3f619f39bff901152c0fe4/backend.ai-kernel-helper-24.3.0rc2.tar.gz
+[2024-04-05 04:41:24] WARNING root fetch - processPackages [backend.ai-manager]: Timeout reached during download
+[2024-04-05 04:41:24] WARNING root fetch - processPackages [backend.ai-kernel-helper]: Timeout reached during download
+[2024-04-05 04:41:24] INFO root fetch - processPackages [backend.ai-manager]: Downloading https://files.pythonhosted.org/packages/57/c1/c64fa520cbbe2e1d936589f03cdd7bff8afa05c57c63b26d334b792775f6/backend.ai-manager-24.3.0rc3.tar.gz
+[2024-04-05 04:41:24] INFO root fetch - processPackages [backend.ai-kernel-helper]: Downloading https://files.pythonhosted.org/packages/7e/1f/51ae6f1343055faefe423c9c0215ec3fc45afc8c2e98c52d9ea3c98020fb/backend.ai-kernel-helper-24.3.0rc3.tar.gz
+[2024-04-05 04:41:24] WARNING root fetch - processPackages [backend.ai-kernel-helper]: Timeout reached during download
+[2024-04-05 04:41:24] INFO root fetch - processPackages [backend.ai-kernel-helper]: executing diffoscope
+[2024-04-05 04:41:24] INFO root fetch - processPackages [backend.ai-kernel-helper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/backend.ai-kernel-helper-24.3.0rc2.tar.gz tmp/backend.ai-kernel-helper-24.3.0rc3.tar.gz --markdown 20240405/b/backend.ai-kernel-helper/24.3.0rc2-24.3.0rc3/diff.md --exclude *.pyd
+[2024-04-05 04:41:24] INFO root fetch - processPackages [backend.ai-accelerator-cuda-open]: Remove: archive file [/home/abi/fetcher/tmp/backend.ai-accelerator-cuda-open-24.3.0rc2.tar.gz]
+[2024-04-05 04:41:24] INFO root fetch - processPackages [backend.ai-accelerator-cuda-open]: Remove: archive file [/home/abi/fetcher/tmp/backend.ai-accelerator-cuda-open-24.3.0rc3.tar.gz]
+[2024-04-05 04:41:24] INFO root fetch - processPackages [backend.ai-accelerator-cuda-open]: Start processing: backend.ai-plugin
+[2024-04-05 04:41:24] INFO root fetch - main [MainThread]: End processing [backend.ai-accelerator-cuda-open]: success
+[2024-04-05 04:41:24] WARNING root fetch - processPackages [backend.ai-manager]: Timeout reached during download
+[2024-04-05 04:41:24] INFO root fetch - processPackages [backend.ai-manager]: executing diffoscope
+[2024-04-05 04:41:24] INFO root fetch - processPackages [backend.ai-manager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/backend.ai-manager-24.3.0rc2.tar.gz tmp/backend.ai-manager-24.3.0rc3.tar.gz --markdown 20240405/b/backend.ai-manager/24.3.0rc2-24.3.0rc3/diff.md --exclude *.pyd
+[2024-04-05 04:41:24] INFO root fetch - processPackages [backend.ai-plugin]: New version: [24.3.0rc3] Old Version: [24.3.0rc2]
+[2024-04-05 04:41:24] INFO root fetch - processPackages [backend.ai-cli]: Remove: archive file [/home/abi/fetcher/tmp/backend.ai-cli-24.3.0rc2.tar.gz]
+[2024-04-05 04:41:24] INFO root fetch - processPackages [backend.ai-cli]: Remove: archive file [/home/abi/fetcher/tmp/backend.ai-cli-24.3.0rc3.tar.gz]
+[2024-04-05 04:41:24] INFO root fetch - processPackages [backend.ai-cli]: Start processing: backend.ai-storage-proxy
+[2024-04-05 04:41:24] INFO root fetch - main [MainThread]: End processing [backend.ai-cli]: success
+[2024-04-05 04:41:24] INFO root fetch - processPackages [backend.ai-accelerator-mock]: Remove: archive file [/home/abi/fetcher/tmp/backend.ai-accelerator-mock-24.3.0rc2.tar.gz]
+[2024-04-05 04:41:24] INFO root fetch - processPackages [backend.ai-accelerator-mock]: Remove: archive file [/home/abi/fetcher/tmp/backend.ai-accelerator-mock-24.3.0rc3.tar.gz]
+[2024-04-05 04:41:24] INFO root fetch - processPackages [backend.ai-accelerator-mock]: Start processing: backend.ai-test
+[2024-04-05 04:41:24] INFO root fetch - main [MainThread]: End processing [backend.ai-accelerator-mock]: success
+[2024-04-05 04:41:24] INFO root fetch - processPackages [backend.ai-install]: Remove: archive file [/home/abi/fetcher/tmp/backend.ai-install-24.3.0rc2.tar.gz]
+[2024-04-05 04:41:24] INFO root fetch - processPackages [backend.ai-install]: Remove: archive file [/home/abi/fetcher/tmp/backend.ai-install-24.3.0rc3.tar.gz]
+[2024-04-05 04:41:24] INFO root fetch - processPackages [backend.ai-install]: Start processing: backend.ai-webserver
+[2024-04-05 04:41:24] INFO root fetch - main [MainThread]: End processing [backend.ai-install]: success
+[2024-04-05 04:41:24] INFO root fetch - processPackages [backend.ai-storage-proxy]: New version: [24.3.0rc3] Old Version: [24.3.0rc2]
+[2024-04-05 04:41:24] INFO root fetch - processPackages [backend.ai-plugin]: Downloading https://files.pythonhosted.org/packages/f1/e6/fdb28a019ff545ea5e6e4bc0ee89c7743a8452bc029167d4d2ada97876ac/backend.ai-plugin-24.3.0rc2.tar.gz
+[2024-04-05 04:41:24] INFO root fetch - processPackages [backend.ai-test]: New version: [24.3.0rc3] Old Version: [24.3.0rc2]
+[2024-04-05 04:41:24] INFO root fetch - processPackages [odoo-addon-partner-statement]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_partner_statement-16.0.1.0.1-py3-none-any.whl.zip]
+[2024-04-05 04:41:24] INFO root fetch - processPackages [odoo-addon-partner-statement]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_partner_statement-16.0.1.0.1.2-py3-none-any.whl.zip]
+[2024-04-05 04:41:24] INFO root fetch - processPackages [odoo-addon-partner-statement]: Start processing: odoo11-addon-account-asset-management
+[2024-04-05 04:41:24] INFO root fetch - main [MainThread]: End processing [odoo-addon-partner-statement]: success
+[2024-04-05 04:41:24] INFO root fetch - processPackages [backend.ai-common]: Remove: archive file [/home/abi/fetcher/tmp/backend.ai-common-24.3.0rc2.tar.gz]
+[2024-04-05 04:41:24] INFO root fetch - processPackages [backend.ai-common]: Remove: archive file [/home/abi/fetcher/tmp/backend.ai-common-24.3.0rc3.tar.gz]
+[2024-04-05 04:41:24] INFO root fetch - processPackages [backend.ai-common]: Start processing: odoo13-addon-account-asset-management
+[2024-04-05 04:41:24] INFO root fetch - main [MainThread]: End processing [backend.ai-common]: success
+[2024-04-05 04:41:25] INFO root fetch - processPackages [backend.ai-webserver]: New version: [24.3.0rc3] Old Version: [24.3.0rc2]
+[2024-04-05 04:41:25] INFO root fetch - processPackages [backend.ai-kernel]: Remove: archive file [/home/abi/fetcher/tmp/backend.ai-kernel-24.3.0rc2.tar.gz]
+[2024-04-05 04:41:25] INFO root fetch - processPackages [backend.ai-kernel]: Remove: archive file [/home/abi/fetcher/tmp/backend.ai-kernel-24.3.0rc3.tar.gz]
+[2024-04-05 04:41:25] INFO root fetch - main [MainThread]: End processing [backend.ai-kernel]: success
+[2024-04-05 04:41:25] WARNING root fetch - processPackages [backend.ai-plugin]: Timeout reached during download
+[2024-04-05 04:41:25] INFO root fetch - processPackages [odoo11-addon-account-asset-management]: New version: [11.0.1.0.3.99.dev9] Old Version: [11.0.1.0.3.99.dev8]
+[2024-04-05 04:41:25] INFO root fetch - processPackages [backend.ai-client]: Remove: archive file [/home/abi/fetcher/tmp/backend.ai-client-24.3.0rc2.tar.gz]
+[2024-04-05 04:41:25] INFO root fetch - processPackages [backend.ai-client]: Remove: archive file [/home/abi/fetcher/tmp/backend.ai-client-24.3.0rc3.tar.gz]
+[2024-04-05 04:41:25] INFO root fetch - main [MainThread]: End processing [backend.ai-client]: success
+[2024-04-05 04:41:25] INFO root fetch - processPackages [odoo13-addon-account-asset-management]: New version: [13.0.3.7.5.dev9] Old Version: [13.0.3.7.5.dev8]
+[2024-04-05 04:41:25] INFO root fetch - processPackages [backend.ai-storage-proxy]: Downloading https://files.pythonhosted.org/packages/c8/a3/ba0a00462bf688e1f2c2c587e3aa69a3f27589977cff1e33be535740473d/backend.ai-storage-proxy-24.3.0rc2.tar.gz
+[2024-04-05 04:41:25] INFO root fetch - processPackages [backend.ai-test]: Downloading https://files.pythonhosted.org/packages/04/b4/cc60df1723f9a26a3f269cf82f2e3d09af8ac2c2d89afafe0b6d93058783/backend.ai-test-24.3.0rc2.tar.gz
+[2024-04-05 04:41:25] INFO root fetch - processPackages [backend.ai-kernel-helper]: Remove: archive file [/home/abi/fetcher/tmp/backend.ai-kernel-helper-24.3.0rc2.tar.gz]
+[2024-04-05 04:41:25] INFO root fetch - processPackages [backend.ai-kernel-helper]: Remove: archive file [/home/abi/fetcher/tmp/backend.ai-kernel-helper-24.3.0rc3.tar.gz]
+[2024-04-05 04:41:25] INFO root fetch - main [MainThread]: End processing [backend.ai-kernel-helper]: success
+[2024-04-05 04:41:25] INFO root fetch - processPackages [backend.ai-plugin]: Downloading https://files.pythonhosted.org/packages/e4/2d/1ebe63309cad3d305bbf726bb5ee5f3598f61f69dd72877250e295dda243/backend.ai-plugin-24.3.0rc3.tar.gz
+[2024-04-05 04:41:25] INFO root fetch - processPackages [backend.ai-webserver]: Downloading https://files.pythonhosted.org/packages/a6/39/b1afe3eba17018f2d27ead25a9350a6980599f43ea2827840f287d639b66/backend.ai-webserver-24.3.0rc2.tar.gz
+[2024-04-05 04:41:25] WARNING root fetch - processPackages [backend.ai-storage-proxy]: Timeout reached during download
+[2024-04-05 04:41:25] WARNING root fetch - processPackages [backend.ai-test]: Timeout reached during download
+[2024-04-05 04:41:25] WARNING root fetch - processPackages [backend.ai-webserver]: Skipping package: exceeds size limit 12743556>=10485760
+[2024-04-05 04:41:25] INFO root fetch - main [MainThread]: End processing [backend.ai-webserver] error
+[2024-04-05 04:41:25] INFO root fetch - processPackages [odoo11-addon-account-asset-management]: Downloading https://files.pythonhosted.org/packages/5d/17/97677093e2d981851ddd5ce21150f69b62ed21b864deddcb2a7bfffd2ccc/odoo11_addon_account_asset_management-11.0.1.0.3.99.dev8-py2.py3-none-any.whl
+[2024-04-05 04:41:25] INFO root fetch - processPackages [odoo13-addon-account-asset-management]: Downloading https://files.pythonhosted.org/packages/32/a0/7090067790db765fbe8e68d55215268076d1494d4b24359714ba47a2bade/odoo13_addon_account_asset_management-13.0.3.7.5.dev8-py3-none-any.whl
+[2024-04-05 04:41:25] WARNING root fetch - processPackages [backend.ai-plugin]: Timeout reached during download
+[2024-04-05 04:41:25] INFO root fetch - processPackages [backend.ai-plugin]: executing diffoscope
+[2024-04-05 04:41:25] INFO root fetch - processPackages [backend.ai-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/backend.ai-plugin-24.3.0rc2.tar.gz tmp/backend.ai-plugin-24.3.0rc3.tar.gz --markdown 20240405/b/backend.ai-plugin/24.3.0rc2-24.3.0rc3/diff.md --exclude *.pyd
+[2024-04-05 04:41:25] INFO root fetch - processPackages [backend.ai-storage-proxy]: Downloading https://files.pythonhosted.org/packages/a7/10/1ce10c4416463624d1d2b72bbf8c0069a9e0ba3d167a2998d9ba96d78777/backend.ai-storage-proxy-24.3.0rc3.tar.gz
+[2024-04-05 04:41:25] INFO root fetch - processPackages [backend.ai-test]: Downloading https://files.pythonhosted.org/packages/b4/54/0cfd53c50929af803b182a3d9d4c271e51a57dfeeb63140f553b5a608ab0/backend.ai-test-24.3.0rc3.tar.gz
+[2024-04-05 04:41:25] WARNING root fetch - processPackages [odoo11-addon-account-asset-management]: Timeout reached during download
+[2024-04-05 04:41:25] WARNING root fetch - processPackages [odoo13-addon-account-asset-management]: Timeout reached during download
+[2024-04-05 04:41:25] WARNING root fetch - processPackages [backend.ai-test]: Timeout reached during download
+[2024-04-05 04:41:25] INFO root fetch - processPackages [backend.ai-test]: executing diffoscope
+[2024-04-05 04:41:25] INFO root fetch - processPackages [backend.ai-test]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/backend.ai-test-24.3.0rc2.tar.gz tmp/backend.ai-test-24.3.0rc3.tar.gz --markdown 20240405/b/backend.ai-test/24.3.0rc2-24.3.0rc3/diff.md --exclude *.pyd
+[2024-04-05 04:41:25] WARNING root fetch - processPackages [backend.ai-storage-proxy]: Timeout reached during download
+[2024-04-05 04:41:25] INFO root fetch - processPackages [backend.ai-storage-proxy]: executing diffoscope
+[2024-04-05 04:41:25] INFO root fetch - processPackages [backend.ai-storage-proxy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/backend.ai-storage-proxy-24.3.0rc2.tar.gz tmp/backend.ai-storage-proxy-24.3.0rc3.tar.gz --markdown 20240405/b/backend.ai-storage-proxy/24.3.0rc2-24.3.0rc3/diff.md --exclude *.pyd
+[2024-04-05 04:41:25] INFO root fetch - processPackages [odoo11-addon-account-asset-management]: Downloading https://files.pythonhosted.org/packages/ce/8d/cdd346fa510ee7579603d4cf6661068f9e271391c9bc4054b34f2694155c/odoo11_addon_account_asset_management-11.0.1.0.3.99.dev9-py2.py3-none-any.whl
+[2024-04-05 04:41:25] INFO root fetch - processPackages [odoo13-addon-account-asset-management]: Downloading https://files.pythonhosted.org/packages/fc/7e/372325a41ddc269db691b8a01793bd3c035524e9d5df20723299be196562/odoo13_addon_account_asset_management-13.0.3.7.5.dev9-py3-none-any.whl
+[2024-04-05 04:41:25] WARNING root fetch - processPackages [odoo13-addon-account-asset-management]: Timeout reached during download
+[2024-04-05 04:41:25] INFO root fetch - processPackages [odoo13-addon-account-asset-management]: executing diffoscope
+[2024-04-05 04:41:25] INFO root fetch - processPackages [odoo13-addon-account-asset-management]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo13_addon_account_asset_management-13.0.3.7.5.dev8-py3-none-any.whl.zip tmp/odoo13_addon_account_asset_management-13.0.3.7.5.dev9-py3-none-any.whl.zip --markdown 20240405/o/odoo13-addon-account-asset-management/13.0.3.7.5.dev8-13.0.3.7.5.dev9/diff.md --exclude *.pyd
+[2024-04-05 04:41:25] INFO root fetch - processPackages [backend.ai-plugin]: Remove: archive file [/home/abi/fetcher/tmp/backend.ai-plugin-24.3.0rc2.tar.gz]
+[2024-04-05 04:41:25] INFO root fetch - processPackages [backend.ai-plugin]: Remove: archive file [/home/abi/fetcher/tmp/backend.ai-plugin-24.3.0rc3.tar.gz]
+[2024-04-05 04:41:25] INFO root fetch - main [MainThread]: End processing [backend.ai-plugin]: success
+[2024-04-05 04:41:26] INFO root fetch - processPackages [backend.ai-test]: Remove: archive file [/home/abi/fetcher/tmp/backend.ai-test-24.3.0rc2.tar.gz]
+[2024-04-05 04:41:26] INFO root fetch - processPackages [backend.ai-test]: Remove: archive file [/home/abi/fetcher/tmp/backend.ai-test-24.3.0rc3.tar.gz]
+[2024-04-05 04:41:26] INFO root fetch - main [MainThread]: End processing [backend.ai-test]: success
+[2024-04-05 04:41:26] WARNING root fetch - processPackages [odoo11-addon-account-asset-management]: Timeout reached during download
+[2024-04-05 04:41:26] INFO root fetch - processPackages [odoo11-addon-account-asset-management]: executing diffoscope
+[2024-04-05 04:41:26] INFO root fetch - processPackages [odoo11-addon-account-asset-management]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo11_addon_account_asset_management-11.0.1.0.3.99.dev8-py2.py3-none-any.whl.zip tmp/odoo11_addon_account_asset_management-11.0.1.0.3.99.dev9-py2.py3-none-any.whl.zip --markdown 20240405/o/odoo11-addon-account-asset-management/11.0.1.0.3.99.dev8-11.0.1.0.3.99.dev9/diff.md --exclude *.pyd
+[2024-04-05 04:41:26] INFO root fetch - processPackages [backend.ai-storage-proxy]: Remove: archive file [/home/abi/fetcher/tmp/backend.ai-storage-proxy-24.3.0rc2.tar.gz]
+[2024-04-05 04:41:26] INFO root fetch - processPackages [backend.ai-storage-proxy]: Remove: archive file [/home/abi/fetcher/tmp/backend.ai-storage-proxy-24.3.0rc3.tar.gz]
+[2024-04-05 04:41:26] INFO root fetch - main [MainThread]: End processing [backend.ai-storage-proxy]: success
+[2024-04-05 04:41:26] INFO root fetch - processPackages [backend.ai-manager]: Remove: archive file [/home/abi/fetcher/tmp/backend.ai-manager-24.3.0rc2.tar.gz]
+[2024-04-05 04:41:26] INFO root fetch - processPackages [backend.ai-manager]: Remove: archive file [/home/abi/fetcher/tmp/backend.ai-manager-24.3.0rc3.tar.gz]
+[2024-04-05 04:41:26] INFO root fetch - main [MainThread]: End processing [backend.ai-manager]: success
+[2024-04-05 04:41:26] INFO root fetch - processPackages [odoo13-addon-account-asset-management]: Remove: archive file [/home/abi/fetcher/tmp/odoo13_addon_account_asset_management-13.0.3.7.5.dev8-py3-none-any.whl.zip]
+[2024-04-05 04:41:26] INFO root fetch - processPackages [odoo13-addon-account-asset-management]: Remove: archive file [/home/abi/fetcher/tmp/odoo13_addon_account_asset_management-13.0.3.7.5.dev9-py3-none-any.whl.zip]
+[2024-04-05 04:41:26] INFO root fetch - main [MainThread]: End processing [odoo13-addon-account-asset-management]: success
+[2024-04-05 04:41:27] INFO root fetch - processPackages [odoo11-addon-account-asset-management]: Remove: archive file [/home/abi/fetcher/tmp/odoo11_addon_account_asset_management-11.0.1.0.3.99.dev8-py2.py3-none-any.whl.zip]
+[2024-04-05 04:41:27] INFO root fetch - processPackages [odoo11-addon-account-asset-management]: Remove: archive file [/home/abi/fetcher/tmp/odoo11_addon_account_asset_management-11.0.1.0.3.99.dev9-py2.py3-none-any.whl.zip]
+[2024-04-05 04:41:27] INFO root fetch - main [MainThread]: End processing [odoo11-addon-account-asset-management]: success
+[2024-04-05 04:41:27] INFO root fetch - main [MainThread]: Store serial: [22631264]
