@@ -10495,3 +10495,37 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2024-04-05 05:27:35] INFO root fetch - processPackages [aws-service-screener]: Remove: archive file [/home/abi/fetcher/tmp/aws_service_screener-2.0.2a3.tar.gz]
 [2024-04-05 05:27:35] INFO root fetch - main [MainThread]: End processing [aws-service-screener]: success
 [2024-04-05 05:27:35] INFO root fetch - main [MainThread]: Store serial: [22631456]
+[2024-04-05 05:29:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22631456]
+[2024-04-05 05:29:43] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-05 05:29:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: advcalc
+[2024-04-05 05:29:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: advcalc
+[2024-04-05 05:29:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: keras-nlp-nightly
+[2024-04-05 05:29:44] INFO root fetch - processPackages [advcalc]: New version: [0.0.7] Old Version: [0.0.6]
+[2024-04-05 05:29:44] INFO root fetch - processPackages [advcalc]: New version: [0.0.7] Old Version: [0.0.6]
+[2024-04-05 05:29:44] INFO root fetch - processPackages [advcalc]: Downloading https://files.pythonhosted.org/packages/ec/cd/6506d394d60aff42f94f576028ab38fd6f5683b4673b65f46698e836db90/advcalc-0.0.6.tar.gz
+[2024-04-05 05:29:44] INFO root fetch - processPackages [advcalc]: Downloading https://files.pythonhosted.org/packages/ec/cd/6506d394d60aff42f94f576028ab38fd6f5683b4673b65f46698e836db90/advcalc-0.0.6.tar.gz
+[2024-04-05 05:29:44] INFO root fetch - processPackages [keras-nlp-nightly]: New version: [0.9.0.dev2024040503] Old Version: [0.9.0.dev2024040403]
+[2024-04-05 05:29:44] WARNING root fetch - processPackages [advcalc]: Timeout reached during download
+[2024-04-05 05:29:44] WARNING root fetch - processPackages [advcalc]: Timeout reached during download
+[2024-04-05 05:29:44] INFO root fetch - processPackages [keras-nlp-nightly]: Downloading https://files.pythonhosted.org/packages/86/1a/b88b08ec9d84bb99c9377f8781f2171f6e1518cc413e37687e33b1638dcb/keras-nlp-nightly-0.9.0.dev2024040403.tar.gz
+[2024-04-05 05:29:44] INFO root fetch - processPackages [advcalc]: Downloading https://files.pythonhosted.org/packages/86/d7/0152792f6c6ccbd6222c0f19487c83c0ceb3a3548c3798503f6d87e20027/advcalc-0.0.7.tar.gz
+[2024-04-05 05:29:44] INFO root fetch - processPackages [advcalc]: Downloading https://files.pythonhosted.org/packages/86/d7/0152792f6c6ccbd6222c0f19487c83c0ceb3a3548c3798503f6d87e20027/advcalc-0.0.7.tar.gz
+[2024-04-05 05:29:44] WARNING root fetch - processPackages [keras-nlp-nightly]: Timeout reached during download
+[2024-04-05 05:29:44] WARNING root fetch - processPackages [advcalc]: Timeout reached during download
+[2024-04-05 05:29:44] INFO root fetch - processPackages [advcalc]: executing diffoscope
+[2024-04-05 05:29:44] INFO root fetch - processPackages [advcalc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/advcalc-0.0.6.tar.gz tmp/advcalc-0.0.7.tar.gz --markdown 20240405/a/advcalc/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2024-04-05 05:29:44] WARNING root fetch - processPackages [advcalc]: Timeout reached during download
+[2024-04-05 05:29:44] INFO root fetch - processPackages [advcalc]: executing diffoscope
+[2024-04-05 05:29:44] INFO root fetch - processPackages [advcalc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/advcalc-0.0.6.tar.gz tmp/advcalc-0.0.7.tar.gz --markdown 20240405/a/advcalc/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2024-04-05 05:29:44] INFO root fetch - processPackages [keras-nlp-nightly]: Downloading https://files.pythonhosted.org/packages/71/ce/6fefd67a980a3c778f22bf18da10b880a810c4450916a454126681f34e41/keras-nlp-nightly-0.9.0.dev2024040503.tar.gz
+[2024-04-05 05:29:44] WARNING root fetch - processPackages [keras-nlp-nightly]: Timeout reached during download
+[2024-04-05 05:29:44] INFO root fetch - processPackages [keras-nlp-nightly]: executing diffoscope
+[2024-04-05 05:29:44] INFO root fetch - processPackages [keras-nlp-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/keras-nlp-nightly-0.9.0.dev2024040403.tar.gz tmp/keras-nlp-nightly-0.9.0.dev2024040503.tar.gz --markdown 20240405/k/keras-nlp-nightly/0.9.0.dev2024040403-0.9.0.dev2024040503/diff.md --exclude *.pyd
+[2024-04-05 05:29:45] INFO root fetch - processPackages [advcalc]: Remove: archive file [/home/abi/fetcher/tmp/advcalc-0.0.6.tar.gz]
+[2024-04-05 05:29:45] INFO root fetch - processPackages [advcalc]: Remove: archive file [/home/abi/fetcher/tmp/advcalc-0.0.7.tar.gz]
+[2024-04-05 05:29:45] INFO root fetch - main [MainThread]: End processing [advcalc]: success
+[2024-04-05 05:29:45] INFO root fetch - main [MainThread]: End processing [advcalc]: success
+[2024-04-05 05:29:46] INFO root fetch - processPackages [keras-nlp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/keras-nlp-nightly-0.9.0.dev2024040403.tar.gz]
+[2024-04-05 05:29:46] INFO root fetch - processPackages [keras-nlp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/keras-nlp-nightly-0.9.0.dev2024040503.tar.gz]
+[2024-04-05 05:29:46] INFO root fetch - main [MainThread]: End processing [keras-nlp-nightly]: success
+[2024-04-05 05:29:46] INFO root fetch - main [MainThread]: Store serial: [22631465]
