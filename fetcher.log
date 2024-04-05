@@ -13395,3 +13395,61 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2024-04-05 08:19:11] INFO root fetch - processPackages [InvokeAI]: Remove: archive file [/home/abi/fetcher/tmp/InvokeAI-4.0.2.tar.gz]
 [2024-04-05 08:19:11] INFO root fetch - main [MainThread]: End processing [InvokeAI]: success
 [2024-04-05 08:19:11] INFO root fetch - main [MainThread]: Store serial: [22632407]
+[2024-04-05 08:21:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22632407]
+[2024-04-05 08:21:21] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-05 08:21:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: Chameleon
+[2024-04-05 08:21:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pulumi-proxmoxve
+[2024-04-05 08:21:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: one4all-iop-models
+[2024-04-05 08:21:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: function-schema
+[2024-04-05 08:21:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ontolocy
+[2024-04-05 08:21:21] INFO root fetch - processPackages [Chameleon]: New version: [4.5.2] Old Version: [4.5.1]
+[2024-04-05 08:21:21] INFO root fetch - processPackages [one4all-iop-models]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-04-05 08:21:21] INFO root fetch - processPackages [function-schema]: New version: [0.3.0] Old Version: [0.2.0]
+[2024-04-05 08:21:21] INFO root fetch - processPackages [ontolocy]: New version: [0.7.4] Old Version: [0.7.3]
+[2024-04-05 08:21:21] INFO root fetch - processPackages [pulumi-proxmoxve]: New version: [6.2.1] Old Version: [6.2.0]
+[2024-04-05 08:21:21] INFO root fetch - processPackages [Chameleon]: Downloading https://files.pythonhosted.org/packages/12/7e/3beddf0c637cac7c4f372f3abc0a6667677c0bc9efd731e735acb043e452/Chameleon-4.5.1.tar.gz
+[2024-04-05 08:21:22] INFO root fetch - processPackages [function-schema]: Downloading https://files.pythonhosted.org/packages/c9/2e/059107c6b65305324b8ba8fab7ced90857a00cee26c81017513f7c243a46/function_schema-0.2.0.tar.gz
+[2024-04-05 08:21:22] INFO root fetch - processPackages [one4all-iop-models]: Downloading https://files.pythonhosted.org/packages/af/41/66b8ecb606c677580a89e1f303da9e492a4b3c3e2e3364a2e1594464f93d/one4all_iop_models-0.1.0.tar.gz
+[2024-04-05 08:21:22] INFO root fetch - processPackages [pulumi-proxmoxve]: Downloading https://files.pythonhosted.org/packages/cd/dd/c90db76dbd4dcaf0ab53f196796d47f63c4847f3a5f9b2eb530611477828/pulumi_proxmoxve-6.2.0.tar.gz
+[2024-04-05 08:21:22] INFO root fetch - processPackages [ontolocy]: Downloading https://files.pythonhosted.org/packages/3d/ae/cdba25e7d521ed458819106a0bd400b8ef70df450cfaf43d53edeba39471/ontolocy-0.7.3.tar.gz
+[2024-04-05 08:21:22] WARNING root fetch - processPackages [function-schema]: Timeout reached during download
+[2024-04-05 08:21:22] WARNING root fetch - processPackages [Chameleon]: Timeout reached during download
+[2024-04-05 08:21:22] WARNING root fetch - processPackages [pulumi-proxmoxve]: Timeout reached during download
+[2024-04-05 08:21:22] WARNING root fetch - processPackages [ontolocy]: Timeout reached during download
+[2024-04-05 08:21:22] WARNING root fetch - processPackages [one4all-iop-models]: Timeout reached during download
+[2024-04-05 08:21:22] INFO root fetch - processPackages [Chameleon]: Downloading https://files.pythonhosted.org/packages/aa/ec/6f18b5ec9b7e69c25cd9f6d515df98dbbd9a0792ce76a610c0fb145608f3/Chameleon-4.5.2.tar.gz
+[2024-04-05 08:21:22] INFO root fetch - processPackages [function-schema]: Downloading https://files.pythonhosted.org/packages/38/e0/a740e5ff148c00c2fd8f71f98aeac0f661ddff2719705c2964ed05b0be6e/function_schema-0.3.0.tar.gz
+[2024-04-05 08:21:22] INFO root fetch - processPackages [pulumi-proxmoxve]: Downloading https://files.pythonhosted.org/packages/5e/c5/3bd0cb763372a7d58c5b3070346e7b185164261dd7dd5cb350c2e192cc2a/pulumi_proxmoxve-6.2.1.tar.gz
+[2024-04-05 08:21:22] WARNING root fetch - processPackages [Chameleon]: Timeout reached during download
+[2024-04-05 08:21:22] INFO root fetch - processPackages [Chameleon]: executing diffoscope
+[2024-04-05 08:21:22] INFO root fetch - processPackages [Chameleon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Chameleon-4.5.1.tar.gz tmp/Chameleon-4.5.2.tar.gz --markdown 20240405/C/Chameleon/4.5.1-4.5.2/diff.md --exclude *.pyd
+[2024-04-05 08:21:22] INFO root fetch - processPackages [one4all-iop-models]: Downloading https://files.pythonhosted.org/packages/27/ef/f1a3280ebd4f30daa97592e3953163b0216447a848444b1f08de9362d833/one4all_iop_models-0.1.1.tar.gz
+[2024-04-05 08:21:22] INFO root fetch - processPackages [ontolocy]: Downloading https://files.pythonhosted.org/packages/e7/57/77a32cca2f8bffd25415ea5a097258148f825b63cf0b1777b70be7919822/ontolocy-0.7.4.tar.gz
+[2024-04-05 08:21:22] WARNING root fetch - processPackages [function-schema]: Timeout reached during download
+[2024-04-05 08:21:22] INFO root fetch - processPackages [function-schema]: executing diffoscope
+[2024-04-05 08:21:22] INFO root fetch - processPackages [function-schema]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/function_schema-0.2.0.tar.gz tmp/function_schema-0.3.0.tar.gz --markdown 20240405/f/function-schema/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2024-04-05 08:21:22] WARNING root fetch - processPackages [pulumi-proxmoxve]: Timeout reached during download
+[2024-04-05 08:21:22] INFO root fetch - processPackages [pulumi-proxmoxve]: executing diffoscope
+[2024-04-05 08:21:22] INFO root fetch - processPackages [pulumi-proxmoxve]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_proxmoxve-6.2.0.tar.gz tmp/pulumi_proxmoxve-6.2.1.tar.gz --markdown 20240405/p/pulumi-proxmoxve/6.2.0-6.2.1/diff.md --exclude *.pyd
+[2024-04-05 08:21:22] WARNING root fetch - processPackages [one4all-iop-models]: Timeout reached during download
+[2024-04-05 08:21:22] INFO root fetch - processPackages [one4all-iop-models]: executing diffoscope
+[2024-04-05 08:21:22] INFO root fetch - processPackages [one4all-iop-models]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/one4all_iop_models-0.1.0.tar.gz tmp/one4all_iop_models-0.1.1.tar.gz --markdown 20240405/o/one4all-iop-models/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2024-04-05 08:21:22] WARNING root fetch - processPackages [ontolocy]: Timeout reached during download
+[2024-04-05 08:21:22] INFO root fetch - processPackages [ontolocy]: executing diffoscope
+[2024-04-05 08:21:22] INFO root fetch - processPackages [ontolocy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ontolocy-0.7.3.tar.gz tmp/ontolocy-0.7.4.tar.gz --markdown 20240405/o/ontolocy/0.7.3-0.7.4/diff.md --exclude *.pyd
+[2024-04-05 08:21:23] INFO root fetch - processPackages [function-schema]: Remove: archive file [/home/abi/fetcher/tmp/function_schema-0.2.0.tar.gz]
+[2024-04-05 08:21:23] INFO root fetch - processPackages [function-schema]: Remove: archive file [/home/abi/fetcher/tmp/function_schema-0.3.0.tar.gz]
+[2024-04-05 08:21:23] INFO root fetch - main [MainThread]: End processing [function-schema]: success
+[2024-04-05 08:21:23] INFO root fetch - processPackages [one4all-iop-models]: Remove: archive file [/home/abi/fetcher/tmp/one4all_iop_models-0.1.0.tar.gz]
+[2024-04-05 08:21:23] INFO root fetch - processPackages [one4all-iop-models]: Remove: archive file [/home/abi/fetcher/tmp/one4all_iop_models-0.1.1.tar.gz]
+[2024-04-05 08:21:23] INFO root fetch - main [MainThread]: End processing [one4all-iop-models]: success
+[2024-04-05 08:21:23] INFO root fetch - processPackages [pulumi-proxmoxve]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_proxmoxve-6.2.0.tar.gz]
+[2024-04-05 08:21:23] INFO root fetch - processPackages [pulumi-proxmoxve]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_proxmoxve-6.2.1.tar.gz]
+[2024-04-05 08:21:23] INFO root fetch - main [MainThread]: End processing [pulumi-proxmoxve]: success
+[2024-04-05 08:21:23] INFO root fetch - processPackages [ontolocy]: Remove: archive file [/home/abi/fetcher/tmp/ontolocy-0.7.3.tar.gz]
+[2024-04-05 08:21:23] INFO root fetch - processPackages [ontolocy]: Remove: archive file [/home/abi/fetcher/tmp/ontolocy-0.7.4.tar.gz]
+[2024-04-05 08:21:23] INFO root fetch - main [MainThread]: End processing [ontolocy]: success
+[2024-04-05 08:21:23] INFO root fetch - processPackages [Chameleon]: Remove: archive file [/home/abi/fetcher/tmp/Chameleon-4.5.1.tar.gz]
+[2024-04-05 08:21:23] INFO root fetch - processPackages [Chameleon]: Remove: archive file [/home/abi/fetcher/tmp/Chameleon-4.5.2.tar.gz]
+[2024-04-05 08:21:23] INFO root fetch - main [MainThread]: End processing [Chameleon]: success
+[2024-04-05 08:21:23] INFO root fetch - main [MainThread]: Store serial: [22632428]
