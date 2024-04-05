@@ -12391,3 +12391,28 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2024-04-05 07:28:19] INFO root fetch - processPackages [stsmfa-cli]: Remove: archive file [/home/abi/fetcher/tmp/stsmfa_cli-1.1.9.tar.gz]
 [2024-04-05 07:28:19] INFO root fetch - main [MainThread]: End processing [stsmfa-cli]: success
 [2024-04-05 07:28:19] INFO root fetch - main [MainThread]: Store serial: [22632032]
+[2024-04-05 07:30:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22632032]
+[2024-04-05 07:30:28] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-05 07:30:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: stsmfa-cli
+[2024-04-05 07:30:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addon-attribute-set
+[2024-04-05 07:30:28] INFO root fetch - processPackages [stsmfa-cli]: New version: [1.1.9] Old Version: [1.1.8]
+[2024-04-05 07:30:28] INFO root fetch - processPackages [stsmfa-cli]: Downloading https://files.pythonhosted.org/packages/17/64/793a8cb41b31eecc6d2d9578879bca50fccad63dfffc41d08736e4ff79c8/stsmfa_cli-1.1.8.tar.gz
+[2024-04-05 07:30:28] INFO root fetch - processPackages [odoo-addon-attribute-set]: New version: [16.0.1.1.0.9] Old Version: [16.0.1.1.0.7]
+[2024-04-05 07:30:28] WARNING root fetch - processPackages [stsmfa-cli]: Timeout reached during download
+[2024-04-05 07:30:28] INFO root fetch - processPackages [stsmfa-cli]: Downloading https://files.pythonhosted.org/packages/9e/a7/015f9ddecc2c8d4e4483b196485c4fec6d073c4b218304c17c2e3d8ca87a/stsmfa_cli-1.1.9.tar.gz
+[2024-04-05 07:30:28] INFO root fetch - processPackages [odoo-addon-attribute-set]: Downloading https://files.pythonhosted.org/packages/79/d4/c93c233a15aa1f9a4d8b6e63f4ef36451fb336905b30a81c484d2ed9de70/odoo_addon_attribute_set-16.0.1.1.0.7-py3-none-any.whl
+[2024-04-05 07:30:28] WARNING root fetch - processPackages [stsmfa-cli]: Timeout reached during download
+[2024-04-05 07:30:28] INFO root fetch - processPackages [stsmfa-cli]: executing diffoscope
+[2024-04-05 07:30:28] INFO root fetch - processPackages [stsmfa-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stsmfa_cli-1.1.8.tar.gz tmp/stsmfa_cli-1.1.9.tar.gz --markdown 20240405/s/stsmfa-cli/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2024-04-05 07:30:28] WARNING root fetch - processPackages [odoo-addon-attribute-set]: Timeout reached during download
+[2024-04-05 07:30:28] INFO root fetch - processPackages [odoo-addon-attribute-set]: Downloading https://files.pythonhosted.org/packages/63/00/2ba9bc2b2cbde06af7e1fc57f7eb18cc408a10821fdd2d72a19e0ea0f6de/odoo_addon_attribute_set-16.0.1.1.0.9-py3-none-any.whl
+[2024-04-05 07:30:28] WARNING root fetch - processPackages [odoo-addon-attribute-set]: Timeout reached during download
+[2024-04-05 07:30:28] INFO root fetch - processPackages [odoo-addon-attribute-set]: executing diffoscope
+[2024-04-05 07:30:28] INFO root fetch - processPackages [odoo-addon-attribute-set]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_attribute_set-16.0.1.1.0.7-py3-none-any.whl.zip tmp/odoo_addon_attribute_set-16.0.1.1.0.9-py3-none-any.whl.zip --markdown 20240405/o/odoo-addon-attribute-set/16.0.1.1.0.7-16.0.1.1.0.9/diff.md --exclude *.pyd
+[2024-04-05 07:30:29] INFO root fetch - processPackages [stsmfa-cli]: Remove: archive file [/home/abi/fetcher/tmp/stsmfa_cli-1.1.8.tar.gz]
+[2024-04-05 07:30:29] INFO root fetch - processPackages [stsmfa-cli]: Remove: archive file [/home/abi/fetcher/tmp/stsmfa_cli-1.1.9.tar.gz]
+[2024-04-05 07:30:29] INFO root fetch - main [MainThread]: End processing [stsmfa-cli]: success
+[2024-04-05 07:30:29] INFO root fetch - processPackages [odoo-addon-attribute-set]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_attribute_set-16.0.1.1.0.7-py3-none-any.whl.zip]
+[2024-04-05 07:30:29] INFO root fetch - processPackages [odoo-addon-attribute-set]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_attribute_set-16.0.1.1.0.9-py3-none-any.whl.zip]
+[2024-04-05 07:30:29] INFO root fetch - main [MainThread]: End processing [odoo-addon-attribute-set]: success
+[2024-04-05 07:30:29] INFO root fetch - main [MainThread]: Store serial: [22632041]
