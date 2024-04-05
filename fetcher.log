@@ -13635,3 +13635,39 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2024-04-05 08:32:19] INFO root fetch - processPackages [groupdocs-conversion-cloud]: Remove: archive file [/home/abi/fetcher/tmp/groupdocs-conversion-cloud-24.4.tar.gz]
 [2024-04-05 08:32:19] INFO root fetch - main [MainThread]: End processing [groupdocs-conversion-cloud]: success
 [2024-04-05 08:32:19] INFO root fetch - main [MainThread]: Store serial: [22632517]
+[2024-04-05 08:34:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22632517]
+[2024-04-05 08:34:27] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-05 08:34:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyramid_beaker
+[2024-04-05 08:34:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tanx-connector
+[2024-04-05 08:34:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: valmi-connector-lib
+[2024-04-05 08:34:27] INFO root fetch - processPackages [pyramid_beaker]: New version: [0.9] Old Version: [0.8]
+[2024-04-05 08:34:27] INFO root fetch - processPackages [tanx-connector]: New version: [2.0.3] Old Version: [2.0.2]
+[2024-04-05 08:34:28] INFO root fetch - processPackages [valmi-connector-lib]: New version: [0.1.99] Old Version: [0.1.98]
+[2024-04-05 08:34:28] INFO root fetch - processPackages [valmi-connector-lib]: Downloading https://files.pythonhosted.org/packages/68/54/062a20f75076aa53427ddf933f64d2177adabaa9c1f4507ee0d9d30b8b03/valmi_connector_lib-0.1.98.tar.gz
+[2024-04-05 08:34:28] INFO root fetch - processPackages [pyramid_beaker]: Downloading https://files.pythonhosted.org/packages/d9/6e/b85426e00fd3d57f4545f74e1c3828552d8700f13ededeef9233f7bca8be/pyramid_beaker-0.8.tar.gz
+[2024-04-05 08:34:28] INFO root fetch - processPackages [tanx-connector]: Downloading https://files.pythonhosted.org/packages/b7/03/6df47654681cecfd832d3165494cb60cbe3c120b723a1e2de03f346a09c1/tanx-connector-2.0.2.tar.gz
+[2024-04-05 08:34:28] WARNING root fetch - processPackages [valmi-connector-lib]: Timeout reached during download
+[2024-04-05 08:34:28] WARNING root fetch - processPackages [pyramid_beaker]: Timeout reached during download
+[2024-04-05 08:34:28] INFO root fetch - processPackages [valmi-connector-lib]: Downloading https://files.pythonhosted.org/packages/2f/47/8fb8bac8016bd8f46ec3d29fa7fc0e2cdc40845d8dce82ba52e668672ab8/valmi_connector_lib-0.1.99.tar.gz
+[2024-04-05 08:34:28] WARNING root fetch - processPackages [tanx-connector]: Timeout reached during download
+[2024-04-05 08:34:28] WARNING root fetch - processPackages [valmi-connector-lib]: Timeout reached during download
+[2024-04-05 08:34:28] INFO root fetch - processPackages [valmi-connector-lib]: executing diffoscope
+[2024-04-05 08:34:28] INFO root fetch - processPackages [valmi-connector-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/valmi_connector_lib-0.1.98.tar.gz tmp/valmi_connector_lib-0.1.99.tar.gz --markdown 20240405/v/valmi-connector-lib/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2024-04-05 08:34:28] INFO root fetch - processPackages [pyramid_beaker]: Downloading https://files.pythonhosted.org/packages/0d/ba/8170f488fb4b76b7cd93bf8a59e59d55ace00272977c271ccd4b305743e0/pyramid_beaker-0.9.tar.gz
+[2024-04-05 08:34:28] WARNING root fetch - processPackages [pyramid_beaker]: Timeout reached during download
+[2024-04-05 08:34:28] INFO root fetch - processPackages [pyramid_beaker]: executing diffoscope
+[2024-04-05 08:34:28] INFO root fetch - processPackages [pyramid_beaker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyramid_beaker-0.8.tar.gz tmp/pyramid_beaker-0.9.tar.gz --markdown 20240405/p/pyramid_beaker/0.8-0.9/diff.md --exclude *.pyd
+[2024-04-05 08:34:28] INFO root fetch - processPackages [tanx-connector]: Downloading https://files.pythonhosted.org/packages/9f/73/958f6889ab9adddc7bcd770619f1456b4307232942e8228f85030ff7c201/tanx-connector-2.0.3.tar.gz
+[2024-04-05 08:34:28] WARNING root fetch - processPackages [tanx-connector]: Timeout reached during download
+[2024-04-05 08:34:28] INFO root fetch - processPackages [tanx-connector]: executing diffoscope
+[2024-04-05 08:34:28] INFO root fetch - processPackages [tanx-connector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tanx-connector-2.0.2.tar.gz tmp/tanx-connector-2.0.3.tar.gz --markdown 20240405/t/tanx-connector/2.0.2-2.0.3/diff.md --exclude *.pyd
+[2024-04-05 08:34:29] INFO root fetch - processPackages [valmi-connector-lib]: Remove: archive file [/home/abi/fetcher/tmp/valmi_connector_lib-0.1.98.tar.gz]
+[2024-04-05 08:34:29] INFO root fetch - processPackages [valmi-connector-lib]: Remove: archive file [/home/abi/fetcher/tmp/valmi_connector_lib-0.1.99.tar.gz]
+[2024-04-05 08:34:29] INFO root fetch - main [MainThread]: End processing [valmi-connector-lib]: success
+[2024-04-05 08:34:29] INFO root fetch - processPackages [pyramid_beaker]: Remove: archive file [/home/abi/fetcher/tmp/pyramid_beaker-0.8.tar.gz]
+[2024-04-05 08:34:29] INFO root fetch - processPackages [pyramid_beaker]: Remove: archive file [/home/abi/fetcher/tmp/pyramid_beaker-0.9.tar.gz]
+[2024-04-05 08:34:29] INFO root fetch - main [MainThread]: End processing [pyramid_beaker]: success
+[2024-04-05 08:34:29] INFO root fetch - processPackages [tanx-connector]: Remove: archive file [/home/abi/fetcher/tmp/tanx-connector-2.0.2.tar.gz]
+[2024-04-05 08:34:29] INFO root fetch - processPackages [tanx-connector]: Remove: archive file [/home/abi/fetcher/tmp/tanx-connector-2.0.3.tar.gz]
+[2024-04-05 08:34:29] INFO root fetch - main [MainThread]: End processing [tanx-connector]: success
+[2024-04-05 08:34:29] INFO root fetch - main [MainThread]: Store serial: [22632526]
