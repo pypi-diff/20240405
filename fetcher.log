@@ -8888,3 +8888,39 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2024-04-05 03:44:57] INFO root fetch - processPackages [kdp-api-python-client]: Remove: archive file [/home/abi/fetcher/tmp/kdp-api-python-client-4.99.0.tar.gz]
 [2024-04-05 03:44:57] INFO root fetch - main [MainThread]: End processing [kdp-api-python-client]: success
 [2024-04-05 03:44:57] INFO root fetch - main [MainThread]: Store serial: [22630936]
+[2024-04-05 03:47:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22630936]
+[2024-04-05 03:47:06] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-05 03:47:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lbt-dragonfly
+[2024-04-05 03:47:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: svc-toolkit
+[2024-04-05 03:47:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: neon-nodes
+[2024-04-05 03:47:06] INFO root fetch - processPackages [lbt-dragonfly]: New version: [0.9.99] Old Version: [0.9.98]
+[2024-04-05 03:47:06] INFO root fetch - processPackages [svc-toolkit]: New version: [1.0.5] Old Version: [1.0.4]
+[2024-04-05 03:47:06] INFO root fetch - processPackages [neon-nodes]: New version: [0.0.1a8] Old Version: [0.0.1a7]
+[2024-04-05 03:47:06] INFO root fetch - processPackages [lbt-dragonfly]: Downloading https://files.pythonhosted.org/packages/be/ae/7267dfd241a0641f3fbadea4128db5ffa29609911cadb5fc4840656bb44a/lbt-dragonfly-0.9.98.tar.gz
+[2024-04-05 03:47:06] WARNING root fetch - processPackages [lbt-dragonfly]: Timeout reached during download
+[2024-04-05 03:47:06] INFO root fetch - processPackages [svc-toolkit]: Downloading https://files.pythonhosted.org/packages/8b/c6/d0e233386988637a9179be9e967af7d7a395ff8213d3af059e9c0703f19e/svc_toolkit-1.0.4.tar.gz
+[2024-04-05 03:47:06] INFO root fetch - processPackages [neon-nodes]: Downloading https://files.pythonhosted.org/packages/0f/f3/0b33656fa2617bccaedb31fb49395b0e979f9de479b4cb1fab8d82aeed52/neon-nodes-0.0.1a7.tar.gz
+[2024-04-05 03:47:06] INFO root fetch - processPackages [lbt-dragonfly]: Downloading https://files.pythonhosted.org/packages/b4/08/0ca46e9f7eef7b2cce7f0c6110106c42aa35a79bd88110559177f64d733a/lbt-dragonfly-0.9.99.tar.gz
+[2024-04-05 03:47:06] WARNING root fetch - processPackages [svc-toolkit]: Timeout reached during download
+[2024-04-05 03:47:06] WARNING root fetch - processPackages [lbt-dragonfly]: Timeout reached during download
+[2024-04-05 03:47:06] INFO root fetch - processPackages [lbt-dragonfly]: executing diffoscope
+[2024-04-05 03:47:06] INFO root fetch - processPackages [lbt-dragonfly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lbt-dragonfly-0.9.98.tar.gz tmp/lbt-dragonfly-0.9.99.tar.gz --markdown 20240405/l/lbt-dragonfly/0.9.98-0.9.99/diff.md --exclude *.pyd
+[2024-04-05 03:47:06] WARNING root fetch - processPackages [neon-nodes]: Timeout reached during download
+[2024-04-05 03:47:06] INFO root fetch - processPackages [svc-toolkit]: Downloading https://files.pythonhosted.org/packages/94/6d/577f89402588079ffce7aa22c9f827d2cdceb611a6a46a78cba0e4b72ded/svc_toolkit-1.0.5.tar.gz
+[2024-04-05 03:47:06] WARNING root fetch - processPackages [svc-toolkit]: Timeout reached during download
+[2024-04-05 03:47:06] INFO root fetch - processPackages [svc-toolkit]: executing diffoscope
+[2024-04-05 03:47:06] INFO root fetch - processPackages [svc-toolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/svc_toolkit-1.0.4.tar.gz tmp/svc_toolkit-1.0.5.tar.gz --markdown 20240405/s/svc-toolkit/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2024-04-05 03:47:07] INFO root fetch - processPackages [neon-nodes]: Downloading https://files.pythonhosted.org/packages/0c/b8/d871673d69783011f04bbdec1b9042dfc98063e9946406b6c33e18e31573/neon-nodes-0.0.1a8.tar.gz
+[2024-04-05 03:47:07] INFO root fetch - processPackages [lbt-dragonfly]: Remove: archive file [/home/abi/fetcher/tmp/lbt-dragonfly-0.9.98.tar.gz]
+[2024-04-05 03:47:07] INFO root fetch - processPackages [lbt-dragonfly]: Remove: archive file [/home/abi/fetcher/tmp/lbt-dragonfly-0.9.99.tar.gz]
+[2024-04-05 03:47:07] INFO root fetch - main [MainThread]: End processing [lbt-dragonfly]: success
+[2024-04-05 03:47:07] INFO root fetch - processPackages [svc-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/svc_toolkit-1.0.4.tar.gz]
+[2024-04-05 03:47:07] INFO root fetch - processPackages [svc-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/svc_toolkit-1.0.5.tar.gz]
+[2024-04-05 03:47:07] INFO root fetch - main [MainThread]: End processing [svc-toolkit]: success
+[2024-04-05 03:47:07] WARNING root fetch - processPackages [neon-nodes]: Timeout reached during download
+[2024-04-05 03:47:07] INFO root fetch - processPackages [neon-nodes]: executing diffoscope
+[2024-04-05 03:47:07] INFO root fetch - processPackages [neon-nodes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neon-nodes-0.0.1a7.tar.gz tmp/neon-nodes-0.0.1a8.tar.gz --markdown 20240405/n/neon-nodes/0.0.1a7-0.0.1a8/diff.md --exclude *.pyd
+[2024-04-05 03:47:08] INFO root fetch - processPackages [neon-nodes]: Remove: archive file [/home/abi/fetcher/tmp/neon-nodes-0.0.1a7.tar.gz]
+[2024-04-05 03:47:08] INFO root fetch - processPackages [neon-nodes]: Remove: archive file [/home/abi/fetcher/tmp/neon-nodes-0.0.1a8.tar.gz]
+[2024-04-05 03:47:08] INFO root fetch - main [MainThread]: End processing [neon-nodes]: success
+[2024-04-05 03:47:08] INFO root fetch - main [MainThread]: Store serial: [22630947]
