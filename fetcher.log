@@ -11433,3 +11433,81 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2024-04-05 06:28:22] INFO root fetch - processPackages [petrichor-script-lexer]: Remove: archive file [/home/abi/fetcher/tmp/petrichor_script_lexer-0.11.0.post3.tar.gz]
 [2024-04-05 06:28:22] INFO root fetch - main [MainThread]: End processing [petrichor-script-lexer]: success
 [2024-04-05 06:28:22] INFO root fetch - main [MainThread]: Store serial: [22631699]
+[2024-04-05 06:30:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22631699]
+[2024-04-05 06:30:31] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-05 06:30:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: petrichor-script-lexer
+[2024-04-05 06:30:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addon-intrastat-base
+[2024-04-05 06:30:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addon-intrastat-product
+[2024-04-05 06:30:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo-addon-intrastat-base
+[2024-04-05 06:30:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cioblender
+[2024-04-05 06:30:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: basedpyright
+[2024-04-05 06:30:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: rbot
+[2024-04-05 06:30:31] INFO root fetch - processPackages [petrichor-script-lexer]: New version: [0.11.0.post3] Old Version: [0.11.0.post2]
+[2024-04-05 06:30:31] INFO root fetch - processPackages [cioblender]: New version: [0.2.4b9] Old Version: [0.2.4b8]
+[2024-04-05 06:30:31] INFO root fetch - processPackages [basedpyright]: New version: [1.9.1] Old Version: [1.9.0]
+[2024-04-05 06:30:31] INFO root fetch - processPackages [petrichor-script-lexer]: Downloading https://files.pythonhosted.org/packages/58/c9/398a250fa02d81a747596b9e2babf91fd0aea025e28fc4d2f672b343950a/petrichor_script_lexer-0.11.0.post2.tar.gz
+[2024-04-05 06:30:31] INFO root fetch - processPackages [odoo-addon-intrastat-base]: New version: [17.0.1.0.0.6] Old Version: [17.0.1.0.0.5]
+[2024-04-05 06:30:31] INFO root fetch - processPackages [odoo-addon-intrastat-base]: New version: [17.0.1.0.0.6] Old Version: [17.0.1.0.0.5]
+[2024-04-05 06:30:31] INFO root fetch - processPackages [cioblender]: Downloading https://files.pythonhosted.org/packages/c3/e7/fa756ed278ab2fd2500b95b2ef3f84fba67e20f327b4c5f5f00eba6a5a93/cioblender-0.2.4b8-py2.py3-none-any.whl
+[2024-04-05 06:30:31] INFO root fetch - processPackages [rbot]: New version: [0.3.5] Old Version: [0.3.4]
+[2024-04-05 06:30:31] INFO root fetch - processPackages [odoo-addon-intrastat-product]: New version: [16.0.2.0.0.5] Old Version: [16.0.2.0.0.4]
+[2024-04-05 06:30:31] WARNING root fetch - processPackages [cioblender]: Timeout reached during download
+[2024-04-05 06:30:31] WARNING root fetch - processPackages [petrichor-script-lexer]: Timeout reached during download
+[2024-04-05 06:30:32] INFO root fetch - processPackages [basedpyright]: Downloading https://files.pythonhosted.org/packages/04/34/97132270879839d644d10df18ac5c2390d425fd082dc74de2016d30314fd/basedpyright-1.9.0.tar.gz
+[2024-04-05 06:30:32] INFO root fetch - processPackages [odoo-addon-intrastat-base]: Downloading https://files.pythonhosted.org/packages/ae/a5/6eea86dfb9b6b58636498d8f436ca9c706df25c572c66cc9ed24231f5c27/odoo_addon_intrastat_base-17.0.1.0.0.5-py3-none-any.whl
+[2024-04-05 06:30:32] INFO root fetch - processPackages [odoo-addon-intrastat-base]: Downloading https://files.pythonhosted.org/packages/ae/a5/6eea86dfb9b6b58636498d8f436ca9c706df25c572c66cc9ed24231f5c27/odoo_addon_intrastat_base-17.0.1.0.0.5-py3-none-any.whl
+[2024-04-05 06:30:32] INFO root fetch - processPackages [rbot]: Downloading https://files.pythonhosted.org/packages/c9/ec/4ad39854af15c44006e8932ef88c77e67e50bba49a8a431c41e1ee6bf527/rbot-0.3.4.tar.gz
+[2024-04-05 06:30:32] INFO root fetch - processPackages [petrichor-script-lexer]: Downloading https://files.pythonhosted.org/packages/2f/49/9b4f127389ae519d51bf8c3de8fa387f3e83d5895864cea87b19078a9fd7/petrichor_script_lexer-0.11.0.post3.tar.gz
+[2024-04-05 06:30:32] WARNING root fetch - processPackages [odoo-addon-intrastat-base]: Timeout reached during download
+[2024-04-05 06:30:32] WARNING root fetch - processPackages [odoo-addon-intrastat-base]: Timeout reached during download
+[2024-04-05 06:30:32] INFO root fetch - processPackages [odoo-addon-intrastat-product]: Downloading https://files.pythonhosted.org/packages/de/03/0745634e1c04d40ffc08f0dd90ce1ac614dd8896988e92772626202817fd/odoo_addon_intrastat_product-16.0.2.0.0.4-py3-none-any.whl
+[2024-04-05 06:30:32] INFO root fetch - processPackages [cioblender]: Downloading https://files.pythonhosted.org/packages/0c/09/03988b8912c71e4013daee7c0b845e77a12b3ad8dcdfb4fa4fa4be401f3f/cioblender-0.2.4b9-py2.py3-none-any.whl
+[2024-04-05 06:30:32] WARNING root fetch - processPackages [petrichor-script-lexer]: Timeout reached during download
+[2024-04-05 06:30:32] INFO root fetch - processPackages [petrichor-script-lexer]: executing diffoscope
+[2024-04-05 06:30:32] INFO root fetch - processPackages [petrichor-script-lexer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/petrichor_script_lexer-0.11.0.post2.tar.gz tmp/petrichor_script_lexer-0.11.0.post3.tar.gz --markdown 20240405/p/petrichor-script-lexer/0.11.0.post2-0.11.0.post3/diff.md --exclude *.pyd
+[2024-04-05 06:30:32] WARNING root fetch - processPackages [rbot]: Timeout reached during download
+[2024-04-05 06:30:32] WARNING root fetch - processPackages [odoo-addon-intrastat-product]: Timeout reached during download
+[2024-04-05 06:30:32] INFO root fetch - processPackages [odoo-addon-intrastat-base]: Downloading https://files.pythonhosted.org/packages/9d/d2/13b72fa284288289b389ce8b876e5dd8a72f9ff0c6fbf37d3318a2bb9eed/odoo_addon_intrastat_base-17.0.1.0.0.6-py3-none-any.whl
+[2024-04-05 06:30:32] INFO root fetch - processPackages [odoo-addon-intrastat-base]: Downloading https://files.pythonhosted.org/packages/9d/d2/13b72fa284288289b389ce8b876e5dd8a72f9ff0c6fbf37d3318a2bb9eed/odoo_addon_intrastat_base-17.0.1.0.0.6-py3-none-any.whl
+[2024-04-05 06:30:32] WARNING root fetch - processPackages [cioblender]: Timeout reached during download
+[2024-04-05 06:30:32] INFO root fetch - processPackages [cioblender]: executing diffoscope
+[2024-04-05 06:30:32] INFO root fetch - processPackages [cioblender]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cioblender-0.2.4b8-py2.py3-none-any.whl.zip tmp/cioblender-0.2.4b9-py2.py3-none-any.whl.zip --markdown 20240405/c/cioblender/0.2.4b8-0.2.4b9/diff.md --exclude *.pyd
+[2024-04-05 06:30:32] INFO root fetch - processPackages [rbot]: Downloading https://files.pythonhosted.org/packages/f7/b1/cfcbc4787e8fe0b7302a7c8b45575b80a03c06db6d88829b091b04b17a5e/rbot-0.3.5.tar.gz
+[2024-04-05 06:30:32] WARNING root fetch - processPackages [basedpyright]: Timeout reached during download
+[2024-04-05 06:30:32] WARNING root fetch - processPackages [odoo-addon-intrastat-base]: Timeout reached during download
+[2024-04-05 06:30:32] INFO root fetch - processPackages [odoo-addon-intrastat-base]: executing diffoscope
+[2024-04-05 06:30:32] INFO root fetch - processPackages [odoo-addon-intrastat-base]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_intrastat_base-17.0.1.0.0.5-py3-none-any.whl.zip tmp/odoo_addon_intrastat_base-17.0.1.0.0.6-py3-none-any.whl.zip --markdown 20240405/o/odoo-addon-intrastat-base/17.0.1.0.0.5-17.0.1.0.0.6/diff.md --exclude *.pyd
+[2024-04-05 06:30:32] WARNING root fetch - processPackages [odoo-addon-intrastat-base]: Timeout reached during download
+[2024-04-05 06:30:32] INFO root fetch - processPackages [odoo-addon-intrastat-base]: executing diffoscope
+[2024-04-05 06:30:32] INFO root fetch - processPackages [odoo-addon-intrastat-base]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_intrastat_base-17.0.1.0.0.5-py3-none-any.whl.zip tmp/odoo_addon_intrastat_base-17.0.1.0.0.6-py3-none-any.whl.zip --markdown 20240405/o/odoo-addon-intrastat-base/17.0.1.0.0.5-17.0.1.0.0.6/diff.md --exclude *.pyd
+[2024-04-05 06:30:32] INFO root fetch - processPackages [odoo-addon-intrastat-product]: Downloading https://files.pythonhosted.org/packages/2a/45/d6bc8f0827093cafc0f258f1e7bdc885b345dfb3072dd5503c3beadb69a7/odoo_addon_intrastat_product-16.0.2.0.0.5-py3-none-any.whl
+[2024-04-05 06:30:32] WARNING root fetch - processPackages [odoo-addon-intrastat-product]: Timeout reached during download
+[2024-04-05 06:30:32] INFO root fetch - processPackages [odoo-addon-intrastat-product]: executing diffoscope
+[2024-04-05 06:30:32] INFO root fetch - processPackages [odoo-addon-intrastat-product]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_intrastat_product-16.0.2.0.0.4-py3-none-any.whl.zip tmp/odoo_addon_intrastat_product-16.0.2.0.0.5-py3-none-any.whl.zip --markdown 20240405/o/odoo-addon-intrastat-product/16.0.2.0.0.4-16.0.2.0.0.5/diff.md --exclude *.pyd
+[2024-04-05 06:30:32] INFO root fetch - processPackages [basedpyright]: Downloading https://files.pythonhosted.org/packages/69/13/81adfdea3fff1b30c9dd7840dab4cd0508bd762521d896ae056b2fc14936/basedpyright-1.9.1.tar.gz
+[2024-04-05 06:30:32] WARNING root fetch - processPackages [rbot]: Timeout reached during download
+[2024-04-05 06:30:32] INFO root fetch - processPackages [rbot]: executing diffoscope
+[2024-04-05 06:30:32] INFO root fetch - processPackages [rbot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rbot-0.3.4.tar.gz tmp/rbot-0.3.5.tar.gz --markdown 20240405/r/rbot/0.3.4-0.3.5/diff.md --exclude *.pyd
+[2024-04-05 06:30:32] INFO root fetch - processPackages [petrichor-script-lexer]: Remove: archive file [/home/abi/fetcher/tmp/petrichor_script_lexer-0.11.0.post2.tar.gz]
+[2024-04-05 06:30:32] INFO root fetch - processPackages [petrichor-script-lexer]: Remove: archive file [/home/abi/fetcher/tmp/petrichor_script_lexer-0.11.0.post3.tar.gz]
+[2024-04-05 06:30:32] INFO root fetch - main [MainThread]: End processing [petrichor-script-lexer]: success
+[2024-04-05 06:30:33] INFO root fetch - processPackages [cioblender]: Remove: archive file [/home/abi/fetcher/tmp/cioblender-0.2.4b8-py2.py3-none-any.whl.zip]
+[2024-04-05 06:30:33] INFO root fetch - processPackages [cioblender]: Remove: archive file [/home/abi/fetcher/tmp/cioblender-0.2.4b9-py2.py3-none-any.whl.zip]
+[2024-04-05 06:30:33] INFO root fetch - main [MainThread]: End processing [cioblender]: success
+[2024-04-05 06:30:33] WARNING root fetch - processPackages [basedpyright]: Timeout reached during download
+[2024-04-05 06:30:33] INFO root fetch - processPackages [basedpyright]: executing diffoscope
+[2024-04-05 06:30:33] INFO root fetch - processPackages [basedpyright]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/basedpyright-1.9.0.tar.gz tmp/basedpyright-1.9.1.tar.gz --markdown 20240405/b/basedpyright/1.9.0-1.9.1/diff.md --exclude *.pyd
+[2024-04-05 06:30:33] INFO root fetch - processPackages [odoo-addon-intrastat-base]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_intrastat_base-17.0.1.0.0.5-py3-none-any.whl.zip]
+[2024-04-05 06:30:33] INFO root fetch - processPackages [odoo-addon-intrastat-base]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_intrastat_base-17.0.1.0.0.6-py3-none-any.whl.zip]
+[2024-04-05 06:30:33] INFO root fetch - main [MainThread]: End processing [odoo-addon-intrastat-base]: success
+[2024-04-05 06:30:33] INFO root fetch - main [MainThread]: End processing [odoo-addon-intrastat-base]: success
+[2024-04-05 06:30:33] INFO root fetch - processPackages [odoo-addon-intrastat-product]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_intrastat_product-16.0.2.0.0.4-py3-none-any.whl.zip]
+[2024-04-05 06:30:33] INFO root fetch - processPackages [odoo-addon-intrastat-product]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_intrastat_product-16.0.2.0.0.5-py3-none-any.whl.zip]
+[2024-04-05 06:30:33] INFO root fetch - main [MainThread]: End processing [odoo-addon-intrastat-product]: success
+[2024-04-05 06:30:33] INFO root fetch - processPackages [rbot]: Remove: archive file [/home/abi/fetcher/tmp/rbot-0.3.4.tar.gz]
+[2024-04-05 06:30:33] INFO root fetch - processPackages [rbot]: Remove: archive file [/home/abi/fetcher/tmp/rbot-0.3.5.tar.gz]
+[2024-04-05 06:30:33] INFO root fetch - main [MainThread]: End processing [rbot]: success
+[2024-04-05 06:31:29] INFO root fetch - processPackages [basedpyright]: Remove: archive file [/home/abi/fetcher/tmp/basedpyright-1.9.0.tar.gz]
+[2024-04-05 06:31:29] INFO root fetch - processPackages [basedpyright]: Remove: archive file [/home/abi/fetcher/tmp/basedpyright-1.9.1.tar.gz]
+[2024-04-05 06:31:29] INFO root fetch - main [MainThread]: End processing [basedpyright]: success
+[2024-04-05 06:31:29] INFO root fetch - main [MainThread]: Store serial: [22631718]
