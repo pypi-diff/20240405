@@ -20069,3 +20069,53 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2024-04-05 12:55:52] INFO root fetch - processPackages [click-extra]: Remove: archive file [/home/abi/fetcher/tmp/click_extra-4.7.5.tar.gz]
 [2024-04-05 12:55:52] INFO root fetch - main [MainThread]: End processing [click-extra]: success
 [2024-04-05 12:55:52] INFO root fetch - main [MainThread]: Store serial: [22634917]
+[2024-04-05 12:57:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22634917]
+[2024-04-05 12:58:02] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-05 12:58:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyserilog
+[2024-04-05 12:58:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyguiadapter
+[2024-04-05 12:58:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: python-automationshield
+[2024-04-05 12:58:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: flow.record
+[2024-04-05 12:58:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: geoviews
+[2024-04-05 12:58:02] INFO root fetch - processPackages [geoviews]: New version: [1.9.7a2] Old Version: [1.9.6a5]
+[2024-04-05 12:58:02] INFO root fetch - processPackages [geoviews]: Downloading https://files.pythonhosted.org/packages/49/e8/c097e9dc148c99b2e487c087056acb4128cc0eb82357368f1a69b4580632/geoviews-1.9.6a5.tar.gz
+[2024-04-05 12:58:02] INFO root fetch - processPackages [pyserilog]: New version: [0.2.0a4] Old Version: [0.2.0a3]
+[2024-04-05 12:58:02] INFO root fetch - processPackages [pyguiadapter]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-04-05 12:58:02] WARNING root fetch - processPackages [python-automationshield]: Skipping, unable to determine old version
+[2024-04-05 12:58:02] INFO root fetch - main [MainThread]: End processing [python-automationshield] error
+[2024-04-05 12:58:02] INFO root fetch - processPackages [flow.record]: New version: [3.9.dev9] Old Version: [3.9.dev8]
+[2024-04-05 12:58:02] INFO root fetch - processPackages [pyguiadapter]: Downloading https://files.pythonhosted.org/packages/63/70/e1d55956ecbc1c69b82b6b56ac1401fd0767a68b6719791fbc02a0c7f16e/pyguiadapter-0.2.8.tar.gz
+[2024-04-05 12:58:02] INFO root fetch - processPackages [pyserilog]: Downloading https://files.pythonhosted.org/packages/9d/b5/a71d37a3a59e35e3fd44b4163124ff2bd623d6675beb440e5dba1618fa67/pyserilog-0.2.0a3-py3-none-any.whl
+[2024-04-05 12:58:02] INFO root fetch - processPackages [flow.record]: Downloading https://files.pythonhosted.org/packages/eb/f7/743164d5e05ae865e54dab364d8f3f0a512e9cd3b5472ed910e78318fea7/flow.record-3.9.dev8-py3-none-any.whl
+[2024-04-05 12:58:02] WARNING root fetch - processPackages [geoviews]: Timeout reached during download
+[2024-04-05 12:58:02] WARNING root fetch - processPackages [pyguiadapter]: Timeout reached during download
+[2024-04-05 12:58:02] WARNING root fetch - processPackages [pyserilog]: Timeout reached during download
+[2024-04-05 12:58:02] INFO root fetch - processPackages [geoviews]: Downloading https://files.pythonhosted.org/packages/21/52/ed532b7720d007baaef44f3de206988e758a3384dc8984c0dff0f6bdb3d4/geoviews-1.9.7a2.tar.gz
+[2024-04-05 12:58:02] WARNING root fetch - processPackages [flow.record]: Timeout reached during download
+[2024-04-05 12:58:02] INFO root fetch - processPackages [pyguiadapter]: Downloading https://files.pythonhosted.org/packages/70/0c/139e08664e09a36f6be946b9da6bbd901fb3f580d61247274ec28cc5b2e9/pyguiadapter-0.2.9.tar.gz
+[2024-04-05 12:58:02] INFO root fetch - processPackages [pyserilog]: Downloading https://files.pythonhosted.org/packages/67/0f/262e4b347a3d9285d771d37a04ad41c4eeef72ccca4446b07cd8515509a0/pyserilog-0.2.0a4-py3-none-any.whl
+[2024-04-05 12:58:03] INFO root fetch - processPackages [flow.record]: Downloading https://files.pythonhosted.org/packages/b6/a4/d70ac03ec18bd7f7765a7f6f716e621cc5c9c74458d5c9782d2a357a0429/flow.record-3.9.dev9-py3-none-any.whl
+[2024-04-05 12:58:03] WARNING root fetch - processPackages [pyguiadapter]: Timeout reached during download
+[2024-04-05 12:58:03] INFO root fetch - processPackages [pyguiadapter]: executing diffoscope
+[2024-04-05 12:58:03] INFO root fetch - processPackages [pyguiadapter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyguiadapter-0.2.8.tar.gz tmp/pyguiadapter-0.2.9.tar.gz --markdown 20240405/p/pyguiadapter/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2024-04-05 12:58:03] WARNING root fetch - processPackages [pyserilog]: Timeout reached during download
+[2024-04-05 12:58:03] INFO root fetch - processPackages [pyserilog]: executing diffoscope
+[2024-04-05 12:58:03] INFO root fetch - processPackages [pyserilog]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyserilog-0.2.0a3-py3-none-any.whl.zip tmp/pyserilog-0.2.0a4-py3-none-any.whl.zip --markdown 20240405/p/pyserilog/0.2.0a3-0.2.0a4/diff.md --exclude *.pyd
+[2024-04-05 12:58:03] WARNING root fetch - processPackages [geoviews]: Timeout reached during download
+[2024-04-05 12:58:03] INFO root fetch - processPackages [geoviews]: executing diffoscope
+[2024-04-05 12:58:03] INFO root fetch - processPackages [geoviews]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/geoviews-1.9.6a5.tar.gz tmp/geoviews-1.9.7a2.tar.gz --markdown 20240405/g/geoviews/1.9.6a5-1.9.7a2/diff.md --exclude *.pyd
+[2024-04-05 12:58:03] INFO root fetch - processPackages [pyserilog]: Remove: archive file [/home/abi/fetcher/tmp/pyserilog-0.2.0a3-py3-none-any.whl.zip]
+[2024-04-05 12:58:03] INFO root fetch - processPackages [pyserilog]: Remove: archive file [/home/abi/fetcher/tmp/pyserilog-0.2.0a4-py3-none-any.whl.zip]
+[2024-04-05 12:58:03] INFO root fetch - main [MainThread]: End processing [pyserilog]: success
+[2024-04-05 12:58:04] WARNING root fetch - processPackages [flow.record]: Timeout reached during download
+[2024-04-05 12:58:04] INFO root fetch - processPackages [flow.record]: executing diffoscope
+[2024-04-05 12:58:04] INFO root fetch - processPackages [flow.record]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flow.record-3.9.dev8-py3-none-any.whl.zip tmp/flow.record-3.9.dev9-py3-none-any.whl.zip --markdown 20240405/f/flow.record/3.9.dev8-3.9.dev9/diff.md --exclude *.pyd
+[2024-04-05 12:58:04] INFO root fetch - processPackages [pyguiadapter]: Remove: archive file [/home/abi/fetcher/tmp/pyguiadapter-0.2.8.tar.gz]
+[2024-04-05 12:58:04] INFO root fetch - processPackages [pyguiadapter]: Remove: archive file [/home/abi/fetcher/tmp/pyguiadapter-0.2.9.tar.gz]
+[2024-04-05 12:58:04] INFO root fetch - main [MainThread]: End processing [pyguiadapter]: success
+[2024-04-05 12:58:04] INFO root fetch - processPackages [geoviews]: Remove: archive file [/home/abi/fetcher/tmp/geoviews-1.9.6a5.tar.gz]
+[2024-04-05 12:58:04] INFO root fetch - processPackages [geoviews]: Remove: archive file [/home/abi/fetcher/tmp/geoviews-1.9.7a2.tar.gz]
+[2024-04-05 12:58:04] INFO root fetch - main [MainThread]: End processing [geoviews]: success
+[2024-04-05 12:58:04] INFO root fetch - processPackages [flow.record]: Remove: archive file [/home/abi/fetcher/tmp/flow.record-3.9.dev8-py3-none-any.whl.zip]
+[2024-04-05 12:58:04] INFO root fetch - processPackages [flow.record]: Remove: archive file [/home/abi/fetcher/tmp/flow.record-3.9.dev9-py3-none-any.whl.zip]
+[2024-04-05 12:58:04] INFO root fetch - main [MainThread]: End processing [flow.record]: success
+[2024-04-05 12:58:04] INFO root fetch - main [MainThread]: Store serial: [22634934]
