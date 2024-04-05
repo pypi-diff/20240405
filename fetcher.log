@@ -10681,3 +10681,31 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2024-04-05 05:38:28] INFO root fetch - processPackages [tokengrams]: Remove: archive file [/home/abi/fetcher/tmp/tokengrams-0.3.0-cp310-cp310-macosx_11_0_arm64.whl.zip]
 [2024-04-05 05:38:28] INFO root fetch - main [MainThread]: End processing [tokengrams]: success
 [2024-04-05 05:38:28] INFO root fetch - main [MainThread]: Store serial: [22631513]
+[2024-04-05 05:40:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22631513]
+[2024-04-05 05:40:38] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-05 05:40:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sarerr
+[2024-04-05 05:40:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: unisi
+[2024-04-05 05:40:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: advcalc
+[2024-04-05 05:40:38] WARNING root fetch - processPackages [sarerr]: Skipping, unable to determine old version
+[2024-04-05 05:40:38] INFO root fetch - main [MainThread]: End processing [sarerr] error
+[2024-04-05 05:40:38] INFO root fetch - processPackages [unisi]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-05 05:40:38] INFO root fetch - processPackages [advcalc]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-04-05 05:40:38] INFO root fetch - processPackages [unisi]: Downloading https://files.pythonhosted.org/packages/b7/34/3bcc10eb3b4d35dc0a4cb26468f6dfe83017bf8c79f5f13ad19a640b0ce2/unisi-0.1.8-py3-none-any.whl
+[2024-04-05 05:40:38] INFO root fetch - processPackages [advcalc]: Downloading https://files.pythonhosted.org/packages/e1/e7/c5d206529a1936c33c37eb3a1956e7ff9d7eaebffdd59d6cc23f7095c04f/advcalc-0.1.1.tar.gz
+[2024-04-05 05:40:38] WARNING root fetch - processPackages [advcalc]: Timeout reached during download
+[2024-04-05 05:40:39] WARNING root fetch - processPackages [unisi]: Timeout reached during download
+[2024-04-05 05:40:39] INFO root fetch - processPackages [advcalc]: Downloading https://files.pythonhosted.org/packages/b0/e6/853c4a3d5dcb371fce952785e0d6348cb74830c19191361a4c3773997353/advcalc-0.1.2.tar.gz
+[2024-04-05 05:40:39] WARNING root fetch - processPackages [advcalc]: Timeout reached during download
+[2024-04-05 05:40:39] INFO root fetch - processPackages [advcalc]: executing diffoscope
+[2024-04-05 05:40:39] INFO root fetch - processPackages [advcalc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/advcalc-0.1.1.tar.gz tmp/advcalc-0.1.2.tar.gz --markdown 20240405/a/advcalc/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2024-04-05 05:40:39] INFO root fetch - processPackages [unisi]: Downloading https://files.pythonhosted.org/packages/ec/ec/077ffe90d809b257bb0212a5828ec904bd555e699aa2b71e7d3c9700cadd/unisi-0.1.9-py3-none-any.whl
+[2024-04-05 05:40:39] WARNING root fetch - processPackages [unisi]: Timeout reached during download
+[2024-04-05 05:40:39] INFO root fetch - processPackages [unisi]: executing diffoscope
+[2024-04-05 05:40:39] INFO root fetch - processPackages [unisi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unisi-0.1.8-py3-none-any.whl.zip tmp/unisi-0.1.9-py3-none-any.whl.zip --markdown 20240405/u/unisi/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2024-04-05 05:40:39] INFO root fetch - processPackages [advcalc]: Remove: archive file [/home/abi/fetcher/tmp/advcalc-0.1.1.tar.gz]
+[2024-04-05 05:40:39] INFO root fetch - processPackages [advcalc]: Remove: archive file [/home/abi/fetcher/tmp/advcalc-0.1.2.tar.gz]
+[2024-04-05 05:40:39] INFO root fetch - main [MainThread]: End processing [advcalc]: success
+[2024-04-05 05:40:41] INFO root fetch - processPackages [unisi]: Remove: archive file [/home/abi/fetcher/tmp/unisi-0.1.8-py3-none-any.whl.zip]
+[2024-04-05 05:40:41] INFO root fetch - processPackages [unisi]: Remove: archive file [/home/abi/fetcher/tmp/unisi-0.1.9-py3-none-any.whl.zip]
+[2024-04-05 05:40:41] INFO root fetch - main [MainThread]: End processing [unisi]: success
+[2024-04-05 05:40:41] INFO root fetch - main [MainThread]: Store serial: [22631522]
