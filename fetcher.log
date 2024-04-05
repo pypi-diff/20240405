@@ -3272,3 +3272,39 @@
 [2024-04-05 02:29:53] INFO root fetch - processPackages [aeppl-nightly]: Remove: archive file [/home/abi/fetcher/tmp/aeppl-nightly-0.1.5.dev20240405.tar.gz]
 [2024-04-05 02:29:53] INFO root fetch - main [MainThread]: End processing [aeppl-nightly]: success
 [2024-04-05 02:29:53] INFO root fetch - main [MainThread]: Store serial: [22629260]
+[2024-04-05 02:31:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22629260]
+[2024-04-05 02:32:01] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-05 02:32:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: aeppl-nightly
+[2024-04-05 02:32:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: imjoy-jupyterlab-extension
+[2024-04-05 02:32:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: livekit-api
+[2024-04-05 02:32:01] INFO root fetch - processPackages [imjoy-jupyterlab-extension]: New version: [0.2.5] Old Version: [0.1.9]
+[2024-04-05 02:32:01] INFO root fetch - processPackages [aeppl-nightly]: New version: [0.1.5.dev20240405] Old Version: [0.1.5.dev20240404]
+[2024-04-05 02:32:01] INFO root fetch - processPackages [imjoy-jupyterlab-extension]: Downloading https://files.pythonhosted.org/packages/f6/ad/69d414327fe2de59c2ec90a4db63b73c52e476535ef80e043b807284fe64/imjoy-jupyterlab-extension-0.1.9.tar.gz
+[2024-04-05 02:32:01] INFO root fetch - processPackages [livekit-api]: New version: [0.4.4] Old Version: [0.4.3]
+[2024-04-05 02:32:01] INFO root fetch - processPackages [aeppl-nightly]: Downloading https://files.pythonhosted.org/packages/1e/48/99deb6c7a6f593f989385ea96d68050dcbaf4d66a9eb11e31c3d1480f3fb/aeppl-nightly-0.1.5.dev20240404.tar.gz
+[2024-04-05 02:32:02] WARNING root fetch - processPackages [aeppl-nightly]: Timeout reached during download
+[2024-04-05 02:32:02] WARNING root fetch - processPackages [imjoy-jupyterlab-extension]: Timeout reached during download
+[2024-04-05 02:32:02] INFO root fetch - processPackages [aeppl-nightly]: Downloading https://files.pythonhosted.org/packages/43/af/c0852a5f62b77c970bf0c0a2e613f7b8545b54cf3041901156e395e3dc24/aeppl-nightly-0.1.5.dev20240405.tar.gz
+[2024-04-05 02:32:02] INFO root fetch - processPackages [imjoy-jupyterlab-extension]: Downloading https://files.pythonhosted.org/packages/1c/2f/8c262747448ebf7fefba614172beac423cca0a13e6355af9859d5ee10628/imjoy_jupyterlab_extension-0.2.5.tar.gz
+[2024-04-05 02:32:02] INFO root fetch - processPackages [livekit-api]: Downloading https://files.pythonhosted.org/packages/73/4e/6a10ea73a664bf134fef08773b1eb38ebe9eb7375bcbc3ae8178cb5c2faf/livekit-api-0.4.3.tar.gz
+[2024-04-05 02:32:02] WARNING root fetch - processPackages [aeppl-nightly]: Timeout reached during download
+[2024-04-05 02:32:02] INFO root fetch - processPackages [aeppl-nightly]: executing diffoscope
+[2024-04-05 02:32:02] INFO root fetch - processPackages [aeppl-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aeppl-nightly-0.1.5.dev20240404.tar.gz tmp/aeppl-nightly-0.1.5.dev20240405.tar.gz --markdown 20240405/a/aeppl-nightly/0.1.5.dev20240404-0.1.5.dev20240405/diff.md --exclude *.pyd
+[2024-04-05 02:32:02] WARNING root fetch - processPackages [livekit-api]: Timeout reached during download
+[2024-04-05 02:32:02] WARNING root fetch - processPackages [imjoy-jupyterlab-extension]: Timeout reached during download
+[2024-04-05 02:32:02] INFO root fetch - processPackages [imjoy-jupyterlab-extension]: executing diffoscope
+[2024-04-05 02:32:02] INFO root fetch - processPackages [imjoy-jupyterlab-extension]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/imjoy-jupyterlab-extension-0.1.9.tar.gz tmp/imjoy_jupyterlab_extension-0.2.5.tar.gz --markdown 20240405/i/imjoy-jupyterlab-extension/0.1.9-0.2.5/diff.md --exclude *.pyd
+[2024-04-05 02:32:02] INFO root fetch - processPackages [livekit-api]: Downloading https://files.pythonhosted.org/packages/39/1c/8b7f599e9a2bd7c44d0ed6e193a61e1effd573d962115f05653e9df210bd/livekit-api-0.4.4.tar.gz
+[2024-04-05 02:32:02] WARNING root fetch - processPackages [livekit-api]: Timeout reached during download
+[2024-04-05 02:32:02] INFO root fetch - processPackages [livekit-api]: executing diffoscope
+[2024-04-05 02:32:02] INFO root fetch - processPackages [livekit-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/livekit-api-0.4.3.tar.gz tmp/livekit-api-0.4.4.tar.gz --markdown 20240405/l/livekit-api/0.4.3-0.4.4/diff.md --exclude *.pyd
+[2024-04-05 02:32:02] INFO root fetch - processPackages [aeppl-nightly]: Remove: archive file [/home/abi/fetcher/tmp/aeppl-nightly-0.1.5.dev20240404.tar.gz]
+[2024-04-05 02:32:02] INFO root fetch - processPackages [aeppl-nightly]: Remove: archive file [/home/abi/fetcher/tmp/aeppl-nightly-0.1.5.dev20240405.tar.gz]
+[2024-04-05 02:32:02] INFO root fetch - main [MainThread]: End processing [aeppl-nightly]: success
+[2024-04-05 02:32:03] INFO root fetch - processPackages [livekit-api]: Remove: archive file [/home/abi/fetcher/tmp/livekit-api-0.4.3.tar.gz]
+[2024-04-05 02:32:03] INFO root fetch - processPackages [livekit-api]: Remove: archive file [/home/abi/fetcher/tmp/livekit-api-0.4.4.tar.gz]
+[2024-04-05 02:32:03] INFO root fetch - main [MainThread]: End processing [livekit-api]: success
+[2024-04-05 02:32:03] INFO root fetch - processPackages [imjoy-jupyterlab-extension]: Remove: archive file [/home/abi/fetcher/tmp/imjoy-jupyterlab-extension-0.1.9.tar.gz]
+[2024-04-05 02:32:03] INFO root fetch - processPackages [imjoy-jupyterlab-extension]: Remove: archive file [/home/abi/fetcher/tmp/imjoy_jupyterlab_extension-0.2.5.tar.gz]
+[2024-04-05 02:32:03] INFO root fetch - main [MainThread]: End processing [imjoy-jupyterlab-extension]: success
+[2024-04-05 02:32:03] INFO root fetch - main [MainThread]: Store serial: [22629268]
