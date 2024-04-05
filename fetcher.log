@@ -21695,3 +21695,45 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2024-04-05 14:05:14] INFO root fetch - processPackages [edgarquery]: Remove: archive file [/home/abi/fetcher/tmp/edgarquery-0.0.58.tar.gz]
 [2024-04-05 14:05:14] INFO root fetch - main [MainThread]: End processing [edgarquery]: success
 [2024-04-05 14:05:14] INFO root fetch - main [MainThread]: Store serial: [22635647]
+[2024-04-05 14:07:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22635647]
+[2024-04-05 14:07:23] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-05 14:07:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: LyPythonToolbox
+[2024-04-05 14:07:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: message-local
+[2024-04-05 14:07:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: osyris
+[2024-04-05 14:07:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: lusid-sdk
+[2024-04-05 14:07:23] INFO root fetch - processPackages [LyPythonToolbox]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-04-05 14:07:23] INFO root fetch - processPackages [message-local]: New version: [0.0.99] Old Version: [0.0.98]
+[2024-04-05 14:07:23] INFO root fetch - processPackages [LyPythonToolbox]: Downloading https://files.pythonhosted.org/packages/b9/e9/8f452a249bff3c8cb955118e466f9f5f21ba765c7389ce21a84b35679ba6/LyPythonToolbox-0.1.0.tar.gz
+[2024-04-05 14:07:24] INFO root fetch - processPackages [osyris]: New version: [2.9.1] Old Version: [2.9.0]
+[2024-04-05 14:07:24] WARNING root fetch - processPackages [LyPythonToolbox]: Timeout reached during download
+[2024-04-05 14:07:24] INFO root fetch - processPackages [message-local]: Downloading https://files.pythonhosted.org/packages/58/98/6002a91d9f0eb23b635ecf892333a787e13c1e810b92090bc53584aa2f18/message-local-0.0.98.tar.gz
+[2024-04-05 14:07:24] WARNING root fetch - processPackages [message-local]: Timeout reached during download
+[2024-04-05 14:07:24] ERROR root fetch - processPackages [LyPythonToolbox]: Unable to fetch info: No such project/version 'LyPythonToolbox' 0.1.1
+[2024-04-05 14:07:24] INFO root fetch - main [MainThread]: End processing [LyPythonToolbox] error
+[2024-04-05 14:07:24] INFO root fetch - processPackages [osyris]: Downloading https://files.pythonhosted.org/packages/94/3f/e90da434377b875184ff64561c60f29299ccc7e998bbb199b06a184112f3/osyris-2.9.0.tar.gz
+[2024-04-05 14:07:24] INFO root fetch - processPackages [message-local]: Downloading https://files.pythonhosted.org/packages/78/17/d149670c7821186afe25a7b74020f68bd8db48497b170965d75952fbe2d8/message-local-0.0.99.tar.gz
+[2024-04-05 14:07:24] WARNING root fetch - processPackages [osyris]: Timeout reached during download
+[2024-04-05 14:07:24] WARNING root fetch - processPackages [message-local]: Timeout reached during download
+[2024-04-05 14:07:24] INFO root fetch - processPackages [message-local]: executing diffoscope
+[2024-04-05 14:07:24] INFO root fetch - processPackages [message-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/message-local-0.0.98.tar.gz tmp/message-local-0.0.99.tar.gz --markdown 20240405/m/message-local/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2024-04-05 14:07:24] INFO root fetch - processPackages [lusid-sdk]: New version: [2.0.96b0] Old Version: [2.0.90b0]
+[2024-04-05 14:07:24] INFO root fetch - processPackages [osyris]: Downloading https://files.pythonhosted.org/packages/f4/45/cd8338c7e073df2ad1f18862d7de56d797cbd1dd2d34391caad9a6612a0c/osyris-2.9.1.tar.gz
+[2024-04-05 14:07:24] INFO root fetch - processPackages [lusid-sdk]: Downloading https://files.pythonhosted.org/packages/f4/1b/decc10b66115dd2498625df6094dde867fd781fbd4fef934426474ebc9fe/lusid_sdk-2.0.90b0.tar.gz
+[2024-04-05 14:07:24] WARNING root fetch - processPackages [osyris]: Timeout reached during download
+[2024-04-05 14:07:24] INFO root fetch - processPackages [osyris]: executing diffoscope
+[2024-04-05 14:07:24] INFO root fetch - processPackages [osyris]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/osyris-2.9.0.tar.gz tmp/osyris-2.9.1.tar.gz --markdown 20240405/o/osyris/2.9.0-2.9.1/diff.md --exclude *.pyd
+[2024-04-05 14:07:24] WARNING root fetch - processPackages [lusid-sdk]: Timeout reached during download
+[2024-04-05 14:07:25] INFO root fetch - processPackages [message-local]: Remove: archive file [/home/abi/fetcher/tmp/message-local-0.0.98.tar.gz]
+[2024-04-05 14:07:25] INFO root fetch - processPackages [message-local]: Remove: archive file [/home/abi/fetcher/tmp/message-local-0.0.99.tar.gz]
+[2024-04-05 14:07:25] INFO root fetch - main [MainThread]: End processing [message-local]: success
+[2024-04-05 14:07:25] INFO root fetch - processPackages [lusid-sdk]: Downloading https://files.pythonhosted.org/packages/79/bb/a00dd0006ca7cf9f5c9e9d6fb1a04a9f2b19a093e74becce026a1b0b4855/lusid_sdk-2.0.96b0.tar.gz
+[2024-04-05 14:07:25] INFO root fetch - processPackages [osyris]: Remove: archive file [/home/abi/fetcher/tmp/osyris-2.9.0.tar.gz]
+[2024-04-05 14:07:25] INFO root fetch - processPackages [osyris]: Remove: archive file [/home/abi/fetcher/tmp/osyris-2.9.1.tar.gz]
+[2024-04-05 14:07:25] INFO root fetch - main [MainThread]: End processing [osyris]: success
+[2024-04-05 14:07:26] WARNING root fetch - processPackages [lusid-sdk]: Timeout reached during download
+[2024-04-05 14:07:26] INFO root fetch - processPackages [lusid-sdk]: executing diffoscope
+[2024-04-05 14:07:26] INFO root fetch - processPackages [lusid-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lusid_sdk-2.0.90b0.tar.gz tmp/lusid_sdk-2.0.96b0.tar.gz --markdown 20240405/l/lusid-sdk/2.0.90b0-2.0.96b0/diff.md --exclude *.pyd
+[2024-04-05 14:07:29] INFO root fetch - processPackages [lusid-sdk]: Remove: archive file [/home/abi/fetcher/tmp/lusid_sdk-2.0.90b0.tar.gz]
+[2024-04-05 14:07:29] INFO root fetch - processPackages [lusid-sdk]: Remove: archive file [/home/abi/fetcher/tmp/lusid_sdk-2.0.96b0.tar.gz]
+[2024-04-05 14:07:29] INFO root fetch - main [MainThread]: End processing [lusid-sdk]: success
+[2024-04-05 14:07:29] INFO root fetch - main [MainThread]: Store serial: [22635662]
