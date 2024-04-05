@@ -13738,3 +13738,39 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2024-04-05 08:38:49] INFO root fetch - processPackages [dbt-copilot-python]: Remove: archive file [/home/abi/fetcher/tmp/dbt_copilot_python-0.2.1.tar.gz]
 [2024-04-05 08:38:49] INFO root fetch - main [MainThread]: End processing [dbt-copilot-python]: success
 [2024-04-05 08:38:49] INFO root fetch - main [MainThread]: Store serial: [22632549]
+[2024-04-05 08:40:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22632549]
+[2024-04-05 08:40:57] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-05 08:40:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo13-addon-base-import-odoo
+[2024-04-05 08:40:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo14-addon-nsca-client
+[2024-04-05 08:40:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: langtrace-python-sdk
+[2024-04-05 08:40:58] INFO root fetch - processPackages [langtrace-python-sdk]: New version: [1.2.9] Old Version: [1.2.8]
+[2024-04-05 08:40:58] INFO root fetch - processPackages [langtrace-python-sdk]: Downloading https://files.pythonhosted.org/packages/a4/ef/481e0ed40325edb8017528b343798616b10c4cdd501969ba15e16d95d4db/langtrace_python_sdk-1.2.8.tar.gz
+[2024-04-05 08:40:58] INFO root fetch - processPackages [odoo14-addon-nsca-client]: New version: [14.0.1.0.3.dev3] Old Version: [14.0.1.0.3.dev1]
+[2024-04-05 08:40:58] INFO root fetch - processPackages [odoo13-addon-base-import-odoo]: New version: [13.0.1.0.1.dev9] Old Version: [13.0.1.0.1.dev8]
+[2024-04-05 08:40:58] WARNING root fetch - processPackages [langtrace-python-sdk]: Timeout reached during download
+[2024-04-05 08:40:58] INFO root fetch - processPackages [odoo13-addon-base-import-odoo]: Downloading https://files.pythonhosted.org/packages/5b/45/28049e9a4473aadfb233545e2d7b0048363dccd4cb254941d9c0f06a01e7/odoo13_addon_base_import_odoo-13.0.1.0.1.dev8-py3-none-any.whl
+[2024-04-05 08:40:58] INFO root fetch - processPackages [langtrace-python-sdk]: Downloading https://files.pythonhosted.org/packages/c1/d6/f58d5bf271b0dd4701d47b4b17041a9bc5e9129514abef119cd8be7fbb48/langtrace_python_sdk-1.2.9.tar.gz
+[2024-04-05 08:40:58] INFO root fetch - processPackages [odoo14-addon-nsca-client]: Downloading https://files.pythonhosted.org/packages/ef/88/5202f24a29b5b953be07570c347d3a66efd5ee09377223dcb24295527d2d/odoo14_addon_nsca_client-14.0.1.0.3.dev1-py3-none-any.whl
+[2024-04-05 08:40:58] WARNING root fetch - processPackages [odoo13-addon-base-import-odoo]: Timeout reached during download
+[2024-04-05 08:40:58] WARNING root fetch - processPackages [langtrace-python-sdk]: Timeout reached during download
+[2024-04-05 08:40:58] INFO root fetch - processPackages [langtrace-python-sdk]: executing diffoscope
+[2024-04-05 08:40:58] INFO root fetch - processPackages [langtrace-python-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langtrace_python_sdk-1.2.8.tar.gz tmp/langtrace_python_sdk-1.2.9.tar.gz --markdown 20240405/l/langtrace-python-sdk/1.2.8-1.2.9/diff.md --exclude *.pyd
+[2024-04-05 08:40:58] WARNING root fetch - processPackages [odoo14-addon-nsca-client]: Timeout reached during download
+[2024-04-05 08:40:58] INFO root fetch - processPackages [odoo13-addon-base-import-odoo]: Downloading https://files.pythonhosted.org/packages/b3/19/a76530de889d866874ae14ef579843c01262c696409d2e439de4c824dd0d/odoo13_addon_base_import_odoo-13.0.1.0.1.dev9-py3-none-any.whl
+[2024-04-05 08:40:58] INFO root fetch - processPackages [odoo14-addon-nsca-client]: Downloading https://files.pythonhosted.org/packages/d4/a8/3169c78fcc387abba1d06bb335771076c3d98fbd7f101bdfb4c3ce1d0af6/odoo14_addon_nsca_client-14.0.1.0.3.dev3-py3-none-any.whl
+[2024-04-05 08:40:58] WARNING root fetch - processPackages [odoo13-addon-base-import-odoo]: Timeout reached during download
+[2024-04-05 08:40:58] INFO root fetch - processPackages [odoo13-addon-base-import-odoo]: executing diffoscope
+[2024-04-05 08:40:58] INFO root fetch - processPackages [odoo13-addon-base-import-odoo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo13_addon_base_import_odoo-13.0.1.0.1.dev8-py3-none-any.whl.zip tmp/odoo13_addon_base_import_odoo-13.0.1.0.1.dev9-py3-none-any.whl.zip --markdown 20240405/o/odoo13-addon-base-import-odoo/13.0.1.0.1.dev8-13.0.1.0.1.dev9/diff.md --exclude *.pyd
+[2024-04-05 08:40:59] WARNING root fetch - processPackages [odoo14-addon-nsca-client]: Timeout reached during download
+[2024-04-05 08:40:59] INFO root fetch - processPackages [odoo14-addon-nsca-client]: executing diffoscope
+[2024-04-05 08:40:59] INFO root fetch - processPackages [odoo14-addon-nsca-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_nsca_client-14.0.1.0.3.dev1-py3-none-any.whl.zip tmp/odoo14_addon_nsca_client-14.0.1.0.3.dev3-py3-none-any.whl.zip --markdown 20240405/o/odoo14-addon-nsca-client/14.0.1.0.3.dev1-14.0.1.0.3.dev3/diff.md --exclude *.pyd
+[2024-04-05 08:40:59] INFO root fetch - processPackages [langtrace-python-sdk]: Remove: archive file [/home/abi/fetcher/tmp/langtrace_python_sdk-1.2.8.tar.gz]
+[2024-04-05 08:40:59] INFO root fetch - processPackages [langtrace-python-sdk]: Remove: archive file [/home/abi/fetcher/tmp/langtrace_python_sdk-1.2.9.tar.gz]
+[2024-04-05 08:40:59] INFO root fetch - main [MainThread]: End processing [langtrace-python-sdk]: success
+[2024-04-05 08:40:59] INFO root fetch - processPackages [odoo14-addon-nsca-client]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_nsca_client-14.0.1.0.3.dev1-py3-none-any.whl.zip]
+[2024-04-05 08:40:59] INFO root fetch - processPackages [odoo14-addon-nsca-client]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_nsca_client-14.0.1.0.3.dev3-py3-none-any.whl.zip]
+[2024-04-05 08:40:59] INFO root fetch - main [MainThread]: End processing [odoo14-addon-nsca-client]: success
+[2024-04-05 08:40:59] INFO root fetch - processPackages [odoo13-addon-base-import-odoo]: Remove: archive file [/home/abi/fetcher/tmp/odoo13_addon_base_import_odoo-13.0.1.0.1.dev8-py3-none-any.whl.zip]
+[2024-04-05 08:40:59] INFO root fetch - processPackages [odoo13-addon-base-import-odoo]: Remove: archive file [/home/abi/fetcher/tmp/odoo13_addon_base_import_odoo-13.0.1.0.1.dev9-py3-none-any.whl.zip]
+[2024-04-05 08:40:59] INFO root fetch - main [MainThread]: End processing [odoo13-addon-base-import-odoo]: success
+[2024-04-05 08:40:59] INFO root fetch - main [MainThread]: Store serial: [22632555]
