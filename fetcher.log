@@ -10723,3 +10723,33 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2024-04-05 05:42:51] INFO root fetch - processPackages [bananalyzer]: Remove: archive file [/home/abi/fetcher/tmp/bananalyzer-0.8.74.tar.gz]
 [2024-04-05 05:42:51] INFO root fetch - main [MainThread]: End processing [bananalyzer]: success
 [2024-04-05 05:42:51] INFO root fetch - main [MainThread]: Store serial: [22631525]
+[2024-04-05 05:44:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22631525]
+[2024-04-05 05:44:59] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-05 05:44:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: instructor
+[2024-04-05 05:44:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: idvpackage
+[2024-04-05 05:44:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mojo-credentials
+[2024-04-05 05:44:59] INFO root fetch - processPackages [mojo-credentials]: New version: [1.3.3] Old Version: [1.3.2]
+[2024-04-05 05:44:59] INFO root fetch - processPackages [instructor]: New version: [1.0.2] Old Version: [1.0.0]
+[2024-04-05 05:44:59] INFO root fetch - processPackages [idvpackage]: New version: [1.9.9] Old Version: [1.9.8]
+[2024-04-05 05:44:59] INFO root fetch - processPackages [instructor]: Downloading https://files.pythonhosted.org/packages/5a/a4/c3bca2836b1423547900ebfeb25b2540f1aeebdf4aab98d0bfd022b4e932/instructor-1.0.0.tar.gz
+[2024-04-05 05:45:00] INFO root fetch - processPackages [mojo-credentials]: Downloading https://files.pythonhosted.org/packages/2d/c8/8f3bcc435b6caae7df49e4e3cc7c8e4d253f93bf9c820b4001656b81e6b3/mojo_credentials-1.3.2.tar.gz
+[2024-04-05 05:45:00] WARNING root fetch - processPackages [instructor]: Timeout reached during download
+[2024-04-05 05:45:00] INFO root fetch - processPackages [idvpackage]: Downloading https://files.pythonhosted.org/packages/6c/7c/65b70ff47604461688a9475630c0e6f7b3f0809d59034ee93c3a20a856cd/idvpackage-1.9.8.tar.gz
+[2024-04-05 05:45:00] WARNING root fetch - processPackages [idvpackage]: Skipping package: exceeds size limit 28247832>=10485760
+[2024-04-05 05:45:00] INFO root fetch - main [MainThread]: End processing [idvpackage] error
+[2024-04-05 05:45:00] WARNING root fetch - processPackages [mojo-credentials]: Timeout reached during download
+[2024-04-05 05:45:00] INFO root fetch - processPackages [instructor]: Downloading https://files.pythonhosted.org/packages/e5/ed/795a8b94c243ee9c457541ec14b98b54adc2d22d19141db109b77ccb1ff9/instructor-1.0.2.tar.gz
+[2024-04-05 05:45:00] INFO root fetch - processPackages [mojo-credentials]: Downloading https://files.pythonhosted.org/packages/6d/f0/15a61a3c3da849d7bb2a8fab9901c084c0cabc28623c865aa47b174736d7/mojo_credentials-1.3.3.tar.gz
+[2024-04-05 05:45:00] WARNING root fetch - processPackages [instructor]: Timeout reached during download
+[2024-04-05 05:45:00] INFO root fetch - processPackages [instructor]: executing diffoscope
+[2024-04-05 05:45:00] INFO root fetch - processPackages [instructor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/instructor-1.0.0.tar.gz tmp/instructor-1.0.2.tar.gz --markdown 20240405/i/instructor/1.0.0-1.0.2/diff.md --exclude *.pyd
+[2024-04-05 05:45:00] WARNING root fetch - processPackages [mojo-credentials]: Timeout reached during download
+[2024-04-05 05:45:00] INFO root fetch - processPackages [mojo-credentials]: executing diffoscope
+[2024-04-05 05:45:00] INFO root fetch - processPackages [mojo-credentials]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mojo_credentials-1.3.2.tar.gz tmp/mojo_credentials-1.3.3.tar.gz --markdown 20240405/m/mojo-credentials/1.3.2-1.3.3/diff.md --exclude *.pyd
+[2024-04-05 05:45:00] INFO root fetch - processPackages [mojo-credentials]: Remove: archive file [/home/abi/fetcher/tmp/mojo_credentials-1.3.2.tar.gz]
+[2024-04-05 05:45:00] INFO root fetch - processPackages [mojo-credentials]: Remove: archive file [/home/abi/fetcher/tmp/mojo_credentials-1.3.3.tar.gz]
+[2024-04-05 05:45:00] INFO root fetch - main [MainThread]: End processing [mojo-credentials]: success
+[2024-04-05 05:45:00] INFO root fetch - processPackages [instructor]: Remove: archive file [/home/abi/fetcher/tmp/instructor-1.0.0.tar.gz]
+[2024-04-05 05:45:00] INFO root fetch - processPackages [instructor]: Remove: archive file [/home/abi/fetcher/tmp/instructor-1.0.2.tar.gz]
+[2024-04-05 05:45:00] INFO root fetch - main [MainThread]: End processing [instructor]: success
+[2024-04-05 05:45:00] INFO root fetch - main [MainThread]: Store serial: [22631535]
