@@ -17357,3 +17357,50 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2024-04-05 11:19:33] INFO root fetch - processPackages [pasta-eln]: Remove: archive file [/home/abi/fetcher/tmp/pasta_eln-2.5.1b1.tar.gz]
 [2024-04-05 11:19:33] INFO root fetch - main [MainThread]: End processing [pasta-eln]: success
 [2024-04-05 11:19:33] INFO root fetch - main [MainThread]: Store serial: [22633909]
+[2024-04-05 11:21:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22633909]
+[2024-04-05 11:21:42] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-05 11:21:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mlpro-int-sb3
+[2024-04-05 11:21:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sufficiency-data-transform
+[2024-04-05 11:21:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tbp-nightly
+[2024-04-05 11:21:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: btc-embedded
+[2024-04-05 11:21:42] INFO root fetch - processPackages [btc-embedded]: New version: [24.1.1] Old Version: [24.1.0]
+[2024-04-05 11:21:42] INFO root fetch - processPackages [btc-embedded]: Downloading https://files.pythonhosted.org/packages/c1/1f/06a06c3d4e5f40a516baf3b03bbfbee3cae1ab3388990d4892308c35d7db/btc_embedded-24.1.0.tar.gz
+[2024-04-05 11:21:42] INFO root fetch - processPackages [mlpro-int-sb3]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-04-05 11:21:42] INFO root fetch - processPackages [sufficiency-data-transform]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-04-05 11:21:42] INFO root fetch - processPackages [tbp-nightly]: New version: [2.9.0a20221130] Old Version: [2.9.0a20221129]
+[2024-04-05 11:21:42] WARNING root fetch - processPackages [btc-embedded]: Timeout reached during download
+[2024-04-05 11:21:42] INFO root fetch - processPackages [mlpro-int-sb3]: Downloading https://files.pythonhosted.org/packages/e0/c6/e6082d73d3103e0b8f3fdc6a985a0d9b25a90d791806af357845b8e34467/mlpro-int-sb3-0.1.0.tar.gz
+[2024-04-05 11:21:42] INFO root fetch - processPackages [sufficiency-data-transform]: Downloading https://files.pythonhosted.org/packages/91/80/5442633d1f227b737b034838b99b8c8a88dedfb3af94e858123a009d2906/sufficiency_data_transform-0.1.1.tar.gz
+[2024-04-05 11:21:42] INFO root fetch - processPackages [tbp-nightly]: Downloading https://files.pythonhosted.org/packages/b9/6c/43a589e5ab1d1b961e5780e41057576c7abd5bf16d3f871d8ef4ebdaf461/tbp-nightly-2.9.0a20221129.tar.gz
+[2024-04-05 11:21:42] WARNING root fetch - processPackages [sufficiency-data-transform]: Timeout reached during download
+[2024-04-05 11:21:42] INFO root fetch - processPackages [btc-embedded]: Downloading https://files.pythonhosted.org/packages/fd/d9/b992ae8ee12788edb28a581c9cf694d74038d1ccdff0a3f7918fce9eb8cd/btc_embedded-24.1.1.tar.gz
+[2024-04-05 11:21:42] WARNING root fetch - processPackages [mlpro-int-sb3]: Timeout reached during download
+[2024-04-05 11:21:43] INFO root fetch - processPackages [sufficiency-data-transform]: Downloading https://files.pythonhosted.org/packages/a1/ea/1a4c661114d5dc5474e3e361527641f9be455883c1af301d9e28fa651857/sufficiency_data_transform-0.1.2.tar.gz
+[2024-04-05 11:21:43] WARNING root fetch - processPackages [btc-embedded]: Timeout reached during download
+[2024-04-05 11:21:43] INFO root fetch - processPackages [btc-embedded]: executing diffoscope
+[2024-04-05 11:21:43] INFO root fetch - processPackages [btc-embedded]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/btc_embedded-24.1.0.tar.gz tmp/btc_embedded-24.1.1.tar.gz --markdown 20240405/b/btc-embedded/24.1.0-24.1.1/diff.md --exclude *.pyd
+[2024-04-05 11:21:43] INFO root fetch - processPackages [mlpro-int-sb3]: Downloading https://files.pythonhosted.org/packages/fb/35/75cf18ab7fccca43937c456806026f089dd448dfda87f23aef4dcec3e122/mlpro-int-sb3-0.1.1.tar.gz
+[2024-04-05 11:21:43] WARNING root fetch - processPackages [sufficiency-data-transform]: Timeout reached during download
+[2024-04-05 11:21:43] INFO root fetch - processPackages [sufficiency-data-transform]: executing diffoscope
+[2024-04-05 11:21:43] INFO root fetch - processPackages [sufficiency-data-transform]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sufficiency_data_transform-0.1.1.tar.gz tmp/sufficiency_data_transform-0.1.2.tar.gz --markdown 20240405/s/sufficiency-data-transform/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2024-04-05 11:21:43] WARNING root fetch - processPackages [mlpro-int-sb3]: Timeout reached during download
+[2024-04-05 11:21:43] INFO root fetch - processPackages [mlpro-int-sb3]: executing diffoscope
+[2024-04-05 11:21:43] INFO root fetch - processPackages [mlpro-int-sb3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mlpro-int-sb3-0.1.0.tar.gz tmp/mlpro-int-sb3-0.1.1.tar.gz --markdown 20240405/m/mlpro-int-sb3/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2024-04-05 11:21:43] INFO root fetch - processPackages [btc-embedded]: Remove: archive file [/home/abi/fetcher/tmp/btc_embedded-24.1.0.tar.gz]
+[2024-04-05 11:21:43] INFO root fetch - processPackages [btc-embedded]: Remove: archive file [/home/abi/fetcher/tmp/btc_embedded-24.1.1.tar.gz]
+[2024-04-05 11:21:43] INFO root fetch - main [MainThread]: End processing [btc-embedded]: success
+[2024-04-05 11:21:43] WARNING root fetch - processPackages [tbp-nightly]: Timeout reached during download
+[2024-04-05 11:21:43] INFO root fetch - processPackages [sufficiency-data-transform]: Remove: archive file [/home/abi/fetcher/tmp/sufficiency_data_transform-0.1.1.tar.gz]
+[2024-04-05 11:21:43] INFO root fetch - processPackages [sufficiency-data-transform]: Remove: archive file [/home/abi/fetcher/tmp/sufficiency_data_transform-0.1.2.tar.gz]
+[2024-04-05 11:21:43] INFO root fetch - main [MainThread]: End processing [sufficiency-data-transform]: success
+[2024-04-05 11:21:43] INFO root fetch - processPackages [mlpro-int-sb3]: Remove: archive file [/home/abi/fetcher/tmp/mlpro-int-sb3-0.1.0.tar.gz]
+[2024-04-05 11:21:43] INFO root fetch - processPackages [mlpro-int-sb3]: Remove: archive file [/home/abi/fetcher/tmp/mlpro-int-sb3-0.1.1.tar.gz]
+[2024-04-05 11:21:43] INFO root fetch - main [MainThread]: End processing [mlpro-int-sb3]: success
+[2024-04-05 11:21:43] INFO root fetch - processPackages [tbp-nightly]: Downloading https://files.pythonhosted.org/packages/2e/31/c611af28c0d42c7cbb86781523f94e57796654fd8b7a7049e8a6db2eecf3/tbp-nightly-2.9.0a20221130.tar.gz
+[2024-04-05 11:21:44] WARNING root fetch - processPackages [tbp-nightly]: Timeout reached during download
+[2024-04-05 11:21:44] INFO root fetch - processPackages [tbp-nightly]: executing diffoscope
+[2024-04-05 11:21:44] INFO root fetch - processPackages [tbp-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tbp-nightly-2.9.0a20221129.tar.gz tmp/tbp-nightly-2.9.0a20221130.tar.gz --markdown 20240405/t/tbp-nightly/2.9.0a20221129-2.9.0a20221130/diff.md --exclude *.pyd
+[2024-04-05 11:21:46] INFO root fetch - processPackages [tbp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tbp-nightly-2.9.0a20221129.tar.gz]
+[2024-04-05 11:21:46] INFO root fetch - processPackages [tbp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tbp-nightly-2.9.0a20221130.tar.gz]
+[2024-04-05 11:21:46] INFO root fetch - main [MainThread]: End processing [tbp-nightly]: success
+[2024-04-05 11:21:46] INFO root fetch - main [MainThread]: Store serial: [22633920]
