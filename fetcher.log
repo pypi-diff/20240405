@@ -13049,3 +13049,83 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2024-04-05 08:05:31] INFO root fetch - processPackages [odoo14-addon-queue-job]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_queue_job-14.0.3.5.5.dev3-py3-none-any.whl.zip]
 [2024-04-05 08:05:31] INFO root fetch - main [MainThread]: End processing [odoo14-addon-queue-job]: success
 [2024-04-05 08:05:31] INFO root fetch - main [MainThread]: Store serial: [22632302]
+[2024-04-05 08:07:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22632302]
+[2024-04-05 08:07:40] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-05 08:07:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo-addon-base-export-async
+[2024-04-05 08:07:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addons-oca-queue
+[2024-04-05 08:07:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: valmi-connector-lib
+[2024-04-05 08:07:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: plotly3d
+[2024-04-05 08:07:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: hmtaiga
+[2024-04-05 08:07:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: songfinder
+[2024-04-05 08:07:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: songfindercli
+[2024-04-05 08:07:40] INFO root fetch - processPackages [plotly3d]: New version: [0.3.3] Old Version: [0.3.2]
+[2024-04-05 08:07:40] INFO root fetch - processPackages [hmtaiga]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-05 08:07:40] INFO root fetch - processPackages [odoo-addons-oca-queue]: New version: [16.0.20240404.0] Old Version: [16.0.20231129.0]
+[2024-04-05 08:07:40] INFO root fetch - processPackages [plotly3d]: Downloading https://files.pythonhosted.org/packages/75/81/040e053ff33ffff566b511cac7bbb06388f29bdedbc06547076b3c17fefa/plotly3d-0.3.2.tar.gz
+[2024-04-05 08:07:40] INFO root fetch - processPackages [odoo-addon-base-export-async]: New version: [16.0.1.0.0.9] Old Version: [16.0.1.0.0.8]
+[2024-04-05 08:07:40] INFO root fetch - processPackages [songfindercli]: New version: [0.9.7] Old Version: [0.9.5]
+[2024-04-05 08:07:40] INFO root fetch - processPackages [songfinder]: New version: [0.9.7] Old Version: [0.9.5]
+[2024-04-05 08:07:40] INFO root fetch - processPackages [valmi-connector-lib]: New version: [0.1.99] Old Version: [0.1.98]
+[2024-04-05 08:07:40] INFO root fetch - processPackages [hmtaiga]: Downloading https://files.pythonhosted.org/packages/4b/05/c5c0a7cbd12c48ff227d542a5a6202e6855c33e94a3199a996f7d5605fdb/hmtaiga-0.1.8.tar.gz
+[2024-04-05 08:07:40] WARNING root fetch - processPackages [plotly3d]: Timeout reached during download
+[2024-04-05 08:07:41] WARNING root fetch - processPackages [hmtaiga]: Timeout reached during download
+[2024-04-05 08:07:41] INFO root fetch - processPackages [odoo-addons-oca-queue]: Downloading https://files.pythonhosted.org/packages/43/fa/f6f1165f217184a8a51336900fe7fa1385b1f06d2edc2c4f11184e5648a7/odoo_addons_oca_queue-16.0.20231129.0-py3-none-any.whl
+[2024-04-05 08:07:41] INFO root fetch - processPackages [valmi-connector-lib]: Downloading https://files.pythonhosted.org/packages/68/54/062a20f75076aa53427ddf933f64d2177adabaa9c1f4507ee0d9d30b8b03/valmi_connector_lib-0.1.98.tar.gz
+[2024-04-05 08:07:41] INFO root fetch - processPackages [odoo-addon-base-export-async]: Downloading https://files.pythonhosted.org/packages/fa/64/0ba11c2cd4acec79c8f3a705f938efba6e179fd5f4e4ea1817b360592f42/odoo_addon_base_export_async-16.0.1.0.0.8-py3-none-any.whl
+[2024-04-05 08:07:41] INFO root fetch - processPackages [songfindercli]: Downloading https://files.pythonhosted.org/packages/16/db/126ee764619b1e3e11bac4b35631a31c33c2c836bb9825d65347861e1e48/songfindercli-0.9.5-py3-none-any.whl
+[2024-04-05 08:07:41] INFO root fetch - processPackages [songfinder]: Downloading https://files.pythonhosted.org/packages/a4/ad/9182e05cd8b08d52fcc4a76126a30fc9f524025f3e4c573acdb778f54a23/songfinder-0.9.5-py3-none-any.whl
+[2024-04-05 08:07:41] WARNING root fetch - processPackages [odoo-addons-oca-queue]: Timeout reached during download
+[2024-04-05 08:07:41] WARNING root fetch - processPackages [valmi-connector-lib]: Timeout reached during download
+[2024-04-05 08:07:41] INFO root fetch - processPackages [hmtaiga]: Downloading https://files.pythonhosted.org/packages/3f/4b/aea7c74f795ff3c322beec54fbfa2fcd7d8a0327ca1fb86eb76a8ffeee76/hmtaiga-0.1.9.tar.gz
+[2024-04-05 08:07:41] INFO root fetch - processPackages [plotly3d]: Downloading https://files.pythonhosted.org/packages/05/02/42827b80672a8c7506e0e794c248a640c07a3bb187f2588bd2aa8b672bcc/plotly3d-0.3.3.tar.gz
+[2024-04-05 08:07:41] WARNING root fetch - processPackages [odoo-addon-base-export-async]: Timeout reached during download
+[2024-04-05 08:07:41] WARNING root fetch - processPackages [plotly3d]: Timeout reached during download
+[2024-04-05 08:07:41] WARNING root fetch - processPackages [hmtaiga]: Timeout reached during download
+[2024-04-05 08:07:41] INFO root fetch - processPackages [hmtaiga]: executing diffoscope
+[2024-04-05 08:07:41] INFO root fetch - processPackages [plotly3d]: executing diffoscope
+[2024-04-05 08:07:41] INFO root fetch - processPackages [hmtaiga]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hmtaiga-0.1.8.tar.gz tmp/hmtaiga-0.1.9.tar.gz --markdown 20240405/h/hmtaiga/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2024-04-05 08:07:41] INFO root fetch - processPackages [plotly3d]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/plotly3d-0.3.2.tar.gz tmp/plotly3d-0.3.3.tar.gz --markdown 20240405/p/plotly3d/0.3.2-0.3.3/diff.md --exclude *.pyd
+[2024-04-05 08:07:41] INFO root fetch - processPackages [valmi-connector-lib]: Downloading https://files.pythonhosted.org/packages/2f/47/8fb8bac8016bd8f46ec3d29fa7fc0e2cdc40845d8dce82ba52e668672ab8/valmi_connector_lib-0.1.99.tar.gz
+[2024-04-05 08:07:41] INFO root fetch - processPackages [odoo-addons-oca-queue]: Downloading https://files.pythonhosted.org/packages/4a/10/32d4d090119e7efa962042d4b2782e0f068155b8af9350a1e74937141751/odoo_addons_oca_queue-16.0.20240404.0-py3-none-any.whl
+[2024-04-05 08:07:41] WARNING root fetch - processPackages [songfindercli]: Timeout reached during download
+[2024-04-05 08:07:41] WARNING root fetch - processPackages [songfinder]: Timeout reached during download
+[2024-04-05 08:07:41] INFO root fetch - processPackages [odoo-addon-base-export-async]: Downloading https://files.pythonhosted.org/packages/c1/7e/2aa14bcacf3f317d76995bb889c1b479e52c538dddc543c4efa82808ed45/odoo_addon_base_export_async-16.0.1.0.0.9-py3-none-any.whl
+[2024-04-05 08:07:41] WARNING root fetch - processPackages [odoo-addons-oca-queue]: Timeout reached during download
+[2024-04-05 08:07:41] INFO root fetch - processPackages [odoo-addons-oca-queue]: executing diffoscope
+[2024-04-05 08:07:41] INFO root fetch - processPackages [odoo-addons-oca-queue]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addons_oca_queue-16.0.20231129.0-py3-none-any.whl.zip tmp/odoo_addons_oca_queue-16.0.20240404.0-py3-none-any.whl.zip --markdown 20240405/o/odoo-addons-oca-queue/16.0.20231129.0-16.0.20240404.0/diff.md --exclude *.pyd
+[2024-04-05 08:07:41] WARNING root fetch - processPackages [valmi-connector-lib]: Timeout reached during download
+[2024-04-05 08:07:41] INFO root fetch - processPackages [valmi-connector-lib]: executing diffoscope
+[2024-04-05 08:07:41] INFO root fetch - processPackages [valmi-connector-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/valmi_connector_lib-0.1.98.tar.gz tmp/valmi_connector_lib-0.1.99.tar.gz --markdown 20240405/v/valmi-connector-lib/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2024-04-05 08:07:41] WARNING root fetch - processPackages [odoo-addon-base-export-async]: Timeout reached during download
+[2024-04-05 08:07:41] INFO root fetch - processPackages [odoo-addon-base-export-async]: executing diffoscope
+[2024-04-05 08:07:41] INFO root fetch - processPackages [odoo-addon-base-export-async]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_base_export_async-16.0.1.0.0.8-py3-none-any.whl.zip tmp/odoo_addon_base_export_async-16.0.1.0.0.9-py3-none-any.whl.zip --markdown 20240405/o/odoo-addon-base-export-async/16.0.1.0.0.8-16.0.1.0.0.9/diff.md --exclude *.pyd
+[2024-04-05 08:07:41] INFO root fetch - processPackages [songfindercli]: Downloading https://files.pythonhosted.org/packages/33/3b/641deefaf0e91cf6a1df5eba6ee91bd111b880aa2e6b3fb259217b9e0459/songfindercli-0.9.7-py3-none-any.whl
+[2024-04-05 08:07:41] INFO root fetch - processPackages [songfinder]: Downloading https://files.pythonhosted.org/packages/58/a4/8d6ec2246f1d896b47cb78752c0e9be1b58f3bcd7d8fa589ca5bb37cf07a/songfinder-0.9.7-py3-none-any.whl
+[2024-04-05 08:07:41] WARNING root fetch - processPackages [songfindercli]: Timeout reached during download
+[2024-04-05 08:07:41] INFO root fetch - processPackages [songfindercli]: executing diffoscope
+[2024-04-05 08:07:41] INFO root fetch - processPackages [songfindercli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/songfindercli-0.9.5-py3-none-any.whl.zip tmp/songfindercli-0.9.7-py3-none-any.whl.zip --markdown 20240405/s/songfindercli/0.9.5-0.9.7/diff.md --exclude *.pyd
+[2024-04-05 08:07:41] WARNING root fetch - processPackages [songfinder]: Timeout reached during download
+[2024-04-05 08:07:41] INFO root fetch - processPackages [songfinder]: executing diffoscope
+[2024-04-05 08:07:41] INFO root fetch - processPackages [songfinder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/songfinder-0.9.5-py3-none-any.whl.zip tmp/songfinder-0.9.7-py3-none-any.whl.zip --markdown 20240405/s/songfinder/0.9.5-0.9.7/diff.md --exclude *.pyd
+[2024-04-05 08:07:42] INFO root fetch - processPackages [plotly3d]: Remove: archive file [/home/abi/fetcher/tmp/plotly3d-0.3.2.tar.gz]
+[2024-04-05 08:07:42] INFO root fetch - processPackages [plotly3d]: Remove: archive file [/home/abi/fetcher/tmp/plotly3d-0.3.3.tar.gz]
+[2024-04-05 08:07:42] INFO root fetch - main [MainThread]: End processing [plotly3d]: success
+[2024-04-05 08:07:42] INFO root fetch - processPackages [hmtaiga]: Remove: archive file [/home/abi/fetcher/tmp/hmtaiga-0.1.8.tar.gz]
+[2024-04-05 08:07:42] INFO root fetch - processPackages [hmtaiga]: Remove: archive file [/home/abi/fetcher/tmp/hmtaiga-0.1.9.tar.gz]
+[2024-04-05 08:07:42] INFO root fetch - main [MainThread]: End processing [hmtaiga]: success
+[2024-04-05 08:07:42] INFO root fetch - processPackages [odoo-addon-base-export-async]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_base_export_async-16.0.1.0.0.8-py3-none-any.whl.zip]
+[2024-04-05 08:07:42] INFO root fetch - processPackages [odoo-addon-base-export-async]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_base_export_async-16.0.1.0.0.9-py3-none-any.whl.zip]
+[2024-04-05 08:07:42] INFO root fetch - main [MainThread]: End processing [odoo-addon-base-export-async]: success
+[2024-04-05 08:07:42] INFO root fetch - processPackages [valmi-connector-lib]: Remove: archive file [/home/abi/fetcher/tmp/valmi_connector_lib-0.1.98.tar.gz]
+[2024-04-05 08:07:42] INFO root fetch - processPackages [valmi-connector-lib]: Remove: archive file [/home/abi/fetcher/tmp/valmi_connector_lib-0.1.99.tar.gz]
+[2024-04-05 08:07:42] INFO root fetch - main [MainThread]: End processing [valmi-connector-lib]: success
+[2024-04-05 08:07:42] INFO root fetch - processPackages [odoo-addons-oca-queue]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_queue-16.0.20231129.0-py3-none-any.whl.zip]
+[2024-04-05 08:07:42] INFO root fetch - processPackages [odoo-addons-oca-queue]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_queue-16.0.20240404.0-py3-none-any.whl.zip]
+[2024-04-05 08:07:42] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-queue]: success
+[2024-04-05 08:07:42] INFO root fetch - processPackages [songfinder]: Remove: archive file [/home/abi/fetcher/tmp/songfinder-0.9.5-py3-none-any.whl.zip]
+[2024-04-05 08:07:42] INFO root fetch - processPackages [songfinder]: Remove: archive file [/home/abi/fetcher/tmp/songfinder-0.9.7-py3-none-any.whl.zip]
+[2024-04-05 08:07:42] INFO root fetch - main [MainThread]: End processing [songfinder]: success
+[2024-04-05 08:07:42] INFO root fetch - processPackages [songfindercli]: Remove: archive file [/home/abi/fetcher/tmp/songfindercli-0.9.5-py3-none-any.whl.zip]
+[2024-04-05 08:07:42] INFO root fetch - processPackages [songfindercli]: Remove: archive file [/home/abi/fetcher/tmp/songfindercli-0.9.7-py3-none-any.whl.zip]
+[2024-04-05 08:07:42] INFO root fetch - main [MainThread]: End processing [songfindercli]: success
+[2024-04-05 08:07:42] INFO root fetch - main [MainThread]: Store serial: [22632319]
