@@ -12416,3 +12416,17 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2024-04-05 07:30:29] INFO root fetch - processPackages [odoo-addon-attribute-set]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_attribute_set-16.0.1.1.0.9-py3-none-any.whl.zip]
 [2024-04-05 07:30:29] INFO root fetch - main [MainThread]: End processing [odoo-addon-attribute-set]: success
 [2024-04-05 07:30:29] INFO root fetch - main [MainThread]: Store serial: [22632041]
+[2024-04-05 07:32:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22632041]
+[2024-04-05 07:32:39] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-04-05 07:32:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: hmtaiga
+[2024-04-05 07:32:39] INFO root fetch - processPackages [hmtaiga]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-05 07:32:39] INFO root fetch - processPackages [hmtaiga]: Downloading https://files.pythonhosted.org/packages/4b/05/c5c0a7cbd12c48ff227d542a5a6202e6855c33e94a3199a996f7d5605fdb/hmtaiga-0.1.8.tar.gz
+[2024-04-05 07:32:39] WARNING root fetch - processPackages [hmtaiga]: Timeout reached during download
+[2024-04-05 07:32:39] INFO root fetch - processPackages [hmtaiga]: Downloading https://files.pythonhosted.org/packages/3f/4b/aea7c74f795ff3c322beec54fbfa2fcd7d8a0327ca1fb86eb76a8ffeee76/hmtaiga-0.1.9.tar.gz
+[2024-04-05 07:32:40] WARNING root fetch - processPackages [hmtaiga]: Timeout reached during download
+[2024-04-05 07:32:40] INFO root fetch - processPackages [hmtaiga]: executing diffoscope
+[2024-04-05 07:32:40] INFO root fetch - processPackages [hmtaiga]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hmtaiga-0.1.8.tar.gz tmp/hmtaiga-0.1.9.tar.gz --markdown 20240405/h/hmtaiga/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2024-04-05 07:32:40] INFO root fetch - processPackages [hmtaiga]: Remove: archive file [/home/abi/fetcher/tmp/hmtaiga-0.1.8.tar.gz]
+[2024-04-05 07:32:40] INFO root fetch - processPackages [hmtaiga]: Remove: archive file [/home/abi/fetcher/tmp/hmtaiga-0.1.9.tar.gz]
+[2024-04-05 07:32:40] INFO root fetch - main [MainThread]: End processing [hmtaiga]: success
+[2024-04-05 07:32:40] INFO root fetch - main [MainThread]: Store serial: [22632046]
