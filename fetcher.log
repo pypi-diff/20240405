@@ -20462,3 +20462,77 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2024-04-05 13:12:33] INFO root fetch - processPackages [qarray]: Remove: archive file [/home/abi/fetcher/tmp/qarray-1.0.8.tar.gz]
 [2024-04-05 13:12:33] INFO root fetch - main [MainThread]: End processing [qarray]: success
 [2024-04-05 13:12:33] INFO root fetch - main [MainThread]: Store serial: [22635093]
+[2024-04-05 13:14:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22635093]
+[2024-04-05 13:14:43] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-05 13:14:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: opensearch-rest-resources
+[2024-04-05 13:14:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: res2df
+[2024-04-05 13:14:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: up42-py
+[2024-04-05 13:14:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nucliadb
+[2024-04-05 13:14:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nucliadb-dataset
+[2024-04-05 13:14:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nucliadb-models
+[2024-04-05 13:14:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: nucliadb-protos
+[2024-04-05 13:14:43] INFO root fetch - processPackages [nucliadb-models]: New version: [2.9.0.post267] Old Version: [2.9.0.post266]
+[2024-04-05 13:14:43] INFO root fetch - processPackages [nucliadb-protos]: New version: [2.9.0.post267] Old Version: [2.9.0.post266]
+[2024-04-05 13:14:43] INFO root fetch - processPackages [nucliadb]: New version: [2.9.0.post267] Old Version: [2.9.0.post266]
+[2024-04-05 13:14:43] INFO root fetch - processPackages [nucliadb-dataset]: New version: [2.9.0.post267] Old Version: [2.9.0.post266]
+[2024-04-05 13:14:43] INFO root fetch - processPackages [nucliadb-models]: Downloading https://files.pythonhosted.org/packages/3b/2d/e4d68391765b0e9f57ca1023e2aec3cf60968a9418e00f24c1554bb0041e/nucliadb_models-2.9.0.post266-py3-none-any.whl
+[2024-04-05 13:14:43] INFO root fetch - processPackages [opensearch-rest-resources]: New version: [0.0.8] Old Version: [0.0.7]
+[2024-04-05 13:14:43] INFO root fetch - processPackages [res2df]: New version: [1.1.1] Old Version: [1.1.0]
+[2024-04-05 13:14:43] INFO root fetch - processPackages [up42-py]: New version: [0.9.3] Old Version: [0.9.2]
+[2024-04-05 13:14:43] INFO root fetch - processPackages [nucliadb-protos]: Downloading https://files.pythonhosted.org/packages/16/50/6ab2e4f9cca425d97ef0824c338fea58b8e3a0bfb590231f3196942875c0/nucliadb_protos-2.9.0.post266-py3-none-any.whl
+[2024-04-05 13:14:43] INFO root fetch - processPackages [nucliadb]: Downloading https://files.pythonhosted.org/packages/7c/ff/0a879c94d307d6130c47fa95a8a217386c5cbb1838101d660244b068cd95/nucliadb-2.9.0.post266-py3-none-any.whl
+[2024-04-05 13:14:43] WARNING root fetch - processPackages [nucliadb-models]: Timeout reached during download
+[2024-04-05 13:14:43] INFO root fetch - processPackages [nucliadb-dataset]: Downloading https://files.pythonhosted.org/packages/56/4b/fc2d9cfebab3c585f1cb9965c827bf2aca2a655f2fec6b1fffcac6eef1c1/nucliadb_dataset-2.9.0.post266-py3-none-any.whl
+[2024-04-05 13:14:44] WARNING root fetch - processPackages [nucliadb-protos]: Timeout reached during download
+[2024-04-05 13:14:44] INFO root fetch - processPackages [opensearch-rest-resources]: Downloading https://files.pythonhosted.org/packages/cb/30/d4904e0e56d9d6c96627d4671784eaca6639b4f9e1a0667d5b2485797120/opensearch-rest-resources-0.0.7.tar.gz
+[2024-04-05 13:14:44] INFO root fetch - processPackages [up42-py]: Downloading https://files.pythonhosted.org/packages/56/5b/680c6031a8ba19d991001612cf44760173e0518cebe401feed41ab0e13fc/up42-py-0.9.2.tar.gz
+[2024-04-05 13:14:44] INFO root fetch - processPackages [res2df]: Downloading https://files.pythonhosted.org/packages/31/11/b3b0d5a46b42591607133103fead2f1e8161a900565100dce3af994dbcd6/res2df-1.1.0.tar.gz
+[2024-04-05 13:14:44] INFO root fetch - processPackages [nucliadb-models]: Downloading https://files.pythonhosted.org/packages/33/34/554de7935ae3aecd4129d1f85d83822f97fd284da917d6aced4c09802f1a/nucliadb_models-2.9.0.post267-py3-none-any.whl
+[2024-04-05 13:14:44] WARNING root fetch - processPackages [nucliadb]: Timeout reached during download
+[2024-04-05 13:14:44] WARNING root fetch - processPackages [nucliadb-dataset]: Timeout reached during download
+[2024-04-05 13:14:44] INFO root fetch - processPackages [nucliadb-protos]: Downloading https://files.pythonhosted.org/packages/21/bd/4fffaf241f826293c98c1317bdaff65a5d202f9ec94d08322b2fd017f3b0/nucliadb_protos-2.9.0.post267-py3-none-any.whl
+[2024-04-05 13:14:44] INFO root fetch - processPackages [nucliadb]: Downloading https://files.pythonhosted.org/packages/d0/e8/3c39cb6a2ed6ad97a3e0dec5110ec85934306f7a7d052b0cb4fe4762aa0f/nucliadb-2.9.0.post267-py3-none-any.whl
+[2024-04-05 13:14:44] WARNING root fetch - processPackages [res2df]: Skipping package: exceeds size limit 11939642>=10485760
+[2024-04-05 13:14:44] INFO root fetch - main [MainThread]: End processing [res2df] error
+[2024-04-05 13:14:44] WARNING root fetch - processPackages [up42-py]: Timeout reached during download
+[2024-04-05 13:14:44] WARNING root fetch - processPackages [nucliadb-models]: Timeout reached during download
+[2024-04-05 13:14:44] INFO root fetch - processPackages [nucliadb-models]: executing diffoscope
+[2024-04-05 13:14:44] INFO root fetch - processPackages [nucliadb-models]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_models-2.9.0.post266-py3-none-any.whl.zip tmp/nucliadb_models-2.9.0.post267-py3-none-any.whl.zip --markdown 20240405/n/nucliadb-models/2.9.0.post266-2.9.0.post267/diff.md --exclude *.pyd
+[2024-04-05 13:14:44] INFO root fetch - processPackages [nucliadb-dataset]: Downloading https://files.pythonhosted.org/packages/80/9f/9ffeb0e3d1b4da8f1178595f75fb1c1ffe183913036ae2a60f569c8c7dc7/nucliadb_dataset-2.9.0.post267-py3-none-any.whl
+[2024-04-05 13:14:44] WARNING root fetch - processPackages [nucliadb-protos]: Timeout reached during download
+[2024-04-05 13:14:44] INFO root fetch - processPackages [nucliadb-protos]: executing diffoscope
+[2024-04-05 13:14:44] INFO root fetch - processPackages [nucliadb-protos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_protos-2.9.0.post266-py3-none-any.whl.zip tmp/nucliadb_protos-2.9.0.post267-py3-none-any.whl.zip --markdown 20240405/n/nucliadb-protos/2.9.0.post266-2.9.0.post267/diff.md --exclude *.pyd
+[2024-04-05 13:14:44] WARNING root fetch - processPackages [opensearch-rest-resources]: Timeout reached during download
+[2024-04-05 13:14:44] WARNING root fetch - processPackages [nucliadb-dataset]: Timeout reached during download
+[2024-04-05 13:14:44] INFO root fetch - processPackages [nucliadb-dataset]: executing diffoscope
+[2024-04-05 13:14:44] INFO root fetch - processPackages [nucliadb-dataset]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_dataset-2.9.0.post266-py3-none-any.whl.zip tmp/nucliadb_dataset-2.9.0.post267-py3-none-any.whl.zip --markdown 20240405/n/nucliadb-dataset/2.9.0.post266-2.9.0.post267/diff.md --exclude *.pyd
+[2024-04-05 13:14:44] WARNING root fetch - processPackages [nucliadb]: Timeout reached during download
+[2024-04-05 13:14:44] INFO root fetch - processPackages [nucliadb]: executing diffoscope
+[2024-04-05 13:14:44] INFO root fetch - processPackages [nucliadb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb-2.9.0.post266-py3-none-any.whl.zip tmp/nucliadb-2.9.0.post267-py3-none-any.whl.zip --markdown 20240405/n/nucliadb/2.9.0.post266-2.9.0.post267/diff.md --exclude *.pyd
+[2024-04-05 13:14:44] INFO root fetch - processPackages [up42-py]: Downloading https://files.pythonhosted.org/packages/02/b8/432e331ff95aad55657255329187db293143fd1bd91665fdb332664cd438/up42-py-0.9.3.tar.gz
+[2024-04-05 13:14:44] INFO root fetch - processPackages [opensearch-rest-resources]: Downloading https://files.pythonhosted.org/packages/74/1a/86935ded346135942fc09b12d2b4e422100a7110d799b2ef91cac620edc5/opensearch-rest-resources-0.0.8.tar.gz
+[2024-04-05 13:14:44] WARNING root fetch - processPackages [opensearch-rest-resources]: Timeout reached during download
+[2024-04-05 13:14:44] INFO root fetch - processPackages [opensearch-rest-resources]: executing diffoscope
+[2024-04-05 13:14:44] INFO root fetch - processPackages [opensearch-rest-resources]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opensearch-rest-resources-0.0.7.tar.gz tmp/opensearch-rest-resources-0.0.8.tar.gz --markdown 20240405/o/opensearch-rest-resources/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2024-04-05 13:14:44] WARNING root fetch - processPackages [up42-py]: Timeout reached during download
+[2024-04-05 13:14:44] INFO root fetch - processPackages [up42-py]: executing diffoscope
+[2024-04-05 13:14:44] INFO root fetch - processPackages [up42-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/up42-py-0.9.2.tar.gz tmp/up42-py-0.9.3.tar.gz --markdown 20240405/u/up42-py/0.9.2-0.9.3/diff.md --exclude *.pyd
+[2024-04-05 13:14:44] INFO root fetch - processPackages [nucliadb-models]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_models-2.9.0.post266-py3-none-any.whl.zip]
+[2024-04-05 13:14:44] INFO root fetch - processPackages [nucliadb-models]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_models-2.9.0.post267-py3-none-any.whl.zip]
+[2024-04-05 13:14:44] INFO root fetch - main [MainThread]: End processing [nucliadb-models]: success
+[2024-04-05 13:14:45] INFO root fetch - processPackages [nucliadb-dataset]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_dataset-2.9.0.post266-py3-none-any.whl.zip]
+[2024-04-05 13:14:45] INFO root fetch - processPackages [nucliadb-dataset]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_dataset-2.9.0.post267-py3-none-any.whl.zip]
+[2024-04-05 13:14:45] INFO root fetch - main [MainThread]: End processing [nucliadb-dataset]: success
+[2024-04-05 13:14:45] INFO root fetch - processPackages [opensearch-rest-resources]: Remove: archive file [/home/abi/fetcher/tmp/opensearch-rest-resources-0.0.7.tar.gz]
+[2024-04-05 13:14:45] INFO root fetch - processPackages [opensearch-rest-resources]: Remove: archive file [/home/abi/fetcher/tmp/opensearch-rest-resources-0.0.8.tar.gz]
+[2024-04-05 13:14:45] INFO root fetch - main [MainThread]: End processing [opensearch-rest-resources]: success
+[2024-04-05 13:14:45] INFO root fetch - processPackages [nucliadb-protos]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_protos-2.9.0.post266-py3-none-any.whl.zip]
+[2024-04-05 13:14:45] INFO root fetch - processPackages [nucliadb-protos]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_protos-2.9.0.post267-py3-none-any.whl.zip]
+[2024-04-05 13:14:45] INFO root fetch - main [MainThread]: End processing [nucliadb-protos]: success
+[2024-04-05 13:14:45] INFO root fetch - processPackages [up42-py]: Remove: archive file [/home/abi/fetcher/tmp/up42-py-0.9.2.tar.gz]
+[2024-04-05 13:14:45] INFO root fetch - processPackages [up42-py]: Remove: archive file [/home/abi/fetcher/tmp/up42-py-0.9.3.tar.gz]
+[2024-04-05 13:14:45] INFO root fetch - main [MainThread]: End processing [up42-py]: success
+[2024-04-05 13:14:45] INFO root fetch - processPackages [nucliadb]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb-2.9.0.post266-py3-none-any.whl.zip]
+[2024-04-05 13:14:45] INFO root fetch - processPackages [nucliadb]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb-2.9.0.post267-py3-none-any.whl.zip]
+[2024-04-05 13:14:45] INFO root fetch - main [MainThread]: End processing [nucliadb]: success
+[2024-04-05 13:14:45] INFO root fetch - main [MainThread]: Store serial: [22635111]
