@@ -21183,3 +21183,50 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2024-04-05 13:39:02] INFO root fetch - processPackages [quokka-sharp]: Remove: archive file [/home/abi/fetcher/tmp/quokka_sharp-0.0.9.tar.gz]
 [2024-04-05 13:39:02] INFO root fetch - main [MainThread]: End processing [quokka-sharp]: success
 [2024-04-05 13:39:02] INFO root fetch - main [MainThread]: Store serial: [22635456]
+[2024-04-05 13:41:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22635456]
+[2024-04-05 13:41:11] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-05 13:41:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: stellate-strawberry
+[2024-04-05 13:41:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pywiscat
+[2024-04-05 13:41:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dadmatools
+[2024-04-05 13:41:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: rustyrs
+[2024-04-05 13:41:11] INFO root fetch - processPackages [dadmatools]: New version: [2.0.2] Old Version: [2.0.1]
+[2024-04-05 13:41:11] INFO root fetch - processPackages [pywiscat]: New version: [0.2.0] Old Version: [0.1.dev0]
+[2024-04-05 13:41:11] INFO root fetch - processPackages [rustyrs]: New version: [0.3.2] Old Version: [0.3.1]
+[2024-04-05 13:41:11] INFO root fetch - processPackages [stellate-strawberry]: New version: [1.1.1] Old Version: [1.1.0]
+[2024-04-05 13:41:11] INFO root fetch - processPackages [stellate-strawberry]: Downloading https://files.pythonhosted.org/packages/52/0e/96ff6789ce9a33f202877117a55d6e5f760c9643dbe8a5c8b47ac70ab668/stellate_strawberry-1.1.0.tar.gz
+[2024-04-05 13:41:11] INFO root fetch - processPackages [dadmatools]: Downloading https://files.pythonhosted.org/packages/04/cf/03db8422f4ee2c610536e0f4e3ab3dde4593ffd7f1700c75cb5b7193b123/dadmatools-2.0.1.tar.gz
+[2024-04-05 13:41:11] INFO root fetch - processPackages [pywiscat]: Downloading https://files.pythonhosted.org/packages/fd/b6/e28741268b3e5724b16fe3b64f5fa68a7385856f5267511b117ce8d65931/pywiscat-0.1.dev0.tar.gz
+[2024-04-05 13:41:11] INFO root fetch - processPackages [rustyrs]: Downloading https://files.pythonhosted.org/packages/92/a6/4bc9e9ae2c50c7531b10f90edfa3103cbd5a31594f882364a241c76ae6cf/rustyrs-0.3.1.tar.gz
+[2024-04-05 13:41:12] WARNING root fetch - processPackages [stellate-strawberry]: Timeout reached during download
+[2024-04-05 13:41:12] WARNING root fetch - processPackages [rustyrs]: Timeout reached during download
+[2024-04-05 13:41:12] WARNING root fetch - processPackages [pywiscat]: Timeout reached during download
+[2024-04-05 13:41:12] WARNING root fetch - processPackages [dadmatools]: Timeout reached during download
+[2024-04-05 13:41:12] INFO root fetch - processPackages [stellate-strawberry]: Downloading https://files.pythonhosted.org/packages/8d/8b/fda6e2be5cf638c54d7926a07fd86ef02314ae9e64607d6247e4f2b89122/stellate_strawberry-1.1.1.tar.gz
+[2024-04-05 13:41:12] INFO root fetch - processPackages [rustyrs]: Downloading https://files.pythonhosted.org/packages/b8/5a/1f0bfb0b2fa72a4d0bd2b214d93d43605a3c7a9ea900db0697cb51c80e63/rustyrs-0.3.2-cp311-cp311-manylinux_2_28_x86_64.whl
+[2024-04-05 13:41:12] WARNING root fetch - processPackages [stellate-strawberry]: Timeout reached during download
+[2024-04-05 13:41:12] INFO root fetch - processPackages [stellate-strawberry]: executing diffoscope
+[2024-04-05 13:41:12] INFO root fetch - processPackages [stellate-strawberry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stellate_strawberry-1.1.0.tar.gz tmp/stellate_strawberry-1.1.1.tar.gz --markdown 20240405/s/stellate-strawberry/1.1.0-1.1.1/diff.md --exclude *.pyd
+[2024-04-05 13:41:12] INFO root fetch - processPackages [pywiscat]: Downloading https://files.pythonhosted.org/packages/bd/26/6c50411d2bab511cce59a2d5ec0e59e7380320bb97ce27bd030298dba5be/pywiscat-0.2.0.tar.gz
+[2024-04-05 13:41:12] INFO root fetch - processPackages [dadmatools]: Downloading https://files.pythonhosted.org/packages/a2/8d/065815728f4d838c2276f9841eb76eb43eed087a90a9e63dd3166b39774a/dadmatools-2.0.2.tar.gz
+[2024-04-05 13:41:12] WARNING root fetch - processPackages [rustyrs]: Timeout reached during download
+[2024-04-05 13:41:12] INFO root fetch - processPackages [rustyrs]: executing diffoscope
+[2024-04-05 13:41:12] INFO root fetch - processPackages [rustyrs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rustyrs-0.3.1.tar.gz tmp/rustyrs-0.3.2-cp311-cp311-manylinux_2_28_x86_64.whl.zip --markdown 20240405/r/rustyrs/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2024-04-05 13:41:12] WARNING root fetch - processPackages [pywiscat]: Timeout reached during download
+[2024-04-05 13:41:12] INFO root fetch - processPackages [pywiscat]: executing diffoscope
+[2024-04-05 13:41:12] INFO root fetch - processPackages [pywiscat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pywiscat-0.1.dev0.tar.gz tmp/pywiscat-0.2.0.tar.gz --markdown 20240405/p/pywiscat/0.1.dev0-0.2.0/diff.md --exclude *.pyd
+[2024-04-05 13:41:12] WARNING root fetch - processPackages [dadmatools]: Timeout reached during download
+[2024-04-05 13:41:12] INFO root fetch - processPackages [dadmatools]: executing diffoscope
+[2024-04-05 13:41:12] INFO root fetch - processPackages [dadmatools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dadmatools-2.0.1.tar.gz tmp/dadmatools-2.0.2.tar.gz --markdown 20240405/d/dadmatools/2.0.1-2.0.2/diff.md --exclude *.pyd
+[2024-04-05 13:41:12] INFO root fetch - processPackages [stellate-strawberry]: Remove: archive file [/home/abi/fetcher/tmp/stellate_strawberry-1.1.0.tar.gz]
+[2024-04-05 13:41:12] INFO root fetch - processPackages [stellate-strawberry]: Remove: archive file [/home/abi/fetcher/tmp/stellate_strawberry-1.1.1.tar.gz]
+[2024-04-05 13:41:12] INFO root fetch - main [MainThread]: End processing [stellate-strawberry]: success
+[2024-04-05 13:41:12] INFO root fetch - processPackages [rustyrs]: Remove: archive file [/home/abi/fetcher/tmp/rustyrs-0.3.1.tar.gz]
+[2024-04-05 13:41:12] INFO root fetch - processPackages [rustyrs]: Remove: archive file [/home/abi/fetcher/tmp/rustyrs-0.3.2-cp311-cp311-manylinux_2_28_x86_64.whl.zip]
+[2024-04-05 13:41:12] INFO root fetch - main [MainThread]: End processing [rustyrs]: success
+[2024-04-05 13:41:12] INFO root fetch - processPackages [pywiscat]: Remove: archive file [/home/abi/fetcher/tmp/pywiscat-0.1.dev0.tar.gz]
+[2024-04-05 13:41:12] INFO root fetch - processPackages [pywiscat]: Remove: archive file [/home/abi/fetcher/tmp/pywiscat-0.2.0.tar.gz]
+[2024-04-05 13:41:12] INFO root fetch - main [MainThread]: End processing [pywiscat]: success
+[2024-04-05 13:41:14] INFO root fetch - processPackages [dadmatools]: Remove: archive file [/home/abi/fetcher/tmp/dadmatools-2.0.1.tar.gz]
+[2024-04-05 13:41:14] INFO root fetch - processPackages [dadmatools]: Remove: archive file [/home/abi/fetcher/tmp/dadmatools-2.0.2.tar.gz]
+[2024-04-05 13:41:14] INFO root fetch - main [MainThread]: End processing [dadmatools]: success
+[2024-04-05 13:41:14] INFO root fetch - main [MainThread]: Store serial: [22635468]
