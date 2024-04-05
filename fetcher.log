@@ -12499,3 +12499,61 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2024-04-05 07:34:51] INFO root fetch - processPackages [tuack]: Remove: archive file [/home/abi/fetcher/tmp/tuack-0.1.5.3.1.tar.gz]
 [2024-04-05 07:34:51] INFO root fetch - main [MainThread]: End processing [tuack]: success
 [2024-04-05 07:34:51] INFO root fetch - main [MainThread]: Store serial: [22632059]
+[2024-04-05 07:36:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22632059]
+[2024-04-05 07:37:01] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-05 07:37:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: netmiko-mhrt
+[2024-04-05 07:37:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: johnsnowlabs
+[2024-04-05 07:37:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: johnsnowlabs-for-databricks
+[2024-04-05 07:37:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: weas-widget
+[2024-04-05 07:37:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo-addon-openupgrade-scripts
+[2024-04-05 07:37:02] INFO root fetch - processPackages [netmiko-mhrt]: New version: [1.0.6] Old Version: [1.0.5]
+[2024-04-05 07:37:02] INFO root fetch - processPackages [johnsnowlabs-for-databricks]: New version: [5.3.3rc5] Old Version: [5.3.3rc4]
+[2024-04-05 07:37:02] INFO root fetch - processPackages [johnsnowlabs]: New version: [5.3.3rc5] Old Version: [5.3.3rc4]
+[2024-04-05 07:37:02] INFO root fetch - processPackages [weas-widget]: New version: [0.1.0a0] Old Version: [0.1.0]
+[2024-04-05 07:37:02] INFO root fetch - processPackages [netmiko-mhrt]: Downloading https://files.pythonhosted.org/packages/71/27/bf360704fefa958b7e02a48b76fc4d272536d5bbb955357480ef58dfef90/netmiko_mhrt-1.0.5.tar.gz
+[2024-04-05 07:37:02] INFO root fetch - processPackages [odoo-addon-openupgrade-scripts]: New version: [17.0.1.0.1.1] Old Version: [17.0.1.0.1]
+[2024-04-05 07:37:02] INFO root fetch - processPackages [johnsnowlabs]: Downloading https://files.pythonhosted.org/packages/74/32/56618e708209b22f87b4d3e74bb25e4932c2d410faae39057278b27b96d5/johnsnowlabs-5.3.3rc4-py3-none-any.whl
+[2024-04-05 07:37:02] INFO root fetch - processPackages [johnsnowlabs-for-databricks]: Downloading https://files.pythonhosted.org/packages/f7/08/e576982a69d37e3027b119d5d466cfecd171731d4af1159e9a652f54cf7a/johnsnowlabs_for_databricks-5.3.3rc4-py3-none-any.whl
+[2024-04-05 07:37:02] WARNING root fetch - processPackages [netmiko-mhrt]: Timeout reached during download
+[2024-04-05 07:37:02] WARNING root fetch - processPackages [johnsnowlabs]: Timeout reached during download
+[2024-04-05 07:37:02] INFO root fetch - processPackages [weas-widget]: Downloading https://files.pythonhosted.org/packages/23/60/4954e085b47e116f6785944a0cf70da3fe11b2b3eee8e23c9ac47b2986fa/weas_widget-0.1.0.tar.gz
+[2024-04-05 07:37:02] WARNING root fetch - processPackages [johnsnowlabs-for-databricks]: Timeout reached during download
+[2024-04-05 07:37:02] INFO root fetch - processPackages [odoo-addon-openupgrade-scripts]: Downloading https://files.pythonhosted.org/packages/ac/89/1dbbab632b9797a344253e7b7ce222a549a0f9008ea4e6090bd23e63f4a1/odoo_addon_openupgrade_scripts-17.0.1.0.1-py3-none-any.whl
+[2024-04-05 07:37:02] INFO root fetch - processPackages [netmiko-mhrt]: Downloading https://files.pythonhosted.org/packages/6d/6c/2fa7a5e2a35fa770363a85ccc82eafbe8c0cb1052217f76640bacb54cfbb/netmiko_mhrt-1.0.6.tar.gz
+[2024-04-05 07:37:02] WARNING root fetch - processPackages [weas-widget]: Timeout reached during download
+[2024-04-05 07:37:02] INFO root fetch - processPackages [johnsnowlabs]: Downloading https://files.pythonhosted.org/packages/6c/21/33545c507f7107f0f289c44ab00a6ec7441f76acf10029eefd99202b0161/johnsnowlabs-5.3.3rc5.tar.gz
+[2024-04-05 07:37:02] WARNING root fetch - processPackages [odoo-addon-openupgrade-scripts]: Timeout reached during download
+[2024-04-05 07:37:02] INFO root fetch - processPackages [johnsnowlabs-for-databricks]: Downloading https://files.pythonhosted.org/packages/dd/11/e4227e5bb48cbb33c95c2b78c8400133388ac95c671b02d0c4aff2f00ce1/johnsnowlabs_for_databricks-5.3.3rc5.tar.gz
+[2024-04-05 07:37:02] WARNING root fetch - processPackages [netmiko-mhrt]: Timeout reached during download
+[2024-04-05 07:37:02] INFO root fetch - processPackages [netmiko-mhrt]: executing diffoscope
+[2024-04-05 07:37:02] INFO root fetch - processPackages [netmiko-mhrt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/netmiko_mhrt-1.0.5.tar.gz tmp/netmiko_mhrt-1.0.6.tar.gz --markdown 20240405/n/netmiko-mhrt/1.0.5-1.0.6/diff.md --exclude *.pyd
+[2024-04-05 07:37:02] INFO root fetch - processPackages [weas-widget]: Downloading https://files.pythonhosted.org/packages/2b/0d/3600153d00d4753712db77b1d190711f7ae872bcbefdec7b95b5cee217f7/weas_widget-0.1.0a0.tar.gz
+[2024-04-05 07:37:02] WARNING root fetch - processPackages [johnsnowlabs]: Timeout reached during download
+[2024-04-05 07:37:02] INFO root fetch - processPackages [johnsnowlabs]: executing diffoscope
+[2024-04-05 07:37:02] INFO root fetch - processPackages [johnsnowlabs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/johnsnowlabs-5.3.3rc4-py3-none-any.whl.zip tmp/johnsnowlabs-5.3.3rc5.tar.gz --markdown 20240405/j/johnsnowlabs/5.3.3rc4-5.3.3rc5/diff.md --exclude *.pyd
+[2024-04-05 07:37:02] WARNING root fetch - processPackages [johnsnowlabs-for-databricks]: Timeout reached during download
+[2024-04-05 07:37:02] INFO root fetch - processPackages [johnsnowlabs-for-databricks]: executing diffoscope
+[2024-04-05 07:37:02] INFO root fetch - processPackages [johnsnowlabs-for-databricks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/johnsnowlabs_for_databricks-5.3.3rc4-py3-none-any.whl.zip tmp/johnsnowlabs_for_databricks-5.3.3rc5.tar.gz --markdown 20240405/j/johnsnowlabs-for-databricks/5.3.3rc4-5.3.3rc5/diff.md --exclude *.pyd
+[2024-04-05 07:37:02] INFO root fetch - processPackages [odoo-addon-openupgrade-scripts]: Downloading https://files.pythonhosted.org/packages/db/05/04688d4f82370e4bae4a14ef6020e82e09ade6c98c3acef20837d8590431/odoo_addon_openupgrade_scripts-17.0.1.0.1.1-py3-none-any.whl
+[2024-04-05 07:37:02] WARNING root fetch - processPackages [weas-widget]: Timeout reached during download
+[2024-04-05 07:37:02] INFO root fetch - processPackages [weas-widget]: executing diffoscope
+[2024-04-05 07:37:02] INFO root fetch - processPackages [weas-widget]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/weas_widget-0.1.0.tar.gz tmp/weas_widget-0.1.0a0.tar.gz --markdown 20240405/w/weas-widget/0.1.0-0.1.0a0/diff.md --exclude *.pyd
+[2024-04-05 07:37:03] WARNING root fetch - processPackages [odoo-addon-openupgrade-scripts]: Timeout reached during download
+[2024-04-05 07:37:03] INFO root fetch - processPackages [odoo-addon-openupgrade-scripts]: executing diffoscope
+[2024-04-05 07:37:03] INFO root fetch - processPackages [odoo-addon-openupgrade-scripts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_openupgrade_scripts-17.0.1.0.1-py3-none-any.whl.zip tmp/odoo_addon_openupgrade_scripts-17.0.1.0.1.1-py3-none-any.whl.zip --markdown 20240405/o/odoo-addon-openupgrade-scripts/17.0.1.0.1-17.0.1.0.1.1/diff.md --exclude *.pyd
+[2024-04-05 07:37:03] INFO root fetch - processPackages [netmiko-mhrt]: Remove: archive file [/home/abi/fetcher/tmp/netmiko_mhrt-1.0.5.tar.gz]
+[2024-04-05 07:37:03] INFO root fetch - processPackages [netmiko-mhrt]: Remove: archive file [/home/abi/fetcher/tmp/netmiko_mhrt-1.0.6.tar.gz]
+[2024-04-05 07:37:03] INFO root fetch - main [MainThread]: End processing [netmiko-mhrt]: success
+[2024-04-05 07:37:03] INFO root fetch - processPackages [johnsnowlabs]: Remove: archive file [/home/abi/fetcher/tmp/johnsnowlabs-5.3.3rc4-py3-none-any.whl.zip]
+[2024-04-05 07:37:03] INFO root fetch - processPackages [johnsnowlabs]: Remove: archive file [/home/abi/fetcher/tmp/johnsnowlabs-5.3.3rc5.tar.gz]
+[2024-04-05 07:37:03] INFO root fetch - main [MainThread]: End processing [johnsnowlabs]: success
+[2024-04-05 07:37:03] INFO root fetch - processPackages [johnsnowlabs-for-databricks]: Remove: archive file [/home/abi/fetcher/tmp/johnsnowlabs_for_databricks-5.3.3rc4-py3-none-any.whl.zip]
+[2024-04-05 07:37:03] INFO root fetch - processPackages [johnsnowlabs-for-databricks]: Remove: archive file [/home/abi/fetcher/tmp/johnsnowlabs_for_databricks-5.3.3rc5.tar.gz]
+[2024-04-05 07:37:03] INFO root fetch - main [MainThread]: End processing [johnsnowlabs-for-databricks]: success
+[2024-04-05 07:37:05] INFO root fetch - processPackages [odoo-addon-openupgrade-scripts]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_openupgrade_scripts-17.0.1.0.1-py3-none-any.whl.zip]
+[2024-04-05 07:37:05] INFO root fetch - processPackages [odoo-addon-openupgrade-scripts]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_openupgrade_scripts-17.0.1.0.1.1-py3-none-any.whl.zip]
+[2024-04-05 07:37:05] INFO root fetch - main [MainThread]: End processing [odoo-addon-openupgrade-scripts]: success
+[2024-04-05 07:37:08] INFO root fetch - processPackages [weas-widget]: Remove: archive file [/home/abi/fetcher/tmp/weas_widget-0.1.0.tar.gz]
+[2024-04-05 07:37:08] INFO root fetch - processPackages [weas-widget]: Remove: archive file [/home/abi/fetcher/tmp/weas_widget-0.1.0a0.tar.gz]
+[2024-04-05 07:37:08] INFO root fetch - main [MainThread]: End processing [weas-widget]: success
+[2024-04-05 07:37:08] INFO root fetch - main [MainThread]: Store serial: [22632074]
