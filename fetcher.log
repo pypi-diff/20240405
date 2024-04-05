@@ -21929,3 +21929,76 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2024-04-05 14:16:18] INFO root fetch - processPackages [nekoton]: Remove: archive file [/home/abi/fetcher/tmp/nekoton-0.1.9-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
 [2024-04-05 14:16:18] INFO root fetch - main [MainThread]: End processing [nekoton]: success
 [2024-04-05 14:16:18] INFO root fetch - main [MainThread]: Store serial: [22635735]
+[2024-04-05 14:18:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22635735]
+[2024-04-05 14:18:37] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-05 14:18:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: chefsessionlib
+[2024-04-05 14:18:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: aiow
+[2024-04-05 14:18:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: syndb-constants
+[2024-04-05 14:18:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cdk8s
+[2024-04-05 14:18:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: sqlalchemy-toolkit
+[2024-04-05 14:18:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cdk8s
+[2024-04-05 14:18:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: odoo-addon-l10n-ro-etransport
+[2024-04-05 14:18:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pyguiadapter
+[2024-04-05 14:18:37] INFO root fetch - processPackages [pyguiadapter]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-04-05 14:18:37] INFO root fetch - processPackages [syndb-constants]: New version: [0.9.4] Old Version: [0.9.3]
+[2024-04-05 14:18:37] INFO root fetch - processPackages [odoo-addon-l10n-ro-etransport]: New version: [17.0.0.3.0] Old Version: [16.0.0.4.0]
+[2024-04-05 14:18:38] WARNING root fetch - processPackages [sqlalchemy-toolkit]: Skipping, unable to determine old version
+[2024-04-05 14:18:38] INFO root fetch - main [MainThread]: End processing [sqlalchemy-toolkit] error
+[2024-04-05 14:18:38] INFO root fetch - processPackages [pyguiadapter]: Downloading https://files.pythonhosted.org/packages/63/70/e1d55956ecbc1c69b82b6b56ac1401fd0767a68b6719791fbc02a0c7f16e/pyguiadapter-0.2.8.tar.gz
+[2024-04-05 14:18:38] INFO root fetch - processPackages [chefsessionlib]: New version: [0.1.1] Old Version: [0.0.0]
+[2024-04-05 14:18:38] WARNING root fetch - processPackages [aiow]: Skipping, unable to determine old version
+[2024-04-05 14:18:38] INFO root fetch - main [MainThread]: End processing [aiow] error
+[2024-04-05 14:18:38] INFO root fetch - processPackages [cdk8s]: New version: [2.9.0] Old Version: [2.8.0]
+[2024-04-05 14:18:38] INFO root fetch - processPackages [cdk8s]: New version: [2.9.0] Old Version: [2.8.0]
+[2024-04-05 14:18:38] INFO root fetch - processPackages [odoo-addon-l10n-ro-etransport]: Downloading https://files.pythonhosted.org/packages/d0/84/0dbf8d587d1819ab97c21677b246756aca53d65529bd996e0a62d0eedb19/odoo_addon_l10n_ro_etransport-16.0.0.4.0-py3-none-any.whl
+[2024-04-05 14:18:38] INFO root fetch - processPackages [syndb-constants]: Downloading https://files.pythonhosted.org/packages/97/04/5b69e23270d110a73b6f0a97571d5f2deaea3ecc3acc5cc11c7737e68fbc/syndb_constants-0.9.3.tar.gz
+[2024-04-05 14:18:38] WARNING root fetch - processPackages [pyguiadapter]: Timeout reached during download
+[2024-04-05 14:18:38] INFO root fetch - processPackages [chefsessionlib]: Downloading https://files.pythonhosted.org/packages/87/33/79e1d8ccfd4c8c5e461509bab78fdb0fe9e269627ebe5a9883490a6e6ca5/chefsessionlib-0.0.0.tar.gz
+[2024-04-05 14:18:38] WARNING root fetch - processPackages [syndb-constants]: Timeout reached during download
+[2024-04-05 14:18:38] WARNING root fetch - processPackages [odoo-addon-l10n-ro-etransport]: Timeout reached during download
+[2024-04-05 14:18:38] INFO root fetch - processPackages [pyguiadapter]: Downloading https://files.pythonhosted.org/packages/70/0c/139e08664e09a36f6be946b9da6bbd901fb3f580d61247274ec28cc5b2e9/pyguiadapter-0.2.9.tar.gz
+[2024-04-05 14:18:38] INFO root fetch - processPackages [cdk8s]: Downloading https://files.pythonhosted.org/packages/7d/c5/592391e50b273450851cb1dd87401069971eead9d407a9d5c5ec13704f65/cdk8s-2.8.0.tar.gz
+[2024-04-05 14:18:38] INFO root fetch - processPackages [cdk8s]: Downloading https://files.pythonhosted.org/packages/7d/c5/592391e50b273450851cb1dd87401069971eead9d407a9d5c5ec13704f65/cdk8s-2.8.0.tar.gz
+[2024-04-05 14:18:38] INFO root fetch - processPackages [syndb-constants]: Downloading https://files.pythonhosted.org/packages/88/44/0cfb8c073292a3b4dfee6cf82183928f065fa411b4102f7c7195d9ab3a0e/syndb_constants-0.9.4.tar.gz
+[2024-04-05 14:18:38] WARNING root fetch - processPackages [chefsessionlib]: Timeout reached during download
+[2024-04-05 14:18:38] WARNING root fetch - processPackages [pyguiadapter]: Timeout reached during download
+[2024-04-05 14:18:38] INFO root fetch - processPackages [odoo-addon-l10n-ro-etransport]: Downloading https://files.pythonhosted.org/packages/71/d0/b8b198c458951bd2f3671c81ad6e6d8f7f611b4b1024d8bd9522c67bc182/odoo_addon_l10n_ro_etransport-17.0.0.3.0-py3-none-any.whl
+[2024-04-05 14:18:38] INFO root fetch - processPackages [pyguiadapter]: executing diffoscope
+[2024-04-05 14:18:38] INFO root fetch - processPackages [pyguiadapter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyguiadapter-0.2.8.tar.gz tmp/pyguiadapter-0.2.9.tar.gz --markdown 20240405/p/pyguiadapter/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2024-04-05 14:18:38] WARNING root fetch - processPackages [syndb-constants]: Timeout reached during download
+[2024-04-05 14:18:38] INFO root fetch - processPackages [syndb-constants]: executing diffoscope
+[2024-04-05 14:18:38] INFO root fetch - processPackages [syndb-constants]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/syndb_constants-0.9.3.tar.gz tmp/syndb_constants-0.9.4.tar.gz --markdown 20240405/s/syndb-constants/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2024-04-05 14:18:38] INFO root fetch - processPackages [chefsessionlib]: Downloading https://files.pythonhosted.org/packages/c1/a2/3d32dddf5c250d321d3cb413bb018f2e7873de918e40ac887beef00dc8d0/chefsessionlib-0.1.1.tar.gz
+[2024-04-05 14:18:38] WARNING root fetch - processPackages [odoo-addon-l10n-ro-etransport]: Timeout reached during download
+[2024-04-05 14:18:38] INFO root fetch - processPackages [odoo-addon-l10n-ro-etransport]: executing diffoscope
+[2024-04-05 14:18:38] INFO root fetch - processPackages [odoo-addon-l10n-ro-etransport]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_l10n_ro_etransport-16.0.0.4.0-py3-none-any.whl.zip tmp/odoo_addon_l10n_ro_etransport-17.0.0.3.0-py3-none-any.whl.zip --markdown 20240405/o/odoo-addon-l10n-ro-etransport/16.0.0.4.0-17.0.0.3.0/diff.md --exclude *.pyd
+[2024-04-05 14:18:38] WARNING root fetch - processPackages [cdk8s]: Timeout reached during download
+[2024-04-05 14:18:38] WARNING root fetch - processPackages [cdk8s]: Timeout reached during download
+[2024-04-05 14:18:38] WARNING root fetch - processPackages [chefsessionlib]: Timeout reached during download
+[2024-04-05 14:18:38] INFO root fetch - processPackages [chefsessionlib]: executing diffoscope
+[2024-04-05 14:18:38] INFO root fetch - processPackages [chefsessionlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chefsessionlib-0.0.0.tar.gz tmp/chefsessionlib-0.1.1.tar.gz --markdown 20240405/c/chefsessionlib/0.0.0-0.1.1/diff.md --exclude *.pyd
+[2024-04-05 14:18:38] INFO root fetch - processPackages [cdk8s]: Downloading https://files.pythonhosted.org/packages/3b/6d/920a6a9be9d1576059ced41c1fd11a3f7214589f1add4c7d3da2290b1198/cdk8s-2.9.0.tar.gz
+[2024-04-05 14:18:38] INFO root fetch - processPackages [cdk8s]: Downloading https://files.pythonhosted.org/packages/3b/6d/920a6a9be9d1576059ced41c1fd11a3f7214589f1add4c7d3da2290b1198/cdk8s-2.9.0.tar.gz
+[2024-04-05 14:18:39] WARNING root fetch - processPackages [cdk8s]: Timeout reached during download
+[2024-04-05 14:18:39] INFO root fetch - processPackages [cdk8s]: executing diffoscope
+[2024-04-05 14:18:39] INFO root fetch - processPackages [cdk8s]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-2.8.0.tar.gz tmp/cdk8s-2.9.0.tar.gz --markdown 20240405/c/cdk8s/2.8.0-2.9.0/diff.md --exclude *.pyd
+[2024-04-05 14:18:39] INFO root fetch - processPackages [syndb-constants]: Remove: archive file [/home/abi/fetcher/tmp/syndb_constants-0.9.3.tar.gz]
+[2024-04-05 14:18:39] INFO root fetch - processPackages [syndb-constants]: Remove: archive file [/home/abi/fetcher/tmp/syndb_constants-0.9.4.tar.gz]
+[2024-04-05 14:18:39] INFO root fetch - main [MainThread]: End processing [syndb-constants]: success
+[2024-04-05 14:18:39] WARNING root fetch - processPackages [cdk8s]: Timeout reached during download
+[2024-04-05 14:18:39] INFO root fetch - processPackages [cdk8s]: executing diffoscope
+[2024-04-05 14:18:39] INFO root fetch - processPackages [cdk8s]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-2.8.0.tar.gz tmp/cdk8s-2.9.0.tar.gz --markdown 20240405/c/cdk8s/2.8.0-2.9.0/diff.md --exclude *.pyd
+[2024-04-05 14:18:39] INFO root fetch - processPackages [odoo-addon-l10n-ro-etransport]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_ro_etransport-16.0.0.4.0-py3-none-any.whl.zip]
+[2024-04-05 14:18:39] INFO root fetch - processPackages [odoo-addon-l10n-ro-etransport]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_ro_etransport-17.0.0.3.0-py3-none-any.whl.zip]
+[2024-04-05 14:18:39] INFO root fetch - main [MainThread]: End processing [odoo-addon-l10n-ro-etransport]: success
+[2024-04-05 14:18:39] INFO root fetch - processPackages [chefsessionlib]: Remove: archive file [/home/abi/fetcher/tmp/chefsessionlib-0.0.0.tar.gz]
+[2024-04-05 14:18:39] INFO root fetch - processPackages [chefsessionlib]: Remove: archive file [/home/abi/fetcher/tmp/chefsessionlib-0.1.1.tar.gz]
+[2024-04-05 14:18:39] INFO root fetch - main [MainThread]: End processing [chefsessionlib]: success
+[2024-04-05 14:18:39] INFO root fetch - processPackages [cdk8s]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-2.8.0.tar.gz]
+[2024-04-05 14:18:39] INFO root fetch - processPackages [cdk8s]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-2.9.0.tar.gz]
+[2024-04-05 14:18:39] INFO root fetch - main [MainThread]: End processing [cdk8s]: success
+[2024-04-05 14:18:39] INFO root fetch - main [MainThread]: End processing [cdk8s]: success
+[2024-04-05 14:18:39] INFO root fetch - processPackages [pyguiadapter]: Remove: archive file [/home/abi/fetcher/tmp/pyguiadapter-0.2.8.tar.gz]
+[2024-04-05 14:18:39] INFO root fetch - processPackages [pyguiadapter]: Remove: archive file [/home/abi/fetcher/tmp/pyguiadapter-0.2.9.tar.gz]
+[2024-04-05 14:18:39] INFO root fetch - main [MainThread]: End processing [pyguiadapter]: success
+[2024-04-05 14:18:39] INFO root fetch - main [MainThread]: Store serial: [22635771]
