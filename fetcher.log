@@ -9546,3 +9546,17 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2024-04-05 04:30:35] INFO root fetch - processPackages [yymake]: Remove: archive file [/home/abi/fetcher/tmp/yymake-0.8.5.tar.gz]
 [2024-04-05 04:30:35] INFO root fetch - main [MainThread]: End processing [yymake]: success
 [2024-04-05 04:30:35] INFO root fetch - main [MainThread]: Store serial: [22631187]
+[2024-04-05 04:32:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22631187]
+[2024-04-05 04:32:43] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-04-05 04:32:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sqlx-exec
+[2024-04-05 04:32:43] INFO root fetch - processPackages [sqlx-exec]: New version: [2.3.4] Old Version: [2.3.3]
+[2024-04-05 04:32:43] INFO root fetch - processPackages [sqlx-exec]: Downloading https://files.pythonhosted.org/packages/40/5e/06d82ab941819b4f486ea1933eccf3ebb1b77f8cf298a5e8d704eb8f5db6/sqlx-exec-2.3.3.tar.gz
+[2024-04-05 04:32:44] WARNING root fetch - processPackages [sqlx-exec]: Timeout reached during download
+[2024-04-05 04:32:44] INFO root fetch - processPackages [sqlx-exec]: Downloading https://files.pythonhosted.org/packages/22/e6/5da505c4108953224ae34fd82814ff661178b9425ce2d1507838ad0c9e53/sqlx-exec-2.3.4.tar.gz
+[2024-04-05 04:32:44] WARNING root fetch - processPackages [sqlx-exec]: Timeout reached during download
+[2024-04-05 04:32:44] INFO root fetch - processPackages [sqlx-exec]: executing diffoscope
+[2024-04-05 04:32:44] INFO root fetch - processPackages [sqlx-exec]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqlx-exec-2.3.3.tar.gz tmp/sqlx-exec-2.3.4.tar.gz --markdown 20240405/s/sqlx-exec/2.3.3-2.3.4/diff.md --exclude *.pyd
+[2024-04-05 04:32:44] INFO root fetch - processPackages [sqlx-exec]: Remove: archive file [/home/abi/fetcher/tmp/sqlx-exec-2.3.3.tar.gz]
+[2024-04-05 04:32:44] INFO root fetch - processPackages [sqlx-exec]: Remove: archive file [/home/abi/fetcher/tmp/sqlx-exec-2.3.4.tar.gz]
+[2024-04-05 04:32:44] INFO root fetch - main [MainThread]: End processing [sqlx-exec]: success
+[2024-04-05 04:32:44] INFO root fetch - main [MainThread]: Store serial: [22631190]
