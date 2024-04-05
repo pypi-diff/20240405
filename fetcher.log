@@ -11339,3 +11339,39 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2024-04-05 06:17:33] INFO root fetch - processPackages [odoo-addon-helpdesk-mgmt-rating]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_helpdesk_mgmt_rating-15.0.1.0.0.9-py3-none-any.whl.zip]
 [2024-04-05 06:17:33] INFO root fetch - main [MainThread]: End processing [odoo-addon-helpdesk-mgmt-rating]: success
 [2024-04-05 06:17:33] INFO root fetch - main [MainThread]: Store serial: [22631680]
+[2024-04-05 06:19:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22631680]
+[2024-04-05 06:19:42] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-05 06:19:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo14-addon-helpdesk-mgmt-rating
+[2024-04-05 06:19:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addon-helpdesk-mgmt-rating
+[2024-04-05 06:19:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: marqo
+[2024-04-05 06:19:42] INFO root fetch - processPackages [odoo14-addon-helpdesk-mgmt-rating]: New version: [14.0.1.3.1.dev8] Old Version: [14.0.1.3.1.dev7]
+[2024-04-05 06:19:42] INFO root fetch - processPackages [odoo-addon-helpdesk-mgmt-rating]: New version: [15.0.1.0.0.9] Old Version: [15.0.1.0.0.8]
+[2024-04-05 06:19:42] INFO root fetch - processPackages [odoo14-addon-helpdesk-mgmt-rating]: Downloading https://files.pythonhosted.org/packages/2d/41/172b856066b32a5eb9c1128612ab6a1571d7621db34c2b181f0e28fb9083/odoo14_addon_helpdesk_mgmt_rating-14.0.1.3.1.dev7-py3-none-any.whl
+[2024-04-05 06:19:42] INFO root fetch - processPackages [odoo-addon-helpdesk-mgmt-rating]: Downloading https://files.pythonhosted.org/packages/d7/16/ca9c4d78e08eacd8bbff736d4a616478a6f680c17e910469b31db6e124a7/odoo_addon_helpdesk_mgmt_rating-15.0.1.0.0.8-py3-none-any.whl
+[2024-04-05 06:19:42] INFO root fetch - processPackages [marqo]: New version: [3.2.1] Old Version: [3.2.0]
+[2024-04-05 06:19:42] WARNING root fetch - processPackages [odoo14-addon-helpdesk-mgmt-rating]: Timeout reached during download
+[2024-04-05 06:19:42] WARNING root fetch - processPackages [odoo-addon-helpdesk-mgmt-rating]: Timeout reached during download
+[2024-04-05 06:19:42] INFO root fetch - processPackages [odoo-addon-helpdesk-mgmt-rating]: Downloading https://files.pythonhosted.org/packages/8d/53/0156fd3219f9617743a28f5022ed6251b5356e65629810387bdb924d08be/odoo_addon_helpdesk_mgmt_rating-15.0.1.0.0.9-py3-none-any.whl
+[2024-04-05 06:19:42] INFO root fetch - processPackages [odoo14-addon-helpdesk-mgmt-rating]: Downloading https://files.pythonhosted.org/packages/37/66/637068e31b4a1b99da84831f36f9ef76104763698ac770da85aa8f92f6e5/odoo14_addon_helpdesk_mgmt_rating-14.0.1.3.1.dev8-py3-none-any.whl
+[2024-04-05 06:19:42] INFO root fetch - processPackages [marqo]: Downloading https://files.pythonhosted.org/packages/2d/10/0aaa1d96dee0206bf56f2ffc1ee97fd359c20fc49bd1d88b93d4e7e19921/marqo-3.2.0.tar.gz
+[2024-04-05 06:19:42] WARNING root fetch - processPackages [odoo-addon-helpdesk-mgmt-rating]: Timeout reached during download
+[2024-04-05 06:19:42] INFO root fetch - processPackages [odoo-addon-helpdesk-mgmt-rating]: executing diffoscope
+[2024-04-05 06:19:42] INFO root fetch - processPackages [odoo-addon-helpdesk-mgmt-rating]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_helpdesk_mgmt_rating-15.0.1.0.0.8-py3-none-any.whl.zip tmp/odoo_addon_helpdesk_mgmt_rating-15.0.1.0.0.9-py3-none-any.whl.zip --markdown 20240405/o/odoo-addon-helpdesk-mgmt-rating/15.0.1.0.0.8-15.0.1.0.0.9/diff.md --exclude *.pyd
+[2024-04-05 06:19:42] WARNING root fetch - processPackages [odoo14-addon-helpdesk-mgmt-rating]: Timeout reached during download
+[2024-04-05 06:19:42] INFO root fetch - processPackages [odoo14-addon-helpdesk-mgmt-rating]: executing diffoscope
+[2024-04-05 06:19:42] INFO root fetch - processPackages [odoo14-addon-helpdesk-mgmt-rating]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_helpdesk_mgmt_rating-14.0.1.3.1.dev7-py3-none-any.whl.zip tmp/odoo14_addon_helpdesk_mgmt_rating-14.0.1.3.1.dev8-py3-none-any.whl.zip --markdown 20240405/o/odoo14-addon-helpdesk-mgmt-rating/14.0.1.3.1.dev7-14.0.1.3.1.dev8/diff.md --exclude *.pyd
+[2024-04-05 06:19:42] WARNING root fetch - processPackages [marqo]: Timeout reached during download
+[2024-04-05 06:19:42] INFO root fetch - processPackages [marqo]: Downloading https://files.pythonhosted.org/packages/72/e9/f04330a0c956e08593b876a3b0d819a6c3baa5d37f9da18b9715731311c7/marqo-3.2.1.tar.gz
+[2024-04-05 06:19:43] WARNING root fetch - processPackages [marqo]: Timeout reached during download
+[2024-04-05 06:19:43] INFO root fetch - processPackages [marqo]: executing diffoscope
+[2024-04-05 06:19:43] INFO root fetch - processPackages [marqo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/marqo-3.2.0.tar.gz tmp/marqo-3.2.1.tar.gz --markdown 20240405/m/marqo/3.2.0-3.2.1/diff.md --exclude *.pyd
+[2024-04-05 06:19:43] INFO root fetch - processPackages [odoo14-addon-helpdesk-mgmt-rating]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_helpdesk_mgmt_rating-14.0.1.3.1.dev7-py3-none-any.whl.zip]
+[2024-04-05 06:19:43] INFO root fetch - processPackages [odoo14-addon-helpdesk-mgmt-rating]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_helpdesk_mgmt_rating-14.0.1.3.1.dev8-py3-none-any.whl.zip]
+[2024-04-05 06:19:43] INFO root fetch - main [MainThread]: End processing [odoo14-addon-helpdesk-mgmt-rating]: success
+[2024-04-05 06:19:43] INFO root fetch - processPackages [odoo-addon-helpdesk-mgmt-rating]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_helpdesk_mgmt_rating-15.0.1.0.0.8-py3-none-any.whl.zip]
+[2024-04-05 06:19:43] INFO root fetch - processPackages [odoo-addon-helpdesk-mgmt-rating]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_helpdesk_mgmt_rating-15.0.1.0.0.9-py3-none-any.whl.zip]
+[2024-04-05 06:19:43] INFO root fetch - main [MainThread]: End processing [odoo-addon-helpdesk-mgmt-rating]: success
+[2024-04-05 06:19:43] INFO root fetch - processPackages [marqo]: Remove: archive file [/home/abi/fetcher/tmp/marqo-3.2.0.tar.gz]
+[2024-04-05 06:19:43] INFO root fetch - processPackages [marqo]: Remove: archive file [/home/abi/fetcher/tmp/marqo-3.2.1.tar.gz]
+[2024-04-05 06:19:43] INFO root fetch - main [MainThread]: End processing [marqo]: success
+[2024-04-05 06:19:43] INFO root fetch - main [MainThread]: Store serial: [22631687]
