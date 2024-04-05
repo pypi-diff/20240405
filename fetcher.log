@@ -16238,3 +16238,42 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2024-04-05 10:26:55] INFO root fetch - processPackages [capellambse]: Remove: archive file [/home/abi/fetcher/tmp/capellambse-0.5.9.dev5.tar.gz]
 [2024-04-05 10:26:55] INFO root fetch - main [MainThread]: End processing [capellambse]: success
 [2024-04-05 10:26:55] INFO root fetch - main [MainThread]: Store serial: [22633392]
+[2024-04-05 10:29:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22633392]
+[2024-04-05 10:29:06] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-05 10:29:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sirji-agents
+[2024-04-05 10:29:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mleko
+[2024-04-05 10:29:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: PyClinet
+[2024-04-05 10:29:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: muko
+[2024-04-05 10:29:06] INFO root fetch - processPackages [sirji-agents]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-04-05 10:29:06] WARNING root fetch - processPackages [PyClinet]: Skipping, unable to determine old version
+[2024-04-05 10:29:06] INFO root fetch - main [MainThread]: End processing [PyClinet] error
+[2024-04-05 10:29:06] INFO root fetch - processPackages [sirji-agents]: Downloading https://files.pythonhosted.org/packages/d7/97/62245b488b2a4718ddceb9443ee7a8b679cdd443fdb3f773a0cfbbb7fbb6/sirji-agents-0.0.4.tar.gz
+[2024-04-05 10:29:06] INFO root fetch - processPackages [muko]: New version: [1.92] Old Version: [1.69]
+[2024-04-05 10:29:06] INFO root fetch - processPackages [mleko]: New version: [3.0.0] Old Version: [2.2.0]
+[2024-04-05 10:29:06] WARNING root fetch - processPackages [sirji-agents]: Timeout reached during download
+[2024-04-05 10:29:06] INFO root fetch - processPackages [muko]: Downloading https://files.pythonhosted.org/packages/6e/02/66b7d496f771254b525ebf8bc34b2a046dcc20eb916a38197de3c5d47f2f/muko-1.69-py3-none-any.whl
+[2024-04-05 10:29:06] INFO root fetch - processPackages [sirji-agents]: Downloading https://files.pythonhosted.org/packages/a6/8a/9efdd87a65c62f4fe2fcbc68e0ba30c0e0984072d87eb4fdd2d6dbcc6dd8/sirji_agents-0.0.5-py3-none-any.whl
+[2024-04-05 10:29:06] INFO root fetch - processPackages [mleko]: Downloading https://files.pythonhosted.org/packages/a3/82/262ef5908a8a784f3e2f613fb08f8ecbd0b05f3629f50d768aad68cd8223/mleko-2.2.0.tar.gz
+[2024-04-05 10:29:06] WARNING root fetch - processPackages [sirji-agents]: Timeout reached during download
+[2024-04-05 10:29:06] INFO root fetch - processPackages [sirji-agents]: executing diffoscope
+[2024-04-05 10:29:06] INFO root fetch - processPackages [sirji-agents]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sirji-agents-0.0.4.tar.gz tmp/sirji_agents-0.0.5-py3-none-any.whl.zip --markdown 20240405/s/sirji-agents/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2024-04-05 10:29:06] WARNING root fetch - processPackages [mleko]: Timeout reached during download
+[2024-04-05 10:29:06] WARNING root fetch - processPackages [muko]: Timeout reached during download
+[2024-04-05 10:29:06] INFO root fetch - processPackages [mleko]: Downloading https://files.pythonhosted.org/packages/b2/e3/9149dc476e31a691c0540b4b00f392d510ba356c7f637342791650574b55/mleko-3.0.0.tar.gz
+[2024-04-05 10:29:06] INFO root fetch - processPackages [muko]: Downloading https://files.pythonhosted.org/packages/7f/2f/6ad5a2352deb01908fba6c7176ecbf9721f90102c9abcd6be7e58f47df41/muko-1.92-py3-none-any.whl
+[2024-04-05 10:29:06] WARNING root fetch - processPackages [mleko]: Timeout reached during download
+[2024-04-05 10:29:06] INFO root fetch - processPackages [mleko]: executing diffoscope
+[2024-04-05 10:29:06] INFO root fetch - processPackages [mleko]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mleko-2.2.0.tar.gz tmp/mleko-3.0.0.tar.gz --markdown 20240405/m/mleko/2.2.0-3.0.0/diff.md --exclude *.pyd
+[2024-04-05 10:29:07] INFO root fetch - processPackages [sirji-agents]: Remove: archive file [/home/abi/fetcher/tmp/sirji-agents-0.0.4.tar.gz]
+[2024-04-05 10:29:07] INFO root fetch - processPackages [sirji-agents]: Remove: archive file [/home/abi/fetcher/tmp/sirji_agents-0.0.5-py3-none-any.whl.zip]
+[2024-04-05 10:29:07] INFO root fetch - main [MainThread]: End processing [sirji-agents]: success
+[2024-04-05 10:29:07] WARNING root fetch - processPackages [muko]: Timeout reached during download
+[2024-04-05 10:29:07] INFO root fetch - processPackages [muko]: executing diffoscope
+[2024-04-05 10:29:07] INFO root fetch - processPackages [muko]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/muko-1.69-py3-none-any.whl.zip tmp/muko-1.92-py3-none-any.whl.zip --markdown 20240405/m/muko/1.69-1.92/diff.md --exclude *.pyd
+[2024-04-05 10:29:07] INFO root fetch - processPackages [muko]: Remove: archive file [/home/abi/fetcher/tmp/muko-1.69-py3-none-any.whl.zip]
+[2024-04-05 10:29:07] INFO root fetch - processPackages [muko]: Remove: archive file [/home/abi/fetcher/tmp/muko-1.92-py3-none-any.whl.zip]
+[2024-04-05 10:29:07] INFO root fetch - main [MainThread]: End processing [muko]: success
+[2024-04-05 10:29:07] INFO root fetch - processPackages [mleko]: Remove: archive file [/home/abi/fetcher/tmp/mleko-2.2.0.tar.gz]
+[2024-04-05 10:29:07] INFO root fetch - processPackages [mleko]: Remove: archive file [/home/abi/fetcher/tmp/mleko-3.0.0.tar.gz]
+[2024-04-05 10:29:07] INFO root fetch - main [MainThread]: End processing [mleko]: success
+[2024-04-05 10:29:07] INFO root fetch - main [MainThread]: Store serial: [22633405]
