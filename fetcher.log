@@ -18399,3 +18399,64 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2024-04-05 11:57:07] INFO root fetch - processPackages [dream-tools]: Remove: archive file [/home/abi/fetcher/tmp/dream-tools-2.1.9.tar.gz]
 [2024-04-05 11:57:07] INFO root fetch - main [MainThread]: End processing [dream-tools]: success
 [2024-04-05 11:57:07] INFO root fetch - main [MainThread]: Store serial: [22634280]
+[2024-04-05 11:59:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22634280]
+[2024-04-05 11:59:17] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-05 11:59:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dream-tools
+[2024-04-05 11:59:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: wagtail-modeltranslation
+[2024-04-05 11:59:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: weas-widget
+[2024-04-05 11:59:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: investing-algorithm-framework
+[2024-04-05 11:59:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tablite
+[2024-04-05 11:59:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: fuxion
+[2024-04-05 11:59:17] INFO root fetch - processPackages [weas-widget]: New version: [0.1.0a0] Old Version: [0.1.0]
+[2024-04-05 11:59:17] INFO root fetch - processPackages [dream-tools]: New version: [2.1.9] Old Version: [2.1.8]
+[2024-04-05 11:59:17] INFO root fetch - processPackages [weas-widget]: Downloading https://files.pythonhosted.org/packages/23/60/4954e085b47e116f6785944a0cf70da3fe11b2b3eee8e23c9ac47b2986fa/weas_widget-0.1.0.tar.gz
+[2024-04-05 11:59:17] INFO root fetch - processPackages [dream-tools]: Downloading https://files.pythonhosted.org/packages/a0/c4/452045a0f0bf5d8790fc22be25027ebfae68773d49fa0b14e53b26967472/dream-tools-2.1.8.tar.gz
+[2024-04-05 11:59:17] INFO root fetch - processPackages [investing-algorithm-framework]: New version: [3.4.1] Old Version: [3.4.0]
+[2024-04-05 11:59:17] INFO root fetch - processPackages [wagtail-modeltranslation]: New version: [0.9.0] Old Version: [0.8a1]
+[2024-04-05 11:59:17] INFO root fetch - processPackages [tablite]: New version: [2023.9.8] Old Version: [2023.9.7]
+[2024-04-05 11:59:17] WARNING root fetch - processPackages [fuxion]: Skipping, unable to determine old version
+[2024-04-05 11:59:17] INFO root fetch - main [MainThread]: End processing [fuxion] error
+[2024-04-05 11:59:17] WARNING root fetch - processPackages [dream-tools]: Timeout reached during download
+[2024-04-05 11:59:17] WARNING root fetch - processPackages [weas-widget]: Timeout reached during download
+[2024-04-05 11:59:17] INFO root fetch - processPackages [dream-tools]: Downloading https://files.pythonhosted.org/packages/7c/99/7d3959c206bdfd1709d00d989375024da3f7ebe064ccbf4c04590ae2bee9/dream-tools-2.1.9.tar.gz
+[2024-04-05 11:59:17] INFO root fetch - processPackages [investing-algorithm-framework]: Downloading https://files.pythonhosted.org/packages/67/54/f41eacc160afe3bc94d22adfa9ebdca51b6d11ddb11b4bd4d0273f848396/investing_algorithm_framework-3.4.0.tar.gz
+[2024-04-05 11:59:17] INFO root fetch - processPackages [wagtail-modeltranslation]: Downloading https://files.pythonhosted.org/packages/09/d3/d46534f2031b5ebe94fc421e9a77ee39901e3e79653c818b4c0e4ecc9b54/wagtail-modeltranslation-0.8a1.tar.gz
+[2024-04-05 11:59:17] INFO root fetch - processPackages [weas-widget]: Downloading https://files.pythonhosted.org/packages/2b/0d/3600153d00d4753712db77b1d190711f7ae872bcbefdec7b95b5cee217f7/weas_widget-0.1.0a0.tar.gz
+[2024-04-05 11:59:17] INFO root fetch - processPackages [tablite]: Downloading https://files.pythonhosted.org/packages/69/1a/7380abcd1131d63fbfc3f716566dd75131728fab496d42a2a313fe6ba840/tablite-2023.9.7-py3-none-any.whl
+[2024-04-05 11:59:17] WARNING root fetch - processPackages [dream-tools]: Timeout reached during download
+[2024-04-05 11:59:17] INFO root fetch - processPackages [dream-tools]: executing diffoscope
+[2024-04-05 11:59:17] INFO root fetch - processPackages [dream-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dream-tools-2.1.8.tar.gz tmp/dream-tools-2.1.9.tar.gz --markdown 20240405/d/dream-tools/2.1.8-2.1.9/diff.md --exclude *.pyd
+[2024-04-05 11:59:17] WARNING root fetch - processPackages [wagtail-modeltranslation]: Timeout reached during download
+[2024-04-05 11:59:17] WARNING root fetch - processPackages [investing-algorithm-framework]: Timeout reached during download
+[2024-04-05 11:59:17] WARNING root fetch - processPackages [weas-widget]: Timeout reached during download
+[2024-04-05 11:59:17] INFO root fetch - processPackages [weas-widget]: executing diffoscope
+[2024-04-05 11:59:17] INFO root fetch - processPackages [weas-widget]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/weas_widget-0.1.0.tar.gz tmp/weas_widget-0.1.0a0.tar.gz --markdown 20240405/w/weas-widget/0.1.0-0.1.0a0/diff.md --exclude *.pyd
+[2024-04-05 11:59:18] WARNING root fetch - processPackages [tablite]: Timeout reached during download
+[2024-04-05 11:59:18] INFO root fetch - processPackages [wagtail-modeltranslation]: Downloading https://files.pythonhosted.org/packages/cf/f7/2cf6c6d77f50f9dd3985e8615a1f59c659387567a9a8b77fa9acbc073a19/wagtail-modeltranslation-0.9.0.tar.gz
+[2024-04-05 11:59:18] INFO root fetch - processPackages [investing-algorithm-framework]: Downloading https://files.pythonhosted.org/packages/a9/7d/1fb4e8c2607549a0736f56e2a03e214261fddd11b6c70ee2f50c3bddc818/investing_algorithm_framework-3.4.1.tar.gz
+[2024-04-05 11:59:18] WARNING root fetch - processPackages [wagtail-modeltranslation]: Timeout reached during download
+[2024-04-05 11:59:18] INFO root fetch - processPackages [wagtail-modeltranslation]: executing diffoscope
+[2024-04-05 11:59:18] INFO root fetch - processPackages [wagtail-modeltranslation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wagtail-modeltranslation-0.8a1.tar.gz tmp/wagtail-modeltranslation-0.9.0.tar.gz --markdown 20240405/w/wagtail-modeltranslation/0.8a1-0.9.0/diff.md --exclude *.pyd
+[2024-04-05 11:59:18] WARNING root fetch - processPackages [investing-algorithm-framework]: Timeout reached during download
+[2024-04-05 11:59:18] INFO root fetch - processPackages [investing-algorithm-framework]: executing diffoscope
+[2024-04-05 11:59:18] INFO root fetch - processPackages [investing-algorithm-framework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/investing_algorithm_framework-3.4.0.tar.gz tmp/investing_algorithm_framework-3.4.1.tar.gz --markdown 20240405/i/investing-algorithm-framework/3.4.0-3.4.1/diff.md --exclude *.pyd
+[2024-04-05 11:59:18] INFO root fetch - processPackages [tablite]: Downloading https://files.pythonhosted.org/packages/b8/4a/752f66fecda7a2172d5056375800c9d050a5bc79c8c17e507a15a09c09ed/tablite-2023.9.8-py3-none-any.whl
+[2024-04-05 11:59:18] WARNING root fetch - processPackages [tablite]: Timeout reached during download
+[2024-04-05 11:59:18] INFO root fetch - processPackages [tablite]: executing diffoscope
+[2024-04-05 11:59:18] INFO root fetch - processPackages [tablite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tablite-2023.9.7-py3-none-any.whl.zip tmp/tablite-2023.9.8-py3-none-any.whl.zip --markdown 20240405/t/tablite/2023.9.7-2023.9.8/diff.md --exclude *.pyd
+[2024-04-05 11:59:18] INFO root fetch - processPackages [dream-tools]: Remove: archive file [/home/abi/fetcher/tmp/dream-tools-2.1.8.tar.gz]
+[2024-04-05 11:59:18] INFO root fetch - processPackages [dream-tools]: Remove: archive file [/home/abi/fetcher/tmp/dream-tools-2.1.9.tar.gz]
+[2024-04-05 11:59:18] INFO root fetch - main [MainThread]: End processing [dream-tools]: success
+[2024-04-05 11:59:18] INFO root fetch - processPackages [wagtail-modeltranslation]: Remove: archive file [/home/abi/fetcher/tmp/wagtail-modeltranslation-0.8a1.tar.gz]
+[2024-04-05 11:59:18] INFO root fetch - processPackages [wagtail-modeltranslation]: Remove: archive file [/home/abi/fetcher/tmp/wagtail-modeltranslation-0.9.0.tar.gz]
+[2024-04-05 11:59:18] INFO root fetch - main [MainThread]: End processing [wagtail-modeltranslation]: success
+[2024-04-05 11:59:19] INFO root fetch - processPackages [investing-algorithm-framework]: Remove: archive file [/home/abi/fetcher/tmp/investing_algorithm_framework-3.4.0.tar.gz]
+[2024-04-05 11:59:19] INFO root fetch - processPackages [investing-algorithm-framework]: Remove: archive file [/home/abi/fetcher/tmp/investing_algorithm_framework-3.4.1.tar.gz]
+[2024-04-05 11:59:19] INFO root fetch - main [MainThread]: End processing [investing-algorithm-framework]: success
+[2024-04-05 11:59:19] INFO root fetch - processPackages [tablite]: Remove: archive file [/home/abi/fetcher/tmp/tablite-2023.9.7-py3-none-any.whl.zip]
+[2024-04-05 11:59:19] INFO root fetch - processPackages [tablite]: Remove: archive file [/home/abi/fetcher/tmp/tablite-2023.9.8-py3-none-any.whl.zip]
+[2024-04-05 11:59:19] INFO root fetch - main [MainThread]: End processing [tablite]: success
+[2024-04-05 11:59:22] INFO root fetch - processPackages [weas-widget]: Remove: archive file [/home/abi/fetcher/tmp/weas_widget-0.1.0.tar.gz]
+[2024-04-05 11:59:22] INFO root fetch - processPackages [weas-widget]: Remove: archive file [/home/abi/fetcher/tmp/weas_widget-0.1.0a0.tar.gz]
+[2024-04-05 11:59:22] INFO root fetch - main [MainThread]: End processing [weas-widget]: success
+[2024-04-05 11:59:22] INFO root fetch - main [MainThread]: Store serial: [22634300]
