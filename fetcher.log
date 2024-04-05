@@ -2822,3 +2822,53 @@
 [2024-04-05 02:16:35] INFO root fetch - processPackages [cdk-common]: Remove: archive file [/home/abi/fetcher/tmp/cdk-common-2.0.99.tar.gz]
 [2024-04-05 02:16:35] INFO root fetch - main [MainThread]: End processing [cdk-common]: success
 [2024-04-05 02:16:35] INFO root fetch - main [MainThread]: Store serial: [22629124]
+[2024-04-05 02:18:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22629124]
+[2024-04-05 02:18:43] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-05 02:18:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: zha
+[2024-04-05 02:18:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cdk-secret-manager-wrapper-layer
+[2024-04-05 02:18:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: kivera-sdk
+[2024-04-05 02:18:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: voltaic
+[2024-04-05 02:18:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cdklabs.appsync-utils
+[2024-04-05 02:18:43] INFO root fetch - processPackages [kivera-sdk]: New version: [1.8.0] Old Version: [1.7.0]
+[2024-04-05 02:18:43] INFO root fetch - processPackages [zha]: New version: [0.0.7] Old Version: [0.0.6]
+[2024-04-05 02:18:43] WARNING root fetch - processPackages [voltaic]: Skipping, unable to determine old version
+[2024-04-05 02:18:43] INFO root fetch - main [MainThread]: End processing [voltaic] error
+[2024-04-05 02:18:43] INFO root fetch - processPackages [cdklabs.appsync-utils]: New version: [0.0.99] Old Version: [0.0.98]
+[2024-04-05 02:18:44] INFO root fetch - processPackages [kivera-sdk]: Downloading https://files.pythonhosted.org/packages/70/d1/e4bf420030a37b30e38f5e071c333e3fdc190c5603050903e3d6d273e106/kivera-sdk-1.7.0.tar.gz
+[2024-04-05 02:18:44] INFO root fetch - processPackages [zha]: Downloading https://files.pythonhosted.org/packages/7e/b4/c5a55f5c9c46207a4a2cc21b41c956bcf056d1196471470973c166355e28/zha-0.0.6.tar.gz
+[2024-04-05 02:18:44] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: New version: [2.0.99] Old Version: [2.0.98]
+[2024-04-05 02:18:44] INFO root fetch - processPackages [cdklabs.appsync-utils]: Downloading https://files.pythonhosted.org/packages/c2/b6/9921880127918975163ef796466fd100a8f3a6246436ca4993eafae4915d/cdklabs.appsync-utils-0.0.98.tar.gz
+[2024-04-05 02:18:44] WARNING root fetch - processPackages [kivera-sdk]: Timeout reached during download
+[2024-04-05 02:18:44] WARNING root fetch - processPackages [zha]: Timeout reached during download
+[2024-04-05 02:18:44] WARNING root fetch - processPackages [cdklabs.appsync-utils]: Timeout reached during download
+[2024-04-05 02:18:44] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: Downloading https://files.pythonhosted.org/packages/00/91/545869a3cc999dbc9750aad345d775087610ebf834517c928a0d0e289c4e/cdk-secret-manager-wrapper-layer-2.0.98.tar.gz
+[2024-04-05 02:18:44] INFO root fetch - processPackages [kivera-sdk]: Downloading https://files.pythonhosted.org/packages/e1/f6/30b971e7786085b9277b7f27f3a92fb3837acd60d1cd6534ca7d5614570f/kivera-sdk-1.8.0.tar.gz
+[2024-04-05 02:18:44] INFO root fetch - processPackages [zha]: Downloading https://files.pythonhosted.org/packages/47/7c/3c2410dd5e974a75ad7778731243c1ffafbf1160c21d19f0da3f78bbb9dd/zha-0.0.7.tar.gz
+[2024-04-05 02:18:44] WARNING root fetch - processPackages [cdk-secret-manager-wrapper-layer]: Timeout reached during download
+[2024-04-05 02:18:44] WARNING root fetch - processPackages [kivera-sdk]: Timeout reached during download
+[2024-04-05 02:18:44] INFO root fetch - processPackages [kivera-sdk]: executing diffoscope
+[2024-04-05 02:18:44] INFO root fetch - processPackages [kivera-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kivera-sdk-1.7.0.tar.gz tmp/kivera-sdk-1.8.0.tar.gz --markdown 20240405/k/kivera-sdk/1.7.0-1.8.0/diff.md --exclude *.pyd
+[2024-04-05 02:18:44] INFO root fetch - processPackages [cdklabs.appsync-utils]: Downloading https://files.pythonhosted.org/packages/fe/2c/3a8605fe934a0a120041c6190f384b00350c8036420ee8d53ac0b0906f74/cdklabs.appsync-utils-0.0.99.tar.gz
+[2024-04-05 02:18:44] WARNING root fetch - processPackages [zha]: Timeout reached during download
+[2024-04-05 02:18:44] INFO root fetch - processPackages [zha]: executing diffoscope
+[2024-04-05 02:18:44] INFO root fetch - processPackages [zha]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zha-0.0.6.tar.gz tmp/zha-0.0.7.tar.gz --markdown 20240405/z/zha/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2024-04-05 02:18:44] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: Downloading https://files.pythonhosted.org/packages/c2/c5/a8a13bb72ea375e2ce99dd389e945478ce7d95d8628acf6db64f14f674f5/cdk-secret-manager-wrapper-layer-2.0.99.tar.gz
+[2024-04-05 02:18:44] WARNING root fetch - processPackages [cdklabs.appsync-utils]: Timeout reached during download
+[2024-04-05 02:18:44] INFO root fetch - processPackages [cdklabs.appsync-utils]: executing diffoscope
+[2024-04-05 02:18:44] INFO root fetch - processPackages [cdklabs.appsync-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdklabs.appsync-utils-0.0.98.tar.gz tmp/cdklabs.appsync-utils-0.0.99.tar.gz --markdown 20240405/c/cdklabs.appsync-utils/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2024-04-05 02:18:44] WARNING root fetch - processPackages [cdk-secret-manager-wrapper-layer]: Timeout reached during download
+[2024-04-05 02:18:44] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: executing diffoscope
+[2024-04-05 02:18:44] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-secret-manager-wrapper-layer-2.0.98.tar.gz tmp/cdk-secret-manager-wrapper-layer-2.0.99.tar.gz --markdown 20240405/c/cdk-secret-manager-wrapper-layer/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2024-04-05 02:18:45] INFO root fetch - processPackages [cdklabs.appsync-utils]: Remove: archive file [/home/abi/fetcher/tmp/cdklabs.appsync-utils-0.0.98.tar.gz]
+[2024-04-05 02:18:45] INFO root fetch - processPackages [cdklabs.appsync-utils]: Remove: archive file [/home/abi/fetcher/tmp/cdklabs.appsync-utils-0.0.99.tar.gz]
+[2024-04-05 02:18:45] INFO root fetch - main [MainThread]: End processing [cdklabs.appsync-utils]: success
+[2024-04-05 02:18:45] INFO root fetch - processPackages [kivera-sdk]: Remove: archive file [/home/abi/fetcher/tmp/kivera-sdk-1.7.0.tar.gz]
+[2024-04-05 02:18:45] INFO root fetch - processPackages [kivera-sdk]: Remove: archive file [/home/abi/fetcher/tmp/kivera-sdk-1.8.0.tar.gz]
+[2024-04-05 02:18:45] INFO root fetch - main [MainThread]: End processing [kivera-sdk]: success
+[2024-04-05 02:18:45] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: Remove: archive file [/home/abi/fetcher/tmp/cdk-secret-manager-wrapper-layer-2.0.98.tar.gz]
+[2024-04-05 02:18:45] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: Remove: archive file [/home/abi/fetcher/tmp/cdk-secret-manager-wrapper-layer-2.0.99.tar.gz]
+[2024-04-05 02:18:45] INFO root fetch - main [MainThread]: End processing [cdk-secret-manager-wrapper-layer]: success
+[2024-04-05 02:18:45] INFO root fetch - processPackages [zha]: Remove: archive file [/home/abi/fetcher/tmp/zha-0.0.6.tar.gz]
+[2024-04-05 02:18:45] INFO root fetch - processPackages [zha]: Remove: archive file [/home/abi/fetcher/tmp/zha-0.0.7.tar.gz]
+[2024-04-05 02:18:45] INFO root fetch - main [MainThread]: End processing [zha]: success
+[2024-04-05 02:18:45] INFO root fetch - main [MainThread]: Store serial: [22629140]
