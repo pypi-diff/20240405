@@ -14763,3 +14763,31 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2024-04-05 09:24:33] INFO root fetch - processPackages [py-valid-proxy]: Remove: archive file [/home/abi/fetcher/tmp/py_valid_proxy-0.3.0.tar.gz]
 [2024-04-05 09:24:33] INFO root fetch - main [MainThread]: End processing [py-valid-proxy]: success
 [2024-04-05 09:24:33] INFO root fetch - main [MainThread]: Store serial: [22632823]
+[2024-04-05 09:26:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22632823]
+[2024-04-05 09:26:42] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-05 09:26:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pynestor
+[2024-04-05 09:26:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: labtech
+[2024-04-05 09:26:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: youtube-selenium-py
+[2024-04-05 09:26:42] WARNING root fetch - processPackages [youtube-selenium-py]: Skipping, unable to determine old version
+[2024-04-05 09:26:42] INFO root fetch - main [MainThread]: End processing [youtube-selenium-py] error
+[2024-04-05 09:26:43] INFO root fetch - processPackages [labtech]: New version: [0.5.1] Old Version: [0.5.0]
+[2024-04-05 09:26:43] INFO root fetch - processPackages [pynestor]: New version: [1.7.6] Old Version: [1.7.5]
+[2024-04-05 09:26:43] INFO root fetch - processPackages [labtech]: Downloading https://files.pythonhosted.org/packages/04/a3/8e87a2d26359768b75c3540193b6305b207fac5e866d1e30bfdbb3bc081a/labtech-0.5.0.tar.gz
+[2024-04-05 09:26:43] INFO root fetch - processPackages [pynestor]: Downloading https://files.pythonhosted.org/packages/64/b7/9dad0e6146b262b4c0d2f2ef8e4ee24027b0e26fa604fbb3f77ef345e7b5/pynestor-1.7.5.tar.gz
+[2024-04-05 09:26:43] WARNING root fetch - processPackages [pynestor]: Timeout reached during download
+[2024-04-05 09:26:43] WARNING root fetch - processPackages [labtech]: Timeout reached during download
+[2024-04-05 09:26:43] INFO root fetch - processPackages [labtech]: Downloading https://files.pythonhosted.org/packages/75/c6/1fc7860bd0c1a215b89d277dc01396502258921621ba19344f01c26c0d70/labtech-0.5.1.tar.gz
+[2024-04-05 09:26:43] WARNING root fetch - processPackages [labtech]: Timeout reached during download
+[2024-04-05 09:26:43] INFO root fetch - processPackages [labtech]: executing diffoscope
+[2024-04-05 09:26:43] INFO root fetch - processPackages [labtech]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/labtech-0.5.0.tar.gz tmp/labtech-0.5.1.tar.gz --markdown 20240405/l/labtech/0.5.0-0.5.1/diff.md --exclude *.pyd
+[2024-04-05 09:26:43] INFO root fetch - processPackages [pynestor]: Downloading https://files.pythonhosted.org/packages/80/e1/1dbdabf247a5caaa9327cf2b34f18ac088a05eb0eed9cd107acd5dccc287/pynestor-1.7.6.tar.gz
+[2024-04-05 09:26:43] WARNING root fetch - processPackages [pynestor]: Timeout reached during download
+[2024-04-05 09:26:43] INFO root fetch - processPackages [pynestor]: executing diffoscope
+[2024-04-05 09:26:43] INFO root fetch - processPackages [pynestor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pynestor-1.7.5.tar.gz tmp/pynestor-1.7.6.tar.gz --markdown 20240405/p/pynestor/1.7.5-1.7.6/diff.md --exclude *.pyd
+[2024-04-05 09:26:44] INFO root fetch - processPackages [labtech]: Remove: archive file [/home/abi/fetcher/tmp/labtech-0.5.0.tar.gz]
+[2024-04-05 09:26:44] INFO root fetch - processPackages [labtech]: Remove: archive file [/home/abi/fetcher/tmp/labtech-0.5.1.tar.gz]
+[2024-04-05 09:26:44] INFO root fetch - main [MainThread]: End processing [labtech]: success
+[2024-04-05 09:26:44] INFO root fetch - processPackages [pynestor]: Remove: archive file [/home/abi/fetcher/tmp/pynestor-1.7.5.tar.gz]
+[2024-04-05 09:26:44] INFO root fetch - processPackages [pynestor]: Remove: archive file [/home/abi/fetcher/tmp/pynestor-1.7.6.tar.gz]
+[2024-04-05 09:26:44] INFO root fetch - main [MainThread]: End processing [pynestor]: success
+[2024-04-05 09:26:44] INFO root fetch - main [MainThread]: Store serial: [22632832]
