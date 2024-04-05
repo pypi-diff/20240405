@@ -17210,3 +17210,75 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2024-04-05 11:12:58] INFO root fetch - processPackages [playmolecule]: Remove: archive file [/home/abi/fetcher/tmp/playmolecule-2.4.9.tar.gz]
 [2024-04-05 11:12:58] INFO root fetch - main [MainThread]: End processing [playmolecule]: success
 [2024-04-05 11:12:58] INFO root fetch - main [MainThread]: Store serial: [22633860]
+[2024-04-05 11:15:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22633860]
+[2024-04-05 11:15:07] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-05 11:15:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: prem-utils
+[2024-04-05 11:15:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: spanishconjugator
+[2024-04-05 11:15:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: subscript
+[2024-04-05 11:15:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: spanishconjugator
+[2024-04-05 11:15:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: qarray
+[2024-04-05 11:15:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pyscal-rdf
+[2024-04-05 11:15:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ScoreDrivenBOCPD
+[2024-04-05 11:15:08] INFO root fetch - processPackages [prem-utils]: New version: [0.0.8] Old Version: [0.0.7]
+[2024-04-05 11:15:08] INFO root fetch - processPackages [qarray]: New version: [1.0.6] Old Version: [1.0.3]
+[2024-04-05 11:15:08] INFO root fetch - processPackages [pyscal-rdf]: New version: [0.2.5] Old Version: [0.2.3]
+[2024-04-05 11:15:08] INFO root fetch - processPackages [ScoreDrivenBOCPD]: New version: [0.1.7] Old Version: [0.1.6]
+[2024-04-05 11:15:08] INFO root fetch - processPackages [subscript]: New version: [1.4.0] Old Version: [1.3.0]
+[2024-04-05 11:15:08] INFO root fetch - processPackages [prem-utils]: Downloading https://files.pythonhosted.org/packages/0b/c2/ef6412c36b4879b14a69ad4cafc10a7cc7f017db696d2d8e7e978238aaa9/prem-utils-0.0.7.tar.gz
+[2024-04-05 11:15:08] INFO root fetch - processPackages [qarray]: Downloading https://files.pythonhosted.org/packages/90/47/3b09bd1d5031e9fc9e612a209f363ac15f59f0ecfa9f156b95bafa80552d/qarray-1.0.3.tar.gz
+[2024-04-05 11:15:08] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2024-04-05 11:15:08] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2024-04-05 11:15:08] INFO root fetch - processPackages [pyscal-rdf]: Downloading https://files.pythonhosted.org/packages/2f/38/78ba813a2689f56997b6054144e2b508e340ca9c51edd593bf097d43a755/pyscal_rdf-0.2.3.tar.gz
+[2024-04-05 11:15:08] INFO root fetch - processPackages [ScoreDrivenBOCPD]: Downloading https://files.pythonhosted.org/packages/4a/d9/d9ac37a74c47342668e72eff9eeeff46d9c30037c74829504d7ff9ce8ebb/ScoreDrivenBOCPD-0.1.6-py3-none-any.whl
+[2024-04-05 11:15:08] WARNING root fetch - processPackages [prem-utils]: Timeout reached during download
+[2024-04-05 11:15:08] WARNING root fetch - processPackages [qarray]: Timeout reached during download
+[2024-04-05 11:15:08] INFO root fetch - processPackages [subscript]: Downloading https://files.pythonhosted.org/packages/7b/16/b7297eb52ea2c6f13cf34c2e7f83a5797e95d0ae826a510722a876be159e/subscript-1.3.0.tar.gz
+[2024-04-05 11:15:08] WARNING root fetch - processPackages [pyscal-rdf]: Timeout reached during download
+[2024-04-05 11:15:08] INFO root fetch - processPackages [prem-utils]: Downloading https://files.pythonhosted.org/packages/33/0f/fc806fe5db50f59926c6cd92925e6ccc6665f01f20e6ba25faabe2d2211d/prem-utils-0.0.8.tar.gz
+[2024-04-05 11:15:08] WARNING root fetch - processPackages [ScoreDrivenBOCPD]: Timeout reached during download
+[2024-04-05 11:15:08] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/1c/a2/a7226dfd48c2c6d3e52091175146891f40a2c1c7d20943e8e0560192be85/spanishconjugator-2.3.998.tar.gz
+[2024-04-05 11:15:08] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/1c/a2/a7226dfd48c2c6d3e52091175146891f40a2c1c7d20943e8e0560192be85/spanishconjugator-2.3.998.tar.gz
+[2024-04-05 11:15:08] WARNING root fetch - processPackages [prem-utils]: Timeout reached during download
+[2024-04-05 11:15:08] INFO root fetch - processPackages [prem-utils]: executing diffoscope
+[2024-04-05 11:15:08] INFO root fetch - processPackages [prem-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prem-utils-0.0.7.tar.gz tmp/prem-utils-0.0.8.tar.gz --markdown 20240405/p/prem-utils/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2024-04-05 11:15:08] INFO root fetch - processPackages [pyscal-rdf]: Downloading https://files.pythonhosted.org/packages/75/d4/e265a3adc33481d63bab207fa51e1c40d882871f1f95e9c6979e8943502e/pyscal_rdf-0.2.5.tar.gz
+[2024-04-05 11:15:08] INFO root fetch - processPackages [qarray]: Downloading https://files.pythonhosted.org/packages/e0/65/d693d3ccc54f026a4daacf828095791a7fc34425853cde81d2e059656073/qarray-1.0.6.tar.gz
+[2024-04-05 11:15:08] WARNING root fetch - processPackages [spanishconjugator]: Timeout reached during download
+[2024-04-05 11:15:08] WARNING root fetch - processPackages [spanishconjugator]: Timeout reached during download
+[2024-04-05 11:15:08] WARNING root fetch - processPackages [subscript]: Skipping package: exceeds size limit 21676786>=10485760
+[2024-04-05 11:15:08] INFO root fetch - main [MainThread]: End processing [subscript] error
+[2024-04-05 11:15:08] INFO root fetch - processPackages [ScoreDrivenBOCPD]: Downloading https://files.pythonhosted.org/packages/66/53/8a53dbf8b04c41b64dae7af15e12b8d0f809ea8bd63de35ea3d60f3bda47/ScoreDrivenBOCPD-0.1.7-py3-none-any.whl
+[2024-04-05 11:15:09] WARNING root fetch - processPackages [pyscal-rdf]: Timeout reached during download
+[2024-04-05 11:15:09] INFO root fetch - processPackages [pyscal-rdf]: executing diffoscope
+[2024-04-05 11:15:09] INFO root fetch - processPackages [pyscal-rdf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyscal_rdf-0.2.3.tar.gz tmp/pyscal_rdf-0.2.5.tar.gz --markdown 20240405/p/pyscal-rdf/0.2.3-0.2.5/diff.md --exclude *.pyd
+[2024-04-05 11:15:09] WARNING root fetch - processPackages [qarray]: Timeout reached during download
+[2024-04-05 11:15:09] INFO root fetch - processPackages [qarray]: executing diffoscope
+[2024-04-05 11:15:09] INFO root fetch - processPackages [qarray]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qarray-1.0.3.tar.gz tmp/qarray-1.0.6.tar.gz --markdown 20240405/q/qarray/1.0.3-1.0.6/diff.md --exclude *.pyd
+[2024-04-05 11:15:09] WARNING root fetch - processPackages [ScoreDrivenBOCPD]: Timeout reached during download
+[2024-04-05 11:15:09] INFO root fetch - processPackages [ScoreDrivenBOCPD]: executing diffoscope
+[2024-04-05 11:15:09] INFO root fetch - processPackages [ScoreDrivenBOCPD]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ScoreDrivenBOCPD-0.1.6-py3-none-any.whl.zip tmp/ScoreDrivenBOCPD-0.1.7-py3-none-any.whl.zip --markdown 20240405/S/ScoreDrivenBOCPD/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2024-04-05 11:15:09] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/38/b5/7c4b33d552653d08874337c2258ccc985f5f1bc589073e61d6e1ccff130e/spanishconjugator-2.3.999.tar.gz
+[2024-04-05 11:15:09] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/38/b5/7c4b33d552653d08874337c2258ccc985f5f1bc589073e61d6e1ccff130e/spanishconjugator-2.3.999.tar.gz
+[2024-04-05 11:15:09] WARNING root fetch - processPackages [spanishconjugator]: Timeout reached during download
+[2024-04-05 11:15:09] WARNING root fetch - processPackages [spanishconjugator]: Timeout reached during download
+[2024-04-05 11:15:09] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2024-04-05 11:15:09] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20240405/s/spanishconjugator/2.3.998-2.3.999/diff.md --exclude *.pyd
+[2024-04-05 11:15:09] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2024-04-05 11:15:09] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20240405/s/spanishconjugator/2.3.998-2.3.999/diff.md --exclude *.pyd
+[2024-04-05 11:15:09] INFO root fetch - processPackages [prem-utils]: Remove: archive file [/home/abi/fetcher/tmp/prem-utils-0.0.7.tar.gz]
+[2024-04-05 11:15:09] INFO root fetch - processPackages [prem-utils]: Remove: archive file [/home/abi/fetcher/tmp/prem-utils-0.0.8.tar.gz]
+[2024-04-05 11:15:09] INFO root fetch - main [MainThread]: End processing [prem-utils]: success
+[2024-04-05 11:15:09] INFO root fetch - processPackages [ScoreDrivenBOCPD]: Remove: archive file [/home/abi/fetcher/tmp/ScoreDrivenBOCPD-0.1.6-py3-none-any.whl.zip]
+[2024-04-05 11:15:09] INFO root fetch - processPackages [ScoreDrivenBOCPD]: Remove: archive file [/home/abi/fetcher/tmp/ScoreDrivenBOCPD-0.1.7-py3-none-any.whl.zip]
+[2024-04-05 11:15:09] INFO root fetch - main [MainThread]: End processing [ScoreDrivenBOCPD]: success
+[2024-04-05 11:15:10] INFO root fetch - processPackages [pyscal-rdf]: Remove: archive file [/home/abi/fetcher/tmp/pyscal_rdf-0.2.3.tar.gz]
+[2024-04-05 11:15:10] INFO root fetch - processPackages [pyscal-rdf]: Remove: archive file [/home/abi/fetcher/tmp/pyscal_rdf-0.2.5.tar.gz]
+[2024-04-05 11:15:10] INFO root fetch - main [MainThread]: End processing [pyscal-rdf]: success
+[2024-04-05 11:15:10] INFO root fetch - processPackages [qarray]: Remove: archive file [/home/abi/fetcher/tmp/qarray-1.0.3.tar.gz]
+[2024-04-05 11:15:10] INFO root fetch - processPackages [qarray]: Remove: archive file [/home/abi/fetcher/tmp/qarray-1.0.6.tar.gz]
+[2024-04-05 11:15:10] INFO root fetch - main [MainThread]: End processing [qarray]: success
+[2024-04-05 11:15:10] INFO root fetch - processPackages [spanishconjugator]: Remove: archive file [/home/abi/fetcher/tmp/spanishconjugator-2.3.998.tar.gz]
+[2024-04-05 11:15:10] INFO root fetch - processPackages [spanishconjugator]: Remove: archive file [/home/abi/fetcher/tmp/spanishconjugator-2.3.999.tar.gz]
+[2024-04-05 11:15:10] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
+[2024-04-05 11:15:10] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
+[2024-04-05 11:15:10] INFO root fetch - main [MainThread]: Store serial: [22633881]
