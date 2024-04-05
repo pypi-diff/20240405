@@ -20966,3 +20966,19 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2024-04-05 13:28:07] INFO root fetch - processPackages [opsramp-analytics-utils]: Remove: archive file [/home/abi/fetcher/tmp/opsramp-analytics-utils-3.4.9.tar.gz]
 [2024-04-05 13:28:07] INFO root fetch - main [MainThread]: End processing [opsramp-analytics-utils]: success
 [2024-04-05 13:28:07] INFO root fetch - main [MainThread]: Store serial: [22635362]
+[2024-04-05 13:30:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22635362]
+[2024-04-05 13:30:16] INFO root fetch - main [MainThread]: No changed packages found
+[2024-04-05 13:32:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22635389]
+[2024-04-05 13:32:21] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-04-05 13:32:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ansys-meshing-prime
+[2024-04-05 13:32:22] INFO root fetch - processPackages [ansys-meshing-prime]: New version: [0.6.0.dev6] Old Version: [0.6.0.dev5]
+[2024-04-05 13:32:22] INFO root fetch - processPackages [ansys-meshing-prime]: Downloading https://files.pythonhosted.org/packages/c1/0e/b5e68fa7ca0272e77d5ccaa51190762fa9789d4830082490aac30a2baf69/ansys_meshing_prime-0.6.0.dev5.tar.gz
+[2024-04-05 13:32:22] WARNING root fetch - processPackages [ansys-meshing-prime]: Timeout reached during download
+[2024-04-05 13:32:22] INFO root fetch - processPackages [ansys-meshing-prime]: Downloading https://files.pythonhosted.org/packages/f0/8f/e3e96bd524a6d2822db81f8c5b9578856a98a658f5cc78f3b1a6d1f1d13c/ansys_meshing_prime-0.6.0.dev6.tar.gz
+[2024-04-05 13:32:22] WARNING root fetch - processPackages [ansys-meshing-prime]: Timeout reached during download
+[2024-04-05 13:32:22] INFO root fetch - processPackages [ansys-meshing-prime]: executing diffoscope
+[2024-04-05 13:32:22] INFO root fetch - processPackages [ansys-meshing-prime]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ansys_meshing_prime-0.6.0.dev5.tar.gz tmp/ansys_meshing_prime-0.6.0.dev6.tar.gz --markdown 20240405/a/ansys-meshing-prime/0.6.0.dev5-0.6.0.dev6/diff.md --exclude *.pyd
+[2024-04-05 13:32:23] INFO root fetch - processPackages [ansys-meshing-prime]: Remove: archive file [/home/abi/fetcher/tmp/ansys_meshing_prime-0.6.0.dev5.tar.gz]
+[2024-04-05 13:32:23] INFO root fetch - processPackages [ansys-meshing-prime]: Remove: archive file [/home/abi/fetcher/tmp/ansys_meshing_prime-0.6.0.dev6.tar.gz]
+[2024-04-05 13:32:23] INFO root fetch - main [MainThread]: End processing [ansys-meshing-prime]: success
+[2024-04-05 13:32:23] INFO root fetch - main [MainThread]: Store serial: [22635394]
