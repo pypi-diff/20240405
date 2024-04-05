@@ -24696,3 +24696,85 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2024-04-05 15:42:29] INFO root fetch - processPackages [accelerate]: Remove: archive file [/home/abi/fetcher/tmp/accelerate-0.9.0.tar.gz]
 [2024-04-05 15:42:29] INFO root fetch - main [MainThread]: End processing [accelerate]: success
 [2024-04-05 15:42:29] INFO root fetch - main [MainThread]: Store serial: [22636821]
+[2024-04-05 15:44:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22636821]
+[2024-04-05 15:44:38] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-05 15:44:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gpx-vis
+[2024-04-05 15:44:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: vios
+[2024-04-05 15:44:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: emeraldtree
+[2024-04-05 15:44:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: easy-utils-dev
+[2024-04-05 15:44:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: napari-3dtimereg
+[2024-04-05 15:44:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: jhub-apps
+[2024-04-05 15:44:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: antfyutils
+[2024-04-05 15:44:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: mux-python
+[2024-04-05 15:44:38] INFO root fetch - processPackages [jhub-apps]: New version: [2024.4.1rc1] Old Version: [2024.2.1rc1]
+[2024-04-05 15:44:38] INFO root fetch - processPackages [antfyutils]: New version: [0.0.6] Old Version: [0.0.5]
+[2024-04-05 15:44:38] INFO root fetch - processPackages [easy-utils-dev]: New version: [2.8.6] Old Version: [2.8.5]
+[2024-04-05 15:44:38] INFO root fetch - processPackages [gpx-vis]: New version: [0.1.3] Old Version: [0.1.1]
+[2024-04-05 15:44:38] INFO root fetch - processPackages [napari-3dtimereg]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-04-05 15:44:38] INFO root fetch - processPackages [vios]: New version: [2.2.8] Old Version: [2.2.7]
+[2024-04-05 15:44:38] INFO root fetch - processPackages [emeraldtree]: New version: [0.9.2] Old Version: [0.9.0]
+[2024-04-05 15:44:38] INFO root fetch - processPackages [mux-python]: New version: [3.9.0] Old Version: [3.8.0]
+[2024-04-05 15:44:38] INFO root fetch - processPackages [antfyutils]: Downloading https://files.pythonhosted.org/packages/13/23/b7bad6e2230809f25b4169fd9edf7c54eb2889792a0c9d4831a030286835/antfyutils-0.0.5.tar.gz
+[2024-04-05 15:44:38] INFO root fetch - processPackages [vios]: Downloading https://files.pythonhosted.org/packages/1e/08/ba146fdc9b2293fb3d4feaf52b7ca6f7abf19082347ebf65340bb7d0817d/vios-2.2.7-py3-none-any.whl
+[2024-04-05 15:44:38] INFO root fetch - processPackages [easy-utils-dev]: Downloading https://files.pythonhosted.org/packages/2c/8d/6d5ea159ed6dc043bcda0987cd3ca43af13818693bd6ba86473c5d3b1cee/easy_utils_dev-2.8.5.tar.gz
+[2024-04-05 15:44:39] INFO root fetch - processPackages [jhub-apps]: Downloading https://files.pythonhosted.org/packages/87/d9/49b75c485d07465b92c7900d336942f63589803c8f49d744c212e71fa470/jhub_apps-2024.4.1rc1.tar.gz
+[2024-04-05 15:44:39] INFO root fetch - processPackages [gpx-vis]: Downloading https://files.pythonhosted.org/packages/9a/9c/95cca9267bedc06ad72d39b3ce88372583059f2838aee9e00d319a51ce89/gpx_vis-0.1.1.tar.gz
+[2024-04-05 15:44:39] WARNING root fetch - processPackages [emeraldtree]: fallback to get urls: [0.9.0]
+[2024-04-05 15:44:39] INFO root fetch - processPackages [napari-3dtimereg]: Downloading https://files.pythonhosted.org/packages/f3/ba/6edd0e4fb1177a536db21f64a5dc308f1ed6fb70f7208e653d8a2c845397/napari-3dtimereg-0.0.2.tar.gz
+[2024-04-05 15:44:39] WARNING root fetch - processPackages [antfyutils]: Timeout reached during download
+[2024-04-05 15:44:39] WARNING root fetch - processPackages [jhub-apps]: Skipping package: exceeds size limit 12200185>=10485760
+[2024-04-05 15:44:39] INFO root fetch - main [MainThread]: End processing [jhub-apps] error
+[2024-04-05 15:44:39] WARNING root fetch - processPackages [vios]: Timeout reached during download
+[2024-04-05 15:44:39] WARNING root fetch - processPackages [emeraldtree]: None
+[2024-04-05 15:44:39] INFO root fetch - processPackages [mux-python]: Downloading https://files.pythonhosted.org/packages/c8/10/6eda535c835a77808415fc02029be623d89b7c7ca9828936553e7b350786/mux_python-3.8.0.tar.gz
+[2024-04-05 15:44:39] WARNING root fetch - processPackages [emeraldtree]: None
+[2024-04-05 15:44:39] INFO root fetch - processPackages [antfyutils]: Downloading https://files.pythonhosted.org/packages/11/87/0d0cf8fa76d3ad232f93ae1d72f41ff5d983fd082d52062376739201f119/antfyutils-0.0.6.tar.gz
+[2024-04-05 15:44:39] WARNING root fetch - processPackages [easy-utils-dev]: Timeout reached during download
+[2024-04-05 15:44:39] WARNING root fetch - processPackages [napari-3dtimereg]: Timeout reached during download
+[2024-04-05 15:44:39] WARNING root fetch - processPackages [emeraldtree]: unable to get url for both version [0.9.0]
+[2024-04-05 15:44:39] INFO root fetch - processPackages [vios]: Downloading https://files.pythonhosted.org/packages/3f/8d/a61940198a5778f2a3a27d815b4274a6dbd826a7780fe9f8bf0b9802cae4/vios-2.2.8-py3-none-any.whl
+[2024-04-05 15:44:39] WARNING root fetch - processPackages [gpx-vis]: Timeout reached during download
+[2024-04-05 15:44:39] WARNING root fetch - processPackages [emeraldtree]: None
+[2024-04-05 15:44:39] INFO root fetch - main [MainThread]: End processing [emeraldtree] error
+[2024-04-05 15:44:39] WARNING root fetch - processPackages [antfyutils]: Timeout reached during download
+[2024-04-05 15:44:39] INFO root fetch - processPackages [antfyutils]: executing diffoscope
+[2024-04-05 15:44:39] INFO root fetch - processPackages [antfyutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/antfyutils-0.0.5.tar.gz tmp/antfyutils-0.0.6.tar.gz --markdown 20240405/a/antfyutils/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2024-04-05 15:44:39] WARNING root fetch - processPackages [mux-python]: Timeout reached during download
+[2024-04-05 15:44:39] WARNING root fetch - processPackages [vios]: Timeout reached during download
+[2024-04-05 15:44:39] INFO root fetch - processPackages [vios]: executing diffoscope
+[2024-04-05 15:44:39] INFO root fetch - processPackages [vios]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vios-2.2.7-py3-none-any.whl.zip tmp/vios-2.2.8-py3-none-any.whl.zip --markdown 20240405/v/vios/2.2.7-2.2.8/diff.md --exclude *.pyd
+[2024-04-05 15:44:39] INFO root fetch - processPackages [easy-utils-dev]: Downloading https://files.pythonhosted.org/packages/a3/81/89a854e34a47a4dc0c29665882177c7623e4a0b6ec17571b886500da5fd1/easy_utils_dev-2.8.6.tar.gz
+[2024-04-05 15:44:39] INFO root fetch - processPackages [napari-3dtimereg]: Downloading https://files.pythonhosted.org/packages/47/e1/8203b7264f9487cc9eb98b40c39d1517ea24bb913769bb71366874044644/napari-3dtimereg-0.0.3.tar.gz
+[2024-04-05 15:44:39] INFO root fetch - processPackages [gpx-vis]: Downloading https://files.pythonhosted.org/packages/f8/a6/797b11f89bdec10984257b51e6ab7b7a3eacc8b8d7bc8c1549c151bc668a/gpx_vis-0.1.3.tar.gz
+[2024-04-05 15:44:39] WARNING root fetch - processPackages [napari-3dtimereg]: Timeout reached during download
+[2024-04-05 15:44:39] INFO root fetch - processPackages [napari-3dtimereg]: executing diffoscope
+[2024-04-05 15:44:39] INFO root fetch - processPackages [napari-3dtimereg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/napari-3dtimereg-0.0.2.tar.gz tmp/napari-3dtimereg-0.0.3.tar.gz --markdown 20240405/n/napari-3dtimereg/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2024-04-05 15:44:39] WARNING root fetch - processPackages [easy-utils-dev]: Timeout reached during download
+[2024-04-05 15:44:39] INFO root fetch - processPackages [easy-utils-dev]: executing diffoscope
+[2024-04-05 15:44:39] INFO root fetch - processPackages [easy-utils-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/easy_utils_dev-2.8.5.tar.gz tmp/easy_utils_dev-2.8.6.tar.gz --markdown 20240405/e/easy-utils-dev/2.8.5-2.8.6/diff.md --exclude *.pyd
+[2024-04-05 15:44:39] INFO root fetch - processPackages [mux-python]: Downloading https://files.pythonhosted.org/packages/56/08/d6f6846b34e131444cdff643d33f14903c97fd56db5bceb0028310ed4b66/mux_python-3.9.0.tar.gz
+[2024-04-05 15:44:39] WARNING root fetch - processPackages [gpx-vis]: Timeout reached during download
+[2024-04-05 15:44:39] INFO root fetch - processPackages [gpx-vis]: executing diffoscope
+[2024-04-05 15:44:39] INFO root fetch - processPackages [gpx-vis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gpx_vis-0.1.1.tar.gz tmp/gpx_vis-0.1.3.tar.gz --markdown 20240405/g/gpx-vis/0.1.1-0.1.3/diff.md --exclude *.pyd
+[2024-04-05 15:44:39] WARNING root fetch - processPackages [mux-python]: Timeout reached during download
+[2024-04-05 15:44:39] INFO root fetch - processPackages [mux-python]: executing diffoscope
+[2024-04-05 15:44:39] INFO root fetch - processPackages [mux-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mux_python-3.8.0.tar.gz tmp/mux_python-3.9.0.tar.gz --markdown 20240405/m/mux-python/3.8.0-3.9.0/diff.md --exclude *.pyd
+[2024-04-05 15:44:40] INFO root fetch - processPackages [antfyutils]: Remove: archive file [/home/abi/fetcher/tmp/antfyutils-0.0.5.tar.gz]
+[2024-04-05 15:44:40] INFO root fetch - processPackages [antfyutils]: Remove: archive file [/home/abi/fetcher/tmp/antfyutils-0.0.6.tar.gz]
+[2024-04-05 15:44:40] INFO root fetch - main [MainThread]: End processing [antfyutils]: success
+[2024-04-05 15:44:40] INFO root fetch - processPackages [vios]: Remove: archive file [/home/abi/fetcher/tmp/vios-2.2.7-py3-none-any.whl.zip]
+[2024-04-05 15:44:40] INFO root fetch - processPackages [vios]: Remove: archive file [/home/abi/fetcher/tmp/vios-2.2.8-py3-none-any.whl.zip]
+[2024-04-05 15:44:40] INFO root fetch - main [MainThread]: End processing [vios]: success
+[2024-04-05 15:44:40] INFO root fetch - processPackages [napari-3dtimereg]: Remove: archive file [/home/abi/fetcher/tmp/napari-3dtimereg-0.0.2.tar.gz]
+[2024-04-05 15:44:40] INFO root fetch - processPackages [napari-3dtimereg]: Remove: archive file [/home/abi/fetcher/tmp/napari-3dtimereg-0.0.3.tar.gz]
+[2024-04-05 15:44:40] INFO root fetch - main [MainThread]: End processing [napari-3dtimereg]: success
+[2024-04-05 15:44:40] INFO root fetch - processPackages [gpx-vis]: Remove: archive file [/home/abi/fetcher/tmp/gpx_vis-0.1.1.tar.gz]
+[2024-04-05 15:44:40] INFO root fetch - processPackages [gpx-vis]: Remove: archive file [/home/abi/fetcher/tmp/gpx_vis-0.1.3.tar.gz]
+[2024-04-05 15:44:40] INFO root fetch - main [MainThread]: End processing [gpx-vis]: success
+[2024-04-05 15:44:40] INFO root fetch - processPackages [easy-utils-dev]: Remove: archive file [/home/abi/fetcher/tmp/easy_utils_dev-2.8.5.tar.gz]
+[2024-04-05 15:44:40] INFO root fetch - processPackages [easy-utils-dev]: Remove: archive file [/home/abi/fetcher/tmp/easy_utils_dev-2.8.6.tar.gz]
+[2024-04-05 15:44:40] INFO root fetch - main [MainThread]: End processing [easy-utils-dev]: success
+[2024-04-05 15:44:41] INFO root fetch - processPackages [mux-python]: Remove: archive file [/home/abi/fetcher/tmp/mux_python-3.8.0.tar.gz]
+[2024-04-05 15:44:41] INFO root fetch - processPackages [mux-python]: Remove: archive file [/home/abi/fetcher/tmp/mux_python-3.9.0.tar.gz]
+[2024-04-05 15:44:41] INFO root fetch - main [MainThread]: End processing [mux-python]: success
+[2024-04-05 15:44:41] INFO root fetch - main [MainThread]: Store serial: [22636843]
