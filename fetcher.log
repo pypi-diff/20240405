@@ -22212,3 +22212,42 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2024-04-05 14:25:13] INFO root fetch - processPackages [pulumi-spotinst]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_spotinst-3.9.0a1633346805.tar.gz]
 [2024-04-05 14:25:13] INFO root fetch - main [MainThread]: End processing [pulumi-spotinst]: success
 [2024-04-05 14:25:13] INFO root fetch - main [MainThread]: Store serial: [22635830]
+[2024-04-05 14:27:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22635830]
+[2024-04-05 14:27:22] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-05 14:27:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pandassta
+[2024-04-05 14:27:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: course-Hack4u
+[2024-04-05 14:27:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: junifer
+[2024-04-05 14:27:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cognite-sdk
+[2024-04-05 14:27:22] INFO root fetch - processPackages [junifer]: New version: [0.0.4.dev90] Old Version: [0.0.4.dev85]
+[2024-04-05 14:27:22] INFO root fetch - processPackages [cognite-sdk]: New version: [7.9.0] Old Version: [7.8.9]
+[2024-04-05 14:27:22] INFO root fetch - processPackages [pandassta]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-04-05 14:27:22] WARNING root fetch - processPackages [course-Hack4u]: Skipping, unable to determine old version
+[2024-04-05 14:27:22] INFO root fetch - main [MainThread]: End processing [course-Hack4u] error
+[2024-04-05 14:27:22] INFO root fetch - processPackages [cognite-sdk]: Downloading https://files.pythonhosted.org/packages/3a/da/08548de702dfbea6b1062e8994a1411347778ac52ad6c7db4550cbb42a5a/cognite_sdk-7.8.9.tar.gz
+[2024-04-05 14:27:22] INFO root fetch - processPackages [junifer]: Downloading https://files.pythonhosted.org/packages/16/4a/b4b9a0dabecf2510edc5649109db43fb9fa51c6ae4ddedd1e6a195dbc11b/junifer-0.0.4.dev85.tar.gz
+[2024-04-05 14:27:23] INFO root fetch - processPackages [pandassta]: Downloading https://files.pythonhosted.org/packages/4c/d6/57a8c5d488f324236737f42a0c3ad96aac53fcb1d76c5c0913edcc6e32d1/pandassta-0.0.1.tar.gz
+[2024-04-05 14:27:23] WARNING root fetch - processPackages [cognite-sdk]: Timeout reached during download
+[2024-04-05 14:27:23] WARNING root fetch - processPackages [junifer]: Timeout reached during download
+[2024-04-05 14:27:23] INFO root fetch - processPackages [cognite-sdk]: Downloading https://files.pythonhosted.org/packages/f3/d0/084198ea74187c00a0e69e824227d6cb1a40491cd4a427cf4a86e43a4f32/cognite_sdk-7.9.0.tar.gz
+[2024-04-05 14:27:23] WARNING root fetch - processPackages [pandassta]: Timeout reached during download
+[2024-04-05 14:27:23] WARNING root fetch - processPackages [cognite-sdk]: Timeout reached during download
+[2024-04-05 14:27:23] INFO root fetch - processPackages [cognite-sdk]: executing diffoscope
+[2024-04-05 14:27:23] INFO root fetch - processPackages [cognite-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cognite_sdk-7.8.9.tar.gz tmp/cognite_sdk-7.9.0.tar.gz --markdown 20240405/c/cognite-sdk/7.8.9-7.9.0/diff.md --exclude *.pyd
+[2024-04-05 14:27:23] INFO root fetch - processPackages [pandassta]: Downloading https://files.pythonhosted.org/packages/13/db/172ad7faa47578cad0a68e219da7e74cba7e2d3adc176080238fb5d0b4e2/pandassta-0.0.2.tar.gz
+[2024-04-05 14:27:23] INFO root fetch - processPackages [junifer]: Downloading https://files.pythonhosted.org/packages/e6/05/c7c91db975a267f8eed19e16c7050ca736d00f3ba07d885b1c775a0477c9/junifer-0.0.4.dev90.tar.gz
+[2024-04-05 14:27:23] WARNING root fetch - processPackages [pandassta]: Timeout reached during download
+[2024-04-05 14:27:23] INFO root fetch - processPackages [pandassta]: executing diffoscope
+[2024-04-05 14:27:23] INFO root fetch - processPackages [pandassta]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pandassta-0.0.1.tar.gz tmp/pandassta-0.0.2.tar.gz --markdown 20240405/p/pandassta/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2024-04-05 14:27:23] WARNING root fetch - processPackages [junifer]: Timeout reached during download
+[2024-04-05 14:27:23] INFO root fetch - processPackages [junifer]: executing diffoscope
+[2024-04-05 14:27:23] INFO root fetch - processPackages [junifer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/junifer-0.0.4.dev85.tar.gz tmp/junifer-0.0.4.dev90.tar.gz --markdown 20240405/j/junifer/0.0.4.dev85-0.0.4.dev90/diff.md --exclude *.pyd
+[2024-04-05 14:27:24] INFO root fetch - processPackages [pandassta]: Remove: archive file [/home/abi/fetcher/tmp/pandassta-0.0.1.tar.gz]
+[2024-04-05 14:27:24] INFO root fetch - processPackages [pandassta]: Remove: archive file [/home/abi/fetcher/tmp/pandassta-0.0.2.tar.gz]
+[2024-04-05 14:27:24] INFO root fetch - main [MainThread]: End processing [pandassta]: success
+[2024-04-05 14:27:24] INFO root fetch - processPackages [cognite-sdk]: Remove: archive file [/home/abi/fetcher/tmp/cognite_sdk-7.8.9.tar.gz]
+[2024-04-05 14:27:24] INFO root fetch - processPackages [cognite-sdk]: Remove: archive file [/home/abi/fetcher/tmp/cognite_sdk-7.9.0.tar.gz]
+[2024-04-05 14:27:24] INFO root fetch - main [MainThread]: End processing [cognite-sdk]: success
+[2024-04-05 14:27:24] INFO root fetch - processPackages [junifer]: Remove: archive file [/home/abi/fetcher/tmp/junifer-0.0.4.dev85.tar.gz]
+[2024-04-05 14:27:24] INFO root fetch - processPackages [junifer]: Remove: archive file [/home/abi/fetcher/tmp/junifer-0.0.4.dev90.tar.gz]
+[2024-04-05 14:27:24] INFO root fetch - main [MainThread]: End processing [junifer]: success
+[2024-04-05 14:27:24] INFO root fetch - main [MainThread]: Store serial: [22635845]
