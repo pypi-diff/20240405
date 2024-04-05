@@ -17105,3 +17105,50 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2024-04-05 11:08:36] INFO root fetch - processPackages [zerohertzLib]: Remove: archive file [/home/abi/fetcher/tmp/zerohertzLib-1.0.4.tar.gz]
 [2024-04-05 11:08:36] INFO root fetch - main [MainThread]: End processing [zerohertzLib]: success
 [2024-04-05 11:08:36] INFO root fetch - main [MainThread]: Store serial: [22633834]
+[2024-04-05 11:10:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22633834]
+[2024-04-05 11:10:45] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-05 11:10:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: django-login-email
+[2024-04-05 11:10:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: reqstool-python-poetry-plugin
+[2024-04-05 11:10:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: function2widgets
+[2024-04-05 11:10:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nonebot-plugin-bilichat
+[2024-04-05 11:10:45] INFO root fetch - processPackages [function2widgets]: New version: [0.6.4] Old Version: [0.6.3]
+[2024-04-05 11:10:45] INFO root fetch - processPackages [django-login-email]: New version: [0.3.0] Old Version: [0.2.0]
+[2024-04-05 11:10:45] INFO root fetch - processPackages [reqstool-python-poetry-plugin]: New version: [0.0.2] Old Version: [0.0.0]
+[2024-04-05 11:10:45] INFO root fetch - processPackages [function2widgets]: Downloading https://files.pythonhosted.org/packages/20/03/a893b7c9bb127b19dbdef35199220a78ef71b34e2afdf21f310b74579a95/function2widgets-0.6.3.tar.gz
+[2024-04-05 11:10:45] INFO root fetch - processPackages [nonebot-plugin-bilichat]: New version: [5.3.0] Old Version: [5.2.0]
+[2024-04-05 11:10:45] WARNING root fetch - processPackages [function2widgets]: Timeout reached during download
+[2024-04-05 11:10:45] INFO root fetch - processPackages [django-login-email]: Downloading https://files.pythonhosted.org/packages/23/90/323c07c4bbfebacdc6c7c77cb524a8e38a96299d52e91a73e323879dc9e4/django_login_email-0.2.0.tar.gz
+[2024-04-05 11:10:46] INFO root fetch - processPackages [reqstool-python-poetry-plugin]: Downloading https://files.pythonhosted.org/packages/57/ef/fc8f0a6ced0409d0fc83c97ae491920fb4a15d38ca987ff3817672aaf03c/reqstool_python_poetry_plugin-0.0.0.tar.gz
+[2024-04-05 11:10:46] INFO root fetch - processPackages [nonebot-plugin-bilichat]: Downloading https://files.pythonhosted.org/packages/0e/63/98085c839487af4e95b539df866f847b08ea596871b804ff2151a2a8d59d/nonebot_plugin_bilichat-5.2.0.tar.gz
+[2024-04-05 11:10:46] INFO root fetch - processPackages [function2widgets]: Downloading https://files.pythonhosted.org/packages/5a/d1/cb21cc9cc04a9f192b59ff58c6fce71d8c18c766ee4e4d92fd5045e12d96/function2widgets-0.6.4.tar.gz
+[2024-04-05 11:10:46] WARNING root fetch - processPackages [django-login-email]: Timeout reached during download
+[2024-04-05 11:10:46] WARNING root fetch - processPackages [reqstool-python-poetry-plugin]: Timeout reached during download
+[2024-04-05 11:10:46] WARNING root fetch - processPackages [function2widgets]: Timeout reached during download
+[2024-04-05 11:10:46] INFO root fetch - processPackages [function2widgets]: executing diffoscope
+[2024-04-05 11:10:46] INFO root fetch - processPackages [function2widgets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/function2widgets-0.6.3.tar.gz tmp/function2widgets-0.6.4.tar.gz --markdown 20240405/f/function2widgets/0.6.3-0.6.4/diff.md --exclude *.pyd
+[2024-04-05 11:10:46] WARNING root fetch - processPackages [nonebot-plugin-bilichat]: Timeout reached during download
+[2024-04-05 11:10:46] INFO root fetch - processPackages [django-login-email]: Downloading https://files.pythonhosted.org/packages/13/81/223292b1ee799f7cdefc4f057842c5ca14ef10f0cdbcde3cd33cd8c11dbe/django_login_email-0.3.0.tar.gz
+[2024-04-05 11:10:46] INFO root fetch - processPackages [reqstool-python-poetry-plugin]: Downloading https://files.pythonhosted.org/packages/14/92/e249e58c94df5a70f754a8b57008e19fb266e18cb7d79d20d89292f595c3/reqstool_python_poetry_plugin-0.0.2.tar.gz
+[2024-04-05 11:10:46] WARNING root fetch - processPackages [django-login-email]: Timeout reached during download
+[2024-04-05 11:10:46] INFO root fetch - processPackages [django-login-email]: executing diffoscope
+[2024-04-05 11:10:46] INFO root fetch - processPackages [django-login-email]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_login_email-0.2.0.tar.gz tmp/django_login_email-0.3.0.tar.gz --markdown 20240405/d/django-login-email/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2024-04-05 11:10:46] INFO root fetch - processPackages [nonebot-plugin-bilichat]: Downloading https://files.pythonhosted.org/packages/3b/95/d2fff60974fe4fb591a24b50ee2640c4157071e863cf7ed010a6bead91fc/nonebot_plugin_bilichat-5.3.0.tar.gz
+[2024-04-05 11:10:46] WARNING root fetch - processPackages [reqstool-python-poetry-plugin]: Timeout reached during download
+[2024-04-05 11:10:46] INFO root fetch - processPackages [reqstool-python-poetry-plugin]: executing diffoscope
+[2024-04-05 11:10:46] INFO root fetch - processPackages [reqstool-python-poetry-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reqstool_python_poetry_plugin-0.0.0.tar.gz tmp/reqstool_python_poetry_plugin-0.0.2.tar.gz --markdown 20240405/r/reqstool-python-poetry-plugin/0.0.0-0.0.2/diff.md --exclude *.pyd
+[2024-04-05 11:10:46] WARNING root fetch - processPackages [nonebot-plugin-bilichat]: Timeout reached during download
+[2024-04-05 11:10:46] INFO root fetch - processPackages [nonebot-plugin-bilichat]: executing diffoscope
+[2024-04-05 11:10:46] INFO root fetch - processPackages [nonebot-plugin-bilichat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_bilichat-5.2.0.tar.gz tmp/nonebot_plugin_bilichat-5.3.0.tar.gz --markdown 20240405/n/nonebot-plugin-bilichat/5.2.0-5.3.0/diff.md --exclude *.pyd
+[2024-04-05 11:10:46] INFO root fetch - processPackages [function2widgets]: Remove: archive file [/home/abi/fetcher/tmp/function2widgets-0.6.3.tar.gz]
+[2024-04-05 11:10:46] INFO root fetch - processPackages [function2widgets]: Remove: archive file [/home/abi/fetcher/tmp/function2widgets-0.6.4.tar.gz]
+[2024-04-05 11:10:46] INFO root fetch - main [MainThread]: End processing [function2widgets]: success
+[2024-04-05 11:10:47] INFO root fetch - processPackages [django-login-email]: Remove: archive file [/home/abi/fetcher/tmp/django_login_email-0.2.0.tar.gz]
+[2024-04-05 11:10:47] INFO root fetch - processPackages [django-login-email]: Remove: archive file [/home/abi/fetcher/tmp/django_login_email-0.3.0.tar.gz]
+[2024-04-05 11:10:47] INFO root fetch - main [MainThread]: End processing [django-login-email]: success
+[2024-04-05 11:10:47] INFO root fetch - processPackages [reqstool-python-poetry-plugin]: Remove: archive file [/home/abi/fetcher/tmp/reqstool_python_poetry_plugin-0.0.0.tar.gz]
+[2024-04-05 11:10:47] INFO root fetch - processPackages [reqstool-python-poetry-plugin]: Remove: archive file [/home/abi/fetcher/tmp/reqstool_python_poetry_plugin-0.0.2.tar.gz]
+[2024-04-05 11:10:47] INFO root fetch - main [MainThread]: End processing [reqstool-python-poetry-plugin]: success
+[2024-04-05 11:10:47] INFO root fetch - processPackages [nonebot-plugin-bilichat]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_bilichat-5.2.0.tar.gz]
+[2024-04-05 11:10:47] INFO root fetch - processPackages [nonebot-plugin-bilichat]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_bilichat-5.3.0.tar.gz]
+[2024-04-05 11:10:47] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-bilichat]: success
+[2024-04-05 11:10:47] INFO root fetch - main [MainThread]: Store serial: [22633846]
