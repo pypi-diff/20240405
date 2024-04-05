@@ -11655,3 +11655,50 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2024-04-05 06:35:51] INFO root fetch - processPackages [flat_profiler]: Remove: archive file [/home/abi/fetcher/tmp/flat_profiler-0.2.2.tar.gz]
 [2024-04-05 06:35:51] INFO root fetch - main [MainThread]: End processing [flat_profiler]: success
 [2024-04-05 06:35:51] INFO root fetch - main [MainThread]: Store serial: [22631757]
+[2024-04-05 06:37:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22631757]
+[2024-04-05 06:38:00] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-05 06:38:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo14-addon-l10n-br-resource
+[2024-04-05 06:38:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: whyhow
+[2024-04-05 06:38:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: exxa
+[2024-04-05 06:38:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo14-addon-l10n-br-nfse-focus
+[2024-04-05 06:38:00] INFO root fetch - processPackages [odoo14-addon-l10n-br-resource]: New version: [14.0.1.0.5.dev1] Old Version: [14.0.1.0.4]
+[2024-04-05 06:38:00] INFO root fetch - processPackages [odoo14-addon-l10n-br-nfse-focus]: New version: [14.0.1.0.4.dev3] Old Version: [14.0.1.0.3]
+[2024-04-05 06:38:00] INFO root fetch - processPackages [whyhow]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-04-05 06:38:00] INFO root fetch - processPackages [exxa]: New version: [0.6.4] Old Version: [0.6.3]
+[2024-04-05 06:38:00] INFO root fetch - processPackages [whyhow]: Downloading https://files.pythonhosted.org/packages/71/91/8c62d44a6d4d109413e4f75061dc37e32955099471163586d7423e6345cf/whyhow-0.0.2.tar.gz
+[2024-04-05 06:38:00] INFO root fetch - processPackages [odoo14-addon-l10n-br-nfse-focus]: Downloading https://files.pythonhosted.org/packages/a2/57/b29386f3ab21805955bc4c15fff5a8fce1a6e4771f196a5b7788ae2fb0d9/odoo14_addon_l10n_br_nfse_focus-14.0.1.0.3-py3-none-any.whl
+[2024-04-05 06:38:00] INFO root fetch - processPackages [odoo14-addon-l10n-br-resource]: Downloading https://files.pythonhosted.org/packages/13/5b/2bb0066d4dd5959905135d483fea964141f64c06afcd0bfe90788c1ccc29/odoo14_addon_l10n_br_resource-14.0.1.0.4-py3-none-any.whl
+[2024-04-05 06:38:00] INFO root fetch - processPackages [exxa]: Downloading https://files.pythonhosted.org/packages/c2/47/cd177fb957433aa5371a6b90d645db99929d2c25aa107295491c4cb4488e/exxa-0.6.3.tar.gz
+[2024-04-05 06:38:00] WARNING root fetch - processPackages [whyhow]: Timeout reached during download
+[2024-04-05 06:38:00] WARNING root fetch - processPackages [exxa]: Timeout reached during download
+[2024-04-05 06:38:00] WARNING root fetch - processPackages [odoo14-addon-l10n-br-resource]: Timeout reached during download
+[2024-04-05 06:38:00] WARNING root fetch - processPackages [odoo14-addon-l10n-br-nfse-focus]: Timeout reached during download
+[2024-04-05 06:38:00] INFO root fetch - processPackages [whyhow]: Downloading https://files.pythonhosted.org/packages/b9/3c/11af2ee587ae2f391aa8ef61b4625c0d02a10d6b314ecb1592ca32801ef9/whyhow-0.0.3.tar.gz
+[2024-04-05 06:38:00] INFO root fetch - processPackages [exxa]: Downloading https://files.pythonhosted.org/packages/8b/4b/48a979864938f8d22028d2774ffc0e59d94fe07548189eb4b6f793e10f26/exxa-0.6.4.tar.gz
+[2024-04-05 06:38:01] INFO root fetch - processPackages [odoo14-addon-l10n-br-resource]: Downloading https://files.pythonhosted.org/packages/61/4d/d6c5e4e50dbef1eea4eafce7d03feffeec2ee0173d0f5d2ab5019e003aa8/odoo14_addon_l10n_br_resource-14.0.1.0.5.dev1-py3-none-any.whl
+[2024-04-05 06:38:01] INFO root fetch - processPackages [odoo14-addon-l10n-br-nfse-focus]: Downloading https://files.pythonhosted.org/packages/59/84/88725d01859649b85439d5816c61f2a5acffdc691f5fffabeca50e3e04d8/odoo14_addon_l10n_br_nfse_focus-14.0.1.0.4.dev3-py3-none-any.whl
+[2024-04-05 06:38:01] WARNING root fetch - processPackages [whyhow]: Timeout reached during download
+[2024-04-05 06:38:01] INFO root fetch - processPackages [whyhow]: executing diffoscope
+[2024-04-05 06:38:01] INFO root fetch - processPackages [whyhow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/whyhow-0.0.2.tar.gz tmp/whyhow-0.0.3.tar.gz --markdown 20240405/w/whyhow/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2024-04-05 06:38:01] WARNING root fetch - processPackages [exxa]: Timeout reached during download
+[2024-04-05 06:38:01] INFO root fetch - processPackages [exxa]: executing diffoscope
+[2024-04-05 06:38:01] INFO root fetch - processPackages [exxa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/exxa-0.6.3.tar.gz tmp/exxa-0.6.4.tar.gz --markdown 20240405/e/exxa/0.6.3-0.6.4/diff.md --exclude *.pyd
+[2024-04-05 06:38:01] WARNING root fetch - processPackages [odoo14-addon-l10n-br-resource]: Timeout reached during download
+[2024-04-05 06:38:01] INFO root fetch - processPackages [odoo14-addon-l10n-br-resource]: executing diffoscope
+[2024-04-05 06:38:01] INFO root fetch - processPackages [odoo14-addon-l10n-br-resource]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_l10n_br_resource-14.0.1.0.4-py3-none-any.whl.zip tmp/odoo14_addon_l10n_br_resource-14.0.1.0.5.dev1-py3-none-any.whl.zip --markdown 20240405/o/odoo14-addon-l10n-br-resource/14.0.1.0.4-14.0.1.0.5.dev1/diff.md --exclude *.pyd
+[2024-04-05 06:38:01] WARNING root fetch - processPackages [odoo14-addon-l10n-br-nfse-focus]: Timeout reached during download
+[2024-04-05 06:38:01] INFO root fetch - processPackages [odoo14-addon-l10n-br-nfse-focus]: executing diffoscope
+[2024-04-05 06:38:01] INFO root fetch - processPackages [odoo14-addon-l10n-br-nfse-focus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_l10n_br_nfse_focus-14.0.1.0.3-py3-none-any.whl.zip tmp/odoo14_addon_l10n_br_nfse_focus-14.0.1.0.4.dev3-py3-none-any.whl.zip --markdown 20240405/o/odoo14-addon-l10n-br-nfse-focus/14.0.1.0.3-14.0.1.0.4.dev3/diff.md --exclude *.pyd
+[2024-04-05 06:38:01] INFO root fetch - processPackages [exxa]: Remove: archive file [/home/abi/fetcher/tmp/exxa-0.6.3.tar.gz]
+[2024-04-05 06:38:01] INFO root fetch - processPackages [exxa]: Remove: archive file [/home/abi/fetcher/tmp/exxa-0.6.4.tar.gz]
+[2024-04-05 06:38:01] INFO root fetch - main [MainThread]: End processing [exxa]: success
+[2024-04-05 06:38:01] INFO root fetch - processPackages [whyhow]: Remove: archive file [/home/abi/fetcher/tmp/whyhow-0.0.2.tar.gz]
+[2024-04-05 06:38:01] INFO root fetch - processPackages [whyhow]: Remove: archive file [/home/abi/fetcher/tmp/whyhow-0.0.3.tar.gz]
+[2024-04-05 06:38:01] INFO root fetch - main [MainThread]: End processing [whyhow]: success
+[2024-04-05 06:38:01] INFO root fetch - processPackages [odoo14-addon-l10n-br-nfse-focus]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_l10n_br_nfse_focus-14.0.1.0.3-py3-none-any.whl.zip]
+[2024-04-05 06:38:01] INFO root fetch - processPackages [odoo14-addon-l10n-br-nfse-focus]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_l10n_br_nfse_focus-14.0.1.0.4.dev3-py3-none-any.whl.zip]
+[2024-04-05 06:38:01] INFO root fetch - main [MainThread]: End processing [odoo14-addon-l10n-br-nfse-focus]: success
+[2024-04-05 06:38:01] INFO root fetch - processPackages [odoo14-addon-l10n-br-resource]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_l10n_br_resource-14.0.1.0.4-py3-none-any.whl.zip]
+[2024-04-05 06:38:01] INFO root fetch - processPackages [odoo14-addon-l10n-br-resource]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_l10n_br_resource-14.0.1.0.5.dev1-py3-none-any.whl.zip]
+[2024-04-05 06:38:01] INFO root fetch - main [MainThread]: End processing [odoo14-addon-l10n-br-resource]: success
+[2024-04-05 06:38:01] INFO root fetch - main [MainThread]: Store serial: [22631767]
