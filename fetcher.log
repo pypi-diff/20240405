@@ -19331,3 +19331,50 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2024-04-05 12:31:28] INFO root fetch - processPackages [logging-strict]: Remove: archive file [/home/abi/fetcher/tmp/logging-strict-1.2.27.tar.gz]
 [2024-04-05 12:31:28] INFO root fetch - main [MainThread]: End processing [logging-strict]: success
 [2024-04-05 12:31:28] INFO root fetch - main [MainThread]: Store serial: [22634628]
+[2024-04-05 12:33:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22634628]
+[2024-04-05 12:33:39] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-05 12:33:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mysqlquerys
+[2024-04-05 12:33:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyside6-qml-stubgen
+[2024-04-05 12:33:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: rpaframework
+[2024-04-05 12:33:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dip-coater
+[2024-04-05 12:33:39] INFO root fetch - processPackages [dip-coater]: New version: [0.2.0] Old Version: [0.1.0]
+[2024-04-05 12:33:39] INFO root fetch - processPackages [pyside6-qml-stubgen]: New version: [0.1.0a1] Old Version: [0.1.0a0]
+[2024-04-05 12:33:39] INFO root fetch - processPackages [mysqlquerys]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-04-05 12:33:39] INFO root fetch - processPackages [rpaframework]: New version: [9.6.0] Old Version: [9.5.0]
+[2024-04-05 12:33:39] INFO root fetch - processPackages [dip-coater]: Downloading https://files.pythonhosted.org/packages/11/fa/319bbae8815e54140e633a135bd6eecbe8ad3ec422d474a2fa30513dcfc8/dip-coater-0.1.0.tar.gz
+[2024-04-05 12:33:39] INFO root fetch - processPackages [mysqlquerys]: Downloading https://files.pythonhosted.org/packages/ad/1e/493b3118f49042b820f83a09cd63f90330129fef59e92747e0018166fa68/mysqlquerys-0.2.8.tar.gz
+[2024-04-05 12:33:39] INFO root fetch - processPackages [pyside6-qml-stubgen]: Downloading https://files.pythonhosted.org/packages/ee/13/960e8b0014bbdd47735f26fdbc157358813a0e1beca54259539ae52b4965/pyside6_qml_stubgen-0.1.0a0.tar.gz
+[2024-04-05 12:33:39] WARNING root fetch - processPackages [dip-coater]: Timeout reached during download
+[2024-04-05 12:33:40] INFO root fetch - processPackages [rpaframework]: Downloading https://files.pythonhosted.org/packages/08/36/2753b6863128fce0fd17301c85f3767b92c880658c31f1a1f8773dd22d10/rpaframework-9.5.0.tar.gz
+[2024-04-05 12:33:40] WARNING root fetch - processPackages [pyside6-qml-stubgen]: Timeout reached during download
+[2024-04-05 12:33:40] WARNING root fetch - processPackages [mysqlquerys]: Timeout reached during download
+[2024-04-05 12:33:40] INFO root fetch - processPackages [dip-coater]: Downloading https://files.pythonhosted.org/packages/4a/a9/59f3e6b70c70664d4935c08be761b880c6fe2d9cd137a8be4697f1e11c7f/dip-coater-0.2.0.tar.gz
+[2024-04-05 12:33:40] INFO root fetch - processPackages [pyside6-qml-stubgen]: Downloading https://files.pythonhosted.org/packages/68/7b/8c458d5db1e5a44642b19cb439542eeb44e514b130a53e59187f9701c03c/pyside6_qml_stubgen-0.1.0a1.tar.gz
+[2024-04-05 12:33:40] WARNING root fetch - processPackages [dip-coater]: Timeout reached during download
+[2024-04-05 12:33:40] INFO root fetch - processPackages [dip-coater]: executing diffoscope
+[2024-04-05 12:33:40] INFO root fetch - processPackages [dip-coater]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dip-coater-0.1.0.tar.gz tmp/dip-coater-0.2.0.tar.gz --markdown 20240405/d/dip-coater/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2024-04-05 12:33:40] INFO root fetch - processPackages [mysqlquerys]: Downloading https://files.pythonhosted.org/packages/e8/bf/feba974ce61faaef306ec6c134d31f69bde04c5208700d7d9b9c7f645c4b/mysqlquerys-0.2.9.tar.gz
+[2024-04-05 12:33:40] WARNING root fetch - processPackages [pyside6-qml-stubgen]: Timeout reached during download
+[2024-04-05 12:33:40] INFO root fetch - processPackages [pyside6-qml-stubgen]: executing diffoscope
+[2024-04-05 12:33:40] INFO root fetch - processPackages [pyside6-qml-stubgen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyside6_qml_stubgen-0.1.0a0.tar.gz tmp/pyside6_qml_stubgen-0.1.0a1.tar.gz --markdown 20240405/p/pyside6-qml-stubgen/0.1.0a0-0.1.0a1/diff.md --exclude *.pyd
+[2024-04-05 12:33:40] WARNING root fetch - processPackages [mysqlquerys]: Timeout reached during download
+[2024-04-05 12:33:40] INFO root fetch - processPackages [mysqlquerys]: executing diffoscope
+[2024-04-05 12:33:40] INFO root fetch - processPackages [mysqlquerys]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mysqlquerys-0.2.8.tar.gz tmp/mysqlquerys-0.2.9.tar.gz --markdown 20240405/m/mysqlquerys/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2024-04-05 12:33:40] INFO root fetch - processPackages [dip-coater]: Remove: archive file [/home/abi/fetcher/tmp/dip-coater-0.1.0.tar.gz]
+[2024-04-05 12:33:40] INFO root fetch - processPackages [dip-coater]: Remove: archive file [/home/abi/fetcher/tmp/dip-coater-0.2.0.tar.gz]
+[2024-04-05 12:33:40] INFO root fetch - main [MainThread]: End processing [dip-coater]: success
+[2024-04-05 12:33:40] WARNING root fetch - processPackages [rpaframework]: Timeout reached during download
+[2024-04-05 12:33:41] INFO root fetch - processPackages [pyside6-qml-stubgen]: Remove: archive file [/home/abi/fetcher/tmp/pyside6_qml_stubgen-0.1.0a0.tar.gz]
+[2024-04-05 12:33:41] INFO root fetch - processPackages [pyside6-qml-stubgen]: Remove: archive file [/home/abi/fetcher/tmp/pyside6_qml_stubgen-0.1.0a1.tar.gz]
+[2024-04-05 12:33:41] INFO root fetch - main [MainThread]: End processing [pyside6-qml-stubgen]: success
+[2024-04-05 12:33:41] INFO root fetch - processPackages [rpaframework]: Downloading https://files.pythonhosted.org/packages/ec/52/e237349f170c7f11301bcd83a500356a47b1480cdeee67c6971b224571b0/rpaframework-9.6.0.tar.gz
+[2024-04-05 12:33:41] INFO root fetch - processPackages [mysqlquerys]: Remove: archive file [/home/abi/fetcher/tmp/mysqlquerys-0.2.8.tar.gz]
+[2024-04-05 12:33:41] INFO root fetch - processPackages [mysqlquerys]: Remove: archive file [/home/abi/fetcher/tmp/mysqlquerys-0.2.9.tar.gz]
+[2024-04-05 12:33:41] INFO root fetch - main [MainThread]: End processing [mysqlquerys]: success
+[2024-04-05 12:33:41] WARNING root fetch - processPackages [rpaframework]: Timeout reached during download
+[2024-04-05 12:33:41] INFO root fetch - processPackages [rpaframework]: executing diffoscope
+[2024-04-05 12:33:41] INFO root fetch - processPackages [rpaframework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rpaframework-9.5.0.tar.gz tmp/rpaframework-9.6.0.tar.gz --markdown 20240405/r/rpaframework/9.5.0-9.6.0/diff.md --exclude *.pyd
+[2024-04-05 12:33:43] INFO root fetch - processPackages [rpaframework]: Remove: archive file [/home/abi/fetcher/tmp/rpaframework-9.5.0.tar.gz]
+[2024-04-05 12:33:43] INFO root fetch - processPackages [rpaframework]: Remove: archive file [/home/abi/fetcher/tmp/rpaframework-9.6.0.tar.gz]
+[2024-04-05 12:33:43] INFO root fetch - main [MainThread]: End processing [rpaframework]: success
+[2024-04-05 12:33:43] INFO root fetch - main [MainThread]: Store serial: [22634641]
