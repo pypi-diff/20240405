@@ -23342,3 +23342,60 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2024-04-05 14:58:11] INFO root fetch - processPackages [bionty-base]: Remove: archive file [/home/abi/fetcher/tmp/bionty-base-0.37.2.tar.gz]
 [2024-04-05 14:58:11] INFO root fetch - main [MainThread]: End processing [bionty-base]: success
 [2024-04-05 14:58:11] INFO root fetch - main [MainThread]: Store serial: [22636236]
+[2024-04-05 15:00:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22636236]
+[2024-04-05 15:00:20] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-05 15:00:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: keelson
+[2024-04-05 15:00:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: few-shot-priming
+[2024-04-05 15:00:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: kosmatau3d
+[2024-04-05 15:00:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: resdata
+[2024-04-05 15:00:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: AstecManager
+[2024-04-05 15:00:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: akshare
+[2024-04-05 15:00:20] INFO root fetch - processPackages [keelson]: New version: [0.3.0rc9] Old Version: [0.3.0rc8]
+[2024-04-05 15:00:20] INFO root fetch - processPackages [few-shot-priming]: New version: [0.3.99] Old Version: [0.3.98]
+[2024-04-05 15:00:20] INFO root fetch - processPackages [keelson]: Downloading https://files.pythonhosted.org/packages/39/53/954e13e6e2b1bd1ad6c82e13de33a18a8ccad77205da459e58fa4f551b5f/keelson-0.3.0rc8-py3-none-any.whl
+[2024-04-05 15:00:20] INFO root fetch - processPackages [kosmatau3d]: New version: [1.0.8] Old Version: [1.0.7]
+[2024-04-05 15:00:20] INFO root fetch - processPackages [resdata]: New version: [4.2.2] Old Version: [4.2.1]
+[2024-04-05 15:00:20] INFO root fetch - processPackages [AstecManager]: New version: [0.2.7] Old Version: [0.2.6]
+[2024-04-05 15:00:20] INFO root fetch - processPackages [few-shot-priming]: Downloading https://files.pythonhosted.org/packages/eb/67/d15b11d0bfb57369fa16ba7f8c97cd3ddec8f771e6da8f11a3d819004b69/few_shot_priming-0.3.98-py3-none-any.whl
+[2024-04-05 15:00:20] WARNING root fetch - processPackages [keelson]: Timeout reached during download
+[2024-04-05 15:00:20] INFO root fetch - processPackages [kosmatau3d]: Downloading https://files.pythonhosted.org/packages/9b/5d/d044109726f98560e8edf3bd6b7b9c7c6b16dfe923f0117a0f0d7512e7f3/kosmatau3d-1.0.7.tar.gz
+[2024-04-05 15:00:20] INFO root fetch - processPackages [resdata]: Downloading https://files.pythonhosted.org/packages/9c/ab/6dd7d0930c3564a4a5d5e1031a3c198ff2c15592ff7e9a7ed0addd9ae755/resdata-4.2.1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-04-05 15:00:20] INFO root fetch - processPackages [keelson]: Downloading https://files.pythonhosted.org/packages/08/a1/28289399a8eb6d6450f75184975f0e22dc1b9429247346881f3d6bdf8511/keelson-0.3.0rc9-py3-none-any.whl
+[2024-04-05 15:00:20] INFO root fetch - processPackages [AstecManager]: Downloading https://files.pythonhosted.org/packages/0b/e2/e0e823ee2dd6e2ecddc71722e08a910beac7fb031c0647475f2cffc34c16/AstecManager-0.2.6.tar.gz
+[2024-04-05 15:00:20] WARNING root fetch - processPackages [AstecManager]: Skipping package: exceeds size limit 30578250>=10485760
+[2024-04-05 15:00:20] INFO root fetch - main [MainThread]: End processing [AstecManager] error
+[2024-04-05 15:00:20] WARNING root fetch - processPackages [keelson]: Timeout reached during download
+[2024-04-05 15:00:20] INFO root fetch - processPackages [keelson]: executing diffoscope
+[2024-04-05 15:00:20] INFO root fetch - processPackages [keelson]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/keelson-0.3.0rc8-py3-none-any.whl.zip tmp/keelson-0.3.0rc9-py3-none-any.whl.zip --markdown 20240405/k/keelson/0.3.0rc8-0.3.0rc9/diff.md --exclude *.pyd
+[2024-04-05 15:00:20] WARNING root fetch - processPackages [kosmatau3d]: Skipping package: exceeds size limit 19005878>=10485760
+[2024-04-05 15:00:20] INFO root fetch - main [MainThread]: End processing [kosmatau3d] error
+[2024-04-05 15:00:20] WARNING root fetch - processPackages [few-shot-priming]: Timeout reached during download
+[2024-04-05 15:00:21] INFO root fetch - processPackages [few-shot-priming]: Downloading https://files.pythonhosted.org/packages/ff/11/548f6e96803602e6431dc610d736d401b20fde986f85c35c8ad19a6d0958/few_shot_priming-0.3.99-py3-none-any.whl
+[2024-04-05 15:00:21] WARNING root fetch - processPackages [few-shot-priming]: Timeout reached during download
+[2024-04-05 15:00:21] INFO root fetch - processPackages [few-shot-priming]: executing diffoscope
+[2024-04-05 15:00:21] INFO root fetch - processPackages [few-shot-priming]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/few_shot_priming-0.3.98-py3-none-any.whl.zip tmp/few_shot_priming-0.3.99-py3-none-any.whl.zip --markdown 20240405/f/few-shot-priming/0.3.98-0.3.99/diff.md --exclude *.pyd
+[2024-04-05 15:00:21] WARNING root fetch - processPackages [resdata]: Timeout reached during download
+[2024-04-05 15:00:21] INFO root fetch - processPackages [akshare]: New version: [1.9.99] Old Version: [1.9.98]
+[2024-04-05 15:00:21] INFO root fetch - processPackages [resdata]: Downloading https://files.pythonhosted.org/packages/bf/50/91e0e3fbbfe874c6ffb0fcdb3dce99ef6265abd29b81a5666893b69e6385/resdata-4.2.2-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-04-05 15:00:21] INFO root fetch - processPackages [keelson]: Remove: archive file [/home/abi/fetcher/tmp/keelson-0.3.0rc8-py3-none-any.whl.zip]
+[2024-04-05 15:00:21] INFO root fetch - processPackages [keelson]: Remove: archive file [/home/abi/fetcher/tmp/keelson-0.3.0rc9-py3-none-any.whl.zip]
+[2024-04-05 15:00:21] INFO root fetch - main [MainThread]: End processing [keelson]: success
+[2024-04-05 15:00:21] INFO root fetch - processPackages [akshare]: Downloading https://files.pythonhosted.org/packages/ec/a4/f1c21d8fbb349e15f0bf76d32a496003bcff9b66215f81b940337a510e36/akshare-1.9.98.tar.gz
+[2024-04-05 15:00:21] WARNING root fetch - processPackages [akshare]: Timeout reached during download
+[2024-04-05 15:00:21] WARNING root fetch - processPackages [resdata]: Timeout reached during download
+[2024-04-05 15:00:21] INFO root fetch - processPackages [resdata]: executing diffoscope
+[2024-04-05 15:00:21] INFO root fetch - processPackages [resdata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/resdata-4.2.1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/resdata-4.2.2-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20240405/r/resdata/4.2.1-4.2.2/diff.md --exclude *.pyd
+[2024-04-05 15:00:22] INFO root fetch - processPackages [akshare]: Downloading https://files.pythonhosted.org/packages/53/e8/f58e96016752567ca09f3f67abdc7e935d0afa919aded528d50590ed9170/akshare-1.9.99.tar.gz
+[2024-04-05 15:00:22] INFO root fetch - processPackages [few-shot-priming]: Remove: archive file [/home/abi/fetcher/tmp/few_shot_priming-0.3.98-py3-none-any.whl.zip]
+[2024-04-05 15:00:22] INFO root fetch - processPackages [few-shot-priming]: Remove: archive file [/home/abi/fetcher/tmp/few_shot_priming-0.3.99-py3-none-any.whl.zip]
+[2024-04-05 15:00:22] INFO root fetch - main [MainThread]: End processing [few-shot-priming]: success
+[2024-04-05 15:00:22] WARNING root fetch - processPackages [akshare]: Timeout reached during download
+[2024-04-05 15:00:22] INFO root fetch - processPackages [akshare]: executing diffoscope
+[2024-04-05 15:00:22] INFO root fetch - processPackages [akshare]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/akshare-1.9.98.tar.gz tmp/akshare-1.9.99.tar.gz --markdown 20240405/a/akshare/1.9.98-1.9.99/diff.md --exclude *.pyd
+[2024-04-05 15:00:24] INFO root fetch - processPackages [akshare]: Remove: archive file [/home/abi/fetcher/tmp/akshare-1.9.98.tar.gz]
+[2024-04-05 15:00:24] INFO root fetch - processPackages [akshare]: Remove: archive file [/home/abi/fetcher/tmp/akshare-1.9.99.tar.gz]
+[2024-04-05 15:00:24] INFO root fetch - main [MainThread]: End processing [akshare]: success
+[2024-04-05 15:00:44] INFO root fetch - processPackages [resdata]: Remove: archive file [/home/abi/fetcher/tmp/resdata-4.2.1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-04-05 15:00:44] INFO root fetch - processPackages [resdata]: Remove: archive file [/home/abi/fetcher/tmp/resdata-4.2.2-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-04-05 15:00:44] INFO root fetch - main [MainThread]: End processing [resdata]: success
+[2024-04-05 15:00:44] INFO root fetch - main [MainThread]: Store serial: [22636264]
