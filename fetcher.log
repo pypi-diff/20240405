@@ -9560,3 +9560,61 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2024-04-05 04:32:44] INFO root fetch - processPackages [sqlx-exec]: Remove: archive file [/home/abi/fetcher/tmp/sqlx-exec-2.3.4.tar.gz]
 [2024-04-05 04:32:44] INFO root fetch - main [MainThread]: End processing [sqlx-exec]: success
 [2024-04-05 04:32:44] INFO root fetch - main [MainThread]: Store serial: [22631190]
+[2024-04-05 04:34:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22631190]
+[2024-04-05 04:34:53] INFO root fetch - main [MainThread]: No changed packages found
+[2024-04-05 04:36:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22631190]
+[2024-04-05 04:36:59] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-05 04:36:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo12-addon-account-fiscal-year-closing
+[2024-04-05 04:36:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo14-addon-account-fiscal-year-closing
+[2024-04-05 04:36:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: advcalc
+[2024-04-05 04:36:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: advcalc
+[2024-04-05 04:36:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: netmiko-mhrt
+[2024-04-05 04:37:00] INFO root fetch - processPackages [advcalc]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-04-05 04:37:00] INFO root fetch - processPackages [odoo12-addon-account-fiscal-year-closing]: New version: [12.0.1.2.0.99.dev9] Old Version: [12.0.1.2.0.99.dev8]
+[2024-04-05 04:37:00] INFO root fetch - processPackages [advcalc]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-04-05 04:37:00] INFO root fetch - processPackages [odoo14-addon-account-fiscal-year-closing]: New version: [14.0.1.0.4.dev7] Old Version: [14.0.1.0.4.dev6]
+[2024-04-05 04:37:00] INFO root fetch - processPackages [netmiko-mhrt]: New version: [1.0.5] Old Version: [1.0.4]
+[2024-04-05 04:37:00] INFO root fetch - processPackages [advcalc]: Downloading https://files.pythonhosted.org/packages/93/7a/2c60ff02577765caed5392879112323e23d50698f2256c927f3f593dac93/advcalc-0.0.3.tar.gz
+[2024-04-05 04:37:00] INFO root fetch - processPackages [advcalc]: Downloading https://files.pythonhosted.org/packages/93/7a/2c60ff02577765caed5392879112323e23d50698f2256c927f3f593dac93/advcalc-0.0.3.tar.gz
+[2024-04-05 04:37:00] INFO root fetch - processPackages [odoo12-addon-account-fiscal-year-closing]: Downloading https://files.pythonhosted.org/packages/cb/5f/69351ea8083210f3d18f54be03e6b4d6147139556be50a63e9e5acbb19ff/odoo12_addon_account_fiscal_year_closing-12.0.1.2.0.99.dev8-py3-none-any.whl
+[2024-04-05 04:37:00] INFO root fetch - processPackages [odoo14-addon-account-fiscal-year-closing]: Downloading https://files.pythonhosted.org/packages/fb/99/016ffb235e6d58296c1de8050bcff07f8e0b8c5e7147f9d50fd0b306b18f/odoo14_addon_account_fiscal_year_closing-14.0.1.0.4.dev6-py3-none-any.whl
+[2024-04-05 04:37:00] INFO root fetch - processPackages [netmiko-mhrt]: Downloading https://files.pythonhosted.org/packages/36/18/ab58078d3d64a720ae2d130a501fcff8441929cb3f6d83bfefb587512dd9/netmiko_mhrt-1.0.4.tar.gz
+[2024-04-05 04:37:00] WARNING root fetch - processPackages [advcalc]: Timeout reached during download
+[2024-04-05 04:37:00] WARNING root fetch - processPackages [advcalc]: Timeout reached during download
+[2024-04-05 04:37:00] WARNING root fetch - processPackages [odoo12-addon-account-fiscal-year-closing]: Timeout reached during download
+[2024-04-05 04:37:00] WARNING root fetch - processPackages [netmiko-mhrt]: Timeout reached during download
+[2024-04-05 04:37:00] WARNING root fetch - processPackages [odoo14-addon-account-fiscal-year-closing]: Timeout reached during download
+[2024-04-05 04:37:00] INFO root fetch - processPackages [advcalc]: Downloading https://files.pythonhosted.org/packages/31/9b/358a91bb4d529ca5a2ddf93c3d56981c1c039202a9e307d6a2c1c40e2d3b/advcalc-0.0.4.tar.gz
+[2024-04-05 04:37:00] INFO root fetch - processPackages [advcalc]: Downloading https://files.pythonhosted.org/packages/31/9b/358a91bb4d529ca5a2ddf93c3d56981c1c039202a9e307d6a2c1c40e2d3b/advcalc-0.0.4.tar.gz
+[2024-04-05 04:37:00] INFO root fetch - processPackages [odoo14-addon-account-fiscal-year-closing]: Downloading https://files.pythonhosted.org/packages/08/e2/73f914662dd41ec78c720ec8616eae29b0ffc2c2019dc7a362f180f96de5/odoo14_addon_account_fiscal_year_closing-14.0.1.0.4.dev7-py3-none-any.whl
+[2024-04-05 04:37:00] INFO root fetch - processPackages [odoo12-addon-account-fiscal-year-closing]: Downloading https://files.pythonhosted.org/packages/f7/16/a0f4acd09ce78fc85163d2fc2613287ae4880a3d35f58c342ccb9a61fc95/odoo12_addon_account_fiscal_year_closing-12.0.1.2.0.99.dev9-py3-none-any.whl
+[2024-04-05 04:37:00] WARNING root fetch - processPackages [advcalc]: Timeout reached during download
+[2024-04-05 04:37:00] INFO root fetch - processPackages [advcalc]: executing diffoscope
+[2024-04-05 04:37:00] INFO root fetch - processPackages [advcalc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/advcalc-0.0.3.tar.gz tmp/advcalc-0.0.4.tar.gz --markdown 20240405/a/advcalc/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2024-04-05 04:37:00] INFO root fetch - processPackages [netmiko-mhrt]: Downloading https://files.pythonhosted.org/packages/71/27/bf360704fefa958b7e02a48b76fc4d272536d5bbb955357480ef58dfef90/netmiko_mhrt-1.0.5.tar.gz
+[2024-04-05 04:37:00] WARNING root fetch - processPackages [advcalc]: Timeout reached during download
+[2024-04-05 04:37:00] INFO root fetch - processPackages [advcalc]: executing diffoscope
+[2024-04-05 04:37:00] INFO root fetch - processPackages [advcalc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/advcalc-0.0.3.tar.gz tmp/advcalc-0.0.4.tar.gz --markdown 20240405/a/advcalc/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2024-04-05 04:37:00] WARNING root fetch - processPackages [odoo14-addon-account-fiscal-year-closing]: Timeout reached during download
+[2024-04-05 04:37:00] INFO root fetch - processPackages [odoo14-addon-account-fiscal-year-closing]: executing diffoscope
+[2024-04-05 04:37:00] INFO root fetch - processPackages [odoo14-addon-account-fiscal-year-closing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_account_fiscal_year_closing-14.0.1.0.4.dev6-py3-none-any.whl.zip tmp/odoo14_addon_account_fiscal_year_closing-14.0.1.0.4.dev7-py3-none-any.whl.zip --markdown 20240405/o/odoo14-addon-account-fiscal-year-closing/14.0.1.0.4.dev6-14.0.1.0.4.dev7/diff.md --exclude *.pyd
+[2024-04-05 04:37:00] WARNING root fetch - processPackages [odoo12-addon-account-fiscal-year-closing]: Timeout reached during download
+[2024-04-05 04:37:00] INFO root fetch - processPackages [odoo12-addon-account-fiscal-year-closing]: executing diffoscope
+[2024-04-05 04:37:00] INFO root fetch - processPackages [odoo12-addon-account-fiscal-year-closing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo12_addon_account_fiscal_year_closing-12.0.1.2.0.99.dev8-py3-none-any.whl.zip tmp/odoo12_addon_account_fiscal_year_closing-12.0.1.2.0.99.dev9-py3-none-any.whl.zip --markdown 20240405/o/odoo12-addon-account-fiscal-year-closing/12.0.1.2.0.99.dev8-12.0.1.2.0.99.dev9/diff.md --exclude *.pyd
+[2024-04-05 04:37:01] INFO root fetch - processPackages [advcalc]: Remove: archive file [/home/abi/fetcher/tmp/advcalc-0.0.3.tar.gz]
+[2024-04-05 04:37:01] INFO root fetch - processPackages [advcalc]: Remove: archive file [/home/abi/fetcher/tmp/advcalc-0.0.4.tar.gz]
+[2024-04-05 04:37:01] INFO root fetch - main [MainThread]: End processing [advcalc]: success
+[2024-04-05 04:37:01] WARNING root fetch - processPackages [netmiko-mhrt]: Timeout reached during download
+[2024-04-05 04:37:01] INFO root fetch - processPackages [netmiko-mhrt]: executing diffoscope
+[2024-04-05 04:37:01] INFO root fetch - processPackages [netmiko-mhrt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/netmiko_mhrt-1.0.4.tar.gz tmp/netmiko_mhrt-1.0.5.tar.gz --markdown 20240405/n/netmiko-mhrt/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2024-04-05 04:37:01] INFO root fetch - main [MainThread]: End processing [advcalc]: success
+[2024-04-05 04:37:01] INFO root fetch - processPackages [odoo12-addon-account-fiscal-year-closing]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addon_account_fiscal_year_closing-12.0.1.2.0.99.dev8-py3-none-any.whl.zip]
+[2024-04-05 04:37:01] INFO root fetch - processPackages [odoo12-addon-account-fiscal-year-closing]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addon_account_fiscal_year_closing-12.0.1.2.0.99.dev9-py3-none-any.whl.zip]
+[2024-04-05 04:37:01] INFO root fetch - main [MainThread]: End processing [odoo12-addon-account-fiscal-year-closing]: success
+[2024-04-05 04:37:01] INFO root fetch - processPackages [odoo14-addon-account-fiscal-year-closing]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_account_fiscal_year_closing-14.0.1.0.4.dev6-py3-none-any.whl.zip]
+[2024-04-05 04:37:01] INFO root fetch - processPackages [odoo14-addon-account-fiscal-year-closing]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_account_fiscal_year_closing-14.0.1.0.4.dev7-py3-none-any.whl.zip]
+[2024-04-05 04:37:01] INFO root fetch - main [MainThread]: End processing [odoo14-addon-account-fiscal-year-closing]: success
+[2024-04-05 04:37:01] INFO root fetch - processPackages [netmiko-mhrt]: Remove: archive file [/home/abi/fetcher/tmp/netmiko_mhrt-1.0.4.tar.gz]
+[2024-04-05 04:37:01] INFO root fetch - processPackages [netmiko-mhrt]: Remove: archive file [/home/abi/fetcher/tmp/netmiko_mhrt-1.0.5.tar.gz]
+[2024-04-05 04:37:01] INFO root fetch - main [MainThread]: End processing [netmiko-mhrt]: success
+[2024-04-05 04:37:01] INFO root fetch - main [MainThread]: Store serial: [22631200]
