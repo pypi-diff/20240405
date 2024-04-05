@@ -16881,3 +16881,23 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2024-04-05 10:59:49] INFO root fetch - processPackages [pubtools-pulp]: Remove: archive file [/home/abi/fetcher/tmp/pubtools-pulp-1.9.3.tar.gz]
 [2024-04-05 10:59:49] INFO root fetch - main [MainThread]: End processing [pubtools-pulp]: success
 [2024-04-05 10:59:49] INFO root fetch - main [MainThread]: Store serial: [22633721]
+[2024-04-05 11:01:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22633721]
+[2024-04-05 11:01:58] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-05 11:01:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: apptrackr
+[2024-04-05 11:01:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pybricks
+[2024-04-05 11:01:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: rtisdevremotepy
+[2024-04-05 11:01:58] WARNING root fetch - processPackages [rtisdevremotepy]: Skipping, unable to determine old version
+[2024-04-05 11:01:58] INFO root fetch - main [MainThread]: End processing [rtisdevremotepy] error
+[2024-04-05 11:01:58] INFO root fetch - processPackages [pybricks]: New version: [3.5.0b1] Old Version: [3.4.1]
+[2024-04-05 11:01:58] WARNING root fetch - processPackages [apptrackr]: Skipping, unable to determine old version
+[2024-04-05 11:01:58] INFO root fetch - main [MainThread]: End processing [apptrackr] error
+[2024-04-05 11:01:58] INFO root fetch - processPackages [pybricks]: Downloading https://files.pythonhosted.org/packages/f5/13/022504053b93cfc4757098cb847fb557a3480dec1c2997a27d6e0929eb0c/pybricks-3.4.1.tar.gz
+[2024-04-05 11:01:58] WARNING root fetch - processPackages [pybricks]: Timeout reached during download
+[2024-04-05 11:01:58] INFO root fetch - processPackages [pybricks]: Downloading https://files.pythonhosted.org/packages/2b/5a/f9aeb58b3690366069c40b33096d3afcaa05bfd99a49e21221d873608838/pybricks-3.5.0b1.tar.gz
+[2024-04-05 11:01:58] WARNING root fetch - processPackages [pybricks]: Timeout reached during download
+[2024-04-05 11:01:58] INFO root fetch - processPackages [pybricks]: executing diffoscope
+[2024-04-05 11:01:58] INFO root fetch - processPackages [pybricks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pybricks-3.4.1.tar.gz tmp/pybricks-3.5.0b1.tar.gz --markdown 20240405/p/pybricks/3.4.1-3.5.0b1/diff.md --exclude *.pyd
+[2024-04-05 11:01:59] INFO root fetch - processPackages [pybricks]: Remove: archive file [/home/abi/fetcher/tmp/pybricks-3.4.1.tar.gz]
+[2024-04-05 11:01:59] INFO root fetch - processPackages [pybricks]: Remove: archive file [/home/abi/fetcher/tmp/pybricks-3.5.0b1.tar.gz]
+[2024-04-05 11:01:59] INFO root fetch - main [MainThread]: End processing [pybricks]: success
+[2024-04-05 11:01:59] INFO root fetch - main [MainThread]: Store serial: [22633766]
