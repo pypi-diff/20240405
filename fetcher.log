@@ -10406,3 +10406,20 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2024-04-05 05:21:01] INFO root fetch - processPackages [keras-nightly]: Remove: archive file [/home/abi/fetcher/tmp/keras-nightly-3.2.0.dev2024040423.tar.gz]
 [2024-04-05 05:21:01] INFO root fetch - main [MainThread]: End processing [keras-nightly]: success
 [2024-04-05 05:21:01] INFO root fetch - main [MainThread]: Store serial: [22631433]
+[2024-04-05 05:23:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22631433]
+[2024-04-05 05:23:10] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-05 05:23:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: masscube
+[2024-04-05 05:23:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: django-login-email
+[2024-04-05 05:23:10] INFO root fetch - processPackages [masscube]: New version: [0.0.6] Old Version: [0.0.5]
+[2024-04-05 05:23:10] WARNING root fetch - processPackages [django-login-email]: Skipping, unable to determine old version
+[2024-04-05 05:23:10] INFO root fetch - main [MainThread]: End processing [django-login-email] error
+[2024-04-05 05:23:11] INFO root fetch - processPackages [masscube]: Downloading https://files.pythonhosted.org/packages/5d/50/df545ebe154964d0e71a202cceb816237d43906112d3dba0786408631f93/masscube-0.0.5.tar.gz
+[2024-04-05 05:23:11] WARNING root fetch - processPackages [masscube]: Timeout reached during download
+[2024-04-05 05:23:11] INFO root fetch - processPackages [masscube]: Downloading https://files.pythonhosted.org/packages/ee/a7/014ebd22474aa696215ff4634dbfefefee7be2d8586b4aa797241dce099b/masscube-0.0.6.tar.gz
+[2024-04-05 05:23:11] WARNING root fetch - processPackages [masscube]: Timeout reached during download
+[2024-04-05 05:23:11] INFO root fetch - processPackages [masscube]: executing diffoscope
+[2024-04-05 05:23:11] INFO root fetch - processPackages [masscube]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/masscube-0.0.5.tar.gz tmp/masscube-0.0.6.tar.gz --markdown 20240405/m/masscube/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2024-04-05 05:23:12] INFO root fetch - processPackages [masscube]: Remove: archive file [/home/abi/fetcher/tmp/masscube-0.0.5.tar.gz]
+[2024-04-05 05:23:12] INFO root fetch - processPackages [masscube]: Remove: archive file [/home/abi/fetcher/tmp/masscube-0.0.6.tar.gz]
+[2024-04-05 05:23:12] INFO root fetch - main [MainThread]: End processing [masscube]: success
+[2024-04-05 05:23:12] INFO root fetch - main [MainThread]: Store serial: [22631441]
