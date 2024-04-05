@@ -9438,3 +9438,9 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2024-04-05 04:19:49] INFO root fetch - processPackages [bumble]: Remove: archive file [/home/abi/fetcher/tmp/bumble-0.0.8.tar.gz]
 [2024-04-05 04:19:49] INFO root fetch - main [MainThread]: End processing [bumble]: success
 [2024-04-05 04:19:49] INFO root fetch - main [MainThread]: Store serial: [22631159]
+[2024-04-05 04:21:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22631159]
+[2024-04-05 04:21:58] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-04-05 04:21:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: unittestreport-yami
+[2024-04-05 04:21:58] WARNING root fetch - processPackages [unittestreport-yami]: Skipping, unable to determine old version
+[2024-04-05 04:21:58] INFO root fetch - main [MainThread]: End processing [unittestreport-yami] error
+[2024-04-05 04:21:58] INFO root fetch - main [MainThread]: Store serial: [22631162]
