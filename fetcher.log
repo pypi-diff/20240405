@@ -9995,3 +9995,50 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2024-04-05 04:56:30] INFO root fetch - processPackages [smaht-submitr]: Remove: archive file [/home/abi/fetcher/tmp/smaht_submitr-0.7.0.1b9.tar.gz]
 [2024-04-05 04:56:30] INFO root fetch - main [MainThread]: End processing [smaht-submitr]: success
 [2024-04-05 04:56:30] INFO root fetch - main [MainThread]: Store serial: [22631311]
+[2024-04-05 04:58:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22631311]
+[2024-04-05 04:58:39] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-05 04:58:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: launchflow
+[2024-04-05 04:58:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: weavel
+[2024-04-05 04:58:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: taskara
+[2024-04-05 04:58:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: zetamarkets-py
+[2024-04-05 04:58:39] INFO root fetch - processPackages [taskara]: New version: [0.1.8] Old Version: [0.1.7]
+[2024-04-05 04:58:39] INFO root fetch - processPackages [taskara]: Downloading https://files.pythonhosted.org/packages/d6/1e/172ae85d48722a1e28b9526c0bb34465bd7920d0c8e6858e25a3f8c528a9/taskara-0.1.7.tar.gz
+[2024-04-05 04:58:39] INFO root fetch - processPackages [launchflow]: New version: [0.3.9.dev5] Old Version: [0.3.9.dev4]
+[2024-04-05 04:58:39] INFO root fetch - processPackages [weavel]: New version: [0.4.1] Old Version: [0.4.0]
+[2024-04-05 04:58:39] INFO root fetch - processPackages [zetamarkets-py]: New version: [0.2.9] Old Version: [0.2.7]
+[2024-04-05 04:58:39] WARNING root fetch - processPackages [taskara]: Timeout reached during download
+[2024-04-05 04:58:39] INFO root fetch - processPackages [taskara]: Downloading https://files.pythonhosted.org/packages/c0/4f/e9467a6dd755091e2fe2294b58569b289c5252fd70463791829fd99fbfd7/taskara-0.1.8.tar.gz
+[2024-04-05 04:58:39] INFO root fetch - processPackages [launchflow]: Downloading https://files.pythonhosted.org/packages/a5/73/f78f467ee99b28626edf629dd7fbc32e1b1fbb39d5978778dcf5c54c40aa/launchflow-0.3.9.dev4.tar.gz
+[2024-04-05 04:58:39] INFO root fetch - processPackages [zetamarkets-py]: Downloading https://files.pythonhosted.org/packages/cd/af/f7f964f2260bfe51acc8dac83276d41a8222a44d8408ea92789cb6e54cdb/zetamarkets_py-0.2.7.tar.gz
+[2024-04-05 04:58:39] INFO root fetch - processPackages [weavel]: Downloading https://files.pythonhosted.org/packages/75/ad/6120da4773be501cc2ecef7a9d1ad034398f5833221a8ae09999dfb80743/weavel-0.4.0.tar.gz
+[2024-04-05 04:58:40] WARNING root fetch - processPackages [taskara]: Timeout reached during download
+[2024-04-05 04:58:40] INFO root fetch - processPackages [taskara]: executing diffoscope
+[2024-04-05 04:58:40] INFO root fetch - processPackages [taskara]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/taskara-0.1.7.tar.gz tmp/taskara-0.1.8.tar.gz --markdown 20240405/t/taskara/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2024-04-05 04:58:40] WARNING root fetch - processPackages [launchflow]: Timeout reached during download
+[2024-04-05 04:58:40] WARNING root fetch - processPackages [weavel]: Timeout reached during download
+[2024-04-05 04:58:40] INFO root fetch - processPackages [launchflow]: Downloading https://files.pythonhosted.org/packages/da/b2/63db7365dd8f44ba73e3526ca85dae99cda28c0c1fd3562f1f1adc2f3f63/launchflow-0.3.9.dev5.tar.gz
+[2024-04-05 04:58:40] INFO root fetch - processPackages [weavel]: Downloading https://files.pythonhosted.org/packages/fe/a5/90ef93f8b9d4ef69998d23dd09ae53ce197865cb2a1da56de492a07faf1f/weavel-0.4.1.tar.gz
+[2024-04-05 04:58:40] WARNING root fetch - processPackages [weavel]: Timeout reached during download
+[2024-04-05 04:58:40] INFO root fetch - processPackages [weavel]: executing diffoscope
+[2024-04-05 04:58:40] INFO root fetch - processPackages [weavel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/weavel-0.4.0.tar.gz tmp/weavel-0.4.1.tar.gz --markdown 20240405/w/weavel/0.4.0-0.4.1/diff.md --exclude *.pyd
+[2024-04-05 04:58:40] WARNING root fetch - processPackages [launchflow]: Timeout reached during download
+[2024-04-05 04:58:40] INFO root fetch - processPackages [launchflow]: executing diffoscope
+[2024-04-05 04:58:40] INFO root fetch - processPackages [launchflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/launchflow-0.3.9.dev4.tar.gz tmp/launchflow-0.3.9.dev5.tar.gz --markdown 20240405/l/launchflow/0.3.9.dev4-0.3.9.dev5/diff.md --exclude *.pyd
+[2024-04-05 04:58:40] INFO root fetch - processPackages [taskara]: Remove: archive file [/home/abi/fetcher/tmp/taskara-0.1.7.tar.gz]
+[2024-04-05 04:58:40] INFO root fetch - processPackages [taskara]: Remove: archive file [/home/abi/fetcher/tmp/taskara-0.1.8.tar.gz]
+[2024-04-05 04:58:40] INFO root fetch - main [MainThread]: End processing [taskara]: success
+[2024-04-05 04:58:40] WARNING root fetch - processPackages [zetamarkets-py]: Timeout reached during download
+[2024-04-05 04:58:40] INFO root fetch - processPackages [weavel]: Remove: archive file [/home/abi/fetcher/tmp/weavel-0.4.0.tar.gz]
+[2024-04-05 04:58:40] INFO root fetch - processPackages [weavel]: Remove: archive file [/home/abi/fetcher/tmp/weavel-0.4.1.tar.gz]
+[2024-04-05 04:58:40] INFO root fetch - main [MainThread]: End processing [weavel]: success
+[2024-04-05 04:58:41] INFO root fetch - processPackages [zetamarkets-py]: Downloading https://files.pythonhosted.org/packages/b2/a0/077585838f672a1d19c11fddd9265f944635323847353a76dcbc0bc8f2ed/zetamarkets_py-0.2.9.tar.gz
+[2024-04-05 04:58:41] WARNING root fetch - processPackages [zetamarkets-py]: Timeout reached during download
+[2024-04-05 04:58:41] INFO root fetch - processPackages [zetamarkets-py]: executing diffoscope
+[2024-04-05 04:58:41] INFO root fetch - processPackages [zetamarkets-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zetamarkets_py-0.2.7.tar.gz tmp/zetamarkets_py-0.2.9.tar.gz --markdown 20240405/z/zetamarkets-py/0.2.7-0.2.9/diff.md --exclude *.pyd
+[2024-04-05 04:58:41] INFO root fetch - processPackages [launchflow]: Remove: archive file [/home/abi/fetcher/tmp/launchflow-0.3.9.dev4.tar.gz]
+[2024-04-05 04:58:41] INFO root fetch - processPackages [launchflow]: Remove: archive file [/home/abi/fetcher/tmp/launchflow-0.3.9.dev5.tar.gz]
+[2024-04-05 04:58:41] INFO root fetch - main [MainThread]: End processing [launchflow]: success
+[2024-04-05 04:58:46] INFO root fetch - processPackages [zetamarkets-py]: Remove: archive file [/home/abi/fetcher/tmp/zetamarkets_py-0.2.7.tar.gz]
+[2024-04-05 04:58:46] INFO root fetch - processPackages [zetamarkets-py]: Remove: archive file [/home/abi/fetcher/tmp/zetamarkets_py-0.2.9.tar.gz]
+[2024-04-05 04:58:46] INFO root fetch - main [MainThread]: End processing [zetamarkets-py]: success
+[2024-04-05 04:58:46] INFO root fetch - main [MainThread]: Store serial: [22631324]
