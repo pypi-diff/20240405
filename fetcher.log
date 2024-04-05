@@ -21637,3 +21637,61 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2024-04-05 14:03:04] INFO root fetch - processPackages [cognite-sdk]: Remove: archive file [/home/abi/fetcher/tmp/cognite_sdk-7.9.0.tar.gz]
 [2024-04-05 14:03:04] INFO root fetch - main [MainThread]: End processing [cognite-sdk]: success
 [2024-04-05 14:03:04] INFO root fetch - main [MainThread]: Store serial: [22635627]
+[2024-04-05 14:05:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22635627]
+[2024-04-05 14:05:13] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-05 14:05:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: kafka-broker
+[2024-04-05 14:05:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: hyphenfrac
+[2024-04-05 14:05:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: superlinked
+[2024-04-05 14:05:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: loss-balancer-tf
+[2024-04-05 14:05:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: edgarquery
+[2024-04-05 14:05:13] INFO root fetch - processPackages [loss-balancer-tf]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-04-05 14:05:13] INFO root fetch - processPackages [superlinked]: New version: [3.9.1] Old Version: [3.9.0]
+[2024-04-05 14:05:13] INFO root fetch - processPackages [kafka-broker]: New version: [0.3.6] Old Version: [0.3.5]
+[2024-04-05 14:05:13] INFO root fetch - processPackages [loss-balancer-tf]: Downloading https://files.pythonhosted.org/packages/24/28/0fdfe7fe43b742adc4fe1689e109599b38f6c02feb41768cf066b084e0c2/loss-balancer-tf-0.0.2.tar.gz
+[2024-04-05 14:05:13] INFO root fetch - processPackages [hyphenfrac]: New version: [2.0] Old Version: [1.0]
+[2024-04-05 14:05:13] INFO root fetch - processPackages [edgarquery]: New version: [0.0.58] Old Version: [0.0.57]
+[2024-04-05 14:05:13] INFO root fetch - processPackages [superlinked]: Downloading https://files.pythonhosted.org/packages/f7/5e/84d09e0e05b737b135f953e725a7a56acf875659f3a729403902dc51bddf/superlinked-3.9.0.tar.gz
+[2024-04-05 14:05:13] INFO root fetch - processPackages [kafka-broker]: Downloading https://files.pythonhosted.org/packages/d9/32/7c19d881a369b6798c1b71ebefb3e09a1e820a2ae0c77adfba09446f647e/kafka-broker-0.3.5.tar.gz
+[2024-04-05 14:05:13] WARNING root fetch - processPackages [loss-balancer-tf]: Timeout reached during download
+[2024-04-05 14:05:13] WARNING root fetch - processPackages [kafka-broker]: Timeout reached during download
+[2024-04-05 14:05:13] WARNING root fetch - processPackages [superlinked]: Timeout reached during download
+[2024-04-05 14:05:13] INFO root fetch - processPackages [superlinked]: Downloading https://files.pythonhosted.org/packages/8f/6e/416193b22be21ffe493186a65f1f74ccb3521c483e54ad50c3c9f4533119/superlinked-3.9.1.tar.gz
+[2024-04-05 14:05:13] INFO root fetch - processPackages [loss-balancer-tf]: Downloading https://files.pythonhosted.org/packages/be/96/797146186dcf9e199d211452c4e04c268bc35f88ac39e70365cedf429186/loss-balancer-tf-0.0.3.tar.gz
+[2024-04-05 14:05:13] INFO root fetch - processPackages [edgarquery]: Downloading https://files.pythonhosted.org/packages/98/43/e92a6ed436dd22451c78c5bbd1cb580e6415fa05497e0baf34c8842751fe/edgarquery-0.0.57.tar.gz
+[2024-04-05 14:05:13] INFO root fetch - processPackages [hyphenfrac]: Downloading https://files.pythonhosted.org/packages/75/c2/aa6e340ddca4fd0df29cd6f03a79d8b441801f5eab36d84706216b8f7cb6/hyphenfrac-1.0.tar.gz
+[2024-04-05 14:05:13] INFO root fetch - processPackages [kafka-broker]: Downloading https://files.pythonhosted.org/packages/2c/5c/582310249d4000ea3c6cf42fd39472208ba76bca9fb6f60b7a6f471d195a/kafka-broker-0.3.6.tar.gz
+[2024-04-05 14:05:13] WARNING root fetch - processPackages [superlinked]: Timeout reached during download
+[2024-04-05 14:05:13] WARNING root fetch - processPackages [loss-balancer-tf]: Timeout reached during download
+[2024-04-05 14:05:13] INFO root fetch - processPackages [superlinked]: executing diffoscope
+[2024-04-05 14:05:13] INFO root fetch - processPackages [superlinked]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/superlinked-3.9.0.tar.gz tmp/superlinked-3.9.1.tar.gz --markdown 20240405/s/superlinked/3.9.0-3.9.1/diff.md --exclude *.pyd
+[2024-04-05 14:05:13] INFO root fetch - processPackages [loss-balancer-tf]: executing diffoscope
+[2024-04-05 14:05:13] INFO root fetch - processPackages [loss-balancer-tf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/loss-balancer-tf-0.0.2.tar.gz tmp/loss-balancer-tf-0.0.3.tar.gz --markdown 20240405/l/loss-balancer-tf/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2024-04-05 14:05:13] WARNING root fetch - processPackages [hyphenfrac]: Timeout reached during download
+[2024-04-05 14:05:13] WARNING root fetch - processPackages [edgarquery]: Timeout reached during download
+[2024-04-05 14:05:13] WARNING root fetch - processPackages [kafka-broker]: Timeout reached during download
+[2024-04-05 14:05:13] INFO root fetch - processPackages [kafka-broker]: executing diffoscope
+[2024-04-05 14:05:13] INFO root fetch - processPackages [kafka-broker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kafka-broker-0.3.5.tar.gz tmp/kafka-broker-0.3.6.tar.gz --markdown 20240405/k/kafka-broker/0.3.5-0.3.6/diff.md --exclude *.pyd
+[2024-04-05 14:05:13] INFO root fetch - processPackages [hyphenfrac]: Downloading https://files.pythonhosted.org/packages/75/f5/061c7dd4e81de235299bb28e0afa7f4be464f04739579a1052f634d91bf3/hyphenfrac-2.0.tar.gz
+[2024-04-05 14:05:13] INFO root fetch - processPackages [edgarquery]: Downloading https://files.pythonhosted.org/packages/c9/d3/260b1421b616375cd8f6ecaae675842d630fd6b23934c74380221463abaf/edgarquery-0.0.58.tar.gz
+[2024-04-05 14:05:14] WARNING root fetch - processPackages [hyphenfrac]: Timeout reached during download
+[2024-04-05 14:05:14] INFO root fetch - processPackages [hyphenfrac]: executing diffoscope
+[2024-04-05 14:05:14] INFO root fetch - processPackages [hyphenfrac]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hyphenfrac-1.0.tar.gz tmp/hyphenfrac-2.0.tar.gz --markdown 20240405/h/hyphenfrac/1.0-2.0/diff.md --exclude *.pyd
+[2024-04-05 14:05:14] WARNING root fetch - processPackages [edgarquery]: Timeout reached during download
+[2024-04-05 14:05:14] INFO root fetch - processPackages [edgarquery]: executing diffoscope
+[2024-04-05 14:05:14] INFO root fetch - processPackages [edgarquery]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edgarquery-0.0.57.tar.gz tmp/edgarquery-0.0.58.tar.gz --markdown 20240405/e/edgarquery/0.0.57-0.0.58/diff.md --exclude *.pyd
+[2024-04-05 14:05:14] INFO root fetch - processPackages [loss-balancer-tf]: Remove: archive file [/home/abi/fetcher/tmp/loss-balancer-tf-0.0.2.tar.gz]
+[2024-04-05 14:05:14] INFO root fetch - processPackages [loss-balancer-tf]: Remove: archive file [/home/abi/fetcher/tmp/loss-balancer-tf-0.0.3.tar.gz]
+[2024-04-05 14:05:14] INFO root fetch - main [MainThread]: End processing [loss-balancer-tf]: success
+[2024-04-05 14:05:14] INFO root fetch - processPackages [kafka-broker]: Remove: archive file [/home/abi/fetcher/tmp/kafka-broker-0.3.5.tar.gz]
+[2024-04-05 14:05:14] INFO root fetch - processPackages [kafka-broker]: Remove: archive file [/home/abi/fetcher/tmp/kafka-broker-0.3.6.tar.gz]
+[2024-04-05 14:05:14] INFO root fetch - main [MainThread]: End processing [kafka-broker]: success
+[2024-04-05 14:05:14] INFO root fetch - processPackages [hyphenfrac]: Remove: archive file [/home/abi/fetcher/tmp/hyphenfrac-1.0.tar.gz]
+[2024-04-05 14:05:14] INFO root fetch - processPackages [hyphenfrac]: Remove: archive file [/home/abi/fetcher/tmp/hyphenfrac-2.0.tar.gz]
+[2024-04-05 14:05:14] INFO root fetch - main [MainThread]: End processing [hyphenfrac]: success
+[2024-04-05 14:05:14] INFO root fetch - processPackages [superlinked]: Remove: archive file [/home/abi/fetcher/tmp/superlinked-3.9.0.tar.gz]
+[2024-04-05 14:05:14] INFO root fetch - processPackages [superlinked]: Remove: archive file [/home/abi/fetcher/tmp/superlinked-3.9.1.tar.gz]
+[2024-04-05 14:05:14] INFO root fetch - main [MainThread]: End processing [superlinked]: success
+[2024-04-05 14:05:14] INFO root fetch - processPackages [edgarquery]: Remove: archive file [/home/abi/fetcher/tmp/edgarquery-0.0.57.tar.gz]
+[2024-04-05 14:05:14] INFO root fetch - processPackages [edgarquery]: Remove: archive file [/home/abi/fetcher/tmp/edgarquery-0.0.58.tar.gz]
+[2024-04-05 14:05:14] INFO root fetch - main [MainThread]: End processing [edgarquery]: success
+[2024-04-05 14:05:14] INFO root fetch - main [MainThread]: Store serial: [22635647]
