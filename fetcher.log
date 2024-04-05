@@ -9110,3 +9110,45 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2024-04-05 04:02:20] INFO root fetch - processPackages [langchain-weaviate]: Remove: archive file [/home/abi/fetcher/tmp/langchain_weaviate-0.0.1rc6.tar.gz]
 [2024-04-05 04:02:20] INFO root fetch - main [MainThread]: End processing [langchain-weaviate]: success
 [2024-04-05 04:02:20] INFO root fetch - main [MainThread]: Store serial: [22631044]
+[2024-04-05 04:04:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22631044]
+[2024-04-05 04:04:28] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-05 04:04:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mojo-collections
+[2024-04-05 04:04:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: yowasp-wavedrom
+[2024-04-05 04:04:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: veilid
+[2024-04-05 04:04:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: beanprice-br
+[2024-04-05 04:04:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: autoredteam
+[2024-04-05 04:04:29] INFO root fetch - processPackages [yowasp-wavedrom]: New version: [3.5.0.4] Old Version: [3.5.0.3]
+[2024-04-05 04:04:29] WARNING root fetch - processPackages [beanprice-br]: Skipping, unable to determine old version
+[2024-04-05 04:04:29] INFO root fetch - processPackages [yowasp-wavedrom]: Downloading https://files.pythonhosted.org/packages/43/20/7f833a3f52768aa33a30e4400c845ae11a3b472e46cb28e0ead294aa1c58/yowasp_wavedrom-3.5.0.3-py3-none-any.whl
+[2024-04-05 04:04:29] INFO root fetch - main [MainThread]: End processing [beanprice-br] error
+[2024-04-05 04:04:29] ERROR root fetch - processPackages [autoredteam]: Unable to get metadata: No such project 'autoredteam'
+[2024-04-05 04:04:29] INFO root fetch - main [MainThread]: End processing [autoredteam] error
+[2024-04-05 04:04:29] INFO root fetch - processPackages [veilid]: New version: [0.3.1] Old Version: [0.3.0]
+[2024-04-05 04:04:29] INFO root fetch - processPackages [mojo-collections]: New version: [1.3.5] Old Version: [1.3.4]
+[2024-04-05 04:04:29] WARNING root fetch - processPackages [yowasp-wavedrom]: Timeout reached during download
+[2024-04-05 04:04:29] INFO root fetch - processPackages [yowasp-wavedrom]: Downloading https://files.pythonhosted.org/packages/36/af/a4f152c92e617abf807e92af5a2eb3df26287ce9fafa25ac574082b6a5da/yowasp_wavedrom-3.5.0.4-py3-none-any.whl
+[2024-04-05 04:04:29] INFO root fetch - processPackages [veilid]: Downloading https://files.pythonhosted.org/packages/f3/dd/99687fdd33ad84735384ff779f393010e59893c9051848e9cb399bdf560e/veilid-0.3.0.tar.gz
+[2024-04-05 04:04:29] INFO root fetch - processPackages [mojo-collections]: Downloading https://files.pythonhosted.org/packages/20/9d/a385c577090d3682f186f10289dfbcee472d9635cc623c8287a271bf8834/mojo_collections-1.3.4.tar.gz
+[2024-04-05 04:04:29] WARNING root fetch - processPackages [veilid]: Timeout reached during download
+[2024-04-05 04:04:29] WARNING root fetch - processPackages [mojo-collections]: Timeout reached during download
+[2024-04-05 04:04:29] WARNING root fetch - processPackages [yowasp-wavedrom]: Timeout reached during download
+[2024-04-05 04:04:29] INFO root fetch - processPackages [yowasp-wavedrom]: executing diffoscope
+[2024-04-05 04:04:29] INFO root fetch - processPackages [yowasp-wavedrom]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yowasp_wavedrom-3.5.0.3-py3-none-any.whl.zip tmp/yowasp_wavedrom-3.5.0.4-py3-none-any.whl.zip --markdown 20240405/y/yowasp-wavedrom/3.5.0.3-3.5.0.4/diff.md --exclude *.pyd
+[2024-04-05 04:04:29] INFO root fetch - processPackages [veilid]: Downloading https://files.pythonhosted.org/packages/76/42/ce0186058e8670053e76ccb9fbb93006bfb9ee941c2e574482136443a3bb/veilid-0.3.1.tar.gz
+[2024-04-05 04:04:29] INFO root fetch - processPackages [mojo-collections]: Downloading https://files.pythonhosted.org/packages/31/54/3114e9d507052b4a607fcebce8fff77d7d81097f01059950f3785682bd10/mojo_collections-1.3.5.tar.gz
+[2024-04-05 04:04:29] WARNING root fetch - processPackages [veilid]: Timeout reached during download
+[2024-04-05 04:04:29] INFO root fetch - processPackages [veilid]: executing diffoscope
+[2024-04-05 04:04:29] INFO root fetch - processPackages [veilid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/veilid-0.3.0.tar.gz tmp/veilid-0.3.1.tar.gz --markdown 20240405/v/veilid/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2024-04-05 04:04:29] WARNING root fetch - processPackages [mojo-collections]: Timeout reached during download
+[2024-04-05 04:04:29] INFO root fetch - processPackages [mojo-collections]: executing diffoscope
+[2024-04-05 04:04:29] INFO root fetch - processPackages [mojo-collections]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mojo_collections-1.3.4.tar.gz tmp/mojo_collections-1.3.5.tar.gz --markdown 20240405/m/mojo-collections/1.3.4-1.3.5/diff.md --exclude *.pyd
+[2024-04-05 04:04:30] INFO root fetch - processPackages [mojo-collections]: Remove: archive file [/home/abi/fetcher/tmp/mojo_collections-1.3.4.tar.gz]
+[2024-04-05 04:04:30] INFO root fetch - processPackages [mojo-collections]: Remove: archive file [/home/abi/fetcher/tmp/mojo_collections-1.3.5.tar.gz]
+[2024-04-05 04:04:30] INFO root fetch - main [MainThread]: End processing [mojo-collections]: success
+[2024-04-05 04:04:30] INFO root fetch - processPackages [veilid]: Remove: archive file [/home/abi/fetcher/tmp/veilid-0.3.0.tar.gz]
+[2024-04-05 04:04:30] INFO root fetch - processPackages [veilid]: Remove: archive file [/home/abi/fetcher/tmp/veilid-0.3.1.tar.gz]
+[2024-04-05 04:04:30] INFO root fetch - main [MainThread]: End processing [veilid]: success
+[2024-04-05 04:04:32] INFO root fetch - processPackages [yowasp-wavedrom]: Remove: archive file [/home/abi/fetcher/tmp/yowasp_wavedrom-3.5.0.3-py3-none-any.whl.zip]
+[2024-04-05 04:04:32] INFO root fetch - processPackages [yowasp-wavedrom]: Remove: archive file [/home/abi/fetcher/tmp/yowasp_wavedrom-3.5.0.4-py3-none-any.whl.zip]
+[2024-04-05 04:04:32] INFO root fetch - main [MainThread]: End processing [yowasp-wavedrom]: success
+[2024-04-05 04:04:32] INFO root fetch - main [MainThread]: Store serial: [22631060]
