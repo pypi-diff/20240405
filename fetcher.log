@@ -17728,3 +17728,64 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2024-04-05 11:32:45] INFO root fetch - processPackages [pyazo_cli]: Remove: archive file [/home/abi/fetcher/tmp/pyazo_cli-0.3.7-py3-none-any.whl.zip]
 [2024-04-05 11:32:45] INFO root fetch - main [MainThread]: End processing [pyazo_cli]: success
 [2024-04-05 11:32:45] INFO root fetch - main [MainThread]: Store serial: [22634063]
+[2024-04-05 11:34:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22634063]
+[2024-04-05 11:34:54] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-05 11:34:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nucliadb-utils
+[2024-04-05 11:34:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: muko
+[2024-04-05 11:34:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cut-detector
+[2024-04-05 11:34:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: udata-front
+[2024-04-05 11:34:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: staticjinjaplus
+[2024-04-05 11:34:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ares-ai
+[2024-04-05 11:34:54] INFO root fetch - processPackages [ares-ai]: New version: [0.2.2] Old Version: [0.1.2]
+[2024-04-05 11:34:54] INFO root fetch - processPackages [muko]: New version: [2.14] Old Version: [2.13]
+[2024-04-05 11:34:54] INFO root fetch - processPackages [nucliadb-utils]: New version: [2.9.0.post267] Old Version: [2.9.0.post266]
+[2024-04-05 11:34:54] INFO root fetch - processPackages [cut-detector]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-05 11:34:54] WARNING root fetch - processPackages [staticjinjaplus]: Skipping, unable to determine old version
+[2024-04-05 11:34:54] INFO root fetch - main [MainThread]: End processing [staticjinjaplus] error
+[2024-04-05 11:34:54] INFO root fetch - processPackages [ares-ai]: Downloading https://files.pythonhosted.org/packages/e5/03/aace21886b0270f33038adbbe99f5755437167508e46fcbcd11c50b040fc/ares-ai-0.1.2.tar.gz
+[2024-04-05 11:34:54] INFO root fetch - processPackages [muko]: Downloading https://files.pythonhosted.org/packages/40/ee/f89d43155277e8bdc7785f7b00f3470809e0fab06aaf3f3d38f1a431768d/muko-2.13-py3-none-any.whl
+[2024-04-05 11:34:54] INFO root fetch - processPackages [nucliadb-utils]: Downloading https://files.pythonhosted.org/packages/9c/a6/d6dd21ed1948bdcc0b560698e72d117f3fdad522e2ac0894dd980e184631/nucliadb_utils-2.9.0.post266-py3-none-any.whl
+[2024-04-05 11:34:54] INFO root fetch - processPackages [udata-front]: New version: [3.5.5a117434] Old Version: [3.5.5a1]
+[2024-04-05 11:34:55] INFO root fetch - processPackages [cut-detector]: Downloading https://files.pythonhosted.org/packages/a4/e8/c914e8c6b2f2289cbc9e36478c72afbfa6b99c930cbc131205a8c3e937f6/cut-detector-0.0.8.tar.gz
+[2024-04-05 11:34:55] WARNING root fetch - processPackages [nucliadb-utils]: Timeout reached during download
+[2024-04-05 11:34:55] WARNING root fetch - processPackages [ares-ai]: Timeout reached during download
+[2024-04-05 11:34:55] INFO root fetch - processPackages [nucliadb-utils]: Downloading https://files.pythonhosted.org/packages/a2/ce/8ce8a66a2ef214d8ae9f81cb70eb5d8d5396c8bd94794cf92d145fdccd31/nucliadb_utils-2.9.0.post267-py3-none-any.whl
+[2024-04-05 11:34:55] INFO root fetch - processPackages [ares-ai]: Downloading https://files.pythonhosted.org/packages/24/6e/d1ac9d033d96c20749a644e50a62c273447372afc2e0d61dec8c7b845f74/ares-ai-0.2.2.tar.gz
+[2024-04-05 11:34:55] WARNING root fetch - processPackages [muko]: Timeout reached during download
+[2024-04-05 11:34:55] INFO root fetch - processPackages [udata-front]: Downloading https://files.pythonhosted.org/packages/2a/df/71cf652ec5903ada3c3748ff4148a28c0e5292e732c037b5a4e116924da0/udata_front-3.5.5a1-py2.py3-none-any.whl
+[2024-04-05 11:34:55] WARNING root fetch - processPackages [cut-detector]: Timeout reached during download
+[2024-04-05 11:34:55] WARNING root fetch - processPackages [nucliadb-utils]: Timeout reached during download
+[2024-04-05 11:34:55] INFO root fetch - processPackages [nucliadb-utils]: executing diffoscope
+[2024-04-05 11:34:55] INFO root fetch - processPackages [nucliadb-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_utils-2.9.0.post266-py3-none-any.whl.zip tmp/nucliadb_utils-2.9.0.post267-py3-none-any.whl.zip --markdown 20240405/n/nucliadb-utils/2.9.0.post266-2.9.0.post267/diff.md --exclude *.pyd
+[2024-04-05 11:34:55] WARNING root fetch - processPackages [ares-ai]: Timeout reached during download
+[2024-04-05 11:34:55] INFO root fetch - processPackages [ares-ai]: executing diffoscope
+[2024-04-05 11:34:55] INFO root fetch - processPackages [ares-ai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ares-ai-0.1.2.tar.gz tmp/ares-ai-0.2.2.tar.gz --markdown 20240405/a/ares-ai/0.1.2-0.2.2/diff.md --exclude *.pyd
+[2024-04-05 11:34:55] INFO root fetch - processPackages [muko]: Downloading https://files.pythonhosted.org/packages/bf/0f/25b92ce339c435241fdd9cf51c45f71b72f3b3f1705b35449e23532a5760/muko-2.14-py3-none-any.whl
+[2024-04-05 11:34:55] INFO root fetch - processPackages [cut-detector]: Downloading https://files.pythonhosted.org/packages/78/63/43b98e6af539058f60d3f4e599d03537136fdcba329ac11739abd86083f8/cut-detector-0.0.9.tar.gz
+[2024-04-05 11:34:55] WARNING root fetch - processPackages [muko]: Timeout reached during download
+[2024-04-05 11:34:55] INFO root fetch - processPackages [muko]: executing diffoscope
+[2024-04-05 11:34:55] INFO root fetch - processPackages [muko]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/muko-2.13-py3-none-any.whl.zip tmp/muko-2.14-py3-none-any.whl.zip --markdown 20240405/m/muko/2.13-2.14/diff.md --exclude *.pyd
+[2024-04-05 11:34:55] WARNING root fetch - processPackages [cut-detector]: Timeout reached during download
+[2024-04-05 11:34:55] INFO root fetch - processPackages [cut-detector]: executing diffoscope
+[2024-04-05 11:34:55] INFO root fetch - processPackages [cut-detector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cut-detector-0.0.8.tar.gz tmp/cut-detector-0.0.9.tar.gz --markdown 20240405/c/cut-detector/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2024-04-05 11:34:55] WARNING root fetch - processPackages [udata-front]: Timeout reached during download
+[2024-04-05 11:34:55] INFO root fetch - processPackages [udata-front]: Downloading https://files.pythonhosted.org/packages/8a/4f/2338fd0e7f0f41a6f5d398a333c15a5dc30d3f64808c77672efaae4d8eef/udata_front-3.5.5a117434-py2.py3-none-any.whl
+[2024-04-05 11:34:56] INFO root fetch - processPackages [nucliadb-utils]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_utils-2.9.0.post266-py3-none-any.whl.zip]
+[2024-04-05 11:34:56] INFO root fetch - processPackages [nucliadb-utils]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_utils-2.9.0.post267-py3-none-any.whl.zip]
+[2024-04-05 11:34:56] INFO root fetch - main [MainThread]: End processing [nucliadb-utils]: success
+[2024-04-05 11:34:56] INFO root fetch - processPackages [ares-ai]: Remove: archive file [/home/abi/fetcher/tmp/ares-ai-0.1.2.tar.gz]
+[2024-04-05 11:34:56] INFO root fetch - processPackages [ares-ai]: Remove: archive file [/home/abi/fetcher/tmp/ares-ai-0.2.2.tar.gz]
+[2024-04-05 11:34:56] INFO root fetch - main [MainThread]: End processing [ares-ai]: success
+[2024-04-05 11:34:56] INFO root fetch - processPackages [muko]: Remove: archive file [/home/abi/fetcher/tmp/muko-2.13-py3-none-any.whl.zip]
+[2024-04-05 11:34:56] INFO root fetch - processPackages [muko]: Remove: archive file [/home/abi/fetcher/tmp/muko-2.14-py3-none-any.whl.zip]
+[2024-04-05 11:34:56] INFO root fetch - main [MainThread]: End processing [muko]: success
+[2024-04-05 11:34:56] WARNING root fetch - processPackages [udata-front]: Timeout reached during download
+[2024-04-05 11:34:56] INFO root fetch - processPackages [udata-front]: executing diffoscope
+[2024-04-05 11:34:56] INFO root fetch - processPackages [udata-front]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/udata_front-3.5.5a1-py2.py3-none-any.whl.zip tmp/udata_front-3.5.5a117434-py2.py3-none-any.whl.zip --markdown 20240405/u/udata-front/3.5.5a1-3.5.5a117434/diff.md --exclude *.pyd
+[2024-04-05 11:34:56] INFO root fetch - processPackages [cut-detector]: Remove: archive file [/home/abi/fetcher/tmp/cut-detector-0.0.8.tar.gz]
+[2024-04-05 11:34:56] INFO root fetch - processPackages [cut-detector]: Remove: archive file [/home/abi/fetcher/tmp/cut-detector-0.0.9.tar.gz]
+[2024-04-05 11:34:56] INFO root fetch - main [MainThread]: End processing [cut-detector]: success
+[2024-04-05 11:36:10] INFO root fetch - processPackages [udata-front]: Remove: archive file [/home/abi/fetcher/tmp/udata_front-3.5.5a1-py2.py3-none-any.whl.zip]
+[2024-04-05 11:36:10] INFO root fetch - processPackages [udata-front]: Remove: archive file [/home/abi/fetcher/tmp/udata_front-3.5.5a117434-py2.py3-none-any.whl.zip]
+[2024-04-05 11:36:10] INFO root fetch - main [MainThread]: End processing [udata-front]: success
+[2024-04-05 11:36:10] INFO root fetch - main [MainThread]: Store serial: [22634080]
