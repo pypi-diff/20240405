@@ -10293,3 +10293,33 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2024-04-05 05:14:07] INFO root fetch - processPackages [cdktf-cdktf-provider-hcp]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-cdktf-provider-hcp-9.6.0.tar.gz]
 [2024-04-05 05:14:07] INFO root fetch - main [MainThread]: End processing [cdktf-cdktf-provider-hcp]: success
 [2024-04-05 05:14:07] INFO root fetch - main [MainThread]: Store serial: [22631383]
+[2024-04-05 05:16:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22631383]
+[2024-04-05 05:16:17] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-05 05:16:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cdktf-cdktf-provider-helm
+[2024-04-05 05:16:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cdktf-cdktf-provider-spotinst
+[2024-04-05 05:16:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: palworld-pal-editor
+[2024-04-05 05:16:17] INFO root fetch - processPackages [palworld-pal-editor]: New version: [0.4.1.post1] Old Version: [0.4.1]
+[2024-04-05 05:16:17] INFO root fetch - processPackages [cdktf-cdktf-provider-spotinst]: New version: [9.0.9] Old Version: [9.0.8]
+[2024-04-05 05:16:17] INFO root fetch - processPackages [cdktf-cdktf-provider-helm]: New version: [9.0.2] Old Version: [9.0.1]
+[2024-04-05 05:16:17] INFO root fetch - processPackages [palworld-pal-editor]: Downloading https://files.pythonhosted.org/packages/b2/27/741fe99ae969dde83756e21b582f56d58fbe8eca48af6cc1b2d3b3a9f399/palworld-pal-editor-0.4.1.tar.gz
+[2024-04-05 05:16:17] INFO root fetch - processPackages [cdktf-cdktf-provider-spotinst]: Downloading https://files.pythonhosted.org/packages/23/3a/ff7bddacc6d9aefca0eeeab5018195400ffe56e21e80a61d96540ae2d5ef/cdktf-cdktf-provider-spotinst-9.0.8.tar.gz
+[2024-04-05 05:16:17] INFO root fetch - processPackages [cdktf-cdktf-provider-helm]: Downloading https://files.pythonhosted.org/packages/f6/89/e4d6cfb389b023b50ec6e45af579a622b04236bde364126a15d27d193418/cdktf-cdktf-provider-helm-9.0.1.tar.gz
+[2024-04-05 05:16:18] WARNING root fetch - processPackages [palworld-pal-editor]: Skipping package: exceeds size limit 20480154>=10485760
+[2024-04-05 05:16:18] INFO root fetch - main [MainThread]: End processing [palworld-pal-editor] error
+[2024-04-05 05:16:18] WARNING root fetch - processPackages [cdktf-cdktf-provider-helm]: Timeout reached during download
+[2024-04-05 05:16:18] WARNING root fetch - processPackages [cdktf-cdktf-provider-spotinst]: Timeout reached during download
+[2024-04-05 05:16:18] INFO root fetch - processPackages [cdktf-cdktf-provider-helm]: Downloading https://files.pythonhosted.org/packages/88/34/9a9d5da3f2238f36ba7779e5558064db13f8c70d3cc7dfd96cce8d4a5f89/cdktf-cdktf-provider-helm-9.0.2.tar.gz
+[2024-04-05 05:16:18] INFO root fetch - processPackages [cdktf-cdktf-provider-spotinst]: Downloading https://files.pythonhosted.org/packages/b8/2c/aa878226c72dad7c19534c6713ae070650c0bb7480c80bb6e755f5ccfb7f/cdktf-cdktf-provider-spotinst-9.0.9.tar.gz
+[2024-04-05 05:16:18] WARNING root fetch - processPackages [cdktf-cdktf-provider-helm]: Timeout reached during download
+[2024-04-05 05:16:18] INFO root fetch - processPackages [cdktf-cdktf-provider-helm]: executing diffoscope
+[2024-04-05 05:16:18] INFO root fetch - processPackages [cdktf-cdktf-provider-helm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdktf-cdktf-provider-helm-9.0.1.tar.gz tmp/cdktf-cdktf-provider-helm-9.0.2.tar.gz --markdown 20240405/c/cdktf-cdktf-provider-helm/9.0.1-9.0.2/diff.md --exclude *.pyd
+[2024-04-05 05:16:19] WARNING root fetch - processPackages [cdktf-cdktf-provider-spotinst]: Timeout reached during download
+[2024-04-05 05:16:19] INFO root fetch - processPackages [cdktf-cdktf-provider-spotinst]: executing diffoscope
+[2024-04-05 05:16:19] INFO root fetch - processPackages [cdktf-cdktf-provider-spotinst]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdktf-cdktf-provider-spotinst-9.0.8.tar.gz tmp/cdktf-cdktf-provider-spotinst-9.0.9.tar.gz --markdown 20240405/c/cdktf-cdktf-provider-spotinst/9.0.8-9.0.9/diff.md --exclude *.pyd
+[2024-04-05 05:16:19] INFO root fetch - processPackages [cdktf-cdktf-provider-helm]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-cdktf-provider-helm-9.0.1.tar.gz]
+[2024-04-05 05:16:19] INFO root fetch - processPackages [cdktf-cdktf-provider-helm]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-cdktf-provider-helm-9.0.2.tar.gz]
+[2024-04-05 05:16:19] INFO root fetch - main [MainThread]: End processing [cdktf-cdktf-provider-helm]: success
+[2024-04-05 05:16:22] INFO root fetch - processPackages [cdktf-cdktf-provider-spotinst]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-cdktf-provider-spotinst-9.0.8.tar.gz]
+[2024-04-05 05:16:22] INFO root fetch - processPackages [cdktf-cdktf-provider-spotinst]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-cdktf-provider-spotinst-9.0.9.tar.gz]
+[2024-04-05 05:16:22] INFO root fetch - main [MainThread]: End processing [cdktf-cdktf-provider-spotinst]: success
+[2024-04-05 05:16:22] INFO root fetch - main [MainThread]: Store serial: [22631392]
