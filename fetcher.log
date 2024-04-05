@@ -3062,3 +3062,83 @@
 [2024-04-05 02:23:09] INFO root fetch - processPackages [dazl]: Remove: archive file [/home/abi/fetcher/tmp/dazl-8.0.0b2.tar.gz]
 [2024-04-05 02:23:09] INFO root fetch - main [MainThread]: End processing [dazl]: success
 [2024-04-05 02:23:09] INFO root fetch - main [MainThread]: Store serial: [22629192]
+[2024-04-05 02:25:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22629192]
+[2024-04-05 02:25:18] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-05 02:25:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: codist
+[2024-04-05 02:25:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: kkpyui
+[2024-04-05 02:25:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: asmr-spider
+[2024-04-05 02:25:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cdk-certbot-dns-route53
+[2024-04-05 02:25:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: reflex
+[2024-04-05 02:25:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cdk-serverless-clamscan
+[2024-04-05 02:25:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: stripe
+[2024-04-05 02:25:18] INFO root fetch - processPackages [reflex]: New version: [0.4.6a4] Old Version: [0.4.6a3]
+[2024-04-05 02:25:18] INFO root fetch - processPackages [kkpyui]: New version: [0.9.5] Old Version: [0.9.4]
+[2024-04-05 02:25:18] INFO root fetch - processPackages [stripe]: New version: [8.9.0b1] Old Version: [8.9.0]
+[2024-04-05 02:25:18] INFO root fetch - processPackages [asmr-spider]: New version: [0.2.0] Old Version: [0.1.0a1]
+[2024-04-05 02:25:18] INFO root fetch - processPackages [kkpyui]: Downloading https://files.pythonhosted.org/packages/2f/72/7f37c9071384c52da0ce987ae47d1b7cc0518f058349895ed4c081bb4bcd/kkpyui-0.9.4.tar.gz
+[2024-04-05 02:25:18] INFO root fetch - processPackages [codist]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-04-05 02:25:18] INFO root fetch - processPackages [cdk-certbot-dns-route53]: New version: [2.4.96] Old Version: [2.4.95]
+[2024-04-05 02:25:18] INFO root fetch - processPackages [reflex]: Downloading https://files.pythonhosted.org/packages/e1/95/74ff2d1d1ff5ec8d0969e0cf4b4176ef6af8ccb282acea992d40df23e91a/reflex-0.4.6a3.tar.gz
+[2024-04-05 02:25:18] WARNING root fetch - processPackages [kkpyui]: Timeout reached during download
+[2024-04-05 02:25:18] INFO root fetch - processPackages [stripe]: Downloading https://files.pythonhosted.org/packages/45/25/f914558692e8ebb78c358e7b46d4d635531f787cca348d75561f86a3fbaf/stripe-8.9.0.tar.gz
+[2024-04-05 02:25:18] INFO root fetch - processPackages [asmr-spider]: Downloading https://files.pythonhosted.org/packages/88/73/d776ba8108ae152c2321dbbb8348fa64c98b5a48ff5e0af80856ef989c86/asmr_spider-0.1.0a1.tar.gz
+[2024-04-05 02:25:18] INFO root fetch - processPackages [codist]: Downloading https://files.pythonhosted.org/packages/fa/36/f88969d395aa78097ff42dbd503864ba7430fa0ea6799911de8a48767d79/codist-0.1.0.tar.gz
+[2024-04-05 02:25:19] INFO root fetch - processPackages [kkpyui]: Downloading https://files.pythonhosted.org/packages/fc/9a/f1edfb0fcbcd4f8acd8bd78fe9455405427448ed3d2f2c36e987ac03a04d/kkpyui-0.9.5.tar.gz
+[2024-04-05 02:25:19] WARNING root fetch - processPackages [codist]: Timeout reached during download
+[2024-04-05 02:25:19] INFO root fetch - processPackages [cdk-certbot-dns-route53]: Downloading https://files.pythonhosted.org/packages/5a/43/6a3087075fd8e2955514c214dd40f8015ff468cb9344a44e9ccc7e1d88be/cdk-certbot-dns-route53-2.4.95.tar.gz
+[2024-04-05 02:25:19] WARNING root fetch - processPackages [reflex]: Timeout reached during download
+[2024-04-05 02:25:19] WARNING root fetch - processPackages [kkpyui]: Timeout reached during download
+[2024-04-05 02:25:19] INFO root fetch - processPackages [kkpyui]: executing diffoscope
+[2024-04-05 02:25:19] INFO root fetch - processPackages [kkpyui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kkpyui-0.9.4.tar.gz tmp/kkpyui-0.9.5.tar.gz --markdown 20240405/k/kkpyui/0.9.4-0.9.5/diff.md --exclude *.pyd
+[2024-04-05 02:25:19] WARNING root fetch - processPackages [stripe]: Timeout reached during download
+[2024-04-05 02:25:19] WARNING root fetch - processPackages [asmr-spider]: Timeout reached during download
+[2024-04-05 02:25:19] WARNING root fetch - processPackages [cdk-certbot-dns-route53]: Timeout reached during download
+[2024-04-05 02:25:19] INFO root fetch - processPackages [stripe]: Downloading https://files.pythonhosted.org/packages/0b/4d/6fd857cc97f5d31be2005ccc222b282e450e192ecea871a7d2362d18372b/stripe-8.9.0b1.tar.gz
+[2024-04-05 02:25:19] INFO root fetch - processPackages [cdk-serverless-clamscan]: New version: [2.6.99] Old Version: [2.6.98]
+[2024-04-05 02:25:19] INFO root fetch - processPackages [codist]: Downloading https://files.pythonhosted.org/packages/9d/c5/cf4f884e8ddbc7a6e17e452567a717697090e54bc82ecb6118147341f567/codist-0.1.1.tar.gz
+[2024-04-05 02:25:19] INFO root fetch - processPackages [reflex]: Downloading https://files.pythonhosted.org/packages/16/81/9881252d63846ae68fbc1b280565d3b48a29380f7556c5ffeb867be056bb/reflex-0.4.6a4.tar.gz
+[2024-04-05 02:25:19] INFO root fetch - processPackages [asmr-spider]: Downloading https://files.pythonhosted.org/packages/39/09/9bd76814f86f580806310be45e492331f72d31e157071a7b156862642491/asmr_spider-0.2.0.tar.gz
+[2024-04-05 02:25:19] WARNING root fetch - processPackages [codist]: Timeout reached during download
+[2024-04-05 02:25:19] INFO root fetch - processPackages [codist]: executing diffoscope
+[2024-04-05 02:25:19] INFO root fetch - processPackages [codist]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/codist-0.1.0.tar.gz tmp/codist-0.1.1.tar.gz --markdown 20240405/c/codist/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2024-04-05 02:25:19] INFO root fetch - processPackages [cdk-certbot-dns-route53]: Downloading https://files.pythonhosted.org/packages/b5/0c/5e660fa0008a937989f3a92d3b186ea23efb5ba18178d035adcfec4f6148/cdk-certbot-dns-route53-2.4.96.tar.gz
+[2024-04-05 02:25:19] WARNING root fetch - processPackages [asmr-spider]: Timeout reached during download
+[2024-04-05 02:25:19] INFO root fetch - processPackages [asmr-spider]: executing diffoscope
+[2024-04-05 02:25:19] INFO root fetch - processPackages [asmr-spider]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/asmr_spider-0.1.0a1.tar.gz tmp/asmr_spider-0.2.0.tar.gz --markdown 20240405/a/asmr-spider/0.1.0a1-0.2.0/diff.md --exclude *.pyd
+[2024-04-05 02:25:19] INFO root fetch - processPackages [cdk-serverless-clamscan]: Downloading https://files.pythonhosted.org/packages/04/67/6fb0e00ee65986b766391e4327a7370cec35f8458c0c80507e3b56a79e57/cdk-serverless-clamscan-2.6.98.tar.gz
+[2024-04-05 02:25:19] WARNING root fetch - processPackages [stripe]: Timeout reached during download
+[2024-04-05 02:25:19] INFO root fetch - processPackages [stripe]: executing diffoscope
+[2024-04-05 02:25:19] INFO root fetch - processPackages [stripe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stripe-8.9.0.tar.gz tmp/stripe-8.9.0b1.tar.gz --markdown 20240405/s/stripe/8.9.0-8.9.0b1/diff.md --exclude *.pyd
+[2024-04-05 02:25:19] WARNING root fetch - processPackages [reflex]: Timeout reached during download
+[2024-04-05 02:25:19] INFO root fetch - processPackages [reflex]: executing diffoscope
+[2024-04-05 02:25:19] INFO root fetch - processPackages [reflex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reflex-0.4.6a3.tar.gz tmp/reflex-0.4.6a4.tar.gz --markdown 20240405/r/reflex/0.4.6a3-0.4.6a4/diff.md --exclude *.pyd
+[2024-04-05 02:25:19] WARNING root fetch - processPackages [cdk-certbot-dns-route53]: Timeout reached during download
+[2024-04-05 02:25:19] INFO root fetch - processPackages [cdk-certbot-dns-route53]: executing diffoscope
+[2024-04-05 02:25:19] INFO root fetch - processPackages [cdk-certbot-dns-route53]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-certbot-dns-route53-2.4.95.tar.gz tmp/cdk-certbot-dns-route53-2.4.96.tar.gz --markdown 20240405/c/cdk-certbot-dns-route53/2.4.95-2.4.96/diff.md --exclude *.pyd
+[2024-04-05 02:25:19] WARNING root fetch - processPackages [cdk-serverless-clamscan]: Timeout reached during download
+[2024-04-05 02:25:19] INFO root fetch - processPackages [kkpyui]: Remove: archive file [/home/abi/fetcher/tmp/kkpyui-0.9.4.tar.gz]
+[2024-04-05 02:25:19] INFO root fetch - processPackages [kkpyui]: Remove: archive file [/home/abi/fetcher/tmp/kkpyui-0.9.5.tar.gz]
+[2024-04-05 02:25:19] INFO root fetch - main [MainThread]: End processing [kkpyui]: success
+[2024-04-05 02:25:19] INFO root fetch - processPackages [cdk-serverless-clamscan]: Downloading https://files.pythonhosted.org/packages/53/8f/ea40546b0f696761a1aaeee533ca8a5f53147131c3aa1f0aa1316112f44f/cdk-serverless-clamscan-2.6.99.tar.gz
+[2024-04-05 02:25:20] WARNING root fetch - processPackages [cdk-serverless-clamscan]: Timeout reached during download
+[2024-04-05 02:25:20] INFO root fetch - processPackages [cdk-serverless-clamscan]: executing diffoscope
+[2024-04-05 02:25:20] INFO root fetch - processPackages [cdk-serverless-clamscan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-serverless-clamscan-2.6.98.tar.gz tmp/cdk-serverless-clamscan-2.6.99.tar.gz --markdown 20240405/c/cdk-serverless-clamscan/2.6.98-2.6.99/diff.md --exclude *.pyd
+[2024-04-05 02:25:20] INFO root fetch - processPackages [codist]: Remove: archive file [/home/abi/fetcher/tmp/codist-0.1.0.tar.gz]
+[2024-04-05 02:25:20] INFO root fetch - processPackages [codist]: Remove: archive file [/home/abi/fetcher/tmp/codist-0.1.1.tar.gz]
+[2024-04-05 02:25:20] INFO root fetch - main [MainThread]: End processing [codist]: success
+[2024-04-05 02:25:20] INFO root fetch - processPackages [asmr-spider]: Remove: archive file [/home/abi/fetcher/tmp/asmr_spider-0.1.0a1.tar.gz]
+[2024-04-05 02:25:20] INFO root fetch - processPackages [asmr-spider]: Remove: archive file [/home/abi/fetcher/tmp/asmr_spider-0.2.0.tar.gz]
+[2024-04-05 02:25:20] INFO root fetch - main [MainThread]: End processing [asmr-spider]: success
+[2024-04-05 02:25:20] INFO root fetch - processPackages [cdk-serverless-clamscan]: Remove: archive file [/home/abi/fetcher/tmp/cdk-serverless-clamscan-2.6.98.tar.gz]
+[2024-04-05 02:25:20] INFO root fetch - processPackages [cdk-serverless-clamscan]: Remove: archive file [/home/abi/fetcher/tmp/cdk-serverless-clamscan-2.6.99.tar.gz]
+[2024-04-05 02:25:20] INFO root fetch - main [MainThread]: End processing [cdk-serverless-clamscan]: success
+[2024-04-05 02:25:20] INFO root fetch - processPackages [cdk-certbot-dns-route53]: Remove: archive file [/home/abi/fetcher/tmp/cdk-certbot-dns-route53-2.4.95.tar.gz]
+[2024-04-05 02:25:20] INFO root fetch - processPackages [cdk-certbot-dns-route53]: Remove: archive file [/home/abi/fetcher/tmp/cdk-certbot-dns-route53-2.4.96.tar.gz]
+[2024-04-05 02:25:20] INFO root fetch - main [MainThread]: End processing [cdk-certbot-dns-route53]: success
+[2024-04-05 02:25:21] INFO root fetch - processPackages [reflex]: Remove: archive file [/home/abi/fetcher/tmp/reflex-0.4.6a3.tar.gz]
+[2024-04-05 02:25:21] INFO root fetch - processPackages [reflex]: Remove: archive file [/home/abi/fetcher/tmp/reflex-0.4.6a4.tar.gz]
+[2024-04-05 02:25:21] INFO root fetch - main [MainThread]: End processing [reflex]: success
+[2024-04-05 02:25:26] INFO root fetch - processPackages [stripe]: Remove: archive file [/home/abi/fetcher/tmp/stripe-8.9.0.tar.gz]
+[2024-04-05 02:25:26] INFO root fetch - processPackages [stripe]: Remove: archive file [/home/abi/fetcher/tmp/stripe-8.9.0b1.tar.gz]
+[2024-04-05 02:25:26] INFO root fetch - main [MainThread]: End processing [stripe]: success
+[2024-04-05 02:25:26] INFO root fetch - main [MainThread]: Store serial: [22629210]
