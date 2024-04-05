@@ -25016,3 +25016,160 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2024-04-05 15:51:17] INFO root fetch - processPackages [haiqv-dev]: Remove: archive file [/home/abi/fetcher/tmp/haiqv_dev-240405rc2-py3-none-any.whl.zip]
 [2024-04-05 15:51:17] INFO root fetch - main [MainThread]: End processing [haiqv-dev]: success
 [2024-04-05 15:51:17] INFO root fetch - main [MainThread]: Store serial: [22636913]
+[2024-04-05 15:53:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22636913]
+[2024-04-05 15:53:26] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2024-04-05 15:53:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gpx-vis
+[2024-04-05 15:53:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: winzig
+[2024-04-05 15:53:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pytest-broadcaster
+[2024-04-05 15:53:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: modal
+[2024-04-05 15:53:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo-addon-cron-daylight-saving-time-resistant
+[2024-04-05 15:53:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: modal-client
+[2024-04-05 15:53:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: elastiknn-client
+[2024-04-05 15:53:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: snowflakecli
+[2024-04-05 15:53:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: kywy
+[2024-04-05 15:53:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: rio-tiler
+[2024-04-05 15:53:26] INFO root fetch - processPackages [gpx-vis]: New version: [0.1.4] Old Version: [0.1.3]
+[2024-04-05 15:53:26] INFO root fetch - processPackages [pytest-broadcaster]: New version: [0.4.0] Old Version: [0.3.0]
+[2024-04-05 15:53:26] INFO root fetch - processPackages [gpx-vis]: Downloading https://files.pythonhosted.org/packages/f8/a6/797b11f89bdec10984257b51e6ab7b7a3eacc8b8d7bc8c1549c151bc668a/gpx_vis-0.1.3.tar.gz
+[2024-04-05 15:53:26] INFO root fetch - processPackages [odoo-addon-cron-daylight-saving-time-resistant]: New version: [16.0.1.0.1] Old Version: [16.0.1.0.0.8]
+[2024-04-05 15:53:26] INFO root fetch - processPackages [kywy]: New version: [0.18.0b9] Old Version: [0.18.0b8]
+[2024-04-05 15:53:26] INFO root fetch - processPackages [snowflakecli]: New version: [0.3.1] Old Version: [0.3.0]
+[2024-04-05 15:53:26] INFO root fetch - processPackages [winzig]: New version: [0.3.0] Old Version: [0.2.8]
+[2024-04-05 15:53:26] INFO root fetch - processPackages [rio-tiler]: New version: [6.4.5] Old Version: [6.4.4]
+[2024-04-05 15:53:26] INFO root fetch - processPackages [modal]: New version: [0.62.9] Old Version: [0.62.8]
+[2024-04-05 15:53:26] INFO root fetch - processPackages [elastiknn-client]: New version: [8.9.2.0] Old Version: [8.9.1.0]
+[2024-04-05 15:53:26] INFO root fetch - processPackages [pytest-broadcaster]: Downloading https://files.pythonhosted.org/packages/b5/91/18c69dbe83b3b3853c14978734d0cfc958604eae1765a31e84167ea42f40/pytest_broadcaster-0.3.0.tar.gz
+[2024-04-05 15:53:26] WARNING root fetch - processPackages [gpx-vis]: Timeout reached during download
+[2024-04-05 15:53:26] INFO root fetch - processPackages [modal-client]: New version: [0.62.9] Old Version: [0.62.8]
+[2024-04-05 15:53:26] INFO root fetch - processPackages [odoo-addon-cron-daylight-saving-time-resistant]: Downloading https://files.pythonhosted.org/packages/14/95/e7b96f5925e95b9e22edf8bd2b414c4be487b2a3366c93c0b4041085afc5/odoo_addon_cron_daylight_saving_time_resistant-16.0.1.0.0.8-py3-none-any.whl
+[2024-04-05 15:53:26] INFO root fetch - processPackages [winzig]: Downloading https://files.pythonhosted.org/packages/c0/03/3c3547e722639a9cdf576359e84aea30ebf032b6d2cd3a2378349a255f4f/winzig-0.2.8.tar.gz
+[2024-04-05 15:53:26] INFO root fetch - processPackages [snowflakecli]: Downloading https://files.pythonhosted.org/packages/87/60/3c3262d9a72b7d0b6197b8e9952d2878eefeaf7fba298776f7bec9b6e1d3/snowflakecli-0.3.0.tar.gz
+[2024-04-05 15:53:26] INFO root fetch - processPackages [modal]: Downloading https://files.pythonhosted.org/packages/8a/dd/32da92c8c574400929f770cfc5c78136ebc7b566de71c8e84a423d0ee9cc/modal-0.62.8-py3-none-any.whl
+[2024-04-05 15:53:26] INFO root fetch - processPackages [kywy]: Downloading https://files.pythonhosted.org/packages/5a/35/d09681ca4dba675cb340afcda2294f700aa776e80bb79d04f8b902d66c14/kywy-0.18.0b8-py3-none-any.whl
+[2024-04-05 15:53:26] WARNING root fetch - processPackages [pytest-broadcaster]: Timeout reached during download
+[2024-04-05 15:53:26] INFO root fetch - processPackages [rio-tiler]: Downloading https://files.pythonhosted.org/packages/70/bf/0b6dd01a2c046e0ed5c40d48cbbfdc193efa8f25285ad87ed9f0aedf7912/rio_tiler-6.4.4.tar.gz
+[2024-04-05 15:53:26] INFO root fetch - processPackages [elastiknn-client]: Downloading https://files.pythonhosted.org/packages/07/58/b078f6f7425546649bc88e9c0b71bc2f74eab671252b76b70158d7b9ad61/elastiknn-client-8.9.1.0.tar.gz
+[2024-04-05 15:53:26] INFO root fetch - processPackages [gpx-vis]: Downloading https://files.pythonhosted.org/packages/c2/9e/22fc06da1e1092412147c68d44e66a53c807afd6adf17881abbeaafc2750/gpx_vis-0.1.4.tar.gz
+[2024-04-05 15:53:26] WARNING root fetch - processPackages [odoo-addon-cron-daylight-saving-time-resistant]: Timeout reached during download
+[2024-04-05 15:53:26] WARNING root fetch - processPackages [winzig]: Timeout reached during download
+[2024-04-05 15:53:26] INFO root fetch - processPackages [modal-client]: Downloading https://files.pythonhosted.org/packages/d0/c2/c05a679647fc54f88ed4f2453aec5ec1ea866c5ddaf1d85b52981f84c662/modal_client-0.62.8-py3-none-any.whl
+[2024-04-05 15:53:26] WARNING root fetch - processPackages [kywy]: Timeout reached during download
+[2024-04-05 15:53:27] WARNING root fetch - processPackages [elastiknn-client]: Timeout reached during download
+[2024-04-05 15:53:27] WARNING root fetch - processPackages [gpx-vis]: Timeout reached during download
+[2024-04-05 15:53:27] INFO root fetch - processPackages [gpx-vis]: executing diffoscope
+[2024-04-05 15:53:27] INFO root fetch - processPackages [gpx-vis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gpx_vis-0.1.3.tar.gz tmp/gpx_vis-0.1.4.tar.gz --markdown 20240405/g/gpx-vis/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2024-04-05 15:53:27] WARNING root fetch - processPackages [snowflakecli]: Timeout reached during download
+[2024-04-05 15:53:27] WARNING root fetch - processPackages [rio-tiler]: Timeout reached during download
+[2024-04-05 15:53:27] WARNING root fetch - processPackages [modal]: Timeout reached during download
+[2024-04-05 15:53:27] INFO root fetch - processPackages [pytest-broadcaster]: Downloading https://files.pythonhosted.org/packages/57/15/60554f0b85da44e286a965efd5b09a8efce48e5ac84aa1ca71628541aa92/pytest_broadcaster-0.4.0.tar.gz
+[2024-04-05 15:53:27] INFO root fetch - processPackages [odoo-addon-cron-daylight-saving-time-resistant]: Downloading https://files.pythonhosted.org/packages/1a/b8/f9e9dafbebd9db1e80cc7648f94fa63440190aa57f818d647ac144c6f91d/odoo_addon_cron_daylight_saving_time_resistant-16.0.1.0.1-py3-none-any.whl
+[2024-04-05 15:53:27] INFO root fetch - processPackages [winzig]: Downloading https://files.pythonhosted.org/packages/21/1a/3efa1e74e66f51ac204430dde7c70f54fd7ec9fb00270d5e7b1fd754f480/winzig-0.3.0.tar.gz
+[2024-04-05 15:53:27] WARNING root fetch - processPackages [modal-client]: Timeout reached during download
+[2024-04-05 15:53:27] INFO root fetch - processPackages [rio-tiler]: Downloading https://files.pythonhosted.org/packages/f5/65/a23674882d97d9b0e98a756d9394ec6824b1d94d07ebc6c45f77f9167c5c/rio_tiler-6.4.5.tar.gz
+[2024-04-05 15:53:27] WARNING root fetch - processPackages [pytest-broadcaster]: Timeout reached during download
+[2024-04-05 15:53:27] INFO root fetch - processPackages [pytest-broadcaster]: executing diffoscope
+[2024-04-05 15:53:27] INFO root fetch - processPackages [pytest-broadcaster]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest_broadcaster-0.3.0.tar.gz tmp/pytest_broadcaster-0.4.0.tar.gz --markdown 20240405/p/pytest-broadcaster/0.3.0-0.4.0/diff.md --exclude *.pyd
+[2024-04-05 15:53:27] INFO root fetch - processPackages [snowflakecli]: Downloading https://files.pythonhosted.org/packages/1c/6b/5e95d95db8718ee66c2be338ed03ec3a7f34b14009358c492ff67fedd907/snowflakecli-0.3.1.tar.gz
+[2024-04-05 15:53:27] INFO root fetch - processPackages [elastiknn-client]: Downloading https://files.pythonhosted.org/packages/5c/d8/eabf03a721fd05fdd0083c97883a9b926566f2926bde44b1e263e64d9da4/elastiknn-client-8.9.2.0.tar.gz
+[2024-04-05 15:53:27] INFO root fetch - processPackages [kywy]: Downloading https://files.pythonhosted.org/packages/9a/f8/24411333415c7d5a41eb0b9f0ad87d2cd2123835ebc09f94853b04aca91c/kywy-0.18.0b9-py3-none-any.whl
+[2024-04-05 15:53:27] WARNING root fetch - processPackages [odoo-addon-cron-daylight-saving-time-resistant]: Timeout reached during download
+[2024-04-05 15:53:27] INFO root fetch - processPackages [odoo-addon-cron-daylight-saving-time-resistant]: executing diffoscope
+[2024-04-05 15:53:27] INFO root fetch - processPackages [odoo-addon-cron-daylight-saving-time-resistant]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_cron_daylight_saving_time_resistant-16.0.1.0.0.8-py3-none-any.whl.zip tmp/odoo_addon_cron_daylight_saving_time_resistant-16.0.1.0.1-py3-none-any.whl.zip --markdown 20240405/o/odoo-addon-cron-daylight-saving-time-resistant/16.0.1.0.0.8-16.0.1.0.1/diff.md --exclude *.pyd
+[2024-04-05 15:53:27] INFO root fetch - processPackages [modal]: Downloading https://files.pythonhosted.org/packages/c0/f7/8dd227328bcea0baf27836ce9f00c26e7e27195101883dc782c55387e12f/modal-0.62.9-py3-none-any.whl
+[2024-04-05 15:53:27] WARNING root fetch - processPackages [winzig]: Timeout reached during download
+[2024-04-05 15:53:27] INFO root fetch - processPackages [winzig]: executing diffoscope
+[2024-04-05 15:53:27] INFO root fetch - processPackages [winzig]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/winzig-0.2.8.tar.gz tmp/winzig-0.3.0.tar.gz --markdown 20240405/w/winzig/0.2.8-0.3.0/diff.md --exclude *.pyd
+[2024-04-05 15:53:27] INFO root fetch - processPackages [modal-client]: Downloading https://files.pythonhosted.org/packages/08/2d/ba9d3e39c32f579d689b9f619a197109b7086b3f8e0764e5eed9501a303e/modal_client-0.62.9-py3-none-any.whl
+[2024-04-05 15:53:27] WARNING root fetch - processPackages [kywy]: Timeout reached during download
+[2024-04-05 15:53:27] INFO root fetch - processPackages [kywy]: executing diffoscope
+[2024-04-05 15:53:27] INFO root fetch - processPackages [kywy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kywy-0.18.0b8-py3-none-any.whl.zip tmp/kywy-0.18.0b9-py3-none-any.whl.zip --markdown 20240405/k/kywy/0.18.0b8-0.18.0b9/diff.md --exclude *.pyd
+[2024-04-05 15:53:27] WARNING root fetch - processPackages [rio-tiler]: Timeout reached during download
+[2024-04-05 15:53:27] INFO root fetch - processPackages [rio-tiler]: executing diffoscope
+[2024-04-05 15:53:27] INFO root fetch - processPackages [rio-tiler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rio_tiler-6.4.4.tar.gz tmp/rio_tiler-6.4.5.tar.gz --markdown 20240405/r/rio-tiler/6.4.4-6.4.5/diff.md --exclude *.pyd
+[2024-04-05 15:53:27] WARNING root fetch - processPackages [snowflakecli]: Timeout reached during download
+[2024-04-05 15:53:27] WARNING root fetch - processPackages [modal]: Timeout reached during download
+[2024-04-05 15:53:27] WARNING root fetch - processPackages [elastiknn-client]: Timeout reached during download
+[2024-04-05 15:53:27] INFO root fetch - processPackages [snowflakecli]: executing diffoscope
+[2024-04-05 15:53:27] INFO root fetch - processPackages [snowflakecli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/snowflakecli-0.3.0.tar.gz tmp/snowflakecli-0.3.1.tar.gz --markdown 20240405/s/snowflakecli/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2024-04-05 15:53:27] INFO root fetch - processPackages [modal]: executing diffoscope
+[2024-04-05 15:53:27] INFO root fetch - processPackages [modal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modal-0.62.8-py3-none-any.whl.zip tmp/modal-0.62.9-py3-none-any.whl.zip --markdown 20240405/m/modal/0.62.8-0.62.9/diff.md --exclude *.pyd
+[2024-04-05 15:53:27] INFO root fetch - processPackages [elastiknn-client]: executing diffoscope
+[2024-04-05 15:53:27] INFO root fetch - processPackages [elastiknn-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/elastiknn-client-8.9.1.0.tar.gz tmp/elastiknn-client-8.9.2.0.tar.gz --markdown 20240405/e/elastiknn-client/8.9.1.0-8.9.2.0/diff.md --exclude *.pyd
+[2024-04-05 15:53:27] WARNING root fetch - processPackages [modal-client]: Timeout reached during download
+[2024-04-05 15:53:27] INFO root fetch - processPackages [modal-client]: executing diffoscope
+[2024-04-05 15:53:27] INFO root fetch - processPackages [modal-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modal_client-0.62.8-py3-none-any.whl.zip tmp/modal_client-0.62.9-py3-none-any.whl.zip --markdown 20240405/m/modal-client/0.62.8-0.62.9/diff.md --exclude *.pyd
+[2024-04-05 15:53:27] INFO root fetch - processPackages [gpx-vis]: Remove: archive file [/home/abi/fetcher/tmp/gpx_vis-0.1.3.tar.gz]
+[2024-04-05 15:53:27] INFO root fetch - processPackages [gpx-vis]: Remove: archive file [/home/abi/fetcher/tmp/gpx_vis-0.1.4.tar.gz]
+[2024-04-05 15:53:27] INFO root fetch - processPackages [gpx-vis]: Start processing: pharmacelera-utils
+[2024-04-05 15:53:27] INFO root fetch - main [MainThread]: End processing [gpx-vis]: success
+[2024-04-05 15:53:27] INFO root fetch - processPackages [pharmacelera-utils]: New version: [0.2.0] Old Version: [0.1.60]
+[2024-04-05 15:53:28] INFO root fetch - processPackages [odoo-addon-cron-daylight-saving-time-resistant]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_cron_daylight_saving_time_resistant-16.0.1.0.0.8-py3-none-any.whl.zip]
+[2024-04-05 15:53:28] INFO root fetch - processPackages [odoo-addon-cron-daylight-saving-time-resistant]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_cron_daylight_saving_time_resistant-16.0.1.0.1-py3-none-any.whl.zip]
+[2024-04-05 15:53:28] INFO root fetch - processPackages [odoo-addon-cron-daylight-saving-time-resistant]: Start processing: monopoly-sg
+[2024-04-05 15:53:28] INFO root fetch - main [MainThread]: End processing [odoo-addon-cron-daylight-saving-time-resistant]: success
+[2024-04-05 15:53:28] INFO root fetch - processPackages [pharmacelera-utils]: Downloading https://files.pythonhosted.org/packages/82/90/27d2d82201647df747b4ff8c1b2cb8116d9e854ba6cf0f05c968cd4817ad/pharmacelera_utils-0.1.60.tar.gz
+[2024-04-05 15:53:28] WARNING root fetch - processPackages [pharmacelera-utils]: Timeout reached during download
+[2024-04-05 15:53:28] INFO root fetch - processPackages [monopoly-sg]: New version: [0.7.2] Old Version: [0.7.1]
+[2024-04-05 15:53:28] INFO root fetch - processPackages [winzig]: Remove: archive file [/home/abi/fetcher/tmp/winzig-0.2.8.tar.gz]
+[2024-04-05 15:53:28] INFO root fetch - processPackages [winzig]: Remove: archive file [/home/abi/fetcher/tmp/winzig-0.3.0.tar.gz]
+[2024-04-05 15:53:28] INFO root fetch - processPackages [winzig]: Start processing: dockerflow
+[2024-04-05 15:53:28] INFO root fetch - main [MainThread]: End processing [winzig]: success
+[2024-04-05 15:53:28] INFO root fetch - processPackages [elastiknn-client]: Remove: archive file [/home/abi/fetcher/tmp/elastiknn-client-8.9.1.0.tar.gz]
+[2024-04-05 15:53:28] INFO root fetch - processPackages [elastiknn-client]: Remove: archive file [/home/abi/fetcher/tmp/elastiknn-client-8.9.2.0.tar.gz]
+[2024-04-05 15:53:28] INFO root fetch - processPackages [elastiknn-client]: Start processing: optidata-core
+[2024-04-05 15:53:28] INFO root fetch - main [MainThread]: End processing [elastiknn-client]: success
+[2024-04-05 15:53:28] INFO root fetch - processPackages [dockerflow]: New version: [2024.4.0] Old Version: [2024.3.0]
+[2024-04-05 15:53:28] INFO root fetch - processPackages [modal-client]: Remove: archive file [/home/abi/fetcher/tmp/modal_client-0.62.8-py3-none-any.whl.zip]
+[2024-04-05 15:53:28] INFO root fetch - processPackages [modal-client]: Remove: archive file [/home/abi/fetcher/tmp/modal_client-0.62.9-py3-none-any.whl.zip]
+[2024-04-05 15:53:28] INFO root fetch - main [MainThread]: End processing [modal-client]: success
+[2024-04-05 15:53:28] INFO root fetch - processPackages [pharmacelera-utils]: Downloading https://files.pythonhosted.org/packages/5d/a7/f35c82adb3dd9b68906f1517f63b3c06c4dafa0536c6f5bc2e970c463bad/pharmacelera_utils-0.2.0.tar.gz
+[2024-04-05 15:53:28] INFO root fetch - processPackages [optidata-core]: New version: [1.9.0] Old Version: [1.8.0]
+[2024-04-05 15:53:28] INFO root fetch - processPackages [pytest-broadcaster]: Remove: archive file [/home/abi/fetcher/tmp/pytest_broadcaster-0.3.0.tar.gz]
+[2024-04-05 15:53:28] INFO root fetch - processPackages [pytest-broadcaster]: Remove: archive file [/home/abi/fetcher/tmp/pytest_broadcaster-0.4.0.tar.gz]
+[2024-04-05 15:53:28] INFO root fetch - main [MainThread]: End processing [pytest-broadcaster]: success
+[2024-04-05 15:53:28] INFO root fetch - processPackages [monopoly-sg]: Downloading https://files.pythonhosted.org/packages/5f/24/6c640a6888ed69a895302c976de2b60160abc85db6bae2912f1d798dd796/monopoly_sg-0.7.1.tar.gz
+[2024-04-05 15:53:28] INFO root fetch - processPackages [kywy]: Remove: archive file [/home/abi/fetcher/tmp/kywy-0.18.0b8-py3-none-any.whl.zip]
+[2024-04-05 15:53:28] INFO root fetch - processPackages [kywy]: Remove: archive file [/home/abi/fetcher/tmp/kywy-0.18.0b9-py3-none-any.whl.zip]
+[2024-04-05 15:53:28] INFO root fetch - main [MainThread]: End processing [kywy]: success
+[2024-04-05 15:53:28] INFO root fetch - processPackages [snowflakecli]: Remove: archive file [/home/abi/fetcher/tmp/snowflakecli-0.3.0.tar.gz]
+[2024-04-05 15:53:28] INFO root fetch - processPackages [snowflakecli]: Remove: archive file [/home/abi/fetcher/tmp/snowflakecli-0.3.1.tar.gz]
+[2024-04-05 15:53:28] INFO root fetch - main [MainThread]: End processing [snowflakecli]: success
+[2024-04-05 15:53:28] WARNING root fetch - processPackages [monopoly-sg]: Timeout reached during download
+[2024-04-05 15:53:28] INFO root fetch - processPackages [dockerflow]: Downloading https://files.pythonhosted.org/packages/9d/78/42a74ed5372873cd6fcf7735d33ba27e9f48ea6b60dc22f50b0d2aff2e69/dockerflow-2024.3.0.tar.gz
+[2024-04-05 15:53:28] WARNING root fetch - processPackages [pharmacelera-utils]: Timeout reached during download
+[2024-04-05 15:53:28] INFO root fetch - processPackages [pharmacelera-utils]: executing diffoscope
+[2024-04-05 15:53:28] INFO root fetch - processPackages [pharmacelera-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pharmacelera_utils-0.1.60.tar.gz tmp/pharmacelera_utils-0.2.0.tar.gz --markdown 20240405/p/pharmacelera-utils/0.1.60-0.2.0/diff.md --exclude *.pyd
+[2024-04-05 15:53:28] INFO root fetch - processPackages [optidata-core]: Downloading https://files.pythonhosted.org/packages/c5/4e/635687137fdc095db76c4efe89965e6301c067406c20fb621d086abd19e6/optidata-core-1.8.0.tar.gz
+[2024-04-05 15:53:28] WARNING root fetch - processPackages [dockerflow]: Timeout reached during download
+[2024-04-05 15:53:28] INFO root fetch - processPackages [monopoly-sg]: Downloading https://files.pythonhosted.org/packages/b1/68/7e31adeb43602da2ab9b058085ce334e06445831d43642e4909d1a25b8cd/monopoly_sg-0.7.2.tar.gz
+[2024-04-05 15:53:28] WARNING root fetch - processPackages [optidata-core]: Timeout reached during download
+[2024-04-05 15:53:28] INFO root fetch - processPackages [modal]: Remove: archive file [/home/abi/fetcher/tmp/modal-0.62.8-py3-none-any.whl.zip]
+[2024-04-05 15:53:28] INFO root fetch - processPackages [modal]: Remove: archive file [/home/abi/fetcher/tmp/modal-0.62.9-py3-none-any.whl.zip]
+[2024-04-05 15:53:29] INFO root fetch - main [MainThread]: End processing [modal]: success
+[2024-04-05 15:53:29] INFO root fetch - processPackages [dockerflow]: Downloading https://files.pythonhosted.org/packages/32/e6/6f759fee18ac1782469e8bf52f1885ae546ff7c5b74831b4ac16ea08f143/dockerflow-2024.4.0.tar.gz
+[2024-04-05 15:53:29] WARNING root fetch - processPackages [monopoly-sg]: Timeout reached during download
+[2024-04-05 15:53:29] INFO root fetch - processPackages [monopoly-sg]: executing diffoscope
+[2024-04-05 15:53:29] INFO root fetch - processPackages [monopoly-sg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/monopoly_sg-0.7.1.tar.gz tmp/monopoly_sg-0.7.2.tar.gz --markdown 20240405/m/monopoly-sg/0.7.1-0.7.2/diff.md --exclude *.pyd
+[2024-04-05 15:53:29] INFO root fetch - processPackages [optidata-core]: Downloading https://files.pythonhosted.org/packages/0c/f5/7fba937798364d4ec773353f59e812b916554d6b4fb79dacf2e8bb001ff4/optidata-core-1.9.0.tar.gz
+[2024-04-05 15:53:29] WARNING root fetch - processPackages [dockerflow]: Timeout reached during download
+[2024-04-05 15:53:29] INFO root fetch - processPackages [dockerflow]: executing diffoscope
+[2024-04-05 15:53:29] INFO root fetch - processPackages [dockerflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dockerflow-2024.3.0.tar.gz tmp/dockerflow-2024.4.0.tar.gz --markdown 20240405/d/dockerflow/2024.3.0-2024.4.0/diff.md --exclude *.pyd
+[2024-04-05 15:53:29] INFO root fetch - processPackages [rio-tiler]: Remove: archive file [/home/abi/fetcher/tmp/rio_tiler-6.4.4.tar.gz]
+[2024-04-05 15:53:29] INFO root fetch - processPackages [rio-tiler]: Remove: archive file [/home/abi/fetcher/tmp/rio_tiler-6.4.5.tar.gz]
+[2024-04-05 15:53:29] INFO root fetch - main [MainThread]: End processing [rio-tiler]: success
+[2024-04-05 15:53:29] INFO root fetch - processPackages [pharmacelera-utils]: Remove: archive file [/home/abi/fetcher/tmp/pharmacelera_utils-0.1.60.tar.gz]
+[2024-04-05 15:53:29] INFO root fetch - processPackages [pharmacelera-utils]: Remove: archive file [/home/abi/fetcher/tmp/pharmacelera_utils-0.2.0.tar.gz]
+[2024-04-05 15:53:29] INFO root fetch - main [MainThread]: End processing [pharmacelera-utils]: success
+[2024-04-05 15:53:29] WARNING root fetch - processPackages [optidata-core]: Timeout reached during download
+[2024-04-05 15:53:29] INFO root fetch - processPackages [optidata-core]: executing diffoscope
+[2024-04-05 15:53:29] INFO root fetch - processPackages [optidata-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/optidata-core-1.8.0.tar.gz tmp/optidata-core-1.9.0.tar.gz --markdown 20240405/o/optidata-core/1.8.0-1.9.0/diff.md --exclude *.pyd
+[2024-04-05 15:53:29] INFO root fetch - processPackages [monopoly-sg]: Remove: archive file [/home/abi/fetcher/tmp/monopoly_sg-0.7.1.tar.gz]
+[2024-04-05 15:53:29] INFO root fetch - processPackages [monopoly-sg]: Remove: archive file [/home/abi/fetcher/tmp/monopoly_sg-0.7.2.tar.gz]
+[2024-04-05 15:53:29] INFO root fetch - main [MainThread]: End processing [monopoly-sg]: success
+[2024-04-05 15:53:29] INFO root fetch - processPackages [optidata-core]: Remove: archive file [/home/abi/fetcher/tmp/optidata-core-1.8.0.tar.gz]
+[2024-04-05 15:53:29] INFO root fetch - processPackages [optidata-core]: Remove: archive file [/home/abi/fetcher/tmp/optidata-core-1.9.0.tar.gz]
+[2024-04-05 15:53:29] INFO root fetch - main [MainThread]: End processing [optidata-core]: success
+[2024-04-05 15:53:30] INFO root fetch - processPackages [dockerflow]: Remove: archive file [/home/abi/fetcher/tmp/dockerflow-2024.3.0.tar.gz]
+[2024-04-05 15:53:30] INFO root fetch - processPackages [dockerflow]: Remove: archive file [/home/abi/fetcher/tmp/dockerflow-2024.4.0.tar.gz]
+[2024-04-05 15:53:30] INFO root fetch - main [MainThread]: End processing [dockerflow]: success
+[2024-04-05 15:53:30] INFO root fetch - main [MainThread]: Store serial: [22636953]
