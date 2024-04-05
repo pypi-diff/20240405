@@ -10359,3 +10359,50 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2024-04-05 05:18:50] INFO root fetch - processPackages [qutip]: Remove: archive file [/home/abi/fetcher/tmp/qutip-5.0.1.tar.gz]
 [2024-04-05 05:18:50] INFO root fetch - main [MainThread]: End processing [qutip]: success
 [2024-04-05 05:18:50] INFO root fetch - main [MainThread]: Store serial: [22631421]
+[2024-04-05 05:20:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22631421]
+[2024-04-05 05:20:58] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-05 05:20:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: idbt
+[2024-04-05 05:20:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: patent-chart
+[2024-04-05 05:20:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: integ-db
+[2024-04-05 05:20:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: keras-nightly
+[2024-04-05 05:20:59] INFO root fetch - processPackages [integ-db]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-04-05 05:20:59] INFO root fetch - processPackages [keras-nightly]: New version: [3.2.0.dev2024040423] Old Version: [3.2.0.dev2024040303]
+[2024-04-05 05:20:59] INFO root fetch - processPackages [integ-db]: Downloading https://files.pythonhosted.org/packages/5d/89/095a68ff770b41fc913c0e37d9cab00477cafc282953cb3621558ac9ea7e/integ-db-0.0.3.tar.gz
+[2024-04-05 05:20:59] INFO root fetch - processPackages [idbt]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-04-05 05:20:59] INFO root fetch - processPackages [patent-chart]: New version: [0.2.7] Old Version: [0.2.5]
+[2024-04-05 05:20:59] INFO root fetch - processPackages [keras-nightly]: Downloading https://files.pythonhosted.org/packages/1b/fc/e97d01d51aaecb5b31fdf3f9bc90f8707ee3fae48ec68f744730d5a4d13a/keras-nightly-3.2.0.dev2024040303.tar.gz
+[2024-04-05 05:20:59] WARNING root fetch - processPackages [integ-db]: Timeout reached during download
+[2024-04-05 05:20:59] WARNING root fetch - processPackages [keras-nightly]: Timeout reached during download
+[2024-04-05 05:20:59] INFO root fetch - processPackages [idbt]: Downloading https://files.pythonhosted.org/packages/d5/6f/94931c38ae8968e8d6c323c9082646aa1dd778d84b22a8db85df57fff81e/idbt-0.0.1.tar.gz
+[2024-04-05 05:20:59] INFO root fetch - processPackages [patent-chart]: Downloading https://files.pythonhosted.org/packages/94/7d/7b3c9257d14e7cacb0905ffc3d5b54ee1879228b1fab38edfec5a24f0166/patent_chart-0.2.5.tar.gz
+[2024-04-05 05:20:59] INFO root fetch - processPackages [integ-db]: Downloading https://files.pythonhosted.org/packages/e3/0f/eb9a59c970484469fb90933a1031011c6d6655df6f5d628654c99cf2392c/integ-db-0.0.4.tar.gz
+[2024-04-05 05:20:59] INFO root fetch - processPackages [keras-nightly]: Downloading https://files.pythonhosted.org/packages/82/e7/929346231523687949e1442b34052f08e01134c2536b0cf6365fbd0f0361/keras-nightly-3.2.0.dev2024040423.tar.gz
+[2024-04-05 05:20:59] WARNING root fetch - processPackages [idbt]: Timeout reached during download
+[2024-04-05 05:20:59] WARNING root fetch - processPackages [patent-chart]: Timeout reached during download
+[2024-04-05 05:20:59] WARNING root fetch - processPackages [integ-db]: Timeout reached during download
+[2024-04-05 05:20:59] INFO root fetch - processPackages [integ-db]: executing diffoscope
+[2024-04-05 05:20:59] INFO root fetch - processPackages [integ-db]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/integ-db-0.0.3.tar.gz tmp/integ-db-0.0.4.tar.gz --markdown 20240405/i/integ-db/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2024-04-05 05:20:59] WARNING root fetch - processPackages [keras-nightly]: Timeout reached during download
+[2024-04-05 05:20:59] INFO root fetch - processPackages [keras-nightly]: executing diffoscope
+[2024-04-05 05:20:59] INFO root fetch - processPackages [keras-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/keras-nightly-3.2.0.dev2024040303.tar.gz tmp/keras-nightly-3.2.0.dev2024040423.tar.gz --markdown 20240405/k/keras-nightly/3.2.0.dev2024040303-3.2.0.dev2024040423/diff.md --exclude *.pyd
+[2024-04-05 05:20:59] INFO root fetch - processPackages [idbt]: Downloading https://files.pythonhosted.org/packages/13/dc/39ce2c3419abdcca36bfc2d3953e87a348552feba7864bad9bccd17d42dc/idbt-0.0.2.tar.gz
+[2024-04-05 05:20:59] INFO root fetch - processPackages [patent-chart]: Downloading https://files.pythonhosted.org/packages/04/4e/086ecf7a68bee2bec2b23221292d3bb330f13b17e52221ea401dea2031ae/patent_chart-0.2.7.tar.gz
+[2024-04-05 05:20:59] WARNING root fetch - processPackages [idbt]: Timeout reached during download
+[2024-04-05 05:20:59] INFO root fetch - processPackages [idbt]: executing diffoscope
+[2024-04-05 05:20:59] INFO root fetch - processPackages [idbt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/idbt-0.0.1.tar.gz tmp/idbt-0.0.2.tar.gz --markdown 20240405/i/idbt/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2024-04-05 05:20:59] WARNING root fetch - processPackages [patent-chart]: Timeout reached during download
+[2024-04-05 05:20:59] INFO root fetch - processPackages [patent-chart]: executing diffoscope
+[2024-04-05 05:20:59] INFO root fetch - processPackages [patent-chart]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/patent_chart-0.2.5.tar.gz tmp/patent_chart-0.2.7.tar.gz --markdown 20240405/p/patent-chart/0.2.5-0.2.7/diff.md --exclude *.pyd
+[2024-04-05 05:21:00] INFO root fetch - processPackages [integ-db]: Remove: archive file [/home/abi/fetcher/tmp/integ-db-0.0.3.tar.gz]
+[2024-04-05 05:21:00] INFO root fetch - processPackages [integ-db]: Remove: archive file [/home/abi/fetcher/tmp/integ-db-0.0.4.tar.gz]
+[2024-04-05 05:21:00] INFO root fetch - main [MainThread]: End processing [integ-db]: success
+[2024-04-05 05:21:00] INFO root fetch - processPackages [patent-chart]: Remove: archive file [/home/abi/fetcher/tmp/patent_chart-0.2.5.tar.gz]
+[2024-04-05 05:21:00] INFO root fetch - processPackages [patent-chart]: Remove: archive file [/home/abi/fetcher/tmp/patent_chart-0.2.7.tar.gz]
+[2024-04-05 05:21:00] INFO root fetch - main [MainThread]: End processing [patent-chart]: success
+[2024-04-05 05:21:00] INFO root fetch - processPackages [idbt]: Remove: archive file [/home/abi/fetcher/tmp/idbt-0.0.1.tar.gz]
+[2024-04-05 05:21:00] INFO root fetch - processPackages [idbt]: Remove: archive file [/home/abi/fetcher/tmp/idbt-0.0.2.tar.gz]
+[2024-04-05 05:21:00] INFO root fetch - main [MainThread]: End processing [idbt]: success
+[2024-04-05 05:21:01] INFO root fetch - processPackages [keras-nightly]: Remove: archive file [/home/abi/fetcher/tmp/keras-nightly-3.2.0.dev2024040303.tar.gz]
+[2024-04-05 05:21:01] INFO root fetch - processPackages [keras-nightly]: Remove: archive file [/home/abi/fetcher/tmp/keras-nightly-3.2.0.dev2024040423.tar.gz]
+[2024-04-05 05:21:01] INFO root fetch - main [MainThread]: End processing [keras-nightly]: success
+[2024-04-05 05:21:01] INFO root fetch - main [MainThread]: Store serial: [22631433]
