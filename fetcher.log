@@ -11874,3 +11874,31 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2024-04-05 06:55:29] INFO root fetch - processPackages [custom-cytomine-client]: Remove: archive file [/home/abi/fetcher/tmp/custom_cytomine_client-0.0.9.tar.gz]
 [2024-04-05 06:55:29] INFO root fetch - main [MainThread]: End processing [custom-cytomine-client]: success
 [2024-04-05 06:55:29] INFO root fetch - main [MainThread]: Store serial: [22631821]
+[2024-04-05 06:57:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22631821]
+[2024-04-05 06:57:38] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-05 06:57:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo-addon-l10n-nl-xaf-auditfile-export
+[2024-04-05 06:57:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lazy-mongo-log
+[2024-04-05 06:57:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: e2b-code-interpreter
+[2024-04-05 06:57:38] INFO root fetch - processPackages [e2b-code-interpreter]: New version: [0.0.2] Old Version: [0.0.1a2]
+[2024-04-05 06:57:38] WARNING root fetch - processPackages [lazy-mongo-log]: Skipping, unable to determine old version
+[2024-04-05 06:57:38] INFO root fetch - main [MainThread]: End processing [lazy-mongo-log] error
+[2024-04-05 06:57:38] INFO root fetch - processPackages [odoo-addon-l10n-nl-xaf-auditfile-export]: New version: [17.0.1.0.0.3] Old Version: [17.0.1.0.0.2]
+[2024-04-05 06:57:38] INFO root fetch - processPackages [e2b-code-interpreter]: Downloading https://files.pythonhosted.org/packages/46/fe/1b08046f5f5ab6784bdf1251e7ba7b956f2d47ae521da837df2c4a2b3b23/e2b_code_interpreter-0.0.1a2.tar.gz
+[2024-04-05 06:57:38] INFO root fetch - processPackages [odoo-addon-l10n-nl-xaf-auditfile-export]: Downloading https://files.pythonhosted.org/packages/1a/16/70e6bbef05b9929166cee66ad97c9901d7d79d3fe331e2dc7ce4c493253f/odoo_addon_l10n_nl_xaf_auditfile_export-17.0.1.0.0.2-py3-none-any.whl
+[2024-04-05 06:57:38] WARNING root fetch - processPackages [e2b-code-interpreter]: Timeout reached during download
+[2024-04-05 06:57:38] WARNING root fetch - processPackages [odoo-addon-l10n-nl-xaf-auditfile-export]: Timeout reached during download
+[2024-04-05 06:57:39] INFO root fetch - processPackages [e2b-code-interpreter]: Downloading https://files.pythonhosted.org/packages/30/2d/3b968ef6df9b847e196f54e9a6a0d5b249d9cecf6b88b7a87b780c43ba08/e2b_code_interpreter-0.0.2.tar.gz
+[2024-04-05 06:57:39] WARNING root fetch - processPackages [e2b-code-interpreter]: Timeout reached during download
+[2024-04-05 06:57:39] INFO root fetch - processPackages [e2b-code-interpreter]: executing diffoscope
+[2024-04-05 06:57:39] INFO root fetch - processPackages [e2b-code-interpreter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/e2b_code_interpreter-0.0.1a2.tar.gz tmp/e2b_code_interpreter-0.0.2.tar.gz --markdown 20240405/e/e2b-code-interpreter/0.0.1a2-0.0.2/diff.md --exclude *.pyd
+[2024-04-05 06:57:39] INFO root fetch - processPackages [odoo-addon-l10n-nl-xaf-auditfile-export]: Downloading https://files.pythonhosted.org/packages/fa/0b/6f7344a05042e87927f1737ab78f7c29f8b987ce708dc6ffff11e6298028/odoo_addon_l10n_nl_xaf_auditfile_export-17.0.1.0.0.3-py3-none-any.whl
+[2024-04-05 06:57:39] WARNING root fetch - processPackages [odoo-addon-l10n-nl-xaf-auditfile-export]: Timeout reached during download
+[2024-04-05 06:57:39] INFO root fetch - processPackages [odoo-addon-l10n-nl-xaf-auditfile-export]: executing diffoscope
+[2024-04-05 06:57:39] INFO root fetch - processPackages [odoo-addon-l10n-nl-xaf-auditfile-export]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_l10n_nl_xaf_auditfile_export-17.0.1.0.0.2-py3-none-any.whl.zip tmp/odoo_addon_l10n_nl_xaf_auditfile_export-17.0.1.0.0.3-py3-none-any.whl.zip --markdown 20240405/o/odoo-addon-l10n-nl-xaf-auditfile-export/17.0.1.0.0.2-17.0.1.0.0.3/diff.md --exclude *.pyd
+[2024-04-05 06:57:39] INFO root fetch - processPackages [e2b-code-interpreter]: Remove: archive file [/home/abi/fetcher/tmp/e2b_code_interpreter-0.0.1a2.tar.gz]
+[2024-04-05 06:57:39] INFO root fetch - processPackages [e2b-code-interpreter]: Remove: archive file [/home/abi/fetcher/tmp/e2b_code_interpreter-0.0.2.tar.gz]
+[2024-04-05 06:57:39] INFO root fetch - main [MainThread]: End processing [e2b-code-interpreter]: success
+[2024-04-05 06:57:39] INFO root fetch - processPackages [odoo-addon-l10n-nl-xaf-auditfile-export]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_nl_xaf_auditfile_export-17.0.1.0.0.2-py3-none-any.whl.zip]
+[2024-04-05 06:57:39] INFO root fetch - processPackages [odoo-addon-l10n-nl-xaf-auditfile-export]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_nl_xaf_auditfile_export-17.0.1.0.0.3-py3-none-any.whl.zip]
+[2024-04-05 06:57:39] INFO root fetch - main [MainThread]: End processing [odoo-addon-l10n-nl-xaf-auditfile-export]: success
+[2024-04-05 06:57:39] INFO root fetch - main [MainThread]: Store serial: [22631834]
