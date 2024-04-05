@@ -10437,3 +10437,61 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2024-04-05 05:25:22] INFO root fetch - processPackages [integ-db]: Remove: archive file [/home/abi/fetcher/tmp/integ-db-0.0.5.tar.gz]
 [2024-04-05 05:25:22] INFO root fetch - main [MainThread]: End processing [integ-db]: success
 [2024-04-05 05:25:22] INFO root fetch - main [MainThread]: Store serial: [22631441]
+[2024-04-05 05:27:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22631441]
+[2024-04-05 05:27:31] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-05 05:27:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: integ-db
+[2024-04-05 05:27:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: aws-service-screener
+[2024-04-05 05:27:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: kobo
+[2024-04-05 05:27:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: immunopipe
+[2024-04-05 05:27:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: konfuzio-sdk
+[2024-04-05 05:27:32] INFO root fetch - processPackages [integ-db]: New version: [0.0.6] Old Version: [0.0.5]
+[2024-04-05 05:27:32] INFO root fetch - processPackages [integ-db]: Downloading https://files.pythonhosted.org/packages/68/47/a7ed8a3f596e226b1f6cb5125a0898aa3c1e4fd76b4fb2bc307456f81f79/integ-db-0.0.5.tar.gz
+[2024-04-05 05:27:32] INFO root fetch - processPackages [immunopipe]: New version: [1.3.4] Old Version: [1.3.3]
+[2024-04-05 05:27:32] INFO root fetch - processPackages [kobo]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-04-05 05:27:32] INFO root fetch - processPackages [aws-service-screener]: New version: [2.0.2a3] Old Version: [2.0.2a2]
+[2024-04-05 05:27:32] INFO root fetch - processPackages [konfuzio-sdk]: New version: [0.2.9.dev20230104175944] Old Version: [0.2.9.dev20221227125623]
+[2024-04-05 05:27:32] WARNING root fetch - processPackages [integ-db]: Timeout reached during download
+[2024-04-05 05:27:32] INFO root fetch - processPackages [immunopipe]: Downloading https://files.pythonhosted.org/packages/46/d2/38a94beb2bcb6af29d3d60afd8a7579333f76c07a498a1338831447f63e5/immunopipe-1.3.3.tar.gz
+[2024-04-05 05:27:32] INFO root fetch - processPackages [aws-service-screener]: Downloading https://files.pythonhosted.org/packages/d7/90/2426c44a3ffe2ac30e9d327d81686c188bc64c34f622171736e77773eb63/aws_service_screener-2.0.2a2.tar.gz
+[2024-04-05 05:27:32] INFO root fetch - processPackages [kobo]: Downloading https://files.pythonhosted.org/packages/0c/bf/d6419dcd8b332e85c1a7569f1ee47145970ef52a9df36f2c689b311eaad3/kobo-0.8.0.tar.bz2
+[2024-04-05 05:27:32] INFO root fetch - processPackages [konfuzio-sdk]: Downloading https://files.pythonhosted.org/packages/ac/dc/9465335e6231c486f3c6bdbe6b292085b01976718bb1af6f33d8d890281a/konfuzio_sdk-0.2.9.dev20221227125623.tar.gz
+[2024-04-05 05:27:32] INFO root fetch - processPackages [integ-db]: Downloading https://files.pythonhosted.org/packages/c8/51/83711ca5e6d0ab8c4dbec0566959c0d314839d63d92851b343e6658be81a/integ-db-0.0.6.tar.gz
+[2024-04-05 05:27:32] WARNING root fetch - processPackages [immunopipe]: Timeout reached during download
+[2024-04-05 05:27:32] WARNING root fetch - processPackages [kobo]: Timeout reached during download
+[2024-04-05 05:27:32] WARNING root fetch - processPackages [integ-db]: Timeout reached during download
+[2024-04-05 05:27:32] INFO root fetch - processPackages [integ-db]: executing diffoscope
+[2024-04-05 05:27:32] INFO root fetch - processPackages [integ-db]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/integ-db-0.0.5.tar.gz tmp/integ-db-0.0.6.tar.gz --markdown 20240405/i/integ-db/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2024-04-05 05:27:32] WARNING root fetch - processPackages [konfuzio-sdk]: Timeout reached during download
+[2024-04-05 05:27:32] WARNING root fetch - processPackages [aws-service-screener]: Timeout reached during download
+[2024-04-05 05:27:32] INFO root fetch - processPackages [immunopipe]: Downloading https://files.pythonhosted.org/packages/94/4f/c2bd69e71c44bc39b6b61e3f75e85401b4c469e348430e803d736b386f93/immunopipe-1.3.4.tar.gz
+[2024-04-05 05:27:32] INFO root fetch - processPackages [kobo]: Downloading https://files.pythonhosted.org/packages/98/25/a93b2a29472229f924b3f8f32aca09f6b7545156c490bb0c8d801c261f14/kobo-0.9.0.tar.gz
+[2024-04-05 05:27:32] INFO root fetch - processPackages [konfuzio-sdk]: Downloading https://files.pythonhosted.org/packages/4a/3b/875a5d1cf74ec597eceaf7095d68ea13e58abb9f095fff321dc0709029f0/konfuzio_sdk-0.2.9.dev20230104175944.tar.gz
+[2024-04-05 05:27:32] INFO root fetch - processPackages [aws-service-screener]: Downloading https://files.pythonhosted.org/packages/62/68/973f1eaca3d31c3dab2b1d317cbf19aa4cbf0bce65455864924acc542f5d/aws_service_screener-2.0.2a3.tar.gz
+[2024-04-05 05:27:33] WARNING root fetch - processPackages [kobo]: Timeout reached during download
+[2024-04-05 05:27:33] INFO root fetch - processPackages [kobo]: executing diffoscope
+[2024-04-05 05:27:33] INFO root fetch - processPackages [kobo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kobo-0.8.0.tar.bz2 tmp/kobo-0.9.0.tar.gz --markdown 20240405/k/kobo/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2024-04-05 05:27:33] WARNING root fetch - processPackages [immunopipe]: Timeout reached during download
+[2024-04-05 05:27:33] INFO root fetch - processPackages [immunopipe]: executing diffoscope
+[2024-04-05 05:27:33] INFO root fetch - processPackages [immunopipe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/immunopipe-1.3.3.tar.gz tmp/immunopipe-1.3.4.tar.gz --markdown 20240405/i/immunopipe/1.3.3-1.3.4/diff.md --exclude *.pyd
+[2024-04-05 05:27:33] WARNING root fetch - processPackages [konfuzio-sdk]: Timeout reached during download
+[2024-04-05 05:27:33] INFO root fetch - processPackages [konfuzio-sdk]: executing diffoscope
+[2024-04-05 05:27:33] INFO root fetch - processPackages [konfuzio-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/konfuzio_sdk-0.2.9.dev20221227125623.tar.gz tmp/konfuzio_sdk-0.2.9.dev20230104175944.tar.gz --markdown 20240405/k/konfuzio-sdk/0.2.9.dev20221227125623-0.2.9.dev20230104175944/diff.md --exclude *.pyd
+[2024-04-05 05:27:33] INFO root fetch - processPackages [integ-db]: Remove: archive file [/home/abi/fetcher/tmp/integ-db-0.0.5.tar.gz]
+[2024-04-05 05:27:33] INFO root fetch - processPackages [integ-db]: Remove: archive file [/home/abi/fetcher/tmp/integ-db-0.0.6.tar.gz]
+[2024-04-05 05:27:33] INFO root fetch - main [MainThread]: End processing [integ-db]: success
+[2024-04-05 05:27:33] WARNING root fetch - processPackages [aws-service-screener]: Timeout reached during download
+[2024-04-05 05:27:33] INFO root fetch - processPackages [aws-service-screener]: executing diffoscope
+[2024-04-05 05:27:33] INFO root fetch - processPackages [aws-service-screener]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws_service_screener-2.0.2a2.tar.gz tmp/aws_service_screener-2.0.2a3.tar.gz --markdown 20240405/a/aws-service-screener/2.0.2a2-2.0.2a3/diff.md --exclude *.pyd
+[2024-04-05 05:27:33] INFO root fetch - processPackages [konfuzio-sdk]: Remove: archive file [/home/abi/fetcher/tmp/konfuzio_sdk-0.2.9.dev20221227125623.tar.gz]
+[2024-04-05 05:27:33] INFO root fetch - processPackages [konfuzio-sdk]: Remove: archive file [/home/abi/fetcher/tmp/konfuzio_sdk-0.2.9.dev20230104175944.tar.gz]
+[2024-04-05 05:27:33] INFO root fetch - main [MainThread]: End processing [konfuzio-sdk]: success
+[2024-04-05 05:27:34] INFO root fetch - processPackages [immunopipe]: Remove: archive file [/home/abi/fetcher/tmp/immunopipe-1.3.3.tar.gz]
+[2024-04-05 05:27:34] INFO root fetch - processPackages [immunopipe]: Remove: archive file [/home/abi/fetcher/tmp/immunopipe-1.3.4.tar.gz]
+[2024-04-05 05:27:34] INFO root fetch - main [MainThread]: End processing [immunopipe]: success
+[2024-04-05 05:27:34] INFO root fetch - processPackages [kobo]: Remove: archive file [/home/abi/fetcher/tmp/kobo-0.8.0.tar.bz2]
+[2024-04-05 05:27:34] INFO root fetch - processPackages [kobo]: Remove: archive file [/home/abi/fetcher/tmp/kobo-0.9.0.tar.gz]
+[2024-04-05 05:27:34] INFO root fetch - main [MainThread]: End processing [kobo]: success
+[2024-04-05 05:27:35] INFO root fetch - processPackages [aws-service-screener]: Remove: archive file [/home/abi/fetcher/tmp/aws_service_screener-2.0.2a2.tar.gz]
+[2024-04-05 05:27:35] INFO root fetch - processPackages [aws-service-screener]: Remove: archive file [/home/abi/fetcher/tmp/aws_service_screener-2.0.2a3.tar.gz]
+[2024-04-05 05:27:35] INFO root fetch - main [MainThread]: End processing [aws-service-screener]: success
+[2024-04-05 05:27:35] INFO root fetch - main [MainThread]: Store serial: [22631456]
