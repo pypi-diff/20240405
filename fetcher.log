@@ -12588,3 +12588,42 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2024-04-05 07:41:34] INFO root fetch - processPackages [s3-credentials]: Remove: archive file [/home/abi/fetcher/tmp/s3-credentials-0.9.tar.gz]
 [2024-04-05 07:41:34] INFO root fetch - main [MainThread]: End processing [s3-credentials]: success
 [2024-04-05 07:41:34] INFO root fetch - main [MainThread]: Store serial: [22632088]
+[2024-04-05 07:43:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22632088]
+[2024-04-05 07:43:43] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-05 07:43:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: jupyterlab-judge
+[2024-04-05 07:43:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: smllib
+[2024-04-05 07:43:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mov-cli-files
+[2024-04-05 07:43:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nrp-invenio-client
+[2024-04-05 07:43:43] INFO root fetch - processPackages [nrp-invenio-client]: New version: [0.2.0] Old Version: [0.1.0]
+[2024-04-05 07:43:43] WARNING root fetch - processPackages [mov-cli-files]: Skipping, unable to determine old version
+[2024-04-05 07:43:43] INFO root fetch - main [MainThread]: End processing [mov-cli-files] error
+[2024-04-05 07:43:43] INFO root fetch - processPackages [smllib]: New version: [1.4] Old Version: [1.3]
+[2024-04-05 07:43:43] INFO root fetch - processPackages [jupyterlab-judge]: New version: [1.24.1] Old Version: [1.23.0rc0]
+[2024-04-05 07:43:43] INFO root fetch - processPackages [smllib]: Downloading https://files.pythonhosted.org/packages/de/f2/7eb7af691608e108fda9202b8f5c7330d8b4b88e26cb149026e6633205b8/smllib-1.3.tar.gz
+[2024-04-05 07:43:43] INFO root fetch - processPackages [jupyterlab-judge]: Downloading https://files.pythonhosted.org/packages/6b/8b/00e73eca27474d21eb630a2ae3bb157495cb7e7adbdc9668ed7115397ec7/jupyterlab_judge-1.23.0rc0.tar.gz
+[2024-04-05 07:43:43] INFO root fetch - processPackages [nrp-invenio-client]: Downloading https://files.pythonhosted.org/packages/4f/72/d36e5e722394982f7ff4f65b0329516b513b27421f62abe0704d9201739e/nrp-invenio-client-0.1.0.tar.gz
+[2024-04-05 07:43:43] WARNING root fetch - processPackages [smllib]: Timeout reached during download
+[2024-04-05 07:43:43] WARNING root fetch - processPackages [nrp-invenio-client]: Timeout reached during download
+[2024-04-05 07:43:43] WARNING root fetch - processPackages [jupyterlab-judge]: Timeout reached during download
+[2024-04-05 07:43:43] INFO root fetch - processPackages [smllib]: Downloading https://files.pythonhosted.org/packages/da/29/862991f849c8a9e5a149f4d1ed8a85e9a1414e8d943f119eed7930f69afe/smllib-1.4.tar.gz
+[2024-04-05 07:43:43] INFO root fetch - processPackages [nrp-invenio-client]: Downloading https://files.pythonhosted.org/packages/b8/7f/1a2f126bdeeddcc6f29e8762e813cee0ddeb6107e20def1e5c2be1def6f3/nrp-invenio-client-0.2.0.tar.gz
+[2024-04-05 07:43:43] WARNING root fetch - processPackages [smllib]: Timeout reached during download
+[2024-04-05 07:43:43] INFO root fetch - processPackages [smllib]: executing diffoscope
+[2024-04-05 07:43:43] INFO root fetch - processPackages [smllib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smllib-1.3.tar.gz tmp/smllib-1.4.tar.gz --markdown 20240405/s/smllib/1.3-1.4/diff.md --exclude *.pyd
+[2024-04-05 07:43:43] WARNING root fetch - processPackages [nrp-invenio-client]: Timeout reached during download
+[2024-04-05 07:43:43] INFO root fetch - processPackages [nrp-invenio-client]: executing diffoscope
+[2024-04-05 07:43:43] INFO root fetch - processPackages [nrp-invenio-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nrp-invenio-client-0.1.0.tar.gz tmp/nrp-invenio-client-0.2.0.tar.gz --markdown 20240405/n/nrp-invenio-client/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2024-04-05 07:43:43] INFO root fetch - processPackages [jupyterlab-judge]: Downloading https://files.pythonhosted.org/packages/9e/30/8669a166720d1823a96dd41677e32d907d61e00570724c157d9b82cbc45a/jupyterlab_judge-1.24.1.tar.gz
+[2024-04-05 07:43:44] WARNING root fetch - processPackages [jupyterlab-judge]: Timeout reached during download
+[2024-04-05 07:43:44] INFO root fetch - processPackages [jupyterlab-judge]: executing diffoscope
+[2024-04-05 07:43:44] INFO root fetch - processPackages [jupyterlab-judge]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jupyterlab_judge-1.23.0rc0.tar.gz tmp/jupyterlab_judge-1.24.1.tar.gz --markdown 20240405/j/jupyterlab-judge/1.23.0rc0-1.24.1/diff.md --exclude *.pyd
+[2024-04-05 07:43:44] INFO root fetch - processPackages [nrp-invenio-client]: Remove: archive file [/home/abi/fetcher/tmp/nrp-invenio-client-0.1.0.tar.gz]
+[2024-04-05 07:43:44] INFO root fetch - processPackages [nrp-invenio-client]: Remove: archive file [/home/abi/fetcher/tmp/nrp-invenio-client-0.2.0.tar.gz]
+[2024-04-05 07:43:44] INFO root fetch - main [MainThread]: End processing [nrp-invenio-client]: success
+[2024-04-05 07:43:44] INFO root fetch - processPackages [smllib]: Remove: archive file [/home/abi/fetcher/tmp/smllib-1.3.tar.gz]
+[2024-04-05 07:43:44] INFO root fetch - processPackages [smllib]: Remove: archive file [/home/abi/fetcher/tmp/smllib-1.4.tar.gz]
+[2024-04-05 07:43:44] INFO root fetch - main [MainThread]: End processing [smllib]: success
+[2024-04-05 07:43:45] INFO root fetch - processPackages [jupyterlab-judge]: Remove: archive file [/home/abi/fetcher/tmp/jupyterlab_judge-1.23.0rc0.tar.gz]
+[2024-04-05 07:43:45] INFO root fetch - processPackages [jupyterlab-judge]: Remove: archive file [/home/abi/fetcher/tmp/jupyterlab_judge-1.24.1.tar.gz]
+[2024-04-05 07:43:45] INFO root fetch - main [MainThread]: End processing [jupyterlab-judge]: success
+[2024-04-05 07:43:45] INFO root fetch - main [MainThread]: Store serial: [22632113]
