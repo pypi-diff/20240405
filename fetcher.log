@@ -12831,3 +12831,38 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2024-04-05 07:56:51] INFO root fetch - processPackages [ansar-connect]: Remove: archive file [/home/abi/fetcher/tmp/ansar-connect-0.1.99.tar.gz]
 [2024-04-05 07:56:51] INFO root fetch - main [MainThread]: End processing [ansar-connect]: success
 [2024-04-05 07:56:51] INFO root fetch - main [MainThread]: Store serial: [22632234]
+[2024-04-05 07:58:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22632234]
+[2024-04-05 07:58:59] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-05 07:58:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ovito
+[2024-04-05 07:58:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addon-project-timeline
+[2024-04-05 07:58:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ai-model-worker
+[2024-04-05 07:58:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: fsdiffnet
+[2024-04-05 07:58:59] INFO root fetch - processPackages [fsdiffnet]: New version: [0.12] Old Version: [0.11]
+[2024-04-05 07:58:59] INFO root fetch - processPackages [ai-model-worker]: New version: [0.0.1.dev6] Old Version: [0.0.1.dev5]
+[2024-04-05 07:58:59] INFO root fetch - processPackages [odoo-addon-project-timeline]: New version: [16.0.1.4.1.2] Old Version: [16.0.1.4.1.1]
+[2024-04-05 07:58:59] INFO root fetch - processPackages [ovito]: New version: [3.9.4] Old Version: [3.9.3]
+[2024-04-05 07:58:59] INFO root fetch - processPackages [ovito]: Downloading https://files.pythonhosted.org/packages/e9/fc/ac67b3f2827f7c37fbd7a66cf9834f75f4167fc873583c1fa5db45237e8c/ovito-3.9.3-cp39-cp39-win_amd64.whl
+[2024-04-05 07:59:00] INFO root fetch - processPackages [ai-model-worker]: Downloading https://files.pythonhosted.org/packages/b5/24/5a74f8c1bce3dc71e5e0b0954c3a223679579bfc4a3c139ee933b6dfb79c/ai_model_worker-0.0.1.dev5.tar.gz
+[2024-04-05 07:59:00] INFO root fetch - processPackages [odoo-addon-project-timeline]: Downloading https://files.pythonhosted.org/packages/44/e4/782e7e191790dc30198c6ecfd243ad69149764ae04c9f2b5b925d5935aa2/odoo_addon_project_timeline-16.0.1.4.1.1-py3-none-any.whl
+[2024-04-05 07:59:00] INFO root fetch - processPackages [fsdiffnet]: Downloading https://files.pythonhosted.org/packages/de/31/4a65bb61af8abe121a77eea74d9a3734de274c8f0d824781378fc49c66cd/fsdiffnet-0.11.tar.gz
+[2024-04-05 07:59:00] WARNING root fetch - processPackages [fsdiffnet]: Skipping package: exceeds size limit 13167229>=10485760
+[2024-04-05 07:59:00] INFO root fetch - main [MainThread]: End processing [fsdiffnet] error
+[2024-04-05 07:59:00] WARNING root fetch - processPackages [ai-model-worker]: Timeout reached during download
+[2024-04-05 07:59:00] WARNING root fetch - processPackages [odoo-addon-project-timeline]: Timeout reached during download
+[2024-04-05 07:59:00] INFO root fetch - processPackages [ai-model-worker]: Downloading https://files.pythonhosted.org/packages/ad/9e/d55013ae1744e4ab1ba25b9786feee4c5da7f607017c7de21e970de30a10/ai_model_worker-0.0.1.dev6.tar.gz
+[2024-04-05 07:59:00] INFO root fetch - processPackages [odoo-addon-project-timeline]: Downloading https://files.pythonhosted.org/packages/aa/c1/79da342533ee1d485b83f2600daf44df700a0cc3798ecd27b204004e4022/odoo_addon_project_timeline-16.0.1.4.1.2-py3-none-any.whl
+[2024-04-05 07:59:00] WARNING root fetch - processPackages [ai-model-worker]: Timeout reached during download
+[2024-04-05 07:59:00] INFO root fetch - processPackages [ai-model-worker]: executing diffoscope
+[2024-04-05 07:59:00] INFO root fetch - processPackages [ai-model-worker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ai_model_worker-0.0.1.dev5.tar.gz tmp/ai_model_worker-0.0.1.dev6.tar.gz --markdown 20240405/a/ai-model-worker/0.0.1.dev5-0.0.1.dev6/diff.md --exclude *.pyd
+[2024-04-05 07:59:00] WARNING root fetch - processPackages [odoo-addon-project-timeline]: Timeout reached during download
+[2024-04-05 07:59:00] INFO root fetch - processPackages [odoo-addon-project-timeline]: executing diffoscope
+[2024-04-05 07:59:00] INFO root fetch - processPackages [odoo-addon-project-timeline]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_project_timeline-16.0.1.4.1.1-py3-none-any.whl.zip tmp/odoo_addon_project_timeline-16.0.1.4.1.2-py3-none-any.whl.zip --markdown 20240405/o/odoo-addon-project-timeline/16.0.1.4.1.1-16.0.1.4.1.2/diff.md --exclude *.pyd
+[2024-04-05 07:59:00] WARNING root fetch - processPackages [ovito]: Skipping package: exceeds size limit 74307634>=10485760
+[2024-04-05 07:59:00] INFO root fetch - main [MainThread]: End processing [ovito] error
+[2024-04-05 07:59:01] INFO root fetch - processPackages [ai-model-worker]: Remove: archive file [/home/abi/fetcher/tmp/ai_model_worker-0.0.1.dev5.tar.gz]
+[2024-04-05 07:59:01] INFO root fetch - processPackages [ai-model-worker]: Remove: archive file [/home/abi/fetcher/tmp/ai_model_worker-0.0.1.dev6.tar.gz]
+[2024-04-05 07:59:01] INFO root fetch - main [MainThread]: End processing [ai-model-worker]: success
+[2024-04-05 07:59:01] INFO root fetch - processPackages [odoo-addon-project-timeline]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_project_timeline-16.0.1.4.1.1-py3-none-any.whl.zip]
+[2024-04-05 07:59:01] INFO root fetch - processPackages [odoo-addon-project-timeline]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_project_timeline-16.0.1.4.1.2-py3-none-any.whl.zip]
+[2024-04-05 07:59:01] INFO root fetch - main [MainThread]: End processing [odoo-addon-project-timeline]: success
+[2024-04-05 07:59:01] INFO root fetch - main [MainThread]: Store serial: [22632248]
