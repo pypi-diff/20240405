@@ -20536,3 +20536,83 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2024-04-05 13:14:45] INFO root fetch - processPackages [nucliadb]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb-2.9.0.post267-py3-none-any.whl.zip]
 [2024-04-05 13:14:45] INFO root fetch - main [MainThread]: End processing [nucliadb]: success
 [2024-04-05 13:14:45] INFO root fetch - main [MainThread]: Store serial: [22635111]
+[2024-04-05 13:16:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22635111]
+[2024-04-05 13:16:54] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-05 13:16:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nucliadb-sdk
+[2024-04-05 13:16:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nucliadb-telemetry
+[2024-04-05 13:16:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nucliadb-utils
+[2024-04-05 13:16:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nvfuser-cu121
+[2024-04-05 13:16:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: aws-session-handler
+[2024-04-05 13:16:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nvfuser-cu118
+[2024-04-05 13:16:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: kafka-broker
+[2024-04-05 13:16:54] INFO root fetch - processPackages [nucliadb-sdk]: New version: [2.9.0.post267] Old Version: [2.9.0.post266]
+[2024-04-05 13:16:54] INFO root fetch - processPackages [kafka-broker]: New version: [0.3.3] Old Version: [0.3.2]
+[2024-04-05 13:16:54] INFO root fetch - processPackages [nvfuser-cu121]: New version: [0.2.0.dev20240404] Old Version: [0.2.0.dev20240403]
+[2024-04-05 13:16:54] INFO root fetch - processPackages [nucliadb-telemetry]: New version: [2.46.1.post400] Old Version: [2.46.1.post399]
+[2024-04-05 13:16:54] INFO root fetch - processPackages [nvfuser-cu118]: New version: [0.2.0.dev20240404] Old Version: [0.2.0.dev20240403]
+[2024-04-05 13:16:54] INFO root fetch - processPackages [aws-session-handler]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-04-05 13:16:54] INFO root fetch - processPackages [nucliadb-sdk]: Downloading https://files.pythonhosted.org/packages/a1/64/be41afa3acf3d90a5d9575ac0e1c151ff6e91fb473f9724dac60fea85414/nucliadb_sdk-2.9.0.post266-py3-none-any.whl
+[2024-04-05 13:16:54] INFO root fetch - processPackages [kafka-broker]: Downloading https://files.pythonhosted.org/packages/bf/32/1788be85a63769646bfb3e5e94107b426ec3c39cb7bdae0750bc37073596/kafka-broker-0.3.2.tar.gz
+[2024-04-05 13:16:54] INFO root fetch - processPackages [nucliadb-utils]: New version: [2.9.0.post267] Old Version: [2.9.0.post266]
+[2024-04-05 13:16:54] INFO root fetch - processPackages [nucliadb-telemetry]: Downloading https://files.pythonhosted.org/packages/0e/a2/19908015eb0226f795e4699a96c71fdadec91f3194aeeb77818f8fc5916b/nucliadb_telemetry-2.46.1.post399-py3-none-any.whl
+[2024-04-05 13:16:54] INFO root fetch - processPackages [nvfuser-cu121]: Downloading https://files.pythonhosted.org/packages/c5/e3/06acabd749f2bcd0cb03175f170a583c4414d92fa62be7456ffbce3cd8bb/nvfuser_cu121-0.2.0.dev20240403.tar.gz
+[2024-04-05 13:16:55] WARNING root fetch - processPackages [kafka-broker]: Timeout reached during download
+[2024-04-05 13:16:55] WARNING root fetch - processPackages [nucliadb-sdk]: Timeout reached during download
+[2024-04-05 13:16:55] WARNING root fetch - processPackages [nucliadb-telemetry]: Timeout reached during download
+[2024-04-05 13:16:55] INFO root fetch - processPackages [aws-session-handler]: Downloading https://files.pythonhosted.org/packages/c3/ad/9c1b0f8c3dbf93102c53418ef93869b8a7ce3705d1a1d1b4ae35f88c04f9/aws_session_handler-0.0.3.tar.gz
+[2024-04-05 13:16:55] INFO root fetch - processPackages [nvfuser-cu118]: Downloading https://files.pythonhosted.org/packages/3b/c0/5b2c942faef877e35ed7dba6895aaa4554481c803ee04156bef37c2f2d02/nvfuser_cu118-0.2.0.dev20240403.tar.gz
+[2024-04-05 13:16:55] INFO root fetch - processPackages [nucliadb-utils]: Downloading https://files.pythonhosted.org/packages/9c/a6/d6dd21ed1948bdcc0b560698e72d117f3fdad522e2ac0894dd980e184631/nucliadb_utils-2.9.0.post266-py3-none-any.whl
+[2024-04-05 13:16:55] INFO root fetch - processPackages [nucliadb-sdk]: Downloading https://files.pythonhosted.org/packages/35/7b/660db604a69a01811bfa1b2ce906d520705e186b4f8a91c3972cb4446303/nucliadb_sdk-2.9.0.post267-py3-none-any.whl
+[2024-04-05 13:16:55] WARNING root fetch - processPackages [nvfuser-cu121]: Timeout reached during download
+[2024-04-05 13:16:55] WARNING root fetch - processPackages [aws-session-handler]: Timeout reached during download
+[2024-04-05 13:16:55] INFO root fetch - processPackages [kafka-broker]: Downloading https://files.pythonhosted.org/packages/30/37/dfc77af2d576c50a02f541536f24e5e53d161b4ad7b2d6248a65e2c69ef1/kafka-broker-0.3.3.tar.gz
+[2024-04-05 13:16:55] WARNING root fetch - processPackages [nvfuser-cu118]: Timeout reached during download
+[2024-04-05 13:16:55] INFO root fetch - processPackages [nucliadb-telemetry]: Downloading https://files.pythonhosted.org/packages/84/b4/7afee0bbf441bdb7d9d1913b7ebe926bd5c4c3b85e1856c81e64a76c1521/nucliadb_telemetry-2.46.1.post400-py3-none-any.whl
+[2024-04-05 13:16:55] WARNING root fetch - processPackages [nucliadb-sdk]: Timeout reached during download
+[2024-04-05 13:16:55] INFO root fetch - processPackages [nucliadb-sdk]: executing diffoscope
+[2024-04-05 13:16:55] INFO root fetch - processPackages [nucliadb-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_sdk-2.9.0.post266-py3-none-any.whl.zip tmp/nucliadb_sdk-2.9.0.post267-py3-none-any.whl.zip --markdown 20240405/n/nucliadb-sdk/2.9.0.post266-2.9.0.post267/diff.md --exclude *.pyd
+[2024-04-05 13:16:55] WARNING root fetch - processPackages [nucliadb-utils]: Timeout reached during download
+[2024-04-05 13:16:55] INFO root fetch - processPackages [nvfuser-cu121]: Downloading https://files.pythonhosted.org/packages/5b/f2/59ced48218dfc94ec561b2d52ce60528743dfd57955d9193d35cb2fe20dc/nvfuser_cu121-0.2.0.dev20240404.tar.gz
+[2024-04-05 13:16:55] WARNING root fetch - processPackages [kafka-broker]: Timeout reached during download
+[2024-04-05 13:16:55] INFO root fetch - processPackages [aws-session-handler]: Downloading https://files.pythonhosted.org/packages/89/b4/71e69b6ec6a979677ef072b8b8e820d00eff2c8da776a8620fbb7a65f65c/aws_session_handler-0.0.4.tar.gz
+[2024-04-05 13:16:55] INFO root fetch - processPackages [kafka-broker]: executing diffoscope
+[2024-04-05 13:16:55] INFO root fetch - processPackages [kafka-broker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kafka-broker-0.3.2.tar.gz tmp/kafka-broker-0.3.3.tar.gz --markdown 20240405/k/kafka-broker/0.3.2-0.3.3/diff.md --exclude *.pyd
+[2024-04-05 13:16:55] INFO root fetch - processPackages [nucliadb-utils]: Downloading https://files.pythonhosted.org/packages/a2/ce/8ce8a66a2ef214d8ae9f81cb70eb5d8d5396c8bd94794cf92d145fdccd31/nucliadb_utils-2.9.0.post267-py3-none-any.whl
+[2024-04-05 13:16:55] INFO root fetch - processPackages [nvfuser-cu118]: Downloading https://files.pythonhosted.org/packages/a7/c3/fa38005f2e51278d11f967d722c025a1eef6ad2780d2b4fdfe17665f2396/nvfuser_cu118-0.2.0.dev20240404.tar.gz
+[2024-04-05 13:16:55] WARNING root fetch - processPackages [aws-session-handler]: Timeout reached during download
+[2024-04-05 13:16:55] INFO root fetch - processPackages [aws-session-handler]: executing diffoscope
+[2024-04-05 13:16:55] INFO root fetch - processPackages [aws-session-handler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws_session_handler-0.0.3.tar.gz tmp/aws_session_handler-0.0.4.tar.gz --markdown 20240405/a/aws-session-handler/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2024-04-05 13:16:55] WARNING root fetch - processPackages [nucliadb-telemetry]: Timeout reached during download
+[2024-04-05 13:16:55] INFO root fetch - processPackages [nucliadb-telemetry]: executing diffoscope
+[2024-04-05 13:16:55] INFO root fetch - processPackages [nucliadb-telemetry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_telemetry-2.46.1.post399-py3-none-any.whl.zip tmp/nucliadb_telemetry-2.46.1.post400-py3-none-any.whl.zip --markdown 20240405/n/nucliadb-telemetry/2.46.1.post399-2.46.1.post400/diff.md --exclude *.pyd
+[2024-04-05 13:16:55] WARNING root fetch - processPackages [nvfuser-cu121]: Timeout reached during download
+[2024-04-05 13:16:55] INFO root fetch - processPackages [nvfuser-cu121]: executing diffoscope
+[2024-04-05 13:16:55] INFO root fetch - processPackages [nvfuser-cu121]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nvfuser_cu121-0.2.0.dev20240403.tar.gz tmp/nvfuser_cu121-0.2.0.dev20240404.tar.gz --markdown 20240405/n/nvfuser-cu121/0.2.0.dev20240403-0.2.0.dev20240404/diff.md --exclude *.pyd
+[2024-04-05 13:16:55] WARNING root fetch - processPackages [nvfuser-cu118]: Timeout reached during download
+[2024-04-05 13:16:55] WARNING root fetch - processPackages [nucliadb-utils]: Timeout reached during download
+[2024-04-05 13:16:55] INFO root fetch - processPackages [nvfuser-cu118]: executing diffoscope
+[2024-04-05 13:16:55] INFO root fetch - processPackages [nvfuser-cu118]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nvfuser_cu118-0.2.0.dev20240403.tar.gz tmp/nvfuser_cu118-0.2.0.dev20240404.tar.gz --markdown 20240405/n/nvfuser-cu118/0.2.0.dev20240403-0.2.0.dev20240404/diff.md --exclude *.pyd
+[2024-04-05 13:16:55] INFO root fetch - processPackages [nucliadb-utils]: executing diffoscope
+[2024-04-05 13:16:55] INFO root fetch - processPackages [nucliadb-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_utils-2.9.0.post266-py3-none-any.whl.zip tmp/nucliadb_utils-2.9.0.post267-py3-none-any.whl.zip --markdown 20240405/n/nucliadb-utils/2.9.0.post266-2.9.0.post267/diff.md --exclude *.pyd
+[2024-04-05 13:16:56] INFO root fetch - processPackages [kafka-broker]: Remove: archive file [/home/abi/fetcher/tmp/kafka-broker-0.3.2.tar.gz]
+[2024-04-05 13:16:56] INFO root fetch - processPackages [kafka-broker]: Remove: archive file [/home/abi/fetcher/tmp/kafka-broker-0.3.3.tar.gz]
+[2024-04-05 13:16:56] INFO root fetch - main [MainThread]: End processing [kafka-broker]: success
+[2024-04-05 13:16:56] INFO root fetch - processPackages [nucliadb-sdk]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_sdk-2.9.0.post266-py3-none-any.whl.zip]
+[2024-04-05 13:16:56] INFO root fetch - processPackages [nucliadb-sdk]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_sdk-2.9.0.post267-py3-none-any.whl.zip]
+[2024-04-05 13:16:56] INFO root fetch - main [MainThread]: End processing [nucliadb-sdk]: success
+[2024-04-05 13:16:56] INFO root fetch - processPackages [aws-session-handler]: Remove: archive file [/home/abi/fetcher/tmp/aws_session_handler-0.0.3.tar.gz]
+[2024-04-05 13:16:56] INFO root fetch - processPackages [aws-session-handler]: Remove: archive file [/home/abi/fetcher/tmp/aws_session_handler-0.0.4.tar.gz]
+[2024-04-05 13:16:56] INFO root fetch - main [MainThread]: End processing [aws-session-handler]: success
+[2024-04-05 13:16:56] INFO root fetch - processPackages [nvfuser-cu121]: Remove: archive file [/home/abi/fetcher/tmp/nvfuser_cu121-0.2.0.dev20240403.tar.gz]
+[2024-04-05 13:16:56] INFO root fetch - processPackages [nvfuser-cu121]: Remove: archive file [/home/abi/fetcher/tmp/nvfuser_cu121-0.2.0.dev20240404.tar.gz]
+[2024-04-05 13:16:56] INFO root fetch - main [MainThread]: End processing [nvfuser-cu121]: success
+[2024-04-05 13:16:56] INFO root fetch - processPackages [nvfuser-cu118]: Remove: archive file [/home/abi/fetcher/tmp/nvfuser_cu118-0.2.0.dev20240403.tar.gz]
+[2024-04-05 13:16:56] INFO root fetch - processPackages [nvfuser-cu118]: Remove: archive file [/home/abi/fetcher/tmp/nvfuser_cu118-0.2.0.dev20240404.tar.gz]
+[2024-04-05 13:16:56] INFO root fetch - main [MainThread]: End processing [nvfuser-cu118]: success
+[2024-04-05 13:16:56] INFO root fetch - processPackages [nucliadb-telemetry]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_telemetry-2.46.1.post399-py3-none-any.whl.zip]
+[2024-04-05 13:16:56] INFO root fetch - processPackages [nucliadb-telemetry]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_telemetry-2.46.1.post400-py3-none-any.whl.zip]
+[2024-04-05 13:16:56] INFO root fetch - main [MainThread]: End processing [nucliadb-telemetry]: success
+[2024-04-05 13:16:56] INFO root fetch - processPackages [nucliadb-utils]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_utils-2.9.0.post266-py3-none-any.whl.zip]
+[2024-04-05 13:16:56] INFO root fetch - processPackages [nucliadb-utils]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_utils-2.9.0.post267-py3-none-any.whl.zip]
+[2024-04-05 13:16:56] INFO root fetch - main [MainThread]: End processing [nucliadb-utils]: success
+[2024-04-05 13:16:56] INFO root fetch - main [MainThread]: Store serial: [22635124]
