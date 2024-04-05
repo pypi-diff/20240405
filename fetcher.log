@@ -16158,3 +16158,83 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2024-04-05 10:24:38] INFO root fetch - processPackages [zohocrmsdk2-1]: Remove: archive file [/home/abi/fetcher/tmp/zohocrmsdk2_1-2.1.0.tar.gz]
 [2024-04-05 10:24:38] INFO root fetch - main [MainThread]: End processing [zohocrmsdk2-1]: success
 [2024-04-05 10:24:38] INFO root fetch - main [MainThread]: Store serial: [22633374]
+[2024-04-05 10:26:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22633374]
+[2024-04-05 10:26:49] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-05 10:26:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: item-matching
+[2024-04-05 10:26:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: streamlit-nivo-charts-custom
+[2024-04-05 10:26:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: capellambse
+[2024-04-05 10:26:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sirji-tools
+[2024-04-05 10:26:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pykitinfo
+[2024-04-05 10:26:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: auto-coder
+[2024-04-05 10:26:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: sirji-agents
+[2024-04-05 10:26:49] INFO root fetch - processPackages [item-matching]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-05 10:26:49] INFO root fetch - processPackages [capellambse]: New version: [0.5.9.dev5] Old Version: [0.5.9]
+[2024-04-05 10:26:49] INFO root fetch - processPackages [item-matching]: Downloading https://files.pythonhosted.org/packages/c1/eb/6af9341e91340108c6bd813fdbaf99df20b024ef720ba95fd98f5f9b1e67/item_matching-0.0.8.tar.gz
+[2024-04-05 10:26:49] INFO root fetch - processPackages [pykitinfo]: New version: [1.1.2.19] Old Version: [1.0.3.15]
+[2024-04-05 10:26:49] INFO root fetch - processPackages [sirji-tools]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-04-05 10:26:49] INFO root fetch - processPackages [streamlit-nivo-charts-custom]: New version: [0.0.8] Old Version: [0.0.7]
+[2024-04-05 10:26:49] INFO root fetch - processPackages [sirji-agents]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-04-05 10:26:49] INFO root fetch - processPackages [auto-coder]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-05 10:26:49] INFO root fetch - processPackages [capellambse]: Downloading https://files.pythonhosted.org/packages/0a/bb/e7974d92c6a3d93dbf30730a6d9302f37f52093b4985246d97e22939147d/capellambse-0.5.9.tar.gz
+[2024-04-05 10:26:49] WARNING root fetch - processPackages [item-matching]: Timeout reached during download
+[2024-04-05 10:26:49] INFO root fetch - processPackages [sirji-tools]: Downloading https://files.pythonhosted.org/packages/52/b0/035577cf44ef87a3a2139486e67d20535deedc44103eb341a8faec7841d2/sirji-tools-0.0.4.tar.gz
+[2024-04-05 10:26:49] INFO root fetch - processPackages [streamlit-nivo-charts-custom]: Downloading https://files.pythonhosted.org/packages/9b/84/1780ab7a20f2ca319c62b5c794948b3a16333b7c8f18eae022322b8f891b/streamlit-nivo-charts-custom-0.0.7.tar.gz
+[2024-04-05 10:26:49] INFO root fetch - processPackages [item-matching]: Downloading https://files.pythonhosted.org/packages/d6/27/06995957de9e3e2dc832d765e63268da03fc82c05f5e99df1fad645a8853/item_matching-0.0.9.tar.gz
+[2024-04-05 10:26:49] INFO root fetch - processPackages [pykitinfo]: Downloading https://files.pythonhosted.org/packages/87/f6/f81ee5ed20b1bc788f941df969aa001d8e7ae454c2e63ab4007900538f1f/pykitinfo-1.0.3.15-py3-none-any.whl
+[2024-04-05 10:26:49] INFO root fetch - processPackages [sirji-agents]: Downloading https://files.pythonhosted.org/packages/d7/97/62245b488b2a4718ddceb9443ee7a8b679cdd443fdb3f773a0cfbbb7fbb6/sirji-agents-0.0.4.tar.gz
+[2024-04-05 10:26:49] INFO root fetch - processPackages [auto-coder]: Downloading https://files.pythonhosted.org/packages/d1/69/520c5552e42e8901e930364867dc863b8beb917b52544194a46c864a7385/auto-coder-0.1.8.tar.gz
+[2024-04-05 10:26:49] WARNING root fetch - processPackages [sirji-tools]: Timeout reached during download
+[2024-04-05 10:26:49] WARNING root fetch - processPackages [item-matching]: Timeout reached during download
+[2024-04-05 10:26:49] INFO root fetch - processPackages [item-matching]: executing diffoscope
+[2024-04-05 10:26:49] INFO root fetch - processPackages [item-matching]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/item_matching-0.0.8.tar.gz tmp/item_matching-0.0.9.tar.gz --markdown 20240405/i/item-matching/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2024-04-05 10:26:49] WARNING root fetch - processPackages [pykitinfo]: Timeout reached during download
+[2024-04-05 10:26:49] WARNING root fetch - processPackages [sirji-agents]: Timeout reached during download
+[2024-04-05 10:26:50] WARNING root fetch - processPackages [auto-coder]: Timeout reached during download
+[2024-04-05 10:26:50] WARNING root fetch - processPackages [streamlit-nivo-charts-custom]: Timeout reached during download
+[2024-04-05 10:26:50] INFO root fetch - processPackages [sirji-tools]: Downloading https://files.pythonhosted.org/packages/d4/53/dc298ef349dad0262d60b8d63157613c4e453d4a3dca03ab9ec364b48836/sirji-tools-0.0.5.tar.gz
+[2024-04-05 10:26:50] INFO root fetch - processPackages [pykitinfo]: Downloading https://files.pythonhosted.org/packages/e4/f3/c6b08de019ee66efb9061d7e68052544f773c36371bd2a3f22030ad5d8e9/pykitinfo-1.1.2.19-py3-none-any.whl
+[2024-04-05 10:26:50] WARNING root fetch - processPackages [capellambse]: Timeout reached during download
+[2024-04-05 10:26:50] INFO root fetch - processPackages [sirji-agents]: Downloading https://files.pythonhosted.org/packages/a6/8a/9efdd87a65c62f4fe2fcbc68e0ba30c0e0984072d87eb4fdd2d6dbcc6dd8/sirji_agents-0.0.5-py3-none-any.whl
+[2024-04-05 10:26:50] INFO root fetch - processPackages [auto-coder]: Downloading https://files.pythonhosted.org/packages/4d/9a/1bad03fbe8fd6d47cd359f857b05e28efaa8cba07c33aa029696a40dd646/auto-coder-0.1.9.tar.gz
+[2024-04-05 10:26:50] WARNING root fetch - processPackages [sirji-tools]: Timeout reached during download
+[2024-04-05 10:26:50] INFO root fetch - processPackages [sirji-tools]: executing diffoscope
+[2024-04-05 10:26:50] INFO root fetch - processPackages [sirji-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sirji-tools-0.0.4.tar.gz tmp/sirji-tools-0.0.5.tar.gz --markdown 20240405/s/sirji-tools/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2024-04-05 10:26:50] INFO root fetch - processPackages [streamlit-nivo-charts-custom]: Downloading https://files.pythonhosted.org/packages/79/71/33830bb0657a300e5a30431719d5fbdf3210c9b55776f641c9332f702047/streamlit-nivo-charts-custom-0.0.8.tar.gz
+[2024-04-05 10:26:50] WARNING root fetch - processPackages [pykitinfo]: Timeout reached during download
+[2024-04-05 10:26:50] INFO root fetch - processPackages [pykitinfo]: executing diffoscope
+[2024-04-05 10:26:50] INFO root fetch - processPackages [pykitinfo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pykitinfo-1.0.3.15-py3-none-any.whl.zip tmp/pykitinfo-1.1.2.19-py3-none-any.whl.zip --markdown 20240405/p/pykitinfo/1.0.3.15-1.1.2.19/diff.md --exclude *.pyd
+[2024-04-05 10:26:50] INFO root fetch - processPackages [capellambse]: Downloading https://files.pythonhosted.org/packages/31/3c/3a68e2e4cc3165b37471f5302bc500647962d3db54edea8081d0ced76387/capellambse-0.5.9.dev5.tar.gz
+[2024-04-05 10:26:50] WARNING root fetch - processPackages [auto-coder]: Timeout reached during download
+[2024-04-05 10:26:50] INFO root fetch - processPackages [auto-coder]: executing diffoscope
+[2024-04-05 10:26:50] INFO root fetch - processPackages [auto-coder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/auto-coder-0.1.8.tar.gz tmp/auto-coder-0.1.9.tar.gz --markdown 20240405/a/auto-coder/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2024-04-05 10:26:50] WARNING root fetch - processPackages [streamlit-nivo-charts-custom]: Timeout reached during download
+[2024-04-05 10:26:50] INFO root fetch - processPackages [streamlit-nivo-charts-custom]: executing diffoscope
+[2024-04-05 10:26:50] INFO root fetch - processPackages [streamlit-nivo-charts-custom]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streamlit-nivo-charts-custom-0.0.7.tar.gz tmp/streamlit-nivo-charts-custom-0.0.8.tar.gz --markdown 20240405/s/streamlit-nivo-charts-custom/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2024-04-05 10:26:50] INFO root fetch - processPackages [item-matching]: Remove: archive file [/home/abi/fetcher/tmp/item_matching-0.0.8.tar.gz]
+[2024-04-05 10:26:50] INFO root fetch - processPackages [item-matching]: Remove: archive file [/home/abi/fetcher/tmp/item_matching-0.0.9.tar.gz]
+[2024-04-05 10:26:50] INFO root fetch - main [MainThread]: End processing [item-matching]: success
+[2024-04-05 10:26:50] WARNING root fetch - processPackages [capellambse]: Timeout reached during download
+[2024-04-05 10:26:50] WARNING root fetch - processPackages [sirji-agents]: Timeout reached during download
+[2024-04-05 10:26:50] INFO root fetch - processPackages [sirji-agents]: executing diffoscope
+[2024-04-05 10:26:50] INFO root fetch - processPackages [sirji-agents]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sirji-agents-0.0.4.tar.gz tmp/sirji_agents-0.0.5-py3-none-any.whl.zip --markdown 20240405/s/sirji-agents/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2024-04-05 10:26:50] INFO root fetch - processPackages [capellambse]: executing diffoscope
+[2024-04-05 10:26:50] INFO root fetch - processPackages [capellambse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/capellambse-0.5.9.tar.gz tmp/capellambse-0.5.9.dev5.tar.gz --markdown 20240405/c/capellambse/0.5.9-0.5.9.dev5/diff.md --exclude *.pyd
+[2024-04-05 10:26:51] INFO root fetch - processPackages [pykitinfo]: Remove: archive file [/home/abi/fetcher/tmp/pykitinfo-1.0.3.15-py3-none-any.whl.zip]
+[2024-04-05 10:26:51] INFO root fetch - processPackages [pykitinfo]: Remove: archive file [/home/abi/fetcher/tmp/pykitinfo-1.1.2.19-py3-none-any.whl.zip]
+[2024-04-05 10:26:51] INFO root fetch - main [MainThread]: End processing [pykitinfo]: success
+[2024-04-05 10:26:51] INFO root fetch - processPackages [sirji-tools]: Remove: archive file [/home/abi/fetcher/tmp/sirji-tools-0.0.4.tar.gz]
+[2024-04-05 10:26:51] INFO root fetch - processPackages [sirji-tools]: Remove: archive file [/home/abi/fetcher/tmp/sirji-tools-0.0.5.tar.gz]
+[2024-04-05 10:26:51] INFO root fetch - main [MainThread]: End processing [sirji-tools]: success
+[2024-04-05 10:26:51] INFO root fetch - processPackages [auto-coder]: Remove: archive file [/home/abi/fetcher/tmp/auto-coder-0.1.8.tar.gz]
+[2024-04-05 10:26:51] INFO root fetch - processPackages [auto-coder]: Remove: archive file [/home/abi/fetcher/tmp/auto-coder-0.1.9.tar.gz]
+[2024-04-05 10:26:51] INFO root fetch - main [MainThread]: End processing [auto-coder]: success
+[2024-04-05 10:26:51] INFO root fetch - processPackages [streamlit-nivo-charts-custom]: Remove: archive file [/home/abi/fetcher/tmp/streamlit-nivo-charts-custom-0.0.7.tar.gz]
+[2024-04-05 10:26:51] INFO root fetch - processPackages [streamlit-nivo-charts-custom]: Remove: archive file [/home/abi/fetcher/tmp/streamlit-nivo-charts-custom-0.0.8.tar.gz]
+[2024-04-05 10:26:51] INFO root fetch - main [MainThread]: End processing [streamlit-nivo-charts-custom]: success
+[2024-04-05 10:26:51] INFO root fetch - processPackages [sirji-agents]: Remove: archive file [/home/abi/fetcher/tmp/sirji-agents-0.0.4.tar.gz]
+[2024-04-05 10:26:51] INFO root fetch - processPackages [sirji-agents]: Remove: archive file [/home/abi/fetcher/tmp/sirji_agents-0.0.5-py3-none-any.whl.zip]
+[2024-04-05 10:26:51] INFO root fetch - main [MainThread]: End processing [sirji-agents]: success
+[2024-04-05 10:26:55] INFO root fetch - processPackages [capellambse]: Remove: archive file [/home/abi/fetcher/tmp/capellambse-0.5.9.tar.gz]
+[2024-04-05 10:26:55] INFO root fetch - processPackages [capellambse]: Remove: archive file [/home/abi/fetcher/tmp/capellambse-0.5.9.dev5.tar.gz]
+[2024-04-05 10:26:55] INFO root fetch - main [MainThread]: End processing [capellambse]: success
+[2024-04-05 10:26:55] INFO root fetch - main [MainThread]: Store serial: [22633392]
