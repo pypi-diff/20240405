@@ -16086,3 +16086,39 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2024-04-05 10:20:15] INFO root fetch - processPackages [aligo]: Remove: archive file [/home/abi/fetcher/tmp/aligo-6.2.2.tar.gz]
 [2024-04-05 10:20:15] INFO root fetch - main [MainThread]: End processing [aligo]: success
 [2024-04-05 10:20:15] INFO root fetch - main [MainThread]: Store serial: [22633357]
+[2024-04-05 10:22:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22633357]
+[2024-04-05 10:22:24] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-05 10:22:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: byzerllm
+[2024-04-05 10:22:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: uvx
+[2024-04-05 10:22:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: item-matching
+[2024-04-05 10:22:24] INFO root fetch - processPackages [item-matching]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-05 10:22:24] INFO root fetch - processPackages [item-matching]: Downloading https://files.pythonhosted.org/packages/c1/eb/6af9341e91340108c6bd813fdbaf99df20b024ef720ba95fd98f5f9b1e67/item_matching-0.0.8.tar.gz
+[2024-04-05 10:22:24] INFO root fetch - processPackages [uvx]: New version: [0.6.0] Old Version: [0.5.2]
+[2024-04-05 10:22:24] INFO root fetch - processPackages [byzerllm]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-05 10:22:24] WARNING root fetch - processPackages [item-matching]: Timeout reached during download
+[2024-04-05 10:22:24] INFO root fetch - processPackages [uvx]: Downloading https://files.pythonhosted.org/packages/c6/6d/878d006fa0c4fd90ed0726b6002e28e553c70cd13e044db4f2016451f273/uvx-0.5.2.tar.gz
+[2024-04-05 10:22:24] INFO root fetch - processPackages [item-matching]: Downloading https://files.pythonhosted.org/packages/d6/27/06995957de9e3e2dc832d765e63268da03fc82c05f5e99df1fad645a8853/item_matching-0.0.9.tar.gz
+[2024-04-05 10:22:24] INFO root fetch - processPackages [byzerllm]: Downloading https://files.pythonhosted.org/packages/98/c6/1563f4025ee67d92445c7867c7ca1ad9c523055b4708ddd5ab2dab480c51/byzerllm-0.1.8.tar.gz
+[2024-04-05 10:22:24] WARNING root fetch - processPackages [item-matching]: Timeout reached during download
+[2024-04-05 10:22:24] INFO root fetch - processPackages [item-matching]: executing diffoscope
+[2024-04-05 10:22:24] INFO root fetch - processPackages [item-matching]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/item_matching-0.0.8.tar.gz tmp/item_matching-0.0.9.tar.gz --markdown 20240405/i/item-matching/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2024-04-05 10:22:24] WARNING root fetch - processPackages [uvx]: Timeout reached during download
+[2024-04-05 10:22:24] INFO root fetch - processPackages [uvx]: Downloading https://files.pythonhosted.org/packages/9a/6e/2595516f59653516b7a817d77047fe90538c67a9cdd714f160641da64a1b/uvx-0.6.0.tar.gz
+[2024-04-05 10:22:25] WARNING root fetch - processPackages [uvx]: Timeout reached during download
+[2024-04-05 10:22:25] INFO root fetch - processPackages [uvx]: executing diffoscope
+[2024-04-05 10:22:25] INFO root fetch - processPackages [uvx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/uvx-0.5.2.tar.gz tmp/uvx-0.6.0.tar.gz --markdown 20240405/u/uvx/0.5.2-0.6.0/diff.md --exclude *.pyd
+[2024-04-05 10:22:25] WARNING root fetch - processPackages [byzerllm]: Timeout reached during download
+[2024-04-05 10:22:25] INFO root fetch - processPackages [item-matching]: Remove: archive file [/home/abi/fetcher/tmp/item_matching-0.0.8.tar.gz]
+[2024-04-05 10:22:25] INFO root fetch - processPackages [item-matching]: Remove: archive file [/home/abi/fetcher/tmp/item_matching-0.0.9.tar.gz]
+[2024-04-05 10:22:25] INFO root fetch - main [MainThread]: End processing [item-matching]: success
+[2024-04-05 10:22:25] INFO root fetch - processPackages [byzerllm]: Downloading https://files.pythonhosted.org/packages/a0/04/10289d36794dda29e2a889dcf2e412dcd39997cf2bc11d5af1bcc4670b3d/byzerllm-0.1.9.tar.gz
+[2024-04-05 10:22:25] INFO root fetch - processPackages [uvx]: Remove: archive file [/home/abi/fetcher/tmp/uvx-0.5.2.tar.gz]
+[2024-04-05 10:22:25] INFO root fetch - processPackages [uvx]: Remove: archive file [/home/abi/fetcher/tmp/uvx-0.6.0.tar.gz]
+[2024-04-05 10:22:25] INFO root fetch - main [MainThread]: End processing [uvx]: success
+[2024-04-05 10:22:25] WARNING root fetch - processPackages [byzerllm]: Timeout reached during download
+[2024-04-05 10:22:25] INFO root fetch - processPackages [byzerllm]: executing diffoscope
+[2024-04-05 10:22:25] INFO root fetch - processPackages [byzerllm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/byzerllm-0.1.8.tar.gz tmp/byzerllm-0.1.9.tar.gz --markdown 20240405/b/byzerllm/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2024-04-05 10:22:27] INFO root fetch - processPackages [byzerllm]: Remove: archive file [/home/abi/fetcher/tmp/byzerllm-0.1.8.tar.gz]
+[2024-04-05 10:22:27] INFO root fetch - processPackages [byzerllm]: Remove: archive file [/home/abi/fetcher/tmp/byzerllm-0.1.9.tar.gz]
+[2024-04-05 10:22:27] INFO root fetch - main [MainThread]: End processing [byzerllm]: success
+[2024-04-05 10:22:27] INFO root fetch - main [MainThread]: Store serial: [22633366]
