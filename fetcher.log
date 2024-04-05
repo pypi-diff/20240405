@@ -15051,3 +15051,17 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2024-04-05 09:37:43] INFO root fetch - processPackages [odoo-addon-l10n-th-account-tax-report]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_th_account_tax_report-16.0.1.2.0-py3-none-any.whl.zip]
 [2024-04-05 09:37:43] INFO root fetch - main [MainThread]: End processing [odoo-addon-l10n-th-account-tax-report]: success
 [2024-04-05 09:37:43] INFO root fetch - main [MainThread]: Store serial: [22632910]
+[2024-04-05 09:39:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22632910]
+[2024-04-05 09:39:52] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-04-05 09:39:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo-addon-account-payment-sale
+[2024-04-05 09:39:52] INFO root fetch - processPackages [odoo-addon-account-payment-sale]: New version: [17.0.1.0.0.5] Old Version: [17.0.1.0.0.4]
+[2024-04-05 09:39:52] INFO root fetch - processPackages [odoo-addon-account-payment-sale]: Downloading https://files.pythonhosted.org/packages/81/08/a7d312885977f581532b3e0d1d252f2b514e43e30e127449d9dddf841b23/odoo_addon_account_payment_sale-17.0.1.0.0.4-py3-none-any.whl
+[2024-04-05 09:39:52] WARNING root fetch - processPackages [odoo-addon-account-payment-sale]: Timeout reached during download
+[2024-04-05 09:39:52] INFO root fetch - processPackages [odoo-addon-account-payment-sale]: Downloading https://files.pythonhosted.org/packages/17/ec/e37f7e7f68fa89d084e53eb46e765df8b709b226629fc7db24efceeeaf5e/odoo_addon_account_payment_sale-17.0.1.0.0.5-py3-none-any.whl
+[2024-04-05 09:39:52] WARNING root fetch - processPackages [odoo-addon-account-payment-sale]: Timeout reached during download
+[2024-04-05 09:39:52] INFO root fetch - processPackages [odoo-addon-account-payment-sale]: executing diffoscope
+[2024-04-05 09:39:52] INFO root fetch - processPackages [odoo-addon-account-payment-sale]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_account_payment_sale-17.0.1.0.0.4-py3-none-any.whl.zip tmp/odoo_addon_account_payment_sale-17.0.1.0.0.5-py3-none-any.whl.zip --markdown 20240405/o/odoo-addon-account-payment-sale/17.0.1.0.0.4-17.0.1.0.0.5/diff.md --exclude *.pyd
+[2024-04-05 09:39:53] INFO root fetch - processPackages [odoo-addon-account-payment-sale]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_payment_sale-17.0.1.0.0.4-py3-none-any.whl.zip]
+[2024-04-05 09:39:53] INFO root fetch - processPackages [odoo-addon-account-payment-sale]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_payment_sale-17.0.1.0.0.5-py3-none-any.whl.zip]
+[2024-04-05 09:39:53] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-payment-sale]: success
+[2024-04-05 09:39:53] INFO root fetch - main [MainThread]: Store serial: [22632921]
