@@ -9497,3 +9497,52 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2024-04-05 04:26:18] INFO root fetch - processPackages [saphira]: Remove: archive file [/home/abi/fetcher/tmp/saphira-0.0.5.tar.gz]
 [2024-04-05 04:26:18] INFO root fetch - main [MainThread]: End processing [saphira]: success
 [2024-04-05 04:26:18] INFO root fetch - main [MainThread]: Store serial: [22631175]
+[2024-04-05 04:28:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22631175]
+[2024-04-05 04:28:27] INFO root fetch - main [MainThread]: No changed packages found
+[2024-04-05 04:30:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22631175]
+[2024-04-05 04:30:33] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-05 04:30:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lockhart-serial
+[2024-04-05 04:30:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mojo-config
+[2024-04-05 04:30:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: timelength
+[2024-04-05 04:30:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: yymake
+[2024-04-05 04:30:33] INFO root fetch - processPackages [mojo-config]: New version: [1.3.9] Old Version: [1.3.8]
+[2024-04-05 04:30:33] INFO root fetch - processPackages [mojo-config]: Downloading https://files.pythonhosted.org/packages/a4/cc/2ca4b4e6a03640f1f240e3e4a12356d8ad8fe7320294cac819d54a345cdb/mojo_config-1.3.8.tar.gz
+[2024-04-05 04:30:33] INFO root fetch - processPackages [lockhart-serial]: New version: [1.0.4] Old Version: [1.0.3]
+[2024-04-05 04:30:33] INFO root fetch - processPackages [timelength]: New version: [2.0.1] Old Version: [1.1.7]
+[2024-04-05 04:30:33] INFO root fetch - processPackages [yymake]: New version: [0.8.5] Old Version: [0.8.1]
+[2024-04-05 04:30:33] WARNING root fetch - processPackages [mojo-config]: Timeout reached during download
+[2024-04-05 04:30:33] INFO root fetch - processPackages [lockhart-serial]: Downloading https://files.pythonhosted.org/packages/b1/b1/bf07ce84cbafee4a69fee1854f3970297153e86bd0bd2558d5ccd2852fe0/lockhart_serial-1.0.3.tar.gz
+[2024-04-05 04:30:34] INFO root fetch - processPackages [mojo-config]: Downloading https://files.pythonhosted.org/packages/2d/77/59ae99bdaf8ff23d580a64c62212f3a16bb49ad2cd8d08d9dbab4c159829/mojo_config-1.3.9.tar.gz
+[2024-04-05 04:30:34] INFO root fetch - processPackages [timelength]: Downloading https://files.pythonhosted.org/packages/7e/07/0a4b3cce8880a686996e4c8479b86f09f3d482634b6cbe74d90c03883efc/timelength-1.1.7.tar.gz
+[2024-04-05 04:30:34] INFO root fetch - processPackages [yymake]: Downloading https://files.pythonhosted.org/packages/f5/3c/8984822856bc5865f1087018425b5f4be0f72ab2a09c73970acc2d933d00/yymake-0.8.1.tar.gz
+[2024-04-05 04:30:34] WARNING root fetch - processPackages [lockhart-serial]: Timeout reached during download
+[2024-04-05 04:30:34] WARNING root fetch - processPackages [mojo-config]: Timeout reached during download
+[2024-04-05 04:30:34] INFO root fetch - processPackages [mojo-config]: executing diffoscope
+[2024-04-05 04:30:34] INFO root fetch - processPackages [mojo-config]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mojo_config-1.3.8.tar.gz tmp/mojo_config-1.3.9.tar.gz --markdown 20240405/m/mojo-config/1.3.8-1.3.9/diff.md --exclude *.pyd
+[2024-04-05 04:30:34] WARNING root fetch - processPackages [timelength]: Timeout reached during download
+[2024-04-05 04:30:34] INFO root fetch - processPackages [lockhart-serial]: Downloading https://files.pythonhosted.org/packages/4a/78/40f776859857f99b3cbc2b1bf712a04ccfe39796804f4630341c28d3e28e/lockhart-serial-1.0.4.tar.gz
+[2024-04-05 04:30:34] WARNING root fetch - processPackages [yymake]: Timeout reached during download
+[2024-04-05 04:30:34] INFO root fetch - processPackages [timelength]: Downloading https://files.pythonhosted.org/packages/1b/a7/b891e2c83ab43a0c9bcd3544b2af816f8b064e5b19fc8e2a4442739c1903/timelength-2.0.1.tar.gz
+[2024-04-05 04:30:34] WARNING root fetch - processPackages [lockhart-serial]: Timeout reached during download
+[2024-04-05 04:30:34] INFO root fetch - processPackages [lockhart-serial]: executing diffoscope
+[2024-04-05 04:30:34] INFO root fetch - processPackages [lockhart-serial]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lockhart_serial-1.0.3.tar.gz tmp/lockhart-serial-1.0.4.tar.gz --markdown 20240405/l/lockhart-serial/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2024-04-05 04:30:34] INFO root fetch - processPackages [yymake]: Downloading https://files.pythonhosted.org/packages/11/b8/b5f6c49a174a4c6e32dcd1508fc36ffe646b6b7c1479ce5585ee9154d6bf/yymake-0.8.5.tar.gz
+[2024-04-05 04:30:34] WARNING root fetch - processPackages [timelength]: Timeout reached during download
+[2024-04-05 04:30:34] INFO root fetch - processPackages [timelength]: executing diffoscope
+[2024-04-05 04:30:34] INFO root fetch - processPackages [timelength]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/timelength-1.1.7.tar.gz tmp/timelength-2.0.1.tar.gz --markdown 20240405/t/timelength/1.1.7-2.0.1/diff.md --exclude *.pyd
+[2024-04-05 04:30:34] WARNING root fetch - processPackages [yymake]: Timeout reached during download
+[2024-04-05 04:30:34] INFO root fetch - processPackages [yymake]: executing diffoscope
+[2024-04-05 04:30:34] INFO root fetch - processPackages [yymake]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yymake-0.8.1.tar.gz tmp/yymake-0.8.5.tar.gz --markdown 20240405/y/yymake/0.8.1-0.8.5/diff.md --exclude *.pyd
+[2024-04-05 04:30:34] INFO root fetch - processPackages [mojo-config]: Remove: archive file [/home/abi/fetcher/tmp/mojo_config-1.3.8.tar.gz]
+[2024-04-05 04:30:34] INFO root fetch - processPackages [mojo-config]: Remove: archive file [/home/abi/fetcher/tmp/mojo_config-1.3.9.tar.gz]
+[2024-04-05 04:30:34] INFO root fetch - main [MainThread]: End processing [mojo-config]: success
+[2024-04-05 04:30:34] INFO root fetch - processPackages [lockhart-serial]: Remove: archive file [/home/abi/fetcher/tmp/lockhart_serial-1.0.3.tar.gz]
+[2024-04-05 04:30:34] INFO root fetch - processPackages [lockhart-serial]: Remove: archive file [/home/abi/fetcher/tmp/lockhart-serial-1.0.4.tar.gz]
+[2024-04-05 04:30:34] INFO root fetch - main [MainThread]: End processing [lockhart-serial]: success
+[2024-04-05 04:30:34] INFO root fetch - processPackages [timelength]: Remove: archive file [/home/abi/fetcher/tmp/timelength-1.1.7.tar.gz]
+[2024-04-05 04:30:34] INFO root fetch - processPackages [timelength]: Remove: archive file [/home/abi/fetcher/tmp/timelength-2.0.1.tar.gz]
+[2024-04-05 04:30:34] INFO root fetch - main [MainThread]: End processing [timelength]: success
+[2024-04-05 04:30:35] INFO root fetch - processPackages [yymake]: Remove: archive file [/home/abi/fetcher/tmp/yymake-0.8.1.tar.gz]
+[2024-04-05 04:30:35] INFO root fetch - processPackages [yymake]: Remove: archive file [/home/abi/fetcher/tmp/yymake-0.8.5.tar.gz]
+[2024-04-05 04:30:35] INFO root fetch - main [MainThread]: End processing [yymake]: success
+[2024-04-05 04:30:35] INFO root fetch - main [MainThread]: Store serial: [22631187]
