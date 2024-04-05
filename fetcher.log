@@ -22861,3 +22861,143 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2024-04-05 14:47:05] INFO root fetch - processPackages [tutor-contrib-aspects]: Remove: archive file [/home/abi/fetcher/tmp/tutor-contrib-aspects-0.93.0.tar.gz]
 [2024-04-05 14:47:05] INFO root fetch - main [MainThread]: End processing [tutor-contrib-aspects]: success
 [2024-04-05 14:47:05] INFO root fetch - main [MainThread]: Store serial: [22636052]
+[2024-04-05 14:49:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22636052]
+[2024-04-05 14:49:14] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2024-04-05 14:49:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: aiow
+[2024-04-05 14:49:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: few-shot-priming
+[2024-04-05 14:49:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mathutils-vinit
+[2024-04-05 14:49:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: g4f
+[2024-04-05 14:49:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: kafka-broker
+[2024-04-05 14:49:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: genocide
+[2024-04-05 14:49:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: bigdl-core-xe-esimd-21
+[2024-04-05 14:49:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: vvm-lib
+[2024-04-05 14:49:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: wagtail-fedit
+[2024-04-05 14:49:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pytest-broadcaster
+[2024-04-05 14:49:14] INFO root fetch - processPackages [kafka-broker]: New version: [0.3.9] Old Version: [0.3.8]
+[2024-04-05 14:49:14] INFO root fetch - processPackages [mathutils-vinit]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-04-05 14:49:14] WARNING root fetch - processPackages [aiow]: Skipping, unable to determine old version
+[2024-04-05 14:49:14] INFO root fetch - processPackages [aiow]: Start processing: dataskillhub
+[2024-04-05 14:49:14] INFO root fetch - main [MainThread]: End processing [aiow] error
+[2024-04-05 14:49:14] INFO root fetch - processPackages [few-shot-priming]: New version: [0.3.99] Old Version: [0.3.98]
+[2024-04-05 14:49:14] INFO root fetch - processPackages [kafka-broker]: Downloading https://files.pythonhosted.org/packages/a2/a8/7bad54810e80a0a33980ae97a934a12ad5d23d3b8ba0fecc74846f7db550/kafka-broker-0.3.8.tar.gz
+[2024-04-05 14:49:14] INFO root fetch - processPackages [genocide]: New version: [91] Old Version: [90]
+[2024-04-05 14:49:14] INFO root fetch - processPackages [dataskillhub]: New version: [1.6.1] Old Version: [1.6.0]
+[2024-04-05 14:49:14] INFO root fetch - processPackages [vvm-lib]: New version: [0.4] Old Version: [0.3]
+[2024-04-05 14:49:14] INFO root fetch - processPackages [pytest-broadcaster]: New version: [0.4.0] Old Version: [0.3.0]
+[2024-04-05 14:49:14] INFO root fetch - processPackages [wagtail-fedit]: New version: [1.2.9] Old Version: [1.2.8]
+[2024-04-05 14:49:14] INFO root fetch - processPackages [mathutils-vinit]: Downloading https://files.pythonhosted.org/packages/a9/f5/e36923b1dc1c49eeb94c6f379b15a6b29945d77e97c43943f88ba79640e8/mathutils_vinit-0.0.3.tar.gz
+[2024-04-05 14:49:15] INFO root fetch - processPackages [bigdl-core-xe-esimd-21]: New version: [2.5.0b20240405] Old Version: [2.5.0b20240404]
+[2024-04-05 14:49:15] INFO root fetch - processPackages [g4f]: New version: [0.2.7.3] Old Version: [0.2.7.2]
+[2024-04-05 14:49:15] INFO root fetch - processPackages [few-shot-priming]: Downloading https://files.pythonhosted.org/packages/eb/67/d15b11d0bfb57369fa16ba7f8c97cd3ddec8f771e6da8f11a3d819004b69/few_shot_priming-0.3.98-py3-none-any.whl
+[2024-04-05 14:49:15] INFO root fetch - processPackages [dataskillhub]: Downloading https://files.pythonhosted.org/packages/e9/94/1bd58b75522dfb2ef304523faf1e71bbf3c7d638cfe7bfe73bd3ceda8a40/dataskillhub-1.6.0-py3-none-any.whl
+[2024-04-05 14:49:15] WARNING root fetch - processPackages [kafka-broker]: Timeout reached during download
+[2024-04-05 14:49:15] INFO root fetch - processPackages [vvm-lib]: Downloading https://files.pythonhosted.org/packages/18/42/05a4b4aa8d0aa49e470a7914b5dcefacb48a3a5c85b928469daef5192dee/vvm_lib-0.3.tar.gz
+[2024-04-05 14:49:15] WARNING root fetch - processPackages [mathutils-vinit]: Timeout reached during download
+[2024-04-05 14:49:15] INFO root fetch - processPackages [genocide]: Downloading https://files.pythonhosted.org/packages/2a/ca/2a8f5185e8595c21615f335b163fb52cc0092719a61f6f46bdf76aaba69c/genocide-90.tar.gz
+[2024-04-05 14:49:15] INFO root fetch - processPackages [mathutils-vinit]: Downloading https://files.pythonhosted.org/packages/8d/d9/ca8c23b636b0e4a6407742e95f2e4de378149424ac5f709e56f6327748c3/mathutils_vinit-0.0.4.tar.gz
+[2024-04-05 14:49:15] INFO root fetch - processPackages [wagtail-fedit]: Downloading https://files.pythonhosted.org/packages/6e/11/a040a004bec1b3f16cc6e4b7f9cc5d7f32d911b6f98d2e0153260234c0b2/wagtail_fedit-1.2.8.tar.gz
+[2024-04-05 14:49:15] INFO root fetch - processPackages [pytest-broadcaster]: Downloading https://files.pythonhosted.org/packages/b5/91/18c69dbe83b3b3853c14978734d0cfc958604eae1765a31e84167ea42f40/pytest_broadcaster-0.3.0.tar.gz
+[2024-04-05 14:49:15] INFO root fetch - processPackages [bigdl-core-xe-esimd-21]: Downloading https://files.pythonhosted.org/packages/26/33/99e3660a6868d6cc60ec558600360f7b6bd1a88fdd92e2c608b928f956a9/bigdl_core_xe_esimd_21-2.5.0b20240404-cp39-cp39-manylinux2010_x86_64.whl
+[2024-04-05 14:49:15] WARNING root fetch - processPackages [dataskillhub]: Timeout reached during download
+[2024-04-05 14:49:15] WARNING root fetch - processPackages [vvm-lib]: Timeout reached during download
+[2024-04-05 14:49:15] INFO root fetch - processPackages [g4f]: Downloading https://files.pythonhosted.org/packages/eb/cd/059e2083ba07a4aaddcb79afd725e164d0bbf75e8296adc180922d4973e5/g4f-0.2.7.2.tar.gz
+[2024-04-05 14:49:15] WARNING root fetch - processPackages [bigdl-core-xe-esimd-21]: Skipping package: exceeds size limit 46708652>=10485760
+[2024-04-05 14:49:15] INFO root fetch - processPackages [bigdl-core-xe-esimd-21]: Start processing: tucavoc
+[2024-04-05 14:49:15] INFO root fetch - main [MainThread]: End processing [bigdl-core-xe-esimd-21] error
+[2024-04-05 14:49:15] INFO root fetch - processPackages [kafka-broker]: Downloading https://files.pythonhosted.org/packages/81/33/455731c9a672df1383a73d0c4c14e86bc2a6bc1abb6c9d96412b59c7d728/kafka-broker-0.3.9.tar.gz
+[2024-04-05 14:49:15] INFO root fetch - processPackages [dataskillhub]: Downloading https://files.pythonhosted.org/packages/26/d0/9ef1cd6ed91cddb07f626f52c9d5481812e8a2f493c172ecb6b330b5cb0f/dataskillhub-1.6.1-py3-none-any.whl
+[2024-04-05 14:49:15] WARNING root fetch - processPackages [mathutils-vinit]: Timeout reached during download
+[2024-04-05 14:49:15] INFO root fetch - processPackages [mathutils-vinit]: executing diffoscope
+[2024-04-05 14:49:15] INFO root fetch - processPackages [mathutils-vinit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mathutils_vinit-0.0.3.tar.gz tmp/mathutils_vinit-0.0.4.tar.gz --markdown 20240405/m/mathutils-vinit/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2024-04-05 14:49:15] WARNING root fetch - processPackages [wagtail-fedit]: Timeout reached during download
+[2024-04-05 14:49:15] WARNING root fetch - processPackages [pytest-broadcaster]: Timeout reached during download
+[2024-04-05 14:49:15] WARNING root fetch - processPackages [few-shot-priming]: Timeout reached during download
+[2024-04-05 14:49:15] INFO root fetch - processPackages [vvm-lib]: Downloading https://files.pythonhosted.org/packages/bd/2e/3c2dad91db843678dab50ed84a16bd22206fdcb5758971a0fc8109291e3b/vvm_lib-0.4.tar.gz
+[2024-04-05 14:49:15] WARNING root fetch - processPackages [g4f]: Timeout reached during download
+[2024-04-05 14:49:15] WARNING root fetch - processPackages [kafka-broker]: Timeout reached during download
+[2024-04-05 14:49:15] INFO root fetch - processPackages [kafka-broker]: executing diffoscope
+[2024-04-05 14:49:15] INFO root fetch - processPackages [kafka-broker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kafka-broker-0.3.8.tar.gz tmp/kafka-broker-0.3.9.tar.gz --markdown 20240405/k/kafka-broker/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2024-04-05 14:49:15] WARNING root fetch - processPackages [tucavoc]: Skipping, unable to determine old version
+[2024-04-05 14:49:15] INFO root fetch - processPackages [tucavoc]: Start processing: galter-subjects-utils
+[2024-04-05 14:49:15] INFO root fetch - main [MainThread]: End processing [tucavoc] error
+[2024-04-05 14:49:15] WARNING root fetch - processPackages [dataskillhub]: Timeout reached during download
+[2024-04-05 14:49:15] INFO root fetch - processPackages [dataskillhub]: executing diffoscope
+[2024-04-05 14:49:15] INFO root fetch - processPackages [dataskillhub]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dataskillhub-1.6.0-py3-none-any.whl.zip tmp/dataskillhub-1.6.1-py3-none-any.whl.zip --markdown 20240405/d/dataskillhub/1.6.0-1.6.1/diff.md --exclude *.pyd
+[2024-04-05 14:49:15] INFO root fetch - processPackages [few-shot-priming]: Downloading https://files.pythonhosted.org/packages/ff/11/548f6e96803602e6431dc610d736d401b20fde986f85c35c8ad19a6d0958/few_shot_priming-0.3.99-py3-none-any.whl
+[2024-04-05 14:49:15] WARNING root fetch - processPackages [vvm-lib]: Timeout reached during download
+[2024-04-05 14:49:15] INFO root fetch - processPackages [vvm-lib]: executing diffoscope
+[2024-04-05 14:49:15] INFO root fetch - processPackages [vvm-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vvm_lib-0.3.tar.gz tmp/vvm_lib-0.4.tar.gz --markdown 20240405/v/vvm-lib/0.3-0.4/diff.md --exclude *.pyd
+[2024-04-05 14:49:15] INFO root fetch - processPackages [wagtail-fedit]: Downloading https://files.pythonhosted.org/packages/92/2f/335789a755855225fca2c0dfcfbc04661e26c341daba18f02cf65e38aa8a/wagtail_fedit-1.2.9.tar.gz
+[2024-04-05 14:49:15] INFO root fetch - processPackages [galter-subjects-utils]: New version: [0.4.0] Old Version: [0.3.5]
+[2024-04-05 14:49:15] INFO root fetch - processPackages [pytest-broadcaster]: Downloading https://files.pythonhosted.org/packages/57/15/60554f0b85da44e286a965efd5b09a8efce48e5ac84aa1ca71628541aa92/pytest_broadcaster-0.4.0.tar.gz
+[2024-04-05 14:49:15] INFO root fetch - processPackages [g4f]: Downloading https://files.pythonhosted.org/packages/11/57/54c8c299b95c4995c1065037bf22a8f89ef79664f4333884f007ee05b934/g4f-0.2.7.3.tar.gz
+[2024-04-05 14:49:15] WARNING root fetch - processPackages [wagtail-fedit]: Timeout reached during download
+[2024-04-05 14:49:15] INFO root fetch - processPackages [wagtail-fedit]: executing diffoscope
+[2024-04-05 14:49:15] INFO root fetch - processPackages [wagtail-fedit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wagtail_fedit-1.2.8.tar.gz tmp/wagtail_fedit-1.2.9.tar.gz --markdown 20240405/w/wagtail-fedit/1.2.8-1.2.9/diff.md --exclude *.pyd
+[2024-04-05 14:49:15] WARNING root fetch - processPackages [g4f]: Timeout reached during download
+[2024-04-05 14:49:15] INFO root fetch - processPackages [g4f]: executing diffoscope
+[2024-04-05 14:49:15] INFO root fetch - processPackages [g4f]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/g4f-0.2.7.2.tar.gz tmp/g4f-0.2.7.3.tar.gz --markdown 20240405/g/g4f/0.2.7.2-0.2.7.3/diff.md --exclude *.pyd
+[2024-04-05 14:49:15] INFO root fetch - processPackages [galter-subjects-utils]: Downloading https://files.pythonhosted.org/packages/49/67/7c34166d05ba1fc1f0ff753326501faea0c9db77a33056edaeb53486dd56/galter-subjects-utils-0.3.5.tar.gz
+[2024-04-05 14:49:16] WARNING root fetch - processPackages [few-shot-priming]: Timeout reached during download
+[2024-04-05 14:49:16] INFO root fetch - processPackages [few-shot-priming]: executing diffoscope
+[2024-04-05 14:49:16] INFO root fetch - processPackages [few-shot-priming]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/few_shot_priming-0.3.98-py3-none-any.whl.zip tmp/few_shot_priming-0.3.99-py3-none-any.whl.zip --markdown 20240405/f/few-shot-priming/0.3.98-0.3.99/diff.md --exclude *.pyd
+[2024-04-05 14:49:16] WARNING root fetch - processPackages [genocide]: Timeout reached during download
+[2024-04-05 14:49:16] WARNING root fetch - processPackages [galter-subjects-utils]: Timeout reached during download
+[2024-04-05 14:49:16] INFO root fetch - processPackages [mathutils-vinit]: Remove: archive file [/home/abi/fetcher/tmp/mathutils_vinit-0.0.3.tar.gz]
+[2024-04-05 14:49:16] INFO root fetch - processPackages [mathutils-vinit]: Remove: archive file [/home/abi/fetcher/tmp/mathutils_vinit-0.0.4.tar.gz]
+[2024-04-05 14:49:16] INFO root fetch - processPackages [mathutils-vinit]: Start processing: flowtask
+[2024-04-05 14:49:16] INFO root fetch - main [MainThread]: End processing [mathutils-vinit]: success
+[2024-04-05 14:49:16] INFO root fetch - processPackages [genocide]: Downloading https://files.pythonhosted.org/packages/71/6d/f0e393ca7d1bfa65c6ccf1bbb0a3297ad94d25c42b130526ca74d11ddcc4/genocide-91.tar.gz
+[2024-04-05 14:49:16] INFO root fetch - processPackages [galter-subjects-utils]: Downloading https://files.pythonhosted.org/packages/7d/f7/057688f96d9b83655c8f39840f29123d065c4f330e2a99cabdfb9d270315/galter-subjects-utils-0.4.0.tar.gz
+[2024-04-05 14:49:16] WARNING root fetch - processPackages [pytest-broadcaster]: Timeout reached during download
+[2024-04-05 14:49:16] INFO root fetch - processPackages [pytest-broadcaster]: executing diffoscope
+[2024-04-05 14:49:16] INFO root fetch - processPackages [pytest-broadcaster]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest_broadcaster-0.3.0.tar.gz tmp/pytest_broadcaster-0.4.0.tar.gz --markdown 20240405/p/pytest-broadcaster/0.3.0-0.4.0/diff.md --exclude *.pyd
+[2024-04-05 14:49:16] INFO root fetch - processPackages [flowtask]: New version: [5.2.9] Old Version: [5.2.8]
+[2024-04-05 14:49:16] WARNING root fetch - processPackages [galter-subjects-utils]: Timeout reached during download
+[2024-04-05 14:49:16] INFO root fetch - processPackages [kafka-broker]: Remove: archive file [/home/abi/fetcher/tmp/kafka-broker-0.3.8.tar.gz]
+[2024-04-05 14:49:16] INFO root fetch - processPackages [kafka-broker]: Remove: archive file [/home/abi/fetcher/tmp/kafka-broker-0.3.9.tar.gz]
+[2024-04-05 14:49:16] INFO root fetch - processPackages [galter-subjects-utils]: executing diffoscope
+[2024-04-05 14:49:16] INFO root fetch - processPackages [kafka-broker]: Start processing: pytest-broadcaster
+[2024-04-05 14:49:16] INFO root fetch - main [MainThread]: End processing [kafka-broker]: success
+[2024-04-05 14:49:16] INFO root fetch - processPackages [galter-subjects-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/galter-subjects-utils-0.3.5.tar.gz tmp/galter-subjects-utils-0.4.0.tar.gz --markdown 20240405/g/galter-subjects-utils/0.3.5-0.4.0/diff.md --exclude *.pyd
+[2024-04-05 14:49:16] INFO root fetch - processPackages [dataskillhub]: Remove: archive file [/home/abi/fetcher/tmp/dataskillhub-1.6.0-py3-none-any.whl.zip]
+[2024-04-05 14:49:16] INFO root fetch - processPackages [dataskillhub]: Remove: archive file [/home/abi/fetcher/tmp/dataskillhub-1.6.1-py3-none-any.whl.zip]
+[2024-04-05 14:49:16] INFO root fetch - main [MainThread]: End processing [dataskillhub]: success
+[2024-04-05 14:49:16] INFO root fetch - processPackages [pytest-broadcaster]: New version: [0.4.0] Old Version: [0.3.0]
+[2024-04-05 14:49:16] INFO root fetch - processPackages [flowtask]: Downloading https://files.pythonhosted.org/packages/46/fd/75fff4674ffccc46475973df59258c62d846e87c4130285eddf1ba2bb901/flowtask-5.2.8-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-04-05 14:49:16] INFO root fetch - processPackages [vvm-lib]: Remove: archive file [/home/abi/fetcher/tmp/vvm_lib-0.3.tar.gz]
+[2024-04-05 14:49:16] INFO root fetch - processPackages [vvm-lib]: Remove: archive file [/home/abi/fetcher/tmp/vvm_lib-0.4.tar.gz]
+[2024-04-05 14:49:16] INFO root fetch - main [MainThread]: End processing [vvm-lib]: success
+[2024-04-05 14:49:16] INFO root fetch - processPackages [pytest-broadcaster]: executing diffoscope
+[2024-04-05 14:49:16] INFO root fetch - processPackages [pytest-broadcaster]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest_broadcaster-0.3.0.tar.gz tmp/pytest_broadcaster-0.4.0.tar.gz --markdown 20240405/p/pytest-broadcaster/0.3.0-0.4.0/diff.md --exclude *.pyd
+[2024-04-05 14:49:17] WARNING root fetch - processPackages [flowtask]: Timeout reached during download
+[2024-04-05 14:49:17] INFO root fetch - processPackages [few-shot-priming]: Remove: archive file [/home/abi/fetcher/tmp/few_shot_priming-0.3.98-py3-none-any.whl.zip]
+[2024-04-05 14:49:17] INFO root fetch - processPackages [few-shot-priming]: Remove: archive file [/home/abi/fetcher/tmp/few_shot_priming-0.3.99-py3-none-any.whl.zip]
+[2024-04-05 14:49:17] INFO root fetch - main [MainThread]: End processing [few-shot-priming]: success
+[2024-04-05 14:49:17] INFO root fetch - processPackages [wagtail-fedit]: Remove: archive file [/home/abi/fetcher/tmp/wagtail_fedit-1.2.8.tar.gz]
+[2024-04-05 14:49:17] INFO root fetch - processPackages [wagtail-fedit]: Remove: archive file [/home/abi/fetcher/tmp/wagtail_fedit-1.2.9.tar.gz]
+[2024-04-05 14:49:17] INFO root fetch - main [MainThread]: End processing [wagtail-fedit]: success
+[2024-04-05 14:49:17] INFO root fetch - processPackages [g4f]: Remove: archive file [/home/abi/fetcher/tmp/g4f-0.2.7.2.tar.gz]
+[2024-04-05 14:49:17] INFO root fetch - processPackages [g4f]: Remove: archive file [/home/abi/fetcher/tmp/g4f-0.2.7.3.tar.gz]
+[2024-04-05 14:49:17] INFO root fetch - main [MainThread]: End processing [g4f]: success
+[2024-04-05 14:49:17] INFO root fetch - processPackages [flowtask]: Downloading https://files.pythonhosted.org/packages/29/74/7163ea2a085463197c6b3564295f933938ed331f98f517c7c52e778c9a9e/flowtask-5.2.9-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-04-05 14:49:17] INFO root fetch - processPackages [galter-subjects-utils]: Remove: archive file [/home/abi/fetcher/tmp/galter-subjects-utils-0.3.5.tar.gz]
+[2024-04-05 14:49:17] INFO root fetch - processPackages [galter-subjects-utils]: Remove: archive file [/home/abi/fetcher/tmp/galter-subjects-utils-0.4.0.tar.gz]
+[2024-04-05 14:49:17] INFO root fetch - main [MainThread]: End processing [galter-subjects-utils]: success
+[2024-04-05 14:49:17] INFO root fetch - processPackages [pytest-broadcaster]: Remove: archive file [/home/abi/fetcher/tmp/pytest_broadcaster-0.3.0.tar.gz]
+[2024-04-05 14:49:17] INFO root fetch - processPackages [pytest-broadcaster]: Remove: archive file [/home/abi/fetcher/tmp/pytest_broadcaster-0.4.0.tar.gz]
+[2024-04-05 14:49:17] INFO root fetch - main [MainThread]: End processing [pytest-broadcaster]: success
+[2024-04-05 14:49:17] WARNING root fetch - processPackages [genocide]: Timeout reached during download
+[2024-04-05 14:49:17] INFO root fetch - processPackages [genocide]: executing diffoscope
+[2024-04-05 14:49:17] INFO root fetch - processPackages [genocide]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/genocide-90.tar.gz tmp/genocide-91.tar.gz --markdown 20240405/g/genocide/90-91/diff.md --exclude *.pyd
+[2024-04-05 14:49:17] WARNING root fetch - processPackages [flowtask]: Timeout reached during download
+[2024-04-05 14:49:17] INFO root fetch - processPackages [flowtask]: executing diffoscope
+[2024-04-05 14:49:17] INFO root fetch - processPackages [flowtask]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flowtask-5.2.8-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/flowtask-5.2.9-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20240405/f/flowtask/5.2.8-5.2.9/diff.md --exclude *.pyd
+[2024-04-05 14:49:17] INFO root fetch - main [MainThread]: End processing [pytest-broadcaster]: success
+[2024-04-05 14:49:18] INFO root fetch - processPackages [genocide]: Remove: archive file [/home/abi/fetcher/tmp/genocide-90.tar.gz]
+[2024-04-05 14:49:18] INFO root fetch - processPackages [genocide]: Remove: archive file [/home/abi/fetcher/tmp/genocide-91.tar.gz]
+[2024-04-05 14:49:18] INFO root fetch - main [MainThread]: End processing [genocide]: success
+[2024-04-05 14:49:20] INFO root fetch - processPackages [flowtask]: Remove: archive file [/home/abi/fetcher/tmp/flowtask-5.2.8-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-04-05 14:49:20] INFO root fetch - processPackages [flowtask]: Remove: archive file [/home/abi/fetcher/tmp/flowtask-5.2.9-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-04-05 14:49:20] INFO root fetch - main [MainThread]: End processing [flowtask]: success
+[2024-04-05 14:49:20] INFO root fetch - main [MainThread]: Store serial: [22636095]
