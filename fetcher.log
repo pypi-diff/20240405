@@ -20249,3 +20249,61 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2024-04-05 13:04:46] INFO root fetch - processPackages [pyscal]: Remove: archive file [/home/abi/fetcher/tmp/pyscal-0.9.2.tar.gz]
 [2024-04-05 13:04:46] INFO root fetch - main [MainThread]: End processing [pyscal]: success
 [2024-04-05 13:04:46] INFO root fetch - main [MainThread]: Store serial: [22635005]
+[2024-04-05 13:06:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22635005]
+[2024-04-05 13:06:56] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-05 13:06:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: investing-algorithm-framework
+[2024-04-05 13:06:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: create-dara-app
+[2024-04-05 13:06:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dara-components
+[2024-04-05 13:06:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dara-core
+[2024-04-05 13:06:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: jaaql-middleware-python
+[2024-04-05 13:06:56] INFO root fetch - processPackages [dara-components]: New version: [1.8.0] Old Version: [1.7.7]
+[2024-04-05 13:06:56] INFO root fetch - processPackages [dara-core]: New version: [1.8.0] Old Version: [1.7.7]
+[2024-04-05 13:06:56] INFO root fetch - processPackages [create-dara-app]: New version: [1.8.0] Old Version: [1.7.7]
+[2024-04-05 13:06:56] INFO root fetch - processPackages [investing-algorithm-framework]: New version: [3.4.1] Old Version: [3.4.0]
+[2024-04-05 13:06:56] INFO root fetch - processPackages [dara-components]: Downloading https://files.pythonhosted.org/packages/d1/0c/e7e02609c12001c7b3bd2b79c4808a4ea4136810e0222ffae0218699cc8f/dara_components-1.7.7-py3-none-any.whl
+[2024-04-05 13:06:56] INFO root fetch - processPackages [dara-core]: Downloading https://files.pythonhosted.org/packages/64/d6/1d661420c10008fc62ba424e0d0e3d78c1e395ad65e3dff9c3dcfd82b367/dara_core-1.7.7-py3-none-any.whl
+[2024-04-05 13:06:56] INFO root fetch - processPackages [create-dara-app]: Downloading https://files.pythonhosted.org/packages/83/51/78779b33869d4aa08a3edb892db1c4f23d0247616d1f92b12cd9c9d3120d/create_dara_app-1.7.7-py3-none-any.whl
+[2024-04-05 13:06:56] INFO root fetch - processPackages [jaaql-middleware-python]: New version: [4.9.1] Old Version: [4.9.0]
+[2024-04-05 13:06:56] INFO root fetch - processPackages [investing-algorithm-framework]: Downloading https://files.pythonhosted.org/packages/67/54/f41eacc160afe3bc94d22adfa9ebdca51b6d11ddb11b4bd4d0273f848396/investing_algorithm_framework-3.4.0.tar.gz
+[2024-04-05 13:06:56] WARNING root fetch - processPackages [investing-algorithm-framework]: Timeout reached during download
+[2024-04-05 13:06:56] WARNING root fetch - processPackages [create-dara-app]: Timeout reached during download
+[2024-04-05 13:06:56] INFO root fetch - processPackages [jaaql-middleware-python]: Downloading https://files.pythonhosted.org/packages/5c/29/6cb85a71537e8f30aa90f242c02eea2d3ca361001bc4860bdcac60ef21b3/jaaql-middleware-python-4.9.0.tar.gz
+[2024-04-05 13:06:56] INFO root fetch - processPackages [investing-algorithm-framework]: Downloading https://files.pythonhosted.org/packages/a9/7d/1fb4e8c2607549a0736f56e2a03e214261fddd11b6c70ee2f50c3bddc818/investing_algorithm_framework-3.4.1.tar.gz
+[2024-04-05 13:06:56] INFO root fetch - processPackages [create-dara-app]: Downloading https://files.pythonhosted.org/packages/84/2e/2b621468d311592f725eeb24ad913b9ff7742a7909244a4b70bc97a09ab7/create_dara_app-1.8.0-py3-none-any.whl
+[2024-04-05 13:06:57] WARNING root fetch - processPackages [jaaql-middleware-python]: Timeout reached during download
+[2024-04-05 13:06:57] WARNING root fetch - processPackages [investing-algorithm-framework]: Timeout reached during download
+[2024-04-05 13:06:57] INFO root fetch - processPackages [investing-algorithm-framework]: executing diffoscope
+[2024-04-05 13:06:57] INFO root fetch - processPackages [investing-algorithm-framework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/investing_algorithm_framework-3.4.0.tar.gz tmp/investing_algorithm_framework-3.4.1.tar.gz --markdown 20240405/i/investing-algorithm-framework/3.4.0-3.4.1/diff.md --exclude *.pyd
+[2024-04-05 13:06:57] WARNING root fetch - processPackages [dara-components]: Timeout reached during download
+[2024-04-05 13:06:57] WARNING root fetch - processPackages [dara-core]: Timeout reached during download
+[2024-04-05 13:06:57] WARNING root fetch - processPackages [create-dara-app]: Timeout reached during download
+[2024-04-05 13:06:57] INFO root fetch - processPackages [create-dara-app]: executing diffoscope
+[2024-04-05 13:06:57] INFO root fetch - processPackages [create-dara-app]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/create_dara_app-1.7.7-py3-none-any.whl.zip tmp/create_dara_app-1.8.0-py3-none-any.whl.zip --markdown 20240405/c/create-dara-app/1.7.7-1.8.0/diff.md --exclude *.pyd
+[2024-04-05 13:06:57] INFO root fetch - processPackages [dara-core]: Downloading https://files.pythonhosted.org/packages/1a/b1/6a918add709bf1a0c6290af307794084d0f4a147fd731a2138292257223a/dara_core-1.8.0-py3-none-any.whl
+[2024-04-05 13:06:57] INFO root fetch - processPackages [dara-components]: Downloading https://files.pythonhosted.org/packages/cd/af/4a7e61fb6926cac0492dd75020e5dc6b4ebf1cabbb2e428f7a7f27169a9d/dara_components-1.8.0-py3-none-any.whl
+[2024-04-05 13:06:57] INFO root fetch - processPackages [jaaql-middleware-python]: Downloading https://files.pythonhosted.org/packages/1c/9b/c594efdb4d5a8a8eb6e0876f48857da40e24c3018095e5e6276aad18d78d/jaaql-middleware-python-4.9.1.tar.gz
+[2024-04-05 13:06:57] WARNING root fetch - processPackages [jaaql-middleware-python]: Timeout reached during download
+[2024-04-05 13:06:57] INFO root fetch - processPackages [jaaql-middleware-python]: executing diffoscope
+[2024-04-05 13:06:57] INFO root fetch - processPackages [jaaql-middleware-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jaaql-middleware-python-4.9.0.tar.gz tmp/jaaql-middleware-python-4.9.1.tar.gz --markdown 20240405/j/jaaql-middleware-python/4.9.0-4.9.1/diff.md --exclude *.pyd
+[2024-04-05 13:06:57] WARNING root fetch - processPackages [dara-core]: Timeout reached during download
+[2024-04-05 13:06:57] INFO root fetch - processPackages [dara-core]: executing diffoscope
+[2024-04-05 13:06:57] INFO root fetch - processPackages [dara-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dara_core-1.7.7-py3-none-any.whl.zip tmp/dara_core-1.8.0-py3-none-any.whl.zip --markdown 20240405/d/dara-core/1.7.7-1.8.0/diff.md --exclude *.pyd
+[2024-04-05 13:06:57] WARNING root fetch - processPackages [dara-components]: Timeout reached during download
+[2024-04-05 13:06:57] INFO root fetch - processPackages [dara-components]: executing diffoscope
+[2024-04-05 13:06:57] INFO root fetch - processPackages [dara-components]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dara_components-1.7.7-py3-none-any.whl.zip tmp/dara_components-1.8.0-py3-none-any.whl.zip --markdown 20240405/d/dara-components/1.7.7-1.8.0/diff.md --exclude *.pyd
+[2024-04-05 13:06:57] INFO root fetch - processPackages [create-dara-app]: Remove: archive file [/home/abi/fetcher/tmp/create_dara_app-1.7.7-py3-none-any.whl.zip]
+[2024-04-05 13:06:57] INFO root fetch - processPackages [create-dara-app]: Remove: archive file [/home/abi/fetcher/tmp/create_dara_app-1.8.0-py3-none-any.whl.zip]
+[2024-04-05 13:06:57] INFO root fetch - main [MainThread]: End processing [create-dara-app]: success
+[2024-04-05 13:06:58] INFO root fetch - processPackages [investing-algorithm-framework]: Remove: archive file [/home/abi/fetcher/tmp/investing_algorithm_framework-3.4.0.tar.gz]
+[2024-04-05 13:06:58] INFO root fetch - processPackages [investing-algorithm-framework]: Remove: archive file [/home/abi/fetcher/tmp/investing_algorithm_framework-3.4.1.tar.gz]
+[2024-04-05 13:06:58] INFO root fetch - main [MainThread]: End processing [investing-algorithm-framework]: success
+[2024-04-05 13:06:58] INFO root fetch - processPackages [jaaql-middleware-python]: Remove: archive file [/home/abi/fetcher/tmp/jaaql-middleware-python-4.9.0.tar.gz]
+[2024-04-05 13:06:58] INFO root fetch - processPackages [jaaql-middleware-python]: Remove: archive file [/home/abi/fetcher/tmp/jaaql-middleware-python-4.9.1.tar.gz]
+[2024-04-05 13:06:58] INFO root fetch - main [MainThread]: End processing [jaaql-middleware-python]: success
+[2024-04-05 13:07:17] INFO root fetch - processPackages [dara-core]: Remove: archive file [/home/abi/fetcher/tmp/dara_core-1.7.7-py3-none-any.whl.zip]
+[2024-04-05 13:07:17] INFO root fetch - processPackages [dara-core]: Remove: archive file [/home/abi/fetcher/tmp/dara_core-1.8.0-py3-none-any.whl.zip]
+[2024-04-05 13:07:17] INFO root fetch - main [MainThread]: End processing [dara-core]: success
+[2024-04-05 13:08:08] INFO root fetch - processPackages [dara-components]: Remove: archive file [/home/abi/fetcher/tmp/dara_components-1.7.7-py3-none-any.whl.zip]
+[2024-04-05 13:08:08] INFO root fetch - processPackages [dara-components]: Remove: archive file [/home/abi/fetcher/tmp/dara_components-1.8.0-py3-none-any.whl.zip]
+[2024-04-05 13:08:08] INFO root fetch - main [MainThread]: End processing [dara-components]: success
+[2024-04-05 13:08:08] INFO root fetch - main [MainThread]: Store serial: [22635018]
