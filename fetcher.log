@@ -17880,3 +17880,83 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2024-04-05 11:38:22] INFO root fetch - processPackages [onnx2tf]: Remove: archive file [/home/abi/fetcher/tmp/onnx2tf-1.9.9.tar.gz]
 [2024-04-05 11:38:22] INFO root fetch - main [MainThread]: End processing [onnx2tf]: success
 [2024-04-05 11:38:22] INFO root fetch - main [MainThread]: Store serial: [22634103]
+[2024-04-05 11:40:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22634103]
+[2024-04-05 11:40:31] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-05 11:40:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: argovisHelpers
+[2024-04-05 11:40:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: qarray
+[2024-04-05 11:40:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: copernicusmarine
+[2024-04-05 11:40:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: rimsschemedrawer
+[2024-04-05 11:40:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nucliadb-node-binding
+[2024-04-05 11:40:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: paystackease
+[2024-04-05 11:40:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: neos_common
+[2024-04-05 11:40:31] INFO root fetch - processPackages [qarray]: New version: [1.0.7] Old Version: [1.0.6]
+[2024-04-05 11:40:31] INFO root fetch - processPackages [copernicusmarine]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-05 11:40:31] INFO root fetch - processPackages [nucliadb-node-binding]: New version: [2.46.1.post1093] Old Version: [2.46.1.post1079]
+[2024-04-05 11:40:31] INFO root fetch - processPackages [neos_common]: New version: [0.9.3] Old Version: [0.9.2]
+[2024-04-05 11:40:31] INFO root fetch - processPackages [paystackease]: New version: [1.0.0] Old Version: [0.1.3]
+[2024-04-05 11:40:31] INFO root fetch - processPackages [rimsschemedrawer]: New version: [3.0.0.dev4] Old Version: [3.0.0.dev3]
+[2024-04-05 11:40:31] INFO root fetch - processPackages [argovisHelpers]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-05 11:40:31] INFO root fetch - processPackages [qarray]: Downloading https://files.pythonhosted.org/packages/e0/65/d693d3ccc54f026a4daacf828095791a7fc34425853cde81d2e059656073/qarray-1.0.6.tar.gz
+[2024-04-05 11:40:31] INFO root fetch - processPackages [nucliadb-node-binding]: Downloading https://files.pythonhosted.org/packages/d9/d2/c8d30de02d836e95fee752b0f8a5391dd81c3ff5d0eeec6265b5c632c563/nucliadb_node_binding-2.46.1.post1079.tar.gz
+[2024-04-05 11:40:31] INFO root fetch - processPackages [copernicusmarine]: Downloading https://files.pythonhosted.org/packages/40/48/5ed20f1f09376d9eceb259261e8a49592bc9437871ca3537f992254f2447/copernicusmarine-1.0.8.tar.gz
+[2024-04-05 11:40:31] INFO root fetch - processPackages [paystackease]: Downloading https://files.pythonhosted.org/packages/a4/29/be9cf088bc32be3ea8a915cab71bdada36078bd8f776b52e7bef0155ad9e/paystackease-0.1.3.tar.gz
+[2024-04-05 11:40:31] INFO root fetch - processPackages [rimsschemedrawer]: Downloading https://files.pythonhosted.org/packages/72/a2/8b4de7c87e674705e1c716d8cded58a894b8a9902f35eb3ae5ef8c694dfd/rimsschemedrawer-3.0.0.dev3.tar.gz
+[2024-04-05 11:40:31] WARNING root fetch - processPackages [qarray]: Timeout reached during download
+[2024-04-05 11:40:31] WARNING root fetch - processPackages [nucliadb-node-binding]: Timeout reached during download
+[2024-04-05 11:40:31] INFO root fetch - processPackages [argovisHelpers]: Downloading https://files.pythonhosted.org/packages/dc/fb/015a17f5953024b0ebd76d1f15a17c2d90e91891e9cc15d866d196c97a26/argovisHelpers-0.0.8.tar.gz
+[2024-04-05 11:40:31] INFO root fetch - processPackages [neos_common]: Downloading https://files.pythonhosted.org/packages/b6/64/bf4700ed79a85fc259ef1fb72c98d9b30e4b8da075f59c67fd1e8eadf0b4/neos_common-0.9.2.tar.gz
+[2024-04-05 11:40:32] INFO root fetch - processPackages [nucliadb-node-binding]: Downloading https://files.pythonhosted.org/packages/de/b9/8d6b49332681c9ec412e591e7a76ee63b2dc7a76b8db9ce706c0ac79c566/nucliadb_node_binding-2.46.1.post1093.tar.gz
+[2024-04-05 11:40:32] WARNING root fetch - processPackages [copernicusmarine]: Timeout reached during download
+[2024-04-05 11:40:32] WARNING root fetch - processPackages [rimsschemedrawer]: Timeout reached during download
+[2024-04-05 11:40:32] WARNING root fetch - processPackages [paystackease]: Timeout reached during download
+[2024-04-05 11:40:32] WARNING root fetch - processPackages [argovisHelpers]: Timeout reached during download
+[2024-04-05 11:40:32] WARNING root fetch - processPackages [neos_common]: Timeout reached during download
+[2024-04-05 11:40:32] INFO root fetch - processPackages [qarray]: Downloading https://files.pythonhosted.org/packages/6d/ee/868d2ef94bb27ddf0197dee9fcfb68d02282da18aaeec9a49e28a42ac1de/qarray-1.0.7.tar.gz
+[2024-04-05 11:40:32] WARNING root fetch - processPackages [nucliadb-node-binding]: Timeout reached during download
+[2024-04-05 11:40:32] INFO root fetch - processPackages [nucliadb-node-binding]: executing diffoscope
+[2024-04-05 11:40:32] INFO root fetch - processPackages [nucliadb-node-binding]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_node_binding-2.46.1.post1079.tar.gz tmp/nucliadb_node_binding-2.46.1.post1093.tar.gz --markdown 20240405/n/nucliadb-node-binding/2.46.1.post1079-2.46.1.post1093/diff.md --exclude *.pyd
+[2024-04-05 11:40:32] INFO root fetch - processPackages [copernicusmarine]: Downloading https://files.pythonhosted.org/packages/b3/e4/cec16a5ef710b895687a86f9c0559170f8514cbfa6a38f411b000ef46d7c/copernicusmarine-1.0.9.tar.gz
+[2024-04-05 11:40:32] INFO root fetch - processPackages [rimsschemedrawer]: Downloading https://files.pythonhosted.org/packages/68/92/35b53a99cf9399f43cdb399e212bff42e700da5ff165ed053c2c91bafa87/rimsschemedrawer-3.0.0.dev4.tar.gz
+[2024-04-05 11:40:32] INFO root fetch - processPackages [paystackease]: Downloading https://files.pythonhosted.org/packages/74/21/804d83f4e20a33fb1be857c2f53c0aa166b6286660d19049e2411eb08ed8/paystackease-1.0.0.tar.gz
+[2024-04-05 11:40:32] INFO root fetch - processPackages [argovisHelpers]: Downloading https://files.pythonhosted.org/packages/c4/9b/69aa0ac205011a5c0353157c71c7c7d7418cfde221bcf8db32db64d593e8/argovisHelpers-0.0.9.tar.gz
+[2024-04-05 11:40:32] WARNING root fetch - processPackages [qarray]: Timeout reached during download
+[2024-04-05 11:40:32] INFO root fetch - processPackages [qarray]: executing diffoscope
+[2024-04-05 11:40:32] INFO root fetch - processPackages [qarray]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qarray-1.0.6.tar.gz tmp/qarray-1.0.7.tar.gz --markdown 20240405/q/qarray/1.0.6-1.0.7/diff.md --exclude *.pyd
+[2024-04-05 11:40:32] INFO root fetch - processPackages [neos_common]: Downloading https://files.pythonhosted.org/packages/51/dc/9c6235466878c3dda428c3afb030440cc6111554951a7527d67179eaf67b/neos_common-0.9.3.tar.gz
+[2024-04-05 11:40:32] WARNING root fetch - processPackages [neos_common]: Timeout reached during download
+[2024-04-05 11:40:32] INFO root fetch - processPackages [neos_common]: executing diffoscope
+[2024-04-05 11:40:32] INFO root fetch - processPackages [neos_common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neos_common-0.9.2.tar.gz tmp/neos_common-0.9.3.tar.gz --markdown 20240405/n/neos_common/0.9.2-0.9.3/diff.md --exclude *.pyd
+[2024-04-05 11:40:32] WARNING root fetch - processPackages [copernicusmarine]: Timeout reached during download
+[2024-04-05 11:40:32] INFO root fetch - processPackages [copernicusmarine]: executing diffoscope
+[2024-04-05 11:40:32] INFO root fetch - processPackages [copernicusmarine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/copernicusmarine-1.0.8.tar.gz tmp/copernicusmarine-1.0.9.tar.gz --markdown 20240405/c/copernicusmarine/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2024-04-05 11:40:32] WARNING root fetch - processPackages [paystackease]: Timeout reached during download
+[2024-04-05 11:40:32] INFO root fetch - processPackages [paystackease]: executing diffoscope
+[2024-04-05 11:40:32] INFO root fetch - processPackages [paystackease]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/paystackease-0.1.3.tar.gz tmp/paystackease-1.0.0.tar.gz --markdown 20240405/p/paystackease/0.1.3-1.0.0/diff.md --exclude *.pyd
+[2024-04-05 11:40:32] WARNING root fetch - processPackages [argovisHelpers]: Timeout reached during download
+[2024-04-05 11:40:32] INFO root fetch - processPackages [argovisHelpers]: executing diffoscope
+[2024-04-05 11:40:32] INFO root fetch - processPackages [argovisHelpers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/argovisHelpers-0.0.8.tar.gz tmp/argovisHelpers-0.0.9.tar.gz --markdown 20240405/a/argovisHelpers/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2024-04-05 11:40:32] WARNING root fetch - processPackages [rimsschemedrawer]: Timeout reached during download
+[2024-04-05 11:40:32] INFO root fetch - processPackages [rimsschemedrawer]: executing diffoscope
+[2024-04-05 11:40:32] INFO root fetch - processPackages [rimsschemedrawer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rimsschemedrawer-3.0.0.dev3.tar.gz tmp/rimsschemedrawer-3.0.0.dev4.tar.gz --markdown 20240405/r/rimsschemedrawer/3.0.0.dev3-3.0.0.dev4/diff.md --exclude *.pyd
+[2024-04-05 11:40:33] INFO root fetch - processPackages [neos_common]: Remove: archive file [/home/abi/fetcher/tmp/neos_common-0.9.2.tar.gz]
+[2024-04-05 11:40:33] INFO root fetch - processPackages [neos_common]: Remove: archive file [/home/abi/fetcher/tmp/neos_common-0.9.3.tar.gz]
+[2024-04-05 11:40:33] INFO root fetch - main [MainThread]: End processing [neos_common]: success
+[2024-04-05 11:40:33] INFO root fetch - processPackages [qarray]: Remove: archive file [/home/abi/fetcher/tmp/qarray-1.0.6.tar.gz]
+[2024-04-05 11:40:33] INFO root fetch - processPackages [qarray]: Remove: archive file [/home/abi/fetcher/tmp/qarray-1.0.7.tar.gz]
+[2024-04-05 11:40:33] INFO root fetch - main [MainThread]: End processing [qarray]: success
+[2024-04-05 11:40:33] INFO root fetch - processPackages [argovisHelpers]: Remove: archive file [/home/abi/fetcher/tmp/argovisHelpers-0.0.8.tar.gz]
+[2024-04-05 11:40:33] INFO root fetch - processPackages [argovisHelpers]: Remove: archive file [/home/abi/fetcher/tmp/argovisHelpers-0.0.9.tar.gz]
+[2024-04-05 11:40:33] INFO root fetch - main [MainThread]: End processing [argovisHelpers]: success
+[2024-04-05 11:40:33] INFO root fetch - processPackages [rimsschemedrawer]: Remove: archive file [/home/abi/fetcher/tmp/rimsschemedrawer-3.0.0.dev3.tar.gz]
+[2024-04-05 11:40:33] INFO root fetch - processPackages [rimsschemedrawer]: Remove: archive file [/home/abi/fetcher/tmp/rimsschemedrawer-3.0.0.dev4.tar.gz]
+[2024-04-05 11:40:33] INFO root fetch - main [MainThread]: End processing [rimsschemedrawer]: success
+[2024-04-05 11:40:33] INFO root fetch - processPackages [copernicusmarine]: Remove: archive file [/home/abi/fetcher/tmp/copernicusmarine-1.0.8.tar.gz]
+[2024-04-05 11:40:33] INFO root fetch - processPackages [copernicusmarine]: Remove: archive file [/home/abi/fetcher/tmp/copernicusmarine-1.0.9.tar.gz]
+[2024-04-05 11:40:33] INFO root fetch - main [MainThread]: End processing [copernicusmarine]: success
+[2024-04-05 11:40:33] INFO root fetch - processPackages [paystackease]: Remove: archive file [/home/abi/fetcher/tmp/paystackease-0.1.3.tar.gz]
+[2024-04-05 11:40:33] INFO root fetch - processPackages [paystackease]: Remove: archive file [/home/abi/fetcher/tmp/paystackease-1.0.0.tar.gz]
+[2024-04-05 11:40:33] INFO root fetch - main [MainThread]: End processing [paystackease]: success
+[2024-04-05 11:40:34] INFO root fetch - processPackages [nucliadb-node-binding]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_node_binding-2.46.1.post1079.tar.gz]
+[2024-04-05 11:40:34] INFO root fetch - processPackages [nucliadb-node-binding]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_node_binding-2.46.1.post1093.tar.gz]
+[2024-04-05 11:40:34] INFO root fetch - main [MainThread]: End processing [nucliadb-node-binding]: success
+[2024-04-05 11:40:34] INFO root fetch - main [MainThread]: Store serial: [22634136]
