@@ -3731,3 +3731,31 @@
 [2024-04-05 02:50:14] INFO root fetch - processPackages [pikaur]: Remove: archive file [/home/abi/fetcher/tmp/pikaur-1.9.tar.gz]
 [2024-04-05 02:50:14] INFO root fetch - main [MainThread]: End processing [pikaur]: success
 [2024-04-05 02:50:14] INFO root fetch - main [MainThread]: Store serial: [22629429]
+[2024-04-05 02:52:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22629429]
+[2024-04-05 02:52:22] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-05 02:52:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: libbs
+[2024-04-05 02:52:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: integdb
+[2024-04-05 02:52:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: wzy-bt-print
+[2024-04-05 02:52:23] INFO root fetch - processPackages [wzy-bt-print]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-04-05 02:52:23] INFO root fetch - processPackages [wzy-bt-print]: Downloading https://files.pythonhosted.org/packages/ae/5e/e1abd8e5ab2d121c5449733aeed76e071b2ab493320dde18a22da77e9e0c/wzy_bt_print-0.1.0.tar.gz
+[2024-04-05 02:52:23] WARNING root fetch - processPackages [integdb]: Skipping, unable to determine old version
+[2024-04-05 02:52:23] INFO root fetch - main [MainThread]: End processing [integdb] error
+[2024-04-05 02:52:23] INFO root fetch - processPackages [libbs]: New version: [1.2.2] Old Version: [1.2.1]
+[2024-04-05 02:52:23] WARNING root fetch - processPackages [wzy-bt-print]: Timeout reached during download
+[2024-04-05 02:52:23] INFO root fetch - processPackages [wzy-bt-print]: Downloading https://files.pythonhosted.org/packages/ac/4f/f434c9aff90ab7f0ccb36a6df781d70a6376759811cb4b2e500840677eba/wzy_bt_print-0.1.1.tar.gz
+[2024-04-05 02:52:23] INFO root fetch - processPackages [libbs]: Downloading https://files.pythonhosted.org/packages/85/cb/b6c8fc9782f0a594906b0371dfb027fd653aec9707cc223208100dd15f6b/libbs-1.2.1.tar.gz
+[2024-04-05 02:52:23] WARNING root fetch - processPackages [wzy-bt-print]: Timeout reached during download
+[2024-04-05 02:52:23] INFO root fetch - processPackages [wzy-bt-print]: executing diffoscope
+[2024-04-05 02:52:23] INFO root fetch - processPackages [wzy-bt-print]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wzy_bt_print-0.1.0.tar.gz tmp/wzy_bt_print-0.1.1.tar.gz --markdown 20240405/w/wzy-bt-print/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2024-04-05 02:52:23] WARNING root fetch - processPackages [libbs]: Timeout reached during download
+[2024-04-05 02:52:23] INFO root fetch - processPackages [libbs]: Downloading https://files.pythonhosted.org/packages/17/84/195fb0d382d8588bad70215176d5598180526ce9466c21a6485b68f3a736/libbs-1.2.2.tar.gz
+[2024-04-05 02:52:23] WARNING root fetch - processPackages [libbs]: Timeout reached during download
+[2024-04-05 02:52:23] INFO root fetch - processPackages [libbs]: executing diffoscope
+[2024-04-05 02:52:23] INFO root fetch - processPackages [libbs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/libbs-1.2.1.tar.gz tmp/libbs-1.2.2.tar.gz --markdown 20240405/l/libbs/1.2.1-1.2.2/diff.md --exclude *.pyd
+[2024-04-05 02:52:24] INFO root fetch - processPackages [wzy-bt-print]: Remove: archive file [/home/abi/fetcher/tmp/wzy_bt_print-0.1.0.tar.gz]
+[2024-04-05 02:52:24] INFO root fetch - processPackages [wzy-bt-print]: Remove: archive file [/home/abi/fetcher/tmp/wzy_bt_print-0.1.1.tar.gz]
+[2024-04-05 02:52:24] INFO root fetch - main [MainThread]: End processing [wzy-bt-print]: success
+[2024-04-05 02:52:24] INFO root fetch - processPackages [libbs]: Remove: archive file [/home/abi/fetcher/tmp/libbs-1.2.1.tar.gz]
+[2024-04-05 02:52:24] INFO root fetch - processPackages [libbs]: Remove: archive file [/home/abi/fetcher/tmp/libbs-1.2.2.tar.gz]
+[2024-04-05 02:52:24] INFO root fetch - main [MainThread]: End processing [libbs]: success
+[2024-04-05 02:52:24] INFO root fetch - main [MainThread]: Store serial: [22629440]
