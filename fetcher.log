@@ -15090,3 +15090,87 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2024-04-05 09:42:03] INFO root fetch - processPackages [tidal-dl-ng]: Remove: archive file [/home/abi/fetcher/tmp/tidal_dl_ng-0.9.1.tar.gz]
 [2024-04-05 09:42:03] INFO root fetch - main [MainThread]: End processing [tidal-dl-ng]: success
 [2024-04-05 09:42:03] INFO root fetch - main [MainThread]: Store serial: [22632927]
+[2024-04-05 09:44:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22632927]
+[2024-04-05 09:44:11] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-05 09:44:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: easybuild-framework
+[2024-04-05 09:44:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gidgetlab-kit
+[2024-04-05 09:44:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: asbe
+[2024-04-05 09:44:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: easybuild-easyblocks
+[2024-04-05 09:44:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nextmeeting
+[2024-04-05 09:44:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: tinyscript
+[2024-04-05 09:44:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: easybuild-easyconfigs
+[2024-04-05 09:44:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: numerous
+[2024-04-05 09:44:12] INFO root fetch - processPackages [easybuild-easyblocks]: New version: [4.9.1] Old Version: [4.9.0]
+[2024-04-05 09:44:12] INFO root fetch - processPackages [nextmeeting]: New version: [1.5.1] Old Version: [1.5.0]
+[2024-04-05 09:44:12] INFO root fetch - processPackages [easybuild-framework]: New version: [4.9.1] Old Version: [4.9.0]
+[2024-04-05 09:44:12] INFO root fetch - processPackages [numerous]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-05 09:44:12] INFO root fetch - processPackages [asbe]: New version: [0.1.4] Old Version: [0.1.3]
+[2024-04-05 09:44:12] INFO root fetch - processPackages [gidgetlab-kit]: New version: [0.7.2] Old Version: [0.7.1]
+[2024-04-05 09:44:12] INFO root fetch - processPackages [easybuild-easyconfigs]: New version: [4.9.1] Old Version: [4.9.0]
+[2024-04-05 09:44:12] INFO root fetch - processPackages [tinyscript]: New version: [1.9.5] Old Version: [1.9.4]
+[2024-04-05 09:44:12] INFO root fetch - processPackages [easybuild-easyblocks]: Downloading https://files.pythonhosted.org/packages/6c/fb/86e8d0e3a7e7b4ec5c2953b369f0bcf452a024b2504fa1fa1b9065ab8955/easybuild-easyblocks-4.9.0.tar.gz
+[2024-04-05 09:44:12] INFO root fetch - processPackages [easybuild-framework]: Downloading https://files.pythonhosted.org/packages/13/53/816fd9cabba920ab7457c4a9dba3225ede9cca7284ec910c5216e98ae3d2/easybuild-framework-4.9.0.tar.gz
+[2024-04-05 09:44:12] INFO root fetch - processPackages [nextmeeting]: Downloading https://files.pythonhosted.org/packages/04/52/1317e2da8e7b6bdf8abb7a864f7572157b0ddaf1cbbabd3cb98ca96e5833/nextmeeting-1.5.0.tar.gz
+[2024-04-05 09:44:12] INFO root fetch - processPackages [gidgetlab-kit]: Downloading https://files.pythonhosted.org/packages/ff/04/d092710f357509fca8b24e555f20c77733ed163219e40b261d50af7b345f/gidgetlab_kit-0.7.1.tar.gz
+[2024-04-05 09:44:12] INFO root fetch - processPackages [asbe]: Downloading https://files.pythonhosted.org/packages/b3/e7/aa86549a8c8b1596f38ddfeaa08828c9b8d6a9e8982f3d4edb1001dea1ad/asbe-0.1.3.tar.gz
+[2024-04-05 09:44:12] INFO root fetch - processPackages [tinyscript]: Downloading https://files.pythonhosted.org/packages/45/d0/3393f08eca58519f8e94086418ba3efe9502ad4acb3cc377fe73b08f64ab/tinyscript-1.9.4.tar.gz
+[2024-04-05 09:44:12] INFO root fetch - processPackages [numerous]: Downloading https://files.pythonhosted.org/packages/77/6b/96d48ee9e315541e9d856fc6a93ffd7c7a217dc9f817f2da1ff2f37c5d0f/numerous-0.0.8.tar.gz
+[2024-04-05 09:44:12] INFO root fetch - processPackages [easybuild-easyconfigs]: Downloading https://files.pythonhosted.org/packages/6c/65/fb99bd1e1786d24c9bb93bffe7f534c147ff26e806f501b76677c541b861/easybuild-easyconfigs-4.9.0.tar.gz
+[2024-04-05 09:44:12] WARNING root fetch - processPackages [nextmeeting]: Timeout reached during download
+[2024-04-05 09:44:12] WARNING root fetch - processPackages [numerous]: Skipping package: exceeds size limit 34528401>=10485760
+[2024-04-05 09:44:12] INFO root fetch - main [MainThread]: End processing [numerous] error
+[2024-04-05 09:44:12] WARNING root fetch - processPackages [tinyscript]: Timeout reached during download
+[2024-04-05 09:44:12] WARNING root fetch - processPackages [gidgetlab-kit]: Timeout reached during download
+[2024-04-05 09:44:12] WARNING root fetch - processPackages [easybuild-easyblocks]: Timeout reached during download
+[2024-04-05 09:44:12] WARNING root fetch - processPackages [asbe]: Timeout reached during download
+[2024-04-05 09:44:12] INFO root fetch - processPackages [nextmeeting]: Downloading https://files.pythonhosted.org/packages/ce/49/e3125120459e10a582d8bf301c8ffa28590a62fb529111415c11dde92ac8/nextmeeting-1.5.1.tar.gz
+[2024-04-05 09:44:12] WARNING root fetch - processPackages [easybuild-framework]: Timeout reached during download
+[2024-04-05 09:44:12] INFO root fetch - processPackages [gidgetlab-kit]: Downloading https://files.pythonhosted.org/packages/3e/d2/ee4145f4f65bab0262aeac6bf0df35db76691e8bebea6c36cf503d17973a/gidgetlab_kit-0.7.2.tar.gz
+[2024-04-05 09:44:12] INFO root fetch - processPackages [tinyscript]: Downloading https://files.pythonhosted.org/packages/a4/92/f1a76d3caa9d4c9a8eea462e7b0ebce18a722fc05ccdba197c2ce598db2b/tinyscript-1.9.5.tar.gz
+[2024-04-05 09:44:12] INFO root fetch - processPackages [easybuild-easyblocks]: Downloading https://files.pythonhosted.org/packages/ec/bd/c6117c19a49711752e095f425937d3405d90b1a60089d953f688ee89e6a8/easybuild-easyblocks-4.9.1.tar.gz
+[2024-04-05 09:44:12] INFO root fetch - processPackages [asbe]: Downloading https://files.pythonhosted.org/packages/bd/14/4bad926a3ff2aa4652388ccffafd0a767e6547420bccb6fb66e950e5b688/asbe-0.1.4.tar.gz
+[2024-04-05 09:44:12] WARNING root fetch - processPackages [nextmeeting]: Timeout reached during download
+[2024-04-05 09:44:12] INFO root fetch - processPackages [nextmeeting]: executing diffoscope
+[2024-04-05 09:44:12] INFO root fetch - processPackages [nextmeeting]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nextmeeting-1.5.0.tar.gz tmp/nextmeeting-1.5.1.tar.gz --markdown 20240405/n/nextmeeting/1.5.0-1.5.1/diff.md --exclude *.pyd
+[2024-04-05 09:44:13] WARNING root fetch - processPackages [easybuild-easyconfigs]: Timeout reached during download
+[2024-04-05 09:44:13] INFO root fetch - processPackages [easybuild-framework]: Downloading https://files.pythonhosted.org/packages/39/52/e61195776d676e96289b2956f6a1045c0577d836c776c04bc3694c6b4b89/easybuild-framework-4.9.1.tar.gz
+[2024-04-05 09:44:13] WARNING root fetch - processPackages [gidgetlab-kit]: Timeout reached during download
+[2024-04-05 09:44:13] INFO root fetch - processPackages [gidgetlab-kit]: executing diffoscope
+[2024-04-05 09:44:13] INFO root fetch - processPackages [gidgetlab-kit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gidgetlab_kit-0.7.1.tar.gz tmp/gidgetlab_kit-0.7.2.tar.gz --markdown 20240405/g/gidgetlab-kit/0.7.1-0.7.2/diff.md --exclude *.pyd
+[2024-04-05 09:44:13] WARNING root fetch - processPackages [tinyscript]: Timeout reached during download
+[2024-04-05 09:44:13] INFO root fetch - processPackages [tinyscript]: executing diffoscope
+[2024-04-05 09:44:13] INFO root fetch - processPackages [tinyscript]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tinyscript-1.9.4.tar.gz tmp/tinyscript-1.9.5.tar.gz --markdown 20240405/t/tinyscript/1.9.4-1.9.5/diff.md --exclude *.pyd
+[2024-04-05 09:44:13] WARNING root fetch - processPackages [asbe]: Timeout reached during download
+[2024-04-05 09:44:13] INFO root fetch - processPackages [asbe]: executing diffoscope
+[2024-04-05 09:44:13] INFO root fetch - processPackages [asbe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/asbe-0.1.3.tar.gz tmp/asbe-0.1.4.tar.gz --markdown 20240405/a/asbe/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2024-04-05 09:44:13] WARNING root fetch - processPackages [easybuild-easyblocks]: Timeout reached during download
+[2024-04-05 09:44:13] INFO root fetch - processPackages [easybuild-easyblocks]: executing diffoscope
+[2024-04-05 09:44:13] INFO root fetch - processPackages [easybuild-easyblocks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/easybuild-easyblocks-4.9.0.tar.gz tmp/easybuild-easyblocks-4.9.1.tar.gz --markdown 20240405/e/easybuild-easyblocks/4.9.0-4.9.1/diff.md --exclude *.pyd
+[2024-04-05 09:44:13] INFO root fetch - processPackages [easybuild-easyconfigs]: Downloading https://files.pythonhosted.org/packages/2d/78/a9357a9ef22703bb982427a25989dc9f563f21073f08cba5dc914c13a182/easybuild-easyconfigs-4.9.1.tar.gz
+[2024-04-05 09:44:13] WARNING root fetch - processPackages [easybuild-framework]: Timeout reached during download
+[2024-04-05 09:44:13] INFO root fetch - processPackages [easybuild-framework]: executing diffoscope
+[2024-04-05 09:44:13] INFO root fetch - processPackages [easybuild-framework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/easybuild-framework-4.9.0.tar.gz tmp/easybuild-framework-4.9.1.tar.gz --markdown 20240405/e/easybuild-framework/4.9.0-4.9.1/diff.md --exclude *.pyd
+[2024-04-05 09:44:13] INFO root fetch - processPackages [nextmeeting]: Remove: archive file [/home/abi/fetcher/tmp/nextmeeting-1.5.0.tar.gz]
+[2024-04-05 09:44:13] INFO root fetch - processPackages [nextmeeting]: Remove: archive file [/home/abi/fetcher/tmp/nextmeeting-1.5.1.tar.gz]
+[2024-04-05 09:44:13] INFO root fetch - main [MainThread]: End processing [nextmeeting]: success
+[2024-04-05 09:44:13] INFO root fetch - processPackages [asbe]: Remove: archive file [/home/abi/fetcher/tmp/asbe-0.1.3.tar.gz]
+[2024-04-05 09:44:13] INFO root fetch - processPackages [asbe]: Remove: archive file [/home/abi/fetcher/tmp/asbe-0.1.4.tar.gz]
+[2024-04-05 09:44:13] INFO root fetch - main [MainThread]: End processing [asbe]: success
+[2024-04-05 09:44:13] INFO root fetch - processPackages [tinyscript]: Remove: archive file [/home/abi/fetcher/tmp/tinyscript-1.9.4.tar.gz]
+[2024-04-05 09:44:13] INFO root fetch - processPackages [tinyscript]: Remove: archive file [/home/abi/fetcher/tmp/tinyscript-1.9.5.tar.gz]
+[2024-04-05 09:44:13] INFO root fetch - main [MainThread]: End processing [tinyscript]: success
+[2024-04-05 09:44:13] INFO root fetch - processPackages [gidgetlab-kit]: Remove: archive file [/home/abi/fetcher/tmp/gidgetlab_kit-0.7.1.tar.gz]
+[2024-04-05 09:44:13] INFO root fetch - processPackages [gidgetlab-kit]: Remove: archive file [/home/abi/fetcher/tmp/gidgetlab_kit-0.7.2.tar.gz]
+[2024-04-05 09:44:13] INFO root fetch - main [MainThread]: End processing [gidgetlab-kit]: success
+[2024-04-05 09:44:14] WARNING root fetch - processPackages [easybuild-easyconfigs]: Timeout reached during download
+[2024-04-05 09:44:14] INFO root fetch - processPackages [easybuild-easyconfigs]: executing diffoscope
+[2024-04-05 09:44:14] INFO root fetch - processPackages [easybuild-easyconfigs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/easybuild-easyconfigs-4.9.0.tar.gz tmp/easybuild-easyconfigs-4.9.1.tar.gz --markdown 20240405/e/easybuild-easyconfigs/4.9.0-4.9.1/diff.md --exclude *.pyd
+[2024-04-05 09:44:16] INFO root fetch - processPackages [easybuild-easyblocks]: Remove: archive file [/home/abi/fetcher/tmp/easybuild-easyblocks-4.9.0.tar.gz]
+[2024-04-05 09:44:16] INFO root fetch - processPackages [easybuild-easyblocks]: Remove: archive file [/home/abi/fetcher/tmp/easybuild-easyblocks-4.9.1.tar.gz]
+[2024-04-05 09:44:16] INFO root fetch - main [MainThread]: End processing [easybuild-easyblocks]: success
+[2024-04-05 09:44:18] INFO root fetch - processPackages [easybuild-framework]: Remove: archive file [/home/abi/fetcher/tmp/easybuild-framework-4.9.0.tar.gz]
+[2024-04-05 09:44:18] INFO root fetch - processPackages [easybuild-framework]: Remove: archive file [/home/abi/fetcher/tmp/easybuild-framework-4.9.1.tar.gz]
+[2024-04-05 09:44:18] INFO root fetch - main [MainThread]: End processing [easybuild-framework]: success
+[2024-04-05 09:47:14] ERROR root fetch - processPackages [easybuild-easyconfigs]: Timeout during execution of pkgdiff
+[2024-04-05 09:47:14] INFO root fetch - main [MainThread]: End processing [easybuild-easyconfigs] error
+[2024-04-05 09:47:14] INFO root fetch - main [MainThread]: Store serial: [22632946]
