@@ -16779,3 +16779,52 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2024-04-05 10:51:12] INFO root fetch - processPackages [arviz]: Remove: archive file [/home/abi/fetcher/tmp/arviz-0.9.0.tar.gz]
 [2024-04-05 10:51:12] INFO root fetch - main [MainThread]: End processing [arviz]: success
 [2024-04-05 10:51:12] INFO root fetch - main [MainThread]: Store serial: [22633606]
+[2024-04-05 10:53:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22633606]
+[2024-04-05 10:53:22] INFO root fetch - main [MainThread]: No changed packages found
+[2024-04-05 10:55:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22633624]
+[2024-04-05 10:55:27] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-05 10:55:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mlipy
+[2024-04-05 10:55:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: scraperapi-sdk
+[2024-04-05 10:55:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: 42-taskmaster
+[2024-04-05 10:55:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dekgen
+[2024-04-05 10:55:28] INFO root fetch - processPackages [scraperapi-sdk]: New version: [1.2.0] Old Version: [1.1.0]
+[2024-04-05 10:55:28] INFO root fetch - processPackages [scraperapi-sdk]: Downloading https://files.pythonhosted.org/packages/03/10/bfa60023f356d0dbd90ab3ee9463d36bb97a7d65ba74f7c6e953d5c6004b/scraperapi_sdk-1.1.0.tar.gz
+[2024-04-05 10:55:28] INFO root fetch - processPackages [42-taskmaster]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-04-05 10:55:28] INFO root fetch - processPackages [mlipy]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-05 10:55:28] INFO root fetch - processPackages [dekgen]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-05 10:55:28] WARNING root fetch - processPackages [scraperapi-sdk]: Timeout reached during download
+[2024-04-05 10:55:28] INFO root fetch - processPackages [42-taskmaster]: Downloading https://files.pythonhosted.org/packages/d9/a9/70f893093db26dbe911c425d3b9c6d6f72fda1f5aaad0fab5f436b8e2ba5/42-taskmaster-1.0.0.tar.gz
+[2024-04-05 10:55:28] INFO root fetch - processPackages [scraperapi-sdk]: Downloading https://files.pythonhosted.org/packages/bf/ab/6fadb3f9b87be852a153fd269ac0e347808dc0fd40d4060f25b10772ef08/scraperapi_sdk-1.2.0.tar.gz
+[2024-04-05 10:55:28] INFO root fetch - processPackages [mlipy]: Downloading https://files.pythonhosted.org/packages/ed/fa/dddfc94dc060787f3f456677f01a46aa640bd2bb6dee0cf9533ed7df0a82/mlipy-0.1.8.tar.gz
+[2024-04-05 10:55:28] WARNING root fetch - processPackages [42-taskmaster]: Timeout reached during download
+[2024-04-05 10:55:28] WARNING root fetch - processPackages [scraperapi-sdk]: Timeout reached during download
+[2024-04-05 10:55:28] INFO root fetch - processPackages [scraperapi-sdk]: executing diffoscope
+[2024-04-05 10:55:28] INFO root fetch - processPackages [scraperapi-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scraperapi_sdk-1.1.0.tar.gz tmp/scraperapi_sdk-1.2.0.tar.gz --markdown 20240405/s/scraperapi-sdk/1.1.0-1.2.0/diff.md --exclude *.pyd
+[2024-04-05 10:55:28] INFO root fetch - processPackages [dekgen]: Downloading https://files.pythonhosted.org/packages/55/ca/bc39ed4f7ba1f2a43d1d5932cf09ce55c8c2a45f66d444a15214d233ffa8/dekgen-0.1.8.tar.gz
+[2024-04-05 10:55:28] WARNING root fetch - processPackages [mlipy]: Timeout reached during download
+[2024-04-05 10:55:28] INFO root fetch - processPackages [42-taskmaster]: Downloading https://files.pythonhosted.org/packages/1f/f1/58c3dc6d45c2c5186c8e38efbed0a4a8faac0d38555630bb655d7760355f/42-taskmaster-1.0.1.tar.gz
+[2024-04-05 10:55:28] WARNING root fetch - processPackages [dekgen]: Timeout reached during download
+[2024-04-05 10:55:28] INFO root fetch - processPackages [mlipy]: Downloading https://files.pythonhosted.org/packages/50/37/99813a7b2b4baa323b9788624a5fa2104d355ae37d9ff025232583581a83/mlipy-0.1.9.tar.gz
+[2024-04-05 10:55:28] WARNING root fetch - processPackages [42-taskmaster]: Timeout reached during download
+[2024-04-05 10:55:28] INFO root fetch - processPackages [42-taskmaster]: executing diffoscope
+[2024-04-05 10:55:28] INFO root fetch - processPackages [42-taskmaster]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/42-taskmaster-1.0.0.tar.gz tmp/42-taskmaster-1.0.1.tar.gz --markdown 20240405/4/42-taskmaster/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2024-04-05 10:55:28] WARNING root fetch - processPackages [mlipy]: Timeout reached during download
+[2024-04-05 10:55:28] INFO root fetch - processPackages [mlipy]: executing diffoscope
+[2024-04-05 10:55:28] INFO root fetch - processPackages [mlipy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mlipy-0.1.8.tar.gz tmp/mlipy-0.1.9.tar.gz --markdown 20240405/m/mlipy/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2024-04-05 10:55:28] INFO root fetch - processPackages [dekgen]: Downloading https://files.pythonhosted.org/packages/d7/e9/81205c4038ca752897f47f6a78838322c7bbbcbfe113b202bbe6b47bd10d/dekgen-0.1.9.tar.gz
+[2024-04-05 10:55:29] INFO root fetch - processPackages [scraperapi-sdk]: Remove: archive file [/home/abi/fetcher/tmp/scraperapi_sdk-1.1.0.tar.gz]
+[2024-04-05 10:55:29] INFO root fetch - processPackages [scraperapi-sdk]: Remove: archive file [/home/abi/fetcher/tmp/scraperapi_sdk-1.2.0.tar.gz]
+[2024-04-05 10:55:29] INFO root fetch - main [MainThread]: End processing [scraperapi-sdk]: success
+[2024-04-05 10:55:29] WARNING root fetch - processPackages [dekgen]: Timeout reached during download
+[2024-04-05 10:55:29] INFO root fetch - processPackages [dekgen]: executing diffoscope
+[2024-04-05 10:55:29] INFO root fetch - processPackages [dekgen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dekgen-0.1.8.tar.gz tmp/dekgen-0.1.9.tar.gz --markdown 20240405/d/dekgen/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2024-04-05 10:55:29] INFO root fetch - processPackages [mlipy]: Remove: archive file [/home/abi/fetcher/tmp/mlipy-0.1.8.tar.gz]
+[2024-04-05 10:55:29] INFO root fetch - processPackages [mlipy]: Remove: archive file [/home/abi/fetcher/tmp/mlipy-0.1.9.tar.gz]
+[2024-04-05 10:55:29] INFO root fetch - main [MainThread]: End processing [mlipy]: success
+[2024-04-05 10:55:29] INFO root fetch - processPackages [42-taskmaster]: Remove: archive file [/home/abi/fetcher/tmp/42-taskmaster-1.0.0.tar.gz]
+[2024-04-05 10:55:29] INFO root fetch - processPackages [42-taskmaster]: Remove: archive file [/home/abi/fetcher/tmp/42-taskmaster-1.0.1.tar.gz]
+[2024-04-05 10:55:29] INFO root fetch - main [MainThread]: End processing [42-taskmaster]: success
+[2024-04-05 10:55:29] INFO root fetch - processPackages [dekgen]: Remove: archive file [/home/abi/fetcher/tmp/dekgen-0.1.8.tar.gz]
+[2024-04-05 10:55:29] INFO root fetch - processPackages [dekgen]: Remove: archive file [/home/abi/fetcher/tmp/dekgen-0.1.9.tar.gz]
+[2024-04-05 10:55:29] INFO root fetch - main [MainThread]: End processing [dekgen]: success
+[2024-04-05 10:55:29] INFO root fetch - main [MainThread]: Store serial: [22633658]
