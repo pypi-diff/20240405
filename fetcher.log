@@ -18941,3 +18941,42 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2024-04-05 12:18:15] INFO root fetch - processPackages [nucliadb-admin-assets]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_admin_assets-1.0.0.post1467-py3-none-any.whl.zip]
 [2024-04-05 12:18:15] INFO root fetch - main [MainThread]: End processing [nucliadb-admin-assets]: success
 [2024-04-05 12:18:15] INFO root fetch - main [MainThread]: Store serial: [22634452]
+[2024-04-05 12:20:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22634452]
+[2024-04-05 12:20:25] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-05 12:20:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: liveeo-databricks
+[2024-04-05 12:20:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cloudsmith-cli
+[2024-04-05 12:20:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: laoshi
+[2024-04-05 12:20:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyformlang
+[2024-04-05 12:20:26] INFO root fetch - processPackages [laoshi]: New version: [0.1.0] Old Version: [0.0.0]
+[2024-04-05 12:20:26] WARNING root fetch - processPackages [liveeo-databricks]: Skipping, unable to determine old version
+[2024-04-05 12:20:26] INFO root fetch - main [MainThread]: End processing [liveeo-databricks] error
+[2024-04-05 12:20:26] INFO root fetch - processPackages [pyformlang]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-05 12:20:26] INFO root fetch - processPackages [cloudsmith-cli]: New version: [1.2.2] Old Version: [1.2.0]
+[2024-04-05 12:20:26] INFO root fetch - processPackages [laoshi]: Downloading https://files.pythonhosted.org/packages/12/86/9b17d1e547c4f08b6cd8336af2c06af2dac3df0f2e6c55c0986c43952ba0/laoshi-0.0.0.tar.gz
+[2024-04-05 12:20:26] INFO root fetch - processPackages [cloudsmith-cli]: Downloading https://files.pythonhosted.org/packages/75/a2/65345d35b14febfa91b09a20d4acdff9de83883440c3b06f255033358ba6/cloudsmith_cli-1.2.0-py2.py3-none-any.whl
+[2024-04-05 12:20:26] WARNING root fetch - processPackages [laoshi]: Timeout reached during download
+[2024-04-05 12:20:26] INFO root fetch - processPackages [pyformlang]: Downloading https://files.pythonhosted.org/packages/f6/7c/9f40b770a6725d36627a2fe403ebbda2b3771371535cd318c985b9d6ce81/pyformlang-1.0.8.tar.gz
+[2024-04-05 12:20:26] WARNING root fetch - processPackages [cloudsmith-cli]: Timeout reached during download
+[2024-04-05 12:20:26] INFO root fetch - processPackages [laoshi]: Downloading https://files.pythonhosted.org/packages/f9/86/6d3eb5039fa4d2cb79f30cea07708e6be6112c5e07dc06bc1339c66e73a9/laoshi-0.1.0.tar.gz
+[2024-04-05 12:20:26] INFO root fetch - processPackages [cloudsmith-cli]: Downloading https://files.pythonhosted.org/packages/ac/5f/6c85683c6225191a9eb97c95d5e02aec4285dec94ed13949489c7d7b4c88/cloudsmith_cli-1.2.2-py2.py3-none-any.whl
+[2024-04-05 12:20:26] WARNING root fetch - processPackages [laoshi]: Timeout reached during download
+[2024-04-05 12:20:26] INFO root fetch - processPackages [laoshi]: executing diffoscope
+[2024-04-05 12:20:26] INFO root fetch - processPackages [laoshi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/laoshi-0.0.0.tar.gz tmp/laoshi-0.1.0.tar.gz --markdown 20240405/l/laoshi/0.0.0-0.1.0/diff.md --exclude *.pyd
+[2024-04-05 12:20:26] WARNING root fetch - processPackages [cloudsmith-cli]: Timeout reached during download
+[2024-04-05 12:20:26] INFO root fetch - processPackages [cloudsmith-cli]: executing diffoscope
+[2024-04-05 12:20:26] INFO root fetch - processPackages [cloudsmith-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cloudsmith_cli-1.2.0-py2.py3-none-any.whl.zip tmp/cloudsmith_cli-1.2.2-py2.py3-none-any.whl.zip --markdown 20240405/c/cloudsmith-cli/1.2.0-1.2.2/diff.md --exclude *.pyd
+[2024-04-05 12:20:26] WARNING root fetch - processPackages [pyformlang]: Timeout reached during download
+[2024-04-05 12:20:26] INFO root fetch - processPackages [pyformlang]: Downloading https://files.pythonhosted.org/packages/e3/97/9138900464b260787256cd98239d4ddff059632eb34cc99e902056bdf87a/pyformlang-1.0.9.tar.gz
+[2024-04-05 12:20:27] WARNING root fetch - processPackages [pyformlang]: Timeout reached during download
+[2024-04-05 12:20:27] INFO root fetch - processPackages [pyformlang]: executing diffoscope
+[2024-04-05 12:20:27] INFO root fetch - processPackages [pyformlang]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyformlang-1.0.8.tar.gz tmp/pyformlang-1.0.9.tar.gz --markdown 20240405/p/pyformlang/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2024-04-05 12:20:27] INFO root fetch - processPackages [laoshi]: Remove: archive file [/home/abi/fetcher/tmp/laoshi-0.0.0.tar.gz]
+[2024-04-05 12:20:27] INFO root fetch - processPackages [laoshi]: Remove: archive file [/home/abi/fetcher/tmp/laoshi-0.1.0.tar.gz]
+[2024-04-05 12:20:27] INFO root fetch - main [MainThread]: End processing [laoshi]: success
+[2024-04-05 12:20:27] INFO root fetch - processPackages [cloudsmith-cli]: Remove: archive file [/home/abi/fetcher/tmp/cloudsmith_cli-1.2.0-py2.py3-none-any.whl.zip]
+[2024-04-05 12:20:27] INFO root fetch - processPackages [cloudsmith-cli]: Remove: archive file [/home/abi/fetcher/tmp/cloudsmith_cli-1.2.2-py2.py3-none-any.whl.zip]
+[2024-04-05 12:20:27] INFO root fetch - main [MainThread]: End processing [cloudsmith-cli]: success
+[2024-04-05 12:20:27] INFO root fetch - processPackages [pyformlang]: Remove: archive file [/home/abi/fetcher/tmp/pyformlang-1.0.8.tar.gz]
+[2024-04-05 12:20:27] INFO root fetch - processPackages [pyformlang]: Remove: archive file [/home/abi/fetcher/tmp/pyformlang-1.0.9.tar.gz]
+[2024-04-05 12:20:27] INFO root fetch - main [MainThread]: End processing [pyformlang]: success
+[2024-04-05 12:20:27] INFO root fetch - main [MainThread]: Store serial: [22634469]
