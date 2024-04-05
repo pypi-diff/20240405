@@ -13583,3 +13583,55 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2024-04-05 08:30:08] INFO root fetch - processPackages [volstreet]: Remove: archive file [/home/abi/fetcher/tmp/volstreet-7.0.3.tar.gz]
 [2024-04-05 08:30:08] INFO root fetch - main [MainThread]: End processing [volstreet]: success
 [2024-04-05 08:30:08] INFO root fetch - main [MainThread]: Store serial: [22632503]
+[2024-04-05 08:32:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22632503]
+[2024-04-05 08:32:16] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-05 08:32:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: MyLLM
+[2024-04-05 08:32:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: icutil-IGNchinmay
+[2024-04-05 08:32:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: groupdocs-conversion-cloud
+[2024-04-05 08:32:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: netops
+[2024-04-05 08:32:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: semper
+[2024-04-05 08:32:17] INFO root fetch - processPackages [icutil-IGNchinmay]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-04-05 08:32:17] INFO root fetch - processPackages [netops]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-04-05 08:32:17] INFO root fetch - processPackages [groupdocs-conversion-cloud]: New version: [24.4] Old Version: [24.2]
+[2024-04-05 08:32:17] INFO root fetch - processPackages [semper]: New version: [2.7] Old Version: [2.6]
+[2024-04-05 08:32:17] INFO root fetch - processPackages [netops]: Downloading https://files.pythonhosted.org/packages/03/28/886c0c747df076875bc71f9d881a61e7fa1f48bb062538a5cf8aed216445/netops-0.2.8.tar.gz
+[2024-04-05 08:32:17] INFO root fetch - processPackages [MyLLM]: New version: [4.7.8] Old Version: [4.7.7]
+[2024-04-05 08:32:17] INFO root fetch - processPackages [icutil-IGNchinmay]: Downloading https://files.pythonhosted.org/packages/ef/c8/5a66b7e484a9a4ea71213afa7bfe7f977f8903f17241b14c64eaab2420ec/icutil_IGNchinmay-0.0.2.tar.gz
+[2024-04-05 08:32:17] INFO root fetch - processPackages [groupdocs-conversion-cloud]: Downloading https://files.pythonhosted.org/packages/7e/02/7fbf9fb2c0fbf6b0d01302d50a1c416304cbdb56c6848b7f6ad6bb093e3e/groupdocs-conversion-cloud-24.2.tar.gz
+[2024-04-05 08:32:17] WARNING root fetch - processPackages [netops]: Timeout reached during download
+[2024-04-05 08:32:17] INFO root fetch - processPackages [semper]: Downloading https://files.pythonhosted.org/packages/a1/88/cfccd1e69a7cb27230ea82eca3a6e59cdd9f7f9c84b6ff93cd07e2e71e66/semper-2.6.tar.gz
+[2024-04-05 08:32:17] INFO root fetch - processPackages [MyLLM]: Downloading https://files.pythonhosted.org/packages/f1/7c/548574b9ac440f92b2c6e0947013b071a4457b4b36d956f5ff16b256384a/myllm-4.7.7.tar.gz
+[2024-04-05 08:32:17] WARNING root fetch - processPackages [icutil-IGNchinmay]: Timeout reached during download
+[2024-04-05 08:32:17] INFO root fetch - processPackages [netops]: Downloading https://files.pythonhosted.org/packages/0c/a5/64775fa07e603f414080008f021522ef189098e287b65330d952a0015ebf/netops-0.2.9.tar.gz
+[2024-04-05 08:32:17] WARNING root fetch - processPackages [groupdocs-conversion-cloud]: Timeout reached during download
+[2024-04-05 08:32:17] WARNING root fetch - processPackages [semper]: Skipping package: exceeds size limit 20368790>=10485760
+[2024-04-05 08:32:17] INFO root fetch - main [MainThread]: End processing [semper] error
+[2024-04-05 08:32:17] WARNING root fetch - processPackages [netops]: Timeout reached during download
+[2024-04-05 08:32:17] INFO root fetch - processPackages [netops]: executing diffoscope
+[2024-04-05 08:32:17] INFO root fetch - processPackages [netops]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/netops-0.2.8.tar.gz tmp/netops-0.2.9.tar.gz --markdown 20240405/n/netops/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2024-04-05 08:32:17] INFO root fetch - processPackages [icutil-IGNchinmay]: Downloading https://files.pythonhosted.org/packages/a4/cd/d83559fbd7640527e3d36c8e727954972b61a31185a96befb380cf31755b/icutil_IGNchinmay-0.0.3.tar.gz
+[2024-04-05 08:32:17] WARNING root fetch - processPackages [MyLLM]: Timeout reached during download
+[2024-04-05 08:32:17] WARNING root fetch - processPackages [icutil-IGNchinmay]: Timeout reached during download
+[2024-04-05 08:32:17] INFO root fetch - processPackages [icutil-IGNchinmay]: executing diffoscope
+[2024-04-05 08:32:17] INFO root fetch - processPackages [icutil-IGNchinmay]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/icutil_IGNchinmay-0.0.2.tar.gz tmp/icutil_IGNchinmay-0.0.3.tar.gz --markdown 20240405/i/icutil-IGNchinmay/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2024-04-05 08:32:17] INFO root fetch - processPackages [groupdocs-conversion-cloud]: Downloading https://files.pythonhosted.org/packages/cc/d1/eb11e393304a9b4fdf72b7f783f7346ceedca8498f478eb5e691b5ecf678/groupdocs-conversion-cloud-24.4.tar.gz
+[2024-04-05 08:32:17] INFO root fetch - processPackages [MyLLM]: Downloading https://files.pythonhosted.org/packages/53/e8/3050f832ec9581a9b9ca84a914d5a8c2f0e0fe38c7209f9680a0b474931b/myllm-4.7.8.tar.gz
+[2024-04-05 08:32:17] WARNING root fetch - processPackages [MyLLM]: Timeout reached during download
+[2024-04-05 08:32:17] INFO root fetch - processPackages [MyLLM]: executing diffoscope
+[2024-04-05 08:32:17] INFO root fetch - processPackages [MyLLM]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/myllm-4.7.7.tar.gz tmp/myllm-4.7.8.tar.gz --markdown 20240405/M/MyLLM/4.7.7-4.7.8/diff.md --exclude *.pyd
+[2024-04-05 08:32:17] WARNING root fetch - processPackages [groupdocs-conversion-cloud]: Timeout reached during download
+[2024-04-05 08:32:17] INFO root fetch - processPackages [groupdocs-conversion-cloud]: executing diffoscope
+[2024-04-05 08:32:17] INFO root fetch - processPackages [groupdocs-conversion-cloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/groupdocs-conversion-cloud-24.2.tar.gz tmp/groupdocs-conversion-cloud-24.4.tar.gz --markdown 20240405/g/groupdocs-conversion-cloud/24.2-24.4/diff.md --exclude *.pyd
+[2024-04-05 08:32:18] INFO root fetch - processPackages [netops]: Remove: archive file [/home/abi/fetcher/tmp/netops-0.2.8.tar.gz]
+[2024-04-05 08:32:18] INFO root fetch - processPackages [netops]: Remove: archive file [/home/abi/fetcher/tmp/netops-0.2.9.tar.gz]
+[2024-04-05 08:32:18] INFO root fetch - main [MainThread]: End processing [netops]: success
+[2024-04-05 08:32:18] INFO root fetch - processPackages [icutil-IGNchinmay]: Remove: archive file [/home/abi/fetcher/tmp/icutil_IGNchinmay-0.0.2.tar.gz]
+[2024-04-05 08:32:18] INFO root fetch - processPackages [icutil-IGNchinmay]: Remove: archive file [/home/abi/fetcher/tmp/icutil_IGNchinmay-0.0.3.tar.gz]
+[2024-04-05 08:32:18] INFO root fetch - main [MainThread]: End processing [icutil-IGNchinmay]: success
+[2024-04-05 08:32:18] INFO root fetch - processPackages [MyLLM]: Remove: archive file [/home/abi/fetcher/tmp/myllm-4.7.7.tar.gz]
+[2024-04-05 08:32:18] INFO root fetch - processPackages [MyLLM]: Remove: archive file [/home/abi/fetcher/tmp/myllm-4.7.8.tar.gz]
+[2024-04-05 08:32:18] INFO root fetch - main [MainThread]: End processing [MyLLM]: success
+[2024-04-05 08:32:19] INFO root fetch - processPackages [groupdocs-conversion-cloud]: Remove: archive file [/home/abi/fetcher/tmp/groupdocs-conversion-cloud-24.2.tar.gz]
+[2024-04-05 08:32:19] INFO root fetch - processPackages [groupdocs-conversion-cloud]: Remove: archive file [/home/abi/fetcher/tmp/groupdocs-conversion-cloud-24.4.tar.gz]
+[2024-04-05 08:32:19] INFO root fetch - main [MainThread]: End processing [groupdocs-conversion-cloud]: success
+[2024-04-05 08:32:19] INFO root fetch - main [MainThread]: Store serial: [22632517]
