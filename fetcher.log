@@ -11281,3 +11281,61 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2024-04-05 06:15:21] INFO root fetch - processPackages [petrichor-script-lexer]: Remove: archive file [/home/abi/fetcher/tmp/petrichor_script_lexer-0.11.0.post1.tar.gz]
 [2024-04-05 06:15:21] INFO root fetch - main [MainThread]: End processing [petrichor-script-lexer]: success
 [2024-04-05 06:15:21] INFO root fetch - main [MainThread]: Store serial: [22631672]
+[2024-04-05 06:17:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22631672]
+[2024-04-05 06:17:31] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-05 06:17:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo-addon-geoengine-partner
+[2024-04-05 06:17:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: petrichor-script-lexer
+[2024-04-05 06:17:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tulona
+[2024-04-05 06:17:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo14-addon-helpdesk-mgmt-rating
+[2024-04-05 06:17:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo-addon-helpdesk-mgmt-rating
+[2024-04-05 06:17:31] INFO root fetch - processPackages [petrichor-script-lexer]: New version: [0.11.0.post1] Old Version: [0.11.0]
+[2024-04-05 06:17:31] INFO root fetch - processPackages [petrichor-script-lexer]: Downloading https://files.pythonhosted.org/packages/06/00/e52dec4ce51c4579f21f0e5bb35ed762a5900bcb8b50c59e299260e643ac/petrichor_script_lexer-0.11.0.tar.gz
+[2024-04-05 06:17:31] INFO root fetch - processPackages [odoo-addon-geoengine-partner]: New version: [16.0.1.0.1.5] Old Version: [16.0.1.0.1.4]
+[2024-04-05 06:17:31] INFO root fetch - processPackages [tulona]: New version: [0.2.1] Old Version: [0.2.0]
+[2024-04-05 06:17:31] INFO root fetch - processPackages [odoo14-addon-helpdesk-mgmt-rating]: New version: [14.0.1.3.1.dev8] Old Version: [14.0.1.3.1.dev7]
+[2024-04-05 06:17:31] INFO root fetch - processPackages [odoo-addon-helpdesk-mgmt-rating]: New version: [15.0.1.0.0.9] Old Version: [15.0.1.0.0.8]
+[2024-04-05 06:17:31] WARNING root fetch - processPackages [petrichor-script-lexer]: Timeout reached during download
+[2024-04-05 06:17:31] INFO root fetch - processPackages [petrichor-script-lexer]: Downloading https://files.pythonhosted.org/packages/f3/46/34404d24398376e9a4a1e2cf7ac2f7b8442280867ce7684cf0dc6f55b6fa/petrichor_script_lexer-0.11.0.post1.tar.gz
+[2024-04-05 06:17:31] INFO root fetch - processPackages [odoo-addon-geoengine-partner]: Downloading https://files.pythonhosted.org/packages/71/66/927675c4520d2a888f2c564280371b41a59b49faced51b0c6e2bdad2e517/odoo_addon_geoengine_partner-16.0.1.0.1.4-py3-none-any.whl
+[2024-04-05 06:17:31] INFO root fetch - processPackages [odoo-addon-helpdesk-mgmt-rating]: Downloading https://files.pythonhosted.org/packages/d7/16/ca9c4d78e08eacd8bbff736d4a616478a6f680c17e910469b31db6e124a7/odoo_addon_helpdesk_mgmt_rating-15.0.1.0.0.8-py3-none-any.whl
+[2024-04-05 06:17:31] INFO root fetch - processPackages [tulona]: Downloading https://files.pythonhosted.org/packages/87/06/d230194f783165049d36674ee3c1607ae75f308743db1ac7b90ccd4c0da1/tulona-0.2.0.tar.gz
+[2024-04-05 06:17:31] INFO root fetch - processPackages [odoo14-addon-helpdesk-mgmt-rating]: Downloading https://files.pythonhosted.org/packages/2d/41/172b856066b32a5eb9c1128612ab6a1571d7621db34c2b181f0e28fb9083/odoo14_addon_helpdesk_mgmt_rating-14.0.1.3.1.dev7-py3-none-any.whl
+[2024-04-05 06:17:31] WARNING root fetch - processPackages [petrichor-script-lexer]: Timeout reached during download
+[2024-04-05 06:17:31] INFO root fetch - processPackages [petrichor-script-lexer]: executing diffoscope
+[2024-04-05 06:17:31] INFO root fetch - processPackages [petrichor-script-lexer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/petrichor_script_lexer-0.11.0.tar.gz tmp/petrichor_script_lexer-0.11.0.post1.tar.gz --markdown 20240405/p/petrichor-script-lexer/0.11.0-0.11.0.post1/diff.md --exclude *.pyd
+[2024-04-05 06:17:31] WARNING root fetch - processPackages [odoo-addon-geoengine-partner]: Timeout reached during download
+[2024-04-05 06:17:31] WARNING root fetch - processPackages [tulona]: Timeout reached during download
+[2024-04-05 06:17:31] WARNING root fetch - processPackages [odoo14-addon-helpdesk-mgmt-rating]: Timeout reached during download
+[2024-04-05 06:17:31] WARNING root fetch - processPackages [odoo-addon-helpdesk-mgmt-rating]: Timeout reached during download
+[2024-04-05 06:17:31] INFO root fetch - processPackages [odoo-addon-geoengine-partner]: Downloading https://files.pythonhosted.org/packages/57/21/93b9a67982fc617b38897d7f447e33a0f31d398b34bff9adc493901e0d07/odoo_addon_geoengine_partner-16.0.1.0.1.5-py3-none-any.whl
+[2024-04-05 06:17:31] INFO root fetch - processPackages [tulona]: Downloading https://files.pythonhosted.org/packages/0e/51/8e3f7380d5bee737ef122cf6dbc421043cd7541cd3e579505fd62d2e26c2/tulona-0.2.1.tar.gz
+[2024-04-05 06:17:31] INFO root fetch - processPackages [odoo14-addon-helpdesk-mgmt-rating]: Downloading https://files.pythonhosted.org/packages/37/66/637068e31b4a1b99da84831f36f9ef76104763698ac770da85aa8f92f6e5/odoo14_addon_helpdesk_mgmt_rating-14.0.1.3.1.dev8-py3-none-any.whl
+[2024-04-05 06:17:31] INFO root fetch - processPackages [odoo-addon-helpdesk-mgmt-rating]: Downloading https://files.pythonhosted.org/packages/8d/53/0156fd3219f9617743a28f5022ed6251b5356e65629810387bdb924d08be/odoo_addon_helpdesk_mgmt_rating-15.0.1.0.0.9-py3-none-any.whl
+[2024-04-05 06:17:32] WARNING root fetch - processPackages [odoo-addon-geoengine-partner]: Timeout reached during download
+[2024-04-05 06:17:32] INFO root fetch - processPackages [odoo-addon-geoengine-partner]: executing diffoscope
+[2024-04-05 06:17:32] INFO root fetch - processPackages [odoo-addon-geoengine-partner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_geoengine_partner-16.0.1.0.1.4-py3-none-any.whl.zip tmp/odoo_addon_geoengine_partner-16.0.1.0.1.5-py3-none-any.whl.zip --markdown 20240405/o/odoo-addon-geoengine-partner/16.0.1.0.1.4-16.0.1.0.1.5/diff.md --exclude *.pyd
+[2024-04-05 06:17:32] WARNING root fetch - processPackages [tulona]: Timeout reached during download
+[2024-04-05 06:17:32] INFO root fetch - processPackages [tulona]: executing diffoscope
+[2024-04-05 06:17:32] INFO root fetch - processPackages [tulona]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tulona-0.2.0.tar.gz tmp/tulona-0.2.1.tar.gz --markdown 20240405/t/tulona/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2024-04-05 06:17:32] WARNING root fetch - processPackages [odoo14-addon-helpdesk-mgmt-rating]: Timeout reached during download
+[2024-04-05 06:17:32] INFO root fetch - processPackages [odoo14-addon-helpdesk-mgmt-rating]: executing diffoscope
+[2024-04-05 06:17:32] INFO root fetch - processPackages [odoo14-addon-helpdesk-mgmt-rating]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_helpdesk_mgmt_rating-14.0.1.3.1.dev7-py3-none-any.whl.zip tmp/odoo14_addon_helpdesk_mgmt_rating-14.0.1.3.1.dev8-py3-none-any.whl.zip --markdown 20240405/o/odoo14-addon-helpdesk-mgmt-rating/14.0.1.3.1.dev7-14.0.1.3.1.dev8/diff.md --exclude *.pyd
+[2024-04-05 06:17:32] INFO root fetch - processPackages [petrichor-script-lexer]: Remove: archive file [/home/abi/fetcher/tmp/petrichor_script_lexer-0.11.0.tar.gz]
+[2024-04-05 06:17:32] INFO root fetch - processPackages [petrichor-script-lexer]: Remove: archive file [/home/abi/fetcher/tmp/petrichor_script_lexer-0.11.0.post1.tar.gz]
+[2024-04-05 06:17:32] INFO root fetch - main [MainThread]: End processing [petrichor-script-lexer]: success
+[2024-04-05 06:17:32] INFO root fetch - processPackages [odoo-addon-geoengine-partner]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_geoengine_partner-16.0.1.0.1.4-py3-none-any.whl.zip]
+[2024-04-05 06:17:32] INFO root fetch - processPackages [odoo-addon-geoengine-partner]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_geoengine_partner-16.0.1.0.1.5-py3-none-any.whl.zip]
+[2024-04-05 06:17:32] INFO root fetch - main [MainThread]: End processing [odoo-addon-geoengine-partner]: success
+[2024-04-05 06:17:32] WARNING root fetch - processPackages [odoo-addon-helpdesk-mgmt-rating]: Timeout reached during download
+[2024-04-05 06:17:32] INFO root fetch - processPackages [odoo-addon-helpdesk-mgmt-rating]: executing diffoscope
+[2024-04-05 06:17:32] INFO root fetch - processPackages [odoo-addon-helpdesk-mgmt-rating]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_helpdesk_mgmt_rating-15.0.1.0.0.8-py3-none-any.whl.zip tmp/odoo_addon_helpdesk_mgmt_rating-15.0.1.0.0.9-py3-none-any.whl.zip --markdown 20240405/o/odoo-addon-helpdesk-mgmt-rating/15.0.1.0.0.8-15.0.1.0.0.9/diff.md --exclude *.pyd
+[2024-04-05 06:17:32] INFO root fetch - processPackages [tulona]: Remove: archive file [/home/abi/fetcher/tmp/tulona-0.2.0.tar.gz]
+[2024-04-05 06:17:32] INFO root fetch - processPackages [tulona]: Remove: archive file [/home/abi/fetcher/tmp/tulona-0.2.1.tar.gz]
+[2024-04-05 06:17:32] INFO root fetch - main [MainThread]: End processing [tulona]: success
+[2024-04-05 06:17:32] INFO root fetch - processPackages [odoo14-addon-helpdesk-mgmt-rating]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_helpdesk_mgmt_rating-14.0.1.3.1.dev7-py3-none-any.whl.zip]
+[2024-04-05 06:17:32] INFO root fetch - processPackages [odoo14-addon-helpdesk-mgmt-rating]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_helpdesk_mgmt_rating-14.0.1.3.1.dev8-py3-none-any.whl.zip]
+[2024-04-05 06:17:32] INFO root fetch - main [MainThread]: End processing [odoo14-addon-helpdesk-mgmt-rating]: success
+[2024-04-05 06:17:33] INFO root fetch - processPackages [odoo-addon-helpdesk-mgmt-rating]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_helpdesk_mgmt_rating-15.0.1.0.0.8-py3-none-any.whl.zip]
+[2024-04-05 06:17:33] INFO root fetch - processPackages [odoo-addon-helpdesk-mgmt-rating]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_helpdesk_mgmt_rating-15.0.1.0.0.9-py3-none-any.whl.zip]
+[2024-04-05 06:17:33] INFO root fetch - main [MainThread]: End processing [odoo-addon-helpdesk-mgmt-rating]: success
+[2024-04-05 06:17:33] INFO root fetch - main [MainThread]: Store serial: [22631680]
