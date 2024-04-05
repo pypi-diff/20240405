@@ -18980,3 +18980,61 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2024-04-05 12:20:27] INFO root fetch - processPackages [pyformlang]: Remove: archive file [/home/abi/fetcher/tmp/pyformlang-1.0.9.tar.gz]
 [2024-04-05 12:20:27] INFO root fetch - main [MainThread]: End processing [pyformlang]: success
 [2024-04-05 12:20:27] INFO root fetch - main [MainThread]: Store serial: [22634469]
+[2024-04-05 12:22:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22634469]
+[2024-04-05 12:22:36] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-05 12:22:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: libcnmc
+[2024-04-05 12:22:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cli-progress
+[2024-04-05 12:22:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: github-actions-cli
+[2024-04-05 12:22:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: fab-react-toolkit
+[2024-04-05 12:22:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: molecular-rectifier
+[2024-04-05 12:22:36] INFO root fetch - processPackages [molecular-rectifier]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-04-05 12:22:36] INFO root fetch - processPackages [github-actions-cli]: New version: [1.1.4] Old Version: [1.1.3]
+[2024-04-05 12:22:36] INFO root fetch - processPackages [fab-react-toolkit]: New version: [0.3.3] Old Version: [0.3.2]
+[2024-04-05 12:22:36] INFO root fetch - processPackages [cli-progress]: New version: [2.0.0] Old Version: [1.9.0]
+[2024-04-05 12:22:37] INFO root fetch - processPackages [libcnmc]: New version: [24.8.2] Old Version: [24.8.1]
+[2024-04-05 12:22:37] INFO root fetch - processPackages [github-actions-cli]: Downloading https://files.pythonhosted.org/packages/1e/b6/4bc648e5cc29dc491340300597464bdef3138ce1be14ac553cee1b5c4917/github_actions_cli-1.1.3.tar.gz
+[2024-04-05 12:22:37] INFO root fetch - processPackages [fab-react-toolkit]: Downloading https://files.pythonhosted.org/packages/1c/c9/466fecfb485d5911775f75413478976dbd6917f35606f7fac7b8beddf1eb/fab-react-toolkit-0.3.2.tar.gz
+[2024-04-05 12:22:37] INFO root fetch - processPackages [cli-progress]: Downloading https://files.pythonhosted.org/packages/59/d4/8702bead2b1765fe45ebb488f3ebebffca8af8355012efb38ef4c44c9fc7/cli_progress-1.9.0.tar.gz
+[2024-04-05 12:22:37] INFO root fetch - processPackages [libcnmc]: Downloading https://files.pythonhosted.org/packages/d5/fa/7ff9f3b76fffb6250a86e920ef1d21c7dc38372c381fa348b24df767cf56/libcnmc-24.8.1.tar.gz
+[2024-04-05 12:22:37] INFO root fetch - processPackages [molecular-rectifier]: Downloading https://files.pythonhosted.org/packages/82/5c/f7d074929a4c86234270464d0f16dad78d252d74b7486e6d9ed85a61b579/molecular_rectifier-1.0.0.tar.gz
+[2024-04-05 12:22:37] WARNING root fetch - processPackages [fab-react-toolkit]: Timeout reached during download
+[2024-04-05 12:22:37] WARNING root fetch - processPackages [cli-progress]: Timeout reached during download
+[2024-04-05 12:22:37] WARNING root fetch - processPackages [molecular-rectifier]: Timeout reached during download
+[2024-04-05 12:22:37] WARNING root fetch - processPackages [libcnmc]: Timeout reached during download
+[2024-04-05 12:22:37] WARNING root fetch - processPackages [github-actions-cli]: Timeout reached during download
+[2024-04-05 12:22:37] INFO root fetch - processPackages [fab-react-toolkit]: Downloading https://files.pythonhosted.org/packages/a8/c1/44917a59e3cb1e059e1facec04263edb5e67f366cd04dfa13ddc517bfca0/fab-react-toolkit-0.3.3.tar.gz
+[2024-04-05 12:22:37] INFO root fetch - processPackages [cli-progress]: Downloading https://files.pythonhosted.org/packages/0c/d1/53dad0ea08d7bd4c64eecae7a3d5cec2a60f5f89ef7ae6f7c8cf39f623fd/cli_progress-2.0.0.tar.gz
+[2024-04-05 12:22:37] INFO root fetch - processPackages [molecular-rectifier]: Downloading https://files.pythonhosted.org/packages/44/99/00a2d3d4646d7a470944bb3b356d47f8355b6556c2def6d086a01a440447/molecular_rectifier-1.0.1.tar.gz
+[2024-04-05 12:22:37] INFO root fetch - processPackages [libcnmc]: Downloading https://files.pythonhosted.org/packages/d2/c9/34641c3e4e42079e3f6305158671367a80cd8399f6e83f58eda1ce564885/libcnmc-24.8.2.tar.gz
+[2024-04-05 12:22:37] INFO root fetch - processPackages [github-actions-cli]: Downloading https://files.pythonhosted.org/packages/61/1c/31fb03b2c067684958f229377abd0cfa549396f83002e16ea25d81f1bdbd/github_actions_cli-1.1.4.tar.gz
+[2024-04-05 12:22:37] WARNING root fetch - processPackages [cli-progress]: Timeout reached during download
+[2024-04-05 12:22:37] INFO root fetch - processPackages [cli-progress]: executing diffoscope
+[2024-04-05 12:22:37] INFO root fetch - processPackages [cli-progress]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cli_progress-1.9.0.tar.gz tmp/cli_progress-2.0.0.tar.gz --markdown 20240405/c/cli-progress/1.9.0-2.0.0/diff.md --exclude *.pyd
+[2024-04-05 12:22:37] WARNING root fetch - processPackages [fab-react-toolkit]: Timeout reached during download
+[2024-04-05 12:22:37] INFO root fetch - processPackages [fab-react-toolkit]: executing diffoscope
+[2024-04-05 12:22:37] INFO root fetch - processPackages [fab-react-toolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fab-react-toolkit-0.3.2.tar.gz tmp/fab-react-toolkit-0.3.3.tar.gz --markdown 20240405/f/fab-react-toolkit/0.3.2-0.3.3/diff.md --exclude *.pyd
+[2024-04-05 12:22:37] WARNING root fetch - processPackages [github-actions-cli]: Timeout reached during download
+[2024-04-05 12:22:37] INFO root fetch - processPackages [github-actions-cli]: executing diffoscope
+[2024-04-05 12:22:37] INFO root fetch - processPackages [github-actions-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/github_actions_cli-1.1.3.tar.gz tmp/github_actions_cli-1.1.4.tar.gz --markdown 20240405/g/github-actions-cli/1.1.3-1.1.4/diff.md --exclude *.pyd
+[2024-04-05 12:22:37] WARNING root fetch - processPackages [molecular-rectifier]: Timeout reached during download
+[2024-04-05 12:22:37] INFO root fetch - processPackages [molecular-rectifier]: executing diffoscope
+[2024-04-05 12:22:37] INFO root fetch - processPackages [molecular-rectifier]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/molecular_rectifier-1.0.0.tar.gz tmp/molecular_rectifier-1.0.1.tar.gz --markdown 20240405/m/molecular-rectifier/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2024-04-05 12:22:37] WARNING root fetch - processPackages [libcnmc]: Timeout reached during download
+[2024-04-05 12:22:37] INFO root fetch - processPackages [libcnmc]: executing diffoscope
+[2024-04-05 12:22:37] INFO root fetch - processPackages [libcnmc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/libcnmc-24.8.1.tar.gz tmp/libcnmc-24.8.2.tar.gz --markdown 20240405/l/libcnmc/24.8.1-24.8.2/diff.md --exclude *.pyd
+[2024-04-05 12:22:38] INFO root fetch - processPackages [cli-progress]: Remove: archive file [/home/abi/fetcher/tmp/cli_progress-1.9.0.tar.gz]
+[2024-04-05 12:22:38] INFO root fetch - processPackages [cli-progress]: Remove: archive file [/home/abi/fetcher/tmp/cli_progress-2.0.0.tar.gz]
+[2024-04-05 12:22:38] INFO root fetch - main [MainThread]: End processing [cli-progress]: success
+[2024-04-05 12:22:38] INFO root fetch - processPackages [github-actions-cli]: Remove: archive file [/home/abi/fetcher/tmp/github_actions_cli-1.1.3.tar.gz]
+[2024-04-05 12:22:38] INFO root fetch - processPackages [github-actions-cli]: Remove: archive file [/home/abi/fetcher/tmp/github_actions_cli-1.1.4.tar.gz]
+[2024-04-05 12:22:38] INFO root fetch - main [MainThread]: End processing [github-actions-cli]: success
+[2024-04-05 12:22:38] INFO root fetch - processPackages [fab-react-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/fab-react-toolkit-0.3.2.tar.gz]
+[2024-04-05 12:22:38] INFO root fetch - processPackages [fab-react-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/fab-react-toolkit-0.3.3.tar.gz]
+[2024-04-05 12:22:38] INFO root fetch - main [MainThread]: End processing [fab-react-toolkit]: success
+[2024-04-05 12:22:38] INFO root fetch - processPackages [molecular-rectifier]: Remove: archive file [/home/abi/fetcher/tmp/molecular_rectifier-1.0.0.tar.gz]
+[2024-04-05 12:22:38] INFO root fetch - processPackages [molecular-rectifier]: Remove: archive file [/home/abi/fetcher/tmp/molecular_rectifier-1.0.1.tar.gz]
+[2024-04-05 12:22:38] INFO root fetch - main [MainThread]: End processing [molecular-rectifier]: success
+[2024-04-05 12:22:38] INFO root fetch - processPackages [libcnmc]: Remove: archive file [/home/abi/fetcher/tmp/libcnmc-24.8.1.tar.gz]
+[2024-04-05 12:22:38] INFO root fetch - processPackages [libcnmc]: Remove: archive file [/home/abi/fetcher/tmp/libcnmc-24.8.2.tar.gz]
+[2024-04-05 12:22:38] INFO root fetch - main [MainThread]: End processing [libcnmc]: success
+[2024-04-05 12:22:38] INFO root fetch - main [MainThread]: Store serial: [22634482]
