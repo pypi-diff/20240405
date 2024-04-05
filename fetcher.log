@@ -10753,3 +10753,33 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2024-04-05 05:45:00] INFO root fetch - processPackages [instructor]: Remove: archive file [/home/abi/fetcher/tmp/instructor-1.0.2.tar.gz]
 [2024-04-05 05:45:00] INFO root fetch - main [MainThread]: End processing [instructor]: success
 [2024-04-05 05:45:00] INFO root fetch - main [MainThread]: Store serial: [22631535]
+[2024-04-05 05:47:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22631535]
+[2024-04-05 05:47:10] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-05 05:47:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo14-addon-delivery-carrier-deposit
+[2024-04-05 05:47:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: idvpackage
+[2024-04-05 05:47:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: idbt
+[2024-04-05 05:47:11] INFO root fetch - processPackages [idvpackage]: New version: [1.9.9] Old Version: [1.9.8]
+[2024-04-05 05:47:11] INFO root fetch - processPackages [idvpackage]: Downloading https://files.pythonhosted.org/packages/6c/7c/65b70ff47604461688a9475630c0e6f7b3f0809d59034ee93c3a20a856cd/idvpackage-1.9.8.tar.gz
+[2024-04-05 05:47:11] INFO root fetch - processPackages [odoo14-addon-delivery-carrier-deposit]: New version: [14.0.1.0.1.dev8] Old Version: [14.0.1.0.1.dev7]
+[2024-04-05 05:47:11] INFO root fetch - processPackages [idbt]: New version: [0.0.3rc0] Old Version: [0.0.2]
+[2024-04-05 05:47:11] WARNING root fetch - processPackages [idvpackage]: Skipping package: exceeds size limit 28247832>=10485760
+[2024-04-05 05:47:11] INFO root fetch - main [MainThread]: End processing [idvpackage] error
+[2024-04-05 05:47:11] INFO root fetch - processPackages [idbt]: Downloading https://files.pythonhosted.org/packages/13/dc/39ce2c3419abdcca36bfc2d3953e87a348552feba7864bad9bccd17d42dc/idbt-0.0.2.tar.gz
+[2024-04-05 05:47:11] WARNING root fetch - processPackages [idbt]: Timeout reached during download
+[2024-04-05 05:47:11] INFO root fetch - processPackages [odoo14-addon-delivery-carrier-deposit]: Downloading https://files.pythonhosted.org/packages/e4/13/7d6ed5df80d74696f29f60d077b4ba532af67d778b96dd7d0f2baf7d3ee6/odoo14_addon_delivery_carrier_deposit-14.0.1.0.1.dev7-py3-none-any.whl
+[2024-04-05 05:47:11] INFO root fetch - processPackages [idbt]: Downloading https://files.pythonhosted.org/packages/8a/00/66e7d41d8b5868d3720f079a78365994967b33157e3cede57675d2ccc568/idbt-0.0.3rc0-py3-none-any.whl
+[2024-04-05 05:47:11] WARNING root fetch - processPackages [odoo14-addon-delivery-carrier-deposit]: Timeout reached during download
+[2024-04-05 05:47:11] INFO root fetch - processPackages [odoo14-addon-delivery-carrier-deposit]: Downloading https://files.pythonhosted.org/packages/99/83/9ed214bebdf73932f1e98550e96528503a036b2919c3cc0e688d987ac0a0/odoo14_addon_delivery_carrier_deposit-14.0.1.0.1.dev8-py3-none-any.whl
+[2024-04-05 05:47:12] WARNING root fetch - processPackages [idbt]: Timeout reached during download
+[2024-04-05 05:47:12] INFO root fetch - processPackages [idbt]: executing diffoscope
+[2024-04-05 05:47:12] INFO root fetch - processPackages [idbt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/idbt-0.0.2.tar.gz tmp/idbt-0.0.3rc0-py3-none-any.whl.zip --markdown 20240405/i/idbt/0.0.2-0.0.3rc0/diff.md --exclude *.pyd
+[2024-04-05 05:47:12] WARNING root fetch - processPackages [odoo14-addon-delivery-carrier-deposit]: Timeout reached during download
+[2024-04-05 05:47:12] INFO root fetch - processPackages [odoo14-addon-delivery-carrier-deposit]: executing diffoscope
+[2024-04-05 05:47:12] INFO root fetch - processPackages [odoo14-addon-delivery-carrier-deposit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_delivery_carrier_deposit-14.0.1.0.1.dev7-py3-none-any.whl.zip tmp/odoo14_addon_delivery_carrier_deposit-14.0.1.0.1.dev8-py3-none-any.whl.zip --markdown 20240405/o/odoo14-addon-delivery-carrier-deposit/14.0.1.0.1.dev7-14.0.1.0.1.dev8/diff.md --exclude *.pyd
+[2024-04-05 05:47:12] INFO root fetch - processPackages [idbt]: Remove: archive file [/home/abi/fetcher/tmp/idbt-0.0.2.tar.gz]
+[2024-04-05 05:47:12] INFO root fetch - processPackages [idbt]: Remove: archive file [/home/abi/fetcher/tmp/idbt-0.0.3rc0-py3-none-any.whl.zip]
+[2024-04-05 05:47:12] INFO root fetch - main [MainThread]: End processing [idbt]: success
+[2024-04-05 05:47:12] INFO root fetch - processPackages [odoo14-addon-delivery-carrier-deposit]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_delivery_carrier_deposit-14.0.1.0.1.dev7-py3-none-any.whl.zip]
+[2024-04-05 05:47:12] INFO root fetch - processPackages [odoo14-addon-delivery-carrier-deposit]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_delivery_carrier_deposit-14.0.1.0.1.dev8-py3-none-any.whl.zip]
+[2024-04-05 05:47:12] INFO root fetch - main [MainThread]: End processing [odoo14-addon-delivery-carrier-deposit]: success
+[2024-04-05 05:47:12] INFO root fetch - main [MainThread]: Store serial: [22631538]
