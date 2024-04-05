@@ -14130,3 +14130,147 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2024-04-05 08:56:14] INFO root fetch - processPackages [torchseal]: Remove: archive file [/home/abi/fetcher/tmp/torchseal-0.1.2.tar.gz]
 [2024-04-05 08:56:14] INFO root fetch - main [MainThread]: End processing [torchseal]: success
 [2024-04-05 08:56:14] INFO root fetch - main [MainThread]: Store serial: [22632646]
+[2024-04-05 08:58:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22632646]
+[2024-04-05 08:58:22] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2024-04-05 08:58:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mylocale
+[2024-04-05 08:58:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nucliadb
+[2024-04-05 08:58:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nucliadb-dataset
+[2024-04-05 08:58:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nucliadb-models
+[2024-04-05 08:58:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nucliadb-protos
+[2024-04-05 08:58:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nucliadb-sdk
+[2024-04-05 08:58:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: nucliadb-telemetry
+[2024-04-05 08:58:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: nucliadb-utils
+[2024-04-05 08:58:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: tuf-on-ci-sign
+[2024-04-05 08:58:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: odoo14-addon-stock-demand-estimate
+[2024-04-05 08:58:22] INFO root fetch - processPackages [nucliadb-dataset]: New version: [2.9.0.post267] Old Version: [2.9.0.post266]
+[2024-04-05 08:58:22] INFO root fetch - processPackages [nucliadb]: New version: [2.9.0.post267] Old Version: [2.9.0.post266]
+[2024-04-05 08:58:22] INFO root fetch - processPackages [nucliadb-telemetry]: New version: [2.46.1.post394] Old Version: [2.46.1.post393]
+[2024-04-05 08:58:22] INFO root fetch - processPackages [nucliadb-models]: New version: [2.9.0.post267] Old Version: [2.9.0.post266]
+[2024-04-05 08:58:22] INFO root fetch - processPackages [nucliadb-protos]: New version: [2.9.0.post267] Old Version: [2.9.0.post266]
+[2024-04-05 08:58:22] INFO root fetch - processPackages [mylocale]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-04-05 08:58:22] INFO root fetch - processPackages [nucliadb-sdk]: New version: [2.9.0.post267] Old Version: [2.9.0.post266]
+[2024-04-05 08:58:22] INFO root fetch - processPackages [tuf-on-ci-sign]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-04-05 08:58:22] INFO root fetch - processPackages [odoo14-addon-stock-demand-estimate]: New version: [14.0.1.3.1.dev1] Old Version: [14.0.1.3.0]
+[2024-04-05 08:58:22] INFO root fetch - processPackages [nucliadb-utils]: New version: [2.9.0.post267] Old Version: [2.9.0.post266]
+[2024-04-05 08:58:22] INFO root fetch - processPackages [nucliadb-telemetry]: Downloading https://files.pythonhosted.org/packages/09/ab/3de2c1baad902bc9545f3c306a026d5ea03ba8a43460552ddc148edf807f/nucliadb_telemetry-2.46.1.post393-py3-none-any.whl
+[2024-04-05 08:58:22] INFO root fetch - processPackages [nucliadb-dataset]: Downloading https://files.pythonhosted.org/packages/56/4b/fc2d9cfebab3c585f1cb9965c827bf2aca2a655f2fec6b1fffcac6eef1c1/nucliadb_dataset-2.9.0.post266-py3-none-any.whl
+[2024-04-05 08:58:22] INFO root fetch - processPackages [nucliadb]: Downloading https://files.pythonhosted.org/packages/7c/ff/0a879c94d307d6130c47fa95a8a217386c5cbb1838101d660244b068cd95/nucliadb-2.9.0.post266-py3-none-any.whl
+[2024-04-05 08:58:23] INFO root fetch - processPackages [nucliadb-sdk]: Downloading https://files.pythonhosted.org/packages/a1/64/be41afa3acf3d90a5d9575ac0e1c151ff6e91fb473f9724dac60fea85414/nucliadb_sdk-2.9.0.post266-py3-none-any.whl
+[2024-04-05 08:58:23] INFO root fetch - processPackages [nucliadb-models]: Downloading https://files.pythonhosted.org/packages/3b/2d/e4d68391765b0e9f57ca1023e2aec3cf60968a9418e00f24c1554bb0041e/nucliadb_models-2.9.0.post266-py3-none-any.whl
+[2024-04-05 08:58:23] INFO root fetch - processPackages [nucliadb-utils]: Downloading https://files.pythonhosted.org/packages/9c/a6/d6dd21ed1948bdcc0b560698e72d117f3fdad522e2ac0894dd980e184631/nucliadb_utils-2.9.0.post266-py3-none-any.whl
+[2024-04-05 08:58:23] INFO root fetch - processPackages [mylocale]: Downloading https://files.pythonhosted.org/packages/2f/5b/5f942678cf7b6312828c8c42d0ad634e3a78f330e639d0aec633281923a9/mylocale-0.8.0.tar.gz
+[2024-04-05 08:58:23] WARNING root fetch - processPackages [nucliadb-telemetry]: Timeout reached during download
+[2024-04-05 08:58:23] INFO root fetch - processPackages [nucliadb-protos]: Downloading https://files.pythonhosted.org/packages/16/50/6ab2e4f9cca425d97ef0824c338fea58b8e3a0bfb590231f3196942875c0/nucliadb_protos-2.9.0.post266-py3-none-any.whl
+[2024-04-05 08:58:23] WARNING root fetch - processPackages [nucliadb-dataset]: Timeout reached during download
+[2024-04-05 08:58:23] INFO root fetch - processPackages [tuf-on-ci-sign]: Downloading https://files.pythonhosted.org/packages/d9/0e/57b071f04f157df8d271186e4b1acd5da10ec6a9c7309b2dac2a0f55a8bb/tuf_on_ci_sign-0.8.0.tar.gz
+[2024-04-05 08:58:23] INFO root fetch - processPackages [odoo14-addon-stock-demand-estimate]: Downloading https://files.pythonhosted.org/packages/38/70/ebcbd7e233955daad9c8d6fb6bc4ebe4d25421b05e2b7376df15ea6ae3e2/odoo14_addon_stock_demand_estimate-14.0.1.3.0-py3-none-any.whl
+[2024-04-05 08:58:23] WARNING root fetch - processPackages [nucliadb-sdk]: Timeout reached during download
+[2024-04-05 08:58:23] WARNING root fetch - processPackages [nucliadb]: Timeout reached during download
+[2024-04-05 08:58:23] WARNING root fetch - processPackages [mylocale]: Timeout reached during download
+[2024-04-05 08:58:23] WARNING root fetch - processPackages [nucliadb-utils]: Timeout reached during download
+[2024-04-05 08:58:23] INFO root fetch - processPackages [nucliadb-dataset]: Downloading https://files.pythonhosted.org/packages/80/9f/9ffeb0e3d1b4da8f1178595f75fb1c1ffe183913036ae2a60f569c8c7dc7/nucliadb_dataset-2.9.0.post267-py3-none-any.whl
+[2024-04-05 08:58:23] WARNING root fetch - processPackages [nucliadb-models]: Timeout reached during download
+[2024-04-05 08:58:23] WARNING root fetch - processPackages [nucliadb-protos]: Timeout reached during download
+[2024-04-05 08:58:23] WARNING root fetch - processPackages [tuf-on-ci-sign]: Timeout reached during download
+[2024-04-05 08:58:23] INFO root fetch - processPackages [nucliadb]: Downloading https://files.pythonhosted.org/packages/d0/e8/3c39cb6a2ed6ad97a3e0dec5110ec85934306f7a7d052b0cb4fe4762aa0f/nucliadb-2.9.0.post267-py3-none-any.whl
+[2024-04-05 08:58:23] INFO root fetch - processPackages [nucliadb-utils]: Downloading https://files.pythonhosted.org/packages/a2/ce/8ce8a66a2ef214d8ae9f81cb70eb5d8d5396c8bd94794cf92d145fdccd31/nucliadb_utils-2.9.0.post267-py3-none-any.whl
+[2024-04-05 08:58:23] WARNING root fetch - processPackages [odoo14-addon-stock-demand-estimate]: Timeout reached during download
+[2024-04-05 08:58:23] INFO root fetch - processPackages [nucliadb-telemetry]: Downloading https://files.pythonhosted.org/packages/76/ad/e142b3ac5d3768575fc008ea997d7c142a5183b0e5cd52e5eef32fd0d298/nucliadb_telemetry-2.46.1.post394-py3-none-any.whl
+[2024-04-05 08:58:23] INFO root fetch - processPackages [nucliadb-sdk]: Downloading https://files.pythonhosted.org/packages/35/7b/660db604a69a01811bfa1b2ce906d520705e186b4f8a91c3972cb4446303/nucliadb_sdk-2.9.0.post267-py3-none-any.whl
+[2024-04-05 08:58:23] INFO root fetch - processPackages [nucliadb-protos]: Downloading https://files.pythonhosted.org/packages/21/bd/4fffaf241f826293c98c1317bdaff65a5d202f9ec94d08322b2fd017f3b0/nucliadb_protos-2.9.0.post267-py3-none-any.whl
+[2024-04-05 08:58:23] INFO root fetch - processPackages [nucliadb-models]: Downloading https://files.pythonhosted.org/packages/33/34/554de7935ae3aecd4129d1f85d83822f97fd284da917d6aced4c09802f1a/nucliadb_models-2.9.0.post267-py3-none-any.whl
+[2024-04-05 08:58:23] WARNING root fetch - processPackages [nucliadb-dataset]: Timeout reached during download
+[2024-04-05 08:58:23] INFO root fetch - processPackages [nucliadb-dataset]: executing diffoscope
+[2024-04-05 08:58:23] INFO root fetch - processPackages [nucliadb-dataset]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_dataset-2.9.0.post266-py3-none-any.whl.zip tmp/nucliadb_dataset-2.9.0.post267-py3-none-any.whl.zip --markdown 20240405/n/nucliadb-dataset/2.9.0.post266-2.9.0.post267/diff.md --exclude *.pyd
+[2024-04-05 08:58:23] INFO root fetch - processPackages [mylocale]: Downloading https://files.pythonhosted.org/packages/cf/31/7eaef23f3354fae298c96e7453c8c73b0605787b351c7010185d89124bb0/mylocale-0.9.0.tar.gz
+[2024-04-05 08:58:23] WARNING root fetch - processPackages [nucliadb-utils]: Timeout reached during download
+[2024-04-05 08:58:23] INFO root fetch - processPackages [nucliadb-utils]: executing diffoscope
+[2024-04-05 08:58:23] INFO root fetch - processPackages [nucliadb-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_utils-2.9.0.post266-py3-none-any.whl.zip tmp/nucliadb_utils-2.9.0.post267-py3-none-any.whl.zip --markdown 20240405/n/nucliadb-utils/2.9.0.post266-2.9.0.post267/diff.md --exclude *.pyd
+[2024-04-05 08:58:23] WARNING root fetch - processPackages [nucliadb-sdk]: Timeout reached during download
+[2024-04-05 08:58:23] INFO root fetch - processPackages [nucliadb-sdk]: executing diffoscope
+[2024-04-05 08:58:23] WARNING root fetch - processPackages [nucliadb-telemetry]: Timeout reached during download
+[2024-04-05 08:58:23] INFO root fetch - processPackages [nucliadb-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_sdk-2.9.0.post266-py3-none-any.whl.zip tmp/nucliadb_sdk-2.9.0.post267-py3-none-any.whl.zip --markdown 20240405/n/nucliadb-sdk/2.9.0.post266-2.9.0.post267/diff.md --exclude *.pyd
+[2024-04-05 08:58:23] INFO root fetch - processPackages [nucliadb-telemetry]: executing diffoscope
+[2024-04-05 08:58:23] INFO root fetch - processPackages [nucliadb-telemetry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_telemetry-2.46.1.post393-py3-none-any.whl.zip tmp/nucliadb_telemetry-2.46.1.post394-py3-none-any.whl.zip --markdown 20240405/n/nucliadb-telemetry/2.46.1.post393-2.46.1.post394/diff.md --exclude *.pyd
+[2024-04-05 08:58:23] WARNING root fetch - processPackages [nucliadb-protos]: Timeout reached during download
+[2024-04-05 08:58:23] INFO root fetch - processPackages [nucliadb-protos]: executing diffoscope
+[2024-04-05 08:58:23] INFO root fetch - processPackages [nucliadb-protos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_protos-2.9.0.post266-py3-none-any.whl.zip tmp/nucliadb_protos-2.9.0.post267-py3-none-any.whl.zip --markdown 20240405/n/nucliadb-protos/2.9.0.post266-2.9.0.post267/diff.md --exclude *.pyd
+[2024-04-05 08:58:23] WARNING root fetch - processPackages [nucliadb]: Timeout reached during download
+[2024-04-05 08:58:23] INFO root fetch - processPackages [nucliadb]: executing diffoscope
+[2024-04-05 08:58:23] INFO root fetch - processPackages [nucliadb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb-2.9.0.post266-py3-none-any.whl.zip tmp/nucliadb-2.9.0.post267-py3-none-any.whl.zip --markdown 20240405/n/nucliadb/2.9.0.post266-2.9.0.post267/diff.md --exclude *.pyd
+[2024-04-05 08:58:23] WARNING root fetch - processPackages [nucliadb-models]: Timeout reached during download
+[2024-04-05 08:58:23] INFO root fetch - processPackages [nucliadb-models]: executing diffoscope
+[2024-04-05 08:58:23] INFO root fetch - processPackages [nucliadb-models]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_models-2.9.0.post266-py3-none-any.whl.zip tmp/nucliadb_models-2.9.0.post267-py3-none-any.whl.zip --markdown 20240405/n/nucliadb-models/2.9.0.post266-2.9.0.post267/diff.md --exclude *.pyd
+[2024-04-05 08:58:23] INFO root fetch - processPackages [tuf-on-ci-sign]: Downloading https://files.pythonhosted.org/packages/c5/18/de45bf0a0c44129197ce2cb58d01cb9c309c51b353e8a9163699d11078fe/tuf_on_ci_sign-0.9.0.tar.gz
+[2024-04-05 08:58:23] INFO root fetch - processPackages [odoo14-addon-stock-demand-estimate]: Downloading https://files.pythonhosted.org/packages/c1/69/198cae242842435abde6d9e0096788cc4a69c8dad7a50610155a78e36d5f/odoo14_addon_stock_demand_estimate-14.0.1.3.1.dev1-py3-none-any.whl
+[2024-04-05 08:58:23] WARNING root fetch - processPackages [mylocale]: Timeout reached during download
+[2024-04-05 08:58:23] INFO root fetch - processPackages [mylocale]: executing diffoscope
+[2024-04-05 08:58:23] INFO root fetch - processPackages [mylocale]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mylocale-0.8.0.tar.gz tmp/mylocale-0.9.0.tar.gz --markdown 20240405/m/mylocale/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2024-04-05 08:58:23] WARNING root fetch - processPackages [tuf-on-ci-sign]: Timeout reached during download
+[2024-04-05 08:58:23] INFO root fetch - processPackages [tuf-on-ci-sign]: executing diffoscope
+[2024-04-05 08:58:23] INFO root fetch - processPackages [tuf-on-ci-sign]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tuf_on_ci_sign-0.8.0.tar.gz tmp/tuf_on_ci_sign-0.9.0.tar.gz --markdown 20240405/t/tuf-on-ci-sign/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2024-04-05 08:58:24] WARNING root fetch - processPackages [odoo14-addon-stock-demand-estimate]: Timeout reached during download
+[2024-04-05 08:58:24] INFO root fetch - processPackages [odoo14-addon-stock-demand-estimate]: executing diffoscope
+[2024-04-05 08:58:24] INFO root fetch - processPackages [odoo14-addon-stock-demand-estimate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_stock_demand_estimate-14.0.1.3.0-py3-none-any.whl.zip tmp/odoo14_addon_stock_demand_estimate-14.0.1.3.1.dev1-py3-none-any.whl.zip --markdown 20240405/o/odoo14-addon-stock-demand-estimate/14.0.1.3.0-14.0.1.3.1.dev1/diff.md --exclude *.pyd
+[2024-04-05 08:58:24] INFO root fetch - processPackages [nucliadb-dataset]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_dataset-2.9.0.post266-py3-none-any.whl.zip]
+[2024-04-05 08:58:24] INFO root fetch - processPackages [nucliadb-dataset]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_dataset-2.9.0.post267-py3-none-any.whl.zip]
+[2024-04-05 08:58:24] INFO root fetch - processPackages [nucliadb-dataset]: Start processing: odoo-addon-stock-demand-estimate
+[2024-04-05 08:58:24] INFO root fetch - main [MainThread]: End processing [nucliadb-dataset]: success
+[2024-04-05 08:58:24] INFO root fetch - processPackages [nucliadb-sdk]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_sdk-2.9.0.post266-py3-none-any.whl.zip]
+[2024-04-05 08:58:24] INFO root fetch - processPackages [nucliadb-sdk]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_sdk-2.9.0.post267-py3-none-any.whl.zip]
+[2024-04-05 08:58:24] INFO root fetch - processPackages [nucliadb-sdk]: Start processing: odoo-addon-stock-inventory
+[2024-04-05 08:58:24] INFO root fetch - main [MainThread]: End processing [nucliadb-sdk]: success
+[2024-04-05 08:58:24] INFO root fetch - processPackages [odoo-addon-stock-demand-estimate]: New version: [17.0.1.1.0.1] Old Version: [17.0.1.1.0]
+[2024-04-05 08:58:24] INFO root fetch - processPackages [mylocale]: Remove: archive file [/home/abi/fetcher/tmp/mylocale-0.8.0.tar.gz]
+[2024-04-05 08:58:24] INFO root fetch - processPackages [mylocale]: Remove: archive file [/home/abi/fetcher/tmp/mylocale-0.9.0.tar.gz]
+[2024-04-05 08:58:24] INFO root fetch - processPackages [mylocale]: Start processing: odoo-addon-stock-demand-estimate
+[2024-04-05 08:58:24] INFO root fetch - main [MainThread]: End processing [mylocale]: success
+[2024-04-05 08:58:24] INFO root fetch - processPackages [odoo-addon-stock-inventory]: New version: [16.0.1.0.0.8] Old Version: [16.0.1.0.0.7]
+[2024-04-05 08:58:24] INFO root fetch - processPackages [nucliadb-telemetry]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_telemetry-2.46.1.post393-py3-none-any.whl.zip]
+[2024-04-05 08:58:24] INFO root fetch - processPackages [nucliadb-telemetry]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_telemetry-2.46.1.post394-py3-none-any.whl.zip]
+[2024-04-05 08:58:24] INFO root fetch - main [MainThread]: End processing [nucliadb-telemetry]: success
+[2024-04-05 08:58:24] INFO root fetch - processPackages [odoo-addon-stock-demand-estimate]: New version: [17.0.1.1.0.1] Old Version: [17.0.1.1.0]
+[2024-04-05 08:58:24] INFO root fetch - processPackages [nucliadb-models]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_models-2.9.0.post266-py3-none-any.whl.zip]
+[2024-04-05 08:58:24] INFO root fetch - processPackages [nucliadb-models]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_models-2.9.0.post267-py3-none-any.whl.zip]
+[2024-04-05 08:58:24] INFO root fetch - main [MainThread]: End processing [nucliadb-models]: success
+[2024-04-05 08:58:24] INFO root fetch - processPackages [nucliadb-protos]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_protos-2.9.0.post266-py3-none-any.whl.zip]
+[2024-04-05 08:58:24] INFO root fetch - processPackages [nucliadb-protos]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_protos-2.9.0.post267-py3-none-any.whl.zip]
+[2024-04-05 08:58:24] INFO root fetch - main [MainThread]: End processing [nucliadb-protos]: success
+[2024-04-05 08:58:24] INFO root fetch - processPackages [odoo-addon-stock-demand-estimate]: Downloading https://files.pythonhosted.org/packages/5b/83/6899eca1f64ae90186acb79b6f5059b775e21a9a511d1a6058295320eb50/odoo_addon_stock_demand_estimate-17.0.1.1.0-py3-none-any.whl
+[2024-04-05 08:58:24] INFO root fetch - processPackages [tuf-on-ci-sign]: Remove: archive file [/home/abi/fetcher/tmp/tuf_on_ci_sign-0.8.0.tar.gz]
+[2024-04-05 08:58:24] INFO root fetch - processPackages [tuf-on-ci-sign]: Remove: archive file [/home/abi/fetcher/tmp/tuf_on_ci_sign-0.9.0.tar.gz]
+[2024-04-05 08:58:24] INFO root fetch - main [MainThread]: End processing [tuf-on-ci-sign]: success
+[2024-04-05 08:58:24] INFO root fetch - processPackages [odoo-addon-stock-demand-estimate]: Downloading https://files.pythonhosted.org/packages/5b/83/6899eca1f64ae90186acb79b6f5059b775e21a9a511d1a6058295320eb50/odoo_addon_stock_demand_estimate-17.0.1.1.0-py3-none-any.whl
+[2024-04-05 08:58:24] INFO root fetch - processPackages [nucliadb-utils]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_utils-2.9.0.post266-py3-none-any.whl.zip]
+[2024-04-05 08:58:24] INFO root fetch - processPackages [nucliadb-utils]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_utils-2.9.0.post267-py3-none-any.whl.zip]
+[2024-04-05 08:58:24] INFO root fetch - main [MainThread]: End processing [nucliadb-utils]: success
+[2024-04-05 08:58:24] INFO root fetch - processPackages [odoo-addon-stock-inventory]: Downloading https://files.pythonhosted.org/packages/77/ff/b556488bc34cff50749e40cf9df3454a8da57802005bbac930adbbd52293/odoo_addon_stock_inventory-16.0.1.0.0.7-py3-none-any.whl
+[2024-04-05 08:58:24] WARNING root fetch - processPackages [odoo-addon-stock-demand-estimate]: Timeout reached during download
+[2024-04-05 08:58:24] WARNING root fetch - processPackages [odoo-addon-stock-demand-estimate]: Timeout reached during download
+[2024-04-05 08:58:25] WARNING root fetch - processPackages [odoo-addon-stock-inventory]: Timeout reached during download
+[2024-04-05 08:58:25] INFO root fetch - processPackages [odoo-addon-stock-demand-estimate]: Downloading https://files.pythonhosted.org/packages/45/8b/28a34d30ae20a80f125023a9d4a99c34e8b3e74e9f8d31e73c120281cc40/odoo_addon_stock_demand_estimate-17.0.1.1.0.1-py3-none-any.whl
+[2024-04-05 08:58:25] INFO root fetch - processPackages [odoo-addon-stock-demand-estimate]: Downloading https://files.pythonhosted.org/packages/45/8b/28a34d30ae20a80f125023a9d4a99c34e8b3e74e9f8d31e73c120281cc40/odoo_addon_stock_demand_estimate-17.0.1.1.0.1-py3-none-any.whl
+[2024-04-05 08:58:25] INFO root fetch - processPackages [odoo-addon-stock-inventory]: Downloading https://files.pythonhosted.org/packages/4a/82/df10b291e0306fa4b8841152dda4d61fcb7ced1db9a8ed57843ece790670/odoo_addon_stock_inventory-16.0.1.0.0.8-py3-none-any.whl
+[2024-04-05 08:58:25] INFO root fetch - processPackages [odoo14-addon-stock-demand-estimate]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_stock_demand_estimate-14.0.1.3.0-py3-none-any.whl.zip]
+[2024-04-05 08:58:25] INFO root fetch - processPackages [odoo14-addon-stock-demand-estimate]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_stock_demand_estimate-14.0.1.3.1.dev1-py3-none-any.whl.zip]
+[2024-04-05 08:58:25] INFO root fetch - main [MainThread]: End processing [odoo14-addon-stock-demand-estimate]: success
+[2024-04-05 08:58:25] INFO root fetch - processPackages [nucliadb]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb-2.9.0.post266-py3-none-any.whl.zip]
+[2024-04-05 08:58:25] INFO root fetch - processPackages [nucliadb]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb-2.9.0.post267-py3-none-any.whl.zip]
+[2024-04-05 08:58:25] INFO root fetch - main [MainThread]: End processing [nucliadb]: success
+[2024-04-05 08:58:25] WARNING root fetch - processPackages [odoo-addon-stock-demand-estimate]: Timeout reached during download
+[2024-04-05 08:58:25] INFO root fetch - processPackages [odoo-addon-stock-demand-estimate]: executing diffoscope
+[2024-04-05 08:58:25] INFO root fetch - processPackages [odoo-addon-stock-demand-estimate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_stock_demand_estimate-17.0.1.1.0-py3-none-any.whl.zip tmp/odoo_addon_stock_demand_estimate-17.0.1.1.0.1-py3-none-any.whl.zip --markdown 20240405/o/odoo-addon-stock-demand-estimate/17.0.1.1.0-17.0.1.1.0.1/diff.md --exclude *.pyd
+[2024-04-05 08:58:25] WARNING root fetch - processPackages [odoo-addon-stock-demand-estimate]: Timeout reached during download
+[2024-04-05 08:58:25] INFO root fetch - processPackages [odoo-addon-stock-demand-estimate]: executing diffoscope
+[2024-04-05 08:58:25] INFO root fetch - processPackages [odoo-addon-stock-demand-estimate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_stock_demand_estimate-17.0.1.1.0-py3-none-any.whl.zip tmp/odoo_addon_stock_demand_estimate-17.0.1.1.0.1-py3-none-any.whl.zip --markdown 20240405/o/odoo-addon-stock-demand-estimate/17.0.1.1.0-17.0.1.1.0.1/diff.md --exclude *.pyd
+[2024-04-05 08:58:25] WARNING root fetch - processPackages [odoo-addon-stock-inventory]: Timeout reached during download
+[2024-04-05 08:58:25] INFO root fetch - processPackages [odoo-addon-stock-inventory]: executing diffoscope
+[2024-04-05 08:58:25] INFO root fetch - processPackages [odoo-addon-stock-inventory]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_stock_inventory-16.0.1.0.0.7-py3-none-any.whl.zip tmp/odoo_addon_stock_inventory-16.0.1.0.0.8-py3-none-any.whl.zip --markdown 20240405/o/odoo-addon-stock-inventory/16.0.1.0.0.7-16.0.1.0.0.8/diff.md --exclude *.pyd
+[2024-04-05 08:58:26] INFO root fetch - processPackages [odoo-addon-stock-inventory]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_stock_inventory-16.0.1.0.0.7-py3-none-any.whl.zip]
+[2024-04-05 08:58:26] INFO root fetch - processPackages [odoo-addon-stock-inventory]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_stock_inventory-16.0.1.0.0.8-py3-none-any.whl.zip]
+[2024-04-05 08:58:26] INFO root fetch - main [MainThread]: End processing [odoo-addon-stock-inventory]: success
+[2024-04-05 08:58:26] INFO root fetch - processPackages [odoo-addon-stock-demand-estimate]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_stock_demand_estimate-17.0.1.1.0-py3-none-any.whl.zip]
+[2024-04-05 08:58:26] INFO root fetch - processPackages [odoo-addon-stock-demand-estimate]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_stock_demand_estimate-17.0.1.1.0.1-py3-none-any.whl.zip]
+[2024-04-05 08:58:26] INFO root fetch - main [MainThread]: End processing [odoo-addon-stock-demand-estimate]: success
+[2024-04-05 08:58:26] INFO root fetch - main [MainThread]: End processing [odoo-addon-stock-demand-estimate]: success
+[2024-04-05 08:58:26] INFO root fetch - main [MainThread]: Store serial: [22632674]
