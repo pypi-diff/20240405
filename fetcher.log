@@ -12052,3 +12052,50 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2024-04-05 07:06:24] INFO root fetch - processPackages [super-ide]: Remove: archive file [/home/abi/fetcher/tmp/super-ide-1.4.8.tar.gz]
 [2024-04-05 07:06:24] INFO root fetch - main [MainThread]: End processing [super-ide]: success
 [2024-04-05 07:06:24] INFO root fetch - main [MainThread]: Store serial: [22631892]
+[2024-04-05 07:08:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22631892]
+[2024-04-05 07:08:32] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-05 07:08:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: rocat
+[2024-04-05 07:08:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: libWiiPy
+[2024-04-05 07:08:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: servicefoundry
+[2024-04-05 07:08:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: OpenTTDLab
+[2024-04-05 07:08:33] INFO root fetch - processPackages [rocat]: New version: [0.1.14] Old Version: [0.1.13]
+[2024-04-05 07:08:33] INFO root fetch - processPackages [libWiiPy]: New version: [0.2.1] Old Version: [0.2.0]
+[2024-04-05 07:08:33] INFO root fetch - processPackages [OpenTTDLab]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-05 07:08:33] INFO root fetch - processPackages [servicefoundry]: New version: [0.9.9rc2] Old Version: [0.9.9rc1]
+[2024-04-05 07:08:33] INFO root fetch - processPackages [libWiiPy]: Downloading https://files.pythonhosted.org/packages/32/fc/38aa9dec337bf2a4a8c6413e7845db1998305a507bd253461fef8f0b06f9/libWiiPy-0.2.0.tar.gz
+[2024-04-05 07:08:33] INFO root fetch - processPackages [rocat]: Downloading https://files.pythonhosted.org/packages/33/46/c10005af444479c668f81672fe0753b4ef5e663aa902c3234ccdef9ea54c/rocat-0.1.13.tar.gz
+[2024-04-05 07:08:33] INFO root fetch - processPackages [OpenTTDLab]: Downloading https://files.pythonhosted.org/packages/1f/6e/f9d8e929738fb28f0cf285d806e9d1e0b273a3abd0c627b823c266f87274/openttdlab-0.0.8.tar.gz
+[2024-04-05 07:08:33] INFO root fetch - processPackages [servicefoundry]: Downloading https://files.pythonhosted.org/packages/02/05/5016312c66b2c7a88f194b61f74c045e7449386ad8b2d1c5248a45a6094f/servicefoundry-0.9.9rc1.tar.gz
+[2024-04-05 07:08:33] WARNING root fetch - processPackages [rocat]: Timeout reached during download
+[2024-04-05 07:08:33] WARNING root fetch - processPackages [libWiiPy]: Timeout reached during download
+[2024-04-05 07:08:33] WARNING root fetch - processPackages [OpenTTDLab]: Timeout reached during download
+[2024-04-05 07:08:33] WARNING root fetch - processPackages [servicefoundry]: Timeout reached during download
+[2024-04-05 07:08:33] INFO root fetch - processPackages [rocat]: Downloading https://files.pythonhosted.org/packages/a7/b8/77fc6d999963263568dbcf97f9d7de5ea4afba238b0db1537af6e36878c8/rocat-0.1.14.tar.gz
+[2024-04-05 07:08:33] INFO root fetch - processPackages [libWiiPy]: Downloading https://files.pythonhosted.org/packages/1a/49/50afc9dba96e739d8aa416b2ba289bfd8594925b238fd6bc9b1fb183aee6/libWiiPy-0.2.1.tar.gz
+[2024-04-05 07:08:33] INFO root fetch - processPackages [OpenTTDLab]: Downloading https://files.pythonhosted.org/packages/c9/28/0b49734d3f0e2b039817ac8dbe0930487e1d1764bc5c7cc16063210352e0/openttdlab-0.0.9.tar.gz
+[2024-04-05 07:08:33] INFO root fetch - processPackages [servicefoundry]: Downloading https://files.pythonhosted.org/packages/95/2d/4d48175602335d472c23250316e448a45d05e4002ce13dc0e65cd515514a/servicefoundry-0.9.9rc2.tar.gz
+[2024-04-05 07:08:33] WARNING root fetch - processPackages [rocat]: Timeout reached during download
+[2024-04-05 07:08:33] INFO root fetch - processPackages [rocat]: executing diffoscope
+[2024-04-05 07:08:33] INFO root fetch - processPackages [rocat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rocat-0.1.13.tar.gz tmp/rocat-0.1.14.tar.gz --markdown 20240405/r/rocat/0.1.13-0.1.14/diff.md --exclude *.pyd
+[2024-04-05 07:08:33] WARNING root fetch - processPackages [libWiiPy]: Timeout reached during download
+[2024-04-05 07:08:33] INFO root fetch - processPackages [libWiiPy]: executing diffoscope
+[2024-04-05 07:08:33] INFO root fetch - processPackages [libWiiPy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/libWiiPy-0.2.0.tar.gz tmp/libWiiPy-0.2.1.tar.gz --markdown 20240405/l/libWiiPy/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2024-04-05 07:08:33] WARNING root fetch - processPackages [OpenTTDLab]: Timeout reached during download
+[2024-04-05 07:08:33] INFO root fetch - processPackages [OpenTTDLab]: executing diffoscope
+[2024-04-05 07:08:33] INFO root fetch - processPackages [OpenTTDLab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openttdlab-0.0.8.tar.gz tmp/openttdlab-0.0.9.tar.gz --markdown 20240405/O/OpenTTDLab/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2024-04-05 07:08:33] WARNING root fetch - processPackages [servicefoundry]: Timeout reached during download
+[2024-04-05 07:08:33] INFO root fetch - processPackages [servicefoundry]: executing diffoscope
+[2024-04-05 07:08:33] INFO root fetch - processPackages [servicefoundry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/servicefoundry-0.9.9rc1.tar.gz tmp/servicefoundry-0.9.9rc2.tar.gz --markdown 20240405/s/servicefoundry/0.9.9rc1-0.9.9rc2/diff.md --exclude *.pyd
+[2024-04-05 07:08:34] INFO root fetch - processPackages [rocat]: Remove: archive file [/home/abi/fetcher/tmp/rocat-0.1.13.tar.gz]
+[2024-04-05 07:08:34] INFO root fetch - processPackages [rocat]: Remove: archive file [/home/abi/fetcher/tmp/rocat-0.1.14.tar.gz]
+[2024-04-05 07:08:34] INFO root fetch - main [MainThread]: End processing [rocat]: success
+[2024-04-05 07:08:34] INFO root fetch - processPackages [OpenTTDLab]: Remove: archive file [/home/abi/fetcher/tmp/openttdlab-0.0.8.tar.gz]
+[2024-04-05 07:08:34] INFO root fetch - processPackages [OpenTTDLab]: Remove: archive file [/home/abi/fetcher/tmp/openttdlab-0.0.9.tar.gz]
+[2024-04-05 07:08:34] INFO root fetch - main [MainThread]: End processing [OpenTTDLab]: success
+[2024-04-05 07:08:34] INFO root fetch - processPackages [libWiiPy]: Remove: archive file [/home/abi/fetcher/tmp/libWiiPy-0.2.0.tar.gz]
+[2024-04-05 07:08:34] INFO root fetch - processPackages [libWiiPy]: Remove: archive file [/home/abi/fetcher/tmp/libWiiPy-0.2.1.tar.gz]
+[2024-04-05 07:08:34] INFO root fetch - main [MainThread]: End processing [libWiiPy]: success
+[2024-04-05 07:08:34] INFO root fetch - processPackages [servicefoundry]: Remove: archive file [/home/abi/fetcher/tmp/servicefoundry-0.9.9rc1.tar.gz]
+[2024-04-05 07:08:34] INFO root fetch - processPackages [servicefoundry]: Remove: archive file [/home/abi/fetcher/tmp/servicefoundry-0.9.9rc2.tar.gz]
+[2024-04-05 07:08:34] INFO root fetch - main [MainThread]: End processing [servicefoundry]: success
+[2024-04-05 07:08:34] INFO root fetch - main [MainThread]: Store serial: [22631904]
