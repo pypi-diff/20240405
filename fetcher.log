@@ -14274,3 +14274,28 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2024-04-05 08:58:26] INFO root fetch - main [MainThread]: End processing [odoo-addon-stock-demand-estimate]: success
 [2024-04-05 08:58:26] INFO root fetch - main [MainThread]: End processing [odoo-addon-stock-demand-estimate]: success
 [2024-04-05 08:58:26] INFO root fetch - main [MainThread]: Store serial: [22632674]
+[2024-04-05 09:00:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22632674]
+[2024-04-05 09:00:35] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-05 09:00:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo-addon-stock-demand-estimate
+[2024-04-05 09:00:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: icutil-IGNchinmay
+[2024-04-05 09:00:35] INFO root fetch - processPackages [odoo-addon-stock-demand-estimate]: New version: [17.0.1.1.0.1] Old Version: [17.0.1.1.0]
+[2024-04-05 09:00:35] INFO root fetch - processPackages [icutil-IGNchinmay]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-04-05 09:00:35] INFO root fetch - processPackages [odoo-addon-stock-demand-estimate]: Downloading https://files.pythonhosted.org/packages/5b/83/6899eca1f64ae90186acb79b6f5059b775e21a9a511d1a6058295320eb50/odoo_addon_stock_demand_estimate-17.0.1.1.0-py3-none-any.whl
+[2024-04-05 09:00:35] WARNING root fetch - processPackages [odoo-addon-stock-demand-estimate]: Timeout reached during download
+[2024-04-05 09:00:35] INFO root fetch - processPackages [icutil-IGNchinmay]: Downloading https://files.pythonhosted.org/packages/20/89/bd0401a40a07d7e3945cdb14c4cc946fa4c5efa00040a6986abe12201963/icutil_IGNchinmay-0.0.4.tar.gz
+[2024-04-05 09:00:35] INFO root fetch - processPackages [odoo-addon-stock-demand-estimate]: Downloading https://files.pythonhosted.org/packages/45/8b/28a34d30ae20a80f125023a9d4a99c34e8b3e74e9f8d31e73c120281cc40/odoo_addon_stock_demand_estimate-17.0.1.1.0.1-py3-none-any.whl
+[2024-04-05 09:00:35] WARNING root fetch - processPackages [icutil-IGNchinmay]: Timeout reached during download
+[2024-04-05 09:00:36] WARNING root fetch - processPackages [odoo-addon-stock-demand-estimate]: Timeout reached during download
+[2024-04-05 09:00:36] INFO root fetch - processPackages [odoo-addon-stock-demand-estimate]: executing diffoscope
+[2024-04-05 09:00:36] INFO root fetch - processPackages [odoo-addon-stock-demand-estimate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_stock_demand_estimate-17.0.1.1.0-py3-none-any.whl.zip tmp/odoo_addon_stock_demand_estimate-17.0.1.1.0.1-py3-none-any.whl.zip --markdown 20240405/o/odoo-addon-stock-demand-estimate/17.0.1.1.0-17.0.1.1.0.1/diff.md --exclude *.pyd
+[2024-04-05 09:00:36] INFO root fetch - processPackages [icutil-IGNchinmay]: Downloading https://files.pythonhosted.org/packages/e5/9e/dfbeb1fa93fc100edf73654bb04e11c1044b1c61e437db3a44047890d790/icutil_IGNchinmay-0.0.5.tar.gz
+[2024-04-05 09:00:36] WARNING root fetch - processPackages [icutil-IGNchinmay]: Timeout reached during download
+[2024-04-05 09:00:36] INFO root fetch - processPackages [icutil-IGNchinmay]: executing diffoscope
+[2024-04-05 09:00:36] INFO root fetch - processPackages [icutil-IGNchinmay]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/icutil_IGNchinmay-0.0.4.tar.gz tmp/icutil_IGNchinmay-0.0.5.tar.gz --markdown 20240405/i/icutil-IGNchinmay/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2024-04-05 09:00:36] INFO root fetch - processPackages [icutil-IGNchinmay]: Remove: archive file [/home/abi/fetcher/tmp/icutil_IGNchinmay-0.0.4.tar.gz]
+[2024-04-05 09:00:36] INFO root fetch - processPackages [icutil-IGNchinmay]: Remove: archive file [/home/abi/fetcher/tmp/icutil_IGNchinmay-0.0.5.tar.gz]
+[2024-04-05 09:00:36] INFO root fetch - main [MainThread]: End processing [icutil-IGNchinmay]: success
+[2024-04-05 09:00:37] INFO root fetch - processPackages [odoo-addon-stock-demand-estimate]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_stock_demand_estimate-17.0.1.1.0-py3-none-any.whl.zip]
+[2024-04-05 09:00:37] INFO root fetch - processPackages [odoo-addon-stock-demand-estimate]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_stock_demand_estimate-17.0.1.1.0.1-py3-none-any.whl.zip]
+[2024-04-05 09:00:37] INFO root fetch - main [MainThread]: End processing [odoo-addon-stock-demand-estimate]: success
+[2024-04-05 09:00:37] INFO root fetch - main [MainThread]: Store serial: [22632679]
