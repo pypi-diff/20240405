@@ -3456,3 +3456,53 @@
 [2024-04-05 02:38:52] INFO root fetch - processPackages [aiohttp_admin2]: Remove: archive file [/home/abi/fetcher/tmp/aiohttp_admin2-0.0.5.tar.gz]
 [2024-04-05 02:38:52] INFO root fetch - main [MainThread]: End processing [aiohttp_admin2]: success
 [2024-04-05 02:38:52] INFO root fetch - main [MainThread]: Store serial: [22629329]
+[2024-04-05 02:40:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22629329]
+[2024-04-05 02:41:01] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-05 02:41:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nonebot-plugin-diffsinger
+[2024-04-05 02:41:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: confluentfucci
+[2024-04-05 02:41:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: Sex-API
+[2024-04-05 02:41:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cfr
+[2024-04-05 02:41:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: llama-index-llms-anthropic
+[2024-04-05 02:41:01] INFO root fetch - processPackages [confluentfucci]: New version: [1.0.5] Old Version: [1.0.4]
+[2024-04-05 02:41:01] WARNING root fetch - processPackages [Sex-API]: Skipping, unable to determine old version
+[2024-04-05 02:41:01] INFO root fetch - main [MainThread]: End processing [Sex-API] error
+[2024-04-05 02:41:01] INFO root fetch - processPackages [nonebot-plugin-diffsinger]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-05 02:41:01] INFO root fetch - processPackages [cfr]: New version: [2024.4.4] Old Version: [2024.4.3]
+[2024-04-05 02:41:01] INFO root fetch - processPackages [llama-index-llms-anthropic]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-05 02:41:01] INFO root fetch - processPackages [confluentfucci]: Downloading https://files.pythonhosted.org/packages/ac/b6/dd3a14f2eed957bbb74562a0d58adf6a4e7f069a2dab78b8b6e424ad66ca/confluentfucci-1.0.4.tar.gz
+[2024-04-05 02:41:01] INFO root fetch - processPackages [nonebot-plugin-diffsinger]: Downloading https://files.pythonhosted.org/packages/fa/96/c7a88f30ef6e911a0cf9e432f33a58ce841a6496d36045340e062f50f0c3/nonebot_plugin_diffsinger-0.1.8.tar.gz
+[2024-04-05 02:41:01] WARNING root fetch - processPackages [nonebot-plugin-diffsinger]: Timeout reached during download
+[2024-04-05 02:41:01] WARNING root fetch - processPackages [confluentfucci]: Timeout reached during download
+[2024-04-05 02:41:01] INFO root fetch - processPackages [cfr]: Downloading https://files.pythonhosted.org/packages/6f/a8/06f4d867a19ce7a0964dde215c9c03c2f2ab1e0b29a7cb50f551a9c6f9f9/cfr-2024.4.3.tar.gz
+[2024-04-05 02:41:01] INFO root fetch - processPackages [nonebot-plugin-diffsinger]: Downloading https://files.pythonhosted.org/packages/88/29/88246290f884fd31f810fd560a05062626cf8f22a185a5e1fcff5ab10fef/nonebot_plugin_diffsinger-0.1.9.tar.gz
+[2024-04-05 02:41:01] INFO root fetch - processPackages [llama-index-llms-anthropic]: Downloading https://files.pythonhosted.org/packages/54/38/09e3359d6d8656a270eb47b3b735e6cee4105cee1cb71abfbea49d62f744/llama_index_llms_anthropic-0.1.8.tar.gz
+[2024-04-05 02:41:01] INFO root fetch - processPackages [confluentfucci]: Downloading https://files.pythonhosted.org/packages/f3/6d/d630662e4682fd3a41484fe4b1d79159c357af77c5180ae3c6087031fc21/confluentfucci-1.0.5.tar.gz
+[2024-04-05 02:41:01] WARNING root fetch - processPackages [nonebot-plugin-diffsinger]: Timeout reached during download
+[2024-04-05 02:41:01] INFO root fetch - processPackages [nonebot-plugin-diffsinger]: executing diffoscope
+[2024-04-05 02:41:01] INFO root fetch - processPackages [nonebot-plugin-diffsinger]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_diffsinger-0.1.8.tar.gz tmp/nonebot_plugin_diffsinger-0.1.9.tar.gz --markdown 20240405/n/nonebot-plugin-diffsinger/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2024-04-05 02:41:01] WARNING root fetch - processPackages [cfr]: Timeout reached during download
+[2024-04-05 02:41:01] WARNING root fetch - processPackages [llama-index-llms-anthropic]: Timeout reached during download
+[2024-04-05 02:41:01] WARNING root fetch - processPackages [confluentfucci]: Timeout reached during download
+[2024-04-05 02:41:01] INFO root fetch - processPackages [confluentfucci]: executing diffoscope
+[2024-04-05 02:41:01] INFO root fetch - processPackages [confluentfucci]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/confluentfucci-1.0.4.tar.gz tmp/confluentfucci-1.0.5.tar.gz --markdown 20240405/c/confluentfucci/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2024-04-05 02:41:01] INFO root fetch - processPackages [cfr]: Downloading https://files.pythonhosted.org/packages/d5/96/1511ea6600fb057c01b2110141fbe15291ecf9fada5c2f91c55868ec107e/cfr-2024.4.4.tar.gz
+[2024-04-05 02:41:01] INFO root fetch - processPackages [llama-index-llms-anthropic]: Downloading https://files.pythonhosted.org/packages/38/49/449c5b23f75db60736100925337b238488ec4da71bbdf9f28ce1b9464e9a/llama_index_llms_anthropic-0.1.9.tar.gz
+[2024-04-05 02:41:01] WARNING root fetch - processPackages [cfr]: Timeout reached during download
+[2024-04-05 02:41:01] INFO root fetch - processPackages [cfr]: executing diffoscope
+[2024-04-05 02:41:01] INFO root fetch - processPackages [cfr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cfr-2024.4.3.tar.gz tmp/cfr-2024.4.4.tar.gz --markdown 20240405/c/cfr/2024.4.3-2024.4.4/diff.md --exclude *.pyd
+[2024-04-05 02:41:02] WARNING root fetch - processPackages [llama-index-llms-anthropic]: Timeout reached during download
+[2024-04-05 02:41:02] INFO root fetch - processPackages [llama-index-llms-anthropic]: executing diffoscope
+[2024-04-05 02:41:02] INFO root fetch - processPackages [llama-index-llms-anthropic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llama_index_llms_anthropic-0.1.8.tar.gz tmp/llama_index_llms_anthropic-0.1.9.tar.gz --markdown 20240405/l/llama-index-llms-anthropic/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2024-04-05 02:41:02] INFO root fetch - processPackages [nonebot-plugin-diffsinger]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_diffsinger-0.1.8.tar.gz]
+[2024-04-05 02:41:02] INFO root fetch - processPackages [nonebot-plugin-diffsinger]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_diffsinger-0.1.9.tar.gz]
+[2024-04-05 02:41:02] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-diffsinger]: success
+[2024-04-05 02:41:02] INFO root fetch - processPackages [confluentfucci]: Remove: archive file [/home/abi/fetcher/tmp/confluentfucci-1.0.4.tar.gz]
+[2024-04-05 02:41:02] INFO root fetch - processPackages [confluentfucci]: Remove: archive file [/home/abi/fetcher/tmp/confluentfucci-1.0.5.tar.gz]
+[2024-04-05 02:41:02] INFO root fetch - main [MainThread]: End processing [confluentfucci]: success
+[2024-04-05 02:41:02] INFO root fetch - processPackages [llama-index-llms-anthropic]: Remove: archive file [/home/abi/fetcher/tmp/llama_index_llms_anthropic-0.1.8.tar.gz]
+[2024-04-05 02:41:02] INFO root fetch - processPackages [llama-index-llms-anthropic]: Remove: archive file [/home/abi/fetcher/tmp/llama_index_llms_anthropic-0.1.9.tar.gz]
+[2024-04-05 02:41:02] INFO root fetch - main [MainThread]: End processing [llama-index-llms-anthropic]: success
+[2024-04-05 02:41:02] INFO root fetch - processPackages [cfr]: Remove: archive file [/home/abi/fetcher/tmp/cfr-2024.4.3.tar.gz]
+[2024-04-05 02:41:02] INFO root fetch - processPackages [cfr]: Remove: archive file [/home/abi/fetcher/tmp/cfr-2024.4.4.tar.gz]
+[2024-04-05 02:41:02] INFO root fetch - main [MainThread]: End processing [cfr]: success
+[2024-04-05 02:41:02] INFO root fetch - main [MainThread]: Store serial: [22629344]
