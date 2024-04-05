@@ -11902,3 +11902,50 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2024-04-05 06:57:39] INFO root fetch - processPackages [odoo-addon-l10n-nl-xaf-auditfile-export]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_nl_xaf_auditfile_export-17.0.1.0.0.3-py3-none-any.whl.zip]
 [2024-04-05 06:57:39] INFO root fetch - main [MainThread]: End processing [odoo-addon-l10n-nl-xaf-auditfile-export]: success
 [2024-04-05 06:57:39] INFO root fetch - main [MainThread]: Store serial: [22631834]
+[2024-04-05 06:59:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22631834]
+[2024-04-05 06:59:48] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-05 06:59:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: FlowKit
+[2024-04-05 06:59:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: haruka-parser
+[2024-04-05 06:59:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addon-l10n-ro-stock-picking-comment-template
+[2024-04-05 06:59:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo14-addon-l10n-ro-account-anaf-sync
+[2024-04-05 06:59:48] INFO root fetch - processPackages [odoo-addon-l10n-ro-stock-picking-comment-template]: New version: [16.0.0.2.0] Old Version: [15.0.1.3.0]
+[2024-04-05 06:59:48] INFO root fetch - processPackages [odoo-addon-l10n-ro-stock-picking-comment-template]: Downloading https://files.pythonhosted.org/packages/77/e3/86ffb40467bd57a353f50a7ebaa1cd2e4e68c8ee124ca5ed38d46e6a044b/odoo_addon_l10n_ro_stock_picking_comment_template-15.0.1.3.0-py3-none-any.whl
+[2024-04-05 06:59:48] INFO root fetch - processPackages [haruka-parser]: New version: [0.4.8] Old Version: [0.4.7]
+[2024-04-05 06:59:48] INFO root fetch - processPackages [FlowKit]: New version: [1.1.0] Old Version: [1.0.1]
+[2024-04-05 06:59:48] INFO root fetch - processPackages [odoo14-addon-l10n-ro-account-anaf-sync]: New version: [14.0.1.9.0] Old Version: [14.0.1.8.0]
+[2024-04-05 06:59:48] WARNING root fetch - processPackages [odoo-addon-l10n-ro-stock-picking-comment-template]: Timeout reached during download
+[2024-04-05 06:59:48] INFO root fetch - processPackages [haruka-parser]: Downloading https://files.pythonhosted.org/packages/b9/d9/6ccb2f9bbfedcb79d532015faab02188d5fbefff4e023bc58492a05dbf95/haruka_parser-0.4.7.tar.gz
+[2024-04-05 06:59:48] INFO root fetch - processPackages [FlowKit]: Downloading https://files.pythonhosted.org/packages/eb/26/65a22954c5ae4bbbb4fe350a6b3e9a7f1149b833c83f1f9593f9f2229f6a/FlowKit-1.0.1.tar.gz
+[2024-04-05 06:59:48] INFO root fetch - processPackages [odoo14-addon-l10n-ro-account-anaf-sync]: Downloading https://files.pythonhosted.org/packages/78/c5/ce477df7731793f41fd698c8788b5d1d453078625c7e925accc6ec6d8732/odoo14_addon_l10n_ro_account_anaf_sync-14.0.1.8.0-py3-none-any.whl
+[2024-04-05 06:59:49] INFO root fetch - processPackages [odoo-addon-l10n-ro-stock-picking-comment-template]: Downloading https://files.pythonhosted.org/packages/63/24/b43b8155454569adce4fc31ea6478db01ad1d834dca70f2a1f9967d642d9/odoo_addon_l10n_ro_stock_picking_comment_template-16.0.0.2.0-py3-none-any.whl
+[2024-04-05 06:59:49] WARNING root fetch - processPackages [haruka-parser]: Timeout reached during download
+[2024-04-05 06:59:49] WARNING root fetch - processPackages [FlowKit]: Timeout reached during download
+[2024-04-05 06:59:49] WARNING root fetch - processPackages [odoo-addon-l10n-ro-stock-picking-comment-template]: Timeout reached during download
+[2024-04-05 06:59:49] INFO root fetch - processPackages [odoo-addon-l10n-ro-stock-picking-comment-template]: executing diffoscope
+[2024-04-05 06:59:49] INFO root fetch - processPackages [odoo-addon-l10n-ro-stock-picking-comment-template]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_l10n_ro_stock_picking_comment_template-15.0.1.3.0-py3-none-any.whl.zip tmp/odoo_addon_l10n_ro_stock_picking_comment_template-16.0.0.2.0-py3-none-any.whl.zip --markdown 20240405/o/odoo-addon-l10n-ro-stock-picking-comment-template/15.0.1.3.0-16.0.0.2.0/diff.md --exclude *.pyd
+[2024-04-05 06:59:49] INFO root fetch - processPackages [haruka-parser]: Downloading https://files.pythonhosted.org/packages/07/2d/00b3bc134ce9b884f8a0131e0b52e18ed1edd691ad741ba154802d9dc196/haruka_parser-0.4.8.tar.gz
+[2024-04-05 06:59:49] INFO root fetch - processPackages [FlowKit]: Downloading https://files.pythonhosted.org/packages/d9/df/ccd107db90dff55cf22f8dec2e1be65afdb51c145e2b1856f4567bea8474/FlowKit-1.1.0.tar.gz
+[2024-04-05 06:59:49] WARNING root fetch - processPackages [odoo14-addon-l10n-ro-account-anaf-sync]: Timeout reached during download
+[2024-04-05 06:59:49] WARNING root fetch - processPackages [haruka-parser]: Timeout reached during download
+[2024-04-05 06:59:49] INFO root fetch - processPackages [haruka-parser]: executing diffoscope
+[2024-04-05 06:59:49] INFO root fetch - processPackages [haruka-parser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/haruka_parser-0.4.7.tar.gz tmp/haruka_parser-0.4.8.tar.gz --markdown 20240405/h/haruka-parser/0.4.7-0.4.8/diff.md --exclude *.pyd
+[2024-04-05 06:59:49] WARNING root fetch - processPackages [FlowKit]: Timeout reached during download
+[2024-04-05 06:59:49] INFO root fetch - processPackages [FlowKit]: executing diffoscope
+[2024-04-05 06:59:49] INFO root fetch - processPackages [FlowKit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/FlowKit-1.0.1.tar.gz tmp/FlowKit-1.1.0.tar.gz --markdown 20240405/F/FlowKit/1.0.1-1.1.0/diff.md --exclude *.pyd
+[2024-04-05 06:59:49] INFO root fetch - processPackages [odoo14-addon-l10n-ro-account-anaf-sync]: Downloading https://files.pythonhosted.org/packages/f4/d6/17220040104a748662cc993b94e32a18110361b72e5cd95e727166375e68/odoo14_addon_l10n_ro_account_anaf_sync-14.0.1.9.0-py3-none-any.whl
+[2024-04-05 06:59:49] INFO root fetch - processPackages [odoo-addon-l10n-ro-stock-picking-comment-template]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_ro_stock_picking_comment_template-15.0.1.3.0-py3-none-any.whl.zip]
+[2024-04-05 06:59:49] INFO root fetch - processPackages [odoo-addon-l10n-ro-stock-picking-comment-template]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_ro_stock_picking_comment_template-16.0.0.2.0-py3-none-any.whl.zip]
+[2024-04-05 06:59:49] INFO root fetch - main [MainThread]: End processing [odoo-addon-l10n-ro-stock-picking-comment-template]: success
+[2024-04-05 06:59:49] WARNING root fetch - processPackages [odoo14-addon-l10n-ro-account-anaf-sync]: Timeout reached during download
+[2024-04-05 06:59:49] INFO root fetch - processPackages [odoo14-addon-l10n-ro-account-anaf-sync]: executing diffoscope
+[2024-04-05 06:59:49] INFO root fetch - processPackages [odoo14-addon-l10n-ro-account-anaf-sync]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_l10n_ro_account_anaf_sync-14.0.1.8.0-py3-none-any.whl.zip tmp/odoo14_addon_l10n_ro_account_anaf_sync-14.0.1.9.0-py3-none-any.whl.zip --markdown 20240405/o/odoo14-addon-l10n-ro-account-anaf-sync/14.0.1.8.0-14.0.1.9.0/diff.md --exclude *.pyd
+[2024-04-05 06:59:50] INFO root fetch - processPackages [haruka-parser]: Remove: archive file [/home/abi/fetcher/tmp/haruka_parser-0.4.7.tar.gz]
+[2024-04-05 06:59:50] INFO root fetch - processPackages [haruka-parser]: Remove: archive file [/home/abi/fetcher/tmp/haruka_parser-0.4.8.tar.gz]
+[2024-04-05 06:59:50] INFO root fetch - main [MainThread]: End processing [haruka-parser]: success
+[2024-04-05 06:59:50] INFO root fetch - processPackages [FlowKit]: Remove: archive file [/home/abi/fetcher/tmp/FlowKit-1.0.1.tar.gz]
+[2024-04-05 06:59:50] INFO root fetch - processPackages [FlowKit]: Remove: archive file [/home/abi/fetcher/tmp/FlowKit-1.1.0.tar.gz]
+[2024-04-05 06:59:50] INFO root fetch - main [MainThread]: End processing [FlowKit]: success
+[2024-04-05 06:59:50] INFO root fetch - processPackages [odoo14-addon-l10n-ro-account-anaf-sync]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_l10n_ro_account_anaf_sync-14.0.1.8.0-py3-none-any.whl.zip]
+[2024-04-05 06:59:50] INFO root fetch - processPackages [odoo14-addon-l10n-ro-account-anaf-sync]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_l10n_ro_account_anaf_sync-14.0.1.9.0-py3-none-any.whl.zip]
+[2024-04-05 06:59:50] INFO root fetch - main [MainThread]: End processing [odoo14-addon-l10n-ro-account-anaf-sync]: success
+[2024-04-05 06:59:50] INFO root fetch - main [MainThread]: Store serial: [22631843]
