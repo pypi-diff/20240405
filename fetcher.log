@@ -9483,3 +9483,17 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2024-04-05 04:24:08] INFO root fetch - processPackages [deemon]: Remove: archive file [/home/abi/fetcher/tmp/deemon-2.9.3.tar.gz]
 [2024-04-05 04:24:08] INFO root fetch - main [MainThread]: End processing [deemon]: success
 [2024-04-05 04:24:08] INFO root fetch - main [MainThread]: Store serial: [22631173]
+[2024-04-05 04:26:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22631173]
+[2024-04-05 04:26:17] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-04-05 04:26:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: saphira
+[2024-04-05 04:26:17] INFO root fetch - processPackages [saphira]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-04-05 04:26:17] INFO root fetch - processPackages [saphira]: Downloading https://files.pythonhosted.org/packages/43/f6/9cbb910070f0392f513daa0fd0942f857099059f8b626c56eef93c82cb4b/saphira-0.0.4.tar.gz
+[2024-04-05 04:26:18] WARNING root fetch - processPackages [saphira]: Timeout reached during download
+[2024-04-05 04:26:18] INFO root fetch - processPackages [saphira]: Downloading https://files.pythonhosted.org/packages/04/6d/fa3e58c744167a95a30e8941ee984ea8e7c3bb7f89883bd142f813efde5e/saphira-0.0.5.tar.gz
+[2024-04-05 04:26:18] WARNING root fetch - processPackages [saphira]: Timeout reached during download
+[2024-04-05 04:26:18] INFO root fetch - processPackages [saphira]: executing diffoscope
+[2024-04-05 04:26:18] INFO root fetch - processPackages [saphira]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/saphira-0.0.4.tar.gz tmp/saphira-0.0.5.tar.gz --markdown 20240405/s/saphira/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2024-04-05 04:26:18] INFO root fetch - processPackages [saphira]: Remove: archive file [/home/abi/fetcher/tmp/saphira-0.0.4.tar.gz]
+[2024-04-05 04:26:18] INFO root fetch - processPackages [saphira]: Remove: archive file [/home/abi/fetcher/tmp/saphira-0.0.5.tar.gz]
+[2024-04-05 04:26:18] INFO root fetch - main [MainThread]: End processing [saphira]: success
+[2024-04-05 04:26:18] INFO root fetch - main [MainThread]: Store serial: [22631175]
