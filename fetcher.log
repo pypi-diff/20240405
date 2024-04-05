@@ -8924,3 +8924,28 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2024-04-05 03:47:08] INFO root fetch - processPackages [neon-nodes]: Remove: archive file [/home/abi/fetcher/tmp/neon-nodes-0.0.1a8.tar.gz]
 [2024-04-05 03:47:08] INFO root fetch - main [MainThread]: End processing [neon-nodes]: success
 [2024-04-05 03:47:08] INFO root fetch - main [MainThread]: Store serial: [22630947]
+[2024-04-05 03:49:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22630947]
+[2024-04-05 03:49:16] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-05 03:49:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: psycopg2-yugabytedb
+[2024-04-05 03:49:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: kdp-python-connector
+[2024-04-05 03:49:16] INFO root fetch - processPackages [kdp-python-connector]: New version: [0.65.0] Old Version: [0.64.0]
+[2024-04-05 03:49:16] INFO root fetch - processPackages [kdp-python-connector]: Downloading https://files.pythonhosted.org/packages/28/06/6d6a78e0326e41e077d4640f54f717664a81a2898ba6bc13137f4405ee39/kdp-python-connector-0.64.0.tar.gz
+[2024-04-05 03:49:16] INFO root fetch - processPackages [psycopg2-yugabytedb]: New version: [2.9.3.post0] Old Version: [2.9.3.1]
+[2024-04-05 03:49:16] WARNING root fetch - processPackages [kdp-python-connector]: Timeout reached during download
+[2024-04-05 03:49:17] INFO root fetch - processPackages [psycopg2-yugabytedb]: Downloading https://files.pythonhosted.org/packages/5a/58/70491a78957cf52056f3720fa444fa58f5dfda44e814490d5705ebe2a871/psycopg2-yugabytedb-2.9.3.1.tar.gz
+[2024-04-05 03:49:17] INFO root fetch - processPackages [kdp-python-connector]: Downloading https://files.pythonhosted.org/packages/ce/cb/fcb7983ede5b0f6e47a3d70ea502ce19bd2ee9a10d5f7ca18dbd9d99ab28/kdp-python-connector-0.65.0.tar.gz
+[2024-04-05 03:49:17] WARNING root fetch - processPackages [psycopg2-yugabytedb]: Timeout reached during download
+[2024-04-05 03:49:17] WARNING root fetch - processPackages [kdp-python-connector]: Timeout reached during download
+[2024-04-05 03:49:17] INFO root fetch - processPackages [kdp-python-connector]: executing diffoscope
+[2024-04-05 03:49:17] INFO root fetch - processPackages [kdp-python-connector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kdp-python-connector-0.64.0.tar.gz tmp/kdp-python-connector-0.65.0.tar.gz --markdown 20240405/k/kdp-python-connector/0.64.0-0.65.0/diff.md --exclude *.pyd
+[2024-04-05 03:49:17] INFO root fetch - processPackages [psycopg2-yugabytedb]: Downloading https://files.pythonhosted.org/packages/6f/4b/a7f70434ed7683155bf8bc43a2f3ac7f0d448349d2ff7ea61e9ccbff1ff2/psycopg2-yugabytedb-2.9.3.post0.tar.gz
+[2024-04-05 03:49:17] WARNING root fetch - processPackages [psycopg2-yugabytedb]: Timeout reached during download
+[2024-04-05 03:49:17] INFO root fetch - processPackages [psycopg2-yugabytedb]: executing diffoscope
+[2024-04-05 03:49:17] INFO root fetch - processPackages [psycopg2-yugabytedb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/psycopg2-yugabytedb-2.9.3.1.tar.gz tmp/psycopg2-yugabytedb-2.9.3.post0.tar.gz --markdown 20240405/p/psycopg2-yugabytedb/2.9.3.1-2.9.3.post0/diff.md --exclude *.pyd
+[2024-04-05 03:49:17] INFO root fetch - processPackages [kdp-python-connector]: Remove: archive file [/home/abi/fetcher/tmp/kdp-python-connector-0.64.0.tar.gz]
+[2024-04-05 03:49:17] INFO root fetch - processPackages [kdp-python-connector]: Remove: archive file [/home/abi/fetcher/tmp/kdp-python-connector-0.65.0.tar.gz]
+[2024-04-05 03:49:17] INFO root fetch - main [MainThread]: End processing [kdp-python-connector]: success
+[2024-04-05 03:49:18] INFO root fetch - processPackages [psycopg2-yugabytedb]: Remove: archive file [/home/abi/fetcher/tmp/psycopg2-yugabytedb-2.9.3.1.tar.gz]
+[2024-04-05 03:49:18] INFO root fetch - processPackages [psycopg2-yugabytedb]: Remove: archive file [/home/abi/fetcher/tmp/psycopg2-yugabytedb-2.9.3.post0.tar.gz]
+[2024-04-05 03:49:18] INFO root fetch - main [MainThread]: End processing [psycopg2-yugabytedb]: success
+[2024-04-05 03:49:18] INFO root fetch - main [MainThread]: Store serial: [22630955]
