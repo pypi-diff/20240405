@@ -21857,3 +21857,75 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2024-04-05 14:11:52] INFO root fetch - processPackages [phenonaut]: Remove: archive file [/home/abi/fetcher/tmp/phenonaut-2.0.3.tar.gz]
 [2024-04-05 14:11:52] INFO root fetch - main [MainThread]: End processing [phenonaut]: success
 [2024-04-05 14:11:52] INFO root fetch - main [MainThread]: Store serial: [22635705]
+[2024-04-05 14:13:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22635705]
+[2024-04-05 14:14:01] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-05 14:14:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: oemof-tabular-plugins
+[2024-04-05 14:14:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: giscemultitools
+[2024-04-05 14:14:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nekoton
+[2024-04-05 14:14:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: swahilipro
+[2024-04-05 14:14:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cdk8s-awscdk-resolver
+[2024-04-05 14:14:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: function2widgets
+[2024-04-05 14:14:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: sqlalchemy-flattener
+[2024-04-05 14:14:01] INFO root fetch - processPackages [sqlalchemy-flattener]: New version: [0.3.3] Old Version: [0.3.2]
+[2024-04-05 14:14:01] INFO root fetch - processPackages [swahilipro]: New version: [2.2.9] Old Version: [2.2.7]
+[2024-04-05 14:14:01] INFO root fetch - processPackages [function2widgets]: New version: [0.6.5] Old Version: [0.6.4]
+[2024-04-05 14:14:01] INFO root fetch - processPackages [cdk8s-awscdk-resolver]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-05 14:14:01] INFO root fetch - processPackages [sqlalchemy-flattener]: Downloading https://files.pythonhosted.org/packages/9e/62/330da6a8ed08921005ea93f5c119e3ed93ce5c7e6c3b833c4c112d5f53d9/sqlalchemy_flattener-0.3.2.tar.gz
+[2024-04-05 14:14:01] INFO root fetch - processPackages [giscemultitools]: New version: [1.6.0] Old Version: [1.5.0]
+[2024-04-05 14:14:01] WARNING root fetch - processPackages [oemof-tabular-plugins]: Skipping, unable to determine old version
+[2024-04-05 14:14:01] INFO root fetch - main [MainThread]: End processing [oemof-tabular-plugins] error
+[2024-04-05 14:14:01] INFO root fetch - processPackages [function2widgets]: Downloading https://files.pythonhosted.org/packages/5a/d1/cb21cc9cc04a9f192b59ff58c6fce71d8c18c766ee4e4d92fd5045e12d96/function2widgets-0.6.4.tar.gz
+[2024-04-05 14:14:01] INFO root fetch - processPackages [nekoton]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-05 14:14:01] INFO root fetch - processPackages [swahilipro]: Downloading https://files.pythonhosted.org/packages/ed/db/968d1643e3e619b7002d244d1eec7a5d38a5ddee787e80fb28659de47bdf/swahilipro-2.2.7.tar.gz
+[2024-04-05 14:14:01] WARNING root fetch - processPackages [sqlalchemy-flattener]: Timeout reached during download
+[2024-04-05 14:14:01] WARNING root fetch - processPackages [function2widgets]: Timeout reached during download
+[2024-04-05 14:14:01] WARNING root fetch - processPackages [swahilipro]: Timeout reached during download
+[2024-04-05 14:14:01] INFO root fetch - processPackages [cdk8s-awscdk-resolver]: Downloading https://files.pythonhosted.org/packages/1e/5b/73b562c0a82838f575e8e44fd85a2b8db984b382658320c9072148c97cf9/cdk8s-awscdk-resolver-0.0.8.tar.gz
+[2024-04-05 14:14:01] INFO root fetch - processPackages [giscemultitools]: Downloading https://files.pythonhosted.org/packages/5d/08/52069ec2a5b2dcf077a7c808e0d6a2a197211f94d519ad4f4f18583518cd/giscemultitools-1.5.0.tar.gz
+[2024-04-05 14:14:01] INFO root fetch - processPackages [sqlalchemy-flattener]: Downloading https://files.pythonhosted.org/packages/23/88/9a23f8a1789ce3918d52fd8aad8588178dddd2eb847c04a07d3b3ad0452b/sqlalchemy_flattener-0.3.3.tar.gz
+[2024-04-05 14:14:01] INFO root fetch - processPackages [nekoton]: Downloading https://files.pythonhosted.org/packages/ea/46/6384304a8e629130e5eec195f4f821726d0c3a3c0070cffe78b334e4b33d/nekoton-0.1.8-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-04-05 14:14:01] INFO root fetch - processPackages [swahilipro]: Downloading https://files.pythonhosted.org/packages/ec/0b/ee8c0c272727a48910e1abf795a35a961ffe1ff20acc1ce044e77d353271/swahilipro-2.2.9.tar.gz
+[2024-04-05 14:14:02] WARNING root fetch - processPackages [giscemultitools]: Timeout reached during download
+[2024-04-05 14:14:02] WARNING root fetch - processPackages [sqlalchemy-flattener]: Timeout reached during download
+[2024-04-05 14:14:02] INFO root fetch - processPackages [sqlalchemy-flattener]: executing diffoscope
+[2024-04-05 14:14:02] INFO root fetch - processPackages [sqlalchemy-flattener]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqlalchemy_flattener-0.3.2.tar.gz tmp/sqlalchemy_flattener-0.3.3.tar.gz --markdown 20240405/s/sqlalchemy-flattener/0.3.2-0.3.3/diff.md --exclude *.pyd
+[2024-04-05 14:14:02] INFO root fetch - processPackages [function2widgets]: Downloading https://files.pythonhosted.org/packages/0b/9b/2eb4b4861a871eab1bd361d87e72c84666c456614a4fa8afc8b794bfdfc8/function2widgets-0.6.5.tar.gz
+[2024-04-05 14:14:02] WARNING root fetch - processPackages [swahilipro]: Timeout reached during download
+[2024-04-05 14:14:02] INFO root fetch - processPackages [swahilipro]: executing diffoscope
+[2024-04-05 14:14:02] INFO root fetch - processPackages [swahilipro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/swahilipro-2.2.7.tar.gz tmp/swahilipro-2.2.9.tar.gz --markdown 20240405/s/swahilipro/2.2.7-2.2.9/diff.md --exclude *.pyd
+[2024-04-05 14:14:02] WARNING root fetch - processPackages [cdk8s-awscdk-resolver]: Timeout reached during download
+[2024-04-05 14:14:02] WARNING root fetch - processPackages [function2widgets]: Timeout reached during download
+[2024-04-05 14:14:02] INFO root fetch - processPackages [giscemultitools]: Downloading https://files.pythonhosted.org/packages/37/6f/3904c956fda86860ac205f28d16cc7d0230bf8c7e90448c91968effbc42c/giscemultitools-1.6.0.tar.gz
+[2024-04-05 14:14:02] INFO root fetch - processPackages [function2widgets]: executing diffoscope
+[2024-04-05 14:14:02] INFO root fetch - processPackages [function2widgets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/function2widgets-0.6.4.tar.gz tmp/function2widgets-0.6.5.tar.gz --markdown 20240405/f/function2widgets/0.6.4-0.6.5/diff.md --exclude *.pyd
+[2024-04-05 14:14:02] INFO root fetch - processPackages [cdk8s-awscdk-resolver]: Downloading https://files.pythonhosted.org/packages/e4/ba/3b1af2b8b411cdb77e57e6b1d4e656a18d1c62c5fddbd831b369378f4fbd/cdk8s-awscdk-resolver-0.0.9.tar.gz
+[2024-04-05 14:14:02] WARNING root fetch - processPackages [giscemultitools]: Timeout reached during download
+[2024-04-05 14:14:02] INFO root fetch - processPackages [giscemultitools]: executing diffoscope
+[2024-04-05 14:14:02] INFO root fetch - processPackages [giscemultitools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/giscemultitools-1.5.0.tar.gz tmp/giscemultitools-1.6.0.tar.gz --markdown 20240405/g/giscemultitools/1.5.0-1.6.0/diff.md --exclude *.pyd
+[2024-04-05 14:14:02] WARNING root fetch - processPackages [nekoton]: Timeout reached during download
+[2024-04-05 14:14:02] INFO root fetch - processPackages [nekoton]: Downloading https://files.pythonhosted.org/packages/1f/99/7eac72bb84e0843c6f2dbf7ff0dcfe9b5fec6dcf58b5e062f9b4d9d773ec/nekoton-0.1.9-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-04-05 14:14:02] INFO root fetch - processPackages [swahilipro]: Remove: archive file [/home/abi/fetcher/tmp/swahilipro-2.2.7.tar.gz]
+[2024-04-05 14:14:02] INFO root fetch - processPackages [swahilipro]: Remove: archive file [/home/abi/fetcher/tmp/swahilipro-2.2.9.tar.gz]
+[2024-04-05 14:14:02] INFO root fetch - main [MainThread]: End processing [swahilipro]: success
+[2024-04-05 14:14:02] INFO root fetch - processPackages [sqlalchemy-flattener]: Remove: archive file [/home/abi/fetcher/tmp/sqlalchemy_flattener-0.3.2.tar.gz]
+[2024-04-05 14:14:02] INFO root fetch - processPackages [sqlalchemy-flattener]: Remove: archive file [/home/abi/fetcher/tmp/sqlalchemy_flattener-0.3.3.tar.gz]
+[2024-04-05 14:14:02] INFO root fetch - main [MainThread]: End processing [sqlalchemy-flattener]: success
+[2024-04-05 14:14:02] WARNING root fetch - processPackages [cdk8s-awscdk-resolver]: Timeout reached during download
+[2024-04-05 14:14:02] INFO root fetch - processPackages [cdk8s-awscdk-resolver]: executing diffoscope
+[2024-04-05 14:14:02] INFO root fetch - processPackages [cdk8s-awscdk-resolver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-awscdk-resolver-0.0.8.tar.gz tmp/cdk8s-awscdk-resolver-0.0.9.tar.gz --markdown 20240405/c/cdk8s-awscdk-resolver/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2024-04-05 14:14:02] INFO root fetch - processPackages [giscemultitools]: Remove: archive file [/home/abi/fetcher/tmp/giscemultitools-1.5.0.tar.gz]
+[2024-04-05 14:14:02] INFO root fetch - processPackages [giscemultitools]: Remove: archive file [/home/abi/fetcher/tmp/giscemultitools-1.6.0.tar.gz]
+[2024-04-05 14:14:02] INFO root fetch - main [MainThread]: End processing [giscemultitools]: success
+[2024-04-05 14:14:02] INFO root fetch - processPackages [function2widgets]: Remove: archive file [/home/abi/fetcher/tmp/function2widgets-0.6.4.tar.gz]
+[2024-04-05 14:14:02] INFO root fetch - processPackages [function2widgets]: Remove: archive file [/home/abi/fetcher/tmp/function2widgets-0.6.5.tar.gz]
+[2024-04-05 14:14:02] INFO root fetch - main [MainThread]: End processing [function2widgets]: success
+[2024-04-05 14:14:03] WARNING root fetch - processPackages [nekoton]: Timeout reached during download
+[2024-04-05 14:14:03] INFO root fetch - processPackages [nekoton]: executing diffoscope
+[2024-04-05 14:14:03] INFO root fetch - processPackages [nekoton]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nekoton-0.1.8-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/nekoton-0.1.9-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20240405/n/nekoton/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2024-04-05 14:14:03] INFO root fetch - processPackages [cdk8s-awscdk-resolver]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-awscdk-resolver-0.0.8.tar.gz]
+[2024-04-05 14:14:03] INFO root fetch - processPackages [cdk8s-awscdk-resolver]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-awscdk-resolver-0.0.9.tar.gz]
+[2024-04-05 14:14:03] INFO root fetch - main [MainThread]: End processing [cdk8s-awscdk-resolver]: success
+[2024-04-05 14:16:18] INFO root fetch - processPackages [nekoton]: Remove: archive file [/home/abi/fetcher/tmp/nekoton-0.1.8-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-04-05 14:16:18] INFO root fetch - processPackages [nekoton]: Remove: archive file [/home/abi/fetcher/tmp/nekoton-0.1.9-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-04-05 14:16:18] INFO root fetch - main [MainThread]: End processing [nekoton]: success
+[2024-04-05 14:16:18] INFO root fetch - main [MainThread]: Store serial: [22635735]
