@@ -17282,3 +17282,42 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2024-04-05 11:15:10] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
 [2024-04-05 11:15:10] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
 [2024-04-05 11:15:10] INFO root fetch - main [MainThread]: Store serial: [22633881]
+[2024-04-05 11:17:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22633881]
+[2024-04-05 11:17:19] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-05 11:17:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tendril-structures-imageset
+[2024-04-05 11:17:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cyrix86
+[2024-04-05 11:17:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: modelon-impact-client
+[2024-04-05 11:17:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyatlan
+[2024-04-05 11:17:19] INFO root fetch - processPackages [tendril-structures-imageset]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-05 11:17:19] WARNING root fetch - processPackages [cyrix86]: Skipping, unable to determine old version
+[2024-04-05 11:17:19] INFO root fetch - main [MainThread]: End processing [cyrix86] error
+[2024-04-05 11:17:19] INFO root fetch - processPackages [tendril-structures-imageset]: Downloading https://files.pythonhosted.org/packages/17/18/cf65d3cb23fbc43347ad7ac4d7f84c260232e89364beba6f30e6027be38f/tendril-structures-imageset-0.1.8.tar.gz
+[2024-04-05 11:17:19] INFO root fetch - processPackages [modelon-impact-client]: New version: [3.9.0] Old Version: [3.8.1]
+[2024-04-05 11:17:19] INFO root fetch - processPackages [pyatlan]: New version: [2.1.3] Old Version: [2.1.2]
+[2024-04-05 11:17:19] WARNING root fetch - processPackages [tendril-structures-imageset]: Timeout reached during download
+[2024-04-05 11:17:19] INFO root fetch - processPackages [pyatlan]: Downloading https://files.pythonhosted.org/packages/6c/c2/ab8a374b44b1f0036aac8179cd8073f1250a37b42e5fd2477b0a37486293/pyatlan-2.1.2.tar.gz
+[2024-04-05 11:17:19] INFO root fetch - processPackages [tendril-structures-imageset]: Downloading https://files.pythonhosted.org/packages/14/58/73d5225572e6f9f36687db53ef2664f99f317842200fb4ea27b45583b2a3/tendril-structures-imageset-0.1.9.tar.gz
+[2024-04-05 11:17:19] INFO root fetch - processPackages [modelon-impact-client]: Downloading https://files.pythonhosted.org/packages/e6/38/1b8d34bf587fde7a79d9b937f1fe576d628ffdf0d9ca864081f0f93f7c25/modelon_impact_client-3.8.1.tar.gz
+[2024-04-05 11:17:19] WARNING root fetch - processPackages [pyatlan]: Timeout reached during download
+[2024-04-05 11:17:19] WARNING root fetch - processPackages [tendril-structures-imageset]: Timeout reached during download
+[2024-04-05 11:17:19] INFO root fetch - processPackages [tendril-structures-imageset]: executing diffoscope
+[2024-04-05 11:17:19] INFO root fetch - processPackages [tendril-structures-imageset]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tendril-structures-imageset-0.1.8.tar.gz tmp/tendril-structures-imageset-0.1.9.tar.gz --markdown 20240405/t/tendril-structures-imageset/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2024-04-05 11:17:19] WARNING root fetch - processPackages [modelon-impact-client]: Timeout reached during download
+[2024-04-05 11:17:19] INFO root fetch - processPackages [pyatlan]: Downloading https://files.pythonhosted.org/packages/f9/4a/48e2b2c64b16fc9830730b638fbaefff7f4a4d84ed510559db608a021608/pyatlan-2.1.3.tar.gz
+[2024-04-05 11:17:20] INFO root fetch - processPackages [modelon-impact-client]: Downloading https://files.pythonhosted.org/packages/60/b8/7c2424190ed68b6558d409ff3ae458f12114b0e2ff5e4df7d07cc9344fd9/modelon_impact_client-3.9.0.tar.gz
+[2024-04-05 11:17:20] WARNING root fetch - processPackages [pyatlan]: Timeout reached during download
+[2024-04-05 11:17:20] INFO root fetch - processPackages [pyatlan]: executing diffoscope
+[2024-04-05 11:17:20] INFO root fetch - processPackages [pyatlan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyatlan-2.1.2.tar.gz tmp/pyatlan-2.1.3.tar.gz --markdown 20240405/p/pyatlan/2.1.2-2.1.3/diff.md --exclude *.pyd
+[2024-04-05 11:17:20] WARNING root fetch - processPackages [modelon-impact-client]: Timeout reached during download
+[2024-04-05 11:17:20] INFO root fetch - processPackages [modelon-impact-client]: executing diffoscope
+[2024-04-05 11:17:20] INFO root fetch - processPackages [modelon-impact-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modelon_impact_client-3.8.1.tar.gz tmp/modelon_impact_client-3.9.0.tar.gz --markdown 20240405/m/modelon-impact-client/3.8.1-3.9.0/diff.md --exclude *.pyd
+[2024-04-05 11:17:20] INFO root fetch - processPackages [tendril-structures-imageset]: Remove: archive file [/home/abi/fetcher/tmp/tendril-structures-imageset-0.1.8.tar.gz]
+[2024-04-05 11:17:20] INFO root fetch - processPackages [tendril-structures-imageset]: Remove: archive file [/home/abi/fetcher/tmp/tendril-structures-imageset-0.1.9.tar.gz]
+[2024-04-05 11:17:20] INFO root fetch - main [MainThread]: End processing [tendril-structures-imageset]: success
+[2024-04-05 11:17:20] INFO root fetch - processPackages [modelon-impact-client]: Remove: archive file [/home/abi/fetcher/tmp/modelon_impact_client-3.8.1.tar.gz]
+[2024-04-05 11:17:20] INFO root fetch - processPackages [modelon-impact-client]: Remove: archive file [/home/abi/fetcher/tmp/modelon_impact_client-3.9.0.tar.gz]
+[2024-04-05 11:17:20] INFO root fetch - main [MainThread]: End processing [modelon-impact-client]: success
+[2024-04-05 11:17:21] INFO root fetch - processPackages [pyatlan]: Remove: archive file [/home/abi/fetcher/tmp/pyatlan-2.1.2.tar.gz]
+[2024-04-05 11:17:21] INFO root fetch - processPackages [pyatlan]: Remove: archive file [/home/abi/fetcher/tmp/pyatlan-2.1.3.tar.gz]
+[2024-04-05 11:17:21] INFO root fetch - main [MainThread]: End processing [pyatlan]: success
+[2024-04-05 11:17:21] INFO root fetch - main [MainThread]: Store serial: [22633896]
