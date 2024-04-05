@@ -21318,3 +21318,9 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2024-04-05 13:45:38] INFO root fetch - processPackages [django-smartbase-admin]: Remove: archive file [/home/abi/fetcher/tmp/django_smartbase_admin-0.2.7.tar.gz]
 [2024-04-05 13:45:38] INFO root fetch - main [MainThread]: End processing [django-smartbase-admin]: success
 [2024-04-05 13:45:38] INFO root fetch - main [MainThread]: Store serial: [22635491]
+[2024-04-05 13:47:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22635491]
+[2024-04-05 13:47:47] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-04-05 13:47:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: apptrackr
+[2024-04-05 13:47:47] WARNING root fetch - processPackages [apptrackr]: Skipping, unable to determine old version
+[2024-04-05 13:47:47] INFO root fetch - main [MainThread]: End processing [apptrackr] error
+[2024-04-05 13:47:47] INFO root fetch - main [MainThread]: Store serial: [22635496]
