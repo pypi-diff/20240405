@@ -19152,3 +19152,91 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2024-04-05 12:27:05] INFO root fetch - main [MainThread]: End processing [nucliadb-node-binding] error
 [2024-04-05 12:27:05] INFO root fetch - main [MainThread]: End processing [nucliadb-node-binding] error
 [2024-04-05 12:27:05] INFO root fetch - main [MainThread]: Store serial: [22634566]
+[2024-04-05 12:29:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22634566]
+[2024-04-05 12:29:13] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-04-05 12:29:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: arkindex-base-worker
+[2024-04-05 12:29:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: certora-cli-alpha-master
+[2024-04-05 12:29:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dip-coater
+[2024-04-05 12:29:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: reapit-cdk.cross-region-stack-export
+[2024-04-05 12:29:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: reapit-cdk.replicated-key
+[2024-04-05 12:29:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: reapit-cdk.email-receiver
+[2024-04-05 12:29:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cycode
+[2024-04-05 12:29:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: vy-lambda-tools
+[2024-04-05 12:29:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: reapit-cdk.cloudfront-invalidation
+[2024-04-05 12:29:13] INFO root fetch - processPackages [arkindex-base-worker]: New version: [0.3.7rc8] Old Version: [0.3.7rc7]
+[2024-04-05 12:29:13] WARNING root fetch - processPackages [dip-coater]: Skipping, unable to determine old version
+[2024-04-05 12:29:13] INFO root fetch - main [MainThread]: End processing [dip-coater] error
+[2024-04-05 12:29:13] INFO root fetch - processPackages [vy-lambda-tools]: New version: [0.4.0b2] Old Version: [0.4.0b1]
+[2024-04-05 12:29:13] INFO root fetch - processPackages [certora-cli-alpha-master]: New version: [20240405.6.48.900258] Old Version: [20240404.8.52.721303]
+[2024-04-05 12:29:13] INFO root fetch - processPackages [cycode]: New version: [1.9.3.dev2] Old Version: [1.9.3.dev1]
+[2024-04-05 12:29:13] INFO root fetch - processPackages [arkindex-base-worker]: Downloading https://files.pythonhosted.org/packages/3f/9d/d1a77ead0d23bd129bda8f9f83fd00f4a6bc80253bb5634a086fe53618ae/arkindex-base-worker-0.3.7rc7.tar.gz
+[2024-04-05 12:29:13] INFO root fetch - processPackages [vy-lambda-tools]: Downloading https://files.pythonhosted.org/packages/63/95/0c35bc2f3b60c1567e3358bef44f32b248cafbf3c70e0278a0ed733b3932/vy_lambda_tools-0.4.0b1.tar.gz
+[2024-04-05 12:29:13] INFO root fetch - processPackages [reapit-cdk.email-receiver]: New version: [0.1.2] Old Version: [0.1.0]
+[2024-04-05 12:29:13] INFO root fetch - processPackages [reapit-cdk.replicated-key]: New version: [0.1.2] Old Version: [0.1.0]
+[2024-04-05 12:29:13] INFO root fetch - processPackages [reapit-cdk.cross-region-stack-export]: New version: [0.1.2] Old Version: [0.1.0]
+[2024-04-05 12:29:14] INFO root fetch - processPackages [reapit-cdk.cloudfront-invalidation]: New version: [0.1.2] Old Version: [0.1.0]
+[2024-04-05 12:29:14] INFO root fetch - processPackages [cycode]: Downloading https://files.pythonhosted.org/packages/c1/d5/fee50189b5cf35b9797e5691908f0e0ef310466430335b64a81aefed9747/cycode-1.9.3.dev1.tar.gz
+[2024-04-05 12:29:14] INFO root fetch - processPackages [certora-cli-alpha-master]: Downloading https://files.pythonhosted.org/packages/7a/fd/a2b5c63a08497f45b9d753ff584477be7d332496fe410a23ca96cb7c8658/certora-cli-alpha-master-20240404.8.52.721303.tar.gz
+[2024-04-05 12:29:14] WARNING root fetch - processPackages [vy-lambda-tools]: Timeout reached during download
+[2024-04-05 12:29:14] WARNING root fetch - processPackages [arkindex-base-worker]: Timeout reached during download
+[2024-04-05 12:29:14] WARNING root fetch - processPackages [cycode]: Timeout reached during download
+[2024-04-05 12:29:14] WARNING root fetch - processPackages [certora-cli-alpha-master]: Skipping package: exceeds size limit 14476204>=10485760
+[2024-04-05 12:29:14] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-master] error
+[2024-04-05 12:29:14] INFO root fetch - processPackages [reapit-cdk.cross-region-stack-export]: Downloading https://files.pythonhosted.org/packages/81/68/6782530f634da04f3720ec9c9f27617c71b0ad6625e123c5cc7a0d6229a7/reapit-cdk.cross-region-stack-export-0.1.0.tar.gz
+[2024-04-05 12:29:14] INFO root fetch - processPackages [reapit-cdk.email-receiver]: Downloading https://files.pythonhosted.org/packages/75/ae/1c5ec40ad1370c95d2ac6a6b6aca3d81dbc8728a56d100913ef50e650128/reapit-cdk.email-receiver-0.1.0.tar.gz
+[2024-04-05 12:29:14] INFO root fetch - processPackages [vy-lambda-tools]: Downloading https://files.pythonhosted.org/packages/9a/5c/713acded5f836b6c282a9f7cef3283c959c00abffea8f5fd25eaa3b703c9/vy_lambda_tools-0.4.0b2.tar.gz
+[2024-04-05 12:29:14] INFO root fetch - processPackages [reapit-cdk.replicated-key]: Downloading https://files.pythonhosted.org/packages/bc/2a/6ab0f30e391d68f1cefef06a6f29696ae36d0ac75cc94b5a950a0a243e2e/reapit-cdk.replicated-key-0.1.0.tar.gz
+[2024-04-05 12:29:14] INFO root fetch - processPackages [reapit-cdk.cloudfront-invalidation]: Downloading https://files.pythonhosted.org/packages/15/5f/0555119bf8cd291d82c2cd89c09a44b9388daa9d36ee123fdfc5f917790e/reapit-cdk.cloudfront-invalidation-0.1.0.tar.gz
+[2024-04-05 12:29:14] INFO root fetch - processPackages [cycode]: Downloading https://files.pythonhosted.org/packages/e6/ca/35691b85b8394e9467dbe5dee84a7bcc76cf891e17ed64df6c726c36a782/cycode-1.9.3.dev2.tar.gz
+[2024-04-05 12:29:14] WARNING root fetch - processPackages [vy-lambda-tools]: Timeout reached during download
+[2024-04-05 12:29:14] INFO root fetch - processPackages [arkindex-base-worker]: Downloading https://files.pythonhosted.org/packages/7f/e1/d1cc2d60d6a512046edb70890d3a623e50612c7f347431c085e0d1473f3f/arkindex-base-worker-0.3.7rc8.tar.gz
+[2024-04-05 12:29:14] INFO root fetch - processPackages [vy-lambda-tools]: executing diffoscope
+[2024-04-05 12:29:14] INFO root fetch - processPackages [vy-lambda-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vy_lambda_tools-0.4.0b1.tar.gz tmp/vy_lambda_tools-0.4.0b2.tar.gz --markdown 20240405/v/vy-lambda-tools/0.4.0b1-0.4.0b2/diff.md --exclude *.pyd
+[2024-04-05 12:29:14] WARNING root fetch - processPackages [reapit-cdk.cross-region-stack-export]: Timeout reached during download
+[2024-04-05 12:29:14] WARNING root fetch - processPackages [reapit-cdk.cloudfront-invalidation]: Timeout reached during download
+[2024-04-05 12:29:14] WARNING root fetch - processPackages [reapit-cdk.email-receiver]: Timeout reached during download
+[2024-04-05 12:29:14] WARNING root fetch - processPackages [cycode]: Timeout reached during download
+[2024-04-05 12:29:14] INFO root fetch - processPackages [cycode]: executing diffoscope
+[2024-04-05 12:29:14] INFO root fetch - processPackages [cycode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cycode-1.9.3.dev1.tar.gz tmp/cycode-1.9.3.dev2.tar.gz --markdown 20240405/c/cycode/1.9.3.dev1-1.9.3.dev2/diff.md --exclude *.pyd
+[2024-04-05 12:29:14] WARNING root fetch - processPackages [reapit-cdk.replicated-key]: Timeout reached during download
+[2024-04-05 12:29:14] WARNING root fetch - processPackages [arkindex-base-worker]: Timeout reached during download
+[2024-04-05 12:29:14] INFO root fetch - processPackages [arkindex-base-worker]: executing diffoscope
+[2024-04-05 12:29:14] INFO root fetch - processPackages [arkindex-base-worker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arkindex-base-worker-0.3.7rc7.tar.gz tmp/arkindex-base-worker-0.3.7rc8.tar.gz --markdown 20240405/a/arkindex-base-worker/0.3.7rc7-0.3.7rc8/diff.md --exclude *.pyd
+[2024-04-05 12:29:14] INFO root fetch - processPackages [reapit-cdk.cross-region-stack-export]: Downloading https://files.pythonhosted.org/packages/0e/94/8a738debc264868d5145648a628ba9271bee22199246169dae7bdb627dba/reapit-cdk.cross-region-stack-export-0.1.2.tar.gz
+[2024-04-05 12:29:14] INFO root fetch - processPackages [reapit-cdk.email-receiver]: Downloading https://files.pythonhosted.org/packages/75/00/865525eec1e331c00f824f87fd39df9979dae658bd2e78d5006b1e2bd0eb/reapit-cdk.email-receiver-0.1.2.tar.gz
+[2024-04-05 12:29:14] INFO root fetch - processPackages [reapit-cdk.replicated-key]: Downloading https://files.pythonhosted.org/packages/1f/63/fe53c678f5972ba69e65365bfa0baf4deedd88667f2f82823163f428b457/reapit-cdk.replicated-key-0.1.2.tar.gz
+[2024-04-05 12:29:14] INFO root fetch - processPackages [reapit-cdk.cloudfront-invalidation]: Downloading https://files.pythonhosted.org/packages/82/d4/f5a3bb0d515854e6a820c4294253b7ae45b0454562a4c5aba1edcd138bd6/reapit-cdk.cloudfront-invalidation-0.1.2.tar.gz
+[2024-04-05 12:29:14] WARNING root fetch - processPackages [reapit-cdk.cross-region-stack-export]: Timeout reached during download
+[2024-04-05 12:29:14] INFO root fetch - processPackages [reapit-cdk.cross-region-stack-export]: executing diffoscope
+[2024-04-05 12:29:14] INFO root fetch - processPackages [reapit-cdk.cross-region-stack-export]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reapit-cdk.cross-region-stack-export-0.1.0.tar.gz tmp/reapit-cdk.cross-region-stack-export-0.1.2.tar.gz --markdown 20240405/r/reapit-cdk.cross-region-stack-export/0.1.0-0.1.2/diff.md --exclude *.pyd
+[2024-04-05 12:29:14] WARNING root fetch - processPackages [reapit-cdk.replicated-key]: Timeout reached during download
+[2024-04-05 12:29:14] INFO root fetch - processPackages [reapit-cdk.replicated-key]: executing diffoscope
+[2024-04-05 12:29:14] INFO root fetch - processPackages [reapit-cdk.replicated-key]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reapit-cdk.replicated-key-0.1.0.tar.gz tmp/reapit-cdk.replicated-key-0.1.2.tar.gz --markdown 20240405/r/reapit-cdk.replicated-key/0.1.0-0.1.2/diff.md --exclude *.pyd
+[2024-04-05 12:29:14] WARNING root fetch - processPackages [reapit-cdk.email-receiver]: Timeout reached during download
+[2024-04-05 12:29:14] INFO root fetch - processPackages [reapit-cdk.email-receiver]: executing diffoscope
+[2024-04-05 12:29:14] INFO root fetch - processPackages [reapit-cdk.email-receiver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reapit-cdk.email-receiver-0.1.0.tar.gz tmp/reapit-cdk.email-receiver-0.1.2.tar.gz --markdown 20240405/r/reapit-cdk.email-receiver/0.1.0-0.1.2/diff.md --exclude *.pyd
+[2024-04-05 12:29:14] INFO root fetch - processPackages [vy-lambda-tools]: Remove: archive file [/home/abi/fetcher/tmp/vy_lambda_tools-0.4.0b1.tar.gz]
+[2024-04-05 12:29:14] INFO root fetch - processPackages [vy-lambda-tools]: Remove: archive file [/home/abi/fetcher/tmp/vy_lambda_tools-0.4.0b2.tar.gz]
+[2024-04-05 12:29:14] INFO root fetch - main [MainThread]: End processing [vy-lambda-tools]: success
+[2024-04-05 12:29:15] INFO root fetch - processPackages [cycode]: Remove: archive file [/home/abi/fetcher/tmp/cycode-1.9.3.dev1.tar.gz]
+[2024-04-05 12:29:15] INFO root fetch - processPackages [cycode]: Remove: archive file [/home/abi/fetcher/tmp/cycode-1.9.3.dev2.tar.gz]
+[2024-04-05 12:29:15] INFO root fetch - main [MainThread]: End processing [cycode]: success
+[2024-04-05 12:29:15] INFO root fetch - processPackages [arkindex-base-worker]: Remove: archive file [/home/abi/fetcher/tmp/arkindex-base-worker-0.3.7rc7.tar.gz]
+[2024-04-05 12:29:15] INFO root fetch - processPackages [arkindex-base-worker]: Remove: archive file [/home/abi/fetcher/tmp/arkindex-base-worker-0.3.7rc8.tar.gz]
+[2024-04-05 12:29:15] INFO root fetch - main [MainThread]: End processing [arkindex-base-worker]: success
+[2024-04-05 12:29:15] INFO root fetch - processPackages [reapit-cdk.cross-region-stack-export]: Remove: archive file [/home/abi/fetcher/tmp/reapit-cdk.cross-region-stack-export-0.1.0.tar.gz]
+[2024-04-05 12:29:15] INFO root fetch - processPackages [reapit-cdk.cross-region-stack-export]: Remove: archive file [/home/abi/fetcher/tmp/reapit-cdk.cross-region-stack-export-0.1.2.tar.gz]
+[2024-04-05 12:29:15] INFO root fetch - main [MainThread]: End processing [reapit-cdk.cross-region-stack-export]: success
+[2024-04-05 12:29:15] WARNING root fetch - processPackages [reapit-cdk.cloudfront-invalidation]: Timeout reached during download
+[2024-04-05 12:29:15] INFO root fetch - processPackages [reapit-cdk.cloudfront-invalidation]: executing diffoscope
+[2024-04-05 12:29:15] INFO root fetch - processPackages [reapit-cdk.cloudfront-invalidation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reapit-cdk.cloudfront-invalidation-0.1.0.tar.gz tmp/reapit-cdk.cloudfront-invalidation-0.1.2.tar.gz --markdown 20240405/r/reapit-cdk.cloudfront-invalidation/0.1.0-0.1.2/diff.md --exclude *.pyd
+[2024-04-05 12:29:15] INFO root fetch - processPackages [reapit-cdk.email-receiver]: Remove: archive file [/home/abi/fetcher/tmp/reapit-cdk.email-receiver-0.1.0.tar.gz]
+[2024-04-05 12:29:15] INFO root fetch - processPackages [reapit-cdk.email-receiver]: Remove: archive file [/home/abi/fetcher/tmp/reapit-cdk.email-receiver-0.1.2.tar.gz]
+[2024-04-05 12:29:15] INFO root fetch - main [MainThread]: End processing [reapit-cdk.email-receiver]: success
+[2024-04-05 12:29:15] INFO root fetch - processPackages [reapit-cdk.replicated-key]: Remove: archive file [/home/abi/fetcher/tmp/reapit-cdk.replicated-key-0.1.0.tar.gz]
+[2024-04-05 12:29:15] INFO root fetch - processPackages [reapit-cdk.replicated-key]: Remove: archive file [/home/abi/fetcher/tmp/reapit-cdk.replicated-key-0.1.2.tar.gz]
+[2024-04-05 12:29:15] INFO root fetch - main [MainThread]: End processing [reapit-cdk.replicated-key]: success
+[2024-04-05 12:29:16] INFO root fetch - processPackages [reapit-cdk.cloudfront-invalidation]: Remove: archive file [/home/abi/fetcher/tmp/reapit-cdk.cloudfront-invalidation-0.1.0.tar.gz]
+[2024-04-05 12:29:16] INFO root fetch - processPackages [reapit-cdk.cloudfront-invalidation]: Remove: archive file [/home/abi/fetcher/tmp/reapit-cdk.cloudfront-invalidation-0.1.2.tar.gz]
+[2024-04-05 12:29:16] INFO root fetch - main [MainThread]: End processing [reapit-cdk.cloudfront-invalidation]: success
+[2024-04-05 12:29:16] INFO root fetch - main [MainThread]: Store serial: [22634603]
