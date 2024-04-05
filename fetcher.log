@@ -12138,3 +12138,20 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2024-04-05 07:10:46] INFO root fetch - processPackages [spaceone-identity]: Remove: archive file [/home/abi/fetcher/tmp/spaceone-identity-2.0.dev99.tar.gz]
 [2024-04-05 07:10:46] INFO root fetch - main [MainThread]: End processing [spaceone-identity]: success
 [2024-04-05 07:10:46] INFO root fetch - main [MainThread]: Store serial: [22631918]
+[2024-04-05 07:12:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22631918]
+[2024-04-05 07:12:56] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-05 07:12:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: RAG-metrics
+[2024-04-05 07:12:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: venty
+[2024-04-05 07:12:56] WARNING root fetch - processPackages [RAG-metrics]: Skipping, unable to determine old version
+[2024-04-05 07:12:56] INFO root fetch - main [MainThread]: End processing [RAG-metrics] error
+[2024-04-05 07:12:56] INFO root fetch - processPackages [venty]: New version: [5.1.0] Old Version: [5.0.0]
+[2024-04-05 07:12:56] INFO root fetch - processPackages [venty]: Downloading https://files.pythonhosted.org/packages/bd/45/37bc8c36254d3d8606fb565780937c41f3eb7aa8fb87eaa059fee912777d/venty-5.0.0.tar.gz
+[2024-04-05 07:12:56] WARNING root fetch - processPackages [venty]: Timeout reached during download
+[2024-04-05 07:12:57] INFO root fetch - processPackages [venty]: Downloading https://files.pythonhosted.org/packages/f5/b7/51ea8499fbfda9250bd3592274528737fbf2200b869a19cbabc0bc72d594/venty-5.1.0.tar.gz
+[2024-04-05 07:12:57] WARNING root fetch - processPackages [venty]: Timeout reached during download
+[2024-04-05 07:12:57] INFO root fetch - processPackages [venty]: executing diffoscope
+[2024-04-05 07:12:57] INFO root fetch - processPackages [venty]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/venty-5.0.0.tar.gz tmp/venty-5.1.0.tar.gz --markdown 20240405/v/venty/5.0.0-5.1.0/diff.md --exclude *.pyd
+[2024-04-05 07:12:57] INFO root fetch - processPackages [venty]: Remove: archive file [/home/abi/fetcher/tmp/venty-5.0.0.tar.gz]
+[2024-04-05 07:12:57] INFO root fetch - processPackages [venty]: Remove: archive file [/home/abi/fetcher/tmp/venty-5.1.0.tar.gz]
+[2024-04-05 07:12:57] INFO root fetch - main [MainThread]: End processing [venty]: success
+[2024-04-05 07:12:57] INFO root fetch - main [MainThread]: Store serial: [22631924]
