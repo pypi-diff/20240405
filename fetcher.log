@@ -22251,3 +22251,35 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2024-04-05 14:27:24] INFO root fetch - processPackages [junifer]: Remove: archive file [/home/abi/fetcher/tmp/junifer-0.0.4.dev90.tar.gz]
 [2024-04-05 14:27:24] INFO root fetch - main [MainThread]: End processing [junifer]: success
 [2024-04-05 14:27:24] INFO root fetch - main [MainThread]: Store serial: [22635845]
+[2024-04-05 14:29:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22635845]
+[2024-04-05 14:29:33] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-05 14:29:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pvipy
+[2024-04-05 14:29:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: figeno
+[2024-04-05 14:29:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: topologicpy
+[2024-04-05 14:29:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ts-soup
+[2024-04-05 14:29:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: keelson
+[2024-04-05 14:29:33] INFO root fetch - processPackages [figeno]: New version: [1.0.4] Old Version: [1.0.3]
+[2024-04-05 14:29:33] INFO root fetch - processPackages [figeno]: Downloading https://files.pythonhosted.org/packages/11/f5/c6eeaf80c9b9ef36a9df83ff951b7a90200a7b4397d33dcb224c6370d125/figeno-1.0.3.tar.gz
+[2024-04-05 14:29:33] INFO root fetch - processPackages [keelson]: New version: [0.3.0rc9] Old Version: [0.3.0rc8]
+[2024-04-05 14:29:33] WARNING root fetch - processPackages [ts-soup]: Skipping, unable to determine old version
+[2024-04-05 14:29:33] INFO root fetch - main [MainThread]: End processing [ts-soup] error
+[2024-04-05 14:29:33] INFO root fetch - processPackages [topologicpy]: New version: [0.4.99] Old Version: [0.4.98]
+[2024-04-05 14:29:33] INFO root fetch - processPackages [pvipy]: New version: [1.2.1] Old Version: [1.2.0]
+[2024-04-05 14:29:33] WARNING root fetch - processPackages [figeno]: Skipping package: exceeds size limit 14353870>=10485760
+[2024-04-05 14:29:33] INFO root fetch - main [MainThread]: End processing [figeno] error
+[2024-04-05 14:29:33] INFO root fetch - processPackages [pvipy]: Downloading https://files.pythonhosted.org/packages/75/46/40faad416ebffa6084c663c43e7a7dfc668a2283c6522e83fe56c7b0823a/pvipy-1.2.0.tar.gz
+[2024-04-05 14:29:34] INFO root fetch - processPackages [keelson]: Downloading https://files.pythonhosted.org/packages/39/53/954e13e6e2b1bd1ad6c82e13de33a18a8ccad77205da459e58fa4f551b5f/keelson-0.3.0rc8-py3-none-any.whl
+[2024-04-05 14:29:34] INFO root fetch - processPackages [topologicpy]: Downloading https://files.pythonhosted.org/packages/65/2b/e0868697c81afd509f431b8765fd9784a7697ee7a4c0936e0288d0eaa6c8/topologicpy-0.4.98.tar.gz
+[2024-04-05 14:29:34] WARNING root fetch - processPackages [pvipy]: Skipping package: exceeds size limit 37763705>=10485760
+[2024-04-05 14:29:34] INFO root fetch - main [MainThread]: End processing [pvipy] error
+[2024-04-05 14:29:34] WARNING root fetch - processPackages [topologicpy]: Skipping package: exceeds size limit 50600248>=10485760
+[2024-04-05 14:29:34] INFO root fetch - main [MainThread]: End processing [topologicpy] error
+[2024-04-05 14:29:34] WARNING root fetch - processPackages [keelson]: Timeout reached during download
+[2024-04-05 14:29:34] INFO root fetch - processPackages [keelson]: Downloading https://files.pythonhosted.org/packages/08/a1/28289399a8eb6d6450f75184975f0e22dc1b9429247346881f3d6bdf8511/keelson-0.3.0rc9-py3-none-any.whl
+[2024-04-05 14:29:34] WARNING root fetch - processPackages [keelson]: Timeout reached during download
+[2024-04-05 14:29:34] INFO root fetch - processPackages [keelson]: executing diffoscope
+[2024-04-05 14:29:34] INFO root fetch - processPackages [keelson]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/keelson-0.3.0rc8-py3-none-any.whl.zip tmp/keelson-0.3.0rc9-py3-none-any.whl.zip --markdown 20240405/k/keelson/0.3.0rc8-0.3.0rc9/diff.md --exclude *.pyd
+[2024-04-05 14:29:35] INFO root fetch - processPackages [keelson]: Remove: archive file [/home/abi/fetcher/tmp/keelson-0.3.0rc8-py3-none-any.whl.zip]
+[2024-04-05 14:29:35] INFO root fetch - processPackages [keelson]: Remove: archive file [/home/abi/fetcher/tmp/keelson-0.3.0rc9-py3-none-any.whl.zip]
+[2024-04-05 14:29:35] INFO root fetch - main [MainThread]: End processing [keelson]: success
+[2024-04-05 14:29:35] INFO root fetch - main [MainThread]: Store serial: [22635866]
