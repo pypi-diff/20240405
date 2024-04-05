@@ -8613,3 +8613,12 @@
 [2024-04-05 03:31:52] INFO root fetch - processPackages [edc-action-item]: Remove: archive file [/home/abi/fetcher/tmp/edc_action_item-0.3.9-py3-none-any.whl.zip]
 [2024-04-05 03:31:52] INFO root fetch - main [MainThread]: End processing [edc-action-item]: success
 [2024-04-05 03:31:52] INFO root fetch - main [MainThread]: Store serial: [22630867]
+[2024-04-05 03:33:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22630867]
+[2024-04-05 03:34:02] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-05 03:34:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: integdb
+[2024-04-05 03:34:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: spaceprime
+[2024-04-05 03:34:02] WARNING root fetch - processPackages [integdb]: Skipping, unable to determine old version
+[2024-04-05 03:34:02] INFO root fetch - main [MainThread]: End processing [integdb] error
+[2024-04-05 03:34:02] WARNING root fetch - processPackages [spaceprime]: Skipping, unable to determine old version
+[2024-04-05 03:34:02] INFO root fetch - main [MainThread]: End processing [spaceprime] error
+[2024-04-05 03:34:02] INFO root fetch - main [MainThread]: Store serial: [22630873]
