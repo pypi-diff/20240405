@@ -10662,3 +10662,22 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2024-04-05 05:36:18] INFO root fetch - processPackages [tokengrams]: Remove: archive file [/home/abi/fetcher/tmp/tokengrams-0.3.0-cp310-cp310-macosx_11_0_arm64.whl.zip]
 [2024-04-05 05:36:18] INFO root fetch - main [MainThread]: End processing [tokengrams]: success
 [2024-04-05 05:36:18] INFO root fetch - main [MainThread]: Store serial: [22631505]
+[2024-04-05 05:38:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22631505]
+[2024-04-05 05:38:27] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-05 05:38:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tokengrams
+[2024-04-05 05:38:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: multirex
+[2024-04-05 05:38:27] INFO root fetch - processPackages [tokengrams]: New version: [0.3.0] Old Version: [0.2.0]
+[2024-04-05 05:38:27] INFO root fetch - processPackages [multirex]: New version: [0.1.5] Old Version: [0.1.4.1]
+[2024-04-05 05:38:27] INFO root fetch - processPackages [tokengrams]: Downloading https://files.pythonhosted.org/packages/70/11/8987664dcb4b18141a4c11f62f9bf919298066ce88d6a925229bdf41fe94/tokengrams-0.2.0-cp310-cp310-manylinux_2_31_x86_64.whl
+[2024-04-05 05:38:27] INFO root fetch - processPackages [multirex]: Downloading https://files.pythonhosted.org/packages/26/b4/acbb2122f92e902b248a630f919a0d8b82f505a8341bcfc6fcfe46b1633d/multirex-0.1.4.1.tar.gz
+[2024-04-05 05:38:27] WARNING root fetch - processPackages [tokengrams]: Timeout reached during download
+[2024-04-05 05:38:27] WARNING root fetch - processPackages [multirex]: Skipping package: exceeds size limit 23229187>=10485760
+[2024-04-05 05:38:27] INFO root fetch - main [MainThread]: End processing [multirex] error
+[2024-04-05 05:38:27] INFO root fetch - processPackages [tokengrams]: Downloading https://files.pythonhosted.org/packages/4a/e3/3cc42944ae0686dce65ce29288b5a77f7d2774f8e9b1b912b5c340b24746/tokengrams-0.3.0-cp310-cp310-macosx_11_0_arm64.whl
+[2024-04-05 05:38:27] WARNING root fetch - processPackages [tokengrams]: Timeout reached during download
+[2024-04-05 05:38:27] INFO root fetch - processPackages [tokengrams]: executing diffoscope
+[2024-04-05 05:38:27] INFO root fetch - processPackages [tokengrams]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tokengrams-0.2.0-cp310-cp310-manylinux_2_31_x86_64.whl.zip tmp/tokengrams-0.3.0-cp310-cp310-macosx_11_0_arm64.whl.zip --markdown 20240405/t/tokengrams/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2024-04-05 05:38:28] INFO root fetch - processPackages [tokengrams]: Remove: archive file [/home/abi/fetcher/tmp/tokengrams-0.2.0-cp310-cp310-manylinux_2_31_x86_64.whl.zip]
+[2024-04-05 05:38:28] INFO root fetch - processPackages [tokengrams]: Remove: archive file [/home/abi/fetcher/tmp/tokengrams-0.3.0-cp310-cp310-macosx_11_0_arm64.whl.zip]
+[2024-04-05 05:38:28] INFO root fetch - main [MainThread]: End processing [tokengrams]: success
+[2024-04-05 05:38:28] INFO root fetch - main [MainThread]: Store serial: [22631513]
