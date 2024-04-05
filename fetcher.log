@@ -18792,3 +18792,31 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2024-04-05 12:13:38] INFO root fetch - processPackages [cylc-uiserver]: Remove: archive file [/home/abi/fetcher/tmp/cylc-uiserver-1.4.4.tar.gz]
 [2024-04-05 12:13:38] INFO root fetch - main [MainThread]: End processing [cylc-uiserver]: success
 [2024-04-05 12:13:38] INFO root fetch - main [MainThread]: Store serial: [22634406]
+[2024-04-05 12:15:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22634406]
+[2024-04-05 12:15:48] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-05 12:15:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lakera-regorus
+[2024-04-05 12:15:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: batou-ext
+[2024-04-05 12:15:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: qdldl
+[2024-04-05 12:15:49] INFO root fetch - processPackages [batou-ext]: New version: [2.4.4] Old Version: [2.4.2]
+[2024-04-05 12:15:49] WARNING root fetch - processPackages [lakera-regorus]: Skipping, unable to determine old version
+[2024-04-05 12:15:49] INFO root fetch - main [MainThread]: End processing [lakera-regorus] error
+[2024-04-05 12:15:49] INFO root fetch - processPackages [qdldl]: New version: [0.1.7.post1] Old Version: [0.1.7.post0]
+[2024-04-05 12:15:49] INFO root fetch - processPackages [batou-ext]: Downloading https://files.pythonhosted.org/packages/eb/ae/aa6ac1a5f269af025088bb382ab2944f56e7912f1f193b797420a63f825b/batou_ext-2.4.2.tar.gz
+[2024-04-05 12:15:49] INFO root fetch - processPackages [qdldl]: Downloading https://files.pythonhosted.org/packages/df/b1/47b04a296f983646c27d79bf13058f936b2a5b9e255f138c15e11f0e27b7/qdldl-0.1.7.post0.tar.gz
+[2024-04-05 12:15:49] WARNING root fetch - processPackages [batou-ext]: Timeout reached during download
+[2024-04-05 12:15:49] WARNING root fetch - processPackages [qdldl]: Timeout reached during download
+[2024-04-05 12:15:49] INFO root fetch - processPackages [batou-ext]: Downloading https://files.pythonhosted.org/packages/77/8b/56af4e7171056ef72d6744b02531130337d6085ddfc03eaf76b8a652f464/batou_ext-2.4.4.tar.gz
+[2024-04-05 12:15:49] INFO root fetch - processPackages [qdldl]: Downloading https://files.pythonhosted.org/packages/69/5b/27b6d3bf172ec439221012f4ab5bf60e0a0ef7630c72a846928496095826/qdldl-0.1.7.post1-cp37-cp37m-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-04-05 12:15:49] WARNING root fetch - processPackages [batou-ext]: Timeout reached during download
+[2024-04-05 12:15:49] INFO root fetch - processPackages [batou-ext]: executing diffoscope
+[2024-04-05 12:15:49] INFO root fetch - processPackages [batou-ext]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/batou_ext-2.4.2.tar.gz tmp/batou_ext-2.4.4.tar.gz --markdown 20240405/b/batou-ext/2.4.2-2.4.4/diff.md --exclude *.pyd
+[2024-04-05 12:15:50] WARNING root fetch - processPackages [qdldl]: Timeout reached during download
+[2024-04-05 12:15:50] INFO root fetch - processPackages [qdldl]: executing diffoscope
+[2024-04-05 12:15:50] INFO root fetch - processPackages [qdldl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qdldl-0.1.7.post0.tar.gz tmp/qdldl-0.1.7.post1-cp37-cp37m-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20240405/q/qdldl/0.1.7.post0-0.1.7.post1/diff.md --exclude *.pyd
+[2024-04-05 12:15:50] INFO root fetch - processPackages [batou-ext]: Remove: archive file [/home/abi/fetcher/tmp/batou_ext-2.4.2.tar.gz]
+[2024-04-05 12:15:50] INFO root fetch - processPackages [batou-ext]: Remove: archive file [/home/abi/fetcher/tmp/batou_ext-2.4.4.tar.gz]
+[2024-04-05 12:15:50] INFO root fetch - main [MainThread]: End processing [batou-ext]: success
+[2024-04-05 12:15:50] INFO root fetch - processPackages [qdldl]: Remove: archive file [/home/abi/fetcher/tmp/qdldl-0.1.7.post0.tar.gz]
+[2024-04-05 12:15:50] INFO root fetch - processPackages [qdldl]: Remove: archive file [/home/abi/fetcher/tmp/qdldl-0.1.7.post1-cp37-cp37m-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-04-05 12:15:50] INFO root fetch - main [MainThread]: End processing [qdldl]: success
+[2024-04-05 12:15:50] INFO root fetch - main [MainThread]: Store serial: [22634417]
