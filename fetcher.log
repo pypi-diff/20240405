@@ -12430,3 +12430,72 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2024-04-05 07:32:40] INFO root fetch - processPackages [hmtaiga]: Remove: archive file [/home/abi/fetcher/tmp/hmtaiga-0.1.9.tar.gz]
 [2024-04-05 07:32:40] INFO root fetch - main [MainThread]: End processing [hmtaiga]: success
 [2024-04-05 07:32:40] INFO root fetch - main [MainThread]: Store serial: [22632046]
+[2024-04-05 07:34:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22632046]
+[2024-04-05 07:34:49] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-05 07:34:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: netops
+[2024-04-05 07:34:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cast-bootstrap5
+[2024-04-05 07:34:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: integ-db
+[2024-04-05 07:34:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bota
+[2024-04-05 07:34:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tuack
+[2024-04-05 07:34:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: netmiko-mhrt
+[2024-04-05 07:34:49] INFO root fetch - processPackages [netmiko-mhrt]: New version: [1.0.5] Old Version: [1.0.4]
+[2024-04-05 07:34:49] INFO root fetch - processPackages [integ-db]: New version: [0.0.8] Old Version: [0.0.7]
+[2024-04-05 07:34:49] INFO root fetch - processPackages [netops]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-04-05 07:34:49] INFO root fetch - processPackages [bota]: New version: [4.0.9] Old Version: [4.0.8]
+[2024-04-05 07:34:49] INFO root fetch - processPackages [netmiko-mhrt]: Downloading https://files.pythonhosted.org/packages/36/18/ab58078d3d64a720ae2d130a501fcff8441929cb3f6d83bfefb587512dd9/netmiko_mhrt-1.0.4.tar.gz
+[2024-04-05 07:34:49] INFO root fetch - processPackages [cast-bootstrap5]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-05 07:34:49] INFO root fetch - processPackages [tuack]: New version: [0.1.5.3.1] Old Version: [0.1.5.3]
+[2024-04-05 07:34:49] INFO root fetch - processPackages [integ-db]: Downloading https://files.pythonhosted.org/packages/0b/f2/295779900c58ac43a2e2c62cd7f44701a65234721526b4996c4a638d050a/integ-db-0.0.7.tar.gz
+[2024-04-05 07:34:49] INFO root fetch - processPackages [netops]: Downloading https://files.pythonhosted.org/packages/03/28/886c0c747df076875bc71f9d881a61e7fa1f48bb062538a5cf8aed216445/netops-0.2.8.tar.gz
+[2024-04-05 07:34:49] WARNING root fetch - processPackages [netmiko-mhrt]: Timeout reached during download
+[2024-04-05 07:34:49] WARNING root fetch - processPackages [integ-db]: Timeout reached during download
+[2024-04-05 07:34:49] WARNING root fetch - processPackages [netops]: Timeout reached during download
+[2024-04-05 07:34:49] INFO root fetch - processPackages [cast-bootstrap5]: Downloading https://files.pythonhosted.org/packages/a9/9b/db053c0c1d19540d1bda453cb759360dffb45faa565215b2913bf8c69866/cast_bootstrap5-0.0.8.tar.gz
+[2024-04-05 07:34:49] INFO root fetch - processPackages [bota]: Downloading https://files.pythonhosted.org/packages/20/a9/4f637666fa83c508695967d807e33c729d659786a5de468b4289f5bff8b4/bota-4.0.8.tar.gz
+[2024-04-05 07:34:49] INFO root fetch - processPackages [tuack]: Downloading https://files.pythonhosted.org/packages/f7/a2/5bfef98de3d25fde3c38ebbb6b7fa838f7565614d9cf95fe68a0d1436d49/tuack-0.1.5.3.tar.gz
+[2024-04-05 07:34:49] INFO root fetch - processPackages [netops]: Downloading https://files.pythonhosted.org/packages/0c/a5/64775fa07e603f414080008f021522ef189098e287b65330d952a0015ebf/netops-0.2.9.tar.gz
+[2024-04-05 07:34:50] WARNING root fetch - processPackages [bota]: Timeout reached during download
+[2024-04-05 07:34:50] INFO root fetch - processPackages [netmiko-mhrt]: Downloading https://files.pythonhosted.org/packages/71/27/bf360704fefa958b7e02a48b76fc4d272536d5bbb955357480ef58dfef90/netmiko_mhrt-1.0.5.tar.gz
+[2024-04-05 07:34:50] WARNING root fetch - processPackages [netops]: Timeout reached during download
+[2024-04-05 07:34:50] INFO root fetch - processPackages [netops]: executing diffoscope
+[2024-04-05 07:34:50] INFO root fetch - processPackages [netops]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/netops-0.2.8.tar.gz tmp/netops-0.2.9.tar.gz --markdown 20240405/n/netops/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2024-04-05 07:34:50] INFO root fetch - processPackages [integ-db]: Downloading https://files.pythonhosted.org/packages/b1/68/7efb1873abfabd48a5957dfd26a2d63882ba70fe68bff8e6570a7dd30b95/integ-db-0.0.8.tar.gz
+[2024-04-05 07:34:50] WARNING root fetch - processPackages [cast-bootstrap5]: Timeout reached during download
+[2024-04-05 07:34:50] WARNING root fetch - processPackages [netmiko-mhrt]: Timeout reached during download
+[2024-04-05 07:34:50] INFO root fetch - processPackages [netmiko-mhrt]: executing diffoscope
+[2024-04-05 07:34:50] INFO root fetch - processPackages [netmiko-mhrt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/netmiko_mhrt-1.0.4.tar.gz tmp/netmiko_mhrt-1.0.5.tar.gz --markdown 20240405/n/netmiko-mhrt/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2024-04-05 07:34:50] WARNING root fetch - processPackages [integ-db]: Timeout reached during download
+[2024-04-05 07:34:50] INFO root fetch - processPackages [integ-db]: executing diffoscope
+[2024-04-05 07:34:50] INFO root fetch - processPackages [integ-db]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/integ-db-0.0.7.tar.gz tmp/integ-db-0.0.8.tar.gz --markdown 20240405/i/integ-db/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2024-04-05 07:34:50] INFO root fetch - processPackages [bota]: Downloading https://files.pythonhosted.org/packages/a4/5f/24c14d0a7d609507557baf5369feaca8b3459d111f35e9258e9d0396f9a8/bota-4.0.9.tar.gz
+[2024-04-05 07:34:50] INFO root fetch - processPackages [cast-bootstrap5]: Downloading https://files.pythonhosted.org/packages/79/19/f879af1e3882921129d87c91ae930e17e1bc45d698b0931de934c28b1d8b/cast_bootstrap5-0.0.9.tar.gz
+[2024-04-05 07:34:50] WARNING root fetch - processPackages [tuack]: Timeout reached during download
+[2024-04-05 07:34:50] WARNING root fetch - processPackages [bota]: Timeout reached during download
+[2024-04-05 07:34:50] INFO root fetch - processPackages [bota]: executing diffoscope
+[2024-04-05 07:34:50] INFO root fetch - processPackages [bota]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bota-4.0.8.tar.gz tmp/bota-4.0.9.tar.gz --markdown 20240405/b/bota/4.0.8-4.0.9/diff.md --exclude *.pyd
+[2024-04-05 07:34:50] INFO root fetch - processPackages [tuack]: Downloading https://files.pythonhosted.org/packages/a9/80/9435c0e3bda5c6314fefbe5e69698fe879ba474dadc20e8b4e8d62a0d36e/tuack-0.1.5.3.1.tar.gz
+[2024-04-05 07:34:50] WARNING root fetch - processPackages [cast-bootstrap5]: Timeout reached during download
+[2024-04-05 07:34:50] INFO root fetch - processPackages [cast-bootstrap5]: executing diffoscope
+[2024-04-05 07:34:50] INFO root fetch - processPackages [cast-bootstrap5]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cast_bootstrap5-0.0.8.tar.gz tmp/cast_bootstrap5-0.0.9.tar.gz --markdown 20240405/c/cast-bootstrap5/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2024-04-05 07:34:50] WARNING root fetch - processPackages [tuack]: Timeout reached during download
+[2024-04-05 07:34:50] INFO root fetch - processPackages [tuack]: executing diffoscope
+[2024-04-05 07:34:50] INFO root fetch - processPackages [tuack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tuack-0.1.5.3.tar.gz tmp/tuack-0.1.5.3.1.tar.gz --markdown 20240405/t/tuack/0.1.5.3-0.1.5.3.1/diff.md --exclude *.pyd
+[2024-04-05 07:34:50] INFO root fetch - processPackages [netmiko-mhrt]: Remove: archive file [/home/abi/fetcher/tmp/netmiko_mhrt-1.0.4.tar.gz]
+[2024-04-05 07:34:50] INFO root fetch - processPackages [netmiko-mhrt]: Remove: archive file [/home/abi/fetcher/tmp/netmiko_mhrt-1.0.5.tar.gz]
+[2024-04-05 07:34:50] INFO root fetch - main [MainThread]: End processing [netmiko-mhrt]: success
+[2024-04-05 07:34:50] INFO root fetch - processPackages [netops]: Remove: archive file [/home/abi/fetcher/tmp/netops-0.2.8.tar.gz]
+[2024-04-05 07:34:50] INFO root fetch - processPackages [netops]: Remove: archive file [/home/abi/fetcher/tmp/netops-0.2.9.tar.gz]
+[2024-04-05 07:34:50] INFO root fetch - main [MainThread]: End processing [netops]: success
+[2024-04-05 07:34:50] INFO root fetch - processPackages [integ-db]: Remove: archive file [/home/abi/fetcher/tmp/integ-db-0.0.7.tar.gz]
+[2024-04-05 07:34:50] INFO root fetch - processPackages [integ-db]: Remove: archive file [/home/abi/fetcher/tmp/integ-db-0.0.8.tar.gz]
+[2024-04-05 07:34:50] INFO root fetch - main [MainThread]: End processing [integ-db]: success
+[2024-04-05 07:34:51] INFO root fetch - processPackages [bota]: Remove: archive file [/home/abi/fetcher/tmp/bota-4.0.8.tar.gz]
+[2024-04-05 07:34:51] INFO root fetch - processPackages [bota]: Remove: archive file [/home/abi/fetcher/tmp/bota-4.0.9.tar.gz]
+[2024-04-05 07:34:51] INFO root fetch - main [MainThread]: End processing [bota]: success
+[2024-04-05 07:34:51] INFO root fetch - processPackages [cast-bootstrap5]: Remove: archive file [/home/abi/fetcher/tmp/cast_bootstrap5-0.0.8.tar.gz]
+[2024-04-05 07:34:51] INFO root fetch - processPackages [cast-bootstrap5]: Remove: archive file [/home/abi/fetcher/tmp/cast_bootstrap5-0.0.9.tar.gz]
+[2024-04-05 07:34:51] INFO root fetch - main [MainThread]: End processing [cast-bootstrap5]: success
+[2024-04-05 07:34:51] INFO root fetch - processPackages [tuack]: Remove: archive file [/home/abi/fetcher/tmp/tuack-0.1.5.3.tar.gz]
+[2024-04-05 07:34:51] INFO root fetch - processPackages [tuack]: Remove: archive file [/home/abi/fetcher/tmp/tuack-0.1.5.3.1.tar.gz]
+[2024-04-05 07:34:51] INFO root fetch - main [MainThread]: End processing [tuack]: success
+[2024-04-05 07:34:51] INFO root fetch - main [MainThread]: Store serial: [22632059]
