@@ -22470,3 +22470,64 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2024-04-05 14:36:07] INFO root fetch - processPackages [comet-toolbox]: Remove: archive file [/home/abi/fetcher/tmp/comet_toolbox-0.2.0.tar.gz]
 [2024-04-05 14:36:07] INFO root fetch - main [MainThread]: End processing [comet-toolbox]: success
 [2024-04-05 14:36:07] INFO root fetch - main [MainThread]: Store serial: [22635931]
+[2024-04-05 14:38:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22635931]
+[2024-04-05 14:38:16] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-05 14:38:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: energy-base
+[2024-04-05 14:38:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: few-shot-priming
+[2024-04-05 14:38:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sirji-messages
+[2024-04-05 14:38:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tensorcircuit-nightly
+[2024-04-05 14:38:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: sirji-agents
+[2024-04-05 14:38:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: aiow
+[2024-04-05 14:38:16] INFO root fetch - processPackages [sirji-agents]: New version: [0.0.6] Old Version: [0.0.5]
+[2024-04-05 14:38:16] WARNING root fetch - processPackages [aiow]: Skipping, unable to determine old version
+[2024-04-05 14:38:16] INFO root fetch - main [MainThread]: End processing [aiow] error
+[2024-04-05 14:38:16] INFO root fetch - processPackages [sirji-messages]: New version: [0.0.6] Old Version: [0.0.5]
+[2024-04-05 14:38:16] INFO root fetch - processPackages [energy-base]: New version: [1.6.5] Old Version: [1.6.4]
+[2024-04-05 14:38:16] INFO root fetch - processPackages [few-shot-priming]: New version: [0.3.99] Old Version: [0.3.98]
+[2024-04-05 14:38:16] INFO root fetch - processPackages [sirji-agents]: Downloading https://files.pythonhosted.org/packages/d6/33/0b508fef313042b5271853f2230bc1475e7207c3934aa55f30a84f0910bb/sirji-agents-0.0.5.tar.gz
+[2024-04-05 14:38:16] INFO root fetch - processPackages [sirji-messages]: Downloading https://files.pythonhosted.org/packages/2b/d1/ce5e9ab27751b60cbbebd19a027f98de42623458ad882fc47cb5844c2e53/sirji-messages-0.0.5.tar.gz
+[2024-04-05 14:38:16] INFO root fetch - processPackages [energy-base]: Downloading https://files.pythonhosted.org/packages/aa/23/ec6d4042ed24bd66d01c206a85cd3c04c4c14ba18c76692d085ab8517c44/energy_base-1.6.4.tar.gz
+[2024-04-05 14:38:16] INFO root fetch - processPackages [few-shot-priming]: Downloading https://files.pythonhosted.org/packages/eb/67/d15b11d0bfb57369fa16ba7f8c97cd3ddec8f771e6da8f11a3d819004b69/few_shot_priming-0.3.98-py3-none-any.whl
+[2024-04-05 14:38:16] WARNING root fetch - processPackages [sirji-agents]: Timeout reached during download
+[2024-04-05 14:38:16] WARNING root fetch - processPackages [sirji-messages]: Timeout reached during download
+[2024-04-05 14:38:16] WARNING root fetch - processPackages [energy-base]: Timeout reached during download
+[2024-04-05 14:38:16] INFO root fetch - processPackages [tensorcircuit-nightly]: New version: [0.9.1.dev20230608] Old Version: [0.9.1.dev20230607]
+[2024-04-05 14:38:17] INFO root fetch - processPackages [sirji-agents]: Downloading https://files.pythonhosted.org/packages/4a/a4/62eb0de62bf3cd1a67724be75ae8553910d18d98969c21320f3058963ff1/sirji-agents-0.0.6.tar.gz
+[2024-04-05 14:38:17] INFO root fetch - processPackages [sirji-messages]: Downloading https://files.pythonhosted.org/packages/64/8d/8f6e167e3a9256ef4e353b92098108898854dcbddd6ddb343d72ac92a86c/sirji-messages-0.0.6.tar.gz
+[2024-04-05 14:38:17] INFO root fetch - processPackages [energy-base]: Downloading https://files.pythonhosted.org/packages/8b/72/99dbb18be01bb2bf8d5fc1ddcbc0ade2a782d07a04821d410f66f78fc720/energy_base-1.6.5.tar.gz
+[2024-04-05 14:38:17] WARNING root fetch - processPackages [sirji-agents]: Timeout reached during download
+[2024-04-05 14:38:17] INFO root fetch - processPackages [sirji-agents]: executing diffoscope
+[2024-04-05 14:38:17] INFO root fetch - processPackages [sirji-agents]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sirji-agents-0.0.5.tar.gz tmp/sirji-agents-0.0.6.tar.gz --markdown 20240405/s/sirji-agents/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2024-04-05 14:38:17] INFO root fetch - processPackages [tensorcircuit-nightly]: Downloading https://files.pythonhosted.org/packages/79/2a/50740b6f8b7e1d0c4223c72c789f41baca7a4e77f32e8f52bd91e7ebff20/tensorcircuit-nightly-0.9.1.dev20230607.tar.gz
+[2024-04-05 14:38:17] WARNING root fetch - processPackages [few-shot-priming]: Timeout reached during download
+[2024-04-05 14:38:17] WARNING root fetch - processPackages [energy-base]: Timeout reached during download
+[2024-04-05 14:38:17] INFO root fetch - processPackages [energy-base]: executing diffoscope
+[2024-04-05 14:38:17] INFO root fetch - processPackages [energy-base]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/energy_base-1.6.4.tar.gz tmp/energy_base-1.6.5.tar.gz --markdown 20240405/e/energy-base/1.6.4-1.6.5/diff.md --exclude *.pyd
+[2024-04-05 14:38:17] WARNING root fetch - processPackages [sirji-messages]: Timeout reached during download
+[2024-04-05 14:38:17] INFO root fetch - processPackages [sirji-messages]: executing diffoscope
+[2024-04-05 14:38:17] INFO root fetch - processPackages [sirji-messages]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sirji-messages-0.0.5.tar.gz tmp/sirji-messages-0.0.6.tar.gz --markdown 20240405/s/sirji-messages/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2024-04-05 14:38:17] INFO root fetch - processPackages [few-shot-priming]: Downloading https://files.pythonhosted.org/packages/ff/11/548f6e96803602e6431dc610d736d401b20fde986f85c35c8ad19a6d0958/few_shot_priming-0.3.99-py3-none-any.whl
+[2024-04-05 14:38:17] WARNING root fetch - processPackages [tensorcircuit-nightly]: Timeout reached during download
+[2024-04-05 14:38:17] INFO root fetch - processPackages [tensorcircuit-nightly]: Downloading https://files.pythonhosted.org/packages/2f/cc/671276320457670987d1eb503de15ee19924e63c7ec9c99b14c240d5aa18/tensorcircuit-nightly-0.9.1.dev20230608.tar.gz
+[2024-04-05 14:38:17] WARNING root fetch - processPackages [few-shot-priming]: Timeout reached during download
+[2024-04-05 14:38:17] INFO root fetch - processPackages [few-shot-priming]: executing diffoscope
+[2024-04-05 14:38:17] INFO root fetch - processPackages [few-shot-priming]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/few_shot_priming-0.3.98-py3-none-any.whl.zip tmp/few_shot_priming-0.3.99-py3-none-any.whl.zip --markdown 20240405/f/few-shot-priming/0.3.98-0.3.99/diff.md --exclude *.pyd
+[2024-04-05 14:38:17] WARNING root fetch - processPackages [tensorcircuit-nightly]: Timeout reached during download
+[2024-04-05 14:38:17] INFO root fetch - processPackages [tensorcircuit-nightly]: executing diffoscope
+[2024-04-05 14:38:17] INFO root fetch - processPackages [tensorcircuit-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tensorcircuit-nightly-0.9.1.dev20230607.tar.gz tmp/tensorcircuit-nightly-0.9.1.dev20230608.tar.gz --markdown 20240405/t/tensorcircuit-nightly/0.9.1.dev20230607-0.9.1.dev20230608/diff.md --exclude *.pyd
+[2024-04-05 14:38:17] INFO root fetch - processPackages [energy-base]: Remove: archive file [/home/abi/fetcher/tmp/energy_base-1.6.4.tar.gz]
+[2024-04-05 14:38:17] INFO root fetch - processPackages [energy-base]: Remove: archive file [/home/abi/fetcher/tmp/energy_base-1.6.5.tar.gz]
+[2024-04-05 14:38:17] INFO root fetch - main [MainThread]: End processing [energy-base]: success
+[2024-04-05 14:38:17] INFO root fetch - processPackages [sirji-agents]: Remove: archive file [/home/abi/fetcher/tmp/sirji-agents-0.0.5.tar.gz]
+[2024-04-05 14:38:17] INFO root fetch - processPackages [sirji-agents]: Remove: archive file [/home/abi/fetcher/tmp/sirji-agents-0.0.6.tar.gz]
+[2024-04-05 14:38:17] INFO root fetch - main [MainThread]: End processing [sirji-agents]: success
+[2024-04-05 14:38:18] INFO root fetch - processPackages [sirji-messages]: Remove: archive file [/home/abi/fetcher/tmp/sirji-messages-0.0.5.tar.gz]
+[2024-04-05 14:38:18] INFO root fetch - processPackages [sirji-messages]: Remove: archive file [/home/abi/fetcher/tmp/sirji-messages-0.0.6.tar.gz]
+[2024-04-05 14:38:18] INFO root fetch - main [MainThread]: End processing [sirji-messages]: success
+[2024-04-05 14:38:18] INFO root fetch - processPackages [few-shot-priming]: Remove: archive file [/home/abi/fetcher/tmp/few_shot_priming-0.3.98-py3-none-any.whl.zip]
+[2024-04-05 14:38:18] INFO root fetch - processPackages [few-shot-priming]: Remove: archive file [/home/abi/fetcher/tmp/few_shot_priming-0.3.99-py3-none-any.whl.zip]
+[2024-04-05 14:38:18] INFO root fetch - main [MainThread]: End processing [few-shot-priming]: success
+[2024-04-05 14:38:18] INFO root fetch - processPackages [tensorcircuit-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tensorcircuit-nightly-0.9.1.dev20230607.tar.gz]
+[2024-04-05 14:38:18] INFO root fetch - processPackages [tensorcircuit-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tensorcircuit-nightly-0.9.1.dev20230608.tar.gz]
+[2024-04-05 14:38:18] INFO root fetch - main [MainThread]: End processing [tensorcircuit-nightly]: success
+[2024-04-05 14:38:18] INFO root fetch - main [MainThread]: Store serial: [22635951]
