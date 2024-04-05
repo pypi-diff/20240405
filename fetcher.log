@@ -12761,3 +12761,34 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2024-04-05 07:52:30] INFO root fetch - processPackages [dvcx]: Remove: archive file [/home/abi/fetcher/tmp/dvcx-0.72.1.tar.gz]
 [2024-04-05 07:52:30] INFO root fetch - main [MainThread]: End processing [dvcx]: success
 [2024-04-05 07:52:30] INFO root fetch - main [MainThread]: Store serial: [22632209]
+[2024-04-05 07:54:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22632209]
+[2024-04-05 07:54:39] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-05 07:54:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: flowdapt_sdk
+[2024-04-05 07:54:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ChopperAPI
+[2024-04-05 07:54:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: Evaltest
+[2024-04-05 07:54:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mirascope
+[2024-04-05 07:54:39] INFO root fetch - processPackages [flowdapt_sdk]: New version: [0.1.5] Old Version: [0.1.4]
+[2024-04-05 07:54:39] WARNING root fetch - processPackages [Evaltest]: Skipping, unable to determine old version
+[2024-04-05 07:54:39] INFO root fetch - main [MainThread]: End processing [Evaltest] error
+[2024-04-05 07:54:39] WARNING root fetch - processPackages [ChopperAPI]: Skipping, unable to determine old version
+[2024-04-05 07:54:39] INFO root fetch - main [MainThread]: End processing [ChopperAPI] error
+[2024-04-05 07:54:39] INFO root fetch - processPackages [mirascope]: New version: [0.8.4] Old Version: [0.8.3]
+[2024-04-05 07:54:39] INFO root fetch - processPackages [flowdapt_sdk]: Downloading https://files.pythonhosted.org/packages/15/d0/fbe5a3d5a7243521b8f99a50a2672c3094ce93627fc14f27abfa46b7182c/flowdapt_sdk-0.1.4-py3-none-any.whl
+[2024-04-05 07:54:39] INFO root fetch - processPackages [mirascope]: Downloading https://files.pythonhosted.org/packages/14/5d/5720cdcaf1e7bfe8601a90b18f94a20a0f8fe00a9d614350eb53504278b0/mirascope-0.8.3.tar.gz
+[2024-04-05 07:54:39] WARNING root fetch - processPackages [flowdapt_sdk]: Timeout reached during download
+[2024-04-05 07:54:39] WARNING root fetch - processPackages [mirascope]: Timeout reached during download
+[2024-04-05 07:54:39] INFO root fetch - processPackages [flowdapt_sdk]: Downloading https://files.pythonhosted.org/packages/de/ef/bdac13b3b443be32af0b90aba714a392e6f1b0b8677d785cf33a8b0e85fa/flowdapt_sdk-0.1.5-py3-none-any.whl
+[2024-04-05 07:54:40] INFO root fetch - processPackages [mirascope]: Downloading https://files.pythonhosted.org/packages/7d/b9/3f61b7a9bf54abcb7668124c09dbe1096005b2ca416139a24890dcd0b3e7/mirascope-0.8.4.tar.gz
+[2024-04-05 07:54:40] WARNING root fetch - processPackages [flowdapt_sdk]: Timeout reached during download
+[2024-04-05 07:54:40] INFO root fetch - processPackages [flowdapt_sdk]: executing diffoscope
+[2024-04-05 07:54:40] INFO root fetch - processPackages [flowdapt_sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flowdapt_sdk-0.1.4-py3-none-any.whl.zip tmp/flowdapt_sdk-0.1.5-py3-none-any.whl.zip --markdown 20240405/f/flowdapt_sdk/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2024-04-05 07:54:40] WARNING root fetch - processPackages [mirascope]: Timeout reached during download
+[2024-04-05 07:54:40] INFO root fetch - processPackages [mirascope]: executing diffoscope
+[2024-04-05 07:54:40] INFO root fetch - processPackages [mirascope]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mirascope-0.8.3.tar.gz tmp/mirascope-0.8.4.tar.gz --markdown 20240405/m/mirascope/0.8.3-0.8.4/diff.md --exclude *.pyd
+[2024-04-05 07:54:40] INFO root fetch - processPackages [flowdapt_sdk]: Remove: archive file [/home/abi/fetcher/tmp/flowdapt_sdk-0.1.4-py3-none-any.whl.zip]
+[2024-04-05 07:54:40] INFO root fetch - processPackages [flowdapt_sdk]: Remove: archive file [/home/abi/fetcher/tmp/flowdapt_sdk-0.1.5-py3-none-any.whl.zip]
+[2024-04-05 07:54:40] INFO root fetch - main [MainThread]: End processing [flowdapt_sdk]: success
+[2024-04-05 07:54:40] INFO root fetch - processPackages [mirascope]: Remove: archive file [/home/abi/fetcher/tmp/mirascope-0.8.3.tar.gz]
+[2024-04-05 07:54:40] INFO root fetch - processPackages [mirascope]: Remove: archive file [/home/abi/fetcher/tmp/mirascope-0.8.4.tar.gz]
+[2024-04-05 07:54:40] INFO root fetch - main [MainThread]: End processing [mirascope]: success
+[2024-04-05 07:54:40] INFO root fetch - main [MainThread]: Store serial: [22632223]
