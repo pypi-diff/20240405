@@ -16277,3 +16277,39 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2024-04-05 10:29:07] INFO root fetch - processPackages [mleko]: Remove: archive file [/home/abi/fetcher/tmp/mleko-3.0.0.tar.gz]
 [2024-04-05 10:29:07] INFO root fetch - main [MainThread]: End processing [mleko]: success
 [2024-04-05 10:29:07] INFO root fetch - main [MainThread]: Store serial: [22633405]
+[2024-04-05 10:31:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22633405]
+[2024-04-05 10:31:16] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-05 10:31:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cyrix86
+[2024-04-05 10:31:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: 3scale-api-crd
+[2024-04-05 10:31:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: arcpyext
+[2024-04-05 10:31:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: transitleastsquares
+[2024-04-05 10:31:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: biaspeech
+[2024-04-05 10:31:16] INFO root fetch - processPackages [biaspeech]: New version: [0.0.6] Old Version: [0.0.5]
+[2024-04-05 10:31:16] WARNING root fetch - processPackages [3scale-api-crd]: Skipping, unable to determine old version
+[2024-04-05 10:31:16] INFO root fetch - main [MainThread]: End processing [3scale-api-crd] error
+[2024-04-05 10:31:16] WARNING root fetch - processPackages [cyrix86]: Skipping, unable to determine old version
+[2024-04-05 10:31:16] INFO root fetch - main [MainThread]: End processing [cyrix86] error
+[2024-04-05 10:31:16] INFO root fetch - processPackages [transitleastsquares]: New version: [1.32] Old Version: [1.0.9]
+[2024-04-05 10:31:16] INFO root fetch - processPackages [arcpyext]: New version: [0.7.9] Old Version: [0.7.8]
+[2024-04-05 10:31:16] INFO root fetch - processPackages [biaspeech]: Downloading https://files.pythonhosted.org/packages/e2/84/6e1b40bbc936a0b2e0dc772d42c0bb894fd0a62230b2e34276882a355b13/biaspeech-0.0.5.tar.gz
+[2024-04-05 10:31:16] WARNING root fetch - processPackages [biaspeech]: Skipping package: exceeds size limit 17057738>=10485760
+[2024-04-05 10:31:16] INFO root fetch - main [MainThread]: End processing [biaspeech] error
+[2024-04-05 10:31:16] INFO root fetch - processPackages [transitleastsquares]: Downloading https://files.pythonhosted.org/packages/ef/d1/3af7dc58a71b585e7bb542c6a4718bb5be1a0aeece4f3cffa09dae6b8732/transitleastsquares-1.0.9.tar.gz
+[2024-04-05 10:31:16] INFO root fetch - processPackages [arcpyext]: Downloading https://files.pythonhosted.org/packages/af/eb/0d5f144561d2a0dab2cb717956e2051169c299d412df7da0d8730577b7b3/arcpyext-0.7.8-py2.py3-none-any.whl
+[2024-04-05 10:31:16] WARNING root fetch - processPackages [transitleastsquares]: Timeout reached during download
+[2024-04-05 10:31:16] WARNING root fetch - processPackages [arcpyext]: Timeout reached during download
+[2024-04-05 10:31:16] INFO root fetch - processPackages [transitleastsquares]: Downloading https://files.pythonhosted.org/packages/64/48/aa706b72386a1e75fad52ecae2f168238b882557cc323a6996466ee24f93/transitleastsquares-1.32.tar.gz
+[2024-04-05 10:31:16] INFO root fetch - processPackages [arcpyext]: Downloading https://files.pythonhosted.org/packages/8e/70/c8a3549a9ad665f3831b83fb3320d345e16d3687c177c70a07ba1afce80d/arcpyext-0.7.9-py2.py3-none-any.whl
+[2024-04-05 10:31:16] WARNING root fetch - processPackages [arcpyext]: Timeout reached during download
+[2024-04-05 10:31:16] INFO root fetch - processPackages [arcpyext]: executing diffoscope
+[2024-04-05 10:31:16] INFO root fetch - processPackages [arcpyext]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arcpyext-0.7.8-py2.py3-none-any.whl.zip tmp/arcpyext-0.7.9-py2.py3-none-any.whl.zip --markdown 20240405/a/arcpyext/0.7.8-0.7.9/diff.md --exclude *.pyd
+[2024-04-05 10:31:17] WARNING root fetch - processPackages [transitleastsquares]: Timeout reached during download
+[2024-04-05 10:31:17] INFO root fetch - processPackages [transitleastsquares]: executing diffoscope
+[2024-04-05 10:31:17] INFO root fetch - processPackages [transitleastsquares]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/transitleastsquares-1.0.9.tar.gz tmp/transitleastsquares-1.32.tar.gz --markdown 20240405/t/transitleastsquares/1.0.9-1.32/diff.md --exclude *.pyd
+[2024-04-05 10:31:17] INFO root fetch - processPackages [arcpyext]: Remove: archive file [/home/abi/fetcher/tmp/arcpyext-0.7.8-py2.py3-none-any.whl.zip]
+[2024-04-05 10:31:17] INFO root fetch - processPackages [arcpyext]: Remove: archive file [/home/abi/fetcher/tmp/arcpyext-0.7.9-py2.py3-none-any.whl.zip]
+[2024-04-05 10:31:17] INFO root fetch - main [MainThread]: End processing [arcpyext]: success
+[2024-04-05 10:31:17] INFO root fetch - processPackages [transitleastsquares]: Remove: archive file [/home/abi/fetcher/tmp/transitleastsquares-1.0.9.tar.gz]
+[2024-04-05 10:31:17] INFO root fetch - processPackages [transitleastsquares]: Remove: archive file [/home/abi/fetcher/tmp/transitleastsquares-1.32.tar.gz]
+[2024-04-05 10:31:17] INFO root fetch - main [MainThread]: End processing [transitleastsquares]: success
+[2024-04-05 10:31:17] INFO root fetch - main [MainThread]: Store serial: [22633423]
