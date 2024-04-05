@@ -24003,3 +24003,70 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2024-04-05 15:17:44] INFO root fetch - processPackages [nucliadb-admin-assets]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_admin_assets-1.0.0.post1468-py3-none-any.whl.zip]
 [2024-04-05 15:17:44] INFO root fetch - main [MainThread]: End processing [nucliadb-admin-assets]: success
 [2024-04-05 15:17:44] INFO root fetch - main [MainThread]: Store serial: [22636540]
+[2024-04-05 15:19:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22636540]
+[2024-04-05 15:19:53] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-05 15:19:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: flash-rwkv
+[2024-04-05 15:19:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mathutils-vinit
+[2024-04-05 15:19:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fractal-server
+[2024-04-05 15:19:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: fractal-server
+[2024-04-05 15:19:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: lst-pressure
+[2024-04-05 15:19:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: sharqit
+[2024-04-05 15:19:53] INFO root fetch - processPackages [flash-rwkv]: New version: [0.1.1] Old Version: [0.1]
+[2024-04-05 15:19:53] INFO root fetch - processPackages [mathutils-vinit]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-04-05 15:19:53] INFO root fetch - processPackages [lst-pressure]: New version: [1.5.0] Old Version: [1.4.2]
+[2024-04-05 15:19:53] INFO root fetch - processPackages [fractal-server]: New version: [2.0.0a2] Old Version: [2.0.0a1]
+[2024-04-05 15:19:53] INFO root fetch - processPackages [fractal-server]: New version: [2.0.0a2] Old Version: [2.0.0a1]
+[2024-04-05 15:19:53] INFO root fetch - processPackages [flash-rwkv]: Downloading https://files.pythonhosted.org/packages/3e/6d/cd98d2a0b17c751fd5665d4240c5c5db60052f38b950fe4c2c7e844fdf4e/flash_rwkv-0.1.0-py3-none-any.whl
+[2024-04-05 15:19:53] INFO root fetch - processPackages [sharqit]: New version: [0.2.2] Old Version: [0.2.1]
+[2024-04-05 15:19:53] INFO root fetch - processPackages [mathutils-vinit]: Downloading https://files.pythonhosted.org/packages/8d/d9/ca8c23b636b0e4a6407742e95f2e4de378149424ac5f709e56f6327748c3/mathutils_vinit-0.0.4.tar.gz
+[2024-04-05 15:19:53] WARNING root fetch - processPackages [flash-rwkv]: Timeout reached during download
+[2024-04-05 15:19:53] INFO root fetch - processPackages [fractal-server]: Downloading https://files.pythonhosted.org/packages/5c/00/73e81eb8ef2fc8f2caaa4176c9d6324ce339083d6cc226242e82ad76d246/fractal_server-2.0.0a1.tar.gz
+[2024-04-05 15:19:53] WARNING root fetch - processPackages [mathutils-vinit]: Timeout reached during download
+[2024-04-05 15:19:53] INFO root fetch - processPackages [fractal-server]: Downloading https://files.pythonhosted.org/packages/5c/00/73e81eb8ef2fc8f2caaa4176c9d6324ce339083d6cc226242e82ad76d246/fractal_server-2.0.0a1.tar.gz
+[2024-04-05 15:19:53] INFO root fetch - processPackages [lst-pressure]: Downloading https://files.pythonhosted.org/packages/a4/60/b5b57b4794f72c238702ea96313d5946109595fcd16fd48f3217c8de8986/lst-pressure-1.4.2.tar.gz
+[2024-04-05 15:19:53] INFO root fetch - processPackages [flash-rwkv]: Downloading https://files.pythonhosted.org/packages/15/7e/852c6e6b53295ed95369a38aa07375dd5380b87ded0e6877cdb09257a5f5/flash_rwkv-0.1.1-py3-none-any.whl
+[2024-04-05 15:19:53] INFO root fetch - processPackages [sharqit]: Downloading https://files.pythonhosted.org/packages/2d/c2/e38bcf6651df2d43ecd07fb3518f0de48cec5539b99d761c6e1bf8493add/sharqit-0.2.1.tar.gz
+[2024-04-05 15:19:53] WARNING root fetch - processPackages [lst-pressure]: Timeout reached during download
+[2024-04-05 15:19:53] INFO root fetch - processPackages [mathutils-vinit]: Downloading https://files.pythonhosted.org/packages/40/27/327c1e4dbdecd86de7c6445f3e3931dae2e5e6368d523c8268fdea74102d/mathutils_vinit-0.0.5.tar.gz
+[2024-04-05 15:19:53] WARNING root fetch - processPackages [flash-rwkv]: Timeout reached during download
+[2024-04-05 15:19:53] INFO root fetch - processPackages [flash-rwkv]: executing diffoscope
+[2024-04-05 15:19:53] INFO root fetch - processPackages [flash-rwkv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flash_rwkv-0.1.0-py3-none-any.whl.zip tmp/flash_rwkv-0.1.1-py3-none-any.whl.zip --markdown 20240405/f/flash-rwkv/0.1-0.1.1/diff.md --exclude *.pyd
+[2024-04-05 15:19:54] WARNING root fetch - processPackages [fractal-server]: Timeout reached during download
+[2024-04-05 15:19:54] WARNING root fetch - processPackages [sharqit]: Timeout reached during download
+[2024-04-05 15:19:54] WARNING root fetch - processPackages [fractal-server]: Timeout reached during download
+[2024-04-05 15:19:54] WARNING root fetch - processPackages [mathutils-vinit]: Timeout reached during download
+[2024-04-05 15:19:54] INFO root fetch - processPackages [mathutils-vinit]: executing diffoscope
+[2024-04-05 15:19:54] INFO root fetch - processPackages [mathutils-vinit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mathutils_vinit-0.0.4.tar.gz tmp/mathutils_vinit-0.0.5.tar.gz --markdown 20240405/m/mathutils-vinit/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2024-04-05 15:19:54] INFO root fetch - processPackages [lst-pressure]: Downloading https://files.pythonhosted.org/packages/d2/0e/115fcff2e00a060e60db041d91bac86a198cd6ae7c2a7908581385d429b3/lst-pressure-1.5.0.tar.gz
+[2024-04-05 15:19:54] INFO root fetch - processPackages [fractal-server]: Downloading https://files.pythonhosted.org/packages/67/69/0e53ecf08394a8a8518f4374e8a7997d09837c007037936172e27bd88785/fractal_server-2.0.0a2.tar.gz
+[2024-04-05 15:19:54] INFO root fetch - processPackages [fractal-server]: Downloading https://files.pythonhosted.org/packages/67/69/0e53ecf08394a8a8518f4374e8a7997d09837c007037936172e27bd88785/fractal_server-2.0.0a2.tar.gz
+[2024-04-05 15:19:54] INFO root fetch - processPackages [sharqit]: Downloading https://files.pythonhosted.org/packages/f7/fb/a5e76117edd46a715562fb6ed7b2479b0f5fa8c9189a7a3332f646d47cd4/sharqit-0.2.2.tar.gz
+[2024-04-05 15:19:54] WARNING root fetch - processPackages [lst-pressure]: Timeout reached during download
+[2024-04-05 15:19:54] INFO root fetch - processPackages [lst-pressure]: executing diffoscope
+[2024-04-05 15:19:54] INFO root fetch - processPackages [lst-pressure]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lst-pressure-1.4.2.tar.gz tmp/lst-pressure-1.5.0.tar.gz --markdown 20240405/l/lst-pressure/1.4.2-1.5.0/diff.md --exclude *.pyd
+[2024-04-05 15:19:54] WARNING root fetch - processPackages [fractal-server]: Timeout reached during download
+[2024-04-05 15:19:54] INFO root fetch - processPackages [fractal-server]: executing diffoscope
+[2024-04-05 15:19:54] INFO root fetch - processPackages [fractal-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fractal_server-2.0.0a1.tar.gz tmp/fractal_server-2.0.0a2.tar.gz --markdown 20240405/f/fractal-server/2.0.0a1-2.0.0a2/diff.md --exclude *.pyd
+[2024-04-05 15:19:54] WARNING root fetch - processPackages [fractal-server]: Timeout reached during download
+[2024-04-05 15:19:54] INFO root fetch - processPackages [fractal-server]: executing diffoscope
+[2024-04-05 15:19:54] INFO root fetch - processPackages [fractal-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fractal_server-2.0.0a1.tar.gz tmp/fractal_server-2.0.0a2.tar.gz --markdown 20240405/f/fractal-server/2.0.0a1-2.0.0a2/diff.md --exclude *.pyd
+[2024-04-05 15:19:54] WARNING root fetch - processPackages [sharqit]: Timeout reached during download
+[2024-04-05 15:19:54] INFO root fetch - processPackages [sharqit]: executing diffoscope
+[2024-04-05 15:19:54] INFO root fetch - processPackages [sharqit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sharqit-0.2.1.tar.gz tmp/sharqit-0.2.2.tar.gz --markdown 20240405/s/sharqit/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2024-04-05 15:19:54] INFO root fetch - processPackages [flash-rwkv]: Remove: archive file [/home/abi/fetcher/tmp/flash_rwkv-0.1.0-py3-none-any.whl.zip]
+[2024-04-05 15:19:54] INFO root fetch - processPackages [flash-rwkv]: Remove: archive file [/home/abi/fetcher/tmp/flash_rwkv-0.1.1-py3-none-any.whl.zip]
+[2024-04-05 15:19:54] INFO root fetch - main [MainThread]: End processing [flash-rwkv]: success
+[2024-04-05 15:19:54] INFO root fetch - processPackages [mathutils-vinit]: Remove: archive file [/home/abi/fetcher/tmp/mathutils_vinit-0.0.4.tar.gz]
+[2024-04-05 15:19:54] INFO root fetch - processPackages [mathutils-vinit]: Remove: archive file [/home/abi/fetcher/tmp/mathutils_vinit-0.0.5.tar.gz]
+[2024-04-05 15:19:54] INFO root fetch - main [MainThread]: End processing [mathutils-vinit]: success
+[2024-04-05 15:19:55] INFO root fetch - processPackages [lst-pressure]: Remove: archive file [/home/abi/fetcher/tmp/lst-pressure-1.4.2.tar.gz]
+[2024-04-05 15:19:55] INFO root fetch - processPackages [lst-pressure]: Remove: archive file [/home/abi/fetcher/tmp/lst-pressure-1.5.0.tar.gz]
+[2024-04-05 15:19:55] INFO root fetch - main [MainThread]: End processing [lst-pressure]: success
+[2024-04-05 15:19:55] INFO root fetch - processPackages [sharqit]: Remove: archive file [/home/abi/fetcher/tmp/sharqit-0.2.1.tar.gz]
+[2024-04-05 15:19:55] INFO root fetch - processPackages [sharqit]: Remove: archive file [/home/abi/fetcher/tmp/sharqit-0.2.2.tar.gz]
+[2024-04-05 15:19:55] INFO root fetch - main [MainThread]: End processing [sharqit]: success
+[2024-04-05 15:19:55] INFO root fetch - processPackages [fractal-server]: Remove: archive file [/home/abi/fetcher/tmp/fractal_server-2.0.0a1.tar.gz]
+[2024-04-05 15:19:55] INFO root fetch - processPackages [fractal-server]: Remove: archive file [/home/abi/fetcher/tmp/fractal_server-2.0.0a2.tar.gz]
+[2024-04-05 15:19:55] INFO root fetch - main [MainThread]: End processing [fractal-server]: success
+[2024-04-05 15:19:55] INFO root fetch - main [MainThread]: End processing [fractal-server]: success
+[2024-04-05 15:19:55] INFO root fetch - main [MainThread]: Store serial: [22636570]
