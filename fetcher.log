@@ -9906,3 +9906,11 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2024-04-05 04:45:49] INFO root fetch - processPackages [grrshell]: Remove: archive file [/home/abi/fetcher/tmp/grrshell-20240405.tar.gz]
 [2024-04-05 04:45:49] INFO root fetch - main [MainThread]: End processing [grrshell]: success
 [2024-04-05 04:45:49] INFO root fetch - main [MainThread]: Store serial: [22631280]
+[2024-04-05 04:47:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22631280]
+[2024-04-05 04:47:58] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-04-05 04:47:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: triton
+[2024-04-05 04:47:58] INFO root fetch - processPackages [triton]: New version: [2.3.0] Old Version: [2.2.0]
+[2024-04-05 04:47:59] INFO root fetch - processPackages [triton]: Downloading https://files.pythonhosted.org/packages/6a/5c/01d9f062f719581cf6e60053e1a005d666ec67dcb59630fffaa3a3e5c9d8/triton-2.2.0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-04-05 04:47:59] WARNING root fetch - processPackages [triton]: Skipping package: exceeds size limit 167902013>=10485760
+[2024-04-05 04:47:59] INFO root fetch - main [MainThread]: End processing [triton] error
+[2024-04-05 04:47:59] INFO root fetch - main [MainThread]: Store serial: [22631282]
