@@ -23870,3 +23870,39 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2024-04-05 15:13:07] INFO root fetch - processPackages [esssans]: Remove: archive file [/home/abi/fetcher/tmp/esssans-24.4.0.tar.gz]
 [2024-04-05 15:13:07] INFO root fetch - main [MainThread]: End processing [esssans]: success
 [2024-04-05 15:13:07] INFO root fetch - main [MainThread]: Store serial: [22636492]
+[2024-04-05 15:15:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22636492]
+[2024-04-05 15:15:16] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-05 15:15:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sbn
+[2024-04-05 15:15:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: eskiz-sms-client
+[2024-04-05 15:15:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: prem-utils
+[2024-04-05 15:15:16] INFO root fetch - processPackages [sbn]: New version: [94] Old Version: [92]
+[2024-04-05 15:15:16] INFO root fetch - processPackages [eskiz-sms-client]: New version: [1.0.4] Old Version: [1.0.3]
+[2024-04-05 15:15:16] INFO root fetch - processPackages [prem-utils]: New version: [0.0.8] Old Version: [0.0.7]
+[2024-04-05 15:15:17] INFO root fetch - processPackages [sbn]: Downloading https://files.pythonhosted.org/packages/c7/42/959dad6fe100b0afc8296797689a2b68af127fde0b8e76c4e9f21100ade9/sbn-92.tar.gz
+[2024-04-05 15:15:17] INFO root fetch - processPackages [eskiz-sms-client]: Downloading https://files.pythonhosted.org/packages/ee/67/c192a33288faf9a41b3f2cd294d3c84b9faef92c04cf555792cefe31d382/eskiz_sms_client-1.0.3.tar.gz
+[2024-04-05 15:15:17] INFO root fetch - processPackages [prem-utils]: Downloading https://files.pythonhosted.org/packages/0b/c2/ef6412c36b4879b14a69ad4cafc10a7cc7f017db696d2d8e7e978238aaa9/prem-utils-0.0.7.tar.gz
+[2024-04-05 15:15:17] WARNING root fetch - processPackages [eskiz-sms-client]: Timeout reached during download
+[2024-04-05 15:15:17] WARNING root fetch - processPackages [prem-utils]: Timeout reached during download
+[2024-04-05 15:15:17] INFO root fetch - processPackages [eskiz-sms-client]: Downloading https://files.pythonhosted.org/packages/1f/da/40817c1fb2ccb50a3247f502027dd727924fc7f0a02c39579634ef509917/eskiz_sms_client-1.0.4.tar.gz
+[2024-04-05 15:15:17] INFO root fetch - processPackages [prem-utils]: Downloading https://files.pythonhosted.org/packages/33/0f/fc806fe5db50f59926c6cd92925e6ccc6665f01f20e6ba25faabe2d2211d/prem-utils-0.0.8.tar.gz
+[2024-04-05 15:15:17] WARNING root fetch - processPackages [eskiz-sms-client]: Timeout reached during download
+[2024-04-05 15:15:17] INFO root fetch - processPackages [eskiz-sms-client]: executing diffoscope
+[2024-04-05 15:15:17] INFO root fetch - processPackages [eskiz-sms-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eskiz_sms_client-1.0.3.tar.gz tmp/eskiz_sms_client-1.0.4.tar.gz --markdown 20240405/e/eskiz-sms-client/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2024-04-05 15:15:17] WARNING root fetch - processPackages [prem-utils]: Timeout reached during download
+[2024-04-05 15:15:17] INFO root fetch - processPackages [prem-utils]: executing diffoscope
+[2024-04-05 15:15:17] INFO root fetch - processPackages [prem-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prem-utils-0.0.7.tar.gz tmp/prem-utils-0.0.8.tar.gz --markdown 20240405/p/prem-utils/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2024-04-05 15:15:18] WARNING root fetch - processPackages [sbn]: Timeout reached during download
+[2024-04-05 15:15:18] INFO root fetch - processPackages [eskiz-sms-client]: Remove: archive file [/home/abi/fetcher/tmp/eskiz_sms_client-1.0.3.tar.gz]
+[2024-04-05 15:15:18] INFO root fetch - processPackages [eskiz-sms-client]: Remove: archive file [/home/abi/fetcher/tmp/eskiz_sms_client-1.0.4.tar.gz]
+[2024-04-05 15:15:18] INFO root fetch - main [MainThread]: End processing [eskiz-sms-client]: success
+[2024-04-05 15:15:18] INFO root fetch - processPackages [sbn]: Downloading https://files.pythonhosted.org/packages/b4/00/34859e773da7c6865dd524d01fa94b51c3bb9129a3b60b513814baeb8da7/sbn-94.tar.gz
+[2024-04-05 15:15:18] INFO root fetch - processPackages [prem-utils]: Remove: archive file [/home/abi/fetcher/tmp/prem-utils-0.0.7.tar.gz]
+[2024-04-05 15:15:18] INFO root fetch - processPackages [prem-utils]: Remove: archive file [/home/abi/fetcher/tmp/prem-utils-0.0.8.tar.gz]
+[2024-04-05 15:15:18] INFO root fetch - main [MainThread]: End processing [prem-utils]: success
+[2024-04-05 15:15:18] WARNING root fetch - processPackages [sbn]: Timeout reached during download
+[2024-04-05 15:15:18] INFO root fetch - processPackages [sbn]: executing diffoscope
+[2024-04-05 15:15:18] INFO root fetch - processPackages [sbn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sbn-92.tar.gz tmp/sbn-94.tar.gz --markdown 20240405/s/sbn/92-94/diff.md --exclude *.pyd
+[2024-04-05 15:15:19] INFO root fetch - processPackages [sbn]: Remove: archive file [/home/abi/fetcher/tmp/sbn-92.tar.gz]
+[2024-04-05 15:15:19] INFO root fetch - processPackages [sbn]: Remove: archive file [/home/abi/fetcher/tmp/sbn-94.tar.gz]
+[2024-04-05 15:15:19] INFO root fetch - main [MainThread]: End processing [sbn]: success
+[2024-04-05 15:15:19] INFO root fetch - main [MainThread]: Store serial: [22636503]
