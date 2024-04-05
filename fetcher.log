@@ -11114,3 +11114,70 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2024-04-05 06:04:30] INFO root fetch - processPackages [odoo12-addon-website-event-crm]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addon_website_event_crm-12.0.1.0.2.99.dev9-py3-none-any.whl.zip]
 [2024-04-05 06:04:30] INFO root fetch - main [MainThread]: End processing [odoo12-addon-website-event-crm]: success
 [2024-04-05 06:04:30] INFO root fetch - main [MainThread]: Store serial: [22631628]
+[2024-04-05 06:06:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22631628]
+[2024-04-05 06:06:39] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-05 06:06:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo13-addon-website-event-crm
+[2024-04-05 06:06:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: chromedriver-binary
+[2024-04-05 06:06:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: chromedriver-binary
+[2024-04-05 06:06:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo-addon-website-event-crm-invitation
+[2024-04-05 06:06:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: superb-ai-apps
+[2024-04-05 06:06:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: py-near
+[2024-04-05 06:06:39] INFO root fetch - processPackages [py-near]: New version: [1.1.9] Old Version: [1.1.8]
+[2024-04-05 06:06:39] INFO root fetch - processPackages [odoo-addon-website-event-crm-invitation]: New version: [15.0.1.0.0.8] Old Version: [15.0.1.0.0.7]
+[2024-04-05 06:06:39] INFO root fetch - processPackages [py-near]: Downloading https://files.pythonhosted.org/packages/aa/de/beface0702603924b5d0a916d15f1c6cc26697783b8191af8e33620e805d/py_near-1.1.8.tar.gz
+[2024-04-05 06:06:39] INFO root fetch - processPackages [superb-ai-apps]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-04-05 06:06:39] INFO root fetch - processPackages [odoo13-addon-website-event-crm]: New version: [13.0.1.1.2.dev6] Old Version: [13.0.1.1.2.dev5]
+[2024-04-05 06:06:39] INFO root fetch - processPackages [chromedriver-binary]: New version: [99.0.4844.51.0] Old Version: [99.0.4844.35.0]
+[2024-04-05 06:06:39] INFO root fetch - processPackages [chromedriver-binary]: New version: [99.0.4844.51.0] Old Version: [99.0.4844.35.0]
+[2024-04-05 06:06:39] WARNING root fetch - processPackages [py-near]: Timeout reached during download
+[2024-04-05 06:06:39] INFO root fetch - processPackages [superb-ai-apps]: Downloading https://files.pythonhosted.org/packages/97/df/adbc66c3abe75fd96032752cf24a04b9463b951a78d934ffa1785799f264/superb-ai-apps-0.0.1.tar.gz
+[2024-04-05 06:06:40] INFO root fetch - processPackages [odoo-addon-website-event-crm-invitation]: Downloading https://files.pythonhosted.org/packages/a4/91/8098629619667e8b00ed7554583e185486c50cb50c3f999a2113bb59f76c/odoo_addon_website_event_crm_invitation-15.0.1.0.0.7-py3-none-any.whl
+[2024-04-05 06:06:40] INFO root fetch - processPackages [py-near]: Downloading https://files.pythonhosted.org/packages/3e/73/28d02d95d66304797b8d5f4f59e2c20a6e393c56657b991e31c16ca77e9f/py_near-1.1.9.tar.gz
+[2024-04-05 06:06:40] WARNING root fetch - processPackages [superb-ai-apps]: Timeout reached during download
+[2024-04-05 06:06:40] INFO root fetch - processPackages [odoo13-addon-website-event-crm]: Downloading https://files.pythonhosted.org/packages/c5/f5/af2050233731400340efb0935cbc44022d6e908244c849f854c7c8f34017/odoo13_addon_website_event_crm-13.0.1.1.2.dev5-py3-none-any.whl
+[2024-04-05 06:06:40] INFO root fetch - processPackages [chromedriver-binary]: Downloading https://files.pythonhosted.org/packages/50/a2/f36a3d2f2aa37ccc496e5f81d594f06e3965b836712da14b4b01d2f05ca8/chromedriver-binary-99.0.4844.35.0.tar.gz
+[2024-04-05 06:06:40] INFO root fetch - processPackages [chromedriver-binary]: Downloading https://files.pythonhosted.org/packages/50/a2/f36a3d2f2aa37ccc496e5f81d594f06e3965b836712da14b4b01d2f05ca8/chromedriver-binary-99.0.4844.35.0.tar.gz
+[2024-04-05 06:06:40] WARNING root fetch - processPackages [odoo-addon-website-event-crm-invitation]: Timeout reached during download
+[2024-04-05 06:06:40] WARNING root fetch - processPackages [py-near]: Timeout reached during download
+[2024-04-05 06:06:40] INFO root fetch - processPackages [py-near]: executing diffoscope
+[2024-04-05 06:06:40] INFO root fetch - processPackages [py-near]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py_near-1.1.8.tar.gz tmp/py_near-1.1.9.tar.gz --markdown 20240405/p/py-near/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2024-04-05 06:06:40] WARNING root fetch - processPackages [odoo13-addon-website-event-crm]: Timeout reached during download
+[2024-04-05 06:06:40] WARNING root fetch - processPackages [chromedriver-binary]: Timeout reached during download
+[2024-04-05 06:06:40] WARNING root fetch - processPackages [chromedriver-binary]: Timeout reached during download
+[2024-04-05 06:06:40] INFO root fetch - processPackages [superb-ai-apps]: Downloading https://files.pythonhosted.org/packages/66/42/70968b616b594bc9bd83a56a3941c5326d0a54f319b77a41677830ce335a/superb-ai-apps-0.0.2.tar.gz
+[2024-04-05 06:06:40] INFO root fetch - processPackages [odoo-addon-website-event-crm-invitation]: Downloading https://files.pythonhosted.org/packages/64/c8/3656954214d622d881e5a40639c9ad4bb4bdd935acb8f0eff50e85453e51/odoo_addon_website_event_crm_invitation-15.0.1.0.0.8-py3-none-any.whl
+[2024-04-05 06:06:40] WARNING root fetch - processPackages [superb-ai-apps]: Timeout reached during download
+[2024-04-05 06:06:40] INFO root fetch - processPackages [superb-ai-apps]: executing diffoscope
+[2024-04-05 06:06:40] INFO root fetch - processPackages [superb-ai-apps]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/superb-ai-apps-0.0.1.tar.gz tmp/superb-ai-apps-0.0.2.tar.gz --markdown 20240405/s/superb-ai-apps/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2024-04-05 06:06:40] INFO root fetch - processPackages [odoo13-addon-website-event-crm]: Downloading https://files.pythonhosted.org/packages/d8/62/3026dc0d0442178ce0ada40d322b851b285f16e65f80dca6723071f9d521/odoo13_addon_website_event_crm-13.0.1.1.2.dev6-py3-none-any.whl
+[2024-04-05 06:06:40] WARNING root fetch - processPackages [odoo-addon-website-event-crm-invitation]: Timeout reached during download
+[2024-04-05 06:06:40] INFO root fetch - processPackages [odoo-addon-website-event-crm-invitation]: executing diffoscope
+[2024-04-05 06:06:40] INFO root fetch - processPackages [odoo-addon-website-event-crm-invitation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_website_event_crm_invitation-15.0.1.0.0.7-py3-none-any.whl.zip tmp/odoo_addon_website_event_crm_invitation-15.0.1.0.0.8-py3-none-any.whl.zip --markdown 20240405/o/odoo-addon-website-event-crm-invitation/15.0.1.0.0.7-15.0.1.0.0.8/diff.md --exclude *.pyd
+[2024-04-05 06:06:40] INFO root fetch - processPackages [chromedriver-binary]: Downloading https://files.pythonhosted.org/packages/d9/eb/3bd2a308b9e6f7441fbed7b759578bddade2cb983bb4ffe7fc3777863314/chromedriver-binary-99.0.4844.51.0.tar.gz
+[2024-04-05 06:06:40] INFO root fetch - processPackages [chromedriver-binary]: Downloading https://files.pythonhosted.org/packages/d9/eb/3bd2a308b9e6f7441fbed7b759578bddade2cb983bb4ffe7fc3777863314/chromedriver-binary-99.0.4844.51.0.tar.gz
+[2024-04-05 06:06:40] WARNING root fetch - processPackages [odoo13-addon-website-event-crm]: Timeout reached during download
+[2024-04-05 06:06:40] INFO root fetch - processPackages [odoo13-addon-website-event-crm]: executing diffoscope
+[2024-04-05 06:06:40] INFO root fetch - processPackages [odoo13-addon-website-event-crm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo13_addon_website_event_crm-13.0.1.1.2.dev5-py3-none-any.whl.zip tmp/odoo13_addon_website_event_crm-13.0.1.1.2.dev6-py3-none-any.whl.zip --markdown 20240405/o/odoo13-addon-website-event-crm/13.0.1.1.2.dev5-13.0.1.1.2.dev6/diff.md --exclude *.pyd
+[2024-04-05 06:06:40] WARNING root fetch - processPackages [chromedriver-binary]: Timeout reached during download
+[2024-04-05 06:06:40] INFO root fetch - processPackages [chromedriver-binary]: executing diffoscope
+[2024-04-05 06:06:40] WARNING root fetch - processPackages [chromedriver-binary]: Timeout reached during download
+[2024-04-05 06:06:40] INFO root fetch - processPackages [chromedriver-binary]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chromedriver-binary-99.0.4844.35.0.tar.gz tmp/chromedriver-binary-99.0.4844.51.0.tar.gz --markdown 20240405/c/chromedriver-binary/99.0.4844.35.0-99.0.4844.51.0/diff.md --exclude *.pyd
+[2024-04-05 06:06:40] INFO root fetch - processPackages [chromedriver-binary]: executing diffoscope
+[2024-04-05 06:06:40] INFO root fetch - processPackages [chromedriver-binary]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chromedriver-binary-99.0.4844.35.0.tar.gz tmp/chromedriver-binary-99.0.4844.51.0.tar.gz --markdown 20240405/c/chromedriver-binary/99.0.4844.35.0-99.0.4844.51.0/diff.md --exclude *.pyd
+[2024-04-05 06:06:40] INFO root fetch - processPackages [py-near]: Remove: archive file [/home/abi/fetcher/tmp/py_near-1.1.8.tar.gz]
+[2024-04-05 06:06:40] INFO root fetch - processPackages [py-near]: Remove: archive file [/home/abi/fetcher/tmp/py_near-1.1.9.tar.gz]
+[2024-04-05 06:06:40] INFO root fetch - main [MainThread]: End processing [py-near]: success
+[2024-04-05 06:06:41] INFO root fetch - processPackages [superb-ai-apps]: Remove: archive file [/home/abi/fetcher/tmp/superb-ai-apps-0.0.1.tar.gz]
+[2024-04-05 06:06:41] INFO root fetch - processPackages [superb-ai-apps]: Remove: archive file [/home/abi/fetcher/tmp/superb-ai-apps-0.0.2.tar.gz]
+[2024-04-05 06:06:41] INFO root fetch - main [MainThread]: End processing [superb-ai-apps]: success
+[2024-04-05 06:06:41] INFO root fetch - processPackages [odoo-addon-website-event-crm-invitation]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_website_event_crm_invitation-15.0.1.0.0.7-py3-none-any.whl.zip]
+[2024-04-05 06:06:41] INFO root fetch - processPackages [odoo-addon-website-event-crm-invitation]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_website_event_crm_invitation-15.0.1.0.0.8-py3-none-any.whl.zip]
+[2024-04-05 06:06:41] INFO root fetch - main [MainThread]: End processing [odoo-addon-website-event-crm-invitation]: success
+[2024-04-05 06:06:41] INFO root fetch - processPackages [odoo13-addon-website-event-crm]: Remove: archive file [/home/abi/fetcher/tmp/odoo13_addon_website_event_crm-13.0.1.1.2.dev5-py3-none-any.whl.zip]
+[2024-04-05 06:06:41] INFO root fetch - processPackages [odoo13-addon-website-event-crm]: Remove: archive file [/home/abi/fetcher/tmp/odoo13_addon_website_event_crm-13.0.1.1.2.dev6-py3-none-any.whl.zip]
+[2024-04-05 06:06:41] INFO root fetch - main [MainThread]: End processing [odoo13-addon-website-event-crm]: success
+[2024-04-05 06:06:41] INFO root fetch - processPackages [chromedriver-binary]: Remove: archive file [/home/abi/fetcher/tmp/chromedriver-binary-99.0.4844.35.0.tar.gz]
+[2024-04-05 06:06:41] INFO root fetch - processPackages [chromedriver-binary]: Remove: archive file [/home/abi/fetcher/tmp/chromedriver-binary-99.0.4844.51.0.tar.gz]
+[2024-04-05 06:06:41] INFO root fetch - main [MainThread]: End processing [chromedriver-binary]: success
+[2024-04-05 06:06:41] INFO root fetch - main [MainThread]: End processing [chromedriver-binary]: success
+[2024-04-05 06:06:41] INFO root fetch - main [MainThread]: Store serial: [22631641]
