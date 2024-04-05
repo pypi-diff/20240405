@@ -10598,3 +10598,42 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2024-04-05 05:31:58] INFO root fetch - processPackages [litellm]: Remove: archive file [/home/abi/fetcher/tmp/litellm-1.9.dev0.tar.gz]
 [2024-04-05 05:31:58] INFO root fetch - main [MainThread]: End processing [litellm]: success
 [2024-04-05 05:31:58] INFO root fetch - main [MainThread]: Store serial: [22631481]
+[2024-04-05 05:34:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22631481]
+[2024-04-05 05:34:06] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-05 05:34:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dendron
+[2024-04-05 05:34:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: advcalc
+[2024-04-05 05:34:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: xursparks
+[2024-04-05 05:34:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: gemini-webapi
+[2024-04-05 05:34:06] INFO root fetch - processPackages [advcalc]: New version: [0.1.0] Old Version: [0.0.9]
+[2024-04-05 05:34:06] INFO root fetch - processPackages [advcalc]: Downloading https://files.pythonhosted.org/packages/0c/b7/8b5d0648f4ddcc7c25f73da3db5c59b40690b68bda9294f3fef7a2a5b049/advcalc-0.0.9.tar.gz
+[2024-04-05 05:34:06] INFO root fetch - processPackages [dendron]: New version: [0.1.5] Old Version: [0.1.4]
+[2024-04-05 05:34:06] WARNING root fetch - processPackages [xursparks]: Skipping, unable to determine old version
+[2024-04-05 05:34:06] INFO root fetch - main [MainThread]: End processing [xursparks] error
+[2024-04-05 05:34:06] INFO root fetch - processPackages [gemini-webapi]: New version: [1.1.1] Old Version: [1.1.0]
+[2024-04-05 05:34:06] WARNING root fetch - processPackages [advcalc]: Timeout reached during download
+[2024-04-05 05:34:07] INFO root fetch - processPackages [dendron]: Downloading https://files.pythonhosted.org/packages/9c/66/9b274b0cbef5dc2ff51b186ff6bf99148e78845ef0179aac1da6c30fad1a/dendron-0.1.4.tar.gz
+[2024-04-05 05:34:07] INFO root fetch - processPackages [gemini-webapi]: Downloading https://files.pythonhosted.org/packages/f3/00/53507f57e56346f4559d4f73bb0a2fd3eef5f25c138e6b26546d4cfa256d/gemini-webapi-1.1.0.tar.gz
+[2024-04-05 05:34:07] INFO root fetch - processPackages [advcalc]: Downloading https://files.pythonhosted.org/packages/6f/11/0ee76d53e49a38e59d3a0519dddc83aa07217e2834d947465614bd32e67d/advcalc-0.1.0.tar.gz
+[2024-04-05 05:34:07] WARNING root fetch - processPackages [dendron]: Timeout reached during download
+[2024-04-05 05:34:07] WARNING root fetch - processPackages [gemini-webapi]: Timeout reached during download
+[2024-04-05 05:34:07] WARNING root fetch - processPackages [advcalc]: Timeout reached during download
+[2024-04-05 05:34:07] INFO root fetch - processPackages [advcalc]: executing diffoscope
+[2024-04-05 05:34:07] INFO root fetch - processPackages [advcalc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/advcalc-0.0.9.tar.gz tmp/advcalc-0.1.0.tar.gz --markdown 20240405/a/advcalc/0.0.9-0.1.0/diff.md --exclude *.pyd
+[2024-04-05 05:34:07] INFO root fetch - processPackages [dendron]: Downloading https://files.pythonhosted.org/packages/b0/64/a557a8e06c49aa3d36544ce40149d3b095d84c25e381d7211040c4e39912/dendron-0.1.5.tar.gz
+[2024-04-05 05:34:07] INFO root fetch - processPackages [gemini-webapi]: Downloading https://files.pythonhosted.org/packages/04/ef/22328d5d6d83cbadc36d675135f912c1b006af47b35a35747858013e2d30/gemini-webapi-1.1.1.tar.gz
+[2024-04-05 05:34:07] WARNING root fetch - processPackages [dendron]: Timeout reached during download
+[2024-04-05 05:34:07] INFO root fetch - processPackages [dendron]: executing diffoscope
+[2024-04-05 05:34:07] INFO root fetch - processPackages [dendron]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dendron-0.1.4.tar.gz tmp/dendron-0.1.5.tar.gz --markdown 20240405/d/dendron/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2024-04-05 05:34:07] WARNING root fetch - processPackages [gemini-webapi]: Timeout reached during download
+[2024-04-05 05:34:07] INFO root fetch - processPackages [gemini-webapi]: executing diffoscope
+[2024-04-05 05:34:07] INFO root fetch - processPackages [gemini-webapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gemini-webapi-1.1.0.tar.gz tmp/gemini-webapi-1.1.1.tar.gz --markdown 20240405/g/gemini-webapi/1.1.0-1.1.1/diff.md --exclude *.pyd
+[2024-04-05 05:34:07] INFO root fetch - processPackages [advcalc]: Remove: archive file [/home/abi/fetcher/tmp/advcalc-0.0.9.tar.gz]
+[2024-04-05 05:34:07] INFO root fetch - processPackages [advcalc]: Remove: archive file [/home/abi/fetcher/tmp/advcalc-0.1.0.tar.gz]
+[2024-04-05 05:34:07] INFO root fetch - main [MainThread]: End processing [advcalc]: success
+[2024-04-05 05:34:08] INFO root fetch - processPackages [dendron]: Remove: archive file [/home/abi/fetcher/tmp/dendron-0.1.4.tar.gz]
+[2024-04-05 05:34:08] INFO root fetch - processPackages [dendron]: Remove: archive file [/home/abi/fetcher/tmp/dendron-0.1.5.tar.gz]
+[2024-04-05 05:34:08] INFO root fetch - main [MainThread]: End processing [dendron]: success
+[2024-04-05 05:34:08] INFO root fetch - processPackages [gemini-webapi]: Remove: archive file [/home/abi/fetcher/tmp/gemini-webapi-1.1.0.tar.gz]
+[2024-04-05 05:34:08] INFO root fetch - processPackages [gemini-webapi]: Remove: archive file [/home/abi/fetcher/tmp/gemini-webapi-1.1.1.tar.gz]
+[2024-04-05 05:34:08] INFO root fetch - main [MainThread]: End processing [gemini-webapi]: success
+[2024-04-05 05:34:08] INFO root fetch - main [MainThread]: Store serial: [22631495]
