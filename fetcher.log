@@ -2930,3 +2930,135 @@
 [2024-04-05 02:20:56] INFO root fetch - processPackages [cdk-gitlab-runner]: Remove: archive file [/home/abi/fetcher/tmp/cdk-gitlab-runner-2.2.99.tar.gz]
 [2024-04-05 02:20:56] INFO root fetch - main [MainThread]: End processing [cdk-gitlab-runner]: success
 [2024-04-05 02:20:56] INFO root fetch - main [MainThread]: Store serial: [22629155]
+[2024-04-05 02:23:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22629155]
+[2024-04-05 02:23:05] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2024-04-05 02:23:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: typer-slim
+[2024-04-05 02:23:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: typer
+[2024-04-05 02:23:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: typer-cli
+[2024-04-05 02:23:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cdk-aurora-globaldatabase
+[2024-04-05 02:23:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: CodingRider
+[2024-04-05 02:23:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: air-sdk-python
+[2024-04-05 02:23:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: regex-compose
+[2024-04-05 02:23:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: dazl
+[2024-04-05 02:23:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: cdk-tweet-queue
+[2024-04-05 02:23:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: aiohttp_admin2
+[2024-04-05 02:23:06] INFO root fetch - processPackages [typer]: New version: [0.9.4] Old Version: [0.9.3]
+[2024-04-05 02:23:06] INFO root fetch - processPackages [typer-slim]: New version: [0.12.dev2] Old Version: [0.12.dev1]
+[2024-04-05 02:23:06] INFO root fetch - processPackages [typer-cli]: New version: [0.12.dev2] Old Version: [0.12.dev1]
+[2024-04-05 02:23:06] WARNING root fetch - processPackages [regex-compose]: Skipping, unable to determine old version
+[2024-04-05 02:23:06] INFO root fetch - processPackages [regex-compose]: Start processing: dingman-openapi-server
+[2024-04-05 02:23:06] INFO root fetch - main [MainThread]: End processing [regex-compose] error
+[2024-04-05 02:23:06] INFO root fetch - processPackages [typer]: Downloading https://files.pythonhosted.org/packages/12/ce/0d95b86b827fc8bd4b53e42b7dfdcd56d6665ff93d7ba72128b52f22bb7b/typer-0.9.3.tar.gz
+[2024-04-05 02:23:06] INFO root fetch - processPackages [air-sdk-python]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-04-05 02:23:06] INFO root fetch - processPackages [aiohttp_admin2]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-04-05 02:23:06] INFO root fetch - processPackages [CodingRider]: New version: [2.0] Old Version: [1.1]
+[2024-04-05 02:23:06] INFO root fetch - processPackages [typer-cli]: Downloading https://files.pythonhosted.org/packages/9b/23/f855226c537b501ce5c9fdaf2212a05301d4433ca4b38bd412812a3dd224/typer_cli-0.12.dev1.tar.gz
+[2024-04-05 02:23:06] INFO root fetch - processPackages [typer-slim]: Downloading https://files.pythonhosted.org/packages/cb/a6/4e8be954c0aaa350e10d12a7fc024771267177c9f4755af87074842fb10e/typer_slim-0.12.dev1.tar.gz
+[2024-04-05 02:23:06] INFO root fetch - processPackages [dazl]: New version: [8.0.0b2] Old Version: [8.0.0b1]
+[2024-04-05 02:23:06] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: New version: [2.3.99] Old Version: [2.3.98]
+[2024-04-05 02:23:06] INFO root fetch - processPackages [dingman-openapi-server]: New version: [1.0.4] Old Version: [1.0.38]
+[2024-04-05 02:23:06] WARNING root fetch - processPackages [typer-cli]: Timeout reached during download
+[2024-04-05 02:23:06] WARNING root fetch - processPackages [typer-slim]: Timeout reached during download
+[2024-04-05 02:23:06] WARNING root fetch - processPackages [typer]: Timeout reached during download
+[2024-04-05 02:23:06] INFO root fetch - processPackages [aiohttp_admin2]: Downloading https://files.pythonhosted.org/packages/9b/58/9810688a95d860bfbdfc64b8d7f2130019c3f4f3eccf23c8f5eb97c48577/aiohttp_admin2-0.0.4.tar.gz
+[2024-04-05 02:23:06] INFO root fetch - processPackages [air-sdk-python]: Downloading https://files.pythonhosted.org/packages/e6/7e/5025c35c624204d38d96724d6aab30af89667c1276120666cdb5711d6d67/air-sdk-python-0.9.0.tar.gz
+[2024-04-05 02:23:06] INFO root fetch - processPackages [typer-cli]: Downloading https://files.pythonhosted.org/packages/a0/75/a6c5ec35c6e901812dbefabc73897ca7b1f9e8daf3d90f73f76c933cb3b4/typer_cli-0.12.dev2.tar.gz
+[2024-04-05 02:23:06] INFO root fetch - processPackages [CodingRider]: Downloading https://files.pythonhosted.org/packages/79/fe/d19a6e1a22be9807379ff1e23768ae1ba85760123137d738b9bdc7493021/CodingRider-1.1.tar.gz
+[2024-04-05 02:23:06] INFO root fetch - processPackages [dazl]: Downloading https://files.pythonhosted.org/packages/f4/2a/3e59df4335f3b0036ebb9fe3df773e5e332695802dd6766b902ced687675/dazl-8.0.0b1.tar.gz
+[2024-04-05 02:23:06] INFO root fetch - processPackages [dingman-openapi-server]: Downloading https://files.pythonhosted.org/packages/2a/c9/9d12db9730c438b2d515a06640dfa879eda85c3cb7880257bf120284aedf/dingman-openapi-server-1.0.38.tar.gz
+[2024-04-05 02:23:06] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: Downloading https://files.pythonhosted.org/packages/e4/39/e997b5acac972df8d777c4a4ad6dfd9f51e03e75fc8e23c973a7772267d5/cdk-aurora-globaldatabase-2.3.98.tar.gz
+[2024-04-05 02:23:06] INFO root fetch - processPackages [typer-slim]: Downloading https://files.pythonhosted.org/packages/7f/8f/8d67dc6028f51bb725c581c65fdfdc8c1f1cdfe1ef08bfde5929a39f1ebd/typer_slim-0.12.dev2.tar.gz
+[2024-04-05 02:23:06] INFO root fetch - processPackages [typer]: Downloading https://files.pythonhosted.org/packages/e9/7d/b1e0399aa5e27071f0042784681d28417f3e526c61f62c8e3635ee5ad334/typer-0.9.4.tar.gz
+[2024-04-05 02:23:06] INFO root fetch - processPackages [cdk-tweet-queue]: New version: [2.0.99] Old Version: [2.0.98]
+[2024-04-05 02:23:06] WARNING root fetch - processPackages [typer-cli]: Timeout reached during download
+[2024-04-05 02:23:06] INFO root fetch - processPackages [typer-cli]: executing diffoscope
+[2024-04-05 02:23:06] INFO root fetch - processPackages [typer-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/typer_cli-0.12.dev1.tar.gz tmp/typer_cli-0.12.dev2.tar.gz --markdown 20240405/t/typer-cli/0.12.dev1-0.12.dev2/diff.md --exclude *.pyd
+[2024-04-05 02:23:06] WARNING root fetch - processPackages [air-sdk-python]: Timeout reached during download
+[2024-04-05 02:23:06] WARNING root fetch - processPackages [aiohttp_admin2]: Timeout reached during download
+[2024-04-05 02:23:06] WARNING root fetch - processPackages [CodingRider]: Timeout reached during download
+[2024-04-05 02:23:06] WARNING root fetch - processPackages [dingman-openapi-server]: Timeout reached during download
+[2024-04-05 02:23:06] WARNING root fetch - processPackages [cdk-aurora-globaldatabase]: Timeout reached during download
+[2024-04-05 02:23:06] WARNING root fetch - processPackages [dazl]: Timeout reached during download
+[2024-04-05 02:23:06] WARNING root fetch - processPackages [typer-slim]: Timeout reached during download
+[2024-04-05 02:23:06] INFO root fetch - processPackages [typer-slim]: executing diffoscope
+[2024-04-05 02:23:06] INFO root fetch - processPackages [typer-slim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/typer_slim-0.12.dev1.tar.gz tmp/typer_slim-0.12.dev2.tar.gz --markdown 20240405/t/typer-slim/0.12.dev1-0.12.dev2/diff.md --exclude *.pyd
+[2024-04-05 02:23:06] WARNING root fetch - processPackages [typer]: Timeout reached during download
+[2024-04-05 02:23:06] INFO root fetch - processPackages [typer]: executing diffoscope
+[2024-04-05 02:23:06] INFO root fetch - processPackages [typer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/typer-0.9.3.tar.gz tmp/typer-0.9.4.tar.gz --markdown 20240405/t/typer/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2024-04-05 02:23:06] INFO root fetch - processPackages [cdk-tweet-queue]: Downloading https://files.pythonhosted.org/packages/f2/a9/33fbe548cea174e015412108a563be3bbbdacbb6982d1ef6bf71d4abb509/cdk-tweet-queue-2.0.98.tar.gz
+[2024-04-05 02:23:06] INFO root fetch - processPackages [air-sdk-python]: Downloading https://files.pythonhosted.org/packages/c8/bc/3a6f4f24fc59dd5729c85aa82d63b1395ca97704eb7368fe064c5f911f24/air-sdk-python-0.9.1.tar.gz
+[2024-04-05 02:23:06] INFO root fetch - processPackages [aiohttp_admin2]: Downloading https://files.pythonhosted.org/packages/d2/01/ad883c0e4e6affc6c0809e94d54b45538c9dea4b4bf1cbb1f28522dcfc15/aiohttp_admin2-0.0.5.tar.gz
+[2024-04-05 02:23:06] INFO root fetch - processPackages [CodingRider]: Downloading https://files.pythonhosted.org/packages/40/b2/465c370a1bcd8ac79a31643447f4278b317830982e3d1f2b2b362985ab14/CodingRider-2.0.tar.gz
+[2024-04-05 02:23:06] INFO root fetch - processPackages [dingman-openapi-server]: Downloading https://files.pythonhosted.org/packages/10/90/189b1f5486855c857eb9d800a25498a4589579d1659403dd60f63a708b7c/dingman_openapi_server-1.0.4.tar.gz
+[2024-04-05 02:23:06] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: Downloading https://files.pythonhosted.org/packages/51/53/0158facaec2becec86707148eb931de78a7ad1c2b63f80b9911a53e4c17b/cdk-aurora-globaldatabase-2.3.99.tar.gz
+[2024-04-05 02:23:06] WARNING root fetch - processPackages [cdk-tweet-queue]: Timeout reached during download
+[2024-04-05 02:23:07] INFO root fetch - processPackages [dazl]: Downloading https://files.pythonhosted.org/packages/83/e4/d756d06f816c6815d3459faeb6d70188715f62733d4f306775c06d0c6d3f/dazl-8.0.0b2.tar.gz
+[2024-04-05 02:23:07] WARNING root fetch - processPackages [air-sdk-python]: Timeout reached during download
+[2024-04-05 02:23:07] INFO root fetch - processPackages [air-sdk-python]: executing diffoscope
+[2024-04-05 02:23:07] INFO root fetch - processPackages [air-sdk-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/air-sdk-python-0.9.0.tar.gz tmp/air-sdk-python-0.9.1.tar.gz --markdown 20240405/a/air-sdk-python/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2024-04-05 02:23:07] WARNING root fetch - processPackages [CodingRider]: Timeout reached during download
+[2024-04-05 02:23:07] INFO root fetch - processPackages [CodingRider]: executing diffoscope
+[2024-04-05 02:23:07] INFO root fetch - processPackages [CodingRider]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CodingRider-1.1.tar.gz tmp/CodingRider-2.0.tar.gz --markdown 20240405/C/CodingRider/1.1-2.0/diff.md --exclude *.pyd
+[2024-04-05 02:23:07] WARNING root fetch - processPackages [aiohttp_admin2]: Timeout reached during download
+[2024-04-05 02:23:07] INFO root fetch - processPackages [aiohttp_admin2]: executing diffoscope
+[2024-04-05 02:23:07] INFO root fetch - processPackages [aiohttp_admin2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiohttp_admin2-0.0.4.tar.gz tmp/aiohttp_admin2-0.0.5.tar.gz --markdown 20240405/a/aiohttp_admin2/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2024-04-05 02:23:07] WARNING root fetch - processPackages [cdk-aurora-globaldatabase]: Timeout reached during download
+[2024-04-05 02:23:07] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: executing diffoscope
+[2024-04-05 02:23:07] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-aurora-globaldatabase-2.3.98.tar.gz tmp/cdk-aurora-globaldatabase-2.3.99.tar.gz --markdown 20240405/c/cdk-aurora-globaldatabase/2.3.98-2.3.99/diff.md --exclude *.pyd
+[2024-04-05 02:23:07] INFO root fetch - processPackages [cdk-tweet-queue]: Downloading https://files.pythonhosted.org/packages/b9/df/ffba41b66fc7796cb2c763da82c2012cc28d0708e1dcb7775c98d3d9e491/cdk-tweet-queue-2.0.99.tar.gz
+[2024-04-05 02:23:07] WARNING root fetch - processPackages [dazl]: Timeout reached during download
+[2024-04-05 02:23:07] INFO root fetch - processPackages [dazl]: executing diffoscope
+[2024-04-05 02:23:07] INFO root fetch - processPackages [dazl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dazl-8.0.0b1.tar.gz tmp/dazl-8.0.0b2.tar.gz --markdown 20240405/d/dazl/8.0.0b1-8.0.0b2/diff.md --exclude *.pyd
+[2024-04-05 02:23:07] WARNING root fetch - processPackages [dingman-openapi-server]: Timeout reached during download
+[2024-04-05 02:23:07] INFO root fetch - processPackages [dingman-openapi-server]: executing diffoscope
+[2024-04-05 02:23:07] INFO root fetch - processPackages [dingman-openapi-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dingman-openapi-server-1.0.38.tar.gz tmp/dingman_openapi_server-1.0.4.tar.gz --markdown 20240405/d/dingman-openapi-server/1.0.38-1.0.4/diff.md --exclude *.pyd
+[2024-04-05 02:23:07] WARNING root fetch - processPackages [cdk-tweet-queue]: Timeout reached during download
+[2024-04-05 02:23:07] INFO root fetch - processPackages [cdk-tweet-queue]: executing diffoscope
+[2024-04-05 02:23:07] INFO root fetch - processPackages [cdk-tweet-queue]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-tweet-queue-2.0.98.tar.gz tmp/cdk-tweet-queue-2.0.99.tar.gz --markdown 20240405/c/cdk-tweet-queue/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2024-04-05 02:23:07] INFO root fetch - processPackages [typer-cli]: Remove: archive file [/home/abi/fetcher/tmp/typer_cli-0.12.dev1.tar.gz]
+[2024-04-05 02:23:07] INFO root fetch - processPackages [typer-cli]: Remove: archive file [/home/abi/fetcher/tmp/typer_cli-0.12.dev2.tar.gz]
+[2024-04-05 02:23:07] INFO root fetch - processPackages [typer-cli]: Start processing: cdk-cr-constructs
+[2024-04-05 02:23:07] INFO root fetch - main [MainThread]: End processing [typer-cli]: success
+[2024-04-05 02:23:07] INFO root fetch - processPackages [cdk-cr-constructs]: New version: [2.1.418] Old Version: [2.1.417]
+[2024-04-05 02:23:07] INFO root fetch - processPackages [cdk-cr-constructs]: Downloading https://files.pythonhosted.org/packages/f9/8b/2a9ab594992d29de5d4424e02ed5d3c9dfefec6288006867063e2e895a6d/cdk-cr-constructs-2.1.417.tar.gz
+[2024-04-05 02:23:07] WARNING root fetch - processPackages [cdk-cr-constructs]: Skipping package: exceeds size limit 15090175>=10485760
+[2024-04-05 02:23:07] INFO root fetch - processPackages [cdk-cr-constructs]: Start processing: cdklabs.cdk-ethereum-node
+[2024-04-05 02:23:07] INFO root fetch - main [MainThread]: End processing [cdk-cr-constructs] error
+[2024-04-05 02:23:08] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: Remove: archive file [/home/abi/fetcher/tmp/cdk-aurora-globaldatabase-2.3.98.tar.gz]
+[2024-04-05 02:23:08] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: Remove: archive file [/home/abi/fetcher/tmp/cdk-aurora-globaldatabase-2.3.99.tar.gz]
+[2024-04-05 02:23:08] INFO root fetch - main [MainThread]: End processing [cdk-aurora-globaldatabase]: success
+[2024-04-05 02:23:08] INFO root fetch - processPackages [air-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/air-sdk-python-0.9.0.tar.gz]
+[2024-04-05 02:23:08] INFO root fetch - processPackages [air-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/air-sdk-python-0.9.1.tar.gz]
+[2024-04-05 02:23:08] INFO root fetch - main [MainThread]: End processing [air-sdk-python]: success
+[2024-04-05 02:23:08] INFO root fetch - processPackages [CodingRider]: Remove: archive file [/home/abi/fetcher/tmp/CodingRider-1.1.tar.gz]
+[2024-04-05 02:23:08] INFO root fetch - processPackages [CodingRider]: Remove: archive file [/home/abi/fetcher/tmp/CodingRider-2.0.tar.gz]
+[2024-04-05 02:23:08] INFO root fetch - main [MainThread]: End processing [CodingRider]: success
+[2024-04-05 02:23:08] INFO root fetch - processPackages [cdklabs.cdk-ethereum-node]: New version: [0.0.99] Old Version: [0.0.98]
+[2024-04-05 02:23:08] INFO root fetch - processPackages [cdk-tweet-queue]: Remove: archive file [/home/abi/fetcher/tmp/cdk-tweet-queue-2.0.98.tar.gz]
+[2024-04-05 02:23:08] INFO root fetch - processPackages [cdk-tweet-queue]: Remove: archive file [/home/abi/fetcher/tmp/cdk-tweet-queue-2.0.99.tar.gz]
+[2024-04-05 02:23:08] INFO root fetch - main [MainThread]: End processing [cdk-tweet-queue]: success
+[2024-04-05 02:23:08] INFO root fetch - processPackages [aiohttp_admin2]: Remove: archive file [/home/abi/fetcher/tmp/aiohttp_admin2-0.0.4.tar.gz]
+[2024-04-05 02:23:08] INFO root fetch - processPackages [aiohttp_admin2]: Remove: archive file [/home/abi/fetcher/tmp/aiohttp_admin2-0.0.5.tar.gz]
+[2024-04-05 02:23:08] INFO root fetch - main [MainThread]: End processing [aiohttp_admin2]: success
+[2024-04-05 02:23:08] INFO root fetch - processPackages [cdklabs.cdk-ethereum-node]: Downloading https://files.pythonhosted.org/packages/d8/1a/417af84315b2d52f6063ccf2072677259777d28fb73cab91e17879faaa26/cdklabs.cdk-ethereum-node-0.0.98.tar.gz
+[2024-04-05 02:23:08] INFO root fetch - processPackages [dingman-openapi-server]: Remove: archive file [/home/abi/fetcher/tmp/dingman-openapi-server-1.0.38.tar.gz]
+[2024-04-05 02:23:08] INFO root fetch - processPackages [dingman-openapi-server]: Remove: archive file [/home/abi/fetcher/tmp/dingman_openapi_server-1.0.4.tar.gz]
+[2024-04-05 02:23:08] INFO root fetch - main [MainThread]: End processing [dingman-openapi-server]: success
+[2024-04-05 02:23:08] WARNING root fetch - processPackages [cdklabs.cdk-ethereum-node]: Timeout reached during download
+[2024-04-05 02:23:08] INFO root fetch - processPackages [cdklabs.cdk-ethereum-node]: Downloading https://files.pythonhosted.org/packages/2d/d8/3fd98f927d9988f7c189f488b1829ac7aa7f855bf93f6030e3bed9af9a97/cdklabs.cdk-ethereum-node-0.0.99.tar.gz
+[2024-04-05 02:23:08] INFO root fetch - processPackages [typer-slim]: Remove: archive file [/home/abi/fetcher/tmp/typer_slim-0.12.dev1.tar.gz]
+[2024-04-05 02:23:08] INFO root fetch - processPackages [typer-slim]: Remove: archive file [/home/abi/fetcher/tmp/typer_slim-0.12.dev2.tar.gz]
+[2024-04-05 02:23:08] INFO root fetch - main [MainThread]: End processing [typer-slim]: success
+[2024-04-05 02:23:08] WARNING root fetch - processPackages [cdklabs.cdk-ethereum-node]: Timeout reached during download
+[2024-04-05 02:23:08] INFO root fetch - processPackages [cdklabs.cdk-ethereum-node]: executing diffoscope
+[2024-04-05 02:23:08] INFO root fetch - processPackages [cdklabs.cdk-ethereum-node]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdklabs.cdk-ethereum-node-0.0.98.tar.gz tmp/cdklabs.cdk-ethereum-node-0.0.99.tar.gz --markdown 20240405/c/cdklabs.cdk-ethereum-node/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2024-04-05 02:23:09] INFO root fetch - processPackages [typer]: Remove: archive file [/home/abi/fetcher/tmp/typer-0.9.3.tar.gz]
+[2024-04-05 02:23:09] INFO root fetch - processPackages [typer]: Remove: archive file [/home/abi/fetcher/tmp/typer-0.9.4.tar.gz]
+[2024-04-05 02:23:09] INFO root fetch - main [MainThread]: End processing [typer]: success
+[2024-04-05 02:23:09] INFO root fetch - processPackages [cdklabs.cdk-ethereum-node]: Remove: archive file [/home/abi/fetcher/tmp/cdklabs.cdk-ethereum-node-0.0.98.tar.gz]
+[2024-04-05 02:23:09] INFO root fetch - processPackages [cdklabs.cdk-ethereum-node]: Remove: archive file [/home/abi/fetcher/tmp/cdklabs.cdk-ethereum-node-0.0.99.tar.gz]
+[2024-04-05 02:23:09] INFO root fetch - main [MainThread]: End processing [cdklabs.cdk-ethereum-node]: success
+[2024-04-05 02:23:09] INFO root fetch - processPackages [dazl]: Remove: archive file [/home/abi/fetcher/tmp/dazl-8.0.0b1.tar.gz]
+[2024-04-05 02:23:09] INFO root fetch - processPackages [dazl]: Remove: archive file [/home/abi/fetcher/tmp/dazl-8.0.0b2.tar.gz]
+[2024-04-05 02:23:09] INFO root fetch - main [MainThread]: End processing [dazl]: success
+[2024-04-05 02:23:09] INFO root fetch - main [MainThread]: Store serial: [22629192]
