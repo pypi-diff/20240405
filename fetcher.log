@@ -19856,3 +19856,39 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2024-04-05 12:47:02] INFO root fetch - processPackages [cellfinder]: Remove: archive file [/home/abi/fetcher/tmp/cellfinder-1.1.2.tar.gz]
 [2024-04-05 12:47:02] INFO root fetch - main [MainThread]: End processing [cellfinder]: success
 [2024-04-05 12:47:02] INFO root fetch - main [MainThread]: Store serial: [22634815]
+[2024-04-05 12:49:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22634815]
+[2024-04-05 12:49:11] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-05 12:49:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo-addon-l10n-ro-stock-account
+[2024-04-05 12:49:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pinterest-dl
+[2024-04-05 12:49:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyappcache
+[2024-04-05 12:49:11] INFO root fetch - processPackages [odoo-addon-l10n-ro-stock-account]: New version: [16.0.1.9.0.1] Old Version: [16.0.1.9.0]
+[2024-04-05 12:49:11] INFO root fetch - processPackages [odoo-addon-l10n-ro-stock-account]: Downloading https://files.pythonhosted.org/packages/8f/0d/f0a4dbd6c93fecdf81aab008537d34c514cb265b028b30bf1f011bd2120b/odoo_addon_l10n_ro_stock_account-16.0.1.9.0-py3-none-any.whl
+[2024-04-05 12:49:11] INFO root fetch - processPackages [pyappcache]: New version: [0.9.1] Old Version: [0.9]
+[2024-04-05 12:49:11] INFO root fetch - processPackages [pinterest-dl]: New version: [0.0.9] Old Version: [0.0.21]
+[2024-04-05 12:49:11] WARNING root fetch - processPackages [odoo-addon-l10n-ro-stock-account]: Timeout reached during download
+[2024-04-05 12:49:11] INFO root fetch - processPackages [pyappcache]: Downloading https://files.pythonhosted.org/packages/96/cc/9282ae0a6ec188343c7f01ebd1eaa426e4d013de405b6c36d2712fcd449c/pyappcache-0.9-py3-none-any.whl
+[2024-04-05 12:49:12] INFO root fetch - processPackages [odoo-addon-l10n-ro-stock-account]: Downloading https://files.pythonhosted.org/packages/2e/c1/0b4ee4e8d187050909da48ed46ea7dc6338bb0fb432adc7a15e51481cd60/odoo_addon_l10n_ro_stock_account-16.0.1.9.0.1-py3-none-any.whl
+[2024-04-05 12:49:12] INFO root fetch - processPackages [pinterest-dl]: Downloading https://files.pythonhosted.org/packages/44/3d/962ca81987b49b114eec7402052bd953bec4ec4029dd4eee6824a8612ab2/pinterest-dl-0.0.21.tar.gz
+[2024-04-05 12:49:12] WARNING root fetch - processPackages [pinterest-dl]: Timeout reached during download
+[2024-04-05 12:49:12] WARNING root fetch - processPackages [pyappcache]: Timeout reached during download
+[2024-04-05 12:49:12] INFO root fetch - processPackages [pinterest-dl]: Downloading https://files.pythonhosted.org/packages/9d/7d/a7cebfdce5c0db9931760762840301b757bd1ef189032796f4a064f61f4b/pinterest-dl-0.0.9.tar.gz
+[2024-04-05 12:49:12] WARNING root fetch - processPackages [odoo-addon-l10n-ro-stock-account]: Timeout reached during download
+[2024-04-05 12:49:12] INFO root fetch - processPackages [odoo-addon-l10n-ro-stock-account]: executing diffoscope
+[2024-04-05 12:49:12] INFO root fetch - processPackages [odoo-addon-l10n-ro-stock-account]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_l10n_ro_stock_account-16.0.1.9.0-py3-none-any.whl.zip tmp/odoo_addon_l10n_ro_stock_account-16.0.1.9.0.1-py3-none-any.whl.zip --markdown 20240405/o/odoo-addon-l10n-ro-stock-account/16.0.1.9.0-16.0.1.9.0.1/diff.md --exclude *.pyd
+[2024-04-05 12:49:12] INFO root fetch - processPackages [pyappcache]: Downloading https://files.pythonhosted.org/packages/99/26/57696745f74561aca4c66c9b920486039a4d9d1f978d6e36fb2ff9977719/pyappcache-0.9.1.tar.gz
+[2024-04-05 12:49:12] WARNING root fetch - processPackages [pinterest-dl]: Timeout reached during download
+[2024-04-05 12:49:12] INFO root fetch - processPackages [pinterest-dl]: executing diffoscope
+[2024-04-05 12:49:12] INFO root fetch - processPackages [pinterest-dl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pinterest-dl-0.0.21.tar.gz tmp/pinterest-dl-0.0.9.tar.gz --markdown 20240405/p/pinterest-dl/0.0.21-0.0.9/diff.md --exclude *.pyd
+[2024-04-05 12:49:12] WARNING root fetch - processPackages [pyappcache]: Timeout reached during download
+[2024-04-05 12:49:12] INFO root fetch - processPackages [pyappcache]: executing diffoscope
+[2024-04-05 12:49:12] INFO root fetch - processPackages [pyappcache]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyappcache-0.9-py3-none-any.whl.zip tmp/pyappcache-0.9.1.tar.gz --markdown 20240405/p/pyappcache/0.9-0.9.1/diff.md --exclude *.pyd
+[2024-04-05 12:49:12] INFO root fetch - processPackages [odoo-addon-l10n-ro-stock-account]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_ro_stock_account-16.0.1.9.0-py3-none-any.whl.zip]
+[2024-04-05 12:49:12] INFO root fetch - processPackages [odoo-addon-l10n-ro-stock-account]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_ro_stock_account-16.0.1.9.0.1-py3-none-any.whl.zip]
+[2024-04-05 12:49:12] INFO root fetch - main [MainThread]: End processing [odoo-addon-l10n-ro-stock-account]: success
+[2024-04-05 12:49:13] INFO root fetch - processPackages [pinterest-dl]: Remove: archive file [/home/abi/fetcher/tmp/pinterest-dl-0.0.21.tar.gz]
+[2024-04-05 12:49:13] INFO root fetch - processPackages [pinterest-dl]: Remove: archive file [/home/abi/fetcher/tmp/pinterest-dl-0.0.9.tar.gz]
+[2024-04-05 12:49:13] INFO root fetch - main [MainThread]: End processing [pinterest-dl]: success
+[2024-04-05 12:49:13] INFO root fetch - processPackages [pyappcache]: Remove: archive file [/home/abi/fetcher/tmp/pyappcache-0.9-py3-none-any.whl.zip]
+[2024-04-05 12:49:13] INFO root fetch - processPackages [pyappcache]: Remove: archive file [/home/abi/fetcher/tmp/pyappcache-0.9.1.tar.gz]
+[2024-04-05 12:49:13] INFO root fetch - main [MainThread]: End processing [pyappcache]: success
+[2024-04-05 12:49:13] INFO root fetch - main [MainThread]: Store serial: [22634824]
