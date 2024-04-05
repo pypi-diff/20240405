@@ -19892,3 +19892,97 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2024-04-05 12:49:13] INFO root fetch - processPackages [pyappcache]: Remove: archive file [/home/abi/fetcher/tmp/pyappcache-0.9.1.tar.gz]
 [2024-04-05 12:49:13] INFO root fetch - main [MainThread]: End processing [pyappcache]: success
 [2024-04-05 12:49:13] INFO root fetch - main [MainThread]: Store serial: [22634824]
+[2024-04-05 12:51:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22634824]
+[2024-04-05 12:51:22] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-04-05 12:51:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: graas-observability-utility
+[2024-04-05 12:51:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: antoine
+[2024-04-05 12:51:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: omnix
+[2024-04-05 12:51:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: zigpy-zboss
+[2024-04-05 12:51:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mpbroker
+[2024-04-05 12:51:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pybase16384
+[2024-04-05 12:51:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: PyIsEven
+[2024-04-05 12:51:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: reqstool-python-poetry-plugin
+[2024-04-05 12:51:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: myrappsql
+[2024-04-05 12:51:22] INFO root fetch - processPackages [graas-observability-utility]: New version: [1.5.9] Old Version: [1.5.8]
+[2024-04-05 12:51:22] INFO root fetch - processPackages [reqstool-python-poetry-plugin]: New version: [0.0.2] Old Version: [0.0.0]
+[2024-04-05 12:51:22] INFO root fetch - processPackages [antoine]: New version: [2.3] Old Version: [2.2]
+[2024-04-05 12:51:22] INFO root fetch - processPackages [graas-observability-utility]: Downloading https://files.pythonhosted.org/packages/b9/9c/ea3c599fbacd44f060ebbc7fbfbc76acf7022b86e48ea3eabd7cd54196af/graas-observability-utility-1.5.8.tar.gz
+[2024-04-05 12:51:22] INFO root fetch - processPackages [zigpy-zboss]: New version: [1.1.4] Old Version: [1.1.3]
+[2024-04-05 12:51:22] INFO root fetch - processPackages [omnix]: New version: [0.3.3] Old Version: [0.3.1]
+[2024-04-05 12:51:22] INFO root fetch - processPackages [PyIsEven]: New version: [0.8.9] Old Version: [0.8.8]
+[2024-04-05 12:51:22] INFO root fetch - processPackages [reqstool-python-poetry-plugin]: Downloading https://files.pythonhosted.org/packages/57/ef/fc8f0a6ced0409d0fc83c97ae491920fb4a15d38ca987ff3817672aaf03c/reqstool_python_poetry_plugin-0.0.0.tar.gz
+[2024-04-05 12:51:22] INFO root fetch - processPackages [mpbroker]: New version: [0.9.0] Old Version: [0.8.1]
+[2024-04-05 12:51:22] INFO root fetch - processPackages [antoine]: Downloading https://files.pythonhosted.org/packages/65/55/7a3ff8d2b101449d2eceefabb800461d31ee392360524ca8aceeb8d0ded9/antoine-2.2.tar.gz
+[2024-04-05 12:51:22] WARNING root fetch - processPackages [myrappsql]: Skipping, unable to determine old version
+[2024-04-05 12:51:22] INFO root fetch - main [MainThread]: End processing [myrappsql] error
+[2024-04-05 12:51:22] INFO root fetch - processPackages [pybase16384]: New version: [0.3.7] Old Version: [0.3.6]
+[2024-04-05 12:51:23] WARNING root fetch - processPackages [graas-observability-utility]: Timeout reached during download
+[2024-04-05 12:51:23] WARNING root fetch - processPackages [antoine]: Timeout reached during download
+[2024-04-05 12:51:23] WARNING root fetch - processPackages [reqstool-python-poetry-plugin]: Timeout reached during download
+[2024-04-05 12:51:23] INFO root fetch - processPackages [zigpy-zboss]: Downloading https://files.pythonhosted.org/packages/4f/23/32d2d2b10ce0133e5ccd8da7496748587bf084aa3a26b3849dca8250c9b9/zigpy-zboss-1.1.3.tar.gz
+[2024-04-05 12:51:23] INFO root fetch - processPackages [omnix]: Downloading https://files.pythonhosted.org/packages/34/64/b8d922b0c7c1d75c878503765b642f4b16f945732dd227befe0e7892b811/omnix-0.3.1.tar.gz
+[2024-04-05 12:51:23] INFO root fetch - processPackages [PyIsEven]: Downloading https://files.pythonhosted.org/packages/1d/f8/1dff2aed497b37b5c50edc83e487b8f9bb86159e86194dbb33ea6fb76f33/PyIsEven-0.8.8.tar.gz
+[2024-04-05 12:51:23] INFO root fetch - processPackages [mpbroker]: Downloading https://files.pythonhosted.org/packages/71/63/aa62f060201d4a2885517f62287596d00cfa518221caf7cba8085204849e/mpbroker-0.8.1.tar.gz
+[2024-04-05 12:51:23] INFO root fetch - processPackages [antoine]: Downloading https://files.pythonhosted.org/packages/ce/6a/009aae7dd4d45778b8dd1b95cdaf81a77ff03293cb33d86bc3812728df31/antoine-2.3.tar.gz
+[2024-04-05 12:51:23] INFO root fetch - processPackages [reqstool-python-poetry-plugin]: Downloading https://files.pythonhosted.org/packages/14/92/e249e58c94df5a70f754a8b57008e19fb266e18cb7d79d20d89292f595c3/reqstool_python_poetry_plugin-0.0.2.tar.gz
+[2024-04-05 12:51:23] INFO root fetch - processPackages [graas-observability-utility]: Downloading https://files.pythonhosted.org/packages/4c/26/17b006dbe3e42f19b2561165e479a785e037e814af0f4401ae29879c3ef3/graas-observability-utility-1.5.9.tar.gz
+[2024-04-05 12:51:23] WARNING root fetch - processPackages [zigpy-zboss]: Timeout reached during download
+[2024-04-05 12:51:23] INFO root fetch - processPackages [pybase16384]: Downloading https://files.pythonhosted.org/packages/04/ea/e848318edaf4e35be1296e79037679ea8dd49e29b39d9cc1f5b9f975ac9c/pybase16384-0.3.6-pp39-pypy39_pp73-win_amd64.whl
+[2024-04-05 12:51:23] WARNING root fetch - processPackages [omnix]: Timeout reached during download
+[2024-04-05 12:51:23] WARNING root fetch - processPackages [mpbroker]: Timeout reached during download
+[2024-04-05 12:51:23] WARNING root fetch - processPackages [antoine]: Timeout reached during download
+[2024-04-05 12:51:23] INFO root fetch - processPackages [antoine]: executing diffoscope
+[2024-04-05 12:51:23] INFO root fetch - processPackages [antoine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/antoine-2.2.tar.gz tmp/antoine-2.3.tar.gz --markdown 20240405/a/antoine/2.2-2.3/diff.md --exclude *.pyd
+[2024-04-05 12:51:23] WARNING root fetch - processPackages [PyIsEven]: Timeout reached during download
+[2024-04-05 12:51:23] WARNING root fetch - processPackages [reqstool-python-poetry-plugin]: Timeout reached during download
+[2024-04-05 12:51:23] INFO root fetch - processPackages [reqstool-python-poetry-plugin]: executing diffoscope
+[2024-04-05 12:51:23] INFO root fetch - processPackages [reqstool-python-poetry-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reqstool_python_poetry_plugin-0.0.0.tar.gz tmp/reqstool_python_poetry_plugin-0.0.2.tar.gz --markdown 20240405/r/reqstool-python-poetry-plugin/0.0.0-0.0.2/diff.md --exclude *.pyd
+[2024-04-05 12:51:23] WARNING root fetch - processPackages [graas-observability-utility]: Timeout reached during download
+[2024-04-05 12:51:23] INFO root fetch - processPackages [graas-observability-utility]: executing diffoscope
+[2024-04-05 12:51:23] INFO root fetch - processPackages [graas-observability-utility]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/graas-observability-utility-1.5.8.tar.gz tmp/graas-observability-utility-1.5.9.tar.gz --markdown 20240405/g/graas-observability-utility/1.5.8-1.5.9/diff.md --exclude *.pyd
+[2024-04-05 12:51:23] WARNING root fetch - processPackages [pybase16384]: Timeout reached during download
+[2024-04-05 12:51:23] INFO root fetch - processPackages [zigpy-zboss]: Downloading https://files.pythonhosted.org/packages/8b/39/ba37553c6f84c44b3525e0fca96f7b3c54675412b912798b43a863d590d5/zigpy-zboss-1.1.4.tar.gz
+[2024-04-05 12:51:23] INFO root fetch - processPackages [omnix]: Downloading https://files.pythonhosted.org/packages/28/84/f8619762dba126b800006ee3caef30784aaca2331aa4fcd9e06c10568622/omnix-0.3.3.tar.gz
+[2024-04-05 12:51:23] INFO root fetch - processPackages [mpbroker]: Downloading https://files.pythonhosted.org/packages/f7/1e/5a556b514f33d3917e8237e3bbac7dd0e53a1a8b715f1c5f11680ad91efd/mpbroker-0.9.0.tar.gz
+[2024-04-05 12:51:23] INFO root fetch - processPackages [PyIsEven]: Downloading https://files.pythonhosted.org/packages/2b/1b/a42a59989fc4e96115917064f10632c19904d47dfd37da23cd81f59e82ed/PyIsEven-0.8.9.tar.gz
+[2024-04-05 12:51:23] WARNING root fetch - processPackages [zigpy-zboss]: Timeout reached during download
+[2024-04-05 12:51:23] INFO root fetch - processPackages [zigpy-zboss]: executing diffoscope
+[2024-04-05 12:51:23] INFO root fetch - processPackages [zigpy-zboss]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zigpy-zboss-1.1.3.tar.gz tmp/zigpy-zboss-1.1.4.tar.gz --markdown 20240405/z/zigpy-zboss/1.1.3-1.1.4/diff.md --exclude *.pyd
+[2024-04-05 12:51:23] WARNING root fetch - processPackages [omnix]: Timeout reached during download
+[2024-04-05 12:51:23] INFO root fetch - processPackages [omnix]: executing diffoscope
+[2024-04-05 12:51:23] INFO root fetch - processPackages [omnix]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/omnix-0.3.1.tar.gz tmp/omnix-0.3.3.tar.gz --markdown 20240405/o/omnix/0.3.1-0.3.3/diff.md --exclude *.pyd
+[2024-04-05 12:51:23] WARNING root fetch - processPackages [mpbroker]: Timeout reached during download
+[2024-04-05 12:51:23] INFO root fetch - processPackages [mpbroker]: executing diffoscope
+[2024-04-05 12:51:23] INFO root fetch - processPackages [mpbroker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mpbroker-0.8.1.tar.gz tmp/mpbroker-0.9.0.tar.gz --markdown 20240405/m/mpbroker/0.8.1-0.9.0/diff.md --exclude *.pyd
+[2024-04-05 12:51:23] INFO root fetch - processPackages [pybase16384]: Downloading https://files.pythonhosted.org/packages/17/6f/ba65ce803626ca57dbf86484e1ef070d0496c3b595b76b291823e58a9deb/pybase16384-0.3.7-pp39-pypy39_pp73-win_amd64.whl
+[2024-04-05 12:51:23] WARNING root fetch - processPackages [PyIsEven]: Timeout reached during download
+[2024-04-05 12:51:23] INFO root fetch - processPackages [PyIsEven]: executing diffoscope
+[2024-04-05 12:51:23] INFO root fetch - processPackages [PyIsEven]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyIsEven-0.8.8.tar.gz tmp/PyIsEven-0.8.9.tar.gz --markdown 20240405/P/PyIsEven/0.8.8-0.8.9/diff.md --exclude *.pyd
+[2024-04-05 12:51:23] INFO root fetch - processPackages [antoine]: Remove: archive file [/home/abi/fetcher/tmp/antoine-2.2.tar.gz]
+[2024-04-05 12:51:23] INFO root fetch - processPackages [antoine]: Remove: archive file [/home/abi/fetcher/tmp/antoine-2.3.tar.gz]
+[2024-04-05 12:51:23] INFO root fetch - main [MainThread]: End processing [antoine]: success
+[2024-04-05 12:51:23] WARNING root fetch - processPackages [pybase16384]: Timeout reached during download
+[2024-04-05 12:51:23] INFO root fetch - processPackages [pybase16384]: executing diffoscope
+[2024-04-05 12:51:23] INFO root fetch - processPackages [pybase16384]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pybase16384-0.3.6-pp39-pypy39_pp73-win_amd64.whl.zip tmp/pybase16384-0.3.7-pp39-pypy39_pp73-win_amd64.whl.zip --markdown 20240405/p/pybase16384/0.3.6-0.3.7/diff.md --exclude *.pyd
+[2024-04-05 12:51:24] INFO root fetch - processPackages [reqstool-python-poetry-plugin]: Remove: archive file [/home/abi/fetcher/tmp/reqstool_python_poetry_plugin-0.0.0.tar.gz]
+[2024-04-05 12:51:24] INFO root fetch - processPackages [reqstool-python-poetry-plugin]: Remove: archive file [/home/abi/fetcher/tmp/reqstool_python_poetry_plugin-0.0.2.tar.gz]
+[2024-04-05 12:51:24] INFO root fetch - main [MainThread]: End processing [reqstool-python-poetry-plugin]: success
+[2024-04-05 12:51:24] INFO root fetch - processPackages [graas-observability-utility]: Remove: archive file [/home/abi/fetcher/tmp/graas-observability-utility-1.5.8.tar.gz]
+[2024-04-05 12:51:24] INFO root fetch - processPackages [graas-observability-utility]: Remove: archive file [/home/abi/fetcher/tmp/graas-observability-utility-1.5.9.tar.gz]
+[2024-04-05 12:51:24] INFO root fetch - main [MainThread]: End processing [graas-observability-utility]: success
+[2024-04-05 12:51:24] INFO root fetch - processPackages [mpbroker]: Remove: archive file [/home/abi/fetcher/tmp/mpbroker-0.8.1.tar.gz]
+[2024-04-05 12:51:24] INFO root fetch - processPackages [mpbroker]: Remove: archive file [/home/abi/fetcher/tmp/mpbroker-0.9.0.tar.gz]
+[2024-04-05 12:51:24] INFO root fetch - main [MainThread]: End processing [mpbroker]: success
+[2024-04-05 12:51:24] INFO root fetch - processPackages [PyIsEven]: Remove: archive file [/home/abi/fetcher/tmp/PyIsEven-0.8.8.tar.gz]
+[2024-04-05 12:51:24] INFO root fetch - processPackages [PyIsEven]: Remove: archive file [/home/abi/fetcher/tmp/PyIsEven-0.8.9.tar.gz]
+[2024-04-05 12:51:24] INFO root fetch - main [MainThread]: End processing [PyIsEven]: success
+[2024-04-05 12:51:24] INFO root fetch - processPackages [zigpy-zboss]: Remove: archive file [/home/abi/fetcher/tmp/zigpy-zboss-1.1.3.tar.gz]
+[2024-04-05 12:51:24] INFO root fetch - processPackages [zigpy-zboss]: Remove: archive file [/home/abi/fetcher/tmp/zigpy-zboss-1.1.4.tar.gz]
+[2024-04-05 12:51:24] INFO root fetch - main [MainThread]: End processing [zigpy-zboss]: success
+[2024-04-05 12:51:24] INFO root fetch - processPackages [omnix]: Remove: archive file [/home/abi/fetcher/tmp/omnix-0.3.1.tar.gz]
+[2024-04-05 12:51:24] INFO root fetch - processPackages [omnix]: Remove: archive file [/home/abi/fetcher/tmp/omnix-0.3.3.tar.gz]
+[2024-04-05 12:51:24] INFO root fetch - main [MainThread]: End processing [omnix]: success
+[2024-04-05 12:51:25] INFO root fetch - processPackages [pybase16384]: Remove: archive file [/home/abi/fetcher/tmp/pybase16384-0.3.6-pp39-pypy39_pp73-win_amd64.whl.zip]
+[2024-04-05 12:51:25] INFO root fetch - processPackages [pybase16384]: Remove: archive file [/home/abi/fetcher/tmp/pybase16384-0.3.7-pp39-pypy39_pp73-win_amd64.whl.zip]
+[2024-04-05 12:51:25] INFO root fetch - main [MainThread]: End processing [pybase16384]: success
+[2024-04-05 12:51:25] INFO root fetch - main [MainThread]: Store serial: [22634876]
