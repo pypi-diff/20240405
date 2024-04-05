@@ -16560,3 +16560,28 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2024-04-05 10:42:26] INFO root fetch - processPackages [sunholo]: Remove: archive file [/home/abi/fetcher/tmp/sunholo-0.8.9.tar.gz]
 [2024-04-05 10:42:26] INFO root fetch - main [MainThread]: End processing [sunholo]: success
 [2024-04-05 10:42:26] INFO root fetch - main [MainThread]: Store serial: [22633529]
+[2024-04-05 10:44:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22633529]
+[2024-04-05 10:44:34] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-05 10:44:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: praetorian-api-client
+[2024-04-05 10:44:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: vy-lambda-tools
+[2024-04-05 10:44:34] INFO root fetch - processPackages [praetorian-api-client]: New version: [0.5.0] Old Version: [0.4.4]
+[2024-04-05 10:44:34] INFO root fetch - processPackages [vy-lambda-tools]: New version: [0.4.0b2] Old Version: [0.4.0b1]
+[2024-04-05 10:44:34] INFO root fetch - processPackages [praetorian-api-client]: Downloading https://files.pythonhosted.org/packages/51/2f/61c70ed003532ce35d839715e22180c2250461734f233b1318b6983534de/praetorian-api-client-0.4.4.tar.gz
+[2024-04-05 10:44:34] INFO root fetch - processPackages [vy-lambda-tools]: Downloading https://files.pythonhosted.org/packages/63/95/0c35bc2f3b60c1567e3358bef44f32b248cafbf3c70e0278a0ed733b3932/vy_lambda_tools-0.4.0b1.tar.gz
+[2024-04-05 10:44:34] WARNING root fetch - processPackages [praetorian-api-client]: Timeout reached during download
+[2024-04-05 10:44:34] WARNING root fetch - processPackages [vy-lambda-tools]: Timeout reached during download
+[2024-04-05 10:44:35] INFO root fetch - processPackages [praetorian-api-client]: Downloading https://files.pythonhosted.org/packages/5e/18/ca7ad40d7e7ae41a4356143a69453fe6dc47e607ec51938b5db60af4933a/praetorian_api_client-0.5.0.tar.gz
+[2024-04-05 10:44:35] INFO root fetch - processPackages [vy-lambda-tools]: Downloading https://files.pythonhosted.org/packages/9a/5c/713acded5f836b6c282a9f7cef3283c959c00abffea8f5fd25eaa3b703c9/vy_lambda_tools-0.4.0b2.tar.gz
+[2024-04-05 10:44:35] WARNING root fetch - processPackages [praetorian-api-client]: Timeout reached during download
+[2024-04-05 10:44:35] INFO root fetch - processPackages [praetorian-api-client]: executing diffoscope
+[2024-04-05 10:44:35] INFO root fetch - processPackages [praetorian-api-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/praetorian-api-client-0.4.4.tar.gz tmp/praetorian_api_client-0.5.0.tar.gz --markdown 20240405/p/praetorian-api-client/0.4.4-0.5.0/diff.md --exclude *.pyd
+[2024-04-05 10:44:35] WARNING root fetch - processPackages [vy-lambda-tools]: Timeout reached during download
+[2024-04-05 10:44:35] INFO root fetch - processPackages [vy-lambda-tools]: executing diffoscope
+[2024-04-05 10:44:35] INFO root fetch - processPackages [vy-lambda-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vy_lambda_tools-0.4.0b1.tar.gz tmp/vy_lambda_tools-0.4.0b2.tar.gz --markdown 20240405/v/vy-lambda-tools/0.4.0b1-0.4.0b2/diff.md --exclude *.pyd
+[2024-04-05 10:44:35] INFO root fetch - processPackages [praetorian-api-client]: Remove: archive file [/home/abi/fetcher/tmp/praetorian-api-client-0.4.4.tar.gz]
+[2024-04-05 10:44:35] INFO root fetch - processPackages [praetorian-api-client]: Remove: archive file [/home/abi/fetcher/tmp/praetorian_api_client-0.5.0.tar.gz]
+[2024-04-05 10:44:35] INFO root fetch - main [MainThread]: End processing [praetorian-api-client]: success
+[2024-04-05 10:44:35] INFO root fetch - processPackages [vy-lambda-tools]: Remove: archive file [/home/abi/fetcher/tmp/vy_lambda_tools-0.4.0b1.tar.gz]
+[2024-04-05 10:44:35] INFO root fetch - processPackages [vy-lambda-tools]: Remove: archive file [/home/abi/fetcher/tmp/vy_lambda_tools-0.4.0b2.tar.gz]
+[2024-04-05 10:44:35] INFO root fetch - main [MainThread]: End processing [vy-lambda-tools]: success
+[2024-04-05 10:44:35] INFO root fetch - main [MainThread]: Store serial: [22633540]
