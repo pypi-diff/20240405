@@ -10819,3 +10819,28 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2024-04-05 05:49:24] INFO root fetch - processPackages [graymatter_swissknife]: Remove: archive file [/home/abi/fetcher/tmp/graymatter_swissknife-1.1.0.tar.gz]
 [2024-04-05 05:49:24] INFO root fetch - main [MainThread]: End processing [graymatter_swissknife]: success
 [2024-04-05 05:49:24] INFO root fetch - main [MainThread]: Store serial: [22631548]
+[2024-04-05 05:51:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22631548]
+[2024-04-05 05:51:33] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-05 05:51:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo-addon-dms-user-role
+[2024-04-05 05:51:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addon-dms-auto-classification
+[2024-04-05 05:51:33] INFO root fetch - processPackages [odoo-addon-dms-user-role]: New version: [16.0.1.0.0.3] Old Version: [16.0.1.0.0.1]
+[2024-04-05 05:51:33] INFO root fetch - processPackages [odoo-addon-dms-auto-classification]: New version: [16.0.1.0.0.4] Old Version: [16.0.1.0.0.2]
+[2024-04-05 05:51:34] INFO root fetch - processPackages [odoo-addon-dms-user-role]: Downloading https://files.pythonhosted.org/packages/b8/da/085213ad73d15a633d131a2427fc25afb73e0abada1308dbaa6c0aa52784/odoo_addon_dms_user_role-16.0.1.0.0.1-py3-none-any.whl
+[2024-04-05 05:51:34] INFO root fetch - processPackages [odoo-addon-dms-auto-classification]: Downloading https://files.pythonhosted.org/packages/c1/a6/d3e0d31d7e90a43d7bd04a3ddbd132cc774bbf61cd11638fc9a7f8f5b9a8/odoo_addon_dms_auto_classification-16.0.1.0.0.2-py3-none-any.whl
+[2024-04-05 05:51:34] WARNING root fetch - processPackages [odoo-addon-dms-user-role]: Timeout reached during download
+[2024-04-05 05:51:34] WARNING root fetch - processPackages [odoo-addon-dms-auto-classification]: Timeout reached during download
+[2024-04-05 05:51:34] INFO root fetch - processPackages [odoo-addon-dms-user-role]: Downloading https://files.pythonhosted.org/packages/dd/67/380082055b5cc2dfb3bb97a10099e3ae106bb7b03a857b88db6b78c90b0d/odoo_addon_dms_user_role-16.0.1.0.0.3-py3-none-any.whl
+[2024-04-05 05:51:34] INFO root fetch - processPackages [odoo-addon-dms-auto-classification]: Downloading https://files.pythonhosted.org/packages/f4/fc/0654730a6eee7968d511f8371c87ddc4b531eba148192f8a79bffd2724c7/odoo_addon_dms_auto_classification-16.0.1.0.0.4-py3-none-any.whl
+[2024-04-05 05:51:34] WARNING root fetch - processPackages [odoo-addon-dms-user-role]: Timeout reached during download
+[2024-04-05 05:51:34] INFO root fetch - processPackages [odoo-addon-dms-user-role]: executing diffoscope
+[2024-04-05 05:51:34] INFO root fetch - processPackages [odoo-addon-dms-user-role]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_dms_user_role-16.0.1.0.0.1-py3-none-any.whl.zip tmp/odoo_addon_dms_user_role-16.0.1.0.0.3-py3-none-any.whl.zip --markdown 20240405/o/odoo-addon-dms-user-role/16.0.1.0.0.1-16.0.1.0.0.3/diff.md --exclude *.pyd
+[2024-04-05 05:51:34] WARNING root fetch - processPackages [odoo-addon-dms-auto-classification]: Timeout reached during download
+[2024-04-05 05:51:34] INFO root fetch - processPackages [odoo-addon-dms-auto-classification]: executing diffoscope
+[2024-04-05 05:51:34] INFO root fetch - processPackages [odoo-addon-dms-auto-classification]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_dms_auto_classification-16.0.1.0.0.2-py3-none-any.whl.zip tmp/odoo_addon_dms_auto_classification-16.0.1.0.0.4-py3-none-any.whl.zip --markdown 20240405/o/odoo-addon-dms-auto-classification/16.0.1.0.0.2-16.0.1.0.0.4/diff.md --exclude *.pyd
+[2024-04-05 05:51:35] INFO root fetch - processPackages [odoo-addon-dms-user-role]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_dms_user_role-16.0.1.0.0.1-py3-none-any.whl.zip]
+[2024-04-05 05:51:35] INFO root fetch - processPackages [odoo-addon-dms-user-role]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_dms_user_role-16.0.1.0.0.3-py3-none-any.whl.zip]
+[2024-04-05 05:51:35] INFO root fetch - main [MainThread]: End processing [odoo-addon-dms-user-role]: success
+[2024-04-05 05:51:35] INFO root fetch - processPackages [odoo-addon-dms-auto-classification]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_dms_auto_classification-16.0.1.0.0.2-py3-none-any.whl.zip]
+[2024-04-05 05:51:35] INFO root fetch - processPackages [odoo-addon-dms-auto-classification]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_dms_auto_classification-16.0.1.0.0.4-py3-none-any.whl.zip]
+[2024-04-05 05:51:35] INFO root fetch - main [MainThread]: End processing [odoo-addon-dms-auto-classification]: success
+[2024-04-05 05:51:35] INFO root fetch - main [MainThread]: Store serial: [22631552]
