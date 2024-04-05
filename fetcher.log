@@ -15541,3 +15541,28 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2024-04-05 09:58:15] INFO root fetch - processPackages [test-esmf-loader]: Remove: archive file [/home/abi/fetcher/tmp/test_esmf_loader-0.0.2.tar.gz]
 [2024-04-05 09:58:15] INFO root fetch - main [MainThread]: End processing [test-esmf-loader]: success
 [2024-04-05 09:58:15] INFO root fetch - main [MainThread]: Store serial: [22633046]
+[2024-04-05 10:00:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22633046]
+[2024-04-05 10:00:24] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-05 10:00:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tf-nightly
+[2024-04-05 10:00:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addon-l10n-it-financial-statements-report
+[2024-04-05 10:00:24] INFO root fetch - processPackages [odoo-addon-l10n-it-financial-statements-report]: New version: [16.0.1.0.1.1] Old Version: [16.0.1.0.0.5]
+[2024-04-05 10:00:24] INFO root fetch - processPackages [tf-nightly]: New version: [2.17.0.dev20240405] Old Version: [2.17.0.dev20240404]
+[2024-04-05 10:00:24] INFO root fetch - processPackages [odoo-addon-l10n-it-financial-statements-report]: Downloading https://files.pythonhosted.org/packages/c2/a3/b801eb1ccb2246583288507a5646add3689bf5d5597d83c592b5d62dae37/odoo_addon_l10n_it_financial_statements_report-16.0.1.0.0.5-py3-none-any.whl
+[2024-04-05 10:00:24] INFO root fetch - processPackages [tf-nightly]: Downloading https://files.pythonhosted.org/packages/03/54/aa2b05646fdddc5ead15dd4a8bede2d21df8421c47c7bc5fd862a9b022f1/tf_nightly-2.17.0.dev20240404-cp39-cp39-win_amd64.whl
+[2024-04-05 10:00:24] WARNING root fetch - processPackages [odoo-addon-l10n-it-financial-statements-report]: Timeout reached during download
+[2024-04-05 10:00:24] WARNING root fetch - processPackages [tf-nightly]: Timeout reached during download
+[2024-04-05 10:00:24] INFO root fetch - processPackages [odoo-addon-l10n-it-financial-statements-report]: Downloading https://files.pythonhosted.org/packages/f4/4f/0c91f7218f7211d13387a29b4348f976fe1983446e481eb0c7d57e750704/odoo_addon_l10n_it_financial_statements_report-16.0.1.0.1.1-py3-none-any.whl
+[2024-04-05 10:00:24] INFO root fetch - processPackages [tf-nightly]: Downloading https://files.pythonhosted.org/packages/e7/1d/70ed7037ec290a31bbdb16f075a8b0012574d3ad92bc6b57029c1e7e63e8/tf_nightly-2.17.0.dev20240405-cp39-cp39-win_amd64.whl
+[2024-04-05 10:00:24] WARNING root fetch - processPackages [odoo-addon-l10n-it-financial-statements-report]: Timeout reached during download
+[2024-04-05 10:00:24] INFO root fetch - processPackages [odoo-addon-l10n-it-financial-statements-report]: executing diffoscope
+[2024-04-05 10:00:24] INFO root fetch - processPackages [odoo-addon-l10n-it-financial-statements-report]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_l10n_it_financial_statements_report-16.0.1.0.0.5-py3-none-any.whl.zip tmp/odoo_addon_l10n_it_financial_statements_report-16.0.1.0.1.1-py3-none-any.whl.zip --markdown 20240405/o/odoo-addon-l10n-it-financial-statements-report/16.0.1.0.0.5-16.0.1.0.1.1/diff.md --exclude *.pyd
+[2024-04-05 10:00:25] WARNING root fetch - processPackages [tf-nightly]: Timeout reached during download
+[2024-04-05 10:00:25] INFO root fetch - processPackages [tf-nightly]: executing diffoscope
+[2024-04-05 10:00:25] INFO root fetch - processPackages [tf-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_nightly-2.17.0.dev20240404-cp39-cp39-win_amd64.whl.zip tmp/tf_nightly-2.17.0.dev20240405-cp39-cp39-win_amd64.whl.zip --markdown 20240405/t/tf-nightly/2.17.0.dev20240404-2.17.0.dev20240405/diff.md --exclude *.pyd
+[2024-04-05 10:00:25] INFO root fetch - processPackages [tf-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_nightly-2.17.0.dev20240404-cp39-cp39-win_amd64.whl.zip]
+[2024-04-05 10:00:25] INFO root fetch - processPackages [tf-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_nightly-2.17.0.dev20240405-cp39-cp39-win_amd64.whl.zip]
+[2024-04-05 10:00:25] INFO root fetch - main [MainThread]: End processing [tf-nightly]: success
+[2024-04-05 10:00:25] INFO root fetch - processPackages [odoo-addon-l10n-it-financial-statements-report]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_it_financial_statements_report-16.0.1.0.0.5-py3-none-any.whl.zip]
+[2024-04-05 10:00:25] INFO root fetch - processPackages [odoo-addon-l10n-it-financial-statements-report]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_it_financial_statements_report-16.0.1.0.1.1-py3-none-any.whl.zip]
+[2024-04-05 10:00:25] INFO root fetch - main [MainThread]: End processing [odoo-addon-l10n-it-financial-statements-report]: success
+[2024-04-05 10:00:25] INFO root fetch - main [MainThread]: Store serial: [22633056]
