@@ -11985,3 +11985,42 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2024-04-05 07:02:01] INFO root fetch - processPackages [politely]: Remove: archive file [/home/abi/fetcher/tmp/politely-4.0.0a0.tar.gz]
 [2024-04-05 07:02:01] INFO root fetch - main [MainThread]: End processing [politely]: success
 [2024-04-05 07:02:01] INFO root fetch - main [MainThread]: Store serial: [22631851]
+[2024-04-05 07:04:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22631851]
+[2024-04-05 07:04:10] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-05 07:04:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lookml-zenml
+[2024-04-05 07:04:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: werpy
+[2024-04-05 07:04:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: lazy-mongo-log
+[2024-04-05 07:04:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pymud
+[2024-04-05 07:04:10] WARNING root fetch - processPackages [lazy-mongo-log]: Skipping, unable to determine old version
+[2024-04-05 07:04:10] INFO root fetch - main [MainThread]: End processing [lazy-mongo-log] error
+[2024-04-05 07:04:10] INFO root fetch - processPackages [lookml-zenml]: New version: [0.1.6] Old Version: [0.1.5]
+[2024-04-05 07:04:10] INFO root fetch - processPackages [werpy]: New version: [2.1.2] Old Version: [2.1.1]
+[2024-04-05 07:04:10] INFO root fetch - processPackages [pymud]: New version: [0.19.3.post2] Old Version: [0.19.3.post1]
+[2024-04-05 07:04:10] INFO root fetch - processPackages [lookml-zenml]: Downloading https://files.pythonhosted.org/packages/9b/1e/9655537c7ff6972ecb93acd6d9dec87453f8acd4614cd53b41552cf3fcbf/lookml_zenml-0.1.5.tar.gz
+[2024-04-05 07:04:11] INFO root fetch - processPackages [werpy]: Downloading https://files.pythonhosted.org/packages/bc/0d/f7e0d613de1f4b004bf3bbca0ee6de80ac4965e469355a45d477f4d3cb20/werpy-2.1.1.tar.gz
+[2024-04-05 07:04:11] INFO root fetch - processPackages [pymud]: Downloading https://files.pythonhosted.org/packages/84/2d/852582ab68db739d2a3af3d181dde640274df6095f7d692fdb50552db131/pymud-0.19.3.post1.tar.gz
+[2024-04-05 07:04:11] WARNING root fetch - processPackages [lookml-zenml]: Timeout reached during download
+[2024-04-05 07:04:11] WARNING root fetch - processPackages [werpy]: Timeout reached during download
+[2024-04-05 07:04:11] WARNING root fetch - processPackages [pymud]: Timeout reached during download
+[2024-04-05 07:04:11] INFO root fetch - processPackages [lookml-zenml]: Downloading https://files.pythonhosted.org/packages/dc/7f/7c16fec9c5998a20e39e39f96bc25fa3be18b18f770452ab3d8e2cb18c76/lookml_zenml-0.1.6.tar.gz
+[2024-04-05 07:04:11] INFO root fetch - processPackages [werpy]: Downloading https://files.pythonhosted.org/packages/c8/44/272bf9df917228ca28c152c420aa0e432e2ac8d4b3e2a5194e720cba0af1/werpy-2.1.2.tar.gz
+[2024-04-05 07:04:11] WARNING root fetch - processPackages [lookml-zenml]: Timeout reached during download
+[2024-04-05 07:04:11] INFO root fetch - processPackages [lookml-zenml]: executing diffoscope
+[2024-04-05 07:04:11] INFO root fetch - processPackages [lookml-zenml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lookml_zenml-0.1.5.tar.gz tmp/lookml_zenml-0.1.6.tar.gz --markdown 20240405/l/lookml-zenml/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2024-04-05 07:04:11] INFO root fetch - processPackages [pymud]: Downloading https://files.pythonhosted.org/packages/f1/d6/5db6c1aab86ec968bf8b5613b60e48f2215cf0533d9c0ef304621080c9b6/pymud-0.19.3.post2.tar.gz
+[2024-04-05 07:04:11] WARNING root fetch - processPackages [werpy]: Timeout reached during download
+[2024-04-05 07:04:11] WARNING root fetch - processPackages [pymud]: Timeout reached during download
+[2024-04-05 07:04:11] INFO root fetch - processPackages [werpy]: executing diffoscope
+[2024-04-05 07:04:11] INFO root fetch - processPackages [werpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/werpy-2.1.1.tar.gz tmp/werpy-2.1.2.tar.gz --markdown 20240405/w/werpy/2.1.1-2.1.2/diff.md --exclude *.pyd
+[2024-04-05 07:04:11] INFO root fetch - processPackages [pymud]: executing diffoscope
+[2024-04-05 07:04:11] INFO root fetch - processPackages [pymud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymud-0.19.3.post1.tar.gz tmp/pymud-0.19.3.post2.tar.gz --markdown 20240405/p/pymud/0.19.3.post1-0.19.3.post2/diff.md --exclude *.pyd
+[2024-04-05 07:04:11] INFO root fetch - processPackages [lookml-zenml]: Remove: archive file [/home/abi/fetcher/tmp/lookml_zenml-0.1.5.tar.gz]
+[2024-04-05 07:04:11] INFO root fetch - processPackages [lookml-zenml]: Remove: archive file [/home/abi/fetcher/tmp/lookml_zenml-0.1.6.tar.gz]
+[2024-04-05 07:04:11] INFO root fetch - main [MainThread]: End processing [lookml-zenml]: success
+[2024-04-05 07:04:12] INFO root fetch - processPackages [pymud]: Remove: archive file [/home/abi/fetcher/tmp/pymud-0.19.3.post1.tar.gz]
+[2024-04-05 07:04:12] INFO root fetch - processPackages [pymud]: Remove: archive file [/home/abi/fetcher/tmp/pymud-0.19.3.post2.tar.gz]
+[2024-04-05 07:04:12] INFO root fetch - main [MainThread]: End processing [pymud]: success
+[2024-04-05 07:04:12] INFO root fetch - processPackages [werpy]: Remove: archive file [/home/abi/fetcher/tmp/werpy-2.1.1.tar.gz]
+[2024-04-05 07:04:12] INFO root fetch - processPackages [werpy]: Remove: archive file [/home/abi/fetcher/tmp/werpy-2.1.2.tar.gz]
+[2024-04-05 07:04:12] INFO root fetch - main [MainThread]: End processing [werpy]: success
+[2024-04-05 07:04:12] INFO root fetch - main [MainThread]: Store serial: [22631882]
