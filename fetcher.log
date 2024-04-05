@@ -9961,3 +9961,37 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2024-04-05 04:50:09] INFO root fetch - processPackages [spaceone-identity]: Remove: archive file [/home/abi/fetcher/tmp/spaceone-identity-2.0.dev99.tar.gz]
 [2024-04-05 04:50:09] INFO root fetch - main [MainThread]: End processing [spaceone-identity]: success
 [2024-04-05 04:50:09] INFO root fetch - main [MainThread]: Store serial: [22631296]
+[2024-04-05 04:52:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22631296]
+[2024-04-05 04:52:18] INFO root fetch - main [MainThread]: No changed packages found
+[2024-04-05 04:54:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22631296]
+[2024-04-05 04:54:23] INFO root fetch - main [MainThread]: No changed packages found
+[2024-04-05 04:56:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22631296]
+[2024-04-05 04:56:29] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-05 04:56:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: smaht-submitr
+[2024-04-05 04:56:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cargo-lambda
+[2024-04-05 04:56:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: lockhart-serial
+[2024-04-05 04:56:29] INFO root fetch - processPackages [lockhart-serial]: New version: [1.0.4] Old Version: [1.0.3]
+[2024-04-05 04:56:29] INFO root fetch - processPackages [smaht-submitr]: New version: [0.7.0.1b9] Old Version: [0.7.0.1b78]
+[2024-04-05 04:56:29] INFO root fetch - processPackages [lockhart-serial]: Downloading https://files.pythonhosted.org/packages/b1/b1/bf07ce84cbafee4a69fee1854f3970297153e86bd0bd2558d5ccd2852fe0/lockhart_serial-1.0.3.tar.gz
+[2024-04-05 04:56:29] INFO root fetch - processPackages [cargo-lambda]: New version: [1.2.1] Old Version: [1.2.0]
+[2024-04-05 04:56:29] WARNING root fetch - processPackages [lockhart-serial]: Timeout reached during download
+[2024-04-05 04:56:29] INFO root fetch - processPackages [smaht-submitr]: Downloading https://files.pythonhosted.org/packages/2d/a2/44caa5871df75b272b98ef797a1c25479b6c7aa4fdabfcebc9c658cf3ef0/smaht_submitr-0.7.0.1b78.tar.gz
+[2024-04-05 04:56:29] INFO root fetch - processPackages [lockhart-serial]: Downloading https://files.pythonhosted.org/packages/4a/78/40f776859857f99b3cbc2b1bf712a04ccfe39796804f4630341c28d3e28e/lockhart-serial-1.0.4.tar.gz
+[2024-04-05 04:56:29] INFO root fetch - processPackages [cargo-lambda]: Downloading https://files.pythonhosted.org/packages/7f/91/bb607fa0c8f82c4c8069ccf59c3165afc45a42b1b3c8d34be743f3398a8e/cargo_lambda-1.2.0-py3-none-win_amd64.whl
+[2024-04-05 04:56:29] WARNING root fetch - processPackages [smaht-submitr]: Timeout reached during download
+[2024-04-05 04:56:29] WARNING root fetch - processPackages [cargo-lambda]: Skipping package: exceeds size limit 11274608>=10485760
+[2024-04-05 04:56:29] INFO root fetch - main [MainThread]: End processing [cargo-lambda] error
+[2024-04-05 04:56:29] WARNING root fetch - processPackages [lockhart-serial]: Timeout reached during download
+[2024-04-05 04:56:29] INFO root fetch - processPackages [lockhart-serial]: executing diffoscope
+[2024-04-05 04:56:29] INFO root fetch - processPackages [lockhart-serial]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lockhart_serial-1.0.3.tar.gz tmp/lockhart-serial-1.0.4.tar.gz --markdown 20240405/l/lockhart-serial/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2024-04-05 04:56:29] INFO root fetch - processPackages [smaht-submitr]: Downloading https://files.pythonhosted.org/packages/ff/84/cead0681f1d3b22d8c2cc55c431321aa00039b758129671d6e752101a732/smaht_submitr-0.7.0.1b9.tar.gz
+[2024-04-05 04:56:29] WARNING root fetch - processPackages [smaht-submitr]: Timeout reached during download
+[2024-04-05 04:56:29] INFO root fetch - processPackages [smaht-submitr]: executing diffoscope
+[2024-04-05 04:56:29] INFO root fetch - processPackages [smaht-submitr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smaht_submitr-0.7.0.1b78.tar.gz tmp/smaht_submitr-0.7.0.1b9.tar.gz --markdown 20240405/s/smaht-submitr/0.7.0.1b78-0.7.0.1b9/diff.md --exclude *.pyd
+[2024-04-05 04:56:30] INFO root fetch - processPackages [lockhart-serial]: Remove: archive file [/home/abi/fetcher/tmp/lockhart_serial-1.0.3.tar.gz]
+[2024-04-05 04:56:30] INFO root fetch - processPackages [lockhart-serial]: Remove: archive file [/home/abi/fetcher/tmp/lockhart-serial-1.0.4.tar.gz]
+[2024-04-05 04:56:30] INFO root fetch - main [MainThread]: End processing [lockhart-serial]: success
+[2024-04-05 04:56:30] INFO root fetch - processPackages [smaht-submitr]: Remove: archive file [/home/abi/fetcher/tmp/smaht_submitr-0.7.0.1b78.tar.gz]
+[2024-04-05 04:56:30] INFO root fetch - processPackages [smaht-submitr]: Remove: archive file [/home/abi/fetcher/tmp/smaht_submitr-0.7.0.1b9.tar.gz]
+[2024-04-05 04:56:30] INFO root fetch - main [MainThread]: End processing [smaht-submitr]: success
+[2024-04-05 04:56:30] INFO root fetch - main [MainThread]: Store serial: [22631311]
