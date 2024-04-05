@@ -17985,3 +17985,64 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2024-04-05 11:42:44] INFO root fetch - processPackages [cally]: Remove: archive file [/home/abi/fetcher/tmp/cally-0.3.0.tar.gz]
 [2024-04-05 11:42:44] INFO root fetch - main [MainThread]: End processing [cally]: success
 [2024-04-05 11:42:44] INFO root fetch - main [MainThread]: Store serial: [22634151]
+[2024-04-05 11:44:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22634151]
+[2024-04-05 11:44:52] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-05 11:44:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: minijson
+[2024-04-05 11:44:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dip-coater
+[2024-04-05 11:44:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyerfa
+[2024-04-05 11:44:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: chaosgarden
+[2024-04-05 11:44:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: parso
+[2024-04-05 11:44:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: i2
+[2024-04-05 11:44:52] INFO root fetch - processPackages [pyerfa]: New version: [2.0.1.2] Old Version: [2.0.1.1]
+[2024-04-05 11:44:52] INFO root fetch - processPackages [parso]: New version: [0.8.3] Old Version: [0.8.2]
+[2024-04-05 11:44:52] INFO root fetch - processPackages [i2]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-05 11:44:52] INFO root fetch - processPackages [minijson]: New version: [2.9] Old Version: [2.8]
+[2024-04-05 11:44:52] INFO root fetch - processPackages [chaosgarden]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-04-05 11:44:52] INFO root fetch - processPackages [i2]: Downloading https://files.pythonhosted.org/packages/4a/4a/1ffdf98d10939d4cd6bec3b8f185847b0bc1829532579cafe4333f053ec6/i2-0.1.8.tar.gz
+[2024-04-05 11:44:53] INFO root fetch - processPackages [pyerfa]: Downloading https://files.pythonhosted.org/packages/4e/09/aaa59a4b4c22574fbe08e58e181933f19e455aef9b1a21a4eca026cd7d8f/pyerfa-2.0.1.1.tar.gz
+[2024-04-05 11:44:53] INFO root fetch - processPackages [parso]: Downloading https://files.pythonhosted.org/packages/5e/61/d119e2683138a934550e47fc8ec023eb7f11b194883e9085dca3af5d4951/parso-0.8.2.tar.gz
+[2024-04-05 11:44:53] WARNING root fetch - processPackages [i2]: Timeout reached during download
+[2024-04-05 11:44:53] WARNING root fetch - processPackages [dip-coater]: Skipping, unable to determine old version
+[2024-04-05 11:44:53] INFO root fetch - main [MainThread]: End processing [dip-coater] error
+[2024-04-05 11:44:53] INFO root fetch - processPackages [minijson]: Downloading https://files.pythonhosted.org/packages/1a/19/e309c885b1aace95b5d505fb9c29ee3c473e444931b7c4e2fb2885aa0761/minijson-2.8.tar.gz
+[2024-04-05 11:44:53] INFO root fetch - processPackages [chaosgarden]: Downloading https://files.pythonhosted.org/packages/57/7f/88636243de67da3033aab395d9bb2ee7418fe080d158458c5559bafd3e20/chaosgarden-0.2.8.tar.gz
+[2024-04-05 11:44:53] INFO root fetch - processPackages [i2]: Downloading https://files.pythonhosted.org/packages/3d/39/ec371b8193ff958bddd94f50dc3a9b618532a2030ba835bd063033c39977/i2-0.1.9.tar.gz
+[2024-04-05 11:44:53] WARNING root fetch - processPackages [parso]: Timeout reached during download
+[2024-04-05 11:44:53] WARNING root fetch - processPackages [chaosgarden]: Timeout reached during download
+[2024-04-05 11:44:53] WARNING root fetch - processPackages [pyerfa]: Timeout reached during download
+[2024-04-05 11:44:53] INFO root fetch - processPackages [parso]: Downloading https://files.pythonhosted.org/packages/a2/0e/41f0cca4b85a6ea74d66d2226a7cda8e41206a624f5b330b958ef48e2e52/parso-0.8.3.tar.gz
+[2024-04-05 11:44:53] WARNING root fetch - processPackages [i2]: Timeout reached during download
+[2024-04-05 11:44:53] INFO root fetch - processPackages [i2]: executing diffoscope
+[2024-04-05 11:44:53] INFO root fetch - processPackages [i2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/i2-0.1.8.tar.gz tmp/i2-0.1.9.tar.gz --markdown 20240405/i/i2/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2024-04-05 11:44:53] INFO root fetch - processPackages [chaosgarden]: Downloading https://files.pythonhosted.org/packages/f0/34/99879e0bfdd717a373cb16d2e9e9fded035e096727a7ff9cc6ebfdcc870f/chaosgarden-0.2.9.tar.gz
+[2024-04-05 11:44:53] WARNING root fetch - processPackages [parso]: Timeout reached during download
+[2024-04-05 11:44:53] INFO root fetch - processPackages [pyerfa]: Downloading https://files.pythonhosted.org/packages/fa/04/692d522e63ad04448ac0a571e4854dc07f03d0a1713cd378dbb8565032f2/pyerfa-2.0.1.2.tar.gz
+[2024-04-05 11:44:53] INFO root fetch - processPackages [parso]: executing diffoscope
+[2024-04-05 11:44:53] INFO root fetch - processPackages [parso]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/parso-0.8.2.tar.gz tmp/parso-0.8.3.tar.gz --markdown 20240405/p/parso/0.8.2-0.8.3/diff.md --exclude *.pyd
+[2024-04-05 11:44:53] WARNING root fetch - processPackages [minijson]: Timeout reached during download
+[2024-04-05 11:44:53] WARNING root fetch - processPackages [chaosgarden]: Timeout reached during download
+[2024-04-05 11:44:53] INFO root fetch - processPackages [chaosgarden]: executing diffoscope
+[2024-04-05 11:44:53] INFO root fetch - processPackages [chaosgarden]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chaosgarden-0.2.8.tar.gz tmp/chaosgarden-0.2.9.tar.gz --markdown 20240405/c/chaosgarden/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2024-04-05 11:44:53] WARNING root fetch - processPackages [pyerfa]: Timeout reached during download
+[2024-04-05 11:44:53] INFO root fetch - processPackages [pyerfa]: executing diffoscope
+[2024-04-05 11:44:53] INFO root fetch - processPackages [pyerfa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyerfa-2.0.1.1.tar.gz tmp/pyerfa-2.0.1.2.tar.gz --markdown 20240405/p/pyerfa/2.0.1.1-2.0.1.2/diff.md --exclude *.pyd
+[2024-04-05 11:44:53] INFO root fetch - processPackages [minijson]: Downloading https://files.pythonhosted.org/packages/e0/f0/c61f00a34193bcfed4fe25a6d70b7c7644b8ba47046dab1510720d16f90f/minijson-2.9.tar.gz
+[2024-04-05 11:44:54] INFO root fetch - processPackages [i2]: Remove: archive file [/home/abi/fetcher/tmp/i2-0.1.8.tar.gz]
+[2024-04-05 11:44:54] INFO root fetch - processPackages [i2]: Remove: archive file [/home/abi/fetcher/tmp/i2-0.1.9.tar.gz]
+[2024-04-05 11:44:54] INFO root fetch - main [MainThread]: End processing [i2]: success
+[2024-04-05 11:44:54] INFO root fetch - processPackages [chaosgarden]: Remove: archive file [/home/abi/fetcher/tmp/chaosgarden-0.2.8.tar.gz]
+[2024-04-05 11:44:54] INFO root fetch - processPackages [chaosgarden]: Remove: archive file [/home/abi/fetcher/tmp/chaosgarden-0.2.9.tar.gz]
+[2024-04-05 11:44:54] INFO root fetch - main [MainThread]: End processing [chaosgarden]: success
+[2024-04-05 11:44:54] WARNING root fetch - processPackages [minijson]: Timeout reached during download
+[2024-04-05 11:44:54] INFO root fetch - processPackages [minijson]: executing diffoscope
+[2024-04-05 11:44:54] INFO root fetch - processPackages [minijson]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/minijson-2.8.tar.gz tmp/minijson-2.9.tar.gz --markdown 20240405/m/minijson/2.8-2.9/diff.md --exclude *.pyd
+[2024-04-05 11:44:54] INFO root fetch - processPackages [parso]: Remove: archive file [/home/abi/fetcher/tmp/parso-0.8.2.tar.gz]
+[2024-04-05 11:44:54] INFO root fetch - processPackages [parso]: Remove: archive file [/home/abi/fetcher/tmp/parso-0.8.3.tar.gz]
+[2024-04-05 11:44:54] INFO root fetch - main [MainThread]: End processing [parso]: success
+[2024-04-05 11:44:55] INFO root fetch - processPackages [minijson]: Remove: archive file [/home/abi/fetcher/tmp/minijson-2.8.tar.gz]
+[2024-04-05 11:44:55] INFO root fetch - processPackages [minijson]: Remove: archive file [/home/abi/fetcher/tmp/minijson-2.9.tar.gz]
+[2024-04-05 11:44:55] INFO root fetch - main [MainThread]: End processing [minijson]: success
+[2024-04-05 11:44:55] INFO root fetch - processPackages [pyerfa]: Remove: archive file [/home/abi/fetcher/tmp/pyerfa-2.0.1.1.tar.gz]
+[2024-04-05 11:44:55] INFO root fetch - processPackages [pyerfa]: Remove: archive file [/home/abi/fetcher/tmp/pyerfa-2.0.1.2.tar.gz]
+[2024-04-05 11:44:55] INFO root fetch - main [MainThread]: End processing [pyerfa]: success
+[2024-04-05 11:44:55] INFO root fetch - main [MainThread]: Store serial: [22634181]
