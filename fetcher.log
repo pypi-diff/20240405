@@ -20749,3 +20749,99 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2024-04-05 13:21:25] INFO root fetch - processPackages [ganga]: Remove: archive file [/home/abi/fetcher/tmp/ganga-8.7.5.tar.gz]
 [2024-04-05 13:21:25] INFO root fetch - main [MainThread]: End processing [ganga]: success
 [2024-04-05 13:21:25] INFO root fetch - main [MainThread]: Store serial: [22635194]
+[2024-04-05 13:23:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22635194]
+[2024-04-05 13:23:34] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-04-05 13:23:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: SciDataContainer
+[2024-04-05 13:23:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: fastgcf
+[2024-04-05 13:23:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mrml
+[2024-04-05 13:23:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: justai
+[2024-04-05 13:23:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo-addon-l10n-ro-etransport
+[2024-04-05 13:23:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: energy-base
+[2024-04-05 13:23:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: aeon
+[2024-04-05 13:23:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: irispie
+[2024-04-05 13:23:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: finterion-investing-algorithm-framework
+[2024-04-05 13:23:34] INFO root fetch - processPackages [energy-base]: New version: [1.6.4] Old Version: [1.6.3]
+[2024-04-05 13:23:35] INFO root fetch - processPackages [irispie]: New version: [0.9.0] Old Version: [0.8.1]
+[2024-04-05 13:23:35] INFO root fetch - processPackages [justai]: New version: [3.2.8] Old Version: [3.2.7]
+[2024-04-05 13:23:35] INFO root fetch - processPackages [finterion-investing-algorithm-framework]: New version: [0.9.1] Old Version: [0.9]
+[2024-04-05 13:23:35] INFO root fetch - processPackages [energy-base]: Downloading https://files.pythonhosted.org/packages/bd/3e/ceade1ccf38e59317e51a65097bc80f6457e852671aac6b35e6ab933f76e/energy_base-1.6.3.tar.gz
+[2024-04-05 13:23:35] INFO root fetch - processPackages [SciDataContainer]: New version: [1.1.5] Old Version: [1.1.4]
+[2024-04-05 13:23:35] INFO root fetch - processPackages [odoo-addon-l10n-ro-etransport]: New version: [17.0.0.3.0] Old Version: [16.0.0.4.0]
+[2024-04-05 13:23:35] INFO root fetch - processPackages [fastgcf]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-05 13:23:35] INFO root fetch - processPackages [aeon]: New version: [0.8.0] Old Version: [0.7.1]
+[2024-04-05 13:23:35] INFO root fetch - processPackages [justai]: Downloading https://files.pythonhosted.org/packages/35/9d/4cd082ac26a88bc07e4cbc1a028bf4b4b8508ea5eb9c6bbb710ea88c98b4/justai-3.2.7.tar.gz
+[2024-04-05 13:23:35] INFO root fetch - processPackages [mrml]: New version: [0.1.8] Old Version: [0.1.7]
+[2024-04-05 13:23:35] INFO root fetch - processPackages [finterion-investing-algorithm-framework]: Downloading https://files.pythonhosted.org/packages/b0/e6/0a50432d134e7c0f4a5bedde103c44500b2cb69ccd7dfc528a8a95358339/finterion_investing_algorithm_framework-0.9-py3-none-any.whl
+[2024-04-05 13:23:35] INFO root fetch - processPackages [irispie]: Downloading https://files.pythonhosted.org/packages/58/88/bc73e23686cc7f91b0555212f246dd2a44d45f8b8a03bebbfee6aa98d039/irispie-0.8.1.tar.gz
+[2024-04-05 13:23:35] WARNING root fetch - processPackages [energy-base]: Timeout reached during download
+[2024-04-05 13:23:35] WARNING root fetch - processPackages [justai]: Timeout reached during download
+[2024-04-05 13:23:35] WARNING root fetch - processPackages [finterion-investing-algorithm-framework]: Timeout reached during download
+[2024-04-05 13:23:35] INFO root fetch - processPackages [odoo-addon-l10n-ro-etransport]: Downloading https://files.pythonhosted.org/packages/d0/84/0dbf8d587d1819ab97c21677b246756aca53d65529bd996e0a62d0eedb19/odoo_addon_l10n_ro_etransport-16.0.0.4.0-py3-none-any.whl
+[2024-04-05 13:23:35] INFO root fetch - processPackages [SciDataContainer]: Downloading https://files.pythonhosted.org/packages/0e/73/921f0ef75be2db35373d85dfe1a5cc37177501f107c2762884a47079f17f/scidatacontainer-1.1.4.tar.gz
+[2024-04-05 13:23:35] INFO root fetch - processPackages [fastgcf]: Downloading https://files.pythonhosted.org/packages/89/3b/6a71f64637de97513b587ec49490f141d0c328a2b575de22f66468bc48c6/fastgcf-1.0.8.tar.gz
+[2024-04-05 13:23:35] INFO root fetch - processPackages [aeon]: Downloading https://files.pythonhosted.org/packages/60/01/f5dafe547fa49f5f0194fa5f3706a50c24f552bb429b4ae1fa17b1754db3/aeon-0.7.1.tar.gz
+[2024-04-05 13:23:35] INFO root fetch - processPackages [finterion-investing-algorithm-framework]: Downloading https://files.pythonhosted.org/packages/82/79/e5af7b68843cba4d6e8464b90323d7f80d9df1628e0096cfcc27d5281e2e/finterion_investing_algorithm_framework-0.9.1-py3-none-any.whl
+[2024-04-05 13:23:35] INFO root fetch - processPackages [mrml]: Downloading https://files.pythonhosted.org/packages/df/79/578665226919e0d5f480879e681e9ae1ce12c08eab75acbaf42c2f0152f8/mrml-0.1.7.tar.gz
+[2024-04-05 13:23:35] INFO root fetch - processPackages [energy-base]: Downloading https://files.pythonhosted.org/packages/aa/23/ec6d4042ed24bd66d01c206a85cd3c04c4c14ba18c76692d085ab8517c44/energy_base-1.6.4.tar.gz
+[2024-04-05 13:23:35] WARNING root fetch - processPackages [SciDataContainer]: Timeout reached during download
+[2024-04-05 13:23:35] WARNING root fetch - processPackages [aeon]: Skipping package: exceeds size limit 53248398>=10485760
+[2024-04-05 13:23:35] INFO root fetch - processPackages [justai]: Downloading https://files.pythonhosted.org/packages/59/61/98130bcf121fd7890cbbd01c3dd59fc1732ba355d5c514e3e317dee3c5ec/justai-3.2.8.tar.gz
+[2024-04-05 13:23:35] INFO root fetch - main [MainThread]: End processing [aeon] error
+[2024-04-05 13:23:35] WARNING root fetch - processPackages [odoo-addon-l10n-ro-etransport]: Timeout reached during download
+[2024-04-05 13:23:35] WARNING root fetch - processPackages [fastgcf]: Timeout reached during download
+[2024-04-05 13:23:35] WARNING root fetch - processPackages [finterion-investing-algorithm-framework]: Timeout reached during download
+[2024-04-05 13:23:35] INFO root fetch - processPackages [finterion-investing-algorithm-framework]: executing diffoscope
+[2024-04-05 13:23:35] INFO root fetch - processPackages [finterion-investing-algorithm-framework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/finterion_investing_algorithm_framework-0.9-py3-none-any.whl.zip tmp/finterion_investing_algorithm_framework-0.9.1-py3-none-any.whl.zip --markdown 20240405/f/finterion-investing-algorithm-framework/0.9-0.9.1/diff.md --exclude *.pyd
+[2024-04-05 13:23:35] WARNING root fetch - processPackages [energy-base]: Timeout reached during download
+[2024-04-05 13:23:35] INFO root fetch - processPackages [energy-base]: executing diffoscope
+[2024-04-05 13:23:35] INFO root fetch - processPackages [energy-base]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/energy_base-1.6.3.tar.gz tmp/energy_base-1.6.4.tar.gz --markdown 20240405/e/energy-base/1.6.3-1.6.4/diff.md --exclude *.pyd
+[2024-04-05 13:23:35] WARNING root fetch - processPackages [irispie]: Timeout reached during download
+[2024-04-05 13:23:35] WARNING root fetch - processPackages [mrml]: Timeout reached during download
+[2024-04-05 13:23:35] WARNING root fetch - processPackages [justai]: Timeout reached during download
+[2024-04-05 13:23:35] INFO root fetch - processPackages [justai]: executing diffoscope
+[2024-04-05 13:23:35] INFO root fetch - processPackages [justai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/justai-3.2.7.tar.gz tmp/justai-3.2.8.tar.gz --markdown 20240405/j/justai/3.2.7-3.2.8/diff.md --exclude *.pyd
+[2024-04-05 13:23:35] INFO root fetch - processPackages [odoo-addon-l10n-ro-etransport]: Downloading https://files.pythonhosted.org/packages/71/d0/b8b198c458951bd2f3671c81ad6e6d8f7f611b4b1024d8bd9522c67bc182/odoo_addon_l10n_ro_etransport-17.0.0.3.0-py3-none-any.whl
+[2024-04-05 13:23:35] INFO root fetch - processPackages [irispie]: Downloading https://files.pythonhosted.org/packages/87/3e/0f8d1e52d2673f800f57b12d6bde36e8e5141eb6d9b62ba0c8e4e98ac751/irispie-0.9.0.tar.gz
+[2024-04-05 13:23:35] INFO root fetch - processPackages [SciDataContainer]: Downloading https://files.pythonhosted.org/packages/7f/f0/cf33108ae9191323854c1f07aa4d9e59bc8c9f8237b281399ac012061659/scidatacontainer-1.1.5.tar.gz
+[2024-04-05 13:23:35] INFO root fetch - processPackages [fastgcf]: Downloading https://files.pythonhosted.org/packages/ec/48/e53e23106d20efb2d2d5ee9b0a0085a8535d24df5e8b202929d4946c2179/fastgcf-1.0.9.tar.gz
+[2024-04-05 13:23:35] WARNING root fetch - processPackages [odoo-addon-l10n-ro-etransport]: Timeout reached during download
+[2024-04-05 13:23:35] INFO root fetch - processPackages [odoo-addon-l10n-ro-etransport]: executing diffoscope
+[2024-04-05 13:23:35] INFO root fetch - processPackages [odoo-addon-l10n-ro-etransport]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_l10n_ro_etransport-16.0.0.4.0-py3-none-any.whl.zip tmp/odoo_addon_l10n_ro_etransport-17.0.0.3.0-py3-none-any.whl.zip --markdown 20240405/o/odoo-addon-l10n-ro-etransport/16.0.0.4.0-17.0.0.3.0/diff.md --exclude *.pyd
+[2024-04-05 13:23:35] WARNING root fetch - processPackages [fastgcf]: Timeout reached during download
+[2024-04-05 13:23:35] INFO root fetch - processPackages [fastgcf]: executing diffoscope
+[2024-04-05 13:23:35] INFO root fetch - processPackages [fastgcf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastgcf-1.0.8.tar.gz tmp/fastgcf-1.0.9.tar.gz --markdown 20240405/f/fastgcf/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2024-04-05 13:23:35] INFO root fetch - processPackages [mrml]: Downloading https://files.pythonhosted.org/packages/ac/13/169cc9da7395fa198b34039b2270f48b209e598a335aacda1049e0b01260/mrml-0.1.8.tar.gz
+[2024-04-05 13:23:35] WARNING root fetch - processPackages [SciDataContainer]: Timeout reached during download
+[2024-04-05 13:23:35] INFO root fetch - processPackages [SciDataContainer]: executing diffoscope
+[2024-04-05 13:23:35] INFO root fetch - processPackages [SciDataContainer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scidatacontainer-1.1.4.tar.gz tmp/scidatacontainer-1.1.5.tar.gz --markdown 20240405/S/SciDataContainer/1.1.4-1.1.5/diff.md --exclude *.pyd
+[2024-04-05 13:23:36] WARNING root fetch - processPackages [mrml]: Timeout reached during download
+[2024-04-05 13:23:36] INFO root fetch - processPackages [mrml]: executing diffoscope
+[2024-04-05 13:23:36] INFO root fetch - processPackages [mrml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mrml-0.1.7.tar.gz tmp/mrml-0.1.8.tar.gz --markdown 20240405/m/mrml/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2024-04-05 13:23:36] WARNING root fetch - processPackages [irispie]: Timeout reached during download
+[2024-04-05 13:23:36] INFO root fetch - processPackages [irispie]: executing diffoscope
+[2024-04-05 13:23:36] INFO root fetch - processPackages [irispie]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/irispie-0.8.1.tar.gz tmp/irispie-0.9.0.tar.gz --markdown 20240405/i/irispie/0.8.1-0.9.0/diff.md --exclude *.pyd
+[2024-04-05 13:23:36] INFO root fetch - processPackages [finterion-investing-algorithm-framework]: Remove: archive file [/home/abi/fetcher/tmp/finterion_investing_algorithm_framework-0.9-py3-none-any.whl.zip]
+[2024-04-05 13:23:36] INFO root fetch - processPackages [finterion-investing-algorithm-framework]: Remove: archive file [/home/abi/fetcher/tmp/finterion_investing_algorithm_framework-0.9.1-py3-none-any.whl.zip]
+[2024-04-05 13:23:36] INFO root fetch - main [MainThread]: End processing [finterion-investing-algorithm-framework]: success
+[2024-04-05 13:23:36] INFO root fetch - processPackages [justai]: Remove: archive file [/home/abi/fetcher/tmp/justai-3.2.7.tar.gz]
+[2024-04-05 13:23:36] INFO root fetch - processPackages [justai]: Remove: archive file [/home/abi/fetcher/tmp/justai-3.2.8.tar.gz]
+[2024-04-05 13:23:36] INFO root fetch - main [MainThread]: End processing [justai]: success
+[2024-04-05 13:23:36] INFO root fetch - processPackages [energy-base]: Remove: archive file [/home/abi/fetcher/tmp/energy_base-1.6.3.tar.gz]
+[2024-04-05 13:23:36] INFO root fetch - processPackages [energy-base]: Remove: archive file [/home/abi/fetcher/tmp/energy_base-1.6.4.tar.gz]
+[2024-04-05 13:23:36] INFO root fetch - main [MainThread]: End processing [energy-base]: success
+[2024-04-05 13:23:36] INFO root fetch - processPackages [fastgcf]: Remove: archive file [/home/abi/fetcher/tmp/fastgcf-1.0.8.tar.gz]
+[2024-04-05 13:23:36] INFO root fetch - processPackages [fastgcf]: Remove: archive file [/home/abi/fetcher/tmp/fastgcf-1.0.9.tar.gz]
+[2024-04-05 13:23:36] INFO root fetch - main [MainThread]: End processing [fastgcf]: success
+[2024-04-05 13:23:36] INFO root fetch - processPackages [odoo-addon-l10n-ro-etransport]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_ro_etransport-16.0.0.4.0-py3-none-any.whl.zip]
+[2024-04-05 13:23:36] INFO root fetch - processPackages [odoo-addon-l10n-ro-etransport]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_ro_etransport-17.0.0.3.0-py3-none-any.whl.zip]
+[2024-04-05 13:23:36] INFO root fetch - main [MainThread]: End processing [odoo-addon-l10n-ro-etransport]: success
+[2024-04-05 13:23:36] INFO root fetch - processPackages [SciDataContainer]: Remove: archive file [/home/abi/fetcher/tmp/scidatacontainer-1.1.4.tar.gz]
+[2024-04-05 13:23:36] INFO root fetch - processPackages [SciDataContainer]: Remove: archive file [/home/abi/fetcher/tmp/scidatacontainer-1.1.5.tar.gz]
+[2024-04-05 13:23:36] INFO root fetch - main [MainThread]: End processing [SciDataContainer]: success
+[2024-04-05 13:23:37] INFO root fetch - processPackages [mrml]: Remove: archive file [/home/abi/fetcher/tmp/mrml-0.1.7.tar.gz]
+[2024-04-05 13:23:37] INFO root fetch - processPackages [mrml]: Remove: archive file [/home/abi/fetcher/tmp/mrml-0.1.8.tar.gz]
+[2024-04-05 13:23:37] INFO root fetch - main [MainThread]: End processing [mrml]: success
+[2024-04-05 13:23:38] INFO root fetch - processPackages [irispie]: Remove: archive file [/home/abi/fetcher/tmp/irispie-0.8.1.tar.gz]
+[2024-04-05 13:23:38] INFO root fetch - processPackages [irispie]: Remove: archive file [/home/abi/fetcher/tmp/irispie-0.9.0.tar.gz]
+[2024-04-05 13:23:38] INFO root fetch - main [MainThread]: End processing [irispie]: success
+[2024-04-05 13:23:38] INFO root fetch - main [MainThread]: Store serial: [22635254]
