@@ -12738,3 +12738,26 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2024-04-05 07:50:19] INFO root fetch - processPackages [spaceone-identity]: Remove: archive file [/home/abi/fetcher/tmp/spaceone-identity-2.0.dev99.tar.gz]
 [2024-04-05 07:50:19] INFO root fetch - main [MainThread]: End processing [spaceone-identity]: success
 [2024-04-05 07:50:19] INFO root fetch - main [MainThread]: Store serial: [22632194]
+[2024-04-05 07:52:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22632194]
+[2024-04-05 07:52:28] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-05 07:52:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: testpackage12121
+[2024-04-05 07:52:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dvcx
+[2024-04-05 07:52:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: asepyte
+[2024-04-05 07:52:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: icutil-IGNchinmay
+[2024-04-05 07:52:28] WARNING root fetch - processPackages [testpackage12121]: Skipping, unable to determine old version
+[2024-04-05 07:52:28] INFO root fetch - main [MainThread]: End processing [testpackage12121] error
+[2024-04-05 07:52:28] WARNING root fetch - processPackages [icutil-IGNchinmay]: Skipping, unable to determine old version
+[2024-04-05 07:52:28] INFO root fetch - main [MainThread]: End processing [icutil-IGNchinmay] error
+[2024-04-05 07:52:28] WARNING root fetch - processPackages [asepyte]: Skipping, unable to determine old version
+[2024-04-05 07:52:28] INFO root fetch - main [MainThread]: End processing [asepyte] error
+[2024-04-05 07:52:28] INFO root fetch - processPackages [dvcx]: New version: [0.72.1] Old Version: [0.72.0]
+[2024-04-05 07:52:28] INFO root fetch - processPackages [dvcx]: Downloading https://files.pythonhosted.org/packages/ec/da/24c270fe0e279c205ab7b07a388e1e21a8419a04532e4a49eba544f5f7da/dvcx-0.72.0.tar.gz
+[2024-04-05 07:52:28] WARNING root fetch - processPackages [dvcx]: Timeout reached during download
+[2024-04-05 07:52:29] INFO root fetch - processPackages [dvcx]: Downloading https://files.pythonhosted.org/packages/51/f2/b81d5eafba0fd790828a464ab9df4e052345ffdc8dcd08f5e7c0dd5a5547/dvcx-0.72.1.tar.gz
+[2024-04-05 07:52:29] WARNING root fetch - processPackages [dvcx]: Timeout reached during download
+[2024-04-05 07:52:29] INFO root fetch - processPackages [dvcx]: executing diffoscope
+[2024-04-05 07:52:29] INFO root fetch - processPackages [dvcx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dvcx-0.72.0.tar.gz tmp/dvcx-0.72.1.tar.gz --markdown 20240405/d/dvcx/0.72.0-0.72.1/diff.md --exclude *.pyd
+[2024-04-05 07:52:30] INFO root fetch - processPackages [dvcx]: Remove: archive file [/home/abi/fetcher/tmp/dvcx-0.72.0.tar.gz]
+[2024-04-05 07:52:30] INFO root fetch - processPackages [dvcx]: Remove: archive file [/home/abi/fetcher/tmp/dvcx-0.72.1.tar.gz]
+[2024-04-05 07:52:30] INFO root fetch - main [MainThread]: End processing [dvcx]: success
+[2024-04-05 07:52:30] INFO root fetch - main [MainThread]: Store serial: [22632209]
