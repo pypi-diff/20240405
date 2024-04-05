@@ -9413,3 +9413,28 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2024-04-05 04:17:38] INFO root fetch - processPackages [iam-actions]: Remove: archive file [/home/abi/fetcher/tmp/iam_actions-1.2.20240405.tar.gz]
 [2024-04-05 04:17:38] INFO root fetch - main [MainThread]: End processing [iam-actions]: success
 [2024-04-05 04:17:38] INFO root fetch - main [MainThread]: Store serial: [22631151]
+[2024-04-05 04:19:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22631151]
+[2024-04-05 04:19:47] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-05 04:19:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bumble
+[2024-04-05 04:19:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: OZI
+[2024-04-05 04:19:47] INFO root fetch - processPackages [OZI]: New version: [0.0.99] Old Version: [0.0.98]
+[2024-04-05 04:19:47] INFO root fetch - processPackages [bumble]: New version: [0.0.8] Old Version: [0.0.7]
+[2024-04-05 04:19:47] INFO root fetch - processPackages [OZI]: Downloading https://files.pythonhosted.org/packages/38/2b/d8f8ce2f774ca66b1e32e65068783b15ac56715cbfa1ab1faef6d2c91a13/OZI-0.0.98-py39-none-any.whl
+[2024-04-05 04:19:47] WARNING root fetch - processPackages [OZI]: Timeout reached during download
+[2024-04-05 04:19:47] INFO root fetch - processPackages [OZI]: Downloading https://files.pythonhosted.org/packages/4c/bb/b5eaa9984b59532639030a4989b508e0252f662844d9a3e3f9a3d9aeef2c/OZI-0.0.99-py39-none-any.whl
+[2024-04-05 04:19:48] INFO root fetch - processPackages [bumble]: Downloading https://files.pythonhosted.org/packages/5c/cc/2050aa113bf91c23119ba662d8833cb2442c86a9be578ea2ef801786e1bc/bumble-0.0.7.tar.gz
+[2024-04-05 04:19:48] WARNING root fetch - processPackages [OZI]: Timeout reached during download
+[2024-04-05 04:19:48] INFO root fetch - processPackages [OZI]: executing diffoscope
+[2024-04-05 04:19:48] INFO root fetch - processPackages [OZI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/OZI-0.0.98-py39-none-any.whl.zip tmp/OZI-0.0.99-py39-none-any.whl.zip --markdown 20240405/O/OZI/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2024-04-05 04:19:48] WARNING root fetch - processPackages [bumble]: Timeout reached during download
+[2024-04-05 04:19:48] INFO root fetch - processPackages [bumble]: Downloading https://files.pythonhosted.org/packages/68/35/9a248bc72c337b8ddaaa686a9f635b08670845ec0d96933f6e246cb6f7c2/bumble-0.0.8.tar.gz
+[2024-04-05 04:19:48] WARNING root fetch - processPackages [bumble]: Timeout reached during download
+[2024-04-05 04:19:48] INFO root fetch - processPackages [bumble]: executing diffoscope
+[2024-04-05 04:19:48] INFO root fetch - processPackages [bumble]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bumble-0.0.7.tar.gz tmp/bumble-0.0.8.tar.gz --markdown 20240405/b/bumble/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2024-04-05 04:19:49] INFO root fetch - processPackages [OZI]: Remove: archive file [/home/abi/fetcher/tmp/OZI-0.0.98-py39-none-any.whl.zip]
+[2024-04-05 04:19:49] INFO root fetch - processPackages [OZI]: Remove: archive file [/home/abi/fetcher/tmp/OZI-0.0.99-py39-none-any.whl.zip]
+[2024-04-05 04:19:49] INFO root fetch - main [MainThread]: End processing [OZI]: success
+[2024-04-05 04:19:49] INFO root fetch - processPackages [bumble]: Remove: archive file [/home/abi/fetcher/tmp/bumble-0.0.7.tar.gz]
+[2024-04-05 04:19:49] INFO root fetch - processPackages [bumble]: Remove: archive file [/home/abi/fetcher/tmp/bumble-0.0.8.tar.gz]
+[2024-04-05 04:19:49] INFO root fetch - main [MainThread]: End processing [bumble]: success
+[2024-04-05 04:19:49] INFO root fetch - main [MainThread]: Store serial: [22631159]
