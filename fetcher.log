@@ -17789,3 +17789,94 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2024-04-05 11:36:10] INFO root fetch - processPackages [udata-front]: Remove: archive file [/home/abi/fetcher/tmp/udata_front-3.5.5a117434-py2.py3-none-any.whl.zip]
 [2024-04-05 11:36:10] INFO root fetch - main [MainThread]: End processing [udata-front]: success
 [2024-04-05 11:36:10] INFO root fetch - main [MainThread]: Store serial: [22634080]
+[2024-04-05 11:38:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22634080]
+[2024-04-05 11:38:19] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-05 11:38:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: snapml
+[2024-04-05 11:38:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ScoreDrivenBOCPD
+[2024-04-05 11:38:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: onnx2tf
+[2024-04-05 11:38:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyaqueduct
+[2024-04-05 11:38:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: sirji-messages
+[2024-04-05 11:38:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: scalifiai-client
+[2024-04-05 11:38:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: oarepo-runtime
+[2024-04-05 11:38:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ares-ai
+[2024-04-05 11:38:19] INFO root fetch - processPackages [ares-ai]: New version: [0.2.2] Old Version: [0.1.3]
+[2024-04-05 11:38:19] INFO root fetch - processPackages [oarepo-runtime]: New version: [1.5.9] Old Version: [1.5.7]
+[2024-04-05 11:38:19] INFO root fetch - processPackages [ScoreDrivenBOCPD]: New version: [0.1.8] Old Version: [0.1.7]
+[2024-04-05 11:38:19] INFO root fetch - processPackages [pyaqueduct]: New version: [0.0.6] Old Version: [0.0.5]
+[2024-04-05 11:38:19] INFO root fetch - processPackages [sirji-messages]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-04-05 11:38:19] INFO root fetch - processPackages [scalifiai-client]: New version: [1.3.0a3] Old Version: [1.3.0a2]
+[2024-04-05 11:38:19] INFO root fetch - processPackages [oarepo-runtime]: Downloading https://files.pythonhosted.org/packages/33/e9/2708c19a612c7b9ee02778856091954f783662c99166317398bdd2011672/oarepo-runtime-1.5.7.tar.gz
+[2024-04-05 11:38:19] INFO root fetch - processPackages [snapml]: New version: [1.9.7] Old Version: [1.9.6]
+[2024-04-05 11:38:19] INFO root fetch - processPackages [onnx2tf]: New version: [1.9.9] Old Version: [1.9.8]
+[2024-04-05 11:38:19] INFO root fetch - processPackages [ScoreDrivenBOCPD]: Downloading https://files.pythonhosted.org/packages/66/53/8a53dbf8b04c41b64dae7af15e12b8d0f809ea8bd63de35ea3d60f3bda47/ScoreDrivenBOCPD-0.1.7-py3-none-any.whl
+[2024-04-05 11:38:19] INFO root fetch - processPackages [ares-ai]: Downloading https://files.pythonhosted.org/packages/fd/e0/e88113b4e7ca9dcc7464d822c155dea8f45dcd1e7370221ed5884e8a140b/ares-ai-0.1.3.tar.gz
+[2024-04-05 11:38:19] WARNING root fetch - processPackages [oarepo-runtime]: Timeout reached during download
+[2024-04-05 11:38:20] INFO root fetch - processPackages [pyaqueduct]: Downloading https://files.pythonhosted.org/packages/93/f9/73d2372b438242b31b0baa1fa549357f538c24994b5aca296349e8c03ed7/pyaqueduct-0.0.5.tar.gz
+[2024-04-05 11:38:20] INFO root fetch - processPackages [sirji-messages]: Downloading https://files.pythonhosted.org/packages/02/41/c3d66798fc1e2a6d2da6b545032c1b376f88d6475d31e5f4cca31b663959/sirji-messages-0.0.4.tar.gz
+[2024-04-05 11:38:20] INFO root fetch - processPackages [scalifiai-client]: Downloading https://files.pythonhosted.org/packages/8f/38/517f14a9481a39551c769660498ffff0facea04cebc97ba43ff8699f21a8/scalifiai-client-1.3.0a2.tar.gz
+[2024-04-05 11:38:20] WARNING root fetch - processPackages [ScoreDrivenBOCPD]: Timeout reached during download
+[2024-04-05 11:38:20] INFO root fetch - processPackages [oarepo-runtime]: Downloading https://files.pythonhosted.org/packages/2b/0e/b9c36142d14f5fb9e9d4c3a44ca620a69225ea4569712598e7c1d7ab7573/oarepo-runtime-1.5.9.tar.gz
+[2024-04-05 11:38:20] WARNING root fetch - processPackages [ares-ai]: Timeout reached during download
+[2024-04-05 11:38:20] INFO root fetch - processPackages [onnx2tf]: Downloading https://files.pythonhosted.org/packages/6f/b3/519ee148592d2531639c5f3c1434df000ecf2c24a5b55b61cba8fd4767f9/onnx2tf-1.9.8.tar.gz
+[2024-04-05 11:38:20] INFO root fetch - processPackages [snapml]: Downloading https://files.pythonhosted.org/packages/be/59/77a58bda631d6b0bdd3679a1fdff70d785d19679a9d64509506aef5a57be/snapml-1.9.6-cp39-cp39-win_amd64.whl
+[2024-04-05 11:38:20] WARNING root fetch - processPackages [sirji-messages]: Timeout reached during download
+[2024-04-05 11:38:20] WARNING root fetch - processPackages [pyaqueduct]: Timeout reached during download
+[2024-04-05 11:38:20] WARNING root fetch - processPackages [scalifiai-client]: Timeout reached during download
+[2024-04-05 11:38:20] INFO root fetch - processPackages [ares-ai]: Downloading https://files.pythonhosted.org/packages/24/6e/d1ac9d033d96c20749a644e50a62c273447372afc2e0d61dec8c7b845f74/ares-ai-0.2.2.tar.gz
+[2024-04-05 11:38:20] WARNING root fetch - processPackages [oarepo-runtime]: Timeout reached during download
+[2024-04-05 11:38:20] INFO root fetch - processPackages [ScoreDrivenBOCPD]: Downloading https://files.pythonhosted.org/packages/02/8c/63dad38a1c2f8ebf562204afeb57a12480618e463691bb751d43c4a23853/ScoreDrivenBOCPD-0.1.8-py3-none-any.whl
+[2024-04-05 11:38:20] INFO root fetch - processPackages [oarepo-runtime]: executing diffoscope
+[2024-04-05 11:38:20] INFO root fetch - processPackages [oarepo-runtime]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oarepo-runtime-1.5.7.tar.gz tmp/oarepo-runtime-1.5.9.tar.gz --markdown 20240405/o/oarepo-runtime/1.5.7-1.5.9/diff.md --exclude *.pyd
+[2024-04-05 11:38:20] WARNING root fetch - processPackages [ares-ai]: Timeout reached during download
+[2024-04-05 11:38:20] INFO root fetch - processPackages [ares-ai]: executing diffoscope
+[2024-04-05 11:38:20] INFO root fetch - processPackages [ares-ai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ares-ai-0.1.3.tar.gz tmp/ares-ai-0.2.2.tar.gz --markdown 20240405/a/ares-ai/0.1.3-0.2.2/diff.md --exclude *.pyd
+[2024-04-05 11:38:20] WARNING root fetch - processPackages [snapml]: Timeout reached during download
+[2024-04-05 11:38:20] INFO root fetch - processPackages [sirji-messages]: Downloading https://files.pythonhosted.org/packages/2b/d1/ce5e9ab27751b60cbbebd19a027f98de42623458ad882fc47cb5844c2e53/sirji-messages-0.0.5.tar.gz
+[2024-04-05 11:38:20] INFO root fetch - processPackages [pyaqueduct]: Downloading https://files.pythonhosted.org/packages/1d/9e/fb78d86d4fa459d5bf3b84c6c35fec33402c4350af804b48925a62e7cf1d/pyaqueduct-0.0.6.tar.gz
+[2024-04-05 11:38:20] INFO root fetch - processPackages [scalifiai-client]: Downloading https://files.pythonhosted.org/packages/96/ed/874ef7278c43fce382ed2486acde2553fac9bf8db1d54fae33758391d432/scalifiai-client-1.3.0a3.tar.gz
+[2024-04-05 11:38:20] WARNING root fetch - processPackages [ScoreDrivenBOCPD]: Timeout reached during download
+[2024-04-05 11:38:20] INFO root fetch - processPackages [ScoreDrivenBOCPD]: executing diffoscope
+[2024-04-05 11:38:20] INFO root fetch - processPackages [ScoreDrivenBOCPD]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ScoreDrivenBOCPD-0.1.7-py3-none-any.whl.zip tmp/ScoreDrivenBOCPD-0.1.8-py3-none-any.whl.zip --markdown 20240405/S/ScoreDrivenBOCPD/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2024-04-05 11:38:20] WARNING root fetch - processPackages [onnx2tf]: Timeout reached during download
+[2024-04-05 11:38:20] WARNING root fetch - processPackages [scalifiai-client]: Timeout reached during download
+[2024-04-05 11:38:20] WARNING root fetch - processPackages [sirji-messages]: Timeout reached during download
+[2024-04-05 11:38:20] INFO root fetch - processPackages [scalifiai-client]: executing diffoscope
+[2024-04-05 11:38:20] INFO root fetch - processPackages [scalifiai-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scalifiai-client-1.3.0a2.tar.gz tmp/scalifiai-client-1.3.0a3.tar.gz --markdown 20240405/s/scalifiai-client/1.3.0a2-1.3.0a3/diff.md --exclude *.pyd
+[2024-04-05 11:38:20] INFO root fetch - processPackages [sirji-messages]: executing diffoscope
+[2024-04-05 11:38:20] INFO root fetch - processPackages [sirji-messages]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sirji-messages-0.0.4.tar.gz tmp/sirji-messages-0.0.5.tar.gz --markdown 20240405/s/sirji-messages/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2024-04-05 11:38:20] WARNING root fetch - processPackages [pyaqueduct]: Timeout reached during download
+[2024-04-05 11:38:20] INFO root fetch - processPackages [pyaqueduct]: executing diffoscope
+[2024-04-05 11:38:20] INFO root fetch - processPackages [pyaqueduct]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyaqueduct-0.0.5.tar.gz tmp/pyaqueduct-0.0.6.tar.gz --markdown 20240405/p/pyaqueduct/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2024-04-05 11:38:20] INFO root fetch - processPackages [snapml]: Downloading https://files.pythonhosted.org/packages/b0/65/1d818f79ee216ba34baab95a23752267b640966817c79794e48b125155f2/snapml-1.9.7-cp39-cp39-win_amd64.whl
+[2024-04-05 11:38:20] INFO root fetch - processPackages [onnx2tf]: Downloading https://files.pythonhosted.org/packages/0e/df/e0c6978b06db6c5c04de100ecbe0bbb281caed31c4dd88663e61e36ca571/onnx2tf-1.9.9.tar.gz
+[2024-04-05 11:38:20] WARNING root fetch - processPackages [onnx2tf]: Timeout reached during download
+[2024-04-05 11:38:20] INFO root fetch - processPackages [onnx2tf]: executing diffoscope
+[2024-04-05 11:38:20] INFO root fetch - processPackages [onnx2tf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/onnx2tf-1.9.8.tar.gz tmp/onnx2tf-1.9.9.tar.gz --markdown 20240405/o/onnx2tf/1.9.8-1.9.9/diff.md --exclude *.pyd
+[2024-04-05 11:38:20] WARNING root fetch - processPackages [snapml]: Timeout reached during download
+[2024-04-05 11:38:20] INFO root fetch - processPackages [snapml]: executing diffoscope
+[2024-04-05 11:38:20] INFO root fetch - processPackages [snapml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/snapml-1.9.6-cp39-cp39-win_amd64.whl.zip tmp/snapml-1.9.7-cp39-cp39-win_amd64.whl.zip --markdown 20240405/s/snapml/1.9.6-1.9.7/diff.md --exclude *.pyd
+[2024-04-05 11:38:21] INFO root fetch - processPackages [ScoreDrivenBOCPD]: Remove: archive file [/home/abi/fetcher/tmp/ScoreDrivenBOCPD-0.1.7-py3-none-any.whl.zip]
+[2024-04-05 11:38:21] INFO root fetch - processPackages [ScoreDrivenBOCPD]: Remove: archive file [/home/abi/fetcher/tmp/ScoreDrivenBOCPD-0.1.8-py3-none-any.whl.zip]
+[2024-04-05 11:38:21] INFO root fetch - main [MainThread]: End processing [ScoreDrivenBOCPD]: success
+[2024-04-05 11:38:21] INFO root fetch - processPackages [oarepo-runtime]: Remove: archive file [/home/abi/fetcher/tmp/oarepo-runtime-1.5.7.tar.gz]
+[2024-04-05 11:38:21] INFO root fetch - processPackages [oarepo-runtime]: Remove: archive file [/home/abi/fetcher/tmp/oarepo-runtime-1.5.9.tar.gz]
+[2024-04-05 11:38:21] INFO root fetch - main [MainThread]: End processing [oarepo-runtime]: success
+[2024-04-05 11:38:21] INFO root fetch - processPackages [pyaqueduct]: Remove: archive file [/home/abi/fetcher/tmp/pyaqueduct-0.0.5.tar.gz]
+[2024-04-05 11:38:21] INFO root fetch - processPackages [pyaqueduct]: Remove: archive file [/home/abi/fetcher/tmp/pyaqueduct-0.0.6.tar.gz]
+[2024-04-05 11:38:21] INFO root fetch - main [MainThread]: End processing [pyaqueduct]: success
+[2024-04-05 11:38:21] INFO root fetch - processPackages [ares-ai]: Remove: archive file [/home/abi/fetcher/tmp/ares-ai-0.1.3.tar.gz]
+[2024-04-05 11:38:21] INFO root fetch - processPackages [ares-ai]: Remove: archive file [/home/abi/fetcher/tmp/ares-ai-0.2.2.tar.gz]
+[2024-04-05 11:38:21] INFO root fetch - main [MainThread]: End processing [ares-ai]: success
+[2024-04-05 11:38:21] INFO root fetch - processPackages [scalifiai-client]: Remove: archive file [/home/abi/fetcher/tmp/scalifiai-client-1.3.0a2.tar.gz]
+[2024-04-05 11:38:21] INFO root fetch - processPackages [scalifiai-client]: Remove: archive file [/home/abi/fetcher/tmp/scalifiai-client-1.3.0a3.tar.gz]
+[2024-04-05 11:38:21] INFO root fetch - main [MainThread]: End processing [scalifiai-client]: success
+[2024-04-05 11:38:21] INFO root fetch - processPackages [sirji-messages]: Remove: archive file [/home/abi/fetcher/tmp/sirji-messages-0.0.4.tar.gz]
+[2024-04-05 11:38:21] INFO root fetch - processPackages [sirji-messages]: Remove: archive file [/home/abi/fetcher/tmp/sirji-messages-0.0.5.tar.gz]
+[2024-04-05 11:38:21] INFO root fetch - main [MainThread]: End processing [sirji-messages]: success
+[2024-04-05 11:38:21] INFO root fetch - processPackages [snapml]: Remove: archive file [/home/abi/fetcher/tmp/snapml-1.9.6-cp39-cp39-win_amd64.whl.zip]
+[2024-04-05 11:38:21] INFO root fetch - processPackages [snapml]: Remove: archive file [/home/abi/fetcher/tmp/snapml-1.9.7-cp39-cp39-win_amd64.whl.zip]
+[2024-04-05 11:38:21] INFO root fetch - main [MainThread]: End processing [snapml]: success
+[2024-04-05 11:38:22] INFO root fetch - processPackages [onnx2tf]: Remove: archive file [/home/abi/fetcher/tmp/onnx2tf-1.9.8.tar.gz]
+[2024-04-05 11:38:22] INFO root fetch - processPackages [onnx2tf]: Remove: archive file [/home/abi/fetcher/tmp/onnx2tf-1.9.9.tar.gz]
+[2024-04-05 11:38:22] INFO root fetch - main [MainThread]: End processing [onnx2tf]: success
+[2024-04-05 11:38:22] INFO root fetch - main [MainThread]: Store serial: [22634103]
