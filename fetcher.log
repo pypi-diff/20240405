@@ -24312,3 +24312,103 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2024-04-05 15:30:58] INFO root fetch - processPackages [justai]: Remove: archive file [/home/abi/fetcher/tmp/justai-3.2.9.tar.gz]
 [2024-04-05 15:30:58] INFO root fetch - main [MainThread]: End processing [justai]: success
 [2024-04-05 15:30:58] INFO root fetch - main [MainThread]: Store serial: [22636661]
+[2024-04-05 15:33:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22636661]
+[2024-04-05 15:33:07] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2024-04-05 15:33:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ultralytics
+[2024-04-05 15:33:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: fracas
+[2024-04-05 15:33:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: simular-evm
+[2024-04-05 15:33:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: keelson
+[2024-04-05 15:33:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: kv-fs
+[2024-04-05 15:33:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: capeditor
+[2024-04-05 15:33:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: kv-sqlite-sync
+[2024-04-05 15:33:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: MolScore
+[2024-04-05 15:33:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: kv-fs
+[2024-04-05 15:33:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: nostr-gossip
+[2024-04-05 15:33:07] INFO root fetch - processPackages [keelson]: New version: [0.3.0rc9] Old Version: [0.3.0rc8]
+[2024-04-05 15:33:07] INFO root fetch - processPackages [kv-sqlite-sync]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-04-05 15:33:07] INFO root fetch - processPackages [kv-fs]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-04-05 15:33:07] INFO root fetch - processPackages [ultralytics]: New version: [8.1.9] Old Version: [8.1.8]
+[2024-04-05 15:33:07] INFO root fetch - processPackages [kv-fs]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-04-05 15:33:07] WARNING root fetch - processPackages [fracas]: Skipping, unable to determine old version
+[2024-04-05 15:33:07] INFO root fetch - processPackages [fracas]: Start processing: finesse
+[2024-04-05 15:33:07] INFO root fetch - main [MainThread]: End processing [fracas] error
+[2024-04-05 15:33:07] INFO root fetch - processPackages [simular-evm]: New version: [0.2.2] Old Version: [0.2.1]
+[2024-04-05 15:33:07] INFO root fetch - processPackages [MolScore]: New version: [1.4] Old Version: [1.3]
+[2024-04-05 15:33:07] INFO root fetch - processPackages [capeditor]: New version: [0.5.2] Old Version: [0.5.1]
+[2024-04-05 15:33:07] INFO root fetch - processPackages [keelson]: Downloading https://files.pythonhosted.org/packages/39/53/954e13e6e2b1bd1ad6c82e13de33a18a8ccad77205da459e58fa4f551b5f/keelson-0.3.0rc8-py3-none-any.whl
+[2024-04-05 15:33:07] WARNING root fetch - processPackages [nostr-gossip]: Skipping, unable to determine old version
+[2024-04-05 15:33:07] INFO root fetch - main [MainThread]: End processing [nostr-gossip] error
+[2024-04-05 15:33:07] INFO root fetch - processPackages [kv-fs]: Downloading https://files.pythonhosted.org/packages/b6/0d/8919d344759eb9907e8da80d002a25457bde976b2d77d087f7e7eaa0a13a/kv-fs-0.1.0.tar.gz
+[2024-04-05 15:33:07] INFO root fetch - processPackages [kv-fs]: Downloading https://files.pythonhosted.org/packages/b6/0d/8919d344759eb9907e8da80d002a25457bde976b2d77d087f7e7eaa0a13a/kv-fs-0.1.0.tar.gz
+[2024-04-05 15:33:07] INFO root fetch - processPackages [ultralytics]: Downloading https://files.pythonhosted.org/packages/2c/9f/b8fbc96b626cd7fa56aa383ed824b5475ef86c22efaa5bc701992f8a5b12/ultralytics-8.1.8.tar.gz
+[2024-04-05 15:33:07] WARNING root fetch - processPackages [keelson]: Timeout reached during download
+[2024-04-05 15:33:07] INFO root fetch - processPackages [kv-sqlite-sync]: Downloading https://files.pythonhosted.org/packages/b7/d7/ba0ccfaf5b8f49b7e9ed87883dde9266ac5a3b2e48ce2bc51cb1ada887f1/kv-sqlite-sync-0.1.0.tar.gz
+[2024-04-05 15:33:07] INFO root fetch - processPackages [simular-evm]: Downloading https://files.pythonhosted.org/packages/a3/fa/f62ba9cd1353a213007a5c61c5c4cede0860927f760180f214c70e6c3700/simular_evm-0.2.1.tar.gz
+[2024-04-05 15:33:07] INFO root fetch - processPackages [finesse]: New version: [3.0a8] Old Version: [3.0a7]
+[2024-04-05 15:33:07] INFO root fetch - processPackages [capeditor]: Downloading https://files.pythonhosted.org/packages/a2/3b/41a5527757a0643e6ed36587ff8f9a1924f01a306e4f1ae52793688d438e/capeditor-0.5.1.tar.gz
+[2024-04-05 15:33:07] INFO root fetch - processPackages [MolScore]: Downloading https://files.pythonhosted.org/packages/ab/19/c79ebf861116aac930a303fe0e8e5fd07f44417348b428bac06a35fdc57b/MolScore-1.3.tar.gz
+[2024-04-05 15:33:07] INFO root fetch - processPackages [keelson]: Downloading https://files.pythonhosted.org/packages/08/a1/28289399a8eb6d6450f75184975f0e22dc1b9429247346881f3d6bdf8511/keelson-0.3.0rc9-py3-none-any.whl
+[2024-04-05 15:33:07] WARNING root fetch - processPackages [kv-sqlite-sync]: Timeout reached during download
+[2024-04-05 15:33:07] WARNING root fetch - processPackages [MolScore]: Skipping package: exceeds size limit 53255937>=10485760
+[2024-04-05 15:33:07] INFO root fetch - main [MainThread]: End processing [MolScore] error
+[2024-04-05 15:33:08] WARNING root fetch - processPackages [kv-fs]: Timeout reached during download
+[2024-04-05 15:33:08] WARNING root fetch - processPackages [kv-fs]: Timeout reached during download
+[2024-04-05 15:33:08] WARNING root fetch - processPackages [ultralytics]: Timeout reached during download
+[2024-04-05 15:33:08] WARNING root fetch - processPackages [keelson]: Timeout reached during download
+[2024-04-05 15:33:08] INFO root fetch - processPackages [keelson]: executing diffoscope
+[2024-04-05 15:33:08] INFO root fetch - processPackages [keelson]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/keelson-0.3.0rc8-py3-none-any.whl.zip tmp/keelson-0.3.0rc9-py3-none-any.whl.zip --markdown 20240405/k/keelson/0.3.0rc8-0.3.0rc9/diff.md --exclude *.pyd
+[2024-04-05 15:33:08] INFO root fetch - processPackages [finesse]: Downloading https://files.pythonhosted.org/packages/7d/69/453a412277309f8c790f50a44a03dfc0b8ca8998450632d62a585fd34c7c/finesse-3.0a7.tar.gz
+[2024-04-05 15:33:08] WARNING root fetch - processPackages [simular-evm]: Timeout reached during download
+[2024-04-05 15:33:08] INFO root fetch - processPackages [kv-sqlite-sync]: Downloading https://files.pythonhosted.org/packages/20/fa/716aca2d90e80f5f596cc48fa1b0fe96c53530620fcac47d75bb3d2aca32/kv-sqlite-sync-0.1.1.tar.gz
+[2024-04-05 15:33:08] INFO root fetch - processPackages [kv-fs]: Downloading https://files.pythonhosted.org/packages/7e/bc/7cf921e3b7874164a1c0dfe5600d4d65951022239876229b1b3514534fb1/kv-fs-0.1.1.tar.gz
+[2024-04-05 15:33:08] INFO root fetch - processPackages [kv-fs]: Downloading https://files.pythonhosted.org/packages/7e/bc/7cf921e3b7874164a1c0dfe5600d4d65951022239876229b1b3514534fb1/kv-fs-0.1.1.tar.gz
+[2024-04-05 15:33:08] INFO root fetch - processPackages [ultralytics]: Downloading https://files.pythonhosted.org/packages/70/2c/d7de774dece06044c0162dcf39caf5794871e45144cda9998425196f776f/ultralytics-8.1.9.tar.gz
+[2024-04-05 15:33:08] WARNING root fetch - processPackages [capeditor]: Timeout reached during download
+[2024-04-05 15:33:08] WARNING root fetch - processPackages [kv-sqlite-sync]: Timeout reached during download
+[2024-04-05 15:33:08] INFO root fetch - processPackages [kv-sqlite-sync]: executing diffoscope
+[2024-04-05 15:33:08] INFO root fetch - processPackages [kv-sqlite-sync]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kv-sqlite-sync-0.1.0.tar.gz tmp/kv-sqlite-sync-0.1.1.tar.gz --markdown 20240405/k/kv-sqlite-sync/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2024-04-05 15:33:08] WARNING root fetch - processPackages [kv-fs]: Timeout reached during download
+[2024-04-05 15:33:08] INFO root fetch - processPackages [kv-fs]: executing diffoscope
+[2024-04-05 15:33:08] INFO root fetch - processPackages [kv-fs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kv-fs-0.1.0.tar.gz tmp/kv-fs-0.1.1.tar.gz --markdown 20240405/k/kv-fs/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2024-04-05 15:33:08] INFO root fetch - processPackages [simular-evm]: Downloading https://files.pythonhosted.org/packages/75/5d/df119f8971d4ec67247aabf6683594568b70541de7b6f76ca8ae87f9899d/simular_evm-0.2.2.tar.gz
+[2024-04-05 15:33:08] WARNING root fetch - processPackages [kv-fs]: Timeout reached during download
+[2024-04-05 15:33:08] INFO root fetch - processPackages [kv-fs]: executing diffoscope
+[2024-04-05 15:33:08] INFO root fetch - processPackages [kv-fs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kv-fs-0.1.0.tar.gz tmp/kv-fs-0.1.1.tar.gz --markdown 20240405/k/kv-fs/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2024-04-05 15:33:08] WARNING root fetch - processPackages [ultralytics]: Timeout reached during download
+[2024-04-05 15:33:08] INFO root fetch - processPackages [ultralytics]: executing diffoscope
+[2024-04-05 15:33:08] INFO root fetch - processPackages [ultralytics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ultralytics-8.1.8.tar.gz tmp/ultralytics-8.1.9.tar.gz --markdown 20240405/u/ultralytics/8.1.8-8.1.9/diff.md --exclude *.pyd
+[2024-04-05 15:33:08] WARNING root fetch - processPackages [simular-evm]: Timeout reached during download
+[2024-04-05 15:33:08] INFO root fetch - processPackages [simular-evm]: executing diffoscope
+[2024-04-05 15:33:08] INFO root fetch - processPackages [simular-evm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/simular_evm-0.2.1.tar.gz tmp/simular_evm-0.2.2.tar.gz --markdown 20240405/s/simular-evm/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2024-04-05 15:33:08] INFO root fetch - processPackages [capeditor]: Downloading https://files.pythonhosted.org/packages/86/53/88171229df3af03d42b83e138e84abd17ce8a3de5349d69f9153762d3c9b/capeditor-0.5.2.tar.gz
+[2024-04-05 15:33:08] INFO root fetch - processPackages [keelson]: Remove: archive file [/home/abi/fetcher/tmp/keelson-0.3.0rc8-py3-none-any.whl.zip]
+[2024-04-05 15:33:08] INFO root fetch - processPackages [keelson]: Remove: archive file [/home/abi/fetcher/tmp/keelson-0.3.0rc9-py3-none-any.whl.zip]
+[2024-04-05 15:33:08] INFO root fetch - main [MainThread]: End processing [keelson]: success
+[2024-04-05 15:33:08] WARNING root fetch - processPackages [capeditor]: Timeout reached during download
+[2024-04-05 15:33:08] INFO root fetch - processPackages [capeditor]: executing diffoscope
+[2024-04-05 15:33:08] INFO root fetch - processPackages [capeditor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/capeditor-0.5.1.tar.gz tmp/capeditor-0.5.2.tar.gz --markdown 20240405/c/capeditor/0.5.1-0.5.2/diff.md --exclude *.pyd
+[2024-04-05 15:33:09] INFO root fetch - processPackages [kv-sqlite-sync]: Remove: archive file [/home/abi/fetcher/tmp/kv-sqlite-sync-0.1.0.tar.gz]
+[2024-04-05 15:33:09] INFO root fetch - processPackages [kv-sqlite-sync]: Remove: archive file [/home/abi/fetcher/tmp/kv-sqlite-sync-0.1.1.tar.gz]
+[2024-04-05 15:33:09] INFO root fetch - main [MainThread]: End processing [kv-sqlite-sync]: success
+[2024-04-05 15:33:09] INFO root fetch - processPackages [kv-fs]: Remove: archive file [/home/abi/fetcher/tmp/kv-fs-0.1.0.tar.gz]
+[2024-04-05 15:33:09] INFO root fetch - processPackages [kv-fs]: Remove: archive file [/home/abi/fetcher/tmp/kv-fs-0.1.1.tar.gz]
+[2024-04-05 15:33:09] INFO root fetch - main [MainThread]: End processing [kv-fs]: success
+[2024-04-05 15:33:09] INFO root fetch - main [MainThread]: End processing [kv-fs]: success
+[2024-04-05 15:33:09] INFO root fetch - processPackages [simular-evm]: Remove: archive file [/home/abi/fetcher/tmp/simular_evm-0.2.1.tar.gz]
+[2024-04-05 15:33:09] INFO root fetch - processPackages [simular-evm]: Remove: archive file [/home/abi/fetcher/tmp/simular_evm-0.2.2.tar.gz]
+[2024-04-05 15:33:09] INFO root fetch - main [MainThread]: End processing [simular-evm]: success
+[2024-04-05 15:33:09] WARNING root fetch - processPackages [finesse]: Timeout reached during download
+[2024-04-05 15:33:09] INFO root fetch - processPackages [finesse]: Downloading https://files.pythonhosted.org/packages/4d/b5/4ffb84f09fa01ec87721ce4b17350f2f8eefbdaa39afc060c8a80276d236/finesse-3.0a8.tar.gz
+[2024-04-05 15:33:09] INFO root fetch - processPackages [ultralytics]: Remove: archive file [/home/abi/fetcher/tmp/ultralytics-8.1.8.tar.gz]
+[2024-04-05 15:33:09] INFO root fetch - processPackages [ultralytics]: Remove: archive file [/home/abi/fetcher/tmp/ultralytics-8.1.9.tar.gz]
+[2024-04-05 15:33:09] INFO root fetch - main [MainThread]: End processing [ultralytics]: success
+[2024-04-05 15:33:10] INFO root fetch - processPackages [capeditor]: Remove: archive file [/home/abi/fetcher/tmp/capeditor-0.5.1.tar.gz]
+[2024-04-05 15:33:10] INFO root fetch - processPackages [capeditor]: Remove: archive file [/home/abi/fetcher/tmp/capeditor-0.5.2.tar.gz]
+[2024-04-05 15:33:10] INFO root fetch - main [MainThread]: End processing [capeditor]: success
+[2024-04-05 15:33:11] WARNING root fetch - processPackages [finesse]: Timeout reached during download
+[2024-04-05 15:33:11] INFO root fetch - processPackages [finesse]: executing diffoscope
+[2024-04-05 15:33:11] INFO root fetch - processPackages [finesse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/finesse-3.0a7.tar.gz tmp/finesse-3.0a8.tar.gz --markdown 20240405/f/finesse/3.0a7-3.0a8/diff.md --exclude *.pyd
+[2024-04-05 15:33:37] INFO root fetch - processPackages [finesse]: Remove: archive file [/home/abi/fetcher/tmp/finesse-3.0a7.tar.gz]
+[2024-04-05 15:33:37] INFO root fetch - processPackages [finesse]: Remove: archive file [/home/abi/fetcher/tmp/finesse-3.0a8.tar.gz]
+[2024-04-05 15:33:37] INFO root fetch - main [MainThread]: End processing [finesse]: success
+[2024-04-05 15:33:37] INFO root fetch - main [MainThread]: Store serial: [22636718]
