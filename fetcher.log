@@ -21059,3 +21059,61 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2024-04-05 13:34:34] INFO root fetch - processPackages [devine]: Remove: archive file [/home/abi/fetcher/tmp/devine-3.3.1.tar.gz]
 [2024-04-05 13:34:34] INFO root fetch - main [MainThread]: End processing [devine]: success
 [2024-04-05 13:34:34] INFO root fetch - main [MainThread]: Store serial: [22635418]
+[2024-04-05 13:36:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22635418]
+[2024-04-05 13:36:43] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-05 13:36:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ccs-digitalmarketplace-utils
+[2024-04-05 13:36:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ipyparallel
+[2024-04-05 13:36:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ea-dash
+[2024-04-05 13:36:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nc-py-api
+[2024-04-05 13:36:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: minijson
+[2024-04-05 13:36:43] INFO root fetch - processPackages [ccs-digitalmarketplace-utils]: New version: [66.0.0rc1] Old Version: [65.5.0rc3]
+[2024-04-05 13:36:43] INFO root fetch - processPackages [ipyparallel]: New version: [8.7.0] Old Version: [8.6.1]
+[2024-04-05 13:36:43] INFO root fetch - processPackages [nc-py-api]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-04-05 13:36:43] INFO root fetch - processPackages [ea-dash]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-05 13:36:43] INFO root fetch - processPackages [minijson]: New version: [3.0.1] Old Version: [3.0]
+[2024-04-05 13:36:43] INFO root fetch - processPackages [ipyparallel]: Downloading https://files.pythonhosted.org/packages/f0/88/d1cf7f462ecda78dcbccec4df3fc5ab504770cd67f199fca8662d7036634/ipyparallel-8.6.1.tar.gz
+[2024-04-05 13:36:43] INFO root fetch - processPackages [ccs-digitalmarketplace-utils]: Downloading https://files.pythonhosted.org/packages/ae/d9/b438e212180394decad2cff46ef87f58e6ae28206f68e057a09702cd7050/ccs-digitalmarketplace-utils-65.5.0rc3.tar.gz
+[2024-04-05 13:36:43] INFO root fetch - processPackages [nc-py-api]: Downloading https://files.pythonhosted.org/packages/aa/8e/07143b585a6d6ebdad20d9545cc87db56036d0846e1b578a2542b8148994/nc_py_api-0.8.0.tar.gz
+[2024-04-05 13:36:43] INFO root fetch - processPackages [ea-dash]: Downloading https://files.pythonhosted.org/packages/5b/f7/5fc986d93530e8095c3fc65314f85f4921aa44178409220aa517bd68f0b8/ea_dash-0.0.8.tar.gz
+[2024-04-05 13:36:43] WARNING root fetch - processPackages [ccs-digitalmarketplace-utils]: Timeout reached during download
+[2024-04-05 13:36:43] INFO root fetch - processPackages [minijson]: Downloading https://files.pythonhosted.org/packages/9e/47/40a75b160ae522470d6eefb271ac7afc7c5fec925a173c2e293bafa8e1ee/minijson-3.0.tar.gz
+[2024-04-05 13:36:44] WARNING root fetch - processPackages [ea-dash]: Timeout reached during download
+[2024-04-05 13:36:44] INFO root fetch - processPackages [ccs-digitalmarketplace-utils]: Downloading https://files.pythonhosted.org/packages/ee/8d/6728d23ecf123b2db3439c46d61a821a1842e8cbed0508ef21a8974be66d/ccs-digitalmarketplace-utils-66.0.0rc1.tar.gz
+[2024-04-05 13:36:44] WARNING root fetch - processPackages [nc-py-api]: Timeout reached during download
+[2024-04-05 13:36:44] WARNING root fetch - processPackages [minijson]: Timeout reached during download
+[2024-04-05 13:36:44] WARNING root fetch - processPackages [ccs-digitalmarketplace-utils]: Timeout reached during download
+[2024-04-05 13:36:44] INFO root fetch - processPackages [ccs-digitalmarketplace-utils]: executing diffoscope
+[2024-04-05 13:36:44] INFO root fetch - processPackages [ccs-digitalmarketplace-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ccs-digitalmarketplace-utils-65.5.0rc3.tar.gz tmp/ccs-digitalmarketplace-utils-66.0.0rc1.tar.gz --markdown 20240405/c/ccs-digitalmarketplace-utils/65.5.0rc3-66.0.0rc1/diff.md --exclude *.pyd
+[2024-04-05 13:36:44] INFO root fetch - processPackages [ea-dash]: Downloading https://files.pythonhosted.org/packages/8c/5e/e8595104f45e2bf3daca93aa6b90785e9b2d3d314692ff0e5eea42f53f0e/ea_dash-0.0.9.tar.gz
+[2024-04-05 13:36:44] INFO root fetch - processPackages [nc-py-api]: Downloading https://files.pythonhosted.org/packages/9e/7e/8d987199d0f9ff7ad6f7bad4c9db47d047948661ce3837087c9715b35dc8/nc_py_api-0.9.0.tar.gz
+[2024-04-05 13:36:44] INFO root fetch - processPackages [minijson]: Downloading https://files.pythonhosted.org/packages/62/cf/3bcd6d381ea493c2ca6a90c1c1e2714ce1cde8d22f8de28ed14cb708f81b/minijson-3.0.1.tar.gz
+[2024-04-05 13:36:44] WARNING root fetch - processPackages [nc-py-api]: Timeout reached during download
+[2024-04-05 13:36:44] INFO root fetch - processPackages [nc-py-api]: executing diffoscope
+[2024-04-05 13:36:44] INFO root fetch - processPackages [nc-py-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nc_py_api-0.8.0.tar.gz tmp/nc_py_api-0.9.0.tar.gz --markdown 20240405/n/nc-py-api/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2024-04-05 13:36:44] WARNING root fetch - processPackages [ea-dash]: Timeout reached during download
+[2024-04-05 13:36:44] INFO root fetch - processPackages [ea-dash]: executing diffoscope
+[2024-04-05 13:36:44] INFO root fetch - processPackages [ea-dash]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ea_dash-0.0.8.tar.gz tmp/ea_dash-0.0.9.tar.gz --markdown 20240405/e/ea-dash/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2024-04-05 13:36:44] WARNING root fetch - processPackages [minijson]: Timeout reached during download
+[2024-04-05 13:36:44] INFO root fetch - processPackages [minijson]: executing diffoscope
+[2024-04-05 13:36:44] INFO root fetch - processPackages [minijson]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/minijson-3.0.tar.gz tmp/minijson-3.0.1.tar.gz --markdown 20240405/m/minijson/3.0-3.0.1/diff.md --exclude *.pyd
+[2024-04-05 13:36:44] INFO root fetch - processPackages [ccs-digitalmarketplace-utils]: Remove: archive file [/home/abi/fetcher/tmp/ccs-digitalmarketplace-utils-65.5.0rc3.tar.gz]
+[2024-04-05 13:36:44] INFO root fetch - processPackages [ccs-digitalmarketplace-utils]: Remove: archive file [/home/abi/fetcher/tmp/ccs-digitalmarketplace-utils-66.0.0rc1.tar.gz]
+[2024-04-05 13:36:44] INFO root fetch - main [MainThread]: End processing [ccs-digitalmarketplace-utils]: success
+[2024-04-05 13:36:45] INFO root fetch - processPackages [minijson]: Remove: archive file [/home/abi/fetcher/tmp/minijson-3.0.tar.gz]
+[2024-04-05 13:36:45] INFO root fetch - processPackages [minijson]: Remove: archive file [/home/abi/fetcher/tmp/minijson-3.0.1.tar.gz]
+[2024-04-05 13:36:45] INFO root fetch - main [MainThread]: End processing [minijson]: success
+[2024-04-05 13:36:45] INFO root fetch - processPackages [nc-py-api]: Remove: archive file [/home/abi/fetcher/tmp/nc_py_api-0.8.0.tar.gz]
+[2024-04-05 13:36:45] INFO root fetch - processPackages [nc-py-api]: Remove: archive file [/home/abi/fetcher/tmp/nc_py_api-0.9.0.tar.gz]
+[2024-04-05 13:36:45] INFO root fetch - main [MainThread]: End processing [nc-py-api]: success
+[2024-04-05 13:36:45] INFO root fetch - processPackages [ea-dash]: Remove: archive file [/home/abi/fetcher/tmp/ea_dash-0.0.8.tar.gz]
+[2024-04-05 13:36:45] INFO root fetch - processPackages [ea-dash]: Remove: archive file [/home/abi/fetcher/tmp/ea_dash-0.0.9.tar.gz]
+[2024-04-05 13:36:45] INFO root fetch - main [MainThread]: End processing [ea-dash]: success
+[2024-04-05 13:36:46] WARNING root fetch - processPackages [ipyparallel]: Timeout reached during download
+[2024-04-05 13:36:46] INFO root fetch - processPackages [ipyparallel]: Downloading https://files.pythonhosted.org/packages/04/60/0ebec65667dd1211453779283eb7066a6ae8ebadb2cd8d786f648acde1bf/ipyparallel-8.7.0.tar.gz
+[2024-04-05 13:36:46] WARNING root fetch - processPackages [ipyparallel]: Timeout reached during download
+[2024-04-05 13:36:46] INFO root fetch - processPackages [ipyparallel]: executing diffoscope
+[2024-04-05 13:36:46] INFO root fetch - processPackages [ipyparallel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ipyparallel-8.6.1.tar.gz tmp/ipyparallel-8.7.0.tar.gz --markdown 20240405/i/ipyparallel/8.6.1-8.7.0/diff.md --exclude *.pyd
+[2024-04-05 13:36:50] INFO root fetch - processPackages [ipyparallel]: Remove: archive file [/home/abi/fetcher/tmp/ipyparallel-8.6.1.tar.gz]
+[2024-04-05 13:36:50] INFO root fetch - processPackages [ipyparallel]: Remove: archive file [/home/abi/fetcher/tmp/ipyparallel-8.7.0.tar.gz]
+[2024-04-05 13:36:50] INFO root fetch - main [MainThread]: End processing [ipyparallel]: success
+[2024-04-05 13:36:50] INFO root fetch - main [MainThread]: Store serial: [22635435]
