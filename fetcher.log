@@ -22531,3 +22531,126 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2024-04-05 14:38:18] INFO root fetch - processPackages [tensorcircuit-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tensorcircuit-nightly-0.9.1.dev20230608.tar.gz]
 [2024-04-05 14:38:18] INFO root fetch - main [MainThread]: End processing [tensorcircuit-nightly]: success
 [2024-04-05 14:38:18] INFO root fetch - main [MainThread]: Store serial: [22635951]
+[2024-04-05 14:40:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22635951]
+[2024-04-05 14:40:27] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2024-04-05 14:40:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: vk-teams-async-bot
+[2024-04-05 14:40:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: maui-software
+[2024-04-05 14:40:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: last_layer
+[2024-04-05 14:40:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: filecloudsync
+[2024-04-05 14:40:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: sling-linux-amd64
+[2024-04-05 14:40:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: bigdl-llm
+[2024-04-05 14:40:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: mathutils-vinit
+[2024-04-05 14:40:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: sling-linux-arm64
+[2024-04-05 14:40:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: energy-base
+[2024-04-05 14:40:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: grvtree
+[2024-04-05 14:40:27] INFO root fetch - processPackages [vk-teams-async-bot]: New version: [0.2.0] Old Version: [0.1.5]
+[2024-04-05 14:40:27] INFO root fetch - processPackages [maui-software]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-05 14:40:27] INFO root fetch - processPackages [energy-base]: New version: [1.6.6] Old Version: [1.6.5]
+[2024-04-05 14:40:27] INFO root fetch - processPackages [bigdl-llm]: New version: [2.5.0b20240404] Old Version: [2.5.0b20240403]
+[2024-04-05 14:40:27] INFO root fetch - processPackages [maui-software]: Downloading https://files.pythonhosted.org/packages/f1/f4/010215140466096d3464ebb4ea967d4f7f33afc210844c4ef5bf8e3c2a11/maui_software-0.1.8.tar.gz
+[2024-04-05 14:40:27] INFO root fetch - processPackages [filecloudsync]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-05 14:40:27] INFO root fetch - processPackages [last_layer]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-05 14:40:27] INFO root fetch - processPackages [vk-teams-async-bot]: Downloading https://files.pythonhosted.org/packages/a3/8a/0f90bf8a0ba40ba86e8a72e55713d9c2b7fd95636ac0e61e1aece9581153/vk_teams_async_bot-0.1.5.tar.gz
+[2024-04-05 14:40:27] INFO root fetch - processPackages [sling-linux-amd64]: New version: [1.2.3] Old Version: [1.2.2]
+[2024-04-05 14:40:27] INFO root fetch - processPackages [mathutils-vinit]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-04-05 14:40:27] INFO root fetch - processPackages [grvtree]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-04-05 14:40:27] INFO root fetch - processPackages [sling-linux-arm64]: New version: [1.2.3] Old Version: [1.2.2]
+[2024-04-05 14:40:27] INFO root fetch - processPackages [energy-base]: Downloading https://files.pythonhosted.org/packages/8b/72/99dbb18be01bb2bf8d5fc1ddcbc0ade2a782d07a04821d410f66f78fc720/energy_base-1.6.5.tar.gz
+[2024-04-05 14:40:27] WARNING root fetch - processPackages [maui-software]: Timeout reached during download
+[2024-04-05 14:40:28] INFO root fetch - processPackages [bigdl-llm]: Downloading https://files.pythonhosted.org/packages/3c/51/d1a15c20e32f038681afddb0ba7f4c319a5de4b29781df691912fcf07dac/bigdl_llm-2.5.0b20240403-py3-none-win_amd64.whl
+[2024-04-05 14:40:28] INFO root fetch - processPackages [sling-linux-amd64]: Downloading https://files.pythonhosted.org/packages/49/d6/862ce07fce59566643f2952acb6bf6261304b24fc3d753f6e857faa4c6b0/sling-linux-amd64-1.2.2.tar.gz
+[2024-04-05 14:40:28] INFO root fetch - processPackages [last_layer]: Downloading https://files.pythonhosted.org/packages/4d/55/5aef6308b64ff0f3ce065ffae697f21ea1d8bc45eedf64dca8fcc51de2ce/last_layer-0.1.8.tar.gz
+[2024-04-05 14:40:28] INFO root fetch - processPackages [maui-software]: Downloading https://files.pythonhosted.org/packages/c9/33/81f0b29b155b92d451a2f958bfe85a1d70c582251f3872d3b5450129e0a5/maui_software-0.1.9.tar.gz
+[2024-04-05 14:40:28] WARNING root fetch - processPackages [vk-teams-async-bot]: Timeout reached during download
+[2024-04-05 14:40:28] INFO root fetch - processPackages [mathutils-vinit]: Downloading https://files.pythonhosted.org/packages/a9/f5/e36923b1dc1c49eeb94c6f379b15a6b29945d77e97c43943f88ba79640e8/mathutils_vinit-0.0.3.tar.gz
+[2024-04-05 14:40:28] WARNING root fetch - processPackages [energy-base]: Timeout reached during download
+[2024-04-05 14:40:28] INFO root fetch - processPackages [grvtree]: Downloading https://files.pythonhosted.org/packages/b6/97/af9037f0655c90d27cfbc4572a0936022f5f6fcb94503bf8120cb4626b63/grvtree-0.1.1.tar.gz
+[2024-04-05 14:40:28] INFO root fetch - processPackages [sling-linux-arm64]: Downloading https://files.pythonhosted.org/packages/1e/a4/95e3db9ac055a29f479f5e119eb7a126e100cc126e809e6d485567b58db8/sling-linux-arm64-1.2.2.tar.gz
+[2024-04-05 14:40:28] INFO root fetch - processPackages [filecloudsync]: Downloading https://files.pythonhosted.org/packages/57/29/083dab81d7cfc0b6d50dce2ada4cbb072091e8198fabd0a5a91974200900/filecloudsync-0.0.8.tar.gz
+[2024-04-05 14:40:28] WARNING root fetch - processPackages [sling-linux-amd64]: Skipping package: exceeds size limit 48516566>=10485760
+[2024-04-05 14:40:28] INFO root fetch - processPackages [sling-linux-amd64]: Start processing: avassa-client
+[2024-04-05 14:40:28] INFO root fetch - main [MainThread]: End processing [sling-linux-amd64] error
+[2024-04-05 14:40:28] INFO root fetch - processPackages [vk-teams-async-bot]: Downloading https://files.pythonhosted.org/packages/ed/5e/ff666062e69de7d61309e4200eb119684bd823721ba9829b2170c0e78030/vk_teams_async_bot-0.2.0.tar.gz
+[2024-04-05 14:40:28] WARNING root fetch - processPackages [maui-software]: Timeout reached during download
+[2024-04-05 14:40:28] INFO root fetch - processPackages [maui-software]: executing diffoscope
+[2024-04-05 14:40:28] INFO root fetch - processPackages [maui-software]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/maui_software-0.1.8.tar.gz tmp/maui_software-0.1.9.tar.gz --markdown 20240405/m/maui-software/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2024-04-05 14:40:28] WARNING root fetch - processPackages [sling-linux-arm64]: Skipping package: exceeds size limit 45288155>=10485760
+[2024-04-05 14:40:28] INFO root fetch - processPackages [sling-linux-arm64]: Start processing: windowsregistry
+[2024-04-05 14:40:28] INFO root fetch - main [MainThread]: End processing [sling-linux-arm64] error
+[2024-04-05 14:40:28] WARNING root fetch - processPackages [grvtree]: Timeout reached during download
+[2024-04-05 14:40:28] INFO root fetch - processPackages [energy-base]: Downloading https://files.pythonhosted.org/packages/9b/7b/c1b17864f972e8f890269fcaf830a9a1999188d85c96bdd32f493514e7fa/energy_base-1.6.6.tar.gz
+[2024-04-05 14:40:28] WARNING root fetch - processPackages [mathutils-vinit]: Timeout reached during download
+[2024-04-05 14:40:28] WARNING root fetch - processPackages [filecloudsync]: Timeout reached during download
+[2024-04-05 14:40:28] WARNING root fetch - processPackages [vk-teams-async-bot]: Timeout reached during download
+[2024-04-05 14:40:28] INFO root fetch - processPackages [vk-teams-async-bot]: executing diffoscope
+[2024-04-05 14:40:28] INFO root fetch - processPackages [vk-teams-async-bot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vk_teams_async_bot-0.1.5.tar.gz tmp/vk_teams_async_bot-0.2.0.tar.gz --markdown 20240405/v/vk-teams-async-bot/0.1.5-0.2.0/diff.md --exclude *.pyd
+[2024-04-05 14:40:28] INFO root fetch - processPackages [avassa-client]: New version: [2024.4.0] Old Version: [2024.1.1]
+[2024-04-05 14:40:28] INFO root fetch - processPackages [windowsregistry]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-04-05 14:40:28] WARNING root fetch - processPackages [energy-base]: Timeout reached during download
+[2024-04-05 14:40:28] INFO root fetch - processPackages [energy-base]: executing diffoscope
+[2024-04-05 14:40:28] INFO root fetch - processPackages [energy-base]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/energy_base-1.6.5.tar.gz tmp/energy_base-1.6.6.tar.gz --markdown 20240405/e/energy-base/1.6.5-1.6.6/diff.md --exclude *.pyd
+[2024-04-05 14:40:28] WARNING root fetch - processPackages [last_layer]: Timeout reached during download
+[2024-04-05 14:40:28] INFO root fetch - processPackages [grvtree]: Downloading https://files.pythonhosted.org/packages/1a/6a/14042b8f9e683e09071458c8c5621e33260bf8471557fbc0b8fc8bb0135f/grvtree-0.1.2.tar.gz
+[2024-04-05 14:40:28] INFO root fetch - processPackages [filecloudsync]: Downloading https://files.pythonhosted.org/packages/01/1c/0870cd0fba7a67fc0ad51f963a2ccae0225ac4f99b4211e4aa248db99d73/filecloudsync-0.0.9.tar.gz
+[2024-04-05 14:40:28] INFO root fetch - processPackages [mathutils-vinit]: Downloading https://files.pythonhosted.org/packages/8d/d9/ca8c23b636b0e4a6407742e95f2e4de378149424ac5f709e56f6327748c3/mathutils_vinit-0.0.4.tar.gz
+[2024-04-05 14:40:28] INFO root fetch - processPackages [avassa-client]: Downloading https://files.pythonhosted.org/packages/53/f8/1f01339324776681de0457134cd807f24f19e93d2976bae20575203c07b1/avassa-client-2024.1.1.tar.gz
+[2024-04-05 14:40:28] INFO root fetch - processPackages [windowsregistry]: Downloading https://files.pythonhosted.org/packages/4d/a0/bbba3d106861de2ba68f4c9cf63c5884fd356bc2a0a33176106e9f355dc2/windowsregistry-0.1.0.tar.gz
+[2024-04-05 14:40:28] INFO root fetch - processPackages [last_layer]: Downloading https://files.pythonhosted.org/packages/ba/5c/9717529382717b01a8d253fbde5df929cf27f1b00f67081b6b7cdb0e5ec5/last_layer-0.1.9.tar.gz
+[2024-04-05 14:40:28] WARNING root fetch - processPackages [filecloudsync]: Timeout reached during download
+[2024-04-05 14:40:28] INFO root fetch - processPackages [filecloudsync]: executing diffoscope
+[2024-04-05 14:40:28] INFO root fetch - processPackages [filecloudsync]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/filecloudsync-0.0.8.tar.gz tmp/filecloudsync-0.0.9.tar.gz --markdown 20240405/f/filecloudsync/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2024-04-05 14:40:28] WARNING root fetch - processPackages [mathutils-vinit]: Timeout reached during download
+[2024-04-05 14:40:28] INFO root fetch - processPackages [mathutils-vinit]: executing diffoscope
+[2024-04-05 14:40:28] INFO root fetch - processPackages [mathutils-vinit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mathutils_vinit-0.0.3.tar.gz tmp/mathutils_vinit-0.0.4.tar.gz --markdown 20240405/m/mathutils-vinit/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2024-04-05 14:40:28] WARNING root fetch - processPackages [grvtree]: Timeout reached during download
+[2024-04-05 14:40:28] INFO root fetch - processPackages [maui-software]: Remove: archive file [/home/abi/fetcher/tmp/maui_software-0.1.8.tar.gz]
+[2024-04-05 14:40:28] INFO root fetch - processPackages [grvtree]: executing diffoscope
+[2024-04-05 14:40:28] INFO root fetch - processPackages [grvtree]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/grvtree-0.1.1.tar.gz tmp/grvtree-0.1.2.tar.gz --markdown 20240405/g/grvtree/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2024-04-05 14:40:28] INFO root fetch - processPackages [maui-software]: Remove: archive file [/home/abi/fetcher/tmp/maui_software-0.1.9.tar.gz]
+[2024-04-05 14:40:28] INFO root fetch - main [MainThread]: End processing [maui-software]: success
+[2024-04-05 14:40:28] WARNING root fetch - processPackages [windowsregistry]: Timeout reached during download
+[2024-04-05 14:40:28] WARNING root fetch - processPackages [avassa-client]: Timeout reached during download
+[2024-04-05 14:40:29] INFO root fetch - processPackages [windowsregistry]: Downloading https://files.pythonhosted.org/packages/a5/37/8363ad2e47b775b56a43baaa86266625969e9fc5d1e1f6eaae67fbbf03eb/windowsregistry-0.1.1.tar.gz
+[2024-04-05 14:40:29] INFO root fetch - processPackages [vk-teams-async-bot]: Remove: archive file [/home/abi/fetcher/tmp/vk_teams_async_bot-0.1.5.tar.gz]
+[2024-04-05 14:40:29] INFO root fetch - processPackages [vk-teams-async-bot]: Remove: archive file [/home/abi/fetcher/tmp/vk_teams_async_bot-0.2.0.tar.gz]
+[2024-04-05 14:40:29] INFO root fetch - main [MainThread]: End processing [vk-teams-async-bot]: success
+[2024-04-05 14:40:29] INFO root fetch - processPackages [avassa-client]: Downloading https://files.pythonhosted.org/packages/ea/7a/6d1d05ae0c9598427f2139ed94d1f7b13ba5d3aec06e3ca64d263d451011/avassa-client-2024.4.0.tar.gz
+[2024-04-05 14:40:29] INFO root fetch - processPackages [energy-base]: Remove: archive file [/home/abi/fetcher/tmp/energy_base-1.6.5.tar.gz]
+[2024-04-05 14:40:29] INFO root fetch - processPackages [energy-base]: Remove: archive file [/home/abi/fetcher/tmp/energy_base-1.6.6.tar.gz]
+[2024-04-05 14:40:29] INFO root fetch - main [MainThread]: End processing [energy-base]: success
+[2024-04-05 14:40:29] WARNING root fetch - processPackages [bigdl-llm]: Timeout reached during download
+[2024-04-05 14:40:29] WARNING root fetch - processPackages [avassa-client]: Timeout reached during download
+[2024-04-05 14:40:29] INFO root fetch - processPackages [avassa-client]: executing diffoscope
+[2024-04-05 14:40:29] INFO root fetch - processPackages [avassa-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/avassa-client-2024.1.1.tar.gz tmp/avassa-client-2024.4.0.tar.gz --markdown 20240405/a/avassa-client/2024.1.1-2024.4.0/diff.md --exclude *.pyd
+[2024-04-05 14:40:29] INFO root fetch - processPackages [bigdl-llm]: Downloading https://files.pythonhosted.org/packages/f1/10/9304cc613306d4bad35068520af4a0fa1034ccd18332589528c2e0cfe598/bigdl_llm-2.5.0b20240404-py3-none-win_amd64.whl
+[2024-04-05 14:40:29] INFO root fetch - processPackages [grvtree]: Remove: archive file [/home/abi/fetcher/tmp/grvtree-0.1.1.tar.gz]
+[2024-04-05 14:40:29] INFO root fetch - processPackages [grvtree]: Remove: archive file [/home/abi/fetcher/tmp/grvtree-0.1.2.tar.gz]
+[2024-04-05 14:40:29] INFO root fetch - main [MainThread]: End processing [grvtree]: success
+[2024-04-05 14:40:29] INFO root fetch - processPackages [filecloudsync]: Remove: archive file [/home/abi/fetcher/tmp/filecloudsync-0.0.8.tar.gz]
+[2024-04-05 14:40:29] INFO root fetch - processPackages [filecloudsync]: Remove: archive file [/home/abi/fetcher/tmp/filecloudsync-0.0.9.tar.gz]
+[2024-04-05 14:40:29] INFO root fetch - main [MainThread]: End processing [filecloudsync]: success
+[2024-04-05 14:40:29] WARNING root fetch - processPackages [last_layer]: Timeout reached during download
+[2024-04-05 14:40:29] INFO root fetch - processPackages [last_layer]: executing diffoscope
+[2024-04-05 14:40:29] INFO root fetch - processPackages [last_layer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/last_layer-0.1.8.tar.gz tmp/last_layer-0.1.9.tar.gz --markdown 20240405/l/last_layer/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2024-04-05 14:40:29] INFO root fetch - processPackages [mathutils-vinit]: Remove: archive file [/home/abi/fetcher/tmp/mathutils_vinit-0.0.3.tar.gz]
+[2024-04-05 14:40:29] INFO root fetch - processPackages [mathutils-vinit]: Remove: archive file [/home/abi/fetcher/tmp/mathutils_vinit-0.0.4.tar.gz]
+[2024-04-05 14:40:29] INFO root fetch - main [MainThread]: End processing [mathutils-vinit]: success
+[2024-04-05 14:40:29] WARNING root fetch - processPackages [windowsregistry]: Timeout reached during download
+[2024-04-05 14:40:29] INFO root fetch - processPackages [windowsregistry]: executing diffoscope
+[2024-04-05 14:40:29] INFO root fetch - processPackages [windowsregistry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/windowsregistry-0.1.0.tar.gz tmp/windowsregistry-0.1.1.tar.gz --markdown 20240405/w/windowsregistry/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2024-04-05 14:40:29] WARNING root fetch - processPackages [bigdl-llm]: Timeout reached during download
+[2024-04-05 14:40:29] INFO root fetch - processPackages [bigdl-llm]: executing diffoscope
+[2024-04-05 14:40:29] INFO root fetch - processPackages [bigdl-llm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_llm-2.5.0b20240403-py3-none-win_amd64.whl.zip tmp/bigdl_llm-2.5.0b20240404-py3-none-win_amd64.whl.zip --markdown 20240405/b/bigdl-llm/2.5.0b20240403-2.5.0b20240404/diff.md --exclude *.pyd
+[2024-04-05 14:40:29] INFO root fetch - processPackages [avassa-client]: Remove: archive file [/home/abi/fetcher/tmp/avassa-client-2024.1.1.tar.gz]
+[2024-04-05 14:40:29] INFO root fetch - processPackages [avassa-client]: Remove: archive file [/home/abi/fetcher/tmp/avassa-client-2024.4.0.tar.gz]
+[2024-04-05 14:40:29] INFO root fetch - main [MainThread]: End processing [avassa-client]: success
+[2024-04-05 14:40:30] INFO root fetch - processPackages [windowsregistry]: Remove: archive file [/home/abi/fetcher/tmp/windowsregistry-0.1.0.tar.gz]
+[2024-04-05 14:40:30] INFO root fetch - processPackages [windowsregistry]: Remove: archive file [/home/abi/fetcher/tmp/windowsregistry-0.1.1.tar.gz]
+[2024-04-05 14:40:30] INFO root fetch - main [MainThread]: End processing [windowsregistry]: success
+[2024-04-05 14:40:30] INFO root fetch - processPackages [last_layer]: Remove: archive file [/home/abi/fetcher/tmp/last_layer-0.1.8.tar.gz]
+[2024-04-05 14:40:30] INFO root fetch - processPackages [last_layer]: Remove: archive file [/home/abi/fetcher/tmp/last_layer-0.1.9.tar.gz]
+[2024-04-05 14:40:30] INFO root fetch - main [MainThread]: End processing [last_layer]: success
+[2024-04-05 14:40:30] INFO root fetch - processPackages [bigdl-llm]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_llm-2.5.0b20240403-py3-none-win_amd64.whl.zip]
+[2024-04-05 14:40:30] INFO root fetch - processPackages [bigdl-llm]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_llm-2.5.0b20240404-py3-none-win_amd64.whl.zip]
+[2024-04-05 14:40:30] INFO root fetch - main [MainThread]: End processing [bigdl-llm]: success
+[2024-04-05 14:40:30] INFO root fetch - main [MainThread]: Store serial: [22635986]
