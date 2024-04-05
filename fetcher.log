@@ -14382,3 +14382,85 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2024-04-05 09:05:01] INFO root fetch - processPackages [cpop]: Remove: archive file [/home/abi/fetcher/tmp/cpop-29.1.0.tar.gz]
 [2024-04-05 09:05:01] INFO root fetch - main [MainThread]: End processing [cpop]: success
 [2024-04-05 09:05:01] INFO root fetch - main [MainThread]: Store serial: [22632696]
+[2024-04-05 09:07:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22632696]
+[2024-04-05 09:07:10] INFO root fetch - main [MainThread]: No changed packages found
+[2024-04-05 09:09:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22632696]
+[2024-04-05 09:09:15] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-05 09:09:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: salure-helpers-salesforce
+[2024-04-05 09:09:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lib-pybroker
+[2024-04-05 09:09:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: shimoku-browser
+[2024-04-05 09:09:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: shimoku
+[2024-04-05 09:09:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: qtlink
+[2024-04-05 09:09:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nifcloud
+[2024-04-05 09:09:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: odoo-addon-stay
+[2024-04-05 09:09:15] INFO root fetch - processPackages [shimoku]: New version: [2.2.3] Old Version: [2.2.2]
+[2024-04-05 09:09:15] INFO root fetch - processPackages [lib-pybroker]: New version: [1.1.9] Old Version: [1.1.8]
+[2024-04-05 09:09:15] INFO root fetch - processPackages [qtlink]: New version: [1.0.5] Old Version: [1.0.4]
+[2024-04-05 09:09:15] INFO root fetch - processPackages [salure-helpers-salesforce]: New version: [1.4.0] Old Version: [1.3.0]
+[2024-04-05 09:09:15] INFO root fetch - processPackages [shimoku-browser]: New version: [2.2.3] Old Version: [2.2.2]
+[2024-04-05 09:09:15] INFO root fetch - processPackages [nifcloud]: New version: [1.9.0] Old Version: [1.8.0]
+[2024-04-05 09:09:15] INFO root fetch - processPackages [odoo-addon-stay]: New version: [16.0.1.2.0.4] Old Version: [16.0.1.2.0.3]
+[2024-04-05 09:09:15] INFO root fetch - processPackages [shimoku]: Downloading https://files.pythonhosted.org/packages/62/24/c0d92b2bb0ac6ab5b47f69cc2b36ae81f4f465cfda51944834994a39a962/shimoku-2.2.2.tar.gz
+[2024-04-05 09:09:15] INFO root fetch - processPackages [salure-helpers-salesforce]: Downloading https://files.pythonhosted.org/packages/5e/b1/f3f9be19853d429a11a10a251214fafeebc7cdde25ace053f7f81920bb18/salure_helpers_salesforce-1.3.0.tar.gz
+[2024-04-05 09:09:15] INFO root fetch - processPackages [lib-pybroker]: Downloading https://files.pythonhosted.org/packages/34/3c/7a7a15f5a575198f5681a2eacd112a20ad5dca5783c6e8b758896a6818cf/lib-pybroker-1.1.8.tar.gz
+[2024-04-05 09:09:15] INFO root fetch - processPackages [qtlink]: Downloading https://files.pythonhosted.org/packages/18/1e/784379cdc8753ebe50f7b6aa71377ce17a56d511d517209ac8c1f705e878/qtlink-1.0.4.tar.gz
+[2024-04-05 09:09:15] INFO root fetch - processPackages [shimoku-browser]: Downloading https://files.pythonhosted.org/packages/6b/6e/55b9675bf0d838c50517804167a8e3ecb3f8800697a573d8e6de320fb431/shimoku-browser-2.2.2.tar.gz
+[2024-04-05 09:09:15] INFO root fetch - processPackages [nifcloud]: Downloading https://files.pythonhosted.org/packages/e5/66/7d7a8fc91eca13ad0e4fc20105fe097cf9f4d950f10900e86d6f697bfe81/nifcloud-1.8.0.tar.gz
+[2024-04-05 09:09:15] INFO root fetch - processPackages [odoo-addon-stay]: Downloading https://files.pythonhosted.org/packages/95/d1/90cf82b213e1e52b06b92c603c9dbd0346e8f1515660a51902a94b7e684a/odoo_addon_stay-16.0.1.2.0.3-py3-none-any.whl
+[2024-04-05 09:09:15] WARNING root fetch - processPackages [salure-helpers-salesforce]: Timeout reached during download
+[2024-04-05 09:09:15] WARNING root fetch - processPackages [shimoku]: Timeout reached during download
+[2024-04-05 09:09:15] WARNING root fetch - processPackages [qtlink]: Timeout reached during download
+[2024-04-05 09:09:15] WARNING root fetch - processPackages [lib-pybroker]: Timeout reached during download
+[2024-04-05 09:09:15] WARNING root fetch - processPackages [nifcloud]: Timeout reached during download
+[2024-04-05 09:09:15] WARNING root fetch - processPackages [odoo-addon-stay]: Timeout reached during download
+[2024-04-05 09:09:15] WARNING root fetch - processPackages [shimoku-browser]: Timeout reached during download
+[2024-04-05 09:09:15] INFO root fetch - processPackages [salure-helpers-salesforce]: Downloading https://files.pythonhosted.org/packages/62/63/310970e2388bb12d37eed6ae5f3c7eb757538e7946ec50b0451a6f5c8c69/salure_helpers_salesforce-1.4.0.tar.gz
+[2024-04-05 09:09:16] INFO root fetch - processPackages [shimoku]: Downloading https://files.pythonhosted.org/packages/f1/02/d3bda0939adc13995eef2f0b749b5003d0d03472ebb0c947ee3b863b8973/shimoku-2.2.3.tar.gz
+[2024-04-05 09:09:16] INFO root fetch - processPackages [qtlink]: Downloading https://files.pythonhosted.org/packages/ec/be/ce2add247f7dc66ffaf1ec2a80d9ecb46b28c4f710c8b3152134a55cebbd/qtlink-1.0.5.tar.gz
+[2024-04-05 09:09:16] INFO root fetch - processPackages [lib-pybroker]: Downloading https://files.pythonhosted.org/packages/92/47/5d3c2f878c1e65d38032b9450a585161c2761a80814b046f502951c65eed/lib-pybroker-1.1.9.tar.gz
+[2024-04-05 09:09:16] WARNING root fetch - processPackages [salure-helpers-salesforce]: Timeout reached during download
+[2024-04-05 09:09:16] INFO root fetch - processPackages [salure-helpers-salesforce]: executing diffoscope
+[2024-04-05 09:09:16] INFO root fetch - processPackages [salure-helpers-salesforce]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/salure_helpers_salesforce-1.3.0.tar.gz tmp/salure_helpers_salesforce-1.4.0.tar.gz --markdown 20240405/s/salure-helpers-salesforce/1.3.0-1.4.0/diff.md --exclude *.pyd
+[2024-04-05 09:09:16] INFO root fetch - processPackages [nifcloud]: Downloading https://files.pythonhosted.org/packages/1a/0c/4b6b598b2bdb1def6860d3e4c687af6690d82f4504ce36329cc1391d7edf/nifcloud-1.9.0.tar.gz
+[2024-04-05 09:09:16] INFO root fetch - processPackages [odoo-addon-stay]: Downloading https://files.pythonhosted.org/packages/ef/f0/b99a884e768badb52ef1488a0ef6b9c0105639da9d9a802fc2d42c6eae79/odoo_addon_stay-16.0.1.2.0.4-py3-none-any.whl
+[2024-04-05 09:09:16] INFO root fetch - processPackages [shimoku-browser]: Downloading https://files.pythonhosted.org/packages/4b/cf/44676842a93bfa119a2ce77644d1db468a13433b89ee48cb603b2de398cf/shimoku-browser-2.2.3.tar.gz
+[2024-04-05 09:09:16] WARNING root fetch - processPackages [qtlink]: Timeout reached during download
+[2024-04-05 09:09:16] INFO root fetch - processPackages [qtlink]: executing diffoscope
+[2024-04-05 09:09:16] INFO root fetch - processPackages [qtlink]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qtlink-1.0.4.tar.gz tmp/qtlink-1.0.5.tar.gz --markdown 20240405/q/qtlink/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2024-04-05 09:09:16] WARNING root fetch - processPackages [lib-pybroker]: Timeout reached during download
+[2024-04-05 09:09:16] INFO root fetch - processPackages [lib-pybroker]: executing diffoscope
+[2024-04-05 09:09:16] INFO root fetch - processPackages [lib-pybroker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lib-pybroker-1.1.8.tar.gz tmp/lib-pybroker-1.1.9.tar.gz --markdown 20240405/l/lib-pybroker/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2024-04-05 09:09:16] WARNING root fetch - processPackages [shimoku]: Timeout reached during download
+[2024-04-05 09:09:16] INFO root fetch - processPackages [shimoku]: executing diffoscope
+[2024-04-05 09:09:16] INFO root fetch - processPackages [shimoku]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shimoku-2.2.2.tar.gz tmp/shimoku-2.2.3.tar.gz --markdown 20240405/s/shimoku/2.2.2-2.2.3/diff.md --exclude *.pyd
+[2024-04-05 09:09:16] WARNING root fetch - processPackages [nifcloud]: Timeout reached during download
+[2024-04-05 09:09:16] INFO root fetch - processPackages [nifcloud]: executing diffoscope
+[2024-04-05 09:09:16] INFO root fetch - processPackages [nifcloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nifcloud-1.8.0.tar.gz tmp/nifcloud-1.9.0.tar.gz --markdown 20240405/n/nifcloud/1.8.0-1.9.0/diff.md --exclude *.pyd
+[2024-04-05 09:09:16] WARNING root fetch - processPackages [odoo-addon-stay]: Timeout reached during download
+[2024-04-05 09:09:16] INFO root fetch - processPackages [odoo-addon-stay]: executing diffoscope
+[2024-04-05 09:09:16] INFO root fetch - processPackages [odoo-addon-stay]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_stay-16.0.1.2.0.3-py3-none-any.whl.zip tmp/odoo_addon_stay-16.0.1.2.0.4-py3-none-any.whl.zip --markdown 20240405/o/odoo-addon-stay/16.0.1.2.0.3-16.0.1.2.0.4/diff.md --exclude *.pyd
+[2024-04-05 09:09:16] WARNING root fetch - processPackages [shimoku-browser]: Timeout reached during download
+[2024-04-05 09:09:16] INFO root fetch - processPackages [shimoku-browser]: executing diffoscope
+[2024-04-05 09:09:16] INFO root fetch - processPackages [shimoku-browser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shimoku-browser-2.2.2.tar.gz tmp/shimoku-browser-2.2.3.tar.gz --markdown 20240405/s/shimoku-browser/2.2.2-2.2.3/diff.md --exclude *.pyd
+[2024-04-05 09:09:16] INFO root fetch - processPackages [salure-helpers-salesforce]: Remove: archive file [/home/abi/fetcher/tmp/salure_helpers_salesforce-1.3.0.tar.gz]
+[2024-04-05 09:09:16] INFO root fetch - processPackages [salure-helpers-salesforce]: Remove: archive file [/home/abi/fetcher/tmp/salure_helpers_salesforce-1.4.0.tar.gz]
+[2024-04-05 09:09:16] INFO root fetch - main [MainThread]: End processing [salure-helpers-salesforce]: success
+[2024-04-05 09:09:17] INFO root fetch - processPackages [qtlink]: Remove: archive file [/home/abi/fetcher/tmp/qtlink-1.0.4.tar.gz]
+[2024-04-05 09:09:17] INFO root fetch - processPackages [qtlink]: Remove: archive file [/home/abi/fetcher/tmp/qtlink-1.0.5.tar.gz]
+[2024-04-05 09:09:17] INFO root fetch - main [MainThread]: End processing [qtlink]: success
+[2024-04-05 09:09:17] INFO root fetch - processPackages [lib-pybroker]: Remove: archive file [/home/abi/fetcher/tmp/lib-pybroker-1.1.8.tar.gz]
+[2024-04-05 09:09:17] INFO root fetch - processPackages [lib-pybroker]: Remove: archive file [/home/abi/fetcher/tmp/lib-pybroker-1.1.9.tar.gz]
+[2024-04-05 09:09:17] INFO root fetch - main [MainThread]: End processing [lib-pybroker]: success
+[2024-04-05 09:09:17] INFO root fetch - processPackages [odoo-addon-stay]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_stay-16.0.1.2.0.3-py3-none-any.whl.zip]
+[2024-04-05 09:09:17] INFO root fetch - processPackages [odoo-addon-stay]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_stay-16.0.1.2.0.4-py3-none-any.whl.zip]
+[2024-04-05 09:09:17] INFO root fetch - main [MainThread]: End processing [odoo-addon-stay]: success
+[2024-04-05 09:09:17] INFO root fetch - processPackages [nifcloud]: Remove: archive file [/home/abi/fetcher/tmp/nifcloud-1.8.0.tar.gz]
+[2024-04-05 09:09:17] INFO root fetch - processPackages [nifcloud]: Remove: archive file [/home/abi/fetcher/tmp/nifcloud-1.9.0.tar.gz]
+[2024-04-05 09:09:17] INFO root fetch - main [MainThread]: End processing [nifcloud]: success
+[2024-04-05 09:09:17] INFO root fetch - processPackages [shimoku]: Remove: archive file [/home/abi/fetcher/tmp/shimoku-2.2.2.tar.gz]
+[2024-04-05 09:09:17] INFO root fetch - processPackages [shimoku]: Remove: archive file [/home/abi/fetcher/tmp/shimoku-2.2.3.tar.gz]
+[2024-04-05 09:09:17] INFO root fetch - main [MainThread]: End processing [shimoku]: success
+[2024-04-05 09:09:17] INFO root fetch - processPackages [shimoku-browser]: Remove: archive file [/home/abi/fetcher/tmp/shimoku-browser-2.2.2.tar.gz]
+[2024-04-05 09:09:17] INFO root fetch - processPackages [shimoku-browser]: Remove: archive file [/home/abi/fetcher/tmp/shimoku-browser-2.2.3.tar.gz]
+[2024-04-05 09:09:17] INFO root fetch - main [MainThread]: End processing [shimoku-browser]: success
+[2024-04-05 09:09:17] INFO root fetch - main [MainThread]: Store serial: [22632716]
