@@ -6648,3 +6648,688 @@
 [2024-04-05 03:10:49] INFO root fetch - processPackages [pytexmk]: Remove: archive file [/home/abi/fetcher/tmp/pytexmk-0.4.3.240405.tar.gz]
 [2024-04-05 03:10:49] INFO root fetch - main [MainThread]: End processing [pytexmk]: success
 [2024-04-05 03:10:49] INFO root fetch - main [MainThread]: Store serial: [22630007]
+[2024-04-05 03:12:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22630007]
+[2024-04-05 03:12:58] INFO root fetch - main [MainThread]: Found 62 changed packages
+[2024-04-05 03:12:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: botocore-a-la-carte-route53
+[2024-04-05 03:12:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: botocore-a-la-carte-robomaker
+[2024-04-05 03:12:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: botocore-a-la-carte-backup
+[2024-04-05 03:12:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: botocore-a-la-carte-chime-sdk-messaging
+[2024-04-05 03:12:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: botocore-a-la-carte-opensearch
+[2024-04-05 03:12:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: botocore-a-la-carte-quicksight
+[2024-04-05 03:12:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: botocore-a-la-carte-marketplace-agreement
+[2024-04-05 03:12:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: botocore-a-la-carte-verifiedpermissions
+[2024-04-05 03:12:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: botocore-a-la-carte-mgn
+[2024-04-05 03:12:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: botocore-a-la-carte-iotsecuretunneling
+[2024-04-05 03:12:58] INFO root fetch - processPackages [botocore-a-la-carte-route53]: New version: [1.34.9] Old Version: [1.34.8]
+[2024-04-05 03:12:58] INFO root fetch - processPackages [botocore-a-la-carte-verifiedpermissions]: New version: [1.34.9] Old Version: [1.34.8]
+[2024-04-05 03:12:58] INFO root fetch - processPackages [botocore-a-la-carte-robomaker]: New version: [1.34.9] Old Version: [1.34.8]
+[2024-04-05 03:12:58] INFO root fetch - processPackages [botocore-a-la-carte-marketplace-agreement]: New version: [1.34.9] Old Version: [1.34.8]
+[2024-04-05 03:12:58] INFO root fetch - processPackages [botocore-a-la-carte-route53]: Downloading https://files.pythonhosted.org/packages/2e/a9/3418e12b22c3b94eeafb175ffb11ee5d5e33b5c546c1c5cee586697c288d/botocore-a-la-carte-route53-1.34.8.tar.gz
+[2024-04-05 03:12:58] INFO root fetch - processPackages [botocore-a-la-carte-backup]: New version: [1.34.9] Old Version: [1.34.8]
+[2024-04-05 03:12:58] INFO root fetch - processPackages [botocore-a-la-carte-quicksight]: New version: [1.34.9] Old Version: [1.34.8]
+[2024-04-05 03:12:58] INFO root fetch - processPackages [botocore-a-la-carte-mgn]: New version: [1.34.9] Old Version: [1.34.8]
+[2024-04-05 03:12:58] INFO root fetch - processPackages [botocore-a-la-carte-opensearch]: New version: [1.34.9] Old Version: [1.34.8]
+[2024-04-05 03:12:58] INFO root fetch - processPackages [botocore-a-la-carte-chime-sdk-messaging]: New version: [1.34.9] Old Version: [1.34.8]
+[2024-04-05 03:12:58] INFO root fetch - processPackages [botocore-a-la-carte-iotsecuretunneling]: New version: [1.34.9] Old Version: [1.34.8]
+[2024-04-05 03:12:58] WARNING root fetch - processPackages [botocore-a-la-carte-route53]: Timeout reached during download
+[2024-04-05 03:12:58] INFO root fetch - processPackages [botocore-a-la-carte-quicksight]: Downloading https://files.pythonhosted.org/packages/0f/d6/6ece300045eaffa914f47731f43f1c01479e2bfeebd59350d03c1d85c86b/botocore-a-la-carte-quicksight-1.34.8.tar.gz
+[2024-04-05 03:12:58] INFO root fetch - processPackages [botocore-a-la-carte-chime-sdk-messaging]: Downloading https://files.pythonhosted.org/packages/3c/7b/f7a48a82307d82ee664f7d6b14be6c91c1aed35a3a2ba19626966adf4f94/botocore-a-la-carte-chime-sdk-messaging-1.34.8.tar.gz
+[2024-04-05 03:12:58] INFO root fetch - processPackages [botocore-a-la-carte-marketplace-agreement]: Downloading https://files.pythonhosted.org/packages/5e/fc/77c4679b01a3a57d2ed8d281f9fde3a19b259e1bd80a694ca3ed89ed5c0c/botocore-a-la-carte-marketplace-agreement-1.34.8.tar.gz
+[2024-04-05 03:12:58] INFO root fetch - processPackages [botocore-a-la-carte-verifiedpermissions]: Downloading https://files.pythonhosted.org/packages/83/39/eb253c886169ab565f2bb64bb5f30aea73ebdb18222b5fc42dabb67a0eec/botocore-a-la-carte-verifiedpermissions-1.34.8.tar.gz
+[2024-04-05 03:12:58] INFO root fetch - processPackages [botocore-a-la-carte-robomaker]: Downloading https://files.pythonhosted.org/packages/02/0c/14a990d07da4316233a714882c14c99cf909ccda6c684dc715bc03f2092d/botocore-a-la-carte-robomaker-1.34.8.tar.gz
+[2024-04-05 03:12:59] INFO root fetch - processPackages [botocore-a-la-carte-route53]: Downloading https://files.pythonhosted.org/packages/32/0f/2b6897b9256c51003bd16b4ba08a791f75c6cbc7e3a7f807b9c1d7c0e7fc/botocore-a-la-carte-route53-1.34.9.tar.gz
+[2024-04-05 03:12:59] INFO root fetch - processPackages [botocore-a-la-carte-backup]: Downloading https://files.pythonhosted.org/packages/fa/a1/2ee5bf43d308ce26c7a494ce44044a1f714eb0c8d44ab1601aa549027782/botocore-a-la-carte-backup-1.34.8.tar.gz
+[2024-04-05 03:12:59] INFO root fetch - processPackages [botocore-a-la-carte-opensearch]: Downloading https://files.pythonhosted.org/packages/9d/0b/e7bc36ed23d725af0d8ce025ecb515827ec7c3d3639edc64ec4416f485b7/botocore-a-la-carte-opensearch-1.34.8.tar.gz
+[2024-04-05 03:12:59] INFO root fetch - processPackages [botocore-a-la-carte-iotsecuretunneling]: Downloading https://files.pythonhosted.org/packages/52/1a/9536b77c46a665ca42993113b497fe1160812750bd4d55536b46f1f8bbf0/botocore-a-la-carte-iotsecuretunneling-1.34.8.tar.gz
+[2024-04-05 03:12:59] INFO root fetch - processPackages [botocore-a-la-carte-mgn]: Downloading https://files.pythonhosted.org/packages/f1/44/77f2b64f3ac82aee85011ec7d2b59e217fd06958984577782a922231545e/botocore-a-la-carte-mgn-1.34.8.tar.gz
+[2024-04-05 03:12:59] WARNING root fetch - processPackages [botocore-a-la-carte-chime-sdk-messaging]: Timeout reached during download
+[2024-04-05 03:12:59] WARNING root fetch - processPackages [botocore-a-la-carte-marketplace-agreement]: Timeout reached during download
+[2024-04-05 03:12:59] WARNING root fetch - processPackages [botocore-a-la-carte-quicksight]: Timeout reached during download
+[2024-04-05 03:12:59] WARNING root fetch - processPackages [botocore-a-la-carte-robomaker]: Timeout reached during download
+[2024-04-05 03:12:59] WARNING root fetch - processPackages [botocore-a-la-carte-verifiedpermissions]: Timeout reached during download
+[2024-04-05 03:12:59] WARNING root fetch - processPackages [botocore-a-la-carte-opensearch]: Timeout reached during download
+[2024-04-05 03:12:59] WARNING root fetch - processPackages [botocore-a-la-carte-route53]: Timeout reached during download
+[2024-04-05 03:12:59] INFO root fetch - processPackages [botocore-a-la-carte-route53]: executing diffoscope
+[2024-04-05 03:12:59] INFO root fetch - processPackages [botocore-a-la-carte-route53]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/botocore-a-la-carte-route53-1.34.8.tar.gz tmp/botocore-a-la-carte-route53-1.34.9.tar.gz --markdown 20240405/b/botocore-a-la-carte-route53/1.34.8-1.34.9/diff.md --exclude *.pyd
+[2024-04-05 03:12:59] WARNING root fetch - processPackages [botocore-a-la-carte-backup]: Timeout reached during download
+[2024-04-05 03:12:59] WARNING root fetch - processPackages [botocore-a-la-carte-iotsecuretunneling]: Timeout reached during download
+[2024-04-05 03:12:59] WARNING root fetch - processPackages [botocore-a-la-carte-mgn]: Timeout reached during download
+[2024-04-05 03:12:59] INFO root fetch - processPackages [botocore-a-la-carte-chime-sdk-messaging]: Downloading https://files.pythonhosted.org/packages/71/f1/2d77c2548f14794d6cf595efe68380226d8f6e792c44a2e2c5c6268b3808/botocore-a-la-carte-chime-sdk-messaging-1.34.9.tar.gz
+[2024-04-05 03:12:59] INFO root fetch - processPackages [botocore-a-la-carte-verifiedpermissions]: Downloading https://files.pythonhosted.org/packages/db/21/669c9ae809a1e37301076b5d0da90ade17c7085349a3bb1f86c02c4a0af3/botocore-a-la-carte-verifiedpermissions-1.34.9.tar.gz
+[2024-04-05 03:12:59] INFO root fetch - processPackages [botocore-a-la-carte-quicksight]: Downloading https://files.pythonhosted.org/packages/bc/9c/bb18452d4ae42c8669368f949d5cfe7a96d11b4f9cb910fcfc646fd107fd/botocore-a-la-carte-quicksight-1.34.9.tar.gz
+[2024-04-05 03:12:59] INFO root fetch - processPackages [botocore-a-la-carte-opensearch]: Downloading https://files.pythonhosted.org/packages/35/a5/9531af923bc4cce2c4a7600c0c93f80fea5cc83a620c0639a6d585122eb9/botocore-a-la-carte-opensearch-1.34.9.tar.gz
+[2024-04-05 03:12:59] INFO root fetch - processPackages [botocore-a-la-carte-robomaker]: Downloading https://files.pythonhosted.org/packages/cd/20/f038f6f30b0fca00c48349c463090a83d8aca2192cb5b772f97b4dca7a98/botocore-a-la-carte-robomaker-1.34.9.tar.gz
+[2024-04-05 03:12:59] INFO root fetch - processPackages [botocore-a-la-carte-marketplace-agreement]: Downloading https://files.pythonhosted.org/packages/9d/38/c32604a4ea54e1421d2ec1cf4f78d398a245e474c690ff8f862bec87d8a5/botocore-a-la-carte-marketplace-agreement-1.34.9.tar.gz
+[2024-04-05 03:12:59] INFO root fetch - processPackages [botocore-a-la-carte-backup]: Downloading https://files.pythonhosted.org/packages/75/21/8c7763c3928b76e364dfa8b79622ba82dfee00f5866eca86eaa1f16d90f6/botocore-a-la-carte-backup-1.34.9.tar.gz
+[2024-04-05 03:12:59] INFO root fetch - processPackages [botocore-a-la-carte-iotsecuretunneling]: Downloading https://files.pythonhosted.org/packages/05/ea/bbfe122d012cd8fbe697ecae0c84485d748be1c2e96d5eeb5716b82dbc86/botocore-a-la-carte-iotsecuretunneling-1.34.9.tar.gz
+[2024-04-05 03:12:59] WARNING root fetch - processPackages [botocore-a-la-carte-chime-sdk-messaging]: Timeout reached during download
+[2024-04-05 03:12:59] INFO root fetch - processPackages [botocore-a-la-carte-chime-sdk-messaging]: executing diffoscope
+[2024-04-05 03:12:59] INFO root fetch - processPackages [botocore-a-la-carte-chime-sdk-messaging]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/botocore-a-la-carte-chime-sdk-messaging-1.34.8.tar.gz tmp/botocore-a-la-carte-chime-sdk-messaging-1.34.9.tar.gz --markdown 20240405/b/botocore-a-la-carte-chime-sdk-messaging/1.34.8-1.34.9/diff.md --exclude *.pyd
+[2024-04-05 03:12:59] INFO root fetch - processPackages [botocore-a-la-carte-mgn]: Downloading https://files.pythonhosted.org/packages/a1/ae/be183470930b106a1cf8da1ac5d15d4445e09866b6242603cbca964f1d91/botocore-a-la-carte-mgn-1.34.9.tar.gz
+[2024-04-05 03:12:59] WARNING root fetch - processPackages [botocore-a-la-carte-verifiedpermissions]: Timeout reached during download
+[2024-04-05 03:12:59] INFO root fetch - processPackages [botocore-a-la-carte-verifiedpermissions]: executing diffoscope
+[2024-04-05 03:12:59] INFO root fetch - processPackages [botocore-a-la-carte-verifiedpermissions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/botocore-a-la-carte-verifiedpermissions-1.34.8.tar.gz tmp/botocore-a-la-carte-verifiedpermissions-1.34.9.tar.gz --markdown 20240405/b/botocore-a-la-carte-verifiedpermissions/1.34.8-1.34.9/diff.md --exclude *.pyd
+[2024-04-05 03:12:59] WARNING root fetch - processPackages [botocore-a-la-carte-marketplace-agreement]: Timeout reached during download
+[2024-04-05 03:12:59] WARNING root fetch - processPackages [botocore-a-la-carte-robomaker]: Timeout reached during download
+[2024-04-05 03:12:59] INFO root fetch - processPackages [botocore-a-la-carte-marketplace-agreement]: executing diffoscope
+[2024-04-05 03:12:59] INFO root fetch - processPackages [botocore-a-la-carte-marketplace-agreement]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/botocore-a-la-carte-marketplace-agreement-1.34.8.tar.gz tmp/botocore-a-la-carte-marketplace-agreement-1.34.9.tar.gz --markdown 20240405/b/botocore-a-la-carte-marketplace-agreement/1.34.8-1.34.9/diff.md --exclude *.pyd
+[2024-04-05 03:12:59] INFO root fetch - processPackages [botocore-a-la-carte-robomaker]: executing diffoscope
+[2024-04-05 03:12:59] INFO root fetch - processPackages [botocore-a-la-carte-robomaker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/botocore-a-la-carte-robomaker-1.34.8.tar.gz tmp/botocore-a-la-carte-robomaker-1.34.9.tar.gz --markdown 20240405/b/botocore-a-la-carte-robomaker/1.34.8-1.34.9/diff.md --exclude *.pyd
+[2024-04-05 03:12:59] WARNING root fetch - processPackages [botocore-a-la-carte-opensearch]: Timeout reached during download
+[2024-04-05 03:12:59] INFO root fetch - processPackages [botocore-a-la-carte-opensearch]: executing diffoscope
+[2024-04-05 03:12:59] INFO root fetch - processPackages [botocore-a-la-carte-opensearch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/botocore-a-la-carte-opensearch-1.34.8.tar.gz tmp/botocore-a-la-carte-opensearch-1.34.9.tar.gz --markdown 20240405/b/botocore-a-la-carte-opensearch/1.34.8-1.34.9/diff.md --exclude *.pyd
+[2024-04-05 03:12:59] WARNING root fetch - processPackages [botocore-a-la-carte-iotsecuretunneling]: Timeout reached during download
+[2024-04-05 03:12:59] WARNING root fetch - processPackages [botocore-a-la-carte-backup]: Timeout reached during download
+[2024-04-05 03:12:59] INFO root fetch - processPackages [botocore-a-la-carte-iotsecuretunneling]: executing diffoscope
+[2024-04-05 03:12:59] INFO root fetch - processPackages [botocore-a-la-carte-iotsecuretunneling]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/botocore-a-la-carte-iotsecuretunneling-1.34.8.tar.gz tmp/botocore-a-la-carte-iotsecuretunneling-1.34.9.tar.gz --markdown 20240405/b/botocore-a-la-carte-iotsecuretunneling/1.34.8-1.34.9/diff.md --exclude *.pyd
+[2024-04-05 03:12:59] INFO root fetch - processPackages [botocore-a-la-carte-backup]: executing diffoscope
+[2024-04-05 03:12:59] INFO root fetch - processPackages [botocore-a-la-carte-backup]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/botocore-a-la-carte-backup-1.34.8.tar.gz tmp/botocore-a-la-carte-backup-1.34.9.tar.gz --markdown 20240405/b/botocore-a-la-carte-backup/1.34.8-1.34.9/diff.md --exclude *.pyd
+[2024-04-05 03:12:59] WARNING root fetch - processPackages [botocore-a-la-carte-quicksight]: Timeout reached during download
+[2024-04-05 03:12:59] INFO root fetch - processPackages [botocore-a-la-carte-quicksight]: executing diffoscope
+[2024-04-05 03:12:59] INFO root fetch - processPackages [botocore-a-la-carte-quicksight]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/botocore-a-la-carte-quicksight-1.34.8.tar.gz tmp/botocore-a-la-carte-quicksight-1.34.9.tar.gz --markdown 20240405/b/botocore-a-la-carte-quicksight/1.34.8-1.34.9/diff.md --exclude *.pyd
+[2024-04-05 03:12:59] WARNING root fetch - processPackages [botocore-a-la-carte-mgn]: Timeout reached during download
+[2024-04-05 03:12:59] INFO root fetch - processPackages [botocore-a-la-carte-mgn]: executing diffoscope
+[2024-04-05 03:12:59] INFO root fetch - processPackages [botocore-a-la-carte-mgn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/botocore-a-la-carte-mgn-1.34.8.tar.gz tmp/botocore-a-la-carte-mgn-1.34.9.tar.gz --markdown 20240405/b/botocore-a-la-carte-mgn/1.34.8-1.34.9/diff.md --exclude *.pyd
+[2024-04-05 03:13:00] INFO root fetch - processPackages [botocore-a-la-carte-route53]: Remove: archive file [/home/abi/fetcher/tmp/botocore-a-la-carte-route53-1.34.8.tar.gz]
+[2024-04-05 03:13:00] INFO root fetch - processPackages [botocore-a-la-carte-route53]: Remove: archive file [/home/abi/fetcher/tmp/botocore-a-la-carte-route53-1.34.9.tar.gz]
+[2024-04-05 03:13:00] INFO root fetch - processPackages [botocore-a-la-carte-route53]: Start processing: botocore-a-la-carte-opsworkscm
+[2024-04-05 03:13:00] INFO root fetch - main [MainThread]: End processing [botocore-a-la-carte-route53]: success
+[2024-04-05 03:13:00] INFO root fetch - processPackages [botocore-a-la-carte-opsworkscm]: New version: [1.34.9] Old Version: [1.34.8]
+[2024-04-05 03:13:00] INFO root fetch - processPackages [botocore-a-la-carte-chime-sdk-messaging]: Remove: archive file [/home/abi/fetcher/tmp/botocore-a-la-carte-chime-sdk-messaging-1.34.8.tar.gz]
+[2024-04-05 03:13:00] INFO root fetch - processPackages [botocore-a-la-carte-chime-sdk-messaging]: Remove: archive file [/home/abi/fetcher/tmp/botocore-a-la-carte-chime-sdk-messaging-1.34.9.tar.gz]
+[2024-04-05 03:13:00] INFO root fetch - processPackages [botocore-a-la-carte-chime-sdk-messaging]: Start processing: botocore-a-la-carte-outposts
+[2024-04-05 03:13:00] INFO root fetch - main [MainThread]: End processing [botocore-a-la-carte-chime-sdk-messaging]: success
+[2024-04-05 03:13:00] INFO root fetch - processPackages [botocore-a-la-carte-opsworkscm]: Downloading https://files.pythonhosted.org/packages/88/e9/3c4964a95981f0dbe76351f3326e55111b48e2ff4191d60150502c23cff3/botocore-a-la-carte-opsworkscm-1.34.8.tar.gz
+[2024-04-05 03:13:00] WARNING root fetch - processPackages [botocore-a-la-carte-opsworkscm]: Timeout reached during download
+[2024-04-05 03:13:00] INFO root fetch - processPackages [botocore-a-la-carte-outposts]: New version: [1.34.9] Old Version: [1.34.8]
+[2024-04-05 03:13:00] INFO root fetch - processPackages [botocore-a-la-carte-verifiedpermissions]: Remove: archive file [/home/abi/fetcher/tmp/botocore-a-la-carte-verifiedpermissions-1.34.8.tar.gz]
+[2024-04-05 03:13:00] INFO root fetch - processPackages [botocore-a-la-carte-verifiedpermissions]: Remove: archive file [/home/abi/fetcher/tmp/botocore-a-la-carte-verifiedpermissions-1.34.9.tar.gz]
+[2024-04-05 03:13:00] INFO root fetch - processPackages [botocore-a-la-carte-verifiedpermissions]: Start processing: botocore-a-la-carte-artifact
+[2024-04-05 03:13:00] INFO root fetch - processPackages [botocore-a-la-carte-marketplace-agreement]: Remove: archive file [/home/abi/fetcher/tmp/botocore-a-la-carte-marketplace-agreement-1.34.8.tar.gz]
+[2024-04-05 03:13:00] INFO root fetch - main [MainThread]: End processing [botocore-a-la-carte-verifiedpermissions]: success
+[2024-04-05 03:13:00] INFO root fetch - processPackages [botocore-a-la-carte-opensearch]: Remove: archive file [/home/abi/fetcher/tmp/botocore-a-la-carte-opensearch-1.34.8.tar.gz]
+[2024-04-05 03:13:00] INFO root fetch - processPackages [botocore-a-la-carte-marketplace-agreement]: Remove: archive file [/home/abi/fetcher/tmp/botocore-a-la-carte-marketplace-agreement-1.34.9.tar.gz]
+[2024-04-05 03:13:00] INFO root fetch - processPackages [botocore-a-la-carte-opensearch]: Remove: archive file [/home/abi/fetcher/tmp/botocore-a-la-carte-opensearch-1.34.9.tar.gz]
+[2024-04-05 03:13:00] INFO root fetch - processPackages [botocore-a-la-carte-marketplace-agreement]: Start processing: botocore-a-la-carte-pinpoint-email
+[2024-04-05 03:13:00] INFO root fetch - processPackages [botocore-a-la-carte-opensearch]: Start processing: botocore-a-la-carte-swf
+[2024-04-05 03:13:00] INFO root fetch - main [MainThread]: End processing [botocore-a-la-carte-marketplace-agreement]: success
+[2024-04-05 03:13:00] INFO root fetch - main [MainThread]: End processing [botocore-a-la-carte-opensearch]: success
+[2024-04-05 03:13:00] INFO root fetch - processPackages [botocore-a-la-carte-iotsecuretunneling]: Remove: archive file [/home/abi/fetcher/tmp/botocore-a-la-carte-iotsecuretunneling-1.34.8.tar.gz]
+[2024-04-05 03:13:00] INFO root fetch - processPackages [botocore-a-la-carte-iotsecuretunneling]: Remove: archive file [/home/abi/fetcher/tmp/botocore-a-la-carte-iotsecuretunneling-1.34.9.tar.gz]
+[2024-04-05 03:13:00] INFO root fetch - processPackages [botocore-a-la-carte-iotsecuretunneling]: Start processing: botocore-a-la-carte-iot1click-devices
+[2024-04-05 03:13:00] INFO root fetch - main [MainThread]: End processing [botocore-a-la-carte-iotsecuretunneling]: success
+[2024-04-05 03:13:00] INFO root fetch - processPackages [botocore-a-la-carte-backup]: Remove: archive file [/home/abi/fetcher/tmp/botocore-a-la-carte-backup-1.34.8.tar.gz]
+[2024-04-05 03:13:00] INFO root fetch - processPackages [botocore-a-la-carte-backup]: Remove: archive file [/home/abi/fetcher/tmp/botocore-a-la-carte-backup-1.34.9.tar.gz]
+[2024-04-05 03:13:00] INFO root fetch - processPackages [botocore-a-la-carte-backup]: Start processing: botocore-a-la-carte-trustedadvisor
+[2024-04-05 03:13:00] INFO root fetch - main [MainThread]: End processing [botocore-a-la-carte-backup]: success
+[2024-04-05 03:13:00] INFO root fetch - processPackages [botocore-a-la-carte-robomaker]: Remove: archive file [/home/abi/fetcher/tmp/botocore-a-la-carte-robomaker-1.34.8.tar.gz]
+[2024-04-05 03:13:00] INFO root fetch - processPackages [botocore-a-la-carte-robomaker]: Remove: archive file [/home/abi/fetcher/tmp/botocore-a-la-carte-robomaker-1.34.9.tar.gz]
+[2024-04-05 03:13:00] INFO root fetch - processPackages [botocore-a-la-carte-robomaker]: Start processing: botocore-a-la-carte-snow-device-management
+[2024-04-05 03:13:00] INFO root fetch - main [MainThread]: End processing [botocore-a-la-carte-robomaker]: success
+[2024-04-05 03:13:00] INFO root fetch - processPackages [botocore-a-la-carte-artifact]: New version: [1.34.78] Old Version: [1.34.77]
+[2024-04-05 03:13:00] INFO root fetch - processPackages [botocore-a-la-carte-quicksight]: Remove: archive file [/home/abi/fetcher/tmp/botocore-a-la-carte-quicksight-1.34.8.tar.gz]
+[2024-04-05 03:13:00] INFO root fetch - processPackages [botocore-a-la-carte-quicksight]: Remove: archive file [/home/abi/fetcher/tmp/botocore-a-la-carte-quicksight-1.34.9.tar.gz]
+[2024-04-05 03:13:00] INFO root fetch - processPackages [botocore-a-la-carte-quicksight]: Start processing: botocore-a-la-carte-cognito-identity
+[2024-04-05 03:13:00] INFO root fetch - main [MainThread]: End processing [botocore-a-la-carte-quicksight]: success
+[2024-04-05 03:13:00] INFO root fetch - processPackages [botocore-a-la-carte-mgn]: Remove: archive file [/home/abi/fetcher/tmp/botocore-a-la-carte-mgn-1.34.8.tar.gz]
+[2024-04-05 03:13:00] INFO root fetch - processPackages [botocore-a-la-carte-mgn]: Remove: archive file [/home/abi/fetcher/tmp/botocore-a-la-carte-mgn-1.34.9.tar.gz]
+[2024-04-05 03:13:00] INFO root fetch - processPackages [botocore-a-la-carte-mgn]: Start processing: ploomber-cloud
+[2024-04-05 03:13:00] INFO root fetch - main [MainThread]: End processing [botocore-a-la-carte-mgn]: success
+[2024-04-05 03:13:00] INFO root fetch - processPackages [botocore-a-la-carte-swf]: New version: [1.34.9] Old Version: [1.34.8]
+[2024-04-05 03:13:00] INFO root fetch - processPackages [ploomber-cloud]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-05 03:13:00] INFO root fetch - processPackages [botocore-a-la-carte-iot1click-devices]: New version: [1.34.9] Old Version: [1.34.8]
+[2024-04-05 03:13:00] INFO root fetch - processPackages [botocore-a-la-carte-opsworkscm]: Downloading https://files.pythonhosted.org/packages/af/9b/1ead6262c5a6c8f36625f789c84c6ac9005e92efd26ee0d2920675d7d708/botocore-a-la-carte-opsworkscm-1.34.9.tar.gz
+[2024-04-05 03:13:00] INFO root fetch - processPackages [botocore-a-la-carte-pinpoint-email]: New version: [1.34.9] Old Version: [1.34.8]
+[2024-04-05 03:13:00] INFO root fetch - processPackages [botocore-a-la-carte-outposts]: Downloading https://files.pythonhosted.org/packages/b0/8b/530283c88e3b2b4c0ddf0b4c48ea82e0f1e45910e1d05a716a74f51dfd50/botocore-a-la-carte-outposts-1.34.8.tar.gz
+[2024-04-05 03:13:01] INFO root fetch - processPackages [botocore-a-la-carte-trustedadvisor]: New version: [1.34.9] Old Version: [1.34.8]
+[2024-04-05 03:13:01] INFO root fetch - processPackages [botocore-a-la-carte-snow-device-management]: New version: [1.34.9] Old Version: [1.34.8]
+[2024-04-05 03:13:01] INFO root fetch - processPackages [ploomber-cloud]: Downloading https://files.pythonhosted.org/packages/09/b7/440dcb1a0920e2be01c8f414f613165ff78c6816833a687736a9dc9162b1/ploomber-cloud-0.1.8.tar.gz
+[2024-04-05 03:13:01] INFO root fetch - processPackages [botocore-a-la-carte-cognito-identity]: New version: [1.34.9] Old Version: [1.34.8]
+[2024-04-05 03:13:01] WARNING root fetch - processPackages [botocore-a-la-carte-opsworkscm]: Timeout reached during download
+[2024-04-05 03:13:01] INFO root fetch - processPackages [botocore-a-la-carte-opsworkscm]: executing diffoscope
+[2024-04-05 03:13:01] INFO root fetch - processPackages [botocore-a-la-carte-opsworkscm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/botocore-a-la-carte-opsworkscm-1.34.8.tar.gz tmp/botocore-a-la-carte-opsworkscm-1.34.9.tar.gz --markdown 20240405/b/botocore-a-la-carte-opsworkscm/1.34.8-1.34.9/diff.md --exclude *.pyd
+[2024-04-05 03:13:01] INFO root fetch - processPackages [botocore-a-la-carte-artifact]: Downloading https://files.pythonhosted.org/packages/2d/75/dbbcbbb92339e1c8816be95dd2a20d650dcd691ebb0180ea5b6009213497/botocore-a-la-carte-artifact-1.34.77.tar.gz
+[2024-04-05 03:13:01] WARNING root fetch - processPackages [botocore-a-la-carte-outposts]: Timeout reached during download
+[2024-04-05 03:13:01] WARNING root fetch - processPackages [ploomber-cloud]: Timeout reached during download
+[2024-04-05 03:13:01] INFO root fetch - processPackages [botocore-a-la-carte-swf]: Downloading https://files.pythonhosted.org/packages/5b/73/05eb2f98347f869b1ed3498dcd05638d2b6b7e89c2381aa73c983b74611b/botocore-a-la-carte-swf-1.34.8.tar.gz
+[2024-04-05 03:13:01] INFO root fetch - processPackages [botocore-a-la-carte-iot1click-devices]: Downloading https://files.pythonhosted.org/packages/73/2e/9fecc8fb414def4f6bfcca24d9b8d3b99a3da5605b29e0674298b8756083/botocore-a-la-carte-iot1click-devices-1.34.8.tar.gz
+[2024-04-05 03:13:01] INFO root fetch - processPackages [botocore-a-la-carte-pinpoint-email]: Downloading https://files.pythonhosted.org/packages/c7/32/5d3c9af7f4fbae36ddb134020068fc2b171805b7e145290b296e9200bee6/botocore-a-la-carte-pinpoint-email-1.34.8.tar.gz
+[2024-04-05 03:13:01] WARNING root fetch - processPackages [botocore-a-la-carte-artifact]: Timeout reached during download
+[2024-04-05 03:13:01] INFO root fetch - processPackages [botocore-a-la-carte-snow-device-management]: Downloading https://files.pythonhosted.org/packages/79/f1/6c09faa76aed2363d1e86f5a7c27d9489e8b14d64511e743be8a5636f5c2/botocore-a-la-carte-snow-device-management-1.34.8.tar.gz
+[2024-04-05 03:13:01] INFO root fetch - processPackages [botocore-a-la-carte-trustedadvisor]: Downloading https://files.pythonhosted.org/packages/8e/97/91b0c6dabbb6a19ae5209006eabac5241163362b51c78724cfb85bde856f/botocore-a-la-carte-trustedadvisor-1.34.8.tar.gz
+[2024-04-05 03:13:01] INFO root fetch - processPackages [ploomber-cloud]: Downloading https://files.pythonhosted.org/packages/e6/f8/f4451ff0cb54c012c89da5286d33c3f73ca21e606814f7366bd6cda4738a/ploomber-cloud-0.1.9.tar.gz
+[2024-04-05 03:13:01] INFO root fetch - processPackages [botocore-a-la-carte-cognito-identity]: Downloading https://files.pythonhosted.org/packages/62/7b/026954c4223f22b6dc93354a6ca4d7bb3548211c65142beed30d13f4fddc/botocore-a-la-carte-cognito-identity-1.34.8.tar.gz
+[2024-04-05 03:13:01] INFO root fetch - processPackages [botocore-a-la-carte-outposts]: Downloading https://files.pythonhosted.org/packages/24/13/f7eb0b2f3abc4d5cc496aa603818167bd3744238a22464b124c41f7da9a3/botocore-a-la-carte-outposts-1.34.9.tar.gz
+[2024-04-05 03:13:01] WARNING root fetch - processPackages [botocore-a-la-carte-iot1click-devices]: Timeout reached during download
+[2024-04-05 03:13:01] WARNING root fetch - processPackages [botocore-a-la-carte-swf]: Timeout reached during download
+[2024-04-05 03:13:01] WARNING root fetch - processPackages [botocore-a-la-carte-pinpoint-email]: Timeout reached during download
+[2024-04-05 03:13:01] WARNING root fetch - processPackages [botocore-a-la-carte-snow-device-management]: Timeout reached during download
+[2024-04-05 03:13:01] WARNING root fetch - processPackages [botocore-a-la-carte-trustedadvisor]: Timeout reached during download
+[2024-04-05 03:13:01] WARNING root fetch - processPackages [ploomber-cloud]: Timeout reached during download
+[2024-04-05 03:13:01] INFO root fetch - processPackages [ploomber-cloud]: executing diffoscope
+[2024-04-05 03:13:01] INFO root fetch - processPackages [ploomber-cloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ploomber-cloud-0.1.8.tar.gz tmp/ploomber-cloud-0.1.9.tar.gz --markdown 20240405/p/ploomber-cloud/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2024-04-05 03:13:01] INFO root fetch - processPackages [botocore-a-la-carte-artifact]: Downloading https://files.pythonhosted.org/packages/f4/5c/c433049b19a36c3bb074e891a23f7439980af7d7d87696f1a4fd64fe42f8/botocore_a_la_carte_artifact-1.34.78-py3-none-any.whl
+[2024-04-05 03:13:01] WARNING root fetch - processPackages [botocore-a-la-carte-cognito-identity]: Timeout reached during download
+[2024-04-05 03:13:01] WARNING root fetch - processPackages [botocore-a-la-carte-outposts]: Timeout reached during download
+[2024-04-05 03:13:01] INFO root fetch - processPackages [botocore-a-la-carte-outposts]: executing diffoscope
+[2024-04-05 03:13:01] INFO root fetch - processPackages [botocore-a-la-carte-outposts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/botocore-a-la-carte-outposts-1.34.8.tar.gz tmp/botocore-a-la-carte-outposts-1.34.9.tar.gz --markdown 20240405/b/botocore-a-la-carte-outposts/1.34.8-1.34.9/diff.md --exclude *.pyd
+[2024-04-05 03:13:01] WARNING root fetch - processPackages [botocore-a-la-carte-artifact]: Timeout reached during download
+[2024-04-05 03:13:01] INFO root fetch - processPackages [botocore-a-la-carte-artifact]: executing diffoscope
+[2024-04-05 03:13:01] INFO root fetch - processPackages [botocore-a-la-carte-artifact]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/botocore-a-la-carte-artifact-1.34.77.tar.gz tmp/botocore_a_la_carte_artifact-1.34.78-py3-none-any.whl.zip --markdown 20240405/b/botocore-a-la-carte-artifact/1.34.77-1.34.78/diff.md --exclude *.pyd
+[2024-04-05 03:13:01] INFO root fetch - processPackages [botocore-a-la-carte-iot1click-devices]: Downloading https://files.pythonhosted.org/packages/cd/ba/0458a25dee66c97771ad852a4f8743f5e116b9e723b7cda89cb0eef83634/botocore-a-la-carte-iot1click-devices-1.34.9.tar.gz
+[2024-04-05 03:13:01] INFO root fetch - processPackages [botocore-a-la-carte-swf]: Downloading https://files.pythonhosted.org/packages/5f/71/1c1c84fe5c96f5ec1467378c4c4dd747565bca659a04b2805124cc785ecc/botocore-a-la-carte-swf-1.34.9.tar.gz
+[2024-04-05 03:13:01] INFO root fetch - processPackages [botocore-a-la-carte-pinpoint-email]: Downloading https://files.pythonhosted.org/packages/52/b0/0bf64e3e5033be8162dbabc9044daa6a98bd53755db9da9e41a241b8512b/botocore-a-la-carte-pinpoint-email-1.34.9.tar.gz
+[2024-04-05 03:13:01] INFO root fetch - processPackages [botocore-a-la-carte-opsworkscm]: Remove: archive file [/home/abi/fetcher/tmp/botocore-a-la-carte-opsworkscm-1.34.8.tar.gz]
+[2024-04-05 03:13:01] INFO root fetch - processPackages [botocore-a-la-carte-opsworkscm]: Remove: archive file [/home/abi/fetcher/tmp/botocore-a-la-carte-opsworkscm-1.34.9.tar.gz]
+[2024-04-05 03:13:01] INFO root fetch - processPackages [botocore-a-la-carte-opsworkscm]: Start processing: botocore-a-la-carte-service-quotas
+[2024-04-05 03:13:01] INFO root fetch - main [MainThread]: End processing [botocore-a-la-carte-opsworkscm]: success
+[2024-04-05 03:13:01] INFO root fetch - processPackages [botocore-a-la-carte-snow-device-management]: Downloading https://files.pythonhosted.org/packages/a2/39/bfbe5f51bdb7ae008f5e7bd5b73b143b185abf7eeaaa35c1ef5f02063096/botocore-a-la-carte-snow-device-management-1.34.9.tar.gz
+[2024-04-05 03:13:01] INFO root fetch - processPackages [botocore-a-la-carte-trustedadvisor]: Downloading https://files.pythonhosted.org/packages/a6/ef/7d06a0f404352b06168e5e972f614d39231c9fad5137aed486e65b1f022d/botocore-a-la-carte-trustedadvisor-1.34.9.tar.gz
+[2024-04-05 03:13:01] INFO root fetch - processPackages [botocore-a-la-carte-cognito-identity]: Downloading https://files.pythonhosted.org/packages/ad/2a/292d3ff600831a33f39f7c923c0d9cf0c6ac69d5b6cc7cf79b998099323e/botocore-a-la-carte-cognito-identity-1.34.9.tar.gz
+[2024-04-05 03:13:01] WARNING root fetch - processPackages [botocore-a-la-carte-iot1click-devices]: Timeout reached during download
+[2024-04-05 03:13:01] INFO root fetch - processPackages [botocore-a-la-carte-iot1click-devices]: executing diffoscope
+[2024-04-05 03:13:01] INFO root fetch - processPackages [botocore-a-la-carte-iot1click-devices]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/botocore-a-la-carte-iot1click-devices-1.34.8.tar.gz tmp/botocore-a-la-carte-iot1click-devices-1.34.9.tar.gz --markdown 20240405/b/botocore-a-la-carte-iot1click-devices/1.34.8-1.34.9/diff.md --exclude *.pyd
+[2024-04-05 03:13:01] WARNING root fetch - processPackages [botocore-a-la-carte-pinpoint-email]: Timeout reached during download
+[2024-04-05 03:13:01] INFO root fetch - processPackages [botocore-a-la-carte-pinpoint-email]: executing diffoscope
+[2024-04-05 03:13:01] INFO root fetch - processPackages [botocore-a-la-carte-pinpoint-email]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/botocore-a-la-carte-pinpoint-email-1.34.8.tar.gz tmp/botocore-a-la-carte-pinpoint-email-1.34.9.tar.gz --markdown 20240405/b/botocore-a-la-carte-pinpoint-email/1.34.8-1.34.9/diff.md --exclude *.pyd
+[2024-04-05 03:13:01] WARNING root fetch - processPackages [botocore-a-la-carte-swf]: Timeout reached during download
+[2024-04-05 03:13:01] INFO root fetch - processPackages [botocore-a-la-carte-swf]: executing diffoscope
+[2024-04-05 03:13:01] INFO root fetch - processPackages [botocore-a-la-carte-swf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/botocore-a-la-carte-swf-1.34.8.tar.gz tmp/botocore-a-la-carte-swf-1.34.9.tar.gz --markdown 20240405/b/botocore-a-la-carte-swf/1.34.8-1.34.9/diff.md --exclude *.pyd
+[2024-04-05 03:13:01] WARNING root fetch - processPackages [botocore-a-la-carte-trustedadvisor]: Timeout reached during download
+[2024-04-05 03:13:01] WARNING root fetch - processPackages [botocore-a-la-carte-snow-device-management]: Timeout reached during download
+[2024-04-05 03:13:01] INFO root fetch - processPackages [botocore-a-la-carte-trustedadvisor]: executing diffoscope
+[2024-04-05 03:13:01] INFO root fetch - processPackages [botocore-a-la-carte-trustedadvisor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/botocore-a-la-carte-trustedadvisor-1.34.8.tar.gz tmp/botocore-a-la-carte-trustedadvisor-1.34.9.tar.gz --markdown 20240405/b/botocore-a-la-carte-trustedadvisor/1.34.8-1.34.9/diff.md --exclude *.pyd
+[2024-04-05 03:13:01] INFO root fetch - processPackages [botocore-a-la-carte-snow-device-management]: executing diffoscope
+[2024-04-05 03:13:01] INFO root fetch - processPackages [botocore-a-la-carte-snow-device-management]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/botocore-a-la-carte-snow-device-management-1.34.8.tar.gz tmp/botocore-a-la-carte-snow-device-management-1.34.9.tar.gz --markdown 20240405/b/botocore-a-la-carte-snow-device-management/1.34.8-1.34.9/diff.md --exclude *.pyd
+[2024-04-05 03:13:01] WARNING root fetch - processPackages [botocore-a-la-carte-cognito-identity]: Timeout reached during download
+[2024-04-05 03:13:01] INFO root fetch - processPackages [botocore-a-la-carte-cognito-identity]: executing diffoscope
+[2024-04-05 03:13:01] INFO root fetch - processPackages [botocore-a-la-carte-cognito-identity]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/botocore-a-la-carte-cognito-identity-1.34.8.tar.gz tmp/botocore-a-la-carte-cognito-identity-1.34.9.tar.gz --markdown 20240405/b/botocore-a-la-carte-cognito-identity/1.34.8-1.34.9/diff.md --exclude *.pyd
+[2024-04-05 03:13:01] INFO root fetch - processPackages [botocore-a-la-carte-service-quotas]: New version: [1.34.9] Old Version: [1.34.8]
+[2024-04-05 03:13:02] INFO root fetch - processPackages [botocore-a-la-carte-service-quotas]: Downloading https://files.pythonhosted.org/packages/b0/ae/2e7b346147efc201608de2dbfc6ea0df6316db56360a89e6289c7437b0fe/botocore-a-la-carte-service-quotas-1.34.8.tar.gz
+[2024-04-05 03:13:02] INFO root fetch - processPackages [ploomber-cloud]: Remove: archive file [/home/abi/fetcher/tmp/ploomber-cloud-0.1.8.tar.gz]
+[2024-04-05 03:13:02] INFO root fetch - processPackages [ploomber-cloud]: Remove: archive file [/home/abi/fetcher/tmp/ploomber-cloud-0.1.9.tar.gz]
+[2024-04-05 03:13:02] INFO root fetch - processPackages [ploomber-cloud]: Start processing: binharness
+[2024-04-05 03:13:02] INFO root fetch - main [MainThread]: End processing [ploomber-cloud]: success
+[2024-04-05 03:13:02] INFO root fetch - processPackages [botocore-a-la-carte-outposts]: Remove: archive file [/home/abi/fetcher/tmp/botocore-a-la-carte-outposts-1.34.8.tar.gz]
+[2024-04-05 03:13:02] INFO root fetch - processPackages [botocore-a-la-carte-outposts]: Remove: archive file [/home/abi/fetcher/tmp/botocore-a-la-carte-outposts-1.34.9.tar.gz]
+[2024-04-05 03:13:02] INFO root fetch - processPackages [botocore-a-la-carte-outposts]: Start processing: botocore-a-la-carte-kinesis-video-webrtc-storage
+[2024-04-05 03:13:02] INFO root fetch - main [MainThread]: End processing [botocore-a-la-carte-outposts]: success
+[2024-04-05 03:13:02] INFO root fetch - processPackages [botocore-a-la-carte-artifact]: Remove: archive file [/home/abi/fetcher/tmp/botocore-a-la-carte-artifact-1.34.77.tar.gz]
+[2024-04-05 03:13:02] INFO root fetch - processPackages [botocore-a-la-carte-artifact]: Remove: archive file [/home/abi/fetcher/tmp/botocore_a_la_carte_artifact-1.34.78-py3-none-any.whl.zip]
+[2024-04-05 03:13:02] INFO root fetch - processPackages [botocore-a-la-carte-artifact]: Start processing: botocore-a-la-carte-elastictranscoder
+[2024-04-05 03:13:02] INFO root fetch - main [MainThread]: End processing [botocore-a-la-carte-artifact]: success
+[2024-04-05 03:13:02] WARNING root fetch - processPackages [botocore-a-la-carte-service-quotas]: Timeout reached during download
+[2024-04-05 03:13:02] INFO root fetch - processPackages [binharness]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-04-05 03:13:02] INFO root fetch - processPackages [botocore-a-la-carte-kinesis-video-webrtc-storage]: New version: [1.34.9] Old Version: [1.34.8]
+[2024-04-05 03:13:02] INFO root fetch - processPackages [botocore-a-la-carte-elastictranscoder]: New version: [1.34.9] Old Version: [1.34.8]
+[2024-04-05 03:13:02] INFO root fetch - processPackages [botocore-a-la-carte-service-quotas]: Downloading https://files.pythonhosted.org/packages/3f/43/c8328646268be901ffad89dc1cde7e596814fdefbe57cb5b5b2a361826d8/botocore-a-la-carte-service-quotas-1.34.9.tar.gz
+[2024-04-05 03:13:02] INFO root fetch - processPackages [botocore-a-la-carte-iot1click-devices]: Remove: archive file [/home/abi/fetcher/tmp/botocore-a-la-carte-iot1click-devices-1.34.8.tar.gz]
+[2024-04-05 03:13:02] INFO root fetch - processPackages [botocore-a-la-carte-iot1click-devices]: Remove: archive file [/home/abi/fetcher/tmp/botocore-a-la-carte-iot1click-devices-1.34.9.tar.gz]
+[2024-04-05 03:13:02] INFO root fetch - processPackages [botocore-a-la-carte-iot1click-devices]: Start processing: botocore-a-la-carte-schemas
+[2024-04-05 03:13:02] INFO root fetch - main [MainThread]: End processing [botocore-a-la-carte-iot1click-devices]: success
+[2024-04-05 03:13:02] INFO root fetch - processPackages [binharness]: Downloading https://files.pythonhosted.org/packages/73/10/1683a5a41741bab7979d6bc3287bf30b61ae466a97c9b9807cda0001c651/binharness-0.1.0.tar.gz
+[2024-04-05 03:13:02] INFO root fetch - processPackages [botocore-a-la-carte-kinesis-video-webrtc-storage]: Downloading https://files.pythonhosted.org/packages/ec/54/6881a72cacc0d4728490a8ea11e6841a1d63f85008596eb15f22b75496c3/botocore-a-la-carte-kinesis-video-webrtc-storage-1.34.8.tar.gz
+[2024-04-05 03:13:02] INFO root fetch - processPackages [botocore-a-la-carte-elastictranscoder]: Downloading https://files.pythonhosted.org/packages/c9/1f/1c89f569a5e03f7202ae51e5a4bd7d6ef1e88e74ed257dec58a1df6a0e8f/botocore-a-la-carte-elastictranscoder-1.34.8.tar.gz
+[2024-04-05 03:13:02] INFO root fetch - processPackages [botocore-a-la-carte-swf]: Remove: archive file [/home/abi/fetcher/tmp/botocore-a-la-carte-swf-1.34.8.tar.gz]
+[2024-04-05 03:13:02] INFO root fetch - processPackages [botocore-a-la-carte-swf]: Remove: archive file [/home/abi/fetcher/tmp/botocore-a-la-carte-swf-1.34.9.tar.gz]
+[2024-04-05 03:13:02] INFO root fetch - processPackages [botocore-a-la-carte-swf]: Start processing: botocore-a-la-carte-health
+[2024-04-05 03:13:02] INFO root fetch - main [MainThread]: End processing [botocore-a-la-carte-swf]: success
+[2024-04-05 03:13:02] WARNING root fetch - processPackages [botocore-a-la-carte-service-quotas]: Timeout reached during download
+[2024-04-05 03:13:02] INFO root fetch - processPackages [botocore-a-la-carte-service-quotas]: executing diffoscope
+[2024-04-05 03:13:02] INFO root fetch - processPackages [botocore-a-la-carte-service-quotas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/botocore-a-la-carte-service-quotas-1.34.8.tar.gz tmp/botocore-a-la-carte-service-quotas-1.34.9.tar.gz --markdown 20240405/b/botocore-a-la-carte-service-quotas/1.34.8-1.34.9/diff.md --exclude *.pyd
+[2024-04-05 03:13:02] INFO root fetch - processPackages [botocore-a-la-carte-pinpoint-email]: Remove: archive file [/home/abi/fetcher/tmp/botocore-a-la-carte-pinpoint-email-1.34.8.tar.gz]
+[2024-04-05 03:13:02] INFO root fetch - processPackages [botocore-a-la-carte-pinpoint-email]: Remove: archive file [/home/abi/fetcher/tmp/botocore-a-la-carte-pinpoint-email-1.34.9.tar.gz]
+[2024-04-05 03:13:02] INFO root fetch - processPackages [botocore-a-la-carte-pinpoint-email]: Start processing: botocore-a-la-carte-logs
+[2024-04-05 03:13:02] INFO root fetch - main [MainThread]: End processing [botocore-a-la-carte-pinpoint-email]: success
+[2024-04-05 03:13:02] INFO root fetch - processPackages [botocore-a-la-carte-schemas]: New version: [1.34.9] Old Version: [1.34.8]
+[2024-04-05 03:13:02] INFO root fetch - processPackages [botocore-a-la-carte-snow-device-management]: Remove: archive file [/home/abi/fetcher/tmp/botocore-a-la-carte-snow-device-management-1.34.8.tar.gz]
+[2024-04-05 03:13:02] INFO root fetch - processPackages [botocore-a-la-carte-snow-device-management]: Remove: archive file [/home/abi/fetcher/tmp/botocore-a-la-carte-snow-device-management-1.34.9.tar.gz]
+[2024-04-05 03:13:02] INFO root fetch - processPackages [botocore-a-la-carte-snow-device-management]: Start processing: botocore-a-la-carte-acm-pca
+[2024-04-05 03:13:02] INFO root fetch - main [MainThread]: End processing [botocore-a-la-carte-snow-device-management]: success
+[2024-04-05 03:13:02] WARNING root fetch - processPackages [botocore-a-la-carte-kinesis-video-webrtc-storage]: Timeout reached during download
+[2024-04-05 03:13:02] WARNING root fetch - processPackages [botocore-a-la-carte-elastictranscoder]: Timeout reached during download
+[2024-04-05 03:13:02] INFO root fetch - processPackages [botocore-a-la-carte-cognito-identity]: Remove: archive file [/home/abi/fetcher/tmp/botocore-a-la-carte-cognito-identity-1.34.8.tar.gz]
+[2024-04-05 03:13:02] INFO root fetch - processPackages [botocore-a-la-carte-cognito-identity]: Remove: archive file [/home/abi/fetcher/tmp/botocore-a-la-carte-cognito-identity-1.34.9.tar.gz]
+[2024-04-05 03:13:02] INFO root fetch - processPackages [botocore-a-la-carte-cognito-identity]: Start processing: botocore-a-la-carte-personalize
+[2024-04-05 03:13:02] INFO root fetch - main [MainThread]: End processing [botocore-a-la-carte-cognito-identity]: success
+[2024-04-05 03:13:02] INFO root fetch - processPackages [botocore-a-la-carte-health]: New version: [1.34.9] Old Version: [1.34.8]
+[2024-04-05 03:13:02] WARNING root fetch - processPackages [binharness]: Timeout reached during download
+[2024-04-05 03:13:02] INFO root fetch - processPackages [botocore-a-la-carte-trustedadvisor]: Remove: archive file [/home/abi/fetcher/tmp/botocore-a-la-carte-trustedadvisor-1.34.8.tar.gz]
+[2024-04-05 03:13:02] INFO root fetch - processPackages [botocore-a-la-carte-trustedadvisor]: Remove: archive file [/home/abi/fetcher/tmp/botocore-a-la-carte-trustedadvisor-1.34.9.tar.gz]
+[2024-04-05 03:13:02] INFO root fetch - processPackages [botocore-a-la-carte-trustedadvisor]: Start processing: botocore-a-la-carte-ssm
+[2024-04-05 03:13:02] INFO root fetch - main [MainThread]: End processing [botocore-a-la-carte-trustedadvisor]: success
+[2024-04-05 03:13:02] INFO root fetch - processPackages [botocore-a-la-carte-logs]: New version: [1.34.9] Old Version: [1.34.8]
+[2024-04-05 03:13:03] INFO root fetch - processPackages [botocore-a-la-carte-acm-pca]: New version: [1.34.9] Old Version: [1.34.8]
+[2024-04-05 03:13:03] INFO root fetch - processPackages [botocore-a-la-carte-personalize]: New version: [1.34.9] Old Version: [1.34.8]
+[2024-04-05 03:13:03] INFO root fetch - processPackages [botocore-a-la-carte-ssm]: New version: [1.34.9] Old Version: [1.34.8]
+[2024-04-05 03:13:03] INFO root fetch - processPackages [binharness]: Downloading https://files.pythonhosted.org/packages/1a/f4/e0c0df897835eecc444b17a0e49679b2ce089b1ded92a0e12280ad8e3a2a/binharness-0.1.1.tar.gz
+[2024-04-05 03:13:03] INFO root fetch - processPackages [botocore-a-la-carte-schemas]: Downloading https://files.pythonhosted.org/packages/3b/f8/59baf02f6317461c5d7f6a803ce6129e8cb4f3ec76db5670e44579b917c2/botocore-a-la-carte-schemas-1.34.8.tar.gz
+[2024-04-05 03:13:03] INFO root fetch - processPackages [botocore-a-la-carte-kinesis-video-webrtc-storage]: Downloading https://files.pythonhosted.org/packages/d1/02/4de1bb011dee8b7236ed435cc34ef0860a8ceac456eb139b2101df4577d1/botocore-a-la-carte-kinesis-video-webrtc-storage-1.34.9.tar.gz
+[2024-04-05 03:13:03] INFO root fetch - processPackages [botocore-a-la-carte-elastictranscoder]: Downloading https://files.pythonhosted.org/packages/05/e4/bb97ee801b374a8c2eb134d0d0bbd2dc1fee6c6883b9b6c9750c6b94bd52/botocore-a-la-carte-elastictranscoder-1.34.9.tar.gz
+[2024-04-05 03:13:03] INFO root fetch - processPackages [botocore-a-la-carte-health]: Downloading https://files.pythonhosted.org/packages/41/b2/f81b60bbe7b1ed4135eda14411eb7f9f1b27472c604dc54f57b5713e09b0/botocore-a-la-carte-health-1.34.8.tar.gz
+[2024-04-05 03:13:03] INFO root fetch - processPackages [botocore-a-la-carte-logs]: Downloading https://files.pythonhosted.org/packages/05/e1/80fa03b663029ac5f0d30bde506989a880d32978913e60965d4eb6f4d06b/botocore-a-la-carte-logs-1.34.8.tar.gz
+[2024-04-05 03:13:03] INFO root fetch - processPackages [botocore-a-la-carte-acm-pca]: Downloading https://files.pythonhosted.org/packages/ea/78/8be3406f2fc008e1d05f324f55fa1b3dcffe7e41e8137ef9b9ee691173c3/botocore-a-la-carte-acm-pca-1.34.8.tar.gz
+[2024-04-05 03:13:03] WARNING root fetch - processPackages [botocore-a-la-carte-kinesis-video-webrtc-storage]: Timeout reached during download
+[2024-04-05 03:13:03] INFO root fetch - processPackages [botocore-a-la-carte-kinesis-video-webrtc-storage]: executing diffoscope
+[2024-04-05 03:13:03] INFO root fetch - processPackages [botocore-a-la-carte-kinesis-video-webrtc-storage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/botocore-a-la-carte-kinesis-video-webrtc-storage-1.34.8.tar.gz tmp/botocore-a-la-carte-kinesis-video-webrtc-storage-1.34.9.tar.gz --markdown 20240405/b/botocore-a-la-carte-kinesis-video-webrtc-storage/1.34.8-1.34.9/diff.md --exclude *.pyd
+[2024-04-05 03:13:03] WARNING root fetch - processPackages [botocore-a-la-carte-schemas]: Timeout reached during download
+[2024-04-05 03:13:03] WARNING root fetch - processPackages [botocore-a-la-carte-health]: Timeout reached during download
+[2024-04-05 03:13:03] WARNING root fetch - processPackages [binharness]: Timeout reached during download
+[2024-04-05 03:13:03] WARNING root fetch - processPackages [botocore-a-la-carte-elastictranscoder]: Timeout reached during download
+[2024-04-05 03:13:03] INFO root fetch - processPackages [botocore-a-la-carte-personalize]: Downloading https://files.pythonhosted.org/packages/b5/12/bf3488dafec21fbe304500635f462eb1f1273559de46f23308331f1e3b4c/botocore-a-la-carte-personalize-1.34.8.tar.gz
+[2024-04-05 03:13:03] INFO root fetch - processPackages [binharness]: executing diffoscope
+[2024-04-05 03:13:03] INFO root fetch - processPackages [botocore-a-la-carte-elastictranscoder]: executing diffoscope
+[2024-04-05 03:13:03] INFO root fetch - processPackages [binharness]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/binharness-0.1.0.tar.gz tmp/binharness-0.1.1.tar.gz --markdown 20240405/b/binharness/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2024-04-05 03:13:03] INFO root fetch - processPackages [botocore-a-la-carte-elastictranscoder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/botocore-a-la-carte-elastictranscoder-1.34.8.tar.gz tmp/botocore-a-la-carte-elastictranscoder-1.34.9.tar.gz --markdown 20240405/b/botocore-a-la-carte-elastictranscoder/1.34.8-1.34.9/diff.md --exclude *.pyd
+[2024-04-05 03:13:03] INFO root fetch - processPackages [botocore-a-la-carte-ssm]: Downloading https://files.pythonhosted.org/packages/b0/c4/f4ab67a65cc681f8f4f695ab100a38c031cde574ff65b77996638477e5f0/botocore-a-la-carte-ssm-1.34.8.tar.gz
+[2024-04-05 03:13:03] INFO root fetch - processPackages [botocore-a-la-carte-service-quotas]: Remove: archive file [/home/abi/fetcher/tmp/botocore-a-la-carte-service-quotas-1.34.8.tar.gz]
+[2024-04-05 03:13:03] INFO root fetch - processPackages [botocore-a-la-carte-service-quotas]: Remove: archive file [/home/abi/fetcher/tmp/botocore-a-la-carte-service-quotas-1.34.9.tar.gz]
+[2024-04-05 03:13:03] INFO root fetch - processPackages [botocore-a-la-carte-service-quotas]: Start processing: botocore-a-la-carte-sso-oidc
+[2024-04-05 03:13:03] INFO root fetch - main [MainThread]: End processing [botocore-a-la-carte-service-quotas]: success
+[2024-04-05 03:13:03] WARNING root fetch - processPackages [botocore-a-la-carte-logs]: Timeout reached during download
+[2024-04-05 03:13:03] WARNING root fetch - processPackages [botocore-a-la-carte-acm-pca]: Timeout reached during download
+[2024-04-05 03:13:03] WARNING root fetch - processPackages [botocore-a-la-carte-personalize]: Timeout reached during download
+[2024-04-05 03:13:03] WARNING root fetch - processPackages [botocore-a-la-carte-ssm]: Timeout reached during download
+[2024-04-05 03:13:03] INFO root fetch - processPackages [botocore-a-la-carte-sso-oidc]: New version: [1.34.9] Old Version: [1.34.8]
+[2024-04-05 03:13:03] INFO root fetch - processPackages [botocore-a-la-carte-schemas]: Downloading https://files.pythonhosted.org/packages/e0/86/6ad6ec5a543c13fb2fee287da9ee71712932977247a8ddccc4bef9faf749/botocore-a-la-carte-schemas-1.34.9.tar.gz
+[2024-04-05 03:13:03] INFO root fetch - processPackages [botocore-a-la-carte-health]: Downloading https://files.pythonhosted.org/packages/68/2a/a2b8e7d665d74cc215220b00a3a1d09b4728832d94357d07bbd4d2dd9e36/botocore-a-la-carte-health-1.34.9.tar.gz
+[2024-04-05 03:13:03] INFO root fetch - processPackages [botocore-a-la-carte-acm-pca]: Downloading https://files.pythonhosted.org/packages/8a/1e/cedea3d38f7169acf0fce8259032c02f9ef99089d2f55a6f509de1eec490/botocore-a-la-carte-acm-pca-1.34.9.tar.gz
+[2024-04-05 03:13:03] INFO root fetch - processPackages [botocore-a-la-carte-logs]: Downloading https://files.pythonhosted.org/packages/04/7d/f3d61b78a82b3f3a11c0308697a9e2eda273dfbe82a2f2d1eee78d341d30/botocore-a-la-carte-logs-1.34.9.tar.gz
+[2024-04-05 03:13:03] INFO root fetch - processPackages [botocore-a-la-carte-personalize]: Downloading https://files.pythonhosted.org/packages/5d/aa/62f837f767ed265587f3a84d4ed430836d3dbcb6c4754aa2959dd69d5b23/botocore-a-la-carte-personalize-1.34.9.tar.gz
+[2024-04-05 03:13:03] WARNING root fetch - processPackages [botocore-a-la-carte-schemas]: Timeout reached during download
+[2024-04-05 03:13:03] INFO root fetch - processPackages [botocore-a-la-carte-schemas]: executing diffoscope
+[2024-04-05 03:13:03] INFO root fetch - processPackages [botocore-a-la-carte-schemas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/botocore-a-la-carte-schemas-1.34.8.tar.gz tmp/botocore-a-la-carte-schemas-1.34.9.tar.gz --markdown 20240405/b/botocore-a-la-carte-schemas/1.34.8-1.34.9/diff.md --exclude *.pyd
+[2024-04-05 03:13:03] INFO root fetch - processPackages [botocore-a-la-carte-ssm]: Downloading https://files.pythonhosted.org/packages/2d/12/df56fbfa7a0afce1ea565511b390689b84d35f7f15eb673743511d447654/botocore-a-la-carte-ssm-1.34.9.tar.gz
+[2024-04-05 03:13:03] WARNING root fetch - processPackages [botocore-a-la-carte-health]: Timeout reached during download
+[2024-04-05 03:13:03] INFO root fetch - processPackages [botocore-a-la-carte-health]: executing diffoscope
+[2024-04-05 03:13:03] INFO root fetch - processPackages [botocore-a-la-carte-health]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/botocore-a-la-carte-health-1.34.8.tar.gz tmp/botocore-a-la-carte-health-1.34.9.tar.gz --markdown 20240405/b/botocore-a-la-carte-health/1.34.8-1.34.9/diff.md --exclude *.pyd
+[2024-04-05 03:13:03] WARNING root fetch - processPackages [botocore-a-la-carte-acm-pca]: Timeout reached during download
+[2024-04-05 03:13:03] INFO root fetch - processPackages [botocore-a-la-carte-acm-pca]: executing diffoscope
+[2024-04-05 03:13:03] INFO root fetch - processPackages [botocore-a-la-carte-acm-pca]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/botocore-a-la-carte-acm-pca-1.34.8.tar.gz tmp/botocore-a-la-carte-acm-pca-1.34.9.tar.gz --markdown 20240405/b/botocore-a-la-carte-acm-pca/1.34.8-1.34.9/diff.md --exclude *.pyd
+[2024-04-05 03:13:03] WARNING root fetch - processPackages [botocore-a-la-carte-logs]: Timeout reached during download
+[2024-04-05 03:13:03] INFO root fetch - processPackages [botocore-a-la-carte-logs]: executing diffoscope
+[2024-04-05 03:13:03] INFO root fetch - processPackages [botocore-a-la-carte-logs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/botocore-a-la-carte-logs-1.34.8.tar.gz tmp/botocore-a-la-carte-logs-1.34.9.tar.gz --markdown 20240405/b/botocore-a-la-carte-logs/1.34.8-1.34.9/diff.md --exclude *.pyd
+[2024-04-05 03:13:03] INFO root fetch - processPackages [botocore-a-la-carte-sso-oidc]: Downloading https://files.pythonhosted.org/packages/75/70/54258fbe25e5fd9d18ff0a6c35a88ecf4d2e3e24741b347415cf53736919/botocore-a-la-carte-sso-oidc-1.34.8.tar.gz
+[2024-04-05 03:13:03] WARNING root fetch - processPackages [botocore-a-la-carte-personalize]: Timeout reached during download
+[2024-04-05 03:13:03] INFO root fetch - processPackages [botocore-a-la-carte-personalize]: executing diffoscope
+[2024-04-05 03:13:03] INFO root fetch - processPackages [botocore-a-la-carte-personalize]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/botocore-a-la-carte-personalize-1.34.8.tar.gz tmp/botocore-a-la-carte-personalize-1.34.9.tar.gz --markdown 20240405/b/botocore-a-la-carte-personalize/1.34.8-1.34.9/diff.md --exclude *.pyd
+[2024-04-05 03:13:03] WARNING root fetch - processPackages [botocore-a-la-carte-ssm]: Timeout reached during download
+[2024-04-05 03:13:03] INFO root fetch - processPackages [botocore-a-la-carte-ssm]: executing diffoscope
+[2024-04-05 03:13:03] INFO root fetch - processPackages [botocore-a-la-carte-ssm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/botocore-a-la-carte-ssm-1.34.8.tar.gz tmp/botocore-a-la-carte-ssm-1.34.9.tar.gz --markdown 20240405/b/botocore-a-la-carte-ssm/1.34.8-1.34.9/diff.md --exclude *.pyd
+[2024-04-05 03:13:04] WARNING root fetch - processPackages [botocore-a-la-carte-sso-oidc]: Timeout reached during download
+[2024-04-05 03:13:04] INFO root fetch - processPackages [botocore-a-la-carte-kinesis-video-webrtc-storage]: Remove: archive file [/home/abi/fetcher/tmp/botocore-a-la-carte-kinesis-video-webrtc-storage-1.34.8.tar.gz]
+[2024-04-05 03:13:04] INFO root fetch - processPackages [botocore-a-la-carte-kinesis-video-webrtc-storage]: Remove: archive file [/home/abi/fetcher/tmp/botocore-a-la-carte-kinesis-video-webrtc-storage-1.34.9.tar.gz]
+[2024-04-05 03:13:04] INFO root fetch - processPackages [botocore-a-la-carte-kinesis-video-webrtc-storage]: Start processing: botocore-a-la-carte-resource-explorer-2
+[2024-04-05 03:13:04] INFO root fetch - main [MainThread]: End processing [botocore-a-la-carte-kinesis-video-webrtc-storage]: success
+[2024-04-05 03:13:04] INFO root fetch - processPackages [binharness]: Remove: archive file [/home/abi/fetcher/tmp/binharness-0.1.0.tar.gz]
+[2024-04-05 03:13:04] INFO root fetch - processPackages [binharness]: Remove: archive file [/home/abi/fetcher/tmp/binharness-0.1.1.tar.gz]
+[2024-04-05 03:13:04] INFO root fetch - processPackages [binharness]: Start processing: botocore-a-la-carte-ec2-instance-connect
+[2024-04-05 03:13:04] INFO root fetch - main [MainThread]: End processing [binharness]: success
+[2024-04-05 03:13:04] INFO root fetch - processPackages [botocore-a-la-carte-sso-oidc]: Downloading https://files.pythonhosted.org/packages/38/b9/501ac3dd18db69f55ddf335998197f90d09376e53419c0eaca49022fbcb3/botocore-a-la-carte-sso-oidc-1.34.9.tar.gz
+[2024-04-05 03:13:04] INFO root fetch - processPackages [botocore-a-la-carte-resource-explorer-2]: New version: [1.34.9] Old Version: [1.34.8]
+[2024-04-05 03:13:04] INFO root fetch - processPackages [botocore-a-la-carte-elastictranscoder]: Remove: archive file [/home/abi/fetcher/tmp/botocore-a-la-carte-elastictranscoder-1.34.8.tar.gz]
+[2024-04-05 03:13:04] INFO root fetch - processPackages [botocore-a-la-carte-elastictranscoder]: Remove: archive file [/home/abi/fetcher/tmp/botocore-a-la-carte-elastictranscoder-1.34.9.tar.gz]
+[2024-04-05 03:13:04] INFO root fetch - processPackages [botocore-a-la-carte-elastictranscoder]: Start processing: botocore-a-la-carte-connectcampaigns
+[2024-04-05 03:13:04] INFO root fetch - main [MainThread]: End processing [botocore-a-la-carte-elastictranscoder]: success
+[2024-04-05 03:13:04] WARNING root fetch - processPackages [botocore-a-la-carte-sso-oidc]: Timeout reached during download
+[2024-04-05 03:13:04] INFO root fetch - processPackages [botocore-a-la-carte-sso-oidc]: executing diffoscope
+[2024-04-05 03:13:04] INFO root fetch - processPackages [botocore-a-la-carte-sso-oidc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/botocore-a-la-carte-sso-oidc-1.34.8.tar.gz tmp/botocore-a-la-carte-sso-oidc-1.34.9.tar.gz --markdown 20240405/b/botocore-a-la-carte-sso-oidc/1.34.8-1.34.9/diff.md --exclude *.pyd
+[2024-04-05 03:13:04] INFO root fetch - processPackages [botocore-a-la-carte-ec2-instance-connect]: New version: [1.34.9] Old Version: [1.34.8]
+[2024-04-05 03:13:04] INFO root fetch - processPackages [botocore-a-la-carte-connectcampaigns]: New version: [1.34.9] Old Version: [1.34.8]
+[2024-04-05 03:13:04] INFO root fetch - processPackages [botocore-a-la-carte-resource-explorer-2]: Downloading https://files.pythonhosted.org/packages/78/9c/f8be40daddc1a9ed5554d95047748f343830d6fcc7c57481ced645ffc6f5/botocore-a-la-carte-resource-explorer-2-1.34.8.tar.gz
+[2024-04-05 03:13:04] INFO root fetch - processPackages [botocore-a-la-carte-personalize]: Remove: archive file [/home/abi/fetcher/tmp/botocore-a-la-carte-personalize-1.34.8.tar.gz]
+[2024-04-05 03:13:04] INFO root fetch - processPackages [botocore-a-la-carte-personalize]: Remove: archive file [/home/abi/fetcher/tmp/botocore-a-la-carte-personalize-1.34.9.tar.gz]
+[2024-04-05 03:13:04] INFO root fetch - processPackages [botocore-a-la-carte-personalize]: Start processing: botocore-a-la-carte-apigatewaymanagementapi
+[2024-04-05 03:13:04] INFO root fetch - main [MainThread]: End processing [botocore-a-la-carte-personalize]: success
+[2024-04-05 03:13:04] WARNING root fetch - processPackages [botocore-a-la-carte-resource-explorer-2]: Timeout reached during download
+[2024-04-05 03:13:04] INFO root fetch - processPackages [botocore-a-la-carte-acm-pca]: Remove: archive file [/home/abi/fetcher/tmp/botocore-a-la-carte-acm-pca-1.34.8.tar.gz]
+[2024-04-05 03:13:04] INFO root fetch - processPackages [botocore-a-la-carte-acm-pca]: Remove: archive file [/home/abi/fetcher/tmp/botocore-a-la-carte-acm-pca-1.34.9.tar.gz]
+[2024-04-05 03:13:04] INFO root fetch - processPackages [botocore-a-la-carte-acm-pca]: Start processing: botocore-a-la-carte-sms
+[2024-04-05 03:13:04] INFO root fetch - main [MainThread]: End processing [botocore-a-la-carte-acm-pca]: success
+[2024-04-05 03:13:04] INFO root fetch - processPackages [botocore-a-la-carte-schemas]: Remove: archive file [/home/abi/fetcher/tmp/botocore-a-la-carte-schemas-1.34.8.tar.gz]
+[2024-04-05 03:13:04] INFO root fetch - processPackages [botocore-a-la-carte-schemas]: Remove: archive file [/home/abi/fetcher/tmp/botocore-a-la-carte-schemas-1.34.9.tar.gz]
+[2024-04-05 03:13:04] INFO root fetch - processPackages [botocore-a-la-carte-schemas]: Start processing: botocore-a-la-carte-iotevents
+[2024-04-05 03:13:04] INFO root fetch - main [MainThread]: End processing [botocore-a-la-carte-schemas]: success
+[2024-04-05 03:13:04] INFO root fetch - processPackages [botocore-a-la-carte-ec2-instance-connect]: Downloading https://files.pythonhosted.org/packages/45/89/9bd149cd81d99d57621db2267bc6f7a988ab45afe044c3cb02c04655f6bd/botocore-a-la-carte-ec2-instance-connect-1.34.8.tar.gz
+[2024-04-05 03:13:04] INFO root fetch - processPackages [botocore-a-la-carte-connectcampaigns]: Downloading https://files.pythonhosted.org/packages/aa/5f/97949acee2f08b4bdab734c271b2f9389f579e7a06f16ddfaf3afd7aec1a/botocore-a-la-carte-connectcampaigns-1.34.8.tar.gz
+[2024-04-05 03:13:04] INFO root fetch - processPackages [botocore-a-la-carte-health]: Remove: archive file [/home/abi/fetcher/tmp/botocore-a-la-carte-health-1.34.8.tar.gz]
+[2024-04-05 03:13:04] INFO root fetch - processPackages [botocore-a-la-carte-health]: Remove: archive file [/home/abi/fetcher/tmp/botocore-a-la-carte-health-1.34.9.tar.gz]
+[2024-04-05 03:13:04] INFO root fetch - processPackages [botocore-a-la-carte-health]: Start processing: botocore-a-la-carte-iottwinmaker
+[2024-04-05 03:13:04] INFO root fetch - main [MainThread]: End processing [botocore-a-la-carte-health]: success
+[2024-04-05 03:13:04] INFO root fetch - processPackages [botocore-a-la-carte-apigatewaymanagementapi]: New version: [1.34.9] Old Version: [1.34.8]
+[2024-04-05 03:13:04] WARNING root fetch - processPackages [botocore-a-la-carte-ec2-instance-connect]: Timeout reached during download
+[2024-04-05 03:13:04] WARNING root fetch - processPackages [botocore-a-la-carte-connectcampaigns]: Timeout reached during download
+[2024-04-05 03:13:04] INFO root fetch - processPackages [botocore-a-la-carte-iotevents]: New version: [1.34.9] Old Version: [1.34.8]
+[2024-04-05 03:13:04] INFO root fetch - processPackages [botocore-a-la-carte-iottwinmaker]: New version: [1.34.9] Old Version: [1.34.8]
+[2024-04-05 03:13:04] INFO root fetch - processPackages [botocore-a-la-carte-resource-explorer-2]: Downloading https://files.pythonhosted.org/packages/d0/4a/7613eb73bd43c7091153e927125dded673d969bffc47d75b92e9376b0faf/botocore-a-la-carte-resource-explorer-2-1.34.9.tar.gz
+[2024-04-05 03:13:04] INFO root fetch - processPackages [botocore-a-la-carte-sms]: New version: [1.34.9] Old Version: [1.34.8]
+[2024-04-05 03:13:04] INFO root fetch - processPackages [botocore-a-la-carte-ssm]: Remove: archive file [/home/abi/fetcher/tmp/botocore-a-la-carte-ssm-1.34.8.tar.gz]
+[2024-04-05 03:13:04] INFO root fetch - processPackages [botocore-a-la-carte-ssm]: Remove: archive file [/home/abi/fetcher/tmp/botocore-a-la-carte-ssm-1.34.9.tar.gz]
+[2024-04-05 03:13:04] INFO root fetch - processPackages [botocore-a-la-carte-ssm]: Start processing: botocore-a-la-carte-migration-hub-refactor-spaces
+[2024-04-05 03:13:04] INFO root fetch - main [MainThread]: End processing [botocore-a-la-carte-ssm]: success
+[2024-04-05 03:13:05] INFO root fetch - processPackages [botocore-a-la-carte-logs]: Remove: archive file [/home/abi/fetcher/tmp/botocore-a-la-carte-logs-1.34.8.tar.gz]
+[2024-04-05 03:13:05] INFO root fetch - processPackages [botocore-a-la-carte-logs]: Remove: archive file [/home/abi/fetcher/tmp/botocore-a-la-carte-logs-1.34.9.tar.gz]
+[2024-04-05 03:13:05] INFO root fetch - processPackages [botocore-a-la-carte-logs]: Start processing: botocore-a-la-carte-opensearchserverless
+[2024-04-05 03:13:05] INFO root fetch - main [MainThread]: End processing [botocore-a-la-carte-logs]: success
+[2024-04-05 03:13:05] INFO root fetch - processPackages [botocore-a-la-carte-sso-oidc]: Remove: archive file [/home/abi/fetcher/tmp/botocore-a-la-carte-sso-oidc-1.34.8.tar.gz]
+[2024-04-05 03:13:05] INFO root fetch - processPackages [botocore-a-la-carte-sso-oidc]: Remove: archive file [/home/abi/fetcher/tmp/botocore-a-la-carte-sso-oidc-1.34.9.tar.gz]
+[2024-04-05 03:13:05] INFO root fetch - processPackages [botocore-a-la-carte-sso-oidc]: Start processing: botocore-a-la-carte-bedrock-agent
+[2024-04-05 03:13:05] INFO root fetch - main [MainThread]: End processing [botocore-a-la-carte-sso-oidc]: success
+[2024-04-05 03:13:05] INFO root fetch - processPackages [botocore-a-la-carte-ec2-instance-connect]: Downloading https://files.pythonhosted.org/packages/1a/26/b663639714fe600f53a71aa47fa5422b1345cdd8a01c5b267cbe3d9b2e5d/botocore-a-la-carte-ec2-instance-connect-1.34.9.tar.gz
+[2024-04-05 03:13:05] INFO root fetch - processPackages [botocore-a-la-carte-apigatewaymanagementapi]: Downloading https://files.pythonhosted.org/packages/66/25/3e3284251c72f4931b73aefded2bf3460ae5806534a100caf8b40c34878c/botocore-a-la-carte-apigatewaymanagementapi-1.34.8.tar.gz
+[2024-04-05 03:13:05] WARNING root fetch - processPackages [botocore-a-la-carte-resource-explorer-2]: Timeout reached during download
+[2024-04-05 03:13:05] INFO root fetch - processPackages [botocore-a-la-carte-resource-explorer-2]: executing diffoscope
+[2024-04-05 03:13:05] INFO root fetch - processPackages [botocore-a-la-carte-resource-explorer-2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/botocore-a-la-carte-resource-explorer-2-1.34.8.tar.gz tmp/botocore-a-la-carte-resource-explorer-2-1.34.9.tar.gz --markdown 20240405/b/botocore-a-la-carte-resource-explorer-2/1.34.8-1.34.9/diff.md --exclude *.pyd
+[2024-04-05 03:13:05] INFO root fetch - processPackages [botocore-a-la-carte-connectcampaigns]: Downloading https://files.pythonhosted.org/packages/92/53/f17b51567ac245abdee93ca12602c4550c9e42e78a8b5b166f7ed926d365/botocore-a-la-carte-connectcampaigns-1.34.9.tar.gz
+[2024-04-05 03:13:05] INFO root fetch - processPackages [botocore-a-la-carte-migration-hub-refactor-spaces]: New version: [1.34.9] Old Version: [1.34.8]
+[2024-04-05 03:13:05] INFO root fetch - processPackages [botocore-a-la-carte-iotevents]: Downloading https://files.pythonhosted.org/packages/fd/a8/e2eab845e0fc4c12dba7f0c1e6b1285e318347b8d6e4f109b1d7915319b1/botocore-a-la-carte-iotevents-1.34.8.tar.gz
+[2024-04-05 03:13:05] INFO root fetch - processPackages [botocore-a-la-carte-opensearchserverless]: New version: [1.34.9] Old Version: [1.34.8]
+[2024-04-05 03:13:05] INFO root fetch - processPackages [botocore-a-la-carte-iottwinmaker]: Downloading https://files.pythonhosted.org/packages/c8/2b/286697463f1847a41b3789f6e4014edcdcceaa1f8e43c62d2ad4683d9012/botocore-a-la-carte-iottwinmaker-1.34.8.tar.gz
+[2024-04-05 03:13:05] WARNING root fetch - processPackages [botocore-a-la-carte-ec2-instance-connect]: Timeout reached during download
+[2024-04-05 03:13:05] INFO root fetch - processPackages [botocore-a-la-carte-ec2-instance-connect]: executing diffoscope
+[2024-04-05 03:13:05] INFO root fetch - processPackages [botocore-a-la-carte-ec2-instance-connect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/botocore-a-la-carte-ec2-instance-connect-1.34.8.tar.gz tmp/botocore-a-la-carte-ec2-instance-connect-1.34.9.tar.gz --markdown 20240405/b/botocore-a-la-carte-ec2-instance-connect/1.34.8-1.34.9/diff.md --exclude *.pyd
+[2024-04-05 03:13:05] WARNING root fetch - processPackages [botocore-a-la-carte-apigatewaymanagementapi]: Timeout reached during download
+[2024-04-05 03:13:05] INFO root fetch - processPackages [botocore-a-la-carte-sms]: Downloading https://files.pythonhosted.org/packages/5b/39/4810055067ac37917d21d3d994a8c35af9a8859442ee9a3fd452792642db/botocore-a-la-carte-sms-1.34.8.tar.gz
+[2024-04-05 03:13:05] WARNING root fetch - processPackages [botocore-a-la-carte-connectcampaigns]: Timeout reached during download
+[2024-04-05 03:13:05] INFO root fetch - processPackages [botocore-a-la-carte-connectcampaigns]: executing diffoscope
+[2024-04-05 03:13:05] INFO root fetch - processPackages [botocore-a-la-carte-connectcampaigns]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/botocore-a-la-carte-connectcampaigns-1.34.8.tar.gz tmp/botocore-a-la-carte-connectcampaigns-1.34.9.tar.gz --markdown 20240405/b/botocore-a-la-carte-connectcampaigns/1.34.8-1.34.9/diff.md --exclude *.pyd
+[2024-04-05 03:13:05] INFO root fetch - processPackages [botocore-a-la-carte-bedrock-agent]: New version: [1.34.9] Old Version: [1.34.8]
+[2024-04-05 03:13:05] WARNING root fetch - processPackages [botocore-a-la-carte-iotevents]: Timeout reached during download
+[2024-04-05 03:13:05] WARNING root fetch - processPackages [botocore-a-la-carte-iottwinmaker]: Timeout reached during download
+[2024-04-05 03:13:05] WARNING root fetch - processPackages [botocore-a-la-carte-sms]: Timeout reached during download
+[2024-04-05 03:13:05] INFO root fetch - processPackages [botocore-a-la-carte-migration-hub-refactor-spaces]: Downloading https://files.pythonhosted.org/packages/9e/1a/ddd8b17ca343c829bdaad4b6ce00d0890ed0d1d42b091e67297c07092800/botocore-a-la-carte-migration-hub-refactor-spaces-1.34.8.tar.gz
+[2024-04-05 03:13:05] INFO root fetch - processPackages [botocore-a-la-carte-opensearchserverless]: Downloading https://files.pythonhosted.org/packages/9e/0c/eb0f694c4bb7915edc0bd2b3a88534310847f8f374e1d64f8715d7ea7f6e/botocore-a-la-carte-opensearchserverless-1.34.8.tar.gz
+[2024-04-05 03:13:05] INFO root fetch - processPackages [botocore-a-la-carte-apigatewaymanagementapi]: Downloading https://files.pythonhosted.org/packages/3f/2e/b11ae68cbabf70b5d63dddaec4d8b58cadcaf50f66f84a4a0c424555c672/botocore-a-la-carte-apigatewaymanagementapi-1.34.9.tar.gz
+[2024-04-05 03:13:05] WARNING root fetch - processPackages [botocore-a-la-carte-migration-hub-refactor-spaces]: Timeout reached during download
+[2024-04-05 03:13:05] WARNING root fetch - processPackages [botocore-a-la-carte-opensearchserverless]: Timeout reached during download
+[2024-04-05 03:13:05] INFO root fetch - processPackages [botocore-a-la-carte-iotevents]: Downloading https://files.pythonhosted.org/packages/c2/96/7c35580a9996b9ebf5895da67c2b1bd0b6b840c596dc5a0de7d747fcf7c2/botocore-a-la-carte-iotevents-1.34.9.tar.gz
+[2024-04-05 03:13:05] WARNING root fetch - processPackages [botocore-a-la-carte-apigatewaymanagementapi]: Timeout reached during download
+[2024-04-05 03:13:05] INFO root fetch - processPackages [botocore-a-la-carte-apigatewaymanagementapi]: executing diffoscope
+[2024-04-05 03:13:05] INFO root fetch - processPackages [botocore-a-la-carte-apigatewaymanagementapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/botocore-a-la-carte-apigatewaymanagementapi-1.34.8.tar.gz tmp/botocore-a-la-carte-apigatewaymanagementapi-1.34.9.tar.gz --markdown 20240405/b/botocore-a-la-carte-apigatewaymanagementapi/1.34.8-1.34.9/diff.md --exclude *.pyd
+[2024-04-05 03:13:05] INFO root fetch - processPackages [botocore-a-la-carte-iottwinmaker]: Downloading https://files.pythonhosted.org/packages/a0/76/de623e4c1bdf2b258f3ace25340c048e8ad13bd9b88ae815ab133f16bbac/botocore-a-la-carte-iottwinmaker-1.34.9.tar.gz
+[2024-04-05 03:13:05] INFO root fetch - processPackages [botocore-a-la-carte-sms]: Downloading https://files.pythonhosted.org/packages/b4/09/21e4825b48c7fe40f1597344bbcc1b2e0b37cd33af9ba63c72809e473b85/botocore-a-la-carte-sms-1.34.9.tar.gz
+[2024-04-05 03:13:05] WARNING root fetch - processPackages [botocore-a-la-carte-iotevents]: Timeout reached during download
+[2024-04-05 03:13:05] INFO root fetch - processPackages [botocore-a-la-carte-iotevents]: executing diffoscope
+[2024-04-05 03:13:05] INFO root fetch - processPackages [botocore-a-la-carte-iotevents]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/botocore-a-la-carte-iotevents-1.34.8.tar.gz tmp/botocore-a-la-carte-iotevents-1.34.9.tar.gz --markdown 20240405/b/botocore-a-la-carte-iotevents/1.34.8-1.34.9/diff.md --exclude *.pyd
+[2024-04-05 03:13:05] INFO root fetch - processPackages [botocore-a-la-carte-resource-explorer-2]: Remove: archive file [/home/abi/fetcher/tmp/botocore-a-la-carte-resource-explorer-2-1.34.8.tar.gz]
+[2024-04-05 03:13:05] INFO root fetch - processPackages [botocore-a-la-carte-resource-explorer-2]: Remove: archive file [/home/abi/fetcher/tmp/botocore-a-la-carte-resource-explorer-2-1.34.9.tar.gz]
+[2024-04-05 03:13:05] INFO root fetch - processPackages [botocore-a-la-carte-resource-explorer-2]: Start processing: botocore-a-la-carte-mgh
+[2024-04-05 03:13:05] INFO root fetch - main [MainThread]: End processing [botocore-a-la-carte-resource-explorer-2]: success
+[2024-04-05 03:13:05] WARNING root fetch - processPackages [botocore-a-la-carte-sms]: Timeout reached during download
+[2024-04-05 03:13:05] WARNING root fetch - processPackages [botocore-a-la-carte-iottwinmaker]: Timeout reached during download
+[2024-04-05 03:13:05] INFO root fetch - processPackages [botocore-a-la-carte-sms]: executing diffoscope
+[2024-04-05 03:13:05] INFO root fetch - processPackages [botocore-a-la-carte-sms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/botocore-a-la-carte-sms-1.34.8.tar.gz tmp/botocore-a-la-carte-sms-1.34.9.tar.gz --markdown 20240405/b/botocore-a-la-carte-sms/1.34.8-1.34.9/diff.md --exclude *.pyd
+[2024-04-05 03:13:05] INFO root fetch - processPackages [botocore-a-la-carte-iottwinmaker]: executing diffoscope
+[2024-04-05 03:13:05] INFO root fetch - processPackages [botocore-a-la-carte-iottwinmaker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/botocore-a-la-carte-iottwinmaker-1.34.8.tar.gz tmp/botocore-a-la-carte-iottwinmaker-1.34.9.tar.gz --markdown 20240405/b/botocore-a-la-carte-iottwinmaker/1.34.8-1.34.9/diff.md --exclude *.pyd
+[2024-04-05 03:13:05] INFO root fetch - processPackages [botocore-a-la-carte-bedrock-agent]: Downloading https://files.pythonhosted.org/packages/a2/cd/828f5d7c3db9eeba64f7194a3d5185c55f52fc275996ecf309ec13f6785b/botocore-a-la-carte-bedrock-agent-1.34.8.tar.gz
+[2024-04-05 03:13:05] INFO root fetch - processPackages [botocore-a-la-carte-migration-hub-refactor-spaces]: Downloading https://files.pythonhosted.org/packages/21/e4/7d4d3b87b452cdad66e00d03f521e53a3db2f82e63f8edc0de41215ed1c3/botocore-a-la-carte-migration-hub-refactor-spaces-1.34.9.tar.gz
+[2024-04-05 03:13:05] INFO root fetch - processPackages [botocore-a-la-carte-opensearchserverless]: Downloading https://files.pythonhosted.org/packages/fe/ab/f53a89f4913b4e72b7fb31fbd8d56ca72a6d26d66dc8c4da60f55fabd958/botocore-a-la-carte-opensearchserverless-1.34.9.tar.gz
+[2024-04-05 03:13:05] INFO root fetch - processPackages [botocore-a-la-carte-mgh]: New version: [1.34.9] Old Version: [1.34.8]
+[2024-04-05 03:13:05] WARNING root fetch - processPackages [botocore-a-la-carte-bedrock-agent]: Timeout reached during download
+[2024-04-05 03:13:05] WARNING root fetch - processPackages [botocore-a-la-carte-migration-hub-refactor-spaces]: Timeout reached during download
+[2024-04-05 03:13:05] INFO root fetch - processPackages [botocore-a-la-carte-migration-hub-refactor-spaces]: executing diffoscope
+[2024-04-05 03:13:05] INFO root fetch - processPackages [botocore-a-la-carte-migration-hub-refactor-spaces]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/botocore-a-la-carte-migration-hub-refactor-spaces-1.34.8.tar.gz tmp/botocore-a-la-carte-migration-hub-refactor-spaces-1.34.9.tar.gz --markdown 20240405/b/botocore-a-la-carte-migration-hub-refactor-spaces/1.34.8-1.34.9/diff.md --exclude *.pyd
+[2024-04-05 03:13:05] WARNING root fetch - processPackages [botocore-a-la-carte-opensearchserverless]: Timeout reached during download
+[2024-04-05 03:13:05] INFO root fetch - processPackages [botocore-a-la-carte-opensearchserverless]: executing diffoscope
+[2024-04-05 03:13:05] INFO root fetch - processPackages [botocore-a-la-carte-opensearchserverless]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/botocore-a-la-carte-opensearchserverless-1.34.8.tar.gz tmp/botocore-a-la-carte-opensearchserverless-1.34.9.tar.gz --markdown 20240405/b/botocore-a-la-carte-opensearchserverless/1.34.8-1.34.9/diff.md --exclude *.pyd
+[2024-04-05 03:13:05] INFO root fetch - processPackages [botocore-a-la-carte-connectcampaigns]: Remove: archive file [/home/abi/fetcher/tmp/botocore-a-la-carte-connectcampaigns-1.34.8.tar.gz]
+[2024-04-05 03:13:05] INFO root fetch - processPackages [botocore-a-la-carte-connectcampaigns]: Remove: archive file [/home/abi/fetcher/tmp/botocore-a-la-carte-connectcampaigns-1.34.9.tar.gz]
+[2024-04-05 03:13:05] INFO root fetch - processPackages [botocore-a-la-carte-connectcampaigns]: Start processing: botocore-a-la-carte-codecommit
+[2024-04-05 03:13:06] INFO root fetch - main [MainThread]: End processing [botocore-a-la-carte-connectcampaigns]: success
+[2024-04-05 03:13:06] INFO root fetch - processPackages [botocore-a-la-carte-ec2-instance-connect]: Remove: archive file [/home/abi/fetcher/tmp/botocore-a-la-carte-ec2-instance-connect-1.34.8.tar.gz]
+[2024-04-05 03:13:06] INFO root fetch - processPackages [botocore-a-la-carte-ec2-instance-connect]: Remove: archive file [/home/abi/fetcher/tmp/botocore-a-la-carte-ec2-instance-connect-1.34.9.tar.gz]
+[2024-04-05 03:13:06] INFO root fetch - processPackages [botocore-a-la-carte-ec2-instance-connect]: Start processing: botocore-a-la-carte-auditmanager
+[2024-04-05 03:13:06] INFO root fetch - main [MainThread]: End processing [botocore-a-la-carte-ec2-instance-connect]: success
+[2024-04-05 03:13:06] INFO root fetch - processPackages [botocore-a-la-carte-codecommit]: New version: [1.34.9] Old Version: [1.34.8]
+[2024-04-05 03:13:06] INFO root fetch - processPackages [botocore-a-la-carte-mgh]: Downloading https://files.pythonhosted.org/packages/f1/08/5db3a3ea86770bc52d6c2eb1b3b701ba4e997f6a9da471892748bab53d81/botocore-a-la-carte-mgh-1.34.8.tar.gz
+[2024-04-05 03:13:06] INFO root fetch - processPackages [botocore-a-la-carte-bedrock-agent]: Downloading https://files.pythonhosted.org/packages/62/7e/1b75f6e6411240cecdb336320311042ce4618d6bfc2aa1932c20dfaae705/botocore-a-la-carte-bedrock-agent-1.34.9.tar.gz
+[2024-04-05 03:13:06] WARNING root fetch - processPackages [botocore-a-la-carte-mgh]: Timeout reached during download
+[2024-04-05 03:13:06] INFO root fetch - processPackages [botocore-a-la-carte-auditmanager]: New version: [1.34.9] Old Version: [1.34.8]
+[2024-04-05 03:13:06] WARNING root fetch - processPackages [botocore-a-la-carte-bedrock-agent]: Timeout reached during download
+[2024-04-05 03:13:06] INFO root fetch - processPackages [botocore-a-la-carte-bedrock-agent]: executing diffoscope
+[2024-04-05 03:13:06] INFO root fetch - processPackages [botocore-a-la-carte-bedrock-agent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/botocore-a-la-carte-bedrock-agent-1.34.8.tar.gz tmp/botocore-a-la-carte-bedrock-agent-1.34.9.tar.gz --markdown 20240405/b/botocore-a-la-carte-bedrock-agent/1.34.8-1.34.9/diff.md --exclude *.pyd
+[2024-04-05 03:13:06] INFO root fetch - processPackages [botocore-a-la-carte-codecommit]: Downloading https://files.pythonhosted.org/packages/a7/1d/95ed959f976e6f9e4d6204752f3e330dfe43ea1f6b8c6fc02a74526c80f5/botocore-a-la-carte-codecommit-1.34.8.tar.gz
+[2024-04-05 03:13:06] INFO root fetch - processPackages [botocore-a-la-carte-apigatewaymanagementapi]: Remove: archive file [/home/abi/fetcher/tmp/botocore-a-la-carte-apigatewaymanagementapi-1.34.8.tar.gz]
+[2024-04-05 03:13:06] INFO root fetch - processPackages [botocore-a-la-carte-apigatewaymanagementapi]: Remove: archive file [/home/abi/fetcher/tmp/botocore-a-la-carte-apigatewaymanagementapi-1.34.9.tar.gz]
+[2024-04-05 03:13:06] INFO root fetch - processPackages [botocore-a-la-carte-apigatewaymanagementapi]: Start processing: botocore-a-la-carte-managedblockchain
+[2024-04-05 03:13:06] INFO root fetch - main [MainThread]: End processing [botocore-a-la-carte-apigatewaymanagementapi]: success
+[2024-04-05 03:13:06] WARNING root fetch - processPackages [botocore-a-la-carte-codecommit]: Timeout reached during download
+[2024-04-05 03:13:06] INFO root fetch - processPackages [botocore-a-la-carte-mgh]: Downloading https://files.pythonhosted.org/packages/37/5f/ae4ebfeaec13088784ef067a5f118b17d7ddf98204d9c135fe9fe7873f95/botocore-a-la-carte-mgh-1.34.9.tar.gz
+[2024-04-05 03:13:06] INFO root fetch - processPackages [botocore-a-la-carte-auditmanager]: Downloading https://files.pythonhosted.org/packages/2e/3c/9c47775d973eb125566f3954bb42fc4739c91cd7cbaa3043f1e219141c45/botocore-a-la-carte-auditmanager-1.34.8.tar.gz
+[2024-04-05 03:13:06] INFO root fetch - processPackages [botocore-a-la-carte-sms]: Remove: archive file [/home/abi/fetcher/tmp/botocore-a-la-carte-sms-1.34.8.tar.gz]
+[2024-04-05 03:13:06] INFO root fetch - processPackages [botocore-a-la-carte-sms]: Remove: archive file [/home/abi/fetcher/tmp/botocore-a-la-carte-sms-1.34.9.tar.gz]
+[2024-04-05 03:13:06] INFO root fetch - processPackages [botocore-a-la-carte-sms]: Start processing: botocore-a-la-carte-datazone
+[2024-04-05 03:13:06] INFO root fetch - main [MainThread]: End processing [botocore-a-la-carte-sms]: success
+[2024-04-05 03:13:06] INFO root fetch - processPackages [botocore-a-la-carte-iotevents]: Remove: archive file [/home/abi/fetcher/tmp/botocore-a-la-carte-iotevents-1.34.8.tar.gz]
+[2024-04-05 03:13:06] INFO root fetch - processPackages [botocore-a-la-carte-iotevents]: Remove: archive file [/home/abi/fetcher/tmp/botocore-a-la-carte-iotevents-1.34.9.tar.gz]
+[2024-04-05 03:13:06] INFO root fetch - processPackages [botocore-a-la-carte-iotevents]: Start processing: botocore-a-la-carte-elasticbeanstalk
+[2024-04-05 03:13:06] INFO root fetch - main [MainThread]: End processing [botocore-a-la-carte-iotevents]: success
+[2024-04-05 03:13:06] WARNING root fetch - processPackages [botocore-a-la-carte-mgh]: Timeout reached during download
+[2024-04-05 03:13:06] INFO root fetch - processPackages [botocore-a-la-carte-mgh]: executing diffoscope
+[2024-04-05 03:13:06] INFO root fetch - processPackages [botocore-a-la-carte-mgh]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/botocore-a-la-carte-mgh-1.34.8.tar.gz tmp/botocore-a-la-carte-mgh-1.34.9.tar.gz --markdown 20240405/b/botocore-a-la-carte-mgh/1.34.8-1.34.9/diff.md --exclude *.pyd
+[2024-04-05 03:13:06] INFO root fetch - processPackages [botocore-a-la-carte-managedblockchain]: New version: [1.34.9] Old Version: [1.34.8]
+[2024-04-05 03:13:06] WARNING root fetch - processPackages [botocore-a-la-carte-auditmanager]: Timeout reached during download
+[2024-04-05 03:13:06] INFO root fetch - processPackages [botocore-a-la-carte-iottwinmaker]: Remove: archive file [/home/abi/fetcher/tmp/botocore-a-la-carte-iottwinmaker-1.34.8.tar.gz]
+[2024-04-05 03:13:06] INFO root fetch - processPackages [botocore-a-la-carte-iottwinmaker]: Remove: archive file [/home/abi/fetcher/tmp/botocore-a-la-carte-iottwinmaker-1.34.9.tar.gz]
+[2024-04-05 03:13:06] INFO root fetch - processPackages [botocore-a-la-carte-iottwinmaker]: Start processing: botocore-a-la-carte-personalize-events
+[2024-04-05 03:13:06] INFO root fetch - main [MainThread]: End processing [botocore-a-la-carte-iottwinmaker]: success
+[2024-04-05 03:13:06] INFO root fetch - processPackages [botocore-a-la-carte-codecommit]: Downloading https://files.pythonhosted.org/packages/00/1b/45599aa80c5618deb2c83092ddecc48795102e5ab4c3930ef9ef1ac10b76/botocore-a-la-carte-codecommit-1.34.9.tar.gz
+[2024-04-05 03:13:06] INFO root fetch - processPackages [botocore-a-la-carte-datazone]: New version: [1.34.9] Old Version: [1.34.8]
+[2024-04-05 03:13:06] INFO root fetch - processPackages [botocore-a-la-carte-opensearchserverless]: Remove: archive file [/home/abi/fetcher/tmp/botocore-a-la-carte-opensearchserverless-1.34.8.tar.gz]
+[2024-04-05 03:13:06] INFO root fetch - processPackages [botocore-a-la-carte-opensearchserverless]: Remove: archive file [/home/abi/fetcher/tmp/botocore-a-la-carte-opensearchserverless-1.34.9.tar.gz]
+[2024-04-05 03:13:06] INFO root fetch - processPackages [botocore-a-la-carte-opensearchserverless]: Start processing: botocore-a-la-carte-servicecatalog-appregistry
+[2024-04-05 03:13:06] INFO root fetch - main [MainThread]: End processing [botocore-a-la-carte-opensearchserverless]: success
+[2024-04-05 03:13:06] INFO root fetch - processPackages [botocore-a-la-carte-elasticbeanstalk]: New version: [1.34.9] Old Version: [1.34.8]
+[2024-04-05 03:13:06] INFO root fetch - processPackages [botocore-a-la-carte-migration-hub-refactor-spaces]: Remove: archive file [/home/abi/fetcher/tmp/botocore-a-la-carte-migration-hub-refactor-spaces-1.34.8.tar.gz]
+[2024-04-05 03:13:06] INFO root fetch - processPackages [botocore-a-la-carte-migration-hub-refactor-spaces]: Remove: archive file [/home/abi/fetcher/tmp/botocore-a-la-carte-migration-hub-refactor-spaces-1.34.9.tar.gz]
+[2024-04-05 03:13:06] INFO root fetch - processPackages [botocore-a-la-carte-migration-hub-refactor-spaces]: Start processing: botocore-a-la-carte-transfer
+[2024-04-05 03:13:06] INFO root fetch - main [MainThread]: End processing [botocore-a-la-carte-migration-hub-refactor-spaces]: success
+[2024-04-05 03:13:06] WARNING root fetch - processPackages [botocore-a-la-carte-codecommit]: Timeout reached during download
+[2024-04-05 03:13:06] INFO root fetch - processPackages [botocore-a-la-carte-codecommit]: executing diffoscope
+[2024-04-05 03:13:06] INFO root fetch - processPackages [botocore-a-la-carte-codecommit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/botocore-a-la-carte-codecommit-1.34.8.tar.gz tmp/botocore-a-la-carte-codecommit-1.34.9.tar.gz --markdown 20240405/b/botocore-a-la-carte-codecommit/1.34.8-1.34.9/diff.md --exclude *.pyd
+[2024-04-05 03:13:06] INFO root fetch - processPackages [botocore-a-la-carte-personalize-events]: New version: [1.34.9] Old Version: [1.34.8]
+[2024-04-05 03:13:06] INFO root fetch - processPackages [botocore-a-la-carte-auditmanager]: Downloading https://files.pythonhosted.org/packages/a9/80/564afde018e97927ab694f2160af89f40811c8342be7bd22e02d45b34d38/botocore-a-la-carte-auditmanager-1.34.9.tar.gz
+[2024-04-05 03:13:06] INFO root fetch - processPackages [botocore-a-la-carte-managedblockchain]: Downloading https://files.pythonhosted.org/packages/4e/69/4babd66658eb92bf7e8d1f2ad3b47e682443c11f8941862fa0d76b79871c/botocore-a-la-carte-managedblockchain-1.34.8.tar.gz
+[2024-04-05 03:13:06] INFO root fetch - processPackages [botocore-a-la-carte-servicecatalog-appregistry]: New version: [1.34.9] Old Version: [1.34.8]
+[2024-04-05 03:13:07] INFO root fetch - processPackages [botocore-a-la-carte-datazone]: Downloading https://files.pythonhosted.org/packages/79/cf/6126e4d2764f9ffd621869eb3060519863a62aa09f883e7fac6806f4f18d/botocore-a-la-carte-datazone-1.34.8.tar.gz
+[2024-04-05 03:13:07] INFO root fetch - processPackages [botocore-a-la-carte-bedrock-agent]: Remove: archive file [/home/abi/fetcher/tmp/botocore-a-la-carte-bedrock-agent-1.34.8.tar.gz]
+[2024-04-05 03:13:07] INFO root fetch - processPackages [botocore-a-la-carte-bedrock-agent]: Remove: archive file [/home/abi/fetcher/tmp/botocore-a-la-carte-bedrock-agent-1.34.9.tar.gz]
+[2024-04-05 03:13:07] INFO root fetch - processPackages [botocore-a-la-carte-bedrock-agent]: Start processing: botocore-a-la-carte-network-firewall
+[2024-04-05 03:13:07] INFO root fetch - main [MainThread]: End processing [botocore-a-la-carte-bedrock-agent]: success
+[2024-04-05 03:13:07] INFO root fetch - processPackages [botocore-a-la-carte-transfer]: New version: [1.34.9] Old Version: [1.34.8]
+[2024-04-05 03:13:07] INFO root fetch - processPackages [botocore-a-la-carte-elasticbeanstalk]: Downloading https://files.pythonhosted.org/packages/68/3c/03392e2095b9a8bd6d49419232afe5b29add285c99d306a399a6ef57ea5f/botocore-a-la-carte-elasticbeanstalk-1.34.8.tar.gz
+[2024-04-05 03:13:07] WARNING root fetch - processPackages [botocore-a-la-carte-auditmanager]: Timeout reached during download
+[2024-04-05 03:13:07] WARNING root fetch - processPackages [botocore-a-la-carte-managedblockchain]: Timeout reached during download
+[2024-04-05 03:13:07] INFO root fetch - processPackages [botocore-a-la-carte-auditmanager]: executing diffoscope
+[2024-04-05 03:13:07] INFO root fetch - processPackages [botocore-a-la-carte-auditmanager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/botocore-a-la-carte-auditmanager-1.34.8.tar.gz tmp/botocore-a-la-carte-auditmanager-1.34.9.tar.gz --markdown 20240405/b/botocore-a-la-carte-auditmanager/1.34.8-1.34.9/diff.md --exclude *.pyd
+[2024-04-05 03:13:07] WARNING root fetch - processPackages [botocore-a-la-carte-datazone]: Timeout reached during download
+[2024-04-05 03:13:07] INFO root fetch - processPackages [botocore-a-la-carte-personalize-events]: Downloading https://files.pythonhosted.org/packages/c0/d5/6845d738931604e541d464ca1f9a9dc454a1b0a06cc85fe6f719bb09d3e7/botocore-a-la-carte-personalize-events-1.34.8.tar.gz
+[2024-04-05 03:13:07] INFO root fetch - processPackages [botocore-a-la-carte-network-firewall]: New version: [1.34.9] Old Version: [1.34.8]
+[2024-04-05 03:13:07] INFO root fetch - processPackages [botocore-a-la-carte-servicecatalog-appregistry]: Downloading https://files.pythonhosted.org/packages/10/20/505dc7ab38205d3640001d97b058d63591a16409a4d11b264c67f578cdca/botocore-a-la-carte-servicecatalog-appregistry-1.34.8.tar.gz
+[2024-04-05 03:13:07] WARNING root fetch - processPackages [botocore-a-la-carte-elasticbeanstalk]: Timeout reached during download
+[2024-04-05 03:13:07] INFO root fetch - processPackages [botocore-a-la-carte-transfer]: Downloading https://files.pythonhosted.org/packages/71/32/8baeb1b60a2f63b6be67f2d599e9175da89679f5c58e005c1bb77a75a1ba/botocore-a-la-carte-transfer-1.34.8.tar.gz
+[2024-04-05 03:13:07] WARNING root fetch - processPackages [botocore-a-la-carte-personalize-events]: Timeout reached during download
+[2024-04-05 03:13:07] INFO root fetch - processPackages [botocore-a-la-carte-managedblockchain]: Downloading https://files.pythonhosted.org/packages/1d/97/4772d07d165d8c6b5e02907a1429e965184d4cf9ab6d64340aa18ac1c3d0/botocore-a-la-carte-managedblockchain-1.34.9.tar.gz
+[2024-04-05 03:13:07] WARNING root fetch - processPackages [botocore-a-la-carte-servicecatalog-appregistry]: Timeout reached during download
+[2024-04-05 03:13:07] INFO root fetch - processPackages [botocore-a-la-carte-mgh]: Remove: archive file [/home/abi/fetcher/tmp/botocore-a-la-carte-mgh-1.34.8.tar.gz]
+[2024-04-05 03:13:07] INFO root fetch - processPackages [botocore-a-la-carte-mgh]: Remove: archive file [/home/abi/fetcher/tmp/botocore-a-la-carte-mgh-1.34.9.tar.gz]
+[2024-04-05 03:13:07] INFO root fetch - processPackages [botocore-a-la-carte-mgh]: Start processing: botocore-a-la-carte-acm
+[2024-04-05 03:13:07] INFO root fetch - main [MainThread]: End processing [botocore-a-la-carte-mgh]: success
+[2024-04-05 03:13:07] INFO root fetch - processPackages [botocore-a-la-carte-datazone]: Downloading https://files.pythonhosted.org/packages/ca/8f/027df8af8d31b711b586097274bd9c016dcc3881b3b1cc49032c7349660a/botocore-a-la-carte-datazone-1.34.9.tar.gz
+[2024-04-05 03:13:07] INFO root fetch - processPackages [botocore-a-la-carte-network-firewall]: Downloading https://files.pythonhosted.org/packages/eb/a4/064f477f525c7b7f932f3e72f425cb564e04d052916cbda9135637351ce6/botocore-a-la-carte-network-firewall-1.34.8.tar.gz
+[2024-04-05 03:13:07] WARNING root fetch - processPackages [botocore-a-la-carte-transfer]: Timeout reached during download
+[2024-04-05 03:13:07] WARNING root fetch - processPackages [botocore-a-la-carte-managedblockchain]: Timeout reached during download
+[2024-04-05 03:13:07] INFO root fetch - processPackages [botocore-a-la-carte-managedblockchain]: executing diffoscope
+[2024-04-05 03:13:07] INFO root fetch - processPackages [botocore-a-la-carte-managedblockchain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/botocore-a-la-carte-managedblockchain-1.34.8.tar.gz tmp/botocore-a-la-carte-managedblockchain-1.34.9.tar.gz --markdown 20240405/b/botocore-a-la-carte-managedblockchain/1.34.8-1.34.9/diff.md --exclude *.pyd
+[2024-04-05 03:13:07] INFO root fetch - processPackages [botocore-a-la-carte-personalize-events]: Downloading https://files.pythonhosted.org/packages/81/f9/2ad821fa4339a9572a506359527771dfd5d9aca1f3477b8ae26aac79579e/botocore-a-la-carte-personalize-events-1.34.9.tar.gz
+[2024-04-05 03:13:07] WARNING root fetch - processPackages [botocore-a-la-carte-datazone]: Timeout reached during download
+[2024-04-05 03:13:07] INFO root fetch - processPackages [botocore-a-la-carte-datazone]: executing diffoscope
+[2024-04-05 03:13:07] INFO root fetch - processPackages [botocore-a-la-carte-datazone]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/botocore-a-la-carte-datazone-1.34.8.tar.gz tmp/botocore-a-la-carte-datazone-1.34.9.tar.gz --markdown 20240405/b/botocore-a-la-carte-datazone/1.34.8-1.34.9/diff.md --exclude *.pyd
+[2024-04-05 03:13:07] INFO root fetch - processPackages [botocore-a-la-carte-acm]: New version: [1.34.9] Old Version: [1.34.8]
+[2024-04-05 03:13:07] WARNING root fetch - processPackages [botocore-a-la-carte-network-firewall]: Timeout reached during download
+[2024-04-05 03:13:07] INFO root fetch - processPackages [botocore-a-la-carte-servicecatalog-appregistry]: Downloading https://files.pythonhosted.org/packages/66/c5/165c78057ec5ed5413505d07e5bb894ece65a28655e4e43e465e82529f00/botocore-a-la-carte-servicecatalog-appregistry-1.34.9.tar.gz
+[2024-04-05 03:13:07] INFO root fetch - processPackages [botocore-a-la-carte-codecommit]: Remove: archive file [/home/abi/fetcher/tmp/botocore-a-la-carte-codecommit-1.34.8.tar.gz]
+[2024-04-05 03:13:07] INFO root fetch - processPackages [botocore-a-la-carte-codecommit]: Remove: archive file [/home/abi/fetcher/tmp/botocore-a-la-carte-codecommit-1.34.9.tar.gz]
+[2024-04-05 03:13:07] INFO root fetch - processPackages [botocore-a-la-carte-codecommit]: Start processing: botocore-a-la-carte-directconnect
+[2024-04-05 03:13:07] INFO root fetch - main [MainThread]: End processing [botocore-a-la-carte-codecommit]: success
+[2024-04-05 03:13:07] WARNING root fetch - processPackages [botocore-a-la-carte-personalize-events]: Timeout reached during download
+[2024-04-05 03:13:07] INFO root fetch - processPackages [botocore-a-la-carte-personalize-events]: executing diffoscope
+[2024-04-05 03:13:07] INFO root fetch - processPackages [botocore-a-la-carte-personalize-events]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/botocore-a-la-carte-personalize-events-1.34.8.tar.gz tmp/botocore-a-la-carte-personalize-events-1.34.9.tar.gz --markdown 20240405/b/botocore-a-la-carte-personalize-events/1.34.8-1.34.9/diff.md --exclude *.pyd
+[2024-04-05 03:13:07] INFO root fetch - processPackages [botocore-a-la-carte-elasticbeanstalk]: Downloading https://files.pythonhosted.org/packages/77/46/da3269bfc0ed2724f55fb11dc190292e44bf6cb1420270beefe60b04c3cf/botocore-a-la-carte-elasticbeanstalk-1.34.9.tar.gz
+[2024-04-05 03:13:07] INFO root fetch - processPackages [botocore-a-la-carte-transfer]: Downloading https://files.pythonhosted.org/packages/16/b9/12126ba6fef20714bec37973b2b1673515c350a3718bcccfc7cd8e369ccb/botocore-a-la-carte-transfer-1.34.9.tar.gz
+[2024-04-05 03:13:07] WARNING root fetch - processPackages [botocore-a-la-carte-servicecatalog-appregistry]: Timeout reached during download
+[2024-04-05 03:13:07] INFO root fetch - processPackages [botocore-a-la-carte-auditmanager]: Remove: archive file [/home/abi/fetcher/tmp/botocore-a-la-carte-auditmanager-1.34.8.tar.gz]
+[2024-04-05 03:13:07] INFO root fetch - processPackages [botocore-a-la-carte-servicecatalog-appregistry]: executing diffoscope
+[2024-04-05 03:13:07] INFO root fetch - processPackages [botocore-a-la-carte-auditmanager]: Remove: archive file [/home/abi/fetcher/tmp/botocore-a-la-carte-auditmanager-1.34.9.tar.gz]
+[2024-04-05 03:13:07] INFO root fetch - processPackages [botocore-a-la-carte-servicecatalog-appregistry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/botocore-a-la-carte-servicecatalog-appregistry-1.34.8.tar.gz tmp/botocore-a-la-carte-servicecatalog-appregistry-1.34.9.tar.gz --markdown 20240405/b/botocore-a-la-carte-servicecatalog-appregistry/1.34.8-1.34.9/diff.md --exclude *.pyd
+[2024-04-05 03:13:07] INFO root fetch - processPackages [botocore-a-la-carte-auditmanager]: Start processing: botocore-a-la-carte-neptunedata
+[2024-04-05 03:13:07] INFO root fetch - main [MainThread]: End processing [botocore-a-la-carte-auditmanager]: success
+[2024-04-05 03:13:07] INFO root fetch - processPackages [botocore-a-la-carte-acm]: Downloading https://files.pythonhosted.org/packages/8c/10/8b948c7afeb4c027480b6a0209a89c262456bb23dfaaf4411d86be226c31/botocore-a-la-carte-acm-1.34.8.tar.gz
+[2024-04-05 03:13:07] INFO root fetch - processPackages [botocore-a-la-carte-network-firewall]: Downloading https://files.pythonhosted.org/packages/a6/32/e146d34fc4f7fab91e8d1c13b1db34be14f2417e4dbd93d1bc8761ce8964/botocore-a-la-carte-network-firewall-1.34.9.tar.gz
+[2024-04-05 03:13:07] WARNING root fetch - processPackages [botocore-a-la-carte-elasticbeanstalk]: Timeout reached during download
+[2024-04-05 03:13:07] INFO root fetch - processPackages [botocore-a-la-carte-elasticbeanstalk]: executing diffoscope
+[2024-04-05 03:13:07] INFO root fetch - processPackages [botocore-a-la-carte-elasticbeanstalk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/botocore-a-la-carte-elasticbeanstalk-1.34.8.tar.gz tmp/botocore-a-la-carte-elasticbeanstalk-1.34.9.tar.gz --markdown 20240405/b/botocore-a-la-carte-elasticbeanstalk/1.34.8-1.34.9/diff.md --exclude *.pyd
+[2024-04-05 03:13:07] WARNING root fetch - processPackages [botocore-a-la-carte-transfer]: Timeout reached during download
+[2024-04-05 03:13:07] INFO root fetch - processPackages [botocore-a-la-carte-transfer]: executing diffoscope
+[2024-04-05 03:13:07] INFO root fetch - processPackages [botocore-a-la-carte-transfer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/botocore-a-la-carte-transfer-1.34.8.tar.gz tmp/botocore-a-la-carte-transfer-1.34.9.tar.gz --markdown 20240405/b/botocore-a-la-carte-transfer/1.34.8-1.34.9/diff.md --exclude *.pyd
+[2024-04-05 03:13:07] INFO root fetch - processPackages [botocore-a-la-carte-neptunedata]: New version: [1.34.9] Old Version: [1.34.8]
+[2024-04-05 03:13:07] INFO root fetch - processPackages [botocore-a-la-carte-directconnect]: New version: [1.34.9] Old Version: [1.34.8]
+[2024-04-05 03:13:07] WARNING root fetch - processPackages [botocore-a-la-carte-acm]: Timeout reached during download
+[2024-04-05 03:13:07] WARNING root fetch - processPackages [botocore-a-la-carte-network-firewall]: Timeout reached during download
+[2024-04-05 03:13:07] INFO root fetch - processPackages [botocore-a-la-carte-network-firewall]: executing diffoscope
+[2024-04-05 03:13:07] INFO root fetch - processPackages [botocore-a-la-carte-network-firewall]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/botocore-a-la-carte-network-firewall-1.34.8.tar.gz tmp/botocore-a-la-carte-network-firewall-1.34.9.tar.gz --markdown 20240405/b/botocore-a-la-carte-network-firewall/1.34.8-1.34.9/diff.md --exclude *.pyd
+[2024-04-05 03:13:08] INFO root fetch - processPackages [botocore-a-la-carte-neptunedata]: Downloading https://files.pythonhosted.org/packages/a7/96/15e7f022dc8c8ff9c78f48af3fc300d5097b2a25babc6e88aa7d4182ced9/botocore-a-la-carte-neptunedata-1.34.8.tar.gz
+[2024-04-05 03:13:08] INFO root fetch - processPackages [botocore-a-la-carte-directconnect]: Downloading https://files.pythonhosted.org/packages/4b/5d/d62845e963b886374b449207a057a2135515f9e4cd2374784f600f99196e/botocore-a-la-carte-directconnect-1.34.8.tar.gz
+[2024-04-05 03:13:08] INFO root fetch - processPackages [botocore-a-la-carte-acm]: Downloading https://files.pythonhosted.org/packages/24/e1/3c0a2613621acfc5e3c91f0eb69b6f1920ccb77fa725a0c604c125f9ef43/botocore-a-la-carte-acm-1.34.9.tar.gz
+[2024-04-05 03:13:08] INFO root fetch - processPackages [botocore-a-la-carte-datazone]: Remove: archive file [/home/abi/fetcher/tmp/botocore-a-la-carte-datazone-1.34.8.tar.gz]
+[2024-04-05 03:13:08] INFO root fetch - processPackages [botocore-a-la-carte-datazone]: Remove: archive file [/home/abi/fetcher/tmp/botocore-a-la-carte-datazone-1.34.9.tar.gz]
+[2024-04-05 03:13:08] INFO root fetch - processPackages [botocore-a-la-carte-datazone]: Start processing: botocore-a-la-carte-rolesanywhere
+[2024-04-05 03:13:08] INFO root fetch - main [MainThread]: End processing [botocore-a-la-carte-datazone]: success
+[2024-04-05 03:13:08] WARNING root fetch - processPackages [botocore-a-la-carte-neptunedata]: Timeout reached during download
+[2024-04-05 03:13:08] INFO root fetch - processPackages [botocore-a-la-carte-managedblockchain]: Remove: archive file [/home/abi/fetcher/tmp/botocore-a-la-carte-managedblockchain-1.34.8.tar.gz]
+[2024-04-05 03:13:08] WARNING root fetch - processPackages [botocore-a-la-carte-directconnect]: Timeout reached during download
+[2024-04-05 03:13:08] INFO root fetch - processPackages [botocore-a-la-carte-managedblockchain]: Remove: archive file [/home/abi/fetcher/tmp/botocore-a-la-carte-managedblockchain-1.34.9.tar.gz]
+[2024-04-05 03:13:08] INFO root fetch - processPackages [botocore-a-la-carte-managedblockchain]: Start processing: botocore-a-la-carte-sagemaker
+[2024-04-05 03:13:08] INFO root fetch - main [MainThread]: End processing [botocore-a-la-carte-managedblockchain]: success
+[2024-04-05 03:13:08] WARNING root fetch - processPackages [botocore-a-la-carte-acm]: Timeout reached during download
+[2024-04-05 03:13:08] INFO root fetch - processPackages [botocore-a-la-carte-acm]: executing diffoscope
+[2024-04-05 03:13:08] INFO root fetch - processPackages [botocore-a-la-carte-acm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/botocore-a-la-carte-acm-1.34.8.tar.gz tmp/botocore-a-la-carte-acm-1.34.9.tar.gz --markdown 20240405/b/botocore-a-la-carte-acm/1.34.8-1.34.9/diff.md --exclude *.pyd
+[2024-04-05 03:13:08] INFO root fetch - processPackages [botocore-a-la-carte-rolesanywhere]: New version: [1.34.9] Old Version: [1.34.8]
+[2024-04-05 03:13:08] INFO root fetch - processPackages [botocore-a-la-carte-personalize-events]: Remove: archive file [/home/abi/fetcher/tmp/botocore-a-la-carte-personalize-events-1.34.8.tar.gz]
+[2024-04-05 03:13:08] INFO root fetch - processPackages [botocore-a-la-carte-personalize-events]: Remove: archive file [/home/abi/fetcher/tmp/botocore-a-la-carte-personalize-events-1.34.9.tar.gz]
+[2024-04-05 03:13:08] INFO root fetch - processPackages [botocore-a-la-carte-personalize-events]: Start processing: botocore-a-la-carte-opsworks
+[2024-04-05 03:13:08] INFO root fetch - main [MainThread]: End processing [botocore-a-la-carte-personalize-events]: success
+[2024-04-05 03:13:08] INFO root fetch - processPackages [botocore-a-la-carte-sagemaker]: New version: [1.34.9] Old Version: [1.34.8]
+[2024-04-05 03:13:08] INFO root fetch - processPackages [botocore-a-la-carte-directconnect]: Downloading https://files.pythonhosted.org/packages/c9/ad/ddad81261aaf6fde2b48bc1e5aad07943f09da1a697354c99fd48d044b80/botocore-a-la-carte-directconnect-1.34.9.tar.gz
+[2024-04-05 03:13:08] INFO root fetch - processPackages [botocore-a-la-carte-neptunedata]: Downloading https://files.pythonhosted.org/packages/0f/1f/3f2db8ef4c981855294244fb6c385fb3b5e639fc4c8fd08444825d103f8d/botocore-a-la-carte-neptunedata-1.34.9.tar.gz
+[2024-04-05 03:13:08] INFO root fetch - processPackages [botocore-a-la-carte-elasticbeanstalk]: Remove: archive file [/home/abi/fetcher/tmp/botocore-a-la-carte-elasticbeanstalk-1.34.8.tar.gz]
+[2024-04-05 03:13:08] INFO root fetch - processPackages [botocore-a-la-carte-elasticbeanstalk]: Remove: archive file [/home/abi/fetcher/tmp/botocore-a-la-carte-elasticbeanstalk-1.34.9.tar.gz]
+[2024-04-05 03:13:08] INFO root fetch - processPackages [botocore-a-la-carte-elasticbeanstalk]: Start processing: botocore-a-la-carte-lakeformation
+[2024-04-05 03:13:08] INFO root fetch - main [MainThread]: End processing [botocore-a-la-carte-elasticbeanstalk]: success
+[2024-04-05 03:13:08] INFO root fetch - processPackages [botocore-a-la-carte-servicecatalog-appregistry]: Remove: archive file [/home/abi/fetcher/tmp/botocore-a-la-carte-servicecatalog-appregistry-1.34.8.tar.gz]
+[2024-04-05 03:13:08] INFO root fetch - processPackages [botocore-a-la-carte-servicecatalog-appregistry]: Remove: archive file [/home/abi/fetcher/tmp/botocore-a-la-carte-servicecatalog-appregistry-1.34.9.tar.gz]
+[2024-04-05 03:13:08] INFO root fetch - processPackages [botocore-a-la-carte-servicecatalog-appregistry]: Start processing: botocore-a-la-carte-appstream
+[2024-04-05 03:13:08] INFO root fetch - main [MainThread]: End processing [botocore-a-la-carte-servicecatalog-appregistry]: success
+[2024-04-05 03:13:08] INFO root fetch - processPackages [botocore-a-la-carte-transfer]: Remove: archive file [/home/abi/fetcher/tmp/botocore-a-la-carte-transfer-1.34.8.tar.gz]
+[2024-04-05 03:13:08] INFO root fetch - processPackages [botocore-a-la-carte-transfer]: Remove: archive file [/home/abi/fetcher/tmp/botocore-a-la-carte-transfer-1.34.9.tar.gz]
+[2024-04-05 03:13:08] INFO root fetch - processPackages [botocore-a-la-carte-transfer]: Start processing: botocore-a-la-carte-cost-optimization-hub
+[2024-04-05 03:13:08] INFO root fetch - main [MainThread]: End processing [botocore-a-la-carte-transfer]: success
+[2024-04-05 03:13:08] INFO root fetch - processPackages [botocore-a-la-carte-opsworks]: New version: [1.34.9] Old Version: [1.34.8]
+[2024-04-05 03:13:08] INFO root fetch - processPackages [botocore-a-la-carte-rolesanywhere]: Downloading https://files.pythonhosted.org/packages/53/1e/85576c404497a84450a61028b48e092c59256ac7386a592085e34ef54b92/botocore-a-la-carte-rolesanywhere-1.34.8.tar.gz
+[2024-04-05 03:13:08] WARNING root fetch - processPackages [botocore-a-la-carte-directconnect]: Timeout reached during download
+[2024-04-05 03:13:08] INFO root fetch - processPackages [botocore-a-la-carte-directconnect]: executing diffoscope
+[2024-04-05 03:13:08] INFO root fetch - processPackages [botocore-a-la-carte-directconnect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/botocore-a-la-carte-directconnect-1.34.8.tar.gz tmp/botocore-a-la-carte-directconnect-1.34.9.tar.gz --markdown 20240405/b/botocore-a-la-carte-directconnect/1.34.8-1.34.9/diff.md --exclude *.pyd
+[2024-04-05 03:13:08] INFO root fetch - processPackages [botocore-a-la-carte-network-firewall]: Remove: archive file [/home/abi/fetcher/tmp/botocore-a-la-carte-network-firewall-1.34.8.tar.gz]
+[2024-04-05 03:13:08] WARNING root fetch - processPackages [botocore-a-la-carte-neptunedata]: Timeout reached during download
+[2024-04-05 03:13:08] INFO root fetch - processPackages [botocore-a-la-carte-network-firewall]: Remove: archive file [/home/abi/fetcher/tmp/botocore-a-la-carte-network-firewall-1.34.9.tar.gz]
+[2024-04-05 03:13:08] INFO root fetch - processPackages [botocore-a-la-carte-neptunedata]: executing diffoscope
+[2024-04-05 03:13:08] INFO root fetch - processPackages [botocore-a-la-carte-network-firewall]: Start processing: botocore-a-la-carte-finspace
+[2024-04-05 03:13:08] INFO root fetch - main [MainThread]: End processing [botocore-a-la-carte-network-firewall]: success
+[2024-04-05 03:13:08] INFO root fetch - processPackages [botocore-a-la-carte-neptunedata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/botocore-a-la-carte-neptunedata-1.34.8.tar.gz tmp/botocore-a-la-carte-neptunedata-1.34.9.tar.gz --markdown 20240405/b/botocore-a-la-carte-neptunedata/1.34.8-1.34.9/diff.md --exclude *.pyd
+[2024-04-05 03:13:08] INFO root fetch - processPackages [botocore-a-la-carte-lakeformation]: New version: [1.34.9] Old Version: [1.34.8]
+[2024-04-05 03:13:08] INFO root fetch - processPackages [botocore-a-la-carte-sagemaker]: Downloading https://files.pythonhosted.org/packages/37/c7/53c0897f664f445087a654e520ab807a65ecd9fec2604a8e336f54307686/botocore-a-la-carte-sagemaker-1.34.8.tar.gz
+[2024-04-05 03:13:08] INFO root fetch - processPackages [botocore-a-la-carte-appstream]: New version: [1.34.9] Old Version: [1.34.8]
+[2024-04-05 03:13:08] WARNING root fetch - processPackages [botocore-a-la-carte-rolesanywhere]: Timeout reached during download
+[2024-04-05 03:13:08] INFO root fetch - processPackages [botocore-a-la-carte-cost-optimization-hub]: New version: [1.34.9] Old Version: [1.34.8]
+[2024-04-05 03:13:08] INFO root fetch - processPackages [botocore-a-la-carte-finspace]: New version: [1.34.9] Old Version: [1.34.8]
+[2024-04-05 03:13:08] WARNING root fetch - processPackages [botocore-a-la-carte-sagemaker]: Timeout reached during download
+[2024-04-05 03:13:09] INFO root fetch - processPackages [botocore-a-la-carte-opsworks]: Downloading https://files.pythonhosted.org/packages/e0/f5/c621ca558949c4331b7bd1f3360b48aa374ac1609b1f04bef7321e1c589a/botocore-a-la-carte-opsworks-1.34.8.tar.gz
+[2024-04-05 03:13:09] INFO root fetch - processPackages [botocore-a-la-carte-acm]: Remove: archive file [/home/abi/fetcher/tmp/botocore-a-la-carte-acm-1.34.8.tar.gz]
+[2024-04-05 03:13:09] INFO root fetch - processPackages [botocore-a-la-carte-acm]: Remove: archive file [/home/abi/fetcher/tmp/botocore-a-la-carte-acm-1.34.9.tar.gz]
+[2024-04-05 03:13:09] INFO root fetch - processPackages [botocore-a-la-carte-acm]: Start processing: botocore-a-la-carte-migrationhubstrategy
+[2024-04-05 03:13:09] INFO root fetch - main [MainThread]: End processing [botocore-a-la-carte-acm]: success
+[2024-04-05 03:13:09] INFO root fetch - processPackages [botocore-a-la-carte-lakeformation]: Downloading https://files.pythonhosted.org/packages/fd/db/11ec407c5df765936e04c007d88dde1ab158ddda0d25e0c9a0c5daf2a161/botocore-a-la-carte-lakeformation-1.34.8.tar.gz
+[2024-04-05 03:13:09] INFO root fetch - processPackages [botocore-a-la-carte-appstream]: Downloading https://files.pythonhosted.org/packages/70/5b/591793886e7145ff6ab39c6ac6c0ec3a84885bb340643172bb0eebaed578/botocore-a-la-carte-appstream-1.34.8.tar.gz
+[2024-04-05 03:13:09] INFO root fetch - processPackages [botocore-a-la-carte-rolesanywhere]: Downloading https://files.pythonhosted.org/packages/df/08/210a6fd62d1fa51d83b3efb2b74a7e51947a39ae3e98f34ba4c7b6d8eea2/botocore-a-la-carte-rolesanywhere-1.34.9.tar.gz
+[2024-04-05 03:13:09] WARNING root fetch - processPackages [botocore-a-la-carte-opsworks]: Timeout reached during download
+[2024-04-05 03:13:09] INFO root fetch - processPackages [botocore-a-la-carte-cost-optimization-hub]: Downloading https://files.pythonhosted.org/packages/de/a4/dc7fdb12f9ad9b51a5802a9c584a4cb463dce4d82778fae2d713b64a565b/botocore-a-la-carte-cost-optimization-hub-1.34.8.tar.gz
+[2024-04-05 03:13:09] WARNING root fetch - processPackages [botocore-a-la-carte-lakeformation]: Timeout reached during download
+[2024-04-05 03:13:09] INFO root fetch - processPackages [botocore-a-la-carte-migrationhubstrategy]: New version: [1.34.9] Old Version: [1.34.8]
+[2024-04-05 03:13:09] INFO root fetch - processPackages [botocore-a-la-carte-sagemaker]: Downloading https://files.pythonhosted.org/packages/de/28/94f78cb7a170dea38f95f6424d2d5ffa5c099015dabd8b19a6ff5c35e767/botocore-a-la-carte-sagemaker-1.34.9.tar.gz
+[2024-04-05 03:13:09] WARNING root fetch - processPackages [botocore-a-la-carte-appstream]: Timeout reached during download
+[2024-04-05 03:13:09] INFO root fetch - processPackages [botocore-a-la-carte-finspace]: Downloading https://files.pythonhosted.org/packages/b1/ef/d270324b72afe82f0ba8b674edf0d043341b815b282851e6a80f88b4c006/botocore-a-la-carte-finspace-1.34.8.tar.gz
+[2024-04-05 03:13:09] WARNING root fetch - processPackages [botocore-a-la-carte-rolesanywhere]: Timeout reached during download
+[2024-04-05 03:13:09] INFO root fetch - processPackages [botocore-a-la-carte-rolesanywhere]: executing diffoscope
+[2024-04-05 03:13:09] INFO root fetch - processPackages [botocore-a-la-carte-rolesanywhere]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/botocore-a-la-carte-rolesanywhere-1.34.8.tar.gz tmp/botocore-a-la-carte-rolesanywhere-1.34.9.tar.gz --markdown 20240405/b/botocore-a-la-carte-rolesanywhere/1.34.8-1.34.9/diff.md --exclude *.pyd
+[2024-04-05 03:13:09] WARNING root fetch - processPackages [botocore-a-la-carte-cost-optimization-hub]: Timeout reached during download
+[2024-04-05 03:13:09] INFO root fetch - processPackages [botocore-a-la-carte-opsworks]: Downloading https://files.pythonhosted.org/packages/94/4c/d0e838f8f58270301413a662a0c1b0b965bf4abca39bb804f4ae28f11d32/botocore-a-la-carte-opsworks-1.34.9.tar.gz
+[2024-04-05 03:13:09] WARNING root fetch - processPackages [botocore-a-la-carte-sagemaker]: Timeout reached during download
+[2024-04-05 03:13:09] INFO root fetch - processPackages [botocore-a-la-carte-sagemaker]: executing diffoscope
+[2024-04-05 03:13:09] INFO root fetch - processPackages [botocore-a-la-carte-sagemaker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/botocore-a-la-carte-sagemaker-1.34.8.tar.gz tmp/botocore-a-la-carte-sagemaker-1.34.9.tar.gz --markdown 20240405/b/botocore-a-la-carte-sagemaker/1.34.8-1.34.9/diff.md --exclude *.pyd
+[2024-04-05 03:13:09] WARNING root fetch - processPackages [botocore-a-la-carte-finspace]: Timeout reached during download
+[2024-04-05 03:13:09] INFO root fetch - processPackages [botocore-a-la-carte-lakeformation]: Downloading https://files.pythonhosted.org/packages/d2/ce/0842589d7f16efd807c0df0d7839431daeaa75b923de82e5b4466e8781cb/botocore-a-la-carte-lakeformation-1.34.9.tar.gz
+[2024-04-05 03:13:09] INFO root fetch - processPackages [botocore-a-la-carte-neptunedata]: Remove: archive file [/home/abi/fetcher/tmp/botocore-a-la-carte-neptunedata-1.34.8.tar.gz]
+[2024-04-05 03:13:09] INFO root fetch - processPackages [botocore-a-la-carte-neptunedata]: Remove: archive file [/home/abi/fetcher/tmp/botocore-a-la-carte-neptunedata-1.34.9.tar.gz]
+[2024-04-05 03:13:09] INFO root fetch - main [MainThread]: End processing [botocore-a-la-carte-neptunedata]: success
+[2024-04-05 03:13:09] INFO root fetch - processPackages [botocore-a-la-carte-directconnect]: Remove: archive file [/home/abi/fetcher/tmp/botocore-a-la-carte-directconnect-1.34.8.tar.gz]
+[2024-04-05 03:13:09] INFO root fetch - processPackages [botocore-a-la-carte-directconnect]: Remove: archive file [/home/abi/fetcher/tmp/botocore-a-la-carte-directconnect-1.34.9.tar.gz]
+[2024-04-05 03:13:09] INFO root fetch - main [MainThread]: End processing [botocore-a-la-carte-directconnect]: success
+[2024-04-05 03:13:09] INFO root fetch - processPackages [botocore-a-la-carte-migrationhubstrategy]: Downloading https://files.pythonhosted.org/packages/f8/02/da671a212b3156abcf5b80a5acb887ef4bcbfcca5f9315fc48c7e818f278/botocore-a-la-carte-migrationhubstrategy-1.34.8.tar.gz
+[2024-04-05 03:13:09] WARNING root fetch - processPackages [botocore-a-la-carte-opsworks]: Timeout reached during download
+[2024-04-05 03:13:09] INFO root fetch - processPackages [botocore-a-la-carte-opsworks]: executing diffoscope
+[2024-04-05 03:13:09] INFO root fetch - processPackages [botocore-a-la-carte-opsworks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/botocore-a-la-carte-opsworks-1.34.8.tar.gz tmp/botocore-a-la-carte-opsworks-1.34.9.tar.gz --markdown 20240405/b/botocore-a-la-carte-opsworks/1.34.8-1.34.9/diff.md --exclude *.pyd
+[2024-04-05 03:13:09] INFO root fetch - processPackages [botocore-a-la-carte-appstream]: Downloading https://files.pythonhosted.org/packages/02/ce/32e4f8d4dc67215450b6be98919f4b0341d6e61ed28265dfbea973a2e66a/botocore-a-la-carte-appstream-1.34.9.tar.gz
+[2024-04-05 03:13:09] INFO root fetch - processPackages [botocore-a-la-carte-cost-optimization-hub]: Downloading https://files.pythonhosted.org/packages/f7/df/12bd429162aa5e905f16d2a90e8038996fd245619757a63ffe8d4e744596/botocore-a-la-carte-cost-optimization-hub-1.34.9.tar.gz
+[2024-04-05 03:13:09] WARNING root fetch - processPackages [botocore-a-la-carte-lakeformation]: Timeout reached during download
+[2024-04-05 03:13:09] INFO root fetch - processPackages [botocore-a-la-carte-lakeformation]: executing diffoscope
+[2024-04-05 03:13:09] INFO root fetch - processPackages [botocore-a-la-carte-lakeformation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/botocore-a-la-carte-lakeformation-1.34.8.tar.gz tmp/botocore-a-la-carte-lakeformation-1.34.9.tar.gz --markdown 20240405/b/botocore-a-la-carte-lakeformation/1.34.8-1.34.9/diff.md --exclude *.pyd
+[2024-04-05 03:13:09] WARNING root fetch - processPackages [botocore-a-la-carte-migrationhubstrategy]: Timeout reached during download
+[2024-04-05 03:13:09] WARNING root fetch - processPackages [botocore-a-la-carte-appstream]: Timeout reached during download
+[2024-04-05 03:13:09] INFO root fetch - processPackages [botocore-a-la-carte-appstream]: executing diffoscope
+[2024-04-05 03:13:09] INFO root fetch - processPackages [botocore-a-la-carte-appstream]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/botocore-a-la-carte-appstream-1.34.8.tar.gz tmp/botocore-a-la-carte-appstream-1.34.9.tar.gz --markdown 20240405/b/botocore-a-la-carte-appstream/1.34.8-1.34.9/diff.md --exclude *.pyd
+[2024-04-05 03:13:09] INFO root fetch - processPackages [botocore-a-la-carte-finspace]: Downloading https://files.pythonhosted.org/packages/01/01/5bbeb95d820087794cb2b9f7352ee7004297dc9e37db785189ebcb0400e5/botocore-a-la-carte-finspace-1.34.9.tar.gz
+[2024-04-05 03:13:09] WARNING root fetch - processPackages [botocore-a-la-carte-cost-optimization-hub]: Timeout reached during download
+[2024-04-05 03:13:09] INFO root fetch - processPackages [botocore-a-la-carte-cost-optimization-hub]: executing diffoscope
+[2024-04-05 03:13:09] INFO root fetch - processPackages [botocore-a-la-carte-cost-optimization-hub]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/botocore-a-la-carte-cost-optimization-hub-1.34.8.tar.gz tmp/botocore-a-la-carte-cost-optimization-hub-1.34.9.tar.gz --markdown 20240405/b/botocore-a-la-carte-cost-optimization-hub/1.34.8-1.34.9/diff.md --exclude *.pyd
+[2024-04-05 03:13:09] WARNING root fetch - processPackages [botocore-a-la-carte-finspace]: Timeout reached during download
+[2024-04-05 03:13:09] INFO root fetch - processPackages [botocore-a-la-carte-finspace]: executing diffoscope
+[2024-04-05 03:13:09] INFO root fetch - processPackages [botocore-a-la-carte-finspace]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/botocore-a-la-carte-finspace-1.34.8.tar.gz tmp/botocore-a-la-carte-finspace-1.34.9.tar.gz --markdown 20240405/b/botocore-a-la-carte-finspace/1.34.8-1.34.9/diff.md --exclude *.pyd
+[2024-04-05 03:13:09] INFO root fetch - processPackages [botocore-a-la-carte-migrationhubstrategy]: Downloading https://files.pythonhosted.org/packages/31/66/2499e2bf75101d1303535b7732f2b0c5e6028a9b311c8bee0267676640f6/botocore-a-la-carte-migrationhubstrategy-1.34.9.tar.gz
+[2024-04-05 03:13:10] WARNING root fetch - processPackages [botocore-a-la-carte-migrationhubstrategy]: Timeout reached during download
+[2024-04-05 03:13:10] INFO root fetch - processPackages [botocore-a-la-carte-migrationhubstrategy]: executing diffoscope
+[2024-04-05 03:13:10] INFO root fetch - processPackages [botocore-a-la-carte-migrationhubstrategy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/botocore-a-la-carte-migrationhubstrategy-1.34.8.tar.gz tmp/botocore-a-la-carte-migrationhubstrategy-1.34.9.tar.gz --markdown 20240405/b/botocore-a-la-carte-migrationhubstrategy/1.34.8-1.34.9/diff.md --exclude *.pyd
+[2024-04-05 03:13:10] INFO root fetch - processPackages [botocore-a-la-carte-rolesanywhere]: Remove: archive file [/home/abi/fetcher/tmp/botocore-a-la-carte-rolesanywhere-1.34.8.tar.gz]
+[2024-04-05 03:13:10] INFO root fetch - processPackages [botocore-a-la-carte-rolesanywhere]: Remove: archive file [/home/abi/fetcher/tmp/botocore-a-la-carte-rolesanywhere-1.34.9.tar.gz]
+[2024-04-05 03:13:10] INFO root fetch - main [MainThread]: End processing [botocore-a-la-carte-rolesanywhere]: success
+[2024-04-05 03:13:10] INFO root fetch - processPackages [botocore-a-la-carte-opsworks]: Remove: archive file [/home/abi/fetcher/tmp/botocore-a-la-carte-opsworks-1.34.8.tar.gz]
+[2024-04-05 03:13:10] INFO root fetch - processPackages [botocore-a-la-carte-opsworks]: Remove: archive file [/home/abi/fetcher/tmp/botocore-a-la-carte-opsworks-1.34.9.tar.gz]
+[2024-04-05 03:13:10] INFO root fetch - main [MainThread]: End processing [botocore-a-la-carte-opsworks]: success
+[2024-04-05 03:13:10] INFO root fetch - processPackages [botocore-a-la-carte-lakeformation]: Remove: archive file [/home/abi/fetcher/tmp/botocore-a-la-carte-lakeformation-1.34.8.tar.gz]
+[2024-04-05 03:13:10] INFO root fetch - processPackages [botocore-a-la-carte-lakeformation]: Remove: archive file [/home/abi/fetcher/tmp/botocore-a-la-carte-lakeformation-1.34.9.tar.gz]
+[2024-04-05 03:13:10] INFO root fetch - main [MainThread]: End processing [botocore-a-la-carte-lakeformation]: success
+[2024-04-05 03:13:10] INFO root fetch - processPackages [botocore-a-la-carte-sagemaker]: Remove: archive file [/home/abi/fetcher/tmp/botocore-a-la-carte-sagemaker-1.34.8.tar.gz]
+[2024-04-05 03:13:10] INFO root fetch - processPackages [botocore-a-la-carte-sagemaker]: Remove: archive file [/home/abi/fetcher/tmp/botocore-a-la-carte-sagemaker-1.34.9.tar.gz]
+[2024-04-05 03:13:10] INFO root fetch - main [MainThread]: End processing [botocore-a-la-carte-sagemaker]: success
+[2024-04-05 03:13:10] INFO root fetch - processPackages [botocore-a-la-carte-cost-optimization-hub]: Remove: archive file [/home/abi/fetcher/tmp/botocore-a-la-carte-cost-optimization-hub-1.34.8.tar.gz]
+[2024-04-05 03:13:10] INFO root fetch - processPackages [botocore-a-la-carte-cost-optimization-hub]: Remove: archive file [/home/abi/fetcher/tmp/botocore-a-la-carte-cost-optimization-hub-1.34.9.tar.gz]
+[2024-04-05 03:13:10] INFO root fetch - main [MainThread]: End processing [botocore-a-la-carte-cost-optimization-hub]: success
+[2024-04-05 03:13:10] INFO root fetch - processPackages [botocore-a-la-carte-finspace]: Remove: archive file [/home/abi/fetcher/tmp/botocore-a-la-carte-finspace-1.34.8.tar.gz]
+[2024-04-05 03:13:10] INFO root fetch - processPackages [botocore-a-la-carte-finspace]: Remove: archive file [/home/abi/fetcher/tmp/botocore-a-la-carte-finspace-1.34.9.tar.gz]
+[2024-04-05 03:13:10] INFO root fetch - main [MainThread]: End processing [botocore-a-la-carte-finspace]: success
+[2024-04-05 03:13:10] INFO root fetch - processPackages [botocore-a-la-carte-appstream]: Remove: archive file [/home/abi/fetcher/tmp/botocore-a-la-carte-appstream-1.34.8.tar.gz]
+[2024-04-05 03:13:10] INFO root fetch - processPackages [botocore-a-la-carte-appstream]: Remove: archive file [/home/abi/fetcher/tmp/botocore-a-la-carte-appstream-1.34.9.tar.gz]
+[2024-04-05 03:13:10] INFO root fetch - main [MainThread]: End processing [botocore-a-la-carte-appstream]: success
+[2024-04-05 03:13:10] INFO root fetch - processPackages [botocore-a-la-carte-migrationhubstrategy]: Remove: archive file [/home/abi/fetcher/tmp/botocore-a-la-carte-migrationhubstrategy-1.34.8.tar.gz]
+[2024-04-05 03:13:10] INFO root fetch - processPackages [botocore-a-la-carte-migrationhubstrategy]: Remove: archive file [/home/abi/fetcher/tmp/botocore-a-la-carte-migrationhubstrategy-1.34.9.tar.gz]
+[2024-04-05 03:13:10] INFO root fetch - main [MainThread]: End processing [botocore-a-la-carte-migrationhubstrategy]: success
+[2024-04-05 03:13:10] INFO root fetch - main [MainThread]: Store serial: [22630180]
