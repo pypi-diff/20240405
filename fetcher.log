@@ -8622,3 +8622,34 @@
 [2024-04-05 03:34:02] WARNING root fetch - processPackages [spaceprime]: Skipping, unable to determine old version
 [2024-04-05 03:34:02] INFO root fetch - main [MainThread]: End processing [spaceprime] error
 [2024-04-05 03:34:02] INFO root fetch - main [MainThread]: Store serial: [22630873]
+[2024-04-05 03:36:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22630873]
+[2024-04-05 03:36:11] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-05 03:36:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: langchain-weaviate
+[2024-04-05 03:36:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: payment-optimizer
+[2024-04-05 03:36:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pixeltable
+[2024-04-05 03:36:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: haiqv-dev
+[2024-04-05 03:36:11] WARNING root fetch - processPackages [haiqv-dev]: Skipping, unable to determine old version
+[2024-04-05 03:36:11] INFO root fetch - main [MainThread]: End processing [haiqv-dev] error
+[2024-04-05 03:36:11] INFO root fetch - processPackages [langchain-weaviate]: New version: [0.0.1rc6] Old Version: [0.0.1rc5]
+[2024-04-05 03:36:11] INFO root fetch - processPackages [langchain-weaviate]: Downloading https://files.pythonhosted.org/packages/7d/62/695ca94ea7e2e1530af2edb219885d80a262f081496d0c7added239bc0df/langchain_weaviate-0.0.1rc5.tar.gz
+[2024-04-05 03:36:11] WARNING root fetch - processPackages [payment-optimizer]: Skipping, unable to determine old version
+[2024-04-05 03:36:11] INFO root fetch - main [MainThread]: End processing [payment-optimizer] error
+[2024-04-05 03:36:11] INFO root fetch - processPackages [pixeltable]: New version: [0.2.2] Old Version: [0.2.1]
+[2024-04-05 03:36:11] WARNING root fetch - processPackages [langchain-weaviate]: Timeout reached during download
+[2024-04-05 03:36:11] INFO root fetch - processPackages [langchain-weaviate]: Downloading https://files.pythonhosted.org/packages/b6/e2/7d7cae08f5f2ccdef56570b131cf79e282fd8d5cb176e14b5e72f5087cec/langchain_weaviate-0.0.1rc6.tar.gz
+[2024-04-05 03:36:11] INFO root fetch - processPackages [pixeltable]: Downloading https://files.pythonhosted.org/packages/68/07/1f5fb6f2cb73266639546ac877a52f0ab2e584fa118a0b1b2f984f116d1e/pixeltable-0.2.1.tar.gz
+[2024-04-05 03:36:11] WARNING root fetch - processPackages [langchain-weaviate]: Timeout reached during download
+[2024-04-05 03:36:11] INFO root fetch - processPackages [langchain-weaviate]: executing diffoscope
+[2024-04-05 03:36:11] INFO root fetch - processPackages [langchain-weaviate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langchain_weaviate-0.0.1rc5.tar.gz tmp/langchain_weaviate-0.0.1rc6.tar.gz --markdown 20240405/l/langchain-weaviate/0.0.1rc5-0.0.1rc6/diff.md --exclude *.pyd
+[2024-04-05 03:36:11] WARNING root fetch - processPackages [pixeltable]: Timeout reached during download
+[2024-04-05 03:36:12] INFO root fetch - processPackages [pixeltable]: Downloading https://files.pythonhosted.org/packages/3b/74/a6ca999877b1ef557add7375a0ec64224125792829bb3639d435bb9eee36/pixeltable-0.2.2.tar.gz
+[2024-04-05 03:36:12] WARNING root fetch - processPackages [pixeltable]: Timeout reached during download
+[2024-04-05 03:36:12] INFO root fetch - processPackages [pixeltable]: executing diffoscope
+[2024-04-05 03:36:12] INFO root fetch - processPackages [pixeltable]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pixeltable-0.2.1.tar.gz tmp/pixeltable-0.2.2.tar.gz --markdown 20240405/p/pixeltable/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2024-04-05 03:36:12] INFO root fetch - processPackages [langchain-weaviate]: Remove: archive file [/home/abi/fetcher/tmp/langchain_weaviate-0.0.1rc5.tar.gz]
+[2024-04-05 03:36:12] INFO root fetch - processPackages [langchain-weaviate]: Remove: archive file [/home/abi/fetcher/tmp/langchain_weaviate-0.0.1rc6.tar.gz]
+[2024-04-05 03:36:12] INFO root fetch - main [MainThread]: End processing [langchain-weaviate]: success
+[2024-04-05 03:36:13] INFO root fetch - processPackages [pixeltable]: Remove: archive file [/home/abi/fetcher/tmp/pixeltable-0.2.1.tar.gz]
+[2024-04-05 03:36:13] INFO root fetch - processPackages [pixeltable]: Remove: archive file [/home/abi/fetcher/tmp/pixeltable-0.2.2.tar.gz]
+[2024-04-05 03:36:13] INFO root fetch - main [MainThread]: End processing [pixeltable]: success
+[2024-04-05 03:36:13] INFO root fetch - main [MainThread]: Store serial: [22630887]
