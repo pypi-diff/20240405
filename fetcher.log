@@ -12216,3 +12216,50 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2024-04-05 07:17:20] INFO root fetch - processPackages [spark-batch]: Remove: archive file [/home/abi/fetcher/tmp/spark_batch-2.6-py3-none-any.whl.zip]
 [2024-04-05 07:17:20] INFO root fetch - main [MainThread]: End processing [spark-batch]: success
 [2024-04-05 07:17:20] INFO root fetch - main [MainThread]: Store serial: [22631949]
+[2024-04-05 07:19:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22631949]
+[2024-04-05 07:19:29] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-05 07:19:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: potoroo
+[2024-04-05 07:19:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: AppWrapper
+[2024-04-05 07:19:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: esdbclient
+[2024-04-05 07:19:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: rummage
+[2024-04-05 07:19:29] INFO root fetch - processPackages [AppWrapper]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-04-05 07:19:29] INFO root fetch - processPackages [rummage]: New version: [4.9] Old Version: [4.8]
+[2024-04-05 07:19:29] INFO root fetch - processPackages [potoroo]: New version: [0.6.0] Old Version: [0.5.0]
+[2024-04-05 07:19:29] INFO root fetch - processPackages [esdbclient]: New version: [1.0b4] Old Version: [1.0b3]
+[2024-04-05 07:19:29] INFO root fetch - processPackages [AppWrapper]: Downloading https://files.pythonhosted.org/packages/5e/d3/e35d5f0cc976fdac22170eeb2e9eac692e9c8d2ae267028a409e962593a1/AppWrapper-0.2.8.tar.gz
+[2024-04-05 07:19:29] INFO root fetch - processPackages [potoroo]: Downloading https://files.pythonhosted.org/packages/06/8f/f78ddc1812580c77e0e562d06764a37e0ea86f82d06b90fef11d0e9e80d9/potoroo-0.5.0.tar.gz
+[2024-04-05 07:19:29] INFO root fetch - processPackages [rummage]: Downloading https://files.pythonhosted.org/packages/86/06/e901e277bc56a478f4f0e6667f2ae7170a24b73d32413e0d4acb3da6e5df/rummage-4.8.tar.gz
+[2024-04-05 07:19:29] INFO root fetch - processPackages [esdbclient]: Downloading https://files.pythonhosted.org/packages/93/30/573ab738ea9798ed8d6ce6c943047922a3706e9dd85661fd8c246f37859c/esdbclient-1.0b3.tar.gz
+[2024-04-05 07:19:29] WARNING root fetch - processPackages [AppWrapper]: Timeout reached during download
+[2024-04-05 07:19:29] WARNING root fetch - processPackages [potoroo]: Timeout reached during download
+[2024-04-05 07:19:29] WARNING root fetch - processPackages [esdbclient]: Timeout reached during download
+[2024-04-05 07:19:29] INFO root fetch - processPackages [AppWrapper]: Downloading https://files.pythonhosted.org/packages/79/a0/6bf35da1d22d8fb26cc1802bf2ebdc48752b724a5ebf36fe503099ad959e/AppWrapper-0.2.9.tar.gz
+[2024-04-05 07:19:29] WARNING root fetch - processPackages [rummage]: Timeout reached during download
+[2024-04-05 07:19:29] INFO root fetch - processPackages [potoroo]: Downloading https://files.pythonhosted.org/packages/0e/b5/392199970fd95f47fe5720035c30ced255cd24fe416e3b99fc03b32b1919/potoroo-0.6.0.tar.gz
+[2024-04-05 07:19:30] WARNING root fetch - processPackages [AppWrapper]: Timeout reached during download
+[2024-04-05 07:19:30] INFO root fetch - processPackages [AppWrapper]: executing diffoscope
+[2024-04-05 07:19:30] INFO root fetch - processPackages [AppWrapper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/AppWrapper-0.2.8.tar.gz tmp/AppWrapper-0.2.9.tar.gz --markdown 20240405/A/AppWrapper/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2024-04-05 07:19:30] INFO root fetch - processPackages [esdbclient]: Downloading https://files.pythonhosted.org/packages/00/e6/2c6c9d30544b5bffbf82f0bba485a240220d8d5daa8b72c19905b1ccddaf/esdbclient-1.0b4.tar.gz
+[2024-04-05 07:19:30] WARNING root fetch - processPackages [potoroo]: Timeout reached during download
+[2024-04-05 07:19:30] INFO root fetch - processPackages [potoroo]: executing diffoscope
+[2024-04-05 07:19:30] INFO root fetch - processPackages [potoroo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/potoroo-0.5.0.tar.gz tmp/potoroo-0.6.0.tar.gz --markdown 20240405/p/potoroo/0.5.0-0.6.0/diff.md --exclude *.pyd
+[2024-04-05 07:19:30] INFO root fetch - processPackages [rummage]: Downloading https://files.pythonhosted.org/packages/f8/de/8ec8a0f980ee9a9a083cd1e15048c294dc7a9ee1dfce878428498bc2d483/rummage-4.9.tar.gz
+[2024-04-05 07:19:30] WARNING root fetch - processPackages [esdbclient]: Timeout reached during download
+[2024-04-05 07:19:30] INFO root fetch - processPackages [esdbclient]: executing diffoscope
+[2024-04-05 07:19:30] INFO root fetch - processPackages [esdbclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/esdbclient-1.0b3.tar.gz tmp/esdbclient-1.0b4.tar.gz --markdown 20240405/e/esdbclient/1.0b3-1.0b4/diff.md --exclude *.pyd
+[2024-04-05 07:19:30] WARNING root fetch - processPackages [rummage]: Timeout reached during download
+[2024-04-05 07:19:30] INFO root fetch - processPackages [rummage]: executing diffoscope
+[2024-04-05 07:19:30] INFO root fetch - processPackages [rummage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rummage-4.8.tar.gz tmp/rummage-4.9.tar.gz --markdown 20240405/r/rummage/4.8-4.9/diff.md --exclude *.pyd
+[2024-04-05 07:19:30] INFO root fetch - processPackages [AppWrapper]: Remove: archive file [/home/abi/fetcher/tmp/AppWrapper-0.2.8.tar.gz]
+[2024-04-05 07:19:30] INFO root fetch - processPackages [AppWrapper]: Remove: archive file [/home/abi/fetcher/tmp/AppWrapper-0.2.9.tar.gz]
+[2024-04-05 07:19:30] INFO root fetch - main [MainThread]: End processing [AppWrapper]: success
+[2024-04-05 07:19:30] INFO root fetch - processPackages [potoroo]: Remove: archive file [/home/abi/fetcher/tmp/potoroo-0.5.0.tar.gz]
+[2024-04-05 07:19:30] INFO root fetch - processPackages [potoroo]: Remove: archive file [/home/abi/fetcher/tmp/potoroo-0.6.0.tar.gz]
+[2024-04-05 07:19:30] INFO root fetch - main [MainThread]: End processing [potoroo]: success
+[2024-04-05 07:19:31] INFO root fetch - processPackages [esdbclient]: Remove: archive file [/home/abi/fetcher/tmp/esdbclient-1.0b3.tar.gz]
+[2024-04-05 07:19:31] INFO root fetch - processPackages [esdbclient]: Remove: archive file [/home/abi/fetcher/tmp/esdbclient-1.0b4.tar.gz]
+[2024-04-05 07:19:31] INFO root fetch - main [MainThread]: End processing [esdbclient]: success
+[2024-04-05 07:19:32] INFO root fetch - processPackages [rummage]: Remove: archive file [/home/abi/fetcher/tmp/rummage-4.8.tar.gz]
+[2024-04-05 07:19:32] INFO root fetch - processPackages [rummage]: Remove: archive file [/home/abi/fetcher/tmp/rummage-4.9.tar.gz]
+[2024-04-05 07:19:32] INFO root fetch - main [MainThread]: End processing [rummage]: success
+[2024-04-05 07:19:32] INFO root fetch - main [MainThread]: Store serial: [22631960]
