@@ -14299,3 +14299,61 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2024-04-05 09:00:37] INFO root fetch - processPackages [odoo-addon-stock-demand-estimate]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_stock_demand_estimate-17.0.1.1.0.1-py3-none-any.whl.zip]
 [2024-04-05 09:00:37] INFO root fetch - main [MainThread]: End processing [odoo-addon-stock-demand-estimate]: success
 [2024-04-05 09:00:37] INFO root fetch - main [MainThread]: Store serial: [22632679]
+[2024-04-05 09:02:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22632679]
+[2024-04-05 09:02:45] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-05 09:02:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: PyBIS
+[2024-04-05 09:02:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: politely
+[2024-04-05 09:02:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tf-models-nightly
+[2024-04-05 09:02:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: seqio-nightly
+[2024-04-05 09:02:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo-addon-stock-picking-batch-print-invoices
+[2024-04-05 09:02:45] INFO root fetch - processPackages [politely]: New version: [4.0.0a1] Old Version: [4.0.0a0]
+[2024-04-05 09:02:45] INFO root fetch - processPackages [politely]: Downloading https://files.pythonhosted.org/packages/99/8f/f90b792d6bbfce22a6a6c236344c2bbe4c5c9b6747e81b2e3807beb811a4/politely-4.0.0a0.tar.gz
+[2024-04-05 09:02:45] INFO root fetch - processPackages [tf-models-nightly]: New version: [2.9.0.dev20220920] Old Version: [2.9.0.dev20220919]
+[2024-04-05 09:02:45] INFO root fetch - processPackages [PyBIS]: New version: [1.9.8] Old Version: [1.9.7]
+[2024-04-05 09:02:45] INFO root fetch - processPackages [seqio-nightly]: New version: [0.0.8.dev20220907] Old Version: [0.0.8.dev20220906]
+[2024-04-05 09:02:45] INFO root fetch - processPackages [odoo-addon-stock-picking-batch-print-invoices]: New version: [16.0.1.0.2.1] Old Version: [16.0.1.0.2]
+[2024-04-05 09:02:45] WARNING root fetch - processPackages [politely]: Timeout reached during download
+[2024-04-05 09:02:45] INFO root fetch - processPackages [politely]: Downloading https://files.pythonhosted.org/packages/3c/c5/a6017bde896a95b3233540f102999558eda61756913d9d7bf880b7e2fb6e/politely-4.0.0a1.tar.gz
+[2024-04-05 09:02:45] INFO root fetch - processPackages [PyBIS]: Downloading https://files.pythonhosted.org/packages/0b/44/fe0231003ffc36a7b01dff7dcb46629cccf554473e121900d1388e6c6260/PyBIS-1.9.7.tar.gz
+[2024-04-05 09:02:45] INFO root fetch - processPackages [tf-models-nightly]: Downloading https://files.pythonhosted.org/packages/73/e9/06af7a12cda1722ec668213b9e91a8a2e918011d3ef8e9a98146ee4f76ef/tf_models_nightly-2.9.0.dev20220919-py2.py3-none-any.whl
+[2024-04-05 09:02:45] WARNING root fetch - processPackages [politely]: Timeout reached during download
+[2024-04-05 09:02:45] INFO root fetch - processPackages [politely]: executing diffoscope
+[2024-04-05 09:02:45] INFO root fetch - processPackages [politely]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/politely-4.0.0a0.tar.gz tmp/politely-4.0.0a1.tar.gz --markdown 20240405/p/politely/4.0.0a0-4.0.0a1/diff.md --exclude *.pyd
+[2024-04-05 09:02:45] INFO root fetch - processPackages [seqio-nightly]: Downloading https://files.pythonhosted.org/packages/43/a0/f60ad514b6f8534fa5ba8cc5fcc2a8f2e32e7d06d2dbfd43b12c2cb29931/seqio-nightly-0.0.8.dev20220906.tar.gz
+[2024-04-05 09:02:46] INFO root fetch - processPackages [odoo-addon-stock-picking-batch-print-invoices]: Downloading https://files.pythonhosted.org/packages/21/45/9d136ce5d9d191c4541c76bcb6db598221c8db53192642190835b383eb5e/odoo_addon_stock_picking_batch_print_invoices-16.0.1.0.2-py3-none-any.whl
+[2024-04-05 09:02:46] WARNING root fetch - processPackages [PyBIS]: Timeout reached during download
+[2024-04-05 09:02:46] WARNING root fetch - processPackages [odoo-addon-stock-picking-batch-print-invoices]: Timeout reached during download
+[2024-04-05 09:02:46] WARNING root fetch - processPackages [tf-models-nightly]: Timeout reached during download
+[2024-04-05 09:02:46] INFO root fetch - processPackages [PyBIS]: Downloading https://files.pythonhosted.org/packages/de/6a/e2fbd779a6f64422fe1720ef3dd721543ce07d5e1ea97c26bc9ff21ac882/PyBIS-1.9.8.tar.gz
+[2024-04-05 09:02:46] WARNING root fetch - processPackages [seqio-nightly]: Timeout reached during download
+[2024-04-05 09:02:46] INFO root fetch - processPackages [odoo-addon-stock-picking-batch-print-invoices]: Downloading https://files.pythonhosted.org/packages/69/a3/bab19e7091ae72fe6303740ca8e899ca3244789fe73e763646a94df8a8e3/odoo_addon_stock_picking_batch_print_invoices-16.0.1.0.2.1-py3-none-any.whl
+[2024-04-05 09:02:46] WARNING root fetch - processPackages [PyBIS]: Timeout reached during download
+[2024-04-05 09:02:46] INFO root fetch - processPackages [PyBIS]: executing diffoscope
+[2024-04-05 09:02:46] INFO root fetch - processPackages [PyBIS]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyBIS-1.9.7.tar.gz tmp/PyBIS-1.9.8.tar.gz --markdown 20240405/P/PyBIS/1.9.7-1.9.8/diff.md --exclude *.pyd
+[2024-04-05 09:02:46] INFO root fetch - processPackages [tf-models-nightly]: Downloading https://files.pythonhosted.org/packages/e2/76/79c5fb2cd23f346ee912b9c289c2a9bab6fc8d178658f931ac9a023224c6/tf_models_nightly-2.9.0.dev20220920-py2.py3-none-any.whl
+[2024-04-05 09:02:46] INFO root fetch - processPackages [seqio-nightly]: Downloading https://files.pythonhosted.org/packages/2a/76/25f4c7602cdd724deac948a914e454756abfad2119a525c06d9ce341b918/seqio-nightly-0.0.8.dev20220907.tar.gz
+[2024-04-05 09:02:46] INFO root fetch - processPackages [politely]: Remove: archive file [/home/abi/fetcher/tmp/politely-4.0.0a0.tar.gz]
+[2024-04-05 09:02:46] INFO root fetch - processPackages [politely]: Remove: archive file [/home/abi/fetcher/tmp/politely-4.0.0a1.tar.gz]
+[2024-04-05 09:02:46] INFO root fetch - main [MainThread]: End processing [politely]: success
+[2024-04-05 09:02:46] WARNING root fetch - processPackages [odoo-addon-stock-picking-batch-print-invoices]: Timeout reached during download
+[2024-04-05 09:02:46] INFO root fetch - processPackages [odoo-addon-stock-picking-batch-print-invoices]: executing diffoscope
+[2024-04-05 09:02:46] INFO root fetch - processPackages [odoo-addon-stock-picking-batch-print-invoices]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_stock_picking_batch_print_invoices-16.0.1.0.2-py3-none-any.whl.zip tmp/odoo_addon_stock_picking_batch_print_invoices-16.0.1.0.2.1-py3-none-any.whl.zip --markdown 20240405/o/odoo-addon-stock-picking-batch-print-invoices/16.0.1.0.2-16.0.1.0.2.1/diff.md --exclude *.pyd
+[2024-04-05 09:02:46] WARNING root fetch - processPackages [seqio-nightly]: Timeout reached during download
+[2024-04-05 09:02:46] INFO root fetch - processPackages [seqio-nightly]: executing diffoscope
+[2024-04-05 09:02:46] INFO root fetch - processPackages [seqio-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seqio-nightly-0.0.8.dev20220906.tar.gz tmp/seqio-nightly-0.0.8.dev20220907.tar.gz --markdown 20240405/s/seqio-nightly/0.0.8.dev20220906-0.0.8.dev20220907/diff.md --exclude *.pyd
+[2024-04-05 09:02:47] INFO root fetch - processPackages [PyBIS]: Remove: archive file [/home/abi/fetcher/tmp/PyBIS-1.9.7.tar.gz]
+[2024-04-05 09:02:47] INFO root fetch - processPackages [PyBIS]: Remove: archive file [/home/abi/fetcher/tmp/PyBIS-1.9.8.tar.gz]
+[2024-04-05 09:02:47] INFO root fetch - main [MainThread]: End processing [PyBIS]: success
+[2024-04-05 09:02:47] INFO root fetch - processPackages [odoo-addon-stock-picking-batch-print-invoices]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_stock_picking_batch_print_invoices-16.0.1.0.2-py3-none-any.whl.zip]
+[2024-04-05 09:02:47] INFO root fetch - processPackages [odoo-addon-stock-picking-batch-print-invoices]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_stock_picking_batch_print_invoices-16.0.1.0.2.1-py3-none-any.whl.zip]
+[2024-04-05 09:02:47] INFO root fetch - main [MainThread]: End processing [odoo-addon-stock-picking-batch-print-invoices]: success
+[2024-04-05 09:02:47] INFO root fetch - processPackages [seqio-nightly]: Remove: archive file [/home/abi/fetcher/tmp/seqio-nightly-0.0.8.dev20220906.tar.gz]
+[2024-04-05 09:02:47] INFO root fetch - processPackages [seqio-nightly]: Remove: archive file [/home/abi/fetcher/tmp/seqio-nightly-0.0.8.dev20220907.tar.gz]
+[2024-04-05 09:02:47] INFO root fetch - main [MainThread]: End processing [seqio-nightly]: success
+[2024-04-05 09:02:47] WARNING root fetch - processPackages [tf-models-nightly]: Timeout reached during download
+[2024-04-05 09:02:47] INFO root fetch - processPackages [tf-models-nightly]: executing diffoscope
+[2024-04-05 09:02:47] INFO root fetch - processPackages [tf-models-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_models_nightly-2.9.0.dev20220919-py2.py3-none-any.whl.zip tmp/tf_models_nightly-2.9.0.dev20220920-py2.py3-none-any.whl.zip --markdown 20240405/t/tf-models-nightly/2.9.0.dev20220919-2.9.0.dev20220920/diff.md --exclude *.pyd
+[2024-04-05 09:02:50] INFO root fetch - processPackages [tf-models-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_models_nightly-2.9.0.dev20220919-py2.py3-none-any.whl.zip]
+[2024-04-05 09:02:50] INFO root fetch - processPackages [tf-models-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_models_nightly-2.9.0.dev20220920-py2.py3-none-any.whl.zip]
+[2024-04-05 09:02:50] INFO root fetch - main [MainThread]: End processing [tf-models-nightly]: success
+[2024-04-05 09:02:50] INFO root fetch - main [MainThread]: Store serial: [22632691]
