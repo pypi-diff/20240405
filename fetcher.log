@@ -11740,3 +11740,31 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2024-04-05 06:44:26] INFO root fetch - processPackages [netspresso]: Remove: archive file [/home/abi/fetcher/tmp/netspresso-1.6.0.tar.gz]
 [2024-04-05 06:44:26] INFO root fetch - main [MainThread]: End processing [netspresso]: success
 [2024-04-05 06:44:26] INFO root fetch - main [MainThread]: Store serial: [22631781]
+[2024-04-05 06:46:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22631781]
+[2024-04-05 06:46:36] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-05 06:46:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: petrichor-script-lexer
+[2024-04-05 06:46:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: multiMotif
+[2024-04-05 06:46:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: volstreet
+[2024-04-05 06:46:36] INFO root fetch - processPackages [volstreet]: New version: [7.0.1] Old Version: [7.0.0]
+[2024-04-05 06:46:36] WARNING root fetch - processPackages [petrichor-script-lexer]: Skipping, unable to determine old version
+[2024-04-05 06:46:36] INFO root fetch - main [MainThread]: End processing [petrichor-script-lexer] error
+[2024-04-05 06:46:36] INFO root fetch - processPackages [multiMotif]: New version: [1.2.1] Old Version: [1.1.0]
+[2024-04-05 06:46:36] INFO root fetch - processPackages [volstreet]: Downloading https://files.pythonhosted.org/packages/5e/ac/e8fdabfc1e82c8e4e7671d4fbde94023e5cc9275d1a6de45f95012e12b4d/volstreet-7.0.0.tar.gz
+[2024-04-05 06:46:36] INFO root fetch - processPackages [multiMotif]: Downloading https://files.pythonhosted.org/packages/f9/96/be1e331d543127440556ab942c5e84dafbb08cb50a48a0596c3108cdc849/multiMotif-1.1.0.tar.gz
+[2024-04-05 06:46:36] WARNING root fetch - processPackages [volstreet]: Timeout reached during download
+[2024-04-05 06:46:36] WARNING root fetch - processPackages [multiMotif]: Timeout reached during download
+[2024-04-05 06:46:37] INFO root fetch - processPackages [multiMotif]: Downloading https://files.pythonhosted.org/packages/0f/79/8caab37a082216f19636b02a9381a6a9174d8325a93b4e64718d63cca865/multiMotif-1.2.1.tar.gz
+[2024-04-05 06:46:37] INFO root fetch - processPackages [volstreet]: Downloading https://files.pythonhosted.org/packages/ca/3a/4ad73f12c4f8ceffa3d6628fd94c9ea8d8135fb470062fa99be3d2211e46/volstreet-7.0.1.tar.gz
+[2024-04-05 06:46:37] WARNING root fetch - processPackages [multiMotif]: Timeout reached during download
+[2024-04-05 06:46:37] INFO root fetch - processPackages [multiMotif]: executing diffoscope
+[2024-04-05 06:46:37] INFO root fetch - processPackages [multiMotif]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/multiMotif-1.1.0.tar.gz tmp/multiMotif-1.2.1.tar.gz --markdown 20240405/m/multiMotif/1.1.0-1.2.1/diff.md --exclude *.pyd
+[2024-04-05 06:46:37] WARNING root fetch - processPackages [volstreet]: Timeout reached during download
+[2024-04-05 06:46:37] INFO root fetch - processPackages [volstreet]: executing diffoscope
+[2024-04-05 06:46:37] INFO root fetch - processPackages [volstreet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/volstreet-7.0.0.tar.gz tmp/volstreet-7.0.1.tar.gz --markdown 20240405/v/volstreet/7.0.0-7.0.1/diff.md --exclude *.pyd
+[2024-04-05 06:46:37] INFO root fetch - processPackages [multiMotif]: Remove: archive file [/home/abi/fetcher/tmp/multiMotif-1.1.0.tar.gz]
+[2024-04-05 06:46:37] INFO root fetch - processPackages [multiMotif]: Remove: archive file [/home/abi/fetcher/tmp/multiMotif-1.2.1.tar.gz]
+[2024-04-05 06:46:37] INFO root fetch - main [MainThread]: End processing [multiMotif]: success
+[2024-04-05 06:46:38] INFO root fetch - processPackages [volstreet]: Remove: archive file [/home/abi/fetcher/tmp/volstreet-7.0.0.tar.gz]
+[2024-04-05 06:46:38] INFO root fetch - processPackages [volstreet]: Remove: archive file [/home/abi/fetcher/tmp/volstreet-7.0.1.tar.gz]
+[2024-04-05 06:46:38] INFO root fetch - main [MainThread]: End processing [volstreet]: success
+[2024-04-05 06:46:38] INFO root fetch - main [MainThread]: Store serial: [22631794]
