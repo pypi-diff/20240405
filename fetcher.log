@@ -18098,3 +18098,75 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2024-04-05 11:48:20] INFO root fetch - processPackages [udata-front]: Remove: archive file [/home/abi/fetcher/tmp/udata_front-3.5.5a117434-py2.py3-none-any.whl.zip]
 [2024-04-05 11:48:20] INFO root fetch - main [MainThread]: End processing [udata-front]: success
 [2024-04-05 11:48:20] INFO root fetch - main [MainThread]: Store serial: [22634197]
+[2024-04-05 11:50:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22634197]
+[2024-04-05 11:50:30] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-05 11:50:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cerebrium
+[2024-04-05 11:50:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: craft-ai-sdk
+[2024-04-05 11:50:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addon-l10n-ro-account-edi-ubl
+[2024-04-05 11:50:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: justai
+[2024-04-05 11:50:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: messages-local
+[2024-04-05 11:50:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cloudcix
+[2024-04-05 11:50:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: laoshi
+[2024-04-05 11:50:30] INFO root fetch - processPackages [justai]: New version: [3.2.7] Old Version: [3.2.6]
+[2024-04-05 11:50:30] INFO root fetch - processPackages [odoo-addon-l10n-ro-account-edi-ubl]: New version: [16.0.1.46.0] Old Version: [16.0.1.45.0]
+[2024-04-05 11:50:30] INFO root fetch - processPackages [justai]: Downloading https://files.pythonhosted.org/packages/4e/16/98cf98abd8e9d3eae0266c36efab0e0e3a1c8d9162af6f526504a5a7d9e7/justai-3.2.6.tar.gz
+[2024-04-05 11:50:30] INFO root fetch - processPackages [odoo-addon-l10n-ro-account-edi-ubl]: Downloading https://files.pythonhosted.org/packages/37/3a/fe625884be0080e86273b953bb3b6bcce789b324a52d042ea8532bfc0b5e/odoo_addon_l10n_ro_account_edi_ubl-16.0.1.45.0-py3-none-any.whl
+[2024-04-05 11:50:30] INFO root fetch - processPackages [messages-local]: New version: [0.0.48] Old Version: [0.0.47]
+[2024-04-05 11:50:30] INFO root fetch - processPackages [craft-ai-sdk]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-04-05 11:50:30] INFO root fetch - processPackages [cloudcix]: New version: [0.9.7] Old Version: [0.9.6]
+[2024-04-05 11:50:30] INFO root fetch - processPackages [cerebrium]: New version: [1.9.6] Old Version: [1.9.5]
+[2024-04-05 11:50:30] WARNING root fetch - processPackages [laoshi]: Skipping, unable to determine old version
+[2024-04-05 11:50:30] INFO root fetch - main [MainThread]: End processing [laoshi] error
+[2024-04-05 11:50:30] WARNING root fetch - processPackages [justai]: Timeout reached during download
+[2024-04-05 11:50:30] INFO root fetch - processPackages [messages-local]: Downloading https://files.pythonhosted.org/packages/5a/8b/df6de81c920be006e84a769a56cbaca036463b8159d338ca3b2531a8cff1/messages-local-0.0.47.tar.gz
+[2024-04-05 11:50:30] INFO root fetch - processPackages [craft-ai-sdk]: Downloading https://files.pythonhosted.org/packages/37/9a/425e98770d7c632e8edaa1eda238a5459ba6f00ddc434fcf87962f118a27/craft_ai_sdk-0.9.0.tar.gz
+[2024-04-05 11:50:30] WARNING root fetch - processPackages [odoo-addon-l10n-ro-account-edi-ubl]: Timeout reached during download
+[2024-04-05 11:50:30] INFO root fetch - processPackages [cerebrium]: Downloading https://files.pythonhosted.org/packages/24/e9/384045bc7f1c6e772a8968ec6fc38eac26fdf9304843b41ef1a60d40285b/cerebrium-1.9.5.tar.gz
+[2024-04-05 11:50:30] INFO root fetch - processPackages [justai]: Downloading https://files.pythonhosted.org/packages/35/9d/4cd082ac26a88bc07e4cbc1a028bf4b4b8508ea5eb9c6bbb710ea88c98b4/justai-3.2.7.tar.gz
+[2024-04-05 11:50:31] INFO root fetch - processPackages [odoo-addon-l10n-ro-account-edi-ubl]: Downloading https://files.pythonhosted.org/packages/62/34/147484d147de690882d316ad399bc8e7d2cdd5dcda24e8da1b320db92726/odoo_addon_l10n_ro_account_edi_ubl-16.0.1.46.0-py3-none-any.whl
+[2024-04-05 11:50:31] INFO root fetch - processPackages [cloudcix]: Downloading https://files.pythonhosted.org/packages/cc/cc/13d28a5efdd4e496bafa1fd6d1a99c8d16600cc337a964e77d0a23ecac9d/cloudcix-0.9.6.tar.gz
+[2024-04-05 11:50:31] WARNING root fetch - processPackages [messages-local]: Timeout reached during download
+[2024-04-05 11:50:31] WARNING root fetch - processPackages [cerebrium]: Timeout reached during download
+[2024-04-05 11:50:31] WARNING root fetch - processPackages [craft-ai-sdk]: Timeout reached during download
+[2024-04-05 11:50:31] WARNING root fetch - processPackages [justai]: Timeout reached during download
+[2024-04-05 11:50:31] INFO root fetch - processPackages [justai]: executing diffoscope
+[2024-04-05 11:50:31] INFO root fetch - processPackages [justai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/justai-3.2.6.tar.gz tmp/justai-3.2.7.tar.gz --markdown 20240405/j/justai/3.2.6-3.2.7/diff.md --exclude *.pyd
+[2024-04-05 11:50:31] WARNING root fetch - processPackages [cloudcix]: Timeout reached during download
+[2024-04-05 11:50:31] WARNING root fetch - processPackages [odoo-addon-l10n-ro-account-edi-ubl]: Timeout reached during download
+[2024-04-05 11:50:31] INFO root fetch - processPackages [odoo-addon-l10n-ro-account-edi-ubl]: executing diffoscope
+[2024-04-05 11:50:31] INFO root fetch - processPackages [odoo-addon-l10n-ro-account-edi-ubl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_l10n_ro_account_edi_ubl-16.0.1.45.0-py3-none-any.whl.zip tmp/odoo_addon_l10n_ro_account_edi_ubl-16.0.1.46.0-py3-none-any.whl.zip --markdown 20240405/o/odoo-addon-l10n-ro-account-edi-ubl/16.0.1.45.0-16.0.1.46.0/diff.md --exclude *.pyd
+[2024-04-05 11:50:31] INFO root fetch - processPackages [messages-local]: Downloading https://files.pythonhosted.org/packages/53/e3/f5fbe3e61117403e42a5c04d25c1371da73f9cae8498df5031501e7b3b03/messages-local-0.0.48.tar.gz
+[2024-04-05 11:50:31] INFO root fetch - processPackages [cerebrium]: Downloading https://files.pythonhosted.org/packages/21/4f/703987d8cf8ebf94c56b980461df95b15c977b07ba3ea6b338e6d85eb9c9/cerebrium-1.9.6.tar.gz
+[2024-04-05 11:50:31] INFO root fetch - processPackages [craft-ai-sdk]: Downloading https://files.pythonhosted.org/packages/4b/d1/169475b438f1184af924d80d3cc7cb68caa2e756a9acb5c8cf6eafc0ca61/craft_ai_sdk-0.9.1.tar.gz
+[2024-04-05 11:50:31] WARNING root fetch - processPackages [messages-local]: Timeout reached during download
+[2024-04-05 11:50:31] INFO root fetch - processPackages [messages-local]: executing diffoscope
+[2024-04-05 11:50:31] INFO root fetch - processPackages [messages-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/messages-local-0.0.47.tar.gz tmp/messages-local-0.0.48.tar.gz --markdown 20240405/m/messages-local/0.0.47-0.0.48/diff.md --exclude *.pyd
+[2024-04-05 11:50:31] INFO root fetch - processPackages [cloudcix]: Downloading https://files.pythonhosted.org/packages/23/91/e2a19ba7fccf414f054cc4ff387b792fe6a964e617de11b0af3707683850/cloudcix-0.9.7.tar.gz
+[2024-04-05 11:50:31] WARNING root fetch - processPackages [cerebrium]: Timeout reached during download
+[2024-04-05 11:50:31] INFO root fetch - processPackages [cerebrium]: executing diffoscope
+[2024-04-05 11:50:31] INFO root fetch - processPackages [cerebrium]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cerebrium-1.9.5.tar.gz tmp/cerebrium-1.9.6.tar.gz --markdown 20240405/c/cerebrium/1.9.5-1.9.6/diff.md --exclude *.pyd
+[2024-04-05 11:50:31] WARNING root fetch - processPackages [craft-ai-sdk]: Timeout reached during download
+[2024-04-05 11:50:31] INFO root fetch - processPackages [craft-ai-sdk]: executing diffoscope
+[2024-04-05 11:50:31] INFO root fetch - processPackages [craft-ai-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/craft_ai_sdk-0.9.0.tar.gz tmp/craft_ai_sdk-0.9.1.tar.gz --markdown 20240405/c/craft-ai-sdk/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2024-04-05 11:50:31] WARNING root fetch - processPackages [cloudcix]: Timeout reached during download
+[2024-04-05 11:50:31] INFO root fetch - processPackages [cloudcix]: executing diffoscope
+[2024-04-05 11:50:31] INFO root fetch - processPackages [cloudcix]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cloudcix-0.9.6.tar.gz tmp/cloudcix-0.9.7.tar.gz --markdown 20240405/c/cloudcix/0.9.6-0.9.7/diff.md --exclude *.pyd
+[2024-04-05 11:50:31] INFO root fetch - processPackages [justai]: Remove: archive file [/home/abi/fetcher/tmp/justai-3.2.6.tar.gz]
+[2024-04-05 11:50:31] INFO root fetch - processPackages [justai]: Remove: archive file [/home/abi/fetcher/tmp/justai-3.2.7.tar.gz]
+[2024-04-05 11:50:31] INFO root fetch - main [MainThread]: End processing [justai]: success
+[2024-04-05 11:50:32] INFO root fetch - processPackages [odoo-addon-l10n-ro-account-edi-ubl]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_ro_account_edi_ubl-16.0.1.45.0-py3-none-any.whl.zip]
+[2024-04-05 11:50:32] INFO root fetch - processPackages [odoo-addon-l10n-ro-account-edi-ubl]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_ro_account_edi_ubl-16.0.1.46.0-py3-none-any.whl.zip]
+[2024-04-05 11:50:32] INFO root fetch - main [MainThread]: End processing [odoo-addon-l10n-ro-account-edi-ubl]: success
+[2024-04-05 11:50:32] INFO root fetch - processPackages [messages-local]: Remove: archive file [/home/abi/fetcher/tmp/messages-local-0.0.47.tar.gz]
+[2024-04-05 11:50:32] INFO root fetch - processPackages [messages-local]: Remove: archive file [/home/abi/fetcher/tmp/messages-local-0.0.48.tar.gz]
+[2024-04-05 11:50:32] INFO root fetch - main [MainThread]: End processing [messages-local]: success
+[2024-04-05 11:50:32] INFO root fetch - processPackages [cerebrium]: Remove: archive file [/home/abi/fetcher/tmp/cerebrium-1.9.5.tar.gz]
+[2024-04-05 11:50:32] INFO root fetch - processPackages [cerebrium]: Remove: archive file [/home/abi/fetcher/tmp/cerebrium-1.9.6.tar.gz]
+[2024-04-05 11:50:32] INFO root fetch - main [MainThread]: End processing [cerebrium]: success
+[2024-04-05 11:50:32] INFO root fetch - processPackages [cloudcix]: Remove: archive file [/home/abi/fetcher/tmp/cloudcix-0.9.6.tar.gz]
+[2024-04-05 11:50:32] INFO root fetch - processPackages [cloudcix]: Remove: archive file [/home/abi/fetcher/tmp/cloudcix-0.9.7.tar.gz]
+[2024-04-05 11:50:32] INFO root fetch - main [MainThread]: End processing [cloudcix]: success
+[2024-04-05 11:50:32] INFO root fetch - processPackages [craft-ai-sdk]: Remove: archive file [/home/abi/fetcher/tmp/craft_ai_sdk-0.9.0.tar.gz]
+[2024-04-05 11:50:32] INFO root fetch - processPackages [craft-ai-sdk]: Remove: archive file [/home/abi/fetcher/tmp/craft_ai_sdk-0.9.1.tar.gz]
+[2024-04-05 11:50:32] INFO root fetch - main [MainThread]: End processing [craft-ai-sdk]: success
+[2024-04-05 11:50:32] INFO root fetch - main [MainThread]: Store serial: [22634217]
