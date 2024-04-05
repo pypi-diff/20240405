@@ -12557,3 +12557,20 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2024-04-05 07:37:08] INFO root fetch - processPackages [weas-widget]: Remove: archive file [/home/abi/fetcher/tmp/weas_widget-0.1.0a0.tar.gz]
 [2024-04-05 07:37:08] INFO root fetch - main [MainThread]: End processing [weas-widget]: success
 [2024-04-05 07:37:08] INFO root fetch - main [MainThread]: Store serial: [22632074]
+[2024-04-05 07:39:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22632074]
+[2024-04-05 07:39:19] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-05 07:39:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyavg
+[2024-04-05 07:39:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: otx
+[2024-04-05 07:39:19] WARNING root fetch - processPackages [pyavg]: Skipping, unable to determine old version
+[2024-04-05 07:39:19] INFO root fetch - main [MainThread]: End processing [pyavg] error
+[2024-04-05 07:39:19] INFO root fetch - processPackages [otx]: New version: [1.6.0] Old Version: [1.5.2]
+[2024-04-05 07:39:19] INFO root fetch - processPackages [otx]: Downloading https://files.pythonhosted.org/packages/b4/af/649bab1cde78a81203959633cff127fd841f5e96516470542cda90a7349e/otx-1.5.2.tar.gz
+[2024-04-05 07:39:20] WARNING root fetch - processPackages [otx]: Timeout reached during download
+[2024-04-05 07:39:20] INFO root fetch - processPackages [otx]: Downloading https://files.pythonhosted.org/packages/f0/7a/37a352636beb1578fad481af1714ec231a04989580f81c4ec893dc560c3a/otx-1.6.0-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-04-05 07:39:21] WARNING root fetch - processPackages [otx]: Timeout reached during download
+[2024-04-05 07:39:21] INFO root fetch - processPackages [otx]: executing diffoscope
+[2024-04-05 07:39:21] INFO root fetch - processPackages [otx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/otx-1.5.2.tar.gz tmp/otx-1.6.0-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20240405/o/otx/1.5.2-1.6.0/diff.md --exclude *.pyd
+[2024-04-05 07:39:23] INFO root fetch - processPackages [otx]: Remove: archive file [/home/abi/fetcher/tmp/otx-1.5.2.tar.gz]
+[2024-04-05 07:39:23] INFO root fetch - processPackages [otx]: Remove: archive file [/home/abi/fetcher/tmp/otx-1.6.0-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-04-05 07:39:23] INFO root fetch - main [MainThread]: End processing [otx]: success
+[2024-04-05 07:39:23] INFO root fetch - main [MainThread]: Store serial: [22632082]
