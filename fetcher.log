@@ -3142,3 +3142,50 @@
 [2024-04-05 02:25:26] INFO root fetch - processPackages [stripe]: Remove: archive file [/home/abi/fetcher/tmp/stripe-8.9.0b1.tar.gz]
 [2024-04-05 02:25:26] INFO root fetch - main [MainThread]: End processing [stripe]: success
 [2024-04-05 02:25:26] INFO root fetch - main [MainThread]: Store serial: [22629210]
+[2024-04-05 02:27:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22629210]
+[2024-04-05 02:27:34] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-05 02:27:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: stripe
+[2024-04-05 02:27:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cdk-secret-manager-wrapper-layer
+[2024-04-05 02:27:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cdk-ecs-service-extensions
+[2024-04-05 02:27:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: OpenGeode-core
+[2024-04-05 02:27:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: peanutbutter
+[2024-04-05 02:27:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: redsauce
+[2024-04-05 02:27:34] INFO root fetch - processPackages [stripe]: New version: [8.9.0b1] Old Version: [8.9.0]
+[2024-04-05 02:27:34] WARNING root fetch - processPackages [peanutbutter]: Skipping, unable to determine old version
+[2024-04-05 02:27:34] INFO root fetch - main [MainThread]: End processing [peanutbutter] error
+[2024-04-05 02:27:34] WARNING root fetch - processPackages [redsauce]: Skipping, unable to determine old version
+[2024-04-05 02:27:34] INFO root fetch - main [MainThread]: End processing [redsauce] error
+[2024-04-05 02:27:34] INFO root fetch - processPackages [cdk-ecs-service-extensions]: New version: [2.0.1a99] Old Version: [2.0.1a98]
+[2024-04-05 02:27:34] INFO root fetch - processPackages [stripe]: Downloading https://files.pythonhosted.org/packages/45/25/f914558692e8ebb78c358e7b46d4d635531f787cca348d75561f86a3fbaf/stripe-8.9.0.tar.gz
+[2024-04-05 02:27:34] INFO root fetch - processPackages [OpenGeode-core]: New version: [9.10.4] Old Version: [14.18.1rc1]
+[2024-04-05 02:27:35] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: New version: [2.0.99] Old Version: [2.0.98]
+[2024-04-05 02:27:35] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: Downloading https://files.pythonhosted.org/packages/00/91/545869a3cc999dbc9750aad345d775087610ebf834517c928a0d0e289c4e/cdk-secret-manager-wrapper-layer-2.0.98.tar.gz
+[2024-04-05 02:27:35] WARNING root fetch - processPackages [stripe]: Timeout reached during download
+[2024-04-05 02:27:35] INFO root fetch - processPackages [cdk-ecs-service-extensions]: Downloading https://files.pythonhosted.org/packages/c9/ad/d7965da0f34d52de670def31464963b3971de03ac20cddf5eac577722b31/cdk-ecs-service-extensions-2.0.1a98.tar.gz
+[2024-04-05 02:27:35] INFO root fetch - processPackages [OpenGeode-core]: Downloading https://files.pythonhosted.org/packages/5f/b4/617cc986f04893bc2222399db053e65acd82ed7add37d3102e13efde3084/OpenGeode_core-14.18.1rc1-cp39-cp39-win_amd64.whl
+[2024-04-05 02:27:35] WARNING root fetch - processPackages [cdk-secret-manager-wrapper-layer]: Timeout reached during download
+[2024-04-05 02:27:35] WARNING root fetch - processPackages [OpenGeode-core]: Skipping package: exceeds size limit 11716647>=10485760
+[2024-04-05 02:27:35] INFO root fetch - main [MainThread]: End processing [OpenGeode-core] error
+[2024-04-05 02:27:35] INFO root fetch - processPackages [stripe]: Downloading https://files.pythonhosted.org/packages/0b/4d/6fd857cc97f5d31be2005ccc222b282e450e192ecea871a7d2362d18372b/stripe-8.9.0b1.tar.gz
+[2024-04-05 02:27:35] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: Downloading https://files.pythonhosted.org/packages/c2/c5/a8a13bb72ea375e2ce99dd389e945478ce7d95d8628acf6db64f14f674f5/cdk-secret-manager-wrapper-layer-2.0.99.tar.gz
+[2024-04-05 02:27:35] WARNING root fetch - processPackages [cdk-ecs-service-extensions]: Timeout reached during download
+[2024-04-05 02:27:35] WARNING root fetch - processPackages [cdk-secret-manager-wrapper-layer]: Timeout reached during download
+[2024-04-05 02:27:35] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: executing diffoscope
+[2024-04-05 02:27:35] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-secret-manager-wrapper-layer-2.0.98.tar.gz tmp/cdk-secret-manager-wrapper-layer-2.0.99.tar.gz --markdown 20240405/c/cdk-secret-manager-wrapper-layer/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2024-04-05 02:27:35] WARNING root fetch - processPackages [stripe]: Timeout reached during download
+[2024-04-05 02:27:35] INFO root fetch - processPackages [stripe]: executing diffoscope
+[2024-04-05 02:27:35] INFO root fetch - processPackages [stripe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stripe-8.9.0.tar.gz tmp/stripe-8.9.0b1.tar.gz --markdown 20240405/s/stripe/8.9.0-8.9.0b1/diff.md --exclude *.pyd
+[2024-04-05 02:27:35] INFO root fetch - processPackages [cdk-ecs-service-extensions]: Downloading https://files.pythonhosted.org/packages/9c/f7/1a593c4ae0d3c80332cec251caad8f13a27842299475718ad186eea220ba/cdk-ecs-service-extensions-2.0.1a99.tar.gz
+[2024-04-05 02:27:35] WARNING root fetch - processPackages [cdk-ecs-service-extensions]: Timeout reached during download
+[2024-04-05 02:27:35] INFO root fetch - processPackages [cdk-ecs-service-extensions]: executing diffoscope
+[2024-04-05 02:27:35] INFO root fetch - processPackages [cdk-ecs-service-extensions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-ecs-service-extensions-2.0.1a98.tar.gz tmp/cdk-ecs-service-extensions-2.0.1a99.tar.gz --markdown 20240405/c/cdk-ecs-service-extensions/2.0.1a98-2.0.1a99/diff.md --exclude *.pyd
+[2024-04-05 02:27:36] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: Remove: archive file [/home/abi/fetcher/tmp/cdk-secret-manager-wrapper-layer-2.0.98.tar.gz]
+[2024-04-05 02:27:36] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: Remove: archive file [/home/abi/fetcher/tmp/cdk-secret-manager-wrapper-layer-2.0.99.tar.gz]
+[2024-04-05 02:27:36] INFO root fetch - main [MainThread]: End processing [cdk-secret-manager-wrapper-layer]: success
+[2024-04-05 02:27:36] INFO root fetch - processPackages [cdk-ecs-service-extensions]: Remove: archive file [/home/abi/fetcher/tmp/cdk-ecs-service-extensions-2.0.1a98.tar.gz]
+[2024-04-05 02:27:36] INFO root fetch - processPackages [cdk-ecs-service-extensions]: Remove: archive file [/home/abi/fetcher/tmp/cdk-ecs-service-extensions-2.0.1a99.tar.gz]
+[2024-04-05 02:27:36] INFO root fetch - main [MainThread]: End processing [cdk-ecs-service-extensions]: success
+[2024-04-05 02:27:42] INFO root fetch - processPackages [stripe]: Remove: archive file [/home/abi/fetcher/tmp/stripe-8.9.0.tar.gz]
+[2024-04-05 02:27:42] INFO root fetch - processPackages [stripe]: Remove: archive file [/home/abi/fetcher/tmp/stripe-8.9.0b1.tar.gz]
+[2024-04-05 02:27:42] INFO root fetch - main [MainThread]: End processing [stripe]: success
+[2024-04-05 02:27:42] INFO root fetch - main [MainThread]: Store serial: [22629239]
