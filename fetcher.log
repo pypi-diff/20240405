@@ -19693,3 +19693,61 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2024-04-05 12:42:36] INFO root fetch - processPackages [few-shot-priming]: Remove: archive file [/home/abi/fetcher/tmp/few_shot_priming-0.3.99-py3-none-any.whl.zip]
 [2024-04-05 12:42:36] INFO root fetch - main [MainThread]: End processing [few-shot-priming]: success
 [2024-04-05 12:42:36] INFO root fetch - main [MainThread]: Store serial: [22634732]
+[2024-04-05 12:44:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22634732]
+[2024-04-05 12:44:46] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-05 12:44:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sunholo
+[2024-04-05 12:44:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lilya
+[2024-04-05 12:44:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: quorum
+[2024-04-05 12:44:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: simsi-transfer
+[2024-04-05 12:44:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: modnet
+[2024-04-05 12:44:46] INFO root fetch - processPackages [lilya]: New version: [0.3.3] Old Version: [0.3.2]
+[2024-04-05 12:44:46] INFO root fetch - processPackages [sunholo]: New version: [0.8.9] Old Version: [0.8.8]
+[2024-04-05 12:44:46] INFO root fetch - processPackages [simsi-transfer]: New version: [0.6.1] Old Version: [0.6.0]
+[2024-04-05 12:44:46] INFO root fetch - processPackages [quorum]: New version: [0.8.3] Old Version: [0.8.2]
+[2024-04-05 12:44:46] INFO root fetch - processPackages [modnet]: New version: [0.4.3] Old Version: [0.4.2]
+[2024-04-05 12:44:46] INFO root fetch - processPackages [sunholo]: Downloading https://files.pythonhosted.org/packages/cc/35/0cc2a83f59b1ddd740a568e10894833a89bedfc91b8ebd172a427676694a/sunholo-0.8.8.tar.gz
+[2024-04-05 12:44:46] INFO root fetch - processPackages [lilya]: Downloading https://files.pythonhosted.org/packages/3a/ad/2084d1e38da4d9f106c70725cae79f2b674080373f01a7e968783bae8645/lilya-0.3.2.tar.gz
+[2024-04-05 12:44:46] WARNING root fetch - processPackages [sunholo]: Timeout reached during download
+[2024-04-05 12:44:46] INFO root fetch - processPackages [simsi-transfer]: Downloading https://files.pythonhosted.org/packages/0f/e4/7d7ca8d268689457bf76aa7841d7d9c44e97494e8d2cf69f78b2f5923c9c/simsi_transfer-0.6.0-py3-none-any.whl
+[2024-04-05 12:44:46] INFO root fetch - processPackages [quorum]: Downloading https://files.pythonhosted.org/packages/2f/4e/cdc0807584a84922f476e412cc9d4b2d236c7c5a0f8f194cdd1311f52c98/quorum-0.8.2.tar.gz
+[2024-04-05 12:44:46] WARNING root fetch - processPackages [lilya]: Timeout reached during download
+[2024-04-05 12:44:46] INFO root fetch - processPackages [modnet]: Downloading https://files.pythonhosted.org/packages/21/8b/8b68311902296abd1193e87aa77c99c9d67e758d1e27c44491bc7948c71a/modnet-0.4.2.tar.gz
+[2024-04-05 12:44:46] INFO root fetch - processPackages [sunholo]: Downloading https://files.pythonhosted.org/packages/f4/84/78248df3236e593119b75003e77cf5b5bd0761e53dc91c6a148cb0571cf9/sunholo-0.8.9.tar.gz
+[2024-04-05 12:44:47] INFO root fetch - processPackages [lilya]: Downloading https://files.pythonhosted.org/packages/1e/7a/8050e322db3f33dd334447d525766108c5fa49ccce29689d7c6f24428940/lilya-0.3.3.tar.gz
+[2024-04-05 12:44:47] WARNING root fetch - processPackages [sunholo]: Timeout reached during download
+[2024-04-05 12:44:47] INFO root fetch - processPackages [sunholo]: executing diffoscope
+[2024-04-05 12:44:47] INFO root fetch - processPackages [sunholo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sunholo-0.8.8.tar.gz tmp/sunholo-0.8.9.tar.gz --markdown 20240405/s/sunholo/0.8.8-0.8.9/diff.md --exclude *.pyd
+[2024-04-05 12:44:47] WARNING root fetch - processPackages [lilya]: Timeout reached during download
+[2024-04-05 12:44:47] INFO root fetch - processPackages [lilya]: executing diffoscope
+[2024-04-05 12:44:47] INFO root fetch - processPackages [lilya]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lilya-0.3.2.tar.gz tmp/lilya-0.3.3.tar.gz --markdown 20240405/l/lilya/0.3.2-0.3.3/diff.md --exclude *.pyd
+[2024-04-05 12:44:47] WARNING root fetch - processPackages [quorum]: Timeout reached during download
+[2024-04-05 12:44:47] INFO root fetch - processPackages [quorum]: Downloading https://files.pythonhosted.org/packages/1e/99/1f6deec4c6bec979c5590ba3fabfde47c984b5cfa248e1845d5c679b29c7/quorum-0.8.3.tar.gz
+[2024-04-05 12:44:47] WARNING root fetch - processPackages [quorum]: Timeout reached during download
+[2024-04-05 12:44:47] INFO root fetch - processPackages [quorum]: executing diffoscope
+[2024-04-05 12:44:47] INFO root fetch - processPackages [quorum]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quorum-0.8.2.tar.gz tmp/quorum-0.8.3.tar.gz --markdown 20240405/q/quorum/0.8.2-0.8.3/diff.md --exclude *.pyd
+[2024-04-05 12:44:47] WARNING root fetch - processPackages [simsi-transfer]: Timeout reached during download
+[2024-04-05 12:44:47] INFO root fetch - processPackages [sunholo]: Remove: archive file [/home/abi/fetcher/tmp/sunholo-0.8.8.tar.gz]
+[2024-04-05 12:44:47] INFO root fetch - processPackages [sunholo]: Remove: archive file [/home/abi/fetcher/tmp/sunholo-0.8.9.tar.gz]
+[2024-04-05 12:44:47] INFO root fetch - main [MainThread]: End processing [sunholo]: success
+[2024-04-05 12:44:47] WARNING root fetch - processPackages [modnet]: Timeout reached during download
+[2024-04-05 12:44:48] INFO root fetch - processPackages [lilya]: Remove: archive file [/home/abi/fetcher/tmp/lilya-0.3.2.tar.gz]
+[2024-04-05 12:44:48] INFO root fetch - processPackages [lilya]: Remove: archive file [/home/abi/fetcher/tmp/lilya-0.3.3.tar.gz]
+[2024-04-05 12:44:48] INFO root fetch - main [MainThread]: End processing [lilya]: success
+[2024-04-05 12:44:48] INFO root fetch - processPackages [simsi-transfer]: Downloading https://files.pythonhosted.org/packages/7c/67/7770baf04594e95952f876c7c798a20c1d22b1ece30afa864f0a2459c6c5/simsi_transfer-0.6.1-py3-none-any.whl
+[2024-04-05 12:44:48] INFO root fetch - processPackages [modnet]: Downloading https://files.pythonhosted.org/packages/35/2b/8e0f22fc2b6ee0330915cbe5fc8a576fb45951cd4f39752e8773ea6222f5/modnet-0.4.3.tar.gz
+[2024-04-05 12:44:48] INFO root fetch - processPackages [quorum]: Remove: archive file [/home/abi/fetcher/tmp/quorum-0.8.2.tar.gz]
+[2024-04-05 12:44:48] INFO root fetch - processPackages [quorum]: Remove: archive file [/home/abi/fetcher/tmp/quorum-0.8.3.tar.gz]
+[2024-04-05 12:44:48] INFO root fetch - main [MainThread]: End processing [quorum]: success
+[2024-04-05 12:44:49] WARNING root fetch - processPackages [simsi-transfer]: Timeout reached during download
+[2024-04-05 12:44:49] INFO root fetch - processPackages [simsi-transfer]: executing diffoscope
+[2024-04-05 12:44:49] INFO root fetch - processPackages [simsi-transfer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/simsi_transfer-0.6.0-py3-none-any.whl.zip tmp/simsi_transfer-0.6.1-py3-none-any.whl.zip --markdown 20240405/s/simsi-transfer/0.6.0-0.6.1/diff.md --exclude *.pyd
+[2024-04-05 12:44:49] WARNING root fetch - processPackages [modnet]: Timeout reached during download
+[2024-04-05 12:44:49] INFO root fetch - processPackages [modnet]: executing diffoscope
+[2024-04-05 12:44:49] INFO root fetch - processPackages [modnet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modnet-0.4.2.tar.gz tmp/modnet-0.4.3.tar.gz --markdown 20240405/m/modnet/0.4.2-0.4.3/diff.md --exclude *.pyd
+[2024-04-05 12:44:50] INFO root fetch - processPackages [simsi-transfer]: Remove: archive file [/home/abi/fetcher/tmp/simsi_transfer-0.6.0-py3-none-any.whl.zip]
+[2024-04-05 12:44:50] INFO root fetch - processPackages [simsi-transfer]: Remove: archive file [/home/abi/fetcher/tmp/simsi_transfer-0.6.1-py3-none-any.whl.zip]
+[2024-04-05 12:44:50] INFO root fetch - main [MainThread]: End processing [simsi-transfer]: success
+[2024-04-05 12:44:51] INFO root fetch - processPackages [modnet]: Remove: archive file [/home/abi/fetcher/tmp/modnet-0.4.2.tar.gz]
+[2024-04-05 12:44:51] INFO root fetch - processPackages [modnet]: Remove: archive file [/home/abi/fetcher/tmp/modnet-0.4.3.tar.gz]
+[2024-04-05 12:44:51] INFO root fetch - main [MainThread]: End processing [modnet]: success
+[2024-04-05 12:44:51] INFO root fetch - main [MainThread]: Store serial: [22634753]
