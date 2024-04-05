@@ -12169,3 +12169,50 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2024-04-05 07:15:08] INFO root fetch - processPackages [aws_lambda_stream]: Remove: archive file [/home/abi/fetcher/tmp/aws_lambda_stream-1.1.1.tar.gz]
 [2024-04-05 07:15:08] INFO root fetch - main [MainThread]: End processing [aws_lambda_stream]: success
 [2024-04-05 07:15:08] INFO root fetch - main [MainThread]: Store serial: [22631927]
+[2024-04-05 07:17:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22631927]
+[2024-04-05 07:17:18] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-05 07:17:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: petrichor-script-lexer
+[2024-04-05 07:17:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bitefix
+[2024-04-05 07:17:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: palworld-pal-editor
+[2024-04-05 07:17:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: spark-batch
+[2024-04-05 07:17:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: RAG-metrics-1
+[2024-04-05 07:17:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: wiliot-api
+[2024-04-05 07:17:18] INFO root fetch - processPackages [palworld-pal-editor]: New version: [0.4.1.post2] Old Version: [0.4.1.post1]
+[2024-04-05 07:17:18] WARNING root fetch - processPackages [petrichor-script-lexer]: Skipping, unable to determine old version
+[2024-04-05 07:17:18] INFO root fetch - main [MainThread]: End processing [petrichor-script-lexer] error
+[2024-04-05 07:17:19] INFO root fetch - processPackages [wiliot-api]: New version: [4.8.0] Old Version: [4.7.1]
+[2024-04-05 07:17:19] INFO root fetch - processPackages [spark-batch]: New version: [2.6] Old Version: [2.5]
+[2024-04-05 07:17:19] WARNING root fetch - processPackages [RAG-metrics-1]: Skipping, unable to determine old version
+[2024-04-05 07:17:19] INFO root fetch - main [MainThread]: End processing [RAG-metrics-1] error
+[2024-04-05 07:17:19] INFO root fetch - processPackages [palworld-pal-editor]: Downloading https://files.pythonhosted.org/packages/77/ea/44bc42f62ee3ab6794743787f95352e11d7b8011db923cdc7667f554ec0b/palworld-pal-editor-0.4.1.post1.tar.gz
+[2024-04-05 07:17:19] WARNING root fetch - processPackages [palworld-pal-editor]: Skipping package: exceeds size limit 20447282>=10485760
+[2024-04-05 07:17:19] INFO root fetch - main [MainThread]: End processing [palworld-pal-editor] error
+[2024-04-05 07:17:19] INFO root fetch - processPackages [wiliot-api]: Downloading https://files.pythonhosted.org/packages/e3/cf/72f87a41da853994b812ceef13176be17dbeca4f95635e1d8535f836a05a/wiliot-api-4.7.1.tar.gz
+[2024-04-05 07:17:19] INFO root fetch - processPackages [bitefix]: New version: [1.0.0] Old Version: [0.2.1]
+[2024-04-05 07:17:19] INFO root fetch - processPackages [spark-batch]: Downloading https://files.pythonhosted.org/packages/20/a9/458eb6528ece78be0af4df1e37367edb0c36b5429496bfb796149173af07/spark_batch-2.5-py3-none-any.whl
+[2024-04-05 07:17:19] WARNING root fetch - processPackages [spark-batch]: Timeout reached during download
+[2024-04-05 07:17:19] WARNING root fetch - processPackages [wiliot-api]: Timeout reached during download
+[2024-04-05 07:17:19] INFO root fetch - processPackages [bitefix]: Downloading https://files.pythonhosted.org/packages/2d/64/b1a181373ae8e5574d5c50c5227e152649dd36af094977f579163cac0511/bitefix-0.2.1.tar.gz
+[2024-04-05 07:17:19] INFO root fetch - processPackages [spark-batch]: Downloading https://files.pythonhosted.org/packages/aa/76/c36b2216051967aa0b6265b2b589248f2d6cd05b593e8c298263ddd1f1b4/spark_batch-2.6-py3-none-any.whl
+[2024-04-05 07:17:19] WARNING root fetch - processPackages [bitefix]: Timeout reached during download
+[2024-04-05 07:17:19] INFO root fetch - processPackages [wiliot-api]: Downloading https://files.pythonhosted.org/packages/db/9e/6110aa6a4e1d1933530be3de1975f9d203b8307beee121d9f583b16ec8e6/wiliot-api-4.8.0.tar.gz
+[2024-04-05 07:17:19] WARNING root fetch - processPackages [spark-batch]: Timeout reached during download
+[2024-04-05 07:17:19] INFO root fetch - processPackages [spark-batch]: executing diffoscope
+[2024-04-05 07:17:19] INFO root fetch - processPackages [spark-batch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spark_batch-2.5-py3-none-any.whl.zip tmp/spark_batch-2.6-py3-none-any.whl.zip --markdown 20240405/s/spark-batch/2.5-2.6/diff.md --exclude *.pyd
+[2024-04-05 07:17:19] WARNING root fetch - processPackages [wiliot-api]: Timeout reached during download
+[2024-04-05 07:17:19] INFO root fetch - processPackages [wiliot-api]: executing diffoscope
+[2024-04-05 07:17:19] INFO root fetch - processPackages [wiliot-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wiliot-api-4.7.1.tar.gz tmp/wiliot-api-4.8.0.tar.gz --markdown 20240405/w/wiliot-api/4.7.1-4.8.0/diff.md --exclude *.pyd
+[2024-04-05 07:17:19] INFO root fetch - processPackages [bitefix]: Downloading https://files.pythonhosted.org/packages/32/22/437447ba0bb6c2e90e741ec83df0697801352a1057e10458fac1ef6ece0d/bitefix-1.0.0.tar.gz
+[2024-04-05 07:17:19] WARNING root fetch - processPackages [bitefix]: Timeout reached during download
+[2024-04-05 07:17:19] INFO root fetch - processPackages [bitefix]: executing diffoscope
+[2024-04-05 07:17:19] INFO root fetch - processPackages [bitefix]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bitefix-0.2.1.tar.gz tmp/bitefix-1.0.0.tar.gz --markdown 20240405/b/bitefix/0.2.1-1.0.0/diff.md --exclude *.pyd
+[2024-04-05 07:17:20] INFO root fetch - processPackages [bitefix]: Remove: archive file [/home/abi/fetcher/tmp/bitefix-0.2.1.tar.gz]
+[2024-04-05 07:17:20] INFO root fetch - processPackages [bitefix]: Remove: archive file [/home/abi/fetcher/tmp/bitefix-1.0.0.tar.gz]
+[2024-04-05 07:17:20] INFO root fetch - main [MainThread]: End processing [bitefix]: success
+[2024-04-05 07:17:20] INFO root fetch - processPackages [wiliot-api]: Remove: archive file [/home/abi/fetcher/tmp/wiliot-api-4.7.1.tar.gz]
+[2024-04-05 07:17:20] INFO root fetch - processPackages [wiliot-api]: Remove: archive file [/home/abi/fetcher/tmp/wiliot-api-4.8.0.tar.gz]
+[2024-04-05 07:17:20] INFO root fetch - main [MainThread]: End processing [wiliot-api]: success
+[2024-04-05 07:17:20] INFO root fetch - processPackages [spark-batch]: Remove: archive file [/home/abi/fetcher/tmp/spark_batch-2.5-py3-none-any.whl.zip]
+[2024-04-05 07:17:20] INFO root fetch - processPackages [spark-batch]: Remove: archive file [/home/abi/fetcher/tmp/spark_batch-2.6-py3-none-any.whl.zip]
+[2024-04-05 07:17:20] INFO root fetch - main [MainThread]: End processing [spark-batch]: success
+[2024-04-05 07:17:20] INFO root fetch - main [MainThread]: Store serial: [22631949]
