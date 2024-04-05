@@ -24638,3 +24638,61 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2024-04-05 15:40:18] INFO root fetch - processPackages [bluepyemodel]: Remove: archive file [/home/abi/fetcher/tmp/bluepyemodel-0.0.99.tar.gz]
 [2024-04-05 15:40:18] INFO root fetch - main [MainThread]: End processing [bluepyemodel]: success
 [2024-04-05 15:40:18] INFO root fetch - main [MainThread]: Store serial: [22636808]
+[2024-04-05 15:42:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22636808]
+[2024-04-05 15:42:27] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-05 15:42:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: accelerate
+[2024-04-05 15:42:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: flash-rwkv
+[2024-04-05 15:42:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dpack
+[2024-04-05 15:42:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: aTeam-PySparkLibrary
+[2024-04-05 15:42:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mal-petting-zoo-simulator
+[2024-04-05 15:42:27] INFO root fetch - processPackages [flash-rwkv]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-04-05 15:42:27] INFO root fetch - processPackages [flash-rwkv]: Downloading https://files.pythonhosted.org/packages/15/7e/852c6e6b53295ed95369a38aa07375dd5380b87ded0e6877cdb09257a5f5/flash_rwkv-0.1.1-py3-none-any.whl
+[2024-04-05 15:42:27] INFO root fetch - processPackages [aTeam-PySparkLibrary]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-05 15:42:27] INFO root fetch - processPackages [dpack]: New version: [0.4.2] Old Version: [0.4.1]
+[2024-04-05 15:42:27] INFO root fetch - processPackages [mal-petting-zoo-simulator]: New version: [0.0.6] Old Version: [0.0.5]
+[2024-04-05 15:42:27] INFO root fetch - processPackages [accelerate]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-04-05 15:42:27] WARNING root fetch - processPackages [flash-rwkv]: Timeout reached during download
+[2024-04-05 15:42:28] INFO root fetch - processPackages [dpack]: Downloading https://files.pythonhosted.org/packages/2c/9f/20bf44d21727739b089846d711d73a4357a456a9a7949c383d316e0e6f73/dpack-0.4.1-py3-none-any.whl
+[2024-04-05 15:42:28] INFO root fetch - processPackages [aTeam-PySparkLibrary]: Downloading https://files.pythonhosted.org/packages/a2/2e/1d6481b8487316b5ef587bec1a35494da504ddd8b889542a6a0f2df01410/ateam_pysparklibrary-0.0.8.tar.gz
+[2024-04-05 15:42:28] INFO root fetch - processPackages [accelerate]: Downloading https://files.pythonhosted.org/packages/bc/0c/b15698994f6090e5ef2e4572a90ad90a4a0d79b1670335aa4dda9ff1a338/accelerate-0.8.0.tar.gz
+[2024-04-05 15:42:28] INFO root fetch - processPackages [flash-rwkv]: Downloading https://files.pythonhosted.org/packages/b1/5f/28da43c056fc25bfd85461d7c865645736a2b8824ad397b88fc81262cc33/flash_rwkv-0.1.2-py3-none-any.whl
+[2024-04-05 15:42:28] WARNING root fetch - processPackages [dpack]: Timeout reached during download
+[2024-04-05 15:42:28] WARNING root fetch - processPackages [flash-rwkv]: Timeout reached during download
+[2024-04-05 15:42:28] INFO root fetch - processPackages [flash-rwkv]: executing diffoscope
+[2024-04-05 15:42:28] INFO root fetch - processPackages [flash-rwkv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flash_rwkv-0.1.1-py3-none-any.whl.zip tmp/flash_rwkv-0.1.2-py3-none-any.whl.zip --markdown 20240405/f/flash-rwkv/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2024-04-05 15:42:28] WARNING root fetch - processPackages [aTeam-PySparkLibrary]: Timeout reached during download
+[2024-04-05 15:42:28] INFO root fetch - processPackages [mal-petting-zoo-simulator]: Downloading https://files.pythonhosted.org/packages/32/12/864f8b02c3513a210b2e8bbcb924dae2d5ef45200e7eb4eb67e9b69740c6/mal-petting-zoo-simulator-0.0.5.tar.gz
+[2024-04-05 15:42:28] WARNING root fetch - processPackages [accelerate]: Timeout reached during download
+[2024-04-05 15:42:28] INFO root fetch - processPackages [dpack]: Downloading https://files.pythonhosted.org/packages/f2/9a/45d12e3115667f99c6480b56b1c6f6910994df28a85846c6691b30db9fc8/dpack-0.4.2-py3-none-any.whl
+[2024-04-05 15:42:28] WARNING root fetch - processPackages [mal-petting-zoo-simulator]: Timeout reached during download
+[2024-04-05 15:42:28] WARNING root fetch - processPackages [dpack]: Timeout reached during download
+[2024-04-05 15:42:28] INFO root fetch - processPackages [dpack]: executing diffoscope
+[2024-04-05 15:42:28] INFO root fetch - processPackages [dpack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dpack-0.4.1-py3-none-any.whl.zip tmp/dpack-0.4.2-py3-none-any.whl.zip --markdown 20240405/d/dpack/0.4.1-0.4.2/diff.md --exclude *.pyd
+[2024-04-05 15:42:28] INFO root fetch - processPackages [aTeam-PySparkLibrary]: Downloading https://files.pythonhosted.org/packages/e9/d2/aeddb456bd2964ac5d6053e8d9bb51e4a330281981e77a00dad7238f2061/ateam_pysparklibrary-0.0.9.tar.gz
+[2024-04-05 15:42:28] INFO root fetch - processPackages [accelerate]: Downloading https://files.pythonhosted.org/packages/a3/23/0b0885e159ead2ec3b774096dab93476ef0d76cb314fd1bba5c2b8e29fa0/accelerate-0.9.0.tar.gz
+[2024-04-05 15:42:28] WARNING root fetch - processPackages [accelerate]: Timeout reached during download
+[2024-04-05 15:42:28] INFO root fetch - processPackages [accelerate]: executing diffoscope
+[2024-04-05 15:42:28] INFO root fetch - processPackages [accelerate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/accelerate-0.8.0.tar.gz tmp/accelerate-0.9.0.tar.gz --markdown 20240405/a/accelerate/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2024-04-05 15:42:28] INFO root fetch - processPackages [mal-petting-zoo-simulator]: Downloading https://files.pythonhosted.org/packages/0b/45/5ee20897cbc92d60da21744db22678f99d4333a4f4f8c1717dd39eb23aca/mal-petting-zoo-simulator-0.0.6.tar.gz
+[2024-04-05 15:42:28] WARNING root fetch - processPackages [aTeam-PySparkLibrary]: Timeout reached during download
+[2024-04-05 15:42:28] INFO root fetch - processPackages [aTeam-PySparkLibrary]: executing diffoscope
+[2024-04-05 15:42:28] INFO root fetch - processPackages [aTeam-PySparkLibrary]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ateam_pysparklibrary-0.0.8.tar.gz tmp/ateam_pysparklibrary-0.0.9.tar.gz --markdown 20240405/a/aTeam-PySparkLibrary/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2024-04-05 15:42:28] WARNING root fetch - processPackages [mal-petting-zoo-simulator]: Timeout reached during download
+[2024-04-05 15:42:28] INFO root fetch - processPackages [mal-petting-zoo-simulator]: executing diffoscope
+[2024-04-05 15:42:28] INFO root fetch - processPackages [mal-petting-zoo-simulator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mal-petting-zoo-simulator-0.0.5.tar.gz tmp/mal-petting-zoo-simulator-0.0.6.tar.gz --markdown 20240405/m/mal-petting-zoo-simulator/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2024-04-05 15:42:28] INFO root fetch - processPackages [flash-rwkv]: Remove: archive file [/home/abi/fetcher/tmp/flash_rwkv-0.1.1-py3-none-any.whl.zip]
+[2024-04-05 15:42:28] INFO root fetch - processPackages [flash-rwkv]: Remove: archive file [/home/abi/fetcher/tmp/flash_rwkv-0.1.2-py3-none-any.whl.zip]
+[2024-04-05 15:42:28] INFO root fetch - main [MainThread]: End processing [flash-rwkv]: success
+[2024-04-05 15:42:29] INFO root fetch - processPackages [dpack]: Remove: archive file [/home/abi/fetcher/tmp/dpack-0.4.1-py3-none-any.whl.zip]
+[2024-04-05 15:42:29] INFO root fetch - processPackages [dpack]: Remove: archive file [/home/abi/fetcher/tmp/dpack-0.4.2-py3-none-any.whl.zip]
+[2024-04-05 15:42:29] INFO root fetch - main [MainThread]: End processing [dpack]: success
+[2024-04-05 15:42:29] INFO root fetch - processPackages [mal-petting-zoo-simulator]: Remove: archive file [/home/abi/fetcher/tmp/mal-petting-zoo-simulator-0.0.5.tar.gz]
+[2024-04-05 15:42:29] INFO root fetch - processPackages [mal-petting-zoo-simulator]: Remove: archive file [/home/abi/fetcher/tmp/mal-petting-zoo-simulator-0.0.6.tar.gz]
+[2024-04-05 15:42:29] INFO root fetch - main [MainThread]: End processing [mal-petting-zoo-simulator]: success
+[2024-04-05 15:42:29] INFO root fetch - processPackages [aTeam-PySparkLibrary]: Remove: archive file [/home/abi/fetcher/tmp/ateam_pysparklibrary-0.0.8.tar.gz]
+[2024-04-05 15:42:29] INFO root fetch - processPackages [aTeam-PySparkLibrary]: Remove: archive file [/home/abi/fetcher/tmp/ateam_pysparklibrary-0.0.9.tar.gz]
+[2024-04-05 15:42:29] INFO root fetch - main [MainThread]: End processing [aTeam-PySparkLibrary]: success
+[2024-04-05 15:42:29] INFO root fetch - processPackages [accelerate]: Remove: archive file [/home/abi/fetcher/tmp/accelerate-0.8.0.tar.gz]
+[2024-04-05 15:42:29] INFO root fetch - processPackages [accelerate]: Remove: archive file [/home/abi/fetcher/tmp/accelerate-0.9.0.tar.gz]
+[2024-04-05 15:42:29] INFO root fetch - main [MainThread]: End processing [accelerate]: success
+[2024-04-05 15:42:29] INFO root fetch - main [MainThread]: Store serial: [22636821]
