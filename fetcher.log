@@ -10529,3 +10529,72 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2024-04-05 05:29:46] INFO root fetch - processPackages [keras-nlp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/keras-nlp-nightly-0.9.0.dev2024040503.tar.gz]
 [2024-04-05 05:29:46] INFO root fetch - main [MainThread]: End processing [keras-nlp-nightly]: success
 [2024-04-05 05:29:46] INFO root fetch - main [MainThread]: Store serial: [22631465]
+[2024-04-05 05:31:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22631465]
+[2024-04-05 05:31:55] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-05 05:31:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ploomber-cloud
+[2024-04-05 05:31:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: litellm
+[2024-04-05 05:31:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: advcalc
+[2024-04-05 05:31:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: swpclib
+[2024-04-05 05:31:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo-addon-base-phone
+[2024-04-05 05:31:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: monsgrams
+[2024-04-05 05:31:56] INFO root fetch - processPackages [ploomber-cloud]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-05 05:31:56] INFO root fetch - processPackages [advcalc]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-05 05:31:56] INFO root fetch - processPackages [monsgrams]: New version: [0.8] Old Version: [0.7]
+[2024-04-05 05:31:56] INFO root fetch - processPackages [litellm]: New version: [1.9.dev0] Old Version: [1.9.5]
+[2024-04-05 05:31:56] INFO root fetch - processPackages [swpclib]: New version: [4.1.3] Old Version: [4.1.0]
+[2024-04-05 05:31:56] INFO root fetch - processPackages [odoo-addon-base-phone]: New version: [17.0.1.0.0.3] Old Version: [17.0.1.0.0.2]
+[2024-04-05 05:31:56] INFO root fetch - processPackages [ploomber-cloud]: Downloading https://files.pythonhosted.org/packages/09/b7/440dcb1a0920e2be01c8f414f613165ff78c6816833a687736a9dc9162b1/ploomber-cloud-0.1.8.tar.gz
+[2024-04-05 05:31:56] INFO root fetch - processPackages [monsgrams]: Downloading https://files.pythonhosted.org/packages/e1/d0/01cedb980d6c66ddb789f85c2273925ed47f3fce4bed3ce491aa66832c18/monsgrams-0.7.tar.gz
+[2024-04-05 05:31:56] INFO root fetch - processPackages [litellm]: Downloading https://files.pythonhosted.org/packages/38/f3/1cbeaf4074e7b284cd140263ff165948d8f4cc8f5dd72c89be43a0469387/litellm-1.9.5.tar.gz
+[2024-04-05 05:31:56] INFO root fetch - processPackages [advcalc]: Downloading https://files.pythonhosted.org/packages/d9/6e/316aca0f21b5de88d6aeac15d0f3a3f855de0c867e8266acfcd346b723ff/advcalc-0.0.8.tar.gz
+[2024-04-05 05:31:56] WARNING root fetch - processPackages [ploomber-cloud]: Timeout reached during download
+[2024-04-05 05:31:56] WARNING root fetch - processPackages [monsgrams]: Timeout reached during download
+[2024-04-05 05:31:56] INFO root fetch - processPackages [swpclib]: Downloading https://files.pythonhosted.org/packages/49/fd/a79083016471479c59a568b4de7718173c8687ac8521d2a84c5bc43994aa/swpclib-4.1.0.tar.gz
+[2024-04-05 05:31:56] INFO root fetch - processPackages [ploomber-cloud]: Downloading https://files.pythonhosted.org/packages/e6/f8/f4451ff0cb54c012c89da5286d33c3f73ca21e606814f7366bd6cda4738a/ploomber-cloud-0.1.9.tar.gz
+[2024-04-05 05:31:56] INFO root fetch - processPackages [odoo-addon-base-phone]: Downloading https://files.pythonhosted.org/packages/94/19/61e3606918b7b8184ad33bff7c4182be347dcf2fd48e2780f04a6a0724ba/odoo_addon_base_phone-17.0.1.0.0.2-py3-none-any.whl
+[2024-04-05 05:31:56] WARNING root fetch - processPackages [advcalc]: Timeout reached during download
+[2024-04-05 05:31:56] WARNING root fetch - processPackages [litellm]: Timeout reached during download
+[2024-04-05 05:31:56] WARNING root fetch - processPackages [ploomber-cloud]: Timeout reached during download
+[2024-04-05 05:31:56] INFO root fetch - processPackages [ploomber-cloud]: executing diffoscope
+[2024-04-05 05:31:56] INFO root fetch - processPackages [ploomber-cloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ploomber-cloud-0.1.8.tar.gz tmp/ploomber-cloud-0.1.9.tar.gz --markdown 20240405/p/ploomber-cloud/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2024-04-05 05:31:56] INFO root fetch - processPackages [monsgrams]: Downloading https://files.pythonhosted.org/packages/92/5a/9a4d511f050069363f97e0a607c34ad908d832fc31b3d0a904e3952ed15e/monsgrams-0.8.tar.gz
+[2024-04-05 05:31:56] INFO root fetch - processPackages [litellm]: Downloading https://files.pythonhosted.org/packages/ad/6c/162b83e9cf68f5a94c30153e835414c3ee11c8602ffaacc9a032851dfa26/litellm-1.9.dev0.tar.gz
+[2024-04-05 05:31:56] WARNING root fetch - processPackages [odoo-addon-base-phone]: Timeout reached during download
+[2024-04-05 05:31:56] INFO root fetch - processPackages [advcalc]: Downloading https://files.pythonhosted.org/packages/0c/b7/8b5d0648f4ddcc7c25f73da3db5c59b40690b68bda9294f3fef7a2a5b049/advcalc-0.0.9.tar.gz
+[2024-04-05 05:31:56] WARNING root fetch - processPackages [swpclib]: Timeout reached during download
+[2024-04-05 05:31:56] WARNING root fetch - processPackages [monsgrams]: Timeout reached during download
+[2024-04-05 05:31:56] INFO root fetch - processPackages [monsgrams]: executing diffoscope
+[2024-04-05 05:31:56] INFO root fetch - processPackages [monsgrams]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/monsgrams-0.7.tar.gz tmp/monsgrams-0.8.tar.gz --markdown 20240405/m/monsgrams/0.7-0.8/diff.md --exclude *.pyd
+[2024-04-05 05:31:56] INFO root fetch - processPackages [odoo-addon-base-phone]: Downloading https://files.pythonhosted.org/packages/35/b0/4c846bf37a24a07f5cee12850ea900f47336d7acdd0a28aae94bdca48ce1/odoo_addon_base_phone-17.0.1.0.0.3-py3-none-any.whl
+[2024-04-05 05:31:56] WARNING root fetch - processPackages [advcalc]: Timeout reached during download
+[2024-04-05 05:31:56] INFO root fetch - processPackages [advcalc]: executing diffoscope
+[2024-04-05 05:31:56] INFO root fetch - processPackages [advcalc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/advcalc-0.0.8.tar.gz tmp/advcalc-0.0.9.tar.gz --markdown 20240405/a/advcalc/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2024-04-05 05:31:56] WARNING root fetch - processPackages [litellm]: Timeout reached during download
+[2024-04-05 05:31:56] INFO root fetch - processPackages [litellm]: executing diffoscope
+[2024-04-05 05:31:56] INFO root fetch - processPackages [litellm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/litellm-1.9.5.tar.gz tmp/litellm-1.9.dev0.tar.gz --markdown 20240405/l/litellm/1.9.5-1.9.dev0/diff.md --exclude *.pyd
+[2024-04-05 05:31:56] INFO root fetch - processPackages [swpclib]: Downloading https://files.pythonhosted.org/packages/74/d9/129e86afddeeee85d975b3abea2e1c15ac91633b670db377b9c6f1ff5f66/swpclib-4.1.3.tar.gz
+[2024-04-05 05:31:56] WARNING root fetch - processPackages [odoo-addon-base-phone]: Timeout reached during download
+[2024-04-05 05:31:56] INFO root fetch - processPackages [odoo-addon-base-phone]: executing diffoscope
+[2024-04-05 05:31:56] INFO root fetch - processPackages [odoo-addon-base-phone]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_base_phone-17.0.1.0.0.2-py3-none-any.whl.zip tmp/odoo_addon_base_phone-17.0.1.0.0.3-py3-none-any.whl.zip --markdown 20240405/o/odoo-addon-base-phone/17.0.1.0.0.2-17.0.1.0.0.3/diff.md --exclude *.pyd
+[2024-04-05 05:31:57] WARNING root fetch - processPackages [swpclib]: Timeout reached during download
+[2024-04-05 05:31:57] INFO root fetch - processPackages [swpclib]: executing diffoscope
+[2024-04-05 05:31:57] INFO root fetch - processPackages [swpclib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/swpclib-4.1.0.tar.gz tmp/swpclib-4.1.3.tar.gz --markdown 20240405/s/swpclib/4.1.0-4.1.3/diff.md --exclude *.pyd
+[2024-04-05 05:31:57] INFO root fetch - processPackages [ploomber-cloud]: Remove: archive file [/home/abi/fetcher/tmp/ploomber-cloud-0.1.8.tar.gz]
+[2024-04-05 05:31:57] INFO root fetch - processPackages [ploomber-cloud]: Remove: archive file [/home/abi/fetcher/tmp/ploomber-cloud-0.1.9.tar.gz]
+[2024-04-05 05:31:57] INFO root fetch - main [MainThread]: End processing [ploomber-cloud]: success
+[2024-04-05 05:31:57] INFO root fetch - processPackages [monsgrams]: Remove: archive file [/home/abi/fetcher/tmp/monsgrams-0.7.tar.gz]
+[2024-04-05 05:31:57] INFO root fetch - processPackages [monsgrams]: Remove: archive file [/home/abi/fetcher/tmp/monsgrams-0.8.tar.gz]
+[2024-04-05 05:31:57] INFO root fetch - main [MainThread]: End processing [monsgrams]: success
+[2024-04-05 05:31:57] INFO root fetch - processPackages [advcalc]: Remove: archive file [/home/abi/fetcher/tmp/advcalc-0.0.8.tar.gz]
+[2024-04-05 05:31:57] INFO root fetch - processPackages [advcalc]: Remove: archive file [/home/abi/fetcher/tmp/advcalc-0.0.9.tar.gz]
+[2024-04-05 05:31:57] INFO root fetch - main [MainThread]: End processing [advcalc]: success
+[2024-04-05 05:31:57] INFO root fetch - processPackages [swpclib]: Remove: archive file [/home/abi/fetcher/tmp/swpclib-4.1.0.tar.gz]
+[2024-04-05 05:31:57] INFO root fetch - processPackages [swpclib]: Remove: archive file [/home/abi/fetcher/tmp/swpclib-4.1.3.tar.gz]
+[2024-04-05 05:31:57] INFO root fetch - main [MainThread]: End processing [swpclib]: success
+[2024-04-05 05:31:57] INFO root fetch - processPackages [odoo-addon-base-phone]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_base_phone-17.0.1.0.0.2-py3-none-any.whl.zip]
+[2024-04-05 05:31:57] INFO root fetch - processPackages [odoo-addon-base-phone]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_base_phone-17.0.1.0.0.3-py3-none-any.whl.zip]
+[2024-04-05 05:31:57] INFO root fetch - main [MainThread]: End processing [odoo-addon-base-phone]: success
+[2024-04-05 05:31:58] INFO root fetch - processPackages [litellm]: Remove: archive file [/home/abi/fetcher/tmp/litellm-1.9.5.tar.gz]
+[2024-04-05 05:31:58] INFO root fetch - processPackages [litellm]: Remove: archive file [/home/abi/fetcher/tmp/litellm-1.9.dev0.tar.gz]
+[2024-04-05 05:31:58] INFO root fetch - main [MainThread]: End processing [litellm]: success
+[2024-04-05 05:31:58] INFO root fetch - main [MainThread]: Store serial: [22631481]
