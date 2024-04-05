@@ -11768,3 +11768,19 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2024-04-05 06:46:38] INFO root fetch - processPackages [volstreet]: Remove: archive file [/home/abi/fetcher/tmp/volstreet-7.0.1.tar.gz]
 [2024-04-05 06:46:38] INFO root fetch - main [MainThread]: End processing [volstreet]: success
 [2024-04-05 06:46:38] INFO root fetch - main [MainThread]: Store serial: [22631794]
+[2024-04-05 06:48:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22631794]
+[2024-04-05 06:48:47] INFO root fetch - main [MainThread]: No changed packages found
+[2024-04-05 06:50:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22631796]
+[2024-04-05 06:50:53] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-04-05 06:50:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: openparse
+[2024-04-05 06:50:53] INFO root fetch - processPackages [openparse]: New version: [0.4.0] Old Version: [0.3.1]
+[2024-04-05 06:50:53] INFO root fetch - processPackages [openparse]: Downloading https://files.pythonhosted.org/packages/6d/78/ec977d59c1fccde34607c65dc03d105daa69812481a20ec0cac31fee0dfe/openparse-0.3.1.tar.gz
+[2024-04-05 06:50:53] WARNING root fetch - processPackages [openparse]: Timeout reached during download
+[2024-04-05 06:50:53] INFO root fetch - processPackages [openparse]: Downloading https://files.pythonhosted.org/packages/3a/5d/1b911980d9e4e5a866bf35ee647ec087d5f663d2b6aa79d9e8a4f42ad050/openparse-0.4.0.tar.gz
+[2024-04-05 06:50:54] WARNING root fetch - processPackages [openparse]: Timeout reached during download
+[2024-04-05 06:50:54] INFO root fetch - processPackages [openparse]: executing diffoscope
+[2024-04-05 06:50:54] INFO root fetch - processPackages [openparse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openparse-0.3.1.tar.gz tmp/openparse-0.4.0.tar.gz --markdown 20240405/o/openparse/0.3.1-0.4.0/diff.md --exclude *.pyd
+[2024-04-05 06:50:54] INFO root fetch - processPackages [openparse]: Remove: archive file [/home/abi/fetcher/tmp/openparse-0.3.1.tar.gz]
+[2024-04-05 06:50:54] INFO root fetch - processPackages [openparse]: Remove: archive file [/home/abi/fetcher/tmp/openparse-0.4.0.tar.gz]
+[2024-04-05 06:50:54] INFO root fetch - main [MainThread]: End processing [openparse]: success
+[2024-04-05 06:50:54] INFO root fetch - main [MainThread]: Store serial: [22631799]
