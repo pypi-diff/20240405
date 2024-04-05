@@ -14791,3 +14791,83 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2024-04-05 09:26:44] INFO root fetch - processPackages [pynestor]: Remove: archive file [/home/abi/fetcher/tmp/pynestor-1.7.6.tar.gz]
 [2024-04-05 09:26:44] INFO root fetch - main [MainThread]: End processing [pynestor]: success
 [2024-04-05 09:26:44] INFO root fetch - main [MainThread]: Store serial: [22632832]
+[2024-04-05 09:28:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22632832]
+[2024-04-05 09:28:53] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-05 09:28:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: fzf-bin
+[2024-04-05 09:28:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo13-addon-shopfloor
+[2024-04-05 09:28:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: aioinject
+[2024-04-05 09:28:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo-addon-stock-available-to-promise-release
+[2024-04-05 09:28:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo14-addon-shopfloor
+[2024-04-05 09:28:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo-addon-stock-release-channel-process-end-time
+[2024-04-05 09:28:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ya360
+[2024-04-05 09:28:53] INFO root fetch - processPackages [odoo-addon-stock-release-channel-process-end-time]: New version: [16.0.1.7.0] Old Version: [16.0.1.6.0]
+[2024-04-05 09:28:53] INFO root fetch - processPackages [odoo-addon-stock-available-to-promise-release]: New version: [16.0.3.1.0.5] Old Version: [16.0.3.1.0.3]
+[2024-04-05 09:28:53] INFO root fetch - processPackages [fzf-bin]: New version: [0.49.0] Old Version: [0.48.1]
+[2024-04-05 09:28:53] INFO root fetch - processPackages [odoo13-addon-shopfloor]: New version: [13.0.4.9.0] Old Version: [13.0.4.8.1.dev1]
+[2024-04-05 09:28:53] INFO root fetch - processPackages [aioinject]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-04-05 09:28:53] INFO root fetch - processPackages [odoo14-addon-shopfloor]: New version: [14.0.4.9.1.dev3] Old Version: [14.0.4.9.0]
+[2024-04-05 09:28:53] INFO root fetch - processPackages [ya360]: New version: [3.6.0] Old Version: [3.5.0]
+[2024-04-05 09:28:53] INFO root fetch - processPackages [odoo-addon-stock-release-channel-process-end-time]: Downloading https://files.pythonhosted.org/packages/0d/d3/0b039dda643708bb722fef90a95a2920e17823fc9998f0e4bb0845dd6685/odoo_addon_stock_release_channel_process_end_time-16.0.1.6.0-py3-none-any.whl
+[2024-04-05 09:28:53] INFO root fetch - processPackages [fzf-bin]: Downloading https://files.pythonhosted.org/packages/27/8f/51762997d8b772667cbdaee1f551835cdfde48d771fca90c767c6a385d8e/fzf_bin-0.48.1.tar.gz
+[2024-04-05 09:28:53] INFO root fetch - processPackages [odoo13-addon-shopfloor]: Downloading https://files.pythonhosted.org/packages/bf/d7/285302e377afd067e9f3de6b2fdb863f08dcb9797d21a378d2b43054c88a/odoo13_addon_shopfloor-13.0.4.8.1.dev1-py3-none-any.whl
+[2024-04-05 09:28:53] INFO root fetch - processPackages [odoo-addon-stock-available-to-promise-release]: Downloading https://files.pythonhosted.org/packages/b4/d5/c3a9e83b0479075e1a135997a96cc05f30a9c65b63cb02cd3436f1130baf/odoo_addon_stock_available_to_promise_release-16.0.3.1.0.3-py3-none-any.whl
+[2024-04-05 09:28:53] INFO root fetch - processPackages [aioinject]: Downloading https://files.pythonhosted.org/packages/75/fd/43a4582b58a0c8e2515234436f79915a93b6d0e6eeedae9aff0a8f2ebb96/aioinject-0.9.0.tar.gz
+[2024-04-05 09:28:53] WARNING root fetch - processPackages [odoo-addon-stock-release-channel-process-end-time]: Timeout reached during download
+[2024-04-05 09:28:53] INFO root fetch - processPackages [ya360]: Downloading https://files.pythonhosted.org/packages/d7/af/8666fffec17420be70c5f55b7582e115d0d6e02b2e527ca1eb4f55ee1b07/ya360-3.5.0.tar.gz
+[2024-04-05 09:28:53] INFO root fetch - processPackages [odoo14-addon-shopfloor]: Downloading https://files.pythonhosted.org/packages/36/46/77c34338bb4ff8ad81427a6a096765b30072d313f47ec4884180d1cea259/odoo14_addon_shopfloor-14.0.4.9.0-py3-none-any.whl
+[2024-04-05 09:28:53] WARNING root fetch - processPackages [odoo-addon-stock-available-to-promise-release]: Timeout reached during download
+[2024-04-05 09:28:53] INFO root fetch - processPackages [odoo-addon-stock-release-channel-process-end-time]: Downloading https://files.pythonhosted.org/packages/a1/ae/fab6279633fd3593f5f435bd49ede3c838cafe401a2ce6142269a35455ec/odoo_addon_stock_release_channel_process_end_time-16.0.1.7.0-py3-none-any.whl
+[2024-04-05 09:28:53] WARNING root fetch - processPackages [aioinject]: Timeout reached during download
+[2024-04-05 09:28:53] WARNING root fetch - processPackages [odoo13-addon-shopfloor]: Timeout reached during download
+[2024-04-05 09:28:53] WARNING root fetch - processPackages [ya360]: Timeout reached during download
+[2024-04-05 09:28:53] WARNING root fetch - processPackages [fzf-bin]: Timeout reached during download
+[2024-04-05 09:28:54] INFO root fetch - processPackages [odoo-addon-stock-available-to-promise-release]: Downloading https://files.pythonhosted.org/packages/2d/05/894019f371c7c80e75ba7dafe742c1f84923555fbcc3fc516c929e64d8a6/odoo_addon_stock_available_to_promise_release-16.0.3.1.0.5-py3-none-any.whl
+[2024-04-05 09:28:54] INFO root fetch - processPackages [aioinject]: Downloading https://files.pythonhosted.org/packages/93/b0/756793f9dc8bab62d03ae5ccd2a6c4c59136f36666c07ccd96d6f6c3d001/aioinject-0.9.1.tar.gz
+[2024-04-05 09:28:54] WARNING root fetch - processPackages [odoo14-addon-shopfloor]: Timeout reached during download
+[2024-04-05 09:28:54] WARNING root fetch - processPackages [odoo-addon-stock-release-channel-process-end-time]: Timeout reached during download
+[2024-04-05 09:28:54] INFO root fetch - processPackages [odoo-addon-stock-release-channel-process-end-time]: executing diffoscope
+[2024-04-05 09:28:54] INFO root fetch - processPackages [odoo-addon-stock-release-channel-process-end-time]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_stock_release_channel_process_end_time-16.0.1.6.0-py3-none-any.whl.zip tmp/odoo_addon_stock_release_channel_process_end_time-16.0.1.7.0-py3-none-any.whl.zip --markdown 20240405/o/odoo-addon-stock-release-channel-process-end-time/16.0.1.6.0-16.0.1.7.0/diff.md --exclude *.pyd
+[2024-04-05 09:28:54] INFO root fetch - processPackages [odoo13-addon-shopfloor]: Downloading https://files.pythonhosted.org/packages/3e/f6/dc7cd67787cfbea164c8c653cc3d9c6e9e75b04d04541cae024986f2e05c/odoo13_addon_shopfloor-13.0.4.9.0-py3-none-any.whl
+[2024-04-05 09:28:54] INFO root fetch - processPackages [fzf-bin]: Downloading https://files.pythonhosted.org/packages/3f/46/09cd71c6a068da4a61a120b973d299c24ae602f1f50338214a1885c4ec23/fzf_bin-0.49.0.tar.gz
+[2024-04-05 09:28:54] INFO root fetch - processPackages [ya360]: Downloading https://files.pythonhosted.org/packages/7d/b4/a3d4bf5e03cc77ae12398b6932c6d1a08d8564845040012dc8c4233880e1/ya360-3.6.0.tar.gz
+[2024-04-05 09:28:54] WARNING root fetch - processPackages [aioinject]: Timeout reached during download
+[2024-04-05 09:28:54] INFO root fetch - processPackages [aioinject]: executing diffoscope
+[2024-04-05 09:28:54] INFO root fetch - processPackages [aioinject]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aioinject-0.9.0.tar.gz tmp/aioinject-0.9.1.tar.gz --markdown 20240405/a/aioinject/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2024-04-05 09:28:54] WARNING root fetch - processPackages [odoo-addon-stock-available-to-promise-release]: Timeout reached during download
+[2024-04-05 09:28:54] INFO root fetch - processPackages [odoo-addon-stock-available-to-promise-release]: executing diffoscope
+[2024-04-05 09:28:54] INFO root fetch - processPackages [odoo-addon-stock-available-to-promise-release]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_stock_available_to_promise_release-16.0.3.1.0.3-py3-none-any.whl.zip tmp/odoo_addon_stock_available_to_promise_release-16.0.3.1.0.5-py3-none-any.whl.zip --markdown 20240405/o/odoo-addon-stock-available-to-promise-release/16.0.3.1.0.3-16.0.3.1.0.5/diff.md --exclude *.pyd
+[2024-04-05 09:28:54] INFO root fetch - processPackages [odoo14-addon-shopfloor]: Downloading https://files.pythonhosted.org/packages/05/80/64e500b5f8865fb59acbee60e882e3935916e24b56659ea9580eb6e2440a/odoo14_addon_shopfloor-14.0.4.9.1.dev3-py3-none-any.whl
+[2024-04-05 09:28:54] WARNING root fetch - processPackages [fzf-bin]: Timeout reached during download
+[2024-04-05 09:28:54] INFO root fetch - processPackages [fzf-bin]: executing diffoscope
+[2024-04-05 09:28:54] INFO root fetch - processPackages [fzf-bin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fzf_bin-0.48.1.tar.gz tmp/fzf_bin-0.49.0.tar.gz --markdown 20240405/f/fzf-bin/0.48.1-0.49.0/diff.md --exclude *.pyd
+[2024-04-05 09:28:54] WARNING root fetch - processPackages [odoo13-addon-shopfloor]: Timeout reached during download
+[2024-04-05 09:28:54] INFO root fetch - processPackages [odoo13-addon-shopfloor]: executing diffoscope
+[2024-04-05 09:28:54] INFO root fetch - processPackages [odoo13-addon-shopfloor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo13_addon_shopfloor-13.0.4.8.1.dev1-py3-none-any.whl.zip tmp/odoo13_addon_shopfloor-13.0.4.9.0-py3-none-any.whl.zip --markdown 20240405/o/odoo13-addon-shopfloor/13.0.4.8.1.dev1-13.0.4.9.0/diff.md --exclude *.pyd
+[2024-04-05 09:28:54] WARNING root fetch - processPackages [ya360]: Timeout reached during download
+[2024-04-05 09:28:54] INFO root fetch - processPackages [ya360]: executing diffoscope
+[2024-04-05 09:28:54] INFO root fetch - processPackages [ya360]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ya360-3.5.0.tar.gz tmp/ya360-3.6.0.tar.gz --markdown 20240405/y/ya360/3.5.0-3.6.0/diff.md --exclude *.pyd
+[2024-04-05 09:28:54] WARNING root fetch - processPackages [odoo14-addon-shopfloor]: Timeout reached during download
+[2024-04-05 09:28:54] INFO root fetch - processPackages [odoo14-addon-shopfloor]: executing diffoscope
+[2024-04-05 09:28:54] INFO root fetch - processPackages [odoo14-addon-shopfloor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_shopfloor-14.0.4.9.0-py3-none-any.whl.zip tmp/odoo14_addon_shopfloor-14.0.4.9.1.dev3-py3-none-any.whl.zip --markdown 20240405/o/odoo14-addon-shopfloor/14.0.4.9.0-14.0.4.9.1.dev3/diff.md --exclude *.pyd
+[2024-04-05 09:28:54] INFO root fetch - processPackages [odoo-addon-stock-release-channel-process-end-time]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_stock_release_channel_process_end_time-16.0.1.6.0-py3-none-any.whl.zip]
+[2024-04-05 09:28:54] INFO root fetch - processPackages [odoo-addon-stock-release-channel-process-end-time]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_stock_release_channel_process_end_time-16.0.1.7.0-py3-none-any.whl.zip]
+[2024-04-05 09:28:54] INFO root fetch - main [MainThread]: End processing [odoo-addon-stock-release-channel-process-end-time]: success
+[2024-04-05 09:28:55] INFO root fetch - processPackages [odoo-addon-stock-available-to-promise-release]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_stock_available_to_promise_release-16.0.3.1.0.3-py3-none-any.whl.zip]
+[2024-04-05 09:28:55] INFO root fetch - processPackages [odoo-addon-stock-available-to-promise-release]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_stock_available_to_promise_release-16.0.3.1.0.5-py3-none-any.whl.zip]
+[2024-04-05 09:28:55] INFO root fetch - main [MainThread]: End processing [odoo-addon-stock-available-to-promise-release]: success
+[2024-04-05 09:28:55] INFO root fetch - processPackages [aioinject]: Remove: archive file [/home/abi/fetcher/tmp/aioinject-0.9.0.tar.gz]
+[2024-04-05 09:28:55] INFO root fetch - processPackages [aioinject]: Remove: archive file [/home/abi/fetcher/tmp/aioinject-0.9.1.tar.gz]
+[2024-04-05 09:28:55] INFO root fetch - main [MainThread]: End processing [aioinject]: success
+[2024-04-05 09:28:55] INFO root fetch - processPackages [ya360]: Remove: archive file [/home/abi/fetcher/tmp/ya360-3.5.0.tar.gz]
+[2024-04-05 09:28:55] INFO root fetch - processPackages [ya360]: Remove: archive file [/home/abi/fetcher/tmp/ya360-3.6.0.tar.gz]
+[2024-04-05 09:28:55] INFO root fetch - main [MainThread]: End processing [ya360]: success
+[2024-04-05 09:28:55] INFO root fetch - processPackages [fzf-bin]: Remove: archive file [/home/abi/fetcher/tmp/fzf_bin-0.48.1.tar.gz]
+[2024-04-05 09:28:55] INFO root fetch - processPackages [fzf-bin]: Remove: archive file [/home/abi/fetcher/tmp/fzf_bin-0.49.0.tar.gz]
+[2024-04-05 09:28:55] INFO root fetch - main [MainThread]: End processing [fzf-bin]: success
+[2024-04-05 09:28:57] INFO root fetch - processPackages [odoo14-addon-shopfloor]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_shopfloor-14.0.4.9.0-py3-none-any.whl.zip]
+[2024-04-05 09:28:57] INFO root fetch - processPackages [odoo14-addon-shopfloor]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_shopfloor-14.0.4.9.1.dev3-py3-none-any.whl.zip]
+[2024-04-05 09:28:57] INFO root fetch - main [MainThread]: End processing [odoo14-addon-shopfloor]: success
+[2024-04-05 09:28:57] INFO root fetch - processPackages [odoo13-addon-shopfloor]: Remove: archive file [/home/abi/fetcher/tmp/odoo13_addon_shopfloor-13.0.4.8.1.dev1-py3-none-any.whl.zip]
+[2024-04-05 09:28:57] INFO root fetch - processPackages [odoo13-addon-shopfloor]: Remove: archive file [/home/abi/fetcher/tmp/odoo13_addon_shopfloor-13.0.4.9.0-py3-none-any.whl.zip]
+[2024-04-05 09:28:57] INFO root fetch - main [MainThread]: End processing [odoo13-addon-shopfloor]: success
+[2024-04-05 09:28:57] INFO root fetch - main [MainThread]: Store serial: [22632855]
