@@ -21230,3 +21230,39 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2024-04-05 13:41:14] INFO root fetch - processPackages [dadmatools]: Remove: archive file [/home/abi/fetcher/tmp/dadmatools-2.0.2.tar.gz]
 [2024-04-05 13:41:14] INFO root fetch - main [MainThread]: End processing [dadmatools]: success
 [2024-04-05 13:41:14] INFO root fetch - main [MainThread]: Store serial: [22635468]
+[2024-04-05 13:43:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22635468]
+[2024-04-05 13:43:23] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-05 13:43:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sqlalchemy-flattener
+[2024-04-05 13:43:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: PyQtUIkit
+[2024-04-05 13:43:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: clinicadl
+[2024-04-05 13:43:23] INFO root fetch - processPackages [PyQtUIkit]: New version: [2.2.0] Old Version: [2.1.1]
+[2024-04-05 13:43:23] INFO root fetch - processPackages [PyQtUIkit]: Downloading https://files.pythonhosted.org/packages/68/37/edc009de282bb57b80c2841d007ce5fd3d7bf202e77e91ae799aa571cbfe/PyQtUIkit-2.1.1.tar.gz
+[2024-04-05 13:43:23] INFO root fetch - processPackages [sqlalchemy-flattener]: New version: [0.3.3] Old Version: [0.3.2]
+[2024-04-05 13:43:23] INFO root fetch - processPackages [clinicadl]: New version: [1.6.1] Old Version: [1.6.0]
+[2024-04-05 13:43:23] INFO root fetch - processPackages [sqlalchemy-flattener]: Downloading https://files.pythonhosted.org/packages/9e/62/330da6a8ed08921005ea93f5c119e3ed93ce5c7e6c3b833c4c112d5f53d9/sqlalchemy_flattener-0.3.2.tar.gz
+[2024-04-05 13:43:23] INFO root fetch - processPackages [clinicadl]: Downloading https://files.pythonhosted.org/packages/a6/0d/c138266e7d57d38960ffc343b72a2273c7aa864c22d131566b8364414a82/clinicadl-1.6.0.tar.gz
+[2024-04-05 13:43:23] WARNING root fetch - processPackages [PyQtUIkit]: Timeout reached during download
+[2024-04-05 13:43:23] WARNING root fetch - processPackages [sqlalchemy-flattener]: Timeout reached during download
+[2024-04-05 13:43:23] WARNING root fetch - processPackages [clinicadl]: Timeout reached during download
+[2024-04-05 13:43:23] INFO root fetch - processPackages [sqlalchemy-flattener]: Downloading https://files.pythonhosted.org/packages/23/88/9a23f8a1789ce3918d52fd8aad8588178dddd2eb847c04a07d3b3ad0452b/sqlalchemy_flattener-0.3.3.tar.gz
+[2024-04-05 13:43:23] INFO root fetch - processPackages [PyQtUIkit]: Downloading https://files.pythonhosted.org/packages/0b/5c/58330175d144d07992d377bb388f70cea98a05f0cfbb27e2954b534e2d45/PyQtUIkit-2.2.0.tar.gz
+[2024-04-05 13:43:23] WARNING root fetch - processPackages [sqlalchemy-flattener]: Timeout reached during download
+[2024-04-05 13:43:23] INFO root fetch - processPackages [sqlalchemy-flattener]: executing diffoscope
+[2024-04-05 13:43:23] INFO root fetch - processPackages [sqlalchemy-flattener]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqlalchemy_flattener-0.3.2.tar.gz tmp/sqlalchemy_flattener-0.3.3.tar.gz --markdown 20240405/s/sqlalchemy-flattener/0.3.2-0.3.3/diff.md --exclude *.pyd
+[2024-04-05 13:43:24] INFO root fetch - processPackages [clinicadl]: Downloading https://files.pythonhosted.org/packages/33/dc/31a01c2f0c47e748c822da45155db2b05be1d3b4f09a87df980553398ffd/clinicadl-1.6.1.tar.gz
+[2024-04-05 13:43:24] WARNING root fetch - processPackages [clinicadl]: Timeout reached during download
+[2024-04-05 13:43:24] INFO root fetch - processPackages [clinicadl]: executing diffoscope
+[2024-04-05 13:43:24] INFO root fetch - processPackages [clinicadl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clinicadl-1.6.0.tar.gz tmp/clinicadl-1.6.1.tar.gz --markdown 20240405/c/clinicadl/1.6.0-1.6.1/diff.md --exclude *.pyd
+[2024-04-05 13:43:24] WARNING root fetch - processPackages [PyQtUIkit]: Timeout reached during download
+[2024-04-05 13:43:24] INFO root fetch - processPackages [PyQtUIkit]: executing diffoscope
+[2024-04-05 13:43:24] INFO root fetch - processPackages [PyQtUIkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyQtUIkit-2.1.1.tar.gz tmp/PyQtUIkit-2.2.0.tar.gz --markdown 20240405/P/PyQtUIkit/2.1.1-2.2.0/diff.md --exclude *.pyd
+[2024-04-05 13:43:24] INFO root fetch - processPackages [sqlalchemy-flattener]: Remove: archive file [/home/abi/fetcher/tmp/sqlalchemy_flattener-0.3.2.tar.gz]
+[2024-04-05 13:43:24] INFO root fetch - processPackages [sqlalchemy-flattener]: Remove: archive file [/home/abi/fetcher/tmp/sqlalchemy_flattener-0.3.3.tar.gz]
+[2024-04-05 13:43:24] INFO root fetch - main [MainThread]: End processing [sqlalchemy-flattener]: success
+[2024-04-05 13:43:25] INFO root fetch - processPackages [PyQtUIkit]: Remove: archive file [/home/abi/fetcher/tmp/PyQtUIkit-2.1.1.tar.gz]
+[2024-04-05 13:43:25] INFO root fetch - processPackages [PyQtUIkit]: Remove: archive file [/home/abi/fetcher/tmp/PyQtUIkit-2.2.0.tar.gz]
+[2024-04-05 13:43:25] INFO root fetch - main [MainThread]: End processing [PyQtUIkit]: success
+[2024-04-05 13:43:25] INFO root fetch - processPackages [clinicadl]: Remove: archive file [/home/abi/fetcher/tmp/clinicadl-1.6.0.tar.gz]
+[2024-04-05 13:43:25] INFO root fetch - processPackages [clinicadl]: Remove: archive file [/home/abi/fetcher/tmp/clinicadl-1.6.1.tar.gz]
+[2024-04-05 13:43:25] INFO root fetch - main [MainThread]: End processing [clinicadl]: success
+[2024-04-05 13:43:25] INFO root fetch - main [MainThread]: Store serial: [22635478]
