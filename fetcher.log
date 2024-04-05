@@ -3759,3 +3759,49 @@
 [2024-04-05 02:52:24] INFO root fetch - processPackages [libbs]: Remove: archive file [/home/abi/fetcher/tmp/libbs-1.2.2.tar.gz]
 [2024-04-05 02:52:24] INFO root fetch - main [MainThread]: End processing [libbs]: success
 [2024-04-05 02:52:24] INFO root fetch - main [MainThread]: Store serial: [22629440]
+[2024-04-05 02:54:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22629440]
+[2024-04-05 02:54:34] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-05 02:54:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: whylabs-client
+[2024-04-05 02:54:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: squad
+[2024-04-05 02:54:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cdk-lambda-layer-curl
+[2024-04-05 02:54:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: marimo-labs
+[2024-04-05 02:54:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pycde
+[2024-04-05 02:54:34] WARNING root fetch - processPackages [marimo-labs]: Skipping, unable to determine old version
+[2024-04-05 02:54:34] INFO root fetch - main [MainThread]: End processing [marimo-labs] error
+[2024-04-05 02:54:34] INFO root fetch - processPackages [whylabs-client]: New version: [0.6.2] Old Version: [0.6.1]
+[2024-04-05 02:54:34] INFO root fetch - processPackages [pycde]: New version: [0.3.1.dev853] Old Version: [0.3.1.dev847]
+[2024-04-05 02:54:34] INFO root fetch - processPackages [squad]: New version: [1.9.1] Old Version: [1.9]
+[2024-04-05 02:54:34] INFO root fetch - processPackages [cdk-lambda-layer-curl]: New version: [2.0.99] Old Version: [2.0.98]
+[2024-04-05 02:54:34] INFO root fetch - processPackages [whylabs-client]: Downloading https://files.pythonhosted.org/packages/a9/90/24cf793befc79d59260bb977daf9dec0158f7d3c8baa6f8bf69d8032c0c9/whylabs-client-0.6.1.tar.gz
+[2024-04-05 02:54:34] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Downloading https://files.pythonhosted.org/packages/c8/e2/39c88cfa63f418383f3a383b2b62dfe801cbfd5c53de4d005804c19d76dc/cdk-lambda-layer-curl-2.0.98.tar.gz
+[2024-04-05 02:54:34] INFO root fetch - processPackages [pycde]: Downloading https://files.pythonhosted.org/packages/1e/2e/0e62045a5ce1088098fbe8dbfafd0e7430102382c5b69facb676848616ff/pycde-0.3.1.dev847-cp39-cp39-win_amd64.whl
+[2024-04-05 02:54:34] INFO root fetch - processPackages [squad]: Downloading https://files.pythonhosted.org/packages/e7/c5/4ebc012c8f9501e48239de63569fd702d8217ce910f3322dcbd477380846/squad-1.9.tar.gz
+[2024-04-05 02:54:34] WARNING root fetch - processPackages [whylabs-client]: Timeout reached during download
+[2024-04-05 02:54:35] INFO root fetch - processPackages [whylabs-client]: Downloading https://files.pythonhosted.org/packages/94/f4/ef4f4dfa742bcf2b83f9895e251a8412392cecc5f756400a4df5dd2da704/whylabs-client-0.6.2.tar.gz
+[2024-04-05 02:54:35] WARNING root fetch - processPackages [cdk-lambda-layer-curl]: Timeout reached during download
+[2024-04-05 02:54:35] WARNING root fetch - processPackages [whylabs-client]: Timeout reached during download
+[2024-04-05 02:54:35] INFO root fetch - processPackages [whylabs-client]: executing diffoscope
+[2024-04-05 02:54:35] INFO root fetch - processPackages [whylabs-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/whylabs-client-0.6.1.tar.gz tmp/whylabs-client-0.6.2.tar.gz --markdown 20240405/w/whylabs-client/0.6.1-0.6.2/diff.md --exclude *.pyd
+[2024-04-05 02:54:35] WARNING root fetch - processPackages [squad]: Timeout reached during download
+[2024-04-05 02:54:35] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Downloading https://files.pythonhosted.org/packages/2e/02/9e7ab6bc6191e2cbe6705c1530f695ed00527096133668b731e72d6a6445/cdk-lambda-layer-curl-2.0.99.tar.gz
+[2024-04-05 02:54:35] INFO root fetch - processPackages [squad]: Downloading https://files.pythonhosted.org/packages/a8/70/fe867bc2a05812b55449b7c1d1d096eca84a025a57fc6c8a6c82ee05d7ed/squad-1.9.1.tar.gz
+[2024-04-05 02:54:35] WARNING root fetch - processPackages [cdk-lambda-layer-curl]: Timeout reached during download
+[2024-04-05 02:54:35] INFO root fetch - processPackages [cdk-lambda-layer-curl]: executing diffoscope
+[2024-04-05 02:54:35] INFO root fetch - processPackages [cdk-lambda-layer-curl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-lambda-layer-curl-2.0.98.tar.gz tmp/cdk-lambda-layer-curl-2.0.99.tar.gz --markdown 20240405/c/cdk-lambda-layer-curl/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2024-04-05 02:54:35] WARNING root fetch - processPackages [squad]: Timeout reached during download
+[2024-04-05 02:54:35] INFO root fetch - processPackages [squad]: executing diffoscope
+[2024-04-05 02:54:35] INFO root fetch - processPackages [squad]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/squad-1.9.tar.gz tmp/squad-1.9.1.tar.gz --markdown 20240405/s/squad/1.9-1.9.1/diff.md --exclude *.pyd
+[2024-04-05 02:54:36] WARNING root fetch - processPackages [pycde]: Timeout reached during download
+[2024-04-05 02:54:36] INFO root fetch - processPackages [pycde]: Downloading https://files.pythonhosted.org/packages/51/3d/50ce0888bbd25a8f17777d62cfb73e027c0df317b2a2bc1017f8de0498ab/pycde-0.3.1.dev853-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-04-05 02:54:36] INFO root fetch - processPackages [whylabs-client]: Remove: archive file [/home/abi/fetcher/tmp/whylabs-client-0.6.1.tar.gz]
+[2024-04-05 02:54:36] INFO root fetch - processPackages [whylabs-client]: Remove: archive file [/home/abi/fetcher/tmp/whylabs-client-0.6.2.tar.gz]
+[2024-04-05 02:54:36] INFO root fetch - main [MainThread]: End processing [whylabs-client]: success
+[2024-04-05 02:54:36] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Remove: archive file [/home/abi/fetcher/tmp/cdk-lambda-layer-curl-2.0.98.tar.gz]
+[2024-04-05 02:54:36] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Remove: archive file [/home/abi/fetcher/tmp/cdk-lambda-layer-curl-2.0.99.tar.gz]
+[2024-04-05 02:54:36] INFO root fetch - main [MainThread]: End processing [cdk-lambda-layer-curl]: success
+[2024-04-05 02:54:37] WARNING root fetch - processPackages [pycde]: Skipping package: exceeds size limit 22111707>=10485760
+[2024-04-05 02:54:37] INFO root fetch - main [MainThread]: End processing [pycde] error
+[2024-04-05 02:54:48] INFO root fetch - processPackages [squad]: Remove: archive file [/home/abi/fetcher/tmp/squad-1.9.tar.gz]
+[2024-04-05 02:54:48] INFO root fetch - processPackages [squad]: Remove: archive file [/home/abi/fetcher/tmp/squad-1.9.1.tar.gz]
+[2024-04-05 02:54:48] INFO root fetch - main [MainThread]: End processing [squad]: success
+[2024-04-05 02:54:48] INFO root fetch - main [MainThread]: Store serial: [22629456]
