@@ -13937,3 +13937,77 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2024-04-05 08:47:32] INFO root fetch - processPackages [aws-lambda-env-modeler]: Remove: archive file [/home/abi/fetcher/tmp/aws_lambda_env_modeler-1.0.7.tar.gz]
 [2024-04-05 08:47:32] INFO root fetch - main [MainThread]: End processing [aws-lambda-env-modeler]: success
 [2024-04-05 08:47:32] INFO root fetch - main [MainThread]: Store serial: [22632588]
+[2024-04-05 08:49:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22632588]
+[2024-04-05 08:49:41] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-05 08:49:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo-addon-mail-activity-team
+[2024-04-05 08:49:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: politely
+[2024-04-05 08:49:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: FastRAMQPI
+[2024-04-05 08:49:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: python-115
+[2024-04-05 08:49:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: spaceone-repository
+[2024-04-05 08:49:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: certora-cli-alpha-master
+[2024-04-05 08:49:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: odoo14-addon-stock-barcodes
+[2024-04-05 08:49:41] INFO root fetch - processPackages [FastRAMQPI]: New version: [7.0.2] Old Version: [7.0.1]
+[2024-04-05 08:49:41] INFO root fetch - processPackages [politely]: New version: [4.0.0a1] Old Version: [4.0.0a0]
+[2024-04-05 08:49:41] INFO root fetch - processPackages [odoo-addon-mail-activity-team]: New version: [16.0.1.0.0.8] Old Version: [16.0.1.0.0.7]
+[2024-04-05 08:49:41] INFO root fetch - processPackages [certora-cli-alpha-master]: New version: [20240404.8.52.721303] Old Version: [20240404.7.16.893134]
+[2024-04-05 08:49:41] INFO root fetch - processPackages [FastRAMQPI]: Downloading https://files.pythonhosted.org/packages/1e/2a/b1de99c34b2bd2bce2a02b3cc9c8e3fea023526d47f5af5d32b7766d9e16/fastramqpi-7.0.1.tar.gz
+[2024-04-05 08:49:41] INFO root fetch - processPackages [odoo14-addon-stock-barcodes]: New version: [14.0.4.0.1.dev5] Old Version: [14.0.4.0.1.dev4]
+[2024-04-05 08:49:41] INFO root fetch - processPackages [politely]: Downloading https://files.pythonhosted.org/packages/99/8f/f90b792d6bbfce22a6a6c236344c2bbe4c5c9b6747e81b2e3807beb811a4/politely-4.0.0a0.tar.gz
+[2024-04-05 08:49:41] INFO root fetch - processPackages [python-115]: New version: [0.0.5.7] Old Version: [0.0.5.6]
+[2024-04-05 08:49:41] INFO root fetch - processPackages [odoo-addon-mail-activity-team]: Downloading https://files.pythonhosted.org/packages/4f/73/e6c2b6f322b7a7d7d7fd534a08b04a5e3dd6a487fa5eb261b7cedcf5aa6d/odoo_addon_mail_activity_team-16.0.1.0.0.7-py3-none-any.whl
+[2024-04-05 08:49:41] INFO root fetch - processPackages [certora-cli-alpha-master]: Downloading https://files.pythonhosted.org/packages/44/22/125b7e4595252669397bac9f422f5018f7031c93f90842ec35ef3e6013ae/certora-cli-alpha-master-20240404.7.16.893134.tar.gz
+[2024-04-05 08:49:41] INFO root fetch - processPackages [spaceone-repository]: New version: [2.0.dev9] Old Version: [2.0.dev8]
+[2024-04-05 08:49:41] WARNING root fetch - processPackages [certora-cli-alpha-master]: Skipping package: exceeds size limit 14476226>=10485760
+[2024-04-05 08:49:41] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-master] error
+[2024-04-05 08:49:41] WARNING root fetch - processPackages [FastRAMQPI]: Timeout reached during download
+[2024-04-05 08:49:41] WARNING root fetch - processPackages [politely]: Timeout reached during download
+[2024-04-05 08:49:41] WARNING root fetch - processPackages [odoo-addon-mail-activity-team]: Timeout reached during download
+[2024-04-05 08:49:41] INFO root fetch - processPackages [FastRAMQPI]: Downloading https://files.pythonhosted.org/packages/b6/36/e0f2f6bfa8cd5f334c1a1e49f159c47361941188715d870989048a270ae7/fastramqpi-7.0.2.tar.gz
+[2024-04-05 08:49:41] INFO root fetch - processPackages [python-115]: Downloading https://files.pythonhosted.org/packages/fa/33/c07003fe5f06d612362d29fdbc7feccd018776eb016107a8669fdfba89ca/python_115-0.0.5.6.tar.gz
+[2024-04-05 08:49:41] INFO root fetch - processPackages [odoo-addon-mail-activity-team]: Downloading https://files.pythonhosted.org/packages/92/37/77a70664d041ecf466ddbc854349b32bb17e2fb6d3b7a2a69f30dd26415f/odoo_addon_mail_activity_team-16.0.1.0.0.8-py3-none-any.whl
+[2024-04-05 08:49:41] INFO root fetch - processPackages [politely]: Downloading https://files.pythonhosted.org/packages/3c/c5/a6017bde896a95b3233540f102999558eda61756913d9d7bf880b7e2fb6e/politely-4.0.0a1.tar.gz
+[2024-04-05 08:49:41] INFO root fetch - processPackages [spaceone-repository]: Downloading https://files.pythonhosted.org/packages/f5/1b/2596d78823e9cd32241b64b9a77fc201ff9d4c755544c2944e80c8b9056f/spaceone-repository-2.0.dev8.tar.gz
+[2024-04-05 08:49:41] WARNING root fetch - processPackages [FastRAMQPI]: Timeout reached during download
+[2024-04-05 08:49:41] INFO root fetch - processPackages [FastRAMQPI]: executing diffoscope
+[2024-04-05 08:49:41] INFO root fetch - processPackages [FastRAMQPI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastramqpi-7.0.1.tar.gz tmp/fastramqpi-7.0.2.tar.gz --markdown 20240405/F/FastRAMQPI/7.0.1-7.0.2/diff.md --exclude *.pyd
+[2024-04-05 08:49:42] WARNING root fetch - processPackages [odoo-addon-mail-activity-team]: Timeout reached during download
+[2024-04-05 08:49:42] INFO root fetch - processPackages [odoo-addon-mail-activity-team]: executing diffoscope
+[2024-04-05 08:49:42] INFO root fetch - processPackages [odoo-addon-mail-activity-team]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_mail_activity_team-16.0.1.0.0.7-py3-none-any.whl.zip tmp/odoo_addon_mail_activity_team-16.0.1.0.0.8-py3-none-any.whl.zip --markdown 20240405/o/odoo-addon-mail-activity-team/16.0.1.0.0.7-16.0.1.0.0.8/diff.md --exclude *.pyd
+[2024-04-05 08:49:42] WARNING root fetch - processPackages [python-115]: Timeout reached during download
+[2024-04-05 08:49:42] WARNING root fetch - processPackages [politely]: Timeout reached during download
+[2024-04-05 08:49:42] INFO root fetch - processPackages [politely]: executing diffoscope
+[2024-04-05 08:49:42] INFO root fetch - processPackages [politely]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/politely-4.0.0a0.tar.gz tmp/politely-4.0.0a1.tar.gz --markdown 20240405/p/politely/4.0.0a0-4.0.0a1/diff.md --exclude *.pyd
+[2024-04-05 08:49:42] WARNING root fetch - processPackages [spaceone-repository]: Timeout reached during download
+[2024-04-05 08:49:42] INFO root fetch - processPackages [odoo14-addon-stock-barcodes]: Downloading https://files.pythonhosted.org/packages/ff/f5/027a0e3aa72ab234429a79c2bcc7347b41ae9eecba15c55c67d7b5b8ba6c/odoo14_addon_stock_barcodes-14.0.4.0.1.dev4-py3-none-any.whl
+[2024-04-05 08:49:42] INFO root fetch - processPackages [python-115]: Downloading https://files.pythonhosted.org/packages/ac/1e/2a2a45bdee75d95f5134b03ce00c9bcdb2b1bd54dc3cb6353aaadec79174/python_115-0.0.5.7.tar.gz
+[2024-04-05 08:49:42] WARNING root fetch - processPackages [odoo14-addon-stock-barcodes]: Timeout reached during download
+[2024-04-05 08:49:42] INFO root fetch - processPackages [spaceone-repository]: Downloading https://files.pythonhosted.org/packages/5c/64/26d615d943759f6f5e6df1e1b256e967968de19b16b379714924c9a3a2d5/spaceone-repository-2.0.dev9.tar.gz
+[2024-04-05 08:49:42] WARNING root fetch - processPackages [spaceone-repository]: Timeout reached during download
+[2024-04-05 08:49:42] INFO root fetch - processPackages [spaceone-repository]: executing diffoscope
+[2024-04-05 08:49:42] INFO root fetch - processPackages [spaceone-repository]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spaceone-repository-2.0.dev8.tar.gz tmp/spaceone-repository-2.0.dev9.tar.gz --markdown 20240405/s/spaceone-repository/2.0.dev8-2.0.dev9/diff.md --exclude *.pyd
+[2024-04-05 08:49:42] INFO root fetch - processPackages [odoo14-addon-stock-barcodes]: Downloading https://files.pythonhosted.org/packages/9d/58/8d81390c1d8641b6a6384fd5fe8a178919d7dd300a3d8811ca49a2a6db24/odoo14_addon_stock_barcodes-14.0.4.0.1.dev5-py3-none-any.whl
+[2024-04-05 08:49:42] WARNING root fetch - processPackages [python-115]: Timeout reached during download
+[2024-04-05 08:49:42] INFO root fetch - processPackages [python-115]: executing diffoscope
+[2024-04-05 08:49:42] INFO root fetch - processPackages [python-115]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_115-0.0.5.6.tar.gz tmp/python_115-0.0.5.7.tar.gz --markdown 20240405/p/python-115/0.0.5.6-0.0.5.7/diff.md --exclude *.pyd
+[2024-04-05 08:49:42] WARNING root fetch - processPackages [odoo14-addon-stock-barcodes]: Timeout reached during download
+[2024-04-05 08:49:42] INFO root fetch - processPackages [odoo14-addon-stock-barcodes]: executing diffoscope
+[2024-04-05 08:49:42] INFO root fetch - processPackages [odoo14-addon-stock-barcodes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_stock_barcodes-14.0.4.0.1.dev4-py3-none-any.whl.zip tmp/odoo14_addon_stock_barcodes-14.0.4.0.1.dev5-py3-none-any.whl.zip --markdown 20240405/o/odoo14-addon-stock-barcodes/14.0.4.0.1.dev4-14.0.4.0.1.dev5/diff.md --exclude *.pyd
+[2024-04-05 08:49:42] INFO root fetch - processPackages [politely]: Remove: archive file [/home/abi/fetcher/tmp/politely-4.0.0a0.tar.gz]
+[2024-04-05 08:49:42] INFO root fetch - processPackages [politely]: Remove: archive file [/home/abi/fetcher/tmp/politely-4.0.0a1.tar.gz]
+[2024-04-05 08:49:42] INFO root fetch - main [MainThread]: End processing [politely]: success
+[2024-04-05 08:49:42] INFO root fetch - processPackages [odoo-addon-mail-activity-team]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_mail_activity_team-16.0.1.0.0.7-py3-none-any.whl.zip]
+[2024-04-05 08:49:42] INFO root fetch - processPackages [odoo-addon-mail-activity-team]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_mail_activity_team-16.0.1.0.0.8-py3-none-any.whl.zip]
+[2024-04-05 08:49:42] INFO root fetch - main [MainThread]: End processing [odoo-addon-mail-activity-team]: success
+[2024-04-05 08:49:42] INFO root fetch - processPackages [FastRAMQPI]: Remove: archive file [/home/abi/fetcher/tmp/fastramqpi-7.0.1.tar.gz]
+[2024-04-05 08:49:42] INFO root fetch - processPackages [FastRAMQPI]: Remove: archive file [/home/abi/fetcher/tmp/fastramqpi-7.0.2.tar.gz]
+[2024-04-05 08:49:42] INFO root fetch - main [MainThread]: End processing [FastRAMQPI]: success
+[2024-04-05 08:49:43] INFO root fetch - processPackages [spaceone-repository]: Remove: archive file [/home/abi/fetcher/tmp/spaceone-repository-2.0.dev8.tar.gz]
+[2024-04-05 08:49:43] INFO root fetch - processPackages [spaceone-repository]: Remove: archive file [/home/abi/fetcher/tmp/spaceone-repository-2.0.dev9.tar.gz]
+[2024-04-05 08:49:43] INFO root fetch - main [MainThread]: End processing [spaceone-repository]: success
+[2024-04-05 08:49:43] INFO root fetch - processPackages [python-115]: Remove: archive file [/home/abi/fetcher/tmp/python_115-0.0.5.6.tar.gz]
+[2024-04-05 08:49:43] INFO root fetch - processPackages [python-115]: Remove: archive file [/home/abi/fetcher/tmp/python_115-0.0.5.7.tar.gz]
+[2024-04-05 08:49:43] INFO root fetch - main [MainThread]: End processing [python-115]: success
+[2024-04-05 08:49:43] INFO root fetch - processPackages [odoo14-addon-stock-barcodes]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_stock_barcodes-14.0.4.0.1.dev4-py3-none-any.whl.zip]
+[2024-04-05 08:49:43] INFO root fetch - processPackages [odoo14-addon-stock-barcodes]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_stock_barcodes-14.0.4.0.1.dev5-py3-none-any.whl.zip]
+[2024-04-05 08:49:43] INFO root fetch - main [MainThread]: End processing [odoo14-addon-stock-barcodes]: success
+[2024-04-05 08:49:43] INFO root fetch - main [MainThread]: Store serial: [22632613]
