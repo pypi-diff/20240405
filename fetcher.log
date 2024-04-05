@@ -14669,3 +14669,36 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2024-04-05 09:20:11] INFO root fetch - processPackages [tendril-structures-imageset]: Remove: archive file [/home/abi/fetcher/tmp/tendril-structures-imageset-0.1.9.tar.gz]
 [2024-04-05 09:20:11] INFO root fetch - main [MainThread]: End processing [tendril-structures-imageset]: success
 [2024-04-05 09:20:11] INFO root fetch - main [MainThread]: Store serial: [22632795]
+[2024-04-05 09:22:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22632795]
+[2024-04-05 09:22:19] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-05 09:22:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lwk
+[2024-04-05 09:22:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: qontract-reconcile
+[2024-04-05 09:22:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nrobo
+[2024-04-05 09:22:20] INFO root fetch - processPackages [lwk]: New version: [0.2.0] Old Version: [0.0.0]
+[2024-04-05 09:22:20] WARNING root fetch - processPackages [lwk]: fallback to get urls: [0.0.0]
+[2024-04-05 09:22:20] WARNING root fetch - processPackages [lwk]: None
+[2024-04-05 09:22:20] INFO root fetch - processPackages [nrobo]: New version: [2024.39.2] Old Version: [2024.39.1]
+[2024-04-05 09:22:20] WARNING root fetch - processPackages [lwk]: None
+[2024-04-05 09:22:20] INFO root fetch - processPackages [qontract-reconcile]: New version: [0.9.1rc99] Old Version: [0.9.1rc98]
+[2024-04-05 09:22:20] WARNING root fetch - processPackages [lwk]: unable to get url for both version [0.0.0]
+[2024-04-05 09:22:20] WARNING root fetch - processPackages [lwk]: None
+[2024-04-05 09:22:20] INFO root fetch - main [MainThread]: End processing [lwk] error
+[2024-04-05 09:22:20] INFO root fetch - processPackages [nrobo]: Downloading https://files.pythonhosted.org/packages/43/85/515b1200ad1852371fca62c8c9cad1bd9bab045effd293bbaca1f521c493/nrobo-2024.39.1.tar.gz
+[2024-04-05 09:22:20] INFO root fetch - processPackages [qontract-reconcile]: Downloading https://files.pythonhosted.org/packages/ee/0e/ac8ef8d8ff9114b5366efefac8ac0a94430168107cf051385aa73efdd7ef/qontract_reconcile-0.9.1rc98-py3-none-any.whl
+[2024-04-05 09:22:20] WARNING root fetch - processPackages [nrobo]: Timeout reached during download
+[2024-04-05 09:22:20] INFO root fetch - processPackages [nrobo]: Downloading https://files.pythonhosted.org/packages/3f/98/8831da1745ef9e569307c21aa62e6299d0e04cb66414d1438487f65cbd8b/nrobo-2024.39.2.tar.gz
+[2024-04-05 09:22:20] WARNING root fetch - processPackages [qontract-reconcile]: Timeout reached during download
+[2024-04-05 09:22:20] WARNING root fetch - processPackages [nrobo]: Timeout reached during download
+[2024-04-05 09:22:20] INFO root fetch - processPackages [nrobo]: executing diffoscope
+[2024-04-05 09:22:20] INFO root fetch - processPackages [nrobo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nrobo-2024.39.1.tar.gz tmp/nrobo-2024.39.2.tar.gz --markdown 20240405/n/nrobo/2024.39.1-2024.39.2/diff.md --exclude *.pyd
+[2024-04-05 09:22:21] INFO root fetch - processPackages [qontract-reconcile]: Downloading https://files.pythonhosted.org/packages/dd/8b/9de8b95ca80c898ecaafa95edc3438d306b82ab0d29d3895dd6e8f152129/qontract_reconcile-0.9.1rc99-py3-none-any.whl
+[2024-04-05 09:22:21] WARNING root fetch - processPackages [qontract-reconcile]: Timeout reached during download
+[2024-04-05 09:22:21] INFO root fetch - processPackages [qontract-reconcile]: executing diffoscope
+[2024-04-05 09:22:21] INFO root fetch - processPackages [qontract-reconcile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip --markdown 20240405/q/qontract-reconcile/0.9.1rc98-0.9.1rc99/diff.md --exclude *.pyd
+[2024-04-05 09:22:21] INFO root fetch - processPackages [nrobo]: Remove: archive file [/home/abi/fetcher/tmp/nrobo-2024.39.1.tar.gz]
+[2024-04-05 09:22:21] INFO root fetch - processPackages [nrobo]: Remove: archive file [/home/abi/fetcher/tmp/nrobo-2024.39.2.tar.gz]
+[2024-04-05 09:22:21] INFO root fetch - main [MainThread]: End processing [nrobo]: success
+[2024-04-05 09:22:22] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip]
+[2024-04-05 09:22:22] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip]
+[2024-04-05 09:22:22] INFO root fetch - main [MainThread]: End processing [qontract-reconcile]: success
+[2024-04-05 09:22:22] INFO root fetch - main [MainThread]: Store serial: [22632805]
