@@ -17418,3 +17418,39 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2024-04-05 11:23:57] INFO root fetch - processPackages [shopware-api-client]: Remove: archive file [/home/abi/fetcher/tmp/shopware_api_client-1.0.9.tar.gz]
 [2024-04-05 11:23:57] INFO root fetch - main [MainThread]: End processing [shopware-api-client]: success
 [2024-04-05 11:23:57] INFO root fetch - main [MainThread]: Store serial: [22633923]
+[2024-04-05 11:26:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22633923]
+[2024-04-05 11:26:07] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-05 11:26:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: terraform-compliance
+[2024-04-05 11:26:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: scratchcommunication
+[2024-04-05 11:26:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: shipdataprocess
+[2024-04-05 11:26:07] INFO root fetch - processPackages [terraform-compliance]: New version: [1.3.9] Old Version: [1.3.8]
+[2024-04-05 11:26:07] INFO root fetch - processPackages [shipdataprocess]: New version: [0.8.3] Old Version: [0.8.2]
+[2024-04-05 11:26:07] INFO root fetch - processPackages [scratchcommunication]: New version: [2.2.9] Old Version: [2.2.8]
+[2024-04-05 11:26:08] INFO root fetch - processPackages [terraform-compliance]: Downloading https://files.pythonhosted.org/packages/a6/d1/0243ca0f979d35f56d3df84808fdfac91e78ec4dae6b8431759db952924f/terraform-compliance-1.3.8.tar.gz
+[2024-04-05 11:26:08] INFO root fetch - processPackages [shipdataprocess]: Downloading https://files.pythonhosted.org/packages/ae/fe/246b9efa404c973b297c9c6cd92e1743fa8e83d4ccca074a39835a7b8ab0/shipdataprocess-0.8.2.tar.gz
+[2024-04-05 11:26:08] INFO root fetch - processPackages [scratchcommunication]: Downloading https://files.pythonhosted.org/packages/3d/16/f454a43fe06841af68c9402f2048354591b5a5945949bee7aa123b1342f3/scratchcommunication-2.2.8.tar.gz
+[2024-04-05 11:26:08] WARNING root fetch - processPackages [scratchcommunication]: Timeout reached during download
+[2024-04-05 11:26:08] WARNING root fetch - processPackages [terraform-compliance]: Timeout reached during download
+[2024-04-05 11:26:08] WARNING root fetch - processPackages [shipdataprocess]: Timeout reached during download
+[2024-04-05 11:26:08] INFO root fetch - processPackages [scratchcommunication]: Downloading https://files.pythonhosted.org/packages/58/b9/9729b3dae3e7ff4e5a713238753ee7fc45f2509302b6e1aefdde8a90e749/scratchcommunication-2.2.9.tar.gz
+[2024-04-05 11:26:08] INFO root fetch - processPackages [terraform-compliance]: Downloading https://files.pythonhosted.org/packages/37/2d/b971d7cf6a713fea67b9446e77152a679c6c77aab96e46b24a2926e97462/terraform-compliance-1.3.9.tar.gz
+[2024-04-05 11:26:08] INFO root fetch - processPackages [shipdataprocess]: Downloading https://files.pythonhosted.org/packages/90/20/d04b8735b5b5dc1b7f85bc54f707027078613e576ef68c9f664095b63489/shipdataprocess-0.8.3.tar.gz
+[2024-04-05 11:26:08] WARNING root fetch - processPackages [scratchcommunication]: Timeout reached during download
+[2024-04-05 11:26:08] INFO root fetch - processPackages [scratchcommunication]: executing diffoscope
+[2024-04-05 11:26:08] INFO root fetch - processPackages [scratchcommunication]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scratchcommunication-2.2.8.tar.gz tmp/scratchcommunication-2.2.9.tar.gz --markdown 20240405/s/scratchcommunication/2.2.8-2.2.9/diff.md --exclude *.pyd
+[2024-04-05 11:26:08] WARNING root fetch - processPackages [shipdataprocess]: Timeout reached during download
+[2024-04-05 11:26:08] INFO root fetch - processPackages [shipdataprocess]: executing diffoscope
+[2024-04-05 11:26:08] INFO root fetch - processPackages [shipdataprocess]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shipdataprocess-0.8.2.tar.gz tmp/shipdataprocess-0.8.3.tar.gz --markdown 20240405/s/shipdataprocess/0.8.2-0.8.3/diff.md --exclude *.pyd
+[2024-04-05 11:26:09] WARNING root fetch - processPackages [terraform-compliance]: Timeout reached during download
+[2024-04-05 11:26:09] INFO root fetch - processPackages [terraform-compliance]: executing diffoscope
+[2024-04-05 11:26:09] INFO root fetch - processPackages [terraform-compliance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/terraform-compliance-1.3.8.tar.gz tmp/terraform-compliance-1.3.9.tar.gz --markdown 20240405/t/terraform-compliance/1.3.8-1.3.9/diff.md --exclude *.pyd
+[2024-04-05 11:26:09] INFO root fetch - processPackages [scratchcommunication]: Remove: archive file [/home/abi/fetcher/tmp/scratchcommunication-2.2.8.tar.gz]
+[2024-04-05 11:26:09] INFO root fetch - processPackages [scratchcommunication]: Remove: archive file [/home/abi/fetcher/tmp/scratchcommunication-2.2.9.tar.gz]
+[2024-04-05 11:26:09] INFO root fetch - main [MainThread]: End processing [scratchcommunication]: success
+[2024-04-05 11:26:09] INFO root fetch - processPackages [shipdataprocess]: Remove: archive file [/home/abi/fetcher/tmp/shipdataprocess-0.8.2.tar.gz]
+[2024-04-05 11:26:09] INFO root fetch - processPackages [shipdataprocess]: Remove: archive file [/home/abi/fetcher/tmp/shipdataprocess-0.8.3.tar.gz]
+[2024-04-05 11:26:09] INFO root fetch - main [MainThread]: End processing [shipdataprocess]: success
+[2024-04-05 11:26:09] INFO root fetch - processPackages [terraform-compliance]: Remove: archive file [/home/abi/fetcher/tmp/terraform-compliance-1.3.8.tar.gz]
+[2024-04-05 11:26:09] INFO root fetch - processPackages [terraform-compliance]: Remove: archive file [/home/abi/fetcher/tmp/terraform-compliance-1.3.9.tar.gz]
+[2024-04-05 11:26:09] INFO root fetch - main [MainThread]: End processing [terraform-compliance]: success
+[2024-04-05 11:26:09] INFO root fetch - main [MainThread]: Store serial: [22633931]
