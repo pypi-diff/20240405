@@ -14901,3 +14901,39 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2024-04-05 09:31:12] INFO root fetch - processPackages [rime-sdk]: Remove: archive file [/home/abi/fetcher/tmp/rime_sdk-2.8.0rc0.tar.gz]
 [2024-04-05 09:31:12] INFO root fetch - main [MainThread]: End processing [rime-sdk]: success
 [2024-04-05 09:31:12] INFO root fetch - main [MainThread]: Store serial: [22632863]
+[2024-04-05 09:33:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22632863]
+[2024-04-05 09:33:20] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-05 09:33:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: langroid
+[2024-04-05 09:33:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: argus-toolbelt
+[2024-04-05 09:33:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ul-data-aggregator-sdk
+[2024-04-05 09:33:20] INFO root fetch - processPackages [ul-data-aggregator-sdk]: New version: [9.6.0] Old Version: [9.5.2]
+[2024-04-05 09:33:20] INFO root fetch - processPackages [argus-toolbelt]: New version: [6.9.3] Old Version: [6.9.2]
+[2024-04-05 09:33:20] INFO root fetch - processPackages [langroid]: New version: [0.1.99] Old Version: [0.1.98]
+[2024-04-05 09:33:21] INFO root fetch - processPackages [ul-data-aggregator-sdk]: Downloading https://files.pythonhosted.org/packages/02/e1/b6b533eceb6d233db6a223aef0d57e9d0701c2a6d4a92abe44d8b99dbc8e/ul-data-aggregator-sdk-9.5.2.tar.gz
+[2024-04-05 09:33:21] INFO root fetch - processPackages [argus-toolbelt]: Downloading https://files.pythonhosted.org/packages/5a/9b/9ffe0dedbbba053489bd0128af23ba436e9b4b4e790dc4523bd1c9150589/argus_toolbelt-6.9.2-py3-none-any.whl
+[2024-04-05 09:33:21] INFO root fetch - processPackages [langroid]: Downloading https://files.pythonhosted.org/packages/ab/bb/220d2ce35d659c9c3f621a8e92246d4d25420d75def80d96d19a8abf2b62/langroid-0.1.98.tar.gz
+[2024-04-05 09:33:21] WARNING root fetch - processPackages [argus-toolbelt]: Timeout reached during download
+[2024-04-05 09:33:21] WARNING root fetch - processPackages [langroid]: Timeout reached during download
+[2024-04-05 09:33:21] WARNING root fetch - processPackages [ul-data-aggregator-sdk]: Timeout reached during download
+[2024-04-05 09:33:21] INFO root fetch - processPackages [argus-toolbelt]: Downloading https://files.pythonhosted.org/packages/b7/a1/72c8c4de737e233775d5d75822ec3082214447ad8159fa2f5cdbda5a25ae/argus_toolbelt-6.9.3-py3-none-any.whl
+[2024-04-05 09:33:21] INFO root fetch - processPackages [langroid]: Downloading https://files.pythonhosted.org/packages/e0/31/f66ec6ea338a8eb66884a575a589c46c9cda101c179d652dccf9a12f918f/langroid-0.1.99.tar.gz
+[2024-04-05 09:33:21] INFO root fetch - processPackages [ul-data-aggregator-sdk]: Downloading https://files.pythonhosted.org/packages/1c/60/4ec793d8a4e34ca2c27bc237df952c48b6b5d42182c5fa3572a65035b3ae/ul-data-aggregator-sdk-9.6.0.tar.gz
+[2024-04-05 09:33:21] WARNING root fetch - processPackages [argus-toolbelt]: Timeout reached during download
+[2024-04-05 09:33:21] INFO root fetch - processPackages [argus-toolbelt]: executing diffoscope
+[2024-04-05 09:33:21] INFO root fetch - processPackages [argus-toolbelt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/argus_toolbelt-6.9.2-py3-none-any.whl.zip tmp/argus_toolbelt-6.9.3-py3-none-any.whl.zip --markdown 20240405/a/argus-toolbelt/6.9.2-6.9.3/diff.md --exclude *.pyd
+[2024-04-05 09:33:21] WARNING root fetch - processPackages [langroid]: Timeout reached during download
+[2024-04-05 09:33:21] INFO root fetch - processPackages [langroid]: executing diffoscope
+[2024-04-05 09:33:21] INFO root fetch - processPackages [langroid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langroid-0.1.98.tar.gz tmp/langroid-0.1.99.tar.gz --markdown 20240405/l/langroid/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2024-04-05 09:33:21] WARNING root fetch - processPackages [ul-data-aggregator-sdk]: Timeout reached during download
+[2024-04-05 09:33:21] INFO root fetch - processPackages [ul-data-aggregator-sdk]: executing diffoscope
+[2024-04-05 09:33:21] INFO root fetch - processPackages [ul-data-aggregator-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ul-data-aggregator-sdk-9.5.2.tar.gz tmp/ul-data-aggregator-sdk-9.6.0.tar.gz --markdown 20240405/u/ul-data-aggregator-sdk/9.5.2-9.6.0/diff.md --exclude *.pyd
+[2024-04-05 09:33:22] INFO root fetch - processPackages [argus-toolbelt]: Remove: archive file [/home/abi/fetcher/tmp/argus_toolbelt-6.9.2-py3-none-any.whl.zip]
+[2024-04-05 09:33:22] INFO root fetch - processPackages [argus-toolbelt]: Remove: archive file [/home/abi/fetcher/tmp/argus_toolbelt-6.9.3-py3-none-any.whl.zip]
+[2024-04-05 09:33:22] INFO root fetch - main [MainThread]: End processing [argus-toolbelt]: success
+[2024-04-05 09:33:22] INFO root fetch - processPackages [ul-data-aggregator-sdk]: Remove: archive file [/home/abi/fetcher/tmp/ul-data-aggregator-sdk-9.5.2.tar.gz]
+[2024-04-05 09:33:22] INFO root fetch - processPackages [ul-data-aggregator-sdk]: Remove: archive file [/home/abi/fetcher/tmp/ul-data-aggregator-sdk-9.6.0.tar.gz]
+[2024-04-05 09:33:22] INFO root fetch - main [MainThread]: End processing [ul-data-aggregator-sdk]: success
+[2024-04-05 09:33:22] INFO root fetch - processPackages [langroid]: Remove: archive file [/home/abi/fetcher/tmp/langroid-0.1.98.tar.gz]
+[2024-04-05 09:33:22] INFO root fetch - processPackages [langroid]: Remove: archive file [/home/abi/fetcher/tmp/langroid-0.1.99.tar.gz]
+[2024-04-05 09:33:22] INFO root fetch - main [MainThread]: End processing [langroid]: success
+[2024-04-05 09:33:22] INFO root fetch - main [MainThread]: Store serial: [22632873]
