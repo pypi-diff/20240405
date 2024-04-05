@@ -11702,3 +11702,14 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2024-04-05 06:38:01] INFO root fetch - processPackages [odoo14-addon-l10n-br-resource]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_l10n_br_resource-14.0.1.0.5.dev1-py3-none-any.whl.zip]
 [2024-04-05 06:38:01] INFO root fetch - main [MainThread]: End processing [odoo14-addon-l10n-br-resource]: success
 [2024-04-05 06:38:01] INFO root fetch - main [MainThread]: Store serial: [22631767]
+[2024-04-05 06:40:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22631767]
+[2024-04-05 06:40:10] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-05 06:40:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: volstreet
+[2024-04-05 06:40:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: turning-points
+[2024-04-05 06:40:10] WARNING root fetch - processPackages [turning-points]: Skipping, unable to determine old version
+[2024-04-05 06:40:10] INFO root fetch - main [MainThread]: End processing [turning-points] error
+[2024-04-05 06:40:10] INFO root fetch - processPackages [volstreet]: New version: [7.0.0] Old Version: [6.1.4]
+[2024-04-05 06:40:10] INFO root fetch - processPackages [volstreet]: Downloading https://files.pythonhosted.org/packages/de/11/9fdad265021dea56cc4c7971f34ebc0a08c0effa0921a22598e32cd23e9a/volstreet-6.1.4.tar.gz
+[2024-04-05 06:40:10] WARNING root fetch - processPackages [volstreet]: Skipping package: exceeds size limit 68295960>=10485760
+[2024-04-05 06:40:10] INFO root fetch - main [MainThread]: End processing [volstreet] error
+[2024-04-05 06:40:10] INFO root fetch - main [MainThread]: Store serial: [22631774]
