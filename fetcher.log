@@ -13671,3 +13671,28 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2024-04-05 08:34:29] INFO root fetch - processPackages [tanx-connector]: Remove: archive file [/home/abi/fetcher/tmp/tanx-connector-2.0.3.tar.gz]
 [2024-04-05 08:34:29] INFO root fetch - main [MainThread]: End processing [tanx-connector]: success
 [2024-04-05 08:34:29] INFO root fetch - main [MainThread]: Store serial: [22632526]
+[2024-04-05 08:36:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22632526]
+[2024-04-05 08:36:37] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-05 08:36:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: rippling-flux-dev-tools
+[2024-04-05 08:36:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: eswrap
+[2024-04-05 08:36:37] INFO root fetch - processPackages [rippling-flux-dev-tools]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-05 08:36:37] INFO root fetch - processPackages [rippling-flux-dev-tools]: Downloading https://files.pythonhosted.org/packages/47/84/55cc44c4c527b7ff326841a72023ee1ead724511e000cf7b00aa06b5a686/rippling_flux_dev_tools-0.1.8.tar.gz
+[2024-04-05 08:36:37] INFO root fetch - processPackages [eswrap]: New version: [0.5.2] Old Version: [0.5.1]
+[2024-04-05 08:36:38] WARNING root fetch - processPackages [rippling-flux-dev-tools]: Timeout reached during download
+[2024-04-05 08:36:38] INFO root fetch - processPackages [eswrap]: Downloading https://files.pythonhosted.org/packages/9a/86/2a8c370228e8f4a7a906a87b4e5c3d69daab31552d7335727ecd40c331d7/eswrap-0.5.1.tar.gz
+[2024-04-05 08:36:38] INFO root fetch - processPackages [rippling-flux-dev-tools]: Downloading https://files.pythonhosted.org/packages/6d/d0/4fb0ade7c02ef9d26c58a45f3d9861fcbe97c20e882022fda6b080e611db/rippling_flux_dev_tools-0.1.9.tar.gz
+[2024-04-05 08:36:38] WARNING root fetch - processPackages [rippling-flux-dev-tools]: Timeout reached during download
+[2024-04-05 08:36:38] INFO root fetch - processPackages [rippling-flux-dev-tools]: executing diffoscope
+[2024-04-05 08:36:38] INFO root fetch - processPackages [rippling-flux-dev-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rippling_flux_dev_tools-0.1.8.tar.gz tmp/rippling_flux_dev_tools-0.1.9.tar.gz --markdown 20240405/r/rippling-flux-dev-tools/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2024-04-05 08:36:38] WARNING root fetch - processPackages [eswrap]: Timeout reached during download
+[2024-04-05 08:36:38] INFO root fetch - processPackages [eswrap]: Downloading https://files.pythonhosted.org/packages/bd/f2/25e2e80c4371cda483c15db2a6fbab00c35b2dafd94d86dedec7f2c1b1b6/eswrap-0.5.2.tar.gz
+[2024-04-05 08:36:38] WARNING root fetch - processPackages [eswrap]: Timeout reached during download
+[2024-04-05 08:36:38] INFO root fetch - processPackages [eswrap]: executing diffoscope
+[2024-04-05 08:36:38] INFO root fetch - processPackages [eswrap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eswrap-0.5.1.tar.gz tmp/eswrap-0.5.2.tar.gz --markdown 20240405/e/eswrap/0.5.1-0.5.2/diff.md --exclude *.pyd
+[2024-04-05 08:36:38] INFO root fetch - processPackages [rippling-flux-dev-tools]: Remove: archive file [/home/abi/fetcher/tmp/rippling_flux_dev_tools-0.1.8.tar.gz]
+[2024-04-05 08:36:38] INFO root fetch - processPackages [rippling-flux-dev-tools]: Remove: archive file [/home/abi/fetcher/tmp/rippling_flux_dev_tools-0.1.9.tar.gz]
+[2024-04-05 08:36:38] INFO root fetch - main [MainThread]: End processing [rippling-flux-dev-tools]: success
+[2024-04-05 08:36:39] INFO root fetch - processPackages [eswrap]: Remove: archive file [/home/abi/fetcher/tmp/eswrap-0.5.1.tar.gz]
+[2024-04-05 08:36:39] INFO root fetch - processPackages [eswrap]: Remove: archive file [/home/abi/fetcher/tmp/eswrap-0.5.2.tar.gz]
+[2024-04-05 08:36:39] INFO root fetch - main [MainThread]: End processing [eswrap]: success
+[2024-04-05 08:36:39] INFO root fetch - main [MainThread]: Store serial: [22632532]
