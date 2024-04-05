@@ -20982,3 +20982,80 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2024-04-05 13:32:23] INFO root fetch - processPackages [ansys-meshing-prime]: Remove: archive file [/home/abi/fetcher/tmp/ansys_meshing_prime-0.6.0.dev6.tar.gz]
 [2024-04-05 13:32:23] INFO root fetch - main [MainThread]: End processing [ansys-meshing-prime]: success
 [2024-04-05 13:32:23] INFO root fetch - main [MainThread]: Store serial: [22635394]
+[2024-04-05 13:34:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22635394]
+[2024-04-05 13:34:32] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-05 13:34:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: devine
+[2024-04-05 13:34:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: p621
+[2024-04-05 13:34:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: DLMS-SPODES-client
+[2024-04-05 13:34:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: grsq
+[2024-04-05 13:34:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: torchserve-nightly
+[2024-04-05 13:34:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: torch-model-archiver-nightly
+[2024-04-05 13:34:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: torch-workflow-archiver-nightly
+[2024-04-05 13:34:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: crewai
+[2024-04-05 13:34:32] INFO root fetch - processPackages [crewai]: New version: [0.5.5] Old Version: [0.5.3]
+[2024-04-05 13:34:32] INFO root fetch - processPackages [torchserve-nightly]: New version: [2024.4.5] Old Version: [2024.4.4]
+[2024-04-05 13:34:32] INFO root fetch - processPackages [DLMS-SPODES-client]: New version: [0.7.0] Old Version: [0.6.7]
+[2024-04-05 13:34:32] WARNING root fetch - processPackages [p621]: Skipping, unable to determine old version
+[2024-04-05 13:34:32] INFO root fetch - main [MainThread]: End processing [p621] error
+[2024-04-05 13:34:32] INFO root fetch - processPackages [grsq]: New version: [1.2.7] Old Version: [1.2.6]
+[2024-04-05 13:34:32] INFO root fetch - processPackages [devine]: New version: [3.3.1] Old Version: [3.3.0]
+[2024-04-05 13:34:32] INFO root fetch - processPackages [crewai]: Downloading https://files.pythonhosted.org/packages/e9/e3/15cbe7ed14b2b805613edd70fe8d16de0f00ad49e45f0496db0d34c3274c/crewai-0.5.3.tar.gz
+[2024-04-05 13:34:32] INFO root fetch - processPackages [torch-model-archiver-nightly]: New version: [2024.4.5] Old Version: [2024.4.4]
+[2024-04-05 13:34:33] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: New version: [2024.4.5] Old Version: [2024.4.4]
+[2024-04-05 13:34:33] WARNING root fetch - processPackages [crewai]: Timeout reached during download
+[2024-04-05 13:34:33] INFO root fetch - processPackages [DLMS-SPODES-client]: Downloading https://files.pythonhosted.org/packages/e0/82/fb41093aa6b97d464493fc9472cb9cedc3cc339a6bdb0dab0d198e3745ec/DLMS_SPODES_client-0.6.7.tar.gz
+[2024-04-05 13:34:33] INFO root fetch - processPackages [torchserve-nightly]: Downloading https://files.pythonhosted.org/packages/6b/33/4af9852928608b10f6d78fb1d77172045cd380e8e153929f215b6c4b818e/torchserve_nightly-2024.4.4-py3-none-any.whl
+[2024-04-05 13:34:33] INFO root fetch - processPackages [devine]: Downloading https://files.pythonhosted.org/packages/da/75/f87318b3c2e9ecc21bac784c65047437fad9cc054a9e5fb688c8c786ad52/devine-3.3.0.tar.gz
+[2024-04-05 13:34:33] INFO root fetch - processPackages [torch-model-archiver-nightly]: Downloading https://files.pythonhosted.org/packages/83/d2/824813e3d9ff2ce649fbe43ab17732d8361725f25d6717e37fc80ae8ed04/torch_model_archiver_nightly-2024.4.4-py3-none-any.whl
+[2024-04-05 13:34:33] INFO root fetch - processPackages [grsq]: Downloading https://files.pythonhosted.org/packages/4c/3b/0507efd09eab22602e5c5b005ab496ac561012019fa2ab857af9ec478f02/grsq-1.2.6.tar.gz
+[2024-04-05 13:34:33] INFO root fetch - processPackages [crewai]: Downloading https://files.pythonhosted.org/packages/4e/2d/131d296cf0495637bfea59b11af0767de8fa11466880e3d702ab43a360d0/crewai-0.5.5.tar.gz
+[2024-04-05 13:34:33] WARNING root fetch - processPackages [torchserve-nightly]: Skipping package: exceeds size limit 24332213>=10485760
+[2024-04-05 13:34:33] INFO root fetch - main [MainThread]: End processing [torchserve-nightly] error
+[2024-04-05 13:34:33] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: Downloading https://files.pythonhosted.org/packages/60/80/e3fb57a290854b16e7020e2479561e40f4f4651fc8c4efc3b04ab6e5a854/torch_workflow_archiver_nightly-2024.4.4-py3-none-any.whl
+[2024-04-05 13:34:33] WARNING root fetch - processPackages [DLMS-SPODES-client]: Timeout reached during download
+[2024-04-05 13:34:33] WARNING root fetch - processPackages [torch-model-archiver-nightly]: Timeout reached during download
+[2024-04-05 13:34:33] WARNING root fetch - processPackages [crewai]: Timeout reached during download
+[2024-04-05 13:34:33] INFO root fetch - processPackages [crewai]: executing diffoscope
+[2024-04-05 13:34:33] INFO root fetch - processPackages [crewai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crewai-0.5.3.tar.gz tmp/crewai-0.5.5.tar.gz --markdown 20240405/c/crewai/0.5.3-0.5.5/diff.md --exclude *.pyd
+[2024-04-05 13:34:33] WARNING root fetch - processPackages [torch-workflow-archiver-nightly]: Timeout reached during download
+[2024-04-05 13:34:33] WARNING root fetch - processPackages [devine]: Timeout reached during download
+[2024-04-05 13:34:33] WARNING root fetch - processPackages [grsq]: Timeout reached during download
+[2024-04-05 13:34:33] INFO root fetch - processPackages [DLMS-SPODES-client]: Downloading https://files.pythonhosted.org/packages/81/f4/10f514b77bdacd78414e215290fe3c18085a396e9a94b6790cc34489234c/DLMS_SPODES_client-0.7.0.tar.gz
+[2024-04-05 13:34:33] INFO root fetch - processPackages [torch-model-archiver-nightly]: Downloading https://files.pythonhosted.org/packages/3d/91/ed9319172187e79fd7b72dce2ba0a0df7ef15175c823d230e9454948fa34/torch_model_archiver_nightly-2024.4.5-py3-none-any.whl
+[2024-04-05 13:34:33] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: Downloading https://files.pythonhosted.org/packages/80/ce/e5af42294d27c06726b2cae1d9785202a54c5ebbaacd965b48567bc6198d/torch_workflow_archiver_nightly-2024.4.5-py3-none-any.whl
+[2024-04-05 13:34:33] WARNING root fetch - processPackages [DLMS-SPODES-client]: Timeout reached during download
+[2024-04-05 13:34:33] INFO root fetch - processPackages [devine]: Downloading https://files.pythonhosted.org/packages/1b/ea/46388adb2d9ca89734e0d4acd174e980c94b95f601c57e1b48b710c8cd53/devine-3.3.1.tar.gz
+[2024-04-05 13:34:33] INFO root fetch - processPackages [DLMS-SPODES-client]: executing diffoscope
+[2024-04-05 13:34:33] INFO root fetch - processPackages [DLMS-SPODES-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DLMS_SPODES_client-0.6.7.tar.gz tmp/DLMS_SPODES_client-0.7.0.tar.gz --markdown 20240405/D/DLMS-SPODES-client/0.6.7-0.7.0/diff.md --exclude *.pyd
+[2024-04-05 13:34:33] WARNING root fetch - processPackages [torch-model-archiver-nightly]: Timeout reached during download
+[2024-04-05 13:34:33] INFO root fetch - processPackages [torch-model-archiver-nightly]: executing diffoscope
+[2024-04-05 13:34:33] INFO root fetch - processPackages [torch-model-archiver-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torch_model_archiver_nightly-2024.4.4-py3-none-any.whl.zip tmp/torch_model_archiver_nightly-2024.4.5-py3-none-any.whl.zip --markdown 20240405/t/torch-model-archiver-nightly/2024.4.4-2024.4.5/diff.md --exclude *.pyd
+[2024-04-05 13:34:33] INFO root fetch - processPackages [grsq]: Downloading https://files.pythonhosted.org/packages/11/bb/9045aa7b995138d6a1852d84644a3a53c004b70e3b7d43e2af24a51dece4/grsq-1.2.7.tar.gz
+[2024-04-05 13:34:33] WARNING root fetch - processPackages [torch-workflow-archiver-nightly]: Timeout reached during download
+[2024-04-05 13:34:33] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: executing diffoscope
+[2024-04-05 13:34:33] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torch_workflow_archiver_nightly-2024.4.4-py3-none-any.whl.zip tmp/torch_workflow_archiver_nightly-2024.4.5-py3-none-any.whl.zip --markdown 20240405/t/torch-workflow-archiver-nightly/2024.4.4-2024.4.5/diff.md --exclude *.pyd
+[2024-04-05 13:34:33] WARNING root fetch - processPackages [devine]: Timeout reached during download
+[2024-04-05 13:34:33] INFO root fetch - processPackages [devine]: executing diffoscope
+[2024-04-05 13:34:33] INFO root fetch - processPackages [devine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/devine-3.3.0.tar.gz tmp/devine-3.3.1.tar.gz --markdown 20240405/d/devine/3.3.0-3.3.1/diff.md --exclude *.pyd
+[2024-04-05 13:34:33] WARNING root fetch - processPackages [grsq]: Timeout reached during download
+[2024-04-05 13:34:33] INFO root fetch - processPackages [grsq]: executing diffoscope
+[2024-04-05 13:34:33] INFO root fetch - processPackages [grsq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/grsq-1.2.6.tar.gz tmp/grsq-1.2.7.tar.gz --markdown 20240405/g/grsq/1.2.6-1.2.7/diff.md --exclude *.pyd
+[2024-04-05 13:34:34] INFO root fetch - processPackages [crewai]: Remove: archive file [/home/abi/fetcher/tmp/crewai-0.5.3.tar.gz]
+[2024-04-05 13:34:34] INFO root fetch - processPackages [crewai]: Remove: archive file [/home/abi/fetcher/tmp/crewai-0.5.5.tar.gz]
+[2024-04-05 13:34:34] INFO root fetch - main [MainThread]: End processing [crewai]: success
+[2024-04-05 13:34:34] INFO root fetch - processPackages [torch-model-archiver-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torch_model_archiver_nightly-2024.4.4-py3-none-any.whl.zip]
+[2024-04-05 13:34:34] INFO root fetch - processPackages [torch-model-archiver-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torch_model_archiver_nightly-2024.4.5-py3-none-any.whl.zip]
+[2024-04-05 13:34:34] INFO root fetch - main [MainThread]: End processing [torch-model-archiver-nightly]: success
+[2024-04-05 13:34:34] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torch_workflow_archiver_nightly-2024.4.4-py3-none-any.whl.zip]
+[2024-04-05 13:34:34] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torch_workflow_archiver_nightly-2024.4.5-py3-none-any.whl.zip]
+[2024-04-05 13:34:34] INFO root fetch - main [MainThread]: End processing [torch-workflow-archiver-nightly]: success
+[2024-04-05 13:34:34] INFO root fetch - processPackages [DLMS-SPODES-client]: Remove: archive file [/home/abi/fetcher/tmp/DLMS_SPODES_client-0.6.7.tar.gz]
+[2024-04-05 13:34:34] INFO root fetch - processPackages [DLMS-SPODES-client]: Remove: archive file [/home/abi/fetcher/tmp/DLMS_SPODES_client-0.7.0.tar.gz]
+[2024-04-05 13:34:34] INFO root fetch - main [MainThread]: End processing [DLMS-SPODES-client]: success
+[2024-04-05 13:34:34] INFO root fetch - processPackages [grsq]: Remove: archive file [/home/abi/fetcher/tmp/grsq-1.2.6.tar.gz]
+[2024-04-05 13:34:34] INFO root fetch - processPackages [grsq]: Remove: archive file [/home/abi/fetcher/tmp/grsq-1.2.7.tar.gz]
+[2024-04-05 13:34:34] INFO root fetch - main [MainThread]: End processing [grsq]: success
+[2024-04-05 13:34:34] INFO root fetch - processPackages [devine]: Remove: archive file [/home/abi/fetcher/tmp/devine-3.3.0.tar.gz]
+[2024-04-05 13:34:34] INFO root fetch - processPackages [devine]: Remove: archive file [/home/abi/fetcher/tmp/devine-3.3.1.tar.gz]
+[2024-04-05 13:34:34] INFO root fetch - main [MainThread]: End processing [devine]: success
+[2024-04-05 13:34:34] INFO root fetch - main [MainThread]: Store serial: [22635418]
