@@ -9152,3 +9152,64 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2024-04-05 04:04:32] INFO root fetch - processPackages [yowasp-wavedrom]: Remove: archive file [/home/abi/fetcher/tmp/yowasp_wavedrom-3.5.0.4-py3-none-any.whl.zip]
 [2024-04-05 04:04:32] INFO root fetch - main [MainThread]: End processing [yowasp-wavedrom]: success
 [2024-04-05 04:04:32] INFO root fetch - main [MainThread]: Store serial: [22631060]
+[2024-04-05 04:06:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22631060]
+[2024-04-05 04:06:40] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-05 04:06:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mojo-config
+[2024-04-05 04:06:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: integ-db
+[2024-04-05 04:06:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pytplot-mpl-temp
+[2024-04-05 04:06:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ogusa
+[2024-04-05 04:06:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: snowpark-extensions
+[2024-04-05 04:06:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: stelladb
+[2024-04-05 04:06:40] INFO root fetch - processPackages [pytplot-mpl-temp]: New version: [2.2.9] Old Version: [2.2.8]
+[2024-04-05 04:06:40] INFO root fetch - processPackages [stelladb]: New version: [0.2.7] Old Version: [0.2.6]
+[2024-04-05 04:06:41] INFO root fetch - processPackages [mojo-config]: New version: [1.3.9] Old Version: [1.3.8]
+[2024-04-05 04:06:41] WARNING root fetch - processPackages [integ-db]: Skipping, unable to determine old version
+[2024-04-05 04:06:41] INFO root fetch - main [MainThread]: End processing [integ-db] error
+[2024-04-05 04:06:41] INFO root fetch - processPackages [ogusa]: New version: [0.1.4] Old Version: [0.1.3]
+[2024-04-05 04:06:41] INFO root fetch - processPackages [pytplot-mpl-temp]: Downloading https://files.pythonhosted.org/packages/4a/3e/a5a5f1bb38b468da3d376ee81f842f2f8433d02dd89bf1e410d1a15a98e0/pytplot-mpl-temp-2.2.8.tar.gz
+[2024-04-05 04:06:41] INFO root fetch - processPackages [stelladb]: Downloading https://files.pythonhosted.org/packages/8a/95/975d7f89277969d1ccaadaa830f8ff258ac7b9b11a438bfd5e0185401dd1/stelladb-0.2.6.tar.gz
+[2024-04-05 04:06:41] INFO root fetch - processPackages [mojo-config]: Downloading https://files.pythonhosted.org/packages/a4/cc/2ca4b4e6a03640f1f240e3e4a12356d8ad8fe7320294cac819d54a345cdb/mojo_config-1.3.8.tar.gz
+[2024-04-05 04:06:41] INFO root fetch - processPackages [snowpark-extensions]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-05 04:06:41] WARNING root fetch - processPackages [stelladb]: Timeout reached during download
+[2024-04-05 04:06:41] WARNING root fetch - processPackages [mojo-config]: Timeout reached during download
+[2024-04-05 04:06:41] INFO root fetch - processPackages [stelladb]: Downloading https://files.pythonhosted.org/packages/a7/c5/1940dc01417a220ae1b16a9a3f84d13d67c772434e1a37ce19347c5a873f/stelladb-0.2.7.tar.gz
+[2024-04-05 04:06:41] INFO root fetch - processPackages [mojo-config]: Downloading https://files.pythonhosted.org/packages/2d/77/59ae99bdaf8ff23d580a64c62212f3a16bb49ad2cd8d08d9dbab4c159829/mojo_config-1.3.9.tar.gz
+[2024-04-05 04:06:41] WARNING root fetch - processPackages [pytplot-mpl-temp]: Timeout reached during download
+[2024-04-05 04:06:41] INFO root fetch - processPackages [snowpark-extensions]: Downloading https://files.pythonhosted.org/packages/d0/8e/e59bf3e511fc61c2a133346f75d8c58cd30019aa355d63bbc160411e28ba/snowpark_extensions-0.0.8.tar.gz
+[2024-04-05 04:06:41] INFO root fetch - processPackages [ogusa]: Downloading https://files.pythonhosted.org/packages/e7/2e/61ef19d43799c9c54335ee8e2950c81d2b9daf3fbcfcc271770a64b057c9/ogusa-0.1.3.tar.gz
+[2024-04-05 04:06:41] WARNING root fetch - processPackages [stelladb]: Timeout reached during download
+[2024-04-05 04:06:41] INFO root fetch - processPackages [stelladb]: executing diffoscope
+[2024-04-05 04:06:41] INFO root fetch - processPackages [stelladb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stelladb-0.2.6.tar.gz tmp/stelladb-0.2.7.tar.gz --markdown 20240405/s/stelladb/0.2.6-0.2.7/diff.md --exclude *.pyd
+[2024-04-05 04:06:41] INFO root fetch - processPackages [pytplot-mpl-temp]: Downloading https://files.pythonhosted.org/packages/21/aa/38c2164a03950b9adf6f62c59343823fefd067961a6402ad1c2311ef1a3a/pytplot-mpl-temp-2.2.9.tar.gz
+[2024-04-05 04:06:41] WARNING root fetch - processPackages [mojo-config]: Timeout reached during download
+[2024-04-05 04:06:41] INFO root fetch - processPackages [mojo-config]: executing diffoscope
+[2024-04-05 04:06:41] INFO root fetch - processPackages [mojo-config]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mojo_config-1.3.8.tar.gz tmp/mojo_config-1.3.9.tar.gz --markdown 20240405/m/mojo-config/1.3.8-1.3.9/diff.md --exclude *.pyd
+[2024-04-05 04:06:41] WARNING root fetch - processPackages [ogusa]: Timeout reached during download
+[2024-04-05 04:06:41] WARNING root fetch - processPackages [pytplot-mpl-temp]: Timeout reached during download
+[2024-04-05 04:06:41] INFO root fetch - processPackages [pytplot-mpl-temp]: executing diffoscope
+[2024-04-05 04:06:41] INFO root fetch - processPackages [pytplot-mpl-temp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytplot-mpl-temp-2.2.8.tar.gz tmp/pytplot-mpl-temp-2.2.9.tar.gz --markdown 20240405/p/pytplot-mpl-temp/2.2.8-2.2.9/diff.md --exclude *.pyd
+[2024-04-05 04:06:41] INFO root fetch - processPackages [ogusa]: Downloading https://files.pythonhosted.org/packages/ca/ea/b5297b9952635f5cd71d8638737558b1b69bce8bf287e8e37c80357a7bf0/ogusa-0.1.4.tar.gz
+[2024-04-05 04:06:41] WARNING root fetch - processPackages [snowpark-extensions]: Timeout reached during download
+[2024-04-05 04:06:41] WARNING root fetch - processPackages [ogusa]: Timeout reached during download
+[2024-04-05 04:06:41] INFO root fetch - processPackages [ogusa]: executing diffoscope
+[2024-04-05 04:06:41] INFO root fetch - processPackages [ogusa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ogusa-0.1.3.tar.gz tmp/ogusa-0.1.4.tar.gz --markdown 20240405/o/ogusa/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2024-04-05 04:06:41] INFO root fetch - processPackages [stelladb]: Remove: archive file [/home/abi/fetcher/tmp/stelladb-0.2.6.tar.gz]
+[2024-04-05 04:06:41] INFO root fetch - processPackages [stelladb]: Remove: archive file [/home/abi/fetcher/tmp/stelladb-0.2.7.tar.gz]
+[2024-04-05 04:06:41] INFO root fetch - main [MainThread]: End processing [stelladb]: success
+[2024-04-05 04:06:42] INFO root fetch - processPackages [mojo-config]: Remove: archive file [/home/abi/fetcher/tmp/mojo_config-1.3.8.tar.gz]
+[2024-04-05 04:06:42] INFO root fetch - processPackages [mojo-config]: Remove: archive file [/home/abi/fetcher/tmp/mojo_config-1.3.9.tar.gz]
+[2024-04-05 04:06:42] INFO root fetch - main [MainThread]: End processing [mojo-config]: success
+[2024-04-05 04:06:42] INFO root fetch - processPackages [snowpark-extensions]: Downloading https://files.pythonhosted.org/packages/74/2e/37a6bebfa325a001df8c8e0d5909748d9efdbda9de91877f7101bd32c687/snowpark_extensions-0.0.9.tar.gz
+[2024-04-05 04:06:42] INFO root fetch - processPackages [ogusa]: Remove: archive file [/home/abi/fetcher/tmp/ogusa-0.1.3.tar.gz]
+[2024-04-05 04:06:42] INFO root fetch - processPackages [ogusa]: Remove: archive file [/home/abi/fetcher/tmp/ogusa-0.1.4.tar.gz]
+[2024-04-05 04:06:42] INFO root fetch - main [MainThread]: End processing [ogusa]: success
+[2024-04-05 04:06:42] INFO root fetch - processPackages [pytplot-mpl-temp]: Remove: archive file [/home/abi/fetcher/tmp/pytplot-mpl-temp-2.2.8.tar.gz]
+[2024-04-05 04:06:42] INFO root fetch - processPackages [pytplot-mpl-temp]: Remove: archive file [/home/abi/fetcher/tmp/pytplot-mpl-temp-2.2.9.tar.gz]
+[2024-04-05 04:06:42] INFO root fetch - main [MainThread]: End processing [pytplot-mpl-temp]: success
+[2024-04-05 04:06:42] WARNING root fetch - processPackages [snowpark-extensions]: Timeout reached during download
+[2024-04-05 04:06:42] INFO root fetch - processPackages [snowpark-extensions]: executing diffoscope
+[2024-04-05 04:06:42] INFO root fetch - processPackages [snowpark-extensions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/snowpark_extensions-0.0.8.tar.gz tmp/snowpark_extensions-0.0.9.tar.gz --markdown 20240405/s/snowpark-extensions/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2024-04-05 04:06:43] INFO root fetch - processPackages [snowpark-extensions]: Remove: archive file [/home/abi/fetcher/tmp/snowpark_extensions-0.0.8.tar.gz]
+[2024-04-05 04:06:43] INFO root fetch - processPackages [snowpark-extensions]: Remove: archive file [/home/abi/fetcher/tmp/snowpark_extensions-0.0.9.tar.gz]
+[2024-04-05 04:06:43] INFO root fetch - main [MainThread]: End processing [snowpark-extensions]: success
+[2024-04-05 04:06:43] INFO root fetch - main [MainThread]: Store serial: [22631077]
