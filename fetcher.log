@@ -14357,3 +14357,28 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2024-04-05 09:02:50] INFO root fetch - processPackages [tf-models-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_models_nightly-2.9.0.dev20220920-py2.py3-none-any.whl.zip]
 [2024-04-05 09:02:50] INFO root fetch - main [MainThread]: End processing [tf-models-nightly]: success
 [2024-04-05 09:02:50] INFO root fetch - main [MainThread]: Store serial: [22632691]
+[2024-04-05 09:04:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22632691]
+[2024-04-05 09:04:59] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-05 09:04:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: graas-observability-utility
+[2024-04-05 09:04:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cpop
+[2024-04-05 09:04:59] INFO root fetch - processPackages [cpop]: New version: [29.1.0] Old Version: [29.0.0]
+[2024-04-05 09:04:59] INFO root fetch - processPackages [graas-observability-utility]: New version: [1.5.7] Old Version: [1.5.6]
+[2024-04-05 09:05:00] INFO root fetch - processPackages [cpop]: Downloading https://files.pythonhosted.org/packages/13/fb/81df2d4fb60b8b116042d4d5bb2dab293f8b1e1cad5c46de526ed356188a/cpop-29.0.0.tar.gz
+[2024-04-05 09:05:00] INFO root fetch - processPackages [graas-observability-utility]: Downloading https://files.pythonhosted.org/packages/fb/c1/434492030c42e0ecf59079e3ce91bda2cab66ae3253f50cc49bfd4a82395/graas-observability-utility-1.5.6.tar.gz
+[2024-04-05 09:05:00] WARNING root fetch - processPackages [cpop]: Timeout reached during download
+[2024-04-05 09:05:00] WARNING root fetch - processPackages [graas-observability-utility]: Timeout reached during download
+[2024-04-05 09:05:00] INFO root fetch - processPackages [cpop]: Downloading https://files.pythonhosted.org/packages/5f/ba/796debb8ccaa5b0415ab65c1108b3b93323431de694c7ac141ead8b16fe5/cpop-29.1.0.tar.gz
+[2024-04-05 09:05:00] INFO root fetch - processPackages [graas-observability-utility]: Downloading https://files.pythonhosted.org/packages/8b/7b/ad0d16190e9d8f781c3e39009a3522f2f253dfed19b1064f86d82804a113/graas-observability-utility-1.5.7.tar.gz
+[2024-04-05 09:05:00] WARNING root fetch - processPackages [cpop]: Timeout reached during download
+[2024-04-05 09:05:00] INFO root fetch - processPackages [cpop]: executing diffoscope
+[2024-04-05 09:05:00] INFO root fetch - processPackages [cpop]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cpop-29.0.0.tar.gz tmp/cpop-29.1.0.tar.gz --markdown 20240405/c/cpop/29.0.0-29.1.0/diff.md --exclude *.pyd
+[2024-04-05 09:05:00] WARNING root fetch - processPackages [graas-observability-utility]: Timeout reached during download
+[2024-04-05 09:05:00] INFO root fetch - processPackages [graas-observability-utility]: executing diffoscope
+[2024-04-05 09:05:00] INFO root fetch - processPackages [graas-observability-utility]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/graas-observability-utility-1.5.6.tar.gz tmp/graas-observability-utility-1.5.7.tar.gz --markdown 20240405/g/graas-observability-utility/1.5.6-1.5.7/diff.md --exclude *.pyd
+[2024-04-05 09:05:01] INFO root fetch - processPackages [graas-observability-utility]: Remove: archive file [/home/abi/fetcher/tmp/graas-observability-utility-1.5.6.tar.gz]
+[2024-04-05 09:05:01] INFO root fetch - processPackages [graas-observability-utility]: Remove: archive file [/home/abi/fetcher/tmp/graas-observability-utility-1.5.7.tar.gz]
+[2024-04-05 09:05:01] INFO root fetch - main [MainThread]: End processing [graas-observability-utility]: success
+[2024-04-05 09:05:01] INFO root fetch - processPackages [cpop]: Remove: archive file [/home/abi/fetcher/tmp/cpop-29.0.0.tar.gz]
+[2024-04-05 09:05:01] INFO root fetch - processPackages [cpop]: Remove: archive file [/home/abi/fetcher/tmp/cpop-29.1.0.tar.gz]
+[2024-04-05 09:05:01] INFO root fetch - main [MainThread]: End processing [cpop]: success
+[2024-04-05 09:05:01] INFO root fetch - main [MainThread]: Store serial: [22632696]
