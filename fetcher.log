@@ -8985,3 +8985,56 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2024-04-05 03:51:28] INFO root fetch - processPackages [tensorflow-serving-api-gpu]: Remove: archive file [/home/abi/fetcher/tmp/tensorflow_serving_api_gpu-2.9.3-py2.py3-none-any.whl.zip]
 [2024-04-05 03:51:28] INFO root fetch - main [MainThread]: End processing [tensorflow-serving-api-gpu]: success
 [2024-04-05 03:51:28] INFO root fetch - main [MainThread]: Store serial: [22630963]
+[2024-04-05 03:53:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22630963]
+[2024-04-05 03:53:37] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-05 03:53:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: advcalc
+[2024-04-05 03:53:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mojo-config
+[2024-04-05 03:53:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: akasaka
+[2024-04-05 03:53:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: service-oriented
+[2024-04-05 03:53:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: integ-db
+[2024-04-05 03:53:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: sleipnirgroup-jormungandr
+[2024-04-05 03:53:37] INFO root fetch - processPackages [service-oriented]: New version: [0.0.2a9] Old Version: [0.0.2a8]
+[2024-04-05 03:53:37] INFO root fetch - processPackages [mojo-config]: New version: [1.3.9] Old Version: [1.3.8]
+[2024-04-05 03:53:37] INFO root fetch - processPackages [service-oriented]: Downloading https://files.pythonhosted.org/packages/cc/e0/a196a6cd6ec1d279dbc362dd8d9d940370eb873c7d3aa02032dc3dd534ba/service_oriented-0.0.2a8.tar.gz
+[2024-04-05 03:53:37] INFO root fetch - processPackages [mojo-config]: Downloading https://files.pythonhosted.org/packages/a4/cc/2ca4b4e6a03640f1f240e3e4a12356d8ad8fe7320294cac819d54a345cdb/mojo_config-1.3.8.tar.gz
+[2024-04-05 03:53:37] INFO root fetch - processPackages [akasaka]: New version: [0.1.4] Old Version: [0.1.3]
+[2024-04-05 03:53:37] WARNING root fetch - processPackages [integ-db]: Skipping, unable to determine old version
+[2024-04-05 03:53:37] INFO root fetch - main [MainThread]: End processing [integ-db] error
+[2024-04-05 03:53:37] WARNING root fetch - processPackages [advcalc]: Skipping, unable to determine old version
+[2024-04-05 03:53:37] INFO root fetch - main [MainThread]: End processing [advcalc] error
+[2024-04-05 03:53:37] WARNING root fetch - processPackages [service-oriented]: Timeout reached during download
+[2024-04-05 03:53:37] WARNING root fetch - processPackages [mojo-config]: Timeout reached during download
+[2024-04-05 03:53:37] INFO root fetch - processPackages [sleipnirgroup-jormungandr]: New version: [0.0.1.dev99] Old Version: [0.0.1.dev98]
+[2024-04-05 03:53:37] INFO root fetch - processPackages [service-oriented]: Downloading https://files.pythonhosted.org/packages/91/93/8808e2b0a7e857434b3c8a2d8ecd72eb853035e8af948edf46e51c3d1101/service_oriented-0.0.2a9.tar.gz
+[2024-04-05 03:53:37] INFO root fetch - processPackages [mojo-config]: Downloading https://files.pythonhosted.org/packages/2d/77/59ae99bdaf8ff23d580a64c62212f3a16bb49ad2cd8d08d9dbab4c159829/mojo_config-1.3.9.tar.gz
+[2024-04-05 03:53:38] INFO root fetch - processPackages [akasaka]: Downloading https://files.pythonhosted.org/packages/9f/17/9dc4080057537cba50faa1df7a9d2fbab6f6a9a2e117ae7271bf73d2ff30/akasaka-0.1.3.tar.gz
+[2024-04-05 03:53:38] WARNING root fetch - processPackages [service-oriented]: Timeout reached during download
+[2024-04-05 03:53:38] INFO root fetch - processPackages [service-oriented]: executing diffoscope
+[2024-04-05 03:53:38] INFO root fetch - processPackages [service-oriented]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/service_oriented-0.0.2a8.tar.gz tmp/service_oriented-0.0.2a9.tar.gz --markdown 20240405/s/service-oriented/0.0.2a8-0.0.2a9/diff.md --exclude *.pyd
+[2024-04-05 03:53:38] WARNING root fetch - processPackages [mojo-config]: Timeout reached during download
+[2024-04-05 03:53:38] INFO root fetch - processPackages [mojo-config]: executing diffoscope
+[2024-04-05 03:53:38] INFO root fetch - processPackages [mojo-config]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mojo_config-1.3.8.tar.gz tmp/mojo_config-1.3.9.tar.gz --markdown 20240405/m/mojo-config/1.3.8-1.3.9/diff.md --exclude *.pyd
+[2024-04-05 03:53:38] WARNING root fetch - processPackages [akasaka]: Timeout reached during download
+[2024-04-05 03:53:38] INFO root fetch - processPackages [sleipnirgroup-jormungandr]: Downloading https://files.pythonhosted.org/packages/cc/12/913e734462cf5d457ad69ec174744b76c771c8b63ebfb55efeb3cf02373e/sleipnirgroup_jormungandr-0.0.1.dev98.tar.gz
+[2024-04-05 03:53:38] WARNING root fetch - processPackages [sleipnirgroup-jormungandr]: Timeout reached during download
+[2024-04-05 03:53:38] INFO root fetch - processPackages [akasaka]: Downloading https://files.pythonhosted.org/packages/50/76/5a4d50665f366b02c1d936b44ddccb7b4fe1f068d5bc6fbc468b7812b241/akasaka-0.1.4.tar.gz
+[2024-04-05 03:53:38] WARNING root fetch - processPackages [akasaka]: Timeout reached during download
+[2024-04-05 03:53:38] INFO root fetch - processPackages [akasaka]: executing diffoscope
+[2024-04-05 03:53:38] INFO root fetch - processPackages [akasaka]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/akasaka-0.1.3.tar.gz tmp/akasaka-0.1.4.tar.gz --markdown 20240405/a/akasaka/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2024-04-05 03:53:38] INFO root fetch - processPackages [sleipnirgroup-jormungandr]: Downloading https://files.pythonhosted.org/packages/c4/65/9e9a4eafe0a550c5be12a69cf1665a71a4b5c434089722b18386b65569f5/sleipnirgroup_jormungandr-0.0.1.dev99.tar.gz
+[2024-04-05 03:53:38] WARNING root fetch - processPackages [sleipnirgroup-jormungandr]: Timeout reached during download
+[2024-04-05 03:53:38] INFO root fetch - processPackages [sleipnirgroup-jormungandr]: executing diffoscope
+[2024-04-05 03:53:38] INFO root fetch - processPackages [sleipnirgroup-jormungandr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sleipnirgroup_jormungandr-0.0.1.dev98.tar.gz tmp/sleipnirgroup_jormungandr-0.0.1.dev99.tar.gz --markdown 20240405/s/sleipnirgroup-jormungandr/0.0.1.dev98-0.0.1.dev99/diff.md --exclude *.pyd
+[2024-04-05 03:53:38] INFO root fetch - processPackages [service-oriented]: Remove: archive file [/home/abi/fetcher/tmp/service_oriented-0.0.2a8.tar.gz]
+[2024-04-05 03:53:38] INFO root fetch - processPackages [service-oriented]: Remove: archive file [/home/abi/fetcher/tmp/service_oriented-0.0.2a9.tar.gz]
+[2024-04-05 03:53:38] INFO root fetch - main [MainThread]: End processing [service-oriented]: success
+[2024-04-05 03:53:38] INFO root fetch - processPackages [mojo-config]: Remove: archive file [/home/abi/fetcher/tmp/mojo_config-1.3.8.tar.gz]
+[2024-04-05 03:53:38] INFO root fetch - processPackages [mojo-config]: Remove: archive file [/home/abi/fetcher/tmp/mojo_config-1.3.9.tar.gz]
+[2024-04-05 03:53:38] INFO root fetch - main [MainThread]: End processing [mojo-config]: success
+[2024-04-05 03:53:38] INFO root fetch - processPackages [akasaka]: Remove: archive file [/home/abi/fetcher/tmp/akasaka-0.1.3.tar.gz]
+[2024-04-05 03:53:38] INFO root fetch - processPackages [akasaka]: Remove: archive file [/home/abi/fetcher/tmp/akasaka-0.1.4.tar.gz]
+[2024-04-05 03:53:38] INFO root fetch - main [MainThread]: End processing [akasaka]: success
+[2024-04-05 03:53:39] INFO root fetch - processPackages [sleipnirgroup-jormungandr]: Remove: archive file [/home/abi/fetcher/tmp/sleipnirgroup_jormungandr-0.0.1.dev98.tar.gz]
+[2024-04-05 03:53:39] INFO root fetch - processPackages [sleipnirgroup-jormungandr]: Remove: archive file [/home/abi/fetcher/tmp/sleipnirgroup_jormungandr-0.0.1.dev99.tar.gz]
+[2024-04-05 03:53:39] INFO root fetch - main [MainThread]: End processing [sleipnirgroup-jormungandr]: success
+[2024-04-05 03:53:39] INFO root fetch - main [MainThread]: Store serial: [22630985]
