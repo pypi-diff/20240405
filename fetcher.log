@@ -3371,3 +3371,50 @@
 [2024-04-05 02:34:25] INFO root fetch - processPackages [Geode-Conversion]: Remove: archive file [/home/abi/fetcher/tmp/Geode_Conversion-5.2.7rc1-cp39-cp39-win_amd64.whl.zip]
 [2024-04-05 02:34:25] INFO root fetch - main [MainThread]: End processing [Geode-Conversion]: success
 [2024-04-05 02:34:25] INFO root fetch - main [MainThread]: Store serial: [22629286]
+[2024-04-05 02:36:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22629286]
+[2024-04-05 02:36:41] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-05 02:36:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: coveragespace
+[2024-04-05 02:36:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: feno
+[2024-04-05 02:36:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: encommon
+[2024-04-05 02:36:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: OpenGeode-Inspector
+[2024-04-05 02:36:41] INFO root fetch - processPackages [encommon]: New version: [0.7.4] Old Version: [0.7.3]
+[2024-04-05 02:36:41] INFO root fetch - processPackages [coveragespace]: New version: [6.1] Old Version: [6.0.2]
+[2024-04-05 02:36:41] INFO root fetch - processPackages [feno]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-04-05 02:36:41] INFO root fetch - processPackages [OpenGeode-Inspector]: New version: [5.0.5rc1] Old Version: [5.0.5]
+[2024-04-05 02:36:41] INFO root fetch - processPackages [encommon]: Downloading https://files.pythonhosted.org/packages/b2/ee/08f6f7b97908470b6a609af79f727bb196cd579209d2dd5dce8778abb6db/encommon-0.7.3.tar.gz
+[2024-04-05 02:36:41] INFO root fetch - processPackages [feno]: Downloading https://files.pythonhosted.org/packages/95/ec/bd51af4ccadeb4613bc2b3c85490878d4aebe0f64a20cf1b3008d8348bd7/feno-0.1.1.tar.gz
+[2024-04-05 02:36:41] INFO root fetch - processPackages [coveragespace]: Downloading https://files.pythonhosted.org/packages/ee/6c/2a1ddf3f9d2b3768273e894e0b83ac08650adbb96e465d2a1b0d96670b72/coveragespace-6.0.2.tar.gz
+[2024-04-05 02:36:41] WARNING root fetch - processPackages [encommon]: Timeout reached during download
+[2024-04-05 02:36:41] WARNING root fetch - processPackages [feno]: Timeout reached during download
+[2024-04-05 02:36:41] INFO root fetch - processPackages [OpenGeode-Inspector]: Downloading https://files.pythonhosted.org/packages/54/b4/5bb4c02933f6a76c9abdbeff35d86e3915664b0cb6fb5c512be1a75a762b/OpenGeode_Inspector-5.0.5-cp39-cp39-manylinux2014_x86_64.whl
+[2024-04-05 02:36:41] WARNING root fetch - processPackages [coveragespace]: Timeout reached during download
+[2024-04-05 02:36:41] INFO root fetch - processPackages [encommon]: Downloading https://files.pythonhosted.org/packages/4a/e4/80a387051519e4b22c827b99c9e91a576fa80cfa6173b1d5769afb2711fc/encommon-0.7.4.tar.gz
+[2024-04-05 02:36:41] INFO root fetch - processPackages [feno]: Downloading https://files.pythonhosted.org/packages/56/bb/fdb1d5fe852102295959af621a04ca0d000c7e1db3a87388d4217411956b/feno-0.1.2.tar.gz
+[2024-04-05 02:36:41] WARNING root fetch - processPackages [encommon]: Timeout reached during download
+[2024-04-05 02:36:41] INFO root fetch - processPackages [encommon]: executing diffoscope
+[2024-04-05 02:36:41] INFO root fetch - processPackages [encommon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/encommon-0.7.3.tar.gz tmp/encommon-0.7.4.tar.gz --markdown 20240405/e/encommon/0.7.3-0.7.4/diff.md --exclude *.pyd
+[2024-04-05 02:36:41] INFO root fetch - processPackages [coveragespace]: Downloading https://files.pythonhosted.org/packages/3b/74/fa7c8acc6d9cd18e5489f1abd9994d1202d643e88722f52c9ba4ebc5ccd3/coveragespace-6.1.tar.gz
+[2024-04-05 02:36:41] WARNING root fetch - processPackages [OpenGeode-Inspector]: Timeout reached during download
+[2024-04-05 02:36:41] WARNING root fetch - processPackages [feno]: Timeout reached during download
+[2024-04-05 02:36:41] INFO root fetch - processPackages [feno]: executing diffoscope
+[2024-04-05 02:36:41] INFO root fetch - processPackages [feno]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/feno-0.1.1.tar.gz tmp/feno-0.1.2.tar.gz --markdown 20240405/f/feno/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2024-04-05 02:36:41] WARNING root fetch - processPackages [coveragespace]: Timeout reached during download
+[2024-04-05 02:36:41] INFO root fetch - processPackages [coveragespace]: executing diffoscope
+[2024-04-05 02:36:41] INFO root fetch - processPackages [coveragespace]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coveragespace-6.0.2.tar.gz tmp/coveragespace-6.1.tar.gz --markdown 20240405/c/coveragespace/6.0.2-6.1/diff.md --exclude *.pyd
+[2024-04-05 02:36:42] INFO root fetch - processPackages [OpenGeode-Inspector]: Downloading https://files.pythonhosted.org/packages/74/dc/3b018421e48d05ced6f61b06a114273e8ccd91130ed4e804b16fa76ccbb9/OpenGeode_Inspector-5.0.5rc1-cp39-cp39-win_amd64.whl
+[2024-04-05 02:36:42] WARNING root fetch - processPackages [OpenGeode-Inspector]: Timeout reached during download
+[2024-04-05 02:36:42] INFO root fetch - processPackages [OpenGeode-Inspector]: executing diffoscope
+[2024-04-05 02:36:42] INFO root fetch - processPackages [OpenGeode-Inspector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/OpenGeode_Inspector-5.0.5-cp39-cp39-manylinux2014_x86_64.whl.zip tmp/OpenGeode_Inspector-5.0.5rc1-cp39-cp39-win_amd64.whl.zip --markdown 20240405/O/OpenGeode-Inspector/5.0.5-5.0.5rc1/diff.md --exclude *.pyd
+[2024-04-05 02:36:42] INFO root fetch - processPackages [feno]: Remove: archive file [/home/abi/fetcher/tmp/feno-0.1.1.tar.gz]
+[2024-04-05 02:36:42] INFO root fetch - processPackages [feno]: Remove: archive file [/home/abi/fetcher/tmp/feno-0.1.2.tar.gz]
+[2024-04-05 02:36:42] INFO root fetch - main [MainThread]: End processing [feno]: success
+[2024-04-05 02:36:42] INFO root fetch - processPackages [coveragespace]: Remove: archive file [/home/abi/fetcher/tmp/coveragespace-6.0.2.tar.gz]
+[2024-04-05 02:36:42] INFO root fetch - processPackages [coveragespace]: Remove: archive file [/home/abi/fetcher/tmp/coveragespace-6.1.tar.gz]
+[2024-04-05 02:36:42] INFO root fetch - main [MainThread]: End processing [coveragespace]: success
+[2024-04-05 02:36:42] INFO root fetch - processPackages [encommon]: Remove: archive file [/home/abi/fetcher/tmp/encommon-0.7.3.tar.gz]
+[2024-04-05 02:36:42] INFO root fetch - processPackages [encommon]: Remove: archive file [/home/abi/fetcher/tmp/encommon-0.7.4.tar.gz]
+[2024-04-05 02:36:42] INFO root fetch - main [MainThread]: End processing [encommon]: success
+[2024-04-05 02:36:42] INFO root fetch - processPackages [OpenGeode-Inspector]: Remove: archive file [/home/abi/fetcher/tmp/OpenGeode_Inspector-5.0.5-cp39-cp39-manylinux2014_x86_64.whl.zip]
+[2024-04-05 02:36:42] INFO root fetch - processPackages [OpenGeode-Inspector]: Remove: archive file [/home/abi/fetcher/tmp/OpenGeode_Inspector-5.0.5rc1-cp39-cp39-win_amd64.whl.zip]
+[2024-04-05 02:36:42] INFO root fetch - main [MainThread]: End processing [OpenGeode-Inspector]: success
+[2024-04-05 02:36:42] INFO root fetch - main [MainThread]: Store serial: [22629306]
