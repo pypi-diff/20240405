@@ -24778,3 +24778,75 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2024-04-05 15:44:41] INFO root fetch - processPackages [mux-python]: Remove: archive file [/home/abi/fetcher/tmp/mux_python-3.9.0.tar.gz]
 [2024-04-05 15:44:41] INFO root fetch - main [MainThread]: End processing [mux-python]: success
 [2024-04-05 15:44:41] INFO root fetch - main [MainThread]: Store serial: [22636843]
+[2024-04-05 15:46:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22636843]
+[2024-04-05 15:46:50] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-05 15:46:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: xnattagger
+[2024-04-05 15:46:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gauge-web-app-steps
+[2024-04-05 15:46:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dti-tax-core-vsdc-api-client-swagger
+[2024-04-05 15:46:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: salebox-django
+[2024-04-05 15:46:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cmi-docx
+[2024-04-05 15:46:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: lxa-iobus
+[2024-04-05 15:46:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ex-fuzzy
+[2024-04-05 15:46:50] INFO root fetch - processPackages [cmi-docx]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-04-05 15:46:50] INFO root fetch - processPackages [xnattagger]: New version: [0.6.8] Old Version: [0.6.7]
+[2024-04-05 15:46:50] INFO root fetch - processPackages [salebox-django]: New version: [0.0.99] Old Version: [0.0.98]
+[2024-04-05 15:46:50] INFO root fetch - processPackages [xnattagger]: Downloading https://files.pythonhosted.org/packages/b3/6e/b2138308074dde87db623628d1ea7edd99873ae21bb7c45828b9e01f781a/xnattagger-0.6.7-py2.py3-none-any.whl
+[2024-04-05 15:46:50] INFO root fetch - processPackages [lxa-iobus]: New version: [0.5.0] Old Version: [0.4.2]
+[2024-04-05 15:46:50] INFO root fetch - processPackages [gauge-web-app-steps]: New version: [0.60] Old Version: [0.59]
+[2024-04-05 15:46:50] WARNING root fetch - processPackages [dti-tax-core-vsdc-api-client-swagger]: Skipping, unable to determine old version
+[2024-04-05 15:46:50] INFO root fetch - main [MainThread]: End processing [dti-tax-core-vsdc-api-client-swagger] error
+[2024-04-05 15:46:50] INFO root fetch - processPackages [salebox-django]: Downloading https://files.pythonhosted.org/packages/fd/2e/43c58d9ec2da0e8278438b99de4884789d7e7c37c482790cde53f0199c9d/salebox-django-0.0.98.tar.gz
+[2024-04-05 15:46:50] INFO root fetch - processPackages [ex-fuzzy]: New version: [1.1.0] Old Version: [1.0.7]
+[2024-04-05 15:46:50] INFO root fetch - processPackages [cmi-docx]: Downloading https://files.pythonhosted.org/packages/84/c6/d1b0c8efa57e02f933b15c8b23b0d0a931673152c1b35af43f505ad6c2db/cmi_docx-0.1.2.tar.gz
+[2024-04-05 15:46:50] WARNING root fetch - processPackages [xnattagger]: Timeout reached during download
+[2024-04-05 15:46:50] WARNING root fetch - processPackages [salebox-django]: Timeout reached during download
+[2024-04-05 15:46:50] INFO root fetch - processPackages [lxa-iobus]: Downloading https://files.pythonhosted.org/packages/ae/e8/0a37a0ce065c3d32b7c5d375362d9b0bf23be5f63d52d0ece87789256aac/lxa-iobus-0.4.2.tar.gz
+[2024-04-05 15:46:50] INFO root fetch - processPackages [gauge-web-app-steps]: Downloading https://files.pythonhosted.org/packages/8f/ee/cd6a0b6d4729ab473b2c9fb0c2cad4930df4f5efe082688399bfe9a70f49/gauge-web-app-steps-0.59.tar.gz
+[2024-04-05 15:46:50] WARNING root fetch - processPackages [cmi-docx]: Timeout reached during download
+[2024-04-05 15:46:50] INFO root fetch - processPackages [salebox-django]: Downloading https://files.pythonhosted.org/packages/69/4b/94b7285fb4a0796666dd186b2e4183ad17e38a66ab79ca823f9b4b2d18be/salebox-django-0.0.99.tar.gz
+[2024-04-05 15:46:50] INFO root fetch - processPackages [ex-fuzzy]: Downloading https://files.pythonhosted.org/packages/76/d2/71542e0e3d8415b6ad760e8204c4e6a21adef07b966a0bd1f736457ce476/ex_fuzzy-1.0.7.tar.gz
+[2024-04-05 15:46:50] INFO root fetch - processPackages [xnattagger]: Downloading https://files.pythonhosted.org/packages/f0/df/6822977743796856aafd2711415a744c5ae582bddbe78c698a7057cce9ae/xnattagger-0.6.8-py2.py3-none-any.whl
+[2024-04-05 15:46:50] WARNING root fetch - processPackages [gauge-web-app-steps]: Timeout reached during download
+[2024-04-05 15:46:50] WARNING root fetch - processPackages [salebox-django]: Timeout reached during download
+[2024-04-05 15:46:50] INFO root fetch - processPackages [salebox-django]: executing diffoscope
+[2024-04-05 15:46:50] INFO root fetch - processPackages [salebox-django]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/salebox-django-0.0.98.tar.gz tmp/salebox-django-0.0.99.tar.gz --markdown 20240405/s/salebox-django/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2024-04-05 15:46:50] WARNING root fetch - processPackages [lxa-iobus]: Timeout reached during download
+[2024-04-05 15:46:50] INFO root fetch - processPackages [cmi-docx]: Downloading https://files.pythonhosted.org/packages/02/d0/958a4890450360fd1066ce43087072aca853232a3bdbdf8c1dcf5fac3268/cmi_docx-0.1.3.tar.gz
+[2024-04-05 15:46:50] WARNING root fetch - processPackages [ex-fuzzy]: Timeout reached during download
+[2024-04-05 15:46:50] WARNING root fetch - processPackages [xnattagger]: Timeout reached during download
+[2024-04-05 15:46:50] INFO root fetch - processPackages [xnattagger]: executing diffoscope
+[2024-04-05 15:46:50] INFO root fetch - processPackages [xnattagger]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xnattagger-0.6.7-py2.py3-none-any.whl.zip tmp/xnattagger-0.6.8-py2.py3-none-any.whl.zip --markdown 20240405/x/xnattagger/0.6.7-0.6.8/diff.md --exclude *.pyd
+[2024-04-05 15:46:51] INFO root fetch - processPackages [gauge-web-app-steps]: Downloading https://files.pythonhosted.org/packages/ae/b5/11fd5413040ef866eabd57a30103306add4ddb2fcb51623ebf526851b512/gauge-web-app-steps-0.60.tar.gz
+[2024-04-05 15:46:51] WARNING root fetch - processPackages [cmi-docx]: Timeout reached during download
+[2024-04-05 15:46:51] INFO root fetch - processPackages [cmi-docx]: executing diffoscope
+[2024-04-05 15:46:51] INFO root fetch - processPackages [cmi-docx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cmi_docx-0.1.2.tar.gz tmp/cmi_docx-0.1.3.tar.gz --markdown 20240405/c/cmi-docx/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2024-04-05 15:46:51] INFO root fetch - processPackages [lxa-iobus]: Downloading https://files.pythonhosted.org/packages/17/69/c2eedb0400427a79e986b7e8500cfb7757ac827a1423f0564e5c4132eaed/lxa-iobus-0.5.0.tar.gz
+[2024-04-05 15:46:51] WARNING root fetch - processPackages [gauge-web-app-steps]: Timeout reached during download
+[2024-04-05 15:46:51] INFO root fetch - processPackages [gauge-web-app-steps]: executing diffoscope
+[2024-04-05 15:46:51] INFO root fetch - processPackages [gauge-web-app-steps]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gauge-web-app-steps-0.59.tar.gz tmp/gauge-web-app-steps-0.60.tar.gz --markdown 20240405/g/gauge-web-app-steps/0.59-0.60/diff.md --exclude *.pyd
+[2024-04-05 15:46:51] INFO root fetch - processPackages [ex-fuzzy]: Downloading https://files.pythonhosted.org/packages/90/d0/f7d19186527a9925868d3cc630afa16923a07198100ba57c50cc9a6ce59c/ex_fuzzy-1.1.0.tar.gz
+[2024-04-05 15:46:51] WARNING root fetch - processPackages [lxa-iobus]: Timeout reached during download
+[2024-04-05 15:46:51] INFO root fetch - processPackages [lxa-iobus]: executing diffoscope
+[2024-04-05 15:46:51] INFO root fetch - processPackages [lxa-iobus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lxa-iobus-0.4.2.tar.gz tmp/lxa-iobus-0.5.0.tar.gz --markdown 20240405/l/lxa-iobus/0.4.2-0.5.0/diff.md --exclude *.pyd
+[2024-04-05 15:46:51] WARNING root fetch - processPackages [ex-fuzzy]: Timeout reached during download
+[2024-04-05 15:46:51] INFO root fetch - processPackages [ex-fuzzy]: executing diffoscope
+[2024-04-05 15:46:51] INFO root fetch - processPackages [ex-fuzzy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ex_fuzzy-1.0.7.tar.gz tmp/ex_fuzzy-1.1.0.tar.gz --markdown 20240405/e/ex-fuzzy/1.0.7-1.1.0/diff.md --exclude *.pyd
+[2024-04-05 15:46:51] INFO root fetch - processPackages [xnattagger]: Remove: archive file [/home/abi/fetcher/tmp/xnattagger-0.6.7-py2.py3-none-any.whl.zip]
+[2024-04-05 15:46:51] INFO root fetch - processPackages [xnattagger]: Remove: archive file [/home/abi/fetcher/tmp/xnattagger-0.6.8-py2.py3-none-any.whl.zip]
+[2024-04-05 15:46:51] INFO root fetch - main [MainThread]: End processing [xnattagger]: success
+[2024-04-05 15:46:51] INFO root fetch - processPackages [cmi-docx]: Remove: archive file [/home/abi/fetcher/tmp/cmi_docx-0.1.2.tar.gz]
+[2024-04-05 15:46:51] INFO root fetch - processPackages [cmi-docx]: Remove: archive file [/home/abi/fetcher/tmp/cmi_docx-0.1.3.tar.gz]
+[2024-04-05 15:46:51] INFO root fetch - main [MainThread]: End processing [cmi-docx]: success
+[2024-04-05 15:46:51] INFO root fetch - processPackages [salebox-django]: Remove: archive file [/home/abi/fetcher/tmp/salebox-django-0.0.98.tar.gz]
+[2024-04-05 15:46:51] INFO root fetch - processPackages [salebox-django]: Remove: archive file [/home/abi/fetcher/tmp/salebox-django-0.0.99.tar.gz]
+[2024-04-05 15:46:51] INFO root fetch - main [MainThread]: End processing [salebox-django]: success
+[2024-04-05 15:46:51] INFO root fetch - processPackages [gauge-web-app-steps]: Remove: archive file [/home/abi/fetcher/tmp/gauge-web-app-steps-0.59.tar.gz]
+[2024-04-05 15:46:51] INFO root fetch - processPackages [gauge-web-app-steps]: Remove: archive file [/home/abi/fetcher/tmp/gauge-web-app-steps-0.60.tar.gz]
+[2024-04-05 15:46:51] INFO root fetch - main [MainThread]: End processing [gauge-web-app-steps]: success
+[2024-04-05 15:46:52] INFO root fetch - processPackages [ex-fuzzy]: Remove: archive file [/home/abi/fetcher/tmp/ex_fuzzy-1.0.7.tar.gz]
+[2024-04-05 15:46:52] INFO root fetch - processPackages [ex-fuzzy]: Remove: archive file [/home/abi/fetcher/tmp/ex_fuzzy-1.1.0.tar.gz]
+[2024-04-05 15:46:52] INFO root fetch - main [MainThread]: End processing [ex-fuzzy]: success
+[2024-04-05 15:46:52] INFO root fetch - processPackages [lxa-iobus]: Remove: archive file [/home/abi/fetcher/tmp/lxa-iobus-0.4.2.tar.gz]
+[2024-04-05 15:46:52] INFO root fetch - processPackages [lxa-iobus]: Remove: archive file [/home/abi/fetcher/tmp/lxa-iobus-0.5.0.tar.gz]
+[2024-04-05 15:46:52] INFO root fetch - main [MainThread]: End processing [lxa-iobus]: success
+[2024-04-05 15:46:52] INFO root fetch - main [MainThread]: Store serial: [22636861]
