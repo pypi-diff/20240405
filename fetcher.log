@@ -21618,3 +21618,22 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2024-04-05 14:00:53] INFO root fetch - processPackages [autotrain-advanced]: Remove: archive file [/home/abi/fetcher/tmp/autotrain-advanced-0.7.9.tar.gz]
 [2024-04-05 14:00:53] INFO root fetch - main [MainThread]: End processing [autotrain-advanced]: success
 [2024-04-05 14:00:53] INFO root fetch - main [MainThread]: Store serial: [22635620]
+[2024-04-05 14:02:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22635620]
+[2024-04-05 14:03:02] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-05 14:03:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cognite-sdk
+[2024-04-05 14:03:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: panel
+[2024-04-05 14:03:02] INFO root fetch - processPackages [cognite-sdk]: New version: [7.9.0] Old Version: [7.8.9]
+[2024-04-05 14:03:02] INFO root fetch - processPackages [panel]: New version: [1.4.1rc1] Old Version: [1.4.1a1]
+[2024-04-05 14:03:02] INFO root fetch - processPackages [cognite-sdk]: Downloading https://files.pythonhosted.org/packages/3a/da/08548de702dfbea6b1062e8994a1411347778ac52ad6c7db4550cbb42a5a/cognite_sdk-7.8.9.tar.gz
+[2024-04-05 14:03:02] INFO root fetch - processPackages [panel]: Downloading https://files.pythonhosted.org/packages/9a/8b/31a927d3d8e8c5d0c73cde6e1c9305b7a527ae6f223c4cce53fa12ef5063/panel-1.4.1a1.tar.gz
+[2024-04-05 14:03:02] WARNING root fetch - processPackages [panel]: Skipping package: exceeds size limit 37865319>=10485760
+[2024-04-05 14:03:02] INFO root fetch - main [MainThread]: End processing [panel] error
+[2024-04-05 14:03:02] WARNING root fetch - processPackages [cognite-sdk]: Timeout reached during download
+[2024-04-05 14:03:02] INFO root fetch - processPackages [cognite-sdk]: Downloading https://files.pythonhosted.org/packages/f3/d0/084198ea74187c00a0e69e824227d6cb1a40491cd4a427cf4a86e43a4f32/cognite_sdk-7.9.0.tar.gz
+[2024-04-05 14:03:03] WARNING root fetch - processPackages [cognite-sdk]: Timeout reached during download
+[2024-04-05 14:03:03] INFO root fetch - processPackages [cognite-sdk]: executing diffoscope
+[2024-04-05 14:03:03] INFO root fetch - processPackages [cognite-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cognite_sdk-7.8.9.tar.gz tmp/cognite_sdk-7.9.0.tar.gz --markdown 20240405/c/cognite-sdk/7.8.9-7.9.0/diff.md --exclude *.pyd
+[2024-04-05 14:03:04] INFO root fetch - processPackages [cognite-sdk]: Remove: archive file [/home/abi/fetcher/tmp/cognite_sdk-7.8.9.tar.gz]
+[2024-04-05 14:03:04] INFO root fetch - processPackages [cognite-sdk]: Remove: archive file [/home/abi/fetcher/tmp/cognite_sdk-7.9.0.tar.gz]
+[2024-04-05 14:03:04] INFO root fetch - main [MainThread]: End processing [cognite-sdk]: success
+[2024-04-05 14:03:04] INFO root fetch - main [MainThread]: Store serial: [22635627]
