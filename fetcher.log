@@ -11264,3 +11264,20 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2024-04-05 06:13:11] WARNING root fetch - processPackages [startlit]: Skipping, unable to determine old version
 [2024-04-05 06:13:11] INFO root fetch - main [MainThread]: End processing [startlit] error
 [2024-04-05 06:13:11] INFO root fetch - main [MainThread]: Store serial: [22631664]
+[2024-04-05 06:15:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22631664]
+[2024-04-05 06:15:20] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-05 06:15:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: petrichor-script-lexer
+[2024-04-05 06:15:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: turning-points
+[2024-04-05 06:15:20] INFO root fetch - processPackages [petrichor-script-lexer]: New version: [0.11.0.post1] Old Version: [0.11.0]
+[2024-04-05 06:15:20] WARNING root fetch - processPackages [turning-points]: Skipping, unable to determine old version
+[2024-04-05 06:15:20] INFO root fetch - main [MainThread]: End processing [turning-points] error
+[2024-04-05 06:15:20] INFO root fetch - processPackages [petrichor-script-lexer]: Downloading https://files.pythonhosted.org/packages/06/00/e52dec4ce51c4579f21f0e5bb35ed762a5900bcb8b50c59e299260e643ac/petrichor_script_lexer-0.11.0.tar.gz
+[2024-04-05 06:15:20] WARNING root fetch - processPackages [petrichor-script-lexer]: Timeout reached during download
+[2024-04-05 06:15:20] INFO root fetch - processPackages [petrichor-script-lexer]: Downloading https://files.pythonhosted.org/packages/f3/46/34404d24398376e9a4a1e2cf7ac2f7b8442280867ce7684cf0dc6f55b6fa/petrichor_script_lexer-0.11.0.post1.tar.gz
+[2024-04-05 06:15:21] WARNING root fetch - processPackages [petrichor-script-lexer]: Timeout reached during download
+[2024-04-05 06:15:21] INFO root fetch - processPackages [petrichor-script-lexer]: executing diffoscope
+[2024-04-05 06:15:21] INFO root fetch - processPackages [petrichor-script-lexer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/petrichor_script_lexer-0.11.0.tar.gz tmp/petrichor_script_lexer-0.11.0.post1.tar.gz --markdown 20240405/p/petrichor-script-lexer/0.11.0-0.11.0.post1/diff.md --exclude *.pyd
+[2024-04-05 06:15:21] INFO root fetch - processPackages [petrichor-script-lexer]: Remove: archive file [/home/abi/fetcher/tmp/petrichor_script_lexer-0.11.0.tar.gz]
+[2024-04-05 06:15:21] INFO root fetch - processPackages [petrichor-script-lexer]: Remove: archive file [/home/abi/fetcher/tmp/petrichor_script_lexer-0.11.0.post1.tar.gz]
+[2024-04-05 06:15:21] INFO root fetch - main [MainThread]: End processing [petrichor-script-lexer]: success
+[2024-04-05 06:15:21] INFO root fetch - main [MainThread]: Store serial: [22631672]
