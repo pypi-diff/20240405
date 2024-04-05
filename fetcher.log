@@ -19986,3 +19986,50 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2024-04-05 12:51:25] INFO root fetch - processPackages [pybase16384]: Remove: archive file [/home/abi/fetcher/tmp/pybase16384-0.3.7-pp39-pypy39_pp73-win_amd64.whl.zip]
 [2024-04-05 12:51:25] INFO root fetch - main [MainThread]: End processing [pybase16384]: success
 [2024-04-05 12:51:25] INFO root fetch - main [MainThread]: Store serial: [22634876]
+[2024-04-05 12:53:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22634876]
+[2024-04-05 12:53:34] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-05 12:53:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pygambit
+[2024-04-05 12:53:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: youtube-selenium-py
+[2024-04-05 12:53:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: laminci
+[2024-04-05 12:53:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: libcnmc
+[2024-04-05 12:53:34] INFO root fetch - processPackages [youtube-selenium-py]: New version: [1.0.3] Old Version: [1.0.2]
+[2024-04-05 12:53:34] INFO root fetch - processPackages [libcnmc]: New version: [24.8.2] Old Version: [24.8.1]
+[2024-04-05 12:53:34] INFO root fetch - processPackages [youtube-selenium-py]: Downloading https://files.pythonhosted.org/packages/9b/f0/beb0482f9e3bc3ce7e67941782ee2a87c9bf12b3f071be72105df33899f2/youtube_selenium_py-1.0.2.tar.gz
+[2024-04-05 12:53:34] INFO root fetch - processPackages [laminci]: New version: [0.4.2] Old Version: [0.4.1]
+[2024-04-05 12:53:34] INFO root fetch - processPackages [pygambit]: New version: [16.2.0] Old Version: [16.1.1]
+[2024-04-05 12:53:34] INFO root fetch - processPackages [libcnmc]: Downloading https://files.pythonhosted.org/packages/d5/fa/7ff9f3b76fffb6250a86e920ef1d21c7dc38372c381fa348b24df767cf56/libcnmc-24.8.1.tar.gz
+[2024-04-05 12:53:34] WARNING root fetch - processPackages [youtube-selenium-py]: Timeout reached during download
+[2024-04-05 12:53:34] WARNING root fetch - processPackages [libcnmc]: Timeout reached during download
+[2024-04-05 12:53:34] INFO root fetch - processPackages [laminci]: Downloading https://files.pythonhosted.org/packages/c7/c3/f3227893e87bf21b76d7b326f827e5179814fa28a816ae148b69249c5bf0/laminci-0.4.1.tar.gz
+[2024-04-05 12:53:34] INFO root fetch - processPackages [libcnmc]: Downloading https://files.pythonhosted.org/packages/d2/c9/34641c3e4e42079e3f6305158671367a80cd8399f6e83f58eda1ce564885/libcnmc-24.8.2.tar.gz
+[2024-04-05 12:53:34] INFO root fetch - processPackages [pygambit]: Downloading https://files.pythonhosted.org/packages/c2/67/b0190adb10757965fe75a2f8ec49f923a428343c28a3bb954a57b04d1f5a/pygambit-16.1.1.tar.gz
+[2024-04-05 12:53:35] INFO root fetch - processPackages [youtube-selenium-py]: Downloading https://files.pythonhosted.org/packages/e8/5c/7729ae207228007109fb1c834c1e3bc7556cbca4616b66a6857f89c3a75a/youtube_selenium_py-1.0.3.tar.gz
+[2024-04-05 12:53:35] WARNING root fetch - processPackages [libcnmc]: Timeout reached during download
+[2024-04-05 12:53:35] INFO root fetch - processPackages [libcnmc]: executing diffoscope
+[2024-04-05 12:53:35] INFO root fetch - processPackages [libcnmc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/libcnmc-24.8.1.tar.gz tmp/libcnmc-24.8.2.tar.gz --markdown 20240405/l/libcnmc/24.8.1-24.8.2/diff.md --exclude *.pyd
+[2024-04-05 12:53:35] WARNING root fetch - processPackages [youtube-selenium-py]: Timeout reached during download
+[2024-04-05 12:53:35] INFO root fetch - processPackages [youtube-selenium-py]: executing diffoscope
+[2024-04-05 12:53:35] INFO root fetch - processPackages [youtube-selenium-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/youtube_selenium_py-1.0.2.tar.gz tmp/youtube_selenium_py-1.0.3.tar.gz --markdown 20240405/y/youtube-selenium-py/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2024-04-05 12:53:35] WARNING root fetch - processPackages [pygambit]: Timeout reached during download
+[2024-04-05 12:53:35] WARNING root fetch - processPackages [laminci]: Timeout reached during download
+[2024-04-05 12:53:35] INFO root fetch - processPackages [pygambit]: Downloading https://files.pythonhosted.org/packages/c9/c3/6373a83da4217601c272ff4413bf21417a9303e4bc18c0623670eb133492/pygambit-16.2.0.tar.gz
+[2024-04-05 12:53:35] INFO root fetch - processPackages [laminci]: Downloading https://files.pythonhosted.org/packages/b1/8c/7361033e75e8ed851e27ee07b77dd3b0ed3164c781c66446ce5b03e23195/laminci-0.4.2.tar.gz
+[2024-04-05 12:53:35] WARNING root fetch - processPackages [pygambit]: Timeout reached during download
+[2024-04-05 12:53:35] INFO root fetch - processPackages [pygambit]: executing diffoscope
+[2024-04-05 12:53:35] INFO root fetch - processPackages [pygambit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pygambit-16.1.1.tar.gz tmp/pygambit-16.2.0.tar.gz --markdown 20240405/p/pygambit/16.1.1-16.2.0/diff.md --exclude *.pyd
+[2024-04-05 12:53:35] INFO root fetch - processPackages [youtube-selenium-py]: Remove: archive file [/home/abi/fetcher/tmp/youtube_selenium_py-1.0.2.tar.gz]
+[2024-04-05 12:53:35] INFO root fetch - processPackages [youtube-selenium-py]: Remove: archive file [/home/abi/fetcher/tmp/youtube_selenium_py-1.0.3.tar.gz]
+[2024-04-05 12:53:35] INFO root fetch - main [MainThread]: End processing [youtube-selenium-py]: success
+[2024-04-05 12:53:35] WARNING root fetch - processPackages [laminci]: Timeout reached during download
+[2024-04-05 12:53:35] INFO root fetch - processPackages [laminci]: executing diffoscope
+[2024-04-05 12:53:35] INFO root fetch - processPackages [laminci]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/laminci-0.4.1.tar.gz tmp/laminci-0.4.2.tar.gz --markdown 20240405/l/laminci/0.4.1-0.4.2/diff.md --exclude *.pyd
+[2024-04-05 12:53:36] INFO root fetch - processPackages [libcnmc]: Remove: archive file [/home/abi/fetcher/tmp/libcnmc-24.8.1.tar.gz]
+[2024-04-05 12:53:36] INFO root fetch - processPackages [libcnmc]: Remove: archive file [/home/abi/fetcher/tmp/libcnmc-24.8.2.tar.gz]
+[2024-04-05 12:53:36] INFO root fetch - main [MainThread]: End processing [libcnmc]: success
+[2024-04-05 12:53:36] INFO root fetch - processPackages [laminci]: Remove: archive file [/home/abi/fetcher/tmp/laminci-0.4.1.tar.gz]
+[2024-04-05 12:53:36] INFO root fetch - processPackages [laminci]: Remove: archive file [/home/abi/fetcher/tmp/laminci-0.4.2.tar.gz]
+[2024-04-05 12:53:36] INFO root fetch - main [MainThread]: End processing [laminci]: success
+[2024-04-05 12:53:40] INFO root fetch - processPackages [pygambit]: Remove: archive file [/home/abi/fetcher/tmp/pygambit-16.1.1.tar.gz]
+[2024-04-05 12:53:40] INFO root fetch - processPackages [pygambit]: Remove: archive file [/home/abi/fetcher/tmp/pygambit-16.2.0.tar.gz]
+[2024-04-05 12:53:40] INFO root fetch - main [MainThread]: End processing [pygambit]: success
+[2024-04-05 12:53:40] INFO root fetch - main [MainThread]: Store serial: [22634907]
