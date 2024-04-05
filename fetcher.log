@@ -13555,3 +13555,31 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2024-04-05 08:27:57] INFO root fetch - processPackages [mstk]: Remove: archive file [/home/abi/fetcher/tmp/mstk-0.3.9.tar.gz]
 [2024-04-05 08:27:57] INFO root fetch - main [MainThread]: End processing [mstk]: success
 [2024-04-05 08:27:57] INFO root fetch - main [MainThread]: Store serial: [22632475]
+[2024-04-05 08:30:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22632475]
+[2024-04-05 08:30:06] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-05 08:30:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pysarpro
+[2024-04-05 08:30:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addon-sale-order-line-menu
+[2024-04-05 08:30:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: volstreet
+[2024-04-05 08:30:06] INFO root fetch - processPackages [odoo-addon-sale-order-line-menu]: New version: [17.0.1.0.0.2] Old Version: [16.0.1.3.1.9]
+[2024-04-05 08:30:06] INFO root fetch - processPackages [odoo-addon-sale-order-line-menu]: Downloading https://files.pythonhosted.org/packages/64/b9/5bfa6c7e550ddba0051ac043d3ff8464ca08d6cc7291c6f17c2e9a86c758/odoo_addon_sale_order_line_menu-16.0.1.3.1.9-py3-none-any.whl
+[2024-04-05 08:30:06] WARNING root fetch - processPackages [pysarpro]: Skipping, unable to determine old version
+[2024-04-05 08:30:06] INFO root fetch - main [MainThread]: End processing [pysarpro] error
+[2024-04-05 08:30:06] INFO root fetch - processPackages [volstreet]: New version: [7.0.3] Old Version: [7.0.2]
+[2024-04-05 08:30:06] WARNING root fetch - processPackages [odoo-addon-sale-order-line-menu]: Timeout reached during download
+[2024-04-05 08:30:07] INFO root fetch - processPackages [volstreet]: Downloading https://files.pythonhosted.org/packages/8f/84/86b859e39237a2cb16330f17c368bfcc56e4e9e59f394d8d6bd3cceee527/volstreet-7.0.2.tar.gz
+[2024-04-05 08:30:07] WARNING root fetch - processPackages [volstreet]: Timeout reached during download
+[2024-04-05 08:30:07] INFO root fetch - processPackages [odoo-addon-sale-order-line-menu]: Downloading https://files.pythonhosted.org/packages/d3/c9/4e9089fd80ed8c6306df27da85138d35ccc1cb4015d818d311af6269b144/odoo_addon_sale_order_line_menu-17.0.1.0.0.2-py3-none-any.whl
+[2024-04-05 08:30:07] WARNING root fetch - processPackages [odoo-addon-sale-order-line-menu]: Timeout reached during download
+[2024-04-05 08:30:07] INFO root fetch - processPackages [odoo-addon-sale-order-line-menu]: executing diffoscope
+[2024-04-05 08:30:07] INFO root fetch - processPackages [odoo-addon-sale-order-line-menu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_sale_order_line_menu-16.0.1.3.1.9-py3-none-any.whl.zip tmp/odoo_addon_sale_order_line_menu-17.0.1.0.0.2-py3-none-any.whl.zip --markdown 20240405/o/odoo-addon-sale-order-line-menu/16.0.1.3.1.9-17.0.1.0.0.2/diff.md --exclude *.pyd
+[2024-04-05 08:30:07] INFO root fetch - processPackages [volstreet]: Downloading https://files.pythonhosted.org/packages/60/e3/281ef9886e1ad34b0001a62ba9e80c3e2fa0b1741ff077a3d2db6921fb88/volstreet-7.0.3.tar.gz
+[2024-04-05 08:30:07] WARNING root fetch - processPackages [volstreet]: Timeout reached during download
+[2024-04-05 08:30:07] INFO root fetch - processPackages [volstreet]: executing diffoscope
+[2024-04-05 08:30:07] INFO root fetch - processPackages [volstreet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/volstreet-7.0.2.tar.gz tmp/volstreet-7.0.3.tar.gz --markdown 20240405/v/volstreet/7.0.2-7.0.3/diff.md --exclude *.pyd
+[2024-04-05 08:30:07] INFO root fetch - processPackages [odoo-addon-sale-order-line-menu]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_sale_order_line_menu-16.0.1.3.1.9-py3-none-any.whl.zip]
+[2024-04-05 08:30:07] INFO root fetch - processPackages [odoo-addon-sale-order-line-menu]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_sale_order_line_menu-17.0.1.0.0.2-py3-none-any.whl.zip]
+[2024-04-05 08:30:07] INFO root fetch - main [MainThread]: End processing [odoo-addon-sale-order-line-menu]: success
+[2024-04-05 08:30:08] INFO root fetch - processPackages [volstreet]: Remove: archive file [/home/abi/fetcher/tmp/volstreet-7.0.2.tar.gz]
+[2024-04-05 08:30:08] INFO root fetch - processPackages [volstreet]: Remove: archive file [/home/abi/fetcher/tmp/volstreet-7.0.3.tar.gz]
+[2024-04-05 08:30:08] INFO root fetch - main [MainThread]: End processing [volstreet]: success
+[2024-04-05 08:30:08] INFO root fetch - main [MainThread]: Store serial: [22632503]
