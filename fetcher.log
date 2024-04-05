@@ -14589,3 +14589,61 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2024-04-05 09:15:50] INFO root fetch - processPackages [awyes]: Remove: archive file [/home/abi/fetcher/tmp/awyes-14.0.9.tar.gz]
 [2024-04-05 09:15:50] INFO root fetch - main [MainThread]: End processing [awyes]: success
 [2024-04-05 09:15:50] INFO root fetch - main [MainThread]: Store serial: [22632770]
+[2024-04-05 09:17:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22632770]
+[2024-04-05 09:17:59] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-05 09:17:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyavg
+[2024-04-05 09:17:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: panel
+[2024-04-05 09:17:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ahk
+[2024-04-05 09:17:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: retell-sdk
+[2024-04-05 09:17:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: plot-av
+[2024-04-05 09:17:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: PythonCodeVault
+[2024-04-05 09:17:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: nifcloud-cli
+[2024-04-05 09:17:59] WARNING root fetch - processPackages [plot-av]: Skipping, unable to determine old version
+[2024-04-05 09:17:59] INFO root fetch - main [MainThread]: End processing [plot-av] error
+[2024-04-05 09:17:59] WARNING root fetch - processPackages [pyavg]: Skipping, unable to determine old version
+[2024-04-05 09:17:59] INFO root fetch - main [MainThread]: End processing [pyavg] error
+[2024-04-05 09:17:59] INFO root fetch - processPackages [panel]: New version: [1.4.1rc1] Old Version: [1.4.1a1]
+[2024-04-05 09:17:59] INFO root fetch - processPackages [ahk]: New version: [1.6.0] Old Version: [1.5.4]
+[2024-04-05 09:17:59] INFO root fetch - processPackages [nifcloud-cli]: New version: [1.9.0] Old Version: [1.8.0]
+[2024-04-05 09:17:59] INFO root fetch - processPackages [retell-sdk]: New version: [3.4.0] Old Version: [3.3.0]
+[2024-04-05 09:17:59] INFO root fetch - processPackages [PythonCodeVault]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-05 09:17:59] INFO root fetch - processPackages [panel]: Downloading https://files.pythonhosted.org/packages/9a/8b/31a927d3d8e8c5d0c73cde6e1c9305b7a527ae6f223c4cce53fa12ef5063/panel-1.4.1a1.tar.gz
+[2024-04-05 09:17:59] INFO root fetch - processPackages [ahk]: Downloading https://files.pythonhosted.org/packages/b2/ea/2b853963277409c723f8e407effb86b884a0b49c9fdd486d05f572c58191/ahk-1.5.4.tar.gz
+[2024-04-05 09:17:59] WARNING root fetch - processPackages [panel]: Skipping package: exceeds size limit 37865319>=10485760
+[2024-04-05 09:17:59] INFO root fetch - main [MainThread]: End processing [panel] error
+[2024-04-05 09:17:59] INFO root fetch - processPackages [nifcloud-cli]: Downloading https://files.pythonhosted.org/packages/8f/eb/244a0a75544dd40a140e3efdccb1a136f1ab42a0cff6232aa662dad7dac1/nifcloud-cli-1.8.0.tar.gz
+[2024-04-05 09:17:59] WARNING root fetch - processPackages [ahk]: Timeout reached during download
+[2024-04-05 09:17:59] INFO root fetch - processPackages [retell-sdk]: Downloading https://files.pythonhosted.org/packages/c2/0d/068792f4dfa351fddfb32aa08a7937f5a27222799bdddb7d0fd6117f1f35/retell_sdk-3.3.0.tar.gz
+[2024-04-05 09:17:59] INFO root fetch - processPackages [PythonCodeVault]: Downloading https://files.pythonhosted.org/packages/9d/06/5ae86fac72c3648485d0f4fcad2617a27777f137eadd454766cf2c49a814/PythonCodeVault-0.0.8.tar.gz
+[2024-04-05 09:18:00] WARNING root fetch - processPackages [nifcloud-cli]: Timeout reached during download
+[2024-04-05 09:18:00] WARNING root fetch - processPackages [retell-sdk]: Timeout reached during download
+[2024-04-05 09:18:00] WARNING root fetch - processPackages [PythonCodeVault]: Timeout reached during download
+[2024-04-05 09:18:00] INFO root fetch - processPackages [ahk]: Downloading https://files.pythonhosted.org/packages/a9/a9/d3bb031921c2c08adc0a4678260e03e5d22988fc127a9690ab40e3479927/ahk-1.6.0.tar.gz
+[2024-04-05 09:18:00] INFO root fetch - processPackages [retell-sdk]: Downloading https://files.pythonhosted.org/packages/63/b4/cc779d8b4dea227783d70b4e1cfde1276ee42559cef7f7be451387605c5c/retell_sdk-3.4.0.tar.gz
+[2024-04-05 09:18:00] WARNING root fetch - processPackages [ahk]: Timeout reached during download
+[2024-04-05 09:18:00] INFO root fetch - processPackages [ahk]: executing diffoscope
+[2024-04-05 09:18:00] INFO root fetch - processPackages [ahk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ahk-1.5.4.tar.gz tmp/ahk-1.6.0.tar.gz --markdown 20240405/a/ahk/1.5.4-1.6.0/diff.md --exclude *.pyd
+[2024-04-05 09:18:00] INFO root fetch - processPackages [nifcloud-cli]: Downloading https://files.pythonhosted.org/packages/27/0a/d40670f357a988cc247afd658decacc6d4a267a18e4e8023b88fa24019a4/nifcloud-cli-1.9.0.tar.gz
+[2024-04-05 09:18:00] INFO root fetch - processPackages [PythonCodeVault]: Downloading https://files.pythonhosted.org/packages/9e/ee/e84cc3f561bdbf42655616ed568c7bc1ec9003fa3cdc80c7fcb6ffa732f2/PythonCodeVault-0.0.9.tar.gz
+[2024-04-05 09:18:00] WARNING root fetch - processPackages [retell-sdk]: Timeout reached during download
+[2024-04-05 09:18:00] INFO root fetch - processPackages [retell-sdk]: executing diffoscope
+[2024-04-05 09:18:00] INFO root fetch - processPackages [retell-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/retell_sdk-3.3.0.tar.gz tmp/retell_sdk-3.4.0.tar.gz --markdown 20240405/r/retell-sdk/3.3.0-3.4.0/diff.md --exclude *.pyd
+[2024-04-05 09:18:00] WARNING root fetch - processPackages [PythonCodeVault]: Timeout reached during download
+[2024-04-05 09:18:00] INFO root fetch - processPackages [PythonCodeVault]: executing diffoscope
+[2024-04-05 09:18:00] INFO root fetch - processPackages [PythonCodeVault]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PythonCodeVault-0.0.8.tar.gz tmp/PythonCodeVault-0.0.9.tar.gz --markdown 20240405/P/PythonCodeVault/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2024-04-05 09:18:00] WARNING root fetch - processPackages [nifcloud-cli]: Timeout reached during download
+[2024-04-05 09:18:00] INFO root fetch - processPackages [nifcloud-cli]: executing diffoscope
+[2024-04-05 09:18:00] INFO root fetch - processPackages [nifcloud-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nifcloud-cli-1.8.0.tar.gz tmp/nifcloud-cli-1.9.0.tar.gz --markdown 20240405/n/nifcloud-cli/1.8.0-1.9.0/diff.md --exclude *.pyd
+[2024-04-05 09:18:01] INFO root fetch - processPackages [PythonCodeVault]: Remove: archive file [/home/abi/fetcher/tmp/PythonCodeVault-0.0.8.tar.gz]
+[2024-04-05 09:18:01] INFO root fetch - processPackages [PythonCodeVault]: Remove: archive file [/home/abi/fetcher/tmp/PythonCodeVault-0.0.9.tar.gz]
+[2024-04-05 09:18:01] INFO root fetch - main [MainThread]: End processing [PythonCodeVault]: success
+[2024-04-05 09:18:01] INFO root fetch - processPackages [retell-sdk]: Remove: archive file [/home/abi/fetcher/tmp/retell_sdk-3.3.0.tar.gz]
+[2024-04-05 09:18:01] INFO root fetch - processPackages [retell-sdk]: Remove: archive file [/home/abi/fetcher/tmp/retell_sdk-3.4.0.tar.gz]
+[2024-04-05 09:18:01] INFO root fetch - main [MainThread]: End processing [retell-sdk]: success
+[2024-04-05 09:18:01] INFO root fetch - processPackages [ahk]: Remove: archive file [/home/abi/fetcher/tmp/ahk-1.5.4.tar.gz]
+[2024-04-05 09:18:01] INFO root fetch - processPackages [ahk]: Remove: archive file [/home/abi/fetcher/tmp/ahk-1.6.0.tar.gz]
+[2024-04-05 09:18:01] INFO root fetch - main [MainThread]: End processing [ahk]: success
+[2024-04-05 09:18:01] INFO root fetch - processPackages [nifcloud-cli]: Remove: archive file [/home/abi/fetcher/tmp/nifcloud-cli-1.8.0.tar.gz]
+[2024-04-05 09:18:01] INFO root fetch - processPackages [nifcloud-cli]: Remove: archive file [/home/abi/fetcher/tmp/nifcloud-cli-1.9.0.tar.gz]
+[2024-04-05 09:18:01] INFO root fetch - main [MainThread]: End processing [nifcloud-cli]: success
+[2024-04-05 09:18:01] INFO root fetch - main [MainThread]: Store serial: [22632793]
