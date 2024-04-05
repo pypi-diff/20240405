@@ -11949,3 +11949,39 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2024-04-05 06:59:50] INFO root fetch - processPackages [odoo14-addon-l10n-ro-account-anaf-sync]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_l10n_ro_account_anaf_sync-14.0.1.9.0-py3-none-any.whl.zip]
 [2024-04-05 06:59:50] INFO root fetch - main [MainThread]: End processing [odoo14-addon-l10n-ro-account-anaf-sync]: success
 [2024-04-05 06:59:50] INFO root fetch - main [MainThread]: Store serial: [22631843]
+[2024-04-05 07:01:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22631843]
+[2024-04-05 07:02:00] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-05 07:02:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: politely
+[2024-04-05 07:02:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addons-oca-l10n-romania
+[2024-04-05 07:02:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: turning-points
+[2024-04-05 07:02:00] INFO root fetch - processPackages [turning-points]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-04-05 07:02:00] INFO root fetch - processPackages [turning-points]: Downloading https://files.pythonhosted.org/packages/81/9f/00470fbe566ca505e6532e1a30c19cf112505fd2ee1668c4caff19477eae/turning_points-0.0.3.tar.gz
+[2024-04-05 07:02:00] INFO root fetch - processPackages [odoo-addons-oca-l10n-romania]: New version: [16.0.20240404.1] Old Version: [16.0.20240403.1]
+[2024-04-05 07:02:00] INFO root fetch - processPackages [politely]: New version: [4.0.0a0] Old Version: [3.3.4]
+[2024-04-05 07:02:00] WARNING root fetch - processPackages [turning-points]: Timeout reached during download
+[2024-04-05 07:02:00] INFO root fetch - processPackages [odoo-addons-oca-l10n-romania]: Downloading https://files.pythonhosted.org/packages/63/24/2506144b6290c3c5bd16d577d9af533313c90058d50466b0d66fb85a3bcb/odoo_addons_oca_l10n_romania-16.0.20240403.1-py3-none-any.whl
+[2024-04-05 07:02:00] INFO root fetch - processPackages [politely]: Downloading https://files.pythonhosted.org/packages/58/a8/0769c03b6260242ebba4567c40d3098275bea64c60eeacf724c3f6dc6b25/politely-3.3.4.tar.gz
+[2024-04-05 07:02:00] INFO root fetch - processPackages [turning-points]: Downloading https://files.pythonhosted.org/packages/d8/ac/f77073ca8e78d2b0febf7d71e2da3fcb341dd6c8aacbd244cea2f190a621/turning_points-0.0.4.tar.gz
+[2024-04-05 07:02:00] WARNING root fetch - processPackages [politely]: Timeout reached during download
+[2024-04-05 07:02:00] WARNING root fetch - processPackages [odoo-addons-oca-l10n-romania]: Timeout reached during download
+[2024-04-05 07:02:01] WARNING root fetch - processPackages [turning-points]: Timeout reached during download
+[2024-04-05 07:02:01] INFO root fetch - processPackages [turning-points]: executing diffoscope
+[2024-04-05 07:02:01] INFO root fetch - processPackages [turning-points]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/turning_points-0.0.3.tar.gz tmp/turning_points-0.0.4.tar.gz --markdown 20240405/t/turning-points/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2024-04-05 07:02:01] INFO root fetch - processPackages [odoo-addons-oca-l10n-romania]: Downloading https://files.pythonhosted.org/packages/e5/b3/742661c2c6971a7e07dc40c4c8c66a65e9f418e662fbc4c23a96f5451c9d/odoo_addons_oca_l10n_romania-16.0.20240404.1-py3-none-any.whl
+[2024-04-05 07:02:01] INFO root fetch - processPackages [politely]: Downloading https://files.pythonhosted.org/packages/99/8f/f90b792d6bbfce22a6a6c236344c2bbe4c5c9b6747e81b2e3807beb811a4/politely-4.0.0a0.tar.gz
+[2024-04-05 07:02:01] WARNING root fetch - processPackages [odoo-addons-oca-l10n-romania]: Timeout reached during download
+[2024-04-05 07:02:01] INFO root fetch - processPackages [odoo-addons-oca-l10n-romania]: executing diffoscope
+[2024-04-05 07:02:01] INFO root fetch - processPackages [odoo-addons-oca-l10n-romania]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addons_oca_l10n_romania-16.0.20240403.1-py3-none-any.whl.zip tmp/odoo_addons_oca_l10n_romania-16.0.20240404.1-py3-none-any.whl.zip --markdown 20240405/o/odoo-addons-oca-l10n-romania/16.0.20240403.1-16.0.20240404.1/diff.md --exclude *.pyd
+[2024-04-05 07:02:01] WARNING root fetch - processPackages [politely]: Timeout reached during download
+[2024-04-05 07:02:01] INFO root fetch - processPackages [politely]: executing diffoscope
+[2024-04-05 07:02:01] INFO root fetch - processPackages [politely]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/politely-3.3.4.tar.gz tmp/politely-4.0.0a0.tar.gz --markdown 20240405/p/politely/3.3.4-4.0.0a0/diff.md --exclude *.pyd
+[2024-04-05 07:02:01] INFO root fetch - processPackages [turning-points]: Remove: archive file [/home/abi/fetcher/tmp/turning_points-0.0.3.tar.gz]
+[2024-04-05 07:02:01] INFO root fetch - processPackages [turning-points]: Remove: archive file [/home/abi/fetcher/tmp/turning_points-0.0.4.tar.gz]
+[2024-04-05 07:02:01] INFO root fetch - main [MainThread]: End processing [turning-points]: success
+[2024-04-05 07:02:01] INFO root fetch - processPackages [odoo-addons-oca-l10n-romania]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_l10n_romania-16.0.20240403.1-py3-none-any.whl.zip]
+[2024-04-05 07:02:01] INFO root fetch - processPackages [odoo-addons-oca-l10n-romania]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_l10n_romania-16.0.20240404.1-py3-none-any.whl.zip]
+[2024-04-05 07:02:01] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-l10n-romania]: success
+[2024-04-05 07:02:01] INFO root fetch - processPackages [politely]: Remove: archive file [/home/abi/fetcher/tmp/politely-3.3.4.tar.gz]
+[2024-04-05 07:02:01] INFO root fetch - processPackages [politely]: Remove: archive file [/home/abi/fetcher/tmp/politely-4.0.0a0.tar.gz]
+[2024-04-05 07:02:01] INFO root fetch - main [MainThread]: End processing [politely]: success
+[2024-04-05 07:02:01] INFO root fetch - main [MainThread]: Store serial: [22631851]
