@@ -15065,3 +15065,28 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2024-04-05 09:39:53] INFO root fetch - processPackages [odoo-addon-account-payment-sale]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_payment_sale-17.0.1.0.0.5-py3-none-any.whl.zip]
 [2024-04-05 09:39:53] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-payment-sale]: success
 [2024-04-05 09:39:53] INFO root fetch - main [MainThread]: Store serial: [22632921]
+[2024-04-05 09:41:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22632921]
+[2024-04-05 09:42:01] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-05 09:42:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cast-bootstrap5
+[2024-04-05 09:42:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tidal-dl-ng
+[2024-04-05 09:42:01] INFO root fetch - processPackages [tidal-dl-ng]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-04-05 09:42:01] INFO root fetch - processPackages [tidal-dl-ng]: Downloading https://files.pythonhosted.org/packages/9e/70/b555bff42679e2c523b9b185a4afc3ab84f257151c70ee2f4a4a2c8a2981/tidal_dl_ng-0.9.0.tar.gz
+[2024-04-05 09:42:01] INFO root fetch - processPackages [cast-bootstrap5]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-05 09:42:02] WARNING root fetch - processPackages [tidal-dl-ng]: Timeout reached during download
+[2024-04-05 09:42:02] INFO root fetch - processPackages [cast-bootstrap5]: Downloading https://files.pythonhosted.org/packages/a9/9b/db053c0c1d19540d1bda453cb759360dffb45faa565215b2913bf8c69866/cast_bootstrap5-0.0.8.tar.gz
+[2024-04-05 09:42:02] INFO root fetch - processPackages [tidal-dl-ng]: Downloading https://files.pythonhosted.org/packages/5b/ba/0352f5184c84ccc8beb455f316863bb1cd67a1a23de799df04e98159f6dd/tidal_dl_ng-0.9.1.tar.gz
+[2024-04-05 09:42:02] WARNING root fetch - processPackages [cast-bootstrap5]: Timeout reached during download
+[2024-04-05 09:42:02] WARNING root fetch - processPackages [tidal-dl-ng]: Timeout reached during download
+[2024-04-05 09:42:02] INFO root fetch - processPackages [tidal-dl-ng]: executing diffoscope
+[2024-04-05 09:42:02] INFO root fetch - processPackages [tidal-dl-ng]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tidal_dl_ng-0.9.0.tar.gz tmp/tidal_dl_ng-0.9.1.tar.gz --markdown 20240405/t/tidal-dl-ng/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2024-04-05 09:42:02] INFO root fetch - processPackages [cast-bootstrap5]: Downloading https://files.pythonhosted.org/packages/79/19/f879af1e3882921129d87c91ae930e17e1bc45d698b0931de934c28b1d8b/cast_bootstrap5-0.0.9.tar.gz
+[2024-04-05 09:42:02] WARNING root fetch - processPackages [cast-bootstrap5]: Timeout reached during download
+[2024-04-05 09:42:02] INFO root fetch - processPackages [cast-bootstrap5]: executing diffoscope
+[2024-04-05 09:42:02] INFO root fetch - processPackages [cast-bootstrap5]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cast_bootstrap5-0.0.8.tar.gz tmp/cast_bootstrap5-0.0.9.tar.gz --markdown 20240405/c/cast-bootstrap5/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2024-04-05 09:42:03] INFO root fetch - processPackages [cast-bootstrap5]: Remove: archive file [/home/abi/fetcher/tmp/cast_bootstrap5-0.0.8.tar.gz]
+[2024-04-05 09:42:03] INFO root fetch - processPackages [cast-bootstrap5]: Remove: archive file [/home/abi/fetcher/tmp/cast_bootstrap5-0.0.9.tar.gz]
+[2024-04-05 09:42:03] INFO root fetch - main [MainThread]: End processing [cast-bootstrap5]: success
+[2024-04-05 09:42:03] INFO root fetch - processPackages [tidal-dl-ng]: Remove: archive file [/home/abi/fetcher/tmp/tidal_dl_ng-0.9.0.tar.gz]
+[2024-04-05 09:42:03] INFO root fetch - processPackages [tidal-dl-ng]: Remove: archive file [/home/abi/fetcher/tmp/tidal_dl_ng-0.9.1.tar.gz]
+[2024-04-05 09:42:03] INFO root fetch - main [MainThread]: End processing [tidal-dl-ng]: success
+[2024-04-05 09:42:03] INFO root fetch - main [MainThread]: Store serial: [22632927]
