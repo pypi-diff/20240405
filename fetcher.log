@@ -16655,3 +16655,127 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2024-04-05 10:49:00] INFO root fetch - processPackages [tf-nightly-cpu]: Remove: archive file [/home/abi/fetcher/tmp/tf_nightly_cpu-2.17.0.dev20240405-cp39-cp39-win_amd64.whl.zip]
 [2024-04-05 10:49:00] INFO root fetch - main [MainThread]: End processing [tf-nightly-cpu]: success
 [2024-04-05 10:49:00] INFO root fetch - main [MainThread]: Store serial: [22633573]
+[2024-04-05 10:51:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22633573]
+[2024-04-05 10:51:09] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2024-04-05 10:51:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: khoj-assistant
+[2024-04-05 10:51:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: streamlit-nivo-charts-custom
+[2024-04-05 10:51:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: 3scale-api-crd
+[2024-04-05 10:51:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: PyClinet
+[2024-04-05 10:51:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: linien-common
+[2024-04-05 10:51:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: linien-server
+[2024-04-05 10:51:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: linien-client
+[2024-04-05 10:51:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: linien-gui
+[2024-04-05 10:51:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: arviz
+[2024-04-05 10:51:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: prediction-market-agent-tooling
+[2024-04-05 10:51:09] INFO root fetch - processPackages [khoj-assistant]: New version: [1.8.1.dev62] Old Version: [1.8.1.dev60]
+[2024-04-05 10:51:09] INFO root fetch - processPackages [3scale-api-crd]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-04-05 10:51:09] INFO root fetch - processPackages [streamlit-nivo-charts-custom]: New version: [0.0.8] Old Version: [0.0.7]
+[2024-04-05 10:51:09] INFO root fetch - processPackages [linien-common]: New version: [1.0.2rc1] Old Version: [1.0.1rc1]
+[2024-04-05 10:51:09] INFO root fetch - processPackages [linien-gui]: New version: [1.0.2rc1] Old Version: [1.0.1rc1]
+[2024-04-05 10:51:09] INFO root fetch - processPackages [linien-server]: New version: [1.0.2rc1] Old Version: [1.0.1rc1]
+[2024-04-05 10:51:09] INFO root fetch - processPackages [linien-client]: New version: [1.0.2rc1] Old Version: [1.0.1rc1]
+[2024-04-05 10:51:09] INFO root fetch - processPackages [arviz]: New version: [0.9.0] Old Version: [0.8.3]
+[2024-04-05 10:51:09] INFO root fetch - processPackages [PyClinet]: New version: [1.1.1] Old Version: [1.1.0]
+[2024-04-05 10:51:09] INFO root fetch - processPackages [prediction-market-agent-tooling]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-04-05 10:51:09] INFO root fetch - processPackages [linien-client]: Downloading https://files.pythonhosted.org/packages/91/d7/bf34b32fdb85cf57bbe65ff41f0d2b7337c38c7948da1b101636b153e668/linien-client-1.0.1rc1.tar.gz
+[2024-04-05 10:51:09] INFO root fetch - processPackages [khoj-assistant]: Downloading https://files.pythonhosted.org/packages/45/fa/5e2c5ff246b87a0a9e86aa5c547aa7b1ee866e4f90bf7dceddce83aea863/khoj_assistant-1.8.1.dev60.tar.gz
+[2024-04-05 10:51:09] INFO root fetch - processPackages [streamlit-nivo-charts-custom]: Downloading https://files.pythonhosted.org/packages/9b/84/1780ab7a20f2ca319c62b5c794948b3a16333b7c8f18eae022322b8f891b/streamlit-nivo-charts-custom-0.0.7.tar.gz
+[2024-04-05 10:51:09] INFO root fetch - processPackages [linien-common]: Downloading https://files.pythonhosted.org/packages/3a/e6/61a8f4d33e5a7a2e864f0819f741096f7509d98a40ffd325eb273f9cfeb8/linien-common-1.0.1rc1.tar.gz
+[2024-04-05 10:51:09] INFO root fetch - processPackages [linien-gui]: Downloading https://files.pythonhosted.org/packages/8e/a3/e75520993bc437f8a3359e582bf30a44eec7ebe4bc86ba5b4d65bb56fdb8/linien-gui-1.0.1rc1.tar.gz
+[2024-04-05 10:51:09] INFO root fetch - processPackages [linien-server]: Downloading https://files.pythonhosted.org/packages/38/52/f03daa708ee6411a125ab209c02966efd1f73cd4fe0b67e7ba2d4d5a4e34/linien-server-1.0.1rc1.tar.gz
+[2024-04-05 10:51:09] INFO root fetch - processPackages [3scale-api-crd]: Downloading https://files.pythonhosted.org/packages/b8/03/7aad4ea0fbe875f68cd4237a45a8245b2f8f321ee10a79069b9468f69aca/3scale-api-crd-0.1.0.tar.gz
+[2024-04-05 10:51:09] INFO root fetch - processPackages [prediction-market-agent-tooling]: Downloading https://files.pythonhosted.org/packages/85/7f/a236d43a8cb1743ae46c5cbc1c8c328187dee82192682092c57c75cf5c9a/prediction_market_agent_tooling-0.9.0.tar.gz
+[2024-04-05 10:51:09] WARNING root fetch - processPackages [linien-client]: Timeout reached during download
+[2024-04-05 10:51:10] INFO root fetch - processPackages [PyClinet]: Downloading https://files.pythonhosted.org/packages/cd/c7/7a3e7bb25c08408653a8a788ccb2775194227216f1ce769dd8fd090b4d39/PyClinet-1.1.0.tar.gz
+[2024-04-05 10:51:10] WARNING root fetch - processPackages [linien-common]: Timeout reached during download
+[2024-04-05 10:51:10] WARNING root fetch - processPackages [linien-gui]: Timeout reached during download
+[2024-04-05 10:51:10] WARNING root fetch - processPackages [3scale-api-crd]: Timeout reached during download
+[2024-04-05 10:51:10] INFO root fetch - processPackages [arviz]: Downloading https://files.pythonhosted.org/packages/1a/2c/99c1f8eac5fc330f068cd9158ac7f000e9e9fe6f73c6bd267526deadd805/arviz-0.8.3.tar.gz
+[2024-04-05 10:51:10] INFO root fetch - processPackages [linien-client]: Downloading https://files.pythonhosted.org/packages/fa/47/642ac3465f804a6ce4dc01761c5c83a892b310b36e7fd7950b7df32d5af8/linien-client-1.0.2rc1.tar.gz
+[2024-04-05 10:51:10] WARNING root fetch - processPackages [linien-server]: Timeout reached during download
+[2024-04-05 10:51:10] INFO root fetch - processPackages [linien-common]: Downloading https://files.pythonhosted.org/packages/e0/69/4b6b2d9552d0fc8c4e2ba1797ed492071fbb15511beed64702db7ceaf5f8/linien-common-1.0.2rc1.tar.gz
+[2024-04-05 10:51:10] WARNING root fetch - processPackages [PyClinet]: Timeout reached during download
+[2024-04-05 10:51:10] WARNING root fetch - processPackages [streamlit-nivo-charts-custom]: Timeout reached during download
+[2024-04-05 10:51:10] INFO root fetch - processPackages [linien-gui]: Downloading https://files.pythonhosted.org/packages/50/5b/be3b9affb14cd1e49d8e18a8d63cfe24c73c2d3ad55a8336374d6afab232/linien-gui-1.0.2rc1.tar.gz
+[2024-04-05 10:51:10] WARNING root fetch - processPackages [khoj-assistant]: Timeout reached during download
+[2024-04-05 10:51:10] WARNING root fetch - processPackages [prediction-market-agent-tooling]: Timeout reached during download
+[2024-04-05 10:51:10] INFO root fetch - processPackages [linien-server]: Downloading https://files.pythonhosted.org/packages/5f/cb/05ece0250469fc3aff26549ae48c2b914445b0f3045454c8d8552d15f27d/linien-server-1.0.2rc1.tar.gz
+[2024-04-05 10:51:10] WARNING root fetch - processPackages [linien-client]: Timeout reached during download
+[2024-04-05 10:51:10] INFO root fetch - processPackages [linien-client]: executing diffoscope
+[2024-04-05 10:51:10] INFO root fetch - processPackages [linien-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/linien-client-1.0.1rc1.tar.gz tmp/linien-client-1.0.2rc1.tar.gz --markdown 20240405/l/linien-client/1.0.1rc1-1.0.2rc1/diff.md --exclude *.pyd
+[2024-04-05 10:51:10] WARNING root fetch - processPackages [linien-common]: Timeout reached during download
+[2024-04-05 10:51:10] INFO root fetch - processPackages [linien-common]: executing diffoscope
+[2024-04-05 10:51:10] INFO root fetch - processPackages [linien-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/linien-common-1.0.1rc1.tar.gz tmp/linien-common-1.0.2rc1.tar.gz --markdown 20240405/l/linien-common/1.0.1rc1-1.0.2rc1/diff.md --exclude *.pyd
+[2024-04-05 10:51:10] INFO root fetch - processPackages [3scale-api-crd]: Downloading https://files.pythonhosted.org/packages/f2/b0/e54defa8f53d2c36f2cace4ef92f2b3e27077ecc49b5f82299cfb1433935/3scale-api-crd-0.1.1.tar.gz
+[2024-04-05 10:51:10] INFO root fetch - processPackages [streamlit-nivo-charts-custom]: Downloading https://files.pythonhosted.org/packages/79/71/33830bb0657a300e5a30431719d5fbdf3210c9b55776f641c9332f702047/streamlit-nivo-charts-custom-0.0.8.tar.gz
+[2024-04-05 10:51:10] WARNING root fetch - processPackages [linien-gui]: Timeout reached during download
+[2024-04-05 10:51:10] INFO root fetch - processPackages [linien-gui]: executing diffoscope
+[2024-04-05 10:51:10] INFO root fetch - processPackages [linien-gui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/linien-gui-1.0.1rc1.tar.gz tmp/linien-gui-1.0.2rc1.tar.gz --markdown 20240405/l/linien-gui/1.0.1rc1-1.0.2rc1/diff.md --exclude *.pyd
+[2024-04-05 10:51:10] INFO root fetch - processPackages [PyClinet]: Downloading https://files.pythonhosted.org/packages/f7/bd/e633f57bec21abc21179763546109652055cebfbca76aadee52795ff515f/PyClinet-1.1.1.tar.gz
+[2024-04-05 10:51:10] WARNING root fetch - processPackages [arviz]: Timeout reached during download
+[2024-04-05 10:51:10] WARNING root fetch - processPackages [streamlit-nivo-charts-custom]: Timeout reached during download
+[2024-04-05 10:51:10] INFO root fetch - processPackages [streamlit-nivo-charts-custom]: executing diffoscope
+[2024-04-05 10:51:10] INFO root fetch - processPackages [streamlit-nivo-charts-custom]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streamlit-nivo-charts-custom-0.0.7.tar.gz tmp/streamlit-nivo-charts-custom-0.0.8.tar.gz --markdown 20240405/s/streamlit-nivo-charts-custom/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2024-04-05 10:51:10] WARNING root fetch - processPackages [linien-server]: Timeout reached during download
+[2024-04-05 10:51:10] INFO root fetch - processPackages [linien-server]: executing diffoscope
+[2024-04-05 10:51:10] INFO root fetch - processPackages [linien-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/linien-server-1.0.1rc1.tar.gz tmp/linien-server-1.0.2rc1.tar.gz --markdown 20240405/l/linien-server/1.0.1rc1-1.0.2rc1/diff.md --exclude *.pyd
+[2024-04-05 10:51:10] INFO root fetch - processPackages [khoj-assistant]: Downloading https://files.pythonhosted.org/packages/f2/63/c2c69e95f65e6beb19fdffe9d557d2223499798f75d4fece9a1427668bf6/khoj_assistant-1.8.1.dev62.tar.gz
+[2024-04-05 10:51:10] INFO root fetch - processPackages [prediction-market-agent-tooling]: Downloading https://files.pythonhosted.org/packages/40/cc/d5bea290bbf870b8c32f51179b33743c8bd2603c836bdadb915d8182e2dd/prediction_market_agent_tooling-0.9.1.tar.gz
+[2024-04-05 10:51:10] WARNING root fetch - processPackages [3scale-api-crd]: Timeout reached during download
+[2024-04-05 10:51:10] INFO root fetch - processPackages [3scale-api-crd]: executing diffoscope
+[2024-04-05 10:51:10] INFO root fetch - processPackages [3scale-api-crd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/3scale-api-crd-0.1.0.tar.gz tmp/3scale-api-crd-0.1.1.tar.gz --markdown 20240405/3/3scale-api-crd/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2024-04-05 10:51:10] WARNING root fetch - processPackages [PyClinet]: Timeout reached during download
+[2024-04-05 10:51:10] INFO root fetch - processPackages [PyClinet]: executing diffoscope
+[2024-04-05 10:51:10] INFO root fetch - processPackages [PyClinet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyClinet-1.1.0.tar.gz tmp/PyClinet-1.1.1.tar.gz --markdown 20240405/P/PyClinet/1.1.0-1.1.1/diff.md --exclude *.pyd
+[2024-04-05 10:51:10] INFO root fetch - processPackages [arviz]: Downloading https://files.pythonhosted.org/packages/7c/07/db363f873ca48e272363836a0e8bf3e02b4ea393ec0449398e82526aa16e/arviz-0.9.0.tar.gz
+[2024-04-05 10:51:10] WARNING root fetch - processPackages [prediction-market-agent-tooling]: Timeout reached during download
+[2024-04-05 10:51:10] INFO root fetch - processPackages [prediction-market-agent-tooling]: executing diffoscope
+[2024-04-05 10:51:10] INFO root fetch - processPackages [prediction-market-agent-tooling]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prediction_market_agent_tooling-0.9.0.tar.gz tmp/prediction_market_agent_tooling-0.9.1.tar.gz --markdown 20240405/p/prediction-market-agent-tooling/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2024-04-05 10:51:10] WARNING root fetch - processPackages [khoj-assistant]: Timeout reached during download
+[2024-04-05 10:51:10] INFO root fetch - processPackages [khoj-assistant]: executing diffoscope
+[2024-04-05 10:51:10] INFO root fetch - processPackages [khoj-assistant]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/khoj_assistant-1.8.1.dev60.tar.gz tmp/khoj_assistant-1.8.1.dev62.tar.gz --markdown 20240405/k/khoj-assistant/1.8.1.dev60-1.8.1.dev62/diff.md --exclude *.pyd
+[2024-04-05 10:51:11] WARNING root fetch - processPackages [arviz]: Timeout reached during download
+[2024-04-05 10:51:11] INFO root fetch - processPackages [arviz]: executing diffoscope
+[2024-04-05 10:51:11] INFO root fetch - processPackages [arviz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arviz-0.8.3.tar.gz tmp/arviz-0.9.0.tar.gz --markdown 20240405/a/arviz/0.8.3-0.9.0/diff.md --exclude *.pyd
+[2024-04-05 10:51:11] INFO root fetch - processPackages [linien-client]: Remove: archive file [/home/abi/fetcher/tmp/linien-client-1.0.1rc1.tar.gz]
+[2024-04-05 10:51:11] INFO root fetch - processPackages [linien-client]: Remove: archive file [/home/abi/fetcher/tmp/linien-client-1.0.2rc1.tar.gz]
+[2024-04-05 10:51:11] INFO root fetch - processPackages [linien-client]: Start processing: picle
+[2024-04-05 10:51:11] INFO root fetch - main [MainThread]: End processing [linien-client]: success
+[2024-04-05 10:51:11] INFO root fetch - processPackages [linien-common]: Remove: archive file [/home/abi/fetcher/tmp/linien-common-1.0.1rc1.tar.gz]
+[2024-04-05 10:51:11] INFO root fetch - processPackages [linien-common]: Remove: archive file [/home/abi/fetcher/tmp/linien-common-1.0.2rc1.tar.gz]
+[2024-04-05 10:51:11] INFO root fetch - main [MainThread]: End processing [linien-common]: success
+[2024-04-05 10:51:11] INFO root fetch - processPackages [picle]: New version: [0.4.0] Old Version: [0.3.0]
+[2024-04-05 10:51:11] INFO root fetch - processPackages [PyClinet]: Remove: archive file [/home/abi/fetcher/tmp/PyClinet-1.1.0.tar.gz]
+[2024-04-05 10:51:11] INFO root fetch - processPackages [PyClinet]: Remove: archive file [/home/abi/fetcher/tmp/PyClinet-1.1.1.tar.gz]
+[2024-04-05 10:51:11] INFO root fetch - main [MainThread]: End processing [PyClinet]: success
+[2024-04-05 10:51:11] INFO root fetch - processPackages [streamlit-nivo-charts-custom]: Remove: archive file [/home/abi/fetcher/tmp/streamlit-nivo-charts-custom-0.0.7.tar.gz]
+[2024-04-05 10:51:11] INFO root fetch - processPackages [streamlit-nivo-charts-custom]: Remove: archive file [/home/abi/fetcher/tmp/streamlit-nivo-charts-custom-0.0.8.tar.gz]
+[2024-04-05 10:51:11] INFO root fetch - main [MainThread]: End processing [streamlit-nivo-charts-custom]: success
+[2024-04-05 10:51:11] INFO root fetch - processPackages [picle]: Downloading https://files.pythonhosted.org/packages/ad/8f/534b9dee7246e88bb98d32abb52ea2f0c2cdf9990161328fb7468f069d99/picle-0.3.0.tar.gz
+[2024-04-05 10:51:11] INFO root fetch - processPackages [3scale-api-crd]: Remove: archive file [/home/abi/fetcher/tmp/3scale-api-crd-0.1.0.tar.gz]
+[2024-04-05 10:51:11] INFO root fetch - processPackages [3scale-api-crd]: Remove: archive file [/home/abi/fetcher/tmp/3scale-api-crd-0.1.1.tar.gz]
+[2024-04-05 10:51:11] INFO root fetch - main [MainThread]: End processing [3scale-api-crd]: success
+[2024-04-05 10:51:11] INFO root fetch - processPackages [linien-gui]: Remove: archive file [/home/abi/fetcher/tmp/linien-gui-1.0.1rc1.tar.gz]
+[2024-04-05 10:51:11] INFO root fetch - processPackages [linien-gui]: Remove: archive file [/home/abi/fetcher/tmp/linien-gui-1.0.2rc1.tar.gz]
+[2024-04-05 10:51:11] INFO root fetch - main [MainThread]: End processing [linien-gui]: success
+[2024-04-05 10:51:11] WARNING root fetch - processPackages [picle]: Timeout reached during download
+[2024-04-05 10:51:11] INFO root fetch - processPackages [prediction-market-agent-tooling]: Remove: archive file [/home/abi/fetcher/tmp/prediction_market_agent_tooling-0.9.0.tar.gz]
+[2024-04-05 10:51:11] INFO root fetch - processPackages [prediction-market-agent-tooling]: Remove: archive file [/home/abi/fetcher/tmp/prediction_market_agent_tooling-0.9.1.tar.gz]
+[2024-04-05 10:51:11] INFO root fetch - main [MainThread]: End processing [prediction-market-agent-tooling]: success
+[2024-04-05 10:51:11] INFO root fetch - processPackages [linien-server]: Remove: archive file [/home/abi/fetcher/tmp/linien-server-1.0.1rc1.tar.gz]
+[2024-04-05 10:51:11] INFO root fetch - processPackages [linien-server]: Remove: archive file [/home/abi/fetcher/tmp/linien-server-1.0.2rc1.tar.gz]
+[2024-04-05 10:51:11] INFO root fetch - main [MainThread]: End processing [linien-server]: success
+[2024-04-05 10:51:11] INFO root fetch - processPackages [picle]: Downloading https://files.pythonhosted.org/packages/04/54/32e5e1c850aedab376b9d685b9c264022600e788e82edbfa821feed4c51c/picle-0.4.0.tar.gz
+[2024-04-05 10:51:11] WARNING root fetch - processPackages [picle]: Timeout reached during download
+[2024-04-05 10:51:11] INFO root fetch - processPackages [picle]: executing diffoscope
+[2024-04-05 10:51:11] INFO root fetch - processPackages [picle]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/picle-0.3.0.tar.gz tmp/picle-0.4.0.tar.gz --markdown 20240405/p/picle/0.3.0-0.4.0/diff.md --exclude *.pyd
+[2024-04-05 10:51:12] INFO root fetch - processPackages [khoj-assistant]: Remove: archive file [/home/abi/fetcher/tmp/khoj_assistant-1.8.1.dev60.tar.gz]
+[2024-04-05 10:51:12] INFO root fetch - processPackages [khoj-assistant]: Remove: archive file [/home/abi/fetcher/tmp/khoj_assistant-1.8.1.dev62.tar.gz]
+[2024-04-05 10:51:12] INFO root fetch - main [MainThread]: End processing [khoj-assistant]: success
+[2024-04-05 10:51:12] INFO root fetch - processPackages [picle]: Remove: archive file [/home/abi/fetcher/tmp/picle-0.3.0.tar.gz]
+[2024-04-05 10:51:12] INFO root fetch - processPackages [picle]: Remove: archive file [/home/abi/fetcher/tmp/picle-0.4.0.tar.gz]
+[2024-04-05 10:51:12] INFO root fetch - main [MainThread]: End processing [picle]: success
+[2024-04-05 10:51:12] INFO root fetch - processPackages [arviz]: Remove: archive file [/home/abi/fetcher/tmp/arviz-0.8.3.tar.gz]
+[2024-04-05 10:51:12] INFO root fetch - processPackages [arviz]: Remove: archive file [/home/abi/fetcher/tmp/arviz-0.9.0.tar.gz]
+[2024-04-05 10:51:12] INFO root fetch - main [MainThread]: End processing [arviz]: success
+[2024-04-05 10:51:12] INFO root fetch - main [MainThread]: Store serial: [22633606]
