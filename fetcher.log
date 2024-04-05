@@ -3589,3 +3589,82 @@
 [2024-04-05 02:45:34] INFO root fetch - processPackages [tfds-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfds-nightly-4.9.4.dev202404050044.tar.gz]
 [2024-04-05 02:45:34] INFO root fetch - main [MainThread]: End processing [tfds-nightly]: success
 [2024-04-05 02:45:34] INFO root fetch - main [MainThread]: Store serial: [22629366]
+[2024-04-05 02:47:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22629366]
+[2024-04-05 02:47:43] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-05 02:47:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: django-model-helper
+[2024-04-05 02:47:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: botw-flag-util
+[2024-04-05 02:47:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nltk-tree-extensions
+[2024-04-05 02:47:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: squad-linaro-plugins
+[2024-04-05 02:47:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: wzy-bt-print
+[2024-04-05 02:47:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: encommon
+[2024-04-05 02:47:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: bioversions
+[2024-04-05 02:47:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ntgcalls
+[2024-04-05 02:47:43] INFO root fetch - processPackages [botw-flag-util]: New version: [0.3.6] Old Version: [0.3.5]
+[2024-04-05 02:47:43] INFO root fetch - processPackages [encommon]: New version: [0.7.5] Old Version: [0.7.4]
+[2024-04-05 02:47:43] INFO root fetch - processPackages [squad-linaro-plugins]: New version: [1.9] Old Version: [1.8]
+[2024-04-05 02:47:43] INFO root fetch - processPackages [wzy-bt-print]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-04-05 02:47:43] WARNING root fetch - processPackages [django-model-helper]: Skipping, unable to determine old version
+[2024-04-05 02:47:43] INFO root fetch - main [MainThread]: End processing [django-model-helper] error
+[2024-04-05 02:47:43] INFO root fetch - processPackages [encommon]: Downloading https://files.pythonhosted.org/packages/4a/e4/80a387051519e4b22c827b99c9e91a576fa80cfa6173b1d5769afb2711fc/encommon-0.7.4.tar.gz
+[2024-04-05 02:47:43] INFO root fetch - processPackages [botw-flag-util]: Downloading https://files.pythonhosted.org/packages/6c/13/b62aa1d5991aa522a70d189cf1bd7bf8cb0204300f17c59e3262d67f87d8/botw_flag_util-0.3.5.tar.gz
+[2024-04-05 02:47:43] INFO root fetch - processPackages [nltk-tree-extensions]: New version: [3.7.0.2.1] Old Version: [3.7.0.2.0]
+[2024-04-05 02:47:43] INFO root fetch - processPackages [ntgcalls]: New version: [1.2.0b5] Old Version: [1.1.3b6]
+[2024-04-05 02:47:43] INFO root fetch - processPackages [bioversions]: New version: [0.5.99] Old Version: [0.5.98]
+[2024-04-05 02:47:43] INFO root fetch - processPackages [wzy-bt-print]: Downloading https://files.pythonhosted.org/packages/ae/5e/e1abd8e5ab2d121c5449733aeed76e071b2ab493320dde18a22da77e9e0c/wzy_bt_print-0.1.0.tar.gz
+[2024-04-05 02:47:43] WARNING root fetch - processPackages [encommon]: Timeout reached during download
+[2024-04-05 02:47:43] INFO root fetch - processPackages [squad-linaro-plugins]: Downloading https://files.pythonhosted.org/packages/aa/19/f6164ccd904d62cc47a2f6543f91cc43fb08e12deb405df5128edcba9942/squad-linaro-plugins-1.8.tar.gz
+[2024-04-05 02:47:43] WARNING root fetch - processPackages [botw-flag-util]: Timeout reached during download
+[2024-04-05 02:47:43] INFO root fetch - processPackages [nltk-tree-extensions]: Downloading https://files.pythonhosted.org/packages/92/20/854d61571cc24b8b7cfab863599becd8b08b29e9cc2582883ecfad054c82/nltk_tree_extensions-3.7.0.2.0.tar.gz
+[2024-04-05 02:47:43] INFO root fetch - processPackages [bioversions]: Downloading https://files.pythonhosted.org/packages/e6/34/7c40209c13edc9fe7c611a00fd4b0d6e59d501613427ed6713ad6398b655/bioversions-0.5.98.tar.gz
+[2024-04-05 02:47:43] INFO root fetch - processPackages [ntgcalls]: Downloading https://files.pythonhosted.org/packages/ec/0d/13ea4d9c1abb3fa5bd773a2a45a442d7e9f51e1c9957164c12c434066e1c/ntgcalls-1.1.3b6.tar.gz
+[2024-04-05 02:47:43] WARNING root fetch - processPackages [squad-linaro-plugins]: Timeout reached during download
+[2024-04-05 02:47:43] WARNING root fetch - processPackages [wzy-bt-print]: Timeout reached during download
+[2024-04-05 02:47:43] INFO root fetch - processPackages [botw-flag-util]: Downloading https://files.pythonhosted.org/packages/a2/6e/87e4d174f1017f77a39fcab10dd03f5137a1010b2ed2ed2ba0aaf65e6ece/botw_flag_util-0.3.6.tar.gz
+[2024-04-05 02:47:43] WARNING root fetch - processPackages [nltk-tree-extensions]: Timeout reached during download
+[2024-04-05 02:47:43] INFO root fetch - processPackages [encommon]: Downloading https://files.pythonhosted.org/packages/05/90/f8dc74011632ff5ab14c155444eba6e8946b789d831bfef3d873d460f32a/encommon-0.7.5.tar.gz
+[2024-04-05 02:47:44] WARNING root fetch - processPackages [bioversions]: Timeout reached during download
+[2024-04-05 02:47:44] WARNING root fetch - processPackages [botw-flag-util]: Timeout reached during download
+[2024-04-05 02:47:44] INFO root fetch - processPackages [botw-flag-util]: executing diffoscope
+[2024-04-05 02:47:44] INFO root fetch - processPackages [botw-flag-util]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/botw_flag_util-0.3.5.tar.gz tmp/botw_flag_util-0.3.6.tar.gz --markdown 20240405/b/botw-flag-util/0.3.5-0.3.6/diff.md --exclude *.pyd
+[2024-04-05 02:47:44] WARNING root fetch - processPackages [encommon]: Timeout reached during download
+[2024-04-05 02:47:44] INFO root fetch - processPackages [encommon]: executing diffoscope
+[2024-04-05 02:47:44] INFO root fetch - processPackages [encommon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/encommon-0.7.4.tar.gz tmp/encommon-0.7.5.tar.gz --markdown 20240405/e/encommon/0.7.4-0.7.5/diff.md --exclude *.pyd
+[2024-04-05 02:47:44] INFO root fetch - processPackages [squad-linaro-plugins]: Downloading https://files.pythonhosted.org/packages/19/50/5b70c8362e7322e021f66eaf3d68f158d2e190d8f983238f8772db79567d/squad-linaro-plugins-1.9.tar.gz
+[2024-04-05 02:47:44] INFO root fetch - processPackages [wzy-bt-print]: Downloading https://files.pythonhosted.org/packages/ac/4f/f434c9aff90ab7f0ccb36a6df781d70a6376759811cb4b2e500840677eba/wzy_bt_print-0.1.1.tar.gz
+[2024-04-05 02:47:44] INFO root fetch - processPackages [nltk-tree-extensions]: Downloading https://files.pythonhosted.org/packages/e9/dd/38def6548a6896ba08245ebdab1750cadfecab5a4944f4f6e32dd22a02a9/nltk_tree_extensions-3.7.0.2.1.tar.gz
+[2024-04-05 02:47:44] WARNING root fetch - processPackages [squad-linaro-plugins]: Timeout reached during download
+[2024-04-05 02:47:44] INFO root fetch - processPackages [squad-linaro-plugins]: executing diffoscope
+[2024-04-05 02:47:44] INFO root fetch - processPackages [squad-linaro-plugins]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/squad-linaro-plugins-1.8.tar.gz tmp/squad-linaro-plugins-1.9.tar.gz --markdown 20240405/s/squad-linaro-plugins/1.8-1.9/diff.md --exclude *.pyd
+[2024-04-05 02:47:44] WARNING root fetch - processPackages [nltk-tree-extensions]: Timeout reached during download
+[2024-04-05 02:47:44] INFO root fetch - processPackages [nltk-tree-extensions]: executing diffoscope
+[2024-04-05 02:47:44] INFO root fetch - processPackages [nltk-tree-extensions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nltk_tree_extensions-3.7.0.2.0.tar.gz tmp/nltk_tree_extensions-3.7.0.2.1.tar.gz --markdown 20240405/n/nltk-tree-extensions/3.7.0.2.0-3.7.0.2.1/diff.md --exclude *.pyd
+[2024-04-05 02:47:44] INFO root fetch - processPackages [bioversions]: Downloading https://files.pythonhosted.org/packages/0d/f5/5956eccd9643084cc5f7aba6325ec9de1ed3a2bb3568a8ee7ab88d0eac77/bioversions-0.5.99.tar.gz
+[2024-04-05 02:47:44] WARNING root fetch - processPackages [wzy-bt-print]: Timeout reached during download
+[2024-04-05 02:47:44] INFO root fetch - processPackages [wzy-bt-print]: executing diffoscope
+[2024-04-05 02:47:44] INFO root fetch - processPackages [wzy-bt-print]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wzy_bt_print-0.1.0.tar.gz tmp/wzy_bt_print-0.1.1.tar.gz --markdown 20240405/w/wzy-bt-print/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2024-04-05 02:47:44] WARNING root fetch - processPackages [ntgcalls]: Timeout reached during download
+[2024-04-05 02:47:44] WARNING root fetch - processPackages [bioversions]: Timeout reached during download
+[2024-04-05 02:47:44] INFO root fetch - processPackages [bioversions]: executing diffoscope
+[2024-04-05 02:47:44] INFO root fetch - processPackages [bioversions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bioversions-0.5.98.tar.gz tmp/bioversions-0.5.99.tar.gz --markdown 20240405/b/bioversions/0.5.98-0.5.99/diff.md --exclude *.pyd
+[2024-04-05 02:47:44] INFO root fetch - processPackages [ntgcalls]: Downloading https://files.pythonhosted.org/packages/09/db/0573c49fbff2c7927897729c50e9412087e4915456c2fa5373c76e92ec1c/ntgcalls-1.2.0b5-cp312-cp312-manylinux_2_17_aarch64.manylinux2014_aarch64.whl
+[2024-04-05 02:47:44] INFO root fetch - processPackages [botw-flag-util]: Remove: archive file [/home/abi/fetcher/tmp/botw_flag_util-0.3.5.tar.gz]
+[2024-04-05 02:47:44] INFO root fetch - processPackages [botw-flag-util]: Remove: archive file [/home/abi/fetcher/tmp/botw_flag_util-0.3.6.tar.gz]
+[2024-04-05 02:47:44] INFO root fetch - main [MainThread]: End processing [botw-flag-util]: success
+[2024-04-05 02:47:44] INFO root fetch - processPackages [squad-linaro-plugins]: Remove: archive file [/home/abi/fetcher/tmp/squad-linaro-plugins-1.8.tar.gz]
+[2024-04-05 02:47:44] INFO root fetch - processPackages [squad-linaro-plugins]: Remove: archive file [/home/abi/fetcher/tmp/squad-linaro-plugins-1.9.tar.gz]
+[2024-04-05 02:47:44] INFO root fetch - main [MainThread]: End processing [squad-linaro-plugins]: success
+[2024-04-05 02:47:44] INFO root fetch - processPackages [encommon]: Remove: archive file [/home/abi/fetcher/tmp/encommon-0.7.4.tar.gz]
+[2024-04-05 02:47:44] INFO root fetch - processPackages [encommon]: Remove: archive file [/home/abi/fetcher/tmp/encommon-0.7.5.tar.gz]
+[2024-04-05 02:47:44] INFO root fetch - main [MainThread]: End processing [encommon]: success
+[2024-04-05 02:47:44] INFO root fetch - processPackages [wzy-bt-print]: Remove: archive file [/home/abi/fetcher/tmp/wzy_bt_print-0.1.0.tar.gz]
+[2024-04-05 02:47:44] INFO root fetch - processPackages [wzy-bt-print]: Remove: archive file [/home/abi/fetcher/tmp/wzy_bt_print-0.1.1.tar.gz]
+[2024-04-05 02:47:44] INFO root fetch - main [MainThread]: End processing [wzy-bt-print]: success
+[2024-04-05 02:47:45] INFO root fetch - processPackages [nltk-tree-extensions]: Remove: archive file [/home/abi/fetcher/tmp/nltk_tree_extensions-3.7.0.2.0.tar.gz]
+[2024-04-05 02:47:45] INFO root fetch - processPackages [nltk-tree-extensions]: Remove: archive file [/home/abi/fetcher/tmp/nltk_tree_extensions-3.7.0.2.1.tar.gz]
+[2024-04-05 02:47:45] INFO root fetch - main [MainThread]: End processing [nltk-tree-extensions]: success
+[2024-04-05 02:47:45] WARNING root fetch - processPackages [ntgcalls]: Skipping package: exceeds size limit 13779066>=10485760
+[2024-04-05 02:47:45] INFO root fetch - main [MainThread]: End processing [ntgcalls] error
+[2024-04-05 02:48:03] INFO root fetch - processPackages [bioversions]: Remove: archive file [/home/abi/fetcher/tmp/bioversions-0.5.98.tar.gz]
+[2024-04-05 02:48:03] INFO root fetch - processPackages [bioversions]: Remove: archive file [/home/abi/fetcher/tmp/bioversions-0.5.99.tar.gz]
+[2024-04-05 02:48:03] INFO root fetch - main [MainThread]: End processing [bioversions]: success
+[2024-04-05 02:48:03] INFO root fetch - main [MainThread]: Store serial: [22629400]
