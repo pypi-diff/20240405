@@ -12280,3 +12280,50 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2024-04-05 07:21:42] INFO root fetch - processPackages [marioutils]: Remove: archive file [/home/abi/fetcher/tmp/marioutils-1.1.2.tar.gz]
 [2024-04-05 07:21:42] INFO root fetch - main [MainThread]: End processing [marioutils]: success
 [2024-04-05 07:21:42] INFO root fetch - main [MainThread]: Store serial: [22631967]
+[2024-04-05 07:23:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22631967]
+[2024-04-05 07:23:51] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-05 07:23:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: coretex
+[2024-04-05 07:23:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: openagi
+[2024-04-05 07:23:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: lazy-mongo-log
+[2024-04-05 07:23:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: function2widgets
+[2024-04-05 07:23:51] INFO root fetch - processPackages [lazy-mongo-log]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-04-05 07:23:51] INFO root fetch - processPackages [openagi]: New version: [0.1.0b3] Old Version: [0.1.0b2]
+[2024-04-05 07:23:51] INFO root fetch - processPackages [function2widgets]: New version: [0.6.4] Old Version: [0.6.3]
+[2024-04-05 07:23:51] INFO root fetch - processPackages [coretex]: New version: [1.0.99] Old Version: [1.0.96]
+[2024-04-05 07:23:51] INFO root fetch - processPackages [lazy-mongo-log]: Downloading https://files.pythonhosted.org/packages/01/98/fa90a5742d23cce4a581098c5a1115e2a53dc815f0cc68b5dcf233d40f57/lazy_mongo_log-0.1.0.tar.gz
+[2024-04-05 07:23:51] INFO root fetch - processPackages [openagi]: Downloading https://files.pythonhosted.org/packages/a0/5f/8104ce0af283140aa4f24be49cef35d8e6d75046e1085bcc44acd380a778/openagi-0.1.0b2.tar.gz
+[2024-04-05 07:23:51] INFO root fetch - processPackages [function2widgets]: Downloading https://files.pythonhosted.org/packages/20/03/a893b7c9bb127b19dbdef35199220a78ef71b34e2afdf21f310b74579a95/function2widgets-0.6.3.tar.gz
+[2024-04-05 07:23:51] WARNING root fetch - processPackages [lazy-mongo-log]: Timeout reached during download
+[2024-04-05 07:23:51] INFO root fetch - processPackages [coretex]: Downloading https://files.pythonhosted.org/packages/9c/9e/96442e220cdfb0a7de20d94e88cc29d613e1047969cf03065f2d31453bac/coretex-1.0.96.tar.gz
+[2024-04-05 07:23:51] WARNING root fetch - processPackages [openagi]: Timeout reached during download
+[2024-04-05 07:23:51] WARNING root fetch - processPackages [function2widgets]: Timeout reached during download
+[2024-04-05 07:23:51] WARNING root fetch - processPackages [coretex]: Timeout reached during download
+[2024-04-05 07:23:51] INFO root fetch - processPackages [lazy-mongo-log]: Downloading https://files.pythonhosted.org/packages/3e/9c/8ccdffa13b32aae86fa551047ce286b654edac6997a82aa1d99ae197f445/lazy_mongo_log-0.1.1.tar.gz
+[2024-04-05 07:23:52] INFO root fetch - processPackages [openagi]: Downloading https://files.pythonhosted.org/packages/37/0b/3ea8f0140b94c357cae06c7f4a78c575f6847ef1491422991038bdb47848/openagi-0.1.0b3.tar.gz
+[2024-04-05 07:23:52] INFO root fetch - processPackages [function2widgets]: Downloading https://files.pythonhosted.org/packages/5a/d1/cb21cc9cc04a9f192b59ff58c6fce71d8c18c766ee4e4d92fd5045e12d96/function2widgets-0.6.4.tar.gz
+[2024-04-05 07:23:52] WARNING root fetch - processPackages [lazy-mongo-log]: Timeout reached during download
+[2024-04-05 07:23:52] INFO root fetch - processPackages [lazy-mongo-log]: executing diffoscope
+[2024-04-05 07:23:52] INFO root fetch - processPackages [lazy-mongo-log]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lazy_mongo_log-0.1.0.tar.gz tmp/lazy_mongo_log-0.1.1.tar.gz --markdown 20240405/l/lazy-mongo-log/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2024-04-05 07:23:52] INFO root fetch - processPackages [coretex]: Downloading https://files.pythonhosted.org/packages/35/0f/19a109dc4ec31f790990676e2491f95aa631705ada3ef9669d6992624fc3/coretex-1.0.99.tar.gz
+[2024-04-05 07:23:52] WARNING root fetch - processPackages [openagi]: Timeout reached during download
+[2024-04-05 07:23:52] INFO root fetch - processPackages [openagi]: executing diffoscope
+[2024-04-05 07:23:52] INFO root fetch - processPackages [openagi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openagi-0.1.0b2.tar.gz tmp/openagi-0.1.0b3.tar.gz --markdown 20240405/o/openagi/0.1.0b2-0.1.0b3/diff.md --exclude *.pyd
+[2024-04-05 07:23:52] WARNING root fetch - processPackages [function2widgets]: Timeout reached during download
+[2024-04-05 07:23:52] INFO root fetch - processPackages [function2widgets]: executing diffoscope
+[2024-04-05 07:23:52] INFO root fetch - processPackages [function2widgets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/function2widgets-0.6.3.tar.gz tmp/function2widgets-0.6.4.tar.gz --markdown 20240405/f/function2widgets/0.6.3-0.6.4/diff.md --exclude *.pyd
+[2024-04-05 07:23:52] WARNING root fetch - processPackages [coretex]: Timeout reached during download
+[2024-04-05 07:23:52] INFO root fetch - processPackages [coretex]: executing diffoscope
+[2024-04-05 07:23:52] INFO root fetch - processPackages [coretex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coretex-1.0.96.tar.gz tmp/coretex-1.0.99.tar.gz --markdown 20240405/c/coretex/1.0.96-1.0.99/diff.md --exclude *.pyd
+[2024-04-05 07:23:52] INFO root fetch - processPackages [lazy-mongo-log]: Remove: archive file [/home/abi/fetcher/tmp/lazy_mongo_log-0.1.0.tar.gz]
+[2024-04-05 07:23:52] INFO root fetch - processPackages [lazy-mongo-log]: Remove: archive file [/home/abi/fetcher/tmp/lazy_mongo_log-0.1.1.tar.gz]
+[2024-04-05 07:23:52] INFO root fetch - main [MainThread]: End processing [lazy-mongo-log]: success
+[2024-04-05 07:23:52] INFO root fetch - processPackages [function2widgets]: Remove: archive file [/home/abi/fetcher/tmp/function2widgets-0.6.3.tar.gz]
+[2024-04-05 07:23:52] INFO root fetch - processPackages [function2widgets]: Remove: archive file [/home/abi/fetcher/tmp/function2widgets-0.6.4.tar.gz]
+[2024-04-05 07:23:52] INFO root fetch - main [MainThread]: End processing [function2widgets]: success
+[2024-04-05 07:23:52] INFO root fetch - processPackages [openagi]: Remove: archive file [/home/abi/fetcher/tmp/openagi-0.1.0b2.tar.gz]
+[2024-04-05 07:23:52] INFO root fetch - processPackages [openagi]: Remove: archive file [/home/abi/fetcher/tmp/openagi-0.1.0b3.tar.gz]
+[2024-04-05 07:23:52] INFO root fetch - main [MainThread]: End processing [openagi]: success
+[2024-04-05 07:23:53] INFO root fetch - processPackages [coretex]: Remove: archive file [/home/abi/fetcher/tmp/coretex-1.0.96.tar.gz]
+[2024-04-05 07:23:53] INFO root fetch - processPackages [coretex]: Remove: archive file [/home/abi/fetcher/tmp/coretex-1.0.99.tar.gz]
+[2024-04-05 07:23:53] INFO root fetch - main [MainThread]: End processing [coretex]: success
+[2024-04-05 07:23:53] INFO root fetch - main [MainThread]: Store serial: [22631979]
