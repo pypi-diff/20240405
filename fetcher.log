@@ -23578,3 +23578,88 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2024-04-05 15:06:24] INFO root fetch - processPackages [akshare]: Remove: archive file [/home/abi/fetcher/tmp/akshare-1.9.99.tar.gz]
 [2024-04-05 15:06:24] INFO root fetch - main [MainThread]: End processing [akshare]: success
 [2024-04-05 15:06:24] INFO root fetch - main [MainThread]: Store serial: [22636325]
+[2024-04-05 15:08:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22636325]
+[2024-04-05 15:08:33] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-05 15:08:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: few-shot-priming
+[2024-04-05 15:08:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyguiadapter
+[2024-04-05 15:08:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pytest-helm-templates
+[2024-04-05 15:08:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: space-collector
+[2024-04-05 15:08:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: teensytoany
+[2024-04-05 15:08:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ecallisto-ng
+[2024-04-05 15:08:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: codedepot-git-ai
+[2024-04-05 15:08:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: lnschema_bionty
+[2024-04-05 15:08:33] INFO root fetch - processPackages [pytest-helm-templates]: New version: [0.0.1a3] Old Version: [0.0.1a2]
+[2024-04-05 15:08:33] INFO root fetch - processPackages [few-shot-priming]: New version: [0.3.99] Old Version: [0.3.98]
+[2024-04-05 15:08:33] INFO root fetch - processPackages [lnschema_bionty]: New version: [0.9.0] Old Version: [0.8.1]
+[2024-04-05 15:08:33] INFO root fetch - processPackages [pytest-helm-templates]: Downloading https://files.pythonhosted.org/packages/6c/e4/d36d993c97345132171c3ea12588d892918862706c0eb1d30a68169334fe/pytest-helm-templates-0.0.1a2.tar.gz
+[2024-04-05 15:08:33] INFO root fetch - processPackages [pyguiadapter]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-04-05 15:08:33] INFO root fetch - processPackages [teensytoany]: New version: [0.4.0] Old Version: [0.3.0]
+[2024-04-05 15:08:33] INFO root fetch - processPackages [space-collector]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-05 15:08:33] INFO root fetch - processPackages [codedepot-git-ai]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-05 15:08:33] INFO root fetch - processPackages [ecallisto-ng]: New version: [0.7.12] Old Version: [0.7.11]
+[2024-04-05 15:08:33] INFO root fetch - processPackages [few-shot-priming]: Downloading https://files.pythonhosted.org/packages/eb/67/d15b11d0bfb57369fa16ba7f8c97cd3ddec8f771e6da8f11a3d819004b69/few_shot_priming-0.3.98-py3-none-any.whl
+[2024-04-05 15:08:33] INFO root fetch - processPackages [lnschema_bionty]: Downloading https://files.pythonhosted.org/packages/12/bb/32a1cbaa73ee4f038a3540bbbf0b3d7e27f22edcdbd7d7c80667fef68afd/lnschema_bionty-0.8.1.tar.gz
+[2024-04-05 15:08:33] INFO root fetch - processPackages [pyguiadapter]: Downloading https://files.pythonhosted.org/packages/63/70/e1d55956ecbc1c69b82b6b56ac1401fd0767a68b6719791fbc02a0c7f16e/pyguiadapter-0.2.8.tar.gz
+[2024-04-05 15:08:33] WARNING root fetch - processPackages [pytest-helm-templates]: Timeout reached during download
+[2024-04-05 15:08:33] WARNING root fetch - processPackages [lnschema_bionty]: Timeout reached during download
+[2024-04-05 15:08:33] INFO root fetch - processPackages [teensytoany]: Downloading https://files.pythonhosted.org/packages/cb/11/76e70e2eb9cf5acd100d3936c49aa5b7444695d1cab58d6241162d8793ff/teensytoany-0.3.0.tar.gz
+[2024-04-05 15:08:33] INFO root fetch - processPackages [ecallisto-ng]: Downloading https://files.pythonhosted.org/packages/82/47/4525ef6db2c3ff1dda17173ae9626881657657241f34521051bad558720b/ecallisto_ng-0.7.11.tar.gz
+[2024-04-05 15:08:33] INFO root fetch - processPackages [codedepot-git-ai]: Downloading https://files.pythonhosted.org/packages/75/a0/d0e8b138cccd8f61da86fd40d4a8266353af6b5bfed4b3be48a89b58d840/codedepot_git_ai-0.0.8.tar.gz
+[2024-04-05 15:08:33] INFO root fetch - processPackages [space-collector]: Downloading https://files.pythonhosted.org/packages/b5/f7/c18d6015ebd6ccaed2739b2717d75eef269ce808970fa85672e489370f7e/space_collector-0.0.8.tar.gz
+[2024-04-05 15:08:33] WARNING root fetch - processPackages [pyguiadapter]: Timeout reached during download
+[2024-04-05 15:08:33] INFO root fetch - processPackages [lnschema_bionty]: Downloading https://files.pythonhosted.org/packages/ed/64/d2babdba858b56f5825e7ac3e2d375cf42dcf278f3c6ad9daf179e40b556/lnschema_bionty-0.9.0.tar.gz
+[2024-04-05 15:08:33] INFO root fetch - processPackages [pytest-helm-templates]: Downloading https://files.pythonhosted.org/packages/da/36/8711d3c6146e6169d318a651a53157d69072c4c83b31cd0cf1d3d5145d5b/pytest-helm-templates-0.0.1a3.tar.gz
+[2024-04-05 15:08:33] WARNING root fetch - processPackages [teensytoany]: Timeout reached during download
+[2024-04-05 15:08:33] INFO root fetch - processPackages [pyguiadapter]: Downloading https://files.pythonhosted.org/packages/70/0c/139e08664e09a36f6be946b9da6bbd901fb3f580d61247274ec28cc5b2e9/pyguiadapter-0.2.9.tar.gz
+[2024-04-05 15:08:33] WARNING root fetch - processPackages [few-shot-priming]: Timeout reached during download
+[2024-04-05 15:08:33] WARNING root fetch - processPackages [space-collector]: Skipping package: exceeds size limit 19105904>=10485760
+[2024-04-05 15:08:33] INFO root fetch - main [MainThread]: End processing [space-collector] error
+[2024-04-05 15:08:34] WARNING root fetch - processPackages [codedepot-git-ai]: Timeout reached during download
+[2024-04-05 15:08:34] WARNING root fetch - processPackages [pyguiadapter]: Timeout reached during download
+[2024-04-05 15:08:34] INFO root fetch - processPackages [pyguiadapter]: executing diffoscope
+[2024-04-05 15:08:34] INFO root fetch - processPackages [pyguiadapter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyguiadapter-0.2.8.tar.gz tmp/pyguiadapter-0.2.9.tar.gz --markdown 20240405/p/pyguiadapter/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2024-04-05 15:08:34] INFO root fetch - processPackages [few-shot-priming]: Downloading https://files.pythonhosted.org/packages/ff/11/548f6e96803602e6431dc610d736d401b20fde986f85c35c8ad19a6d0958/few_shot_priming-0.3.99-py3-none-any.whl
+[2024-04-05 15:08:34] INFO root fetch - processPackages [teensytoany]: Downloading https://files.pythonhosted.org/packages/37/eb/3760eb41313e580ee5a104d73d1d9e433f7d15b20153c6445a1f331ab2b0/teensytoany-0.4.0.tar.gz
+[2024-04-05 15:08:34] WARNING root fetch - processPackages [lnschema_bionty]: Timeout reached during download
+[2024-04-05 15:08:34] INFO root fetch - processPackages [lnschema_bionty]: executing diffoscope
+[2024-04-05 15:08:34] INFO root fetch - processPackages [lnschema_bionty]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lnschema_bionty-0.8.1.tar.gz tmp/lnschema_bionty-0.9.0.tar.gz --markdown 20240405/l/lnschema_bionty/0.8.1-0.9.0/diff.md --exclude *.pyd
+[2024-04-05 15:08:34] WARNING root fetch - processPackages [ecallisto-ng]: Timeout reached during download
+[2024-04-05 15:08:34] INFO root fetch - processPackages [codedepot-git-ai]: Downloading https://files.pythonhosted.org/packages/1f/fb/3fcdaf99d6434aada4ea578dd2a3d046376dcc888a968c197445c5dd195b/codedepot_git_ai-0.0.9.tar.gz
+[2024-04-05 15:08:34] WARNING root fetch - processPackages [teensytoany]: Timeout reached during download
+[2024-04-05 15:08:34] INFO root fetch - processPackages [teensytoany]: executing diffoscope
+[2024-04-05 15:08:34] INFO root fetch - processPackages [teensytoany]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/teensytoany-0.3.0.tar.gz tmp/teensytoany-0.4.0.tar.gz --markdown 20240405/t/teensytoany/0.3.0-0.4.0/diff.md --exclude *.pyd
+[2024-04-05 15:08:34] WARNING root fetch - processPackages [codedepot-git-ai]: Timeout reached during download
+[2024-04-05 15:08:34] INFO root fetch - processPackages [codedepot-git-ai]: executing diffoscope
+[2024-04-05 15:08:34] INFO root fetch - processPackages [codedepot-git-ai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/codedepot_git_ai-0.0.8.tar.gz tmp/codedepot_git_ai-0.0.9.tar.gz --markdown 20240405/c/codedepot-git-ai/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2024-04-05 15:08:34] INFO root fetch - processPackages [ecallisto-ng]: Downloading https://files.pythonhosted.org/packages/9e/11/bd7987b9d8ee55705a71f4daa53c10d745ae5d8521fc6da99594ec1924e5/ecallisto_ng-0.7.12.tar.gz
+[2024-04-05 15:08:34] WARNING root fetch - processPackages [few-shot-priming]: Timeout reached during download
+[2024-04-05 15:08:34] INFO root fetch - processPackages [few-shot-priming]: executing diffoscope
+[2024-04-05 15:08:34] INFO root fetch - processPackages [few-shot-priming]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/few_shot_priming-0.3.98-py3-none-any.whl.zip tmp/few_shot_priming-0.3.99-py3-none-any.whl.zip --markdown 20240405/f/few-shot-priming/0.3.98-0.3.99/diff.md --exclude *.pyd
+[2024-04-05 15:08:34] WARNING root fetch - processPackages [ecallisto-ng]: Timeout reached during download
+[2024-04-05 15:08:34] INFO root fetch - processPackages [ecallisto-ng]: executing diffoscope
+[2024-04-05 15:08:34] INFO root fetch - processPackages [ecallisto-ng]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ecallisto_ng-0.7.11.tar.gz tmp/ecallisto_ng-0.7.12.tar.gz --markdown 20240405/e/ecallisto-ng/0.7.11-0.7.12/diff.md --exclude *.pyd
+[2024-04-05 15:08:34] INFO root fetch - processPackages [lnschema_bionty]: Remove: archive file [/home/abi/fetcher/tmp/lnschema_bionty-0.8.1.tar.gz]
+[2024-04-05 15:08:34] INFO root fetch - processPackages [lnschema_bionty]: Remove: archive file [/home/abi/fetcher/tmp/lnschema_bionty-0.9.0.tar.gz]
+[2024-04-05 15:08:34] INFO root fetch - main [MainThread]: End processing [lnschema_bionty]: success
+[2024-04-05 15:08:34] INFO root fetch - processPackages [teensytoany]: Remove: archive file [/home/abi/fetcher/tmp/teensytoany-0.3.0.tar.gz]
+[2024-04-05 15:08:34] INFO root fetch - processPackages [teensytoany]: Remove: archive file [/home/abi/fetcher/tmp/teensytoany-0.4.0.tar.gz]
+[2024-04-05 15:08:34] INFO root fetch - main [MainThread]: End processing [teensytoany]: success
+[2024-04-05 15:08:35] INFO root fetch - processPackages [codedepot-git-ai]: Remove: archive file [/home/abi/fetcher/tmp/codedepot_git_ai-0.0.8.tar.gz]
+[2024-04-05 15:08:35] INFO root fetch - processPackages [codedepot-git-ai]: Remove: archive file [/home/abi/fetcher/tmp/codedepot_git_ai-0.0.9.tar.gz]
+[2024-04-05 15:08:35] INFO root fetch - main [MainThread]: End processing [codedepot-git-ai]: success
+[2024-04-05 15:08:35] INFO root fetch - processPackages [few-shot-priming]: Remove: archive file [/home/abi/fetcher/tmp/few_shot_priming-0.3.98-py3-none-any.whl.zip]
+[2024-04-05 15:08:35] INFO root fetch - processPackages [few-shot-priming]: Remove: archive file [/home/abi/fetcher/tmp/few_shot_priming-0.3.99-py3-none-any.whl.zip]
+[2024-04-05 15:08:35] INFO root fetch - main [MainThread]: End processing [few-shot-priming]: success
+[2024-04-05 15:08:35] INFO root fetch - processPackages [pyguiadapter]: Remove: archive file [/home/abi/fetcher/tmp/pyguiadapter-0.2.8.tar.gz]
+[2024-04-05 15:08:35] INFO root fetch - processPackages [pyguiadapter]: Remove: archive file [/home/abi/fetcher/tmp/pyguiadapter-0.2.9.tar.gz]
+[2024-04-05 15:08:35] INFO root fetch - main [MainThread]: End processing [pyguiadapter]: success
+[2024-04-05 15:08:35] INFO root fetch - processPackages [ecallisto-ng]: Remove: archive file [/home/abi/fetcher/tmp/ecallisto_ng-0.7.11.tar.gz]
+[2024-04-05 15:08:35] INFO root fetch - processPackages [ecallisto-ng]: Remove: archive file [/home/abi/fetcher/tmp/ecallisto_ng-0.7.12.tar.gz]
+[2024-04-05 15:08:35] INFO root fetch - main [MainThread]: End processing [ecallisto-ng]: success
+[2024-04-05 15:08:36] WARNING root fetch - processPackages [pytest-helm-templates]: Timeout reached during download
+[2024-04-05 15:08:36] INFO root fetch - processPackages [pytest-helm-templates]: executing diffoscope
+[2024-04-05 15:08:36] INFO root fetch - processPackages [pytest-helm-templates]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest-helm-templates-0.0.1a2.tar.gz tmp/pytest-helm-templates-0.0.1a3.tar.gz --markdown 20240405/p/pytest-helm-templates/0.0.1a2-0.0.1a3/diff.md --exclude *.pyd
+[2024-04-05 15:08:36] INFO root fetch - processPackages [pytest-helm-templates]: Remove: archive file [/home/abi/fetcher/tmp/pytest-helm-templates-0.0.1a2.tar.gz]
+[2024-04-05 15:08:36] INFO root fetch - processPackages [pytest-helm-templates]: Remove: archive file [/home/abi/fetcher/tmp/pytest-helm-templates-0.0.1a3.tar.gz]
+[2024-04-05 15:08:36] INFO root fetch - main [MainThread]: End processing [pytest-helm-templates]: success
+[2024-04-05 15:08:36] INFO root fetch - main [MainThread]: Store serial: [22636348]
