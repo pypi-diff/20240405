@@ -15566,3 +15566,113 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2024-04-05 10:00:25] INFO root fetch - processPackages [odoo-addon-l10n-it-financial-statements-report]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_it_financial_statements_report-16.0.1.0.1.1-py3-none-any.whl.zip]
 [2024-04-05 10:00:25] INFO root fetch - main [MainThread]: End processing [odoo-addon-l10n-it-financial-statements-report]: success
 [2024-04-05 10:00:25] INFO root fetch - main [MainThread]: Store serial: [22633056]
+[2024-04-05 10:02:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22633056]
+[2024-04-05 10:02:34] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2024-04-05 10:02:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ibm-ara
+[2024-04-05 10:02:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: locust
+[2024-04-05 10:02:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: simo
+[2024-04-05 10:02:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: rtisdev
+[2024-04-05 10:02:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: geoviews
+[2024-04-05 10:02:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: weaviate-client
+[2024-04-05 10:02:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: nucliadb-node-binding
+[2024-04-05 10:02:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: windmill-api
+[2024-04-05 10:02:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: wmill
+[2024-04-05 10:02:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: wmill-pg
+[2024-04-05 10:02:34] INFO root fetch - processPackages [ibm-ara]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-04-05 10:02:34] INFO root fetch - processPackages [locust]: New version: [2.9.1.dev45] Old Version: [2.9.1.dev38]
+[2024-04-05 10:02:34] INFO root fetch - processPackages [geoviews]: New version: [1.9.7a2] Old Version: [1.9.6a5]
+[2024-04-05 10:02:34] INFO root fetch - processPackages [weaviate-client]: New version: [4.5rc0] Old Version: [4.5.4]
+[2024-04-05 10:02:34] INFO root fetch - processPackages [windmill-api]: New version: [1.99.0] Old Version: [1.98.0]
+[2024-04-05 10:02:34] INFO root fetch - processPackages [wmill-pg]: New version: [1.99.0] Old Version: [1.98.0]
+[2024-04-05 10:02:34] INFO root fetch - processPackages [simo]: New version: [2.0.4] Old Version: [2.0.3]
+[2024-04-05 10:02:34] WARNING root fetch - processPackages [rtisdev]: Skipping, unable to determine old version
+[2024-04-05 10:02:34] INFO root fetch - processPackages [rtisdev]: Start processing: th2-grpc-read-db
+[2024-04-05 10:02:34] INFO root fetch - main [MainThread]: End processing [rtisdev] error
+[2024-04-05 10:02:34] INFO root fetch - processPackages [geoviews]: Downloading https://files.pythonhosted.org/packages/49/e8/c097e9dc148c99b2e487c087056acb4128cc0eb82357368f1a69b4580632/geoviews-1.9.6a5.tar.gz
+[2024-04-05 10:02:34] INFO root fetch - processPackages [ibm-ara]: Downloading https://files.pythonhosted.org/packages/c2/9e/767de175a8852e1b394f7ddc5a54063fbc318b360d1ee506a90550721fa4/ibm_ara-0.1.0.tar.gz
+[2024-04-05 10:02:34] INFO root fetch - processPackages [wmill]: New version: [1.99.0] Old Version: [1.98.0]
+[2024-04-05 10:02:34] INFO root fetch - processPackages [nucliadb-node-binding]: New version: [2.46.1.post1093] Old Version: [2.46.1.post1079]
+[2024-04-05 10:02:34] INFO root fetch - processPackages [locust]: Downloading https://files.pythonhosted.org/packages/9e/ec/230b194549eadcded8e4a0fd7d2e3ed3a9c600452bfc52bfe59d845fb5a5/locust-2.9.1.dev38.tar.gz
+[2024-04-05 10:02:34] INFO root fetch - processPackages [windmill-api]: Downloading https://files.pythonhosted.org/packages/bd/de/5d29ca258adee967295dbf926ab306c480527c234336f0725d4c2bc1d718/windmill_api-1.98.0.tar.gz
+[2024-04-05 10:02:34] INFO root fetch - processPackages [th2-grpc-read-db]: New version: [0.0.8rc1] Old Version: [0.0.8.dev8566848281]
+[2024-04-05 10:02:34] INFO root fetch - processPackages [wmill]: Downloading https://files.pythonhosted.org/packages/6d/91/6b6052c80b8d367e051cc2905d1d921bf9a11f63e27a0f802b5c1277aa20/wmill-1.98.0.tar.gz
+[2024-04-05 10:02:34] INFO root fetch - processPackages [simo]: Downloading https://files.pythonhosted.org/packages/9b/1b/bc5adadef38e26c181be2576b11b3dbd1817dc55980025a625c6e60efb20/simo-2.0.3.tar.gz
+[2024-04-05 10:02:34] INFO root fetch - processPackages [wmill-pg]: Downloading https://files.pythonhosted.org/packages/a1/22/f7655b5ea090afc59651b874c61bf7bea4694e3fa9720a46058fa34c71ef/wmill_pg-1.98.0.tar.gz
+[2024-04-05 10:02:34] INFO root fetch - processPackages [weaviate-client]: Downloading https://files.pythonhosted.org/packages/e0/e2/72f7e12960c8ecb4bb447db7a6da041b07cf52e69e1eeadb51a1446d7491/weaviate-client-4.5.4.tar.gz
+[2024-04-05 10:02:34] WARNING root fetch - processPackages [ibm-ara]: Timeout reached during download
+[2024-04-05 10:02:34] WARNING root fetch - processPackages [geoviews]: Timeout reached during download
+[2024-04-05 10:02:34] INFO root fetch - processPackages [nucliadb-node-binding]: Downloading https://files.pythonhosted.org/packages/d9/d2/c8d30de02d836e95fee752b0f8a5391dd81c3ff5d0eeec6265b5c632c563/nucliadb_node_binding-2.46.1.post1079.tar.gz
+[2024-04-05 10:02:35] WARNING root fetch - processPackages [wmill]: Timeout reached during download
+[2024-04-05 10:02:35] WARNING root fetch - processPackages [windmill-api]: Timeout reached during download
+[2024-04-05 10:02:35] INFO root fetch - processPackages [ibm-ara]: Downloading https://files.pythonhosted.org/packages/26/e8/042eb73b1b33ea0822578c121238d945c1a706d823bdf13ac094355749b9/ibm_ara-0.1.1.tar.gz
+[2024-04-05 10:02:35] WARNING root fetch - processPackages [wmill-pg]: Timeout reached during download
+[2024-04-05 10:02:35] WARNING root fetch - processPackages [simo]: Skipping package: exceeds size limit 20481665>=10485760
+[2024-04-05 10:02:35] INFO root fetch - main [MainThread]: End processing [simo] error
+[2024-04-05 10:02:35] INFO root fetch - processPackages [th2-grpc-read-db]: Downloading https://files.pythonhosted.org/packages/9b/62/3ba6daf6638beb6abe3be416f63a0eb7a5436065182bd534febc0617317b/th2_grpc_read_db-0.0.8.dev8566848281.tar.gz
+[2024-04-05 10:02:35] WARNING root fetch - processPackages [weaviate-client]: Timeout reached during download
+[2024-04-05 10:02:35] INFO root fetch - processPackages [geoviews]: Downloading https://files.pythonhosted.org/packages/21/52/ed532b7720d007baaef44f3de206988e758a3384dc8984c0dff0f6bdb3d4/geoviews-1.9.7a2.tar.gz
+[2024-04-05 10:02:35] WARNING root fetch - processPackages [locust]: Timeout reached during download
+[2024-04-05 10:02:35] INFO root fetch - processPackages [wmill]: Downloading https://files.pythonhosted.org/packages/f1/d1/eb5b4c7d25f969fc3603441c8e90a5a8e00688be43ce0631166287977a65/wmill-1.99.0.tar.gz
+[2024-04-05 10:02:35] INFO root fetch - processPackages [windmill-api]: Downloading https://files.pythonhosted.org/packages/32/94/9431b41ce6b9c2670fbc125624f7ebc3d186482c80c271e3d7acde511319/windmill_api-1.99.0.tar.gz
+[2024-04-05 10:02:35] INFO root fetch - processPackages [wmill-pg]: Downloading https://files.pythonhosted.org/packages/26/ac/296bc5f7193d111c826ef99b60bf75fe1605158a73d728a5fad8aa771331/wmill_pg-1.99.0.tar.gz
+[2024-04-05 10:02:35] WARNING root fetch - processPackages [ibm-ara]: Timeout reached during download
+[2024-04-05 10:02:35] INFO root fetch - processPackages [ibm-ara]: executing diffoscope
+[2024-04-05 10:02:35] INFO root fetch - processPackages [ibm-ara]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ibm_ara-0.1.0.tar.gz tmp/ibm_ara-0.1.1.tar.gz --markdown 20240405/i/ibm-ara/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2024-04-05 10:02:35] WARNING root fetch - processPackages [th2-grpc-read-db]: Timeout reached during download
+[2024-04-05 10:02:35] WARNING root fetch - processPackages [nucliadb-node-binding]: Timeout reached during download
+[2024-04-05 10:02:35] WARNING root fetch - processPackages [wmill]: Timeout reached during download
+[2024-04-05 10:02:35] INFO root fetch - processPackages [wmill]: executing diffoscope
+[2024-04-05 10:02:35] INFO root fetch - processPackages [wmill]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wmill-1.98.0.tar.gz tmp/wmill-1.99.0.tar.gz --markdown 20240405/w/wmill/1.98.0-1.99.0/diff.md --exclude *.pyd
+[2024-04-05 10:02:35] WARNING root fetch - processPackages [wmill-pg]: Timeout reached during download
+[2024-04-05 10:02:35] INFO root fetch - processPackages [wmill-pg]: executing diffoscope
+[2024-04-05 10:02:35] INFO root fetch - processPackages [wmill-pg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wmill_pg-1.98.0.tar.gz tmp/wmill_pg-1.99.0.tar.gz --markdown 20240405/w/wmill-pg/1.98.0-1.99.0/diff.md --exclude *.pyd
+[2024-04-05 10:02:35] INFO root fetch - processPackages [locust]: Downloading https://files.pythonhosted.org/packages/ec/25/23264f2f77e7f0b1be817a375627e7821524f1a6bf4a5fd503bab0031505/locust-2.9.1.dev45.tar.gz
+[2024-04-05 10:02:35] WARNING root fetch - processPackages [windmill-api]: Timeout reached during download
+[2024-04-05 10:02:35] WARNING root fetch - processPackages [geoviews]: Timeout reached during download
+[2024-04-05 10:02:35] INFO root fetch - processPackages [windmill-api]: executing diffoscope
+[2024-04-05 10:02:35] INFO root fetch - processPackages [windmill-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/windmill_api-1.98.0.tar.gz tmp/windmill_api-1.99.0.tar.gz --markdown 20240405/w/windmill-api/1.98.0-1.99.0/diff.md --exclude *.pyd
+[2024-04-05 10:02:35] INFO root fetch - processPackages [geoviews]: executing diffoscope
+[2024-04-05 10:02:35] INFO root fetch - processPackages [geoviews]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/geoviews-1.9.6a5.tar.gz tmp/geoviews-1.9.7a2.tar.gz --markdown 20240405/g/geoviews/1.9.6a5-1.9.7a2/diff.md --exclude *.pyd
+[2024-04-05 10:02:35] INFO root fetch - processPackages [weaviate-client]: Downloading https://files.pythonhosted.org/packages/7b/d5/fd11d5c4a81b94b52ee77af630b211b53b9e7e8a52d16765fabfea007b0e/weaviate-client-4.5rc0.tar.gz
+[2024-04-05 10:02:35] INFO root fetch - processPackages [nucliadb-node-binding]: Downloading https://files.pythonhosted.org/packages/de/b9/8d6b49332681c9ec412e591e7a76ee63b2dc7a76b8db9ce706c0ac79c566/nucliadb_node_binding-2.46.1.post1093.tar.gz
+[2024-04-05 10:02:35] INFO root fetch - processPackages [th2-grpc-read-db]: Downloading https://files.pythonhosted.org/packages/04/44/e9b4bb65a8c860bb70bf2385d9571804292028e0e0da1a8dcc6223dc81ba/th2_grpc_read_db-0.0.8rc1.tar.gz
+[2024-04-05 10:02:35] WARNING root fetch - processPackages [weaviate-client]: Timeout reached during download
+[2024-04-05 10:02:35] INFO root fetch - processPackages [weaviate-client]: executing diffoscope
+[2024-04-05 10:02:35] INFO root fetch - processPackages [weaviate-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/weaviate-client-4.5.4.tar.gz tmp/weaviate-client-4.5rc0.tar.gz --markdown 20240405/w/weaviate-client/4.5.4-4.5rc0/diff.md --exclude *.pyd
+[2024-04-05 10:02:35] WARNING root fetch - processPackages [locust]: Timeout reached during download
+[2024-04-05 10:02:35] WARNING root fetch - processPackages [th2-grpc-read-db]: Timeout reached during download
+[2024-04-05 10:02:35] INFO root fetch - processPackages [th2-grpc-read-db]: executing diffoscope
+[2024-04-05 10:02:35] INFO root fetch - processPackages [locust]: executing diffoscope
+[2024-04-05 10:02:35] INFO root fetch - processPackages [th2-grpc-read-db]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/th2_grpc_read_db-0.0.8.dev8566848281.tar.gz tmp/th2_grpc_read_db-0.0.8rc1.tar.gz --markdown 20240405/t/th2-grpc-read-db/0.0.8.dev8566848281-0.0.8rc1/diff.md --exclude *.pyd
+[2024-04-05 10:02:35] INFO root fetch - processPackages [locust]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/locust-2.9.1.dev38.tar.gz tmp/locust-2.9.1.dev45.tar.gz --markdown 20240405/l/locust/2.9.1.dev38-2.9.1.dev45/diff.md --exclude *.pyd
+[2024-04-05 10:02:35] WARNING root fetch - processPackages [nucliadb-node-binding]: Timeout reached during download
+[2024-04-05 10:02:35] INFO root fetch - processPackages [nucliadb-node-binding]: executing diffoscope
+[2024-04-05 10:02:35] INFO root fetch - processPackages [nucliadb-node-binding]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_node_binding-2.46.1.post1079.tar.gz tmp/nucliadb_node_binding-2.46.1.post1093.tar.gz --markdown 20240405/n/nucliadb-node-binding/2.46.1.post1079-2.46.1.post1093/diff.md --exclude *.pyd
+[2024-04-05 10:02:35] INFO root fetch - processPackages [ibm-ara]: Remove: archive file [/home/abi/fetcher/tmp/ibm_ara-0.1.0.tar.gz]
+[2024-04-05 10:02:35] INFO root fetch - processPackages [ibm-ara]: Remove: archive file [/home/abi/fetcher/tmp/ibm_ara-0.1.1.tar.gz]
+[2024-04-05 10:02:36] INFO root fetch - main [MainThread]: End processing [ibm-ara]: success
+[2024-04-05 10:02:36] INFO root fetch - processPackages [wmill]: Remove: archive file [/home/abi/fetcher/tmp/wmill-1.98.0.tar.gz]
+[2024-04-05 10:02:36] INFO root fetch - processPackages [wmill]: Remove: archive file [/home/abi/fetcher/tmp/wmill-1.99.0.tar.gz]
+[2024-04-05 10:02:36] INFO root fetch - main [MainThread]: End processing [wmill]: success
+[2024-04-05 10:02:36] INFO root fetch - processPackages [wmill-pg]: Remove: archive file [/home/abi/fetcher/tmp/wmill_pg-1.98.0.tar.gz]
+[2024-04-05 10:02:36] INFO root fetch - processPackages [wmill-pg]: Remove: archive file [/home/abi/fetcher/tmp/wmill_pg-1.99.0.tar.gz]
+[2024-04-05 10:02:36] INFO root fetch - main [MainThread]: End processing [wmill-pg]: success
+[2024-04-05 10:02:36] INFO root fetch - processPackages [th2-grpc-read-db]: Remove: archive file [/home/abi/fetcher/tmp/th2_grpc_read_db-0.0.8.dev8566848281.tar.gz]
+[2024-04-05 10:02:36] INFO root fetch - processPackages [th2-grpc-read-db]: Remove: archive file [/home/abi/fetcher/tmp/th2_grpc_read_db-0.0.8rc1.tar.gz]
+[2024-04-05 10:02:36] INFO root fetch - main [MainThread]: End processing [th2-grpc-read-db]: success
+[2024-04-05 10:02:36] INFO root fetch - processPackages [geoviews]: Remove: archive file [/home/abi/fetcher/tmp/geoviews-1.9.6a5.tar.gz]
+[2024-04-05 10:02:36] INFO root fetch - processPackages [geoviews]: Remove: archive file [/home/abi/fetcher/tmp/geoviews-1.9.7a2.tar.gz]
+[2024-04-05 10:02:36] INFO root fetch - main [MainThread]: End processing [geoviews]: success
+[2024-04-05 10:02:37] INFO root fetch - processPackages [locust]: Remove: archive file [/home/abi/fetcher/tmp/locust-2.9.1.dev38.tar.gz]
+[2024-04-05 10:02:37] INFO root fetch - processPackages [locust]: Remove: archive file [/home/abi/fetcher/tmp/locust-2.9.1.dev45.tar.gz]
+[2024-04-05 10:02:37] INFO root fetch - main [MainThread]: End processing [locust]: success
+[2024-04-05 10:02:37] INFO root fetch - processPackages [weaviate-client]: Remove: archive file [/home/abi/fetcher/tmp/weaviate-client-4.5.4.tar.gz]
+[2024-04-05 10:02:37] INFO root fetch - processPackages [weaviate-client]: Remove: archive file [/home/abi/fetcher/tmp/weaviate-client-4.5rc0.tar.gz]
+[2024-04-05 10:02:37] INFO root fetch - main [MainThread]: End processing [weaviate-client]: success
+[2024-04-05 10:02:37] INFO root fetch - processPackages [nucliadb-node-binding]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_node_binding-2.46.1.post1079.tar.gz]
+[2024-04-05 10:02:37] INFO root fetch - processPackages [nucliadb-node-binding]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_node_binding-2.46.1.post1093.tar.gz]
+[2024-04-05 10:02:37] INFO root fetch - main [MainThread]: End processing [nucliadb-node-binding]: success
+[2024-04-05 10:02:39] INFO root fetch - processPackages [windmill-api]: Remove: archive file [/home/abi/fetcher/tmp/windmill_api-1.98.0.tar.gz]
+[2024-04-05 10:02:39] INFO root fetch - processPackages [windmill-api]: Remove: archive file [/home/abi/fetcher/tmp/windmill_api-1.99.0.tar.gz]
+[2024-04-05 10:02:39] INFO root fetch - main [MainThread]: End processing [windmill-api]: success
+[2024-04-05 10:02:39] INFO root fetch - main [MainThread]: Store serial: [22633109]
