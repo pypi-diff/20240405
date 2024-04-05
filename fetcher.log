@@ -24985,3 +24985,34 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2024-04-05 15:49:06] INFO root fetch - processPackages [assisted-service-client]: Remove: archive file [/home/abi/fetcher/tmp/assisted_service_client-2.9.0.post9-py3-none-any.whl.zip]
 [2024-04-05 15:49:06] INFO root fetch - main [MainThread]: End processing [assisted-service-client]: success
 [2024-04-05 15:49:06] INFO root fetch - main [MainThread]: Store serial: [22636897]
+[2024-04-05 15:51:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22636897]
+[2024-04-05 15:51:15] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-05 15:51:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: civilpy
+[2024-04-05 15:51:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: haiqv-dev
+[2024-04-05 15:51:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: clickup_pipeline
+[2024-04-05 15:51:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: logflake
+[2024-04-05 15:51:15] WARNING root fetch - processPackages [logflake]: Skipping, unable to determine old version
+[2024-04-05 15:51:15] INFO root fetch - main [MainThread]: End processing [logflake] error
+[2024-04-05 15:51:15] WARNING root fetch - processPackages [clickup_pipeline]: Skipping, unable to determine old version
+[2024-04-05 15:51:15] INFO root fetch - main [MainThread]: End processing [clickup_pipeline] error
+[2024-04-05 15:51:15] INFO root fetch - processPackages [civilpy]: New version: [0.0.78] Old Version: [0.0.77]
+[2024-04-05 15:51:15] INFO root fetch - processPackages [haiqv-dev]: New version: [240405rc2] Old Version: [240405rc1]
+[2024-04-05 15:51:16] INFO root fetch - processPackages [civilpy]: Downloading https://files.pythonhosted.org/packages/43/7e/2a98425cbe126da13f2ce26ab464d6ac1d30eb8cb8a4f8a2025507625e3b/civilpy-0.0.77.tar.gz
+[2024-04-05 15:51:16] INFO root fetch - processPackages [haiqv-dev]: Downloading https://files.pythonhosted.org/packages/a9/16/5a8cbcddee59dbcb942aa2ab2f4d6c02ca8b705845d8ba7359f3e63da1a8/haiqv_dev-240405rc1-py3-none-any.whl
+[2024-04-05 15:51:16] WARNING root fetch - processPackages [civilpy]: Timeout reached during download
+[2024-04-05 15:51:16] WARNING root fetch - processPackages [haiqv-dev]: Timeout reached during download
+[2024-04-05 15:51:16] INFO root fetch - processPackages [civilpy]: Downloading https://files.pythonhosted.org/packages/60/74/293ff557af43c996a313d2741b5bc8757864a3531c74132d36cff6a06d85/civilpy-0.0.78.tar.gz
+[2024-04-05 15:51:16] INFO root fetch - processPackages [haiqv-dev]: Downloading https://files.pythonhosted.org/packages/66/d4/51a176a19732eb5d61743c09fcba6b2eebea9b1bf87b33363737e6524c3a/haiqv_dev-240405rc2-py3-none-any.whl
+[2024-04-05 15:51:16] WARNING root fetch - processPackages [civilpy]: Timeout reached during download
+[2024-04-05 15:51:16] INFO root fetch - processPackages [civilpy]: executing diffoscope
+[2024-04-05 15:51:16] INFO root fetch - processPackages [civilpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/civilpy-0.0.77.tar.gz tmp/civilpy-0.0.78.tar.gz --markdown 20240405/c/civilpy/0.0.77-0.0.78/diff.md --exclude *.pyd
+[2024-04-05 15:51:16] WARNING root fetch - processPackages [haiqv-dev]: Timeout reached during download
+[2024-04-05 15:51:16] INFO root fetch - processPackages [haiqv-dev]: executing diffoscope
+[2024-04-05 15:51:16] INFO root fetch - processPackages [haiqv-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/haiqv_dev-240405rc1-py3-none-any.whl.zip tmp/haiqv_dev-240405rc2-py3-none-any.whl.zip --markdown 20240405/h/haiqv-dev/240405rc1-240405rc2/diff.md --exclude *.pyd
+[2024-04-05 15:51:17] INFO root fetch - processPackages [civilpy]: Remove: archive file [/home/abi/fetcher/tmp/civilpy-0.0.77.tar.gz]
+[2024-04-05 15:51:17] INFO root fetch - processPackages [civilpy]: Remove: archive file [/home/abi/fetcher/tmp/civilpy-0.0.78.tar.gz]
+[2024-04-05 15:51:17] INFO root fetch - main [MainThread]: End processing [civilpy]: success
+[2024-04-05 15:51:17] INFO root fetch - processPackages [haiqv-dev]: Remove: archive file [/home/abi/fetcher/tmp/haiqv_dev-240405rc1-py3-none-any.whl.zip]
+[2024-04-05 15:51:17] INFO root fetch - processPackages [haiqv-dev]: Remove: archive file [/home/abi/fetcher/tmp/haiqv_dev-240405rc2-py3-none-any.whl.zip]
+[2024-04-05 15:51:17] INFO root fetch - main [MainThread]: End processing [haiqv-dev]: success
+[2024-04-05 15:51:17] INFO root fetch - main [MainThread]: Store serial: [22636913]
