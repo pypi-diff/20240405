@@ -16051,3 +16051,38 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2024-04-05 10:18:05] INFO root fetch - processPackages [rebookmaker]: Remove: archive file [/home/abi/fetcher/tmp/rebookmaker-0.8.9.tar.gz]
 [2024-04-05 10:18:05] INFO root fetch - main [MainThread]: End processing [rebookmaker]: success
 [2024-04-05 10:18:05] INFO root fetch - main [MainThread]: Store serial: [22633345]
+[2024-04-05 10:20:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22633345]
+[2024-04-05 10:20:14] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-05 10:20:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: MarketTime
+[2024-04-05 10:20:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: aligo
+[2024-04-05 10:20:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: figeno
+[2024-04-05 10:20:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: fennel-ai
+[2024-04-05 10:20:14] INFO root fetch - processPackages [fennel-ai]: New version: [1.1.8] Old Version: [1.1.6]
+[2024-04-05 10:20:14] INFO root fetch - processPackages [MarketTime]: New version: [1.1.2] Old Version: [1.1.0]
+[2024-04-05 10:20:14] INFO root fetch - processPackages [figeno]: New version: [1.0.4] Old Version: [1.0.3]
+[2024-04-05 10:20:14] INFO root fetch - processPackages [fennel-ai]: Downloading https://files.pythonhosted.org/packages/38/42/21cc61f8d17d8890b0bac0481cc5caf432075bec69d7678e18bd526ce717/fennel_ai-1.1.6.tar.gz
+[2024-04-05 10:20:14] INFO root fetch - processPackages [aligo]: New version: [6.2.2] Old Version: [6.2.1]
+[2024-04-05 10:20:14] WARNING root fetch - processPackages [fennel-ai]: Skipping package: exceeds size limit 40185825>=10485760
+[2024-04-05 10:20:14] INFO root fetch - main [MainThread]: End processing [fennel-ai] error
+[2024-04-05 10:20:14] INFO root fetch - processPackages [MarketTime]: Downloading https://files.pythonhosted.org/packages/b4/0a/e0eaf8a42fdfbfd4795e19f0ad35e0767a7e8f3ab04ea2bab816b6da3938/MarketTime-1.1.0.tar.gz
+[2024-04-05 10:20:14] INFO root fetch - processPackages [aligo]: Downloading https://files.pythonhosted.org/packages/a8/10/8b7ccc373a53cfde6d2e6eeb662b42634a44335d069cd62aae5e67873389/aligo-6.2.1.tar.gz
+[2024-04-05 10:20:14] INFO root fetch - processPackages [figeno]: Downloading https://files.pythonhosted.org/packages/11/f5/c6eeaf80c9b9ef36a9df83ff951b7a90200a7b4397d33dcb224c6370d125/figeno-1.0.3.tar.gz
+[2024-04-05 10:20:14] WARNING root fetch - processPackages [figeno]: Skipping package: exceeds size limit 14353870>=10485760
+[2024-04-05 10:20:14] INFO root fetch - main [MainThread]: End processing [figeno] error
+[2024-04-05 10:20:14] WARNING root fetch - processPackages [aligo]: Timeout reached during download
+[2024-04-05 10:20:14] WARNING root fetch - processPackages [MarketTime]: Timeout reached during download
+[2024-04-05 10:20:14] INFO root fetch - processPackages [aligo]: Downloading https://files.pythonhosted.org/packages/f9/bf/daadcc4541c803d131d7043f8c1b21e0f81432c4d607bac4bd32a8aae451/aligo-6.2.2.tar.gz
+[2024-04-05 10:20:14] INFO root fetch - processPackages [MarketTime]: Downloading https://files.pythonhosted.org/packages/e2/3e/fbebbed2966e3637d96abcee6f3d074b26f0bf497fa70d0da98207a08b6f/MarketTime-1.1.2.tar.gz
+[2024-04-05 10:20:15] WARNING root fetch - processPackages [aligo]: Timeout reached during download
+[2024-04-05 10:20:15] INFO root fetch - processPackages [aligo]: executing diffoscope
+[2024-04-05 10:20:15] INFO root fetch - processPackages [aligo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aligo-6.2.1.tar.gz tmp/aligo-6.2.2.tar.gz --markdown 20240405/a/aligo/6.2.1-6.2.2/diff.md --exclude *.pyd
+[2024-04-05 10:20:15] WARNING root fetch - processPackages [MarketTime]: Timeout reached during download
+[2024-04-05 10:20:15] INFO root fetch - processPackages [MarketTime]: executing diffoscope
+[2024-04-05 10:20:15] INFO root fetch - processPackages [MarketTime]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MarketTime-1.1.0.tar.gz tmp/MarketTime-1.1.2.tar.gz --markdown 20240405/M/MarketTime/1.1.0-1.1.2/diff.md --exclude *.pyd
+[2024-04-05 10:20:15] INFO root fetch - processPackages [MarketTime]: Remove: archive file [/home/abi/fetcher/tmp/MarketTime-1.1.0.tar.gz]
+[2024-04-05 10:20:15] INFO root fetch - processPackages [MarketTime]: Remove: archive file [/home/abi/fetcher/tmp/MarketTime-1.1.2.tar.gz]
+[2024-04-05 10:20:15] INFO root fetch - main [MainThread]: End processing [MarketTime]: success
+[2024-04-05 10:20:15] INFO root fetch - processPackages [aligo]: Remove: archive file [/home/abi/fetcher/tmp/aligo-6.2.1.tar.gz]
+[2024-04-05 10:20:15] INFO root fetch - processPackages [aligo]: Remove: archive file [/home/abi/fetcher/tmp/aligo-6.2.2.tar.gz]
+[2024-04-05 10:20:15] INFO root fetch - main [MainThread]: End processing [aligo]: success
+[2024-04-05 10:20:15] INFO root fetch - main [MainThread]: Store serial: [22633357]
