@@ -8863,3 +8863,28 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2024-04-05 03:42:44] INFO root fetch - processPackages [prodvana]: Remove: archive file [/home/abi/fetcher/tmp/prodvana-0.3.9.tar.gz]
 [2024-04-05 03:42:44] INFO root fetch - main [MainThread]: End processing [prodvana]: success
 [2024-04-05 03:42:44] INFO root fetch - main [MainThread]: Store serial: [22630928]
+[2024-04-05 03:44:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22630928]
+[2024-04-05 03:44:53] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-05 03:44:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dragonfly-radiance
+[2024-04-05 03:44:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: kdp-api-python-client
+[2024-04-05 03:44:53] INFO root fetch - processPackages [dragonfly-radiance]: New version: [0.3.9] Old Version: [0.3.8]
+[2024-04-05 03:44:53] INFO root fetch - processPackages [dragonfly-radiance]: Downloading https://files.pythonhosted.org/packages/a2/41/805cddd3de27bfc114d3b54bbf0a558b1d450bb0bc346c8bbfc9f9e1ca04/dragonfly-radiance-0.3.8.tar.gz
+[2024-04-05 03:44:53] INFO root fetch - processPackages [kdp-api-python-client]: New version: [4.99.0] Old Version: [4.98.0]
+[2024-04-05 03:44:53] WARNING root fetch - processPackages [dragonfly-radiance]: Timeout reached during download
+[2024-04-05 03:44:53] INFO root fetch - processPackages [dragonfly-radiance]: Downloading https://files.pythonhosted.org/packages/a9/93/8933c5c67b8d336f624b3e7f9cb128678c38867dac08b6bb30a824b7cb3d/dragonfly-radiance-0.3.9.tar.gz
+[2024-04-05 03:44:54] INFO root fetch - processPackages [kdp-api-python-client]: Downloading https://files.pythonhosted.org/packages/46/b2/68c43660af0fe2c7d53c93038db9ca31ddd128caca21bb57962a6fc78413/kdp-api-python-client-4.98.0.tar.gz
+[2024-04-05 03:44:54] WARNING root fetch - processPackages [dragonfly-radiance]: Timeout reached during download
+[2024-04-05 03:44:54] INFO root fetch - processPackages [dragonfly-radiance]: executing diffoscope
+[2024-04-05 03:44:54] INFO root fetch - processPackages [dragonfly-radiance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dragonfly-radiance-0.3.8.tar.gz tmp/dragonfly-radiance-0.3.9.tar.gz --markdown 20240405/d/dragonfly-radiance/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2024-04-05 03:44:54] WARNING root fetch - processPackages [kdp-api-python-client]: Timeout reached during download
+[2024-04-05 03:44:54] INFO root fetch - processPackages [kdp-api-python-client]: Downloading https://files.pythonhosted.org/packages/10/df/e139683c19dbe53b0109746bec3dc990f3051099839fdf00cf46a309126f/kdp-api-python-client-4.99.0.tar.gz
+[2024-04-05 03:44:54] WARNING root fetch - processPackages [kdp-api-python-client]: Timeout reached during download
+[2024-04-05 03:44:54] INFO root fetch - processPackages [kdp-api-python-client]: executing diffoscope
+[2024-04-05 03:44:54] INFO root fetch - processPackages [kdp-api-python-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kdp-api-python-client-4.98.0.tar.gz tmp/kdp-api-python-client-4.99.0.tar.gz --markdown 20240405/k/kdp-api-python-client/4.98.0-4.99.0/diff.md --exclude *.pyd
+[2024-04-05 03:44:54] INFO root fetch - processPackages [dragonfly-radiance]: Remove: archive file [/home/abi/fetcher/tmp/dragonfly-radiance-0.3.8.tar.gz]
+[2024-04-05 03:44:54] INFO root fetch - processPackages [dragonfly-radiance]: Remove: archive file [/home/abi/fetcher/tmp/dragonfly-radiance-0.3.9.tar.gz]
+[2024-04-05 03:44:54] INFO root fetch - main [MainThread]: End processing [dragonfly-radiance]: success
+[2024-04-05 03:44:57] INFO root fetch - processPackages [kdp-api-python-client]: Remove: archive file [/home/abi/fetcher/tmp/kdp-api-python-client-4.98.0.tar.gz]
+[2024-04-05 03:44:57] INFO root fetch - processPackages [kdp-api-python-client]: Remove: archive file [/home/abi/fetcher/tmp/kdp-api-python-client-4.99.0.tar.gz]
+[2024-04-05 03:44:57] INFO root fetch - main [MainThread]: End processing [kdp-api-python-client]: success
+[2024-04-05 03:44:57] INFO root fetch - main [MainThread]: Store serial: [22630936]
