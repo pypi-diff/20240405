@@ -23488,3 +23488,93 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2024-04-05 15:04:05] INFO root fetch - processPackages [scikit-mps]: Remove: archive file [/home/abi/fetcher/tmp/scikit-mps-0.6.0.tar.gz]
 [2024-04-05 15:04:05] INFO root fetch - main [MainThread]: End processing [scikit-mps]: success
 [2024-04-05 15:04:05] INFO root fetch - main [MainThread]: Store serial: [22636296]
+[2024-04-05 15:06:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22636296]
+[2024-04-05 15:06:19] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-04-05 15:06:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lazy-loader
+[2024-04-05 15:06:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lwviewv2
+[2024-04-05 15:06:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ghit-smartptr
+[2024-04-05 15:06:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: britive
+[2024-04-05 15:06:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: sherpa-onnx
+[2024-04-05 15:06:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: growupmore-common-utils
+[2024-04-05 15:06:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: AIPySdeAnalyzer
+[2024-04-05 15:06:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: chat-rag
+[2024-04-05 15:06:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: akshare
+[2024-04-05 15:06:19] INFO root fetch - processPackages [lwviewv2]: New version: [1.2.0] Old Version: [1.1.0]
+[2024-04-05 15:06:19] INFO root fetch - processPackages [lazy-loader]: New version: [0.4] Old Version: [0.3rc0]
+[2024-04-05 15:06:19] INFO root fetch - processPackages [AIPySdeAnalyzer]: New version: [0.3.1] Old Version: [0.3.0]
+[2024-04-05 15:06:19] INFO root fetch - processPackages [lwviewv2]: Downloading https://files.pythonhosted.org/packages/7d/8b/867d6dd57d9751297e8f8747a4f5631295c51ecb57f7afb68a164f3cba79/lwviewv2-1.1.0.tar.gz
+[2024-04-05 15:06:19] WARNING root fetch - processPackages [growupmore-common-utils]: Skipping, unable to determine old version
+[2024-04-05 15:06:19] INFO root fetch - main [MainThread]: End processing [growupmore-common-utils] error
+[2024-04-05 15:06:19] INFO root fetch - processPackages [chat-rag]: New version: [0.1.65] Old Version: [0.1.64]
+[2024-04-05 15:06:19] INFO root fetch - processPackages [ghit-smartptr]: New version: [0.1.4] Old Version: [0.1.3]
+[2024-04-05 15:06:19] INFO root fetch - processPackages [britive]: New version: [2.9.0] Old Version: [2.8.1]
+[2024-04-05 15:06:19] INFO root fetch - processPackages [sherpa-onnx]: New version: [1.9.16] Old Version: [1.9.15]
+[2024-04-05 15:06:19] INFO root fetch - processPackages [akshare]: New version: [1.9.99] Old Version: [1.9.98]
+[2024-04-05 15:06:20] INFO root fetch - processPackages [lazy-loader]: Downloading https://files.pythonhosted.org/packages/2c/02/df74d2fa94e8fe225a8be1e9d1fc4cf39d14b1915987b0ae9f7812f6288f/lazy_loader-0.3rc0.tar.gz
+[2024-04-05 15:06:20] WARNING root fetch - processPackages [lwviewv2]: Timeout reached during download
+[2024-04-05 15:06:20] INFO root fetch - processPackages [britive]: Downloading https://files.pythonhosted.org/packages/ad/fe/09512cf25bfb5eebb803da0b5f76924c129c7ffe22d960be8db84a4705d5/britive-2.8.1.tar.gz
+[2024-04-05 15:06:20] INFO root fetch - processPackages [akshare]: Downloading https://files.pythonhosted.org/packages/ec/a4/f1c21d8fbb349e15f0bf76d32a496003bcff9b66215f81b940337a510e36/akshare-1.9.98.tar.gz
+[2024-04-05 15:06:20] INFO root fetch - processPackages [AIPySdeAnalyzer]: Downloading https://files.pythonhosted.org/packages/f6/22/1345d74f8f3ad6c7cedaf6deb8c82dfdf19a51f72ab834e4382a3e6b2a39/AIPySdeAnalyzer-0.3.0.tar.gz
+[2024-04-05 15:06:20] INFO root fetch - processPackages [ghit-smartptr]: Downloading https://files.pythonhosted.org/packages/8c/7b/b57aeece5f3c02a776aae6588315b6bf6b60ccbf489e802b400e1d054783/ghit_smartptr-0.1.3.tar.gz
+[2024-04-05 15:06:20] INFO root fetch - processPackages [chat-rag]: Downloading https://files.pythonhosted.org/packages/b7/32/e827330211431b931eb5c8194ff8b3ead7f9422348908678bceb35db89c4/chat_rag-0.1.64.tar.gz
+[2024-04-05 15:06:20] INFO root fetch - processPackages [sherpa-onnx]: Downloading https://files.pythonhosted.org/packages/e7/cc/8fe44abd6addc345b4d11f05274ca99682eae768719a33ead31edba57f81/sherpa-onnx-1.9.15.tar.gz
+[2024-04-05 15:06:20] WARNING root fetch - processPackages [lazy-loader]: Timeout reached during download
+[2024-04-05 15:06:20] INFO root fetch - processPackages [lwviewv2]: Downloading https://files.pythonhosted.org/packages/bc/6f/4076d087b4c6a1ee4576506619e1f090d62d0b3b7d80297e0fcd6dd2b3b5/lwviewv2-1.2.0.tar.gz
+[2024-04-05 15:06:20] WARNING root fetch - processPackages [britive]: Timeout reached during download
+[2024-04-05 15:06:20] WARNING root fetch - processPackages [ghit-smartptr]: Timeout reached during download
+[2024-04-05 15:06:20] WARNING root fetch - processPackages [lwviewv2]: Timeout reached during download
+[2024-04-05 15:06:20] INFO root fetch - processPackages [lwviewv2]: executing diffoscope
+[2024-04-05 15:06:20] INFO root fetch - processPackages [lwviewv2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lwviewv2-1.1.0.tar.gz tmp/lwviewv2-1.2.0.tar.gz --markdown 20240405/l/lwviewv2/1.1.0-1.2.0/diff.md --exclude *.pyd
+[2024-04-05 15:06:20] WARNING root fetch - processPackages [akshare]: Timeout reached during download
+[2024-04-05 15:06:20] INFO root fetch - processPackages [lazy-loader]: Downloading https://files.pythonhosted.org/packages/6f/6b/c875b30a1ba490860c93da4cabf479e03f584eba06fe5963f6f6644653d8/lazy_loader-0.4.tar.gz
+[2024-04-05 15:06:20] WARNING root fetch - processPackages [chat-rag]: Timeout reached during download
+[2024-04-05 15:06:20] WARNING root fetch - processPackages [sherpa-onnx]: Timeout reached during download
+[2024-04-05 15:06:20] INFO root fetch - processPackages [britive]: Downloading https://files.pythonhosted.org/packages/f5/b8/6056ab55919b8f38bd45f07c3be6ed61a97bc56f413f4e0e1e8ebb38e7c4/britive-2.9.0.tar.gz
+[2024-04-05 15:06:20] INFO root fetch - processPackages [akshare]: Downloading https://files.pythonhosted.org/packages/53/e8/f58e96016752567ca09f3f67abdc7e935d0afa919aded528d50590ed9170/akshare-1.9.99.tar.gz
+[2024-04-05 15:06:20] INFO root fetch - processPackages [ghit-smartptr]: Downloading https://files.pythonhosted.org/packages/c1/cc/9bc7978e79f9b68892af1e21e1b2b97162bd487a1934cc95f7eec1adf665/ghit_smartptr-0.1.4.tar.gz
+[2024-04-05 15:06:20] WARNING root fetch - processPackages [lazy-loader]: Timeout reached during download
+[2024-04-05 15:06:20] INFO root fetch - processPackages [lazy-loader]: executing diffoscope
+[2024-04-05 15:06:20] INFO root fetch - processPackages [lazy-loader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lazy_loader-0.3rc0.tar.gz tmp/lazy_loader-0.4.tar.gz --markdown 20240405/l/lazy-loader/0.3rc0-0.4/diff.md --exclude *.pyd
+[2024-04-05 15:06:20] INFO root fetch - processPackages [chat-rag]: Downloading https://files.pythonhosted.org/packages/8b/38/ff97144272995c09ece8994787920edea187fcb9fc7fcc80b635eefcab17/chat_rag-0.1.65.tar.gz
+[2024-04-05 15:06:20] WARNING root fetch - processPackages [britive]: Timeout reached during download
+[2024-04-05 15:06:20] INFO root fetch - processPackages [britive]: executing diffoscope
+[2024-04-05 15:06:20] INFO root fetch - processPackages [britive]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/britive-2.8.1.tar.gz tmp/britive-2.9.0.tar.gz --markdown 20240405/b/britive/2.8.1-2.9.0/diff.md --exclude *.pyd
+[2024-04-05 15:06:20] INFO root fetch - processPackages [sherpa-onnx]: Downloading https://files.pythonhosted.org/packages/58/2b/ba5064df2d6c003895a3fdd868f46347633e1c10a5551d2c9f2593fe045d/sherpa_onnx-1.9.16-cp311-cp311-macosx_11_0_x86_64.whl
+[2024-04-05 15:06:20] WARNING root fetch - processPackages [ghit-smartptr]: Timeout reached during download
+[2024-04-05 15:06:20] INFO root fetch - processPackages [ghit-smartptr]: executing diffoscope
+[2024-04-05 15:06:20] INFO root fetch - processPackages [ghit-smartptr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ghit_smartptr-0.1.3.tar.gz tmp/ghit_smartptr-0.1.4.tar.gz --markdown 20240405/g/ghit-smartptr/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2024-04-05 15:06:20] WARNING root fetch - processPackages [sherpa-onnx]: Skipping package: exceeds size limit 17118217>=10485760
+[2024-04-05 15:06:20] INFO root fetch - main [MainThread]: End processing [sherpa-onnx] error
+[2024-04-05 15:06:20] WARNING root fetch - processPackages [chat-rag]: Timeout reached during download
+[2024-04-05 15:06:20] INFO root fetch - processPackages [chat-rag]: executing diffoscope
+[2024-04-05 15:06:20] INFO root fetch - processPackages [chat-rag]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chat_rag-0.1.64.tar.gz tmp/chat_rag-0.1.65.tar.gz --markdown 20240405/c/chat-rag/0.1.64-0.1.65/diff.md --exclude *.pyd
+[2024-04-05 15:06:20] INFO root fetch - processPackages [lwviewv2]: Remove: archive file [/home/abi/fetcher/tmp/lwviewv2-1.1.0.tar.gz]
+[2024-04-05 15:06:20] INFO root fetch - processPackages [lwviewv2]: Remove: archive file [/home/abi/fetcher/tmp/lwviewv2-1.2.0.tar.gz]
+[2024-04-05 15:06:20] INFO root fetch - main [MainThread]: End processing [lwviewv2]: success
+[2024-04-05 15:06:21] INFO root fetch - processPackages [lazy-loader]: Remove: archive file [/home/abi/fetcher/tmp/lazy_loader-0.3rc0.tar.gz]
+[2024-04-05 15:06:21] INFO root fetch - processPackages [lazy-loader]: Remove: archive file [/home/abi/fetcher/tmp/lazy_loader-0.4.tar.gz]
+[2024-04-05 15:06:21] INFO root fetch - main [MainThread]: End processing [lazy-loader]: success
+[2024-04-05 15:06:21] INFO root fetch - processPackages [britive]: Remove: archive file [/home/abi/fetcher/tmp/britive-2.8.1.tar.gz]
+[2024-04-05 15:06:21] INFO root fetch - processPackages [britive]: Remove: archive file [/home/abi/fetcher/tmp/britive-2.9.0.tar.gz]
+[2024-04-05 15:06:21] INFO root fetch - main [MainThread]: End processing [britive]: success
+[2024-04-05 15:06:21] INFO root fetch - processPackages [ghit-smartptr]: Remove: archive file [/home/abi/fetcher/tmp/ghit_smartptr-0.1.3.tar.gz]
+[2024-04-05 15:06:21] INFO root fetch - processPackages [ghit-smartptr]: Remove: archive file [/home/abi/fetcher/tmp/ghit_smartptr-0.1.4.tar.gz]
+[2024-04-05 15:06:21] INFO root fetch - main [MainThread]: End processing [ghit-smartptr]: success
+[2024-04-05 15:06:21] INFO root fetch - processPackages [chat-rag]: Remove: archive file [/home/abi/fetcher/tmp/chat_rag-0.1.64.tar.gz]
+[2024-04-05 15:06:21] INFO root fetch - processPackages [chat-rag]: Remove: archive file [/home/abi/fetcher/tmp/chat_rag-0.1.65.tar.gz]
+[2024-04-05 15:06:21] INFO root fetch - main [MainThread]: End processing [chat-rag]: success
+[2024-04-05 15:06:21] WARNING root fetch - processPackages [AIPySdeAnalyzer]: Timeout reached during download
+[2024-04-05 15:06:21] WARNING root fetch - processPackages [akshare]: Timeout reached during download
+[2024-04-05 15:06:21] INFO root fetch - processPackages [akshare]: executing diffoscope
+[2024-04-05 15:06:21] INFO root fetch - processPackages [akshare]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/akshare-1.9.98.tar.gz tmp/akshare-1.9.99.tar.gz --markdown 20240405/a/akshare/1.9.98-1.9.99/diff.md --exclude *.pyd
+[2024-04-05 15:06:21] INFO root fetch - processPackages [AIPySdeAnalyzer]: Downloading https://files.pythonhosted.org/packages/61/d6/104dad75c8e2bd2b060177533e05ff6da79938de5d51fcadc2845748b9ae/AIPySdeAnalyzer-0.3.1.tar.gz
+[2024-04-05 15:06:22] WARNING root fetch - processPackages [AIPySdeAnalyzer]: Timeout reached during download
+[2024-04-05 15:06:22] INFO root fetch - processPackages [AIPySdeAnalyzer]: executing diffoscope
+[2024-04-05 15:06:22] INFO root fetch - processPackages [AIPySdeAnalyzer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/AIPySdeAnalyzer-0.3.0.tar.gz tmp/AIPySdeAnalyzer-0.3.1.tar.gz --markdown 20240405/A/AIPySdeAnalyzer/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2024-04-05 15:06:22] INFO root fetch - processPackages [AIPySdeAnalyzer]: Remove: archive file [/home/abi/fetcher/tmp/AIPySdeAnalyzer-0.3.0.tar.gz]
+[2024-04-05 15:06:22] INFO root fetch - processPackages [AIPySdeAnalyzer]: Remove: archive file [/home/abi/fetcher/tmp/AIPySdeAnalyzer-0.3.1.tar.gz]
+[2024-04-05 15:06:22] INFO root fetch - main [MainThread]: End processing [AIPySdeAnalyzer]: success
+[2024-04-05 15:06:24] INFO root fetch - processPackages [akshare]: Remove: archive file [/home/abi/fetcher/tmp/akshare-1.9.98.tar.gz]
+[2024-04-05 15:06:24] INFO root fetch - processPackages [akshare]: Remove: archive file [/home/abi/fetcher/tmp/akshare-1.9.99.tar.gz]
+[2024-04-05 15:06:24] INFO root fetch - main [MainThread]: End processing [akshare]: success
+[2024-04-05 15:06:24] INFO root fetch - main [MainThread]: Store serial: [22636325]
