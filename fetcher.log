@@ -19502,3 +19502,64 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2024-04-05 12:35:58] INFO root fetch - processPackages [irispie]: Remove: archive file [/home/abi/fetcher/tmp/irispie-0.9.0.tar.gz]
 [2024-04-05 12:35:58] INFO root fetch - main [MainThread]: End processing [irispie]: success
 [2024-04-05 12:35:58] INFO root fetch - main [MainThread]: Store serial: [22634668]
+[2024-04-05 12:38:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22634668]
+[2024-04-05 12:38:07] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-05 12:38:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: eth-wake
+[2024-04-05 12:38:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: c2-4apr24
+[2024-04-05 12:38:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: lycoris-lora
+[2024-04-05 12:38:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: avoca
+[2024-04-05 12:38:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: imgx
+[2024-04-05 12:38:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: one4all-iop-models
+[2024-04-05 12:38:07] INFO root fetch - processPackages [one4all-iop-models]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-04-05 12:38:07] INFO root fetch - processPackages [lycoris-lora]: New version: [2.3.0.dev5] Old Version: [2.3.0.dev4]
+[2024-04-05 12:38:07] WARNING root fetch - processPackages [imgx]: Skipping, unable to determine old version
+[2024-04-05 12:38:07] INFO root fetch - processPackages [eth-wake]: New version: [4.8.0] Old Version: [4.7.0]
+[2024-04-05 12:38:07] INFO root fetch - main [MainThread]: End processing [imgx] error
+[2024-04-05 12:38:07] INFO root fetch - processPackages [avoca]: New version: [0.2.0] Old Version: [0.1.0]
+[2024-04-05 12:38:07] INFO root fetch - processPackages [c2-4apr24]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-04-05 12:38:07] INFO root fetch - processPackages [lycoris-lora]: Downloading https://files.pythonhosted.org/packages/6a/c6/20bb92a9da21259922e76b694fa2e6c7862cb5d118e23b196300db83e0d2/lycoris_lora-2.3.0.dev4.tar.gz
+[2024-04-05 12:38:07] INFO root fetch - processPackages [one4all-iop-models]: Downloading https://files.pythonhosted.org/packages/af/41/66b8ecb606c677580a89e1f303da9e492a4b3c3e2e3364a2e1594464f93d/one4all_iop_models-0.1.0.tar.gz
+[2024-04-05 12:38:07] WARNING root fetch - processPackages [one4all-iop-models]: Timeout reached during download
+[2024-04-05 12:38:07] INFO root fetch - processPackages [eth-wake]: Downloading https://files.pythonhosted.org/packages/ec/3f/1e9e6c2a347331f7084e18b965a93336cc10465d6e763e15e0d5895ddefc/eth_wake-4.7.0.tar.gz
+[2024-04-05 12:38:07] WARNING root fetch - processPackages [lycoris-lora]: Timeout reached during download
+[2024-04-05 12:38:07] INFO root fetch - processPackages [avoca]: Downloading https://files.pythonhosted.org/packages/77/df/e54328edd6bc674f5b44f617f736163ba9854ff6b6d04a6982278c5d77ac/avoca-0.1.0.tar.gz
+[2024-04-05 12:38:07] INFO root fetch - processPackages [one4all-iop-models]: Downloading https://files.pythonhosted.org/packages/27/ef/f1a3280ebd4f30daa97592e3953163b0216447a848444b1f08de9362d833/one4all_iop_models-0.1.1.tar.gz
+[2024-04-05 12:38:07] INFO root fetch - processPackages [lycoris-lora]: Downloading https://files.pythonhosted.org/packages/ad/cd/1f3351ff492acc3b22d3d18a6ec7cffc2bc0656031ebb7b984fc794b8126/lycoris_lora-2.3.0.dev5.tar.gz
+[2024-04-05 12:38:08] WARNING root fetch - processPackages [one4all-iop-models]: Timeout reached during download
+[2024-04-05 12:38:08] INFO root fetch - processPackages [one4all-iop-models]: executing diffoscope
+[2024-04-05 12:38:08] INFO root fetch - processPackages [one4all-iop-models]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/one4all_iop_models-0.1.0.tar.gz tmp/one4all_iop_models-0.1.1.tar.gz --markdown 20240405/o/one4all-iop-models/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2024-04-05 12:38:08] INFO root fetch - processPackages [c2-4apr24]: Downloading https://files.pythonhosted.org/packages/b2/90/1475a059e3519e9c51e96b932dd245993d9000bb17f7e9e96d31f12ea0fb/c2-4apr24-0.1.0.tar.gz
+[2024-04-05 12:38:08] WARNING root fetch - processPackages [lycoris-lora]: Timeout reached during download
+[2024-04-05 12:38:08] INFO root fetch - processPackages [lycoris-lora]: executing diffoscope
+[2024-04-05 12:38:08] INFO root fetch - processPackages [lycoris-lora]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lycoris_lora-2.3.0.dev4.tar.gz tmp/lycoris_lora-2.3.0.dev5.tar.gz --markdown 20240405/l/lycoris-lora/2.3.0.dev4-2.3.0.dev5/diff.md --exclude *.pyd
+[2024-04-05 12:38:08] WARNING root fetch - processPackages [eth-wake]: Timeout reached during download
+[2024-04-05 12:38:08] WARNING root fetch - processPackages [avoca]: Timeout reached during download
+[2024-04-05 12:38:08] WARNING root fetch - processPackages [c2-4apr24]: Timeout reached during download
+[2024-04-05 12:38:08] INFO root fetch - processPackages [eth-wake]: Downloading https://files.pythonhosted.org/packages/54/29/b76613dfa28b2a9fb578ccd48dea70467b45e583930d14690f7b6b0b3724/eth_wake-4.8.0.tar.gz
+[2024-04-05 12:38:08] INFO root fetch - processPackages [avoca]: Downloading https://files.pythonhosted.org/packages/f6/58/7a560de5d21eb70c0eb260759a3b6dbe8f532c1ab02040a92546ba89bc81/avoca-0.2.0.tar.gz
+[2024-04-05 12:38:08] INFO root fetch - processPackages [c2-4apr24]: Downloading https://files.pythonhosted.org/packages/11/98/abcd9a49a106b7f8442ddc92626ececf74b8e15d76b8429449846c7ae290/c2-4apr24-0.1.1.tar.gz
+[2024-04-05 12:38:08] WARNING root fetch - processPackages [eth-wake]: Timeout reached during download
+[2024-04-05 12:38:08] INFO root fetch - processPackages [eth-wake]: executing diffoscope
+[2024-04-05 12:38:08] INFO root fetch - processPackages [eth-wake]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eth_wake-4.7.0.tar.gz tmp/eth_wake-4.8.0.tar.gz --markdown 20240405/e/eth-wake/4.7.0-4.8.0/diff.md --exclude *.pyd
+[2024-04-05 12:38:08] WARNING root fetch - processPackages [c2-4apr24]: Timeout reached during download
+[2024-04-05 12:38:08] INFO root fetch - processPackages [c2-4apr24]: executing diffoscope
+[2024-04-05 12:38:08] INFO root fetch - processPackages [c2-4apr24]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/c2-4apr24-0.1.0.tar.gz tmp/c2-4apr24-0.1.1.tar.gz --markdown 20240405/c/c2-4apr24/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2024-04-05 12:38:08] WARNING root fetch - processPackages [avoca]: Timeout reached during download
+[2024-04-05 12:38:08] INFO root fetch - processPackages [avoca]: executing diffoscope
+[2024-04-05 12:38:08] INFO root fetch - processPackages [avoca]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/avoca-0.1.0.tar.gz tmp/avoca-0.2.0.tar.gz --markdown 20240405/a/avoca/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2024-04-05 12:38:08] INFO root fetch - processPackages [one4all-iop-models]: Remove: archive file [/home/abi/fetcher/tmp/one4all_iop_models-0.1.0.tar.gz]
+[2024-04-05 12:38:08] INFO root fetch - processPackages [one4all-iop-models]: Remove: archive file [/home/abi/fetcher/tmp/one4all_iop_models-0.1.1.tar.gz]
+[2024-04-05 12:38:08] INFO root fetch - main [MainThread]: End processing [one4all-iop-models]: success
+[2024-04-05 12:38:08] INFO root fetch - processPackages [lycoris-lora]: Remove: archive file [/home/abi/fetcher/tmp/lycoris_lora-2.3.0.dev4.tar.gz]
+[2024-04-05 12:38:08] INFO root fetch - processPackages [lycoris-lora]: Remove: archive file [/home/abi/fetcher/tmp/lycoris_lora-2.3.0.dev5.tar.gz]
+[2024-04-05 12:38:08] INFO root fetch - main [MainThread]: End processing [lycoris-lora]: success
+[2024-04-05 12:38:09] INFO root fetch - processPackages [c2-4apr24]: Remove: archive file [/home/abi/fetcher/tmp/c2-4apr24-0.1.0.tar.gz]
+[2024-04-05 12:38:09] INFO root fetch - processPackages [c2-4apr24]: Remove: archive file [/home/abi/fetcher/tmp/c2-4apr24-0.1.1.tar.gz]
+[2024-04-05 12:38:09] INFO root fetch - main [MainThread]: End processing [c2-4apr24]: success
+[2024-04-05 12:38:09] INFO root fetch - processPackages [avoca]: Remove: archive file [/home/abi/fetcher/tmp/avoca-0.1.0.tar.gz]
+[2024-04-05 12:38:09] INFO root fetch - processPackages [avoca]: Remove: archive file [/home/abi/fetcher/tmp/avoca-0.2.0.tar.gz]
+[2024-04-05 12:38:09] INFO root fetch - main [MainThread]: End processing [avoca]: success
+[2024-04-05 12:38:10] INFO root fetch - processPackages [eth-wake]: Remove: archive file [/home/abi/fetcher/tmp/eth_wake-4.7.0.tar.gz]
+[2024-04-05 12:38:10] INFO root fetch - processPackages [eth-wake]: Remove: archive file [/home/abi/fetcher/tmp/eth_wake-4.8.0.tar.gz]
+[2024-04-05 12:38:10] INFO root fetch - main [MainThread]: End processing [eth-wake]: success
+[2024-04-05 12:38:10] INFO root fetch - main [MainThread]: Store serial: [22634689]
