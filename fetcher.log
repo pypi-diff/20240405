@@ -21117,3 +21117,69 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2024-04-05 13:36:50] INFO root fetch - processPackages [ipyparallel]: Remove: archive file [/home/abi/fetcher/tmp/ipyparallel-8.7.0.tar.gz]
 [2024-04-05 13:36:50] INFO root fetch - main [MainThread]: End processing [ipyparallel]: success
 [2024-04-05 13:36:50] INFO root fetch - main [MainThread]: Store serial: [22635435]
+[2024-04-05 13:38:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22635435]
+[2024-04-05 13:39:00] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-05 13:39:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: synch2jira
+[2024-04-05 13:39:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dnb-urn-service
+[2024-04-05 13:39:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: BicefalaPDFApp
+[2024-04-05 13:39:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: py-chalk-it
+[2024-04-05 13:39:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: quokka-sharp
+[2024-04-05 13:39:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ccptools
+[2024-04-05 13:39:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: hamburg
+[2024-04-05 13:39:00] INFO root fetch - processPackages [quokka-sharp]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-05 13:39:00] INFO root fetch - processPackages [dnb-urn-service]: New version: [0.1.6] Old Version: [0.1.5]
+[2024-04-05 13:39:00] WARNING root fetch - processPackages [BicefalaPDFApp]: Skipping, unable to determine old version
+[2024-04-05 13:39:00] INFO root fetch - main [MainThread]: End processing [BicefalaPDFApp] error
+[2024-04-05 13:39:00] INFO root fetch - processPackages [hamburg]: New version: [3.0.1] Old Version: [3.0.0]
+[2024-04-05 13:39:00] INFO root fetch - processPackages [ccptools]: New version: [1.0.0rc2] Old Version: [1.0.0]
+[2024-04-05 13:39:00] INFO root fetch - processPackages [py-chalk-it]: New version: [0.4.5] Old Version: [0.4.4]
+[2024-04-05 13:39:00] INFO root fetch - processPackages [synch2jira]: New version: [0.0.92] Old Version: [0.0.90]
+[2024-04-05 13:39:00] INFO root fetch - processPackages [py-chalk-it]: Downloading https://files.pythonhosted.org/packages/60/53/e3cf30d291712a16f7b560532878180a0b309ef25ef07bb238531c57eac1/py-chalk-it-0.4.4.tar.gz
+[2024-04-05 13:39:00] INFO root fetch - processPackages [quokka-sharp]: Downloading https://files.pythonhosted.org/packages/d3/07/99c373d3d0bf1de151b6296ddaa957e5ba07d0aaea5698ce3272a8684db4/quokka_sharp-0.0.8.tar.gz
+[2024-04-05 13:39:00] INFO root fetch - processPackages [ccptools]: Downloading https://files.pythonhosted.org/packages/57/b2/bef33450c456ae3a848a341c0b10ef1a9d26c1f39d428c8652d70da3405e/ccptools-1.0.0.tar.gz
+[2024-04-05 13:39:00] INFO root fetch - processPackages [dnb-urn-service]: Downloading https://files.pythonhosted.org/packages/f5/67/786de3366d3cab1b83a4e8abc4f98ae8129bb0904b23332552062e7b8e38/dnb-urn-service-0.1.5.tar.gz
+[2024-04-05 13:39:00] INFO root fetch - processPackages [synch2jira]: Downloading https://files.pythonhosted.org/packages/ac/89/8b516eb18c22325b081189904047384452a9632613ff3239bed0f9af7f0c/synch2jira-0.0.90.tar.gz
+[2024-04-05 13:39:00] INFO root fetch - processPackages [hamburg]: Downloading https://files.pythonhosted.org/packages/66/a1/ac94e95b4be594c2d715b04a9ee7169bbddb25e05f72daf7347d163634e4/hamburg-3.0.0.tar.gz
+[2024-04-05 13:39:00] WARNING root fetch - processPackages [py-chalk-it]: Skipping package: exceeds size limit 33996269>=10485760
+[2024-04-05 13:39:00] INFO root fetch - main [MainThread]: End processing [py-chalk-it] error
+[2024-04-05 13:39:01] WARNING root fetch - processPackages [dnb-urn-service]: Timeout reached during download
+[2024-04-05 13:39:01] WARNING root fetch - processPackages [ccptools]: Timeout reached during download
+[2024-04-05 13:39:01] WARNING root fetch - processPackages [quokka-sharp]: Timeout reached during download
+[2024-04-05 13:39:01] WARNING root fetch - processPackages [hamburg]: Timeout reached during download
+[2024-04-05 13:39:01] WARNING root fetch - processPackages [synch2jira]: Timeout reached during download
+[2024-04-05 13:39:01] INFO root fetch - processPackages [dnb-urn-service]: Downloading https://files.pythonhosted.org/packages/c5/e5/a130a11a8771b9bcf2b46c098eedd76c755e2628a5d7edf2cb25295ec7b6/dnb-urn-service-0.1.6.tar.gz
+[2024-04-05 13:39:01] INFO root fetch - processPackages [ccptools]: Downloading https://files.pythonhosted.org/packages/50/ff/b334c6032e2c90eec866b40ecef964f5bd24bacdb7a30ac12d0da6f4cb4c/ccptools-1.0.0rc2.tar.gz
+[2024-04-05 13:39:01] INFO root fetch - processPackages [hamburg]: Downloading https://files.pythonhosted.org/packages/70/8f/e6c972697d9908da97a4adabc3bc0302b578105ceda9aadd138461ce880e/hamburg-3.0.1.tar.gz
+[2024-04-05 13:39:01] INFO root fetch - processPackages [quokka-sharp]: Downloading https://files.pythonhosted.org/packages/ff/a8/80c6aaff1c7ea5821c3b215be8f0703c47d168712ebaa62bef5ce15012cf/quokka_sharp-0.0.9.tar.gz
+[2024-04-05 13:39:01] INFO root fetch - processPackages [synch2jira]: Downloading https://files.pythonhosted.org/packages/43/14/6f75dbd556e30e1e676db4cf124487a7b6c686c6daec58b5cbd03ac827b9/synch2jira-0.0.92.tar.gz
+[2024-04-05 13:39:01] WARNING root fetch - processPackages [dnb-urn-service]: Timeout reached during download
+[2024-04-05 13:39:01] INFO root fetch - processPackages [dnb-urn-service]: executing diffoscope
+[2024-04-05 13:39:01] INFO root fetch - processPackages [dnb-urn-service]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dnb-urn-service-0.1.5.tar.gz tmp/dnb-urn-service-0.1.6.tar.gz --markdown 20240405/d/dnb-urn-service/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2024-04-05 13:39:01] WARNING root fetch - processPackages [ccptools]: Timeout reached during download
+[2024-04-05 13:39:01] INFO root fetch - processPackages [ccptools]: executing diffoscope
+[2024-04-05 13:39:01] INFO root fetch - processPackages [ccptools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ccptools-1.0.0.tar.gz tmp/ccptools-1.0.0rc2.tar.gz --markdown 20240405/c/ccptools/1.0.0-1.0.0rc2/diff.md --exclude *.pyd
+[2024-04-05 13:39:01] WARNING root fetch - processPackages [synch2jira]: Timeout reached during download
+[2024-04-05 13:39:01] INFO root fetch - processPackages [synch2jira]: executing diffoscope
+[2024-04-05 13:39:01] INFO root fetch - processPackages [synch2jira]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/synch2jira-0.0.90.tar.gz tmp/synch2jira-0.0.92.tar.gz --markdown 20240405/s/synch2jira/0.0.90-0.0.92/diff.md --exclude *.pyd
+[2024-04-05 13:39:01] WARNING root fetch - processPackages [hamburg]: Timeout reached during download
+[2024-04-05 13:39:01] INFO root fetch - processPackages [hamburg]: executing diffoscope
+[2024-04-05 13:39:01] INFO root fetch - processPackages [hamburg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hamburg-3.0.0.tar.gz tmp/hamburg-3.0.1.tar.gz --markdown 20240405/h/hamburg/3.0.0-3.0.1/diff.md --exclude *.pyd
+[2024-04-05 13:39:01] WARNING root fetch - processPackages [quokka-sharp]: Timeout reached during download
+[2024-04-05 13:39:01] INFO root fetch - processPackages [quokka-sharp]: executing diffoscope
+[2024-04-05 13:39:01] INFO root fetch - processPackages [quokka-sharp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quokka_sharp-0.0.8.tar.gz tmp/quokka_sharp-0.0.9.tar.gz --markdown 20240405/q/quokka-sharp/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2024-04-05 13:39:01] INFO root fetch - processPackages [dnb-urn-service]: Remove: archive file [/home/abi/fetcher/tmp/dnb-urn-service-0.1.5.tar.gz]
+[2024-04-05 13:39:01] INFO root fetch - processPackages [dnb-urn-service]: Remove: archive file [/home/abi/fetcher/tmp/dnb-urn-service-0.1.6.tar.gz]
+[2024-04-05 13:39:01] INFO root fetch - main [MainThread]: End processing [dnb-urn-service]: success
+[2024-04-05 13:39:02] INFO root fetch - processPackages [synch2jira]: Remove: archive file [/home/abi/fetcher/tmp/synch2jira-0.0.90.tar.gz]
+[2024-04-05 13:39:02] INFO root fetch - processPackages [synch2jira]: Remove: archive file [/home/abi/fetcher/tmp/synch2jira-0.0.92.tar.gz]
+[2024-04-05 13:39:02] INFO root fetch - main [MainThread]: End processing [synch2jira]: success
+[2024-04-05 13:39:02] INFO root fetch - processPackages [hamburg]: Remove: archive file [/home/abi/fetcher/tmp/hamburg-3.0.0.tar.gz]
+[2024-04-05 13:39:02] INFO root fetch - processPackages [hamburg]: Remove: archive file [/home/abi/fetcher/tmp/hamburg-3.0.1.tar.gz]
+[2024-04-05 13:39:02] INFO root fetch - main [MainThread]: End processing [hamburg]: success
+[2024-04-05 13:39:02] INFO root fetch - processPackages [ccptools]: Remove: archive file [/home/abi/fetcher/tmp/ccptools-1.0.0.tar.gz]
+[2024-04-05 13:39:02] INFO root fetch - processPackages [ccptools]: Remove: archive file [/home/abi/fetcher/tmp/ccptools-1.0.0rc2.tar.gz]
+[2024-04-05 13:39:02] INFO root fetch - main [MainThread]: End processing [ccptools]: success
+[2024-04-05 13:39:02] INFO root fetch - processPackages [quokka-sharp]: Remove: archive file [/home/abi/fetcher/tmp/quokka_sharp-0.0.8.tar.gz]
+[2024-04-05 13:39:02] INFO root fetch - processPackages [quokka-sharp]: Remove: archive file [/home/abi/fetcher/tmp/quokka_sharp-0.0.9.tar.gz]
+[2024-04-05 13:39:02] INFO root fetch - main [MainThread]: End processing [quokka-sharp]: success
+[2024-04-05 13:39:02] INFO root fetch - main [MainThread]: Store serial: [22635456]
