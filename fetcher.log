@@ -8596,3 +8596,20 @@
 [2024-04-05 03:29:41] INFO root fetch - processPackages [pyAgrum-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pyAgrum_nightly-1.9.0.9.dev202310191697564854-cp39-cp39-win_amd64.whl.zip]
 [2024-04-05 03:29:41] INFO root fetch - main [MainThread]: End processing [pyAgrum-nightly]: success
 [2024-04-05 03:29:41] INFO root fetch - main [MainThread]: Store serial: [22630835]
+[2024-04-05 03:31:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22630835]
+[2024-04-05 03:31:51] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-05 03:31:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: selfie-lib
+[2024-04-05 03:31:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: edc-action-item
+[2024-04-05 03:31:51] WARNING root fetch - processPackages [selfie-lib]: Skipping, unable to determine old version
+[2024-04-05 03:31:51] INFO root fetch - main [MainThread]: End processing [selfie-lib] error
+[2024-04-05 03:31:51] INFO root fetch - processPackages [edc-action-item]: New version: [0.3.9] Old Version: [0.3.86]
+[2024-04-05 03:31:51] INFO root fetch - processPackages [edc-action-item]: Downloading https://files.pythonhosted.org/packages/04/d4/303d0287059bb9b1649954db666a8862812e7adf3b26f1992340aed7e5e9/edc-action-item-0.3.86.tar.gz
+[2024-04-05 03:31:51] WARNING root fetch - processPackages [edc-action-item]: Timeout reached during download
+[2024-04-05 03:31:52] INFO root fetch - processPackages [edc-action-item]: Downloading https://files.pythonhosted.org/packages/1f/74/a25a0c0516fcd227b7ff92f76a6964b274c5434b3f53ee629dbdb634e005/edc_action_item-0.3.9-py3-none-any.whl
+[2024-04-05 03:31:52] WARNING root fetch - processPackages [edc-action-item]: Timeout reached during download
+[2024-04-05 03:31:52] INFO root fetch - processPackages [edc-action-item]: executing diffoscope
+[2024-04-05 03:31:52] INFO root fetch - processPackages [edc-action-item]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edc-action-item-0.3.86.tar.gz tmp/edc_action_item-0.3.9-py3-none-any.whl.zip --markdown 20240405/e/edc-action-item/0.3.86-0.3.9/diff.md --exclude *.pyd
+[2024-04-05 03:31:52] INFO root fetch - processPackages [edc-action-item]: Remove: archive file [/home/abi/fetcher/tmp/edc-action-item-0.3.86.tar.gz]
+[2024-04-05 03:31:52] INFO root fetch - processPackages [edc-action-item]: Remove: archive file [/home/abi/fetcher/tmp/edc_action_item-0.3.9-py3-none-any.whl.zip]
+[2024-04-05 03:31:52] INFO root fetch - main [MainThread]: End processing [edc-action-item]: success
+[2024-04-05 03:31:52] INFO root fetch - main [MainThread]: Store serial: [22630867]
