@@ -3418,3 +3418,41 @@
 [2024-04-05 02:36:42] INFO root fetch - processPackages [OpenGeode-Inspector]: Remove: archive file [/home/abi/fetcher/tmp/OpenGeode_Inspector-5.0.5rc1-cp39-cp39-win_amd64.whl.zip]
 [2024-04-05 02:36:42] INFO root fetch - main [MainThread]: End processing [OpenGeode-Inspector]: success
 [2024-04-05 02:36:42] INFO root fetch - main [MainThread]: Store serial: [22629306]
+[2024-04-05 02:38:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22629306]
+[2024-04-05 02:38:51] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-05 02:38:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: funktools
+[2024-04-05 02:38:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: grvtree
+[2024-04-05 02:38:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: aiohttp_admin2
+[2024-04-05 02:38:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: NUGigSkillNER
+[2024-04-05 02:38:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dailyai
+[2024-04-05 02:38:51] INFO root fetch - processPackages [NUGigSkillNER]: New version: [2.0.0] Old Version: [1.0.2]
+[2024-04-05 02:38:51] INFO root fetch - processPackages [aiohttp_admin2]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-04-05 02:38:51] WARNING root fetch - processPackages [grvtree]: Skipping, unable to determine old version
+[2024-04-05 02:38:51] INFO root fetch - main [MainThread]: End processing [grvtree] error
+[2024-04-05 02:38:51] INFO root fetch - processPackages [aiohttp_admin2]: Downloading https://files.pythonhosted.org/packages/9b/58/9810688a95d860bfbdfc64b8d7f2130019c3f4f3eccf23c8f5eb97c48577/aiohttp_admin2-0.0.4.tar.gz
+[2024-04-05 02:38:51] INFO root fetch - processPackages [NUGigSkillNER]: Downloading https://files.pythonhosted.org/packages/fe/01/27ac4d1b08ffd5683b77d3c57cf40b96ce4b70dfac2afdc391467a42da22/NUGigSkillNER-1.0.2.tar.gz
+[2024-04-05 02:38:51] WARNING root fetch - processPackages [funktools]: Skipping, unable to determine old version
+[2024-04-05 02:38:51] INFO root fetch - main [MainThread]: End processing [funktools] error
+[2024-04-05 02:38:51] INFO root fetch - processPackages [dailyai]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-04-05 02:38:51] WARNING root fetch - processPackages [NUGigSkillNER]: Timeout reached during download
+[2024-04-05 02:38:51] WARNING root fetch - processPackages [aiohttp_admin2]: Timeout reached during download
+[2024-04-05 02:38:51] INFO root fetch - processPackages [NUGigSkillNER]: Downloading https://files.pythonhosted.org/packages/58/0a/53edeb4b398f749f4ead06ca160d4f25a6ffa44f7d84983f7923a514b78a/NUGigSkillNER-2.0.0.tar.gz
+[2024-04-05 02:38:51] INFO root fetch - processPackages [dailyai]: Downloading https://files.pythonhosted.org/packages/e5/3e/9b946f22198e5a12ea59eb6d7b31c3b3981aa201d956af521e52d989a454/dailyai-0.0.3.tar.gz
+[2024-04-05 02:38:51] INFO root fetch - processPackages [aiohttp_admin2]: Downloading https://files.pythonhosted.org/packages/d2/01/ad883c0e4e6affc6c0809e94d54b45538c9dea4b4bf1cbb1f28522dcfc15/aiohttp_admin2-0.0.5.tar.gz
+[2024-04-05 02:38:51] WARNING root fetch - processPackages [NUGigSkillNER]: Timeout reached during download
+[2024-04-05 02:38:51] INFO root fetch - processPackages [NUGigSkillNER]: executing diffoscope
+[2024-04-05 02:38:51] INFO root fetch - processPackages [NUGigSkillNER]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/NUGigSkillNER-1.0.2.tar.gz tmp/NUGigSkillNER-2.0.0.tar.gz --markdown 20240405/N/NUGigSkillNER/1.0.2-2.0.0/diff.md --exclude *.pyd
+[2024-04-05 02:38:51] WARNING root fetch - processPackages [dailyai]: Timeout reached during download
+[2024-04-05 02:38:51] WARNING root fetch - processPackages [aiohttp_admin2]: Timeout reached during download
+[2024-04-05 02:38:51] INFO root fetch - processPackages [aiohttp_admin2]: executing diffoscope
+[2024-04-05 02:38:51] INFO root fetch - processPackages [aiohttp_admin2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiohttp_admin2-0.0.4.tar.gz tmp/aiohttp_admin2-0.0.5.tar.gz --markdown 20240405/a/aiohttp_admin2/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2024-04-05 02:38:51] INFO root fetch - processPackages [dailyai]: Downloading https://files.pythonhosted.org/packages/d8/44/ac1b7577e6ea2817dd247ca50fe9919d23793be3b3a681cba50a8de742af/dailyai-0.0.4.tar.gz
+[2024-04-05 02:38:52] WARNING root fetch - processPackages [dailyai]: Skipping package: exceeds size limit 33466766>=10485760
+[2024-04-05 02:38:52] INFO root fetch - main [MainThread]: End processing [dailyai] error
+[2024-04-05 02:38:52] INFO root fetch - processPackages [NUGigSkillNER]: Remove: archive file [/home/abi/fetcher/tmp/NUGigSkillNER-1.0.2.tar.gz]
+[2024-04-05 02:38:52] INFO root fetch - processPackages [NUGigSkillNER]: Remove: archive file [/home/abi/fetcher/tmp/NUGigSkillNER-2.0.0.tar.gz]
+[2024-04-05 02:38:52] INFO root fetch - main [MainThread]: End processing [NUGigSkillNER]: success
+[2024-04-05 02:38:52] INFO root fetch - processPackages [aiohttp_admin2]: Remove: archive file [/home/abi/fetcher/tmp/aiohttp_admin2-0.0.4.tar.gz]
+[2024-04-05 02:38:52] INFO root fetch - processPackages [aiohttp_admin2]: Remove: archive file [/home/abi/fetcher/tmp/aiohttp_admin2-0.0.5.tar.gz]
+[2024-04-05 02:38:52] INFO root fetch - main [MainThread]: End processing [aiohttp_admin2]: success
+[2024-04-05 02:38:52] INFO root fetch - main [MainThread]: Store serial: [22629329]
