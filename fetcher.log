@@ -19563,3 +19563,53 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2024-04-05 12:38:10] INFO root fetch - processPackages [eth-wake]: Remove: archive file [/home/abi/fetcher/tmp/eth_wake-4.8.0.tar.gz]
 [2024-04-05 12:38:10] INFO root fetch - main [MainThread]: End processing [eth-wake]: success
 [2024-04-05 12:38:10] INFO root fetch - main [MainThread]: Store serial: [22634689]
+[2024-04-05 12:40:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22634689]
+[2024-04-05 12:40:18] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-05 12:40:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: kcli
+[2024-04-05 12:40:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: aiosabnzbd
+[2024-04-05 12:40:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pymemgpt-nightly
+[2024-04-05 12:40:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: t-bug-catcher
+[2024-04-05 12:40:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyetfdb-scraper
+[2024-04-05 12:40:19] WARNING root fetch - processPackages [aiosabnzbd]: Skipping, unable to determine old version
+[2024-04-05 12:40:19] INFO root fetch - main [MainThread]: End processing [aiosabnzbd] error
+[2024-04-05 12:40:19] INFO root fetch - processPackages [pyetfdb-scraper]: New version: [0.3] Old Version: [0.2]
+[2024-04-05 12:40:19] INFO root fetch - processPackages [t-bug-catcher]: New version: [0.4.0] Old Version: [0.3.1]
+[2024-04-05 12:40:19] INFO root fetch - processPackages [pymemgpt-nightly]: New version: [0.3.8.dev20240405103854] Old Version: [0.3.8.dev20240404103859]
+[2024-04-05 12:40:19] INFO root fetch - processPackages [pyetfdb-scraper]: Downloading https://files.pythonhosted.org/packages/33/4d/617eb1f807bc5ab4c9c2af13240facb55aed350325ee2b28d1457a3dcdf5/pyetfdb_scraper-0.2.tar.gz
+[2024-04-05 12:40:19] INFO root fetch - processPackages [t-bug-catcher]: Downloading https://files.pythonhosted.org/packages/da/65/0dd5ef892f51f19c156c31cb1916769a0bdebde35f5fbbe8eed6ad8d06f0/t_bug_catcher-0.3.1.tar.gz
+[2024-04-05 12:40:19] INFO root fetch - processPackages [pymemgpt-nightly]: Downloading https://files.pythonhosted.org/packages/a9/e8/6e43fded23fdb87e620cc2b53010338085584acae52dfdd4dfa3564e917c/pymemgpt_nightly-0.3.8.dev20240404103859.tar.gz
+[2024-04-05 12:40:19] INFO root fetch - processPackages [kcli]: New version: [99.0.202404051038] Old Version: [99.0.202404041718]
+[2024-04-05 12:40:19] WARNING root fetch - processPackages [t-bug-catcher]: Timeout reached during download
+[2024-04-05 12:40:19] WARNING root fetch - processPackages [pymemgpt-nightly]: Timeout reached during download
+[2024-04-05 12:40:19] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/d8/6c/3a09773cf20e09503163965e72562aaced9053441ed9b548227b51afe4d0/kcli-99.0.202404041718.tar.gz
+[2024-04-05 12:40:19] INFO root fetch - processPackages [t-bug-catcher]: Downloading https://files.pythonhosted.org/packages/0d/33/305612e64089caae0da4b5922096b2353158cca7a78a0a7eca5b90860fa9/t_bug_catcher-0.4.0.tar.gz
+[2024-04-05 12:40:19] WARNING root fetch - processPackages [pyetfdb-scraper]: Timeout reached during download
+[2024-04-05 12:40:19] INFO root fetch - processPackages [pymemgpt-nightly]: Downloading https://files.pythonhosted.org/packages/d8/88/420958e06dc107496fcac75aa14b3feb6e1b1a37da36b2b134df2c7774c6/pymemgpt_nightly-0.3.8.dev20240405103854.tar.gz
+[2024-04-05 12:40:19] WARNING root fetch - processPackages [t-bug-catcher]: Timeout reached during download
+[2024-04-05 12:40:19] INFO root fetch - processPackages [t-bug-catcher]: executing diffoscope
+[2024-04-05 12:40:19] INFO root fetch - processPackages [t-bug-catcher]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/t_bug_catcher-0.3.1.tar.gz tmp/t_bug_catcher-0.4.0.tar.gz --markdown 20240405/t/t-bug-catcher/0.3.1-0.4.0/diff.md --exclude *.pyd
+[2024-04-05 12:40:19] INFO root fetch - processPackages [pyetfdb-scraper]: Downloading https://files.pythonhosted.org/packages/c9/fb/96ded997ae78f2aadb865c7f078222ce61f20008bb19fcb2b10d047de067/pyetfdb_scraper-0.3.tar.gz
+[2024-04-05 12:40:19] WARNING root fetch - processPackages [kcli]: Timeout reached during download
+[2024-04-05 12:40:20] WARNING root fetch - processPackages [pymemgpt-nightly]: Timeout reached during download
+[2024-04-05 12:40:20] INFO root fetch - processPackages [pymemgpt-nightly]: executing diffoscope
+[2024-04-05 12:40:20] INFO root fetch - processPackages [pymemgpt-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymemgpt_nightly-0.3.8.dev20240404103859.tar.gz tmp/pymemgpt_nightly-0.3.8.dev20240405103854.tar.gz --markdown 20240405/p/pymemgpt-nightly/0.3.8.dev20240404103859-0.3.8.dev20240405103854/diff.md --exclude *.pyd
+[2024-04-05 12:40:20] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/88/ea/cf86997b9b3d39867c4dbae8388e8e902fe59419a07c3dbba533227b52f9/kcli-99.0.202404051038.tar.gz
+[2024-04-05 12:40:20] WARNING root fetch - processPackages [pyetfdb-scraper]: Timeout reached during download
+[2024-04-05 12:40:20] INFO root fetch - processPackages [pyetfdb-scraper]: executing diffoscope
+[2024-04-05 12:40:20] INFO root fetch - processPackages [pyetfdb-scraper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyetfdb_scraper-0.2.tar.gz tmp/pyetfdb_scraper-0.3.tar.gz --markdown 20240405/p/pyetfdb-scraper/0.2-0.3/diff.md --exclude *.pyd
+[2024-04-05 12:40:20] INFO root fetch - processPackages [t-bug-catcher]: Remove: archive file [/home/abi/fetcher/tmp/t_bug_catcher-0.3.1.tar.gz]
+[2024-04-05 12:40:20] INFO root fetch - processPackages [t-bug-catcher]: Remove: archive file [/home/abi/fetcher/tmp/t_bug_catcher-0.4.0.tar.gz]
+[2024-04-05 12:40:20] INFO root fetch - main [MainThread]: End processing [t-bug-catcher]: success
+[2024-04-05 12:40:20] INFO root fetch - processPackages [pyetfdb-scraper]: Remove: archive file [/home/abi/fetcher/tmp/pyetfdb_scraper-0.2.tar.gz]
+[2024-04-05 12:40:20] INFO root fetch - processPackages [pyetfdb-scraper]: Remove: archive file [/home/abi/fetcher/tmp/pyetfdb_scraper-0.3.tar.gz]
+[2024-04-05 12:40:20] INFO root fetch - main [MainThread]: End processing [pyetfdb-scraper]: success
+[2024-04-05 12:40:20] WARNING root fetch - processPackages [kcli]: Timeout reached during download
+[2024-04-05 12:40:20] INFO root fetch - processPackages [kcli]: executing diffoscope
+[2024-04-05 12:40:20] INFO root fetch - processPackages [kcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kcli-99.0.202404041718.tar.gz tmp/kcli-99.0.202404051038.tar.gz --markdown 20240405/k/kcli/99.0.202404041718-99.0.202404051038/diff.md --exclude *.pyd
+[2024-04-05 12:40:20] INFO root fetch - processPackages [pymemgpt-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pymemgpt_nightly-0.3.8.dev20240404103859.tar.gz]
+[2024-04-05 12:40:20] INFO root fetch - processPackages [pymemgpt-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pymemgpt_nightly-0.3.8.dev20240405103854.tar.gz]
+[2024-04-05 12:40:21] INFO root fetch - main [MainThread]: End processing [pymemgpt-nightly]: success
+[2024-04-05 12:40:22] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202404041718.tar.gz]
+[2024-04-05 12:40:22] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202404051038.tar.gz]
+[2024-04-05 12:40:22] INFO root fetch - main [MainThread]: End processing [kcli]: success
+[2024-04-05 12:40:22] INFO root fetch - main [MainThread]: Store serial: [22634707]
