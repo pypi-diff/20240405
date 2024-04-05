@@ -12099,3 +12099,42 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2024-04-05 07:08:34] INFO root fetch - processPackages [servicefoundry]: Remove: archive file [/home/abi/fetcher/tmp/servicefoundry-0.9.9rc2.tar.gz]
 [2024-04-05 07:08:34] INFO root fetch - main [MainThread]: End processing [servicefoundry]: success
 [2024-04-05 07:08:34] INFO root fetch - main [MainThread]: Store serial: [22631904]
+[2024-04-05 07:10:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22631904]
+[2024-04-05 07:10:44] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-05 07:10:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: spaceone-identity
+[2024-04-05 07:10:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: alchemiscale
+[2024-04-05 07:10:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ietf-reviewtool
+[2024-04-05 07:10:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: provenaclient
+[2024-04-05 07:10:45] INFO root fetch - processPackages [spaceone-identity]: New version: [2.0.dev99] Old Version: [2.0.dev98]
+[2024-04-05 07:10:45] INFO root fetch - processPackages [ietf-reviewtool]: New version: [0.4.1] Old Version: [0.4.0]
+[2024-04-05 07:10:45] INFO root fetch - processPackages [alchemiscale]: New version: [0.4.0] Old Version: [0.3.0]
+[2024-04-05 07:10:45] INFO root fetch - processPackages [spaceone-identity]: Downloading https://files.pythonhosted.org/packages/f6/06/1de9a43d552682ae8e4a18d4660a13662795d5389a0b6cfde31e31aeb9c0/spaceone-identity-2.0.dev98.tar.gz
+[2024-04-05 07:10:45] WARNING root fetch - processPackages [provenaclient]: Skipping, unable to determine old version
+[2024-04-05 07:10:45] INFO root fetch - main [MainThread]: End processing [provenaclient] error
+[2024-04-05 07:10:45] WARNING root fetch - processPackages [spaceone-identity]: Timeout reached during download
+[2024-04-05 07:10:45] INFO root fetch - processPackages [ietf-reviewtool]: Downloading https://files.pythonhosted.org/packages/ea/57/e1befadd38721860fb9a41855a422c11cf7f0d34fc67be1b2b4eb03f5fd3/ietf_reviewtool-0.4.0.tar.gz
+[2024-04-05 07:10:45] INFO root fetch - processPackages [alchemiscale]: Downloading https://files.pythonhosted.org/packages/d4/bf/0560fe9a7088145c03729cc058b3ccff45cf280b6f4ed88b9807dcd879d9/alchemiscale-0.3.0.tar.gz
+[2024-04-05 07:10:45] INFO root fetch - processPackages [spaceone-identity]: Downloading https://files.pythonhosted.org/packages/3a/f9/802fb8123677b99c90a587b67faa5443d403022fbbd70d8bff1c49920e02/spaceone-identity-2.0.dev99.tar.gz
+[2024-04-05 07:10:45] WARNING root fetch - processPackages [ietf-reviewtool]: Timeout reached during download
+[2024-04-05 07:10:45] WARNING root fetch - processPackages [alchemiscale]: Timeout reached during download
+[2024-04-05 07:10:45] WARNING root fetch - processPackages [spaceone-identity]: Timeout reached during download
+[2024-04-05 07:10:45] INFO root fetch - processPackages [spaceone-identity]: executing diffoscope
+[2024-04-05 07:10:45] INFO root fetch - processPackages [spaceone-identity]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spaceone-identity-2.0.dev98.tar.gz tmp/spaceone-identity-2.0.dev99.tar.gz --markdown 20240405/s/spaceone-identity/2.0.dev98-2.0.dev99/diff.md --exclude *.pyd
+[2024-04-05 07:10:45] INFO root fetch - processPackages [ietf-reviewtool]: Downloading https://files.pythonhosted.org/packages/cd/53/c49acaa54c6de8531990e13ebea6cb276a02f670335b4cdd67df6d937717/ietf_reviewtool-0.4.1.tar.gz
+[2024-04-05 07:10:45] INFO root fetch - processPackages [alchemiscale]: Downloading https://files.pythonhosted.org/packages/eb/7b/22c22a0c9b16c17b7049b01d0b240dd12bb739cae8b36ad80487d9bd3bf9/alchemiscale-0.4.0.tar.gz
+[2024-04-05 07:10:45] WARNING root fetch - processPackages [ietf-reviewtool]: Timeout reached during download
+[2024-04-05 07:10:45] INFO root fetch - processPackages [ietf-reviewtool]: executing diffoscope
+[2024-04-05 07:10:45] INFO root fetch - processPackages [ietf-reviewtool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ietf_reviewtool-0.4.0.tar.gz tmp/ietf_reviewtool-0.4.1.tar.gz --markdown 20240405/i/ietf-reviewtool/0.4.0-0.4.1/diff.md --exclude *.pyd
+[2024-04-05 07:10:45] WARNING root fetch - processPackages [alchemiscale]: Timeout reached during download
+[2024-04-05 07:10:45] INFO root fetch - processPackages [alchemiscale]: executing diffoscope
+[2024-04-05 07:10:45] INFO root fetch - processPackages [alchemiscale]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alchemiscale-0.3.0.tar.gz tmp/alchemiscale-0.4.0.tar.gz --markdown 20240405/a/alchemiscale/0.3.0-0.4.0/diff.md --exclude *.pyd
+[2024-04-05 07:10:46] INFO root fetch - processPackages [ietf-reviewtool]: Remove: archive file [/home/abi/fetcher/tmp/ietf_reviewtool-0.4.0.tar.gz]
+[2024-04-05 07:10:46] INFO root fetch - processPackages [ietf-reviewtool]: Remove: archive file [/home/abi/fetcher/tmp/ietf_reviewtool-0.4.1.tar.gz]
+[2024-04-05 07:10:46] INFO root fetch - main [MainThread]: End processing [ietf-reviewtool]: success
+[2024-04-05 07:10:46] INFO root fetch - processPackages [alchemiscale]: Remove: archive file [/home/abi/fetcher/tmp/alchemiscale-0.3.0.tar.gz]
+[2024-04-05 07:10:46] INFO root fetch - processPackages [alchemiscale]: Remove: archive file [/home/abi/fetcher/tmp/alchemiscale-0.4.0.tar.gz]
+[2024-04-05 07:10:46] INFO root fetch - main [MainThread]: End processing [alchemiscale]: success
+[2024-04-05 07:10:46] INFO root fetch - processPackages [spaceone-identity]: Remove: archive file [/home/abi/fetcher/tmp/spaceone-identity-2.0.dev98.tar.gz]
+[2024-04-05 07:10:46] INFO root fetch - processPackages [spaceone-identity]: Remove: archive file [/home/abi/fetcher/tmp/spaceone-identity-2.0.dev99.tar.gz]
+[2024-04-05 07:10:46] INFO root fetch - main [MainThread]: End processing [spaceone-identity]: success
+[2024-04-05 07:10:46] INFO root fetch - main [MainThread]: Store serial: [22631918]
