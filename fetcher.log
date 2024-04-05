@@ -12792,3 +12792,42 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2024-04-05 07:54:40] INFO root fetch - processPackages [mirascope]: Remove: archive file [/home/abi/fetcher/tmp/mirascope-0.8.4.tar.gz]
 [2024-04-05 07:54:40] INFO root fetch - main [MainThread]: End processing [mirascope]: success
 [2024-04-05 07:54:40] INFO root fetch - main [MainThread]: Store serial: [22632223]
+[2024-04-05 07:56:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22632223]
+[2024-04-05 07:56:49] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-05 07:56:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ansar-connect
+[2024-04-05 07:56:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: kimleo
+[2024-04-05 07:56:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: petrichor-script-lexer
+[2024-04-05 07:56:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bitefix
+[2024-04-05 07:56:49] INFO root fetch - processPackages [bitefix]: New version: [1.0.0] Old Version: [0.2.1]
+[2024-04-05 07:56:49] INFO root fetch - processPackages [bitefix]: Downloading https://files.pythonhosted.org/packages/2d/64/b1a181373ae8e5574d5c50c5227e152649dd36af094977f579163cac0511/bitefix-0.2.1.tar.gz
+[2024-04-05 07:56:49] WARNING root fetch - processPackages [kimleo]: Skipping, unable to determine old version
+[2024-04-05 07:56:49] INFO root fetch - main [MainThread]: End processing [kimleo] error
+[2024-04-05 07:56:49] INFO root fetch - processPackages [petrichor-script-lexer]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-04-05 07:56:49] INFO root fetch - processPackages [ansar-connect]: New version: [0.1.99] Old Version: [0.1.98]
+[2024-04-05 07:56:50] WARNING root fetch - processPackages [bitefix]: Timeout reached during download
+[2024-04-05 07:56:50] INFO root fetch - processPackages [petrichor-script-lexer]: Downloading https://files.pythonhosted.org/packages/d4/66/13b117aa0f2667dabbe8a22e17f8da8ee3d957f7404cb8f4a68160b92236/petrichor_script_lexer-1.0.0.tar.gz
+[2024-04-05 07:56:50] INFO root fetch - processPackages [ansar-connect]: Downloading https://files.pythonhosted.org/packages/62/69/e0c8382177a6b58e5572bc6a81ad6abe299546d4cdeaa6b4ed8a1a58fec6/ansar-connect-0.1.98.tar.gz
+[2024-04-05 07:56:50] INFO root fetch - processPackages [bitefix]: Downloading https://files.pythonhosted.org/packages/32/22/437447ba0bb6c2e90e741ec83df0697801352a1057e10458fac1ef6ece0d/bitefix-1.0.0.tar.gz
+[2024-04-05 07:56:50] WARNING root fetch - processPackages [petrichor-script-lexer]: Timeout reached during download
+[2024-04-05 07:56:50] WARNING root fetch - processPackages [bitefix]: Timeout reached during download
+[2024-04-05 07:56:50] INFO root fetch - processPackages [bitefix]: executing diffoscope
+[2024-04-05 07:56:50] INFO root fetch - processPackages [bitefix]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bitefix-0.2.1.tar.gz tmp/bitefix-1.0.0.tar.gz --markdown 20240405/b/bitefix/0.2.1-1.0.0/diff.md --exclude *.pyd
+[2024-04-05 07:56:50] WARNING root fetch - processPackages [ansar-connect]: Timeout reached during download
+[2024-04-05 07:56:50] INFO root fetch - processPackages [petrichor-script-lexer]: Downloading https://files.pythonhosted.org/packages/99/40/a515695483da2d10694dcb2953d7391fffa826057f4af80bfeec7fa7441c/petrichor_script_lexer-1.0.1.tar.gz
+[2024-04-05 07:56:50] INFO root fetch - processPackages [ansar-connect]: Downloading https://files.pythonhosted.org/packages/74/0b/c504b4248bc3ebe37c314702983a44dcf646e21a88df19adb226aee27b66/ansar-connect-0.1.99.tar.gz
+[2024-04-05 07:56:50] WARNING root fetch - processPackages [petrichor-script-lexer]: Timeout reached during download
+[2024-04-05 07:56:50] INFO root fetch - processPackages [petrichor-script-lexer]: executing diffoscope
+[2024-04-05 07:56:50] INFO root fetch - processPackages [petrichor-script-lexer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/petrichor_script_lexer-1.0.0.tar.gz tmp/petrichor_script_lexer-1.0.1.tar.gz --markdown 20240405/p/petrichor-script-lexer/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2024-04-05 07:56:50] WARNING root fetch - processPackages [ansar-connect]: Timeout reached during download
+[2024-04-05 07:56:50] INFO root fetch - processPackages [ansar-connect]: executing diffoscope
+[2024-04-05 07:56:50] INFO root fetch - processPackages [ansar-connect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ansar-connect-0.1.98.tar.gz tmp/ansar-connect-0.1.99.tar.gz --markdown 20240405/a/ansar-connect/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2024-04-05 07:56:50] INFO root fetch - processPackages [bitefix]: Remove: archive file [/home/abi/fetcher/tmp/bitefix-0.2.1.tar.gz]
+[2024-04-05 07:56:50] INFO root fetch - processPackages [bitefix]: Remove: archive file [/home/abi/fetcher/tmp/bitefix-1.0.0.tar.gz]
+[2024-04-05 07:56:50] INFO root fetch - main [MainThread]: End processing [bitefix]: success
+[2024-04-05 07:56:51] INFO root fetch - processPackages [petrichor-script-lexer]: Remove: archive file [/home/abi/fetcher/tmp/petrichor_script_lexer-1.0.0.tar.gz]
+[2024-04-05 07:56:51] INFO root fetch - processPackages [petrichor-script-lexer]: Remove: archive file [/home/abi/fetcher/tmp/petrichor_script_lexer-1.0.1.tar.gz]
+[2024-04-05 07:56:51] INFO root fetch - main [MainThread]: End processing [petrichor-script-lexer]: success
+[2024-04-05 07:56:51] INFO root fetch - processPackages [ansar-connect]: Remove: archive file [/home/abi/fetcher/tmp/ansar-connect-0.1.98.tar.gz]
+[2024-04-05 07:56:51] INFO root fetch - processPackages [ansar-connect]: Remove: archive file [/home/abi/fetcher/tmp/ansar-connect-0.1.99.tar.gz]
+[2024-04-05 07:56:51] INFO root fetch - main [MainThread]: End processing [ansar-connect]: success
+[2024-04-05 07:56:51] INFO root fetch - main [MainThread]: Store serial: [22632234]
