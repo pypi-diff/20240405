@@ -12024,3 +12024,31 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2024-04-05 07:04:12] INFO root fetch - processPackages [werpy]: Remove: archive file [/home/abi/fetcher/tmp/werpy-2.1.2.tar.gz]
 [2024-04-05 07:04:12] INFO root fetch - main [MainThread]: End processing [werpy]: success
 [2024-04-05 07:04:12] INFO root fetch - main [MainThread]: Store serial: [22631882]
+[2024-04-05 07:06:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22631882]
+[2024-04-05 07:06:22] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-05 07:06:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: super-ide
+[2024-04-05 07:06:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: legrad-torch
+[2024-04-05 07:06:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: FinaleTools
+[2024-04-05 07:06:22] INFO root fetch - processPackages [super-ide]: New version: [1.4.8] Old Version: [1.4.7]
+[2024-04-05 07:06:22] INFO root fetch - processPackages [FinaleTools]: New version: [0.4.4] Old Version: [0.4.3]
+[2024-04-05 07:06:22] WARNING root fetch - processPackages [legrad-torch]: Skipping, unable to determine old version
+[2024-04-05 07:06:22] INFO root fetch - main [MainThread]: End processing [legrad-torch] error
+[2024-04-05 07:06:22] INFO root fetch - processPackages [super-ide]: Downloading https://files.pythonhosted.org/packages/7a/2c/5d85ae3406ae7ce966e04563ee59ec55e62c99319fee3659c9167ca829ef/super-ide-1.4.7.tar.gz
+[2024-04-05 07:06:22] INFO root fetch - processPackages [FinaleTools]: Downloading https://files.pythonhosted.org/packages/90/47/9dbdf8216ec499c040350502b9a1ed899eddeca10f57fe9371366fc864f2/FinaleTools-0.4.3.tar.gz
+[2024-04-05 07:06:23] WARNING root fetch - processPackages [super-ide]: Timeout reached during download
+[2024-04-05 07:06:23] WARNING root fetch - processPackages [FinaleTools]: Timeout reached during download
+[2024-04-05 07:06:23] INFO root fetch - processPackages [super-ide]: Downloading https://files.pythonhosted.org/packages/22/c7/357544c3909d28757cac8c5b7aeec5a3a756153d84de1d7155f762071c93/super-ide-1.4.8.tar.gz
+[2024-04-05 07:06:23] INFO root fetch - processPackages [FinaleTools]: Downloading https://files.pythonhosted.org/packages/c7/73/e6cccb76fefb53e09a2b94a29aabc9a5790f6dff5d1d61155054ae1471a4/FinaleTools-0.4.4.tar.gz
+[2024-04-05 07:06:23] WARNING root fetch - processPackages [super-ide]: Timeout reached during download
+[2024-04-05 07:06:23] INFO root fetch - processPackages [super-ide]: executing diffoscope
+[2024-04-05 07:06:23] INFO root fetch - processPackages [super-ide]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/super-ide-1.4.7.tar.gz tmp/super-ide-1.4.8.tar.gz --markdown 20240405/s/super-ide/1.4.7-1.4.8/diff.md --exclude *.pyd
+[2024-04-05 07:06:23] WARNING root fetch - processPackages [FinaleTools]: Timeout reached during download
+[2024-04-05 07:06:23] INFO root fetch - processPackages [FinaleTools]: executing diffoscope
+[2024-04-05 07:06:23] INFO root fetch - processPackages [FinaleTools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/FinaleTools-0.4.3.tar.gz tmp/FinaleTools-0.4.4.tar.gz --markdown 20240405/F/FinaleTools/0.4.3-0.4.4/diff.md --exclude *.pyd
+[2024-04-05 07:06:23] INFO root fetch - processPackages [FinaleTools]: Remove: archive file [/home/abi/fetcher/tmp/FinaleTools-0.4.3.tar.gz]
+[2024-04-05 07:06:23] INFO root fetch - processPackages [FinaleTools]: Remove: archive file [/home/abi/fetcher/tmp/FinaleTools-0.4.4.tar.gz]
+[2024-04-05 07:06:23] INFO root fetch - main [MainThread]: End processing [FinaleTools]: success
+[2024-04-05 07:06:24] INFO root fetch - processPackages [super-ide]: Remove: archive file [/home/abi/fetcher/tmp/super-ide-1.4.7.tar.gz]
+[2024-04-05 07:06:24] INFO root fetch - processPackages [super-ide]: Remove: archive file [/home/abi/fetcher/tmp/super-ide-1.4.8.tar.gz]
+[2024-04-05 07:06:24] INFO root fetch - main [MainThread]: End processing [super-ide]: success
+[2024-04-05 07:06:24] INFO root fetch - main [MainThread]: Store serial: [22631892]
