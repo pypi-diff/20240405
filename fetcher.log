@@ -9055,3 +9055,41 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2024-04-05 03:55:50] INFO root fetch - processPackages [sleipnirgroup-jormungandr]: Remove: archive file [/home/abi/fetcher/tmp/sleipnirgroup_jormungandr-0.0.1.dev99.tar.gz]
 [2024-04-05 03:55:50] INFO root fetch - main [MainThread]: End processing [sleipnirgroup-jormungandr]: success
 [2024-04-05 03:55:50] INFO root fetch - main [MainThread]: Store serial: [22631005]
+[2024-04-05 03:57:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22631005]
+[2024-04-05 03:57:58] INFO root fetch - main [MainThread]: No changed packages found
+[2024-04-05 03:59:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22631005]
+[2024-04-05 04:00:04] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-05 04:00:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: service-oriented
+[2024-04-05 04:00:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: NUGigSkillNER
+[2024-04-05 04:00:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: localconfig
+[2024-04-05 04:00:04] INFO root fetch - processPackages [service-oriented]: New version: [0.0.2a9] Old Version: [0.0.2a8]
+[2024-04-05 04:00:04] INFO root fetch - processPackages [NUGigSkillNER]: New version: [2.0.3] Old Version: [2.0.2]
+[2024-04-05 04:00:04] INFO root fetch - processPackages [localconfig]: New version: [1.1.4] Old Version: [1.1.3]
+[2024-04-05 04:00:04] INFO root fetch - processPackages [service-oriented]: Downloading https://files.pythonhosted.org/packages/cc/e0/a196a6cd6ec1d279dbc362dd8d9d940370eb873c7d3aa02032dc3dd534ba/service_oriented-0.0.2a8.tar.gz
+[2024-04-05 04:00:04] INFO root fetch - processPackages [NUGigSkillNER]: Downloading https://files.pythonhosted.org/packages/ec/73/051b1489fd1733b4b36d68d24789fb5a0f79045e217fe34501ab7a6cbc4e/NUGigSkillNER-2.0.2.tar.gz
+[2024-04-05 04:00:04] WARNING root fetch - processPackages [service-oriented]: Timeout reached during download
+[2024-04-05 04:00:04] WARNING root fetch - processPackages [NUGigSkillNER]: Timeout reached during download
+[2024-04-05 04:00:04] INFO root fetch - processPackages [localconfig]: Downloading https://files.pythonhosted.org/packages/f7/2e/c8d5a75ae8b98fb1bdbcdb6a99c909eef56149c3e833236450c1331d1476/localconfig-1.1.3.tar.gz
+[2024-04-05 04:00:04] INFO root fetch - processPackages [service-oriented]: Downloading https://files.pythonhosted.org/packages/91/93/8808e2b0a7e857434b3c8a2d8ecd72eb853035e8af948edf46e51c3d1101/service_oriented-0.0.2a9.tar.gz
+[2024-04-05 04:00:04] WARNING root fetch - processPackages [localconfig]: Timeout reached during download
+[2024-04-05 04:00:04] WARNING root fetch - processPackages [service-oriented]: Timeout reached during download
+[2024-04-05 04:00:04] INFO root fetch - processPackages [service-oriented]: executing diffoscope
+[2024-04-05 04:00:04] INFO root fetch - processPackages [service-oriented]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/service_oriented-0.0.2a8.tar.gz tmp/service_oriented-0.0.2a9.tar.gz --markdown 20240405/s/service-oriented/0.0.2a8-0.0.2a9/diff.md --exclude *.pyd
+[2024-04-05 04:00:04] INFO root fetch - processPackages [NUGigSkillNER]: Downloading https://files.pythonhosted.org/packages/6c/26/598304a0bad22e6a7c65ff39be865e643015a07f180e53589343664fb9e0/NUGigSkillNER-2.0.3.tar.gz
+[2024-04-05 04:00:04] WARNING root fetch - processPackages [NUGigSkillNER]: Timeout reached during download
+[2024-04-05 04:00:04] INFO root fetch - processPackages [NUGigSkillNER]: executing diffoscope
+[2024-04-05 04:00:04] INFO root fetch - processPackages [NUGigSkillNER]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/NUGigSkillNER-2.0.2.tar.gz tmp/NUGigSkillNER-2.0.3.tar.gz --markdown 20240405/N/NUGigSkillNER/2.0.2-2.0.3/diff.md --exclude *.pyd
+[2024-04-05 04:00:04] INFO root fetch - processPackages [localconfig]: Downloading https://files.pythonhosted.org/packages/50/1a/01037aab418fd7834b0604599eeed3ff5e0891b3692ae974164275e8d53b/localconfig-1.1.4.tar.gz
+[2024-04-05 04:00:04] WARNING root fetch - processPackages [localconfig]: Timeout reached during download
+[2024-04-05 04:00:04] INFO root fetch - processPackages [localconfig]: executing diffoscope
+[2024-04-05 04:00:04] INFO root fetch - processPackages [localconfig]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/localconfig-1.1.3.tar.gz tmp/localconfig-1.1.4.tar.gz --markdown 20240405/l/localconfig/1.1.3-1.1.4/diff.md --exclude *.pyd
+[2024-04-05 04:00:05] INFO root fetch - processPackages [service-oriented]: Remove: archive file [/home/abi/fetcher/tmp/service_oriented-0.0.2a8.tar.gz]
+[2024-04-05 04:00:05] INFO root fetch - processPackages [service-oriented]: Remove: archive file [/home/abi/fetcher/tmp/service_oriented-0.0.2a9.tar.gz]
+[2024-04-05 04:00:05] INFO root fetch - main [MainThread]: End processing [service-oriented]: success
+[2024-04-05 04:00:05] INFO root fetch - processPackages [NUGigSkillNER]: Remove: archive file [/home/abi/fetcher/tmp/NUGigSkillNER-2.0.2.tar.gz]
+[2024-04-05 04:00:05] INFO root fetch - processPackages [NUGigSkillNER]: Remove: archive file [/home/abi/fetcher/tmp/NUGigSkillNER-2.0.3.tar.gz]
+[2024-04-05 04:00:05] INFO root fetch - main [MainThread]: End processing [NUGigSkillNER]: success
+[2024-04-05 04:00:05] INFO root fetch - processPackages [localconfig]: Remove: archive file [/home/abi/fetcher/tmp/localconfig-1.1.3.tar.gz]
+[2024-04-05 04:00:05] INFO root fetch - processPackages [localconfig]: Remove: archive file [/home/abi/fetcher/tmp/localconfig-1.1.4.tar.gz]
+[2024-04-05 04:00:05] INFO root fetch - main [MainThread]: End processing [localconfig]: success
+[2024-04-05 04:00:05] INFO root fetch - main [MainThread]: Store serial: [22631032]
