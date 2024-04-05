@@ -22654,3 +22654,94 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2024-04-05 14:40:30] INFO root fetch - processPackages [bigdl-llm]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_llm-2.5.0b20240404-py3-none-win_amd64.whl.zip]
 [2024-04-05 14:40:30] INFO root fetch - main [MainThread]: End processing [bigdl-llm]: success
 [2024-04-05 14:40:30] INFO root fetch - main [MainThread]: Store serial: [22635986]
+[2024-04-05 14:42:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22635986]
+[2024-04-05 14:42:39] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-05 14:42:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: windowsregistry
+[2024-04-05 14:42:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: keelson
+[2024-04-05 14:42:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: zyte-api
+[2024-04-05 14:42:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: eolymp
+[2024-04-05 14:42:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: hpcflow-new2
+[2024-04-05 14:42:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pyfastchem
+[2024-04-05 14:42:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pyrtz2
+[2024-04-05 14:42:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: few-shot-priming
+[2024-04-05 14:42:39] INFO root fetch - processPackages [keelson]: New version: [0.3.0rc9] Old Version: [0.3.0rc8]
+[2024-04-05 14:42:39] INFO root fetch - processPackages [windowsregistry]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-04-05 14:42:39] INFO root fetch - processPackages [few-shot-priming]: New version: [0.3.99] Old Version: [0.3.98]
+[2024-04-05 14:42:39] INFO root fetch - processPackages [zyte-api]: New version: [0.5.0] Old Version: [0.4.8]
+[2024-04-05 14:42:39] INFO root fetch - processPackages [keelson]: Downloading https://files.pythonhosted.org/packages/39/53/954e13e6e2b1bd1ad6c82e13de33a18a8ccad77205da459e58fa4f551b5f/keelson-0.3.0rc8-py3-none-any.whl
+[2024-04-05 14:42:39] INFO root fetch - processPackages [pyrtz2]: New version: [1.1.13] Old Version: [1.1.11]
+[2024-04-05 14:42:39] INFO root fetch - processPackages [windowsregistry]: Downloading https://files.pythonhosted.org/packages/4d/a0/bbba3d106861de2ba68f4c9cf63c5884fd356bc2a0a33176106e9f355dc2/windowsregistry-0.1.0.tar.gz
+[2024-04-05 14:42:39] INFO root fetch - processPackages [pyfastchem]: New version: [3.1.1] Old Version: [3.1]
+[2024-04-05 14:42:39] INFO root fetch - processPackages [hpcflow-new2]: New version: [0.2.0a99] Old Version: [0.2.0a98]
+[2024-04-05 14:42:39] INFO root fetch - processPackages [eolymp]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-04-05 14:42:39] INFO root fetch - processPackages [few-shot-priming]: Downloading https://files.pythonhosted.org/packages/eb/67/d15b11d0bfb57369fa16ba7f8c97cd3ddec8f771e6da8f11a3d819004b69/few_shot_priming-0.3.98-py3-none-any.whl
+[2024-04-05 14:42:39] WARNING root fetch - processPackages [keelson]: Timeout reached during download
+[2024-04-05 14:42:39] WARNING root fetch - processPackages [windowsregistry]: Timeout reached during download
+[2024-04-05 14:42:39] INFO root fetch - processPackages [zyte-api]: Downloading https://files.pythonhosted.org/packages/8c/2b/e43264efc3b219528052641044e8383675c04355b1c93fa3aa9b8fc32f60/zyte-api-0.4.8.tar.gz
+[2024-04-05 14:42:40] INFO root fetch - processPackages [pyrtz2]: Downloading https://files.pythonhosted.org/packages/23/4e/01495cdc192f7ac51185625f501b22951be9d0d475e6e4062d1e76c10a41/pyrtz2-1.1.11.tar.gz
+[2024-04-05 14:42:40] INFO root fetch - processPackages [keelson]: Downloading https://files.pythonhosted.org/packages/08/a1/28289399a8eb6d6450f75184975f0e22dc1b9429247346881f3d6bdf8511/keelson-0.3.0rc9-py3-none-any.whl
+[2024-04-05 14:42:40] INFO root fetch - processPackages [pyfastchem]: Downloading https://files.pythonhosted.org/packages/10/27/3fe72f6e41a4f7fb1d7c635d50eccd673ef5a185af1c3fb9e2f41e5dcdb6/pyfastchem-3.1.tar.gz
+[2024-04-05 14:42:40] INFO root fetch - processPackages [hpcflow-new2]: Downloading https://files.pythonhosted.org/packages/82/5b/6984c1054c9e9e23755579aaa22700cc853a60706fbcc5669dd44c836893/hpcflow_new2-0.2.0a98.tar.gz
+[2024-04-05 14:42:40] INFO root fetch - processPackages [windowsregistry]: Downloading https://files.pythonhosted.org/packages/a5/37/8363ad2e47b775b56a43baaa86266625969e9fc5d1e1f6eaae67fbbf03eb/windowsregistry-0.1.1.tar.gz
+[2024-04-05 14:42:40] INFO root fetch - processPackages [eolymp]: Downloading https://files.pythonhosted.org/packages/b4/7e/616d80edbba0ebc4de3d8b9e073268ed513845acc17f3f0c5687e2745d1d/eolymp-0.9.8.tar.gz
+[2024-04-05 14:42:40] WARNING root fetch - processPackages [windowsregistry]: Timeout reached during download
+[2024-04-05 14:42:40] INFO root fetch - processPackages [windowsregistry]: executing diffoscope
+[2024-04-05 14:42:40] INFO root fetch - processPackages [windowsregistry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/windowsregistry-0.1.0.tar.gz tmp/windowsregistry-0.1.1.tar.gz --markdown 20240405/w/windowsregistry/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2024-04-05 14:42:40] WARNING root fetch - processPackages [keelson]: Timeout reached during download
+[2024-04-05 14:42:40] INFO root fetch - processPackages [keelson]: executing diffoscope
+[2024-04-05 14:42:40] INFO root fetch - processPackages [keelson]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/keelson-0.3.0rc8-py3-none-any.whl.zip tmp/keelson-0.3.0rc9-py3-none-any.whl.zip --markdown 20240405/k/keelson/0.3.0rc8-0.3.0rc9/diff.md --exclude *.pyd
+[2024-04-05 14:42:40] WARNING root fetch - processPackages [zyte-api]: Timeout reached during download
+[2024-04-05 14:42:40] WARNING root fetch - processPackages [pyrtz2]: Timeout reached during download
+[2024-04-05 14:42:40] WARNING root fetch - processPackages [few-shot-priming]: Timeout reached during download
+[2024-04-05 14:42:40] WARNING root fetch - processPackages [pyfastchem]: Timeout reached during download
+[2024-04-05 14:42:40] WARNING root fetch - processPackages [hpcflow-new2]: Timeout reached during download
+[2024-04-05 14:42:40] WARNING root fetch - processPackages [eolymp]: Timeout reached during download
+[2024-04-05 14:42:40] INFO root fetch - processPackages [few-shot-priming]: Downloading https://files.pythonhosted.org/packages/ff/11/548f6e96803602e6431dc610d736d401b20fde986f85c35c8ad19a6d0958/few_shot_priming-0.3.99-py3-none-any.whl
+[2024-04-05 14:42:40] INFO root fetch - processPackages [zyte-api]: Downloading https://files.pythonhosted.org/packages/57/73/d87877428e01fe2c725ca4b8fdef945cb216172f65b66b96a2e327516058/zyte-api-0.5.0.tar.gz
+[2024-04-05 14:42:40] INFO root fetch - processPackages [pyrtz2]: Downloading https://files.pythonhosted.org/packages/bd/e2/fd9455ac17c8ffeb38e58068f2084a12e05838aa37ee533d3e4b8fe6ec73/pyrtz2-1.1.13.tar.gz
+[2024-04-05 14:42:40] INFO root fetch - processPackages [pyfastchem]: Downloading https://files.pythonhosted.org/packages/3a/3e/d339d216526dfe23266dd8e9a2435483d2feddf162550bd03b617c1dbb0e/pyfastchem-3.1.1.tar.gz
+[2024-04-05 14:42:40] INFO root fetch - processPackages [eolymp]: Downloading https://files.pythonhosted.org/packages/b7/fe/df96d638fe0a51e45220154bf6bc8588f92805e80d6cf2e908d0226bf3c9/eolymp-0.9.9.tar.gz
+[2024-04-05 14:42:40] INFO root fetch - processPackages [hpcflow-new2]: Downloading https://files.pythonhosted.org/packages/36/d0/5890c665787639f299c68be7a83fe303258a785667204f30810f0c319058/hpcflow_new2-0.2.0a99.tar.gz
+[2024-04-05 14:42:40] WARNING root fetch - processPackages [zyte-api]: Timeout reached during download
+[2024-04-05 14:42:40] INFO root fetch - processPackages [zyte-api]: executing diffoscope
+[2024-04-05 14:42:40] INFO root fetch - processPackages [zyte-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zyte-api-0.4.8.tar.gz tmp/zyte-api-0.5.0.tar.gz --markdown 20240405/z/zyte-api/0.4.8-0.5.0/diff.md --exclude *.pyd
+[2024-04-05 14:42:40] WARNING root fetch - processPackages [eolymp]: Timeout reached during download
+[2024-04-05 14:42:40] INFO root fetch - processPackages [eolymp]: executing diffoscope
+[2024-04-05 14:42:40] INFO root fetch - processPackages [eolymp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eolymp-0.9.8.tar.gz tmp/eolymp-0.9.9.tar.gz --markdown 20240405/e/eolymp/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2024-04-05 14:42:40] WARNING root fetch - processPackages [few-shot-priming]: Timeout reached during download
+[2024-04-05 14:42:40] INFO root fetch - processPackages [few-shot-priming]: executing diffoscope
+[2024-04-05 14:42:40] INFO root fetch - processPackages [few-shot-priming]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/few_shot_priming-0.3.98-py3-none-any.whl.zip tmp/few_shot_priming-0.3.99-py3-none-any.whl.zip --markdown 20240405/f/few-shot-priming/0.3.98-0.3.99/diff.md --exclude *.pyd
+[2024-04-05 14:42:40] WARNING root fetch - processPackages [pyfastchem]: Timeout reached during download
+[2024-04-05 14:42:40] INFO root fetch - processPackages [pyfastchem]: executing diffoscope
+[2024-04-05 14:42:40] INFO root fetch - processPackages [pyfastchem]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyfastchem-3.1.tar.gz tmp/pyfastchem-3.1.1.tar.gz --markdown 20240405/p/pyfastchem/3.1-3.1.1/diff.md --exclude *.pyd
+[2024-04-05 14:42:40] WARNING root fetch - processPackages [hpcflow-new2]: Timeout reached during download
+[2024-04-05 14:42:40] INFO root fetch - processPackages [hpcflow-new2]: executing diffoscope
+[2024-04-05 14:42:40] INFO root fetch - processPackages [hpcflow-new2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hpcflow_new2-0.2.0a98.tar.gz tmp/hpcflow_new2-0.2.0a99.tar.gz --markdown 20240405/h/hpcflow-new2/0.2.0a98-0.2.0a99/diff.md --exclude *.pyd
+[2024-04-05 14:42:40] INFO root fetch - processPackages [windowsregistry]: Remove: archive file [/home/abi/fetcher/tmp/windowsregistry-0.1.0.tar.gz]
+[2024-04-05 14:42:40] INFO root fetch - processPackages [windowsregistry]: Remove: archive file [/home/abi/fetcher/tmp/windowsregistry-0.1.1.tar.gz]
+[2024-04-05 14:42:40] INFO root fetch - main [MainThread]: End processing [windowsregistry]: success
+[2024-04-05 14:42:41] INFO root fetch - processPackages [keelson]: Remove: archive file [/home/abi/fetcher/tmp/keelson-0.3.0rc8-py3-none-any.whl.zip]
+[2024-04-05 14:42:41] INFO root fetch - processPackages [keelson]: Remove: archive file [/home/abi/fetcher/tmp/keelson-0.3.0rc9-py3-none-any.whl.zip]
+[2024-04-05 14:42:41] INFO root fetch - main [MainThread]: End processing [keelson]: success
+[2024-04-05 14:42:41] WARNING root fetch - processPackages [pyrtz2]: Timeout reached during download
+[2024-04-05 14:42:41] INFO root fetch - processPackages [pyrtz2]: executing diffoscope
+[2024-04-05 14:42:41] INFO root fetch - processPackages [pyrtz2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyrtz2-1.1.11.tar.gz tmp/pyrtz2-1.1.13.tar.gz --markdown 20240405/p/pyrtz2/1.1.11-1.1.13/diff.md --exclude *.pyd
+[2024-04-05 14:42:41] INFO root fetch - processPackages [zyte-api]: Remove: archive file [/home/abi/fetcher/tmp/zyte-api-0.4.8.tar.gz]
+[2024-04-05 14:42:41] INFO root fetch - processPackages [zyte-api]: Remove: archive file [/home/abi/fetcher/tmp/zyte-api-0.5.0.tar.gz]
+[2024-04-05 14:42:41] INFO root fetch - main [MainThread]: End processing [zyte-api]: success
+[2024-04-05 14:42:41] INFO root fetch - processPackages [few-shot-priming]: Remove: archive file [/home/abi/fetcher/tmp/few_shot_priming-0.3.98-py3-none-any.whl.zip]
+[2024-04-05 14:42:41] INFO root fetch - processPackages [few-shot-priming]: Remove: archive file [/home/abi/fetcher/tmp/few_shot_priming-0.3.99-py3-none-any.whl.zip]
+[2024-04-05 14:42:41] INFO root fetch - main [MainThread]: End processing [few-shot-priming]: success
+[2024-04-05 14:42:42] INFO root fetch - processPackages [pyrtz2]: Remove: archive file [/home/abi/fetcher/tmp/pyrtz2-1.1.11.tar.gz]
+[2024-04-05 14:42:42] INFO root fetch - processPackages [pyrtz2]: Remove: archive file [/home/abi/fetcher/tmp/pyrtz2-1.1.13.tar.gz]
+[2024-04-05 14:42:42] INFO root fetch - main [MainThread]: End processing [pyrtz2]: success
+[2024-04-05 14:42:42] INFO root fetch - processPackages [hpcflow-new2]: Remove: archive file [/home/abi/fetcher/tmp/hpcflow_new2-0.2.0a98.tar.gz]
+[2024-04-05 14:42:42] INFO root fetch - processPackages [hpcflow-new2]: Remove: archive file [/home/abi/fetcher/tmp/hpcflow_new2-0.2.0a99.tar.gz]
+[2024-04-05 14:42:42] INFO root fetch - main [MainThread]: End processing [hpcflow-new2]: success
+[2024-04-05 14:42:42] INFO root fetch - processPackages [eolymp]: Remove: archive file [/home/abi/fetcher/tmp/eolymp-0.9.8.tar.gz]
+[2024-04-05 14:42:42] INFO root fetch - processPackages [eolymp]: Remove: archive file [/home/abi/fetcher/tmp/eolymp-0.9.9.tar.gz]
+[2024-04-05 14:42:42] INFO root fetch - main [MainThread]: End processing [eolymp]: success
+[2024-04-05 14:42:42] INFO root fetch - processPackages [pyfastchem]: Remove: archive file [/home/abi/fetcher/tmp/pyfastchem-3.1.tar.gz]
+[2024-04-05 14:42:42] INFO root fetch - processPackages [pyfastchem]: Remove: archive file [/home/abi/fetcher/tmp/pyfastchem-3.1.1.tar.gz]
+[2024-04-05 14:42:42] INFO root fetch - main [MainThread]: End processing [pyfastchem]: success
+[2024-04-05 14:42:42] INFO root fetch - main [MainThread]: Store serial: [22636013]
