@@ -17960,3 +17960,28 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2024-04-05 11:40:34] INFO root fetch - processPackages [nucliadb-node-binding]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_node_binding-2.46.1.post1093.tar.gz]
 [2024-04-05 11:40:34] INFO root fetch - main [MainThread]: End processing [nucliadb-node-binding]: success
 [2024-04-05 11:40:34] INFO root fetch - main [MainThread]: Store serial: [22634136]
+[2024-04-05 11:42:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22634136]
+[2024-04-05 11:42:42] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-05 11:42:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: scematk
+[2024-04-05 11:42:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cally
+[2024-04-05 11:42:42] INFO root fetch - processPackages [scematk]: New version: [0.0.2rc99.post1] Old Version: [0.0.2rc98.post1]
+[2024-04-05 11:42:43] INFO root fetch - processPackages [scematk]: Downloading https://files.pythonhosted.org/packages/74/b4/2c4bf9a440c6109c1526403bd63a1ad539bac9b025336ad220b4b533e7b7/scematk-0.0.2rc98.post1.tar.gz
+[2024-04-05 11:42:43] INFO root fetch - processPackages [cally]: New version: [0.3.0] Old Version: [0.2.0]
+[2024-04-05 11:42:43] WARNING root fetch - processPackages [scematk]: Timeout reached during download
+[2024-04-05 11:42:43] INFO root fetch - processPackages [cally]: Downloading https://files.pythonhosted.org/packages/42/d1/475f5596846a2d47030f2e8f0be27c17a96590199389f8398a5dba58a327/cally-0.2.0.tar.gz
+[2024-04-05 11:42:43] INFO root fetch - processPackages [scematk]: Downloading https://files.pythonhosted.org/packages/88/05/a551ffce29ada02c3b808f4d3523aefcebb95b513746d269b86d0d75e18b/scematk-0.0.2rc99.post1.tar.gz
+[2024-04-05 11:42:43] WARNING root fetch - processPackages [scematk]: Timeout reached during download
+[2024-04-05 11:42:43] INFO root fetch - processPackages [scematk]: executing diffoscope
+[2024-04-05 11:42:43] INFO root fetch - processPackages [scematk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scematk-0.0.2rc98.post1.tar.gz tmp/scematk-0.0.2rc99.post1.tar.gz --markdown 20240405/s/scematk/0.0.2rc98.post1-0.0.2rc99.post1/diff.md --exclude *.pyd
+[2024-04-05 11:42:43] WARNING root fetch - processPackages [cally]: Timeout reached during download
+[2024-04-05 11:42:43] INFO root fetch - processPackages [cally]: Downloading https://files.pythonhosted.org/packages/b1/8f/febdd02bd0ac468392798130176b97aa04aab408baffe97ff1f962c737f2/cally-0.3.0.tar.gz
+[2024-04-05 11:42:43] WARNING root fetch - processPackages [cally]: Timeout reached during download
+[2024-04-05 11:42:43] INFO root fetch - processPackages [cally]: executing diffoscope
+[2024-04-05 11:42:43] INFO root fetch - processPackages [cally]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cally-0.2.0.tar.gz tmp/cally-0.3.0.tar.gz --markdown 20240405/c/cally/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2024-04-05 11:42:44] INFO root fetch - processPackages [scematk]: Remove: archive file [/home/abi/fetcher/tmp/scematk-0.0.2rc98.post1.tar.gz]
+[2024-04-05 11:42:44] INFO root fetch - processPackages [scematk]: Remove: archive file [/home/abi/fetcher/tmp/scematk-0.0.2rc99.post1.tar.gz]
+[2024-04-05 11:42:44] INFO root fetch - main [MainThread]: End processing [scematk]: success
+[2024-04-05 11:42:44] INFO root fetch - processPackages [cally]: Remove: archive file [/home/abi/fetcher/tmp/cally-0.2.0.tar.gz]
+[2024-04-05 11:42:44] INFO root fetch - processPackages [cally]: Remove: archive file [/home/abi/fetcher/tmp/cally-0.3.0.tar.gz]
+[2024-04-05 11:42:44] INFO root fetch - main [MainThread]: End processing [cally]: success
+[2024-04-05 11:42:44] INFO root fetch - main [MainThread]: Store serial: [22634151]
