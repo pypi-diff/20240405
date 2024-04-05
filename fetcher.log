@@ -17321,3 +17321,39 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2024-04-05 11:17:21] INFO root fetch - processPackages [pyatlan]: Remove: archive file [/home/abi/fetcher/tmp/pyatlan-2.1.3.tar.gz]
 [2024-04-05 11:17:21] INFO root fetch - main [MainThread]: End processing [pyatlan]: success
 [2024-04-05 11:17:21] INFO root fetch - main [MainThread]: Store serial: [22633896]
+[2024-04-05 11:19:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22633896]
+[2024-04-05 11:19:30] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-05 11:19:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pasta-eln
+[2024-04-05 11:19:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: scilab-kernel
+[2024-04-05 11:19:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mosamaticdesktop
+[2024-04-05 11:19:30] INFO root fetch - processPackages [scilab-kernel]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-04-05 11:19:30] INFO root fetch - processPackages [mosamaticdesktop]: New version: [1.9.0] Old Version: [1.8.0]
+[2024-04-05 11:19:30] INFO root fetch - processPackages [pasta-eln]: New version: [2.5.1b1] Old Version: [2.5.0b8]
+[2024-04-05 11:19:31] INFO root fetch - processPackages [scilab-kernel]: Downloading https://files.pythonhosted.org/packages/9c/f8/e322dc3cdd7108cf6fda76e39139501e07089294e558b1f9bb015faf24f9/scilab_kernel-0.9.8.tar.gz
+[2024-04-05 11:19:31] INFO root fetch - processPackages [mosamaticdesktop]: Downloading https://files.pythonhosted.org/packages/82/03/2406a4ae700478199e7724c07289b8b70d4042f0fbd63c5c37c2b8961c48/mosamaticdesktop-1.8.0.tar.gz
+[2024-04-05 11:19:31] INFO root fetch - processPackages [pasta-eln]: Downloading https://files.pythonhosted.org/packages/c7/ee/ddecae08c675cad0789e69653a4da145ba447b2421ddbf67d7816fc092b2/pasta_eln-2.5.0b8.tar.gz
+[2024-04-05 11:19:31] WARNING root fetch - processPackages [scilab-kernel]: Timeout reached during download
+[2024-04-05 11:19:31] WARNING root fetch - processPackages [mosamaticdesktop]: Timeout reached during download
+[2024-04-05 11:19:31] INFO root fetch - processPackages [scilab-kernel]: Downloading https://files.pythonhosted.org/packages/2c/df/6be98fdb5ad77e3b8fcc2192479608b5574d2936f0b62242b9cb295ce058/scilab_kernel-0.9.9.tar.gz
+[2024-04-05 11:19:31] INFO root fetch - processPackages [mosamaticdesktop]: Downloading https://files.pythonhosted.org/packages/1b/b2/214eebd120dbaed1da0c793dd8d6cc53f40a2eba7e7f2f1293e059e2ab2a/mosamaticdesktop-1.9.0.tar.gz
+[2024-04-05 11:19:31] WARNING root fetch - processPackages [mosamaticdesktop]: Timeout reached during download
+[2024-04-05 11:19:31] INFO root fetch - processPackages [mosamaticdesktop]: executing diffoscope
+[2024-04-05 11:19:31] INFO root fetch - processPackages [mosamaticdesktop]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mosamaticdesktop-1.8.0.tar.gz tmp/mosamaticdesktop-1.9.0.tar.gz --markdown 20240405/m/mosamaticdesktop/1.8.0-1.9.0/diff.md --exclude *.pyd
+[2024-04-05 11:19:31] WARNING root fetch - processPackages [pasta-eln]: Timeout reached during download
+[2024-04-05 11:19:31] WARNING root fetch - processPackages [scilab-kernel]: Timeout reached during download
+[2024-04-05 11:19:31] INFO root fetch - processPackages [scilab-kernel]: executing diffoscope
+[2024-04-05 11:19:31] INFO root fetch - processPackages [scilab-kernel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scilab_kernel-0.9.8.tar.gz tmp/scilab_kernel-0.9.9.tar.gz --markdown 20240405/s/scilab-kernel/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2024-04-05 11:19:31] INFO root fetch - processPackages [pasta-eln]: Downloading https://files.pythonhosted.org/packages/42/ff/5d6bfb540b3ac70d1d60a1e55ecbefa376aaffa1e573b541b9e4a57756b4/pasta_eln-2.5.1b1.tar.gz
+[2024-04-05 11:19:31] WARNING root fetch - processPackages [pasta-eln]: Timeout reached during download
+[2024-04-05 11:19:31] INFO root fetch - processPackages [pasta-eln]: executing diffoscope
+[2024-04-05 11:19:31] INFO root fetch - processPackages [pasta-eln]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pasta_eln-2.5.0b8.tar.gz tmp/pasta_eln-2.5.1b1.tar.gz --markdown 20240405/p/pasta-eln/2.5.0b8-2.5.1b1/diff.md --exclude *.pyd
+[2024-04-05 11:19:32] INFO root fetch - processPackages [scilab-kernel]: Remove: archive file [/home/abi/fetcher/tmp/scilab_kernel-0.9.8.tar.gz]
+[2024-04-05 11:19:32] INFO root fetch - processPackages [scilab-kernel]: Remove: archive file [/home/abi/fetcher/tmp/scilab_kernel-0.9.9.tar.gz]
+[2024-04-05 11:19:32] INFO root fetch - main [MainThread]: End processing [scilab-kernel]: success
+[2024-04-05 11:19:32] INFO root fetch - processPackages [mosamaticdesktop]: Remove: archive file [/home/abi/fetcher/tmp/mosamaticdesktop-1.8.0.tar.gz]
+[2024-04-05 11:19:32] INFO root fetch - processPackages [mosamaticdesktop]: Remove: archive file [/home/abi/fetcher/tmp/mosamaticdesktop-1.9.0.tar.gz]
+[2024-04-05 11:19:32] INFO root fetch - main [MainThread]: End processing [mosamaticdesktop]: success
+[2024-04-05 11:19:33] INFO root fetch - processPackages [pasta-eln]: Remove: archive file [/home/abi/fetcher/tmp/pasta_eln-2.5.0b8.tar.gz]
+[2024-04-05 11:19:33] INFO root fetch - processPackages [pasta-eln]: Remove: archive file [/home/abi/fetcher/tmp/pasta_eln-2.5.1b1.tar.gz]
+[2024-04-05 11:19:33] INFO root fetch - main [MainThread]: End processing [pasta-eln]: success
+[2024-04-05 11:19:33] INFO root fetch - main [MainThread]: Store serial: [22633909]
