@@ -10042,3 +10042,50 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2024-04-05 04:58:46] INFO root fetch - processPackages [zetamarkets-py]: Remove: archive file [/home/abi/fetcher/tmp/zetamarkets_py-0.2.9.tar.gz]
 [2024-04-05 04:58:46] INFO root fetch - main [MainThread]: End processing [zetamarkets-py]: success
 [2024-04-05 04:58:46] INFO root fetch - main [MainThread]: Store serial: [22631324]
+[2024-04-05 05:00:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22631324]
+[2024-04-05 05:00:55] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-05 05:00:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo-addon-account-invoice-alternate-payer
+[2024-04-05 05:00:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: fv1-programmer
+[2024-04-05 05:00:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addon-account-invoice-fixed-discount
+[2024-04-05 05:00:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: lockhart-serial
+[2024-04-05 05:00:55] INFO root fetch - processPackages [lockhart-serial]: New version: [1.0.5] Old Version: [1.0.4]
+[2024-04-05 05:00:55] INFO root fetch - processPackages [lockhart-serial]: Downloading https://files.pythonhosted.org/packages/4a/78/40f776859857f99b3cbc2b1bf712a04ccfe39796804f4630341c28d3e28e/lockhart-serial-1.0.4.tar.gz
+[2024-04-05 05:00:55] INFO root fetch - processPackages [odoo-addon-account-invoice-alternate-payer]: New version: [16.0.1.0.0.5] Old Version: [16.0.1.0.0.3]
+[2024-04-05 05:00:55] INFO root fetch - processPackages [fv1-programmer]: New version: [0.5.0] Old Version: [0.4.4]
+[2024-04-05 05:00:55] INFO root fetch - processPackages [odoo-addon-account-invoice-fixed-discount]: New version: [17.0.1.0.0.8] Old Version: [17.0.1.0.0.6]
+[2024-04-05 05:00:56] WARNING root fetch - processPackages [lockhart-serial]: Timeout reached during download
+[2024-04-05 05:00:56] INFO root fetch - processPackages [fv1-programmer]: Downloading https://files.pythonhosted.org/packages/2d/2b/b03a9ca06e16e57d0f066d778fef7ff0370bbaea012dbadb43f352b9a026/fv1_programmer-0.4.4.tar.gz
+[2024-04-05 05:00:56] INFO root fetch - processPackages [odoo-addon-account-invoice-alternate-payer]: Downloading https://files.pythonhosted.org/packages/3f/16/a507cef6678bc2108e345bb7332ea4465068e09b69f9b3da844b50220898/odoo_addon_account_invoice_alternate_payer-16.0.1.0.0.3-py3-none-any.whl
+[2024-04-05 05:00:56] INFO root fetch - processPackages [odoo-addon-account-invoice-fixed-discount]: Downloading https://files.pythonhosted.org/packages/3f/5c/fa5e23f51ec9283082407ff61e2a8bd4fb0545d6ee52a70e6342049e0087/odoo_addon_account_invoice_fixed_discount-17.0.1.0.0.6-py3-none-any.whl
+[2024-04-05 05:00:56] INFO root fetch - processPackages [lockhart-serial]: Downloading https://files.pythonhosted.org/packages/30/07/caf722c87d8cbf64ccbd77bbf88bd4d9572094f2b79c3500478a25bf81e4/lockhart-serial-1.0.5.tar.gz
+[2024-04-05 05:00:56] WARNING root fetch - processPackages [odoo-addon-account-invoice-alternate-payer]: Timeout reached during download
+[2024-04-05 05:00:56] WARNING root fetch - processPackages [odoo-addon-account-invoice-fixed-discount]: Timeout reached during download
+[2024-04-05 05:00:56] WARNING root fetch - processPackages [lockhart-serial]: Timeout reached during download
+[2024-04-05 05:00:56] INFO root fetch - processPackages [lockhart-serial]: executing diffoscope
+[2024-04-05 05:00:56] INFO root fetch - processPackages [lockhart-serial]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lockhart-serial-1.0.4.tar.gz tmp/lockhart-serial-1.0.5.tar.gz --markdown 20240405/l/lockhart-serial/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2024-04-05 05:00:56] WARNING root fetch - processPackages [fv1-programmer]: Timeout reached during download
+[2024-04-05 05:00:56] INFO root fetch - processPackages [odoo-addon-account-invoice-alternate-payer]: Downloading https://files.pythonhosted.org/packages/3b/e9/496cf9e448845bfc09dc8830b7abf60223e0a40042149a965c6a11cd2e12/odoo_addon_account_invoice_alternate_payer-16.0.1.0.0.5-py3-none-any.whl
+[2024-04-05 05:00:56] INFO root fetch - processPackages [odoo-addon-account-invoice-fixed-discount]: Downloading https://files.pythonhosted.org/packages/f2/f5/5419f87a649689a2b5a168ac3e8962dd1c8fd40c508997fc20160139ee28/odoo_addon_account_invoice_fixed_discount-17.0.1.0.0.8-py3-none-any.whl
+[2024-04-05 05:00:56] INFO root fetch - processPackages [fv1-programmer]: Downloading https://files.pythonhosted.org/packages/51/38/664ef171394eb6469878b2a432f2248c3bba431df4b17a4c7c24261c45b9/fv1_programmer-0.5.0.tar.gz
+[2024-04-05 05:00:56] WARNING root fetch - processPackages [odoo-addon-account-invoice-alternate-payer]: Timeout reached during download
+[2024-04-05 05:00:56] INFO root fetch - processPackages [odoo-addon-account-invoice-alternate-payer]: executing diffoscope
+[2024-04-05 05:00:56] INFO root fetch - processPackages [odoo-addon-account-invoice-alternate-payer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_account_invoice_alternate_payer-16.0.1.0.0.3-py3-none-any.whl.zip tmp/odoo_addon_account_invoice_alternate_payer-16.0.1.0.0.5-py3-none-any.whl.zip --markdown 20240405/o/odoo-addon-account-invoice-alternate-payer/16.0.1.0.0.3-16.0.1.0.0.5/diff.md --exclude *.pyd
+[2024-04-05 05:00:56] WARNING root fetch - processPackages [odoo-addon-account-invoice-fixed-discount]: Timeout reached during download
+[2024-04-05 05:00:56] INFO root fetch - processPackages [odoo-addon-account-invoice-fixed-discount]: executing diffoscope
+[2024-04-05 05:00:56] INFO root fetch - processPackages [odoo-addon-account-invoice-fixed-discount]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_account_invoice_fixed_discount-17.0.1.0.0.6-py3-none-any.whl.zip tmp/odoo_addon_account_invoice_fixed_discount-17.0.1.0.0.8-py3-none-any.whl.zip --markdown 20240405/o/odoo-addon-account-invoice-fixed-discount/17.0.1.0.0.6-17.0.1.0.0.8/diff.md --exclude *.pyd
+[2024-04-05 05:00:56] WARNING root fetch - processPackages [fv1-programmer]: Timeout reached during download
+[2024-04-05 05:00:56] INFO root fetch - processPackages [fv1-programmer]: executing diffoscope
+[2024-04-05 05:00:56] INFO root fetch - processPackages [fv1-programmer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fv1_programmer-0.4.4.tar.gz tmp/fv1_programmer-0.5.0.tar.gz --markdown 20240405/f/fv1-programmer/0.4.4-0.5.0/diff.md --exclude *.pyd
+[2024-04-05 05:00:56] INFO root fetch - processPackages [lockhart-serial]: Remove: archive file [/home/abi/fetcher/tmp/lockhart-serial-1.0.4.tar.gz]
+[2024-04-05 05:00:56] INFO root fetch - processPackages [lockhart-serial]: Remove: archive file [/home/abi/fetcher/tmp/lockhart-serial-1.0.5.tar.gz]
+[2024-04-05 05:00:56] INFO root fetch - main [MainThread]: End processing [lockhart-serial]: success
+[2024-04-05 05:00:57] INFO root fetch - processPackages [odoo-addon-account-invoice-alternate-payer]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_invoice_alternate_payer-16.0.1.0.0.3-py3-none-any.whl.zip]
+[2024-04-05 05:00:57] INFO root fetch - processPackages [odoo-addon-account-invoice-alternate-payer]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_invoice_alternate_payer-16.0.1.0.0.5-py3-none-any.whl.zip]
+[2024-04-05 05:00:57] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-invoice-alternate-payer]: success
+[2024-04-05 05:00:57] INFO root fetch - processPackages [fv1-programmer]: Remove: archive file [/home/abi/fetcher/tmp/fv1_programmer-0.4.4.tar.gz]
+[2024-04-05 05:00:57] INFO root fetch - processPackages [fv1-programmer]: Remove: archive file [/home/abi/fetcher/tmp/fv1_programmer-0.5.0.tar.gz]
+[2024-04-05 05:00:57] INFO root fetch - main [MainThread]: End processing [fv1-programmer]: success
+[2024-04-05 05:00:57] INFO root fetch - processPackages [odoo-addon-account-invoice-fixed-discount]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_invoice_fixed_discount-17.0.1.0.0.6-py3-none-any.whl.zip]
+[2024-04-05 05:00:57] INFO root fetch - processPackages [odoo-addon-account-invoice-fixed-discount]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_invoice_fixed_discount-17.0.1.0.0.8-py3-none-any.whl.zip]
+[2024-04-05 05:00:57] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-invoice-fixed-discount]: success
+[2024-04-05 05:00:57] INFO root fetch - main [MainThread]: Store serial: [22631334]
