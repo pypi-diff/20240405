@@ -15889,3 +15889,79 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2024-04-05 10:11:31] INFO root fetch - processPackages [tidal-per-transformers]: Remove: archive file [/home/abi/fetcher/tmp/tidal_per_transformers-0.1.1.tar.gz]
 [2024-04-05 10:11:31] INFO root fetch - main [MainThread]: End processing [tidal-per-transformers]: success
 [2024-04-05 10:11:31] INFO root fetch - main [MainThread]: Store serial: [22633249]
+[2024-04-05 10:13:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22633249]
+[2024-04-05 10:13:40] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-04-05 10:13:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mxcubeweb
+[2024-04-05 10:13:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pysen-plugins
+[2024-04-05 10:13:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: udata
+[2024-04-05 10:13:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ASnake
+[2024-04-05 10:13:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: langfuse-haystack
+[2024-04-05 10:13:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: biaspeech
+[2024-04-05 10:13:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: openobd
+[2024-04-05 10:13:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: hotsos
+[2024-04-05 10:13:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: lalsuite
+[2024-04-05 10:13:40] WARNING root fetch - processPackages [langfuse-haystack]: Skipping, unable to determine old version
+[2024-04-05 10:13:40] INFO root fetch - main [MainThread]: End processing [langfuse-haystack] error
+[2024-04-05 10:13:40] INFO root fetch - processPackages [ASnake]: New version: [0.13.35] Old Version: [0.13.34]
+[2024-04-05 10:13:40] INFO root fetch - processPackages [mxcubeweb]: New version: [4.9.0] Old Version: [4.8.0]
+[2024-04-05 10:13:40] INFO root fetch - processPackages [pysen-plugins]: New version: [2024.4.5] Old Version: [2023.5.22]
+[2024-04-05 10:13:40] INFO root fetch - processPackages [openobd]: New version: [0.0.34] Old Version: [0.0.29]
+[2024-04-05 10:13:40] INFO root fetch - processPackages [udata]: New version: [7.0.7.dev28474] Old Version: [7.0.7.dev28459]
+[2024-04-05 10:13:41] INFO root fetch - processPackages [hotsos]: New version: [1.17.0.post8] Old Version: [1.17.0.post7]
+[2024-04-05 10:13:41] INFO root fetch - processPackages [ASnake]: Downloading https://files.pythonhosted.org/packages/d2/f1/b16fa011059ab11f3ccefa138716e2e11ed17cb6938b82c5f3688ba85649/ASnake-0.13.34.tar.gz
+[2024-04-05 10:13:41] INFO root fetch - processPackages [mxcubeweb]: Downloading https://files.pythonhosted.org/packages/e9/9e/c4f610f4b2e24f0448292119c5697d9e6dfdefa4d71a8b7089d4a6953107/mxcubeweb-4.8.0.tar.gz
+[2024-04-05 10:13:41] INFO root fetch - processPackages [biaspeech]: New version: [0.0.6] Old Version: [0.0.5]
+[2024-04-05 10:13:41] INFO root fetch - processPackages [pysen-plugins]: Downloading https://files.pythonhosted.org/packages/9d/32/7cf97430f8996ec9f046d852421b29ab3b1068f357618e06b75ad18a6207/pysen-plugins-2023.5.22.tar.gz
+[2024-04-05 10:13:41] INFO root fetch - processPackages [openobd]: Downloading https://files.pythonhosted.org/packages/a6/60/153995098dc48ea806e32d5d4d66cf4e2e1ef51faad71332cb6ecf69c414/openobd-0.0.29.tar.gz
+[2024-04-05 10:13:41] WARNING root fetch - processPackages [ASnake]: Timeout reached during download
+[2024-04-05 10:13:41] INFO root fetch - processPackages [udata]: Downloading https://files.pythonhosted.org/packages/f2/02/0040818398a649ecc25cbf0d6e9ee1feb6bcb04ea2dda20b3fb793101062/udata-7.0.7.dev28459-py2.py3-none-any.whl
+[2024-04-05 10:13:41] WARNING root fetch - processPackages [mxcubeweb]: Timeout reached during download
+[2024-04-05 10:13:41] INFO root fetch - processPackages [hotsos]: Downloading https://files.pythonhosted.org/packages/58/df/9c9ea169e92217cd60404a42a27e1c7e33b44e53c21073a09a86b2713796/hotsos-1.17.0.post7.tar.gz
+[2024-04-05 10:13:41] WARNING root fetch - processPackages [openobd]: Timeout reached during download
+[2024-04-05 10:13:41] INFO root fetch - processPackages [biaspeech]: Downloading https://files.pythonhosted.org/packages/e2/84/6e1b40bbc936a0b2e0dc772d42c0bb894fd0a62230b2e34276882a355b13/biaspeech-0.0.5.tar.gz
+[2024-04-05 10:13:41] WARNING root fetch - processPackages [pysen-plugins]: Timeout reached during download
+[2024-04-05 10:13:41] WARNING root fetch - processPackages [udata]: Skipping package: exceeds size limit 19775640>=10485760
+[2024-04-05 10:13:41] INFO root fetch - main [MainThread]: End processing [udata] error
+[2024-04-05 10:13:41] INFO root fetch - processPackages [ASnake]: Downloading https://files.pythonhosted.org/packages/36/8c/79146eb56ea6f9afcb235cb127ccd9e87ce337fa98a3eb5b5e39427da972/ASnake-0.13.35.tar.gz
+[2024-04-05 10:13:41] WARNING root fetch - processPackages [biaspeech]: Skipping package: exceeds size limit 17057738>=10485760
+[2024-04-05 10:13:41] INFO root fetch - main [MainThread]: End processing [biaspeech] error
+[2024-04-05 10:13:41] INFO root fetch - processPackages [mxcubeweb]: Downloading https://files.pythonhosted.org/packages/70/0a/11c323a9a6ce9c93c1b0707df775fe6f1e768b7bab1fef02a49855813397/mxcubeweb-4.9.0.tar.gz
+[2024-04-05 10:13:41] WARNING root fetch - processPackages [hotsos]: Timeout reached during download
+[2024-04-05 10:13:41] INFO root fetch - processPackages [openobd]: Downloading https://files.pythonhosted.org/packages/5b/f5/27a4f0aa9e1abb6fe1a63c4fdbd72d539301d06d41cd1192dcc17c7d8b15/openobd-0.0.34.tar.gz
+[2024-04-05 10:13:41] INFO root fetch - processPackages [pysen-plugins]: Downloading https://files.pythonhosted.org/packages/21/48/41d3f55238e770e80e42c38365f73d3b98a3292e0d0d19193c5058ffec1e/pysen-plugins-2024.4.5.tar.gz
+[2024-04-05 10:13:41] WARNING root fetch - processPackages [ASnake]: Timeout reached during download
+[2024-04-05 10:13:41] INFO root fetch - processPackages [ASnake]: executing diffoscope
+[2024-04-05 10:13:41] INFO root fetch - processPackages [ASnake]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ASnake-0.13.34.tar.gz tmp/ASnake-0.13.35.tar.gz --markdown 20240405/A/ASnake/0.13.34-0.13.35/diff.md --exclude *.pyd
+[2024-04-05 10:13:41] WARNING root fetch - processPackages [mxcubeweb]: Timeout reached during download
+[2024-04-05 10:13:41] INFO root fetch - processPackages [mxcubeweb]: executing diffoscope
+[2024-04-05 10:13:41] INFO root fetch - processPackages [mxcubeweb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mxcubeweb-4.8.0.tar.gz tmp/mxcubeweb-4.9.0.tar.gz --markdown 20240405/m/mxcubeweb/4.8.0-4.9.0/diff.md --exclude *.pyd
+[2024-04-05 10:13:41] WARNING root fetch - processPackages [openobd]: Timeout reached during download
+[2024-04-05 10:13:41] INFO root fetch - processPackages [openobd]: executing diffoscope
+[2024-04-05 10:13:41] INFO root fetch - processPackages [openobd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openobd-0.0.29.tar.gz tmp/openobd-0.0.34.tar.gz --markdown 20240405/o/openobd/0.0.29-0.0.34/diff.md --exclude *.pyd
+[2024-04-05 10:13:41] INFO root fetch - processPackages [hotsos]: Downloading https://files.pythonhosted.org/packages/a7/57/15e4fe4e4dbc4381d9bf00a81267a7c13df4ca3f2dc3b2afa7db65518860/hotsos-1.17.0.post8.tar.gz
+[2024-04-05 10:13:41] WARNING root fetch - processPackages [pysen-plugins]: Timeout reached during download
+[2024-04-05 10:13:41] INFO root fetch - processPackages [pysen-plugins]: executing diffoscope
+[2024-04-05 10:13:41] INFO root fetch - processPackages [pysen-plugins]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pysen-plugins-2023.5.22.tar.gz tmp/pysen-plugins-2024.4.5.tar.gz --markdown 20240405/p/pysen-plugins/2023.5.22-2024.4.5/diff.md --exclude *.pyd
+[2024-04-05 10:13:41] INFO root fetch - processPackages [lalsuite]: New version: [7.9] Old Version: [7.8]
+[2024-04-05 10:13:41] WARNING root fetch - processPackages [hotsos]: Timeout reached during download
+[2024-04-05 10:13:41] INFO root fetch - processPackages [hotsos]: executing diffoscope
+[2024-04-05 10:13:41] INFO root fetch - processPackages [hotsos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hotsos-1.17.0.post7.tar.gz tmp/hotsos-1.17.0.post8.tar.gz --markdown 20240405/h/hotsos/1.17.0.post7-1.17.0.post8/diff.md --exclude *.pyd
+[2024-04-05 10:13:42] INFO root fetch - processPackages [lalsuite]: Downloading https://files.pythonhosted.org/packages/53/92/fc43211ca56b7c5532fc1b47c701a564c7ddcaf866c62ae45acbfdc34f23/lalsuite-7.8-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-04-05 10:13:42] WARNING root fetch - processPackages [lalsuite]: Skipping package: exceeds size limit 48394251>=10485760
+[2024-04-05 10:13:42] INFO root fetch - main [MainThread]: End processing [lalsuite] error
+[2024-04-05 10:13:42] INFO root fetch - processPackages [ASnake]: Remove: archive file [/home/abi/fetcher/tmp/ASnake-0.13.34.tar.gz]
+[2024-04-05 10:13:42] INFO root fetch - processPackages [ASnake]: Remove: archive file [/home/abi/fetcher/tmp/ASnake-0.13.35.tar.gz]
+[2024-04-05 10:13:42] INFO root fetch - main [MainThread]: End processing [ASnake]: success
+[2024-04-05 10:13:42] INFO root fetch - processPackages [openobd]: Remove: archive file [/home/abi/fetcher/tmp/openobd-0.0.29.tar.gz]
+[2024-04-05 10:13:42] INFO root fetch - processPackages [openobd]: Remove: archive file [/home/abi/fetcher/tmp/openobd-0.0.34.tar.gz]
+[2024-04-05 10:13:42] INFO root fetch - main [MainThread]: End processing [openobd]: success
+[2024-04-05 10:13:42] INFO root fetch - processPackages [pysen-plugins]: Remove: archive file [/home/abi/fetcher/tmp/pysen-plugins-2023.5.22.tar.gz]
+[2024-04-05 10:13:42] INFO root fetch - processPackages [pysen-plugins]: Remove: archive file [/home/abi/fetcher/tmp/pysen-plugins-2024.4.5.tar.gz]
+[2024-04-05 10:13:42] INFO root fetch - main [MainThread]: End processing [pysen-plugins]: success
+[2024-04-05 10:13:42] INFO root fetch - processPackages [mxcubeweb]: Remove: archive file [/home/abi/fetcher/tmp/mxcubeweb-4.8.0.tar.gz]
+[2024-04-05 10:13:42] INFO root fetch - processPackages [mxcubeweb]: Remove: archive file [/home/abi/fetcher/tmp/mxcubeweb-4.9.0.tar.gz]
+[2024-04-05 10:13:42] INFO root fetch - main [MainThread]: End processing [mxcubeweb]: success
+[2024-04-05 10:13:43] INFO root fetch - processPackages [hotsos]: Remove: archive file [/home/abi/fetcher/tmp/hotsos-1.17.0.post7.tar.gz]
+[2024-04-05 10:13:43] INFO root fetch - processPackages [hotsos]: Remove: archive file [/home/abi/fetcher/tmp/hotsos-1.17.0.post8.tar.gz]
+[2024-04-05 10:13:43] INFO root fetch - main [MainThread]: End processing [hotsos]: success
+[2024-04-05 10:13:43] INFO root fetch - main [MainThread]: Store serial: [22633299]
