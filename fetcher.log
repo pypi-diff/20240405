@@ -3308,3 +3308,66 @@
 [2024-04-05 02:32:03] INFO root fetch - processPackages [imjoy-jupyterlab-extension]: Remove: archive file [/home/abi/fetcher/tmp/imjoy_jupyterlab_extension-0.2.5.tar.gz]
 [2024-04-05 02:32:03] INFO root fetch - main [MainThread]: End processing [imjoy-jupyterlab-extension]: success
 [2024-04-05 02:32:03] INFO root fetch - main [MainThread]: Store serial: [22629268]
+[2024-04-05 02:34:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22629268]
+[2024-04-05 02:34:12] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-05 02:34:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dragonfly-core
+[2024-04-05 02:34:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gradientai
+[2024-04-05 02:34:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyodrivecan
+[2024-04-05 02:34:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: lancedb
+[2024-04-05 02:34:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: state-machine-semaphore
+[2024-04-05 02:34:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: Geode-Conversion
+[2024-04-05 02:34:12] INFO root fetch - processPackages [dragonfly-core]: New version: [1.9.0] Old Version: [1.8.1]
+[2024-04-05 02:34:12] INFO root fetch - processPackages [Geode-Conversion]: New version: [5.2.7rc1] Old Version: [5.2.6rc1]
+[2024-04-05 02:34:12] INFO root fetch - processPackages [pyodrivecan]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-04-05 02:34:12] INFO root fetch - processPackages [gradientai]: New version: [1.9.0] Old Version: [1.8.1]
+[2024-04-05 02:34:12] INFO root fetch - processPackages [dragonfly-core]: Downloading https://files.pythonhosted.org/packages/93/fd/7cad9d4c9406e421f7ce31b725936bb32ec8a421f9b143e829c33cae55dd/dragonfly-core-1.8.1.tar.gz
+[2024-04-05 02:34:12] INFO root fetch - processPackages [lancedb]: New version: [0.6.7] Old Version: [0.6.6]
+[2024-04-05 02:34:12] INFO root fetch - processPackages [state-machine-semaphore]: New version: [0.1.99] Old Version: [0.1.98]
+[2024-04-05 02:34:12] INFO root fetch - processPackages [Geode-Conversion]: Downloading https://files.pythonhosted.org/packages/a2/1b/ac157318da0bb5bccadcedb3c0a5c2c3a6af034d2ed48ccb2ce25e0dfa27/Geode_Conversion-5.2.6rc1-cp39-cp39-win_amd64.whl
+[2024-04-05 02:34:12] WARNING root fetch - processPackages [dragonfly-core]: Timeout reached during download
+[2024-04-05 02:34:12] INFO root fetch - processPackages [dragonfly-core]: Downloading https://files.pythonhosted.org/packages/75/cb/4a1ce4726a070a188305b8d5343b4300bf24190845d85c8718cc31aa3e53/dragonfly-core-1.9.0.tar.gz
+[2024-04-05 02:34:12] WARNING root fetch - processPackages [Geode-Conversion]: Timeout reached during download
+[2024-04-05 02:34:12] INFO root fetch - processPackages [pyodrivecan]: Downloading https://files.pythonhosted.org/packages/fb/f4/aa811bfd5a57ec673f20e88da7d8c03f83fb45716ed0d8b1fda8dc951238/pyodrivecan-0.1.0.tar.gz
+[2024-04-05 02:34:12] INFO root fetch - processPackages [lancedb]: Downloading https://files.pythonhosted.org/packages/8f/e6/5b878d218f7ba8dfcd43df5796b20116357efee4623a1cb52a4c42483fea/lancedb-0.6.6-cp38-abi3-win_amd64.whl
+[2024-04-05 02:34:12] INFO root fetch - processPackages [gradientai]: Downloading https://files.pythonhosted.org/packages/c4/51/1dd8a6fad899d1f5131b7604ac5b14540a5864b725352b71a9a440519a01/gradientai-1.8.1.tar.gz
+[2024-04-05 02:34:12] INFO root fetch - processPackages [state-machine-semaphore]: Downloading https://files.pythonhosted.org/packages/fa/f7/eea494ef2079699969c054c97478b7e0d5db0ce186fbb2708d9a243b4366/state-machine-semaphore-0.1.98.tar.gz
+[2024-04-05 02:34:12] WARNING root fetch - processPackages [dragonfly-core]: Timeout reached during download
+[2024-04-05 02:34:12] INFO root fetch - processPackages [dragonfly-core]: executing diffoscope
+[2024-04-05 02:34:12] INFO root fetch - processPackages [dragonfly-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dragonfly-core-1.8.1.tar.gz tmp/dragonfly-core-1.9.0.tar.gz --markdown 20240405/d/dragonfly-core/1.8.1-1.9.0/diff.md --exclude *.pyd
+[2024-04-05 02:34:12] WARNING root fetch - processPackages [lancedb]: Skipping package: exceeds size limit 21316698>=10485760
+[2024-04-05 02:34:12] INFO root fetch - main [MainThread]: End processing [lancedb] error
+[2024-04-05 02:34:12] INFO root fetch - processPackages [Geode-Conversion]: Downloading https://files.pythonhosted.org/packages/d8/bb/5175f1a72099d81745ad1b621bf2ed6425661bea1efae1a53a278c460f29/Geode_Conversion-5.2.7rc1-cp39-cp39-win_amd64.whl
+[2024-04-05 02:34:12] WARNING root fetch - processPackages [gradientai]: Timeout reached during download
+[2024-04-05 02:34:12] WARNING root fetch - processPackages [pyodrivecan]: Timeout reached during download
+[2024-04-05 02:34:12] WARNING root fetch - processPackages [state-machine-semaphore]: Timeout reached during download
+[2024-04-05 02:34:13] WARNING root fetch - processPackages [Geode-Conversion]: Timeout reached during download
+[2024-04-05 02:34:13] INFO root fetch - processPackages [Geode-Conversion]: executing diffoscope
+[2024-04-05 02:34:13] INFO root fetch - processPackages [Geode-Conversion]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Geode_Conversion-5.2.6rc1-cp39-cp39-win_amd64.whl.zip tmp/Geode_Conversion-5.2.7rc1-cp39-cp39-win_amd64.whl.zip --markdown 20240405/G/Geode-Conversion/5.2.6rc1-5.2.7rc1/diff.md --exclude *.pyd
+[2024-04-05 02:34:13] INFO root fetch - processPackages [pyodrivecan]: Downloading https://files.pythonhosted.org/packages/cb/82/9ab9635008e98a3c5ceec5e676187ec6be1a0074b676905d7b6fffab67c3/pyodrivecan-0.1.1.tar.gz
+[2024-04-05 02:34:13] INFO root fetch - processPackages [gradientai]: Downloading https://files.pythonhosted.org/packages/73/02/0d44ee0c6f57e36730cc2c18e0d4b01b0120738d7e1055ccc231dff3190a/gradientai-1.9.0.tar.gz
+[2024-04-05 02:34:13] INFO root fetch - processPackages [state-machine-semaphore]: Downloading https://files.pythonhosted.org/packages/80/0f/c73e069a7ceff3d9f61065aa4b5b338bc0b9f4f933b94a97692457bfa317/state-machine-semaphore-0.1.99.tar.gz
+[2024-04-05 02:34:13] WARNING root fetch - processPackages [pyodrivecan]: Timeout reached during download
+[2024-04-05 02:34:13] INFO root fetch - processPackages [pyodrivecan]: executing diffoscope
+[2024-04-05 02:34:13] INFO root fetch - processPackages [pyodrivecan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyodrivecan-0.1.0.tar.gz tmp/pyodrivecan-0.1.1.tar.gz --markdown 20240405/p/pyodrivecan/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2024-04-05 02:34:13] WARNING root fetch - processPackages [gradientai]: Timeout reached during download
+[2024-04-05 02:34:13] INFO root fetch - processPackages [gradientai]: executing diffoscope
+[2024-04-05 02:34:13] INFO root fetch - processPackages [gradientai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gradientai-1.8.1.tar.gz tmp/gradientai-1.9.0.tar.gz --markdown 20240405/g/gradientai/1.8.1-1.9.0/diff.md --exclude *.pyd
+[2024-04-05 02:34:13] WARNING root fetch - processPackages [state-machine-semaphore]: Timeout reached during download
+[2024-04-05 02:34:13] INFO root fetch - processPackages [state-machine-semaphore]: executing diffoscope
+[2024-04-05 02:34:13] INFO root fetch - processPackages [state-machine-semaphore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/state-machine-semaphore-0.1.98.tar.gz tmp/state-machine-semaphore-0.1.99.tar.gz --markdown 20240405/s/state-machine-semaphore/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2024-04-05 02:34:13] INFO root fetch - processPackages [dragonfly-core]: Remove: archive file [/home/abi/fetcher/tmp/dragonfly-core-1.8.1.tar.gz]
+[2024-04-05 02:34:13] INFO root fetch - processPackages [dragonfly-core]: Remove: archive file [/home/abi/fetcher/tmp/dragonfly-core-1.9.0.tar.gz]
+[2024-04-05 02:34:13] INFO root fetch - main [MainThread]: End processing [dragonfly-core]: success
+[2024-04-05 02:34:13] INFO root fetch - processPackages [pyodrivecan]: Remove: archive file [/home/abi/fetcher/tmp/pyodrivecan-0.1.0.tar.gz]
+[2024-04-05 02:34:13] INFO root fetch - processPackages [pyodrivecan]: Remove: archive file [/home/abi/fetcher/tmp/pyodrivecan-0.1.1.tar.gz]
+[2024-04-05 02:34:13] INFO root fetch - main [MainThread]: End processing [pyodrivecan]: success
+[2024-04-05 02:34:13] INFO root fetch - processPackages [state-machine-semaphore]: Remove: archive file [/home/abi/fetcher/tmp/state-machine-semaphore-0.1.98.tar.gz]
+[2024-04-05 02:34:13] INFO root fetch - processPackages [state-machine-semaphore]: Remove: archive file [/home/abi/fetcher/tmp/state-machine-semaphore-0.1.99.tar.gz]
+[2024-04-05 02:34:13] INFO root fetch - main [MainThread]: End processing [state-machine-semaphore]: success
+[2024-04-05 02:34:14] INFO root fetch - processPackages [gradientai]: Remove: archive file [/home/abi/fetcher/tmp/gradientai-1.8.1.tar.gz]
+[2024-04-05 02:34:14] INFO root fetch - processPackages [gradientai]: Remove: archive file [/home/abi/fetcher/tmp/gradientai-1.9.0.tar.gz]
+[2024-04-05 02:34:14] INFO root fetch - main [MainThread]: End processing [gradientai]: success
+[2024-04-05 02:34:25] INFO root fetch - processPackages [Geode-Conversion]: Remove: archive file [/home/abi/fetcher/tmp/Geode_Conversion-5.2.6rc1-cp39-cp39-win_amd64.whl.zip]
+[2024-04-05 02:34:25] INFO root fetch - processPackages [Geode-Conversion]: Remove: archive file [/home/abi/fetcher/tmp/Geode_Conversion-5.2.7rc1-cp39-cp39-win_amd64.whl.zip]
+[2024-04-05 02:34:25] INFO root fetch - main [MainThread]: End processing [Geode-Conversion]: success
+[2024-04-05 02:34:25] INFO root fetch - main [MainThread]: Store serial: [22629286]
