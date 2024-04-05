@@ -24151,3 +24151,108 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2024-04-05 15:24:24] INFO root fetch - processPackages [akshare]: Remove: archive file [/home/abi/fetcher/tmp/akshare-1.9.99.tar.gz]
 [2024-04-05 15:24:24] INFO root fetch - main [MainThread]: End processing [akshare]: success
 [2024-04-05 15:24:24] INFO root fetch - main [MainThread]: Store serial: [22636613]
+[2024-04-05 15:26:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22636613]
+[2024-04-05 15:26:33] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-04-05 15:26:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dip-coater
+[2024-04-05 15:26:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: oarepo-ui
+[2024-04-05 15:26:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: service-oriented
+[2024-04-05 15:26:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: Torrelque
+[2024-04-05 15:26:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: synch2jira
+[2024-04-05 15:26:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: bd-tools
+[2024-04-05 15:26:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: sirji-agents
+[2024-04-05 15:26:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: keelson
+[2024-04-05 15:26:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: cdktf-cdktf-provider-ionoscloud
+[2024-04-05 15:26:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: sbcli-dev
+[2024-04-05 15:26:33] INFO root fetch - processPackages [dip-coater]: New version: [0.4.0] Old Version: [0.3.0]
+[2024-04-05 15:26:33] INFO root fetch - processPackages [keelson]: New version: [0.3.0rc9] Old Version: [0.3.0rc8]
+[2024-04-05 15:26:33] INFO root fetch - processPackages [sirji-agents]: New version: [0.0.7] Old Version: [0.0.6]
+[2024-04-05 15:26:33] INFO root fetch - processPackages [Torrelque]: New version: [0.7.0] Old Version: [0.6.0]
+[2024-04-05 15:26:33] INFO root fetch - processPackages [synch2jira]: New version: [0.0.92] Old Version: [0.0.90]
+[2024-04-05 15:26:33] INFO root fetch - processPackages [sbcli-dev]: New version: [2.0.9] Old Version: [2.0.8]
+[2024-04-05 15:26:33] INFO root fetch - processPackages [dip-coater]: Downloading https://files.pythonhosted.org/packages/7a/49/768b463022ac3c8de4a8adf297d57a1ab4145c4a86e2f4d655b6f113ad84/dip-coater-0.3.0.tar.gz
+[2024-04-05 15:26:33] INFO root fetch - processPackages [service-oriented]: New version: [0.0.2a9] Old Version: [0.0.2a8]
+[2024-04-05 15:26:33] WARNING root fetch - processPackages [bd-tools]: Skipping, unable to determine old version
+[2024-04-05 15:26:33] INFO root fetch - main [MainThread]: End processing [bd-tools] error
+[2024-04-05 15:26:33] INFO root fetch - processPackages [oarepo-ui]: New version: [5.1.9] Old Version: [5.1.8]
+[2024-04-05 15:26:33] INFO root fetch - processPackages [sirji-agents]: Downloading https://files.pythonhosted.org/packages/4a/a4/62eb0de62bf3cd1a67724be75ae8553910d18d98969c21320f3058963ff1/sirji-agents-0.0.6.tar.gz
+[2024-04-05 15:26:33] INFO root fetch - processPackages [keelson]: Downloading https://files.pythonhosted.org/packages/39/53/954e13e6e2b1bd1ad6c82e13de33a18a8ccad77205da459e58fa4f551b5f/keelson-0.3.0rc8-py3-none-any.whl
+[2024-04-05 15:26:33] INFO root fetch - processPackages [cdktf-cdktf-provider-ionoscloud]: New version: [9.0.2] Old Version: [9.0.1]
+[2024-04-05 15:26:33] INFO root fetch - processPackages [Torrelque]: Downloading https://files.pythonhosted.org/packages/bb/c1/51d162b5418a1642b29da3b793882e41448e1847501fa63a41ab70b5972f/Torrelque-0.6.0.tar.gz
+[2024-04-05 15:26:33] INFO root fetch - processPackages [sbcli-dev]: Downloading https://files.pythonhosted.org/packages/22/e2/00f807ad002977c2079539ea03cdd02f9fa736d969943d0ae60c49f8356b/sbcli-dev-2.0.8.zip
+[2024-04-05 15:26:34] INFO root fetch - processPackages [synch2jira]: Downloading https://files.pythonhosted.org/packages/ac/89/8b516eb18c22325b081189904047384452a9632613ff3239bed0f9af7f0c/synch2jira-0.0.90.tar.gz
+[2024-04-05 15:26:34] INFO root fetch - processPackages [service-oriented]: Downloading https://files.pythonhosted.org/packages/cc/e0/a196a6cd6ec1d279dbc362dd8d9d940370eb873c7d3aa02032dc3dd534ba/service_oriented-0.0.2a8.tar.gz
+[2024-04-05 15:26:34] WARNING root fetch - processPackages [dip-coater]: Timeout reached during download
+[2024-04-05 15:26:34] WARNING root fetch - processPackages [sirji-agents]: Timeout reached during download
+[2024-04-05 15:26:34] WARNING root fetch - processPackages [keelson]: Timeout reached during download
+[2024-04-05 15:26:34] WARNING root fetch - processPackages [Torrelque]: Timeout reached during download
+[2024-04-05 15:26:34] WARNING root fetch - processPackages [synch2jira]: Timeout reached during download
+[2024-04-05 15:26:34] INFO root fetch - processPackages [oarepo-ui]: Downloading https://files.pythonhosted.org/packages/87/64/10c65b547fcd49c12a5c9a954426830269b57a4115a7070da01f33307313/oarepo-ui-5.1.8.tar.gz
+[2024-04-05 15:26:34] WARNING root fetch - processPackages [sbcli-dev]: Timeout reached during download
+[2024-04-05 15:26:34] WARNING root fetch - processPackages [service-oriented]: Timeout reached during download
+[2024-04-05 15:26:34] INFO root fetch - processPackages [cdktf-cdktf-provider-ionoscloud]: Downloading https://files.pythonhosted.org/packages/d3/e0/753a2773c341240ef31485210bb3ef5ae2f6e6dd3651dc38b6d800ccdf7f/cdktf-cdktf-provider-ionoscloud-9.0.1.tar.gz
+[2024-04-05 15:26:34] INFO root fetch - processPackages [Torrelque]: Downloading https://files.pythonhosted.org/packages/42/8b/e0286cbd8af9df66d01bd30e035a144ebcf5c6d7d53f3236505ec1190452/Torrelque-0.7.0.tar.gz
+[2024-04-05 15:26:34] INFO root fetch - processPackages [synch2jira]: Downloading https://files.pythonhosted.org/packages/43/14/6f75dbd556e30e1e676db4cf124487a7b6c686c6daec58b5cbd03ac827b9/synch2jira-0.0.92.tar.gz
+[2024-04-05 15:26:34] INFO root fetch - processPackages [keelson]: Downloading https://files.pythonhosted.org/packages/08/a1/28289399a8eb6d6450f75184975f0e22dc1b9429247346881f3d6bdf8511/keelson-0.3.0rc9-py3-none-any.whl
+[2024-04-05 15:26:34] INFO root fetch - processPackages [dip-coater]: Downloading https://files.pythonhosted.org/packages/f4/b8/13a1f71d70f9e579dfe4b098d90b6ff2346d013cd24c7e0aebcc989fbed6/dip-coater-0.4.0.tar.gz
+[2024-04-05 15:26:34] INFO root fetch - processPackages [sirji-agents]: Downloading https://files.pythonhosted.org/packages/f6/05/64d4c7565733df785a81b688995c7ed58896e79ba72083b4eb267085452f/sirji-agents-0.0.7.tar.gz
+[2024-04-05 15:26:34] INFO root fetch - processPackages [sbcli-dev]: Downloading https://files.pythonhosted.org/packages/cd/9b/1d68440dc515be950e814f43937168cc45c5e37cbfc57e51e2309015d44b/sbcli-dev-2.0.9.zip
+[2024-04-05 15:26:34] INFO root fetch - processPackages [service-oriented]: Downloading https://files.pythonhosted.org/packages/91/93/8808e2b0a7e857434b3c8a2d8ecd72eb853035e8af948edf46e51c3d1101/service_oriented-0.0.2a9.tar.gz
+[2024-04-05 15:26:34] WARNING root fetch - processPackages [oarepo-ui]: Timeout reached during download
+[2024-04-05 15:26:34] WARNING root fetch - processPackages [synch2jira]: Timeout reached during download
+[2024-04-05 15:26:34] INFO root fetch - processPackages [synch2jira]: executing diffoscope
+[2024-04-05 15:26:34] INFO root fetch - processPackages [synch2jira]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/synch2jira-0.0.90.tar.gz tmp/synch2jira-0.0.92.tar.gz --markdown 20240405/s/synch2jira/0.0.90-0.0.92/diff.md --exclude *.pyd
+[2024-04-05 15:26:34] WARNING root fetch - processPackages [keelson]: Timeout reached during download
+[2024-04-05 15:26:34] INFO root fetch - processPackages [keelson]: executing diffoscope
+[2024-04-05 15:26:34] INFO root fetch - processPackages [keelson]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/keelson-0.3.0rc8-py3-none-any.whl.zip tmp/keelson-0.3.0rc9-py3-none-any.whl.zip --markdown 20240405/k/keelson/0.3.0rc8-0.3.0rc9/diff.md --exclude *.pyd
+[2024-04-05 15:26:34] WARNING root fetch - processPackages [Torrelque]: Timeout reached during download
+[2024-04-05 15:26:34] INFO root fetch - processPackages [Torrelque]: executing diffoscope
+[2024-04-05 15:26:34] INFO root fetch - processPackages [Torrelque]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Torrelque-0.6.0.tar.gz tmp/Torrelque-0.7.0.tar.gz --markdown 20240405/T/Torrelque/0.6.0-0.7.0/diff.md --exclude *.pyd
+[2024-04-05 15:26:34] WARNING root fetch - processPackages [dip-coater]: Timeout reached during download
+[2024-04-05 15:26:34] INFO root fetch - processPackages [dip-coater]: executing diffoscope
+[2024-04-05 15:26:34] INFO root fetch - processPackages [dip-coater]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dip-coater-0.3.0.tar.gz tmp/dip-coater-0.4.0.tar.gz --markdown 20240405/d/dip-coater/0.3.0-0.4.0/diff.md --exclude *.pyd
+[2024-04-05 15:26:34] WARNING root fetch - processPackages [sirji-agents]: Timeout reached during download
+[2024-04-05 15:26:34] INFO root fetch - processPackages [sirji-agents]: executing diffoscope
+[2024-04-05 15:26:34] INFO root fetch - processPackages [sirji-agents]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sirji-agents-0.0.6.tar.gz tmp/sirji-agents-0.0.7.tar.gz --markdown 20240405/s/sirji-agents/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2024-04-05 15:26:34] WARNING root fetch - processPackages [service-oriented]: Timeout reached during download
+[2024-04-05 15:26:34] INFO root fetch - processPackages [service-oriented]: executing diffoscope
+[2024-04-05 15:26:34] INFO root fetch - processPackages [service-oriented]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/service_oriented-0.0.2a8.tar.gz tmp/service_oriented-0.0.2a9.tar.gz --markdown 20240405/s/service-oriented/0.0.2a8-0.0.2a9/diff.md --exclude *.pyd
+[2024-04-05 15:26:34] WARNING root fetch - processPackages [sbcli-dev]: Timeout reached during download
+[2024-04-05 15:26:34] INFO root fetch - processPackages [sbcli-dev]: executing diffoscope
+[2024-04-05 15:26:34] INFO root fetch - processPackages [sbcli-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sbcli-dev-2.0.8.zip tmp/sbcli-dev-2.0.9.zip --markdown 20240405/s/sbcli-dev/2.0.8-2.0.9/diff.md --exclude *.pyd
+[2024-04-05 15:26:34] INFO root fetch - processPackages [oarepo-ui]: Downloading https://files.pythonhosted.org/packages/79/8e/95316366f4c35e7329fa617d319a0c6b5a7beb26fcd76a93638415957d69/oarepo-ui-5.1.9.tar.gz
+[2024-04-05 15:26:34] WARNING root fetch - processPackages [oarepo-ui]: Timeout reached during download
+[2024-04-05 15:26:34] INFO root fetch - processPackages [oarepo-ui]: executing diffoscope
+[2024-04-05 15:26:34] INFO root fetch - processPackages [oarepo-ui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oarepo-ui-5.1.8.tar.gz tmp/oarepo-ui-5.1.9.tar.gz --markdown 20240405/o/oarepo-ui/5.1.8-5.1.9/diff.md --exclude *.pyd
+[2024-04-05 15:26:35] WARNING root fetch - processPackages [cdktf-cdktf-provider-ionoscloud]: Timeout reached during download
+[2024-04-05 15:26:35] INFO root fetch - processPackages [cdktf-cdktf-provider-ionoscloud]: Downloading https://files.pythonhosted.org/packages/c0/05/7f5626a77e000c0ec1208a5c4ea98dc678ba765e4502b3f3114ec4930f00/cdktf-cdktf-provider-ionoscloud-9.0.2.tar.gz
+[2024-04-05 15:26:35] INFO root fetch - processPackages [dip-coater]: Remove: archive file [/home/abi/fetcher/tmp/dip-coater-0.3.0.tar.gz]
+[2024-04-05 15:26:35] INFO root fetch - processPackages [dip-coater]: Remove: archive file [/home/abi/fetcher/tmp/dip-coater-0.4.0.tar.gz]
+[2024-04-05 15:26:35] INFO root fetch - main [MainThread]: End processing [dip-coater]: success
+[2024-04-05 15:26:35] INFO root fetch - processPackages [service-oriented]: Remove: archive file [/home/abi/fetcher/tmp/service_oriented-0.0.2a8.tar.gz]
+[2024-04-05 15:26:35] INFO root fetch - processPackages [service-oriented]: Remove: archive file [/home/abi/fetcher/tmp/service_oriented-0.0.2a9.tar.gz]
+[2024-04-05 15:26:35] INFO root fetch - main [MainThread]: End processing [service-oriented]: success
+[2024-04-05 15:26:35] INFO root fetch - processPackages [keelson]: Remove: archive file [/home/abi/fetcher/tmp/keelson-0.3.0rc8-py3-none-any.whl.zip]
+[2024-04-05 15:26:35] INFO root fetch - processPackages [keelson]: Remove: archive file [/home/abi/fetcher/tmp/keelson-0.3.0rc9-py3-none-any.whl.zip]
+[2024-04-05 15:26:35] INFO root fetch - main [MainThread]: End processing [keelson]: success
+[2024-04-05 15:26:35] INFO root fetch - processPackages [Torrelque]: Remove: archive file [/home/abi/fetcher/tmp/Torrelque-0.6.0.tar.gz]
+[2024-04-05 15:26:35] INFO root fetch - processPackages [Torrelque]: Remove: archive file [/home/abi/fetcher/tmp/Torrelque-0.7.0.tar.gz]
+[2024-04-05 15:26:35] INFO root fetch - main [MainThread]: End processing [Torrelque]: success
+[2024-04-05 15:26:35] INFO root fetch - processPackages [sirji-agents]: Remove: archive file [/home/abi/fetcher/tmp/sirji-agents-0.0.6.tar.gz]
+[2024-04-05 15:26:35] INFO root fetch - processPackages [sirji-agents]: Remove: archive file [/home/abi/fetcher/tmp/sirji-agents-0.0.7.tar.gz]
+[2024-04-05 15:26:35] INFO root fetch - main [MainThread]: End processing [sirji-agents]: success
+[2024-04-05 15:26:35] INFO root fetch - processPackages [synch2jira]: Remove: archive file [/home/abi/fetcher/tmp/synch2jira-0.0.90.tar.gz]
+[2024-04-05 15:26:35] INFO root fetch - processPackages [synch2jira]: Remove: archive file [/home/abi/fetcher/tmp/synch2jira-0.0.92.tar.gz]
+[2024-04-05 15:26:35] INFO root fetch - main [MainThread]: End processing [synch2jira]: success
+[2024-04-05 15:26:35] INFO root fetch - processPackages [sbcli-dev]: Remove: archive file [/home/abi/fetcher/tmp/sbcli-dev-2.0.8.zip]
+[2024-04-05 15:26:35] INFO root fetch - processPackages [sbcli-dev]: Remove: archive file [/home/abi/fetcher/tmp/sbcli-dev-2.0.9.zip]
+[2024-04-05 15:26:35] INFO root fetch - main [MainThread]: End processing [sbcli-dev]: success
+[2024-04-05 15:26:35] WARNING root fetch - processPackages [cdktf-cdktf-provider-ionoscloud]: Timeout reached during download
+[2024-04-05 15:26:35] INFO root fetch - processPackages [cdktf-cdktf-provider-ionoscloud]: executing diffoscope
+[2024-04-05 15:26:35] INFO root fetch - processPackages [cdktf-cdktf-provider-ionoscloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdktf-cdktf-provider-ionoscloud-9.0.1.tar.gz tmp/cdktf-cdktf-provider-ionoscloud-9.0.2.tar.gz --markdown 20240405/c/cdktf-cdktf-provider-ionoscloud/9.0.1-9.0.2/diff.md --exclude *.pyd
+[2024-04-05 15:26:35] INFO root fetch - processPackages [oarepo-ui]: Remove: archive file [/home/abi/fetcher/tmp/oarepo-ui-5.1.8.tar.gz]
+[2024-04-05 15:26:35] INFO root fetch - processPackages [oarepo-ui]: Remove: archive file [/home/abi/fetcher/tmp/oarepo-ui-5.1.9.tar.gz]
+[2024-04-05 15:26:35] INFO root fetch - main [MainThread]: End processing [oarepo-ui]: success
+[2024-04-05 15:26:38] INFO root fetch - processPackages [cdktf-cdktf-provider-ionoscloud]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-cdktf-provider-ionoscloud-9.0.1.tar.gz]
+[2024-04-05 15:26:38] INFO root fetch - processPackages [cdktf-cdktf-provider-ionoscloud]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-cdktf-provider-ionoscloud-9.0.2.tar.gz]
+[2024-04-05 15:26:38] INFO root fetch - main [MainThread]: End processing [cdktf-cdktf-provider-ionoscloud]: success
+[2024-04-05 15:26:38] INFO root fetch - main [MainThread]: Store serial: [22636642]
