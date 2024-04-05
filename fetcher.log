@@ -22745,3 +22745,69 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2024-04-05 14:42:42] INFO root fetch - processPackages [pyfastchem]: Remove: archive file [/home/abi/fetcher/tmp/pyfastchem-3.1.1.tar.gz]
 [2024-04-05 14:42:42] INFO root fetch - main [MainThread]: End processing [pyfastchem]: success
 [2024-04-05 14:42:42] INFO root fetch - main [MainThread]: Store serial: [22636013]
+[2024-04-05 14:44:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22636013]
+[2024-04-05 14:44:51] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-05 14:44:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: Rryyz
+[2024-04-05 14:44:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addon-fastapi-auth-jwt
+[2024-04-05 14:44:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bigdl-core-xe-esimd
+[2024-04-05 14:44:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pydqt
+[2024-04-05 14:44:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: microservices-common
+[2024-04-05 14:44:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: lisql
+[2024-04-05 14:44:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: rpaframework
+[2024-04-05 14:44:51] INFO root fetch - processPackages [rpaframework]: New version: [9.6.0] Old Version: [9.5.0]
+[2024-04-05 14:44:52] INFO root fetch - processPackages [pydqt]: New version: [1.3.8] Old Version: [1.3.7]
+[2024-04-05 14:44:52] INFO root fetch - processPackages [bigdl-core-xe-esimd]: New version: [2.5.0b20240405] Old Version: [2.5.0b20240404]
+[2024-04-05 14:44:52] INFO root fetch - processPackages [odoo-addon-fastapi-auth-jwt]: New version: [16.0.1.0.4] Old Version: [16.0.1.0.3.1]
+[2024-04-05 14:44:52] INFO root fetch - processPackages [rpaframework]: Downloading https://files.pythonhosted.org/packages/08/36/2753b6863128fce0fd17301c85f3767b92c880658c31f1a1f8773dd22d10/rpaframework-9.5.0.tar.gz
+[2024-04-05 14:44:52] WARNING root fetch - processPackages [Rryyz]: Skipping, unable to determine old version
+[2024-04-05 14:44:52] INFO root fetch - main [MainThread]: End processing [Rryyz] error
+[2024-04-05 14:44:52] INFO root fetch - processPackages [lisql]: New version: [2.1.3] Old Version: [2.1.2]
+[2024-04-05 14:44:52] INFO root fetch - processPackages [microservices-common]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-04-05 14:44:52] INFO root fetch - processPackages [pydqt]: Downloading https://files.pythonhosted.org/packages/e1/29/3d15bf0af50b505912253d0ce9872dbdfa1514fb7169e4c8ad768a1560cb/pydqt-1.3.7.tar.gz
+[2024-04-05 14:44:52] WARNING root fetch - processPackages [pydqt]: Timeout reached during download
+[2024-04-05 14:44:52] INFO root fetch - processPackages [bigdl-core-xe-esimd]: Downloading https://files.pythonhosted.org/packages/28/98/d7aa9a80264c8b86eaeda0988e15ad9b2f2ea39a1dcbe85f9dfec25866c6/bigdl_core_xe_esimd-2.5.0b20240404-cp39-cp39-manylinux2010_x86_64.whl
+[2024-04-05 14:44:52] INFO root fetch - processPackages [odoo-addon-fastapi-auth-jwt]: Downloading https://files.pythonhosted.org/packages/c9/7c/c8f9544c67d6fa837163d8a16fa634ee44ac4e6dd8b9a207262f0cbc83ac/odoo_addon_fastapi_auth_jwt-16.0.1.0.3.1-py3-none-any.whl
+[2024-04-05 14:44:52] INFO root fetch - processPackages [lisql]: Downloading https://files.pythonhosted.org/packages/7b/64/b796396b0610b9c30c73ffeccf0a58a5c32520b1afedfd7a9e2ac45014d7/lisql-2.1.2.tar.gz
+[2024-04-05 14:44:52] WARNING root fetch - processPackages [bigdl-core-xe-esimd]: Skipping package: exceeds size limit 61865771>=10485760
+[2024-04-05 14:44:52] INFO root fetch - main [MainThread]: End processing [bigdl-core-xe-esimd] error
+[2024-04-05 14:44:52] WARNING root fetch - processPackages [odoo-addon-fastapi-auth-jwt]: Timeout reached during download
+[2024-04-05 14:44:52] INFO root fetch - processPackages [microservices-common]: Downloading https://files.pythonhosted.org/packages/c5/20/5b51cc865916f198ce353c9897abb575a82a7ad3ee81fadde60589fc1142/microservices_common-1.0.0.tar.gz
+[2024-04-05 14:44:52] INFO root fetch - processPackages [pydqt]: Downloading https://files.pythonhosted.org/packages/6f/7d/e3f3e45b456b034a6c59a8fa5d250ff91bb04bc086d01dc99d4bf3e6b9a4/pydqt-1.3.8.tar.gz
+[2024-04-05 14:44:52] WARNING root fetch - processPackages [lisql]: Timeout reached during download
+[2024-04-05 14:44:52] WARNING root fetch - processPackages [microservices-common]: Timeout reached during download
+[2024-04-05 14:44:52] WARNING root fetch - processPackages [rpaframework]: Timeout reached during download
+[2024-04-05 14:44:52] WARNING root fetch - processPackages [pydqt]: Timeout reached during download
+[2024-04-05 14:44:52] INFO root fetch - processPackages [pydqt]: executing diffoscope
+[2024-04-05 14:44:52] INFO root fetch - processPackages [pydqt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydqt-1.3.7.tar.gz tmp/pydqt-1.3.8.tar.gz --markdown 20240405/p/pydqt/1.3.7-1.3.8/diff.md --exclude *.pyd
+[2024-04-05 14:44:52] INFO root fetch - processPackages [odoo-addon-fastapi-auth-jwt]: Downloading https://files.pythonhosted.org/packages/cc/8f/3450b064403871a024409ea5eb7007b81b01347acccde4e361292c478925/odoo_addon_fastapi_auth_jwt-16.0.1.0.4-py3-none-any.whl
+[2024-04-05 14:44:52] INFO root fetch - processPackages [rpaframework]: Downloading https://files.pythonhosted.org/packages/ec/52/e237349f170c7f11301bcd83a500356a47b1480cdeee67c6971b224571b0/rpaframework-9.6.0.tar.gz
+[2024-04-05 14:44:52] INFO root fetch - processPackages [lisql]: Downloading https://files.pythonhosted.org/packages/d4/cc/0445e17075321bed64128cc70b035b31f365d23174cd176d598c12692beb/lisql-2.1.3.tar.gz
+[2024-04-05 14:44:52] WARNING root fetch - processPackages [odoo-addon-fastapi-auth-jwt]: Timeout reached during download
+[2024-04-05 14:44:52] INFO root fetch - processPackages [odoo-addon-fastapi-auth-jwt]: executing diffoscope
+[2024-04-05 14:44:52] INFO root fetch - processPackages [odoo-addon-fastapi-auth-jwt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_fastapi_auth_jwt-16.0.1.0.3.1-py3-none-any.whl.zip tmp/odoo_addon_fastapi_auth_jwt-16.0.1.0.4-py3-none-any.whl.zip --markdown 20240405/o/odoo-addon-fastapi-auth-jwt/16.0.1.0.3.1-16.0.1.0.4/diff.md --exclude *.pyd
+[2024-04-05 14:44:52] INFO root fetch - processPackages [microservices-common]: Downloading https://files.pythonhosted.org/packages/ff/76/c2d25642b80551f678555bf84a37c1ea75b0f163c34de343e8e88dc23134/microservices_common-1.0.1.tar.gz
+[2024-04-05 14:44:52] WARNING root fetch - processPackages [lisql]: Timeout reached during download
+[2024-04-05 14:44:52] INFO root fetch - processPackages [lisql]: executing diffoscope
+[2024-04-05 14:44:52] INFO root fetch - processPackages [lisql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lisql-2.1.2.tar.gz tmp/lisql-2.1.3.tar.gz --markdown 20240405/l/lisql/2.1.2-2.1.3/diff.md --exclude *.pyd
+[2024-04-05 14:44:52] WARNING root fetch - processPackages [microservices-common]: Timeout reached during download
+[2024-04-05 14:44:52] INFO root fetch - processPackages [microservices-common]: executing diffoscope
+[2024-04-05 14:44:52] INFO root fetch - processPackages [microservices-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/microservices_common-1.0.0.tar.gz tmp/microservices_common-1.0.1.tar.gz --markdown 20240405/m/microservices-common/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2024-04-05 14:44:52] WARNING root fetch - processPackages [rpaframework]: Timeout reached during download
+[2024-04-05 14:44:52] INFO root fetch - processPackages [rpaframework]: executing diffoscope
+[2024-04-05 14:44:52] INFO root fetch - processPackages [rpaframework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rpaframework-9.5.0.tar.gz tmp/rpaframework-9.6.0.tar.gz --markdown 20240405/r/rpaframework/9.5.0-9.6.0/diff.md --exclude *.pyd
+[2024-04-05 14:44:53] INFO root fetch - processPackages [pydqt]: Remove: archive file [/home/abi/fetcher/tmp/pydqt-1.3.7.tar.gz]
+[2024-04-05 14:44:53] INFO root fetch - processPackages [pydqt]: Remove: archive file [/home/abi/fetcher/tmp/pydqt-1.3.8.tar.gz]
+[2024-04-05 14:44:53] INFO root fetch - main [MainThread]: End processing [pydqt]: success
+[2024-04-05 14:44:53] INFO root fetch - processPackages [odoo-addon-fastapi-auth-jwt]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_fastapi_auth_jwt-16.0.1.0.3.1-py3-none-any.whl.zip]
+[2024-04-05 14:44:53] INFO root fetch - processPackages [odoo-addon-fastapi-auth-jwt]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_fastapi_auth_jwt-16.0.1.0.4-py3-none-any.whl.zip]
+[2024-04-05 14:44:53] INFO root fetch - main [MainThread]: End processing [odoo-addon-fastapi-auth-jwt]: success
+[2024-04-05 14:44:53] INFO root fetch - processPackages [microservices-common]: Remove: archive file [/home/abi/fetcher/tmp/microservices_common-1.0.0.tar.gz]
+[2024-04-05 14:44:53] INFO root fetch - processPackages [microservices-common]: Remove: archive file [/home/abi/fetcher/tmp/microservices_common-1.0.1.tar.gz]
+[2024-04-05 14:44:53] INFO root fetch - main [MainThread]: End processing [microservices-common]: success
+[2024-04-05 14:44:53] INFO root fetch - processPackages [lisql]: Remove: archive file [/home/abi/fetcher/tmp/lisql-2.1.2.tar.gz]
+[2024-04-05 14:44:53] INFO root fetch - processPackages [lisql]: Remove: archive file [/home/abi/fetcher/tmp/lisql-2.1.3.tar.gz]
+[2024-04-05 14:44:53] INFO root fetch - main [MainThread]: End processing [lisql]: success
+[2024-04-05 14:44:54] INFO root fetch - processPackages [rpaframework]: Remove: archive file [/home/abi/fetcher/tmp/rpaframework-9.5.0.tar.gz]
+[2024-04-05 14:44:54] INFO root fetch - processPackages [rpaframework]: Remove: archive file [/home/abi/fetcher/tmp/rpaframework-9.6.0.tar.gz]
+[2024-04-05 14:44:54] INFO root fetch - main [MainThread]: End processing [rpaframework]: success
+[2024-04-05 14:44:54] INFO root fetch - main [MainThread]: Store serial: [22636033]
