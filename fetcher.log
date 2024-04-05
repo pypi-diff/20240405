@@ -19240,3 +19240,94 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2024-04-05 12:29:16] INFO root fetch - processPackages [reapit-cdk.cloudfront-invalidation]: Remove: archive file [/home/abi/fetcher/tmp/reapit-cdk.cloudfront-invalidation-0.1.2.tar.gz]
 [2024-04-05 12:29:16] INFO root fetch - main [MainThread]: End processing [reapit-cdk.cloudfront-invalidation]: success
 [2024-04-05 12:29:16] INFO root fetch - main [MainThread]: Store serial: [22634603]
+[2024-04-05 12:31:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22634603]
+[2024-04-05 12:31:25] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-05 12:31:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: reapit-cdk.cloudfront-invalidation
+[2024-04-05 12:31:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: github-actions-cli
+[2024-04-05 12:31:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: reapit-cdk.reapit-product
+[2024-04-05 12:31:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: reapit-cdk.service-quotas
+[2024-04-05 12:31:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: lycoris-lora
+[2024-04-05 12:31:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: logging-strict
+[2024-04-05 12:31:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cgat
+[2024-04-05 12:31:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: facespace
+[2024-04-05 12:31:25] INFO root fetch - processPackages [github-actions-cli]: New version: [1.1.4] Old Version: [1.1.3]
+[2024-04-05 12:31:25] INFO root fetch - processPackages [reapit-cdk.cloudfront-invalidation]: New version: [0.1.2] Old Version: [0.1.0]
+[2024-04-05 12:31:25] INFO root fetch - processPackages [github-actions-cli]: Downloading https://files.pythonhosted.org/packages/1e/b6/4bc648e5cc29dc491340300597464bdef3138ce1be14ac553cee1b5c4917/github_actions_cli-1.1.3.tar.gz
+[2024-04-05 12:31:25] INFO root fetch - processPackages [reapit-cdk.service-quotas]: New version: [0.1.2] Old Version: [0.1.0]
+[2024-04-05 12:31:25] INFO root fetch - processPackages [reapit-cdk.cloudfront-invalidation]: Downloading https://files.pythonhosted.org/packages/15/5f/0555119bf8cd291d82c2cd89c09a44b9388daa9d36ee123fdfc5f917790e/reapit-cdk.cloudfront-invalidation-0.1.0.tar.gz
+[2024-04-05 12:31:25] INFO root fetch - processPackages [logging-strict]: New version: [1.2.27] Old Version: [1.2.26]
+[2024-04-05 12:31:25] INFO root fetch - processPackages [lycoris-lora]: New version: [2.3.0.dev5] Old Version: [2.3.0.dev4]
+[2024-04-05 12:31:25] INFO root fetch - processPackages [facespace]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-04-05 12:31:25] INFO root fetch - processPackages [cgat]: New version: [0.7.2] Old Version: [0.7.1]
+[2024-04-05 12:31:25] WARNING root fetch - processPackages [github-actions-cli]: Timeout reached during download
+[2024-04-05 12:31:25] WARNING root fetch - processPackages [reapit-cdk.cloudfront-invalidation]: Timeout reached during download
+[2024-04-05 12:31:25] INFO root fetch - processPackages [reapit-cdk.service-quotas]: Downloading https://files.pythonhosted.org/packages/13/7a/1283a5a96df1736f0c69d796a1e181da400a1f94d6fd2f73dd8481749a86/reapit-cdk.service-quotas-0.1.0.tar.gz
+[2024-04-05 12:31:25] INFO root fetch - processPackages [reapit-cdk.reapit-product]: New version: [0.1.2] Old Version: [0.1.0]
+[2024-04-05 12:31:25] INFO root fetch - processPackages [github-actions-cli]: Downloading https://files.pythonhosted.org/packages/61/1c/31fb03b2c067684958f229377abd0cfa549396f83002e16ea25d81f1bdbd/github_actions_cli-1.1.4.tar.gz
+[2024-04-05 12:31:25] INFO root fetch - processPackages [lycoris-lora]: Downloading https://files.pythonhosted.org/packages/6a/c6/20bb92a9da21259922e76b694fa2e6c7862cb5d118e23b196300db83e0d2/lycoris_lora-2.3.0.dev4.tar.gz
+[2024-04-05 12:31:25] INFO root fetch - processPackages [reapit-cdk.cloudfront-invalidation]: Downloading https://files.pythonhosted.org/packages/82/d4/f5a3bb0d515854e6a820c4294253b7ae45b0454562a4c5aba1edcd138bd6/reapit-cdk.cloudfront-invalidation-0.1.2.tar.gz
+[2024-04-05 12:31:25] INFO root fetch - processPackages [logging-strict]: Downloading https://files.pythonhosted.org/packages/6d/08/0e27560f32064c7e47508b0836c97ce7c54be322e2d39a62f1cf3c401a13/logging-strict-1.2.26.tar.gz
+[2024-04-05 12:31:25] INFO root fetch - processPackages [facespace]: Downloading https://files.pythonhosted.org/packages/4a/c9/c0ea5013d619f1bfa1070061e9ff161117162f724f27773d6e651f241c24/facespace-0.1.1.tar.gz
+[2024-04-05 12:31:25] INFO root fetch - processPackages [cgat]: Downloading https://files.pythonhosted.org/packages/ce/63/2b08a8083cba0480c3d71bd00ff295c56295fdb9f7e9be091eab02890586/cgat-0.7.1.tar.gz
+[2024-04-05 12:31:25] WARNING root fetch - processPackages [github-actions-cli]: Timeout reached during download
+[2024-04-05 12:31:25] INFO root fetch - processPackages [github-actions-cli]: executing diffoscope
+[2024-04-05 12:31:25] INFO root fetch - processPackages [github-actions-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/github_actions_cli-1.1.3.tar.gz tmp/github_actions_cli-1.1.4.tar.gz --markdown 20240405/g/github-actions-cli/1.1.3-1.1.4/diff.md --exclude *.pyd
+[2024-04-05 12:31:25] INFO root fetch - processPackages [reapit-cdk.reapit-product]: Downloading https://files.pythonhosted.org/packages/eb/95/76a80378f943b4c636f0810b1be00e882114aa5f815036eb954b8e5697db/reapit-cdk.reapit-product-0.1.0.tar.gz
+[2024-04-05 12:31:25] WARNING root fetch - processPackages [lycoris-lora]: Timeout reached during download
+[2024-04-05 12:31:25] WARNING root fetch - processPackages [reapit-cdk.service-quotas]: Timeout reached during download
+[2024-04-05 12:31:25] WARNING root fetch - processPackages [facespace]: Timeout reached during download
+[2024-04-05 12:31:25] WARNING root fetch - processPackages [reapit-cdk.cloudfront-invalidation]: Timeout reached during download
+[2024-04-05 12:31:25] INFO root fetch - processPackages [reapit-cdk.cloudfront-invalidation]: executing diffoscope
+[2024-04-05 12:31:25] INFO root fetch - processPackages [reapit-cdk.cloudfront-invalidation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reapit-cdk.cloudfront-invalidation-0.1.0.tar.gz tmp/reapit-cdk.cloudfront-invalidation-0.1.2.tar.gz --markdown 20240405/r/reapit-cdk.cloudfront-invalidation/0.1.0-0.1.2/diff.md --exclude *.pyd
+[2024-04-05 12:31:25] WARNING root fetch - processPackages [cgat]: Timeout reached during download
+[2024-04-05 12:31:26] WARNING root fetch - processPackages [reapit-cdk.reapit-product]: Timeout reached during download
+[2024-04-05 12:31:26] WARNING root fetch - processPackages [logging-strict]: Timeout reached during download
+[2024-04-05 12:31:26] INFO root fetch - processPackages [reapit-cdk.service-quotas]: Downloading https://files.pythonhosted.org/packages/df/e6/d18413066f92a5c8ddff55f9d050d80f3174312a21c8d0151babab516c7e/reapit-cdk.service-quotas-0.1.2.tar.gz
+[2024-04-05 12:31:26] INFO root fetch - processPackages [lycoris-lora]: Downloading https://files.pythonhosted.org/packages/ad/cd/1f3351ff492acc3b22d3d18a6ec7cffc2bc0656031ebb7b984fc794b8126/lycoris_lora-2.3.0.dev5.tar.gz
+[2024-04-05 12:31:26] INFO root fetch - processPackages [facespace]: Downloading https://files.pythonhosted.org/packages/67/fb/0677126c1de05a2bcf50a2da65ca2bb9a85d9c91732a13fa877104a4b1a0/facespace-0.1.2.tar.gz
+[2024-04-05 12:31:26] INFO root fetch - processPackages [cgat]: Downloading https://files.pythonhosted.org/packages/ef/c4/51ff925472539041ad23edf0ebf3b5f3fa496c716f13f22f85f88254c7ee/cgat-0.7.2.tar.gz
+[2024-04-05 12:31:26] INFO root fetch - processPackages [reapit-cdk.reapit-product]: Downloading https://files.pythonhosted.org/packages/6a/61/bc949461ebc49ceaa5ad3cede7777dad8ed019e561bc827e78680963f944/reapit-cdk.reapit-product-0.1.2.tar.gz
+[2024-04-05 12:31:26] WARNING root fetch - processPackages [reapit-cdk.service-quotas]: Timeout reached during download
+[2024-04-05 12:31:26] INFO root fetch - processPackages [reapit-cdk.service-quotas]: executing diffoscope
+[2024-04-05 12:31:26] INFO root fetch - processPackages [reapit-cdk.service-quotas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reapit-cdk.service-quotas-0.1.0.tar.gz tmp/reapit-cdk.service-quotas-0.1.2.tar.gz --markdown 20240405/r/reapit-cdk.service-quotas/0.1.0-0.1.2/diff.md --exclude *.pyd
+[2024-04-05 12:31:26] INFO root fetch - processPackages [logging-strict]: Downloading https://files.pythonhosted.org/packages/c1/44/f59d30fed86e2bfabb32660ae39d0bef6e098d0b9d8f7741fb9a4aa9e41b/logging-strict-1.2.27.tar.gz
+[2024-04-05 12:31:26] WARNING root fetch - processPackages [lycoris-lora]: Timeout reached during download
+[2024-04-05 12:31:26] INFO root fetch - processPackages [lycoris-lora]: executing diffoscope
+[2024-04-05 12:31:26] INFO root fetch - processPackages [lycoris-lora]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lycoris_lora-2.3.0.dev4.tar.gz tmp/lycoris_lora-2.3.0.dev5.tar.gz --markdown 20240405/l/lycoris-lora/2.3.0.dev4-2.3.0.dev5/diff.md --exclude *.pyd
+[2024-04-05 12:31:26] WARNING root fetch - processPackages [reapit-cdk.reapit-product]: Timeout reached during download
+[2024-04-05 12:31:26] INFO root fetch - processPackages [reapit-cdk.reapit-product]: executing diffoscope
+[2024-04-05 12:31:26] INFO root fetch - processPackages [reapit-cdk.reapit-product]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reapit-cdk.reapit-product-0.1.0.tar.gz tmp/reapit-cdk.reapit-product-0.1.2.tar.gz --markdown 20240405/r/reapit-cdk.reapit-product/0.1.0-0.1.2/diff.md --exclude *.pyd
+[2024-04-05 12:31:26] INFO root fetch - processPackages [github-actions-cli]: Remove: archive file [/home/abi/fetcher/tmp/github_actions_cli-1.1.3.tar.gz]
+[2024-04-05 12:31:26] INFO root fetch - processPackages [github-actions-cli]: Remove: archive file [/home/abi/fetcher/tmp/github_actions_cli-1.1.4.tar.gz]
+[2024-04-05 12:31:26] INFO root fetch - main [MainThread]: End processing [github-actions-cli]: success
+[2024-04-05 12:31:26] INFO root fetch - processPackages [reapit-cdk.cloudfront-invalidation]: Remove: archive file [/home/abi/fetcher/tmp/reapit-cdk.cloudfront-invalidation-0.1.0.tar.gz]
+[2024-04-05 12:31:26] INFO root fetch - processPackages [reapit-cdk.cloudfront-invalidation]: Remove: archive file [/home/abi/fetcher/tmp/reapit-cdk.cloudfront-invalidation-0.1.2.tar.gz]
+[2024-04-05 12:31:26] INFO root fetch - main [MainThread]: End processing [reapit-cdk.cloudfront-invalidation]: success
+[2024-04-05 12:31:26] WARNING root fetch - processPackages [cgat]: Timeout reached during download
+[2024-04-05 12:31:26] INFO root fetch - processPackages [cgat]: executing diffoscope
+[2024-04-05 12:31:26] INFO root fetch - processPackages [cgat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cgat-0.7.1.tar.gz tmp/cgat-0.7.2.tar.gz --markdown 20240405/c/cgat/0.7.1-0.7.2/diff.md --exclude *.pyd
+[2024-04-05 12:31:26] WARNING root fetch - processPackages [facespace]: Timeout reached during download
+[2024-04-05 12:31:26] INFO root fetch - processPackages [facespace]: executing diffoscope
+[2024-04-05 12:31:26] INFO root fetch - processPackages [facespace]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/facespace-0.1.1.tar.gz tmp/facespace-0.1.2.tar.gz --markdown 20240405/f/facespace/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2024-04-05 12:31:26] INFO root fetch - processPackages [reapit-cdk.reapit-product]: Remove: archive file [/home/abi/fetcher/tmp/reapit-cdk.reapit-product-0.1.0.tar.gz]
+[2024-04-05 12:31:26] INFO root fetch - processPackages [reapit-cdk.reapit-product]: Remove: archive file [/home/abi/fetcher/tmp/reapit-cdk.reapit-product-0.1.2.tar.gz]
+[2024-04-05 12:31:26] INFO root fetch - main [MainThread]: End processing [reapit-cdk.reapit-product]: success
+[2024-04-05 12:31:27] WARNING root fetch - processPackages [logging-strict]: Timeout reached during download
+[2024-04-05 12:31:27] INFO root fetch - processPackages [logging-strict]: executing diffoscope
+[2024-04-05 12:31:27] INFO root fetch - processPackages [logging-strict]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/logging-strict-1.2.26.tar.gz tmp/logging-strict-1.2.27.tar.gz --markdown 20240405/l/logging-strict/1.2.26-1.2.27/diff.md --exclude *.pyd
+[2024-04-05 12:31:27] INFO root fetch - processPackages [reapit-cdk.service-quotas]: Remove: archive file [/home/abi/fetcher/tmp/reapit-cdk.service-quotas-0.1.0.tar.gz]
+[2024-04-05 12:31:27] INFO root fetch - processPackages [reapit-cdk.service-quotas]: Remove: archive file [/home/abi/fetcher/tmp/reapit-cdk.service-quotas-0.1.2.tar.gz]
+[2024-04-05 12:31:27] INFO root fetch - main [MainThread]: End processing [reapit-cdk.service-quotas]: success
+[2024-04-05 12:31:27] INFO root fetch - processPackages [lycoris-lora]: Remove: archive file [/home/abi/fetcher/tmp/lycoris_lora-2.3.0.dev4.tar.gz]
+[2024-04-05 12:31:27] INFO root fetch - processPackages [lycoris-lora]: Remove: archive file [/home/abi/fetcher/tmp/lycoris_lora-2.3.0.dev5.tar.gz]
+[2024-04-05 12:31:27] INFO root fetch - main [MainThread]: End processing [lycoris-lora]: success
+[2024-04-05 12:31:27] INFO root fetch - processPackages [facespace]: Remove: archive file [/home/abi/fetcher/tmp/facespace-0.1.1.tar.gz]
+[2024-04-05 12:31:27] INFO root fetch - processPackages [facespace]: Remove: archive file [/home/abi/fetcher/tmp/facespace-0.1.2.tar.gz]
+[2024-04-05 12:31:27] INFO root fetch - main [MainThread]: End processing [facespace]: success
+[2024-04-05 12:31:27] INFO root fetch - processPackages [cgat]: Remove: archive file [/home/abi/fetcher/tmp/cgat-0.7.1.tar.gz]
+[2024-04-05 12:31:27] INFO root fetch - processPackages [cgat]: Remove: archive file [/home/abi/fetcher/tmp/cgat-0.7.2.tar.gz]
+[2024-04-05 12:31:27] INFO root fetch - main [MainThread]: End processing [cgat]: success
+[2024-04-05 12:31:28] INFO root fetch - processPackages [logging-strict]: Remove: archive file [/home/abi/fetcher/tmp/logging-strict-1.2.26.tar.gz]
+[2024-04-05 12:31:28] INFO root fetch - processPackages [logging-strict]: Remove: archive file [/home/abi/fetcher/tmp/logging-strict-1.2.27.tar.gz]
+[2024-04-05 12:31:28] INFO root fetch - main [MainThread]: End processing [logging-strict]: success
+[2024-04-05 12:31:28] INFO root fetch - main [MainThread]: Store serial: [22634628]
