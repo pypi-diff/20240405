@@ -24850,3 +24850,138 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2024-04-05 15:46:52] INFO root fetch - processPackages [lxa-iobus]: Remove: archive file [/home/abi/fetcher/tmp/lxa-iobus-0.5.0.tar.gz]
 [2024-04-05 15:46:52] INFO root fetch - main [MainThread]: End processing [lxa-iobus]: success
 [2024-04-05 15:46:52] INFO root fetch - main [MainThread]: Store serial: [22636861]
+[2024-04-05 15:48:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22636861]
+[2024-04-05 15:49:02] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2024-04-05 15:49:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ex-fuzzy
+[2024-04-05 15:49:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: prefixmaps
+[2024-04-05 15:49:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: linien-common
+[2024-04-05 15:49:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: linktools
+[2024-04-05 15:49:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: linien-server
+[2024-04-05 15:49:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: linien-client
+[2024-04-05 15:49:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: linien-gui
+[2024-04-05 15:49:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: bhashini-translator
+[2024-04-05 15:49:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: biocartograph
+[2024-04-05 15:49:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: oarepo-ui
+[2024-04-05 15:49:02] INFO root fetch - processPackages [linien-client]: New version: [2.0.0rc1] Old Version: [1.0.2rc1]
+[2024-04-05 15:49:02] INFO root fetch - processPackages [ex-fuzzy]: New version: [1.1.0] Old Version: [1.0.7]
+[2024-04-05 15:49:02] INFO root fetch - processPackages [linien-gui]: New version: [2.0.0rc1] Old Version: [1.0.2rc1]
+[2024-04-05 15:49:02] INFO root fetch - processPackages [linien-server]: New version: [2.0.0rc1] Old Version: [1.0.2rc1]
+[2024-04-05 15:49:02] INFO root fetch - processPackages [oarepo-ui]: New version: [5.1.9] Old Version: [5.1.8]
+[2024-04-05 15:49:02] INFO root fetch - processPackages [bhashini-translator]: New version: [0.4] Old Version: [0.3]
+[2024-04-05 15:49:02] INFO root fetch - processPackages [linien-common]: New version: [2.0.0rc2] Old Version: [2.0.0rc1]
+[2024-04-05 15:49:02] INFO root fetch - processPackages [prefixmaps]: New version: [0.2.3] Old Version: [0.2.2]
+[2024-04-05 15:49:02] INFO root fetch - processPackages [biocartograph]: New version: [0.9.0] Old Version: [0.8.1]
+[2024-04-05 15:49:02] INFO root fetch - processPackages [linktools]: New version: [0.8.3rc1] Old Version: [0.8.3rc0]
+[2024-04-05 15:49:02] INFO root fetch - processPackages [ex-fuzzy]: Downloading https://files.pythonhosted.org/packages/76/d2/71542e0e3d8415b6ad760e8204c4e6a21adef07b966a0bd1f736457ce476/ex_fuzzy-1.0.7.tar.gz
+[2024-04-05 15:49:02] INFO root fetch - processPackages [linien-client]: Downloading https://files.pythonhosted.org/packages/fa/47/642ac3465f804a6ce4dc01761c5c83a892b310b36e7fd7950b7df32d5af8/linien-client-1.0.2rc1.tar.gz
+[2024-04-05 15:49:02] INFO root fetch - processPackages [linien-gui]: Downloading https://files.pythonhosted.org/packages/50/5b/be3b9affb14cd1e49d8e18a8d63cfe24c73c2d3ad55a8336374d6afab232/linien-gui-1.0.2rc1.tar.gz
+[2024-04-05 15:49:02] INFO root fetch - processPackages [linien-server]: Downloading https://files.pythonhosted.org/packages/5f/cb/05ece0250469fc3aff26549ae48c2b914445b0f3045454c8d8552d15f27d/linien-server-1.0.2rc1.tar.gz
+[2024-04-05 15:49:02] INFO root fetch - processPackages [oarepo-ui]: Downloading https://files.pythonhosted.org/packages/87/64/10c65b547fcd49c12a5c9a954426830269b57a4115a7070da01f33307313/oarepo-ui-5.1.8.tar.gz
+[2024-04-05 15:49:02] INFO root fetch - processPackages [linien-common]: Downloading https://files.pythonhosted.org/packages/bf/71/318d07621fa47dacfdbe80afdf2dab67fed28dd6bf391a6b69ef5b5e9243/linien-common-2.0.0rc1.tar.gz
+[2024-04-05 15:49:02] WARNING root fetch - processPackages [linien-client]: Timeout reached during download
+[2024-04-05 15:49:02] INFO root fetch - processPackages [bhashini-translator]: Downloading https://files.pythonhosted.org/packages/42/fa/2c5aa1f051744fd8a53eb4c708a655ac57b1f584852b4e8e2520cd18b607/bhashini_translator-0.3.tar.gz
+[2024-04-05 15:49:02] WARNING root fetch - processPackages [ex-fuzzy]: Timeout reached during download
+[2024-04-05 15:49:02] INFO root fetch - processPackages [prefixmaps]: Downloading https://files.pythonhosted.org/packages/0d/e6/f908e2e5a7a4d56b5aa3a9f1493d6c7b9b674ac565d70bcc55fca857a44c/prefixmaps-0.2.2.tar.gz
+[2024-04-05 15:49:02] INFO root fetch - processPackages [biocartograph]: Downloading https://files.pythonhosted.org/packages/26/7d/40f54f6e5b9cc1d5095e8b98fec26889f0449cb7db0e1b3a48b5a44a0918/biocartograph-0.8.1.tar.gz
+[2024-04-05 15:49:02] INFO root fetch - processPackages [linktools]: Downloading https://files.pythonhosted.org/packages/ba/bd/f0ebe0f10ddc204fae6e8b30f1bb787ab27701f1f7f2b44573e1b2fdf670/linktools-0.8.3rc0.tar.gz
+[2024-04-05 15:49:02] WARNING root fetch - processPackages [linien-gui]: Timeout reached during download
+[2024-04-05 15:49:02] WARNING root fetch - processPackages [oarepo-ui]: Timeout reached during download
+[2024-04-05 15:49:02] WARNING root fetch - processPackages [linien-server]: Timeout reached during download
+[2024-04-05 15:49:02] WARNING root fetch - processPackages [linien-common]: Timeout reached during download
+[2024-04-05 15:49:02] INFO root fetch - processPackages [ex-fuzzy]: Downloading https://files.pythonhosted.org/packages/90/d0/f7d19186527a9925868d3cc630afa16923a07198100ba57c50cc9a6ce59c/ex_fuzzy-1.1.0.tar.gz
+[2024-04-05 15:49:02] WARNING root fetch - processPackages [bhashini-translator]: Timeout reached during download
+[2024-04-05 15:49:02] INFO root fetch - processPackages [oarepo-ui]: Downloading https://files.pythonhosted.org/packages/79/8e/95316366f4c35e7329fa617d319a0c6b5a7beb26fcd76a93638415957d69/oarepo-ui-5.1.9.tar.gz
+[2024-04-05 15:49:02] INFO root fetch - processPackages [linien-client]: Downloading https://files.pythonhosted.org/packages/5d/ed/e6e16705b8ec0370ef6e5ced2e555bb525e2ffb390024c18c447b28198d4/linien-client-2.0.0rc1.tar.gz
+[2024-04-05 15:49:02] WARNING root fetch - processPackages [biocartograph]: Timeout reached during download
+[2024-04-05 15:49:02] WARNING root fetch - processPackages [prefixmaps]: Timeout reached during download
+[2024-04-05 15:49:02] WARNING root fetch - processPackages [linktools]: Timeout reached during download
+[2024-04-05 15:49:02] INFO root fetch - processPackages [linien-gui]: Downloading https://files.pythonhosted.org/packages/ee/ea/c0b7527cbe548a1dc26785cc2994ab9d5894b1fa70268797aa726aa8f8b8/linien-gui-2.0.0rc1.tar.gz
+[2024-04-05 15:49:02] INFO root fetch - processPackages [linien-common]: Downloading https://files.pythonhosted.org/packages/eb/7a/6289e2a57371413b9fb77a2da352728429d1531236268eb5df9d9cf01e00/linien-common-2.0.0rc2.tar.gz
+[2024-04-05 15:49:02] INFO root fetch - processPackages [linien-server]: Downloading https://files.pythonhosted.org/packages/b3/14/2f81bf65e053664b579ddc5f88f17bd4dcf65de82baf399b4613bdcb9541/linien-server-2.0.0rc1.tar.gz
+[2024-04-05 15:49:02] WARNING root fetch - processPackages [linien-client]: Timeout reached during download
+[2024-04-05 15:49:02] WARNING root fetch - processPackages [ex-fuzzy]: Timeout reached during download
+[2024-04-05 15:49:02] INFO root fetch - processPackages [linien-client]: executing diffoscope
+[2024-04-05 15:49:02] INFO root fetch - processPackages [linien-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/linien-client-1.0.2rc1.tar.gz tmp/linien-client-2.0.0rc1.tar.gz --markdown 20240405/l/linien-client/1.0.2rc1-2.0.0rc1/diff.md --exclude *.pyd
+[2024-04-05 15:49:02] INFO root fetch - processPackages [ex-fuzzy]: executing diffoscope
+[2024-04-05 15:49:02] INFO root fetch - processPackages [ex-fuzzy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ex_fuzzy-1.0.7.tar.gz tmp/ex_fuzzy-1.1.0.tar.gz --markdown 20240405/e/ex-fuzzy/1.0.7-1.1.0/diff.md --exclude *.pyd
+[2024-04-05 15:49:03] WARNING root fetch - processPackages [oarepo-ui]: Timeout reached during download
+[2024-04-05 15:49:03] INFO root fetch - processPackages [oarepo-ui]: executing diffoscope
+[2024-04-05 15:49:03] INFO root fetch - processPackages [oarepo-ui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oarepo-ui-5.1.8.tar.gz tmp/oarepo-ui-5.1.9.tar.gz --markdown 20240405/o/oarepo-ui/5.1.8-5.1.9/diff.md --exclude *.pyd
+[2024-04-05 15:49:03] INFO root fetch - processPackages [prefixmaps]: Downloading https://files.pythonhosted.org/packages/8e/9d/1a88bc5a0dc2d162ae89b64aa495050d0009fbb30d62ec6fc2eb7d42a02d/prefixmaps-0.2.3.tar.gz
+[2024-04-05 15:49:03] INFO root fetch - processPackages [bhashini-translator]: Downloading https://files.pythonhosted.org/packages/0c/73/45ad3d1bba856b979598bd219becc55ddf57bbc2ff2927b3ff9ffc6402c8/bhashini_translator-0.4.tar.gz
+[2024-04-05 15:49:03] WARNING root fetch - processPackages [linien-common]: Timeout reached during download
+[2024-04-05 15:49:03] INFO root fetch - processPackages [linien-common]: executing diffoscope
+[2024-04-05 15:49:03] INFO root fetch - processPackages [linien-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/linien-common-2.0.0rc1.tar.gz tmp/linien-common-2.0.0rc2.tar.gz --markdown 20240405/l/linien-common/2.0.0rc1-2.0.0rc2/diff.md --exclude *.pyd
+[2024-04-05 15:49:03] INFO root fetch - processPackages [biocartograph]: Downloading https://files.pythonhosted.org/packages/e6/22/731abcc80da1738d8e94e189d4e61f97461bf23e5d68671963bd7058e6e8/biocartograph-0.9.0.tar.gz
+[2024-04-05 15:49:03] WARNING root fetch - processPackages [linien-server]: Timeout reached during download
+[2024-04-05 15:49:03] INFO root fetch - processPackages [linien-server]: executing diffoscope
+[2024-04-05 15:49:03] INFO root fetch - processPackages [linien-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/linien-server-1.0.2rc1.tar.gz tmp/linien-server-2.0.0rc1.tar.gz --markdown 20240405/l/linien-server/1.0.2rc1-2.0.0rc1/diff.md --exclude *.pyd
+[2024-04-05 15:49:03] WARNING root fetch - processPackages [linien-gui]: Timeout reached during download
+[2024-04-05 15:49:03] INFO root fetch - processPackages [linien-gui]: executing diffoscope
+[2024-04-05 15:49:03] INFO root fetch - processPackages [linien-gui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/linien-gui-1.0.2rc1.tar.gz tmp/linien-gui-2.0.0rc1.tar.gz --markdown 20240405/l/linien-gui/1.0.2rc1-2.0.0rc1/diff.md --exclude *.pyd
+[2024-04-05 15:49:03] INFO root fetch - processPackages [linktools]: Downloading https://files.pythonhosted.org/packages/af/8a/88acdd98737141a3340555cbb0855df67ccdada8a7159450484f18f99a3b/linktools-0.8.3rc1.tar.gz
+[2024-04-05 15:49:03] WARNING root fetch - processPackages [bhashini-translator]: Timeout reached during download
+[2024-04-05 15:49:03] INFO root fetch - processPackages [bhashini-translator]: executing diffoscope
+[2024-04-05 15:49:03] INFO root fetch - processPackages [bhashini-translator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bhashini_translator-0.3.tar.gz tmp/bhashini_translator-0.4.tar.gz --markdown 20240405/b/bhashini-translator/0.3-0.4/diff.md --exclude *.pyd
+[2024-04-05 15:49:03] WARNING root fetch - processPackages [biocartograph]: Timeout reached during download
+[2024-04-05 15:49:03] INFO root fetch - processPackages [biocartograph]: executing diffoscope
+[2024-04-05 15:49:03] INFO root fetch - processPackages [biocartograph]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/biocartograph-0.8.1.tar.gz tmp/biocartograph-0.9.0.tar.gz --markdown 20240405/b/biocartograph/0.8.1-0.9.0/diff.md --exclude *.pyd
+[2024-04-05 15:49:03] WARNING root fetch - processPackages [prefixmaps]: Timeout reached during download
+[2024-04-05 15:49:03] INFO root fetch - processPackages [prefixmaps]: executing diffoscope
+[2024-04-05 15:49:03] INFO root fetch - processPackages [prefixmaps]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prefixmaps-0.2.2.tar.gz tmp/prefixmaps-0.2.3.tar.gz --markdown 20240405/p/prefixmaps/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2024-04-05 15:49:03] WARNING root fetch - processPackages [linktools]: Timeout reached during download
+[2024-04-05 15:49:03] INFO root fetch - processPackages [linktools]: executing diffoscope
+[2024-04-05 15:49:03] INFO root fetch - processPackages [linktools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/linktools-0.8.3rc0.tar.gz tmp/linktools-0.8.3rc1.tar.gz --markdown 20240405/l/linktools/0.8.3rc0-0.8.3rc1/diff.md --exclude *.pyd
+[2024-04-05 15:49:04] INFO root fetch - processPackages [linien-common]: Remove: archive file [/home/abi/fetcher/tmp/linien-common-2.0.0rc1.tar.gz]
+[2024-04-05 15:49:04] INFO root fetch - processPackages [linien-common]: Remove: archive file [/home/abi/fetcher/tmp/linien-common-2.0.0rc2.tar.gz]
+[2024-04-05 15:49:04] INFO root fetch - processPackages [linien-common]: Start processing: assisted-service-client
+[2024-04-05 15:49:04] INFO root fetch - main [MainThread]: End processing [linien-common]: success
+[2024-04-05 15:49:04] INFO root fetch - processPackages [ex-fuzzy]: Remove: archive file [/home/abi/fetcher/tmp/ex_fuzzy-1.0.7.tar.gz]
+[2024-04-05 15:49:04] INFO root fetch - processPackages [ex-fuzzy]: Remove: archive file [/home/abi/fetcher/tmp/ex_fuzzy-1.1.0.tar.gz]
+[2024-04-05 15:49:04] INFO root fetch - processPackages [ex-fuzzy]: Start processing: cosmian-kms
+[2024-04-05 15:49:04] INFO root fetch - main [MainThread]: End processing [ex-fuzzy]: success
+[2024-04-05 15:49:04] INFO root fetch - processPackages [linien-client]: Remove: archive file [/home/abi/fetcher/tmp/linien-client-1.0.2rc1.tar.gz]
+[2024-04-05 15:49:04] INFO root fetch - processPackages [linien-client]: Remove: archive file [/home/abi/fetcher/tmp/linien-client-2.0.0rc1.tar.gz]
+[2024-04-05 15:49:04] INFO root fetch - main [MainThread]: End processing [linien-client]: success
+[2024-04-05 15:49:04] INFO root fetch - processPackages [assisted-service-client]: New version: [2.9.0.post9] Old Version: [2.9.0.post8]
+[2024-04-05 15:49:04] INFO root fetch - processPackages [bhashini-translator]: Remove: archive file [/home/abi/fetcher/tmp/bhashini_translator-0.3.tar.gz]
+[2024-04-05 15:49:04] INFO root fetch - processPackages [bhashini-translator]: Remove: archive file [/home/abi/fetcher/tmp/bhashini_translator-0.4.tar.gz]
+[2024-04-05 15:49:04] INFO root fetch - main [MainThread]: End processing [bhashini-translator]: success
+[2024-04-05 15:49:04] INFO root fetch - processPackages [linien-gui]: Remove: archive file [/home/abi/fetcher/tmp/linien-gui-1.0.2rc1.tar.gz]
+[2024-04-05 15:49:04] INFO root fetch - processPackages [linien-gui]: Remove: archive file [/home/abi/fetcher/tmp/linien-gui-2.0.0rc1.tar.gz]
+[2024-04-05 15:49:04] INFO root fetch - main [MainThread]: End processing [linien-gui]: success
+[2024-04-05 15:49:04] INFO root fetch - processPackages [assisted-service-client]: Downloading https://files.pythonhosted.org/packages/a5/ee/a5837c5427b0689f863021f5d65c42ff9d4ae267905a751492653198b2dc/assisted_service_client-2.9.0.post8-py3-none-any.whl
+[2024-04-05 15:49:04] INFO root fetch - processPackages [cosmian-kms]: New version: [4.9.1] Old Version: [4.9.0]
+[2024-04-05 15:49:04] INFO root fetch - processPackages [linien-server]: Remove: archive file [/home/abi/fetcher/tmp/linien-server-1.0.2rc1.tar.gz]
+[2024-04-05 15:49:04] INFO root fetch - processPackages [linien-server]: Remove: archive file [/home/abi/fetcher/tmp/linien-server-2.0.0rc1.tar.gz]
+[2024-04-05 15:49:04] INFO root fetch - main [MainThread]: End processing [linien-server]: success
+[2024-04-05 15:49:04] INFO root fetch - processPackages [biocartograph]: Remove: archive file [/home/abi/fetcher/tmp/biocartograph-0.8.1.tar.gz]
+[2024-04-05 15:49:04] INFO root fetch - processPackages [biocartograph]: Remove: archive file [/home/abi/fetcher/tmp/biocartograph-0.9.0.tar.gz]
+[2024-04-05 15:49:04] INFO root fetch - main [MainThread]: End processing [biocartograph]: success
+[2024-04-05 15:49:04] INFO root fetch - processPackages [oarepo-ui]: Remove: archive file [/home/abi/fetcher/tmp/oarepo-ui-5.1.8.tar.gz]
+[2024-04-05 15:49:04] INFO root fetch - processPackages [oarepo-ui]: Remove: archive file [/home/abi/fetcher/tmp/oarepo-ui-5.1.9.tar.gz]
+[2024-04-05 15:49:04] INFO root fetch - main [MainThread]: End processing [oarepo-ui]: success
+[2024-04-05 15:49:04] WARNING root fetch - processPackages [assisted-service-client]: Timeout reached during download
+[2024-04-05 15:49:04] INFO root fetch - processPackages [cosmian-kms]: Downloading https://files.pythonhosted.org/packages/f4/4d/d6113b555e84f4eda7c0649b576dcf9ef9a372c79940d008cf0170b7b6e2/cosmian_kms-4.9.0-cp37-abi3-win_amd64.whl
+[2024-04-05 15:49:04] INFO root fetch - processPackages [assisted-service-client]: Downloading https://files.pythonhosted.org/packages/f6/90/2599b3c134ea21c06d22f83dd1dfac6801d974b9aa0958f008fb332e5b4d/assisted_service_client-2.9.0.post9-py3-none-any.whl
+[2024-04-05 15:49:04] INFO root fetch - processPackages [prefixmaps]: Remove: archive file [/home/abi/fetcher/tmp/prefixmaps-0.2.2.tar.gz]
+[2024-04-05 15:49:04] INFO root fetch - processPackages [prefixmaps]: Remove: archive file [/home/abi/fetcher/tmp/prefixmaps-0.2.3.tar.gz]
+[2024-04-05 15:49:04] INFO root fetch - main [MainThread]: End processing [prefixmaps]: success
+[2024-04-05 15:49:04] WARNING root fetch - processPackages [cosmian-kms]: Timeout reached during download
+[2024-04-05 15:49:04] WARNING root fetch - processPackages [assisted-service-client]: Timeout reached during download
+[2024-04-05 15:49:04] INFO root fetch - processPackages [assisted-service-client]: executing diffoscope
+[2024-04-05 15:49:04] INFO root fetch - processPackages [assisted-service-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assisted_service_client-2.9.0.post8-py3-none-any.whl.zip tmp/assisted_service_client-2.9.0.post9-py3-none-any.whl.zip --markdown 20240405/a/assisted-service-client/2.9.0.post8-2.9.0.post9/diff.md --exclude *.pyd
+[2024-04-05 15:49:04] INFO root fetch - processPackages [cosmian-kms]: Downloading https://files.pythonhosted.org/packages/b0/23/fad1edf9bca7c2a8f6ad0ed4166cec21becfbcc7afbde957144da34013c7/cosmian_kms-4.9.1-cp37-abi3-win_amd64.whl
+[2024-04-05 15:49:05] INFO root fetch - processPackages [linktools]: Remove: archive file [/home/abi/fetcher/tmp/linktools-0.8.3rc0.tar.gz]
+[2024-04-05 15:49:05] INFO root fetch - processPackages [linktools]: Remove: archive file [/home/abi/fetcher/tmp/linktools-0.8.3rc1.tar.gz]
+[2024-04-05 15:49:05] INFO root fetch - main [MainThread]: End processing [linktools]: success
+[2024-04-05 15:49:05] WARNING root fetch - processPackages [cosmian-kms]: Timeout reached during download
+[2024-04-05 15:49:05] INFO root fetch - processPackages [cosmian-kms]: executing diffoscope
+[2024-04-05 15:49:05] INFO root fetch - processPackages [cosmian-kms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cosmian_kms-4.9.0-cp37-abi3-win_amd64.whl.zip tmp/cosmian_kms-4.9.1-cp37-abi3-win_amd64.whl.zip --markdown 20240405/c/cosmian-kms/4.9.0-4.9.1/diff.md --exclude *.pyd
+[2024-04-05 15:49:05] INFO root fetch - processPackages [cosmian-kms]: Remove: archive file [/home/abi/fetcher/tmp/cosmian_kms-4.9.0-cp37-abi3-win_amd64.whl.zip]
+[2024-04-05 15:49:05] INFO root fetch - processPackages [cosmian-kms]: Remove: archive file [/home/abi/fetcher/tmp/cosmian_kms-4.9.1-cp37-abi3-win_amd64.whl.zip]
+[2024-04-05 15:49:05] INFO root fetch - main [MainThread]: End processing [cosmian-kms]: success
+[2024-04-05 15:49:06] INFO root fetch - processPackages [assisted-service-client]: Remove: archive file [/home/abi/fetcher/tmp/assisted_service_client-2.9.0.post8-py3-none-any.whl.zip]
+[2024-04-05 15:49:06] INFO root fetch - processPackages [assisted-service-client]: Remove: archive file [/home/abi/fetcher/tmp/assisted_service_client-2.9.0.post9-py3-none-any.whl.zip]
+[2024-04-05 15:49:06] INFO root fetch - main [MainThread]: End processing [assisted-service-client]: success
+[2024-04-05 15:49:06] INFO root fetch - main [MainThread]: Store serial: [22636897]
