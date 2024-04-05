@@ -10637,3 +10637,28 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2024-04-05 05:34:08] INFO root fetch - processPackages [gemini-webapi]: Remove: archive file [/home/abi/fetcher/tmp/gemini-webapi-1.1.1.tar.gz]
 [2024-04-05 05:34:08] INFO root fetch - main [MainThread]: End processing [gemini-webapi]: success
 [2024-04-05 05:34:08] INFO root fetch - main [MainThread]: Store serial: [22631495]
+[2024-04-05 05:36:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22631495]
+[2024-04-05 05:36:17] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-05 05:36:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo-addon-subscription-oca
+[2024-04-05 05:36:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tokengrams
+[2024-04-05 05:36:17] INFO root fetch - processPackages [odoo-addon-subscription-oca]: New version: [16.0.1.0.0.9] Old Version: [16.0.1.0.0.6]
+[2024-04-05 05:36:17] INFO root fetch - processPackages [tokengrams]: New version: [0.3.0] Old Version: [0.2.0]
+[2024-04-05 05:36:17] INFO root fetch - processPackages [odoo-addon-subscription-oca]: Downloading https://files.pythonhosted.org/packages/db/b4/cf1715029b514bfa219c81ed63e1ad8623209d3322011786ee2a87933241/odoo_addon_subscription_oca-16.0.1.0.0.6-py3-none-any.whl
+[2024-04-05 05:36:17] INFO root fetch - processPackages [tokengrams]: Downloading https://files.pythonhosted.org/packages/70/11/8987664dcb4b18141a4c11f62f9bf919298066ce88d6a925229bdf41fe94/tokengrams-0.2.0-cp310-cp310-manylinux_2_31_x86_64.whl
+[2024-04-05 05:36:17] WARNING root fetch - processPackages [odoo-addon-subscription-oca]: Timeout reached during download
+[2024-04-05 05:36:17] WARNING root fetch - processPackages [tokengrams]: Timeout reached during download
+[2024-04-05 05:36:17] INFO root fetch - processPackages [odoo-addon-subscription-oca]: Downloading https://files.pythonhosted.org/packages/86/85/9131440e0be6f5eeb99b7942b5b7d0184f16c0808cb995c8d499e228de0f/odoo_addon_subscription_oca-16.0.1.0.0.9-py3-none-any.whl
+[2024-04-05 05:36:18] INFO root fetch - processPackages [tokengrams]: Downloading https://files.pythonhosted.org/packages/4a/e3/3cc42944ae0686dce65ce29288b5a77f7d2774f8e9b1b912b5c340b24746/tokengrams-0.3.0-cp310-cp310-macosx_11_0_arm64.whl
+[2024-04-05 05:36:18] WARNING root fetch - processPackages [odoo-addon-subscription-oca]: Timeout reached during download
+[2024-04-05 05:36:18] INFO root fetch - processPackages [odoo-addon-subscription-oca]: executing diffoscope
+[2024-04-05 05:36:18] INFO root fetch - processPackages [odoo-addon-subscription-oca]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_subscription_oca-16.0.1.0.0.6-py3-none-any.whl.zip tmp/odoo_addon_subscription_oca-16.0.1.0.0.9-py3-none-any.whl.zip --markdown 20240405/o/odoo-addon-subscription-oca/16.0.1.0.0.6-16.0.1.0.0.9/diff.md --exclude *.pyd
+[2024-04-05 05:36:18] WARNING root fetch - processPackages [tokengrams]: Timeout reached during download
+[2024-04-05 05:36:18] INFO root fetch - processPackages [tokengrams]: executing diffoscope
+[2024-04-05 05:36:18] INFO root fetch - processPackages [tokengrams]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tokengrams-0.2.0-cp310-cp310-manylinux_2_31_x86_64.whl.zip tmp/tokengrams-0.3.0-cp310-cp310-macosx_11_0_arm64.whl.zip --markdown 20240405/t/tokengrams/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2024-04-05 05:36:18] INFO root fetch - processPackages [odoo-addon-subscription-oca]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_subscription_oca-16.0.1.0.0.6-py3-none-any.whl.zip]
+[2024-04-05 05:36:18] INFO root fetch - processPackages [odoo-addon-subscription-oca]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_subscription_oca-16.0.1.0.0.9-py3-none-any.whl.zip]
+[2024-04-05 05:36:18] INFO root fetch - main [MainThread]: End processing [odoo-addon-subscription-oca]: success
+[2024-04-05 05:36:18] INFO root fetch - processPackages [tokengrams]: Remove: archive file [/home/abi/fetcher/tmp/tokengrams-0.2.0-cp310-cp310-manylinux_2_31_x86_64.whl.zip]
+[2024-04-05 05:36:18] INFO root fetch - processPackages [tokengrams]: Remove: archive file [/home/abi/fetcher/tmp/tokengrams-0.3.0-cp310-cp310-macosx_11_0_arm64.whl.zip]
+[2024-04-05 05:36:18] INFO root fetch - main [MainThread]: End processing [tokengrams]: success
+[2024-04-05 05:36:18] INFO root fetch - main [MainThread]: Store serial: [22631505]
