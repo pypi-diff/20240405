@@ -10709,3 +10709,17 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2024-04-05 05:40:41] INFO root fetch - processPackages [unisi]: Remove: archive file [/home/abi/fetcher/tmp/unisi-0.1.9-py3-none-any.whl.zip]
 [2024-04-05 05:40:41] INFO root fetch - main [MainThread]: End processing [unisi]: success
 [2024-04-05 05:40:41] INFO root fetch - main [MainThread]: Store serial: [22631522]
+[2024-04-05 05:42:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22631522]
+[2024-04-05 05:42:49] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-04-05 05:42:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bananalyzer
+[2024-04-05 05:42:49] INFO root fetch - processPackages [bananalyzer]: New version: [0.8.74] Old Version: [0.8.73]
+[2024-04-05 05:42:49] INFO root fetch - processPackages [bananalyzer]: Downloading https://files.pythonhosted.org/packages/18/11/33baaf9c907858cb2a2da4299b873538e4303440e31de49d771497e4d824/bananalyzer-0.8.73.tar.gz
+[2024-04-05 05:42:50] WARNING root fetch - processPackages [bananalyzer]: Timeout reached during download
+[2024-04-05 05:42:50] INFO root fetch - processPackages [bananalyzer]: Downloading https://files.pythonhosted.org/packages/dc/5f/4dbd70d9deaff6dd72e7eed27af8197aa5cddb5a7fdf5c1a3c4fd9a7c74c/bananalyzer-0.8.74.tar.gz
+[2024-04-05 05:42:50] WARNING root fetch - processPackages [bananalyzer]: Timeout reached during download
+[2024-04-05 05:42:50] INFO root fetch - processPackages [bananalyzer]: executing diffoscope
+[2024-04-05 05:42:50] INFO root fetch - processPackages [bananalyzer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bananalyzer-0.8.73.tar.gz tmp/bananalyzer-0.8.74.tar.gz --markdown 20240405/b/bananalyzer/0.8.73-0.8.74/diff.md --exclude *.pyd
+[2024-04-05 05:42:51] INFO root fetch - processPackages [bananalyzer]: Remove: archive file [/home/abi/fetcher/tmp/bananalyzer-0.8.73.tar.gz]
+[2024-04-05 05:42:51] INFO root fetch - processPackages [bananalyzer]: Remove: archive file [/home/abi/fetcher/tmp/bananalyzer-0.8.74.tar.gz]
+[2024-04-05 05:42:51] INFO root fetch - main [MainThread]: End processing [bananalyzer]: success
+[2024-04-05 05:42:51] INFO root fetch - main [MainThread]: Store serial: [22631525]
