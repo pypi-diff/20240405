@@ -18352,3 +18352,50 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2024-04-05 11:54:57] INFO root fetch - processPackages [crosslab-soa-service-message]: Remove: archive file [/home/abi/fetcher/tmp/crosslab_soa_service_message-0.2.7.tar.gz]
 [2024-04-05 11:54:57] INFO root fetch - main [MainThread]: End processing [crosslab-soa-service-message]: success
 [2024-04-05 11:54:57] INFO root fetch - main [MainThread]: Store serial: [22634271]
+[2024-04-05 11:57:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22634271]
+[2024-04-05 11:57:05] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-05 11:57:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: geometricalgebra
+[2024-04-05 11:57:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: Geoarchpy
+[2024-04-05 11:57:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cycode
+[2024-04-05 11:57:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dream-tools
+[2024-04-05 11:57:05] INFO root fetch - processPackages [Geoarchpy]: New version: [1.0.5] Old Version: [1.0.4]
+[2024-04-05 11:57:05] INFO root fetch - processPackages [geometricalgebra]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-04-05 11:57:05] INFO root fetch - processPackages [cycode]: New version: [1.9.3.dev2] Old Version: [1.9.3.dev1]
+[2024-04-05 11:57:05] INFO root fetch - processPackages [dream-tools]: New version: [2.1.9] Old Version: [2.1.8]
+[2024-04-05 11:57:06] INFO root fetch - processPackages [Geoarchpy]: Downloading https://files.pythonhosted.org/packages/2a/ce/46d65672eb3f118008f5698276874d4b1c1168fc0d88776fec61613626ee/Geoarchpy-1.0.4.tar.gz
+[2024-04-05 11:57:06] INFO root fetch - processPackages [geometricalgebra]: Downloading https://files.pythonhosted.org/packages/25/a0/c329dc1254bdc250bfc292715279fae0b93690f7211816b7dc719129037a/geometricalgebra-0.1.1.tar.gz
+[2024-04-05 11:57:06] INFO root fetch - processPackages [cycode]: Downloading https://files.pythonhosted.org/packages/c1/d5/fee50189b5cf35b9797e5691908f0e0ef310466430335b64a81aefed9747/cycode-1.9.3.dev1.tar.gz
+[2024-04-05 11:57:06] INFO root fetch - processPackages [dream-tools]: Downloading https://files.pythonhosted.org/packages/a0/c4/452045a0f0bf5d8790fc22be25027ebfae68773d49fa0b14e53b26967472/dream-tools-2.1.8.tar.gz
+[2024-04-05 11:57:06] WARNING root fetch - processPackages [geometricalgebra]: Timeout reached during download
+[2024-04-05 11:57:06] WARNING root fetch - processPackages [Geoarchpy]: Timeout reached during download
+[2024-04-05 11:57:06] WARNING root fetch - processPackages [cycode]: Timeout reached during download
+[2024-04-05 11:57:06] INFO root fetch - processPackages [geometricalgebra]: Downloading https://files.pythonhosted.org/packages/7f/84/3a2faab7f49ab60f6290d39b0e5d1f7fff6fc9782f85dfb683a22a7bdb50/geometricalgebra-0.1.2.tar.gz
+[2024-04-05 11:57:06] WARNING root fetch - processPackages [dream-tools]: Timeout reached during download
+[2024-04-05 11:57:06] INFO root fetch - processPackages [Geoarchpy]: Downloading https://files.pythonhosted.org/packages/e4/41/31dbc242e9c4009c2f50d71d61e0fa0b6e78db0fb48770678f1bf691ca09/Geoarchpy-1.0.5.tar.gz
+[2024-04-05 11:57:06] INFO root fetch - processPackages [cycode]: Downloading https://files.pythonhosted.org/packages/e6/ca/35691b85b8394e9467dbe5dee84a7bcc76cf891e17ed64df6c726c36a782/cycode-1.9.3.dev2.tar.gz
+[2024-04-05 11:57:06] WARNING root fetch - processPackages [geometricalgebra]: Timeout reached during download
+[2024-04-05 11:57:06] INFO root fetch - processPackages [geometricalgebra]: executing diffoscope
+[2024-04-05 11:57:06] INFO root fetch - processPackages [geometricalgebra]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/geometricalgebra-0.1.1.tar.gz tmp/geometricalgebra-0.1.2.tar.gz --markdown 20240405/g/geometricalgebra/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2024-04-05 11:57:06] INFO root fetch - processPackages [dream-tools]: Downloading https://files.pythonhosted.org/packages/7c/99/7d3959c206bdfd1709d00d989375024da3f7ebe064ccbf4c04590ae2bee9/dream-tools-2.1.9.tar.gz
+[2024-04-05 11:57:06] WARNING root fetch - processPackages [Geoarchpy]: Timeout reached during download
+[2024-04-05 11:57:06] INFO root fetch - processPackages [Geoarchpy]: executing diffoscope
+[2024-04-05 11:57:06] INFO root fetch - processPackages [Geoarchpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Geoarchpy-1.0.4.tar.gz tmp/Geoarchpy-1.0.5.tar.gz --markdown 20240405/G/Geoarchpy/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2024-04-05 11:57:06] WARNING root fetch - processPackages [cycode]: Timeout reached during download
+[2024-04-05 11:57:06] INFO root fetch - processPackages [cycode]: executing diffoscope
+[2024-04-05 11:57:06] INFO root fetch - processPackages [cycode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cycode-1.9.3.dev1.tar.gz tmp/cycode-1.9.3.dev2.tar.gz --markdown 20240405/c/cycode/1.9.3.dev1-1.9.3.dev2/diff.md --exclude *.pyd
+[2024-04-05 11:57:07] INFO root fetch - processPackages [geometricalgebra]: Remove: archive file [/home/abi/fetcher/tmp/geometricalgebra-0.1.1.tar.gz]
+[2024-04-05 11:57:07] INFO root fetch - processPackages [geometricalgebra]: Remove: archive file [/home/abi/fetcher/tmp/geometricalgebra-0.1.2.tar.gz]
+[2024-04-05 11:57:07] INFO root fetch - main [MainThread]: End processing [geometricalgebra]: success
+[2024-04-05 11:57:07] WARNING root fetch - processPackages [dream-tools]: Timeout reached during download
+[2024-04-05 11:57:07] INFO root fetch - processPackages [dream-tools]: executing diffoscope
+[2024-04-05 11:57:07] INFO root fetch - processPackages [dream-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dream-tools-2.1.8.tar.gz tmp/dream-tools-2.1.9.tar.gz --markdown 20240405/d/dream-tools/2.1.8-2.1.9/diff.md --exclude *.pyd
+[2024-04-05 11:57:07] INFO root fetch - processPackages [cycode]: Remove: archive file [/home/abi/fetcher/tmp/cycode-1.9.3.dev1.tar.gz]
+[2024-04-05 11:57:07] INFO root fetch - processPackages [cycode]: Remove: archive file [/home/abi/fetcher/tmp/cycode-1.9.3.dev2.tar.gz]
+[2024-04-05 11:57:07] INFO root fetch - main [MainThread]: End processing [cycode]: success
+[2024-04-05 11:57:07] INFO root fetch - processPackages [Geoarchpy]: Remove: archive file [/home/abi/fetcher/tmp/Geoarchpy-1.0.4.tar.gz]
+[2024-04-05 11:57:07] INFO root fetch - processPackages [Geoarchpy]: Remove: archive file [/home/abi/fetcher/tmp/Geoarchpy-1.0.5.tar.gz]
+[2024-04-05 11:57:07] INFO root fetch - main [MainThread]: End processing [Geoarchpy]: success
+[2024-04-05 11:57:07] INFO root fetch - processPackages [dream-tools]: Remove: archive file [/home/abi/fetcher/tmp/dream-tools-2.1.8.tar.gz]
+[2024-04-05 11:57:07] INFO root fetch - processPackages [dream-tools]: Remove: archive file [/home/abi/fetcher/tmp/dream-tools-2.1.9.tar.gz]
+[2024-04-05 11:57:07] INFO root fetch - main [MainThread]: End processing [dream-tools]: success
+[2024-04-05 11:57:07] INFO root fetch - main [MainThread]: Store serial: [22634280]
