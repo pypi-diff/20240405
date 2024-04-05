@@ -16621,3 +16621,37 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2024-04-05 10:46:49] INFO root fetch - processPackages [tfp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfp_nightly-0.9.0.dev20200114-py2.py3-none-any.whl.zip]
 [2024-04-05 10:46:49] INFO root fetch - main [MainThread]: End processing [tfp-nightly]: success
 [2024-04-05 10:46:49] INFO root fetch - main [MainThread]: Store serial: [22633547]
+[2024-04-05 10:48:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22633547]
+[2024-04-05 10:48:59] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-05 10:48:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo-addon-l10n-it-website-sale-fiscalcode
+[2024-04-05 10:48:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: rm-pycache
+[2024-04-05 10:48:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: davify
+[2024-04-05 10:48:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tf-nightly-cpu
+[2024-04-05 10:48:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pokerkit
+[2024-04-05 10:48:59] WARNING root fetch - processPackages [davify]: Skipping, unable to determine old version
+[2024-04-05 10:48:59] INFO root fetch - main [MainThread]: End processing [davify] error
+[2024-04-05 10:48:59] INFO root fetch - processPackages [pokerkit]: New version: [0.4.9] Old Version: [0.4.8]
+[2024-04-05 10:48:59] WARNING root fetch - processPackages [rm-pycache]: Skipping, unable to determine old version
+[2024-04-05 10:48:59] INFO root fetch - main [MainThread]: End processing [rm-pycache] error
+[2024-04-05 10:48:59] WARNING root fetch - processPackages [odoo-addon-l10n-it-website-sale-fiscalcode]: Skipping, unable to determine old version
+[2024-04-05 10:48:59] INFO root fetch - main [MainThread]: End processing [odoo-addon-l10n-it-website-sale-fiscalcode] error
+[2024-04-05 10:48:59] INFO root fetch - processPackages [tf-nightly-cpu]: New version: [2.17.0.dev20240405] Old Version: [2.17.0.dev20240404]
+[2024-04-05 10:48:59] INFO root fetch - processPackages [pokerkit]: Downloading https://files.pythonhosted.org/packages/8b/3c/3b7c51a05940dc6241d1e4e8394abb1ff566f9b13a7d7d0e551dfb75431b/pokerkit-0.4.8.tar.gz
+[2024-04-05 10:48:59] INFO root fetch - processPackages [tf-nightly-cpu]: Downloading https://files.pythonhosted.org/packages/59/84/943dce5f7e1fd4ac9653a4ec6655519f2d1e52a2e9d5c27dae4b97d52759/tf_nightly_cpu-2.17.0.dev20240404-cp39-cp39-win_amd64.whl
+[2024-04-05 10:48:59] WARNING root fetch - processPackages [tf-nightly-cpu]: Timeout reached during download
+[2024-04-05 10:48:59] WARNING root fetch - processPackages [pokerkit]: Timeout reached during download
+[2024-04-05 10:48:59] INFO root fetch - processPackages [tf-nightly-cpu]: Downloading https://files.pythonhosted.org/packages/fb/f6/84ea5fe4627f8e3f4cb8302778ccbdcd39d5e1e0700dd830353e548a06ec/tf_nightly_cpu-2.17.0.dev20240405-cp39-cp39-win_amd64.whl
+[2024-04-05 10:48:59] INFO root fetch - processPackages [pokerkit]: Downloading https://files.pythonhosted.org/packages/1b/ff/594b7172fd34fb55ed774384dda1be4353fecb7ceffe0b450272d74eb26c/pokerkit-0.4.9.tar.gz
+[2024-04-05 10:48:59] WARNING root fetch - processPackages [tf-nightly-cpu]: Timeout reached during download
+[2024-04-05 10:48:59] INFO root fetch - processPackages [tf-nightly-cpu]: executing diffoscope
+[2024-04-05 10:48:59] INFO root fetch - processPackages [tf-nightly-cpu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_nightly_cpu-2.17.0.dev20240404-cp39-cp39-win_amd64.whl.zip tmp/tf_nightly_cpu-2.17.0.dev20240405-cp39-cp39-win_amd64.whl.zip --markdown 20240405/t/tf-nightly-cpu/2.17.0.dev20240404-2.17.0.dev20240405/diff.md --exclude *.pyd
+[2024-04-05 10:48:59] WARNING root fetch - processPackages [pokerkit]: Timeout reached during download
+[2024-04-05 10:48:59] INFO root fetch - processPackages [pokerkit]: executing diffoscope
+[2024-04-05 10:48:59] INFO root fetch - processPackages [pokerkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pokerkit-0.4.8.tar.gz tmp/pokerkit-0.4.9.tar.gz --markdown 20240405/p/pokerkit/0.4.8-0.4.9/diff.md --exclude *.pyd
+[2024-04-05 10:49:00] INFO root fetch - processPackages [pokerkit]: Remove: archive file [/home/abi/fetcher/tmp/pokerkit-0.4.8.tar.gz]
+[2024-04-05 10:49:00] INFO root fetch - processPackages [pokerkit]: Remove: archive file [/home/abi/fetcher/tmp/pokerkit-0.4.9.tar.gz]
+[2024-04-05 10:49:00] INFO root fetch - main [MainThread]: End processing [pokerkit]: success
+[2024-04-05 10:49:00] INFO root fetch - processPackages [tf-nightly-cpu]: Remove: archive file [/home/abi/fetcher/tmp/tf_nightly_cpu-2.17.0.dev20240404-cp39-cp39-win_amd64.whl.zip]
+[2024-04-05 10:49:00] INFO root fetch - processPackages [tf-nightly-cpu]: Remove: archive file [/home/abi/fetcher/tmp/tf_nightly_cpu-2.17.0.dev20240405-cp39-cp39-win_amd64.whl.zip]
+[2024-04-05 10:49:00] INFO root fetch - main [MainThread]: End processing [tf-nightly-cpu]: success
+[2024-04-05 10:49:00] INFO root fetch - main [MainThread]: Store serial: [22633573]
