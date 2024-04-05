@@ -12574,3 +12574,17 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2024-04-05 07:39:23] INFO root fetch - processPackages [otx]: Remove: archive file [/home/abi/fetcher/tmp/otx-1.6.0-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
 [2024-04-05 07:39:23] INFO root fetch - main [MainThread]: End processing [otx]: success
 [2024-04-05 07:39:23] INFO root fetch - main [MainThread]: Store serial: [22632082]
+[2024-04-05 07:41:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22632082]
+[2024-04-05 07:41:33] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-04-05 07:41:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: s3-credentials
+[2024-04-05 07:41:33] INFO root fetch - processPackages [s3-credentials]: New version: [0.9] Old Version: [0.8]
+[2024-04-05 07:41:33] INFO root fetch - processPackages [s3-credentials]: Downloading https://files.pythonhosted.org/packages/32/54/5d6e6f6be3baca454765aefc03c4498f64ebf4c738e4f13221cdb27ccf6d/s3-credentials-0.8.tar.gz
+[2024-04-05 07:41:33] WARNING root fetch - processPackages [s3-credentials]: Timeout reached during download
+[2024-04-05 07:41:33] INFO root fetch - processPackages [s3-credentials]: Downloading https://files.pythonhosted.org/packages/62/ef/44d5637d933d4ab24a39a42048d7f48f5cf3e56d1f7c7116a952ff089d36/s3-credentials-0.9.tar.gz
+[2024-04-05 07:41:34] WARNING root fetch - processPackages [s3-credentials]: Timeout reached during download
+[2024-04-05 07:41:34] INFO root fetch - processPackages [s3-credentials]: executing diffoscope
+[2024-04-05 07:41:34] INFO root fetch - processPackages [s3-credentials]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/s3-credentials-0.8.tar.gz tmp/s3-credentials-0.9.tar.gz --markdown 20240405/s/s3-credentials/0.8-0.9/diff.md --exclude *.pyd
+[2024-04-05 07:41:34] INFO root fetch - processPackages [s3-credentials]: Remove: archive file [/home/abi/fetcher/tmp/s3-credentials-0.8.tar.gz]
+[2024-04-05 07:41:34] INFO root fetch - processPackages [s3-credentials]: Remove: archive file [/home/abi/fetcher/tmp/s3-credentials-0.9.tar.gz]
+[2024-04-05 07:41:34] INFO root fetch - main [MainThread]: End processing [s3-credentials]: success
+[2024-04-05 07:41:34] INFO root fetch - main [MainThread]: Store serial: [22632088]
