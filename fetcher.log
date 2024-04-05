@@ -20119,3 +20119,39 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2024-04-05 12:58:04] INFO root fetch - processPackages [flow.record]: Remove: archive file [/home/abi/fetcher/tmp/flow.record-3.9.dev9-py3-none-any.whl.zip]
 [2024-04-05 12:58:04] INFO root fetch - main [MainThread]: End processing [flow.record]: success
 [2024-04-05 12:58:04] INFO root fetch - main [MainThread]: Store serial: [22634934]
+[2024-04-05 13:00:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22634934]
+[2024-04-05 13:00:13] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-05 13:00:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: maui-software
+[2024-04-05 13:00:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: explainy
+[2024-04-05 13:00:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: 3scale-api
+[2024-04-05 13:00:13] INFO root fetch - processPackages [explainy]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-04-05 13:00:13] INFO root fetch - processPackages [maui-software]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-05 13:00:13] INFO root fetch - processPackages [3scale-api]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-04-05 13:00:14] INFO root fetch - processPackages [3scale-api]: Downloading https://files.pythonhosted.org/packages/d7/27/4911fee4f1930058b1f48ce63993d497d0faa5d03fd3615744ae45e86a4b/3scale-api-0.8.0.tar.gz
+[2024-04-05 13:00:14] INFO root fetch - processPackages [maui-software]: Downloading https://files.pythonhosted.org/packages/f1/f4/010215140466096d3464ebb4ea967d4f7f33afc210844c4ef5bf8e3c2a11/maui_software-0.1.8.tar.gz
+[2024-04-05 13:00:14] INFO root fetch - processPackages [explainy]: Downloading https://files.pythonhosted.org/packages/62/b3/95a4f61832d59eb34c16f73c22e3e82a8c1084152f6b46025e720c43d1cf/explainy-0.2.8.tar.gz
+[2024-04-05 13:00:14] WARNING root fetch - processPackages [maui-software]: Timeout reached during download
+[2024-04-05 13:00:14] WARNING root fetch - processPackages [3scale-api]: Timeout reached during download
+[2024-04-05 13:00:14] WARNING root fetch - processPackages [explainy]: Timeout reached during download
+[2024-04-05 13:00:14] INFO root fetch - processPackages [maui-software]: Downloading https://files.pythonhosted.org/packages/c9/33/81f0b29b155b92d451a2f958bfe85a1d70c582251f3872d3b5450129e0a5/maui_software-0.1.9.tar.gz
+[2024-04-05 13:00:14] INFO root fetch - processPackages [3scale-api]: Downloading https://files.pythonhosted.org/packages/03/d0/282b47e57048872040f55fda206d960886b79c092333addc4e217f7cccd9/3scale-api-0.9.0.tar.gz
+[2024-04-05 13:00:14] WARNING root fetch - processPackages [3scale-api]: Timeout reached during download
+[2024-04-05 13:00:14] INFO root fetch - processPackages [3scale-api]: executing diffoscope
+[2024-04-05 13:00:14] INFO root fetch - processPackages [3scale-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/3scale-api-0.8.0.tar.gz tmp/3scale-api-0.9.0.tar.gz --markdown 20240405/3/3scale-api/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2024-04-05 13:00:14] INFO root fetch - processPackages [explainy]: Downloading https://files.pythonhosted.org/packages/49/ac/0ebdb5cc213755b5b10ca61ba59d146c1315917b9b75b7b285eb1df912f7/explainy-0.2.9.tar.gz
+[2024-04-05 13:00:14] WARNING root fetch - processPackages [maui-software]: Timeout reached during download
+[2024-04-05 13:00:14] INFO root fetch - processPackages [maui-software]: executing diffoscope
+[2024-04-05 13:00:14] INFO root fetch - processPackages [maui-software]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/maui_software-0.1.8.tar.gz tmp/maui_software-0.1.9.tar.gz --markdown 20240405/m/maui-software/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2024-04-05 13:00:14] WARNING root fetch - processPackages [explainy]: Timeout reached during download
+[2024-04-05 13:00:14] INFO root fetch - processPackages [explainy]: executing diffoscope
+[2024-04-05 13:00:14] INFO root fetch - processPackages [explainy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/explainy-0.2.8.tar.gz tmp/explainy-0.2.9.tar.gz --markdown 20240405/e/explainy/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2024-04-05 13:00:15] INFO root fetch - processPackages [3scale-api]: Remove: archive file [/home/abi/fetcher/tmp/3scale-api-0.8.0.tar.gz]
+[2024-04-05 13:00:15] INFO root fetch - processPackages [3scale-api]: Remove: archive file [/home/abi/fetcher/tmp/3scale-api-0.9.0.tar.gz]
+[2024-04-05 13:00:15] INFO root fetch - main [MainThread]: End processing [3scale-api]: success
+[2024-04-05 13:00:15] INFO root fetch - processPackages [maui-software]: Remove: archive file [/home/abi/fetcher/tmp/maui_software-0.1.8.tar.gz]
+[2024-04-05 13:00:15] INFO root fetch - processPackages [maui-software]: Remove: archive file [/home/abi/fetcher/tmp/maui_software-0.1.9.tar.gz]
+[2024-04-05 13:00:15] INFO root fetch - main [MainThread]: End processing [maui-software]: success
+[2024-04-05 13:00:16] INFO root fetch - processPackages [explainy]: Remove: archive file [/home/abi/fetcher/tmp/explainy-0.2.8.tar.gz]
+[2024-04-05 13:00:16] INFO root fetch - processPackages [explainy]: Remove: archive file [/home/abi/fetcher/tmp/explainy-0.2.9.tar.gz]
+[2024-04-05 13:00:16] INFO root fetch - main [MainThread]: End processing [explainy]: success
+[2024-04-05 13:00:16] INFO root fetch - main [MainThread]: Store serial: [22634944]
