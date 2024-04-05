@@ -2872,3 +2872,61 @@
 [2024-04-05 02:18:45] INFO root fetch - processPackages [zha]: Remove: archive file [/home/abi/fetcher/tmp/zha-0.0.7.tar.gz]
 [2024-04-05 02:18:45] INFO root fetch - main [MainThread]: End processing [zha]: success
 [2024-04-05 02:18:45] INFO root fetch - main [MainThread]: Store serial: [22629140]
+[2024-04-05 02:20:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22629140]
+[2024-04-05 02:20:54] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-05 02:20:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyvene
+[2024-04-05 02:20:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cdk-budibase
+[2024-04-05 02:20:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cdk-gitlab-runner
+[2024-04-05 02:20:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cdklabs.cdk-hyperledger-fabric-network
+[2024-04-05 02:20:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: torchao-nightly
+[2024-04-05 02:20:54] INFO root fetch - processPackages [pyvene]: New version: [0.1.0] Old Version: [0.0.8]
+[2024-04-05 02:20:54] INFO root fetch - processPackages [torchao-nightly]: New version: [2024.4.5] Old Version: [2024.4.4]
+[2024-04-05 02:20:54] INFO root fetch - processPackages [cdk-budibase]: New version: [0.0.99] Old Version: [0.0.98]
+[2024-04-05 02:20:54] INFO root fetch - processPackages [cdklabs.cdk-hyperledger-fabric-network]: New version: [0.8.99] Old Version: [0.8.98]
+[2024-04-05 02:20:54] INFO root fetch - processPackages [pyvene]: Downloading https://files.pythonhosted.org/packages/52/d1/cf4c123648eb8e0c1c4664ff02c337ba173c6167724d754ba237553ac680/pyvene-0.0.8.tar.gz
+[2024-04-05 02:20:54] INFO root fetch - processPackages [cdk-budibase]: Downloading https://files.pythonhosted.org/packages/4f/0a/01c6428b0ea2e78dd2dd9e10aba3ba8252b6cd0992b5a90ea9ba90983551/cdk-budibase-0.0.98.tar.gz
+[2024-04-05 02:20:54] INFO root fetch - processPackages [torchao-nightly]: Downloading https://files.pythonhosted.org/packages/d9/a8/2690526242eb89ed6a2ef889256815aa3278c2245a886204d09dd9c334e5/torchao-nightly-2024.4.4.tar.gz
+[2024-04-05 02:20:54] INFO root fetch - processPackages [cdklabs.cdk-hyperledger-fabric-network]: Downloading https://files.pythonhosted.org/packages/9b/c8/ddb4d2575b42b36bf1ebf5daccec9c3c53a9ac9cadaeffb66bed93dc3bab/cdklabs.cdk-hyperledger-fabric-network-0.8.98.tar.gz
+[2024-04-05 02:20:54] WARNING root fetch - processPackages [pyvene]: Timeout reached during download
+[2024-04-05 02:20:54] WARNING root fetch - processPackages [torchao-nightly]: Timeout reached during download
+[2024-04-05 02:20:54] WARNING root fetch - processPackages [cdk-budibase]: Timeout reached during download
+[2024-04-05 02:20:54] WARNING root fetch - processPackages [cdklabs.cdk-hyperledger-fabric-network]: Timeout reached during download
+[2024-04-05 02:20:54] INFO root fetch - processPackages [pyvene]: Downloading https://files.pythonhosted.org/packages/16/16/555bfe7f31f3b08ad3c6a6c00ec20f90c0f6df4ab1b4394ff77c389c6518/pyvene-0.1.0.tar.gz
+[2024-04-05 02:20:54] INFO root fetch - processPackages [torchao-nightly]: Downloading https://files.pythonhosted.org/packages/f9/90/965a75bec003665eda400b6d0e57bde27ffce1e44b6c43f42ce42212caac/torchao-nightly-2024.4.5.tar.gz
+[2024-04-05 02:20:54] INFO root fetch - processPackages [cdk-budibase]: Downloading https://files.pythonhosted.org/packages/3d/b1/10d1c8f0601959fd0771f3dc7b94b15e702b81729d74397e80ca3dd66c88/cdk-budibase-0.0.99.tar.gz
+[2024-04-05 02:20:54] INFO root fetch - processPackages [cdk-gitlab-runner]: New version: [2.2.99] Old Version: [2.2.98]
+[2024-04-05 02:20:55] INFO root fetch - processPackages [cdklabs.cdk-hyperledger-fabric-network]: Downloading https://files.pythonhosted.org/packages/56/40/cbf52f4213018f2d82f0aad0f2fa90e69c2923704c1905bd7e090d3accf2/cdklabs.cdk-hyperledger-fabric-network-0.8.99.tar.gz
+[2024-04-05 02:20:55] WARNING root fetch - processPackages [torchao-nightly]: Timeout reached during download
+[2024-04-05 02:20:55] INFO root fetch - processPackages [torchao-nightly]: executing diffoscope
+[2024-04-05 02:20:55] INFO root fetch - processPackages [torchao-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchao-nightly-2024.4.4.tar.gz tmp/torchao-nightly-2024.4.5.tar.gz --markdown 20240405/t/torchao-nightly/2024.4.4-2024.4.5/diff.md --exclude *.pyd
+[2024-04-05 02:20:55] WARNING root fetch - processPackages [pyvene]: Timeout reached during download
+[2024-04-05 02:20:55] INFO root fetch - processPackages [pyvene]: executing diffoscope
+[2024-04-05 02:20:55] INFO root fetch - processPackages [pyvene]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyvene-0.0.8.tar.gz tmp/pyvene-0.1.0.tar.gz --markdown 20240405/p/pyvene/0.0.8-0.1.0/diff.md --exclude *.pyd
+[2024-04-05 02:20:55] WARNING root fetch - processPackages [cdk-budibase]: Timeout reached during download
+[2024-04-05 02:20:55] INFO root fetch - processPackages [cdk-budibase]: executing diffoscope
+[2024-04-05 02:20:55] INFO root fetch - processPackages [cdk-budibase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-budibase-0.0.98.tar.gz tmp/cdk-budibase-0.0.99.tar.gz --markdown 20240405/c/cdk-budibase/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2024-04-05 02:20:55] WARNING root fetch - processPackages [cdklabs.cdk-hyperledger-fabric-network]: Timeout reached during download
+[2024-04-05 02:20:55] INFO root fetch - processPackages [cdklabs.cdk-hyperledger-fabric-network]: executing diffoscope
+[2024-04-05 02:20:55] INFO root fetch - processPackages [cdklabs.cdk-hyperledger-fabric-network]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdklabs.cdk-hyperledger-fabric-network-0.8.98.tar.gz tmp/cdklabs.cdk-hyperledger-fabric-network-0.8.99.tar.gz --markdown 20240405/c/cdklabs.cdk-hyperledger-fabric-network/0.8.98-0.8.99/diff.md --exclude *.pyd
+[2024-04-05 02:20:55] INFO root fetch - processPackages [cdk-gitlab-runner]: Downloading https://files.pythonhosted.org/packages/07/29/9f2cc8590770873b6073743e94ff15a2a7913eb0de3e6a4d2fc133008f62/cdk-gitlab-runner-2.2.98.tar.gz
+[2024-04-05 02:20:55] WARNING root fetch - processPackages [cdk-gitlab-runner]: Timeout reached during download
+[2024-04-05 02:20:55] INFO root fetch - processPackages [cdk-gitlab-runner]: Downloading https://files.pythonhosted.org/packages/16/61/e9f00b4e877a6352bd641de360f7577c27548fbcedc3aab19b1cf3852b9a/cdk-gitlab-runner-2.2.99.tar.gz
+[2024-04-05 02:20:55] WARNING root fetch - processPackages [cdk-gitlab-runner]: Timeout reached during download
+[2024-04-05 02:20:55] INFO root fetch - processPackages [cdk-gitlab-runner]: executing diffoscope
+[2024-04-05 02:20:55] INFO root fetch - processPackages [cdk-gitlab-runner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-gitlab-runner-2.2.98.tar.gz tmp/cdk-gitlab-runner-2.2.99.tar.gz --markdown 20240405/c/cdk-gitlab-runner/2.2.98-2.2.99/diff.md --exclude *.pyd
+[2024-04-05 02:20:55] INFO root fetch - processPackages [cdklabs.cdk-hyperledger-fabric-network]: Remove: archive file [/home/abi/fetcher/tmp/cdklabs.cdk-hyperledger-fabric-network-0.8.98.tar.gz]
+[2024-04-05 02:20:55] INFO root fetch - processPackages [cdklabs.cdk-hyperledger-fabric-network]: Remove: archive file [/home/abi/fetcher/tmp/cdklabs.cdk-hyperledger-fabric-network-0.8.99.tar.gz]
+[2024-04-05 02:20:55] INFO root fetch - main [MainThread]: End processing [cdklabs.cdk-hyperledger-fabric-network]: success
+[2024-04-05 02:20:55] INFO root fetch - processPackages [torchao-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchao-nightly-2024.4.4.tar.gz]
+[2024-04-05 02:20:55] INFO root fetch - processPackages [torchao-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchao-nightly-2024.4.5.tar.gz]
+[2024-04-05 02:20:55] INFO root fetch - main [MainThread]: End processing [torchao-nightly]: success
+[2024-04-05 02:20:55] INFO root fetch - processPackages [pyvene]: Remove: archive file [/home/abi/fetcher/tmp/pyvene-0.0.8.tar.gz]
+[2024-04-05 02:20:55] INFO root fetch - processPackages [pyvene]: Remove: archive file [/home/abi/fetcher/tmp/pyvene-0.1.0.tar.gz]
+[2024-04-05 02:20:55] INFO root fetch - main [MainThread]: End processing [pyvene]: success
+[2024-04-05 02:20:55] INFO root fetch - processPackages [cdk-budibase]: Remove: archive file [/home/abi/fetcher/tmp/cdk-budibase-0.0.98.tar.gz]
+[2024-04-05 02:20:55] INFO root fetch - processPackages [cdk-budibase]: Remove: archive file [/home/abi/fetcher/tmp/cdk-budibase-0.0.99.tar.gz]
+[2024-04-05 02:20:55] INFO root fetch - main [MainThread]: End processing [cdk-budibase]: success
+[2024-04-05 02:20:56] INFO root fetch - processPackages [cdk-gitlab-runner]: Remove: archive file [/home/abi/fetcher/tmp/cdk-gitlab-runner-2.2.98.tar.gz]
+[2024-04-05 02:20:56] INFO root fetch - processPackages [cdk-gitlab-runner]: Remove: archive file [/home/abi/fetcher/tmp/cdk-gitlab-runner-2.2.99.tar.gz]
+[2024-04-05 02:20:56] INFO root fetch - main [MainThread]: End processing [cdk-gitlab-runner]: success
+[2024-04-05 02:20:56] INFO root fetch - main [MainThread]: Store serial: [22629155]
