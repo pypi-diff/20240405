@@ -10423,3 +10423,17 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2024-04-05 05:23:12] INFO root fetch - processPackages [masscube]: Remove: archive file [/home/abi/fetcher/tmp/masscube-0.0.6.tar.gz]
 [2024-04-05 05:23:12] INFO root fetch - main [MainThread]: End processing [masscube]: success
 [2024-04-05 05:23:12] INFO root fetch - main [MainThread]: Store serial: [22631441]
+[2024-04-05 05:25:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22631441]
+[2024-04-05 05:25:20] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-04-05 05:25:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: integ-db
+[2024-04-05 05:25:21] INFO root fetch - processPackages [integ-db]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-04-05 05:25:21] INFO root fetch - processPackages [integ-db]: Downloading https://files.pythonhosted.org/packages/e3/0f/eb9a59c970484469fb90933a1031011c6d6655df6f5d628654c99cf2392c/integ-db-0.0.4.tar.gz
+[2024-04-05 05:25:21] WARNING root fetch - processPackages [integ-db]: Timeout reached during download
+[2024-04-05 05:25:21] INFO root fetch - processPackages [integ-db]: Downloading https://files.pythonhosted.org/packages/68/47/a7ed8a3f596e226b1f6cb5125a0898aa3c1e4fd76b4fb2bc307456f81f79/integ-db-0.0.5.tar.gz
+[2024-04-05 05:25:21] WARNING root fetch - processPackages [integ-db]: Timeout reached during download
+[2024-04-05 05:25:21] INFO root fetch - processPackages [integ-db]: executing diffoscope
+[2024-04-05 05:25:21] INFO root fetch - processPackages [integ-db]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/integ-db-0.0.4.tar.gz tmp/integ-db-0.0.5.tar.gz --markdown 20240405/i/integ-db/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2024-04-05 05:25:22] INFO root fetch - processPackages [integ-db]: Remove: archive file [/home/abi/fetcher/tmp/integ-db-0.0.4.tar.gz]
+[2024-04-05 05:25:22] INFO root fetch - processPackages [integ-db]: Remove: archive file [/home/abi/fetcher/tmp/integ-db-0.0.5.tar.gz]
+[2024-04-05 05:25:22] INFO root fetch - main [MainThread]: End processing [integ-db]: success
+[2024-04-05 05:25:22] INFO root fetch - main [MainThread]: Store serial: [22631441]
