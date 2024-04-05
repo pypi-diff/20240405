@@ -13467,3 +13467,50 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2024-04-05 08:23:33] INFO root fetch - processPackages [valmi-connector-lib]: Remove: archive file [/home/abi/fetcher/tmp/valmi_connector_lib-0.1.99.tar.gz]
 [2024-04-05 08:23:33] INFO root fetch - main [MainThread]: End processing [valmi-connector-lib]: success
 [2024-04-05 08:23:33] INFO root fetch - main [MainThread]: Store serial: [22632443]
+[2024-04-05 08:25:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22632443]
+[2024-04-05 08:25:41] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-05 08:25:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: phonenumberslite
+[2024-04-05 08:25:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: phonenumbers
+[2024-04-05 08:25:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mngs
+[2024-04-05 08:25:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: haskellian-either
+[2024-04-05 08:25:42] INFO root fetch - processPackages [haskellian-either]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-04-05 08:25:42] INFO root fetch - processPackages [phonenumbers]: New version: [8.9.9] Old Version: [8.9.8]
+[2024-04-05 08:25:42] INFO root fetch - processPackages [mngs]: New version: [1.2.2] Old Version: [1.2.0]
+[2024-04-05 08:25:42] INFO root fetch - processPackages [phonenumberslite]: New version: [8.9.9] Old Version: [8.9.8]
+[2024-04-05 08:25:42] INFO root fetch - processPackages [phonenumbers]: Downloading https://files.pythonhosted.org/packages/61/7b/90d90d52bf1a407405c8b13f5701c40d4ed9574fa05f456f232296b5390d/phonenumbers-8.9.8.tar.gz
+[2024-04-05 08:25:42] INFO root fetch - processPackages [haskellian-either]: Downloading https://files.pythonhosted.org/packages/4a/7d/e86c3686b2a02e56cb88a81c7912f82d0f5e6561e084a823359068ed6b31/haskellian-either-0.1.1.tar.gz
+[2024-04-05 08:25:42] INFO root fetch - processPackages [mngs]: Downloading https://files.pythonhosted.org/packages/1a/e1/fc4c1eb6792b990788052b27fea43b440f003ba8a9a613cb9a838540a6c0/mngs-1.2.0.tar.gz
+[2024-04-05 08:25:42] INFO root fetch - processPackages [phonenumberslite]: Downloading https://files.pythonhosted.org/packages/2a/34/673df63018e24dd0e697c0c1d47fbaab6775c15d1798ed9e0b834b78ac65/phonenumberslite-8.9.8.tar.gz
+[2024-04-05 08:25:42] WARNING root fetch - processPackages [haskellian-either]: Timeout reached during download
+[2024-04-05 08:25:42] WARNING root fetch - processPackages [mngs]: Timeout reached during download
+[2024-04-05 08:25:42] INFO root fetch - processPackages [haskellian-either]: Downloading https://files.pythonhosted.org/packages/67/4d/77556e02df16a7e64a08fbd02a24835dd7292f8b2badf105cf7771dd1416/haskellian-either-0.1.2.tar.gz
+[2024-04-05 08:25:42] WARNING root fetch - processPackages [phonenumberslite]: Timeout reached during download
+[2024-04-05 08:25:42] WARNING root fetch - processPackages [haskellian-either]: Timeout reached during download
+[2024-04-05 08:25:42] INFO root fetch - processPackages [haskellian-either]: executing diffoscope
+[2024-04-05 08:25:42] INFO root fetch - processPackages [haskellian-either]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/haskellian-either-0.1.1.tar.gz tmp/haskellian-either-0.1.2.tar.gz --markdown 20240405/h/haskellian-either/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2024-04-05 08:25:42] INFO root fetch - processPackages [mngs]: Downloading https://files.pythonhosted.org/packages/ba/23/05f733d20d0b11a3cb6e9b21a3e00173dede374770c933be3a1549f2b6d0/mngs-1.2.2.tar.gz
+[2024-04-05 08:25:42] WARNING root fetch - processPackages [phonenumbers]: Timeout reached during download
+[2024-04-05 08:25:42] INFO root fetch - processPackages [phonenumberslite]: Downloading https://files.pythonhosted.org/packages/1b/d2/a02b729fceb0f6e61adf61ac7dc258345c724815ff446e3d8204cae3e838/phonenumberslite-8.9.9.tar.gz
+[2024-04-05 08:25:42] WARNING root fetch - processPackages [mngs]: Timeout reached during download
+[2024-04-05 08:25:42] INFO root fetch - processPackages [mngs]: executing diffoscope
+[2024-04-05 08:25:42] INFO root fetch - processPackages [mngs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mngs-1.2.0.tar.gz tmp/mngs-1.2.2.tar.gz --markdown 20240405/m/mngs/1.2.0-1.2.2/diff.md --exclude *.pyd
+[2024-04-05 08:25:42] INFO root fetch - processPackages [phonenumbers]: Downloading https://files.pythonhosted.org/packages/bc/2a/0ad24a36f6763be01df1b427f23a38456a351fdf205b0c19041499a9f82c/phonenumbers-8.9.9.tar.gz
+[2024-04-05 08:25:43] WARNING root fetch - processPackages [phonenumberslite]: Timeout reached during download
+[2024-04-05 08:25:43] INFO root fetch - processPackages [phonenumberslite]: executing diffoscope
+[2024-04-05 08:25:43] INFO root fetch - processPackages [phonenumberslite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/phonenumberslite-8.9.8.tar.gz tmp/phonenumberslite-8.9.9.tar.gz --markdown 20240405/p/phonenumberslite/8.9.8-8.9.9/diff.md --exclude *.pyd
+[2024-04-05 08:25:43] WARNING root fetch - processPackages [phonenumbers]: Timeout reached during download
+[2024-04-05 08:25:43] INFO root fetch - processPackages [phonenumbers]: executing diffoscope
+[2024-04-05 08:25:43] INFO root fetch - processPackages [phonenumbers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/phonenumbers-8.9.8.tar.gz tmp/phonenumbers-8.9.9.tar.gz --markdown 20240405/p/phonenumbers/8.9.8-8.9.9/diff.md --exclude *.pyd
+[2024-04-05 08:25:43] INFO root fetch - processPackages [haskellian-either]: Remove: archive file [/home/abi/fetcher/tmp/haskellian-either-0.1.1.tar.gz]
+[2024-04-05 08:25:43] INFO root fetch - processPackages [haskellian-either]: Remove: archive file [/home/abi/fetcher/tmp/haskellian-either-0.1.2.tar.gz]
+[2024-04-05 08:25:43] INFO root fetch - main [MainThread]: End processing [haskellian-either]: success
+[2024-04-05 08:25:43] INFO root fetch - processPackages [mngs]: Remove: archive file [/home/abi/fetcher/tmp/mngs-1.2.0.tar.gz]
+[2024-04-05 08:25:43] INFO root fetch - processPackages [mngs]: Remove: archive file [/home/abi/fetcher/tmp/mngs-1.2.2.tar.gz]
+[2024-04-05 08:25:43] INFO root fetch - main [MainThread]: End processing [mngs]: success
+[2024-04-05 08:25:45] INFO root fetch - processPackages [phonenumberslite]: Remove: archive file [/home/abi/fetcher/tmp/phonenumberslite-8.9.8.tar.gz]
+[2024-04-05 08:25:45] INFO root fetch - processPackages [phonenumberslite]: Remove: archive file [/home/abi/fetcher/tmp/phonenumberslite-8.9.9.tar.gz]
+[2024-04-05 08:25:45] INFO root fetch - main [MainThread]: End processing [phonenumberslite]: success
+[2024-04-05 08:25:46] INFO root fetch - processPackages [phonenumbers]: Remove: archive file [/home/abi/fetcher/tmp/phonenumbers-8.9.8.tar.gz]
+[2024-04-05 08:25:46] INFO root fetch - processPackages [phonenumbers]: Remove: archive file [/home/abi/fetcher/tmp/phonenumbers-8.9.9.tar.gz]
+[2024-04-05 08:25:46] INFO root fetch - main [MainThread]: End processing [phonenumbers]: success
+[2024-04-05 08:25:46] INFO root fetch - main [MainThread]: Store serial: [22632461]
