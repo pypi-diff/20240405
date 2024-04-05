@@ -17404,3 +17404,17 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2024-04-05 11:21:46] INFO root fetch - processPackages [tbp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tbp-nightly-2.9.0a20221130.tar.gz]
 [2024-04-05 11:21:46] INFO root fetch - main [MainThread]: End processing [tbp-nightly]: success
 [2024-04-05 11:21:46] INFO root fetch - main [MainThread]: Store serial: [22633920]
+[2024-04-05 11:23:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22633920]
+[2024-04-05 11:23:55] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-04-05 11:23:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: shopware-api-client
+[2024-04-05 11:23:55] INFO root fetch - processPackages [shopware-api-client]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-05 11:23:55] INFO root fetch - processPackages [shopware-api-client]: Downloading https://files.pythonhosted.org/packages/b7/0f/6c9dc02510fb7785f1be2822ab641b54bf44cf6cb4df1763cdba560cc69b/shopware_api_client-1.0.8.tar.gz
+[2024-04-05 11:23:55] WARNING root fetch - processPackages [shopware-api-client]: Timeout reached during download
+[2024-04-05 11:23:56] INFO root fetch - processPackages [shopware-api-client]: Downloading https://files.pythonhosted.org/packages/71/6c/c42b67ee3d6f04c8e4203f50b963d759982a0c08ac17865980b8cf805393/shopware_api_client-1.0.9.tar.gz
+[2024-04-05 11:23:56] WARNING root fetch - processPackages [shopware-api-client]: Timeout reached during download
+[2024-04-05 11:23:56] INFO root fetch - processPackages [shopware-api-client]: executing diffoscope
+[2024-04-05 11:23:56] INFO root fetch - processPackages [shopware-api-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shopware_api_client-1.0.8.tar.gz tmp/shopware_api_client-1.0.9.tar.gz --markdown 20240405/s/shopware-api-client/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2024-04-05 11:23:57] INFO root fetch - processPackages [shopware-api-client]: Remove: archive file [/home/abi/fetcher/tmp/shopware_api_client-1.0.8.tar.gz]
+[2024-04-05 11:23:57] INFO root fetch - processPackages [shopware-api-client]: Remove: archive file [/home/abi/fetcher/tmp/shopware_api_client-1.0.9.tar.gz]
+[2024-04-05 11:23:57] INFO root fetch - main [MainThread]: End processing [shopware-api-client]: success
+[2024-04-05 11:23:57] INFO root fetch - main [MainThread]: Store serial: [22633923]
