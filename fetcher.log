@@ -12327,3 +12327,53 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2024-04-05 07:23:53] INFO root fetch - processPackages [coretex]: Remove: archive file [/home/abi/fetcher/tmp/coretex-1.0.99.tar.gz]
 [2024-04-05 07:23:53] INFO root fetch - main [MainThread]: End processing [coretex]: success
 [2024-04-05 07:23:53] INFO root fetch - main [MainThread]: Store serial: [22631979]
+[2024-04-05 07:25:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22631979]
+[2024-04-05 07:26:03] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-05 07:26:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: connected-components-3d
+[2024-04-05 07:26:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: AppWrapper
+[2024-04-05 07:26:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: startlit
+[2024-04-05 07:26:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: fleece-worker
+[2024-04-05 07:26:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: django_herobiz_ds
+[2024-04-05 07:26:03] WARNING root fetch - processPackages [startlit]: Skipping, unable to determine old version
+[2024-04-05 07:26:03] INFO root fetch - main [MainThread]: End processing [startlit] error
+[2024-04-05 07:26:03] INFO root fetch - processPackages [AppWrapper]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-04-05 07:26:03] INFO root fetch - processPackages [AppWrapper]: Downloading https://files.pythonhosted.org/packages/5e/d3/e35d5f0cc976fdac22170eeb2e9eac692e9c8d2ae267028a409e962593a1/AppWrapper-0.2.8.tar.gz
+[2024-04-05 07:26:03] INFO root fetch - processPackages [fleece-worker]: New version: [0.1.0] Old Version: [0.0.1]
+[2024-04-05 07:26:03] INFO root fetch - processPackages [django_herobiz_ds]: New version: [2.0.3] Old Version: [2.0.2]
+[2024-04-05 07:26:03] WARNING root fetch - processPackages [AppWrapper]: Timeout reached during download
+[2024-04-05 07:26:03] INFO root fetch - processPackages [fleece-worker]: Downloading https://files.pythonhosted.org/packages/f7/d0/ad8b3570924f0611b7a027739223afd27c882ea66df1ff0b90a2f9ea0cc5/fleece_worker-0.0.1-py3-none-any.whl
+[2024-04-05 07:26:03] INFO root fetch - processPackages [AppWrapper]: Downloading https://files.pythonhosted.org/packages/79/a0/6bf35da1d22d8fb26cc1802bf2ebdc48752b724a5ebf36fe503099ad959e/AppWrapper-0.2.9.tar.gz
+[2024-04-05 07:26:03] INFO root fetch - processPackages [connected-components-3d]: New version: [3.9.1] Old Version: [3.9.0]
+[2024-04-05 07:26:03] INFO root fetch - processPackages [django_herobiz_ds]: Downloading https://files.pythonhosted.org/packages/eb/14/0f972a956564fcce8c48ceb1513168bbf378a38ccc9cd8b2952cc094a3bd/django_herobiz_ds-2.0.2.tar.gz
+[2024-04-05 07:26:03] WARNING root fetch - processPackages [fleece-worker]: Timeout reached during download
+[2024-04-05 07:26:03] WARNING root fetch - processPackages [AppWrapper]: Timeout reached during download
+[2024-04-05 07:26:03] INFO root fetch - processPackages [AppWrapper]: executing diffoscope
+[2024-04-05 07:26:03] INFO root fetch - processPackages [AppWrapper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/AppWrapper-0.2.8.tar.gz tmp/AppWrapper-0.2.9.tar.gz --markdown 20240405/A/AppWrapper/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2024-04-05 07:26:03] WARNING root fetch - processPackages [django_herobiz_ds]: Timeout reached during download
+[2024-04-05 07:26:03] INFO root fetch - processPackages [fleece-worker]: Downloading https://files.pythonhosted.org/packages/7d/e0/711b89d81400c776f6ca85894ecc31b8fe43a1317a8877bf70e76d83a4f6/fleece-worker-0.1.0.tar.gz
+[2024-04-05 07:26:04] INFO root fetch - processPackages [connected-components-3d]: Downloading https://files.pythonhosted.org/packages/51/f7/273086ac8fbe360bd2595ef0d4dd153890299f2197dacb752a43441f87cf/connected-components-3d-3.9.0.tar.gz
+[2024-04-05 07:26:04] WARNING root fetch - processPackages [fleece-worker]: Timeout reached during download
+[2024-04-05 07:26:04] INFO root fetch - processPackages [fleece-worker]: executing diffoscope
+[2024-04-05 07:26:04] INFO root fetch - processPackages [fleece-worker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fleece_worker-0.0.1-py3-none-any.whl.zip tmp/fleece-worker-0.1.0.tar.gz --markdown 20240405/f/fleece-worker/0.0.1-0.1.0/diff.md --exclude *.pyd
+[2024-04-05 07:26:04] WARNING root fetch - processPackages [connected-components-3d]: Timeout reached during download
+[2024-04-05 07:26:04] INFO root fetch - processPackages [django_herobiz_ds]: Downloading https://files.pythonhosted.org/packages/7f/52/4f7565381e3d808490c1f57641d7a1789c9d6f21efeb687a2190fe2cf72a/django_herobiz_ds-2.0.3.tar.gz
+[2024-04-05 07:26:04] INFO root fetch - processPackages [AppWrapper]: Remove: archive file [/home/abi/fetcher/tmp/AppWrapper-0.2.8.tar.gz]
+[2024-04-05 07:26:04] INFO root fetch - processPackages [AppWrapper]: Remove: archive file [/home/abi/fetcher/tmp/AppWrapper-0.2.9.tar.gz]
+[2024-04-05 07:26:04] INFO root fetch - main [MainThread]: End processing [AppWrapper]: success
+[2024-04-05 07:26:04] INFO root fetch - processPackages [connected-components-3d]: Downloading https://files.pythonhosted.org/packages/14/97/5d0d6bde68a8f6a4eca89d60116c7e6c1761f7d410f586fecde73d7d67dc/connected-components-3d-3.9.1.tar.gz
+[2024-04-05 07:26:04] INFO root fetch - processPackages [fleece-worker]: Remove: archive file [/home/abi/fetcher/tmp/fleece_worker-0.0.1-py3-none-any.whl.zip]
+[2024-04-05 07:26:04] INFO root fetch - processPackages [fleece-worker]: Remove: archive file [/home/abi/fetcher/tmp/fleece-worker-0.1.0.tar.gz]
+[2024-04-05 07:26:04] INFO root fetch - main [MainThread]: End processing [fleece-worker]: success
+[2024-04-05 07:26:04] WARNING root fetch - processPackages [connected-components-3d]: Timeout reached during download
+[2024-04-05 07:26:04] INFO root fetch - processPackages [connected-components-3d]: executing diffoscope
+[2024-04-05 07:26:04] INFO root fetch - processPackages [connected-components-3d]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/connected-components-3d-3.9.0.tar.gz tmp/connected-components-3d-3.9.1.tar.gz --markdown 20240405/c/connected-components-3d/3.9.0-3.9.1/diff.md --exclude *.pyd
+[2024-04-05 07:26:04] WARNING root fetch - processPackages [django_herobiz_ds]: Timeout reached during download
+[2024-04-05 07:26:04] INFO root fetch - processPackages [django_herobiz_ds]: executing diffoscope
+[2024-04-05 07:26:04] INFO root fetch - processPackages [django_herobiz_ds]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_herobiz_ds-2.0.2.tar.gz tmp/django_herobiz_ds-2.0.3.tar.gz --markdown 20240405/d/django_herobiz_ds/2.0.2-2.0.3/diff.md --exclude *.pyd
+[2024-04-05 07:26:05] INFO root fetch - processPackages [connected-components-3d]: Remove: archive file [/home/abi/fetcher/tmp/connected-components-3d-3.9.0.tar.gz]
+[2024-04-05 07:26:05] INFO root fetch - processPackages [connected-components-3d]: Remove: archive file [/home/abi/fetcher/tmp/connected-components-3d-3.9.1.tar.gz]
+[2024-04-05 07:26:05] INFO root fetch - main [MainThread]: End processing [connected-components-3d]: success
+[2024-04-05 07:26:08] INFO root fetch - processPackages [django_herobiz_ds]: Remove: archive file [/home/abi/fetcher/tmp/django_herobiz_ds-2.0.2.tar.gz]
+[2024-04-05 07:26:08] INFO root fetch - processPackages [django_herobiz_ds]: Remove: archive file [/home/abi/fetcher/tmp/django_herobiz_ds-2.0.3.tar.gz]
+[2024-04-05 07:26:08] INFO root fetch - main [MainThread]: End processing [django_herobiz_ds]: success
+[2024-04-05 07:26:08] INFO root fetch - main [MainThread]: Store serial: [22632031]
