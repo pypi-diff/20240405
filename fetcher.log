@@ -12927,3 +12927,39 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2024-04-05 08:01:11] INFO root fetch - processPackages [odoo14-addon-product-form-purchase-link]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_product_form_purchase_link-14.0.2.2.1.dev8-py3-none-any.whl.zip]
 [2024-04-05 08:01:11] INFO root fetch - main [MainThread]: End processing [odoo14-addon-product-form-purchase-link]: success
 [2024-04-05 08:01:11] INFO root fetch - main [MainThread]: Store serial: [22632265]
+[2024-04-05 08:03:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22632265]
+[2024-04-05 08:03:19] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-05 08:03:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: plotly3d
+[2024-04-05 08:03:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mov-cli-files
+[2024-04-05 08:03:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tidal-dl-ng
+[2024-04-05 08:03:19] INFO root fetch - processPackages [mov-cli-files]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-04-05 08:03:19] INFO root fetch - processPackages [plotly3d]: New version: [0.3.2] Old Version: [0.3.1]
+[2024-04-05 08:03:19] INFO root fetch - processPackages [tidal-dl-ng]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-04-05 08:03:19] INFO root fetch - processPackages [mov-cli-files]: Downloading https://files.pythonhosted.org/packages/b3/75/879a5b596f32c7f163ae52c525831d670661bc7b74dcc2cc3168a4cd73f9/mov-cli-files-1.0.0.tar.gz
+[2024-04-05 08:03:20] INFO root fetch - processPackages [plotly3d]: Downloading https://files.pythonhosted.org/packages/3d/7e/4bb2f7c934e87f603183b6404072aa6d83e6f3cc36d5d6b212584f1aefa9/plotly3d-0.3.1.tar.gz
+[2024-04-05 08:03:20] WARNING root fetch - processPackages [mov-cli-files]: Timeout reached during download
+[2024-04-05 08:03:20] INFO root fetch - processPackages [tidal-dl-ng]: Downloading https://files.pythonhosted.org/packages/9e/70/b555bff42679e2c523b9b185a4afc3ab84f257151c70ee2f4a4a2c8a2981/tidal_dl_ng-0.9.0.tar.gz
+[2024-04-05 08:03:20] WARNING root fetch - processPackages [plotly3d]: Timeout reached during download
+[2024-04-05 08:03:20] INFO root fetch - processPackages [mov-cli-files]: Downloading https://files.pythonhosted.org/packages/03/d8/a3cf783bffb250f61dab0f8dd3462dd4daeb68afb4f01ab26877b2dc2f68/mov-cli-files-1.0.1.tar.gz
+[2024-04-05 08:03:20] WARNING root fetch - processPackages [tidal-dl-ng]: Timeout reached during download
+[2024-04-05 08:03:20] WARNING root fetch - processPackages [mov-cli-files]: Timeout reached during download
+[2024-04-05 08:03:20] INFO root fetch - processPackages [mov-cli-files]: executing diffoscope
+[2024-04-05 08:03:20] INFO root fetch - processPackages [mov-cli-files]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mov-cli-files-1.0.0.tar.gz tmp/mov-cli-files-1.0.1.tar.gz --markdown 20240405/m/mov-cli-files/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2024-04-05 08:03:20] INFO root fetch - processPackages [plotly3d]: Downloading https://files.pythonhosted.org/packages/75/81/040e053ff33ffff566b511cac7bbb06388f29bdedbc06547076b3c17fefa/plotly3d-0.3.2.tar.gz
+[2024-04-05 08:03:20] WARNING root fetch - processPackages [plotly3d]: Timeout reached during download
+[2024-04-05 08:03:20] INFO root fetch - processPackages [plotly3d]: executing diffoscope
+[2024-04-05 08:03:20] INFO root fetch - processPackages [plotly3d]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/plotly3d-0.3.1.tar.gz tmp/plotly3d-0.3.2.tar.gz --markdown 20240405/p/plotly3d/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2024-04-05 08:03:20] INFO root fetch - processPackages [tidal-dl-ng]: Downloading https://files.pythonhosted.org/packages/5b/ba/0352f5184c84ccc8beb455f316863bb1cd67a1a23de799df04e98159f6dd/tidal_dl_ng-0.9.1.tar.gz
+[2024-04-05 08:03:20] WARNING root fetch - processPackages [tidal-dl-ng]: Timeout reached during download
+[2024-04-05 08:03:20] INFO root fetch - processPackages [tidal-dl-ng]: executing diffoscope
+[2024-04-05 08:03:20] INFO root fetch - processPackages [tidal-dl-ng]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tidal_dl_ng-0.9.0.tar.gz tmp/tidal_dl_ng-0.9.1.tar.gz --markdown 20240405/t/tidal-dl-ng/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2024-04-05 08:03:20] INFO root fetch - processPackages [mov-cli-files]: Remove: archive file [/home/abi/fetcher/tmp/mov-cli-files-1.0.0.tar.gz]
+[2024-04-05 08:03:20] INFO root fetch - processPackages [mov-cli-files]: Remove: archive file [/home/abi/fetcher/tmp/mov-cli-files-1.0.1.tar.gz]
+[2024-04-05 08:03:20] INFO root fetch - main [MainThread]: End processing [mov-cli-files]: success
+[2024-04-05 08:03:21] INFO root fetch - processPackages [plotly3d]: Remove: archive file [/home/abi/fetcher/tmp/plotly3d-0.3.1.tar.gz]
+[2024-04-05 08:03:21] INFO root fetch - processPackages [plotly3d]: Remove: archive file [/home/abi/fetcher/tmp/plotly3d-0.3.2.tar.gz]
+[2024-04-05 08:03:21] INFO root fetch - main [MainThread]: End processing [plotly3d]: success
+[2024-04-05 08:03:21] INFO root fetch - processPackages [tidal-dl-ng]: Remove: archive file [/home/abi/fetcher/tmp/tidal_dl_ng-0.9.0.tar.gz]
+[2024-04-05 08:03:21] INFO root fetch - processPackages [tidal-dl-ng]: Remove: archive file [/home/abi/fetcher/tmp/tidal_dl_ng-0.9.1.tar.gz]
+[2024-04-05 08:03:21] INFO root fetch - main [MainThread]: End processing [tidal-dl-ng]: success
+[2024-04-05 08:03:21] INFO root fetch - main [MainThread]: Store serial: [22632274]
