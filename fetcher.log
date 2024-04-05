@@ -23906,3 +23906,100 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2024-04-05 15:15:19] INFO root fetch - processPackages [sbn]: Remove: archive file [/home/abi/fetcher/tmp/sbn-94.tar.gz]
 [2024-04-05 15:15:19] INFO root fetch - main [MainThread]: End processing [sbn]: success
 [2024-04-05 15:15:19] INFO root fetch - main [MainThread]: Store serial: [22636503]
+[2024-04-05 15:17:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22636503]
+[2024-04-05 15:17:29] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-04-05 15:17:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nucliadb-admin-assets
+[2024-04-05 15:17:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: contentstack-utils
+[2024-04-05 15:17:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: plot-av
+[2024-04-05 15:17:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cyrix86
+[2024-04-05 15:17:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: PyQtUIkit
+[2024-04-05 15:17:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: gftools
+[2024-04-05 15:17:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: kv-sqlite-sync
+[2024-04-05 15:17:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: tendril-structures-imageset
+[2024-04-05 15:17:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: emcache
+[2024-04-05 15:17:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: flash-rwkv
+[2024-04-05 15:17:29] WARNING root fetch - processPackages [kv-sqlite-sync]: Skipping, unable to determine old version
+[2024-04-05 15:17:29] INFO root fetch - main [MainThread]: End processing [kv-sqlite-sync] error
+[2024-04-05 15:17:29] INFO root fetch - processPackages [PyQtUIkit]: New version: [2.2.1] Old Version: [2.2.0]
+[2024-04-05 15:17:29] INFO root fetch - processPackages [tendril-structures-imageset]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-05 15:17:29] WARNING root fetch - processPackages [cyrix86]: Skipping, unable to determine old version
+[2024-04-05 15:17:29] INFO root fetch - main [MainThread]: End processing [cyrix86] error
+[2024-04-05 15:17:29] INFO root fetch - processPackages [nucliadb-admin-assets]: New version: [1.0.0.post1468] Old Version: [1.0.0.post1467]
+[2024-04-05 15:17:29] INFO root fetch - processPackages [emcache]: New version: [1.1.1] Old Version: [1.1.0]
+[2024-04-05 15:17:29] INFO root fetch - processPackages [plot-av]: New version: [0.1.4] Old Version: [0.1.3]
+[2024-04-05 15:17:29] INFO root fetch - processPackages [flash-rwkv]: New version: [0.1.1] Old Version: [0.1]
+[2024-04-05 15:17:29] INFO root fetch - processPackages [contentstack-utils]: New version: [1.3.0] Old Version: [1.2.3]
+[2024-04-05 15:17:29] INFO root fetch - processPackages [gftools]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-04-05 15:17:29] INFO root fetch - processPackages [PyQtUIkit]: Downloading https://files.pythonhosted.org/packages/0b/5c/58330175d144d07992d377bb388f70cea98a05f0cfbb27e2954b534e2d45/PyQtUIkit-2.2.0.tar.gz
+[2024-04-05 15:17:29] INFO root fetch - processPackages [tendril-structures-imageset]: Downloading https://files.pythonhosted.org/packages/17/18/cf65d3cb23fbc43347ad7ac4d7f84c260232e89364beba6f30e6027be38f/tendril-structures-imageset-0.1.8.tar.gz
+[2024-04-05 15:17:29] INFO root fetch - processPackages [nucliadb-admin-assets]: Downloading https://files.pythonhosted.org/packages/fd/0e/4ae16eb887d5d89cfdfcf02293876325d59e97452c1e7d2cc27398400b1b/nucliadb_admin_assets-1.0.0.post1467-py3-none-any.whl
+[2024-04-05 15:17:29] INFO root fetch - processPackages [emcache]: Downloading https://files.pythonhosted.org/packages/2c/55/6a7339960e83995fd690a6170b72282014761f57946fe2dbcd373527a771/emcache-1.1.0-pp39-pypy39_pp73-macosx_10_9_x86_64.whl
+[2024-04-05 15:17:29] INFO root fetch - processPackages [plot-av]: Downloading https://files.pythonhosted.org/packages/b2/58/a1a5168c35b361ea75d701a5263b32ccb8f9fb81150be88c7e3998d7523b/plot_av-0.1.3.tar.gz
+[2024-04-05 15:17:29] INFO root fetch - processPackages [contentstack-utils]: Downloading https://files.pythonhosted.org/packages/06/ee/abdfd4103f24307592c088334fe384da2854d4fbcabee02280f950ac453d/contentstack_utils-1.2.3.tar.gz
+[2024-04-05 15:17:29] WARNING root fetch - processPackages [emcache]: Timeout reached during download
+[2024-04-05 15:17:29] WARNING root fetch - processPackages [tendril-structures-imageset]: Timeout reached during download
+[2024-04-05 15:17:29] INFO root fetch - processPackages [flash-rwkv]: Downloading https://files.pythonhosted.org/packages/3e/6d/cd98d2a0b17c751fd5665d4240c5c5db60052f38b950fe4c2c7e844fdf4e/flash_rwkv-0.1.0-py3-none-any.whl
+[2024-04-05 15:17:29] INFO root fetch - processPackages [gftools]: Downloading https://files.pythonhosted.org/packages/6d/5d/f19c961c63554a9224a8abee321b0a8715dc1e05bbe03077b56b75a8bc0b/gftools-0.9.8.tar.gz
+[2024-04-05 15:17:29] WARNING root fetch - processPackages [nucliadb-admin-assets]: Timeout reached during download
+[2024-04-05 15:17:29] INFO root fetch - processPackages [emcache]: Downloading https://files.pythonhosted.org/packages/32/8d/9e117292a840cb8508e174b795db02c2e47ea549e572a7897f01dd5698ef/emcache-1.1.1-pp39-pypy39_pp73-macosx_10_9_x86_64.whl
+[2024-04-05 15:17:29] WARNING root fetch - processPackages [plot-av]: Timeout reached during download
+[2024-04-05 15:17:29] INFO root fetch - processPackages [tendril-structures-imageset]: Downloading https://files.pythonhosted.org/packages/14/58/73d5225572e6f9f36687db53ef2664f99f317842200fb4ea27b45583b2a3/tendril-structures-imageset-0.1.9.tar.gz
+[2024-04-05 15:17:29] WARNING root fetch - processPackages [PyQtUIkit]: Timeout reached during download
+[2024-04-05 15:17:29] WARNING root fetch - processPackages [flash-rwkv]: Timeout reached during download
+[2024-04-05 15:17:29] WARNING root fetch - processPackages [contentstack-utils]: Timeout reached during download
+[2024-04-05 15:17:29] WARNING root fetch - processPackages [tendril-structures-imageset]: Timeout reached during download
+[2024-04-05 15:17:29] INFO root fetch - processPackages [tendril-structures-imageset]: executing diffoscope
+[2024-04-05 15:17:29] INFO root fetch - processPackages [tendril-structures-imageset]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tendril-structures-imageset-0.1.8.tar.gz tmp/tendril-structures-imageset-0.1.9.tar.gz --markdown 20240405/t/tendril-structures-imageset/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2024-04-05 15:17:29] INFO root fetch - processPackages [nucliadb-admin-assets]: Downloading https://files.pythonhosted.org/packages/54/e5/a856043771734d6b455ace8e469a8431cc501bfd8095b804b07e2fc72163/nucliadb_admin_assets-1.0.0.post1468-py3-none-any.whl
+[2024-04-05 15:17:29] INFO root fetch - processPackages [plot-av]: Downloading https://files.pythonhosted.org/packages/91/c5/97d2707723e6aa936fe87d27b3e964ca98fae8c237a7acd9f57e3b8c4560/plot_av-0.1.4.tar.gz
+[2024-04-05 15:17:30] WARNING root fetch - processPackages [emcache]: Timeout reached during download
+[2024-04-05 15:17:30] INFO root fetch - processPackages [emcache]: executing diffoscope
+[2024-04-05 15:17:30] INFO root fetch - processPackages [emcache]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/emcache-1.1.0-pp39-pypy39_pp73-macosx_10_9_x86_64.whl.zip tmp/emcache-1.1.1-pp39-pypy39_pp73-macosx_10_9_x86_64.whl.zip --markdown 20240405/e/emcache/1.1.0-1.1.1/diff.md --exclude *.pyd
+[2024-04-05 15:17:30] INFO root fetch - processPackages [PyQtUIkit]: Downloading https://files.pythonhosted.org/packages/d6/41/9cdc40e1c2dd2d729d411caa4e3305c258d84be6ce266d98ee6d1c9505be/PyQtUIkit-2.2.1.tar.gz
+[2024-04-05 15:17:30] INFO root fetch - processPackages [flash-rwkv]: Downloading https://files.pythonhosted.org/packages/15/7e/852c6e6b53295ed95369a38aa07375dd5380b87ded0e6877cdb09257a5f5/flash_rwkv-0.1.1-py3-none-any.whl
+[2024-04-05 15:17:30] INFO root fetch - processPackages [contentstack-utils]: Downloading https://files.pythonhosted.org/packages/4e/86/cb477178f576146a4a7a665bf8e6fea9cc3dbff2308e809562002de23ca8/contentstack_utils-1.3.0.tar.gz
+[2024-04-05 15:17:30] WARNING root fetch - processPackages [nucliadb-admin-assets]: Timeout reached during download
+[2024-04-05 15:17:30] INFO root fetch - processPackages [nucliadb-admin-assets]: executing diffoscope
+[2024-04-05 15:17:30] INFO root fetch - processPackages [nucliadb-admin-assets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_admin_assets-1.0.0.post1467-py3-none-any.whl.zip tmp/nucliadb_admin_assets-1.0.0.post1468-py3-none-any.whl.zip --markdown 20240405/n/nucliadb-admin-assets/1.0.0.post1467-1.0.0.post1468/diff.md --exclude *.pyd
+[2024-04-05 15:17:30] WARNING root fetch - processPackages [plot-av]: Timeout reached during download
+[2024-04-05 15:17:30] INFO root fetch - processPackages [plot-av]: executing diffoscope
+[2024-04-05 15:17:30] INFO root fetch - processPackages [plot-av]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/plot_av-0.1.3.tar.gz tmp/plot_av-0.1.4.tar.gz --markdown 20240405/p/plot-av/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2024-04-05 15:17:30] WARNING root fetch - processPackages [contentstack-utils]: Timeout reached during download
+[2024-04-05 15:17:30] INFO root fetch - processPackages [contentstack-utils]: executing diffoscope
+[2024-04-05 15:17:30] INFO root fetch - processPackages [contentstack-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/contentstack_utils-1.2.3.tar.gz tmp/contentstack_utils-1.3.0.tar.gz --markdown 20240405/c/contentstack-utils/1.2.3-1.3.0/diff.md --exclude *.pyd
+[2024-04-05 15:17:30] WARNING root fetch - processPackages [flash-rwkv]: Timeout reached during download
+[2024-04-05 15:17:30] INFO root fetch - processPackages [flash-rwkv]: executing diffoscope
+[2024-04-05 15:17:30] INFO root fetch - processPackages [flash-rwkv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flash_rwkv-0.1.0-py3-none-any.whl.zip tmp/flash_rwkv-0.1.1-py3-none-any.whl.zip --markdown 20240405/f/flash-rwkv/0.1-0.1.1/diff.md --exclude *.pyd
+[2024-04-05 15:17:30] WARNING root fetch - processPackages [gftools]: Timeout reached during download
+[2024-04-05 15:17:30] WARNING root fetch - processPackages [PyQtUIkit]: Timeout reached during download
+[2024-04-05 15:17:30] INFO root fetch - processPackages [PyQtUIkit]: executing diffoscope
+[2024-04-05 15:17:30] INFO root fetch - processPackages [PyQtUIkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyQtUIkit-2.2.0.tar.gz tmp/PyQtUIkit-2.2.1.tar.gz --markdown 20240405/P/PyQtUIkit/2.2.0-2.2.1/diff.md --exclude *.pyd
+[2024-04-05 15:17:30] INFO root fetch - processPackages [gftools]: Downloading https://files.pythonhosted.org/packages/4a/43/0695adddf818c751dd6cd94baf605871116827e1297e634d3f4508330908/gftools-0.9.9.tar.gz
+[2024-04-05 15:17:31] INFO root fetch - processPackages [tendril-structures-imageset]: Remove: archive file [/home/abi/fetcher/tmp/tendril-structures-imageset-0.1.8.tar.gz]
+[2024-04-05 15:17:31] INFO root fetch - processPackages [tendril-structures-imageset]: Remove: archive file [/home/abi/fetcher/tmp/tendril-structures-imageset-0.1.9.tar.gz]
+[2024-04-05 15:17:31] INFO root fetch - main [MainThread]: End processing [tendril-structures-imageset]: success
+[2024-04-05 15:17:31] INFO root fetch - processPackages [contentstack-utils]: Remove: archive file [/home/abi/fetcher/tmp/contentstack_utils-1.2.3.tar.gz]
+[2024-04-05 15:17:31] INFO root fetch - processPackages [contentstack-utils]: Remove: archive file [/home/abi/fetcher/tmp/contentstack_utils-1.3.0.tar.gz]
+[2024-04-05 15:17:31] INFO root fetch - main [MainThread]: End processing [contentstack-utils]: success
+[2024-04-05 15:17:31] INFO root fetch - processPackages [plot-av]: Remove: archive file [/home/abi/fetcher/tmp/plot_av-0.1.3.tar.gz]
+[2024-04-05 15:17:31] INFO root fetch - processPackages [plot-av]: Remove: archive file [/home/abi/fetcher/tmp/plot_av-0.1.4.tar.gz]
+[2024-04-05 15:17:31] INFO root fetch - main [MainThread]: End processing [plot-av]: success
+[2024-04-05 15:17:31] INFO root fetch - processPackages [flash-rwkv]: Remove: archive file [/home/abi/fetcher/tmp/flash_rwkv-0.1.0-py3-none-any.whl.zip]
+[2024-04-05 15:17:31] INFO root fetch - processPackages [flash-rwkv]: Remove: archive file [/home/abi/fetcher/tmp/flash_rwkv-0.1.1-py3-none-any.whl.zip]
+[2024-04-05 15:17:31] INFO root fetch - main [MainThread]: End processing [flash-rwkv]: success
+[2024-04-05 15:17:31] WARNING root fetch - processPackages [gftools]: Timeout reached during download
+[2024-04-05 15:17:31] INFO root fetch - processPackages [gftools]: executing diffoscope
+[2024-04-05 15:17:31] INFO root fetch - processPackages [gftools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gftools-0.9.8.tar.gz tmp/gftools-0.9.9.tar.gz --markdown 20240405/g/gftools/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2024-04-05 15:17:31] INFO root fetch - processPackages [PyQtUIkit]: Remove: archive file [/home/abi/fetcher/tmp/PyQtUIkit-2.2.0.tar.gz]
+[2024-04-05 15:17:31] INFO root fetch - processPackages [PyQtUIkit]: Remove: archive file [/home/abi/fetcher/tmp/PyQtUIkit-2.2.1.tar.gz]
+[2024-04-05 15:17:31] INFO root fetch - main [MainThread]: End processing [PyQtUIkit]: success
+[2024-04-05 15:17:31] INFO root fetch - processPackages [emcache]: Remove: archive file [/home/abi/fetcher/tmp/emcache-1.1.0-pp39-pypy39_pp73-macosx_10_9_x86_64.whl.zip]
+[2024-04-05 15:17:31] INFO root fetch - processPackages [emcache]: Remove: archive file [/home/abi/fetcher/tmp/emcache-1.1.1-pp39-pypy39_pp73-macosx_10_9_x86_64.whl.zip]
+[2024-04-05 15:17:31] INFO root fetch - main [MainThread]: End processing [emcache]: success
+[2024-04-05 15:17:38] INFO root fetch - processPackages [gftools]: Remove: archive file [/home/abi/fetcher/tmp/gftools-0.9.8.tar.gz]
+[2024-04-05 15:17:38] INFO root fetch - processPackages [gftools]: Remove: archive file [/home/abi/fetcher/tmp/gftools-0.9.9.tar.gz]
+[2024-04-05 15:17:38] INFO root fetch - main [MainThread]: End processing [gftools]: success
+[2024-04-05 15:17:44] INFO root fetch - processPackages [nucliadb-admin-assets]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_admin_assets-1.0.0.post1467-py3-none-any.whl.zip]
+[2024-04-05 15:17:44] INFO root fetch - processPackages [nucliadb-admin-assets]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_admin_assets-1.0.0.post1468-py3-none-any.whl.zip]
+[2024-04-05 15:17:44] INFO root fetch - main [MainThread]: End processing [nucliadb-admin-assets]: success
+[2024-04-05 15:17:44] INFO root fetch - main [MainThread]: Store serial: [22636540]
