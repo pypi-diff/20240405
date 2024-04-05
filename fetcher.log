@@ -16481,3 +16481,63 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2024-04-05 10:38:05] INFO root fetch - processPackages [moto]: Remove: archive file [/home/abi/fetcher/tmp/moto-5.0.5.dev9.tar.gz]
 [2024-04-05 10:38:05] INFO root fetch - main [MainThread]: End processing [moto]: success
 [2024-04-05 10:38:05] INFO root fetch - main [MainThread]: Store serial: [22633486]
+[2024-04-05 10:40:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22633486]
+[2024-04-05 10:40:14] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-05 10:40:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: biaspeech
+[2024-04-05 10:40:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: eodc-faas-openeo
+[2024-04-05 10:40:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ibm-ara
+[2024-04-05 10:40:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cozo-migrate
+[2024-04-05 10:40:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: BasicLibrary.PY
+[2024-04-05 10:40:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: SeTeEscapoLaTortuga
+[2024-04-05 10:40:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: biaspeech
+[2024-04-05 10:40:14] INFO root fetch - processPackages [ibm-ara]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-04-05 10:40:14] INFO root fetch - processPackages [biaspeech]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-04-05 10:40:14] INFO root fetch - processPackages [biaspeech]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-04-05 10:40:14] INFO root fetch - processPackages [eodc-faas-openeo]: New version: [2024.4.8] Old Version: [2024.4.7]
+[2024-04-05 10:40:14] INFO root fetch - processPackages [cozo-migrate]: New version: [0.2.4] Old Version: [0.2.3]
+[2024-04-05 10:40:14] WARNING root fetch - processPackages [SeTeEscapoLaTortuga]: Skipping, unable to determine old version
+[2024-04-05 10:40:14] INFO root fetch - main [MainThread]: End processing [SeTeEscapoLaTortuga] error
+[2024-04-05 10:40:14] INFO root fetch - processPackages [BasicLibrary.PY]: New version: [0.6.9] Old Version: [0.6.8]
+[2024-04-05 10:40:14] INFO root fetch - processPackages [ibm-ara]: Downloading https://files.pythonhosted.org/packages/26/e8/042eb73b1b33ea0822578c121238d945c1a706d823bdf13ac094355749b9/ibm_ara-0.1.1.tar.gz
+[2024-04-05 10:40:14] INFO root fetch - processPackages [biaspeech]: Downloading https://files.pythonhosted.org/packages/2e/ac/e0065dab63769841d79f73f524d4d4432a20bbe59eec13d6fc409e37dc1e/biaspeech-0.1.0.tar.gz
+[2024-04-05 10:40:14] INFO root fetch - processPackages [biaspeech]: Downloading https://files.pythonhosted.org/packages/2e/ac/e0065dab63769841d79f73f524d4d4432a20bbe59eec13d6fc409e37dc1e/biaspeech-0.1.0.tar.gz
+[2024-04-05 10:40:14] INFO root fetch - processPackages [eodc-faas-openeo]: Downloading https://files.pythonhosted.org/packages/e1/ef/7ef0388c8c8c829330a72d68481340a9426035089c5b6614d7998abd0517/eodc_faas_openeo-2024.4.7.tar.gz
+[2024-04-05 10:40:14] INFO root fetch - processPackages [cozo-migrate]: Downloading https://files.pythonhosted.org/packages/b4/ba/5fd6426e35e7bc4ffd5e45b63a27691311ba1c600dbc3779f07de85c3e2f/cozo_migrate-0.2.3.tar.gz
+[2024-04-05 10:40:15] WARNING root fetch - processPackages [biaspeech]: Skipping package: exceeds size limit 18534033>=10485760
+[2024-04-05 10:40:15] INFO root fetch - main [MainThread]: End processing [biaspeech] error
+[2024-04-05 10:40:15] WARNING root fetch - processPackages [biaspeech]: Skipping package: exceeds size limit 18534033>=10485760
+[2024-04-05 10:40:15] INFO root fetch - main [MainThread]: End processing [biaspeech] error
+[2024-04-05 10:40:15] INFO root fetch - processPackages [BasicLibrary.PY]: Downloading https://files.pythonhosted.org/packages/7a/f7/9207417db62e1815b16945c6ef5928d33faefb4fbea25b73e296c7ef1b46/basiclibrary_py-0.6.8.tar.gz
+[2024-04-05 10:40:15] WARNING root fetch - processPackages [ibm-ara]: Timeout reached during download
+[2024-04-05 10:40:15] WARNING root fetch - processPackages [eodc-faas-openeo]: Timeout reached during download
+[2024-04-05 10:40:15] WARNING root fetch - processPackages [BasicLibrary.PY]: Timeout reached during download
+[2024-04-05 10:40:15] WARNING root fetch - processPackages [cozo-migrate]: Timeout reached during download
+[2024-04-05 10:40:15] INFO root fetch - processPackages [ibm-ara]: Downloading https://files.pythonhosted.org/packages/c7/a0/3cecfd82abcf5a270f2bd4f42342eb0ddeb068e7b426d45b8628d0e3d4cf/ibm_ara-0.1.2.tar.gz
+[2024-04-05 10:40:15] INFO root fetch - processPackages [eodc-faas-openeo]: Downloading https://files.pythonhosted.org/packages/95/0d/3bbe76bf2dc16ab52e2891e0a5befbe87f597cd15fe4d4853644e5bfefc0/eodc_faas_openeo-2024.4.8.tar.gz
+[2024-04-05 10:40:15] INFO root fetch - processPackages [cozo-migrate]: Downloading https://files.pythonhosted.org/packages/b1/3a/f66a88c50c5dd7bb7cb98d84f4d3e45bb2cfe1dba524f775f88b065b563b/cozo_migrate-0.2.4.tar.gz
+[2024-04-05 10:40:15] INFO root fetch - processPackages [BasicLibrary.PY]: Downloading https://files.pythonhosted.org/packages/8f/6c/23998dc6441d6989fa6035d0512666516901c034c6eb6a19c41ab50db950/basiclibrary_py-0.6.9.tar.gz
+[2024-04-05 10:40:15] WARNING root fetch - processPackages [eodc-faas-openeo]: Timeout reached during download
+[2024-04-05 10:40:15] WARNING root fetch - processPackages [ibm-ara]: Timeout reached during download
+[2024-04-05 10:40:15] INFO root fetch - processPackages [ibm-ara]: executing diffoscope
+[2024-04-05 10:40:15] INFO root fetch - processPackages [eodc-faas-openeo]: executing diffoscope
+[2024-04-05 10:40:15] INFO root fetch - processPackages [ibm-ara]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ibm_ara-0.1.1.tar.gz tmp/ibm_ara-0.1.2.tar.gz --markdown 20240405/i/ibm-ara/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2024-04-05 10:40:15] INFO root fetch - processPackages [eodc-faas-openeo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eodc_faas_openeo-2024.4.7.tar.gz tmp/eodc_faas_openeo-2024.4.8.tar.gz --markdown 20240405/e/eodc-faas-openeo/2024.4.7-2024.4.8/diff.md --exclude *.pyd
+[2024-04-05 10:40:15] WARNING root fetch - processPackages [cozo-migrate]: Timeout reached during download
+[2024-04-05 10:40:15] INFO root fetch - processPackages [cozo-migrate]: executing diffoscope
+[2024-04-05 10:40:15] INFO root fetch - processPackages [cozo-migrate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cozo_migrate-0.2.3.tar.gz tmp/cozo_migrate-0.2.4.tar.gz --markdown 20240405/c/cozo-migrate/0.2.3-0.2.4/diff.md --exclude *.pyd
+[2024-04-05 10:40:15] WARNING root fetch - processPackages [BasicLibrary.PY]: Timeout reached during download
+[2024-04-05 10:40:15] INFO root fetch - processPackages [BasicLibrary.PY]: executing diffoscope
+[2024-04-05 10:40:15] INFO root fetch - processPackages [BasicLibrary.PY]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/basiclibrary_py-0.6.8.tar.gz tmp/basiclibrary_py-0.6.9.tar.gz --markdown 20240405/B/BasicLibrary.PY/0.6.8-0.6.9/diff.md --exclude *.pyd
+[2024-04-05 10:40:15] INFO root fetch - processPackages [ibm-ara]: Remove: archive file [/home/abi/fetcher/tmp/ibm_ara-0.1.1.tar.gz]
+[2024-04-05 10:40:15] INFO root fetch - processPackages [ibm-ara]: Remove: archive file [/home/abi/fetcher/tmp/ibm_ara-0.1.2.tar.gz]
+[2024-04-05 10:40:15] INFO root fetch - main [MainThread]: End processing [ibm-ara]: success
+[2024-04-05 10:40:16] INFO root fetch - processPackages [cozo-migrate]: Remove: archive file [/home/abi/fetcher/tmp/cozo_migrate-0.2.3.tar.gz]
+[2024-04-05 10:40:16] INFO root fetch - processPackages [cozo-migrate]: Remove: archive file [/home/abi/fetcher/tmp/cozo_migrate-0.2.4.tar.gz]
+[2024-04-05 10:40:16] INFO root fetch - main [MainThread]: End processing [cozo-migrate]: success
+[2024-04-05 10:40:16] INFO root fetch - processPackages [eodc-faas-openeo]: Remove: archive file [/home/abi/fetcher/tmp/eodc_faas_openeo-2024.4.7.tar.gz]
+[2024-04-05 10:40:16] INFO root fetch - processPackages [eodc-faas-openeo]: Remove: archive file [/home/abi/fetcher/tmp/eodc_faas_openeo-2024.4.8.tar.gz]
+[2024-04-05 10:40:16] INFO root fetch - main [MainThread]: End processing [eodc-faas-openeo]: success
+[2024-04-05 10:40:16] INFO root fetch - processPackages [BasicLibrary.PY]: Remove: archive file [/home/abi/fetcher/tmp/basiclibrary_py-0.6.8.tar.gz]
+[2024-04-05 10:40:16] INFO root fetch - processPackages [BasicLibrary.PY]: Remove: archive file [/home/abi/fetcher/tmp/basiclibrary_py-0.6.9.tar.gz]
+[2024-04-05 10:40:16] INFO root fetch - main [MainThread]: End processing [BasicLibrary.PY]: success
+[2024-04-05 10:40:16] INFO root fetch - main [MainThread]: Store serial: [22633509]
