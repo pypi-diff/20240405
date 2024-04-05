@@ -16585,3 +16585,39 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2024-04-05 10:44:35] INFO root fetch - processPackages [vy-lambda-tools]: Remove: archive file [/home/abi/fetcher/tmp/vy_lambda_tools-0.4.0b2.tar.gz]
 [2024-04-05 10:44:35] INFO root fetch - main [MainThread]: End processing [vy-lambda-tools]: success
 [2024-04-05 10:44:35] INFO root fetch - main [MainThread]: Store serial: [22633540]
+[2024-04-05 10:46:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22633540]
+[2024-04-05 10:46:44] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-05 10:46:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tfp-nightly
+[2024-04-05 10:46:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: graas-observability-utility
+[2024-04-05 10:46:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: GraphSTAM
+[2024-04-05 10:46:44] INFO root fetch - processPackages [GraphSTAM]: New version: [1.2.7] Old Version: [1.2.6]
+[2024-04-05 10:46:44] INFO root fetch - processPackages [graas-observability-utility]: New version: [1.5.8] Old Version: [1.5.7]
+[2024-04-05 10:46:44] INFO root fetch - processPackages [tfp-nightly]: New version: [0.9.0.dev20200114] Old Version: [0.9.0.dev20200113]
+[2024-04-05 10:46:44] INFO root fetch - processPackages [graas-observability-utility]: Downloading https://files.pythonhosted.org/packages/8b/7b/ad0d16190e9d8f781c3e39009a3522f2f253dfed19b1064f86d82804a113/graas-observability-utility-1.5.7.tar.gz
+[2024-04-05 10:46:44] INFO root fetch - processPackages [GraphSTAM]: Downloading https://files.pythonhosted.org/packages/12/3b/3dd36fce10e90ba9682384fbf981ece115190f8018a1c2f0b3d0d751ff10/GraphSTAM-1.2.6.tar.gz
+[2024-04-05 10:46:44] WARNING root fetch - processPackages [graas-observability-utility]: Timeout reached during download
+[2024-04-05 10:46:44] INFO root fetch - processPackages [tfp-nightly]: Downloading https://files.pythonhosted.org/packages/be/16/ebf16b1094e104257af6265eee53833e4f737ef6d11426d959009fa9952a/tfp_nightly-0.9.0.dev20200113-py2.py3-none-any.whl
+[2024-04-05 10:46:45] WARNING root fetch - processPackages [GraphSTAM]: Timeout reached during download
+[2024-04-05 10:46:45] INFO root fetch - processPackages [graas-observability-utility]: Downloading https://files.pythonhosted.org/packages/b9/9c/ea3c599fbacd44f060ebbc7fbfbc76acf7022b86e48ea3eabd7cd54196af/graas-observability-utility-1.5.8.tar.gz
+[2024-04-05 10:46:45] WARNING root fetch - processPackages [graas-observability-utility]: Timeout reached during download
+[2024-04-05 10:46:45] INFO root fetch - processPackages [graas-observability-utility]: executing diffoscope
+[2024-04-05 10:46:45] INFO root fetch - processPackages [graas-observability-utility]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/graas-observability-utility-1.5.7.tar.gz tmp/graas-observability-utility-1.5.8.tar.gz --markdown 20240405/g/graas-observability-utility/1.5.7-1.5.8/diff.md --exclude *.pyd
+[2024-04-05 10:46:45] INFO root fetch - processPackages [GraphSTAM]: Downloading https://files.pythonhosted.org/packages/e8/3f/d7e88228e6088dc7af75d4f3a49796ca274b86cb0d19566b1f608f5309c7/GraphSTAM-1.2.7.tar.gz
+[2024-04-05 10:46:45] WARNING root fetch - processPackages [GraphSTAM]: Timeout reached during download
+[2024-04-05 10:46:45] INFO root fetch - processPackages [GraphSTAM]: executing diffoscope
+[2024-04-05 10:46:45] INFO root fetch - processPackages [GraphSTAM]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/GraphSTAM-1.2.6.tar.gz tmp/GraphSTAM-1.2.7.tar.gz --markdown 20240405/G/GraphSTAM/1.2.6-1.2.7/diff.md --exclude *.pyd
+[2024-04-05 10:46:45] WARNING root fetch - processPackages [tfp-nightly]: Timeout reached during download
+[2024-04-05 10:46:45] INFO root fetch - processPackages [tfp-nightly]: Downloading https://files.pythonhosted.org/packages/f1/98/c1f5a754a26ea1f08e3558803ffb67dd65482de4f6bfadc5415573cd3cb7/tfp_nightly-0.9.0.dev20200114-py2.py3-none-any.whl
+[2024-04-05 10:46:45] INFO root fetch - processPackages [graas-observability-utility]: Remove: archive file [/home/abi/fetcher/tmp/graas-observability-utility-1.5.7.tar.gz]
+[2024-04-05 10:46:45] INFO root fetch - processPackages [graas-observability-utility]: Remove: archive file [/home/abi/fetcher/tmp/graas-observability-utility-1.5.8.tar.gz]
+[2024-04-05 10:46:45] INFO root fetch - main [MainThread]: End processing [graas-observability-utility]: success
+[2024-04-05 10:46:46] WARNING root fetch - processPackages [tfp-nightly]: Timeout reached during download
+[2024-04-05 10:46:46] INFO root fetch - processPackages [tfp-nightly]: executing diffoscope
+[2024-04-05 10:46:46] INFO root fetch - processPackages [tfp-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tfp_nightly-0.9.0.dev20200113-py2.py3-none-any.whl.zip tmp/tfp_nightly-0.9.0.dev20200114-py2.py3-none-any.whl.zip --markdown 20240405/t/tfp-nightly/0.9.0.dev20200113-0.9.0.dev20200114/diff.md --exclude *.pyd
+[2024-04-05 10:46:46] INFO root fetch - processPackages [GraphSTAM]: Remove: archive file [/home/abi/fetcher/tmp/GraphSTAM-1.2.6.tar.gz]
+[2024-04-05 10:46:46] INFO root fetch - processPackages [GraphSTAM]: Remove: archive file [/home/abi/fetcher/tmp/GraphSTAM-1.2.7.tar.gz]
+[2024-04-05 10:46:46] INFO root fetch - main [MainThread]: End processing [GraphSTAM]: success
+[2024-04-05 10:46:49] INFO root fetch - processPackages [tfp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfp_nightly-0.9.0.dev20200113-py2.py3-none-any.whl.zip]
+[2024-04-05 10:46:49] INFO root fetch - processPackages [tfp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfp_nightly-0.9.0.dev20200114-py2.py3-none-any.whl.zip]
+[2024-04-05 10:46:49] INFO root fetch - main [MainThread]: End processing [tfp-nightly]: success
+[2024-04-05 10:46:49] INFO root fetch - main [MainThread]: Store serial: [22633547]
