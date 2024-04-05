@@ -10183,3 +10183,33 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2024-04-05 05:05:25] INFO root fetch - processPackages [odoo-addon-account-mass-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_mass_reconcile-17.0.1.0.0.7-py3-none-any.whl.zip]
 [2024-04-05 05:05:25] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-mass-reconcile]: success
 [2024-04-05 05:05:25] INFO root fetch - main [MainThread]: Store serial: [22631352]
+[2024-04-05 05:07:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22631352]
+[2024-04-05 05:07:34] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-05 05:07:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: volstreet
+[2024-04-05 05:07:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: daml
+[2024-04-05 05:07:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: advcalc
+[2024-04-05 05:07:34] INFO root fetch - processPackages [advcalc]: New version: [0.0.6] Old Version: [0.0.5]
+[2024-04-05 05:07:34] INFO root fetch - processPackages [advcalc]: Downloading https://files.pythonhosted.org/packages/94/b8/adef6784362a5c8d5ac53b19c7b2d43e89c0a8eadfbb559bb939add195d3/advcalc-0.0.5.tar.gz
+[2024-04-05 05:07:34] INFO root fetch - processPackages [daml]: New version: [0.45.0] Old Version: [0.44.6]
+[2024-04-05 05:07:34] INFO root fetch - processPackages [volstreet]: New version: [7.0.0] Old Version: [6.1.4]
+[2024-04-05 05:07:34] WARNING root fetch - processPackages [advcalc]: Timeout reached during download
+[2024-04-05 05:07:34] INFO root fetch - processPackages [daml]: Downloading https://files.pythonhosted.org/packages/94/fc/4cb37b27b147515a78fcbc2abe69d1ef615374c9e31a91cf46d6a3e7c3f1/daml-0.44.6.tar.gz
+[2024-04-05 05:07:34] INFO root fetch - processPackages [volstreet]: Downloading https://files.pythonhosted.org/packages/de/11/9fdad265021dea56cc4c7971f34ebc0a08c0effa0921a22598e32cd23e9a/volstreet-6.1.4.tar.gz
+[2024-04-05 05:07:34] INFO root fetch - processPackages [advcalc]: Downloading https://files.pythonhosted.org/packages/ec/cd/6506d394d60aff42f94f576028ab38fd6f5683b4673b65f46698e836db90/advcalc-0.0.6.tar.gz
+[2024-04-05 05:07:34] WARNING root fetch - processPackages [volstreet]: Skipping package: exceeds size limit 68295960>=10485760
+[2024-04-05 05:07:34] INFO root fetch - main [MainThread]: End processing [volstreet] error
+[2024-04-05 05:07:34] WARNING root fetch - processPackages [daml]: Timeout reached during download
+[2024-04-05 05:07:35] WARNING root fetch - processPackages [advcalc]: Timeout reached during download
+[2024-04-05 05:07:35] INFO root fetch - processPackages [advcalc]: executing diffoscope
+[2024-04-05 05:07:35] INFO root fetch - processPackages [advcalc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/advcalc-0.0.5.tar.gz tmp/advcalc-0.0.6.tar.gz --markdown 20240405/a/advcalc/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2024-04-05 05:07:35] INFO root fetch - processPackages [daml]: Downloading https://files.pythonhosted.org/packages/43/49/f900a4425e12f738ce805df176178f1fd7d8454cfe0b44c3762a14ea3605/daml-0.45.0.tar.gz
+[2024-04-05 05:07:35] WARNING root fetch - processPackages [daml]: Timeout reached during download
+[2024-04-05 05:07:35] INFO root fetch - processPackages [daml]: executing diffoscope
+[2024-04-05 05:07:35] INFO root fetch - processPackages [daml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/daml-0.44.6.tar.gz tmp/daml-0.45.0.tar.gz --markdown 20240405/d/daml/0.44.6-0.45.0/diff.md --exclude *.pyd
+[2024-04-05 05:07:35] INFO root fetch - processPackages [advcalc]: Remove: archive file [/home/abi/fetcher/tmp/advcalc-0.0.5.tar.gz]
+[2024-04-05 05:07:35] INFO root fetch - processPackages [advcalc]: Remove: archive file [/home/abi/fetcher/tmp/advcalc-0.0.6.tar.gz]
+[2024-04-05 05:07:35] INFO root fetch - main [MainThread]: End processing [advcalc]: success
+[2024-04-05 05:07:35] INFO root fetch - processPackages [daml]: Remove: archive file [/home/abi/fetcher/tmp/daml-0.44.6.tar.gz]
+[2024-04-05 05:07:35] INFO root fetch - processPackages [daml]: Remove: archive file [/home/abi/fetcher/tmp/daml-0.45.0.tar.gz]
+[2024-04-05 05:07:35] INFO root fetch - main [MainThread]: End processing [daml]: success
+[2024-04-05 05:07:35] INFO root fetch - main [MainThread]: Store serial: [22631361]
