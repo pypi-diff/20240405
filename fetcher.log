@@ -21737,3 +21737,71 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2024-04-05 14:07:29] INFO root fetch - processPackages [lusid-sdk]: Remove: archive file [/home/abi/fetcher/tmp/lusid_sdk-2.0.96b0.tar.gz]
 [2024-04-05 14:07:29] INFO root fetch - main [MainThread]: End processing [lusid-sdk]: success
 [2024-04-05 14:07:29] INFO root fetch - main [MainThread]: Store serial: [22635662]
+[2024-04-05 14:09:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22635662]
+[2024-04-05 14:09:38] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-05 14:09:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: kafka-broker
+[2024-04-05 14:09:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: litestar-users
+[2024-04-05 14:09:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: psm-utils
+[2024-04-05 14:09:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: qibo
+[2024-04-05 14:09:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: autohelper
+[2024-04-05 14:09:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: reqstool
+[2024-04-05 14:09:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: mriqc
+[2024-04-05 14:09:38] INFO root fetch - processPackages [kafka-broker]: New version: [0.3.7] Old Version: [0.3.6]
+[2024-04-05 14:09:38] INFO root fetch - processPackages [reqstool]: New version: [0.4.2] Old Version: [0.4.1]
+[2024-04-05 14:09:38] INFO root fetch - processPackages [autohelper]: New version: [0.0.6] Old Version: [0.0.5]
+[2024-04-05 14:09:38] INFO root fetch - processPackages [litestar-users]: New version: [1.2.3] Old Version: [1.2.2]
+[2024-04-05 14:09:38] INFO root fetch - processPackages [kafka-broker]: Downloading https://files.pythonhosted.org/packages/2c/5c/582310249d4000ea3c6cf42fd39472208ba76bca9fb6f60b7a6f471d195a/kafka-broker-0.3.6.tar.gz
+[2024-04-05 14:09:38] INFO root fetch - processPackages [psm-utils]: New version: [0.8.2] Old Version: [0.8.1]
+[2024-04-05 14:09:38] INFO root fetch - processPackages [qibo]: New version: [0.2.7] Old Version: [0.2.6]
+[2024-04-05 14:09:38] INFO root fetch - processPackages [mriqc]: New version: [24.0.0rc1] Old Version: [23.1.1]
+[2024-04-05 14:09:38] WARNING root fetch - processPackages [kafka-broker]: Timeout reached during download
+[2024-04-05 14:09:39] INFO root fetch - processPackages [reqstool]: Downloading https://files.pythonhosted.org/packages/c1/e8/4d1161b8c09b200916f7f6db9ce47fc5da066bfe9da8a2d8b1e7a6aee8c5/reqstool-0.4.1.tar.gz
+[2024-04-05 14:09:39] INFO root fetch - processPackages [autohelper]: Downloading https://files.pythonhosted.org/packages/85/6b/c4c407e4d7765ac782e10c138d0a23b5a36410b54e22cf9db8dbc1795a42/autohelper-0.0.5.tar.gz
+[2024-04-05 14:09:39] INFO root fetch - processPackages [litestar-users]: Downloading https://files.pythonhosted.org/packages/41/59/fb82a7fbe5b178c65d8a6fabf4940aa98f9f9e2cab9a776ce5c025731dc2/litestar_users-1.2.2.tar.gz
+[2024-04-05 14:09:39] INFO root fetch - processPackages [mriqc]: Downloading https://files.pythonhosted.org/packages/ed/82/e1580db449d534666983d8f8627df8816096b7a291000e828142d9262893/mriqc-23.1.1.tar.gz
+[2024-04-05 14:09:39] INFO root fetch - processPackages [psm-utils]: Downloading https://files.pythonhosted.org/packages/1e/65/9085b6e9ee51d320d08cceeefd3395a2630e2b639e734a928d17061382c6/psm_utils-0.8.1.tar.gz
+[2024-04-05 14:09:39] INFO root fetch - processPackages [qibo]: Downloading https://files.pythonhosted.org/packages/2e/bc/ae9409d2c63b7c546ab5de2935ad8920d0212ead5ca26236dd5401f115fc/qibo-0.2.6.tar.gz
+[2024-04-05 14:09:39] INFO root fetch - processPackages [kafka-broker]: Downloading https://files.pythonhosted.org/packages/84/14/92bf7edb7cbd060e09a8b157a061342db64833fc1ffc4d3f11ea27a21022/kafka-broker-0.3.7.tar.gz
+[2024-04-05 14:09:39] WARNING root fetch - processPackages [psm-utils]: Skipping package: exceeds size limit 68882409>=10485760
+[2024-04-05 14:09:39] INFO root fetch - main [MainThread]: End processing [psm-utils] error
+[2024-04-05 14:09:39] WARNING root fetch - processPackages [litestar-users]: Timeout reached during download
+[2024-04-05 14:09:39] WARNING root fetch - processPackages [mriqc]: Skipping package: exceeds size limit 45813233>=10485760
+[2024-04-05 14:09:39] INFO root fetch - main [MainThread]: End processing [mriqc] error
+[2024-04-05 14:09:39] WARNING root fetch - processPackages [qibo]: Timeout reached during download
+[2024-04-05 14:09:39] WARNING root fetch - processPackages [kafka-broker]: Timeout reached during download
+[2024-04-05 14:09:39] INFO root fetch - processPackages [kafka-broker]: executing diffoscope
+[2024-04-05 14:09:39] INFO root fetch - processPackages [kafka-broker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kafka-broker-0.3.6.tar.gz tmp/kafka-broker-0.3.7.tar.gz --markdown 20240405/k/kafka-broker/0.3.6-0.3.7/diff.md --exclude *.pyd
+[2024-04-05 14:09:39] WARNING root fetch - processPackages [reqstool]: Timeout reached during download
+[2024-04-05 14:09:39] WARNING root fetch - processPackages [autohelper]: Timeout reached during download
+[2024-04-05 14:09:39] INFO root fetch - processPackages [litestar-users]: Downloading https://files.pythonhosted.org/packages/65/1a/919205ccff88ffdc3b82451b1492e19c6abb453c40f61201089d7ced8132/litestar_users-1.2.3.tar.gz
+[2024-04-05 14:09:39] INFO root fetch - processPackages [qibo]: Downloading https://files.pythonhosted.org/packages/19/6e/2c9c558f3691a8bb202ce6220044123506867275c8d412518d9094814c33/qibo-0.2.7.tar.gz
+[2024-04-05 14:09:39] INFO root fetch - processPackages [reqstool]: Downloading https://files.pythonhosted.org/packages/1d/e1/cfeb895c5c0d2637d14bac3334677076edee720f3c448a68c40cf3529295/reqstool-0.4.2.tar.gz
+[2024-04-05 14:09:39] INFO root fetch - processPackages [autohelper]: Downloading https://files.pythonhosted.org/packages/fe/ac/8adfa9c1128ea230d767b05a6163c4dfd2020a04a0997910d38f98792727/autohelper-0.0.6.tar.gz
+[2024-04-05 14:09:39] WARNING root fetch - processPackages [litestar-users]: Timeout reached during download
+[2024-04-05 14:09:39] INFO root fetch - processPackages [litestar-users]: executing diffoscope
+[2024-04-05 14:09:39] INFO root fetch - processPackages [litestar-users]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/litestar_users-1.2.2.tar.gz tmp/litestar_users-1.2.3.tar.gz --markdown 20240405/l/litestar-users/1.2.2-1.2.3/diff.md --exclude *.pyd
+[2024-04-05 14:09:39] WARNING root fetch - processPackages [qibo]: Timeout reached during download
+[2024-04-05 14:09:39] INFO root fetch - processPackages [qibo]: executing diffoscope
+[2024-04-05 14:09:39] INFO root fetch - processPackages [qibo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qibo-0.2.6.tar.gz tmp/qibo-0.2.7.tar.gz --markdown 20240405/q/qibo/0.2.6-0.2.7/diff.md --exclude *.pyd
+[2024-04-05 14:09:39] WARNING root fetch - processPackages [reqstool]: Timeout reached during download
+[2024-04-05 14:09:39] INFO root fetch - processPackages [reqstool]: executing diffoscope
+[2024-04-05 14:09:39] INFO root fetch - processPackages [reqstool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reqstool-0.4.1.tar.gz tmp/reqstool-0.4.2.tar.gz --markdown 20240405/r/reqstool/0.4.1-0.4.2/diff.md --exclude *.pyd
+[2024-04-05 14:09:39] WARNING root fetch - processPackages [autohelper]: Timeout reached during download
+[2024-04-05 14:09:39] INFO root fetch - processPackages [autohelper]: executing diffoscope
+[2024-04-05 14:09:39] INFO root fetch - processPackages [autohelper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autohelper-0.0.5.tar.gz tmp/autohelper-0.0.6.tar.gz --markdown 20240405/a/autohelper/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2024-04-05 14:09:39] INFO root fetch - processPackages [kafka-broker]: Remove: archive file [/home/abi/fetcher/tmp/kafka-broker-0.3.6.tar.gz]
+[2024-04-05 14:09:39] INFO root fetch - processPackages [kafka-broker]: Remove: archive file [/home/abi/fetcher/tmp/kafka-broker-0.3.7.tar.gz]
+[2024-04-05 14:09:39] INFO root fetch - main [MainThread]: End processing [kafka-broker]: success
+[2024-04-05 14:09:40] INFO root fetch - processPackages [litestar-users]: Remove: archive file [/home/abi/fetcher/tmp/litestar_users-1.2.2.tar.gz]
+[2024-04-05 14:09:40] INFO root fetch - processPackages [litestar-users]: Remove: archive file [/home/abi/fetcher/tmp/litestar_users-1.2.3.tar.gz]
+[2024-04-05 14:09:40] INFO root fetch - main [MainThread]: End processing [litestar-users]: success
+[2024-04-05 14:09:40] INFO root fetch - processPackages [autohelper]: Remove: archive file [/home/abi/fetcher/tmp/autohelper-0.0.5.tar.gz]
+[2024-04-05 14:09:40] INFO root fetch - processPackages [autohelper]: Remove: archive file [/home/abi/fetcher/tmp/autohelper-0.0.6.tar.gz]
+[2024-04-05 14:09:40] INFO root fetch - main [MainThread]: End processing [autohelper]: success
+[2024-04-05 14:09:40] INFO root fetch - processPackages [qibo]: Remove: archive file [/home/abi/fetcher/tmp/qibo-0.2.6.tar.gz]
+[2024-04-05 14:09:40] INFO root fetch - processPackages [qibo]: Remove: archive file [/home/abi/fetcher/tmp/qibo-0.2.7.tar.gz]
+[2024-04-05 14:09:40] INFO root fetch - main [MainThread]: End processing [qibo]: success
+[2024-04-05 14:09:40] INFO root fetch - processPackages [reqstool]: Remove: archive file [/home/abi/fetcher/tmp/reqstool-0.4.1.tar.gz]
+[2024-04-05 14:09:40] INFO root fetch - processPackages [reqstool]: Remove: archive file [/home/abi/fetcher/tmp/reqstool-0.4.2.tar.gz]
+[2024-04-05 14:09:40] INFO root fetch - main [MainThread]: End processing [reqstool]: success
+[2024-04-05 14:09:40] INFO root fetch - main [MainThread]: Store serial: [22635689]
