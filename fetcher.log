@@ -17454,3 +17454,70 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2024-04-05 11:26:09] INFO root fetch - processPackages [terraform-compliance]: Remove: archive file [/home/abi/fetcher/tmp/terraform-compliance-1.3.9.tar.gz]
 [2024-04-05 11:26:09] INFO root fetch - main [MainThread]: End processing [terraform-compliance]: success
 [2024-04-05 11:26:09] INFO root fetch - main [MainThread]: Store serial: [22633931]
+[2024-04-05 11:28:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22633931]
+[2024-04-05 11:28:18] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-05 11:28:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: shipdataprocess
+[2024-04-05 11:28:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: slpkg
+[2024-04-05 11:28:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: CUQIpy
+[2024-04-05 11:28:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: muko
+[2024-04-05 11:28:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: muko
+[2024-04-05 11:28:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: muko
+[2024-04-05 11:28:18] INFO root fetch - processPackages [shipdataprocess]: New version: [0.8.3] Old Version: [0.8.2]
+[2024-04-05 11:28:18] INFO root fetch - processPackages [muko]: New version: [1.92] Old Version: [1.69]
+[2024-04-05 11:28:18] INFO root fetch - processPackages [muko]: New version: [1.92] Old Version: [1.69]
+[2024-04-05 11:28:18] INFO root fetch - processPackages [CUQIpy]: New version: [1.0.0.post0.dev91] Old Version: [1.0.0.post0.dev84]
+[2024-04-05 11:28:18] INFO root fetch - processPackages [muko]: New version: [2.13] Old Version: [2.12]
+[2024-04-05 11:28:18] INFO root fetch - processPackages [shipdataprocess]: Downloading https://files.pythonhosted.org/packages/ae/fe/246b9efa404c973b297c9c6cd92e1743fa8e83d4ccca074a39835a7b8ab0/shipdataprocess-0.8.2.tar.gz
+[2024-04-05 11:28:18] INFO root fetch - processPackages [muko]: Downloading https://files.pythonhosted.org/packages/6e/02/66b7d496f771254b525ebf8bc34b2a046dcc20eb916a38197de3c5d47f2f/muko-1.69-py3-none-any.whl
+[2024-04-05 11:28:18] INFO root fetch - processPackages [muko]: Downloading https://files.pythonhosted.org/packages/6e/02/66b7d496f771254b525ebf8bc34b2a046dcc20eb916a38197de3c5d47f2f/muko-1.69-py3-none-any.whl
+[2024-04-05 11:28:18] INFO root fetch - processPackages [slpkg]: New version: [5.0.4] Old Version: [5.0.3]
+[2024-04-05 11:28:18] INFO root fetch - processPackages [CUQIpy]: Downloading https://files.pythonhosted.org/packages/a3/7a/3055a8605b15ec5a340925b0806d2098b023cdcdfbce3a64efc80ac9b179/CUQIpy-1.0.0.post0.dev84.tar.gz
+[2024-04-05 11:28:18] WARNING root fetch - processPackages [shipdataprocess]: Timeout reached during download
+[2024-04-05 11:28:19] INFO root fetch - processPackages [muko]: Downloading https://files.pythonhosted.org/packages/0b/9f/35205d5a4520c62a7cc9d7f2bf531f8e023f3e25d3561e361da49b0e5874/muko-2.12-py3-none-any.whl
+[2024-04-05 11:28:19] INFO root fetch - processPackages [slpkg]: Downloading https://files.pythonhosted.org/packages/9a/dc/1b29468f3b5f193a509801da7208fc0bf694550cb28a89f50bd9a304fc18/slpkg-5.0.3.tar.gz
+[2024-04-05 11:28:19] INFO root fetch - processPackages [shipdataprocess]: Downloading https://files.pythonhosted.org/packages/90/20/d04b8735b5b5dc1b7f85bc54f707027078613e576ef68c9f664095b63489/shipdataprocess-0.8.3.tar.gz
+[2024-04-05 11:28:19] WARNING root fetch - processPackages [muko]: Timeout reached during download
+[2024-04-05 11:28:19] WARNING root fetch - processPackages [muko]: Timeout reached during download
+[2024-04-05 11:28:19] WARNING root fetch - processPackages [slpkg]: Timeout reached during download
+[2024-04-05 11:28:19] WARNING root fetch - processPackages [shipdataprocess]: Timeout reached during download
+[2024-04-05 11:28:19] INFO root fetch - processPackages [shipdataprocess]: executing diffoscope
+[2024-04-05 11:28:19] INFO root fetch - processPackages [shipdataprocess]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shipdataprocess-0.8.2.tar.gz tmp/shipdataprocess-0.8.3.tar.gz --markdown 20240405/s/shipdataprocess/0.8.2-0.8.3/diff.md --exclude *.pyd
+[2024-04-05 11:28:19] INFO root fetch - processPackages [muko]: Downloading https://files.pythonhosted.org/packages/7f/2f/6ad5a2352deb01908fba6c7176ecbf9721f90102c9abcd6be7e58f47df41/muko-1.92-py3-none-any.whl
+[2024-04-05 11:28:19] INFO root fetch - processPackages [muko]: Downloading https://files.pythonhosted.org/packages/7f/2f/6ad5a2352deb01908fba6c7176ecbf9721f90102c9abcd6be7e58f47df41/muko-1.92-py3-none-any.whl
+[2024-04-05 11:28:19] WARNING root fetch - processPackages [CUQIpy]: Timeout reached during download
+[2024-04-05 11:28:19] INFO root fetch - processPackages [CUQIpy]: Downloading https://files.pythonhosted.org/packages/20/73/290e5c26c332d440fb4538f8ec866910cfe4be75fbfeb121b4d47fcd6a21/CUQIpy-1.0.0.post0.dev91.tar.gz
+[2024-04-05 11:28:19] WARNING root fetch - processPackages [muko]: Timeout reached during download
+[2024-04-05 11:28:19] WARNING root fetch - processPackages [muko]: Timeout reached during download
+[2024-04-05 11:28:19] INFO root fetch - processPackages [muko]: executing diffoscope
+[2024-04-05 11:28:19] INFO root fetch - processPackages [muko]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/muko-1.69-py3-none-any.whl.zip tmp/muko-1.92-py3-none-any.whl.zip --markdown 20240405/m/muko/1.69-1.92/diff.md --exclude *.pyd
+[2024-04-05 11:28:19] WARNING root fetch - processPackages [muko]: Timeout reached during download
+[2024-04-05 11:28:19] INFO root fetch - processPackages [muko]: executing diffoscope
+[2024-04-05 11:28:19] INFO root fetch - processPackages [muko]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/muko-1.69-py3-none-any.whl.zip tmp/muko-1.92-py3-none-any.whl.zip --markdown 20240405/m/muko/1.69-1.92/diff.md --exclude *.pyd
+[2024-04-05 11:28:19] INFO root fetch - processPackages [muko]: Downloading https://files.pythonhosted.org/packages/40/ee/f89d43155277e8bdc7785f7b00f3470809e0fab06aaf3f3d38f1a431768d/muko-2.13-py3-none-any.whl
+[2024-04-05 11:28:19] WARNING root fetch - processPackages [CUQIpy]: Timeout reached during download
+[2024-04-05 11:28:19] INFO root fetch - processPackages [CUQIpy]: executing diffoscope
+[2024-04-05 11:28:19] INFO root fetch - processPackages [CUQIpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CUQIpy-1.0.0.post0.dev84.tar.gz tmp/CUQIpy-1.0.0.post0.dev91.tar.gz --markdown 20240405/C/CUQIpy/1.0.0.post0.dev84-1.0.0.post0.dev91/diff.md --exclude *.pyd
+[2024-04-05 11:28:19] INFO root fetch - processPackages [shipdataprocess]: Remove: archive file [/home/abi/fetcher/tmp/shipdataprocess-0.8.2.tar.gz]
+[2024-04-05 11:28:19] INFO root fetch - processPackages [shipdataprocess]: Remove: archive file [/home/abi/fetcher/tmp/shipdataprocess-0.8.3.tar.gz]
+[2024-04-05 11:28:19] INFO root fetch - main [MainThread]: End processing [shipdataprocess]: success
+[2024-04-05 11:28:20] WARNING root fetch - processPackages [muko]: Timeout reached during download
+[2024-04-05 11:28:20] INFO root fetch - processPackages [muko]: executing diffoscope
+[2024-04-05 11:28:20] INFO root fetch - processPackages [muko]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/muko-2.12-py3-none-any.whl.zip tmp/muko-2.13-py3-none-any.whl.zip --markdown 20240405/m/muko/2.12-2.13/diff.md --exclude *.pyd
+[2024-04-05 11:28:20] INFO root fetch - processPackages [muko]: Remove: archive file [/home/abi/fetcher/tmp/muko-1.69-py3-none-any.whl.zip]
+[2024-04-05 11:28:20] INFO root fetch - processPackages [muko]: Remove: archive file [/home/abi/fetcher/tmp/muko-1.92-py3-none-any.whl.zip]
+[2024-04-05 11:28:20] INFO root fetch - main [MainThread]: End processing [muko]: success
+[2024-04-05 11:28:20] INFO root fetch - main [MainThread]: End processing [muko]: success
+[2024-04-05 11:28:20] INFO root fetch - processPackages [muko]: Remove: archive file [/home/abi/fetcher/tmp/muko-2.12-py3-none-any.whl.zip]
+[2024-04-05 11:28:20] INFO root fetch - processPackages [muko]: Remove: archive file [/home/abi/fetcher/tmp/muko-2.13-py3-none-any.whl.zip]
+[2024-04-05 11:28:20] INFO root fetch - main [MainThread]: End processing [muko]: success
+[2024-04-05 11:28:20] INFO root fetch - processPackages [CUQIpy]: Remove: archive file [/home/abi/fetcher/tmp/CUQIpy-1.0.0.post0.dev84.tar.gz]
+[2024-04-05 11:28:20] INFO root fetch - processPackages [CUQIpy]: Remove: archive file [/home/abi/fetcher/tmp/CUQIpy-1.0.0.post0.dev91.tar.gz]
+[2024-04-05 11:28:20] INFO root fetch - main [MainThread]: End processing [CUQIpy]: success
+[2024-04-05 11:28:21] INFO root fetch - processPackages [slpkg]: Downloading https://files.pythonhosted.org/packages/c7/7c/e7c2720200fa312af39461f453c16543cdebf0026f894236743b9213e5c2/slpkg-5.0.4.tar.gz
+[2024-04-05 11:28:21] WARNING root fetch - processPackages [slpkg]: Timeout reached during download
+[2024-04-05 11:28:21] INFO root fetch - processPackages [slpkg]: executing diffoscope
+[2024-04-05 11:28:21] INFO root fetch - processPackages [slpkg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/slpkg-5.0.3.tar.gz tmp/slpkg-5.0.4.tar.gz --markdown 20240405/s/slpkg/5.0.3-5.0.4/diff.md --exclude *.pyd
+[2024-04-05 11:28:21] INFO root fetch - processPackages [slpkg]: Remove: archive file [/home/abi/fetcher/tmp/slpkg-5.0.3.tar.gz]
+[2024-04-05 11:28:21] INFO root fetch - processPackages [slpkg]: Remove: archive file [/home/abi/fetcher/tmp/slpkg-5.0.4.tar.gz]
+[2024-04-05 11:28:21] INFO root fetch - main [MainThread]: End processing [slpkg]: success
+[2024-04-05 11:28:21] INFO root fetch - main [MainThread]: Store serial: [22634008]
