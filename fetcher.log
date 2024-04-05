@@ -20307,3 +20307,105 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2024-04-05 13:08:08] INFO root fetch - processPackages [dara-components]: Remove: archive file [/home/abi/fetcher/tmp/dara_components-1.8.0-py3-none-any.whl.zip]
 [2024-04-05 13:08:08] INFO root fetch - main [MainThread]: End processing [dara-components]: success
 [2024-04-05 13:08:08] INFO root fetch - main [MainThread]: Store serial: [22635018]
+[2024-04-05 13:10:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22635018]
+[2024-04-05 13:10:18] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2024-04-05 13:10:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: investing-algorithm-framework
+[2024-04-05 13:10:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: comfy-script
+[2024-04-05 13:10:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: so-ml-tools
+[2024-04-05 13:10:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bigdl-core-cpp
+[2024-04-05 13:10:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyscinloopsr
+[2024-04-05 13:10:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: netbox-path
+[2024-04-05 13:10:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: odoo-addon-helpdesk-type
+[2024-04-05 13:10:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: dip-coater
+[2024-04-05 13:10:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pyserilog-sinks-console
+[2024-04-05 13:10:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: NxTransit
+[2024-04-05 13:10:19] INFO root fetch - processPackages [investing-algorithm-framework]: New version: [3.4.2] Old Version: [3.4.1]
+[2024-04-05 13:10:19] INFO root fetch - processPackages [so-ml-tools]: New version: [0.1.99] Old Version: [0.1.98]
+[2024-04-05 13:10:19] WARNING root fetch - processPackages [pyscinloopsr]: Skipping, unable to determine old version
+[2024-04-05 13:10:19] INFO root fetch - processPackages [pyscinloopsr]: Start processing: youtube-selenium-py
+[2024-04-05 13:10:19] INFO root fetch - main [MainThread]: End processing [pyscinloopsr] error
+[2024-04-05 13:10:19] INFO root fetch - processPackages [dip-coater]: New version: [0.3.0] Old Version: [0.2.0]
+[2024-04-05 13:10:19] INFO root fetch - processPackages [youtube-selenium-py]: New version: [1.0.4] Old Version: [1.0.3]
+[2024-04-05 13:10:19] INFO root fetch - processPackages [investing-algorithm-framework]: Downloading https://files.pythonhosted.org/packages/a9/7d/1fb4e8c2607549a0736f56e2a03e214261fddd11b6c70ee2f50c3bddc818/investing_algorithm_framework-3.4.1.tar.gz
+[2024-04-05 13:10:19] INFO root fetch - processPackages [NxTransit]: New version: [0.1.22] Old Version: [0.1.21]
+[2024-04-05 13:10:19] INFO root fetch - processPackages [comfy-script]: New version: [0.4.3] Old Version: [0.4.2]
+[2024-04-05 13:10:19] INFO root fetch - processPackages [odoo-addon-helpdesk-type]: New version: [16.0.1.1.0] Old Version: [16.0.1.0.0.6]
+[2024-04-05 13:10:19] WARNING root fetch - processPackages [netbox-path]: Skipping, unable to determine old version
+[2024-04-05 13:10:19] INFO root fetch - processPackages [bigdl-core-cpp]: New version: [2.5.0b20240405] Old Version: [2.5.0b20240404]
+[2024-04-05 13:10:19] INFO root fetch - processPackages [pyserilog-sinks-console]: New version: [0.1.0] Old Version: [0.0.13]
+[2024-04-05 13:10:19] INFO root fetch - main [MainThread]: End processing [netbox-path] error
+[2024-04-05 13:10:19] INFO root fetch - processPackages [dip-coater]: Downloading https://files.pythonhosted.org/packages/4a/a9/59f3e6b70c70664d4935c08be761b880c6fe2d9cd137a8be4697f1e11c7f/dip-coater-0.2.0.tar.gz
+[2024-04-05 13:10:19] INFO root fetch - processPackages [so-ml-tools]: Downloading https://files.pythonhosted.org/packages/fc/30/cfb5b7cf1b6c3d4b7759e52aaf120234d88b23cda57cfa671f342c8928d9/so-ml-tools-0.1.98.tar.gz
+[2024-04-05 13:10:19] INFO root fetch - processPackages [youtube-selenium-py]: Downloading https://files.pythonhosted.org/packages/e8/5c/7729ae207228007109fb1c834c1e3bc7556cbca4616b66a6857f89c3a75a/youtube_selenium_py-1.0.3.tar.gz
+[2024-04-05 13:10:19] WARNING root fetch - processPackages [investing-algorithm-framework]: Timeout reached during download
+[2024-04-05 13:10:19] INFO root fetch - processPackages [odoo-addon-helpdesk-type]: Downloading https://files.pythonhosted.org/packages/ff/59/d7a7b20921e9a72458406be7ade75144910aaaab4117cea061c50e6be036/odoo_addon_helpdesk_type-16.0.1.0.0.6-py3-none-any.whl
+[2024-04-05 13:10:19] WARNING root fetch - processPackages [dip-coater]: Timeout reached during download
+[2024-04-05 13:10:19] INFO root fetch - processPackages [bigdl-core-cpp]: Downloading https://files.pythonhosted.org/packages/2d/8a/a3da360040232345c95a69a136f6dd4826321ee022d86095541bc34fc096/bigdl_core_cpp-2.5.0b20240404-py3-none-win_amd64.whl
+[2024-04-05 13:10:19] WARNING root fetch - processPackages [so-ml-tools]: Timeout reached during download
+[2024-04-05 13:10:19] INFO root fetch - processPackages [NxTransit]: Downloading https://files.pythonhosted.org/packages/f7/d5/c92b071232e92d5bb0bef24f88dff036b2396b35f1805e2e693a798fee09/NxTransit-0.1.21.tar.gz
+[2024-04-05 13:10:19] INFO root fetch - processPackages [pyserilog-sinks-console]: Downloading https://files.pythonhosted.org/packages/17/f0/937e4a1f6f125742ebba316383d01140e4d603fdecabbd71d4bc2d8a4b66/pyserilog_sinks_console-0.0.13.tar.gz
+[2024-04-05 13:10:19] INFO root fetch - processPackages [comfy-script]: Downloading https://files.pythonhosted.org/packages/8e/ea/7da7af7aab8816e7833fb8c06ab6b6b45c105f3f1eed5c2f87ad35950f13/comfy_script-0.4.2.tar.gz
+[2024-04-05 13:10:19] WARNING root fetch - processPackages [bigdl-core-cpp]: Skipping package: exceeds size limit 35509718>=10485760
+[2024-04-05 13:10:19] INFO root fetch - main [MainThread]: End processing [bigdl-core-cpp] error
+[2024-04-05 13:10:19] WARNING root fetch - processPackages [youtube-selenium-py]: Timeout reached during download
+[2024-04-05 13:10:19] WARNING root fetch - processPackages [odoo-addon-helpdesk-type]: Timeout reached during download
+[2024-04-05 13:10:19] INFO root fetch - processPackages [so-ml-tools]: Downloading https://files.pythonhosted.org/packages/81/44/0ba41cd45b341c34829d9698a1a7295a871d04bec34718944a8d469046a7/so-ml-tools-0.1.99.tar.gz
+[2024-04-05 13:10:19] INFO root fetch - processPackages [investing-algorithm-framework]: Downloading https://files.pythonhosted.org/packages/60/5c/56896265b7aeb800e73cfcf42368f9ad09cb967085bff57a9c0d35f0000c/investing_algorithm_framework-3.4.2.tar.gz
+[2024-04-05 13:10:19] WARNING root fetch - processPackages [NxTransit]: Timeout reached during download
+[2024-04-05 13:10:19] INFO root fetch - processPackages [dip-coater]: Downloading https://files.pythonhosted.org/packages/7a/49/768b463022ac3c8de4a8adf297d57a1ab4145c4a86e2f4d655b6f113ad84/dip-coater-0.3.0.tar.gz
+[2024-04-05 13:10:19] WARNING root fetch - processPackages [pyserilog-sinks-console]: Timeout reached during download
+[2024-04-05 13:10:19] WARNING root fetch - processPackages [so-ml-tools]: Timeout reached during download
+[2024-04-05 13:10:19] INFO root fetch - processPackages [so-ml-tools]: executing diffoscope
+[2024-04-05 13:10:19] INFO root fetch - processPackages [so-ml-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/so-ml-tools-0.1.98.tar.gz tmp/so-ml-tools-0.1.99.tar.gz --markdown 20240405/s/so-ml-tools/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2024-04-05 13:10:19] INFO root fetch - processPackages [odoo-addon-helpdesk-type]: Downloading https://files.pythonhosted.org/packages/41/f7/38da79bbc8d8d9af342f93056f50f091924bba1d6cd7122b0305363f53d5/odoo_addon_helpdesk_type-16.0.1.1.0-py3-none-any.whl
+[2024-04-05 13:10:19] INFO root fetch - processPackages [youtube-selenium-py]: Downloading https://files.pythonhosted.org/packages/43/5b/371474f1abefc6ddb7dbfe25019309a969e96ced888991e75aefcca77643/youtube_selenium_py-1.0.4.tar.gz
+[2024-04-05 13:10:19] WARNING root fetch - processPackages [dip-coater]: Timeout reached during download
+[2024-04-05 13:10:19] INFO root fetch - processPackages [dip-coater]: executing diffoscope
+[2024-04-05 13:10:19] INFO root fetch - processPackages [dip-coater]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dip-coater-0.2.0.tar.gz tmp/dip-coater-0.3.0.tar.gz --markdown 20240405/d/dip-coater/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2024-04-05 13:10:19] INFO root fetch - processPackages [NxTransit]: Downloading https://files.pythonhosted.org/packages/c0/d4/98c71a89ed2c9122dbed1eb70237eb301a336e19a61b7f5b764a18b47280/NxTransit-0.1.22.tar.gz
+[2024-04-05 13:10:19] WARNING root fetch - processPackages [investing-algorithm-framework]: Timeout reached during download
+[2024-04-05 13:10:19] INFO root fetch - processPackages [pyserilog-sinks-console]: Downloading https://files.pythonhosted.org/packages/30/d9/fdf7fd262791585ac83fdcf5b05c5f3b2edbc706169389a9f6b6ef64d347/pyserilog_sinks_console-0.1.0-py3-none-any.whl
+[2024-04-05 13:10:19] INFO root fetch - processPackages [investing-algorithm-framework]: executing diffoscope
+[2024-04-05 13:10:19] INFO root fetch - processPackages [investing-algorithm-framework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/investing_algorithm_framework-3.4.1.tar.gz tmp/investing_algorithm_framework-3.4.2.tar.gz --markdown 20240405/i/investing-algorithm-framework/3.4.1-3.4.2/diff.md --exclude *.pyd
+[2024-04-05 13:10:20] WARNING root fetch - processPackages [odoo-addon-helpdesk-type]: Timeout reached during download
+[2024-04-05 13:10:20] INFO root fetch - processPackages [odoo-addon-helpdesk-type]: executing diffoscope
+[2024-04-05 13:10:20] INFO root fetch - processPackages [odoo-addon-helpdesk-type]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_helpdesk_type-16.0.1.0.0.6-py3-none-any.whl.zip tmp/odoo_addon_helpdesk_type-16.0.1.1.0-py3-none-any.whl.zip --markdown 20240405/o/odoo-addon-helpdesk-type/16.0.1.0.0.6-16.0.1.1.0/diff.md --exclude *.pyd
+[2024-04-05 13:10:20] WARNING root fetch - processPackages [youtube-selenium-py]: Timeout reached during download
+[2024-04-05 13:10:20] INFO root fetch - processPackages [youtube-selenium-py]: executing diffoscope
+[2024-04-05 13:10:20] INFO root fetch - processPackages [youtube-selenium-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/youtube_selenium_py-1.0.3.tar.gz tmp/youtube_selenium_py-1.0.4.tar.gz --markdown 20240405/y/youtube-selenium-py/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2024-04-05 13:10:20] WARNING root fetch - processPackages [pyserilog-sinks-console]: Timeout reached during download
+[2024-04-05 13:10:20] INFO root fetch - processPackages [pyserilog-sinks-console]: executing diffoscope
+[2024-04-05 13:10:20] INFO root fetch - processPackages [pyserilog-sinks-console]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyserilog_sinks_console-0.0.13.tar.gz tmp/pyserilog_sinks_console-0.1.0-py3-none-any.whl.zip --markdown 20240405/p/pyserilog-sinks-console/0.0.13-0.1.0/diff.md --exclude *.pyd
+[2024-04-05 13:10:20] WARNING root fetch - processPackages [NxTransit]: Timeout reached during download
+[2024-04-05 13:10:20] INFO root fetch - processPackages [NxTransit]: executing diffoscope
+[2024-04-05 13:10:20] INFO root fetch - processPackages [NxTransit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/NxTransit-0.1.21.tar.gz tmp/NxTransit-0.1.22.tar.gz --markdown 20240405/N/NxTransit/0.1.21-0.1.22/diff.md --exclude *.pyd
+[2024-04-05 13:10:20] INFO root fetch - processPackages [dip-coater]: Remove: archive file [/home/abi/fetcher/tmp/dip-coater-0.2.0.tar.gz]
+[2024-04-05 13:10:20] INFO root fetch - processPackages [dip-coater]: Remove: archive file [/home/abi/fetcher/tmp/dip-coater-0.3.0.tar.gz]
+[2024-04-05 13:10:20] INFO root fetch - main [MainThread]: End processing [dip-coater]: success
+[2024-04-05 13:10:20] WARNING root fetch - processPackages [comfy-script]: Timeout reached during download
+[2024-04-05 13:10:20] INFO root fetch - processPackages [so-ml-tools]: Remove: archive file [/home/abi/fetcher/tmp/so-ml-tools-0.1.98.tar.gz]
+[2024-04-05 13:10:20] INFO root fetch - processPackages [so-ml-tools]: Remove: archive file [/home/abi/fetcher/tmp/so-ml-tools-0.1.99.tar.gz]
+[2024-04-05 13:10:20] INFO root fetch - main [MainThread]: End processing [so-ml-tools]: success
+[2024-04-05 13:10:20] INFO root fetch - processPackages [pyserilog-sinks-console]: Remove: archive file [/home/abi/fetcher/tmp/pyserilog_sinks_console-0.0.13.tar.gz]
+[2024-04-05 13:10:20] INFO root fetch - processPackages [pyserilog-sinks-console]: Remove: archive file [/home/abi/fetcher/tmp/pyserilog_sinks_console-0.1.0-py3-none-any.whl.zip]
+[2024-04-05 13:10:20] INFO root fetch - main [MainThread]: End processing [pyserilog-sinks-console]: success
+[2024-04-05 13:10:20] INFO root fetch - processPackages [youtube-selenium-py]: Remove: archive file [/home/abi/fetcher/tmp/youtube_selenium_py-1.0.3.tar.gz]
+[2024-04-05 13:10:20] INFO root fetch - processPackages [youtube-selenium-py]: Remove: archive file [/home/abi/fetcher/tmp/youtube_selenium_py-1.0.4.tar.gz]
+[2024-04-05 13:10:20] INFO root fetch - main [MainThread]: End processing [youtube-selenium-py]: success
+[2024-04-05 13:10:20] INFO root fetch - processPackages [comfy-script]: Downloading https://files.pythonhosted.org/packages/ef/d9/2f9902b482cb355f9874cd8c4b2be33d598dc878931af79c178653b1057f/comfy_script-0.4.3.tar.gz
+[2024-04-05 13:10:20] INFO root fetch - processPackages [NxTransit]: Remove: archive file [/home/abi/fetcher/tmp/NxTransit-0.1.21.tar.gz]
+[2024-04-05 13:10:20] INFO root fetch - processPackages [NxTransit]: Remove: archive file [/home/abi/fetcher/tmp/NxTransit-0.1.22.tar.gz]
+[2024-04-05 13:10:20] INFO root fetch - main [MainThread]: End processing [NxTransit]: success
+[2024-04-05 13:10:20] INFO root fetch - processPackages [odoo-addon-helpdesk-type]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_helpdesk_type-16.0.1.0.0.6-py3-none-any.whl.zip]
+[2024-04-05 13:10:20] INFO root fetch - processPackages [odoo-addon-helpdesk-type]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_helpdesk_type-16.0.1.1.0-py3-none-any.whl.zip]
+[2024-04-05 13:10:20] INFO root fetch - main [MainThread]: End processing [odoo-addon-helpdesk-type]: success
+[2024-04-05 13:10:20] INFO root fetch - processPackages [investing-algorithm-framework]: Remove: archive file [/home/abi/fetcher/tmp/investing_algorithm_framework-3.4.1.tar.gz]
+[2024-04-05 13:10:20] INFO root fetch - processPackages [investing-algorithm-framework]: Remove: archive file [/home/abi/fetcher/tmp/investing_algorithm_framework-3.4.2.tar.gz]
+[2024-04-05 13:10:20] INFO root fetch - main [MainThread]: End processing [investing-algorithm-framework]: success
+[2024-04-05 13:10:21] WARNING root fetch - processPackages [comfy-script]: Timeout reached during download
+[2024-04-05 13:10:21] INFO root fetch - processPackages [comfy-script]: executing diffoscope
+[2024-04-05 13:10:21] INFO root fetch - processPackages [comfy-script]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/comfy_script-0.4.2.tar.gz tmp/comfy_script-0.4.3.tar.gz --markdown 20240405/c/comfy-script/0.4.2-0.4.3/diff.md --exclude *.pyd
+[2024-04-05 13:10:22] INFO root fetch - processPackages [comfy-script]: Remove: archive file [/home/abi/fetcher/tmp/comfy_script-0.4.2.tar.gz]
+[2024-04-05 13:10:22] INFO root fetch - processPackages [comfy-script]: Remove: archive file [/home/abi/fetcher/tmp/comfy_script-0.4.3.tar.gz]
+[2024-04-05 13:10:22] INFO root fetch - main [MainThread]: End processing [comfy-script]: success
+[2024-04-05 13:10:22] INFO root fetch - main [MainThread]: Store serial: [22635057]
