@@ -11375,3 +11375,28 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2024-04-05 06:19:43] INFO root fetch - processPackages [marqo]: Remove: archive file [/home/abi/fetcher/tmp/marqo-3.2.1.tar.gz]
 [2024-04-05 06:19:43] INFO root fetch - main [MainThread]: End processing [marqo]: success
 [2024-04-05 06:19:43] INFO root fetch - main [MainThread]: Store serial: [22631687]
+[2024-04-05 06:21:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22631687]
+[2024-04-05 06:21:53] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-05 06:21:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sciline
+[2024-04-05 06:21:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: petrichor-script-lexer
+[2024-04-05 06:21:53] INFO root fetch - processPackages [petrichor-script-lexer]: New version: [0.11.0.post2] Old Version: [0.11.0.post1]
+[2024-04-05 06:21:53] INFO root fetch - processPackages [petrichor-script-lexer]: Downloading https://files.pythonhosted.org/packages/f3/46/34404d24398376e9a4a1e2cf7ac2f7b8442280867ce7684cf0dc6f55b6fa/petrichor_script_lexer-0.11.0.post1.tar.gz
+[2024-04-05 06:21:53] INFO root fetch - processPackages [sciline]: New version: [24.4.1] Old Version: [24.4.0]
+[2024-04-05 06:21:53] WARNING root fetch - processPackages [petrichor-script-lexer]: Timeout reached during download
+[2024-04-05 06:21:53] INFO root fetch - processPackages [sciline]: Downloading https://files.pythonhosted.org/packages/dc/c8/f0ce770fc687b0b02bb03c74bc6a59f3ce22bdf95859628032e82db25ecb/sciline-24.4.0.tar.gz
+[2024-04-05 06:21:53] INFO root fetch - processPackages [petrichor-script-lexer]: Downloading https://files.pythonhosted.org/packages/58/c9/398a250fa02d81a747596b9e2babf91fd0aea025e28fc4d2f672b343950a/petrichor_script_lexer-0.11.0.post2.tar.gz
+[2024-04-05 06:21:53] WARNING root fetch - processPackages [sciline]: Timeout reached during download
+[2024-04-05 06:21:53] INFO root fetch - processPackages [sciline]: Downloading https://files.pythonhosted.org/packages/4b/e9/6a821466a39853202e133f3f5e2bcdb03f677afd9e096c3c0c0eb9b64bc3/sciline-24.4.1.tar.gz
+[2024-04-05 06:21:54] WARNING root fetch - processPackages [sciline]: Timeout reached during download
+[2024-04-05 06:21:54] INFO root fetch - processPackages [sciline]: executing diffoscope
+[2024-04-05 06:21:54] INFO root fetch - processPackages [sciline]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sciline-24.4.0.tar.gz tmp/sciline-24.4.1.tar.gz --markdown 20240405/s/sciline/24.4.0-24.4.1/diff.md --exclude *.pyd
+[2024-04-05 06:21:54] WARNING root fetch - processPackages [petrichor-script-lexer]: Timeout reached during download
+[2024-04-05 06:21:54] INFO root fetch - processPackages [petrichor-script-lexer]: executing diffoscope
+[2024-04-05 06:21:54] INFO root fetch - processPackages [petrichor-script-lexer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/petrichor_script_lexer-0.11.0.post1.tar.gz tmp/petrichor_script_lexer-0.11.0.post2.tar.gz --markdown 20240405/p/petrichor-script-lexer/0.11.0.post1-0.11.0.post2/diff.md --exclude *.pyd
+[2024-04-05 06:21:54] INFO root fetch - processPackages [petrichor-script-lexer]: Remove: archive file [/home/abi/fetcher/tmp/petrichor_script_lexer-0.11.0.post1.tar.gz]
+[2024-04-05 06:21:54] INFO root fetch - processPackages [petrichor-script-lexer]: Remove: archive file [/home/abi/fetcher/tmp/petrichor_script_lexer-0.11.0.post2.tar.gz]
+[2024-04-05 06:21:54] INFO root fetch - main [MainThread]: End processing [petrichor-script-lexer]: success
+[2024-04-05 06:21:54] INFO root fetch - processPackages [sciline]: Remove: archive file [/home/abi/fetcher/tmp/sciline-24.4.0.tar.gz]
+[2024-04-05 06:21:54] INFO root fetch - processPackages [sciline]: Remove: archive file [/home/abi/fetcher/tmp/sciline-24.4.1.tar.gz]
+[2024-04-05 06:21:54] INFO root fetch - main [MainThread]: End processing [sciline]: success
+[2024-04-05 06:21:54] INFO root fetch - main [MainThread]: Store serial: [22631693]
