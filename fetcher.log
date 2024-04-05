@@ -20409,3 +20409,56 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2024-04-05 13:10:22] INFO root fetch - processPackages [comfy-script]: Remove: archive file [/home/abi/fetcher/tmp/comfy_script-0.4.3.tar.gz]
 [2024-04-05 13:10:22] INFO root fetch - main [MainThread]: End processing [comfy-script]: success
 [2024-04-05 13:10:22] INFO root fetch - main [MainThread]: Store serial: [22635057]
+[2024-04-05 13:12:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22635057]
+[2024-04-05 13:12:32] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-05 13:12:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: qarray
+[2024-04-05 13:12:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mybody-api-client
+[2024-04-05 13:12:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: test-RAG-X
+[2024-04-05 13:12:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: kafka-broker
+[2024-04-05 13:12:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pysarpro
+[2024-04-05 13:12:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: so-ml-tools
+[2024-04-05 13:12:32] WARNING root fetch - processPackages [test-RAG-X]: Skipping, unable to determine old version
+[2024-04-05 13:12:32] INFO root fetch - main [MainThread]: End processing [test-RAG-X] error
+[2024-04-05 13:12:32] INFO root fetch - processPackages [qarray]: New version: [1.0.8] Old Version: [1.0.7]
+[2024-04-05 13:12:32] WARNING root fetch - processPackages [pysarpro]: Skipping, unable to determine old version
+[2024-04-05 13:12:32] INFO root fetch - main [MainThread]: End processing [pysarpro] error
+[2024-04-05 13:12:32] INFO root fetch - processPackages [kafka-broker]: New version: [0.3.2] Old Version: [0.3.1]
+[2024-04-05 13:12:32] INFO root fetch - processPackages [so-ml-tools]: New version: [0.1.99] Old Version: [0.1.98]
+[2024-04-05 13:12:32] INFO root fetch - processPackages [mybody-api-client]: New version: [0.5.9] Old Version: [0.5.8]
+[2024-04-05 13:12:32] INFO root fetch - processPackages [kafka-broker]: Downloading https://files.pythonhosted.org/packages/ee/a8/75f47fa21974fc31a71002d3a0adb26e9f12160fc7d581c3d9c4d163d5a7/kafka-broker-0.3.1.tar.gz
+[2024-04-05 13:12:32] INFO root fetch - processPackages [qarray]: Downloading https://files.pythonhosted.org/packages/6d/ee/868d2ef94bb27ddf0197dee9fcfb68d02282da18aaeec9a49e28a42ac1de/qarray-1.0.7.tar.gz
+[2024-04-05 13:12:32] INFO root fetch - processPackages [so-ml-tools]: Downloading https://files.pythonhosted.org/packages/fc/30/cfb5b7cf1b6c3d4b7759e52aaf120234d88b23cda57cfa671f342c8928d9/so-ml-tools-0.1.98.tar.gz
+[2024-04-05 13:12:32] WARNING root fetch - processPackages [kafka-broker]: Timeout reached during download
+[2024-04-05 13:12:32] INFO root fetch - processPackages [mybody-api-client]: Downloading https://files.pythonhosted.org/packages/89/b9/6c343a6744accfb243f9f6d10b35d9404b7e7c784d542bdafb1384eec63f/mybody_api_client-0.5.8.tar.gz
+[2024-04-05 13:12:32] WARNING root fetch - processPackages [so-ml-tools]: Timeout reached during download
+[2024-04-05 13:12:32] WARNING root fetch - processPackages [qarray]: Timeout reached during download
+[2024-04-05 13:12:32] INFO root fetch - processPackages [so-ml-tools]: Downloading https://files.pythonhosted.org/packages/81/44/0ba41cd45b341c34829d9698a1a7295a871d04bec34718944a8d469046a7/so-ml-tools-0.1.99.tar.gz
+[2024-04-05 13:12:32] WARNING root fetch - processPackages [mybody-api-client]: Timeout reached during download
+[2024-04-05 13:12:32] WARNING root fetch - processPackages [so-ml-tools]: Timeout reached during download
+[2024-04-05 13:12:32] INFO root fetch - processPackages [so-ml-tools]: executing diffoscope
+[2024-04-05 13:12:32] INFO root fetch - processPackages [so-ml-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/so-ml-tools-0.1.98.tar.gz tmp/so-ml-tools-0.1.99.tar.gz --markdown 20240405/s/so-ml-tools/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2024-04-05 13:12:32] INFO root fetch - processPackages [qarray]: Downloading https://files.pythonhosted.org/packages/f4/30/e3d86ebb9bc2646028e1d8c491ea40bc155ebff45fd670545d5e93b156a2/qarray-1.0.8.tar.gz
+[2024-04-05 13:12:32] INFO root fetch - processPackages [mybody-api-client]: Downloading https://files.pythonhosted.org/packages/05/e6/a86994fd0636a33563e55a821541927c603bc85c308649457629e3ad588c/mybody_api_client-0.5.9.tar.gz
+[2024-04-05 13:12:32] INFO root fetch - processPackages [kafka-broker]: Downloading https://files.pythonhosted.org/packages/bf/32/1788be85a63769646bfb3e5e94107b426ec3c39cb7bdae0750bc37073596/kafka-broker-0.3.2.tar.gz
+[2024-04-05 13:12:33] WARNING root fetch - processPackages [mybody-api-client]: Timeout reached during download
+[2024-04-05 13:12:33] INFO root fetch - processPackages [mybody-api-client]: executing diffoscope
+[2024-04-05 13:12:33] INFO root fetch - processPackages [mybody-api-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mybody_api_client-0.5.8.tar.gz tmp/mybody_api_client-0.5.9.tar.gz --markdown 20240405/m/mybody-api-client/0.5.8-0.5.9/diff.md --exclude *.pyd
+[2024-04-05 13:12:33] WARNING root fetch - processPackages [qarray]: Timeout reached during download
+[2024-04-05 13:12:33] INFO root fetch - processPackages [qarray]: executing diffoscope
+[2024-04-05 13:12:33] INFO root fetch - processPackages [qarray]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qarray-1.0.7.tar.gz tmp/qarray-1.0.8.tar.gz --markdown 20240405/q/qarray/1.0.7-1.0.8/diff.md --exclude *.pyd
+[2024-04-05 13:12:33] WARNING root fetch - processPackages [kafka-broker]: Timeout reached during download
+[2024-04-05 13:12:33] INFO root fetch - processPackages [kafka-broker]: executing diffoscope
+[2024-04-05 13:12:33] INFO root fetch - processPackages [kafka-broker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kafka-broker-0.3.1.tar.gz tmp/kafka-broker-0.3.2.tar.gz --markdown 20240405/k/kafka-broker/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2024-04-05 13:12:33] INFO root fetch - processPackages [so-ml-tools]: Remove: archive file [/home/abi/fetcher/tmp/so-ml-tools-0.1.98.tar.gz]
+[2024-04-05 13:12:33] INFO root fetch - processPackages [so-ml-tools]: Remove: archive file [/home/abi/fetcher/tmp/so-ml-tools-0.1.99.tar.gz]
+[2024-04-05 13:12:33] INFO root fetch - main [MainThread]: End processing [so-ml-tools]: success
+[2024-04-05 13:12:33] INFO root fetch - processPackages [kafka-broker]: Remove: archive file [/home/abi/fetcher/tmp/kafka-broker-0.3.1.tar.gz]
+[2024-04-05 13:12:33] INFO root fetch - processPackages [kafka-broker]: Remove: archive file [/home/abi/fetcher/tmp/kafka-broker-0.3.2.tar.gz]
+[2024-04-05 13:12:33] INFO root fetch - main [MainThread]: End processing [kafka-broker]: success
+[2024-04-05 13:12:33] INFO root fetch - processPackages [mybody-api-client]: Remove: archive file [/home/abi/fetcher/tmp/mybody_api_client-0.5.8.tar.gz]
+[2024-04-05 13:12:33] INFO root fetch - processPackages [mybody-api-client]: Remove: archive file [/home/abi/fetcher/tmp/mybody_api_client-0.5.9.tar.gz]
+[2024-04-05 13:12:33] INFO root fetch - main [MainThread]: End processing [mybody-api-client]: success
+[2024-04-05 13:12:33] INFO root fetch - processPackages [qarray]: Remove: archive file [/home/abi/fetcher/tmp/qarray-1.0.7.tar.gz]
+[2024-04-05 13:12:33] INFO root fetch - processPackages [qarray]: Remove: archive file [/home/abi/fetcher/tmp/qarray-1.0.8.tar.gz]
+[2024-04-05 13:12:33] INFO root fetch - main [MainThread]: End processing [qarray]: success
+[2024-04-05 13:12:33] INFO root fetch - main [MainThread]: Store serial: [22635093]
