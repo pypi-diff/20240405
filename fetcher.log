@@ -11414,3 +11414,22 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2024-04-05 06:24:06] INFO root fetch - processPackages [odoo-addon-hr-personal-equipment-request]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_hr_personal_equipment_request-17.0.1.0.0.2-py3-none-any.whl.zip]
 [2024-04-05 06:24:06] INFO root fetch - main [MainThread]: End processing [odoo-addon-hr-personal-equipment-request]: success
 [2024-04-05 06:24:06] INFO root fetch - main [MainThread]: Store serial: [22631695]
+[2024-04-05 06:26:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22631695]
+[2024-04-05 06:26:16] INFO root fetch - main [MainThread]: No changed packages found
+[2024-04-05 06:28:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22631696]
+[2024-04-05 06:28:21] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-05 06:28:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: turning-points
+[2024-04-05 06:28:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: petrichor-script-lexer
+[2024-04-05 06:28:21] WARNING root fetch - processPackages [turning-points]: Skipping, unable to determine old version
+[2024-04-05 06:28:21] INFO root fetch - main [MainThread]: End processing [turning-points] error
+[2024-04-05 06:28:21] INFO root fetch - processPackages [petrichor-script-lexer]: New version: [0.11.0.post3] Old Version: [0.11.0.post2]
+[2024-04-05 06:28:21] INFO root fetch - processPackages [petrichor-script-lexer]: Downloading https://files.pythonhosted.org/packages/58/c9/398a250fa02d81a747596b9e2babf91fd0aea025e28fc4d2f672b343950a/petrichor_script_lexer-0.11.0.post2.tar.gz
+[2024-04-05 06:28:21] WARNING root fetch - processPackages [petrichor-script-lexer]: Timeout reached during download
+[2024-04-05 06:28:21] INFO root fetch - processPackages [petrichor-script-lexer]: Downloading https://files.pythonhosted.org/packages/2f/49/9b4f127389ae519d51bf8c3de8fa387f3e83d5895864cea87b19078a9fd7/petrichor_script_lexer-0.11.0.post3.tar.gz
+[2024-04-05 06:28:22] WARNING root fetch - processPackages [petrichor-script-lexer]: Timeout reached during download
+[2024-04-05 06:28:22] INFO root fetch - processPackages [petrichor-script-lexer]: executing diffoscope
+[2024-04-05 06:28:22] INFO root fetch - processPackages [petrichor-script-lexer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/petrichor_script_lexer-0.11.0.post2.tar.gz tmp/petrichor_script_lexer-0.11.0.post3.tar.gz --markdown 20240405/p/petrichor-script-lexer/0.11.0.post2-0.11.0.post3/diff.md --exclude *.pyd
+[2024-04-05 06:28:22] INFO root fetch - processPackages [petrichor-script-lexer]: Remove: archive file [/home/abi/fetcher/tmp/petrichor_script_lexer-0.11.0.post2.tar.gz]
+[2024-04-05 06:28:22] INFO root fetch - processPackages [petrichor-script-lexer]: Remove: archive file [/home/abi/fetcher/tmp/petrichor_script_lexer-0.11.0.post3.tar.gz]
+[2024-04-05 06:28:22] INFO root fetch - main [MainThread]: End processing [petrichor-script-lexer]: success
+[2024-04-05 06:28:22] INFO root fetch - main [MainThread]: Store serial: [22631699]
