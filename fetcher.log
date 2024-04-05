@@ -24563,3 +24563,78 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2024-04-05 15:38:04] INFO root fetch - processPackages [tile-match-gym]: Remove: archive file [/home/abi/fetcher/tmp/tile-match-gym-0.0.5.tar.gz]
 [2024-04-05 15:38:04] INFO root fetch - main [MainThread]: End processing [tile-match-gym]: success
 [2024-04-05 15:38:04] INFO root fetch - main [MainThread]: Store serial: [22636783]
+[2024-04-05 15:40:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22636783]
+[2024-04-05 15:40:12] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-05 15:40:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pybi-next
+[2024-04-05 15:40:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: diversity
+[2024-04-05 15:40:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: antfyutils
+[2024-04-05 15:40:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sqlrepo
+[2024-04-05 15:40:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ot-logging-helpers
+[2024-04-05 15:40:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: wagtail-fedit
+[2024-04-05 15:40:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: bluepyemodel
+[2024-04-05 15:40:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: grepurl
+[2024-04-05 15:40:12] INFO root fetch - processPackages [diversity]: New version: [0.1.2] Old Version: [0.1.19]
+[2024-04-05 15:40:12] WARNING root fetch - processPackages [sqlrepo]: Skipping, unable to determine old version
+[2024-04-05 15:40:12] INFO root fetch - main [MainThread]: End processing [sqlrepo] error
+[2024-04-05 15:40:12] INFO root fetch - processPackages [wagtail-fedit]: New version: [1.3.0] Old Version: [1.2.9]
+[2024-04-05 15:40:12] INFO root fetch - processPackages [bluepyemodel]: New version: [0.0.99] Old Version: [0.0.98]
+[2024-04-05 15:40:13] INFO root fetch - processPackages [antfyutils]: New version: [0.0.6] Old Version: [0.0.5]
+[2024-04-05 15:40:13] INFO root fetch - processPackages [diversity]: Downloading https://files.pythonhosted.org/packages/29/ca/f420864ebd1782074235608b6c599e349166b279bd7d79fee2b59402788a/diversity-0.1.19.tar.gz
+[2024-04-05 15:40:13] INFO root fetch - processPackages [wagtail-fedit]: Downloading https://files.pythonhosted.org/packages/92/2f/335789a755855225fca2c0dfcfbc04661e26c341daba18f02cf65e38aa8a/wagtail_fedit-1.2.9.tar.gz
+[2024-04-05 15:40:13] WARNING root fetch - processPackages [ot-logging-helpers]: Skipping, unable to determine old version
+[2024-04-05 15:40:13] INFO root fetch - main [MainThread]: End processing [ot-logging-helpers] error
+[2024-04-05 15:40:13] INFO root fetch - processPackages [grepurl]: New version: [my-version-number] Old Version: [0.2.0]
+[2024-04-05 15:40:13] INFO root fetch - processPackages [pybi-next]: New version: [0.5.0b9] Old Version: [0.5.0b8]
+[2024-04-05 15:40:13] INFO root fetch - processPackages [bluepyemodel]: Downloading https://files.pythonhosted.org/packages/ae/1c/9a66b9e064763a88e12392ff7254bc1d5a41fd664021437ea9a52d570600/bluepyemodel-0.0.98.tar.gz
+[2024-04-05 15:40:13] WARNING root fetch - processPackages [diversity]: Timeout reached during download
+[2024-04-05 15:40:13] INFO root fetch - processPackages [antfyutils]: Downloading https://files.pythonhosted.org/packages/13/23/b7bad6e2230809f25b4169fd9edf7c54eb2889792a0c9d4831a030286835/antfyutils-0.0.5.tar.gz
+[2024-04-05 15:40:13] WARNING root fetch - processPackages [wagtail-fedit]: Timeout reached during download
+[2024-04-05 15:40:13] INFO root fetch - processPackages [pybi-next]: Downloading https://files.pythonhosted.org/packages/22/c1/43c1420a9cc04c17aa7d4e269ce5d68744b53031676cbb3a79e07a1b643c/pybi-next-0.5.0b8.tar.gz
+[2024-04-05 15:40:13] INFO root fetch - processPackages [grepurl]: Downloading https://files.pythonhosted.org/packages/e8/cc/98dc4a7db995a3c5dbfb82358c8c727435796e0c2033ab7e860ea060e806/grepurl-0.2.0.tar.gz
+[2024-04-05 15:40:13] INFO root fetch - processPackages [diversity]: Downloading https://files.pythonhosted.org/packages/2d/c3/acfb574abf54472a7e1008551dc30ff59649c31638cc69ef6d19f78a511d/diversity-0.1.2.tar.gz
+[2024-04-05 15:40:13] INFO root fetch - processPackages [wagtail-fedit]: Downloading https://files.pythonhosted.org/packages/79/72/784d9008f12008b61b79414a0cfcb4c4ed689a69cb8943652c3e61e1b88d/wagtail_fedit-1.3.0.tar.gz
+[2024-04-05 15:40:13] WARNING root fetch - processPackages [antfyutils]: Timeout reached during download
+[2024-04-05 15:40:13] WARNING root fetch - processPackages [diversity]: Timeout reached during download
+[2024-04-05 15:40:13] INFO root fetch - processPackages [diversity]: executing diffoscope
+[2024-04-05 15:40:13] INFO root fetch - processPackages [diversity]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/diversity-0.1.19.tar.gz tmp/diversity-0.1.2.tar.gz --markdown 20240405/d/diversity/0.1.19-0.1.2/diff.md --exclude *.pyd
+[2024-04-05 15:40:13] WARNING root fetch - processPackages [wagtail-fedit]: Timeout reached during download
+[2024-04-05 15:40:13] INFO root fetch - processPackages [wagtail-fedit]: executing diffoscope
+[2024-04-05 15:40:13] INFO root fetch - processPackages [wagtail-fedit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wagtail_fedit-1.2.9.tar.gz tmp/wagtail_fedit-1.3.0.tar.gz --markdown 20240405/w/wagtail-fedit/1.2.9-1.3.0/diff.md --exclude *.pyd
+[2024-04-05 15:40:13] WARNING root fetch - processPackages [grepurl]: Timeout reached during download
+[2024-04-05 15:40:13] WARNING root fetch - processPackages [bluepyemodel]: Timeout reached during download
+[2024-04-05 15:40:13] INFO root fetch - processPackages [antfyutils]: Downloading https://files.pythonhosted.org/packages/11/87/0d0cf8fa76d3ad232f93ae1d72f41ff5d983fd082d52062376739201f119/antfyutils-0.0.6.tar.gz
+[2024-04-05 15:40:13] INFO root fetch - processPackages [bluepyemodel]: Downloading https://files.pythonhosted.org/packages/4f/47/cdb97d873b536d0c711e95e2b3623dd29d62b3dedad06807f9db9e2e1d2c/bluepyemodel-0.0.99.tar.gz
+[2024-04-05 15:40:13] WARNING root fetch - processPackages [pybi-next]: Timeout reached during download
+[2024-04-05 15:40:13] INFO root fetch - processPackages [grepurl]: Downloading https://files.pythonhosted.org/packages/0a/ff/cfb288114604ca5426e9f5da06f75d2ba4022394e323310648165ba6c3b6/grepurl-my-version-number.tar.gz
+[2024-04-05 15:40:13] WARNING root fetch - processPackages [antfyutils]: Timeout reached during download
+[2024-04-05 15:40:13] INFO root fetch - processPackages [antfyutils]: executing diffoscope
+[2024-04-05 15:40:13] INFO root fetch - processPackages [antfyutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/antfyutils-0.0.5.tar.gz tmp/antfyutils-0.0.6.tar.gz --markdown 20240405/a/antfyutils/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2024-04-05 15:40:13] INFO root fetch - processPackages [pybi-next]: Downloading https://files.pythonhosted.org/packages/fc/fc/db8c8ea59dc981ec720475bfe2d338ce72f2141eda24691b66a5f36d6c23/pybi-next-0.5.0b9.tar.gz
+[2024-04-05 15:40:13] WARNING root fetch - processPackages [grepurl]: Timeout reached during download
+[2024-04-05 15:40:13] INFO root fetch - processPackages [grepurl]: executing diffoscope
+[2024-04-05 15:40:13] INFO root fetch - processPackages [grepurl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/grepurl-0.2.0.tar.gz tmp/grepurl-my-version-number.tar.gz --markdown 20240405/g/grepurl/0.2.0-my-version-number/diff.md --exclude *.pyd
+[2024-04-05 15:40:14] INFO root fetch - processPackages [diversity]: Remove: archive file [/home/abi/fetcher/tmp/diversity-0.1.19.tar.gz]
+[2024-04-05 15:40:14] INFO root fetch - processPackages [diversity]: Remove: archive file [/home/abi/fetcher/tmp/diversity-0.1.2.tar.gz]
+[2024-04-05 15:40:14] INFO root fetch - main [MainThread]: End processing [diversity]: success
+[2024-04-05 15:40:14] WARNING root fetch - processPackages [bluepyemodel]: Timeout reached during download
+[2024-04-05 15:40:14] INFO root fetch - processPackages [bluepyemodel]: executing diffoscope
+[2024-04-05 15:40:14] INFO root fetch - processPackages [bluepyemodel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bluepyemodel-0.0.98.tar.gz tmp/bluepyemodel-0.0.99.tar.gz --markdown 20240405/b/bluepyemodel/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2024-04-05 15:40:14] WARNING root fetch - processPackages [pybi-next]: Timeout reached during download
+[2024-04-05 15:40:14] INFO root fetch - processPackages [pybi-next]: executing diffoscope
+[2024-04-05 15:40:14] INFO root fetch - processPackages [pybi-next]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pybi-next-0.5.0b8.tar.gz tmp/pybi-next-0.5.0b9.tar.gz --markdown 20240405/p/pybi-next/0.5.0b8-0.5.0b9/diff.md --exclude *.pyd
+[2024-04-05 15:40:14] INFO root fetch - processPackages [antfyutils]: Remove: archive file [/home/abi/fetcher/tmp/antfyutils-0.0.5.tar.gz]
+[2024-04-05 15:40:14] INFO root fetch - processPackages [antfyutils]: Remove: archive file [/home/abi/fetcher/tmp/antfyutils-0.0.6.tar.gz]
+[2024-04-05 15:40:14] INFO root fetch - main [MainThread]: End processing [antfyutils]: success
+[2024-04-05 15:40:14] INFO root fetch - processPackages [wagtail-fedit]: Remove: archive file [/home/abi/fetcher/tmp/wagtail_fedit-1.2.9.tar.gz]
+[2024-04-05 15:40:14] INFO root fetch - processPackages [wagtail-fedit]: Remove: archive file [/home/abi/fetcher/tmp/wagtail_fedit-1.3.0.tar.gz]
+[2024-04-05 15:40:14] INFO root fetch - main [MainThread]: End processing [wagtail-fedit]: success
+[2024-04-05 15:40:14] INFO root fetch - processPackages [grepurl]: Remove: archive file [/home/abi/fetcher/tmp/grepurl-0.2.0.tar.gz]
+[2024-04-05 15:40:14] INFO root fetch - processPackages [grepurl]: Remove: archive file [/home/abi/fetcher/tmp/grepurl-my-version-number.tar.gz]
+[2024-04-05 15:40:14] INFO root fetch - main [MainThread]: End processing [grepurl]: success
+[2024-04-05 15:40:17] INFO root fetch - processPackages [pybi-next]: Remove: archive file [/home/abi/fetcher/tmp/pybi-next-0.5.0b8.tar.gz]
+[2024-04-05 15:40:17] INFO root fetch - processPackages [pybi-next]: Remove: archive file [/home/abi/fetcher/tmp/pybi-next-0.5.0b9.tar.gz]
+[2024-04-05 15:40:17] INFO root fetch - main [MainThread]: End processing [pybi-next]: success
+[2024-04-05 15:40:18] INFO root fetch - processPackages [bluepyemodel]: Remove: archive file [/home/abi/fetcher/tmp/bluepyemodel-0.0.98.tar.gz]
+[2024-04-05 15:40:18] INFO root fetch - processPackages [bluepyemodel]: Remove: archive file [/home/abi/fetcher/tmp/bluepyemodel-0.0.99.tar.gz]
+[2024-04-05 15:40:18] INFO root fetch - main [MainThread]: End processing [bluepyemodel]: success
+[2024-04-05 15:40:18] INFO root fetch - main [MainThread]: Store serial: [22636808]
