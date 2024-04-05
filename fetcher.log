@@ -13199,3 +13199,53 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2024-04-05 08:12:03] INFO root fetch - main [MainThread]: End processing [odoo-addon-bi-sql-editor]: success
 [2024-04-05 08:12:03] INFO root fetch - main [MainThread]: End processing [odoo-addon-bi-sql-editor]: success
 [2024-04-05 08:12:03] INFO root fetch - main [MainThread]: Store serial: [22632338]
+[2024-04-05 08:14:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22632338]
+[2024-04-05 08:14:12] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-05 08:14:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: plotly3d
+[2024-04-05 08:14:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyg-nightly
+[2024-04-05 08:14:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: django-model-translator
+[2024-04-05 08:14:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pretext
+[2024-04-05 08:14:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: geojson-shave
+[2024-04-05 08:14:12] INFO root fetch - processPackages [plotly3d]: New version: [0.3.6] Old Version: [0.3.5]
+[2024-04-05 08:14:12] INFO root fetch - processPackages [plotly3d]: Downloading https://files.pythonhosted.org/packages/87/ce/6e8575dc4983794487aa1c43a9d62e5e263fee9d1e369c69d49d7f53baea/plotly3d-0.3.5.tar.gz
+[2024-04-05 08:14:12] INFO root fetch - processPackages [geojson-shave]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-04-05 08:14:12] WARNING root fetch - processPackages [django-model-translator]: Skipping, unable to determine old version
+[2024-04-05 08:14:12] INFO root fetch - main [MainThread]: End processing [django-model-translator] error
+[2024-04-05 08:14:12] INFO root fetch - processPackages [pretext]: New version: [2.3.9.dev20240302] Old Version: [2.3.9.dev20240229]
+[2024-04-05 08:14:12] INFO root fetch - processPackages [pyg-nightly]: New version: [2.6.0.dev20240405] Old Version: [2.6.0.dev20240404]
+[2024-04-05 08:14:12] WARNING root fetch - processPackages [plotly3d]: Timeout reached during download
+[2024-04-05 08:14:13] INFO root fetch - processPackages [geojson-shave]: Downloading https://files.pythonhosted.org/packages/a3/8c/4b0927d6244ca74dce025ee22941c4d2af9a5830c60f2170fd422caaa5d3/geojson-shave-0.1.1.tar.gz
+[2024-04-05 08:14:13] INFO root fetch - processPackages [pyg-nightly]: Downloading https://files.pythonhosted.org/packages/ac/ef/b2251078eb8c656585d14ef74cd17b124458c4350ecee68961c9fe8c0a0d/pyg_nightly-2.6.0.dev20240404.tar.gz
+[2024-04-05 08:14:13] INFO root fetch - processPackages [pretext]: Downloading https://files.pythonhosted.org/packages/ce/64/85bc57578fbf3322df1cb4958d7c6cf0dda4d8184eb5611f8245cb5d98eb/pretext-2.3.9.dev20240229.tar.gz
+[2024-04-05 08:14:13] INFO root fetch - processPackages [plotly3d]: Downloading https://files.pythonhosted.org/packages/8e/27/45ad751e2dea171d847f35f8cdd00f03fb7202fd660b739c64af3170e75b/plotly3d-0.3.6.tar.gz
+[2024-04-05 08:14:13] WARNING root fetch - processPackages [plotly3d]: Timeout reached during download
+[2024-04-05 08:14:13] INFO root fetch - processPackages [plotly3d]: executing diffoscope
+[2024-04-05 08:14:13] INFO root fetch - processPackages [plotly3d]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/plotly3d-0.3.5.tar.gz tmp/plotly3d-0.3.6.tar.gz --markdown 20240405/p/plotly3d/0.3.5-0.3.6/diff.md --exclude *.pyd
+[2024-04-05 08:14:13] WARNING root fetch - processPackages [geojson-shave]: Timeout reached during download
+[2024-04-05 08:14:13] WARNING root fetch - processPackages [pyg-nightly]: Timeout reached during download
+[2024-04-05 08:14:13] WARNING root fetch - processPackages [pretext]: Timeout reached during download
+[2024-04-05 08:14:13] INFO root fetch - processPackages [geojson-shave]: Downloading https://files.pythonhosted.org/packages/8e/23/7fff035404d987e4dd7b10a4f2c1487571d3a7a9087544f1ecec5614920e/geojson-shave-0.1.2.tar.gz
+[2024-04-05 08:14:13] INFO root fetch - processPackages [pyg-nightly]: Downloading https://files.pythonhosted.org/packages/25/10/ddf6876ce4fb1aec18b5173f313acacdf74ea5bb3e6318ab9d703939d62e/pyg_nightly-2.6.0.dev20240405.tar.gz
+[2024-04-05 08:14:13] INFO root fetch - processPackages [pretext]: Downloading https://files.pythonhosted.org/packages/3f/2d/22e687f1fb945aeb16176a4f9c25da1aab63664c88cd2966d7ad79f1b144/pretext-2.3.9.dev20240302.tar.gz
+[2024-04-05 08:14:13] WARNING root fetch - processPackages [pyg-nightly]: Timeout reached during download
+[2024-04-05 08:14:13] INFO root fetch - processPackages [pyg-nightly]: executing diffoscope
+[2024-04-05 08:14:13] INFO root fetch - processPackages [pyg-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyg_nightly-2.6.0.dev20240404.tar.gz tmp/pyg_nightly-2.6.0.dev20240405.tar.gz --markdown 20240405/p/pyg-nightly/2.6.0.dev20240404-2.6.0.dev20240405/diff.md --exclude *.pyd
+[2024-04-05 08:14:13] WARNING root fetch - processPackages [geojson-shave]: Timeout reached during download
+[2024-04-05 08:14:13] INFO root fetch - processPackages [geojson-shave]: executing diffoscope
+[2024-04-05 08:14:13] INFO root fetch - processPackages [geojson-shave]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/geojson-shave-0.1.1.tar.gz tmp/geojson-shave-0.1.2.tar.gz --markdown 20240405/g/geojson-shave/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2024-04-05 08:14:13] WARNING root fetch - processPackages [pretext]: Timeout reached during download
+[2024-04-05 08:14:13] INFO root fetch - processPackages [pretext]: executing diffoscope
+[2024-04-05 08:14:13] INFO root fetch - processPackages [pretext]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pretext-2.3.9.dev20240229.tar.gz tmp/pretext-2.3.9.dev20240302.tar.gz --markdown 20240405/p/pretext/2.3.9.dev20240229-2.3.9.dev20240302/diff.md --exclude *.pyd
+[2024-04-05 08:14:13] INFO root fetch - processPackages [plotly3d]: Remove: archive file [/home/abi/fetcher/tmp/plotly3d-0.3.5.tar.gz]
+[2024-04-05 08:14:13] INFO root fetch - processPackages [plotly3d]: Remove: archive file [/home/abi/fetcher/tmp/plotly3d-0.3.6.tar.gz]
+[2024-04-05 08:14:13] INFO root fetch - main [MainThread]: End processing [plotly3d]: success
+[2024-04-05 08:14:14] INFO root fetch - processPackages [geojson-shave]: Remove: archive file [/home/abi/fetcher/tmp/geojson-shave-0.1.1.tar.gz]
+[2024-04-05 08:14:14] INFO root fetch - processPackages [geojson-shave]: Remove: archive file [/home/abi/fetcher/tmp/geojson-shave-0.1.2.tar.gz]
+[2024-04-05 08:14:14] INFO root fetch - main [MainThread]: End processing [geojson-shave]: success
+[2024-04-05 08:14:15] INFO root fetch - processPackages [pyg-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pyg_nightly-2.6.0.dev20240404.tar.gz]
+[2024-04-05 08:14:15] INFO root fetch - processPackages [pyg-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pyg_nightly-2.6.0.dev20240405.tar.gz]
+[2024-04-05 08:14:15] INFO root fetch - main [MainThread]: End processing [pyg-nightly]: success
+[2024-04-05 08:14:17] INFO root fetch - processPackages [pretext]: Remove: archive file [/home/abi/fetcher/tmp/pretext-2.3.9.dev20240229.tar.gz]
+[2024-04-05 08:14:17] INFO root fetch - processPackages [pretext]: Remove: archive file [/home/abi/fetcher/tmp/pretext-2.3.9.dev20240302.tar.gz]
+[2024-04-05 08:14:17] INFO root fetch - main [MainThread]: End processing [pretext]: success
+[2024-04-05 08:14:17] INFO root fetch - main [MainThread]: Store serial: [22632355]
