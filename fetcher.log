@@ -15433,3 +15433,86 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2024-04-05 09:53:53] INFO root fetch - processPackages [khoj-assistant]: Remove: archive file [/home/abi/fetcher/tmp/khoj_assistant-1.8.1.dev58.tar.gz]
 [2024-04-05 09:53:53] INFO root fetch - main [MainThread]: End processing [khoj-assistant]: success
 [2024-04-05 09:53:53] INFO root fetch - main [MainThread]: Store serial: [22633016]
+[2024-04-05 09:55:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22633016]
+[2024-04-05 09:56:02] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-05 09:56:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: spaceone-identity
+[2024-04-05 09:56:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: merlin-batch-predictor
+[2024-04-05 09:56:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: merlin-sdk
+[2024-04-05 09:56:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: merlin-pyfunc-server
+[2024-04-05 09:56:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: komo
+[2024-04-05 09:56:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: lisaanalysistools
+[2024-04-05 09:56:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: hst-funcs
+[2024-04-05 09:56:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: corgibrowser
+[2024-04-05 09:56:02] INFO root fetch - processPackages [spaceone-identity]: New version: [2.0.dev99] Old Version: [2.0.dev98]
+[2024-04-05 09:56:02] INFO root fetch - processPackages [spaceone-identity]: Downloading https://files.pythonhosted.org/packages/f6/06/1de9a43d552682ae8e4a18d4660a13662795d5389a0b6cfde31e31aeb9c0/spaceone-identity-2.0.dev98.tar.gz
+[2024-04-05 09:56:02] INFO root fetch - processPackages [merlin-batch-predictor]: New version: [0.41.2rc1] Old Version: [0.41.1]
+[2024-04-05 09:56:02] INFO root fetch - processPackages [komo]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-04-05 09:56:02] INFO root fetch - processPackages [merlin-pyfunc-server]: New version: [0.41.2rc1] Old Version: [0.41.1]
+[2024-04-05 09:56:02] WARNING root fetch - processPackages [hst-funcs]: Skipping, unable to determine old version
+[2024-04-05 09:56:02] INFO root fetch - main [MainThread]: End processing [hst-funcs] error
+[2024-04-05 09:56:02] INFO root fetch - processPackages [corgibrowser]: New version: [0.1.0] Old Version: [0.0.4]
+[2024-04-05 09:56:02] INFO root fetch - processPackages [lisaanalysistools]: New version: [1.0.3] Old Version: [1.0.2]
+[2024-04-05 09:56:02] INFO root fetch - processPackages [merlin-sdk]: New version: [0.9.1] Old Version: [0.9.0.dev0]
+[2024-04-05 09:56:02] WARNING root fetch - processPackages [spaceone-identity]: Timeout reached during download
+[2024-04-05 09:56:02] INFO root fetch - processPackages [spaceone-identity]: Downloading https://files.pythonhosted.org/packages/3a/f9/802fb8123677b99c90a587b67faa5443d403022fbbd70d8bff1c49920e02/spaceone-identity-2.0.dev99.tar.gz
+[2024-04-05 09:56:02] INFO root fetch - processPackages [merlin-batch-predictor]: Downloading https://files.pythonhosted.org/packages/e0/fb/dfd6d6f6ad12b97dbbad129296ed08f54bc8d34ff013939e6965d402f3b4/merlin-batch-predictor-0.41.1.tar.gz
+[2024-04-05 09:56:02] INFO root fetch - processPackages [merlin-pyfunc-server]: Downloading https://files.pythonhosted.org/packages/b3/51/470e91a0e97663a11098574c2afae7b452311af0904a12a46d3a6f0010b0/merlin-pyfunc-server-0.41.1.tar.gz
+[2024-04-05 09:56:02] INFO root fetch - processPackages [komo]: Downloading https://files.pythonhosted.org/packages/e5/e8/cf20243d164ff9c48e03fd5ff4c7107c6dd965947ee156ca5fb9a7b15e8b/komo-0.2.8.tar.gz
+[2024-04-05 09:56:02] INFO root fetch - processPackages [lisaanalysistools]: Downloading https://files.pythonhosted.org/packages/e0/c9/61f37823ca7a4a0c4bb1cfa10e326e04712ac7cfc62490006fa1598fdbde/lisaanalysistools-1.0.2.tar.gz
+[2024-04-05 09:56:03] INFO root fetch - processPackages [corgibrowser]: Downloading https://files.pythonhosted.org/packages/4d/e3/758ba7d40b7d62a06ede8c83d024ca39520c772e266e97589d431644f9b4/corgibrowser-0.0.4.tar.gz
+[2024-04-05 09:56:03] INFO root fetch - processPackages [merlin-sdk]: Downloading https://files.pythonhosted.org/packages/a6/93/1ec49bc87e9c3783e78f1047b5a8045a37c626115351da0f603c1ae6a894/merlin-sdk-0.9.0.dev0.tar.gz
+[2024-04-05 09:56:03] WARNING root fetch - processPackages [spaceone-identity]: Timeout reached during download
+[2024-04-05 09:56:03] INFO root fetch - processPackages [spaceone-identity]: executing diffoscope
+[2024-04-05 09:56:03] INFO root fetch - processPackages [spaceone-identity]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spaceone-identity-2.0.dev98.tar.gz tmp/spaceone-identity-2.0.dev99.tar.gz --markdown 20240405/s/spaceone-identity/2.0.dev98-2.0.dev99/diff.md --exclude *.pyd
+[2024-04-05 09:56:03] WARNING root fetch - processPackages [komo]: Timeout reached during download
+[2024-04-05 09:56:03] WARNING root fetch - processPackages [merlin-batch-predictor]: Timeout reached during download
+[2024-04-05 09:56:03] WARNING root fetch - processPackages [merlin-pyfunc-server]: Timeout reached during download
+[2024-04-05 09:56:03] WARNING root fetch - processPackages [corgibrowser]: Timeout reached during download
+[2024-04-05 09:56:03] WARNING root fetch - processPackages [lisaanalysistools]: Timeout reached during download
+[2024-04-05 09:56:03] WARNING root fetch - processPackages [merlin-sdk]: Timeout reached during download
+[2024-04-05 09:56:03] INFO root fetch - processPackages [merlin-batch-predictor]: Downloading https://files.pythonhosted.org/packages/47/c8/b0e1017a468f3dfef6ec6ba3ca83f91e7ed803b414512b840c37a584e404/merlin-batch-predictor-0.41.2rc1.tar.gz
+[2024-04-05 09:56:03] INFO root fetch - processPackages [merlin-pyfunc-server]: Downloading https://files.pythonhosted.org/packages/17/c5/90fdd196df0f127c561fa73be7ee30053e8507bee2e6a610f4a9a5e9ef0e/merlin-pyfunc-server-0.41.2rc1.tar.gz
+[2024-04-05 09:56:03] INFO root fetch - processPackages [komo]: Downloading https://files.pythonhosted.org/packages/f5/f7/2ea58820646d37f896447b9e3d7ec9129d961b11ece4c7fe38608a77a70c/komo-0.2.9.tar.gz
+[2024-04-05 09:56:03] INFO root fetch - processPackages [corgibrowser]: Downloading https://files.pythonhosted.org/packages/d6/ab/775541ec51487401b640b650a9304fb2e5b9ec92827d54d5c516106680af/corgibrowser-0.1.0.tar.gz
+[2024-04-05 09:56:03] INFO root fetch - processPackages [lisaanalysistools]: Downloading https://files.pythonhosted.org/packages/b0/42/9f52615c541697c2ac17ed6d59618bb8949b472cfb0f9c258ca570eb8365/lisaanalysistools-1.0.3.tar.gz
+[2024-04-05 09:56:03] WARNING root fetch - processPackages [merlin-pyfunc-server]: Timeout reached during download
+[2024-04-05 09:56:03] INFO root fetch - processPackages [merlin-pyfunc-server]: executing diffoscope
+[2024-04-05 09:56:03] INFO root fetch - processPackages [merlin-pyfunc-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/merlin-pyfunc-server-0.41.1.tar.gz tmp/merlin-pyfunc-server-0.41.2rc1.tar.gz --markdown 20240405/m/merlin-pyfunc-server/0.41.1-0.41.2rc1/diff.md --exclude *.pyd
+[2024-04-05 09:56:03] WARNING root fetch - processPackages [merlin-batch-predictor]: Timeout reached during download
+[2024-04-05 09:56:03] INFO root fetch - processPackages [merlin-batch-predictor]: executing diffoscope
+[2024-04-05 09:56:03] INFO root fetch - processPackages [merlin-batch-predictor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/merlin-batch-predictor-0.41.1.tar.gz tmp/merlin-batch-predictor-0.41.2rc1.tar.gz --markdown 20240405/m/merlin-batch-predictor/0.41.1-0.41.2rc1/diff.md --exclude *.pyd
+[2024-04-05 09:56:03] INFO root fetch - processPackages [merlin-sdk]: Downloading https://files.pythonhosted.org/packages/48/3b/5e6b41bed4feb59823f7fa8ccbf076c977df12a20955a3c783fab418f126/merlin-sdk-0.9.1.tar.gz
+[2024-04-05 09:56:03] WARNING root fetch - processPackages [corgibrowser]: Timeout reached during download
+[2024-04-05 09:56:03] INFO root fetch - processPackages [corgibrowser]: executing diffoscope
+[2024-04-05 09:56:03] INFO root fetch - processPackages [corgibrowser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/corgibrowser-0.0.4.tar.gz tmp/corgibrowser-0.1.0.tar.gz --markdown 20240405/c/corgibrowser/0.0.4-0.1.0/diff.md --exclude *.pyd
+[2024-04-05 09:56:03] WARNING root fetch - processPackages [komo]: Timeout reached during download
+[2024-04-05 09:56:03] INFO root fetch - processPackages [komo]: executing diffoscope
+[2024-04-05 09:56:03] INFO root fetch - processPackages [komo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/komo-0.2.8.tar.gz tmp/komo-0.2.9.tar.gz --markdown 20240405/k/komo/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2024-04-05 09:56:03] WARNING root fetch - processPackages [lisaanalysistools]: Timeout reached during download
+[2024-04-05 09:56:03] INFO root fetch - processPackages [lisaanalysistools]: executing diffoscope
+[2024-04-05 09:56:03] INFO root fetch - processPackages [lisaanalysistools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lisaanalysistools-1.0.2.tar.gz tmp/lisaanalysistools-1.0.3.tar.gz --markdown 20240405/l/lisaanalysistools/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2024-04-05 09:56:03] WARNING root fetch - processPackages [merlin-sdk]: Timeout reached during download
+[2024-04-05 09:56:03] INFO root fetch - processPackages [merlin-sdk]: executing diffoscope
+[2024-04-05 09:56:03] INFO root fetch - processPackages [merlin-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/merlin-sdk-0.9.0.dev0.tar.gz tmp/merlin-sdk-0.9.1.tar.gz --markdown 20240405/m/merlin-sdk/0.9.0.dev0-0.9.1/diff.md --exclude *.pyd
+[2024-04-05 09:56:04] INFO root fetch - processPackages [spaceone-identity]: Remove: archive file [/home/abi/fetcher/tmp/spaceone-identity-2.0.dev98.tar.gz]
+[2024-04-05 09:56:04] INFO root fetch - processPackages [spaceone-identity]: Remove: archive file [/home/abi/fetcher/tmp/spaceone-identity-2.0.dev99.tar.gz]
+[2024-04-05 09:56:04] INFO root fetch - main [MainThread]: End processing [spaceone-identity]: success
+[2024-04-05 09:56:04] INFO root fetch - processPackages [corgibrowser]: Remove: archive file [/home/abi/fetcher/tmp/corgibrowser-0.0.4.tar.gz]
+[2024-04-05 09:56:04] INFO root fetch - processPackages [corgibrowser]: Remove: archive file [/home/abi/fetcher/tmp/corgibrowser-0.1.0.tar.gz]
+[2024-04-05 09:56:04] INFO root fetch - main [MainThread]: End processing [corgibrowser]: success
+[2024-04-05 09:56:04] INFO root fetch - processPackages [komo]: Remove: archive file [/home/abi/fetcher/tmp/komo-0.2.8.tar.gz]
+[2024-04-05 09:56:04] INFO root fetch - processPackages [komo]: Remove: archive file [/home/abi/fetcher/tmp/komo-0.2.9.tar.gz]
+[2024-04-05 09:56:04] INFO root fetch - main [MainThread]: End processing [komo]: success
+[2024-04-05 09:56:04] INFO root fetch - processPackages [merlin-pyfunc-server]: Remove: archive file [/home/abi/fetcher/tmp/merlin-pyfunc-server-0.41.1.tar.gz]
+[2024-04-05 09:56:04] INFO root fetch - processPackages [merlin-pyfunc-server]: Remove: archive file [/home/abi/fetcher/tmp/merlin-pyfunc-server-0.41.2rc1.tar.gz]
+[2024-04-05 09:56:04] INFO root fetch - main [MainThread]: End processing [merlin-pyfunc-server]: success
+[2024-04-05 09:56:04] INFO root fetch - processPackages [merlin-batch-predictor]: Remove: archive file [/home/abi/fetcher/tmp/merlin-batch-predictor-0.41.1.tar.gz]
+[2024-04-05 09:56:04] INFO root fetch - processPackages [merlin-batch-predictor]: Remove: archive file [/home/abi/fetcher/tmp/merlin-batch-predictor-0.41.2rc1.tar.gz]
+[2024-04-05 09:56:04] INFO root fetch - main [MainThread]: End processing [merlin-batch-predictor]: success
+[2024-04-05 09:56:04] INFO root fetch - processPackages [lisaanalysistools]: Remove: archive file [/home/abi/fetcher/tmp/lisaanalysistools-1.0.2.tar.gz]
+[2024-04-05 09:56:04] INFO root fetch - processPackages [lisaanalysistools]: Remove: archive file [/home/abi/fetcher/tmp/lisaanalysistools-1.0.3.tar.gz]
+[2024-04-05 09:56:04] INFO root fetch - main [MainThread]: End processing [lisaanalysistools]: success
+[2024-04-05 09:56:04] INFO root fetch - processPackages [merlin-sdk]: Remove: archive file [/home/abi/fetcher/tmp/merlin-sdk-0.9.0.dev0.tar.gz]
+[2024-04-05 09:56:04] INFO root fetch - processPackages [merlin-sdk]: Remove: archive file [/home/abi/fetcher/tmp/merlin-sdk-0.9.1.tar.gz]
+[2024-04-05 09:56:04] INFO root fetch - main [MainThread]: End processing [merlin-sdk]: success
+[2024-04-05 09:56:04] INFO root fetch - main [MainThread]: Store serial: [22633042]
