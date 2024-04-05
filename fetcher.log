@@ -24519,3 +24519,47 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2024-04-05 15:35:53] INFO root fetch - processPackages [junifer]: Remove: archive file [/home/abi/fetcher/tmp/junifer-0.0.4.dev90.tar.gz]
 [2024-04-05 15:35:53] INFO root fetch - main [MainThread]: End processing [junifer]: success
 [2024-04-05 15:35:53] INFO root fetch - main [MainThread]: Store serial: [22636767]
+[2024-04-05 15:37:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22636767]
+[2024-04-05 15:38:02] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-05 15:38:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: diversity
+[2024-04-05 15:38:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gpx-vis
+[2024-04-05 15:38:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ckanext-datagovtheme
+[2024-04-05 15:38:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pygnss
+[2024-04-05 15:38:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tile-match-gym
+[2024-04-05 15:38:02] WARNING root fetch - processPackages [gpx-vis]: Skipping, unable to determine old version
+[2024-04-05 15:38:02] INFO root fetch - main [MainThread]: End processing [gpx-vis] error
+[2024-04-05 15:38:02] INFO root fetch - processPackages [tile-match-gym]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-04-05 15:38:02] INFO root fetch - processPackages [pygnss]: New version: [0.2.0] Old Version: [0.1.0]
+[2024-04-05 15:38:02] INFO root fetch - processPackages [diversity]: New version: [0.1.2] Old Version: [0.1.19]
+[2024-04-05 15:38:02] INFO root fetch - processPackages [ckanext-datagovtheme]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-04-05 15:38:02] INFO root fetch - processPackages [pygnss]: Downloading https://files.pythonhosted.org/packages/16/6b/4ff9822529b483a3e3a0061db211ad06bbbe89e829effad1fa1a80a25afb/pygnss-0.1.0.tar.gz
+[2024-04-05 15:38:02] INFO root fetch - processPackages [ckanext-datagovtheme]: Downloading https://files.pythonhosted.org/packages/84/12/b6357f76e46f772f83b1467b0f2fe252f24117d16231aebd32d99c68f936/ckanext-datagovtheme-0.2.8.tar.gz
+[2024-04-05 15:38:02] INFO root fetch - processPackages [diversity]: Downloading https://files.pythonhosted.org/packages/29/ca/f420864ebd1782074235608b6c599e349166b279bd7d79fee2b59402788a/diversity-0.1.19.tar.gz
+[2024-04-05 15:38:02] INFO root fetch - processPackages [tile-match-gym]: Downloading https://files.pythonhosted.org/packages/44/ab/b48f5c3a1e5d450857e8689026cb0604f60fc0a7bbab22df4a97ab7291ba/tile-match-gym-0.0.4.tar.gz
+[2024-04-05 15:38:02] WARNING root fetch - processPackages [ckanext-datagovtheme]: Skipping package: exceeds size limit 11496532>=10485760
+[2024-04-05 15:38:02] INFO root fetch - main [MainThread]: End processing [ckanext-datagovtheme] error
+[2024-04-05 15:38:03] WARNING root fetch - processPackages [diversity]: Timeout reached during download
+[2024-04-05 15:38:03] WARNING root fetch - processPackages [pygnss]: Timeout reached during download
+[2024-04-05 15:38:03] WARNING root fetch - processPackages [tile-match-gym]: Timeout reached during download
+[2024-04-05 15:38:03] INFO root fetch - processPackages [diversity]: Downloading https://files.pythonhosted.org/packages/2d/c3/acfb574abf54472a7e1008551dc30ff59649c31638cc69ef6d19f78a511d/diversity-0.1.2.tar.gz
+[2024-04-05 15:38:03] INFO root fetch - processPackages [pygnss]: Downloading https://files.pythonhosted.org/packages/0a/32/7804b121b2bb8cebd4131ae770c870918a044dd76629376e9ad5ba2b40ce/pygnss-0.2.0.tar.gz
+[2024-04-05 15:38:03] INFO root fetch - processPackages [tile-match-gym]: Downloading https://files.pythonhosted.org/packages/b1/f2/8ee6c900c45ba3ba809f915c5f36fe77ff27fd38fdbee2e0c3eda363591a/tile-match-gym-0.0.5.tar.gz
+[2024-04-05 15:38:03] WARNING root fetch - processPackages [diversity]: Timeout reached during download
+[2024-04-05 15:38:03] INFO root fetch - processPackages [diversity]: executing diffoscope
+[2024-04-05 15:38:03] INFO root fetch - processPackages [diversity]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/diversity-0.1.19.tar.gz tmp/diversity-0.1.2.tar.gz --markdown 20240405/d/diversity/0.1.19-0.1.2/diff.md --exclude *.pyd
+[2024-04-05 15:38:03] WARNING root fetch - processPackages [tile-match-gym]: Timeout reached during download
+[2024-04-05 15:38:03] INFO root fetch - processPackages [tile-match-gym]: executing diffoscope
+[2024-04-05 15:38:03] INFO root fetch - processPackages [tile-match-gym]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tile-match-gym-0.0.4.tar.gz tmp/tile-match-gym-0.0.5.tar.gz --markdown 20240405/t/tile-match-gym/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2024-04-05 15:38:03] WARNING root fetch - processPackages [pygnss]: Timeout reached during download
+[2024-04-05 15:38:03] INFO root fetch - processPackages [pygnss]: executing diffoscope
+[2024-04-05 15:38:03] INFO root fetch - processPackages [pygnss]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pygnss-0.1.0.tar.gz tmp/pygnss-0.2.0.tar.gz --markdown 20240405/p/pygnss/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2024-04-05 15:38:03] INFO root fetch - processPackages [diversity]: Remove: archive file [/home/abi/fetcher/tmp/diversity-0.1.19.tar.gz]
+[2024-04-05 15:38:03] INFO root fetch - processPackages [diversity]: Remove: archive file [/home/abi/fetcher/tmp/diversity-0.1.2.tar.gz]
+[2024-04-05 15:38:03] INFO root fetch - main [MainThread]: End processing [diversity]: success
+[2024-04-05 15:38:04] INFO root fetch - processPackages [pygnss]: Remove: archive file [/home/abi/fetcher/tmp/pygnss-0.1.0.tar.gz]
+[2024-04-05 15:38:04] INFO root fetch - processPackages [pygnss]: Remove: archive file [/home/abi/fetcher/tmp/pygnss-0.2.0.tar.gz]
+[2024-04-05 15:38:04] INFO root fetch - main [MainThread]: End processing [pygnss]: success
+[2024-04-05 15:38:04] INFO root fetch - processPackages [tile-match-gym]: Remove: archive file [/home/abi/fetcher/tmp/tile-match-gym-0.0.4.tar.gz]
+[2024-04-05 15:38:04] INFO root fetch - processPackages [tile-match-gym]: Remove: archive file [/home/abi/fetcher/tmp/tile-match-gym-0.0.5.tar.gz]
+[2024-04-05 15:38:04] INFO root fetch - main [MainThread]: End processing [tile-match-gym]: success
+[2024-04-05 15:38:04] INFO root fetch - main [MainThread]: Store serial: [22636783]
