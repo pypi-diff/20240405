@@ -16970,3 +16970,108 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2024-04-05 11:04:12] INFO root fetch - processPackages [owlready2]: Remove: archive file [/home/abi/fetcher/tmp/Owlready2-0.9.tar.gz]
 [2024-04-05 11:04:12] INFO root fetch - main [MainThread]: End processing [owlready2]: success
 [2024-04-05 11:04:12] INFO root fetch - main [MainThread]: Store serial: [22633793]
+[2024-04-05 11:06:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22633793]
+[2024-04-05 11:06:22] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-04-05 11:06:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: autogluon.core
+[2024-04-05 11:06:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: btc-embedded
+[2024-04-05 11:06:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: lwk
+[2024-04-05 11:06:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: autogluon.features
+[2024-04-05 11:06:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: autogluon.tabular
+[2024-04-05 11:06:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: streamlit-pyvista
+[2024-04-05 11:06:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: autogluon.multimodal
+[2024-04-05 11:06:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: autogluon.timeseries
+[2024-04-05 11:06:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: autogluon
+[2024-04-05 11:06:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: scCellFie
+[2024-04-05 11:06:22] WARNING root fetch - processPackages [lwk]: Skipping, unable to determine old version
+[2024-04-05 11:06:22] INFO root fetch - main [MainThread]: End processing [lwk] error
+[2024-04-05 11:06:22] INFO root fetch - processPackages [streamlit-pyvista]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-04-05 11:06:22] INFO root fetch - processPackages [autogluon.core]: New version: [1.0.1b20240404] Old Version: [1.0.1b20240403]
+[2024-04-05 11:06:22] INFO root fetch - processPackages [btc-embedded]: New version: [24.1.0] Old Version: [23.3.9]
+[2024-04-05 11:06:22] INFO root fetch - processPackages [autogluon.tabular]: New version: [1.0.1b20240404] Old Version: [1.0.1b20240403]
+[2024-04-05 11:06:22] INFO root fetch - processPackages [autogluon.multimodal]: New version: [1.0.1b20240404] Old Version: [1.0.1b20240403]
+[2024-04-05 11:06:22] INFO root fetch - processPackages [autogluon.timeseries]: New version: [1.0.1b20240404] Old Version: [1.0.1b20240403]
+[2024-04-05 11:06:22] INFO root fetch - processPackages [streamlit-pyvista]: Downloading https://files.pythonhosted.org/packages/bb/65/48f58e8ead3f90e11f778e3c677cc2f81fa446018852873cdd0711159afb/streamlit_pyvista-0.0.2.tar.gz
+[2024-04-05 11:06:22] INFO root fetch - processPackages [autogluon.features]: New version: [1.0.1b20240404] Old Version: [1.0.1b20240403]
+[2024-04-05 11:06:22] INFO root fetch - processPackages [autogluon]: New version: [1.0.1b20240404] Old Version: [1.0.1b20240403]
+[2024-04-05 11:06:22] INFO root fetch - processPackages [scCellFie]: New version: [0.1.7] Old Version: [0.1.6]
+[2024-04-05 11:06:22] INFO root fetch - processPackages [btc-embedded]: Downloading https://files.pythonhosted.org/packages/d9/15/e5b858d9f0a2153fe2d0ed166ec2b37afee9de83719aec5be4b05272cc0e/btc_embedded-23.3.9.tar.gz
+[2024-04-05 11:06:22] INFO root fetch - processPackages [autogluon.core]: Downloading https://files.pythonhosted.org/packages/a0/d3/a736a2ce514484dad6b413461c6fde072dc5ee0304bd30439451201f7c05/autogluon.core-1.0.1b20240403.tar.gz
+[2024-04-05 11:06:22] WARNING root fetch - processPackages [streamlit-pyvista]: Timeout reached during download
+[2024-04-05 11:06:22] WARNING root fetch - processPackages [btc-embedded]: Timeout reached during download
+[2024-04-05 11:06:22] INFO root fetch - processPackages [streamlit-pyvista]: Downloading https://files.pythonhosted.org/packages/aa/fd/071896c41491a20d70d90bbba4a8e74dc56169ac0a2cc322eba1f4d15fbc/streamlit_pyvista-0.0.3.tar.gz
+[2024-04-05 11:06:22] INFO root fetch - processPackages [autogluon.tabular]: Downloading https://files.pythonhosted.org/packages/a9/5f/c5fdecfa5f904713611ee31ce7e14b6dd9258c1f3975123edbc40d9ad09d/autogluon.tabular-1.0.1b20240403.tar.gz
+[2024-04-05 11:06:22] INFO root fetch - processPackages [autogluon.timeseries]: Downloading https://files.pythonhosted.org/packages/61/35/b4360eecf5b25d578b58c6541e3be14a78284c74e4dfc0725c5065cd9f3f/autogluon.timeseries-1.0.1b20240403.tar.gz
+[2024-04-05 11:06:22] WARNING root fetch - processPackages [autogluon.core]: Timeout reached during download
+[2024-04-05 11:06:22] INFO root fetch - processPackages [autogluon]: Downloading https://files.pythonhosted.org/packages/08/37/21698900551463e75777d8cdbe4f26bc6ffca7f902d0558329707ab89931/autogluon-1.0.1b20240403.tar.gz
+[2024-04-05 11:06:22] INFO root fetch - processPackages [autogluon.features]: Downloading https://files.pythonhosted.org/packages/de/53/9f042b35df8eef718e32dfc1d0bed0445c541f4b7fca3cda21323c7a36e5/autogluon.features-1.0.1b20240403.tar.gz
+[2024-04-05 11:06:22] INFO root fetch - processPackages [scCellFie]: Downloading https://files.pythonhosted.org/packages/27/71/1c960153f9b6f080d6dfba766022049bdf186cb10e128ef6f4521ff94f1d/scCellFie-0.1.6.tar.gz
+[2024-04-05 11:06:22] INFO root fetch - processPackages [autogluon.multimodal]: Downloading https://files.pythonhosted.org/packages/a6/9b/ba64f7e4783c437e4aa08346306b4e02f4c17c9388d4fc6b57675507f03d/autogluon.multimodal-1.0.1b20240403.tar.gz
+[2024-04-05 11:06:22] INFO root fetch - processPackages [btc-embedded]: Downloading https://files.pythonhosted.org/packages/c1/1f/06a06c3d4e5f40a516baf3b03bbfbee3cae1ab3388990d4892308c35d7db/btc_embedded-24.1.0.tar.gz
+[2024-04-05 11:06:22] WARNING root fetch - processPackages [streamlit-pyvista]: Timeout reached during download
+[2024-04-05 11:06:22] INFO root fetch - processPackages [streamlit-pyvista]: executing diffoscope
+[2024-04-05 11:06:22] INFO root fetch - processPackages [streamlit-pyvista]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streamlit_pyvista-0.0.2.tar.gz tmp/streamlit_pyvista-0.0.3.tar.gz --markdown 20240405/s/streamlit-pyvista/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2024-04-05 11:06:22] WARNING root fetch - processPackages [autogluon.timeseries]: Timeout reached during download
+[2024-04-05 11:06:22] WARNING root fetch - processPackages [autogluon]: Timeout reached during download
+[2024-04-05 11:06:22] WARNING root fetch - processPackages [scCellFie]: Timeout reached during download
+[2024-04-05 11:06:22] WARNING root fetch - processPackages [autogluon.features]: Timeout reached during download
+[2024-04-05 11:06:22] INFO root fetch - processPackages [autogluon.core]: Downloading https://files.pythonhosted.org/packages/9c/48/1d526a74f4f4d500323211adb4df5ae3276c270af9080f79df39f4a905a8/autogluon.core-1.0.1b20240404.tar.gz
+[2024-04-05 11:06:23] WARNING root fetch - processPackages [btc-embedded]: Timeout reached during download
+[2024-04-05 11:06:23] INFO root fetch - processPackages [btc-embedded]: executing diffoscope
+[2024-04-05 11:06:23] INFO root fetch - processPackages [btc-embedded]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/btc_embedded-23.3.9.tar.gz tmp/btc_embedded-24.1.0.tar.gz --markdown 20240405/b/btc-embedded/23.3.9-24.1.0/diff.md --exclude *.pyd
+[2024-04-05 11:06:23] WARNING root fetch - processPackages [autogluon.tabular]: Timeout reached during download
+[2024-04-05 11:06:23] WARNING root fetch - processPackages [autogluon.multimodal]: Timeout reached during download
+[2024-04-05 11:06:23] WARNING root fetch - processPackages [autogluon.core]: Timeout reached during download
+[2024-04-05 11:06:23] INFO root fetch - processPackages [autogluon.core]: executing diffoscope
+[2024-04-05 11:06:23] INFO root fetch - processPackages [autogluon.core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autogluon.core-1.0.1b20240403.tar.gz tmp/autogluon.core-1.0.1b20240404.tar.gz --markdown 20240405/a/autogluon.core/1.0.1b20240403-1.0.1b20240404/diff.md --exclude *.pyd
+[2024-04-05 11:06:23] INFO root fetch - processPackages [scCellFie]: Downloading https://files.pythonhosted.org/packages/c7/2b/e303eed2448ac8f35bb5a5e7a1a623c3e55dc32ef2a66a60ba841aab7a2a/scCellFie-0.1.7.tar.gz
+[2024-04-05 11:06:23] INFO root fetch - processPackages [autogluon.timeseries]: Downloading https://files.pythonhosted.org/packages/cb/db/5c3196b3f8315e44318d0fab45df94d260cdea37ec7cbc5f2713822194bc/autogluon.timeseries-1.0.1b20240404.tar.gz
+[2024-04-05 11:06:23] INFO root fetch - processPackages [autogluon]: Downloading https://files.pythonhosted.org/packages/a9/9d/448bc0febd8001442167bb8271e9cf0f7430490c5ac5f977d07a3c226697/autogluon-1.0.1b20240404.tar.gz
+[2024-04-05 11:06:23] INFO root fetch - processPackages [autogluon.features]: Downloading https://files.pythonhosted.org/packages/98/40/1614c945c2b15e0147e4760d690a9de3ef03f38d1dc80b0404c33d7cca79/autogluon.features-1.0.1b20240404.tar.gz
+[2024-04-05 11:06:23] INFO root fetch - processPackages [autogluon.tabular]: Downloading https://files.pythonhosted.org/packages/63/72/218c750fc12e23ad707fa021a4fac39b50d319ef22760b06868cd145c7c0/autogluon.tabular-1.0.1b20240404.tar.gz
+[2024-04-05 11:06:23] INFO root fetch - processPackages [autogluon.multimodal]: Downloading https://files.pythonhosted.org/packages/b0/ae/d8f81cca6d47bb35adc9058eae6dbe0b37bd87769c9cfde11d3e0603aa87/autogluon.multimodal-1.0.1b20240404.tar.gz
+[2024-04-05 11:06:23] WARNING root fetch - processPackages [scCellFie]: Timeout reached during download
+[2024-04-05 11:06:23] INFO root fetch - processPackages [scCellFie]: executing diffoscope
+[2024-04-05 11:06:23] INFO root fetch - processPackages [scCellFie]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scCellFie-0.1.6.tar.gz tmp/scCellFie-0.1.7.tar.gz --markdown 20240405/s/scCellFie/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2024-04-05 11:06:23] WARNING root fetch - processPackages [autogluon]: Timeout reached during download
+[2024-04-05 11:06:23] INFO root fetch - processPackages [autogluon]: executing diffoscope
+[2024-04-05 11:06:23] INFO root fetch - processPackages [autogluon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autogluon-1.0.1b20240403.tar.gz tmp/autogluon-1.0.1b20240404.tar.gz --markdown 20240405/a/autogluon/1.0.1b20240403-1.0.1b20240404/diff.md --exclude *.pyd
+[2024-04-05 11:06:23] WARNING root fetch - processPackages [autogluon.timeseries]: Timeout reached during download
+[2024-04-05 11:06:23] INFO root fetch - processPackages [autogluon.timeseries]: executing diffoscope
+[2024-04-05 11:06:23] INFO root fetch - processPackages [autogluon.timeseries]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autogluon.timeseries-1.0.1b20240403.tar.gz tmp/autogluon.timeseries-1.0.1b20240404.tar.gz --markdown 20240405/a/autogluon.timeseries/1.0.1b20240403-1.0.1b20240404/diff.md --exclude *.pyd
+[2024-04-05 11:06:23] WARNING root fetch - processPackages [autogluon.features]: Timeout reached during download
+[2024-04-05 11:06:23] INFO root fetch - processPackages [autogluon.features]: executing diffoscope
+[2024-04-05 11:06:23] INFO root fetch - processPackages [autogluon.features]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autogluon.features-1.0.1b20240403.tar.gz tmp/autogluon.features-1.0.1b20240404.tar.gz --markdown 20240405/a/autogluon.features/1.0.1b20240403-1.0.1b20240404/diff.md --exclude *.pyd
+[2024-04-05 11:06:23] WARNING root fetch - processPackages [autogluon.tabular]: Timeout reached during download
+[2024-04-05 11:06:23] INFO root fetch - processPackages [autogluon.tabular]: executing diffoscope
+[2024-04-05 11:06:23] INFO root fetch - processPackages [autogluon.tabular]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autogluon.tabular-1.0.1b20240403.tar.gz tmp/autogluon.tabular-1.0.1b20240404.tar.gz --markdown 20240405/a/autogluon.tabular/1.0.1b20240403-1.0.1b20240404/diff.md --exclude *.pyd
+[2024-04-05 11:06:23] WARNING root fetch - processPackages [autogluon.multimodal]: Timeout reached during download
+[2024-04-05 11:06:23] INFO root fetch - processPackages [autogluon.multimodal]: executing diffoscope
+[2024-04-05 11:06:23] INFO root fetch - processPackages [autogluon.multimodal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autogluon.multimodal-1.0.1b20240403.tar.gz tmp/autogluon.multimodal-1.0.1b20240404.tar.gz --markdown 20240405/a/autogluon.multimodal/1.0.1b20240403-1.0.1b20240404/diff.md --exclude *.pyd
+[2024-04-05 11:06:23] INFO root fetch - processPackages [streamlit-pyvista]: Remove: archive file [/home/abi/fetcher/tmp/streamlit_pyvista-0.0.2.tar.gz]
+[2024-04-05 11:06:23] INFO root fetch - processPackages [streamlit-pyvista]: Remove: archive file [/home/abi/fetcher/tmp/streamlit_pyvista-0.0.3.tar.gz]
+[2024-04-05 11:06:23] INFO root fetch - main [MainThread]: End processing [streamlit-pyvista]: success
+[2024-04-05 11:06:23] INFO root fetch - processPackages [btc-embedded]: Remove: archive file [/home/abi/fetcher/tmp/btc_embedded-23.3.9.tar.gz]
+[2024-04-05 11:06:23] INFO root fetch - processPackages [btc-embedded]: Remove: archive file [/home/abi/fetcher/tmp/btc_embedded-24.1.0.tar.gz]
+[2024-04-05 11:06:23] INFO root fetch - main [MainThread]: End processing [btc-embedded]: success
+[2024-04-05 11:06:24] INFO root fetch - processPackages [autogluon]: Remove: archive file [/home/abi/fetcher/tmp/autogluon-1.0.1b20240403.tar.gz]
+[2024-04-05 11:06:24] INFO root fetch - processPackages [autogluon]: Remove: archive file [/home/abi/fetcher/tmp/autogluon-1.0.1b20240404.tar.gz]
+[2024-04-05 11:06:24] INFO root fetch - main [MainThread]: End processing [autogluon]: success
+[2024-04-05 11:06:24] INFO root fetch - processPackages [autogluon.core]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.core-1.0.1b20240403.tar.gz]
+[2024-04-05 11:06:24] INFO root fetch - processPackages [autogluon.core]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.core-1.0.1b20240404.tar.gz]
+[2024-04-05 11:06:24] INFO root fetch - main [MainThread]: End processing [autogluon.core]: success
+[2024-04-05 11:06:24] INFO root fetch - processPackages [autogluon.timeseries]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.timeseries-1.0.1b20240403.tar.gz]
+[2024-04-05 11:06:24] INFO root fetch - processPackages [autogluon.timeseries]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.timeseries-1.0.1b20240404.tar.gz]
+[2024-04-05 11:06:24] INFO root fetch - main [MainThread]: End processing [autogluon.timeseries]: success
+[2024-04-05 11:06:24] INFO root fetch - processPackages [autogluon.features]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.features-1.0.1b20240403.tar.gz]
+[2024-04-05 11:06:24] INFO root fetch - processPackages [autogluon.features]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.features-1.0.1b20240404.tar.gz]
+[2024-04-05 11:06:24] INFO root fetch - main [MainThread]: End processing [autogluon.features]: success
+[2024-04-05 11:06:24] INFO root fetch - processPackages [scCellFie]: Remove: archive file [/home/abi/fetcher/tmp/scCellFie-0.1.6.tar.gz]
+[2024-04-05 11:06:24] INFO root fetch - processPackages [scCellFie]: Remove: archive file [/home/abi/fetcher/tmp/scCellFie-0.1.7.tar.gz]
+[2024-04-05 11:06:24] INFO root fetch - main [MainThread]: End processing [scCellFie]: success
+[2024-04-05 11:06:24] INFO root fetch - processPackages [autogluon.tabular]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.tabular-1.0.1b20240403.tar.gz]
+[2024-04-05 11:06:24] INFO root fetch - processPackages [autogluon.tabular]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.tabular-1.0.1b20240404.tar.gz]
+[2024-04-05 11:06:24] INFO root fetch - main [MainThread]: End processing [autogluon.tabular]: success
+[2024-04-05 11:06:24] INFO root fetch - processPackages [autogluon.multimodal]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.multimodal-1.0.1b20240403.tar.gz]
+[2024-04-05 11:06:24] INFO root fetch - processPackages [autogluon.multimodal]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.multimodal-1.0.1b20240404.tar.gz]
+[2024-04-05 11:06:24] INFO root fetch - main [MainThread]: End processing [autogluon.multimodal]: success
+[2024-04-05 11:06:24] INFO root fetch - main [MainThread]: Store serial: [22633823]
