@@ -8417,3 +8417,33 @@
 [2024-04-05 03:18:49] INFO root fetch - processPackages [spaceone-secret]: Remove: archive file [/home/abi/fetcher/tmp/spaceone-secret-2.0.dev9.tar.gz]
 [2024-04-05 03:18:49] INFO root fetch - main [MainThread]: End processing [spaceone-secret]: success
 [2024-04-05 03:18:49] INFO root fetch - main [MainThread]: Store serial: [22630455]
+[2024-04-05 03:20:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22630455]
+[2024-04-05 03:20:59] INFO root fetch - main [MainThread]: No changed packages found
+[2024-04-05 03:23:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22630524]
+[2024-04-05 03:23:05] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-05 03:23:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lockhart-serial
+[2024-04-05 03:23:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dg-face-tracking
+[2024-04-05 03:23:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: hatch-argparse-manpage
+[2024-04-05 03:23:05] INFO root fetch - processPackages [dg-face-tracking]: New version: [0.0.9] Old Version: [0.0.7]
+[2024-04-05 03:23:05] WARNING root fetch - processPackages [hatch-argparse-manpage]: Skipping, unable to determine old version
+[2024-04-05 03:23:05] INFO root fetch - main [MainThread]: End processing [hatch-argparse-manpage] error
+[2024-04-05 03:23:05] INFO root fetch - processPackages [dg-face-tracking]: Downloading https://files.pythonhosted.org/packages/07/b8/1963d9ee34ddcec8413a7b1c03596d276380fe5ab31fd1da601aeff80b72/dg_face_tracking-0.0.7-py3-none-any.whl
+[2024-04-05 03:23:05] INFO root fetch - processPackages [lockhart-serial]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-04-05 03:23:05] WARNING root fetch - processPackages [dg-face-tracking]: Timeout reached during download
+[2024-04-05 03:23:05] INFO root fetch - processPackages [dg-face-tracking]: Downloading https://files.pythonhosted.org/packages/79/cd/f31021b923a85c65086f8f5e6fb2fe050b0d48d5ee2576c02a1040f0cc64/dg_face_tracking-0.0.9-py3-none-any.whl
+[2024-04-05 03:23:05] INFO root fetch - processPackages [lockhart-serial]: Downloading https://files.pythonhosted.org/packages/52/78/4ed610e5f2b073e90fe59676dedee8e0ed0f44e0dcde4b244b475f4dbfcc/lockhart-serial-1.0.0.tar.gz
+[2024-04-05 03:23:05] WARNING root fetch - processPackages [lockhart-serial]: Timeout reached during download
+[2024-04-05 03:23:05] WARNING root fetch - processPackages [dg-face-tracking]: Timeout reached during download
+[2024-04-05 03:23:05] INFO root fetch - processPackages [dg-face-tracking]: executing diffoscope
+[2024-04-05 03:23:05] INFO root fetch - processPackages [dg-face-tracking]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dg_face_tracking-0.0.7-py3-none-any.whl.zip tmp/dg_face_tracking-0.0.9-py3-none-any.whl.zip --markdown 20240405/d/dg-face-tracking/0.0.7-0.0.9/diff.md --exclude *.pyd
+[2024-04-05 03:23:06] INFO root fetch - processPackages [lockhart-serial]: Downloading https://files.pythonhosted.org/packages/8f/a2/b66ff1cb423166dacae39ff85890e780ed29515bb731451d2af07a91636e/lockhart-serial-1.0.1.tar.gz
+[2024-04-05 03:23:06] WARNING root fetch - processPackages [lockhart-serial]: Timeout reached during download
+[2024-04-05 03:23:06] INFO root fetch - processPackages [lockhart-serial]: executing diffoscope
+[2024-04-05 03:23:06] INFO root fetch - processPackages [lockhart-serial]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lockhart-serial-1.0.0.tar.gz tmp/lockhart-serial-1.0.1.tar.gz --markdown 20240405/l/lockhart-serial/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2024-04-05 03:23:06] INFO root fetch - processPackages [dg-face-tracking]: Remove: archive file [/home/abi/fetcher/tmp/dg_face_tracking-0.0.7-py3-none-any.whl.zip]
+[2024-04-05 03:23:06] INFO root fetch - processPackages [dg-face-tracking]: Remove: archive file [/home/abi/fetcher/tmp/dg_face_tracking-0.0.9-py3-none-any.whl.zip]
+[2024-04-05 03:23:06] INFO root fetch - main [MainThread]: End processing [dg-face-tracking]: success
+[2024-04-05 03:23:06] INFO root fetch - processPackages [lockhart-serial]: Remove: archive file [/home/abi/fetcher/tmp/lockhart-serial-1.0.0.tar.gz]
+[2024-04-05 03:23:06] INFO root fetch - processPackages [lockhart-serial]: Remove: archive file [/home/abi/fetcher/tmp/lockhart-serial-1.0.1.tar.gz]
+[2024-04-05 03:23:06] INFO root fetch - main [MainThread]: End processing [lockhart-serial]: success
+[2024-04-05 03:23:06] INFO root fetch - main [MainThread]: Store serial: [22630595]
