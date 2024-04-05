@@ -23137,3 +23137,150 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2024-04-05 14:53:42] INFO root fetch - processPackages [few-shot-priming]: Remove: archive file [/home/abi/fetcher/tmp/few_shot_priming-0.3.99-py3-none-any.whl.zip]
 [2024-04-05 14:53:42] INFO root fetch - main [MainThread]: End processing [few-shot-priming]: success
 [2024-04-05 14:53:42] INFO root fetch - main [MainThread]: Store serial: [22636137]
+[2024-04-05 14:55:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22636137]
+[2024-04-05 14:55:51] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2024-04-05 14:55:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: matplotloom
+[2024-04-05 14:55:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: skale-checks
+[2024-04-05 14:55:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: RakHubAPI
+[2024-04-05 14:55:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pulumi-cloudamqp
+[2024-04-05 14:55:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: few-shot-priming
+[2024-04-05 14:55:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: earthscopestraintools
+[2024-04-05 14:55:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: lemon-tcg
+[2024-04-05 14:55:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: projen
+[2024-04-05 14:55:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: logflake
+[2024-04-05 14:55:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: kuzu
+[2024-04-05 14:55:52] INFO root fetch - processPackages [matplotloom]: New version: [0.3.0] Old Version: [0.2.0]
+[2024-04-05 14:55:52] INFO root fetch - processPackages [pulumi-cloudamqp]: New version: [3.9.2] Old Version: [3.9.1]
+[2024-04-05 14:55:52] INFO root fetch - processPackages [few-shot-priming]: New version: [0.3.99] Old Version: [0.3.98]
+[2024-04-05 14:55:52] INFO root fetch - processPackages [earthscopestraintools]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-05 14:55:52] INFO root fetch - processPackages [matplotloom]: Downloading https://files.pythonhosted.org/packages/6a/a5/0a6dfe53b87a8e97d9d27dbd04af85db669b2638ccf71c6ec30eea7da8fe/matplotloom-0.2.0.tar.gz
+[2024-04-05 14:55:52] WARNING root fetch - processPackages [lemon-tcg]: Skipping, unable to determine old version
+[2024-04-05 14:55:52] INFO root fetch - processPackages [lemon-tcg]: Start processing: pynxtools-mpes
+[2024-04-05 14:55:52] INFO root fetch - main [MainThread]: End processing [lemon-tcg] error
+[2024-04-05 14:55:52] WARNING root fetch - processPackages [RakHubAPI]: Skipping, unable to determine old version
+[2024-04-05 14:55:52] INFO root fetch - processPackages [RakHubAPI]: Start processing: pyrtz2
+[2024-04-05 14:55:52] INFO root fetch - main [MainThread]: End processing [RakHubAPI] error
+[2024-04-05 14:55:52] WARNING root fetch - processPackages [logflake]: Skipping, unable to determine old version
+[2024-04-05 14:55:52] INFO root fetch - processPackages [logflake]: Start processing: wagtail-fedit
+[2024-04-05 14:55:52] INFO root fetch - main [MainThread]: End processing [logflake] error
+[2024-04-05 14:55:52] INFO root fetch - processPackages [skale-checks]: New version: [1.0.dev9] Old Version: [1.0.dev8]
+[2024-04-05 14:55:52] INFO root fetch - processPackages [pulumi-cloudamqp]: Downloading https://files.pythonhosted.org/packages/11/e9/21f7b016e33dfe37759f872bc35e5859819c933ab5e3b90a1a659ab49314/pulumi_cloudamqp-3.9.1.tar.gz
+[2024-04-05 14:55:52] INFO root fetch - processPackages [pyrtz2]: New version: [1.1.13] Old Version: [1.1.11]
+[2024-04-05 14:55:52] INFO root fetch - processPackages [few-shot-priming]: Downloading https://files.pythonhosted.org/packages/eb/67/d15b11d0bfb57369fa16ba7f8c97cd3ddec8f771e6da8f11a3d819004b69/few_shot_priming-0.3.98-py3-none-any.whl
+[2024-04-05 14:55:52] INFO root fetch - processPackages [wagtail-fedit]: New version: [1.2.9] Old Version: [1.2.8]
+[2024-04-05 14:55:52] WARNING root fetch - processPackages [matplotloom]: Timeout reached during download
+[2024-04-05 14:55:52] INFO root fetch - processPackages [pynxtools-mpes]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-04-05 14:55:52] INFO root fetch - processPackages [earthscopestraintools]: Downloading https://files.pythonhosted.org/packages/8a/de/3b3151e0203af02ece6aff948516a81c4043ad58126d69f66120a9b3c1f5/earthscopestraintools-0.1.8.tar.gz
+[2024-04-05 14:55:52] INFO root fetch - processPackages [pyrtz2]: Downloading https://files.pythonhosted.org/packages/23/4e/01495cdc192f7ac51185625f501b22951be9d0d475e6e4062d1e76c10a41/pyrtz2-1.1.11.tar.gz
+[2024-04-05 14:55:52] WARNING root fetch - processPackages [pulumi-cloudamqp]: Timeout reached during download
+[2024-04-05 14:55:52] INFO root fetch - processPackages [kuzu]: New version: [0.3.3.dev9] Old Version: [0.3.3.dev8]
+[2024-04-05 14:55:52] INFO root fetch - processPackages [wagtail-fedit]: Downloading https://files.pythonhosted.org/packages/6e/11/a040a004bec1b3f16cc6e4b7f9cc5d7f32d911b6f98d2e0153260234c0b2/wagtail_fedit-1.2.8.tar.gz
+[2024-04-05 14:55:52] INFO root fetch - processPackages [projen]: New version: [0.80.9] Old Version: [0.80.8]
+[2024-04-05 14:55:52] INFO root fetch - processPackages [skale-checks]: Downloading https://files.pythonhosted.org/packages/d3/d2/f3dfbebe01ee393e99edb97ea06e4922ee80a1e9a0ec27d46147a50a6694/skale-checks-1.0.dev8.tar.gz
+[2024-04-05 14:55:52] WARNING root fetch - processPackages [few-shot-priming]: Timeout reached during download
+[2024-04-05 14:55:52] INFO root fetch - processPackages [pulumi-cloudamqp]: Downloading https://files.pythonhosted.org/packages/af/5a/e693fc66be78e5b911198861afba3393be3d0c49d5f64c45c63abd861205/pulumi_cloudamqp-3.9.2.tar.gz
+[2024-04-05 14:55:52] INFO root fetch - processPackages [matplotloom]: Downloading https://files.pythonhosted.org/packages/f5/a0/efe3378a7452e93954797f5468d8a77a1eac08c28398fc8a878a579ae076/matplotloom-0.3.0.tar.gz
+[2024-04-05 14:55:52] WARNING root fetch - processPackages [earthscopestraintools]: Timeout reached during download
+[2024-04-05 14:55:52] WARNING root fetch - processPackages [pyrtz2]: Timeout reached during download
+[2024-04-05 14:55:52] WARNING root fetch - processPackages [wagtail-fedit]: Timeout reached during download
+[2024-04-05 14:55:52] INFO root fetch - processPackages [projen]: Downloading https://files.pythonhosted.org/packages/62/ef/a3bc89d9d21a8d6a3c12e3c3280f4b6c18535eb9f4c22d4c10a49404b313/projen-0.80.8.tar.gz
+[2024-04-05 14:55:52] INFO root fetch - processPackages [pynxtools-mpes]: Downloading https://files.pythonhosted.org/packages/a3/22/a7ee7af736da3483d94f01d68a3f0f107eb0d8242552e199590294a116cf/pynxtools-mpes-0.0.2.tar.gz
+[2024-04-05 14:55:52] INFO root fetch - processPackages [few-shot-priming]: Downloading https://files.pythonhosted.org/packages/ff/11/548f6e96803602e6431dc610d736d401b20fde986f85c35c8ad19a6d0958/few_shot_priming-0.3.99-py3-none-any.whl
+[2024-04-05 14:55:52] WARNING root fetch - processPackages [pulumi-cloudamqp]: Timeout reached during download
+[2024-04-05 14:55:52] INFO root fetch - processPackages [pulumi-cloudamqp]: executing diffoscope
+[2024-04-05 14:55:52] INFO root fetch - processPackages [pulumi-cloudamqp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_cloudamqp-3.9.1.tar.gz tmp/pulumi_cloudamqp-3.9.2.tar.gz --markdown 20240405/p/pulumi-cloudamqp/3.9.1-3.9.2/diff.md --exclude *.pyd
+[2024-04-05 14:55:52] WARNING root fetch - processPackages [skale-checks]: Timeout reached during download
+[2024-04-05 14:55:52] WARNING root fetch - processPackages [matplotloom]: Timeout reached during download
+[2024-04-05 14:55:52] INFO root fetch - processPackages [matplotloom]: executing diffoscope
+[2024-04-05 14:55:52] INFO root fetch - processPackages [matplotloom]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/matplotloom-0.2.0.tar.gz tmp/matplotloom-0.3.0.tar.gz --markdown 20240405/m/matplotloom/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2024-04-05 14:55:52] INFO root fetch - processPackages [wagtail-fedit]: Downloading https://files.pythonhosted.org/packages/92/2f/335789a755855225fca2c0dfcfbc04661e26c341daba18f02cf65e38aa8a/wagtail_fedit-1.2.9.tar.gz
+[2024-04-05 14:55:52] INFO root fetch - processPackages [pyrtz2]: Downloading https://files.pythonhosted.org/packages/bd/e2/fd9455ac17c8ffeb38e58068f2084a12e05838aa37ee533d3e4b8fe6ec73/pyrtz2-1.1.13.tar.gz
+[2024-04-05 14:55:52] INFO root fetch - processPackages [earthscopestraintools]: Downloading https://files.pythonhosted.org/packages/ea/c7/2e18f7357e83039bdd4d14e2b893d08cbf9d768a769c08d9ef3f47a539ea/earthscopestraintools-0.1.9.tar.gz
+[2024-04-05 14:55:52] INFO root fetch - processPackages [kuzu]: Downloading https://files.pythonhosted.org/packages/fa/ff/4af98fccfdf1938d3969ca49d52576d2858e4425725e85e84a82dc858cb1/kuzu-0.3.3.dev8.tar.gz
+[2024-04-05 14:55:52] WARNING root fetch - processPackages [wagtail-fedit]: Timeout reached during download
+[2024-04-05 14:55:52] INFO root fetch - processPackages [wagtail-fedit]: executing diffoscope
+[2024-04-05 14:55:52] INFO root fetch - processPackages [wagtail-fedit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wagtail_fedit-1.2.8.tar.gz tmp/wagtail_fedit-1.2.9.tar.gz --markdown 20240405/w/wagtail-fedit/1.2.8-1.2.9/diff.md --exclude *.pyd
+[2024-04-05 14:55:52] INFO root fetch - processPackages [skale-checks]: Downloading https://files.pythonhosted.org/packages/b5/79/510aaba7847341d98b58ac50426a7bb9a4dd04e521b821cfacd16d1d7c50/skale-checks-1.0.dev9.tar.gz
+[2024-04-05 14:55:53] WARNING root fetch - processPackages [earthscopestraintools]: Timeout reached during download
+[2024-04-05 14:55:53] INFO root fetch - processPackages [earthscopestraintools]: executing diffoscope
+[2024-04-05 14:55:53] INFO root fetch - processPackages [earthscopestraintools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/earthscopestraintools-0.1.8.tar.gz tmp/earthscopestraintools-0.1.9.tar.gz --markdown 20240405/e/earthscopestraintools/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2024-04-05 14:55:53] WARNING root fetch - processPackages [pyrtz2]: Timeout reached during download
+[2024-04-05 14:55:53] WARNING root fetch - processPackages [pynxtools-mpes]: Timeout reached during download
+[2024-04-05 14:55:53] INFO root fetch - processPackages [pyrtz2]: executing diffoscope
+[2024-04-05 14:55:53] INFO root fetch - processPackages [pyrtz2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyrtz2-1.1.11.tar.gz tmp/pyrtz2-1.1.13.tar.gz --markdown 20240405/p/pyrtz2/1.1.11-1.1.13/diff.md --exclude *.pyd
+[2024-04-05 14:55:53] WARNING root fetch - processPackages [projen]: Timeout reached during download
+[2024-04-05 14:55:53] WARNING root fetch - processPackages [few-shot-priming]: Timeout reached during download
+[2024-04-05 14:55:53] WARNING root fetch - processPackages [skale-checks]: Timeout reached during download
+[2024-04-05 14:55:53] INFO root fetch - processPackages [skale-checks]: executing diffoscope
+[2024-04-05 14:55:53] INFO root fetch - processPackages [skale-checks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/skale-checks-1.0.dev8.tar.gz tmp/skale-checks-1.0.dev9.tar.gz --markdown 20240405/s/skale-checks/1.0.dev8-1.0.dev9/diff.md --exclude *.pyd
+[2024-04-05 14:55:53] INFO root fetch - processPackages [few-shot-priming]: executing diffoscope
+[2024-04-05 14:55:53] INFO root fetch - processPackages [few-shot-priming]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/few_shot_priming-0.3.98-py3-none-any.whl.zip tmp/few_shot_priming-0.3.99-py3-none-any.whl.zip --markdown 20240405/f/few-shot-priming/0.3.98-0.3.99/diff.md --exclude *.pyd
+[2024-04-05 14:55:53] INFO root fetch - processPackages [projen]: Downloading https://files.pythonhosted.org/packages/d4/01/e09ac65353ffe4dd3300e18fd6b5ea91e70688a73fff6f5be2b02f4a23c3/projen-0.80.9.tar.gz
+[2024-04-05 14:55:53] INFO root fetch - processPackages [pynxtools-mpes]: Downloading https://files.pythonhosted.org/packages/fc/c6/6f6a5b8c208fbb19df0e303cb99980501127ab742239b9fa60d80458922d/pynxtools-mpes-0.0.3.tar.gz
+[2024-04-05 14:55:53] INFO root fetch - processPackages [matplotloom]: Remove: archive file [/home/abi/fetcher/tmp/matplotloom-0.2.0.tar.gz]
+[2024-04-05 14:55:53] INFO root fetch - processPackages [matplotloom]: Remove: archive file [/home/abi/fetcher/tmp/matplotloom-0.3.0.tar.gz]
+[2024-04-05 14:55:53] INFO root fetch - processPackages [matplotloom]: Start processing: ts-soup
+[2024-04-05 14:55:53] INFO root fetch - main [MainThread]: End processing [matplotloom]: success
+[2024-04-05 14:55:53] INFO root fetch - processPackages [ts-soup]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-04-05 14:55:53] WARNING root fetch - processPackages [pynxtools-mpes]: Timeout reached during download
+[2024-04-05 14:55:53] INFO root fetch - processPackages [pynxtools-mpes]: executing diffoscope
+[2024-04-05 14:55:53] INFO root fetch - processPackages [pynxtools-mpes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pynxtools-mpes-0.0.2.tar.gz tmp/pynxtools-mpes-0.0.3.tar.gz --markdown 20240405/p/pynxtools-mpes/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2024-04-05 14:55:53] INFO root fetch - processPackages [pulumi-cloudamqp]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_cloudamqp-3.9.1.tar.gz]
+[2024-04-05 14:55:53] INFO root fetch - processPackages [pulumi-cloudamqp]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_cloudamqp-3.9.2.tar.gz]
+[2024-04-05 14:55:53] INFO root fetch - processPackages [pulumi-cloudamqp]: Start processing: trimes
+[2024-04-05 14:55:53] INFO root fetch - main [MainThread]: End processing [pulumi-cloudamqp]: success
+[2024-04-05 14:55:53] WARNING root fetch - processPackages [projen]: Timeout reached during download
+[2024-04-05 14:55:53] INFO root fetch - processPackages [projen]: executing diffoscope
+[2024-04-05 14:55:53] INFO root fetch - processPackages [projen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/projen-0.80.8.tar.gz tmp/projen-0.80.9.tar.gz --markdown 20240405/p/projen/0.80.8-0.80.9/diff.md --exclude *.pyd
+[2024-04-05 14:55:53] WARNING root fetch - processPackages [trimes]: Skipping, unable to determine old version
+[2024-04-05 14:55:53] INFO root fetch - processPackages [trimes]: Start processing: Peliqan
+[2024-04-05 14:55:53] INFO root fetch - main [MainThread]: End processing [trimes] error
+[2024-04-05 14:55:53] INFO root fetch - processPackages [ts-soup]: Downloading https://files.pythonhosted.org/packages/19/46/3bab452ca8f9d6285b07f192669492367f2891cfff1fe6d84d95ef54581c/ts-soup-0.0.2.tar.gz
+[2024-04-05 14:55:53] WARNING root fetch - processPackages [kuzu]: Timeout reached during download
+[2024-04-05 14:55:53] INFO root fetch - processPackages [Peliqan]: New version: [1.5.0] Old Version: [1.3.2]
+[2024-04-05 14:55:53] WARNING root fetch - processPackages [ts-soup]: Timeout reached during download
+[2024-04-05 14:55:54] INFO root fetch - processPackages [skale-checks]: Remove: archive file [/home/abi/fetcher/tmp/skale-checks-1.0.dev8.tar.gz]
+[2024-04-05 14:55:54] INFO root fetch - processPackages [skale-checks]: Remove: archive file [/home/abi/fetcher/tmp/skale-checks-1.0.dev9.tar.gz]
+[2024-04-05 14:55:54] INFO root fetch - main [MainThread]: End processing [skale-checks]: success
+[2024-04-05 14:55:54] INFO root fetch - processPackages [earthscopestraintools]: Remove: archive file [/home/abi/fetcher/tmp/earthscopestraintools-0.1.8.tar.gz]
+[2024-04-05 14:55:54] INFO root fetch - processPackages [earthscopestraintools]: Remove: archive file [/home/abi/fetcher/tmp/earthscopestraintools-0.1.9.tar.gz]
+[2024-04-05 14:55:54] INFO root fetch - main [MainThread]: End processing [earthscopestraintools]: success
+[2024-04-05 14:55:54] INFO root fetch - processPackages [kuzu]: Downloading https://files.pythonhosted.org/packages/a2/67/22a60ceaa7cc3d03784a4c12db350f0f9d0b05181256e6007a55f7308e73/kuzu-0.3.3.dev9.tar.gz
+[2024-04-05 14:55:54] INFO root fetch - processPackages [ts-soup]: Downloading https://files.pythonhosted.org/packages/2e/f1/a8394b0e43f6dafed53a591a7c4fb10a090d92b06baef10c1aa59132bdbe/ts-soup-0.0.3.tar.gz
+[2024-04-05 14:55:54] INFO root fetch - processPackages [Peliqan]: Downloading https://files.pythonhosted.org/packages/ed/00/baaa644b1f99d1136db5ac8445de036f12ad0f447410cd2d215f70026a62/Peliqan-1.3.2.tar.gz
+[2024-04-05 14:55:54] WARNING root fetch - processPackages [ts-soup]: Timeout reached during download
+[2024-04-05 14:55:54] INFO root fetch - processPackages [wagtail-fedit]: Remove: archive file [/home/abi/fetcher/tmp/wagtail_fedit-1.2.8.tar.gz]
+[2024-04-05 14:55:54] INFO root fetch - processPackages [ts-soup]: executing diffoscope
+[2024-04-05 14:55:54] INFO root fetch - processPackages [ts-soup]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ts-soup-0.0.2.tar.gz tmp/ts-soup-0.0.3.tar.gz --markdown 20240405/t/ts-soup/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2024-04-05 14:55:54] INFO root fetch - processPackages [wagtail-fedit]: Remove: archive file [/home/abi/fetcher/tmp/wagtail_fedit-1.2.9.tar.gz]
+[2024-04-05 14:55:54] INFO root fetch - main [MainThread]: End processing [wagtail-fedit]: success
+[2024-04-05 14:55:54] WARNING root fetch - processPackages [Peliqan]: Timeout reached during download
+[2024-04-05 14:55:54] INFO root fetch - processPackages [pyrtz2]: Remove: archive file [/home/abi/fetcher/tmp/pyrtz2-1.1.11.tar.gz]
+[2024-04-05 14:55:54] INFO root fetch - processPackages [pyrtz2]: Remove: archive file [/home/abi/fetcher/tmp/pyrtz2-1.1.13.tar.gz]
+[2024-04-05 14:55:54] INFO root fetch - main [MainThread]: End processing [pyrtz2]: success
+[2024-04-05 14:55:54] INFO root fetch - processPackages [few-shot-priming]: Remove: archive file [/home/abi/fetcher/tmp/few_shot_priming-0.3.98-py3-none-any.whl.zip]
+[2024-04-05 14:55:54] INFO root fetch - processPackages [few-shot-priming]: Remove: archive file [/home/abi/fetcher/tmp/few_shot_priming-0.3.99-py3-none-any.whl.zip]
+[2024-04-05 14:55:54] INFO root fetch - processPackages [Peliqan]: Downloading https://files.pythonhosted.org/packages/6a/b4/6142f09545e7765f4567227e6f8b0c6ca4c7503aafeaa78924e06bd1c9d5/Peliqan-1.5.0.tar.gz
+[2024-04-05 14:55:54] INFO root fetch - main [MainThread]: End processing [few-shot-priming]: success
+[2024-04-05 14:55:54] INFO root fetch - processPackages [pynxtools-mpes]: Remove: archive file [/home/abi/fetcher/tmp/pynxtools-mpes-0.0.2.tar.gz]
+[2024-04-05 14:55:54] INFO root fetch - processPackages [pynxtools-mpes]: Remove: archive file [/home/abi/fetcher/tmp/pynxtools-mpes-0.0.3.tar.gz]
+[2024-04-05 14:55:54] INFO root fetch - main [MainThread]: End processing [pynxtools-mpes]: success
+[2024-04-05 14:55:54] WARNING root fetch - processPackages [Peliqan]: Timeout reached during download
+[2024-04-05 14:55:54] INFO root fetch - processPackages [Peliqan]: executing diffoscope
+[2024-04-05 14:55:54] INFO root fetch - processPackages [Peliqan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Peliqan-1.3.2.tar.gz tmp/Peliqan-1.5.0.tar.gz --markdown 20240405/P/Peliqan/1.3.2-1.5.0/diff.md --exclude *.pyd
+[2024-04-05 14:55:54] INFO root fetch - processPackages [ts-soup]: Remove: archive file [/home/abi/fetcher/tmp/ts-soup-0.0.2.tar.gz]
+[2024-04-05 14:55:54] INFO root fetch - processPackages [ts-soup]: Remove: archive file [/home/abi/fetcher/tmp/ts-soup-0.0.3.tar.gz]
+[2024-04-05 14:55:54] INFO root fetch - main [MainThread]: End processing [ts-soup]: success
+[2024-04-05 14:55:55] INFO root fetch - processPackages [projen]: Remove: archive file [/home/abi/fetcher/tmp/projen-0.80.8.tar.gz]
+[2024-04-05 14:55:55] INFO root fetch - processPackages [projen]: Remove: archive file [/home/abi/fetcher/tmp/projen-0.80.9.tar.gz]
+[2024-04-05 14:55:55] INFO root fetch - main [MainThread]: End processing [projen]: success
+[2024-04-05 14:55:55] WARNING root fetch - processPackages [kuzu]: Timeout reached during download
+[2024-04-05 14:55:55] INFO root fetch - processPackages [kuzu]: executing diffoscope
+[2024-04-05 14:55:55] INFO root fetch - processPackages [kuzu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kuzu-0.3.3.dev8.tar.gz tmp/kuzu-0.3.3.dev9.tar.gz --markdown 20240405/k/kuzu/0.3.3.dev8-0.3.3.dev9/diff.md --exclude *.pyd
+[2024-04-05 14:55:55] INFO root fetch - processPackages [Peliqan]: Remove: archive file [/home/abi/fetcher/tmp/Peliqan-1.3.2.tar.gz]
+[2024-04-05 14:55:55] INFO root fetch - processPackages [Peliqan]: Remove: archive file [/home/abi/fetcher/tmp/Peliqan-1.5.0.tar.gz]
+[2024-04-05 14:55:55] INFO root fetch - main [MainThread]: End processing [Peliqan]: success
+[2024-04-05 14:56:00] INFO root fetch - processPackages [kuzu]: Remove: archive file [/home/abi/fetcher/tmp/kuzu-0.3.3.dev8.tar.gz]
+[2024-04-05 14:56:00] INFO root fetch - processPackages [kuzu]: Remove: archive file [/home/abi/fetcher/tmp/kuzu-0.3.3.dev9.tar.gz]
+[2024-04-05 14:56:00] INFO root fetch - main [MainThread]: End processing [kuzu]: success
+[2024-04-05 14:56:00] INFO root fetch - main [MainThread]: Store serial: [22636207]
