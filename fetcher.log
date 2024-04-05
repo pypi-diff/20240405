@@ -16404,3 +16404,33 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2024-04-05 10:33:31] INFO root fetch - processPackages [isystem.connect]: Remove: archive file [/home/abi/fetcher/tmp/isystem.connect-9.21.99.0-cp39-none-win_amd64.whl.zip]
 [2024-04-05 10:33:31] INFO root fetch - main [MainThread]: End processing [isystem.connect]: success
 [2024-04-05 10:33:31] INFO root fetch - main [MainThread]: Store serial: [22633452]
+[2024-04-05 10:35:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22633452]
+[2024-04-05 10:35:40] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-05 10:35:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: biaspeech
+[2024-04-05 10:35:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: panpdf
+[2024-04-05 10:35:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mpflash
+[2024-04-05 10:35:40] INFO root fetch - processPackages [biaspeech]: New version: [0.1.0] Old Version: [0.0.6]
+[2024-04-05 10:35:40] INFO root fetch - processPackages [panpdf]: New version: [0.1.6] Old Version: [0.1.5]
+[2024-04-05 10:35:40] INFO root fetch - processPackages [mpflash]: New version: [0.5.0] Old Version: [0.4.2]
+[2024-04-05 10:35:40] INFO root fetch - processPackages [biaspeech]: Downloading https://files.pythonhosted.org/packages/c2/a3/306194dffa78f18bfb37fce0327b9c737883f0d93d4d459e333a718e7ad1/biaspeech-0.0.6.tar.gz
+[2024-04-05 10:35:40] INFO root fetch - processPackages [panpdf]: Downloading https://files.pythonhosted.org/packages/59/68/f8f0e71d48fb002b630e1b002f74664b00fa399604daa8b00e2d1922db44/panpdf-0.1.5.tar.gz
+[2024-04-05 10:35:40] WARNING root fetch - processPackages [biaspeech]: Skipping package: exceeds size limit 18533958>=10485760
+[2024-04-05 10:35:40] INFO root fetch - main [MainThread]: End processing [biaspeech] error
+[2024-04-05 10:35:40] WARNING root fetch - processPackages [panpdf]: Timeout reached during download
+[2024-04-05 10:35:40] INFO root fetch - processPackages [panpdf]: Downloading https://files.pythonhosted.org/packages/9d/38/014e854ac86cd25825446273ea8b84c34d7b37bc4ed1c8863278dab8ba0c/panpdf-0.1.6.tar.gz
+[2024-04-05 10:35:41] INFO root fetch - processPackages [mpflash]: Downloading https://files.pythonhosted.org/packages/a8/4a/b56c06c88d6f2943e58d53c20ddbe32ead6ff728935484c5c510e8656f9a/mpflash-0.4.2.tar.gz
+[2024-04-05 10:35:41] WARNING root fetch - processPackages [panpdf]: Timeout reached during download
+[2024-04-05 10:35:41] INFO root fetch - processPackages [panpdf]: executing diffoscope
+[2024-04-05 10:35:41] INFO root fetch - processPackages [panpdf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/panpdf-0.1.5.tar.gz tmp/panpdf-0.1.6.tar.gz --markdown 20240405/p/panpdf/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2024-04-05 10:35:41] WARNING root fetch - processPackages [mpflash]: Timeout reached during download
+[2024-04-05 10:35:41] INFO root fetch - processPackages [mpflash]: Downloading https://files.pythonhosted.org/packages/0f/30/db80e391ac780e1dc7d0badec15fdad093095345d8aad2254ec8e3364e97/mpflash-0.5.0.tar.gz
+[2024-04-05 10:35:41] INFO root fetch - processPackages [panpdf]: Remove: archive file [/home/abi/fetcher/tmp/panpdf-0.1.5.tar.gz]
+[2024-04-05 10:35:41] INFO root fetch - processPackages [panpdf]: Remove: archive file [/home/abi/fetcher/tmp/panpdf-0.1.6.tar.gz]
+[2024-04-05 10:35:41] INFO root fetch - main [MainThread]: End processing [panpdf]: success
+[2024-04-05 10:35:42] WARNING root fetch - processPackages [mpflash]: Timeout reached during download
+[2024-04-05 10:35:42] INFO root fetch - processPackages [mpflash]: executing diffoscope
+[2024-04-05 10:35:42] INFO root fetch - processPackages [mpflash]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mpflash-0.4.2.tar.gz tmp/mpflash-0.5.0.tar.gz --markdown 20240405/m/mpflash/0.4.2-0.5.0/diff.md --exclude *.pyd
+[2024-04-05 10:35:42] INFO root fetch - processPackages [mpflash]: Remove: archive file [/home/abi/fetcher/tmp/mpflash-0.4.2.tar.gz]
+[2024-04-05 10:35:42] INFO root fetch - processPackages [mpflash]: Remove: archive file [/home/abi/fetcher/tmp/mpflash-0.5.0.tar.gz]
+[2024-04-05 10:35:42] INFO root fetch - main [MainThread]: End processing [mpflash]: success
+[2024-04-05 10:35:42] INFO root fetch - main [MainThread]: Store serial: [22633457]
