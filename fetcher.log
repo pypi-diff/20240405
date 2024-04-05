@@ -14979,3 +14979,75 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2024-04-05 09:35:32] INFO root fetch - processPackages [odoo-addon-helpdesk-type]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_helpdesk_type-16.0.1.0.0.6-py3-none-any.whl.zip]
 [2024-04-05 09:35:32] INFO root fetch - main [MainThread]: End processing [odoo-addon-helpdesk-type]: success
 [2024-04-05 09:35:32] INFO root fetch - main [MainThread]: Store serial: [22632892]
+[2024-04-05 09:37:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22632892]
+[2024-04-05 09:37:41] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-05 09:37:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: zxt
+[2024-04-05 09:37:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addon-purchase-fop-shipping
+[2024-04-05 09:37:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addon-l10n-th-account-tax-report
+[2024-04-05 09:37:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ibm-ara
+[2024-04-05 09:37:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: puggle
+[2024-04-05 09:37:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: donghun
+[2024-04-05 09:37:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: odoo-addon-account-payment-sale
+[2024-04-05 09:37:41] WARNING root fetch - processPackages [donghun]: Skipping, unable to determine old version
+[2024-04-05 09:37:41] INFO root fetch - main [MainThread]: End processing [donghun] error
+[2024-04-05 09:37:41] INFO root fetch - processPackages [odoo-addon-l10n-th-account-tax-report]: New version: [16.0.1.2.0] Old Version: [16.0.1.1.0]
+[2024-04-05 09:37:41] INFO root fetch - processPackages [ibm-ara]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-04-05 09:37:41] INFO root fetch - processPackages [zxt]: New version: [0.20240403.1915] Old Version: [0.20231114.130]
+[2024-04-05 09:37:41] INFO root fetch - processPackages [odoo-addon-purchase-fop-shipping]: New version: [16.0.1.0.1] Old Version: [16.0.1.0.0.5]
+[2024-04-05 09:37:41] INFO root fetch - processPackages [puggle]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-04-05 09:37:41] INFO root fetch - processPackages [odoo-addon-account-payment-sale]: New version: [17.0.1.0.0.5] Old Version: [17.0.1.0.0.4]
+[2024-04-05 09:37:41] INFO root fetch - processPackages [zxt]: Downloading https://files.pythonhosted.org/packages/a3/bd/ab488a4d84f9d96c5004d6d189f7de78acbed40e7743d305e8f3e59c4bbc/zxt-0.20231114.130.tar.gz
+[2024-04-05 09:37:41] INFO root fetch - processPackages [odoo-addon-l10n-th-account-tax-report]: Downloading https://files.pythonhosted.org/packages/b9/4e/94983718290cf3adf44ce235c3cb9a1ff2540f29b347dd354759cf22c910/odoo_addon_l10n_th_account_tax_report-16.0.1.1.0-py3-none-any.whl
+[2024-04-05 09:37:41] INFO root fetch - processPackages [ibm-ara]: Downloading https://files.pythonhosted.org/packages/c2/9e/767de175a8852e1b394f7ddc5a54063fbc318b360d1ee506a90550721fa4/ibm_ara-0.1.0.tar.gz
+[2024-04-05 09:37:41] INFO root fetch - processPackages [puggle]: Downloading https://files.pythonhosted.org/packages/4d/48/5e19c5b375a8065b2d27938beb8a60ce5c6fafe19765696bd89866a0c4aa/puggle-0.2.8.tar.gz
+[2024-04-05 09:37:41] INFO root fetch - processPackages [odoo-addon-purchase-fop-shipping]: Downloading https://files.pythonhosted.org/packages/d4/35/303146f75faa88fef292af396f1b0ea9b19a408ad5def03db6444327c58a/odoo_addon_purchase_fop_shipping-16.0.1.0.0.5-py3-none-any.whl
+[2024-04-05 09:37:42] INFO root fetch - processPackages [odoo-addon-account-payment-sale]: Downloading https://files.pythonhosted.org/packages/81/08/a7d312885977f581532b3e0d1d252f2b514e43e30e127449d9dddf841b23/odoo_addon_account_payment_sale-17.0.1.0.0.4-py3-none-any.whl
+[2024-04-05 09:37:42] WARNING root fetch - processPackages [puggle]: Timeout reached during download
+[2024-04-05 09:37:42] WARNING root fetch - processPackages [ibm-ara]: Timeout reached during download
+[2024-04-05 09:37:42] WARNING root fetch - processPackages [odoo-addon-l10n-th-account-tax-report]: Timeout reached during download
+[2024-04-05 09:37:42] WARNING root fetch - processPackages [odoo-addon-purchase-fop-shipping]: Timeout reached during download
+[2024-04-05 09:37:42] WARNING root fetch - processPackages [zxt]: Timeout reached during download
+[2024-04-05 09:37:42] WARNING root fetch - processPackages [odoo-addon-account-payment-sale]: Timeout reached during download
+[2024-04-05 09:37:42] INFO root fetch - processPackages [puggle]: Downloading https://files.pythonhosted.org/packages/19/eb/a9da846cb8bdebf57de1316c6a4d9521c91ce3654f74032b4251357d850c/puggle-0.2.9.tar.gz
+[2024-04-05 09:37:42] INFO root fetch - processPackages [ibm-ara]: Downloading https://files.pythonhosted.org/packages/26/e8/042eb73b1b33ea0822578c121238d945c1a706d823bdf13ac094355749b9/ibm_ara-0.1.1.tar.gz
+[2024-04-05 09:37:42] INFO root fetch - processPackages [odoo-addon-l10n-th-account-tax-report]: Downloading https://files.pythonhosted.org/packages/18/42/77d9857db934a409871449ea2e5175f41eb64d764f287ebd1402f9f8acac/odoo_addon_l10n_th_account_tax_report-16.0.1.2.0-py3-none-any.whl
+[2024-04-05 09:37:42] WARNING root fetch - processPackages [puggle]: Timeout reached during download
+[2024-04-05 09:37:42] INFO root fetch - processPackages [puggle]: executing diffoscope
+[2024-04-05 09:37:42] INFO root fetch - processPackages [puggle]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/puggle-0.2.8.tar.gz tmp/puggle-0.2.9.tar.gz --markdown 20240405/p/puggle/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2024-04-05 09:37:42] INFO root fetch - processPackages [zxt]: Downloading https://files.pythonhosted.org/packages/12/78/756170e69d51626f8d8a3079f53f4629e955b393eebb833d7cc5a06fb9f5/zxt-0.20240403.1915.tar.gz
+[2024-04-05 09:37:42] INFO root fetch - processPackages [odoo-addon-purchase-fop-shipping]: Downloading https://files.pythonhosted.org/packages/40/a8/b32ddc6d7be4a390935e0de954809b493466a16ae40c0e25e0280166af04/odoo_addon_purchase_fop_shipping-16.0.1.0.1-py3-none-any.whl
+[2024-04-05 09:37:42] WARNING root fetch - processPackages [ibm-ara]: Timeout reached during download
+[2024-04-05 09:37:42] INFO root fetch - processPackages [ibm-ara]: executing diffoscope
+[2024-04-05 09:37:42] INFO root fetch - processPackages [ibm-ara]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ibm_ara-0.1.0.tar.gz tmp/ibm_ara-0.1.1.tar.gz --markdown 20240405/i/ibm-ara/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2024-04-05 09:37:42] INFO root fetch - processPackages [odoo-addon-account-payment-sale]: Downloading https://files.pythonhosted.org/packages/17/ec/e37f7e7f68fa89d084e53eb46e765df8b709b226629fc7db24efceeeaf5e/odoo_addon_account_payment_sale-17.0.1.0.0.5-py3-none-any.whl
+[2024-04-05 09:37:42] WARNING root fetch - processPackages [zxt]: Timeout reached during download
+[2024-04-05 09:37:42] INFO root fetch - processPackages [zxt]: executing diffoscope
+[2024-04-05 09:37:42] INFO root fetch - processPackages [zxt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zxt-0.20231114.130.tar.gz tmp/zxt-0.20240403.1915.tar.gz --markdown 20240405/z/zxt/0.20231114.130-0.20240403.1915/diff.md --exclude *.pyd
+[2024-04-05 09:37:42] WARNING root fetch - processPackages [odoo-addon-purchase-fop-shipping]: Timeout reached during download
+[2024-04-05 09:37:42] INFO root fetch - processPackages [odoo-addon-purchase-fop-shipping]: executing diffoscope
+[2024-04-05 09:37:42] INFO root fetch - processPackages [odoo-addon-purchase-fop-shipping]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_purchase_fop_shipping-16.0.1.0.0.5-py3-none-any.whl.zip tmp/odoo_addon_purchase_fop_shipping-16.0.1.0.1-py3-none-any.whl.zip --markdown 20240405/o/odoo-addon-purchase-fop-shipping/16.0.1.0.0.5-16.0.1.0.1/diff.md --exclude *.pyd
+[2024-04-05 09:37:42] WARNING root fetch - processPackages [odoo-addon-account-payment-sale]: Timeout reached during download
+[2024-04-05 09:37:42] INFO root fetch - processPackages [odoo-addon-account-payment-sale]: executing diffoscope
+[2024-04-05 09:37:42] INFO root fetch - processPackages [odoo-addon-account-payment-sale]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_account_payment_sale-17.0.1.0.0.4-py3-none-any.whl.zip tmp/odoo_addon_account_payment_sale-17.0.1.0.0.5-py3-none-any.whl.zip --markdown 20240405/o/odoo-addon-account-payment-sale/17.0.1.0.0.4-17.0.1.0.0.5/diff.md --exclude *.pyd
+[2024-04-05 09:37:42] WARNING root fetch - processPackages [odoo-addon-l10n-th-account-tax-report]: Timeout reached during download
+[2024-04-05 09:37:42] INFO root fetch - processPackages [odoo-addon-l10n-th-account-tax-report]: executing diffoscope
+[2024-04-05 09:37:42] INFO root fetch - processPackages [odoo-addon-l10n-th-account-tax-report]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_l10n_th_account_tax_report-16.0.1.1.0-py3-none-any.whl.zip tmp/odoo_addon_l10n_th_account_tax_report-16.0.1.2.0-py3-none-any.whl.zip --markdown 20240405/o/odoo-addon-l10n-th-account-tax-report/16.0.1.1.0-16.0.1.2.0/diff.md --exclude *.pyd
+[2024-04-05 09:37:43] INFO root fetch - processPackages [ibm-ara]: Remove: archive file [/home/abi/fetcher/tmp/ibm_ara-0.1.0.tar.gz]
+[2024-04-05 09:37:43] INFO root fetch - processPackages [ibm-ara]: Remove: archive file [/home/abi/fetcher/tmp/ibm_ara-0.1.1.tar.gz]
+[2024-04-05 09:37:43] INFO root fetch - main [MainThread]: End processing [ibm-ara]: success
+[2024-04-05 09:37:43] INFO root fetch - processPackages [puggle]: Remove: archive file [/home/abi/fetcher/tmp/puggle-0.2.8.tar.gz]
+[2024-04-05 09:37:43] INFO root fetch - processPackages [puggle]: Remove: archive file [/home/abi/fetcher/tmp/puggle-0.2.9.tar.gz]
+[2024-04-05 09:37:43] INFO root fetch - main [MainThread]: End processing [puggle]: success
+[2024-04-05 09:37:43] INFO root fetch - processPackages [odoo-addon-purchase-fop-shipping]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_purchase_fop_shipping-16.0.1.0.0.5-py3-none-any.whl.zip]
+[2024-04-05 09:37:43] INFO root fetch - processPackages [odoo-addon-purchase-fop-shipping]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_purchase_fop_shipping-16.0.1.0.1-py3-none-any.whl.zip]
+[2024-04-05 09:37:43] INFO root fetch - main [MainThread]: End processing [odoo-addon-purchase-fop-shipping]: success
+[2024-04-05 09:37:43] INFO root fetch - processPackages [zxt]: Remove: archive file [/home/abi/fetcher/tmp/zxt-0.20231114.130.tar.gz]
+[2024-04-05 09:37:43] INFO root fetch - processPackages [zxt]: Remove: archive file [/home/abi/fetcher/tmp/zxt-0.20240403.1915.tar.gz]
+[2024-04-05 09:37:43] INFO root fetch - main [MainThread]: End processing [zxt]: success
+[2024-04-05 09:37:43] INFO root fetch - processPackages [odoo-addon-account-payment-sale]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_payment_sale-17.0.1.0.0.4-py3-none-any.whl.zip]
+[2024-04-05 09:37:43] INFO root fetch - processPackages [odoo-addon-account-payment-sale]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_payment_sale-17.0.1.0.0.5-py3-none-any.whl.zip]
+[2024-04-05 09:37:43] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-payment-sale]: success
+[2024-04-05 09:37:43] INFO root fetch - processPackages [odoo-addon-l10n-th-account-tax-report]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_th_account_tax_report-16.0.1.1.0-py3-none-any.whl.zip]
+[2024-04-05 09:37:43] INFO root fetch - processPackages [odoo-addon-l10n-th-account-tax-report]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_th_account_tax_report-16.0.1.2.0-py3-none-any.whl.zip]
+[2024-04-05 09:37:43] INFO root fetch - main [MainThread]: End processing [odoo-addon-l10n-th-account-tax-report]: success
+[2024-04-05 09:37:43] INFO root fetch - main [MainThread]: Store serial: [22632910]
