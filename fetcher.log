@@ -3506,3 +3506,72 @@
 [2024-04-05 02:41:02] INFO root fetch - processPackages [cfr]: Remove: archive file [/home/abi/fetcher/tmp/cfr-2024.4.4.tar.gz]
 [2024-04-05 02:41:02] INFO root fetch - main [MainThread]: End processing [cfr]: success
 [2024-04-05 02:41:02] INFO root fetch - main [MainThread]: Store serial: [22629344]
+[2024-04-05 02:43:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22629344]
+[2024-04-05 02:43:11] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-05 02:43:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyimg4
+[2024-04-05 02:43:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pybaywatch
+[2024-04-05 02:43:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: typer
+[2024-04-05 02:43:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: typer-slim
+[2024-04-05 02:43:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: typer-cli
+[2024-04-05 02:43:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: bigmler
+[2024-04-05 02:43:11] INFO root fetch - processPackages [typer]: New version: [0.9.4] Old Version: [0.9.3]
+[2024-04-05 02:43:11] INFO root fetch - processPackages [pyimg4]: New version: [0.8.2] Old Version: [0.8]
+[2024-04-05 02:43:11] INFO root fetch - processPackages [typer-cli]: New version: [0.12.dev2] Old Version: [0.12.dev1]
+[2024-04-05 02:43:11] INFO root fetch - processPackages [pybaywatch]: New version: [2024.4.4] Old Version: [2024.3.28]
+[2024-04-05 02:43:11] INFO root fetch - processPackages [typer-slim]: New version: [0.12.dev2] Old Version: [0.12.dev1]
+[2024-04-05 02:43:11] INFO root fetch - processPackages [bigmler]: New version: [5.8.0] Old Version: [5.7.0]
+[2024-04-05 02:43:11] INFO root fetch - processPackages [typer]: Downloading https://files.pythonhosted.org/packages/12/ce/0d95b86b827fc8bd4b53e42b7dfdcd56d6665ff93d7ba72128b52f22bb7b/typer-0.9.3.tar.gz
+[2024-04-05 02:43:11] INFO root fetch - processPackages [pyimg4]: Downloading https://files.pythonhosted.org/packages/75/02/f7bd40daa70d579a3a8d4696d4ef0aca9dec1770d50a2fb42c8624e14223/pyimg4-0.8.tar.gz
+[2024-04-05 02:43:11] INFO root fetch - processPackages [typer-cli]: Downloading https://files.pythonhosted.org/packages/9b/23/f855226c537b501ce5c9fdaf2212a05301d4433ca4b38bd412812a3dd224/typer_cli-0.12.dev1.tar.gz
+[2024-04-05 02:43:11] INFO root fetch - processPackages [pybaywatch]: Downloading https://files.pythonhosted.org/packages/32/b9/eda10b33d1924b5eb7d1a3de4604c71448f66b281c98ae41e841e2d76c68/pybaywatch-2024.3.28.tar.gz
+[2024-04-05 02:43:11] INFO root fetch - processPackages [typer-slim]: Downloading https://files.pythonhosted.org/packages/cb/a6/4e8be954c0aaa350e10d12a7fc024771267177c9f4755af87074842fb10e/typer_slim-0.12.dev1.tar.gz
+[2024-04-05 02:43:11] WARNING root fetch - processPackages [typer]: Timeout reached during download
+[2024-04-05 02:43:11] INFO root fetch - processPackages [bigmler]: Downloading https://files.pythonhosted.org/packages/3a/ec/994311f92d00fee535c02a6047cf69c20a78c145656cb96560e85a28c793/bigmler-5.7.0.tar.gz
+[2024-04-05 02:43:11] WARNING root fetch - processPackages [typer-cli]: Timeout reached during download
+[2024-04-05 02:43:11] WARNING root fetch - processPackages [pyimg4]: Timeout reached during download
+[2024-04-05 02:43:11] WARNING root fetch - processPackages [typer-slim]: Timeout reached during download
+[2024-04-05 02:43:11] WARNING root fetch - processPackages [pybaywatch]: Timeout reached during download
+[2024-04-05 02:43:11] INFO root fetch - processPackages [typer]: Downloading https://files.pythonhosted.org/packages/e9/7d/b1e0399aa5e27071f0042784681d28417f3e526c61f62c8e3635ee5ad334/typer-0.9.4.tar.gz
+[2024-04-05 02:43:12] WARNING root fetch - processPackages [bigmler]: Timeout reached during download
+[2024-04-05 02:43:12] INFO root fetch - processPackages [typer-cli]: Downloading https://files.pythonhosted.org/packages/a0/75/a6c5ec35c6e901812dbefabc73897ca7b1f9e8daf3d90f73f76c933cb3b4/typer_cli-0.12.dev2.tar.gz
+[2024-04-05 02:43:12] INFO root fetch - processPackages [pyimg4]: Downloading https://files.pythonhosted.org/packages/08/fe/7a985bda5fdc9d18a742fcab737ce8825efc29d3b9847cb0cfbf55cd5412/pyimg4-0.8.2.tar.gz
+[2024-04-05 02:43:12] INFO root fetch - processPackages [typer-slim]: Downloading https://files.pythonhosted.org/packages/7f/8f/8d67dc6028f51bb725c581c65fdfdc8c1f1cdfe1ef08bfde5929a39f1ebd/typer_slim-0.12.dev2.tar.gz
+[2024-04-05 02:43:12] INFO root fetch - processPackages [pybaywatch]: Downloading https://files.pythonhosted.org/packages/05/d6/5ca94b67cefa1cb58fbe0221eca76a6636d8c8d91cf0d53f5650f1951996/pybaywatch-2024.4.4.tar.gz
+[2024-04-05 02:43:12] WARNING root fetch - processPackages [typer]: Timeout reached during download
+[2024-04-05 02:43:12] INFO root fetch - processPackages [typer]: executing diffoscope
+[2024-04-05 02:43:12] INFO root fetch - processPackages [typer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/typer-0.9.3.tar.gz tmp/typer-0.9.4.tar.gz --markdown 20240405/t/typer/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2024-04-05 02:43:12] WARNING root fetch - processPackages [typer-cli]: Timeout reached during download
+[2024-04-05 02:43:12] INFO root fetch - processPackages [typer-cli]: executing diffoscope
+[2024-04-05 02:43:12] INFO root fetch - processPackages [typer-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/typer_cli-0.12.dev1.tar.gz tmp/typer_cli-0.12.dev2.tar.gz --markdown 20240405/t/typer-cli/0.12.dev1-0.12.dev2/diff.md --exclude *.pyd
+[2024-04-05 02:43:12] WARNING root fetch - processPackages [pyimg4]: Timeout reached during download
+[2024-04-05 02:43:12] INFO root fetch - processPackages [pyimg4]: executing diffoscope
+[2024-04-05 02:43:12] INFO root fetch - processPackages [pyimg4]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyimg4-0.8.tar.gz tmp/pyimg4-0.8.2.tar.gz --markdown 20240405/p/pyimg4/0.8-0.8.2/diff.md --exclude *.pyd
+[2024-04-05 02:43:12] WARNING root fetch - processPackages [typer-slim]: Timeout reached during download
+[2024-04-05 02:43:12] INFO root fetch - processPackages [typer-slim]: executing diffoscope
+[2024-04-05 02:43:12] INFO root fetch - processPackages [typer-slim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/typer_slim-0.12.dev1.tar.gz tmp/typer_slim-0.12.dev2.tar.gz --markdown 20240405/t/typer-slim/0.12.dev1-0.12.dev2/diff.md --exclude *.pyd
+[2024-04-05 02:43:12] WARNING root fetch - processPackages [pybaywatch]: Timeout reached during download
+[2024-04-05 02:43:12] INFO root fetch - processPackages [bigmler]: Downloading https://files.pythonhosted.org/packages/8a/3e/5cb9a1ba9b82d3896d73aa1ce038e400d507e40ae3cd6ee185a197efa939/bigmler-5.8.0.tar.gz
+[2024-04-05 02:43:12] INFO root fetch - processPackages [pybaywatch]: executing diffoscope
+[2024-04-05 02:43:12] INFO root fetch - processPackages [pybaywatch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pybaywatch-2024.3.28.tar.gz tmp/pybaywatch-2024.4.4.tar.gz --markdown 20240405/p/pybaywatch/2024.3.28-2024.4.4/diff.md --exclude *.pyd
+[2024-04-05 02:43:12] WARNING root fetch - processPackages [bigmler]: Timeout reached during download
+[2024-04-05 02:43:12] INFO root fetch - processPackages [bigmler]: executing diffoscope
+[2024-04-05 02:43:12] INFO root fetch - processPackages [bigmler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigmler-5.7.0.tar.gz tmp/bigmler-5.8.0.tar.gz --markdown 20240405/b/bigmler/5.7.0-5.8.0/diff.md --exclude *.pyd
+[2024-04-05 02:43:12] INFO root fetch - processPackages [typer-cli]: Remove: archive file [/home/abi/fetcher/tmp/typer_cli-0.12.dev1.tar.gz]
+[2024-04-05 02:43:12] INFO root fetch - processPackages [typer-cli]: Remove: archive file [/home/abi/fetcher/tmp/typer_cli-0.12.dev2.tar.gz]
+[2024-04-05 02:43:12] INFO root fetch - main [MainThread]: End processing [typer-cli]: success
+[2024-04-05 02:43:12] INFO root fetch - processPackages [pyimg4]: Remove: archive file [/home/abi/fetcher/tmp/pyimg4-0.8.tar.gz]
+[2024-04-05 02:43:12] INFO root fetch - processPackages [pyimg4]: Remove: archive file [/home/abi/fetcher/tmp/pyimg4-0.8.2.tar.gz]
+[2024-04-05 02:43:12] INFO root fetch - main [MainThread]: End processing [pyimg4]: success
+[2024-04-05 02:43:12] INFO root fetch - processPackages [pybaywatch]: Remove: archive file [/home/abi/fetcher/tmp/pybaywatch-2024.3.28.tar.gz]
+[2024-04-05 02:43:12] INFO root fetch - processPackages [pybaywatch]: Remove: archive file [/home/abi/fetcher/tmp/pybaywatch-2024.4.4.tar.gz]
+[2024-04-05 02:43:12] INFO root fetch - main [MainThread]: End processing [pybaywatch]: success
+[2024-04-05 02:43:13] INFO root fetch - processPackages [typer-slim]: Remove: archive file [/home/abi/fetcher/tmp/typer_slim-0.12.dev1.tar.gz]
+[2024-04-05 02:43:13] INFO root fetch - processPackages [typer-slim]: Remove: archive file [/home/abi/fetcher/tmp/typer_slim-0.12.dev2.tar.gz]
+[2024-04-05 02:43:13] INFO root fetch - main [MainThread]: End processing [typer-slim]: success
+[2024-04-05 02:43:13] INFO root fetch - processPackages [typer]: Remove: archive file [/home/abi/fetcher/tmp/typer-0.9.3.tar.gz]
+[2024-04-05 02:43:13] INFO root fetch - processPackages [typer]: Remove: archive file [/home/abi/fetcher/tmp/typer-0.9.4.tar.gz]
+[2024-04-05 02:43:13] INFO root fetch - main [MainThread]: End processing [typer]: success
+[2024-04-05 02:43:15] INFO root fetch - processPackages [bigmler]: Remove: archive file [/home/abi/fetcher/tmp/bigmler-5.7.0.tar.gz]
+[2024-04-05 02:43:15] INFO root fetch - processPackages [bigmler]: Remove: archive file [/home/abi/fetcher/tmp/bigmler-5.8.0.tar.gz]
+[2024-04-05 02:43:15] INFO root fetch - main [MainThread]: End processing [bigmler]: success
+[2024-04-05 02:43:15] INFO root fetch - main [MainThread]: Store serial: [22629363]
