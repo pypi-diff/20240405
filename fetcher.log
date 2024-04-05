@@ -2772,3 +2772,53 @@
 [2024-04-05 02:14:24] INFO root fetch - processPackages [text_lloom]: Remove: archive file [/home/abi/fetcher/tmp/text_lloom-0.2.tar.gz]
 [2024-04-05 02:14:24] INFO root fetch - main [MainThread]: End processing [text_lloom]: success
 [2024-04-05 02:14:24] INFO root fetch - main [MainThread]: Store serial: [22629108]
+[2024-04-05 02:16:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22629108]
+[2024-04-05 02:16:33] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-05 02:16:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cdk-events-notify
+[2024-04-05 02:16:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cdk-common
+[2024-04-05 02:16:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: Django-Person-Client
+[2024-04-05 02:16:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cbcmgr
+[2024-04-05 02:16:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cdk-skylight
+[2024-04-05 02:16:33] INFO root fetch - processPackages [cbcmgr]: New version: [2.2.9] Old Version: [2.2.8]
+[2024-04-05 02:16:34] INFO root fetch - processPackages [cdk-events-notify]: New version: [2.2.90] Old Version: [2.2.9]
+[2024-04-05 02:16:34] INFO root fetch - processPackages [cdk-common]: New version: [2.0.99] Old Version: [2.0.98]
+[2024-04-05 02:16:34] WARNING root fetch - processPackages [Django-Person-Client]: Skipping, unable to determine old version
+[2024-04-05 02:16:34] INFO root fetch - main [MainThread]: End processing [Django-Person-Client] error
+[2024-04-05 02:16:34] INFO root fetch - processPackages [cdk-skylight]: New version: [1.1.99] Old Version: [1.1.98]
+[2024-04-05 02:16:34] INFO root fetch - processPackages [cbcmgr]: Downloading https://files.pythonhosted.org/packages/96/59/8f83edf6892821224c2956fe0e4fdc0e0195ce2fab33465bb9076856431b/cbcmgr-2.2.8.tar.gz
+[2024-04-05 02:16:34] INFO root fetch - processPackages [cdk-events-notify]: Downloading https://files.pythonhosted.org/packages/a1/0e/5c24157512e0888da0f9517ac3e7fadfeda39580f53c9d502c41814e9212/cdk-events-notify-2.2.9.tar.gz
+[2024-04-05 02:16:34] INFO root fetch - processPackages [cdk-common]: Downloading https://files.pythonhosted.org/packages/f3/30/796e7080e9a9b293ccf386b0d95f40dde8e214e0415d2c59be9c661105a9/cdk-common-2.0.98.tar.gz
+[2024-04-05 02:16:34] WARNING root fetch - processPackages [cdk-events-notify]: Timeout reached during download
+[2024-04-05 02:16:34] WARNING root fetch - processPackages [cbcmgr]: Timeout reached during download
+[2024-04-05 02:16:34] INFO root fetch - processPackages [cdk-skylight]: Downloading https://files.pythonhosted.org/packages/86/f2/01b58f6183b48ce1105016a7f5045925a49464b8c20408459bd101fe5f25/cdk-skylight-1.1.98.tar.gz
+[2024-04-05 02:16:34] INFO root fetch - processPackages [cdk-events-notify]: Downloading https://files.pythonhosted.org/packages/ea/63/13fcc36258fdaa0539b95a5cfd32b353e3eea3f0f35ba5b01a2d5e317391/cdk-events-notify-2.2.90.tar.gz
+[2024-04-05 02:16:34] INFO root fetch - processPackages [cbcmgr]: Downloading https://files.pythonhosted.org/packages/67/64/457361dba5eba5ba47c78661d68e9e4df76506658db791e9c1a1c1f8c492/cbcmgr-2.2.9.tar.gz
+[2024-04-05 02:16:34] WARNING root fetch - processPackages [cdk-events-notify]: Timeout reached during download
+[2024-04-05 02:16:34] INFO root fetch - processPackages [cdk-events-notify]: executing diffoscope
+[2024-04-05 02:16:34] INFO root fetch - processPackages [cdk-events-notify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-events-notify-2.2.9.tar.gz tmp/cdk-events-notify-2.2.90.tar.gz --markdown 20240405/c/cdk-events-notify/2.2.9-2.2.90/diff.md --exclude *.pyd
+[2024-04-05 02:16:34] WARNING root fetch - processPackages [cdk-skylight]: Timeout reached during download
+[2024-04-05 02:16:34] WARNING root fetch - processPackages [cdk-common]: Timeout reached during download
+[2024-04-05 02:16:34] WARNING root fetch - processPackages [cbcmgr]: Timeout reached during download
+[2024-04-05 02:16:34] INFO root fetch - processPackages [cbcmgr]: executing diffoscope
+[2024-04-05 02:16:34] INFO root fetch - processPackages [cbcmgr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cbcmgr-2.2.8.tar.gz tmp/cbcmgr-2.2.9.tar.gz --markdown 20240405/c/cbcmgr/2.2.8-2.2.9/diff.md --exclude *.pyd
+[2024-04-05 02:16:34] INFO root fetch - processPackages [cdk-common]: Downloading https://files.pythonhosted.org/packages/11/10/ca183f281275ec945ede082d9491c0bb5bfb9152c437124c86e37cba7079/cdk-common-2.0.99.tar.gz
+[2024-04-05 02:16:34] INFO root fetch - processPackages [cdk-skylight]: Downloading https://files.pythonhosted.org/packages/59/49/3e035cb98d5f97f79c174e211129a2dbe596df70c5df50ac701242fabea2/cdk-skylight-1.1.99.tar.gz
+[2024-04-05 02:16:34] WARNING root fetch - processPackages [cdk-skylight]: Timeout reached during download
+[2024-04-05 02:16:34] INFO root fetch - processPackages [cdk-skylight]: executing diffoscope
+[2024-04-05 02:16:34] INFO root fetch - processPackages [cdk-skylight]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-skylight-1.1.98.tar.gz tmp/cdk-skylight-1.1.99.tar.gz --markdown 20240405/c/cdk-skylight/1.1.98-1.1.99/diff.md --exclude *.pyd
+[2024-04-05 02:16:34] WARNING root fetch - processPackages [cdk-common]: Timeout reached during download
+[2024-04-05 02:16:34] INFO root fetch - processPackages [cdk-common]: executing diffoscope
+[2024-04-05 02:16:34] INFO root fetch - processPackages [cdk-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-common-2.0.98.tar.gz tmp/cdk-common-2.0.99.tar.gz --markdown 20240405/c/cdk-common/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2024-04-05 02:16:35] INFO root fetch - processPackages [cdk-events-notify]: Remove: archive file [/home/abi/fetcher/tmp/cdk-events-notify-2.2.9.tar.gz]
+[2024-04-05 02:16:35] INFO root fetch - processPackages [cdk-events-notify]: Remove: archive file [/home/abi/fetcher/tmp/cdk-events-notify-2.2.90.tar.gz]
+[2024-04-05 02:16:35] INFO root fetch - main [MainThread]: End processing [cdk-events-notify]: success
+[2024-04-05 02:16:35] INFO root fetch - processPackages [cbcmgr]: Remove: archive file [/home/abi/fetcher/tmp/cbcmgr-2.2.8.tar.gz]
+[2024-04-05 02:16:35] INFO root fetch - processPackages [cbcmgr]: Remove: archive file [/home/abi/fetcher/tmp/cbcmgr-2.2.9.tar.gz]
+[2024-04-05 02:16:35] INFO root fetch - main [MainThread]: End processing [cbcmgr]: success
+[2024-04-05 02:16:35] INFO root fetch - processPackages [cdk-skylight]: Remove: archive file [/home/abi/fetcher/tmp/cdk-skylight-1.1.98.tar.gz]
+[2024-04-05 02:16:35] INFO root fetch - processPackages [cdk-skylight]: Remove: archive file [/home/abi/fetcher/tmp/cdk-skylight-1.1.99.tar.gz]
+[2024-04-05 02:16:35] INFO root fetch - main [MainThread]: End processing [cdk-skylight]: success
+[2024-04-05 02:16:35] INFO root fetch - processPackages [cdk-common]: Remove: archive file [/home/abi/fetcher/tmp/cdk-common-2.0.98.tar.gz]
+[2024-04-05 02:16:35] INFO root fetch - processPackages [cdk-common]: Remove: archive file [/home/abi/fetcher/tmp/cdk-common-2.0.99.tar.gz]
+[2024-04-05 02:16:35] INFO root fetch - main [MainThread]: End processing [cdk-common]: success
+[2024-04-05 02:16:35] INFO root fetch - main [MainThread]: Store serial: [22629124]
