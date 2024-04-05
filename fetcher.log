@@ -23663,3 +23663,75 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2024-04-05 15:08:36] INFO root fetch - processPackages [pytest-helm-templates]: Remove: archive file [/home/abi/fetcher/tmp/pytest-helm-templates-0.0.1a3.tar.gz]
 [2024-04-05 15:08:36] INFO root fetch - main [MainThread]: End processing [pytest-helm-templates]: success
 [2024-04-05 15:08:36] INFO root fetch - main [MainThread]: Store serial: [22636348]
+[2024-04-05 15:10:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22636348]
+[2024-04-05 15:10:45] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-05 15:10:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tree-sitter-javascript
+[2024-04-05 15:10:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyrtz2
+[2024-04-05 15:10:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bionty
+[2024-04-05 15:10:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ert
+[2024-04-05 15:10:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: fab-react-toolkit
+[2024-04-05 15:10:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: framesss
+[2024-04-05 15:10:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: linien-common
+[2024-04-05 15:10:46] INFO root fetch - processPackages [fab-react-toolkit]: New version: [0.3.3] Old Version: [0.3.2]
+[2024-04-05 15:10:46] INFO root fetch - processPackages [pyrtz2]: New version: [1.1.14] Old Version: [1.1.11]
+[2024-04-05 15:10:46] WARNING root fetch - processPackages [tree-sitter-javascript]: Skipping, unable to determine old version
+[2024-04-05 15:10:46] INFO root fetch - main [MainThread]: End processing [tree-sitter-javascript] error
+[2024-04-05 15:10:46] INFO root fetch - processPackages [framesss]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-04-05 15:10:46] INFO root fetch - processPackages [pyrtz2]: Downloading https://files.pythonhosted.org/packages/23/4e/01495cdc192f7ac51185625f501b22951be9d0d475e6e4062d1e76c10a41/pyrtz2-1.1.11.tar.gz
+[2024-04-05 15:10:46] INFO root fetch - processPackages [fab-react-toolkit]: Downloading https://files.pythonhosted.org/packages/1c/c9/466fecfb485d5911775f75413478976dbd6917f35606f7fac7b8beddf1eb/fab-react-toolkit-0.3.2.tar.gz
+[2024-04-05 15:10:46] INFO root fetch - processPackages [bionty]: New version: [0.9.0rc1] Old Version: [0.9.0]
+[2024-04-05 15:10:46] INFO root fetch - processPackages [ert]: New version: [9.0.3] Old Version: [9.0.2]
+[2024-04-05 15:10:46] INFO root fetch - processPackages [linien-common]: New version: [2.0.0rc1] Old Version: [1.0.2rc1]
+[2024-04-05 15:10:46] INFO root fetch - processPackages [bionty]: Downloading https://files.pythonhosted.org/packages/99/96/56b5f6e7d406917b173d9b761f4b2ff41b68d375105fe40b9b23131b295d/bionty-0.9.0.tar.gz
+[2024-04-05 15:10:46] INFO root fetch - processPackages [linien-common]: Downloading https://files.pythonhosted.org/packages/e0/69/4b6b2d9552d0fc8c4e2ba1797ed492071fbb15511beed64702db7ceaf5f8/linien-common-1.0.2rc1.tar.gz
+[2024-04-05 15:10:46] WARNING root fetch - processPackages [fab-react-toolkit]: Timeout reached during download
+[2024-04-05 15:10:46] WARNING root fetch - processPackages [pyrtz2]: Timeout reached during download
+[2024-04-05 15:10:46] INFO root fetch - processPackages [framesss]: Downloading https://files.pythonhosted.org/packages/ce/ca/3b9af5ad8e12f842315261902238c7ffe42db16e0f3c5c3e49baf63a2936/framesss-0.0.2.tar.gz
+[2024-04-05 15:10:46] INFO root fetch - processPackages [fab-react-toolkit]: Downloading https://files.pythonhosted.org/packages/a8/c1/44917a59e3cb1e059e1facec04263edb5e67f366cd04dfa13ddc517bfca0/fab-react-toolkit-0.3.3.tar.gz
+[2024-04-05 15:10:46] WARNING root fetch - processPackages [linien-common]: Timeout reached during download
+[2024-04-05 15:10:46] INFO root fetch - processPackages [ert]: Downloading https://files.pythonhosted.org/packages/ea/2d/67cd8f5cac920a92bfae774cf35e5b3aa3894d5974fdde38c6969ecac1ae/ert-9.0.2-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-04-05 15:10:46] WARNING root fetch - processPackages [bionty]: Timeout reached during download
+[2024-04-05 15:10:46] INFO root fetch - processPackages [pyrtz2]: Downloading https://files.pythonhosted.org/packages/05/38/1521f4ea6c0cf6db9dd68ea13a867ad497f01eb784adb1e2657c9ac6a1ee/pyrtz2-1.1.14.tar.gz
+[2024-04-05 15:10:46] INFO root fetch - processPackages [bionty]: Downloading https://files.pythonhosted.org/packages/f4/01/3a99104d9a37cf7fbdae5c733cec97f252f8eb35f5553cd253a05edf8420/bionty-0.9.0rc1.tar.gz
+[2024-04-05 15:10:46] WARNING root fetch - processPackages [fab-react-toolkit]: Timeout reached during download
+[2024-04-05 15:10:46] INFO root fetch - processPackages [fab-react-toolkit]: executing diffoscope
+[2024-04-05 15:10:46] INFO root fetch - processPackages [fab-react-toolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fab-react-toolkit-0.3.2.tar.gz tmp/fab-react-toolkit-0.3.3.tar.gz --markdown 20240405/f/fab-react-toolkit/0.3.2-0.3.3/diff.md --exclude *.pyd
+[2024-04-05 15:10:46] WARNING root fetch - processPackages [framesss]: Timeout reached during download
+[2024-04-05 15:10:46] INFO root fetch - processPackages [linien-common]: Downloading https://files.pythonhosted.org/packages/bf/71/318d07621fa47dacfdbe80afdf2dab67fed28dd6bf391a6b69ef5b5e9243/linien-common-2.0.0rc1.tar.gz
+[2024-04-05 15:10:46] WARNING root fetch - processPackages [ert]: Timeout reached during download
+[2024-04-05 15:10:46] WARNING root fetch - processPackages [bionty]: Timeout reached during download
+[2024-04-05 15:10:46] INFO root fetch - processPackages [bionty]: executing diffoscope
+[2024-04-05 15:10:46] INFO root fetch - processPackages [bionty]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bionty-0.9.0.tar.gz tmp/bionty-0.9.0rc1.tar.gz --markdown 20240405/b/bionty/0.9.0-0.9.0rc1/diff.md --exclude *.pyd
+[2024-04-05 15:10:46] WARNING root fetch - processPackages [pyrtz2]: Timeout reached during download
+[2024-04-05 15:10:46] INFO root fetch - processPackages [pyrtz2]: executing diffoscope
+[2024-04-05 15:10:46] INFO root fetch - processPackages [pyrtz2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyrtz2-1.1.11.tar.gz tmp/pyrtz2-1.1.14.tar.gz --markdown 20240405/p/pyrtz2/1.1.11-1.1.14/diff.md --exclude *.pyd
+[2024-04-05 15:10:46] INFO root fetch - processPackages [framesss]: Downloading https://files.pythonhosted.org/packages/ce/c4/f9a933645322d9d829ec6b30396ad63941df64b7898d6ffc43a71e986909/framesss-0.0.3.tar.gz
+[2024-04-05 15:10:46] INFO root fetch - processPackages [ert]: Downloading https://files.pythonhosted.org/packages/15/15/9d084709b2b59d7d3f4512aa145e885dd70ea36ec37b1bb0502737b5c9c5/ert-9.0.3-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-04-05 15:10:46] WARNING root fetch - processPackages [linien-common]: Timeout reached during download
+[2024-04-05 15:10:46] INFO root fetch - processPackages [linien-common]: executing diffoscope
+[2024-04-05 15:10:46] INFO root fetch - processPackages [linien-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/linien-common-1.0.2rc1.tar.gz tmp/linien-common-2.0.0rc1.tar.gz --markdown 20240405/l/linien-common/1.0.2rc1-2.0.0rc1/diff.md --exclude *.pyd
+[2024-04-05 15:10:47] WARNING root fetch - processPackages [framesss]: Timeout reached during download
+[2024-04-05 15:10:47] INFO root fetch - processPackages [framesss]: executing diffoscope
+[2024-04-05 15:10:47] INFO root fetch - processPackages [framesss]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/framesss-0.0.2.tar.gz tmp/framesss-0.0.3.tar.gz --markdown 20240405/f/framesss/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2024-04-05 15:10:47] WARNING root fetch - processPackages [ert]: Timeout reached during download
+[2024-04-05 15:10:47] INFO root fetch - processPackages [ert]: executing diffoscope
+[2024-04-05 15:10:47] INFO root fetch - processPackages [ert]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ert-9.0.2-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/ert-9.0.3-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20240405/e/ert/9.0.2-9.0.3/diff.md --exclude *.pyd
+[2024-04-05 15:10:47] INFO root fetch - processPackages [fab-react-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/fab-react-toolkit-0.3.2.tar.gz]
+[2024-04-05 15:10:47] INFO root fetch - processPackages [fab-react-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/fab-react-toolkit-0.3.3.tar.gz]
+[2024-04-05 15:10:47] INFO root fetch - main [MainThread]: End processing [fab-react-toolkit]: success
+[2024-04-05 15:10:47] INFO root fetch - processPackages [bionty]: Remove: archive file [/home/abi/fetcher/tmp/bionty-0.9.0.tar.gz]
+[2024-04-05 15:10:47] INFO root fetch - processPackages [bionty]: Remove: archive file [/home/abi/fetcher/tmp/bionty-0.9.0rc1.tar.gz]
+[2024-04-05 15:10:47] INFO root fetch - main [MainThread]: End processing [bionty]: success
+[2024-04-05 15:10:47] INFO root fetch - processPackages [linien-common]: Remove: archive file [/home/abi/fetcher/tmp/linien-common-1.0.2rc1.tar.gz]
+[2024-04-05 15:10:47] INFO root fetch - processPackages [linien-common]: Remove: archive file [/home/abi/fetcher/tmp/linien-common-2.0.0rc1.tar.gz]
+[2024-04-05 15:10:47] INFO root fetch - main [MainThread]: End processing [linien-common]: success
+[2024-04-05 15:10:47] INFO root fetch - processPackages [pyrtz2]: Remove: archive file [/home/abi/fetcher/tmp/pyrtz2-1.1.11.tar.gz]
+[2024-04-05 15:10:47] INFO root fetch - processPackages [pyrtz2]: Remove: archive file [/home/abi/fetcher/tmp/pyrtz2-1.1.14.tar.gz]
+[2024-04-05 15:10:47] INFO root fetch - main [MainThread]: End processing [pyrtz2]: success
+[2024-04-05 15:10:47] INFO root fetch - processPackages [framesss]: Remove: archive file [/home/abi/fetcher/tmp/framesss-0.0.2.tar.gz]
+[2024-04-05 15:10:47] INFO root fetch - processPackages [framesss]: Remove: archive file [/home/abi/fetcher/tmp/framesss-0.0.3.tar.gz]
+[2024-04-05 15:10:47] INFO root fetch - main [MainThread]: End processing [framesss]: success
+[2024-04-05 15:10:52] INFO root fetch - processPackages [ert]: Remove: archive file [/home/abi/fetcher/tmp/ert-9.0.2-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-04-05 15:10:52] INFO root fetch - processPackages [ert]: Remove: archive file [/home/abi/fetcher/tmp/ert-9.0.3-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-04-05 15:10:52] INFO root fetch - main [MainThread]: End processing [ert]: success
+[2024-04-05 15:10:52] INFO root fetch - main [MainThread]: Store serial: [22636391]
