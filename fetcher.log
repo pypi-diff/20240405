@@ -18582,3 +18582,61 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2024-04-05 12:06:11] INFO root fetch - processPackages [vision_oslo_extension]: Remove: archive file [/home/abi/fetcher/tmp/vision_oslo_extension-1.0.0.tar.gz]
 [2024-04-05 12:06:11] INFO root fetch - main [MainThread]: End processing [vision_oslo_extension]: success
 [2024-04-05 12:06:11] INFO root fetch - main [MainThread]: Store serial: [22634343]
+[2024-04-05 12:08:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22634343]
+[2024-04-05 12:08:20] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-05 12:08:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: suite-py
+[2024-04-05 12:08:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: Geode-Conversion
+[2024-04-05 12:08:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addon-mail-activity-team
+[2024-04-05 12:08:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sirji-messages
+[2024-04-05 12:08:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyrt-lib-rasmusklitgaard
+[2024-04-05 12:08:20] INFO root fetch - processPackages [sirji-messages]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-04-05 12:08:20] INFO root fetch - processPackages [pyrt-lib-rasmusklitgaard]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-05 12:08:20] INFO root fetch - processPackages [Geode-Conversion]: New version: [5.2.7rc1] Old Version: [5.2.7]
+[2024-04-05 12:08:20] INFO root fetch - processPackages [odoo-addon-mail-activity-team]: New version: [17.0.1.0.0.1] Old Version: [16.0.1.0.0.8]
+[2024-04-05 12:08:20] INFO root fetch - processPackages [sirji-messages]: Downloading https://files.pythonhosted.org/packages/02/41/c3d66798fc1e2a6d2da6b545032c1b376f88d6475d31e5f4cca31b663959/sirji-messages-0.0.4.tar.gz
+[2024-04-05 12:08:20] INFO root fetch - processPackages [pyrt-lib-rasmusklitgaard]: Downloading https://files.pythonhosted.org/packages/8c/fe/498bae019bd14471b2581c7a176eb5159d3a2065e78ff3abe9448016961c/pyrt_lib_rasmusklitgaard-0.0.8.tar.gz
+[2024-04-05 12:08:20] INFO root fetch - processPackages [suite-py]: New version: [1.9.9] Old Version: [1.9.8]
+[2024-04-05 12:08:20] INFO root fetch - processPackages [odoo-addon-mail-activity-team]: Downloading https://files.pythonhosted.org/packages/92/37/77a70664d041ecf466ddbc854349b32bb17e2fb6d3b7a2a69f30dd26415f/odoo_addon_mail_activity_team-16.0.1.0.0.8-py3-none-any.whl
+[2024-04-05 12:08:20] INFO root fetch - processPackages [suite-py]: Downloading https://files.pythonhosted.org/packages/ef/37/0c075d9d9338f06c9a311c241ff663a244c16f5e0477cf304edfecb07606/suite-py-1.9.8.tar.gz
+[2024-04-05 12:08:20] INFO root fetch - processPackages [Geode-Conversion]: Downloading https://files.pythonhosted.org/packages/9f/cf/1e1041f2e82802f427bdc3e22245eeb28df048bfaf5c61054190d5abb94e/Geode_Conversion-5.2.7-cp39-cp39-win_amd64.whl
+[2024-04-05 12:08:20] WARNING root fetch - processPackages [pyrt-lib-rasmusklitgaard]: Timeout reached during download
+[2024-04-05 12:08:20] WARNING root fetch - processPackages [sirji-messages]: Timeout reached during download
+[2024-04-05 12:08:20] WARNING root fetch - processPackages [odoo-addon-mail-activity-team]: Timeout reached during download
+[2024-04-05 12:08:20] INFO root fetch - processPackages [pyrt-lib-rasmusklitgaard]: Downloading https://files.pythonhosted.org/packages/d0/1d/eb32dc3fc816a0654c5ad4b22939b1c22c24b50b9ea73dbed815e258d296/pyrt_lib_rasmusklitgaard-0.0.9.tar.gz
+[2024-04-05 12:08:21] INFO root fetch - processPackages [sirji-messages]: Downloading https://files.pythonhosted.org/packages/2b/d1/ce5e9ab27751b60cbbebd19a027f98de42623458ad882fc47cb5844c2e53/sirji-messages-0.0.5.tar.gz
+[2024-04-05 12:08:21] WARNING root fetch - processPackages [suite-py]: Timeout reached during download
+[2024-04-05 12:08:21] WARNING root fetch - processPackages [sirji-messages]: Timeout reached during download
+[2024-04-05 12:08:21] INFO root fetch - processPackages [sirji-messages]: executing diffoscope
+[2024-04-05 12:08:21] INFO root fetch - processPackages [sirji-messages]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sirji-messages-0.0.4.tar.gz tmp/sirji-messages-0.0.5.tar.gz --markdown 20240405/s/sirji-messages/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2024-04-05 12:08:21] WARNING root fetch - processPackages [pyrt-lib-rasmusklitgaard]: Timeout reached during download
+[2024-04-05 12:08:21] INFO root fetch - processPackages [pyrt-lib-rasmusklitgaard]: executing diffoscope
+[2024-04-05 12:08:21] INFO root fetch - processPackages [pyrt-lib-rasmusklitgaard]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyrt_lib_rasmusklitgaard-0.0.8.tar.gz tmp/pyrt_lib_rasmusklitgaard-0.0.9.tar.gz --markdown 20240405/p/pyrt-lib-rasmusklitgaard/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2024-04-05 12:08:21] INFO root fetch - processPackages [odoo-addon-mail-activity-team]: Downloading https://files.pythonhosted.org/packages/44/b2/aa92d1d854d25579b772cf0833f7e10e382b642672fe1c598ff61cb2ff14/odoo_addon_mail_activity_team-17.0.1.0.0.1-py3-none-any.whl
+[2024-04-05 12:08:21] WARNING root fetch - processPackages [Geode-Conversion]: Timeout reached during download
+[2024-04-05 12:08:21] INFO root fetch - processPackages [suite-py]: Downloading https://files.pythonhosted.org/packages/75/8d/e56fa1005c2ea6072c7f7f32d256169642eb4f4ae134d1fb3a0e1294d0d2/suite-py-1.9.9.tar.gz
+[2024-04-05 12:08:21] WARNING root fetch - processPackages [odoo-addon-mail-activity-team]: Timeout reached during download
+[2024-04-05 12:08:21] INFO root fetch - processPackages [odoo-addon-mail-activity-team]: executing diffoscope
+[2024-04-05 12:08:21] INFO root fetch - processPackages [odoo-addon-mail-activity-team]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_mail_activity_team-16.0.1.0.0.8-py3-none-any.whl.zip tmp/odoo_addon_mail_activity_team-17.0.1.0.0.1-py3-none-any.whl.zip --markdown 20240405/o/odoo-addon-mail-activity-team/16.0.1.0.0.8-17.0.1.0.0.1/diff.md --exclude *.pyd
+[2024-04-05 12:08:21] WARNING root fetch - processPackages [suite-py]: Timeout reached during download
+[2024-04-05 12:08:21] INFO root fetch - processPackages [suite-py]: executing diffoscope
+[2024-04-05 12:08:21] INFO root fetch - processPackages [suite-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/suite-py-1.9.8.tar.gz tmp/suite-py-1.9.9.tar.gz --markdown 20240405/s/suite-py/1.9.8-1.9.9/diff.md --exclude *.pyd
+[2024-04-05 12:08:21] INFO root fetch - processPackages [Geode-Conversion]: Downloading https://files.pythonhosted.org/packages/d8/bb/5175f1a72099d81745ad1b621bf2ed6425661bea1efae1a53a278c460f29/Geode_Conversion-5.2.7rc1-cp39-cp39-win_amd64.whl
+[2024-04-05 12:08:21] INFO root fetch - processPackages [pyrt-lib-rasmusklitgaard]: Remove: archive file [/home/abi/fetcher/tmp/pyrt_lib_rasmusklitgaard-0.0.8.tar.gz]
+[2024-04-05 12:08:21] INFO root fetch - processPackages [pyrt-lib-rasmusklitgaard]: Remove: archive file [/home/abi/fetcher/tmp/pyrt_lib_rasmusklitgaard-0.0.9.tar.gz]
+[2024-04-05 12:08:21] INFO root fetch - main [MainThread]: End processing [pyrt-lib-rasmusklitgaard]: success
+[2024-04-05 12:08:21] WARNING root fetch - processPackages [Geode-Conversion]: Timeout reached during download
+[2024-04-05 12:08:21] INFO root fetch - processPackages [Geode-Conversion]: executing diffoscope
+[2024-04-05 12:08:21] INFO root fetch - processPackages [Geode-Conversion]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Geode_Conversion-5.2.7-cp39-cp39-win_amd64.whl.zip tmp/Geode_Conversion-5.2.7rc1-cp39-cp39-win_amd64.whl.zip --markdown 20240405/G/Geode-Conversion/5.2.7-5.2.7rc1/diff.md --exclude *.pyd
+[2024-04-05 12:08:21] INFO root fetch - processPackages [sirji-messages]: Remove: archive file [/home/abi/fetcher/tmp/sirji-messages-0.0.4.tar.gz]
+[2024-04-05 12:08:21] INFO root fetch - processPackages [sirji-messages]: Remove: archive file [/home/abi/fetcher/tmp/sirji-messages-0.0.5.tar.gz]
+[2024-04-05 12:08:21] INFO root fetch - main [MainThread]: End processing [sirji-messages]: success
+[2024-04-05 12:08:22] INFO root fetch - processPackages [odoo-addon-mail-activity-team]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_mail_activity_team-16.0.1.0.0.8-py3-none-any.whl.zip]
+[2024-04-05 12:08:22] INFO root fetch - processPackages [odoo-addon-mail-activity-team]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_mail_activity_team-17.0.1.0.0.1-py3-none-any.whl.zip]
+[2024-04-05 12:08:22] INFO root fetch - main [MainThread]: End processing [odoo-addon-mail-activity-team]: success
+[2024-04-05 12:08:22] INFO root fetch - processPackages [suite-py]: Remove: archive file [/home/abi/fetcher/tmp/suite-py-1.9.8.tar.gz]
+[2024-04-05 12:08:22] INFO root fetch - processPackages [suite-py]: Remove: archive file [/home/abi/fetcher/tmp/suite-py-1.9.9.tar.gz]
+[2024-04-05 12:08:22] INFO root fetch - main [MainThread]: End processing [suite-py]: success
+[2024-04-05 12:08:33] INFO root fetch - processPackages [Geode-Conversion]: Remove: archive file [/home/abi/fetcher/tmp/Geode_Conversion-5.2.7-cp39-cp39-win_amd64.whl.zip]
+[2024-04-05 12:08:33] INFO root fetch - processPackages [Geode-Conversion]: Remove: archive file [/home/abi/fetcher/tmp/Geode_Conversion-5.2.7rc1-cp39-cp39-win_amd64.whl.zip]
+[2024-04-05 12:08:33] INFO root fetch - main [MainThread]: End processing [Geode-Conversion]: success
+[2024-04-05 12:08:33] INFO root fetch - main [MainThread]: Store serial: [22634360]
