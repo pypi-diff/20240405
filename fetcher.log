@@ -23068,3 +23068,72 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2024-04-05 14:51:31] INFO root fetch - processPackages [pyais]: Remove: archive file [/home/abi/fetcher/tmp/pyais-2.6.3.tar.gz]
 [2024-04-05 14:51:31] INFO root fetch - main [MainThread]: End processing [pyais]: success
 [2024-04-05 14:51:31] INFO root fetch - main [MainThread]: Store serial: [22636122]
+[2024-04-05 14:53:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22636122]
+[2024-04-05 14:53:40] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-05 14:53:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: qless-with-throttles
+[2024-04-05 14:53:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: few-shot-priming
+[2024-04-05 14:53:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: qnngds
+[2024-04-05 14:53:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyrp3
+[2024-04-05 14:53:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: sunholo
+[2024-04-05 14:53:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: matplotloom
+[2024-04-05 14:53:40] INFO root fetch - processPackages [qless-with-throttles]: New version: [0.12.0a9] Old Version: [0.12.0a8]
+[2024-04-05 14:53:40] INFO root fetch - processPackages [matplotloom]: New version: [0.2.0] Old Version: [0.1.0]
+[2024-04-05 14:53:40] INFO root fetch - processPackages [sunholo]: New version: [0.8.9] Old Version: [0.8.8]
+[2024-04-05 14:53:40] INFO root fetch - processPackages [few-shot-priming]: New version: [0.3.99] Old Version: [0.3.98]
+[2024-04-05 14:53:40] INFO root fetch - processPackages [qnngds]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-04-05 14:53:40] INFO root fetch - processPackages [pyrp3]: New version: [2.0.1] Old Version: [2.0.0]
+[2024-04-05 14:53:40] INFO root fetch - processPackages [matplotloom]: Downloading https://files.pythonhosted.org/packages/87/bf/9429519cb928e258e5b3d1b4c25fc3b5f1abb3929829f3d7dca484c9e568/matplotloom-0.1.0.tar.gz
+[2024-04-05 14:53:40] INFO root fetch - processPackages [qless-with-throttles]: Downloading https://files.pythonhosted.org/packages/38/82/5755ba0114a466dd7c68fdb3060f7539d116eedc4f5d98d96272f2df54fd/qless-with-throttles-0.12.0a8.tar.gz
+[2024-04-05 14:53:40] INFO root fetch - processPackages [sunholo]: Downloading https://files.pythonhosted.org/packages/cc/35/0cc2a83f59b1ddd740a568e10894833a89bedfc91b8ebd172a427676694a/sunholo-0.8.8.tar.gz
+[2024-04-05 14:53:40] INFO root fetch - processPackages [few-shot-priming]: Downloading https://files.pythonhosted.org/packages/eb/67/d15b11d0bfb57369fa16ba7f8c97cd3ddec8f771e6da8f11a3d819004b69/few_shot_priming-0.3.98-py3-none-any.whl
+[2024-04-05 14:53:40] WARNING root fetch - processPackages [matplotloom]: Timeout reached during download
+[2024-04-05 14:53:41] INFO root fetch - processPackages [qnngds]: Downloading https://files.pythonhosted.org/packages/de/d2/eaeaed6c54ec555b14604515be3920dcafd84cbc4924b196c50333e1c336/qnngds-1.0.0.tar.gz
+[2024-04-05 14:53:41] WARNING root fetch - processPackages [sunholo]: Timeout reached during download
+[2024-04-05 14:53:41] INFO root fetch - processPackages [pyrp3]: Downloading https://files.pythonhosted.org/packages/a6/f5/ce277526d4a526a704435f1b69a1b0d1cdeba7aa3dca8146bbbd89c7c314/pyrp3-2.0.0.tar.gz
+[2024-04-05 14:53:41] WARNING root fetch - processPackages [qless-with-throttles]: Timeout reached during download
+[2024-04-05 14:53:41] INFO root fetch - processPackages [matplotloom]: Downloading https://files.pythonhosted.org/packages/6a/a5/0a6dfe53b87a8e97d9d27dbd04af85db669b2638ccf71c6ec30eea7da8fe/matplotloom-0.2.0.tar.gz
+[2024-04-05 14:53:41] INFO root fetch - processPackages [qless-with-throttles]: Downloading https://files.pythonhosted.org/packages/5a/d4/b8a4d3f5182f4fe2cba33b5e341890ec71807ba729a06275253839b97faf/qless-with-throttles-0.12.0a9.tar.gz
+[2024-04-05 14:53:41] WARNING root fetch - processPackages [qnngds]: Timeout reached during download
+[2024-04-05 14:53:41] INFO root fetch - processPackages [sunholo]: Downloading https://files.pythonhosted.org/packages/f4/84/78248df3236e593119b75003e77cf5b5bd0761e53dc91c6a148cb0571cf9/sunholo-0.8.9.tar.gz
+[2024-04-05 14:53:41] WARNING root fetch - processPackages [pyrp3]: Timeout reached during download
+[2024-04-05 14:53:41] WARNING root fetch - processPackages [matplotloom]: Timeout reached during download
+[2024-04-05 14:53:41] INFO root fetch - processPackages [matplotloom]: executing diffoscope
+[2024-04-05 14:53:41] INFO root fetch - processPackages [matplotloom]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/matplotloom-0.1.0.tar.gz tmp/matplotloom-0.2.0.tar.gz --markdown 20240405/m/matplotloom/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2024-04-05 14:53:41] WARNING root fetch - processPackages [few-shot-priming]: Timeout reached during download
+[2024-04-05 14:53:41] WARNING root fetch - processPackages [sunholo]: Timeout reached during download
+[2024-04-05 14:53:41] INFO root fetch - processPackages [sunholo]: executing diffoscope
+[2024-04-05 14:53:41] INFO root fetch - processPackages [sunholo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sunholo-0.8.8.tar.gz tmp/sunholo-0.8.9.tar.gz --markdown 20240405/s/sunholo/0.8.8-0.8.9/diff.md --exclude *.pyd
+[2024-04-05 14:53:41] INFO root fetch - processPackages [qnngds]: Downloading https://files.pythonhosted.org/packages/28/2f/20c772559f7643e63bfc5de8c16940794ebea5a0c960479b0bfe03166398/qnngds-1.0.1.tar.gz
+[2024-04-05 14:53:41] INFO root fetch - processPackages [pyrp3]: Downloading https://files.pythonhosted.org/packages/52/6e/7abd054394d9df993d9069fda5ebb53f80f41f983873b80b83dcecee00f8/pyrp3-2.0.1.tar.gz
+[2024-04-05 14:53:41] WARNING root fetch - processPackages [qless-with-throttles]: Timeout reached during download
+[2024-04-05 14:53:41] INFO root fetch - processPackages [few-shot-priming]: Downloading https://files.pythonhosted.org/packages/ff/11/548f6e96803602e6431dc610d736d401b20fde986f85c35c8ad19a6d0958/few_shot_priming-0.3.99-py3-none-any.whl
+[2024-04-05 14:53:41] INFO root fetch - processPackages [qless-with-throttles]: executing diffoscope
+[2024-04-05 14:53:41] INFO root fetch - processPackages [qless-with-throttles]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qless-with-throttles-0.12.0a8.tar.gz tmp/qless-with-throttles-0.12.0a9.tar.gz --markdown 20240405/q/qless-with-throttles/0.12.0a8-0.12.0a9/diff.md --exclude *.pyd
+[2024-04-05 14:53:41] WARNING root fetch - processPackages [qnngds]: Timeout reached during download
+[2024-04-05 14:53:41] INFO root fetch - processPackages [qnngds]: executing diffoscope
+[2024-04-05 14:53:41] INFO root fetch - processPackages [qnngds]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qnngds-1.0.0.tar.gz tmp/qnngds-1.0.1.tar.gz --markdown 20240405/q/qnngds/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2024-04-05 14:53:41] WARNING root fetch - processPackages [pyrp3]: Timeout reached during download
+[2024-04-05 14:53:41] INFO root fetch - processPackages [pyrp3]: executing diffoscope
+[2024-04-05 14:53:41] INFO root fetch - processPackages [pyrp3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyrp3-2.0.0.tar.gz tmp/pyrp3-2.0.1.tar.gz --markdown 20240405/p/pyrp3/2.0.0-2.0.1/diff.md --exclude *.pyd
+[2024-04-05 14:53:41] WARNING root fetch - processPackages [few-shot-priming]: Timeout reached during download
+[2024-04-05 14:53:41] INFO root fetch - processPackages [few-shot-priming]: executing diffoscope
+[2024-04-05 14:53:41] INFO root fetch - processPackages [few-shot-priming]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/few_shot_priming-0.3.98-py3-none-any.whl.zip tmp/few_shot_priming-0.3.99-py3-none-any.whl.zip --markdown 20240405/f/few-shot-priming/0.3.98-0.3.99/diff.md --exclude *.pyd
+[2024-04-05 14:53:41] INFO root fetch - processPackages [matplotloom]: Remove: archive file [/home/abi/fetcher/tmp/matplotloom-0.1.0.tar.gz]
+[2024-04-05 14:53:41] INFO root fetch - processPackages [matplotloom]: Remove: archive file [/home/abi/fetcher/tmp/matplotloom-0.2.0.tar.gz]
+[2024-04-05 14:53:41] INFO root fetch - main [MainThread]: End processing [matplotloom]: success
+[2024-04-05 14:53:42] INFO root fetch - processPackages [qless-with-throttles]: Remove: archive file [/home/abi/fetcher/tmp/qless-with-throttles-0.12.0a8.tar.gz]
+[2024-04-05 14:53:42] INFO root fetch - processPackages [qless-with-throttles]: Remove: archive file [/home/abi/fetcher/tmp/qless-with-throttles-0.12.0a9.tar.gz]
+[2024-04-05 14:53:42] INFO root fetch - main [MainThread]: End processing [qless-with-throttles]: success
+[2024-04-05 14:53:42] INFO root fetch - processPackages [sunholo]: Remove: archive file [/home/abi/fetcher/tmp/sunholo-0.8.8.tar.gz]
+[2024-04-05 14:53:42] INFO root fetch - processPackages [sunholo]: Remove: archive file [/home/abi/fetcher/tmp/sunholo-0.8.9.tar.gz]
+[2024-04-05 14:53:42] INFO root fetch - main [MainThread]: End processing [sunholo]: success
+[2024-04-05 14:53:42] INFO root fetch - processPackages [qnngds]: Remove: archive file [/home/abi/fetcher/tmp/qnngds-1.0.0.tar.gz]
+[2024-04-05 14:53:42] INFO root fetch - processPackages [qnngds]: Remove: archive file [/home/abi/fetcher/tmp/qnngds-1.0.1.tar.gz]
+[2024-04-05 14:53:42] INFO root fetch - main [MainThread]: End processing [qnngds]: success
+[2024-04-05 14:53:42] INFO root fetch - processPackages [pyrp3]: Remove: archive file [/home/abi/fetcher/tmp/pyrp3-2.0.0.tar.gz]
+[2024-04-05 14:53:42] INFO root fetch - processPackages [pyrp3]: Remove: archive file [/home/abi/fetcher/tmp/pyrp3-2.0.1.tar.gz]
+[2024-04-05 14:53:42] INFO root fetch - main [MainThread]: End processing [pyrp3]: success
+[2024-04-05 14:53:42] INFO root fetch - processPackages [few-shot-priming]: Remove: archive file [/home/abi/fetcher/tmp/few_shot_priming-0.3.98-py3-none-any.whl.zip]
+[2024-04-05 14:53:42] INFO root fetch - processPackages [few-shot-priming]: Remove: archive file [/home/abi/fetcher/tmp/few_shot_priming-0.3.99-py3-none-any.whl.zip]
+[2024-04-05 14:53:42] INFO root fetch - main [MainThread]: End processing [few-shot-priming]: success
+[2024-04-05 14:53:42] INFO root fetch - main [MainThread]: Store serial: [22636137]
