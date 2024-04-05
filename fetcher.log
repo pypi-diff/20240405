@@ -15965,3 +15965,28 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2024-04-05 10:13:43] INFO root fetch - processPackages [hotsos]: Remove: archive file [/home/abi/fetcher/tmp/hotsos-1.17.0.post8.tar.gz]
 [2024-04-05 10:13:43] INFO root fetch - main [MainThread]: End processing [hotsos]: success
 [2024-04-05 10:13:43] INFO root fetch - main [MainThread]: Store serial: [22633299]
+[2024-04-05 10:15:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22633299]
+[2024-04-05 10:15:53] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-05 10:15:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: janus-core
+[2024-04-05 10:15:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tablecache
+[2024-04-05 10:15:53] INFO root fetch - processPackages [janus-core]: New version: [0.2.0b0] Old Version: [0.1.0b5]
+[2024-04-05 10:15:53] INFO root fetch - processPackages [tablecache]: New version: [4.1.0] Old Version: [4.0.0rc0]
+[2024-04-05 10:15:53] INFO root fetch - processPackages [janus-core]: Downloading https://files.pythonhosted.org/packages/73/d5/90183ec994030c833bef944800b60eda6bf0e69a73d25fe205566d81d389/janus_core-0.1.0b5.tar.gz
+[2024-04-05 10:15:53] INFO root fetch - processPackages [tablecache]: Downloading https://files.pythonhosted.org/packages/99/59/84a011ae0651128ee19a70478b61626f82c861373711c54c7a77d1c8ebe2/tablecache-4.0.0rc0.tar.gz
+[2024-04-05 10:15:53] WARNING root fetch - processPackages [janus-core]: Timeout reached during download
+[2024-04-05 10:15:53] INFO root fetch - processPackages [janus-core]: Downloading https://files.pythonhosted.org/packages/64/9b/0636d0ee1a2114234e564036ba995b0e117ecdffc63f4305bfab700801df/janus_core-0.2.0b0.tar.gz
+[2024-04-05 10:15:53] WARNING root fetch - processPackages [tablecache]: Timeout reached during download
+[2024-04-05 10:15:53] WARNING root fetch - processPackages [janus-core]: Timeout reached during download
+[2024-04-05 10:15:53] INFO root fetch - processPackages [janus-core]: executing diffoscope
+[2024-04-05 10:15:53] INFO root fetch - processPackages [janus-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/janus_core-0.1.0b5.tar.gz tmp/janus_core-0.2.0b0.tar.gz --markdown 20240405/j/janus-core/0.1.0b5-0.2.0b0/diff.md --exclude *.pyd
+[2024-04-05 10:15:54] INFO root fetch - processPackages [tablecache]: Downloading https://files.pythonhosted.org/packages/f4/28/25de60a1a401f44e4fbed76fd4cd2db068ad29f69320b2e3e7191ca7cfbd/tablecache-4.1.0.tar.gz
+[2024-04-05 10:15:54] WARNING root fetch - processPackages [tablecache]: Timeout reached during download
+[2024-04-05 10:15:54] INFO root fetch - processPackages [tablecache]: executing diffoscope
+[2024-04-05 10:15:54] INFO root fetch - processPackages [tablecache]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tablecache-4.0.0rc0.tar.gz tmp/tablecache-4.1.0.tar.gz --markdown 20240405/t/tablecache/4.0.0rc0-4.1.0/diff.md --exclude *.pyd
+[2024-04-05 10:15:54] INFO root fetch - processPackages [janus-core]: Remove: archive file [/home/abi/fetcher/tmp/janus_core-0.1.0b5.tar.gz]
+[2024-04-05 10:15:54] INFO root fetch - processPackages [janus-core]: Remove: archive file [/home/abi/fetcher/tmp/janus_core-0.2.0b0.tar.gz]
+[2024-04-05 10:15:54] INFO root fetch - main [MainThread]: End processing [janus-core]: success
+[2024-04-05 10:15:54] INFO root fetch - processPackages [tablecache]: Remove: archive file [/home/abi/fetcher/tmp/tablecache-4.0.0rc0.tar.gz]
+[2024-04-05 10:15:54] INFO root fetch - processPackages [tablecache]: Remove: archive file [/home/abi/fetcher/tmp/tablecache-4.1.0.tar.gz]
+[2024-04-05 10:15:54] INFO root fetch - main [MainThread]: End processing [tablecache]: success
+[2024-04-05 10:15:54] INFO root fetch - main [MainThread]: Store serial: [22633326]
