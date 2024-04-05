@@ -10783,3 +10783,39 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2024-04-05 05:47:12] INFO root fetch - processPackages [odoo14-addon-delivery-carrier-deposit]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_delivery_carrier_deposit-14.0.1.0.1.dev8-py3-none-any.whl.zip]
 [2024-04-05 05:47:12] INFO root fetch - main [MainThread]: End processing [odoo14-addon-delivery-carrier-deposit]: success
 [2024-04-05 05:47:12] INFO root fetch - main [MainThread]: Store serial: [22631538]
+[2024-04-05 05:49:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22631538]
+[2024-04-05 05:49:22] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-05 05:49:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: idbt
+[2024-04-05 05:49:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: joker-filesys
+[2024-04-05 05:49:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: graymatter_swissknife
+[2024-04-05 05:49:22] INFO root fetch - processPackages [idbt]: New version: [0.0.3rc0] Old Version: [0.0.2]
+[2024-04-05 05:49:22] INFO root fetch - processPackages [graymatter_swissknife]: New version: [1.1.0] Old Version: [1.0.2]
+[2024-04-05 05:49:22] INFO root fetch - processPackages [idbt]: Downloading https://files.pythonhosted.org/packages/13/dc/39ce2c3419abdcca36bfc2d3953e87a348552feba7864bad9bccd17d42dc/idbt-0.0.2.tar.gz
+[2024-04-05 05:49:22] INFO root fetch - processPackages [graymatter_swissknife]: Downloading https://files.pythonhosted.org/packages/ec/49/11084735635616f543d1378ef577de25fe6c09f66db74088608735cc145b/graymatter_swissknife-1.0.2.tar.gz
+[2024-04-05 05:49:22] INFO root fetch - processPackages [joker-filesys]: New version: [0.2.2] Old Version: [0.2.1]
+[2024-04-05 05:49:22] WARNING root fetch - processPackages [idbt]: Timeout reached during download
+[2024-04-05 05:49:23] INFO root fetch - processPackages [idbt]: Downloading https://files.pythonhosted.org/packages/8a/00/66e7d41d8b5868d3720f079a78365994967b33157e3cede57675d2ccc568/idbt-0.0.3rc0-py3-none-any.whl
+[2024-04-05 05:49:23] WARNING root fetch - processPackages [graymatter_swissknife]: Timeout reached during download
+[2024-04-05 05:49:23] INFO root fetch - processPackages [joker-filesys]: Downloading https://files.pythonhosted.org/packages/8d/ea/9f543aae4a731ce667a3955300ebd464e232325f400d3aea2694aece10e2/joker-filesys-0.2.1.tar.gz
+[2024-04-05 05:49:23] INFO root fetch - processPackages [graymatter_swissknife]: Downloading https://files.pythonhosted.org/packages/44/fc/0f81dc8b4209f0d5be6f8a98638fad8756729c25a69e38594a553b189813/graymatter_swissknife-1.1.0.tar.gz
+[2024-04-05 05:49:23] WARNING root fetch - processPackages [idbt]: Timeout reached during download
+[2024-04-05 05:49:23] INFO root fetch - processPackages [idbt]: executing diffoscope
+[2024-04-05 05:49:23] INFO root fetch - processPackages [idbt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/idbt-0.0.2.tar.gz tmp/idbt-0.0.3rc0-py3-none-any.whl.zip --markdown 20240405/i/idbt/0.0.2-0.0.3rc0/diff.md --exclude *.pyd
+[2024-04-05 05:49:23] WARNING root fetch - processPackages [joker-filesys]: Timeout reached during download
+[2024-04-05 05:49:23] WARNING root fetch - processPackages [graymatter_swissknife]: Timeout reached during download
+[2024-04-05 05:49:23] INFO root fetch - processPackages [graymatter_swissknife]: executing diffoscope
+[2024-04-05 05:49:23] INFO root fetch - processPackages [graymatter_swissknife]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/graymatter_swissknife-1.0.2.tar.gz tmp/graymatter_swissknife-1.1.0.tar.gz --markdown 20240405/g/graymatter_swissknife/1.0.2-1.1.0/diff.md --exclude *.pyd
+[2024-04-05 05:49:23] INFO root fetch - processPackages [joker-filesys]: Downloading https://files.pythonhosted.org/packages/23/53/a423d42192aa4a2b5e61e71a8557fd7fb7f57b41c1bf68c76ebb75123f91/joker-filesys-0.2.2.tar.gz
+[2024-04-05 05:49:23] WARNING root fetch - processPackages [joker-filesys]: Timeout reached during download
+[2024-04-05 05:49:23] INFO root fetch - processPackages [joker-filesys]: executing diffoscope
+[2024-04-05 05:49:23] INFO root fetch - processPackages [joker-filesys]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/joker-filesys-0.2.1.tar.gz tmp/joker-filesys-0.2.2.tar.gz --markdown 20240405/j/joker-filesys/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2024-04-05 05:49:23] INFO root fetch - processPackages [idbt]: Remove: archive file [/home/abi/fetcher/tmp/idbt-0.0.2.tar.gz]
+[2024-04-05 05:49:23] INFO root fetch - processPackages [idbt]: Remove: archive file [/home/abi/fetcher/tmp/idbt-0.0.3rc0-py3-none-any.whl.zip]
+[2024-04-05 05:49:23] INFO root fetch - main [MainThread]: End processing [idbt]: success
+[2024-04-05 05:49:23] INFO root fetch - processPackages [joker-filesys]: Remove: archive file [/home/abi/fetcher/tmp/joker-filesys-0.2.1.tar.gz]
+[2024-04-05 05:49:23] INFO root fetch - processPackages [joker-filesys]: Remove: archive file [/home/abi/fetcher/tmp/joker-filesys-0.2.2.tar.gz]
+[2024-04-05 05:49:23] INFO root fetch - main [MainThread]: End processing [joker-filesys]: success
+[2024-04-05 05:49:24] INFO root fetch - processPackages [graymatter_swissknife]: Remove: archive file [/home/abi/fetcher/tmp/graymatter_swissknife-1.0.2.tar.gz]
+[2024-04-05 05:49:24] INFO root fetch - processPackages [graymatter_swissknife]: Remove: archive file [/home/abi/fetcher/tmp/graymatter_swissknife-1.1.0.tar.gz]
+[2024-04-05 05:49:24] INFO root fetch - main [MainThread]: End processing [graymatter_swissknife]: success
+[2024-04-05 05:49:24] INFO root fetch - main [MainThread]: Store serial: [22631548]
