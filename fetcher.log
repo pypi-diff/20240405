@@ -8486,3 +8486,66 @@
 [2024-04-05 03:25:17] INFO root fetch - processPackages [langchain-weaviate]: Remove: archive file [/home/abi/fetcher/tmp/langchain_weaviate-0.0.1rc6.tar.gz]
 [2024-04-05 03:25:17] INFO root fetch - main [MainThread]: End processing [langchain-weaviate]: success
 [2024-04-05 03:25:17] INFO root fetch - main [MainThread]: Store serial: [22630669]
+[2024-04-05 03:27:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22630669]
+[2024-04-05 03:27:26] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-05 03:27:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: langchain-weaviate
+[2024-04-05 03:27:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: onediffx
+[2024-04-05 03:27:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fast-agave
+[2024-04-05 03:27:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: modelpack
+[2024-04-05 03:27:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: askCO
+[2024-04-05 03:27:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: geeViz
+[2024-04-05 03:27:26] INFO root fetch - processPackages [langchain-weaviate]: New version: [0.0.1rc6] Old Version: [0.0.1rc5]
+[2024-04-05 03:27:26] INFO root fetch - processPackages [langchain-weaviate]: Downloading https://files.pythonhosted.org/packages/7d/62/695ca94ea7e2e1530af2edb219885d80a262f081496d0c7added239bc0df/langchain_weaviate-0.0.1rc5.tar.gz
+[2024-04-05 03:27:26] INFO root fetch - processPackages [askCO]: New version: [0.1.6] Old Version: [0.1.5]
+[2024-04-05 03:27:26] INFO root fetch - processPackages [modelpack]: New version: [2.2.9] Old Version: [2.2.8]
+[2024-04-05 03:27:26] INFO root fetch - processPackages [geeViz]: New version: [2024.4.1] Old Version: [2024.3.2]
+[2024-04-05 03:27:26] INFO root fetch - processPackages [fast-agave]: New version: [0.9.0.dev1] Old Version: [0.9.0.dev0]
+[2024-04-05 03:27:26] INFO root fetch - processPackages [onediffx]: New version: [0.13.0.dev202404050124] Old Version: [0.13.0.dev202404040125]
+[2024-04-05 03:27:26] WARNING root fetch - processPackages [langchain-weaviate]: Timeout reached during download
+[2024-04-05 03:27:26] INFO root fetch - processPackages [langchain-weaviate]: Downloading https://files.pythonhosted.org/packages/b6/e2/7d7cae08f5f2ccdef56570b131cf79e282fd8d5cb176e14b5e72f5087cec/langchain_weaviate-0.0.1rc6.tar.gz
+[2024-04-05 03:27:26] INFO root fetch - processPackages [askCO]: Downloading https://files.pythonhosted.org/packages/9a/9d/6d2d724066c2ffc46f6746e604affa51d4de65add0e7aea7f7d65d977f18/askCO-0.1.5.tar.gz
+[2024-04-05 03:27:26] INFO root fetch - processPackages [geeViz]: Downloading https://files.pythonhosted.org/packages/51/39/f097c878c67ccc436919b39bfc9a845a135636961b92545b90a6765aaa6e/geeViz-2024.3.2.tar.gz
+[2024-04-05 03:27:26] INFO root fetch - processPackages [fast-agave]: Downloading https://files.pythonhosted.org/packages/ca/78/5091fccfab34df4a319ce47800e8b8e49b4cb0e5649eff74dbbb6cd712e7/fast_agave-0.9.0.dev0.tar.gz
+[2024-04-05 03:27:26] INFO root fetch - processPackages [onediffx]: Downloading https://files.pythonhosted.org/packages/42/09/d68464ca54fbc5303b459f3a76f95edaa0cfba16461e0175dc52977c0e9a/onediffx-0.13.0.dev202404040125.tar.gz
+[2024-04-05 03:27:26] INFO root fetch - processPackages [modelpack]: Downloading https://files.pythonhosted.org/packages/59/25/a8cc59f8b986f035412ed646ab91def7ee443b6abd40f77551fbcd2dcb6e/modelpack-2.2.8-cp39-cp39-win_amd64.whl
+[2024-04-05 03:27:27] WARNING root fetch - processPackages [langchain-weaviate]: Timeout reached during download
+[2024-04-05 03:27:27] INFO root fetch - processPackages [langchain-weaviate]: executing diffoscope
+[2024-04-05 03:27:27] INFO root fetch - processPackages [langchain-weaviate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langchain_weaviate-0.0.1rc5.tar.gz tmp/langchain_weaviate-0.0.1rc6.tar.gz --markdown 20240405/l/langchain-weaviate/0.0.1rc5-0.0.1rc6/diff.md --exclude *.pyd
+[2024-04-05 03:27:27] WARNING root fetch - processPackages [modelpack]: Skipping package: exceeds size limit 69097011>=10485760
+[2024-04-05 03:27:27] INFO root fetch - main [MainThread]: End processing [modelpack] error
+[2024-04-05 03:27:27] WARNING root fetch - processPackages [fast-agave]: Timeout reached during download
+[2024-04-05 03:27:27] WARNING root fetch - processPackages [onediffx]: Timeout reached during download
+[2024-04-05 03:27:27] WARNING root fetch - processPackages [askCO]: Timeout reached during download
+[2024-04-05 03:27:27] WARNING root fetch - processPackages [geeViz]: Timeout reached during download
+[2024-04-05 03:27:27] INFO root fetch - processPackages [onediffx]: Downloading https://files.pythonhosted.org/packages/a3/41/1136e93a64218f479269f4166006d178acda5fe1350895fd71c9cfb21eaf/onediffx-0.13.0.dev202404050124.tar.gz
+[2024-04-05 03:27:27] INFO root fetch - processPackages [askCO]: Downloading https://files.pythonhosted.org/packages/56/51/00446932176d18534c727254ead36e63afdf38534215ddc0012da3ab8015/askCO-0.1.6.tar.gz
+[2024-04-05 03:27:27] INFO root fetch - processPackages [fast-agave]: Downloading https://files.pythonhosted.org/packages/a1/b9/9e6ecc020a77e7843d135b6b022307632bce7238fcf17e41676ef3a26a02/fast_agave-0.9.0.dev1.tar.gz
+[2024-04-05 03:27:27] WARNING root fetch - processPackages [onediffx]: Timeout reached during download
+[2024-04-05 03:27:27] INFO root fetch - processPackages [onediffx]: executing diffoscope
+[2024-04-05 03:27:27] INFO root fetch - processPackages [onediffx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/onediffx-0.13.0.dev202404040125.tar.gz tmp/onediffx-0.13.0.dev202404050124.tar.gz --markdown 20240405/o/onediffx/0.13.0.dev202404040125-0.13.0.dev202404050124/diff.md --exclude *.pyd
+[2024-04-05 03:27:27] WARNING root fetch - processPackages [askCO]: Timeout reached during download
+[2024-04-05 03:27:27] WARNING root fetch - processPackages [fast-agave]: Timeout reached during download
+[2024-04-05 03:27:27] INFO root fetch - processPackages [askCO]: executing diffoscope
+[2024-04-05 03:27:27] INFO root fetch - processPackages [askCO]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/askCO-0.1.5.tar.gz tmp/askCO-0.1.6.tar.gz --markdown 20240405/a/askCO/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2024-04-05 03:27:27] INFO root fetch - processPackages [fast-agave]: executing diffoscope
+[2024-04-05 03:27:27] INFO root fetch - processPackages [fast-agave]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fast_agave-0.9.0.dev0.tar.gz tmp/fast_agave-0.9.0.dev1.tar.gz --markdown 20240405/f/fast-agave/0.9.0.dev0-0.9.0.dev1/diff.md --exclude *.pyd
+[2024-04-05 03:27:27] INFO root fetch - processPackages [geeViz]: Downloading https://files.pythonhosted.org/packages/c3/21/87503688fa3bdeee69e6eee7a1f8c492830e0b433220763b19158499de6f/geeViz-2024.4.1.tar.gz
+[2024-04-05 03:27:27] INFO root fetch - processPackages [langchain-weaviate]: Remove: archive file [/home/abi/fetcher/tmp/langchain_weaviate-0.0.1rc5.tar.gz]
+[2024-04-05 03:27:27] INFO root fetch - processPackages [langchain-weaviate]: Remove: archive file [/home/abi/fetcher/tmp/langchain_weaviate-0.0.1rc6.tar.gz]
+[2024-04-05 03:27:27] INFO root fetch - main [MainThread]: End processing [langchain-weaviate]: success
+[2024-04-05 03:27:27] WARNING root fetch - processPackages [geeViz]: Timeout reached during download
+[2024-04-05 03:27:27] INFO root fetch - processPackages [geeViz]: executing diffoscope
+[2024-04-05 03:27:27] INFO root fetch - processPackages [geeViz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/geeViz-2024.3.2.tar.gz tmp/geeViz-2024.4.1.tar.gz --markdown 20240405/g/geeViz/2024.3.2-2024.4.1/diff.md --exclude *.pyd
+[2024-04-05 03:27:28] INFO root fetch - processPackages [askCO]: Remove: archive file [/home/abi/fetcher/tmp/askCO-0.1.5.tar.gz]
+[2024-04-05 03:27:28] INFO root fetch - processPackages [askCO]: Remove: archive file [/home/abi/fetcher/tmp/askCO-0.1.6.tar.gz]
+[2024-04-05 03:27:28] INFO root fetch - main [MainThread]: End processing [askCO]: success
+[2024-04-05 03:27:28] INFO root fetch - processPackages [onediffx]: Remove: archive file [/home/abi/fetcher/tmp/onediffx-0.13.0.dev202404040125.tar.gz]
+[2024-04-05 03:27:28] INFO root fetch - processPackages [onediffx]: Remove: archive file [/home/abi/fetcher/tmp/onediffx-0.13.0.dev202404050124.tar.gz]
+[2024-04-05 03:27:28] INFO root fetch - main [MainThread]: End processing [onediffx]: success
+[2024-04-05 03:27:28] INFO root fetch - processPackages [fast-agave]: Remove: archive file [/home/abi/fetcher/tmp/fast_agave-0.9.0.dev0.tar.gz]
+[2024-04-05 03:27:28] INFO root fetch - processPackages [fast-agave]: Remove: archive file [/home/abi/fetcher/tmp/fast_agave-0.9.0.dev1.tar.gz]
+[2024-04-05 03:27:28] INFO root fetch - main [MainThread]: End processing [fast-agave]: success
+[2024-04-05 03:27:30] INFO root fetch - processPackages [geeViz]: Remove: archive file [/home/abi/fetcher/tmp/geeViz-2024.3.2.tar.gz]
+[2024-04-05 03:27:30] INFO root fetch - processPackages [geeViz]: Remove: archive file [/home/abi/fetcher/tmp/geeViz-2024.4.1.tar.gz]
+[2024-04-05 03:27:30] INFO root fetch - main [MainThread]: End processing [geeViz]: success
+[2024-04-05 03:27:30] INFO root fetch - main [MainThread]: Store serial: [22630754]
