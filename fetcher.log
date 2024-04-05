@@ -9213,3 +9213,28 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2024-04-05 04:06:43] INFO root fetch - processPackages [snowpark-extensions]: Remove: archive file [/home/abi/fetcher/tmp/snowpark_extensions-0.0.9.tar.gz]
 [2024-04-05 04:06:43] INFO root fetch - main [MainThread]: End processing [snowpark-extensions]: success
 [2024-04-05 04:06:43] INFO root fetch - main [MainThread]: Store serial: [22631077]
+[2024-04-05 04:08:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22631077]
+[2024-04-05 04:08:51] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-05 04:08:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: quakemigrate
+[2024-04-05 04:08:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: hoppr-security-commons
+[2024-04-05 04:08:52] INFO root fetch - processPackages [quakemigrate]: New version: [1.0.3] Old Version: [1.0.2]
+[2024-04-05 04:08:52] INFO root fetch - processPackages [hoppr-security-commons]: New version: [0.0.9] Old Version: [0.0.83]
+[2024-04-05 04:08:52] INFO root fetch - processPackages [hoppr-security-commons]: Downloading https://files.pythonhosted.org/packages/3f/13/76841388b7f4b29eb6f7c9d387461d4de763c268c3eb4b6f8255b60bb1af/hoppr_security_commons-0.0.83.tar.gz
+[2024-04-05 04:08:52] INFO root fetch - processPackages [quakemigrate]: Downloading https://files.pythonhosted.org/packages/9f/d2/4eaf2180044d3039477793b3f48a525334a9e9250334f0f10e6f4876def9/quakemigrate-1.0.2.tar.gz
+[2024-04-05 04:08:52] WARNING root fetch - processPackages [hoppr-security-commons]: Timeout reached during download
+[2024-04-05 04:08:52] WARNING root fetch - processPackages [quakemigrate]: Timeout reached during download
+[2024-04-05 04:08:52] INFO root fetch - processPackages [quakemigrate]: Downloading https://files.pythonhosted.org/packages/42/f4/40a849d6dc0df61a0595f66ec8484787bdf84999e6b1ca0ca3b08f253b94/quakemigrate-1.0.3.tar.gz
+[2024-04-05 04:08:52] INFO root fetch - processPackages [hoppr-security-commons]: Downloading https://files.pythonhosted.org/packages/28/98/819d5ffab5f26c075fb2191a2d5583cd18aa8069a8fc43484d65978fe18d/hoppr_security_commons-0.0.9.tar.gz
+[2024-04-05 04:08:52] WARNING root fetch - processPackages [hoppr-security-commons]: Timeout reached during download
+[2024-04-05 04:08:52] INFO root fetch - processPackages [hoppr-security-commons]: executing diffoscope
+[2024-04-05 04:08:52] INFO root fetch - processPackages [hoppr-security-commons]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hoppr_security_commons-0.0.83.tar.gz tmp/hoppr_security_commons-0.0.9.tar.gz --markdown 20240405/h/hoppr-security-commons/0.0.83-0.0.9/diff.md --exclude *.pyd
+[2024-04-05 04:08:52] WARNING root fetch - processPackages [quakemigrate]: Timeout reached during download
+[2024-04-05 04:08:52] INFO root fetch - processPackages [quakemigrate]: executing diffoscope
+[2024-04-05 04:08:52] INFO root fetch - processPackages [quakemigrate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quakemigrate-1.0.2.tar.gz tmp/quakemigrate-1.0.3.tar.gz --markdown 20240405/q/quakemigrate/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2024-04-05 04:08:53] INFO root fetch - processPackages [hoppr-security-commons]: Remove: archive file [/home/abi/fetcher/tmp/hoppr_security_commons-0.0.83.tar.gz]
+[2024-04-05 04:08:53] INFO root fetch - processPackages [hoppr-security-commons]: Remove: archive file [/home/abi/fetcher/tmp/hoppr_security_commons-0.0.9.tar.gz]
+[2024-04-05 04:08:53] INFO root fetch - main [MainThread]: End processing [hoppr-security-commons]: success
+[2024-04-05 04:08:53] INFO root fetch - processPackages [quakemigrate]: Remove: archive file [/home/abi/fetcher/tmp/quakemigrate-1.0.2.tar.gz]
+[2024-04-05 04:08:53] INFO root fetch - processPackages [quakemigrate]: Remove: archive file [/home/abi/fetcher/tmp/quakemigrate-1.0.3.tar.gz]
+[2024-04-05 04:08:53] INFO root fetch - main [MainThread]: End processing [quakemigrate]: success
+[2024-04-05 04:08:53] INFO root fetch - main [MainThread]: Store serial: [22631094]
