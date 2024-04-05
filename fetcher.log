@@ -14871,3 +14871,33 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2024-04-05 09:28:57] INFO root fetch - processPackages [odoo13-addon-shopfloor]: Remove: archive file [/home/abi/fetcher/tmp/odoo13_addon_shopfloor-13.0.4.9.0-py3-none-any.whl.zip]
 [2024-04-05 09:28:57] INFO root fetch - main [MainThread]: End processing [odoo13-addon-shopfloor]: success
 [2024-04-05 09:28:57] INFO root fetch - main [MainThread]: Store serial: [22632855]
+[2024-04-05 09:31:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22632855]
+[2024-04-05 09:31:09] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-05 09:31:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo-addon-stock-release-channel-plan-process-end-time
+[2024-04-05 09:31:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: codex
+[2024-04-05 09:31:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: rime-sdk
+[2024-04-05 09:31:09] INFO root fetch - processPackages [codex]: New version: [1.5.9] Old Version: [1.5.8]
+[2024-04-05 09:31:09] INFO root fetch - processPackages [rime-sdk]: New version: [2.8.0rc0] Old Version: [2.7.2]
+[2024-04-05 09:31:09] INFO root fetch - processPackages [rime-sdk]: Downloading https://files.pythonhosted.org/packages/80/c2/c7d693a3246b5de0833e01df3c6ead1307bbaf60742384d556f2935f6e86/rime_sdk-2.7.2.tar.gz
+[2024-04-05 09:31:09] INFO root fetch - processPackages [odoo-addon-stock-release-channel-plan-process-end-time]: New version: [16.0.1.1.0.2] Old Version: [16.0.1.1.0]
+[2024-04-05 09:31:09] INFO root fetch - processPackages [codex]: Downloading https://files.pythonhosted.org/packages/0c/6f/7c4b25c7a3f59e29de3052fd98dcb78a9ee044406464991bc45a1fd4a48f/codex-1.5.8.tar.gz
+[2024-04-05 09:31:09] WARNING root fetch - processPackages [codex]: Skipping package: exceeds size limit 18232846>=10485760
+[2024-04-05 09:31:09] INFO root fetch - main [MainThread]: End processing [codex] error
+[2024-04-05 09:31:09] WARNING root fetch - processPackages [rime-sdk]: Timeout reached during download
+[2024-04-05 09:31:09] INFO root fetch - processPackages [odoo-addon-stock-release-channel-plan-process-end-time]: Downloading https://files.pythonhosted.org/packages/28/12/e79b69bef82e6021dc99ce74419db46e15a93fc6dd61022c0ebaa1a7894b/odoo_addon_stock_release_channel_plan_process_end_time-16.0.1.1.0-py3-none-any.whl
+[2024-04-05 09:31:09] INFO root fetch - processPackages [rime-sdk]: Downloading https://files.pythonhosted.org/packages/9b/0f/6e676870b3338c7abb2534348e0cca0e07f09eda0ff7f8234e0875df0af0/rime_sdk-2.8.0rc0.tar.gz
+[2024-04-05 09:31:09] WARNING root fetch - processPackages [odoo-addon-stock-release-channel-plan-process-end-time]: Timeout reached during download
+[2024-04-05 09:31:09] WARNING root fetch - processPackages [rime-sdk]: Timeout reached during download
+[2024-04-05 09:31:09] INFO root fetch - processPackages [rime-sdk]: executing diffoscope
+[2024-04-05 09:31:09] INFO root fetch - processPackages [rime-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rime_sdk-2.7.2.tar.gz tmp/rime_sdk-2.8.0rc0.tar.gz --markdown 20240405/r/rime-sdk/2.7.2-2.8.0rc0/diff.md --exclude *.pyd
+[2024-04-05 09:31:09] INFO root fetch - processPackages [odoo-addon-stock-release-channel-plan-process-end-time]: Downloading https://files.pythonhosted.org/packages/7a/13/cb7c757a2cfdda0735964f112ded639f10d328ed3cfcd765312b202bc9ff/odoo_addon_stock_release_channel_plan_process_end_time-16.0.1.1.0.2-py3-none-any.whl
+[2024-04-05 09:31:09] WARNING root fetch - processPackages [odoo-addon-stock-release-channel-plan-process-end-time]: Timeout reached during download
+[2024-04-05 09:31:09] INFO root fetch - processPackages [odoo-addon-stock-release-channel-plan-process-end-time]: executing diffoscope
+[2024-04-05 09:31:09] INFO root fetch - processPackages [odoo-addon-stock-release-channel-plan-process-end-time]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_stock_release_channel_plan_process_end_time-16.0.1.1.0-py3-none-any.whl.zip tmp/odoo_addon_stock_release_channel_plan_process_end_time-16.0.1.1.0.2-py3-none-any.whl.zip --markdown 20240405/o/odoo-addon-stock-release-channel-plan-process-end-time/16.0.1.1.0-16.0.1.1.0.2/diff.md --exclude *.pyd
+[2024-04-05 09:31:10] INFO root fetch - processPackages [odoo-addon-stock-release-channel-plan-process-end-time]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_stock_release_channel_plan_process_end_time-16.0.1.1.0-py3-none-any.whl.zip]
+[2024-04-05 09:31:10] INFO root fetch - processPackages [odoo-addon-stock-release-channel-plan-process-end-time]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_stock_release_channel_plan_process_end_time-16.0.1.1.0.2-py3-none-any.whl.zip]
+[2024-04-05 09:31:10] INFO root fetch - main [MainThread]: End processing [odoo-addon-stock-release-channel-plan-process-end-time]: success
+[2024-04-05 09:31:12] INFO root fetch - processPackages [rime-sdk]: Remove: archive file [/home/abi/fetcher/tmp/rime_sdk-2.7.2.tar.gz]
+[2024-04-05 09:31:12] INFO root fetch - processPackages [rime-sdk]: Remove: archive file [/home/abi/fetcher/tmp/rime_sdk-2.8.0rc0.tar.gz]
+[2024-04-05 09:31:12] INFO root fetch - main [MainThread]: End processing [rime-sdk]: success
+[2024-04-05 09:31:12] INFO root fetch - main [MainThread]: Store serial: [22632863]
