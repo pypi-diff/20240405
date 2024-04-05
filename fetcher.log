@@ -8667,3 +8667,31 @@
 [2024-04-05 03:38:23] INFO root fetch - processPackages [integdb]: Remove: archive file [/home/abi/fetcher/tmp/integdb-0.0.2.tar.gz]
 [2024-04-05 03:38:23] INFO root fetch - main [MainThread]: End processing [integdb]: success
 [2024-04-05 03:38:23] INFO root fetch - main [MainThread]: Store serial: [22630890]
+[2024-04-05 03:40:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22630890]
+[2024-04-05 03:40:31] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-05 03:40:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pytest-selfie
+[2024-04-05 03:40:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lockhart-serial
+[2024-04-05 03:40:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: iso-standards
+[2024-04-05 03:40:31] INFO root fetch - processPackages [lockhart-serial]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-04-05 03:40:31] INFO root fetch - processPackages [lockhart-serial]: Downloading https://files.pythonhosted.org/packages/52/78/4ed610e5f2b073e90fe59676dedee8e0ed0f44e0dcde4b244b475f4dbfcc/lockhart-serial-1.0.0.tar.gz
+[2024-04-05 03:40:31] WARNING root fetch - processPackages [pytest-selfie]: Skipping, unable to determine old version
+[2024-04-05 03:40:31] INFO root fetch - main [MainThread]: End processing [pytest-selfie] error
+[2024-04-05 03:40:31] INFO root fetch - processPackages [iso-standards]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-04-05 03:40:32] WARNING root fetch - processPackages [lockhart-serial]: Timeout reached during download
+[2024-04-05 03:40:32] INFO root fetch - processPackages [lockhart-serial]: Downloading https://files.pythonhosted.org/packages/8f/a2/b66ff1cb423166dacae39ff85890e780ed29515bb731451d2af07a91636e/lockhart-serial-1.0.1.tar.gz
+[2024-04-05 03:40:32] INFO root fetch - processPackages [iso-standards]: Downloading https://files.pythonhosted.org/packages/2a/dd/b6a4d2ad5055aad9ea15f1529b6dbb239af29ee11368c874c3b32aff1040/iso_standards-0.1.1.tar.gz
+[2024-04-05 03:40:32] WARNING root fetch - processPackages [lockhart-serial]: Timeout reached during download
+[2024-04-05 03:40:32] INFO root fetch - processPackages [lockhart-serial]: executing diffoscope
+[2024-04-05 03:40:32] INFO root fetch - processPackages [lockhart-serial]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lockhart-serial-1.0.0.tar.gz tmp/lockhart-serial-1.0.1.tar.gz --markdown 20240405/l/lockhart-serial/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2024-04-05 03:40:32] WARNING root fetch - processPackages [iso-standards]: Timeout reached during download
+[2024-04-05 03:40:32] INFO root fetch - processPackages [iso-standards]: Downloading https://files.pythonhosted.org/packages/2d/d2/95a0e30989607d0cda1cbf693a707869eb92b01cbfbf069dec76b8590dc9/iso_standards-0.1.2.tar.gz
+[2024-04-05 03:40:32] WARNING root fetch - processPackages [iso-standards]: Timeout reached during download
+[2024-04-05 03:40:32] INFO root fetch - processPackages [iso-standards]: executing diffoscope
+[2024-04-05 03:40:32] INFO root fetch - processPackages [iso-standards]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iso_standards-0.1.1.tar.gz tmp/iso_standards-0.1.2.tar.gz --markdown 20240405/i/iso-standards/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2024-04-05 03:40:32] INFO root fetch - processPackages [lockhart-serial]: Remove: archive file [/home/abi/fetcher/tmp/lockhart-serial-1.0.0.tar.gz]
+[2024-04-05 03:40:32] INFO root fetch - processPackages [lockhart-serial]: Remove: archive file [/home/abi/fetcher/tmp/lockhart-serial-1.0.1.tar.gz]
+[2024-04-05 03:40:32] INFO root fetch - main [MainThread]: End processing [lockhart-serial]: success
+[2024-04-05 03:40:33] INFO root fetch - processPackages [iso-standards]: Remove: archive file [/home/abi/fetcher/tmp/iso_standards-0.1.1.tar.gz]
+[2024-04-05 03:40:33] INFO root fetch - processPackages [iso-standards]: Remove: archive file [/home/abi/fetcher/tmp/iso_standards-0.1.2.tar.gz]
+[2024-04-05 03:40:33] INFO root fetch - main [MainThread]: End processing [iso-standards]: success
+[2024-04-05 03:40:33] INFO root fetch - main [MainThread]: Store serial: [22630901]
