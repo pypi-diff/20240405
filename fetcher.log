@@ -9305,3 +9305,83 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2024-04-05 04:13:13] INFO root fetch - processPackages [pyrtz2]: Remove: archive file [/home/abi/fetcher/tmp/pyrtz2-1.1.11.tar.gz]
 [2024-04-05 04:13:13] INFO root fetch - main [MainThread]: End processing [pyrtz2]: success
 [2024-04-05 04:13:13] INFO root fetch - main [MainThread]: Store serial: [22631118]
+[2024-04-05 04:15:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22631118]
+[2024-04-05 04:15:21] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-05 04:15:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pandera
+[2024-04-05 04:15:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ain-py
+[2024-04-05 04:15:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sigiq
+[2024-04-05 04:15:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: types-braintree
+[2024-04-05 04:15:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: types-Flask-Cors
+[2024-04-05 04:15:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: integ-db
+[2024-04-05 04:15:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: advcalc
+[2024-04-05 04:15:21] INFO root fetch - processPackages [integ-db]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-04-05 04:15:22] INFO root fetch - processPackages [types-braintree]: New version: [4.28.0.20240405] Old Version: [4.28.0.20240402]
+[2024-04-05 04:15:22] INFO root fetch - processPackages [sigiq]: New version: [0.3] Old Version: [0.2.6.1]
+[2024-04-05 04:15:22] INFO root fetch - processPackages [advcalc]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-04-05 04:15:22] INFO root fetch - processPackages [integ-db]: Downloading https://files.pythonhosted.org/packages/0d/94/d66dd29010af15efc637fd5c55ada144dffee4168e8b669bab301b4e5379/integ-db-0.0.2.tar.gz
+[2024-04-05 04:15:22] INFO root fetch - processPackages [ain-py]: New version: [1.2.0] Old Version: [1.1.0]
+[2024-04-05 04:15:22] INFO root fetch - processPackages [types-Flask-Cors]: New version: [4.0.0.20240405] Old Version: [4.0.0.20240106]
+[2024-04-05 04:15:22] INFO root fetch - processPackages [pandera]: New version: [0.9.0] Old Version: [0.8.1]
+[2024-04-05 04:15:22] INFO root fetch - processPackages [types-Flask-Cors]: Downloading https://files.pythonhosted.org/packages/1f/d6/a7bc4f28ccf22b5d76cf5f16a527b9624acea2e94c5a0d13f60b65f7a071/types-Flask-Cors-4.0.0.20240106.tar.gz
+[2024-04-05 04:15:22] WARNING root fetch - processPackages [integ-db]: Timeout reached during download
+[2024-04-05 04:15:22] INFO root fetch - processPackages [types-braintree]: Downloading https://files.pythonhosted.org/packages/6b/b4/c380bf9d510bfa87667803d97420d1f50832b25250d6b87b5ca971b4eeb3/types-braintree-4.28.0.20240402.tar.gz
+[2024-04-05 04:15:22] INFO root fetch - processPackages [sigiq]: Downloading https://files.pythonhosted.org/packages/88/86/e674f7076ddf9ab3d5e5185d1975dcaeb6b6e6036a6ff64d9c48f5fcbe0c/sigiq-0.2.6.1.tar.gz
+[2024-04-05 04:15:22] INFO root fetch - processPackages [advcalc]: Downloading https://files.pythonhosted.org/packages/95/2e/6c36bf1baafb075ef7657ba3a827daebbb4e48db9ccfb5d14caf6ffadad0/advcalc-0.0.1.tar.gz
+[2024-04-05 04:15:22] INFO root fetch - processPackages [ain-py]: Downloading https://files.pythonhosted.org/packages/c4/e6/fd2fee09d11939240ffccb9201dbe497f0875e82e6c740287537ac63968c/ain-py-1.1.0.tar.gz
+[2024-04-05 04:15:22] INFO root fetch - processPackages [pandera]: Downloading https://files.pythonhosted.org/packages/b0/0e/d435a4c20c8ca9269ca2ccf44f3bb98ee85b9fc9fbfda8f1952cfc2b9c43/pandera-0.8.1.tar.gz
+[2024-04-05 04:15:22] WARNING root fetch - processPackages [types-Flask-Cors]: Timeout reached during download
+[2024-04-05 04:15:22] INFO root fetch - processPackages [integ-db]: Downloading https://files.pythonhosted.org/packages/5d/89/095a68ff770b41fc913c0e37d9cab00477cafc282953cb3621558ac9ea7e/integ-db-0.0.3.tar.gz
+[2024-04-05 04:15:22] WARNING root fetch - processPackages [types-braintree]: Timeout reached during download
+[2024-04-05 04:15:22] WARNING root fetch - processPackages [advcalc]: Timeout reached during download
+[2024-04-05 04:15:22] WARNING root fetch - processPackages [sigiq]: Timeout reached during download
+[2024-04-05 04:15:22] WARNING root fetch - processPackages [ain-py]: Timeout reached during download
+[2024-04-05 04:15:22] WARNING root fetch - processPackages [integ-db]: Timeout reached during download
+[2024-04-05 04:15:22] INFO root fetch - processPackages [integ-db]: executing diffoscope
+[2024-04-05 04:15:22] INFO root fetch - processPackages [integ-db]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/integ-db-0.0.2.tar.gz tmp/integ-db-0.0.3.tar.gz --markdown 20240405/i/integ-db/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2024-04-05 04:15:22] WARNING root fetch - processPackages [pandera]: Timeout reached during download
+[2024-04-05 04:15:22] INFO root fetch - processPackages [types-Flask-Cors]: Downloading https://files.pythonhosted.org/packages/48/de/0b19ca098e9714c0a3a5ed12536f538fa71fe42e88b8d7ead99b5cd63e0f/types-Flask-Cors-4.0.0.20240405.tar.gz
+[2024-04-05 04:15:22] INFO root fetch - processPackages [types-braintree]: Downloading https://files.pythonhosted.org/packages/88/c0/a6deb97d9f4303836d13f7a4cc170157ceb8c67978fa5609197ee7f6ef57/types-braintree-4.28.0.20240405.tar.gz
+[2024-04-05 04:15:22] INFO root fetch - processPackages [advcalc]: Downloading https://files.pythonhosted.org/packages/af/50/30e3e92b1765396d043b08e0c5359c013379954f1c3a03531e5e62325fcd/advcalc-0.0.2.tar.gz
+[2024-04-05 04:15:22] INFO root fetch - processPackages [sigiq]: Downloading https://files.pythonhosted.org/packages/ee/de/c293329bcfe350d5474d768f0a991feb0196c751e82ff698fac64054d685/sigiq-0.3.tar.gz
+[2024-04-05 04:15:22] INFO root fetch - processPackages [ain-py]: Downloading https://files.pythonhosted.org/packages/f1/c8/1eac365cf42c1c7aee09bde15dfa4d920f60172d62f488c0f34e5cfc506d/ain-py-1.2.0.tar.gz
+[2024-04-05 04:15:22] WARNING root fetch - processPackages [types-Flask-Cors]: Timeout reached during download
+[2024-04-05 04:15:22] INFO root fetch - processPackages [types-Flask-Cors]: executing diffoscope
+[2024-04-05 04:15:22] INFO root fetch - processPackages [types-Flask-Cors]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-Flask-Cors-4.0.0.20240106.tar.gz tmp/types-Flask-Cors-4.0.0.20240405.tar.gz --markdown 20240405/t/types-Flask-Cors/4.0.0.20240106-4.0.0.20240405/diff.md --exclude *.pyd
+[2024-04-05 04:15:22] WARNING root fetch - processPackages [types-braintree]: Timeout reached during download
+[2024-04-05 04:15:22] WARNING root fetch - processPackages [advcalc]: Timeout reached during download
+[2024-04-05 04:15:22] INFO root fetch - processPackages [types-braintree]: executing diffoscope
+[2024-04-05 04:15:22] INFO root fetch - processPackages [types-braintree]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-braintree-4.28.0.20240402.tar.gz tmp/types-braintree-4.28.0.20240405.tar.gz --markdown 20240405/t/types-braintree/4.28.0.20240402-4.28.0.20240405/diff.md --exclude *.pyd
+[2024-04-05 04:15:22] INFO root fetch - processPackages [advcalc]: executing diffoscope
+[2024-04-05 04:15:22] INFO root fetch - processPackages [advcalc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/advcalc-0.0.1.tar.gz tmp/advcalc-0.0.2.tar.gz --markdown 20240405/a/advcalc/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2024-04-05 04:15:22] WARNING root fetch - processPackages [sigiq]: Timeout reached during download
+[2024-04-05 04:15:22] INFO root fetch - processPackages [sigiq]: executing diffoscope
+[2024-04-05 04:15:22] INFO root fetch - processPackages [sigiq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sigiq-0.2.6.1.tar.gz tmp/sigiq-0.3.tar.gz --markdown 20240405/s/sigiq/0.2.6.1-0.3/diff.md --exclude *.pyd
+[2024-04-05 04:15:22] INFO root fetch - processPackages [pandera]: Downloading https://files.pythonhosted.org/packages/0b/8f/199b2d6886d40d20c9382c189d0b40c6118c2df6f0df21e9e78ab886aaea/pandera-0.9.0.tar.gz
+[2024-04-05 04:15:22] WARNING root fetch - processPackages [ain-py]: Timeout reached during download
+[2024-04-05 04:15:22] INFO root fetch - processPackages [ain-py]: executing diffoscope
+[2024-04-05 04:15:22] INFO root fetch - processPackages [ain-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ain-py-1.1.0.tar.gz tmp/ain-py-1.2.0.tar.gz --markdown 20240405/a/ain-py/1.1.0-1.2.0/diff.md --exclude *.pyd
+[2024-04-05 04:15:22] WARNING root fetch - processPackages [pandera]: Timeout reached during download
+[2024-04-05 04:15:22] INFO root fetch - processPackages [pandera]: executing diffoscope
+[2024-04-05 04:15:22] INFO root fetch - processPackages [pandera]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pandera-0.8.1.tar.gz tmp/pandera-0.9.0.tar.gz --markdown 20240405/p/pandera/0.8.1-0.9.0/diff.md --exclude *.pyd
+[2024-04-05 04:15:23] INFO root fetch - processPackages [integ-db]: Remove: archive file [/home/abi/fetcher/tmp/integ-db-0.0.2.tar.gz]
+[2024-04-05 04:15:23] INFO root fetch - processPackages [integ-db]: Remove: archive file [/home/abi/fetcher/tmp/integ-db-0.0.3.tar.gz]
+[2024-04-05 04:15:23] INFO root fetch - main [MainThread]: End processing [integ-db]: success
+[2024-04-05 04:15:23] INFO root fetch - processPackages [types-Flask-Cors]: Remove: archive file [/home/abi/fetcher/tmp/types-Flask-Cors-4.0.0.20240106.tar.gz]
+[2024-04-05 04:15:23] INFO root fetch - processPackages [types-Flask-Cors]: Remove: archive file [/home/abi/fetcher/tmp/types-Flask-Cors-4.0.0.20240405.tar.gz]
+[2024-04-05 04:15:23] INFO root fetch - main [MainThread]: End processing [types-Flask-Cors]: success
+[2024-04-05 04:15:23] INFO root fetch - processPackages [advcalc]: Remove: archive file [/home/abi/fetcher/tmp/advcalc-0.0.1.tar.gz]
+[2024-04-05 04:15:23] INFO root fetch - processPackages [advcalc]: Remove: archive file [/home/abi/fetcher/tmp/advcalc-0.0.2.tar.gz]
+[2024-04-05 04:15:23] INFO root fetch - main [MainThread]: End processing [advcalc]: success
+[2024-04-05 04:15:23] INFO root fetch - processPackages [sigiq]: Remove: archive file [/home/abi/fetcher/tmp/sigiq-0.2.6.1.tar.gz]
+[2024-04-05 04:15:23] INFO root fetch - processPackages [sigiq]: Remove: archive file [/home/abi/fetcher/tmp/sigiq-0.3.tar.gz]
+[2024-04-05 04:15:23] INFO root fetch - main [MainThread]: End processing [sigiq]: success
+[2024-04-05 04:15:23] INFO root fetch - processPackages [types-braintree]: Remove: archive file [/home/abi/fetcher/tmp/types-braintree-4.28.0.20240402.tar.gz]
+[2024-04-05 04:15:23] INFO root fetch - processPackages [types-braintree]: Remove: archive file [/home/abi/fetcher/tmp/types-braintree-4.28.0.20240405.tar.gz]
+[2024-04-05 04:15:23] INFO root fetch - main [MainThread]: End processing [types-braintree]: success
+[2024-04-05 04:15:23] INFO root fetch - processPackages [ain-py]: Remove: archive file [/home/abi/fetcher/tmp/ain-py-1.1.0.tar.gz]
+[2024-04-05 04:15:23] INFO root fetch - processPackages [ain-py]: Remove: archive file [/home/abi/fetcher/tmp/ain-py-1.2.0.tar.gz]
+[2024-04-05 04:15:23] INFO root fetch - main [MainThread]: End processing [ain-py]: success
+[2024-04-05 04:15:24] INFO root fetch - processPackages [pandera]: Remove: archive file [/home/abi/fetcher/tmp/pandera-0.8.1.tar.gz]
+[2024-04-05 04:15:24] INFO root fetch - processPackages [pandera]: Remove: archive file [/home/abi/fetcher/tmp/pandera-0.9.0.tar.gz]
+[2024-04-05 04:15:24] INFO root fetch - main [MainThread]: End processing [pandera]: success
+[2024-04-05 04:15:24] INFO root fetch - main [MainThread]: Store serial: [22631141]
