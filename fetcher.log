@@ -2543,3 +2543,55 @@
 [2024-04-05 02:07:35] INFO root fetch - processPackages [jaxutils-nightly]: Remove: archive file [/home/abi/fetcher/tmp/jaxutils-nightly-0.0.8.dev20240405.tar.gz]
 [2024-04-05 02:07:35] INFO root fetch - main [MainThread]: End processing [jaxutils-nightly]: success
 [2024-04-05 02:07:35] INFO root fetch - main [MainThread]: Store serial: [22629036]
+[2024-04-05 02:09:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22629036]
+[2024-04-05 02:09:44] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-05 02:09:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: chromedriver-py
+[2024-04-05 02:09:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: Adafruit-Blinka
+[2024-04-05 02:09:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cdk-common
+[2024-04-05 02:09:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: newscatcherapi-python-sdk
+[2024-04-05 02:09:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pytest-databases
+[2024-04-05 02:09:45] INFO root fetch - processPackages [pytest-databases]: New version: [0.2.0] Old Version: [0.1.0]
+[2024-04-05 02:09:45] INFO root fetch - processPackages [pytest-databases]: Downloading https://files.pythonhosted.org/packages/c4/ff/ebbf1b3d5d5e3a4ce7e5f1639597da2ca223d3252b9ca11feaebcb2211c5/pytest_databases-0.1.0.tar.gz
+[2024-04-05 02:09:45] INFO root fetch - processPackages [newscatcherapi-python-sdk]: New version: [6.0.2] Old Version: [6.0.1]
+[2024-04-05 02:09:45] INFO root fetch - processPackages [chromedriver-py]: New version: [99.0.4844.51] Old Version: [99.0.4844.35]
+[2024-04-05 02:09:45] INFO root fetch - processPackages [Adafruit-Blinka]: New version: [8.9.0] Old Version: [8.8.0]
+[2024-04-05 02:09:45] INFO root fetch - processPackages [cdk-common]: New version: [2.0.99] Old Version: [2.0.98]
+[2024-04-05 02:09:45] WARNING root fetch - processPackages [pytest-databases]: Timeout reached during download
+[2024-04-05 02:09:45] INFO root fetch - processPackages [chromedriver-py]: Downloading https://files.pythonhosted.org/packages/39/03/f1ac791b3c69bd62af64eb3b4f2f0c942828a41ad7eb4840f42ff715c79a/chromedriver-py-99.0.4844.35.tar.gz
+[2024-04-05 02:09:45] INFO root fetch - processPackages [pytest-databases]: Downloading https://files.pythonhosted.org/packages/46/01/fb0dc7348307f974d5ebab23d5faea95827b5e8442dca76609a4c9d28c19/pytest_databases-0.2.0.tar.gz
+[2024-04-05 02:09:45] INFO root fetch - processPackages [Adafruit-Blinka]: Downloading https://files.pythonhosted.org/packages/5d/be/736b0d863007f53570fdbabf508c712e922b4a5ad148d6fd69c9b80a4ee7/Adafruit-Blinka-8.8.0.tar.gz
+[2024-04-05 02:09:45] INFO root fetch - processPackages [newscatcherapi-python-sdk]: Downloading https://files.pythonhosted.org/packages/d2/c2/50d570ea8344aeb70ea77e4332fefb17e062ac1cceebd2a4c3387f1d6b27/newscatcherapi_python_sdk-6.0.1.tar.gz
+[2024-04-05 02:09:45] WARNING root fetch - processPackages [chromedriver-py]: Skipping package: exceeds size limit 29238079>=10485760
+[2024-04-05 02:09:45] INFO root fetch - main [MainThread]: End processing [chromedriver-py] error
+[2024-04-05 02:09:45] INFO root fetch - processPackages [cdk-common]: Downloading https://files.pythonhosted.org/packages/f3/30/796e7080e9a9b293ccf386b0d95f40dde8e214e0415d2c59be9c661105a9/cdk-common-2.0.98.tar.gz
+[2024-04-05 02:09:45] WARNING root fetch - processPackages [pytest-databases]: Timeout reached during download
+[2024-04-05 02:09:45] INFO root fetch - processPackages [pytest-databases]: executing diffoscope
+[2024-04-05 02:09:45] INFO root fetch - processPackages [pytest-databases]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest_databases-0.1.0.tar.gz tmp/pytest_databases-0.2.0.tar.gz --markdown 20240405/p/pytest-databases/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2024-04-05 02:09:45] WARNING root fetch - processPackages [newscatcherapi-python-sdk]: Timeout reached during download
+[2024-04-05 02:09:45] WARNING root fetch - processPackages [Adafruit-Blinka]: Timeout reached during download
+[2024-04-05 02:09:45] WARNING root fetch - processPackages [cdk-common]: Timeout reached during download
+[2024-04-05 02:09:45] INFO root fetch - processPackages [newscatcherapi-python-sdk]: Downloading https://files.pythonhosted.org/packages/81/70/1b189fbae9c3925065a76a4b3f36e1152a953207bc9df5fc75c69d9e07e5/newscatcherapi_python_sdk-6.0.2.tar.gz
+[2024-04-05 02:09:45] INFO root fetch - processPackages [Adafruit-Blinka]: Downloading https://files.pythonhosted.org/packages/f2/4b/1270783c2a35aa5e71cd882d0dc9cffb032360c6782d3ec4435177e78a59/Adafruit-Blinka-8.9.0.tar.gz
+[2024-04-05 02:09:45] INFO root fetch - processPackages [cdk-common]: Downloading https://files.pythonhosted.org/packages/11/10/ca183f281275ec945ede082d9491c0bb5bfb9152c437124c86e37cba7079/cdk-common-2.0.99.tar.gz
+[2024-04-05 02:09:45] WARNING root fetch - processPackages [newscatcherapi-python-sdk]: Timeout reached during download
+[2024-04-05 02:09:45] INFO root fetch - processPackages [newscatcherapi-python-sdk]: executing diffoscope
+[2024-04-05 02:09:45] INFO root fetch - processPackages [newscatcherapi-python-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/newscatcherapi_python_sdk-6.0.1.tar.gz tmp/newscatcherapi_python_sdk-6.0.2.tar.gz --markdown 20240405/n/newscatcherapi-python-sdk/6.0.1-6.0.2/diff.md --exclude *.pyd
+[2024-04-05 02:09:46] WARNING root fetch - processPackages [Adafruit-Blinka]: Timeout reached during download
+[2024-04-05 02:09:46] INFO root fetch - processPackages [Adafruit-Blinka]: executing diffoscope
+[2024-04-05 02:09:46] INFO root fetch - processPackages [Adafruit-Blinka]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Adafruit-Blinka-8.8.0.tar.gz tmp/Adafruit-Blinka-8.9.0.tar.gz --markdown 20240405/A/Adafruit-Blinka/8.8.0-8.9.0/diff.md --exclude *.pyd
+[2024-04-05 02:09:46] INFO root fetch - processPackages [pytest-databases]: Remove: archive file [/home/abi/fetcher/tmp/pytest_databases-0.1.0.tar.gz]
+[2024-04-05 02:09:46] INFO root fetch - processPackages [pytest-databases]: Remove: archive file [/home/abi/fetcher/tmp/pytest_databases-0.2.0.tar.gz]
+[2024-04-05 02:09:46] INFO root fetch - main [MainThread]: End processing [pytest-databases]: success
+[2024-04-05 02:09:46] WARNING root fetch - processPackages [cdk-common]: Timeout reached during download
+[2024-04-05 02:09:46] INFO root fetch - processPackages [cdk-common]: executing diffoscope
+[2024-04-05 02:09:46] INFO root fetch - processPackages [cdk-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-common-2.0.98.tar.gz tmp/cdk-common-2.0.99.tar.gz --markdown 20240405/c/cdk-common/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2024-04-05 02:09:46] INFO root fetch - processPackages [cdk-common]: Remove: archive file [/home/abi/fetcher/tmp/cdk-common-2.0.98.tar.gz]
+[2024-04-05 02:09:46] INFO root fetch - processPackages [cdk-common]: Remove: archive file [/home/abi/fetcher/tmp/cdk-common-2.0.99.tar.gz]
+[2024-04-05 02:09:46] INFO root fetch - main [MainThread]: End processing [cdk-common]: success
+[2024-04-05 02:09:47] INFO root fetch - processPackages [Adafruit-Blinka]: Remove: archive file [/home/abi/fetcher/tmp/Adafruit-Blinka-8.8.0.tar.gz]
+[2024-04-05 02:09:47] INFO root fetch - processPackages [Adafruit-Blinka]: Remove: archive file [/home/abi/fetcher/tmp/Adafruit-Blinka-8.9.0.tar.gz]
+[2024-04-05 02:09:47] INFO root fetch - main [MainThread]: End processing [Adafruit-Blinka]: success
+[2024-04-05 02:09:48] INFO root fetch - processPackages [newscatcherapi-python-sdk]: Remove: archive file [/home/abi/fetcher/tmp/newscatcherapi_python_sdk-6.0.1.tar.gz]
+[2024-04-05 02:09:48] INFO root fetch - processPackages [newscatcherapi-python-sdk]: Remove: archive file [/home/abi/fetcher/tmp/newscatcherapi_python_sdk-6.0.2.tar.gz]
+[2024-04-05 02:09:48] INFO root fetch - main [MainThread]: End processing [newscatcherapi-python-sdk]: success
+[2024-04-05 02:09:48] INFO root fetch - main [MainThread]: Store serial: [22629052]
