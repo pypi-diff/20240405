@@ -12963,3 +12963,89 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2024-04-05 08:03:21] INFO root fetch - processPackages [tidal-dl-ng]: Remove: archive file [/home/abi/fetcher/tmp/tidal_dl_ng-0.9.1.tar.gz]
 [2024-04-05 08:03:21] INFO root fetch - main [MainThread]: End processing [tidal-dl-ng]: success
 [2024-04-05 08:03:21] INFO root fetch - main [MainThread]: Store serial: [22632274]
+[2024-04-05 08:05:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22632274]
+[2024-04-05 08:05:29] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-04-05 08:05:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: politely
+[2024-04-05 08:05:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: prusek-spheroid
+[2024-04-05 08:05:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: queue-app-provider
+[2024-04-05 08:05:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: proxai
+[2024-04-05 08:05:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo13-addons-oca-queue
+[2024-04-05 08:05:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo14-addon-queue-job
+[2024-04-05 08:05:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: plotly3d
+[2024-04-05 08:05:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: matplotloom
+[2024-04-05 08:05:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: odoo-addon-queue-job-web-notify
+[2024-04-05 08:05:29] INFO root fetch - processPackages [plotly3d]: New version: [0.3.2] Old Version: [0.3.1]
+[2024-04-05 08:05:29] INFO root fetch - processPackages [politely]: New version: [4.0.0a0] Old Version: [3.3.4]
+[2024-04-05 08:05:29] INFO root fetch - processPackages [prusek-spheroid]: New version: [3.9] Old Version: [3.8]
+[2024-04-05 08:05:29] INFO root fetch - processPackages [odoo-addon-queue-job-web-notify]: New version: [16.0.1.0.0.5] Old Version: [16.0.1.0.0.2]
+[2024-04-05 08:05:30] WARNING root fetch - processPackages [proxai]: Skipping, unable to determine old version
+[2024-04-05 08:05:30] INFO root fetch - main [MainThread]: End processing [proxai] error
+[2024-04-05 08:05:30] WARNING root fetch - processPackages [queue-app-provider]: Skipping, unable to determine old version
+[2024-04-05 08:05:30] INFO root fetch - main [MainThread]: End processing [queue-app-provider] error
+[2024-04-05 08:05:30] INFO root fetch - processPackages [plotly3d]: Downloading https://files.pythonhosted.org/packages/3d/7e/4bb2f7c934e87f603183b6404072aa6d83e6f3cc36d5d6b212584f1aefa9/plotly3d-0.3.1.tar.gz
+[2024-04-05 08:05:30] INFO root fetch - processPackages [odoo13-addons-oca-queue]: New version: [13.0.20240404.0] Old Version: [13.0.20211016.0]
+[2024-04-05 08:05:30] INFO root fetch - processPackages [matplotloom]: New version: [0.2.0] Old Version: [0.1.0]
+[2024-04-05 08:05:30] INFO root fetch - processPackages [odoo14-addon-queue-job]: New version: [14.0.3.5.5.dev3] Old Version: [14.0.3.5.5.dev1]
+[2024-04-05 08:05:30] INFO root fetch - processPackages [politely]: Downloading https://files.pythonhosted.org/packages/58/a8/0769c03b6260242ebba4567c40d3098275bea64c60eeacf724c3f6dc6b25/politely-3.3.4.tar.gz
+[2024-04-05 08:05:30] INFO root fetch - processPackages [prusek-spheroid]: Downloading https://files.pythonhosted.org/packages/81/ae/16313fa9231117f0d10f1453323cef1bb0a5510e4309928a717bfc0f65ac/prusek_spheroid-3.8.tar.gz
+[2024-04-05 08:05:30] WARNING root fetch - processPackages [plotly3d]: Timeout reached during download
+[2024-04-05 08:05:30] WARNING root fetch - processPackages [politely]: Timeout reached during download
+[2024-04-05 08:05:30] INFO root fetch - processPackages [odoo-addon-queue-job-web-notify]: Downloading https://files.pythonhosted.org/packages/2d/3a/ea9458e69db6d52f7748763207e2a6f55204db714bd2e72c2230144bffdc/odoo_addon_queue_job_web_notify-16.0.1.0.0.2-py3-none-any.whl
+[2024-04-05 08:05:30] WARNING root fetch - processPackages [prusek-spheroid]: Timeout reached during download
+[2024-04-05 08:05:30] INFO root fetch - processPackages [odoo13-addons-oca-queue]: Downloading https://files.pythonhosted.org/packages/6a/b3/22c2f259302a11305da4cd43dcf07d97d0ebeafe4c133395e9abf91405b7/odoo13_addons_oca_queue-13.0.20211016.0-py3-none-any.whl
+[2024-04-05 08:05:30] INFO root fetch - processPackages [matplotloom]: Downloading https://files.pythonhosted.org/packages/87/bf/9429519cb928e258e5b3d1b4c25fc3b5f1abb3929829f3d7dca484c9e568/matplotloom-0.1.0.tar.gz
+[2024-04-05 08:05:30] INFO root fetch - processPackages [odoo14-addon-queue-job]: Downloading https://files.pythonhosted.org/packages/d1/b5/bdb6be2803cf6a597a88b6a72b10d1fb10dc8903afda1bcb0600cc5596b5/odoo14_addon_queue_job-14.0.3.5.5.dev1-py3-none-any.whl
+[2024-04-05 08:05:30] INFO root fetch - processPackages [plotly3d]: Downloading https://files.pythonhosted.org/packages/75/81/040e053ff33ffff566b511cac7bbb06388f29bdedbc06547076b3c17fefa/plotly3d-0.3.2.tar.gz
+[2024-04-05 08:05:30] INFO root fetch - processPackages [politely]: Downloading https://files.pythonhosted.org/packages/99/8f/f90b792d6bbfce22a6a6c236344c2bbe4c5c9b6747e81b2e3807beb811a4/politely-4.0.0a0.tar.gz
+[2024-04-05 08:05:30] WARNING root fetch - processPackages [odoo-addon-queue-job-web-notify]: Timeout reached during download
+[2024-04-05 08:05:30] WARNING root fetch - processPackages [odoo13-addons-oca-queue]: Timeout reached during download
+[2024-04-05 08:05:30] INFO root fetch - processPackages [prusek-spheroid]: Downloading https://files.pythonhosted.org/packages/78/aa/998e0b49b3f88656a573792751aac4489d0eb8f79f7a86bfa8415f4afede/prusek_spheroid-3.9.tar.gz
+[2024-04-05 08:05:30] WARNING root fetch - processPackages [matplotloom]: Timeout reached during download
+[2024-04-05 08:05:30] WARNING root fetch - processPackages [plotly3d]: Timeout reached during download
+[2024-04-05 08:05:30] INFO root fetch - processPackages [plotly3d]: executing diffoscope
+[2024-04-05 08:05:30] INFO root fetch - processPackages [plotly3d]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/plotly3d-0.3.1.tar.gz tmp/plotly3d-0.3.2.tar.gz --markdown 20240405/p/plotly3d/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2024-04-05 08:05:30] WARNING root fetch - processPackages [politely]: Timeout reached during download
+[2024-04-05 08:05:30] INFO root fetch - processPackages [politely]: executing diffoscope
+[2024-04-05 08:05:30] INFO root fetch - processPackages [politely]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/politely-3.3.4.tar.gz tmp/politely-4.0.0a0.tar.gz --markdown 20240405/p/politely/3.3.4-4.0.0a0/diff.md --exclude *.pyd
+[2024-04-05 08:05:30] WARNING root fetch - processPackages [odoo14-addon-queue-job]: Timeout reached during download
+[2024-04-05 08:05:30] INFO root fetch - processPackages [odoo-addon-queue-job-web-notify]: Downloading https://files.pythonhosted.org/packages/8c/5a/e984654676c4e1d7d0682161c2e3bf0b8116ab90ca21a55ab1443dc43e5a/odoo_addon_queue_job_web_notify-16.0.1.0.0.5-py3-none-any.whl
+[2024-04-05 08:05:30] WARNING root fetch - processPackages [prusek-spheroid]: Timeout reached during download
+[2024-04-05 08:05:30] INFO root fetch - processPackages [prusek-spheroid]: executing diffoscope
+[2024-04-05 08:05:30] INFO root fetch - processPackages [prusek-spheroid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prusek_spheroid-3.8.tar.gz tmp/prusek_spheroid-3.9.tar.gz --markdown 20240405/p/prusek-spheroid/3.8-3.9/diff.md --exclude *.pyd
+[2024-04-05 08:05:30] INFO root fetch - processPackages [odoo13-addons-oca-queue]: Downloading https://files.pythonhosted.org/packages/36/66/f129d50f4234720211a22efec48f72f167e883f05437098e52cd3d3ad226/odoo13_addons_oca_queue-13.0.20240404.0-py3-none-any.whl
+[2024-04-05 08:05:30] INFO root fetch - processPackages [matplotloom]: Downloading https://files.pythonhosted.org/packages/6a/a5/0a6dfe53b87a8e97d9d27dbd04af85db669b2638ccf71c6ec30eea7da8fe/matplotloom-0.2.0.tar.gz
+[2024-04-05 08:05:30] WARNING root fetch - processPackages [odoo13-addons-oca-queue]: Timeout reached during download
+[2024-04-05 08:05:30] INFO root fetch - processPackages [odoo13-addons-oca-queue]: executing diffoscope
+[2024-04-05 08:05:30] INFO root fetch - processPackages [odoo13-addons-oca-queue]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo13_addons_oca_queue-13.0.20211016.0-py3-none-any.whl.zip tmp/odoo13_addons_oca_queue-13.0.20240404.0-py3-none-any.whl.zip --markdown 20240405/o/odoo13-addons-oca-queue/13.0.20211016.0-13.0.20240404.0/diff.md --exclude *.pyd
+[2024-04-05 08:05:30] INFO root fetch - processPackages [odoo14-addon-queue-job]: Downloading https://files.pythonhosted.org/packages/9c/1a/e7a0e3c7cabade45454c15d0c86716858af708a4988749a2fd861686699a/odoo14_addon_queue_job-14.0.3.5.5.dev3-py3-none-any.whl
+[2024-04-05 08:05:30] WARNING root fetch - processPackages [odoo-addon-queue-job-web-notify]: Timeout reached during download
+[2024-04-05 08:05:30] INFO root fetch - processPackages [odoo-addon-queue-job-web-notify]: executing diffoscope
+[2024-04-05 08:05:30] INFO root fetch - processPackages [odoo-addon-queue-job-web-notify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_queue_job_web_notify-16.0.1.0.0.2-py3-none-any.whl.zip tmp/odoo_addon_queue_job_web_notify-16.0.1.0.0.5-py3-none-any.whl.zip --markdown 20240405/o/odoo-addon-queue-job-web-notify/16.0.1.0.0.2-16.0.1.0.0.5/diff.md --exclude *.pyd
+[2024-04-05 08:05:30] WARNING root fetch - processPackages [matplotloom]: Timeout reached during download
+[2024-04-05 08:05:30] INFO root fetch - processPackages [matplotloom]: executing diffoscope
+[2024-04-05 08:05:30] INFO root fetch - processPackages [matplotloom]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/matplotloom-0.1.0.tar.gz tmp/matplotloom-0.2.0.tar.gz --markdown 20240405/m/matplotloom/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2024-04-05 08:05:30] WARNING root fetch - processPackages [odoo14-addon-queue-job]: Timeout reached during download
+[2024-04-05 08:05:30] INFO root fetch - processPackages [odoo14-addon-queue-job]: executing diffoscope
+[2024-04-05 08:05:30] INFO root fetch - processPackages [odoo14-addon-queue-job]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_queue_job-14.0.3.5.5.dev1-py3-none-any.whl.zip tmp/odoo14_addon_queue_job-14.0.3.5.5.dev3-py3-none-any.whl.zip --markdown 20240405/o/odoo14-addon-queue-job/14.0.3.5.5.dev1-14.0.3.5.5.dev3/diff.md --exclude *.pyd
+[2024-04-05 08:05:31] INFO root fetch - processPackages [politely]: Remove: archive file [/home/abi/fetcher/tmp/politely-3.3.4.tar.gz]
+[2024-04-05 08:05:31] INFO root fetch - processPackages [politely]: Remove: archive file [/home/abi/fetcher/tmp/politely-4.0.0a0.tar.gz]
+[2024-04-05 08:05:31] INFO root fetch - main [MainThread]: End processing [politely]: success
+[2024-04-05 08:05:31] INFO root fetch - processPackages [plotly3d]: Remove: archive file [/home/abi/fetcher/tmp/plotly3d-0.3.1.tar.gz]
+[2024-04-05 08:05:31] INFO root fetch - processPackages [plotly3d]: Remove: archive file [/home/abi/fetcher/tmp/plotly3d-0.3.2.tar.gz]
+[2024-04-05 08:05:31] INFO root fetch - main [MainThread]: End processing [plotly3d]: success
+[2024-04-05 08:05:31] INFO root fetch - processPackages [odoo13-addons-oca-queue]: Remove: archive file [/home/abi/fetcher/tmp/odoo13_addons_oca_queue-13.0.20211016.0-py3-none-any.whl.zip]
+[2024-04-05 08:05:31] INFO root fetch - processPackages [odoo13-addons-oca-queue]: Remove: archive file [/home/abi/fetcher/tmp/odoo13_addons_oca_queue-13.0.20240404.0-py3-none-any.whl.zip]
+[2024-04-05 08:05:31] INFO root fetch - main [MainThread]: End processing [odoo13-addons-oca-queue]: success
+[2024-04-05 08:05:31] INFO root fetch - processPackages [prusek-spheroid]: Remove: archive file [/home/abi/fetcher/tmp/prusek_spheroid-3.8.tar.gz]
+[2024-04-05 08:05:31] INFO root fetch - processPackages [prusek-spheroid]: Remove: archive file [/home/abi/fetcher/tmp/prusek_spheroid-3.9.tar.gz]
+[2024-04-05 08:05:31] INFO root fetch - main [MainThread]: End processing [prusek-spheroid]: success
+[2024-04-05 08:05:31] INFO root fetch - processPackages [matplotloom]: Remove: archive file [/home/abi/fetcher/tmp/matplotloom-0.1.0.tar.gz]
+[2024-04-05 08:05:31] INFO root fetch - processPackages [matplotloom]: Remove: archive file [/home/abi/fetcher/tmp/matplotloom-0.2.0.tar.gz]
+[2024-04-05 08:05:31] INFO root fetch - main [MainThread]: End processing [matplotloom]: success
+[2024-04-05 08:05:31] INFO root fetch - processPackages [odoo-addon-queue-job-web-notify]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_queue_job_web_notify-16.0.1.0.0.2-py3-none-any.whl.zip]
+[2024-04-05 08:05:31] INFO root fetch - processPackages [odoo-addon-queue-job-web-notify]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_queue_job_web_notify-16.0.1.0.0.5-py3-none-any.whl.zip]
+[2024-04-05 08:05:31] INFO root fetch - main [MainThread]: End processing [odoo-addon-queue-job-web-notify]: success
+[2024-04-05 08:05:31] INFO root fetch - processPackages [odoo14-addon-queue-job]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_queue_job-14.0.3.5.5.dev1-py3-none-any.whl.zip]
+[2024-04-05 08:05:31] INFO root fetch - processPackages [odoo14-addon-queue-job]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_queue_job-14.0.3.5.5.dev3-py3-none-any.whl.zip]
+[2024-04-05 08:05:31] INFO root fetch - main [MainThread]: End processing [odoo14-addon-queue-job]: success
+[2024-04-05 08:05:31] INFO root fetch - main [MainThread]: Store serial: [22632302]
