@@ -23735,3 +23735,138 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2024-04-05 15:10:52] INFO root fetch - processPackages [ert]: Remove: archive file [/home/abi/fetcher/tmp/ert-9.0.3-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
 [2024-04-05 15:10:52] INFO root fetch - main [MainThread]: End processing [ert]: success
 [2024-04-05 15:10:52] INFO root fetch - main [MainThread]: Store serial: [22636391]
+[2024-04-05 15:12:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22636391]
+[2024-04-05 15:13:03] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2024-04-05 15:13:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: linien-server
+[2024-04-05 15:13:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: linien-client
+[2024-04-05 15:13:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fv1-programmer
+[2024-04-05 15:13:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: fpsample
+[2024-04-05 15:13:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: linien-gui
+[2024-04-05 15:13:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: mal-toolbox
+[2024-04-05 15:13:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: axion
+[2024-04-05 15:13:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: aa-fleetpings
+[2024-04-05 15:13:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: odoo-addon-stock-release-channel
+[2024-04-05 15:13:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: odoo-addon-stock-release-channel-plan
+[2024-04-05 15:13:03] INFO root fetch - processPackages [fv1-programmer]: New version: [0.5.0] Old Version: [0.4.4]
+[2024-04-05 15:13:03] INFO root fetch - processPackages [aa-fleetpings]: New version: [3.0.0b1] Old Version: [3.0.0]
+[2024-04-05 15:13:03] INFO root fetch - processPackages [linien-gui]: New version: [1.0.2rc1] Old Version: [1.0.2]
+[2024-04-05 15:13:03] INFO root fetch - processPackages [linien-server]: New version: [1.0.2rc1] Old Version: [1.0.2]
+[2024-04-05 15:13:03] INFO root fetch - processPackages [linien-client]: New version: [1.0.2rc1] Old Version: [1.0.2]
+[2024-04-05 15:13:03] INFO root fetch - processPackages [fv1-programmer]: Downloading https://files.pythonhosted.org/packages/2d/2b/b03a9ca06e16e57d0f066d778fef7ff0370bbaea012dbadb43f352b9a026/fv1_programmer-0.4.4.tar.gz
+[2024-04-05 15:13:03] INFO root fetch - processPackages [odoo-addon-stock-release-channel-plan]: New version: [16.0.1.3.0] Old Version: [16.0.1.2.0]
+[2024-04-05 15:13:03] INFO root fetch - processPackages [odoo-addon-stock-release-channel]: New version: [16.0.2.9.0] Old Version: [16.0.2.8.0]
+[2024-04-05 15:13:03] INFO root fetch - processPackages [mal-toolbox]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-05 15:13:03] INFO root fetch - processPackages [axion]: New version: [4.1.6] Old Version: [4.1.5]
+[2024-04-05 15:13:03] INFO root fetch - processPackages [fpsample]: New version: [0.3.2] Old Version: [0.3.1]
+[2024-04-05 15:13:03] INFO root fetch - processPackages [linien-server]: Downloading https://files.pythonhosted.org/packages/67/7b/05372c09df179c032358c9964a3e4b3e25636aefa345f1dec8cf1a2fd466/linien-server-1.0.2.tar.gz
+[2024-04-05 15:13:03] INFO root fetch - processPackages [linien-gui]: Downloading https://files.pythonhosted.org/packages/a8/2c/4b53ff4a13b42202ace26e3d9949f0d8ac6025c47d290756a83a86db024d/linien-gui-1.0.2.tar.gz
+[2024-04-05 15:13:03] INFO root fetch - processPackages [aa-fleetpings]: Downloading https://files.pythonhosted.org/packages/bb/0c/6885422ab20fc385ed692e2ec9bafcac6e066533e292dadedd409a78b275/aa_fleetpings-3.0.0.tar.gz
+[2024-04-05 15:13:03] INFO root fetch - processPackages [linien-client]: Downloading https://files.pythonhosted.org/packages/95/a2/be4bb16c14e984e62ad294d107d5cac6880cfe7a7ec5ff99f2257226b495/linien-client-1.0.2.tar.gz
+[2024-04-05 15:13:03] INFO root fetch - processPackages [odoo-addon-stock-release-channel]: Downloading https://files.pythonhosted.org/packages/52/92/1be60c2efa4c10575b7009ede41d26825460eb5beff77911075273d79984/odoo_addon_stock_release_channel-16.0.2.8.0-py3-none-any.whl
+[2024-04-05 15:13:03] WARNING root fetch - processPackages [fv1-programmer]: Timeout reached during download
+[2024-04-05 15:13:03] INFO root fetch - processPackages [odoo-addon-stock-release-channel-plan]: Downloading https://files.pythonhosted.org/packages/46/a6/903632b425b327f29b14754479536a36314807a9d9684d3fdd123d3f1357/odoo_addon_stock_release_channel_plan-16.0.1.2.0-py3-none-any.whl
+[2024-04-05 15:13:03] INFO root fetch - processPackages [mal-toolbox]: Downloading https://files.pythonhosted.org/packages/da/94/d1975f7b0d3b496b7c245534ba53e332dc4e8edd9f74395eb5451eae1d5c/mal_toolbox-0.0.8-py3-none-any.whl
+[2024-04-05 15:13:03] INFO root fetch - processPackages [axion]: Downloading https://files.pythonhosted.org/packages/03/61/a4be4c96de5ddaeb5ac021d51baa6641f4ba8303cac3f3cdc4921175f3c7/axion-4.1.5-cp312-none-win_amd64.whl
+[2024-04-05 15:13:03] WARNING root fetch - processPackages [linien-gui]: Timeout reached during download
+[2024-04-05 15:13:03] WARNING root fetch - processPackages [aa-fleetpings]: Timeout reached during download
+[2024-04-05 15:13:03] WARNING root fetch - processPackages [linien-server]: Timeout reached during download
+[2024-04-05 15:13:03] WARNING root fetch - processPackages [linien-client]: Timeout reached during download
+[2024-04-05 15:13:03] INFO root fetch - processPackages [fpsample]: Downloading https://files.pythonhosted.org/packages/98/38/ebec2dbcc4820f4ef968d4fe0076ba604a3e42cd25b1c5c9ad40d446dcf2/fpsample-0.3.1.tar.gz
+[2024-04-05 15:13:03] INFO root fetch - processPackages [fv1-programmer]: Downloading https://files.pythonhosted.org/packages/51/38/664ef171394eb6469878b2a432f2248c3bba431df4b17a4c7c24261c45b9/fv1_programmer-0.5.0.tar.gz
+[2024-04-05 15:13:04] WARNING root fetch - processPackages [mal-toolbox]: Timeout reached during download
+[2024-04-05 15:13:04] WARNING root fetch - processPackages [odoo-addon-stock-release-channel]: Timeout reached during download
+[2024-04-05 15:13:04] WARNING root fetch - processPackages [odoo-addon-stock-release-channel-plan]: Timeout reached during download
+[2024-04-05 15:13:04] INFO root fetch - processPackages [linien-gui]: Downloading https://files.pythonhosted.org/packages/50/5b/be3b9affb14cd1e49d8e18a8d63cfe24c73c2d3ad55a8336374d6afab232/linien-gui-1.0.2rc1.tar.gz
+[2024-04-05 15:13:04] INFO root fetch - processPackages [linien-client]: Downloading https://files.pythonhosted.org/packages/fa/47/642ac3465f804a6ce4dc01761c5c83a892b310b36e7fd7950b7df32d5af8/linien-client-1.0.2rc1.tar.gz
+[2024-04-05 15:13:04] INFO root fetch - processPackages [linien-server]: Downloading https://files.pythonhosted.org/packages/5f/cb/05ece0250469fc3aff26549ae48c2b914445b0f3045454c8d8552d15f27d/linien-server-1.0.2rc1.tar.gz
+[2024-04-05 15:13:04] INFO root fetch - processPackages [aa-fleetpings]: Downloading https://files.pythonhosted.org/packages/49/a1/657ec508aa8112bc0efe984267ba445e79f8182989c39073cb85f2f42acd/aa_fleetpings-3.0.0b1.tar.gz
+[2024-04-05 15:13:04] WARNING root fetch - processPackages [fv1-programmer]: Timeout reached during download
+[2024-04-05 15:13:04] INFO root fetch - processPackages [fv1-programmer]: executing diffoscope
+[2024-04-05 15:13:04] INFO root fetch - processPackages [fv1-programmer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fv1_programmer-0.4.4.tar.gz tmp/fv1_programmer-0.5.0.tar.gz --markdown 20240405/f/fv1-programmer/0.4.4-0.5.0/diff.md --exclude *.pyd
+[2024-04-05 15:13:04] WARNING root fetch - processPackages [fpsample]: Timeout reached during download
+[2024-04-05 15:13:04] WARNING root fetch - processPackages [axion]: Timeout reached during download
+[2024-04-05 15:13:04] INFO root fetch - processPackages [mal-toolbox]: Downloading https://files.pythonhosted.org/packages/43/04/a3947b63ee2dc52298ce2df6a9af62fb76495dfda933c79baa7caccbbf34/mal_toolbox-0.0.9-py3-none-any.whl
+[2024-04-05 15:13:04] WARNING root fetch - processPackages [linien-client]: Timeout reached during download
+[2024-04-05 15:13:04] INFO root fetch - processPackages [linien-client]: executing diffoscope
+[2024-04-05 15:13:04] INFO root fetch - processPackages [linien-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/linien-client-1.0.2.tar.gz tmp/linien-client-1.0.2rc1.tar.gz --markdown 20240405/l/linien-client/1.0.2-1.0.2rc1/diff.md --exclude *.pyd
+[2024-04-05 15:13:04] INFO root fetch - processPackages [odoo-addon-stock-release-channel-plan]: Downloading https://files.pythonhosted.org/packages/b6/4f/79c8ebd7056cf21d7aba06ebcc57e91ef0b72da45e2ee358f5116587e684/odoo_addon_stock_release_channel_plan-16.0.1.3.0-py3-none-any.whl
+[2024-04-05 15:13:04] INFO root fetch - processPackages [odoo-addon-stock-release-channel]: Downloading https://files.pythonhosted.org/packages/72/34/26d64f89ea9154c50e7429fb00f1b20a5649bfdcd36647026241b8137389/odoo_addon_stock_release_channel-16.0.2.9.0-py3-none-any.whl
+[2024-04-05 15:13:04] WARNING root fetch - processPackages [linien-server]: Timeout reached during download
+[2024-04-05 15:13:04] INFO root fetch - processPackages [linien-server]: executing diffoscope
+[2024-04-05 15:13:04] INFO root fetch - processPackages [linien-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/linien-server-1.0.2.tar.gz tmp/linien-server-1.0.2rc1.tar.gz --markdown 20240405/l/linien-server/1.0.2-1.0.2rc1/diff.md --exclude *.pyd
+[2024-04-05 15:13:04] WARNING root fetch - processPackages [aa-fleetpings]: Timeout reached during download
+[2024-04-05 15:13:04] INFO root fetch - processPackages [aa-fleetpings]: executing diffoscope
+[2024-04-05 15:13:04] INFO root fetch - processPackages [aa-fleetpings]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aa_fleetpings-3.0.0.tar.gz tmp/aa_fleetpings-3.0.0b1.tar.gz --markdown 20240405/a/aa-fleetpings/3.0.0-3.0.0b1/diff.md --exclude *.pyd
+[2024-04-05 15:13:04] WARNING root fetch - processPackages [linien-gui]: Timeout reached during download
+[2024-04-05 15:13:04] INFO root fetch - processPackages [linien-gui]: executing diffoscope
+[2024-04-05 15:13:04] INFO root fetch - processPackages [linien-gui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/linien-gui-1.0.2.tar.gz tmp/linien-gui-1.0.2rc1.tar.gz --markdown 20240405/l/linien-gui/1.0.2-1.0.2rc1/diff.md --exclude *.pyd
+[2024-04-05 15:13:04] WARNING root fetch - processPackages [odoo-addon-stock-release-channel]: Timeout reached during download
+[2024-04-05 15:13:04] INFO root fetch - processPackages [odoo-addon-stock-release-channel]: executing diffoscope
+[2024-04-05 15:13:04] INFO root fetch - processPackages [odoo-addon-stock-release-channel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_stock_release_channel-16.0.2.8.0-py3-none-any.whl.zip tmp/odoo_addon_stock_release_channel-16.0.2.9.0-py3-none-any.whl.zip --markdown 20240405/o/odoo-addon-stock-release-channel/16.0.2.8.0-16.0.2.9.0/diff.md --exclude *.pyd
+[2024-04-05 15:13:04] INFO root fetch - processPackages [fpsample]: Downloading https://files.pythonhosted.org/packages/b4/9a/fff97e0448f688915283cf8002a30324a99465e3315e51ec8197950805a1/fpsample-0.3.2.tar.gz
+[2024-04-05 15:13:04] INFO root fetch - processPackages [axion]: Downloading https://files.pythonhosted.org/packages/5c/0d/720e83ea5dae5453fe64c74420b2b9d89bb5e58ec75376afc79679ce85c1/axion-4.1.6-cp312-none-win_amd64.whl
+[2024-04-05 15:13:04] WARNING root fetch - processPackages [odoo-addon-stock-release-channel-plan]: Timeout reached during download
+[2024-04-05 15:13:04] INFO root fetch - processPackages [odoo-addon-stock-release-channel-plan]: executing diffoscope
+[2024-04-05 15:13:04] INFO root fetch - processPackages [odoo-addon-stock-release-channel-plan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_stock_release_channel_plan-16.0.1.2.0-py3-none-any.whl.zip tmp/odoo_addon_stock_release_channel_plan-16.0.1.3.0-py3-none-any.whl.zip --markdown 20240405/o/odoo-addon-stock-release-channel-plan/16.0.1.2.0-16.0.1.3.0/diff.md --exclude *.pyd
+[2024-04-05 15:13:04] WARNING root fetch - processPackages [mal-toolbox]: Timeout reached during download
+[2024-04-05 15:13:04] INFO root fetch - processPackages [mal-toolbox]: executing diffoscope
+[2024-04-05 15:13:04] INFO root fetch - processPackages [mal-toolbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mal_toolbox-0.0.8-py3-none-any.whl.zip tmp/mal_toolbox-0.0.9-py3-none-any.whl.zip --markdown 20240405/m/mal-toolbox/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2024-04-05 15:13:04] WARNING root fetch - processPackages [fpsample]: Timeout reached during download
+[2024-04-05 15:13:04] INFO root fetch - processPackages [fpsample]: executing diffoscope
+[2024-04-05 15:13:04] INFO root fetch - processPackages [fpsample]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fpsample-0.3.1.tar.gz tmp/fpsample-0.3.2.tar.gz --markdown 20240405/f/fpsample/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2024-04-05 15:13:04] WARNING root fetch - processPackages [axion]: Timeout reached during download
+[2024-04-05 15:13:04] INFO root fetch - processPackages [axion]: executing diffoscope
+[2024-04-05 15:13:04] INFO root fetch - processPackages [axion]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/axion-4.1.5-cp312-none-win_amd64.whl.zip tmp/axion-4.1.6-cp312-none-win_amd64.whl.zip --markdown 20240405/a/axion/4.1.5-4.1.6/diff.md --exclude *.pyd
+[2024-04-05 15:13:05] INFO root fetch - processPackages [linien-client]: Remove: archive file [/home/abi/fetcher/tmp/linien-client-1.0.2.tar.gz]
+[2024-04-05 15:13:05] INFO root fetch - processPackages [linien-client]: Remove: archive file [/home/abi/fetcher/tmp/linien-client-1.0.2rc1.tar.gz]
+[2024-04-05 15:13:05] INFO root fetch - processPackages [linien-client]: Start processing: kv-api
+[2024-04-05 15:13:05] INFO root fetch - main [MainThread]: End processing [linien-client]: success
+[2024-04-05 15:13:05] INFO root fetch - processPackages [fv1-programmer]: Remove: archive file [/home/abi/fetcher/tmp/fv1_programmer-0.4.4.tar.gz]
+[2024-04-05 15:13:05] INFO root fetch - processPackages [fv1-programmer]: Remove: archive file [/home/abi/fetcher/tmp/fv1_programmer-0.5.0.tar.gz]
+[2024-04-05 15:13:05] INFO root fetch - processPackages [fv1-programmer]: Start processing: esssans
+[2024-04-05 15:13:05] INFO root fetch - main [MainThread]: End processing [fv1-programmer]: success
+[2024-04-05 15:13:05] INFO root fetch - processPackages [kv-api]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-04-05 15:13:05] INFO root fetch - processPackages [esssans]: New version: [24.4.0] Old Version: [24.2.0]
+[2024-04-05 15:13:05] INFO root fetch - processPackages [linien-server]: Remove: archive file [/home/abi/fetcher/tmp/linien-server-1.0.2.tar.gz]
+[2024-04-05 15:13:05] INFO root fetch - processPackages [linien-server]: Remove: archive file [/home/abi/fetcher/tmp/linien-server-1.0.2rc1.tar.gz]
+[2024-04-05 15:13:05] INFO root fetch - main [MainThread]: End processing [linien-server]: success
+[2024-04-05 15:13:05] INFO root fetch - processPackages [kv-api]: Downloading https://files.pythonhosted.org/packages/98/51/03d2220e74ff1a9f18ce80af05bfb0669daf7ced1b7d0f2660b4eb83adc3/kv-api-0.1.0.tar.gz
+[2024-04-05 15:13:05] INFO root fetch - processPackages [esssans]: Downloading https://files.pythonhosted.org/packages/af/e7/c26a4e1b3d32fadd1990f006b935cf00b69f052eeced960c0fcaf240a441/esssans-24.2.0.tar.gz
+[2024-04-05 15:13:05] WARNING root fetch - processPackages [kv-api]: Timeout reached during download
+[2024-04-05 15:13:05] INFO root fetch - processPackages [odoo-addon-stock-release-channel]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_stock_release_channel-16.0.2.8.0-py3-none-any.whl.zip]
+[2024-04-05 15:13:05] INFO root fetch - processPackages [odoo-addon-stock-release-channel]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_stock_release_channel-16.0.2.9.0-py3-none-any.whl.zip]
+[2024-04-05 15:13:05] INFO root fetch - main [MainThread]: End processing [odoo-addon-stock-release-channel]: success
+[2024-04-05 15:13:05] WARNING root fetch - processPackages [esssans]: Timeout reached during download
+[2024-04-05 15:13:05] INFO root fetch - processPackages [linien-gui]: Remove: archive file [/home/abi/fetcher/tmp/linien-gui-1.0.2.tar.gz]
+[2024-04-05 15:13:05] INFO root fetch - processPackages [linien-gui]: Remove: archive file [/home/abi/fetcher/tmp/linien-gui-1.0.2rc1.tar.gz]
+[2024-04-05 15:13:05] INFO root fetch - main [MainThread]: End processing [linien-gui]: success
+[2024-04-05 15:13:05] INFO root fetch - processPackages [aa-fleetpings]: Remove: archive file [/home/abi/fetcher/tmp/aa_fleetpings-3.0.0.tar.gz]
+[2024-04-05 15:13:05] INFO root fetch - processPackages [aa-fleetpings]: Remove: archive file [/home/abi/fetcher/tmp/aa_fleetpings-3.0.0b1.tar.gz]
+[2024-04-05 15:13:05] INFO root fetch - main [MainThread]: End processing [aa-fleetpings]: success
+[2024-04-05 15:13:05] INFO root fetch - processPackages [mal-toolbox]: Remove: archive file [/home/abi/fetcher/tmp/mal_toolbox-0.0.8-py3-none-any.whl.zip]
+[2024-04-05 15:13:05] INFO root fetch - processPackages [mal-toolbox]: Remove: archive file [/home/abi/fetcher/tmp/mal_toolbox-0.0.9-py3-none-any.whl.zip]
+[2024-04-05 15:13:05] INFO root fetch - main [MainThread]: End processing [mal-toolbox]: success
+[2024-04-05 15:13:05] INFO root fetch - processPackages [fpsample]: Remove: archive file [/home/abi/fetcher/tmp/fpsample-0.3.1.tar.gz]
+[2024-04-05 15:13:05] INFO root fetch - processPackages [fpsample]: Remove: archive file [/home/abi/fetcher/tmp/fpsample-0.3.2.tar.gz]
+[2024-04-05 15:13:05] INFO root fetch - main [MainThread]: End processing [fpsample]: success
+[2024-04-05 15:13:05] INFO root fetch - processPackages [axion]: Remove: archive file [/home/abi/fetcher/tmp/axion-4.1.5-cp312-none-win_amd64.whl.zip]
+[2024-04-05 15:13:05] INFO root fetch - processPackages [axion]: Remove: archive file [/home/abi/fetcher/tmp/axion-4.1.6-cp312-none-win_amd64.whl.zip]
+[2024-04-05 15:13:05] INFO root fetch - main [MainThread]: End processing [axion]: success
+[2024-04-05 15:13:05] INFO root fetch - processPackages [kv-api]: Downloading https://files.pythonhosted.org/packages/ae/ab/5747c39611327bf5efbdb48a70333df18eec18264f01e71f7eb119b6590a/kv-api-0.1.1.tar.gz
+[2024-04-05 15:13:05] INFO root fetch - processPackages [odoo-addon-stock-release-channel-plan]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_stock_release_channel_plan-16.0.1.2.0-py3-none-any.whl.zip]
+[2024-04-05 15:13:05] INFO root fetch - processPackages [odoo-addon-stock-release-channel-plan]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_stock_release_channel_plan-16.0.1.3.0-py3-none-any.whl.zip]
+[2024-04-05 15:13:05] INFO root fetch - main [MainThread]: End processing [odoo-addon-stock-release-channel-plan]: success
+[2024-04-05 15:13:05] INFO root fetch - processPackages [esssans]: Downloading https://files.pythonhosted.org/packages/30/c0/e95ad571c62378c737429c41c1d10f560a753effe21b5e8f0f96a740fc29/esssans-24.4.0.tar.gz
+[2024-04-05 15:13:06] WARNING root fetch - processPackages [kv-api]: Timeout reached during download
+[2024-04-05 15:13:06] INFO root fetch - processPackages [kv-api]: executing diffoscope
+[2024-04-05 15:13:06] INFO root fetch - processPackages [kv-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kv-api-0.1.0.tar.gz tmp/kv-api-0.1.1.tar.gz --markdown 20240405/k/kv-api/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2024-04-05 15:13:06] WARNING root fetch - processPackages [esssans]: Timeout reached during download
+[2024-04-05 15:13:06] INFO root fetch - processPackages [esssans]: executing diffoscope
+[2024-04-05 15:13:06] INFO root fetch - processPackages [esssans]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/esssans-24.2.0.tar.gz tmp/esssans-24.4.0.tar.gz --markdown 20240405/e/esssans/24.2.0-24.4.0/diff.md --exclude *.pyd
+[2024-04-05 15:13:06] INFO root fetch - processPackages [kv-api]: Remove: archive file [/home/abi/fetcher/tmp/kv-api-0.1.0.tar.gz]
+[2024-04-05 15:13:06] INFO root fetch - processPackages [kv-api]: Remove: archive file [/home/abi/fetcher/tmp/kv-api-0.1.1.tar.gz]
+[2024-04-05 15:13:06] INFO root fetch - main [MainThread]: End processing [kv-api]: success
+[2024-04-05 15:13:07] INFO root fetch - processPackages [esssans]: Remove: archive file [/home/abi/fetcher/tmp/esssans-24.2.0.tar.gz]
+[2024-04-05 15:13:07] INFO root fetch - processPackages [esssans]: Remove: archive file [/home/abi/fetcher/tmp/esssans-24.4.0.tar.gz]
+[2024-04-05 15:13:07] INFO root fetch - main [MainThread]: End processing [esssans]: success
+[2024-04-05 15:13:07] INFO root fetch - main [MainThread]: Store serial: [22636492]
