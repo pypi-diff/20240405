@@ -21324,3 +21324,61 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2024-04-05 13:47:47] WARNING root fetch - processPackages [apptrackr]: Skipping, unable to determine old version
 [2024-04-05 13:47:47] INFO root fetch - main [MainThread]: End processing [apptrackr] error
 [2024-04-05 13:47:47] INFO root fetch - main [MainThread]: Store serial: [22635496]
+[2024-04-05 13:49:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22635496]
+[2024-04-05 13:49:56] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-05 13:49:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nonebot-plugin-alconna
+[2024-04-05 13:49:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: khoj-assistant
+[2024-04-05 13:49:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyannote.database
+[2024-04-05 13:49:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: causadb
+[2024-04-05 13:49:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: swahilipro
+[2024-04-05 13:49:56] INFO root fetch - processPackages [causadb]: New version: [1.7.0] Old Version: [1.6.0]
+[2024-04-05 13:49:56] INFO root fetch - processPackages [pyannote.database]: New version: [5.0.1] Old Version: [5.0.0]
+[2024-04-05 13:49:56] INFO root fetch - processPackages [khoj-assistant]: New version: [1.8.1.dev63] Old Version: [1.8.1.dev62]
+[2024-04-05 13:49:56] INFO root fetch - processPackages [swahilipro]: New version: [2.2.9] Old Version: [2.2.7]
+[2024-04-05 13:49:56] INFO root fetch - processPackages [nonebot-plugin-alconna]: New version: [0.9.3] Old Version: [0.9.0]
+[2024-04-05 13:49:56] INFO root fetch - processPackages [khoj-assistant]: Downloading https://files.pythonhosted.org/packages/f2/63/c2c69e95f65e6beb19fdffe9d557d2223499798f75d4fece9a1427668bf6/khoj_assistant-1.8.1.dev62.tar.gz
+[2024-04-05 13:49:56] INFO root fetch - processPackages [pyannote.database]: Downloading https://files.pythonhosted.org/packages/37/80/eea26accf443870f656849e312cccade3c307ed274c69a6789c5d611d9c3/pyannote.database-5.0.0.tar.gz
+[2024-04-05 13:49:57] WARNING root fetch - processPackages [pyannote.database]: Timeout reached during download
+[2024-04-05 13:49:57] INFO root fetch - processPackages [nonebot-plugin-alconna]: Downloading https://files.pythonhosted.org/packages/c8/67/1065373af14f845f6112a3d2cb8d6187d838b4c0d90d89282ccef9f5133d/nonebot-plugin-alconna-0.9.0.tar.gz
+[2024-04-05 13:49:57] INFO root fetch - processPackages [swahilipro]: Downloading https://files.pythonhosted.org/packages/ed/db/968d1643e3e619b7002d244d1eec7a5d38a5ddee787e80fb28659de47bdf/swahilipro-2.2.7.tar.gz
+[2024-04-05 13:49:57] INFO root fetch - processPackages [causadb]: Downloading https://files.pythonhosted.org/packages/8a/88/83e98f7d33425028bcca487aeee65055ab6eceb4357a020277db66837bba/causadb-1.6.0.tar.gz
+[2024-04-05 13:49:57] WARNING root fetch - processPackages [khoj-assistant]: Timeout reached during download
+[2024-04-05 13:49:57] WARNING root fetch - processPackages [nonebot-plugin-alconna]: Timeout reached during download
+[2024-04-05 13:49:57] INFO root fetch - processPackages [pyannote.database]: Downloading https://files.pythonhosted.org/packages/ea/29/30a1699f32966e76ee2b4a28d40b39ce98bf6bd4796b12e3f4642f6e89cf/pyannote.database-5.0.1.tar.gz
+[2024-04-05 13:49:57] WARNING root fetch - processPackages [causadb]: Timeout reached during download
+[2024-04-05 13:49:57] WARNING root fetch - processPackages [swahilipro]: Timeout reached during download
+[2024-04-05 13:49:57] INFO root fetch - processPackages [causadb]: Downloading https://files.pythonhosted.org/packages/1d/f1/3c5a7bd7fdda5940f9a105cccd99c7d2ea31ba840afbba530eb274d760ed/causadb-1.7.0.tar.gz
+[2024-04-05 13:49:57] INFO root fetch - processPackages [nonebot-plugin-alconna]: Downloading https://files.pythonhosted.org/packages/f4/fd/830dd6604cd5dc44a467d959ff595e8da0a087d9b75368acaecfc83c3417/nonebot_plugin_alconna-0.9.3.tar.gz
+[2024-04-05 13:49:57] WARNING root fetch - processPackages [pyannote.database]: Timeout reached during download
+[2024-04-05 13:49:57] INFO root fetch - processPackages [pyannote.database]: executing diffoscope
+[2024-04-05 13:49:57] INFO root fetch - processPackages [pyannote.database]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyannote.database-5.0.0.tar.gz tmp/pyannote.database-5.0.1.tar.gz --markdown 20240405/p/pyannote.database/5.0.0-5.0.1/diff.md --exclude *.pyd
+[2024-04-05 13:49:57] INFO root fetch - processPackages [khoj-assistant]: Downloading https://files.pythonhosted.org/packages/47/77/b1216b1821ba9a6aabbb98cc4f90a1d04e036bf3bc743c3bc0e0e12cbada/khoj_assistant-1.8.1.dev63.tar.gz
+[2024-04-05 13:49:57] WARNING root fetch - processPackages [nonebot-plugin-alconna]: Timeout reached during download
+[2024-04-05 13:49:57] INFO root fetch - processPackages [nonebot-plugin-alconna]: executing diffoscope
+[2024-04-05 13:49:57] INFO root fetch - processPackages [nonebot-plugin-alconna]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot-plugin-alconna-0.9.0.tar.gz tmp/nonebot_plugin_alconna-0.9.3.tar.gz --markdown 20240405/n/nonebot-plugin-alconna/0.9.0-0.9.3/diff.md --exclude *.pyd
+[2024-04-05 13:49:57] INFO root fetch - processPackages [swahilipro]: Downloading https://files.pythonhosted.org/packages/ec/0b/ee8c0c272727a48910e1abf795a35a961ffe1ff20acc1ce044e77d353271/swahilipro-2.2.9.tar.gz
+[2024-04-05 13:49:57] WARNING root fetch - processPackages [causadb]: Timeout reached during download
+[2024-04-05 13:49:57] INFO root fetch - processPackages [causadb]: executing diffoscope
+[2024-04-05 13:49:57] INFO root fetch - processPackages [causadb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/causadb-1.6.0.tar.gz tmp/causadb-1.7.0.tar.gz --markdown 20240405/c/causadb/1.6.0-1.7.0/diff.md --exclude *.pyd
+[2024-04-05 13:49:57] WARNING root fetch - processPackages [khoj-assistant]: Timeout reached during download
+[2024-04-05 13:49:57] INFO root fetch - processPackages [khoj-assistant]: executing diffoscope
+[2024-04-05 13:49:57] INFO root fetch - processPackages [khoj-assistant]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/khoj_assistant-1.8.1.dev62.tar.gz tmp/khoj_assistant-1.8.1.dev63.tar.gz --markdown 20240405/k/khoj-assistant/1.8.1.dev62-1.8.1.dev63/diff.md --exclude *.pyd
+[2024-04-05 13:49:57] WARNING root fetch - processPackages [swahilipro]: Timeout reached during download
+[2024-04-05 13:49:57] INFO root fetch - processPackages [swahilipro]: executing diffoscope
+[2024-04-05 13:49:57] INFO root fetch - processPackages [swahilipro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/swahilipro-2.2.7.tar.gz tmp/swahilipro-2.2.9.tar.gz --markdown 20240405/s/swahilipro/2.2.7-2.2.9/diff.md --exclude *.pyd
+[2024-04-05 13:49:58] INFO root fetch - processPackages [pyannote.database]: Remove: archive file [/home/abi/fetcher/tmp/pyannote.database-5.0.0.tar.gz]
+[2024-04-05 13:49:58] INFO root fetch - processPackages [pyannote.database]: Remove: archive file [/home/abi/fetcher/tmp/pyannote.database-5.0.1.tar.gz]
+[2024-04-05 13:49:58] INFO root fetch - main [MainThread]: End processing [pyannote.database]: success
+[2024-04-05 13:49:58] INFO root fetch - processPackages [nonebot-plugin-alconna]: Remove: archive file [/home/abi/fetcher/tmp/nonebot-plugin-alconna-0.9.0.tar.gz]
+[2024-04-05 13:49:58] INFO root fetch - processPackages [nonebot-plugin-alconna]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_alconna-0.9.3.tar.gz]
+[2024-04-05 13:49:58] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-alconna]: success
+[2024-04-05 13:49:58] INFO root fetch - processPackages [causadb]: Remove: archive file [/home/abi/fetcher/tmp/causadb-1.6.0.tar.gz]
+[2024-04-05 13:49:58] INFO root fetch - processPackages [causadb]: Remove: archive file [/home/abi/fetcher/tmp/causadb-1.7.0.tar.gz]
+[2024-04-05 13:49:58] INFO root fetch - main [MainThread]: End processing [causadb]: success
+[2024-04-05 13:49:58] INFO root fetch - processPackages [swahilipro]: Remove: archive file [/home/abi/fetcher/tmp/swahilipro-2.2.7.tar.gz]
+[2024-04-05 13:49:58] INFO root fetch - processPackages [swahilipro]: Remove: archive file [/home/abi/fetcher/tmp/swahilipro-2.2.9.tar.gz]
+[2024-04-05 13:49:58] INFO root fetch - main [MainThread]: End processing [swahilipro]: success
+[2024-04-05 13:49:58] INFO root fetch - processPackages [khoj-assistant]: Remove: archive file [/home/abi/fetcher/tmp/khoj_assistant-1.8.1.dev62.tar.gz]
+[2024-04-05 13:49:58] INFO root fetch - processPackages [khoj-assistant]: Remove: archive file [/home/abi/fetcher/tmp/khoj_assistant-1.8.1.dev63.tar.gz]
+[2024-04-05 13:49:58] INFO root fetch - main [MainThread]: End processing [khoj-assistant]: success
+[2024-04-05 13:49:58] INFO root fetch - main [MainThread]: Store serial: [22635512]
