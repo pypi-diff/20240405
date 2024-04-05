@@ -20033,3 +20033,39 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2024-04-05 12:53:40] INFO root fetch - processPackages [pygambit]: Remove: archive file [/home/abi/fetcher/tmp/pygambit-16.2.0.tar.gz]
 [2024-04-05 12:53:40] INFO root fetch - main [MainThread]: End processing [pygambit]: success
 [2024-04-05 12:53:40] INFO root fetch - main [MainThread]: Store serial: [22634907]
+[2024-04-05 12:55:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22634907]
+[2024-04-05 12:55:50] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-05 12:55:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: click-extra
+[2024-04-05 12:55:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: vk-teams-async-bot
+[2024-04-05 12:55:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: so-ml-tools
+[2024-04-05 12:55:50] INFO root fetch - processPackages [so-ml-tools]: New version: [0.1.99] Old Version: [0.1.98]
+[2024-04-05 12:55:50] INFO root fetch - processPackages [so-ml-tools]: Downloading https://files.pythonhosted.org/packages/fc/30/cfb5b7cf1b6c3d4b7759e52aaf120234d88b23cda57cfa671f342c8928d9/so-ml-tools-0.1.98.tar.gz
+[2024-04-05 12:55:50] INFO root fetch - processPackages [vk-teams-async-bot]: New version: [0.2.0] Old Version: [0.1.5]
+[2024-04-05 12:55:50] INFO root fetch - processPackages [click-extra]: New version: [4.7.5] Old Version: [4.7.4]
+[2024-04-05 12:55:50] WARNING root fetch - processPackages [so-ml-tools]: Timeout reached during download
+[2024-04-05 12:55:50] INFO root fetch - processPackages [vk-teams-async-bot]: Downloading https://files.pythonhosted.org/packages/a3/8a/0f90bf8a0ba40ba86e8a72e55713d9c2b7fd95636ac0e61e1aece9581153/vk_teams_async_bot-0.1.5.tar.gz
+[2024-04-05 12:55:50] INFO root fetch - processPackages [click-extra]: Downloading https://files.pythonhosted.org/packages/34/11/238818a752d941fb4999d324ae462448108c8dd2bf2183ede0a2eeeb55c5/click_extra-4.7.4.tar.gz
+[2024-04-05 12:55:50] INFO root fetch - processPackages [so-ml-tools]: Downloading https://files.pythonhosted.org/packages/81/44/0ba41cd45b341c34829d9698a1a7295a871d04bec34718944a8d469046a7/so-ml-tools-0.1.99.tar.gz
+[2024-04-05 12:55:50] WARNING root fetch - processPackages [click-extra]: Timeout reached during download
+[2024-04-05 12:55:50] WARNING root fetch - processPackages [so-ml-tools]: Timeout reached during download
+[2024-04-05 12:55:50] INFO root fetch - processPackages [so-ml-tools]: executing diffoscope
+[2024-04-05 12:55:50] INFO root fetch - processPackages [so-ml-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/so-ml-tools-0.1.98.tar.gz tmp/so-ml-tools-0.1.99.tar.gz --markdown 20240405/s/so-ml-tools/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2024-04-05 12:55:51] WARNING root fetch - processPackages [vk-teams-async-bot]: Timeout reached during download
+[2024-04-05 12:55:51] INFO root fetch - processPackages [click-extra]: Downloading https://files.pythonhosted.org/packages/5f/1c/f4994753da10be8f785b093da4bc86942930e86a78d3216aa2cce6371f69/click_extra-4.7.5.tar.gz
+[2024-04-05 12:55:51] INFO root fetch - processPackages [vk-teams-async-bot]: Downloading https://files.pythonhosted.org/packages/ed/5e/ff666062e69de7d61309e4200eb119684bd823721ba9829b2170c0e78030/vk_teams_async_bot-0.2.0.tar.gz
+[2024-04-05 12:55:51] WARNING root fetch - processPackages [click-extra]: Timeout reached during download
+[2024-04-05 12:55:51] INFO root fetch - processPackages [click-extra]: executing diffoscope
+[2024-04-05 12:55:51] INFO root fetch - processPackages [click-extra]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/click_extra-4.7.4.tar.gz tmp/click_extra-4.7.5.tar.gz --markdown 20240405/c/click-extra/4.7.4-4.7.5/diff.md --exclude *.pyd
+[2024-04-05 12:55:51] WARNING root fetch - processPackages [vk-teams-async-bot]: Timeout reached during download
+[2024-04-05 12:55:51] INFO root fetch - processPackages [vk-teams-async-bot]: executing diffoscope
+[2024-04-05 12:55:51] INFO root fetch - processPackages [vk-teams-async-bot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vk_teams_async_bot-0.1.5.tar.gz tmp/vk_teams_async_bot-0.2.0.tar.gz --markdown 20240405/v/vk-teams-async-bot/0.1.5-0.2.0/diff.md --exclude *.pyd
+[2024-04-05 12:55:51] INFO root fetch - processPackages [so-ml-tools]: Remove: archive file [/home/abi/fetcher/tmp/so-ml-tools-0.1.98.tar.gz]
+[2024-04-05 12:55:51] INFO root fetch - processPackages [so-ml-tools]: Remove: archive file [/home/abi/fetcher/tmp/so-ml-tools-0.1.99.tar.gz]
+[2024-04-05 12:55:51] INFO root fetch - main [MainThread]: End processing [so-ml-tools]: success
+[2024-04-05 12:55:51] INFO root fetch - processPackages [vk-teams-async-bot]: Remove: archive file [/home/abi/fetcher/tmp/vk_teams_async_bot-0.1.5.tar.gz]
+[2024-04-05 12:55:51] INFO root fetch - processPackages [vk-teams-async-bot]: Remove: archive file [/home/abi/fetcher/tmp/vk_teams_async_bot-0.2.0.tar.gz]
+[2024-04-05 12:55:51] INFO root fetch - main [MainThread]: End processing [vk-teams-async-bot]: success
+[2024-04-05 12:55:52] INFO root fetch - processPackages [click-extra]: Remove: archive file [/home/abi/fetcher/tmp/click_extra-4.7.4.tar.gz]
+[2024-04-05 12:55:52] INFO root fetch - processPackages [click-extra]: Remove: archive file [/home/abi/fetcher/tmp/click_extra-4.7.5.tar.gz]
+[2024-04-05 12:55:52] INFO root fetch - main [MainThread]: End processing [click-extra]: success
+[2024-04-05 12:55:52] INFO root fetch - main [MainThread]: Store serial: [22634917]
