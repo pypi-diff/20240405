@@ -15676,3 +15676,72 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2024-04-05 10:02:39] INFO root fetch - processPackages [windmill-api]: Remove: archive file [/home/abi/fetcher/tmp/windmill_api-1.99.0.tar.gz]
 [2024-04-05 10:02:39] INFO root fetch - main [MainThread]: End processing [windmill-api]: success
 [2024-04-05 10:02:39] INFO root fetch - main [MainThread]: Store serial: [22633109]
+[2024-04-05 10:04:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22633109]
+[2024-04-05 10:04:48] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-05 10:04:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ontolutils
+[2024-04-05 10:04:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: openobd-protocol
+[2024-04-05 10:04:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: radical.pilot
+[2024-04-05 10:04:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: langfun
+[2024-04-05 10:04:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: kafka-broker
+[2024-04-05 10:04:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: Metage2Metabo
+[2024-04-05 10:04:48] INFO root fetch - processPackages [radical.pilot]: New version: [1.9.2] Old Version: [1.9.1]
+[2024-04-05 10:04:48] INFO root fetch - processPackages [ontolutils]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-04-05 10:04:48] INFO root fetch - processPackages [Metage2Metabo]: New version: [1.6.1] Old Version: [1.6.0]
+[2024-04-05 10:04:48] INFO root fetch - processPackages [openobd-protocol]: New version: [0.0.34] Old Version: [0.0.33]
+[2024-04-05 10:04:48] INFO root fetch - processPackages [langfun]: New version: [0.0.2.dev20240405] Old Version: [0.0.2.dev20240404]
+[2024-04-05 10:04:48] INFO root fetch - processPackages [kafka-broker]: New version: [0.3.2] Old Version: [0.3.1]
+[2024-04-05 10:04:48] INFO root fetch - processPackages [radical.pilot]: Downloading https://files.pythonhosted.org/packages/c3/7c/d31f91fe541d7d29492a0ea8cfa2445f16b9148c03c1d86fd84515a50a24/radical.pilot-1.9.1.tar.gz
+[2024-04-05 10:04:48] INFO root fetch - processPackages [ontolutils]: Downloading https://files.pythonhosted.org/packages/f6/e1/1ab61f2fca8a2308ddd475f96984ae017ca7a346daca38414f441db15b2f/ontolutils-0.2.8.tar.gz
+[2024-04-05 10:04:48] INFO root fetch - processPackages [openobd-protocol]: Downloading https://files.pythonhosted.org/packages/52/cb/c018658147221308329ff368fccf3a46c5bbc909930e88a225d7a8c50bba/openobd-protocol-0.0.33.tar.gz
+[2024-04-05 10:04:48] INFO root fetch - processPackages [langfun]: Downloading https://files.pythonhosted.org/packages/8d/10/af84f3f65c39b1dcae086577c75e02424b1a3de02b38ba2411c9c0bd5e63/langfun-0.0.2.dev20240404.tar.gz
+[2024-04-05 10:04:48] INFO root fetch - processPackages [kafka-broker]: Downloading https://files.pythonhosted.org/packages/ee/a8/75f47fa21974fc31a71002d3a0adb26e9f12160fc7d581c3d9c4d163d5a7/kafka-broker-0.3.1.tar.gz
+[2024-04-05 10:04:48] INFO root fetch - processPackages [Metage2Metabo]: Downloading https://files.pythonhosted.org/packages/67/82/0e7361ce9f6658442385f41fb02df986088ff8ed22a90bd35085f6e80276/Metage2Metabo-1.6.0.tar.gz
+[2024-04-05 10:04:49] WARNING root fetch - processPackages [ontolutils]: Timeout reached during download
+[2024-04-05 10:04:49] WARNING root fetch - processPackages [langfun]: Timeout reached during download
+[2024-04-05 10:04:49] WARNING root fetch - processPackages [openobd-protocol]: Timeout reached during download
+[2024-04-05 10:04:49] WARNING root fetch - processPackages [kafka-broker]: Timeout reached during download
+[2024-04-05 10:04:49] INFO root fetch - processPackages [ontolutils]: Downloading https://files.pythonhosted.org/packages/3b/2f/d56fd379346d9aaa5800c7b533d5298c1ce6dda56a899ae0494ec9bdd672/ontolutils-0.2.9.tar.gz
+[2024-04-05 10:04:49] INFO root fetch - processPackages [langfun]: Downloading https://files.pythonhosted.org/packages/70/61/19e06dd9a7d64700684d86ef23cf7c1ad3ee2f37eeb958fa640a27a494a5/langfun-0.0.2.dev20240405.tar.gz
+[2024-04-05 10:04:49] INFO root fetch - processPackages [openobd-protocol]: Downloading https://files.pythonhosted.org/packages/3e/8d/5ab3e34fa9b55bdb956b7ecbb8ef7c1a6f8ccc3d9a3f74d6e4e35bcd31da/openobd-protocol-0.0.34.tar.gz
+[2024-04-05 10:04:49] WARNING root fetch - processPackages [Metage2Metabo]: Timeout reached during download
+[2024-04-05 10:04:49] INFO root fetch - processPackages [kafka-broker]: Downloading https://files.pythonhosted.org/packages/bf/32/1788be85a63769646bfb3e5e94107b426ec3c39cb7bdae0750bc37073596/kafka-broker-0.3.2.tar.gz
+[2024-04-05 10:04:49] WARNING root fetch - processPackages [openobd-protocol]: Timeout reached during download
+[2024-04-05 10:04:49] INFO root fetch - processPackages [openobd-protocol]: executing diffoscope
+[2024-04-05 10:04:49] INFO root fetch - processPackages [openobd-protocol]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openobd-protocol-0.0.33.tar.gz tmp/openobd-protocol-0.0.34.tar.gz --markdown 20240405/o/openobd-protocol/0.0.33-0.0.34/diff.md --exclude *.pyd
+[2024-04-05 10:04:49] WARNING root fetch - processPackages [ontolutils]: Timeout reached during download
+[2024-04-05 10:04:49] INFO root fetch - processPackages [ontolutils]: executing diffoscope
+[2024-04-05 10:04:49] INFO root fetch - processPackages [ontolutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ontolutils-0.2.8.tar.gz tmp/ontolutils-0.2.9.tar.gz --markdown 20240405/o/ontolutils/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2024-04-05 10:04:49] WARNING root fetch - processPackages [langfun]: Timeout reached during download
+[2024-04-05 10:04:49] INFO root fetch - processPackages [langfun]: executing diffoscope
+[2024-04-05 10:04:49] INFO root fetch - processPackages [langfun]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langfun-0.0.2.dev20240404.tar.gz tmp/langfun-0.0.2.dev20240405.tar.gz --markdown 20240405/l/langfun/0.0.2.dev20240404-0.0.2.dev20240405/diff.md --exclude *.pyd
+[2024-04-05 10:04:49] WARNING root fetch - processPackages [kafka-broker]: Timeout reached during download
+[2024-04-05 10:04:49] INFO root fetch - processPackages [kafka-broker]: executing diffoscope
+[2024-04-05 10:04:49] INFO root fetch - processPackages [kafka-broker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kafka-broker-0.3.1.tar.gz tmp/kafka-broker-0.3.2.tar.gz --markdown 20240405/k/kafka-broker/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2024-04-05 10:04:49] INFO root fetch - processPackages [Metage2Metabo]: Downloading https://files.pythonhosted.org/packages/63/f2/76d1dc786052da771fcfad09137243cec6d5d7e6566a4402540c877c50cb/Metage2Metabo-1.6.1.tar.gz
+[2024-04-05 10:04:49] WARNING root fetch - processPackages [radical.pilot]: Timeout reached during download
+[2024-04-05 10:04:49] INFO root fetch - processPackages [radical.pilot]: Downloading https://files.pythonhosted.org/packages/40/26/f7f501f7fba04c9d801b429736b04dcf8fe30e907caf6f1ff0bb543bf31b/radical.pilot-1.9.2.tar.gz
+[2024-04-05 10:04:50] INFO root fetch - processPackages [openobd-protocol]: Remove: archive file [/home/abi/fetcher/tmp/openobd-protocol-0.0.33.tar.gz]
+[2024-04-05 10:04:50] INFO root fetch - processPackages [openobd-protocol]: Remove: archive file [/home/abi/fetcher/tmp/openobd-protocol-0.0.34.tar.gz]
+[2024-04-05 10:04:50] INFO root fetch - main [MainThread]: End processing [openobd-protocol]: success
+[2024-04-05 10:04:50] INFO root fetch - processPackages [kafka-broker]: Remove: archive file [/home/abi/fetcher/tmp/kafka-broker-0.3.1.tar.gz]
+[2024-04-05 10:04:50] INFO root fetch - processPackages [kafka-broker]: Remove: archive file [/home/abi/fetcher/tmp/kafka-broker-0.3.2.tar.gz]
+[2024-04-05 10:04:50] INFO root fetch - main [MainThread]: End processing [kafka-broker]: success
+[2024-04-05 10:04:50] WARNING root fetch - processPackages [radical.pilot]: Timeout reached during download
+[2024-04-05 10:04:50] INFO root fetch - processPackages [radical.pilot]: executing diffoscope
+[2024-04-05 10:04:50] INFO root fetch - processPackages [radical.pilot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/radical.pilot-1.9.1.tar.gz tmp/radical.pilot-1.9.2.tar.gz --markdown 20240405/r/radical.pilot/1.9.1-1.9.2/diff.md --exclude *.pyd
+[2024-04-05 10:04:50] INFO root fetch - processPackages [langfun]: Remove: archive file [/home/abi/fetcher/tmp/langfun-0.0.2.dev20240404.tar.gz]
+[2024-04-05 10:04:50] INFO root fetch - processPackages [langfun]: Remove: archive file [/home/abi/fetcher/tmp/langfun-0.0.2.dev20240405.tar.gz]
+[2024-04-05 10:04:50] INFO root fetch - main [MainThread]: End processing [langfun]: success
+[2024-04-05 10:04:50] WARNING root fetch - processPackages [Metage2Metabo]: Timeout reached during download
+[2024-04-05 10:04:50] INFO root fetch - processPackages [Metage2Metabo]: executing diffoscope
+[2024-04-05 10:04:50] INFO root fetch - processPackages [Metage2Metabo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Metage2Metabo-1.6.0.tar.gz tmp/Metage2Metabo-1.6.1.tar.gz --markdown 20240405/M/Metage2Metabo/1.6.0-1.6.1/diff.md --exclude *.pyd
+[2024-04-05 10:04:50] INFO root fetch - processPackages [ontolutils]: Remove: archive file [/home/abi/fetcher/tmp/ontolutils-0.2.8.tar.gz]
+[2024-04-05 10:04:50] INFO root fetch - processPackages [ontolutils]: Remove: archive file [/home/abi/fetcher/tmp/ontolutils-0.2.9.tar.gz]
+[2024-04-05 10:04:50] INFO root fetch - main [MainThread]: End processing [ontolutils]: success
+[2024-04-05 10:04:51] INFO root fetch - processPackages [radical.pilot]: Remove: archive file [/home/abi/fetcher/tmp/radical.pilot-1.9.1.tar.gz]
+[2024-04-05 10:04:51] INFO root fetch - processPackages [radical.pilot]: Remove: archive file [/home/abi/fetcher/tmp/radical.pilot-1.9.2.tar.gz]
+[2024-04-05 10:04:51] INFO root fetch - main [MainThread]: End processing [radical.pilot]: success
+[2024-04-05 10:04:51] INFO root fetch - processPackages [Metage2Metabo]: Remove: archive file [/home/abi/fetcher/tmp/Metage2Metabo-1.6.0.tar.gz]
+[2024-04-05 10:04:51] INFO root fetch - processPackages [Metage2Metabo]: Remove: archive file [/home/abi/fetcher/tmp/Metage2Metabo-1.6.1.tar.gz]
+[2024-04-05 10:04:51] INFO root fetch - main [MainThread]: End processing [Metage2Metabo]: success
+[2024-04-05 10:04:51] INFO root fetch - main [MainThread]: Store serial: [22633128]
