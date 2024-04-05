@@ -9892,3 +9892,17 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2024-04-05 04:43:39] INFO root fetch - processPackages [litellm]: Remove: archive file [/home/abi/fetcher/tmp/litellm-1.9.dev0.tar.gz]
 [2024-04-05 04:43:39] INFO root fetch - main [MainThread]: End processing [litellm]: success
 [2024-04-05 04:43:39] INFO root fetch - main [MainThread]: Store serial: [22631277]
+[2024-04-05 04:45:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22631277]
+[2024-04-05 04:45:48] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-04-05 04:45:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: grrshell
+[2024-04-05 04:45:48] INFO root fetch - processPackages [grrshell]: New version: [20240405] Old Version: [20231227]
+[2024-04-05 04:45:48] INFO root fetch - processPackages [grrshell]: Downloading https://files.pythonhosted.org/packages/1e/81/e6039152e3819b47483bee0ca0073fe400fecccf7e2e83c9f895fd4b416f/grrshell-20231227.tar.gz
+[2024-04-05 04:45:48] WARNING root fetch - processPackages [grrshell]: Timeout reached during download
+[2024-04-05 04:45:48] INFO root fetch - processPackages [grrshell]: Downloading https://files.pythonhosted.org/packages/dc/58/f1f5ad8bca747b8bd989eb63792d69d19c1c1af51f7234598bc96acb5b9f/grrshell-20240405.tar.gz
+[2024-04-05 04:45:49] WARNING root fetch - processPackages [grrshell]: Timeout reached during download
+[2024-04-05 04:45:49] INFO root fetch - processPackages [grrshell]: executing diffoscope
+[2024-04-05 04:45:49] INFO root fetch - processPackages [grrshell]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/grrshell-20231227.tar.gz tmp/grrshell-20240405.tar.gz --markdown 20240405/g/grrshell/20231227-20240405/diff.md --exclude *.pyd
+[2024-04-05 04:45:49] INFO root fetch - processPackages [grrshell]: Remove: archive file [/home/abi/fetcher/tmp/grrshell-20231227.tar.gz]
+[2024-04-05 04:45:49] INFO root fetch - processPackages [grrshell]: Remove: archive file [/home/abi/fetcher/tmp/grrshell-20240405.tar.gz]
+[2024-04-05 04:45:49] INFO root fetch - main [MainThread]: End processing [grrshell]: success
+[2024-04-05 04:45:49] INFO root fetch - main [MainThread]: Store serial: [22631280]
