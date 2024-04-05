@@ -15990,3 +15990,64 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2024-04-05 10:15:54] INFO root fetch - processPackages [tablecache]: Remove: archive file [/home/abi/fetcher/tmp/tablecache-4.1.0.tar.gz]
 [2024-04-05 10:15:54] INFO root fetch - main [MainThread]: End processing [tablecache]: success
 [2024-04-05 10:15:54] INFO root fetch - main [MainThread]: Store serial: [22633326]
+[2024-04-05 10:17:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22633326]
+[2024-04-05 10:18:03] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-05 10:18:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: icutil-IGNchinmay
+[2024-04-05 10:18:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: rebookmaker
+[2024-04-05 10:18:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: AlekSIS-App-Lesrooster
+[2024-04-05 10:18:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: qarray
+[2024-04-05 10:18:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: chronobio
+[2024-04-05 10:18:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ubi-config
+[2024-04-05 10:18:03] INFO root fetch - processPackages [qarray]: New version: [1.0.2] Old Version: [1.0.1]
+[2024-04-05 10:18:03] INFO root fetch - processPackages [icutil-IGNchinmay]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-04-05 10:18:03] INFO root fetch - processPackages [qarray]: Downloading https://files.pythonhosted.org/packages/14/33/a77159a4dee5ab740a180df26101c3ecf1ed7e2ee3683c678b9356d88737/qarray-1.0.1.tar.gz
+[2024-04-05 10:18:03] INFO root fetch - processPackages [rebookmaker]: New version: [0.8.9] Old Version: [0.8.8]
+[2024-04-05 10:18:03] INFO root fetch - processPackages [icutil-IGNchinmay]: Downloading https://files.pythonhosted.org/packages/20/89/bd0401a40a07d7e3945cdb14c4cc946fa4c5efa00040a6986abe12201963/icutil_IGNchinmay-0.0.4.tar.gz
+[2024-04-05 10:18:03] INFO root fetch - processPackages [AlekSIS-App-Lesrooster]: New version: [0.1.0.dev1] Old Version: [0.1.0.dev0]
+[2024-04-05 10:18:03] INFO root fetch - processPackages [ubi-config]: New version: [3.1.1] Old Version: [3.1.0]
+[2024-04-05 10:18:03] WARNING root fetch - processPackages [chronobio]: Skipping, unable to determine old version
+[2024-04-05 10:18:03] INFO root fetch - main [MainThread]: End processing [chronobio] error
+[2024-04-05 10:18:03] WARNING root fetch - processPackages [icutil-IGNchinmay]: Timeout reached during download
+[2024-04-05 10:18:03] WARNING root fetch - processPackages [qarray]: Timeout reached during download
+[2024-04-05 10:18:03] INFO root fetch - processPackages [rebookmaker]: Downloading https://files.pythonhosted.org/packages/5f/5d/a005fe76edfc2356b18a37a2c3d88a1044b4bc43a2c47458859730c93ce1/rebookmaker-0.8.8.tar.gz
+[2024-04-05 10:18:03] INFO root fetch - processPackages [AlekSIS-App-Lesrooster]: Downloading https://files.pythonhosted.org/packages/5a/ea/1a8c36a029ef467ced102f645dbbf1e6f53bec0939e6f950fe92b75d03e9/aleksis_app_lesrooster-0.1.0.dev0.tar.gz
+[2024-04-05 10:18:03] INFO root fetch - processPackages [icutil-IGNchinmay]: Downloading https://files.pythonhosted.org/packages/e5/9e/dfbeb1fa93fc100edf73654bb04e11c1044b1c61e437db3a44047890d790/icutil_IGNchinmay-0.0.5.tar.gz
+[2024-04-05 10:18:03] INFO root fetch - processPackages [ubi-config]: Downloading https://files.pythonhosted.org/packages/ed/81/1f8cb4422f7b4f7acc8c487fbab45783f27ae2164390ccf3bb1bb6636050/ubi-config-3.1.0.tar.gz
+[2024-04-05 10:18:03] INFO root fetch - processPackages [qarray]: Downloading https://files.pythonhosted.org/packages/66/a3/e6fca1dd5e954a53c537cd2ba100041804676bc3595852eabac5a473ac04/qarray-1.0.2.tar.gz
+[2024-04-05 10:18:03] WARNING root fetch - processPackages [icutil-IGNchinmay]: Timeout reached during download
+[2024-04-05 10:18:03] INFO root fetch - processPackages [icutil-IGNchinmay]: executing diffoscope
+[2024-04-05 10:18:03] INFO root fetch - processPackages [icutil-IGNchinmay]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/icutil_IGNchinmay-0.0.4.tar.gz tmp/icutil_IGNchinmay-0.0.5.tar.gz --markdown 20240405/i/icutil-IGNchinmay/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2024-04-05 10:18:03] WARNING root fetch - processPackages [AlekSIS-App-Lesrooster]: Timeout reached during download
+[2024-04-05 10:18:03] WARNING root fetch - processPackages [ubi-config]: Timeout reached during download
+[2024-04-05 10:18:03] WARNING root fetch - processPackages [rebookmaker]: Timeout reached during download
+[2024-04-05 10:18:03] WARNING root fetch - processPackages [qarray]: Timeout reached during download
+[2024-04-05 10:18:03] INFO root fetch - processPackages [qarray]: executing diffoscope
+[2024-04-05 10:18:03] INFO root fetch - processPackages [qarray]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qarray-1.0.1.tar.gz tmp/qarray-1.0.2.tar.gz --markdown 20240405/q/qarray/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2024-04-05 10:18:03] INFO root fetch - processPackages [AlekSIS-App-Lesrooster]: Downloading https://files.pythonhosted.org/packages/f3/4f/3f62dbcb8da5e723ab3a23797a1123185a05de9ca1e4b27d3cafe424b73d/aleksis_app_lesrooster-0.1.0.dev1.tar.gz
+[2024-04-05 10:18:04] INFO root fetch - processPackages [rebookmaker]: Downloading https://files.pythonhosted.org/packages/29/21/de4c90f990964afd135bb95ad8f38f1a100b2022ef9650d99494f5af7514/rebookmaker-0.8.9.tar.gz
+[2024-04-05 10:18:04] INFO root fetch - processPackages [ubi-config]: Downloading https://files.pythonhosted.org/packages/f5/2e/096367c7b8b1c700ad6194a0deb463daef924fcaf2d97a2124462fe7bcf1/ubi-config-3.1.1.tar.gz
+[2024-04-05 10:18:04] WARNING root fetch - processPackages [AlekSIS-App-Lesrooster]: Timeout reached during download
+[2024-04-05 10:18:04] INFO root fetch - processPackages [AlekSIS-App-Lesrooster]: executing diffoscope
+[2024-04-05 10:18:04] INFO root fetch - processPackages [AlekSIS-App-Lesrooster]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aleksis_app_lesrooster-0.1.0.dev0.tar.gz tmp/aleksis_app_lesrooster-0.1.0.dev1.tar.gz --markdown 20240405/A/AlekSIS-App-Lesrooster/0.1.0.dev0-0.1.0.dev1/diff.md --exclude *.pyd
+[2024-04-05 10:18:04] WARNING root fetch - processPackages [ubi-config]: Timeout reached during download
+[2024-04-05 10:18:04] INFO root fetch - processPackages [ubi-config]: executing diffoscope
+[2024-04-05 10:18:04] INFO root fetch - processPackages [ubi-config]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ubi-config-3.1.0.tar.gz tmp/ubi-config-3.1.1.tar.gz --markdown 20240405/u/ubi-config/3.1.0-3.1.1/diff.md --exclude *.pyd
+[2024-04-05 10:18:04] INFO root fetch - processPackages [icutil-IGNchinmay]: Remove: archive file [/home/abi/fetcher/tmp/icutil_IGNchinmay-0.0.4.tar.gz]
+[2024-04-05 10:18:04] INFO root fetch - processPackages [icutil-IGNchinmay]: Remove: archive file [/home/abi/fetcher/tmp/icutil_IGNchinmay-0.0.5.tar.gz]
+[2024-04-05 10:18:04] INFO root fetch - main [MainThread]: End processing [icutil-IGNchinmay]: success
+[2024-04-05 10:18:04] INFO root fetch - processPackages [qarray]: Remove: archive file [/home/abi/fetcher/tmp/qarray-1.0.1.tar.gz]
+[2024-04-05 10:18:04] INFO root fetch - processPackages [qarray]: Remove: archive file [/home/abi/fetcher/tmp/qarray-1.0.2.tar.gz]
+[2024-04-05 10:18:04] INFO root fetch - main [MainThread]: End processing [qarray]: success
+[2024-04-05 10:18:04] WARNING root fetch - processPackages [rebookmaker]: Timeout reached during download
+[2024-04-05 10:18:04] INFO root fetch - processPackages [rebookmaker]: executing diffoscope
+[2024-04-05 10:18:04] INFO root fetch - processPackages [rebookmaker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rebookmaker-0.8.8.tar.gz tmp/rebookmaker-0.8.9.tar.gz --markdown 20240405/r/rebookmaker/0.8.8-0.8.9/diff.md --exclude *.pyd
+[2024-04-05 10:18:04] INFO root fetch - processPackages [ubi-config]: Remove: archive file [/home/abi/fetcher/tmp/ubi-config-3.1.0.tar.gz]
+[2024-04-05 10:18:04] INFO root fetch - processPackages [ubi-config]: Remove: archive file [/home/abi/fetcher/tmp/ubi-config-3.1.1.tar.gz]
+[2024-04-05 10:18:04] INFO root fetch - main [MainThread]: End processing [ubi-config]: success
+[2024-04-05 10:18:05] INFO root fetch - processPackages [AlekSIS-App-Lesrooster]: Remove: archive file [/home/abi/fetcher/tmp/aleksis_app_lesrooster-0.1.0.dev0.tar.gz]
+[2024-04-05 10:18:05] INFO root fetch - processPackages [AlekSIS-App-Lesrooster]: Remove: archive file [/home/abi/fetcher/tmp/aleksis_app_lesrooster-0.1.0.dev1.tar.gz]
+[2024-04-05 10:18:05] INFO root fetch - main [MainThread]: End processing [AlekSIS-App-Lesrooster]: success
+[2024-04-05 10:18:05] INFO root fetch - processPackages [rebookmaker]: Remove: archive file [/home/abi/fetcher/tmp/rebookmaker-0.8.8.tar.gz]
+[2024-04-05 10:18:05] INFO root fetch - processPackages [rebookmaker]: Remove: archive file [/home/abi/fetcher/tmp/rebookmaker-0.8.9.tar.gz]
+[2024-04-05 10:18:05] INFO root fetch - main [MainThread]: End processing [rebookmaker]: success
+[2024-04-05 10:18:05] INFO root fetch - main [MainThread]: Store serial: [22633345]
