@@ -21490,3 +21490,53 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2024-04-05 13:54:20] INFO root fetch - processPackages [selva]: Remove: archive file [/home/abi/fetcher/tmp/selva-0.9.0.tar.gz]
 [2024-04-05 13:54:20] INFO root fetch - main [MainThread]: End processing [selva]: success
 [2024-04-05 13:54:20] INFO root fetch - main [MainThread]: Store serial: [22635574]
+[2024-04-05 13:56:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22635574]
+[2024-04-05 13:56:30] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-05 13:56:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dektools
+[2024-04-05 13:56:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: phdu
+[2024-04-05 13:56:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: few-shot-priming
+[2024-04-05 13:56:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: chefsessionlib
+[2024-04-05 13:56:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: kafka-broker
+[2024-04-05 13:56:30] INFO root fetch - processPackages [kafka-broker]: New version: [0.3.5] Old Version: [0.3.4]
+[2024-04-05 13:56:30] INFO root fetch - processPackages [few-shot-priming]: New version: [0.3.99] Old Version: [0.3.98]
+[2024-04-05 13:56:30] ERROR root fetch - processPackages [chefsessionlib]: Unable to get metadata: No such project 'chefsessionlib'
+[2024-04-05 13:56:30] INFO root fetch - main [MainThread]: End processing [chefsessionlib] error
+[2024-04-05 13:56:30] INFO root fetch - processPackages [dektools]: New version: [0.1.9] Old Version: [0.1.73]
+[2024-04-05 13:56:30] INFO root fetch - processPackages [phdu]: New version: [2.3.1] Old Version: [2.2b9]
+[2024-04-05 13:56:30] INFO root fetch - processPackages [kafka-broker]: Downloading https://files.pythonhosted.org/packages/41/a4/f04155c6cb61f56eb30dd9bb14f9c3caa8eb3108fd0f8f18dc0c55552046/kafka-broker-0.3.4.tar.gz
+[2024-04-05 13:56:30] INFO root fetch - processPackages [few-shot-priming]: Downloading https://files.pythonhosted.org/packages/eb/67/d15b11d0bfb57369fa16ba7f8c97cd3ddec8f771e6da8f11a3d819004b69/few_shot_priming-0.3.98-py3-none-any.whl
+[2024-04-05 13:56:30] WARNING root fetch - processPackages [kafka-broker]: Timeout reached during download
+[2024-04-05 13:56:30] INFO root fetch - processPackages [dektools]: Downloading https://files.pythonhosted.org/packages/2d/e0/191b82078520100fc6d3f4051413ff5a4636c869ed28ec7d7bbdd1279939/dektools-0.1.73.tar.gz
+[2024-04-05 13:56:30] INFO root fetch - processPackages [phdu]: Downloading https://files.pythonhosted.org/packages/97/31/499d62b57601644ca8f89b9390e118d0bcbc4fad516d2f0ffae5421ff00c/phdu-2.2b9.tar.gz
+[2024-04-05 13:56:30] WARNING root fetch - processPackages [phdu]: Timeout reached during download
+[2024-04-05 13:56:30] WARNING root fetch - processPackages [dektools]: Timeout reached during download
+[2024-04-05 13:56:30] INFO root fetch - processPackages [kafka-broker]: Downloading https://files.pythonhosted.org/packages/d9/32/7c19d881a369b6798c1b71ebefb3e09a1e820a2ae0c77adfba09446f647e/kafka-broker-0.3.5.tar.gz
+[2024-04-05 13:56:30] WARNING root fetch - processPackages [few-shot-priming]: Timeout reached during download
+[2024-04-05 13:56:30] WARNING root fetch - processPackages [kafka-broker]: Timeout reached during download
+[2024-04-05 13:56:30] INFO root fetch - processPackages [kafka-broker]: executing diffoscope
+[2024-04-05 13:56:30] INFO root fetch - processPackages [kafka-broker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kafka-broker-0.3.4.tar.gz tmp/kafka-broker-0.3.5.tar.gz --markdown 20240405/k/kafka-broker/0.3.4-0.3.5/diff.md --exclude *.pyd
+[2024-04-05 13:56:30] INFO root fetch - processPackages [few-shot-priming]: Downloading https://files.pythonhosted.org/packages/ff/11/548f6e96803602e6431dc610d736d401b20fde986f85c35c8ad19a6d0958/few_shot_priming-0.3.99-py3-none-any.whl
+[2024-04-05 13:56:30] INFO root fetch - processPackages [phdu]: Downloading https://files.pythonhosted.org/packages/b8/e4/c6e896dca11ddb45e4c6b46c5e3e8323a32e6123c1e590aeeee4b4ef1ed6/phdu-2.3.1.tar.gz
+[2024-04-05 13:56:30] INFO root fetch - processPackages [dektools]: Downloading https://files.pythonhosted.org/packages/68/56/90836602efe1f93ffb0ab3da68807fa41e85e124836bcc0c3cc2d1b2c539/dektools-0.1.9-py3-none-any.whl
+[2024-04-05 13:56:31] WARNING root fetch - processPackages [phdu]: Timeout reached during download
+[2024-04-05 13:56:31] INFO root fetch - processPackages [phdu]: executing diffoscope
+[2024-04-05 13:56:31] INFO root fetch - processPackages [phdu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/phdu-2.2b9.tar.gz tmp/phdu-2.3.1.tar.gz --markdown 20240405/p/phdu/2.2b9-2.3.1/diff.md --exclude *.pyd
+[2024-04-05 13:56:31] WARNING root fetch - processPackages [dektools]: Timeout reached during download
+[2024-04-05 13:56:31] INFO root fetch - processPackages [dektools]: executing diffoscope
+[2024-04-05 13:56:31] INFO root fetch - processPackages [dektools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dektools-0.1.73.tar.gz tmp/dektools-0.1.9-py3-none-any.whl.zip --markdown 20240405/d/dektools/0.1.73-0.1.9/diff.md --exclude *.pyd
+[2024-04-05 13:56:31] WARNING root fetch - processPackages [few-shot-priming]: Timeout reached during download
+[2024-04-05 13:56:31] INFO root fetch - processPackages [few-shot-priming]: executing diffoscope
+[2024-04-05 13:56:31] INFO root fetch - processPackages [few-shot-priming]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/few_shot_priming-0.3.98-py3-none-any.whl.zip tmp/few_shot_priming-0.3.99-py3-none-any.whl.zip --markdown 20240405/f/few-shot-priming/0.3.98-0.3.99/diff.md --exclude *.pyd
+[2024-04-05 13:56:31] INFO root fetch - processPackages [kafka-broker]: Remove: archive file [/home/abi/fetcher/tmp/kafka-broker-0.3.4.tar.gz]
+[2024-04-05 13:56:31] INFO root fetch - processPackages [kafka-broker]: Remove: archive file [/home/abi/fetcher/tmp/kafka-broker-0.3.5.tar.gz]
+[2024-04-05 13:56:31] INFO root fetch - main [MainThread]: End processing [kafka-broker]: success
+[2024-04-05 13:56:31] INFO root fetch - processPackages [dektools]: Remove: archive file [/home/abi/fetcher/tmp/dektools-0.1.73.tar.gz]
+[2024-04-05 13:56:31] INFO root fetch - processPackages [dektools]: Remove: archive file [/home/abi/fetcher/tmp/dektools-0.1.9-py3-none-any.whl.zip]
+[2024-04-05 13:56:31] INFO root fetch - main [MainThread]: End processing [dektools]: success
+[2024-04-05 13:56:31] INFO root fetch - processPackages [phdu]: Remove: archive file [/home/abi/fetcher/tmp/phdu-2.2b9.tar.gz]
+[2024-04-05 13:56:31] INFO root fetch - processPackages [phdu]: Remove: archive file [/home/abi/fetcher/tmp/phdu-2.3.1.tar.gz]
+[2024-04-05 13:56:31] INFO root fetch - main [MainThread]: End processing [phdu]: success
+[2024-04-05 13:56:32] INFO root fetch - processPackages [few-shot-priming]: Remove: archive file [/home/abi/fetcher/tmp/few_shot_priming-0.3.98-py3-none-any.whl.zip]
+[2024-04-05 13:56:32] INFO root fetch - processPackages [few-shot-priming]: Remove: archive file [/home/abi/fetcher/tmp/few_shot_priming-0.3.99-py3-none-any.whl.zip]
+[2024-04-05 13:56:32] INFO root fetch - main [MainThread]: End processing [few-shot-priming]: success
+[2024-04-05 13:56:32] INFO root fetch - main [MainThread]: Store serial: [22635589]
