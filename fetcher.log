@@ -19751,3 +19751,108 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2024-04-05 12:44:51] INFO root fetch - processPackages [modnet]: Remove: archive file [/home/abi/fetcher/tmp/modnet-0.4.3.tar.gz]
 [2024-04-05 12:44:51] INFO root fetch - main [MainThread]: End processing [modnet]: success
 [2024-04-05 12:44:51] INFO root fetch - main [MainThread]: Store serial: [22634753]
+[2024-04-05 12:46:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22634753]
+[2024-04-05 12:47:00] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-04-05 12:47:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cellfinder
+[2024-04-05 12:47:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: antoine
+[2024-04-05 12:47:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: scematk
+[2024-04-05 12:47:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: apconfig
+[2024-04-05 12:47:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dol-cookbook
+[2024-04-05 12:47:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: qarray-rust-core
+[2024-04-05 12:47:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: reapit-cdk.active-ruleset
+[2024-04-05 12:47:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ccs-digitalmarketplace-utils
+[2024-04-05 12:47:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: finterion-investing-algorithm-framework
+[2024-04-05 12:47:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pyscinloopsr
+[2024-04-05 12:47:00] INFO root fetch - processPackages [scematk]: New version: [0.0.2rc99.post1] Old Version: [0.0.2rc98.post1]
+[2024-04-05 12:47:00] INFO root fetch - processPackages [apconfig]: New version: [0.0.102] Old Version: [0.0.101]
+[2024-04-05 12:47:00] INFO root fetch - processPackages [dol-cookbook]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-04-05 12:47:00] INFO root fetch - processPackages [reapit-cdk.active-ruleset]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-04-05 12:47:00] INFO root fetch - processPackages [ccs-digitalmarketplace-utils]: New version: [66.0.0rc1] Old Version: [65.5.0rc2]
+[2024-04-05 12:47:00] INFO root fetch - processPackages [antoine]: New version: [2.3] Old Version: [2.2]
+[2024-04-05 12:47:00] INFO root fetch - processPackages [finterion-investing-algorithm-framework]: New version: [0.9.1] Old Version: [0.9]
+[2024-04-05 12:47:00] WARNING root fetch - processPackages [pyscinloopsr]: Skipping, unable to determine old version
+[2024-04-05 12:47:00] INFO root fetch - main [MainThread]: End processing [pyscinloopsr] error
+[2024-04-05 12:47:00] INFO root fetch - processPackages [qarray-rust-core]: New version: [1.2.1] Old Version: [1.2.0]
+[2024-04-05 12:47:00] INFO root fetch - processPackages [cellfinder]: New version: [1.1.2] Old Version: [1.1.1]
+[2024-04-05 12:47:00] INFO root fetch - processPackages [scematk]: Downloading https://files.pythonhosted.org/packages/74/b4/2c4bf9a440c6109c1526403bd63a1ad539bac9b025336ad220b4b533e7b7/scematk-0.0.2rc98.post1.tar.gz
+[2024-04-05 12:47:00] INFO root fetch - processPackages [dol-cookbook]: Downloading https://files.pythonhosted.org/packages/d8/6b/b8acbe637c5950c02f74bf479da3ae6f39e6e22bc0b5f4999acc43d39447/dol_cookbook-0.1.0.tar.gz
+[2024-04-05 12:47:00] INFO root fetch - processPackages [apconfig]: Downloading https://files.pythonhosted.org/packages/30/c5/f4583e14843eb8bf72ebdd21405c85b05ba5166e3b91b22bfe82a8c47f7e/apconfig-0.0.101.tar.gz
+[2024-04-05 12:47:00] INFO root fetch - processPackages [ccs-digitalmarketplace-utils]: Downloading https://files.pythonhosted.org/packages/44/2b/287be07918e5115797803f27c35538bb763a3e129be504796df1d2ca322f/ccs-digitalmarketplace-utils-65.5.0rc2.tar.gz
+[2024-04-05 12:47:00] INFO root fetch - processPackages [reapit-cdk.active-ruleset]: Downloading https://files.pythonhosted.org/packages/ed/31/ec7b10a25f085abcab01071b80834a5a47adccc1814ecb0468c627c0a669/reapit-cdk.active-ruleset-0.1.0.tar.gz
+[2024-04-05 12:47:00] WARNING root fetch - processPackages [apconfig]: Timeout reached during download
+[2024-04-05 12:47:00] INFO root fetch - processPackages [antoine]: Downloading https://files.pythonhosted.org/packages/65/55/7a3ff8d2b101449d2eceefabb800461d31ee392360524ca8aceeb8d0ded9/antoine-2.2.tar.gz
+[2024-04-05 12:47:00] WARNING root fetch - processPackages [ccs-digitalmarketplace-utils]: Timeout reached during download
+[2024-04-05 12:47:00] WARNING root fetch - processPackages [dol-cookbook]: Timeout reached during download
+[2024-04-05 12:47:00] INFO root fetch - processPackages [cellfinder]: Downloading https://files.pythonhosted.org/packages/27/c8/31f75fab959c1a157b46719f0171e0e51b3382cef80f017af53360cbd516/cellfinder-1.1.1.tar.gz
+[2024-04-05 12:47:00] INFO root fetch - processPackages [finterion-investing-algorithm-framework]: Downloading https://files.pythonhosted.org/packages/b0/e6/0a50432d134e7c0f4a5bedde103c44500b2cb69ccd7dfc528a8a95358339/finterion_investing_algorithm_framework-0.9-py3-none-any.whl
+[2024-04-05 12:47:00] WARNING root fetch - processPackages [scematk]: Timeout reached during download
+[2024-04-05 12:47:00] WARNING root fetch - processPackages [reapit-cdk.active-ruleset]: Timeout reached during download
+[2024-04-05 12:47:00] INFO root fetch - processPackages [qarray-rust-core]: Downloading https://files.pythonhosted.org/packages/67/0a/3a0d7b3951a3bee8263a9b328936f0e3089d8772cfb0dbb2856693d5080c/qarray_rust_core-1.2.0.tar.gz
+[2024-04-05 12:47:00] INFO root fetch - processPackages [reapit-cdk.active-ruleset]: Downloading https://files.pythonhosted.org/packages/6c/41/2dd1150a8f8cb255330687b12f3a5980b14c85f992da219a18cfc1898228/reapit-cdk.active-ruleset-0.1.1.tar.gz
+[2024-04-05 12:47:00] WARNING root fetch - processPackages [antoine]: Timeout reached during download
+[2024-04-05 12:47:00] INFO root fetch - processPackages [apconfig]: Downloading https://files.pythonhosted.org/packages/fe/81/973d9f91f32c85bb3227234d6811b38fa97814fdf7061b739c9c4fd34646/apconfig-0.0.102.tar.gz
+[2024-04-05 12:47:00] INFO root fetch - processPackages [dol-cookbook]: Downloading https://files.pythonhosted.org/packages/aa/18/60e872bbf4913ef8193d7bec12e6194948aa14fd5657f25c1b9546330efe/dol_cookbook-0.1.1.tar.gz
+[2024-04-05 12:47:00] INFO root fetch - processPackages [scematk]: Downloading https://files.pythonhosted.org/packages/88/05/a551ffce29ada02c3b808f4d3523aefcebb95b513746d269b86d0d75e18b/scematk-0.0.2rc99.post1.tar.gz
+[2024-04-05 12:47:01] WARNING root fetch - processPackages [finterion-investing-algorithm-framework]: Timeout reached during download
+[2024-04-05 12:47:01] INFO root fetch - processPackages [ccs-digitalmarketplace-utils]: Downloading https://files.pythonhosted.org/packages/ee/8d/6728d23ecf123b2db3439c46d61a821a1842e8cbed0508ef21a8974be66d/ccs-digitalmarketplace-utils-66.0.0rc1.tar.gz
+[2024-04-05 12:47:01] WARNING root fetch - processPackages [qarray-rust-core]: Timeout reached during download
+[2024-04-05 12:47:01] WARNING root fetch - processPackages [cellfinder]: Timeout reached during download
+[2024-04-05 12:47:01] WARNING root fetch - processPackages [reapit-cdk.active-ruleset]: Timeout reached during download
+[2024-04-05 12:47:01] INFO root fetch - processPackages [reapit-cdk.active-ruleset]: executing diffoscope
+[2024-04-05 12:47:01] INFO root fetch - processPackages [reapit-cdk.active-ruleset]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reapit-cdk.active-ruleset-0.1.0.tar.gz tmp/reapit-cdk.active-ruleset-0.1.1.tar.gz --markdown 20240405/r/reapit-cdk.active-ruleset/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2024-04-05 12:47:01] WARNING root fetch - processPackages [dol-cookbook]: Timeout reached during download
+[2024-04-05 12:47:01] INFO root fetch - processPackages [dol-cookbook]: executing diffoscope
+[2024-04-05 12:47:01] INFO root fetch - processPackages [dol-cookbook]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dol_cookbook-0.1.0.tar.gz tmp/dol_cookbook-0.1.1.tar.gz --markdown 20240405/d/dol-cookbook/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2024-04-05 12:47:01] WARNING root fetch - processPackages [apconfig]: Timeout reached during download
+[2024-04-05 12:47:01] INFO root fetch - processPackages [apconfig]: executing diffoscope
+[2024-04-05 12:47:01] INFO root fetch - processPackages [apconfig]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apconfig-0.0.101.tar.gz tmp/apconfig-0.0.102.tar.gz --markdown 20240405/a/apconfig/0.0.101-0.0.102/diff.md --exclude *.pyd
+[2024-04-05 12:47:01] INFO root fetch - processPackages [antoine]: Downloading https://files.pythonhosted.org/packages/ce/6a/009aae7dd4d45778b8dd1b95cdaf81a77ff03293cb33d86bc3812728df31/antoine-2.3.tar.gz
+[2024-04-05 12:47:01] WARNING root fetch - processPackages [scematk]: Timeout reached during download
+[2024-04-05 12:47:01] INFO root fetch - processPackages [scematk]: executing diffoscope
+[2024-04-05 12:47:01] INFO root fetch - processPackages [scematk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scematk-0.0.2rc98.post1.tar.gz tmp/scematk-0.0.2rc99.post1.tar.gz --markdown 20240405/s/scematk/0.0.2rc98.post1-0.0.2rc99.post1/diff.md --exclude *.pyd
+[2024-04-05 12:47:01] INFO root fetch - processPackages [finterion-investing-algorithm-framework]: Downloading https://files.pythonhosted.org/packages/82/79/e5af7b68843cba4d6e8464b90323d7f80d9df1628e0096cfcc27d5281e2e/finterion_investing_algorithm_framework-0.9.1-py3-none-any.whl
+[2024-04-05 12:47:01] WARNING root fetch - processPackages [antoine]: Timeout reached during download
+[2024-04-05 12:47:01] INFO root fetch - processPackages [antoine]: executing diffoscope
+[2024-04-05 12:47:01] INFO root fetch - processPackages [antoine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/antoine-2.2.tar.gz tmp/antoine-2.3.tar.gz --markdown 20240405/a/antoine/2.2-2.3/diff.md --exclude *.pyd
+[2024-04-05 12:47:01] WARNING root fetch - processPackages [ccs-digitalmarketplace-utils]: Timeout reached during download
+[2024-04-05 12:47:01] INFO root fetch - processPackages [ccs-digitalmarketplace-utils]: executing diffoscope
+[2024-04-05 12:47:01] INFO root fetch - processPackages [ccs-digitalmarketplace-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ccs-digitalmarketplace-utils-65.5.0rc2.tar.gz tmp/ccs-digitalmarketplace-utils-66.0.0rc1.tar.gz --markdown 20240405/c/ccs-digitalmarketplace-utils/65.5.0rc2-66.0.0rc1/diff.md --exclude *.pyd
+[2024-04-05 12:47:01] INFO root fetch - processPackages [qarray-rust-core]: Downloading https://files.pythonhosted.org/packages/54/00/bc89e2ac83efc71487068acfa1557bf6814719e1456827e6e449024a49c9/qarray_rust_core-1.2.1.tar.gz
+[2024-04-05 12:47:01] INFO root fetch - processPackages [cellfinder]: Downloading https://files.pythonhosted.org/packages/ae/b2/3b1fc3a54dd713b9de8d012d187b10d8c032d264b6a9ca745bd9c50b23d4/cellfinder-1.1.2.tar.gz
+[2024-04-05 12:47:01] WARNING root fetch - processPackages [finterion-investing-algorithm-framework]: Timeout reached during download
+[2024-04-05 12:47:01] INFO root fetch - processPackages [finterion-investing-algorithm-framework]: executing diffoscope
+[2024-04-05 12:47:01] INFO root fetch - processPackages [finterion-investing-algorithm-framework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/finterion_investing_algorithm_framework-0.9-py3-none-any.whl.zip tmp/finterion_investing_algorithm_framework-0.9.1-py3-none-any.whl.zip --markdown 20240405/f/finterion-investing-algorithm-framework/0.9-0.9.1/diff.md --exclude *.pyd
+[2024-04-05 12:47:01] WARNING root fetch - processPackages [qarray-rust-core]: Timeout reached during download
+[2024-04-05 12:47:01] INFO root fetch - processPackages [qarray-rust-core]: executing diffoscope
+[2024-04-05 12:47:01] INFO root fetch - processPackages [qarray-rust-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qarray_rust_core-1.2.0.tar.gz tmp/qarray_rust_core-1.2.1.tar.gz --markdown 20240405/q/qarray-rust-core/1.2.0-1.2.1/diff.md --exclude *.pyd
+[2024-04-05 12:47:01] WARNING root fetch - processPackages [cellfinder]: Timeout reached during download
+[2024-04-05 12:47:01] INFO root fetch - processPackages [cellfinder]: executing diffoscope
+[2024-04-05 12:47:01] INFO root fetch - processPackages [cellfinder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cellfinder-1.1.1.tar.gz tmp/cellfinder-1.1.2.tar.gz --markdown 20240405/c/cellfinder/1.1.1-1.1.2/diff.md --exclude *.pyd
+[2024-04-05 12:47:02] INFO root fetch - processPackages [apconfig]: Remove: archive file [/home/abi/fetcher/tmp/apconfig-0.0.101.tar.gz]
+[2024-04-05 12:47:02] INFO root fetch - processPackages [apconfig]: Remove: archive file [/home/abi/fetcher/tmp/apconfig-0.0.102.tar.gz]
+[2024-04-05 12:47:02] INFO root fetch - main [MainThread]: End processing [apconfig]: success
+[2024-04-05 12:47:02] INFO root fetch - processPackages [reapit-cdk.active-ruleset]: Remove: archive file [/home/abi/fetcher/tmp/reapit-cdk.active-ruleset-0.1.0.tar.gz]
+[2024-04-05 12:47:02] INFO root fetch - processPackages [reapit-cdk.active-ruleset]: Remove: archive file [/home/abi/fetcher/tmp/reapit-cdk.active-ruleset-0.1.1.tar.gz]
+[2024-04-05 12:47:02] INFO root fetch - main [MainThread]: End processing [reapit-cdk.active-ruleset]: success
+[2024-04-05 12:47:02] INFO root fetch - processPackages [antoine]: Remove: archive file [/home/abi/fetcher/tmp/antoine-2.2.tar.gz]
+[2024-04-05 12:47:02] INFO root fetch - processPackages [antoine]: Remove: archive file [/home/abi/fetcher/tmp/antoine-2.3.tar.gz]
+[2024-04-05 12:47:02] INFO root fetch - main [MainThread]: End processing [antoine]: success
+[2024-04-05 12:47:02] INFO root fetch - processPackages [dol-cookbook]: Remove: archive file [/home/abi/fetcher/tmp/dol_cookbook-0.1.0.tar.gz]
+[2024-04-05 12:47:02] INFO root fetch - processPackages [dol-cookbook]: Remove: archive file [/home/abi/fetcher/tmp/dol_cookbook-0.1.1.tar.gz]
+[2024-04-05 12:47:02] INFO root fetch - main [MainThread]: End processing [dol-cookbook]: success
+[2024-04-05 12:47:02] INFO root fetch - processPackages [scematk]: Remove: archive file [/home/abi/fetcher/tmp/scematk-0.0.2rc98.post1.tar.gz]
+[2024-04-05 12:47:02] INFO root fetch - processPackages [scematk]: Remove: archive file [/home/abi/fetcher/tmp/scematk-0.0.2rc99.post1.tar.gz]
+[2024-04-05 12:47:02] INFO root fetch - main [MainThread]: End processing [scematk]: success
+[2024-04-05 12:47:02] INFO root fetch - processPackages [finterion-investing-algorithm-framework]: Remove: archive file [/home/abi/fetcher/tmp/finterion_investing_algorithm_framework-0.9-py3-none-any.whl.zip]
+[2024-04-05 12:47:02] INFO root fetch - processPackages [finterion-investing-algorithm-framework]: Remove: archive file [/home/abi/fetcher/tmp/finterion_investing_algorithm_framework-0.9.1-py3-none-any.whl.zip]
+[2024-04-05 12:47:02] INFO root fetch - main [MainThread]: End processing [finterion-investing-algorithm-framework]: success
+[2024-04-05 12:47:02] INFO root fetch - processPackages [qarray-rust-core]: Remove: archive file [/home/abi/fetcher/tmp/qarray_rust_core-1.2.0.tar.gz]
+[2024-04-05 12:47:02] INFO root fetch - processPackages [qarray-rust-core]: Remove: archive file [/home/abi/fetcher/tmp/qarray_rust_core-1.2.1.tar.gz]
+[2024-04-05 12:47:02] INFO root fetch - main [MainThread]: End processing [qarray-rust-core]: success
+[2024-04-05 12:47:02] INFO root fetch - processPackages [ccs-digitalmarketplace-utils]: Remove: archive file [/home/abi/fetcher/tmp/ccs-digitalmarketplace-utils-65.5.0rc2.tar.gz]
+[2024-04-05 12:47:02] INFO root fetch - processPackages [ccs-digitalmarketplace-utils]: Remove: archive file [/home/abi/fetcher/tmp/ccs-digitalmarketplace-utils-66.0.0rc1.tar.gz]
+[2024-04-05 12:47:02] INFO root fetch - main [MainThread]: End processing [ccs-digitalmarketplace-utils]: success
+[2024-04-05 12:47:02] INFO root fetch - processPackages [cellfinder]: Remove: archive file [/home/abi/fetcher/tmp/cellfinder-1.1.1.tar.gz]
+[2024-04-05 12:47:02] INFO root fetch - processPackages [cellfinder]: Remove: archive file [/home/abi/fetcher/tmp/cellfinder-1.1.2.tar.gz]
+[2024-04-05 12:47:02] INFO root fetch - main [MainThread]: End processing [cellfinder]: success
+[2024-04-05 12:47:02] INFO root fetch - main [MainThread]: Store serial: [22634815]
