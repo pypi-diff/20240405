@@ -22811,3 +22811,53 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2024-04-05 14:44:54] INFO root fetch - processPackages [rpaframework]: Remove: archive file [/home/abi/fetcher/tmp/rpaframework-9.6.0.tar.gz]
 [2024-04-05 14:44:54] INFO root fetch - main [MainThread]: End processing [rpaframework]: success
 [2024-04-05 14:44:54] INFO root fetch - main [MainThread]: Store serial: [22636033]
+[2024-04-05 14:46:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22636033]
+[2024-04-05 14:47:03] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-05 14:47:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tutor-contrib-aspects
+[2024-04-05 14:47:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: BicefalasPDFApp
+[2024-04-05 14:47:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: blueetl-core
+[2024-04-05 14:47:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: hexfrost-toolbox
+[2024-04-05 14:47:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: qgis-deployment-toolbelt
+[2024-04-05 14:47:03] INFO root fetch - processPackages [hexfrost-toolbox]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-04-05 14:47:03] INFO root fetch - processPackages [blueetl-core]: New version: [0.2.1] Old Version: [0.2.0]
+[2024-04-05 14:47:03] WARNING root fetch - processPackages [BicefalasPDFApp]: Skipping, unable to determine old version
+[2024-04-05 14:47:03] INFO root fetch - main [MainThread]: End processing [BicefalasPDFApp] error
+[2024-04-05 14:47:03] INFO root fetch - processPackages [qgis-deployment-toolbelt]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-04-05 14:47:03] INFO root fetch - processPackages [tutor-contrib-aspects]: New version: [0.93.0] Old Version: [0.92.0]
+[2024-04-05 14:47:03] INFO root fetch - processPackages [blueetl-core]: Downloading https://files.pythonhosted.org/packages/4e/e6/187f04e16837118a80d18f8f51ab6d4ca39db3eb71843fb6a9e7088b50bd/blueetl-core-0.2.0.tar.gz
+[2024-04-05 14:47:03] INFO root fetch - processPackages [tutor-contrib-aspects]: Downloading https://files.pythonhosted.org/packages/af/22/b543a76d88db8a03bb08743128f4cfe3b28efc9160747bd91b546d03e2b7/tutor-contrib-aspects-0.92.0.tar.gz
+[2024-04-05 14:47:03] INFO root fetch - processPackages [qgis-deployment-toolbelt]: Downloading https://files.pythonhosted.org/packages/4d/af/26cc6ca37c9029d2a68da3981972d583a710238e073fe44d2f33c039d869/qgis-deployment-toolbelt-0.8.0.tar.gz
+[2024-04-05 14:47:03] INFO root fetch - processPackages [hexfrost-toolbox]: Downloading https://files.pythonhosted.org/packages/aa/50/19d479b0b3595cc9cfdc76308ed230ac50f4b14054422bad6a3a54e5e9f5/hexfrost_toolbox-0.1.1.tar.gz
+[2024-04-05 14:47:04] WARNING root fetch - processPackages [qgis-deployment-toolbelt]: Timeout reached during download
+[2024-04-05 14:47:04] WARNING root fetch - processPackages [blueetl-core]: Timeout reached during download
+[2024-04-05 14:47:04] WARNING root fetch - processPackages [tutor-contrib-aspects]: Timeout reached during download
+[2024-04-05 14:47:04] WARNING root fetch - processPackages [hexfrost-toolbox]: Timeout reached during download
+[2024-04-05 14:47:04] INFO root fetch - processPackages [blueetl-core]: Downloading https://files.pythonhosted.org/packages/c8/25/9124d7ef8ec0f11241af4a8efcddc079610d6432d96ee3c7b08828a79ce0/blueetl-core-0.2.1.tar.gz
+[2024-04-05 14:47:04] INFO root fetch - processPackages [qgis-deployment-toolbelt]: Downloading https://files.pythonhosted.org/packages/d5/9a/086bf308844e6a51bcccd209e648d370690f6c9e5bb19bcf231bf1cad2dc/qgis-deployment-toolbelt-0.9.0.tar.gz
+[2024-04-05 14:47:04] INFO root fetch - processPackages [tutor-contrib-aspects]: Downloading https://files.pythonhosted.org/packages/b8/41/dc1428e5a65ce9dee8bbe29aac935969b71e3b0a9cdc3fc43c1820bebf74/tutor-contrib-aspects-0.93.0.tar.gz
+[2024-04-05 14:47:04] INFO root fetch - processPackages [hexfrost-toolbox]: Downloading https://files.pythonhosted.org/packages/ec/21/2e096ac7f5bc7570d64a079bc12ee4e465ffd25bb3b62ad1c7f446029e52/hexfrost_toolbox-0.1.2.tar.gz
+[2024-04-05 14:47:04] WARNING root fetch - processPackages [blueetl-core]: Timeout reached during download
+[2024-04-05 14:47:04] INFO root fetch - processPackages [blueetl-core]: executing diffoscope
+[2024-04-05 14:47:04] INFO root fetch - processPackages [blueetl-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/blueetl-core-0.2.0.tar.gz tmp/blueetl-core-0.2.1.tar.gz --markdown 20240405/b/blueetl-core/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2024-04-05 14:47:04] WARNING root fetch - processPackages [hexfrost-toolbox]: Timeout reached during download
+[2024-04-05 14:47:04] INFO root fetch - processPackages [hexfrost-toolbox]: executing diffoscope
+[2024-04-05 14:47:04] INFO root fetch - processPackages [hexfrost-toolbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hexfrost_toolbox-0.1.1.tar.gz tmp/hexfrost_toolbox-0.1.2.tar.gz --markdown 20240405/h/hexfrost-toolbox/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2024-04-05 14:47:04] WARNING root fetch - processPackages [qgis-deployment-toolbelt]: Timeout reached during download
+[2024-04-05 14:47:04] INFO root fetch - processPackages [qgis-deployment-toolbelt]: executing diffoscope
+[2024-04-05 14:47:04] INFO root fetch - processPackages [qgis-deployment-toolbelt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qgis-deployment-toolbelt-0.8.0.tar.gz tmp/qgis-deployment-toolbelt-0.9.0.tar.gz --markdown 20240405/q/qgis-deployment-toolbelt/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2024-04-05 14:47:04] WARNING root fetch - processPackages [tutor-contrib-aspects]: Timeout reached during download
+[2024-04-05 14:47:04] INFO root fetch - processPackages [tutor-contrib-aspects]: executing diffoscope
+[2024-04-05 14:47:04] INFO root fetch - processPackages [tutor-contrib-aspects]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tutor-contrib-aspects-0.92.0.tar.gz tmp/tutor-contrib-aspects-0.93.0.tar.gz --markdown 20240405/t/tutor-contrib-aspects/0.92.0-0.93.0/diff.md --exclude *.pyd
+[2024-04-05 14:47:05] INFO root fetch - processPackages [hexfrost-toolbox]: Remove: archive file [/home/abi/fetcher/tmp/hexfrost_toolbox-0.1.1.tar.gz]
+[2024-04-05 14:47:05] INFO root fetch - processPackages [hexfrost-toolbox]: Remove: archive file [/home/abi/fetcher/tmp/hexfrost_toolbox-0.1.2.tar.gz]
+[2024-04-05 14:47:05] INFO root fetch - main [MainThread]: End processing [hexfrost-toolbox]: success
+[2024-04-05 14:47:05] INFO root fetch - processPackages [blueetl-core]: Remove: archive file [/home/abi/fetcher/tmp/blueetl-core-0.2.0.tar.gz]
+[2024-04-05 14:47:05] INFO root fetch - processPackages [blueetl-core]: Remove: archive file [/home/abi/fetcher/tmp/blueetl-core-0.2.1.tar.gz]
+[2024-04-05 14:47:05] INFO root fetch - main [MainThread]: End processing [blueetl-core]: success
+[2024-04-05 14:47:05] INFO root fetch - processPackages [qgis-deployment-toolbelt]: Remove: archive file [/home/abi/fetcher/tmp/qgis-deployment-toolbelt-0.8.0.tar.gz]
+[2024-04-05 14:47:05] INFO root fetch - processPackages [qgis-deployment-toolbelt]: Remove: archive file [/home/abi/fetcher/tmp/qgis-deployment-toolbelt-0.9.0.tar.gz]
+[2024-04-05 14:47:05] INFO root fetch - main [MainThread]: End processing [qgis-deployment-toolbelt]: success
+[2024-04-05 14:47:05] INFO root fetch - processPackages [tutor-contrib-aspects]: Remove: archive file [/home/abi/fetcher/tmp/tutor-contrib-aspects-0.92.0.tar.gz]
+[2024-04-05 14:47:05] INFO root fetch - processPackages [tutor-contrib-aspects]: Remove: archive file [/home/abi/fetcher/tmp/tutor-contrib-aspects-0.93.0.tar.gz]
+[2024-04-05 14:47:05] INFO root fetch - main [MainThread]: End processing [tutor-contrib-aspects]: success
+[2024-04-05 14:47:05] INFO root fetch - main [MainThread]: Store serial: [22636052]
