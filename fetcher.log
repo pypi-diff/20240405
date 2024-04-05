@@ -9263,3 +9263,45 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2024-04-05 04:11:03] INFO root fetch - processPackages [py-netty]: Remove: archive file [/home/abi/fetcher/tmp/py-netty-1.0.0.tar.gz]
 [2024-04-05 04:11:03] INFO root fetch - main [MainThread]: End processing [py-netty]: success
 [2024-04-05 04:11:03] INFO root fetch - main [MainThread]: Store serial: [22631101]
+[2024-04-05 04:13:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22631101]
+[2024-04-05 04:13:11] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-05 04:13:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: antur
+[2024-04-05 04:13:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: integ-db
+[2024-04-05 04:13:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyrtz2
+[2024-04-05 04:13:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: RegexRiot
+[2024-04-05 04:13:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: vijil
+[2024-04-05 04:13:11] WARNING root fetch - processPackages [RegexRiot]: Skipping, unable to determine old version
+[2024-04-05 04:13:11] INFO root fetch - main [MainThread]: End processing [RegexRiot] error
+[2024-04-05 04:13:11] INFO root fetch - processPackages [antur]: New version: [0.2.0] Old Version: [0.1.0]
+[2024-04-05 04:13:11] INFO root fetch - processPackages [integ-db]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-04-05 04:13:11] INFO root fetch - processPackages [pyrtz2]: New version: [1.1.11] Old Version: [1.1.10]
+[2024-04-05 04:13:11] WARNING root fetch - processPackages [vijil]: Skipping, unable to determine old version
+[2024-04-05 04:13:11] INFO root fetch - main [MainThread]: End processing [vijil] error
+[2024-04-05 04:13:11] INFO root fetch - processPackages [antur]: Downloading https://files.pythonhosted.org/packages/22/f1/91383dba71b5020a280e197479d96eec4cfb0b963ea252313532a8e2ce18/antur-0.1.0.tar.gz
+[2024-04-05 04:13:11] INFO root fetch - processPackages [integ-db]: Downloading https://files.pythonhosted.org/packages/62/c4/9c023c9ed762671e451a2639eccfca758027c8683d1f42a62e7c1af383a2/integ-db-0.0.1.tar.gz
+[2024-04-05 04:13:12] WARNING root fetch - processPackages [antur]: Timeout reached during download
+[2024-04-05 04:13:12] INFO root fetch - processPackages [antur]: Downloading https://files.pythonhosted.org/packages/bb/3a/fc965a5979dde28073e0f355b9165dc46b17cba53b03654f07dc0fe23a04/antur-0.2.0.tar.gz
+[2024-04-05 04:13:12] WARNING root fetch - processPackages [integ-db]: Timeout reached during download
+[2024-04-05 04:13:12] INFO root fetch - processPackages [pyrtz2]: Downloading https://files.pythonhosted.org/packages/81/18/8c100ac7b9e5bbf7120b3b0c345cc8e83aae58ec6b1e1a8d6eb4056b6199/pyrtz2-1.1.10.tar.gz
+[2024-04-05 04:13:12] WARNING root fetch - processPackages [antur]: Timeout reached during download
+[2024-04-05 04:13:12] INFO root fetch - processPackages [antur]: executing diffoscope
+[2024-04-05 04:13:12] INFO root fetch - processPackages [antur]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/antur-0.1.0.tar.gz tmp/antur-0.2.0.tar.gz --markdown 20240405/a/antur/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2024-04-05 04:13:12] WARNING root fetch - processPackages [pyrtz2]: Timeout reached during download
+[2024-04-05 04:13:12] INFO root fetch - processPackages [integ-db]: Downloading https://files.pythonhosted.org/packages/0d/94/d66dd29010af15efc637fd5c55ada144dffee4168e8b669bab301b4e5379/integ-db-0.0.2.tar.gz
+[2024-04-05 04:13:12] INFO root fetch - processPackages [pyrtz2]: Downloading https://files.pythonhosted.org/packages/23/4e/01495cdc192f7ac51185625f501b22951be9d0d475e6e4062d1e76c10a41/pyrtz2-1.1.11.tar.gz
+[2024-04-05 04:13:12] WARNING root fetch - processPackages [integ-db]: Timeout reached during download
+[2024-04-05 04:13:12] INFO root fetch - processPackages [integ-db]: executing diffoscope
+[2024-04-05 04:13:12] INFO root fetch - processPackages [integ-db]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/integ-db-0.0.1.tar.gz tmp/integ-db-0.0.2.tar.gz --markdown 20240405/i/integ-db/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2024-04-05 04:13:12] WARNING root fetch - processPackages [pyrtz2]: Timeout reached during download
+[2024-04-05 04:13:12] INFO root fetch - processPackages [pyrtz2]: executing diffoscope
+[2024-04-05 04:13:12] INFO root fetch - processPackages [pyrtz2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyrtz2-1.1.10.tar.gz tmp/pyrtz2-1.1.11.tar.gz --markdown 20240405/p/pyrtz2/1.1.10-1.1.11/diff.md --exclude *.pyd
+[2024-04-05 04:13:12] INFO root fetch - processPackages [antur]: Remove: archive file [/home/abi/fetcher/tmp/antur-0.1.0.tar.gz]
+[2024-04-05 04:13:12] INFO root fetch - processPackages [antur]: Remove: archive file [/home/abi/fetcher/tmp/antur-0.2.0.tar.gz]
+[2024-04-05 04:13:12] INFO root fetch - main [MainThread]: End processing [antur]: success
+[2024-04-05 04:13:12] INFO root fetch - processPackages [integ-db]: Remove: archive file [/home/abi/fetcher/tmp/integ-db-0.0.1.tar.gz]
+[2024-04-05 04:13:12] INFO root fetch - processPackages [integ-db]: Remove: archive file [/home/abi/fetcher/tmp/integ-db-0.0.2.tar.gz]
+[2024-04-05 04:13:12] INFO root fetch - main [MainThread]: End processing [integ-db]: success
+[2024-04-05 04:13:13] INFO root fetch - processPackages [pyrtz2]: Remove: archive file [/home/abi/fetcher/tmp/pyrtz2-1.1.10.tar.gz]
+[2024-04-05 04:13:13] INFO root fetch - processPackages [pyrtz2]: Remove: archive file [/home/abi/fetcher/tmp/pyrtz2-1.1.11.tar.gz]
+[2024-04-05 04:13:13] INFO root fetch - main [MainThread]: End processing [pyrtz2]: success
+[2024-04-05 04:13:13] INFO root fetch - main [MainThread]: Store serial: [22631118]
