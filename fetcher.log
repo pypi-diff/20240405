@@ -16834,3 +16834,50 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2024-04-05 10:57:38] WARNING root fetch - processPackages [rtisdev]: Skipping, unable to determine old version
 [2024-04-05 10:57:38] INFO root fetch - main [MainThread]: End processing [rtisdev] error
 [2024-04-05 10:57:38] INFO root fetch - main [MainThread]: Store serial: [22633684]
+[2024-04-05 10:59:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22633684]
+[2024-04-05 10:59:47] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-05 10:59:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: qarray
+[2024-04-05 10:59:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pubtools-pulp
+[2024-04-05 10:59:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: xi-mzidentml-converter
+[2024-04-05 10:59:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: btc-embedded
+[2024-04-05 10:59:47] INFO root fetch - processPackages [qarray]: New version: [1.0.3] Old Version: [1.0.2]
+[2024-04-05 10:59:47] INFO root fetch - processPackages [qarray]: Downloading https://files.pythonhosted.org/packages/66/a3/e6fca1dd5e954a53c537cd2ba100041804676bc3595852eabac5a473ac04/qarray-1.0.2.tar.gz
+[2024-04-05 10:59:47] INFO root fetch - processPackages [xi-mzidentml-converter]: New version: [0.1.9] Old Version: [0.1.7]
+[2024-04-05 10:59:47] INFO root fetch - processPackages [btc-embedded]: New version: [24.1.0] Old Version: [23.3.9]
+[2024-04-05 10:59:47] INFO root fetch - processPackages [pubtools-pulp]: New version: [1.9.3] Old Version: [1.9.2]
+[2024-04-05 10:59:47] WARNING root fetch - processPackages [qarray]: Timeout reached during download
+[2024-04-05 10:59:47] INFO root fetch - processPackages [btc-embedded]: Downloading https://files.pythonhosted.org/packages/d9/15/e5b858d9f0a2153fe2d0ed166ec2b37afee9de83719aec5be4b05272cc0e/btc_embedded-23.3.9.tar.gz
+[2024-04-05 10:59:47] INFO root fetch - processPackages [xi-mzidentml-converter]: Downloading https://files.pythonhosted.org/packages/28/0a/9480b05778a6b1f45e2cf7247a442ed3c572b2532795d1844f8963cf7f68/xi-mzidentml-converter-0.1.7.tar.gz
+[2024-04-05 10:59:47] INFO root fetch - processPackages [pubtools-pulp]: Downloading https://files.pythonhosted.org/packages/6d/39/342bb28540b3630ff0b6c65a2b3eff5ee59449be067fe4d2523d7e6f114d/pubtools-pulp-1.9.2.tar.gz
+[2024-04-05 10:59:47] INFO root fetch - processPackages [qarray]: Downloading https://files.pythonhosted.org/packages/90/47/3b09bd1d5031e9fc9e612a209f363ac15f59f0ecfa9f156b95bafa80552d/qarray-1.0.3.tar.gz
+[2024-04-05 10:59:47] WARNING root fetch - processPackages [xi-mzidentml-converter]: Timeout reached during download
+[2024-04-05 10:59:47] WARNING root fetch - processPackages [btc-embedded]: Timeout reached during download
+[2024-04-05 10:59:47] WARNING root fetch - processPackages [qarray]: Timeout reached during download
+[2024-04-05 10:59:47] INFO root fetch - processPackages [qarray]: executing diffoscope
+[2024-04-05 10:59:47] INFO root fetch - processPackages [qarray]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qarray-1.0.2.tar.gz tmp/qarray-1.0.3.tar.gz --markdown 20240405/q/qarray/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2024-04-05 10:59:48] WARNING root fetch - processPackages [pubtools-pulp]: Timeout reached during download
+[2024-04-05 10:59:48] INFO root fetch - processPackages [btc-embedded]: Downloading https://files.pythonhosted.org/packages/c1/1f/06a06c3d4e5f40a516baf3b03bbfbee3cae1ab3388990d4892308c35d7db/btc_embedded-24.1.0.tar.gz
+[2024-04-05 10:59:48] INFO root fetch - processPackages [xi-mzidentml-converter]: Downloading https://files.pythonhosted.org/packages/e0/43/70d669ba87d1a4353f3f88e7c0ca551d5b27b3085e7c3b20adde029eceef/xi-mzidentml-converter-0.1.9.tar.gz
+[2024-04-05 10:59:48] WARNING root fetch - processPackages [xi-mzidentml-converter]: Timeout reached during download
+[2024-04-05 10:59:48] INFO root fetch - processPackages [xi-mzidentml-converter]: executing diffoscope
+[2024-04-05 10:59:48] INFO root fetch - processPackages [xi-mzidentml-converter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xi-mzidentml-converter-0.1.7.tar.gz tmp/xi-mzidentml-converter-0.1.9.tar.gz --markdown 20240405/x/xi-mzidentml-converter/0.1.7-0.1.9/diff.md --exclude *.pyd
+[2024-04-05 10:59:48] INFO root fetch - processPackages [pubtools-pulp]: Downloading https://files.pythonhosted.org/packages/29/63/43bbdd09cef55731eeb77d7227b8169800142b5f8e4a062a40386fd07b3b/pubtools-pulp-1.9.3.tar.gz
+[2024-04-05 10:59:48] WARNING root fetch - processPackages [pubtools-pulp]: Timeout reached during download
+[2024-04-05 10:59:48] INFO root fetch - processPackages [pubtools-pulp]: executing diffoscope
+[2024-04-05 10:59:48] INFO root fetch - processPackages [pubtools-pulp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pubtools-pulp-1.9.2.tar.gz tmp/pubtools-pulp-1.9.3.tar.gz --markdown 20240405/p/pubtools-pulp/1.9.2-1.9.3/diff.md --exclude *.pyd
+[2024-04-05 10:59:48] WARNING root fetch - processPackages [btc-embedded]: Timeout reached during download
+[2024-04-05 10:59:48] INFO root fetch - processPackages [btc-embedded]: executing diffoscope
+[2024-04-05 10:59:48] INFO root fetch - processPackages [btc-embedded]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/btc_embedded-23.3.9.tar.gz tmp/btc_embedded-24.1.0.tar.gz --markdown 20240405/b/btc-embedded/23.3.9-24.1.0/diff.md --exclude *.pyd
+[2024-04-05 10:59:48] INFO root fetch - processPackages [qarray]: Remove: archive file [/home/abi/fetcher/tmp/qarray-1.0.2.tar.gz]
+[2024-04-05 10:59:48] INFO root fetch - processPackages [qarray]: Remove: archive file [/home/abi/fetcher/tmp/qarray-1.0.3.tar.gz]
+[2024-04-05 10:59:48] INFO root fetch - main [MainThread]: End processing [qarray]: success
+[2024-04-05 10:59:48] INFO root fetch - processPackages [xi-mzidentml-converter]: Remove: archive file [/home/abi/fetcher/tmp/xi-mzidentml-converter-0.1.7.tar.gz]
+[2024-04-05 10:59:48] INFO root fetch - processPackages [xi-mzidentml-converter]: Remove: archive file [/home/abi/fetcher/tmp/xi-mzidentml-converter-0.1.9.tar.gz]
+[2024-04-05 10:59:48] INFO root fetch - main [MainThread]: End processing [xi-mzidentml-converter]: success
+[2024-04-05 10:59:49] INFO root fetch - processPackages [btc-embedded]: Remove: archive file [/home/abi/fetcher/tmp/btc_embedded-23.3.9.tar.gz]
+[2024-04-05 10:59:49] INFO root fetch - processPackages [btc-embedded]: Remove: archive file [/home/abi/fetcher/tmp/btc_embedded-24.1.0.tar.gz]
+[2024-04-05 10:59:49] INFO root fetch - main [MainThread]: End processing [btc-embedded]: success
+[2024-04-05 10:59:49] INFO root fetch - processPackages [pubtools-pulp]: Remove: archive file [/home/abi/fetcher/tmp/pubtools-pulp-1.9.2.tar.gz]
+[2024-04-05 10:59:49] INFO root fetch - processPackages [pubtools-pulp]: Remove: archive file [/home/abi/fetcher/tmp/pubtools-pulp-1.9.3.tar.gz]
+[2024-04-05 10:59:49] INFO root fetch - main [MainThread]: End processing [pubtools-pulp]: success
+[2024-04-05 10:59:49] INFO root fetch - main [MainThread]: Store serial: [22633721]
