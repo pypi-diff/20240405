@@ -11195,3 +11195,66 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2024-04-05 06:08:51] INFO root fetch - processPackages [integ-db]: Remove: archive file [/home/abi/fetcher/tmp/integ-db-0.0.7.tar.gz]
 [2024-04-05 06:08:51] INFO root fetch - main [MainThread]: End processing [integ-db]: success
 [2024-04-05 06:08:51] INFO root fetch - main [MainThread]: Store serial: [22631644]
+[2024-04-05 06:10:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22631644]
+[2024-04-05 06:10:59] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-05 06:10:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: procuret
+[2024-04-05 06:10:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pypowerwall
+[2024-04-05 06:10:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: opendp
+[2024-04-05 06:10:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: integ-db
+[2024-04-05 06:10:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo-addon-fieldservice-isp-flow
+[2024-04-05 06:10:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo-addons-oca-field-service
+[2024-04-05 06:10:59] INFO root fetch - processPackages [integ-db]: New version: [0.0.7] Old Version: [0.0.6]
+[2024-04-05 06:10:59] INFO root fetch - processPackages [procuret]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-05 06:10:59] INFO root fetch - processPackages [integ-db]: Downloading https://files.pythonhosted.org/packages/c8/51/83711ca5e6d0ab8c4dbec0566959c0d314839d63d92851b343e6658be81a/integ-db-0.0.6.tar.gz
+[2024-04-05 06:10:59] INFO root fetch - processPackages [odoo-addons-oca-field-service]: New version: [16.0.20240404.0] Old Version: [16.0.20231117.0]
+[2024-04-05 06:10:59] INFO root fetch - processPackages [odoo-addon-fieldservice-isp-flow]: New version: [16.0.1.0.0.2] Old Version: [16.0.1.0.0.1]
+[2024-04-05 06:10:59] INFO root fetch - processPackages [opendp]: New version: [0.9.2b20240207001] Old Version: [0.9.2a20240404001]
+[2024-04-05 06:10:59] INFO root fetch - processPackages [pypowerwall]: New version: [0.8.1] Old Version: [0.8.0]
+[2024-04-05 06:10:59] WARNING root fetch - processPackages [integ-db]: Timeout reached during download
+[2024-04-05 06:11:00] INFO root fetch - processPackages [integ-db]: Downloading https://files.pythonhosted.org/packages/0b/f2/295779900c58ac43a2e2c62cd7f44701a65234721526b4996c4a638d050a/integ-db-0.0.7.tar.gz
+[2024-04-05 06:11:00] INFO root fetch - processPackages [procuret]: Downloading https://files.pythonhosted.org/packages/db/55/e814ec1276674fee30cda18258fe788724ffe5176e4ac40a05e6d3d3c1e2/procuret-0.0.8.tar.gz
+[2024-04-05 06:11:00] INFO root fetch - processPackages [opendp]: Downloading https://files.pythonhosted.org/packages/c6/2b/73df078ad9a7a63d8ed0aeab497a94c47c3d0c341f81a9baf5bd5df5de61/opendp-0.9.2a20240404001-py3-none-any.whl
+[2024-04-05 06:11:00] INFO root fetch - processPackages [odoo-addons-oca-field-service]: Downloading https://files.pythonhosted.org/packages/8a/c4/cc2500fc05e10ec8d3e33ff3b145da4d0f3f57fdea14badc79f17d41b7fe/odoo_addons_oca_field_service-16.0.20231117.0-py3-none-any.whl
+[2024-04-05 06:11:00] INFO root fetch - processPackages [odoo-addon-fieldservice-isp-flow]: Downloading https://files.pythonhosted.org/packages/a2/52/b5c50c9e0fbca0d9d323bcf9c4f582009b2abd77a2bfeff7fce8cc55236e/odoo_addon_fieldservice_isp_flow-16.0.1.0.0.1-py3-none-any.whl
+[2024-04-05 06:11:00] INFO root fetch - processPackages [pypowerwall]: Downloading https://files.pythonhosted.org/packages/66/8b/db96bc37d43cbe17fb70e4df41fcbe8f6e8da7d1521650232f0af8cec544/pypowerwall-0.8.0-py2.py3-none-any.whl
+[2024-04-05 06:11:00] WARNING root fetch - processPackages [opendp]: Skipping package: exceeds size limit 36114135>=10485760
+[2024-04-05 06:11:00] INFO root fetch - main [MainThread]: End processing [opendp] error
+[2024-04-05 06:11:00] WARNING root fetch - processPackages [integ-db]: Timeout reached during download
+[2024-04-05 06:11:00] INFO root fetch - processPackages [integ-db]: executing diffoscope
+[2024-04-05 06:11:00] INFO root fetch - processPackages [integ-db]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/integ-db-0.0.6.tar.gz tmp/integ-db-0.0.7.tar.gz --markdown 20240405/i/integ-db/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2024-04-05 06:11:00] WARNING root fetch - processPackages [procuret]: Timeout reached during download
+[2024-04-05 06:11:00] WARNING root fetch - processPackages [odoo-addons-oca-field-service]: Timeout reached during download
+[2024-04-05 06:11:00] WARNING root fetch - processPackages [odoo-addon-fieldservice-isp-flow]: Timeout reached during download
+[2024-04-05 06:11:00] WARNING root fetch - processPackages [pypowerwall]: Timeout reached during download
+[2024-04-05 06:11:00] INFO root fetch - processPackages [odoo-addons-oca-field-service]: Downloading https://files.pythonhosted.org/packages/1b/63/8bf124344e7e8fa89b7145d71dafb11bd2ac12a8c5d02845390e54965aaa/odoo_addons_oca_field_service-16.0.20240404.0-py3-none-any.whl
+[2024-04-05 06:11:00] INFO root fetch - processPackages [procuret]: Downloading https://files.pythonhosted.org/packages/0f/55/4a26771cff6e711310604e04c804960bb8e7d3c0ef512ace7476955047a4/procuret-0.0.9.tar.gz
+[2024-04-05 06:11:00] INFO root fetch - processPackages [odoo-addon-fieldservice-isp-flow]: Downloading https://files.pythonhosted.org/packages/4d/7d/465d3b448a362323c1187dab77bffbc0ab2893a6d8a4ce6efb850988d15a/odoo_addon_fieldservice_isp_flow-16.0.1.0.0.2-py3-none-any.whl
+[2024-04-05 06:11:00] INFO root fetch - processPackages [pypowerwall]: Downloading https://files.pythonhosted.org/packages/d9/2a/5ab9d9568beef341ac204d2c74e13781047694c9323054bcf0f71c6ad667/pypowerwall-0.8.1-py2.py3-none-any.whl
+[2024-04-05 06:11:00] WARNING root fetch - processPackages [procuret]: Timeout reached during download
+[2024-04-05 06:11:00] INFO root fetch - processPackages [procuret]: executing diffoscope
+[2024-04-05 06:11:00] INFO root fetch - processPackages [procuret]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/procuret-0.0.8.tar.gz tmp/procuret-0.0.9.tar.gz --markdown 20240405/p/procuret/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2024-04-05 06:11:00] WARNING root fetch - processPackages [pypowerwall]: Timeout reached during download
+[2024-04-05 06:11:00] INFO root fetch - processPackages [pypowerwall]: executing diffoscope
+[2024-04-05 06:11:00] INFO root fetch - processPackages [pypowerwall]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pypowerwall-0.8.0-py2.py3-none-any.whl.zip tmp/pypowerwall-0.8.1-py2.py3-none-any.whl.zip --markdown 20240405/p/pypowerwall/0.8.0-0.8.1/diff.md --exclude *.pyd
+[2024-04-05 06:11:00] WARNING root fetch - processPackages [odoo-addons-oca-field-service]: Timeout reached during download
+[2024-04-05 06:11:00] INFO root fetch - processPackages [odoo-addons-oca-field-service]: executing diffoscope
+[2024-04-05 06:11:00] INFO root fetch - processPackages [odoo-addons-oca-field-service]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addons_oca_field_service-16.0.20231117.0-py3-none-any.whl.zip tmp/odoo_addons_oca_field_service-16.0.20240404.0-py3-none-any.whl.zip --markdown 20240405/o/odoo-addons-oca-field-service/16.0.20231117.0-16.0.20240404.0/diff.md --exclude *.pyd
+[2024-04-05 06:11:00] INFO root fetch - processPackages [integ-db]: Remove: archive file [/home/abi/fetcher/tmp/integ-db-0.0.6.tar.gz]
+[2024-04-05 06:11:00] INFO root fetch - processPackages [integ-db]: Remove: archive file [/home/abi/fetcher/tmp/integ-db-0.0.7.tar.gz]
+[2024-04-05 06:11:00] INFO root fetch - main [MainThread]: End processing [integ-db]: success
+[2024-04-05 06:11:00] WARNING root fetch - processPackages [odoo-addon-fieldservice-isp-flow]: Timeout reached during download
+[2024-04-05 06:11:00] INFO root fetch - processPackages [odoo-addon-fieldservice-isp-flow]: executing diffoscope
+[2024-04-05 06:11:00] INFO root fetch - processPackages [odoo-addon-fieldservice-isp-flow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_fieldservice_isp_flow-16.0.1.0.0.1-py3-none-any.whl.zip tmp/odoo_addon_fieldservice_isp_flow-16.0.1.0.0.2-py3-none-any.whl.zip --markdown 20240405/o/odoo-addon-fieldservice-isp-flow/16.0.1.0.0.1-16.0.1.0.0.2/diff.md --exclude *.pyd
+[2024-04-05 06:11:01] INFO root fetch - processPackages [pypowerwall]: Remove: archive file [/home/abi/fetcher/tmp/pypowerwall-0.8.0-py2.py3-none-any.whl.zip]
+[2024-04-05 06:11:01] INFO root fetch - processPackages [pypowerwall]: Remove: archive file [/home/abi/fetcher/tmp/pypowerwall-0.8.1-py2.py3-none-any.whl.zip]
+[2024-04-05 06:11:01] INFO root fetch - main [MainThread]: End processing [pypowerwall]: success
+[2024-04-05 06:11:01] INFO root fetch - processPackages [odoo-addons-oca-field-service]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_field_service-16.0.20231117.0-py3-none-any.whl.zip]
+[2024-04-05 06:11:01] INFO root fetch - processPackages [odoo-addons-oca-field-service]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_field_service-16.0.20240404.0-py3-none-any.whl.zip]
+[2024-04-05 06:11:01] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-field-service]: success
+[2024-04-05 06:11:01] INFO root fetch - processPackages [odoo-addon-fieldservice-isp-flow]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_fieldservice_isp_flow-16.0.1.0.0.1-py3-none-any.whl.zip]
+[2024-04-05 06:11:01] INFO root fetch - processPackages [odoo-addon-fieldservice-isp-flow]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_fieldservice_isp_flow-16.0.1.0.0.2-py3-none-any.whl.zip]
+[2024-04-05 06:11:01] INFO root fetch - main [MainThread]: End processing [odoo-addon-fieldservice-isp-flow]: success
+[2024-04-05 06:11:01] INFO root fetch - processPackages [procuret]: Remove: archive file [/home/abi/fetcher/tmp/procuret-0.0.8.tar.gz]
+[2024-04-05 06:11:01] INFO root fetch - processPackages [procuret]: Remove: archive file [/home/abi/fetcher/tmp/procuret-0.0.9.tar.gz]
+[2024-04-05 06:11:01] INFO root fetch - main [MainThread]: End processing [procuret]: success
+[2024-04-05 06:11:01] INFO root fetch - main [MainThread]: Store serial: [22631658]
