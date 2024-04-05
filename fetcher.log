@@ -9618,3 +9618,39 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2024-04-05 04:37:01] INFO root fetch - processPackages [netmiko-mhrt]: Remove: archive file [/home/abi/fetcher/tmp/netmiko_mhrt-1.0.5.tar.gz]
 [2024-04-05 04:37:01] INFO root fetch - main [MainThread]: End processing [netmiko-mhrt]: success
 [2024-04-05 04:37:01] INFO root fetch - main [MainThread]: Store serial: [22631200]
+[2024-04-05 04:39:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22631200]
+[2024-04-05 04:39:10] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-05 04:39:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: netmiko-mhrt
+[2024-04-05 04:39:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo11-addon-account-financial-report
+[2024-04-05 04:39:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo14-addon-partner-statement
+[2024-04-05 04:39:10] INFO root fetch - processPackages [netmiko-mhrt]: New version: [1.0.5] Old Version: [1.0.4]
+[2024-04-05 04:39:10] INFO root fetch - processPackages [netmiko-mhrt]: Downloading https://files.pythonhosted.org/packages/36/18/ab58078d3d64a720ae2d130a501fcff8441929cb3f6d83bfefb587512dd9/netmiko_mhrt-1.0.4.tar.gz
+[2024-04-05 04:39:10] INFO root fetch - processPackages [odoo11-addon-account-financial-report]: New version: [11.0.2.6.0.99.dev9] Old Version: [11.0.2.6.0.99.dev8]
+[2024-04-05 04:39:10] INFO root fetch - processPackages [odoo14-addon-partner-statement]: New version: [14.0.1.4.5.dev8] Old Version: [14.0.1.4.5.dev7]
+[2024-04-05 04:39:10] WARNING root fetch - processPackages [netmiko-mhrt]: Timeout reached during download
+[2024-04-05 04:39:11] INFO root fetch - processPackages [netmiko-mhrt]: Downloading https://files.pythonhosted.org/packages/71/27/bf360704fefa958b7e02a48b76fc4d272536d5bbb955357480ef58dfef90/netmiko_mhrt-1.0.5.tar.gz
+[2024-04-05 04:39:11] INFO root fetch - processPackages [odoo14-addon-partner-statement]: Downloading https://files.pythonhosted.org/packages/aa/4d/ccb1b6cb39c26879445e99fec4f21feb4141cd495aef8582f102a4c1aaf6/odoo14_addon_partner_statement-14.0.1.4.5.dev7-py3-none-any.whl
+[2024-04-05 04:39:11] INFO root fetch - processPackages [odoo11-addon-account-financial-report]: Downloading https://files.pythonhosted.org/packages/1c/f1/9ec064d4d6b6073b05131f3dce7a01420cc7754e08b58fc922b08a462ba2/odoo11_addon_account_financial_report-11.0.2.6.0.99.dev8-py2.py3-none-any.whl
+[2024-04-05 04:39:11] WARNING root fetch - processPackages [netmiko-mhrt]: Timeout reached during download
+[2024-04-05 04:39:11] INFO root fetch - processPackages [netmiko-mhrt]: executing diffoscope
+[2024-04-05 04:39:11] INFO root fetch - processPackages [netmiko-mhrt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/netmiko_mhrt-1.0.4.tar.gz tmp/netmiko_mhrt-1.0.5.tar.gz --markdown 20240405/n/netmiko-mhrt/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2024-04-05 04:39:11] WARNING root fetch - processPackages [odoo14-addon-partner-statement]: Timeout reached during download
+[2024-04-05 04:39:11] WARNING root fetch - processPackages [odoo11-addon-account-financial-report]: Timeout reached during download
+[2024-04-05 04:39:11] INFO root fetch - processPackages [odoo14-addon-partner-statement]: Downloading https://files.pythonhosted.org/packages/71/cf/7c674b87c3203685c437de34e30f57b6ca8dbf361eb3e3b7b6f9169479b4/odoo14_addon_partner_statement-14.0.1.4.5.dev8-py3-none-any.whl
+[2024-04-05 04:39:11] INFO root fetch - processPackages [odoo11-addon-account-financial-report]: Downloading https://files.pythonhosted.org/packages/ac/86/cb4e25c9d58ce80edd98242418d9b69b030dae40dee269f43cc5cc4d94f8/odoo11_addon_account_financial_report-11.0.2.6.0.99.dev9-py2.py3-none-any.whl
+[2024-04-05 04:39:11] WARNING root fetch - processPackages [odoo11-addon-account-financial-report]: Timeout reached during download
+[2024-04-05 04:39:11] INFO root fetch - processPackages [odoo11-addon-account-financial-report]: executing diffoscope
+[2024-04-05 04:39:11] INFO root fetch - processPackages [odoo11-addon-account-financial-report]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo11_addon_account_financial_report-11.0.2.6.0.99.dev8-py2.py3-none-any.whl.zip tmp/odoo11_addon_account_financial_report-11.0.2.6.0.99.dev9-py2.py3-none-any.whl.zip --markdown 20240405/o/odoo11-addon-account-financial-report/11.0.2.6.0.99.dev8-11.0.2.6.0.99.dev9/diff.md --exclude *.pyd
+[2024-04-05 04:39:11] WARNING root fetch - processPackages [odoo14-addon-partner-statement]: Timeout reached during download
+[2024-04-05 04:39:11] INFO root fetch - processPackages [odoo14-addon-partner-statement]: executing diffoscope
+[2024-04-05 04:39:11] INFO root fetch - processPackages [odoo14-addon-partner-statement]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_partner_statement-14.0.1.4.5.dev7-py3-none-any.whl.zip tmp/odoo14_addon_partner_statement-14.0.1.4.5.dev8-py3-none-any.whl.zip --markdown 20240405/o/odoo14-addon-partner-statement/14.0.1.4.5.dev7-14.0.1.4.5.dev8/diff.md --exclude *.pyd
+[2024-04-05 04:39:11] INFO root fetch - processPackages [netmiko-mhrt]: Remove: archive file [/home/abi/fetcher/tmp/netmiko_mhrt-1.0.4.tar.gz]
+[2024-04-05 04:39:11] INFO root fetch - processPackages [netmiko-mhrt]: Remove: archive file [/home/abi/fetcher/tmp/netmiko_mhrt-1.0.5.tar.gz]
+[2024-04-05 04:39:11] INFO root fetch - main [MainThread]: End processing [netmiko-mhrt]: success
+[2024-04-05 04:39:12] INFO root fetch - processPackages [odoo14-addon-partner-statement]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_partner_statement-14.0.1.4.5.dev7-py3-none-any.whl.zip]
+[2024-04-05 04:39:12] INFO root fetch - processPackages [odoo14-addon-partner-statement]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_partner_statement-14.0.1.4.5.dev8-py3-none-any.whl.zip]
+[2024-04-05 04:39:12] INFO root fetch - main [MainThread]: End processing [odoo14-addon-partner-statement]: success
+[2024-04-05 04:39:12] INFO root fetch - processPackages [odoo11-addon-account-financial-report]: Remove: archive file [/home/abi/fetcher/tmp/odoo11_addon_account_financial_report-11.0.2.6.0.99.dev8-py2.py3-none-any.whl.zip]
+[2024-04-05 04:39:12] INFO root fetch - processPackages [odoo11-addon-account-financial-report]: Remove: archive file [/home/abi/fetcher/tmp/odoo11_addon_account_financial_report-11.0.2.6.0.99.dev9-py2.py3-none-any.whl.zip]
+[2024-04-05 04:39:12] INFO root fetch - main [MainThread]: End processing [odoo11-addon-account-financial-report]: success
+[2024-04-05 04:39:12] INFO root fetch - main [MainThread]: Store serial: [22631208]
