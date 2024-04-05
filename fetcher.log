@@ -13453,3 +13453,17 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2024-04-05 08:21:23] INFO root fetch - processPackages [Chameleon]: Remove: archive file [/home/abi/fetcher/tmp/Chameleon-4.5.2.tar.gz]
 [2024-04-05 08:21:23] INFO root fetch - main [MainThread]: End processing [Chameleon]: success
 [2024-04-05 08:21:23] INFO root fetch - main [MainThread]: Store serial: [22632428]
+[2024-04-05 08:23:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22632428]
+[2024-04-05 08:23:32] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-04-05 08:23:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: valmi-connector-lib
+[2024-04-05 08:23:32] INFO root fetch - processPackages [valmi-connector-lib]: New version: [0.1.99] Old Version: [0.1.98]
+[2024-04-05 08:23:32] INFO root fetch - processPackages [valmi-connector-lib]: Downloading https://files.pythonhosted.org/packages/68/54/062a20f75076aa53427ddf933f64d2177adabaa9c1f4507ee0d9d30b8b03/valmi_connector_lib-0.1.98.tar.gz
+[2024-04-05 08:23:32] WARNING root fetch - processPackages [valmi-connector-lib]: Timeout reached during download
+[2024-04-05 08:23:32] INFO root fetch - processPackages [valmi-connector-lib]: Downloading https://files.pythonhosted.org/packages/2f/47/8fb8bac8016bd8f46ec3d29fa7fc0e2cdc40845d8dce82ba52e668672ab8/valmi_connector_lib-0.1.99.tar.gz
+[2024-04-05 08:23:33] WARNING root fetch - processPackages [valmi-connector-lib]: Timeout reached during download
+[2024-04-05 08:23:33] INFO root fetch - processPackages [valmi-connector-lib]: executing diffoscope
+[2024-04-05 08:23:33] INFO root fetch - processPackages [valmi-connector-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/valmi_connector_lib-0.1.98.tar.gz tmp/valmi_connector_lib-0.1.99.tar.gz --markdown 20240405/v/valmi-connector-lib/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2024-04-05 08:23:33] INFO root fetch - processPackages [valmi-connector-lib]: Remove: archive file [/home/abi/fetcher/tmp/valmi_connector_lib-0.1.98.tar.gz]
+[2024-04-05 08:23:33] INFO root fetch - processPackages [valmi-connector-lib]: Remove: archive file [/home/abi/fetcher/tmp/valmi_connector_lib-0.1.99.tar.gz]
+[2024-04-05 08:23:33] INFO root fetch - main [MainThread]: End processing [valmi-connector-lib]: success
+[2024-04-05 08:23:33] INFO root fetch - main [MainThread]: Store serial: [22632443]
