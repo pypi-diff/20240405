@@ -11713,3 +11713,30 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2024-04-05 06:40:10] WARNING root fetch - processPackages [volstreet]: Skipping package: exceeds size limit 68295960>=10485760
 [2024-04-05 06:40:10] INFO root fetch - main [MainThread]: End processing [volstreet] error
 [2024-04-05 06:40:10] INFO root fetch - main [MainThread]: Store serial: [22631774]
+[2024-04-05 06:42:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22631774]
+[2024-04-05 06:42:19] INFO root fetch - main [MainThread]: No changed packages found
+[2024-04-05 06:44:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22631774]
+[2024-04-05 06:44:24] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-05 06:44:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: turning-points
+[2024-04-05 06:44:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: netspresso
+[2024-04-05 06:44:25] INFO root fetch - processPackages [turning-points]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-04-05 06:44:25] INFO root fetch - processPackages [netspresso]: New version: [1.6.0] Old Version: [1.5.0]
+[2024-04-05 06:44:25] INFO root fetch - processPackages [turning-points]: Downloading https://files.pythonhosted.org/packages/f7/6c/d0f18c3e97683c7e59f91be60629781bb439b43fe5a021f0b3a37464e4ae/turning_points-0.0.2.tar.gz
+[2024-04-05 06:44:25] INFO root fetch - processPackages [netspresso]: Downloading https://files.pythonhosted.org/packages/7a/c0/1737da6d2f07cd66ea60e809aa0ba784b4c12ce9a384f3d5704aeecbc171/netspresso-1.5.0.tar.gz
+[2024-04-05 06:44:25] WARNING root fetch - processPackages [turning-points]: Timeout reached during download
+[2024-04-05 06:44:25] WARNING root fetch - processPackages [netspresso]: Timeout reached during download
+[2024-04-05 06:44:25] INFO root fetch - processPackages [turning-points]: Downloading https://files.pythonhosted.org/packages/81/9f/00470fbe566ca505e6532e1a30c19cf112505fd2ee1668c4caff19477eae/turning_points-0.0.3.tar.gz
+[2024-04-05 06:44:25] WARNING root fetch - processPackages [turning-points]: Timeout reached during download
+[2024-04-05 06:44:25] INFO root fetch - processPackages [turning-points]: executing diffoscope
+[2024-04-05 06:44:25] INFO root fetch - processPackages [turning-points]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/turning_points-0.0.2.tar.gz tmp/turning_points-0.0.3.tar.gz --markdown 20240405/t/turning-points/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2024-04-05 06:44:25] INFO root fetch - processPackages [netspresso]: Downloading https://files.pythonhosted.org/packages/93/ab/8e9a812619592366e434082952c6fa1ecf6316dd624d6f07b1c32f6088fb/netspresso-1.6.0.tar.gz
+[2024-04-05 06:44:25] WARNING root fetch - processPackages [netspresso]: Timeout reached during download
+[2024-04-05 06:44:25] INFO root fetch - processPackages [netspresso]: executing diffoscope
+[2024-04-05 06:44:25] INFO root fetch - processPackages [netspresso]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/netspresso-1.5.0.tar.gz tmp/netspresso-1.6.0.tar.gz --markdown 20240405/n/netspresso/1.5.0-1.6.0/diff.md --exclude *.pyd
+[2024-04-05 06:44:26] INFO root fetch - processPackages [turning-points]: Remove: archive file [/home/abi/fetcher/tmp/turning_points-0.0.2.tar.gz]
+[2024-04-05 06:44:26] INFO root fetch - processPackages [turning-points]: Remove: archive file [/home/abi/fetcher/tmp/turning_points-0.0.3.tar.gz]
+[2024-04-05 06:44:26] INFO root fetch - main [MainThread]: End processing [turning-points]: success
+[2024-04-05 06:44:26] INFO root fetch - processPackages [netspresso]: Remove: archive file [/home/abi/fetcher/tmp/netspresso-1.5.0.tar.gz]
+[2024-04-05 06:44:26] INFO root fetch - processPackages [netspresso]: Remove: archive file [/home/abi/fetcher/tmp/netspresso-1.6.0.tar.gz]
+[2024-04-05 06:44:26] INFO root fetch - main [MainThread]: End processing [netspresso]: success
+[2024-04-05 06:44:26] INFO root fetch - main [MainThread]: Store serial: [22631781]
