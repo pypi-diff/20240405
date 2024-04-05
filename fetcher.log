@@ -13354,3 +13354,44 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2024-04-05 08:16:31] INFO root fetch - processPackages [fake-bpy-module-latest]: Remove: archive file [/home/abi/fetcher/tmp/fake-bpy-module-latest-20240405.tar.gz]
 [2024-04-05 08:16:31] INFO root fetch - main [MainThread]: End processing [fake-bpy-module-latest]: success
 [2024-04-05 08:16:31] INFO root fetch - main [MainThread]: Store serial: [22632384]
+[2024-04-05 08:18:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22632384]
+[2024-04-05 08:18:44] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-05 08:18:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: napalm-s350
+[2024-04-05 08:18:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mani-skill
+[2024-04-05 08:18:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sleipnirgroup-jormungandr
+[2024-04-05 08:18:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: InvokeAI
+[2024-04-05 08:18:44] INFO root fetch - processPackages [InvokeAI]: New version: [4.0.2] Old Version: [4.0.1]
+[2024-04-05 08:18:44] INFO root fetch - processPackages [mani-skill]: New version: [3.0.0.dev9] Old Version: [3.0.0.dev8]
+[2024-04-05 08:18:44] INFO root fetch - processPackages [napalm-s350]: New version: [0.4.1.1] Old Version: [0.4.1]
+[2024-04-05 08:18:44] INFO root fetch - processPackages [sleipnirgroup-jormungandr]: New version: [0.0.1.dev99] Old Version: [0.0.1.dev98]
+[2024-04-05 08:18:45] INFO root fetch - processPackages [sleipnirgroup-jormungandr]: Downloading https://files.pythonhosted.org/packages/cc/12/913e734462cf5d457ad69ec174744b76c771c8b63ebfb55efeb3cf02373e/sleipnirgroup_jormungandr-0.0.1.dev98.tar.gz
+[2024-04-05 08:18:45] INFO root fetch - processPackages [mani-skill]: Downloading https://files.pythonhosted.org/packages/5a/cb/5545bb8fed2bdf9d2c545d09b0ea08c06b6dafdf021fa0370a35836728a4/mani_skill-3.0.0.dev8.tar.gz
+[2024-04-05 08:18:45] INFO root fetch - processPackages [napalm-s350]: Downloading https://files.pythonhosted.org/packages/4b/92/964106eb05edf584d33c0d8a7931d841706c66d1646d247a572f0349d22b/napalm-s350-0.4.1.tar.gz
+[2024-04-05 08:18:45] INFO root fetch - processPackages [InvokeAI]: Downloading https://files.pythonhosted.org/packages/49/d5/18b89774e01bcedec62571718c0fb47140c515fb21bd1533c48e17613687/InvokeAI-4.0.1.tar.gz
+[2024-04-05 08:18:45] WARNING root fetch - processPackages [sleipnirgroup-jormungandr]: Timeout reached during download
+[2024-04-05 08:18:45] WARNING root fetch - processPackages [napalm-s350]: Timeout reached during download
+[2024-04-05 08:18:45] INFO root fetch - processPackages [sleipnirgroup-jormungandr]: Downloading https://files.pythonhosted.org/packages/c4/65/9e9a4eafe0a550c5be12a69cf1665a71a4b5c434089722b18386b65569f5/sleipnirgroup_jormungandr-0.0.1.dev99.tar.gz
+[2024-04-05 08:18:45] WARNING root fetch - processPackages [mani-skill]: Skipping package: exceeds size limit 71826089>=10485760
+[2024-04-05 08:18:45] INFO root fetch - main [MainThread]: End processing [mani-skill] error
+[2024-04-05 08:18:45] WARNING root fetch - processPackages [sleipnirgroup-jormungandr]: Timeout reached during download
+[2024-04-05 08:18:45] INFO root fetch - processPackages [sleipnirgroup-jormungandr]: executing diffoscope
+[2024-04-05 08:18:45] INFO root fetch - processPackages [sleipnirgroup-jormungandr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sleipnirgroup_jormungandr-0.0.1.dev98.tar.gz tmp/sleipnirgroup_jormungandr-0.0.1.dev99.tar.gz --markdown 20240405/s/sleipnirgroup-jormungandr/0.0.1.dev98-0.0.1.dev99/diff.md --exclude *.pyd
+[2024-04-05 08:18:45] INFO root fetch - processPackages [napalm-s350]: Downloading https://files.pythonhosted.org/packages/08/c9/609023290cdcd42adba28ab154c8309441a672d8e27b84934d15a4bde0fe/napalm-s350-0.4.1.1.tar.gz
+[2024-04-05 08:18:45] WARNING root fetch - processPackages [InvokeAI]: Timeout reached during download
+[2024-04-05 08:18:45] WARNING root fetch - processPackages [napalm-s350]: Timeout reached during download
+[2024-04-05 08:18:45] INFO root fetch - processPackages [napalm-s350]: executing diffoscope
+[2024-04-05 08:18:45] INFO root fetch - processPackages [napalm-s350]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/napalm-s350-0.4.1.tar.gz tmp/napalm-s350-0.4.1.1.tar.gz --markdown 20240405/n/napalm-s350/0.4.1-0.4.1.1/diff.md --exclude *.pyd
+[2024-04-05 08:18:45] INFO root fetch - processPackages [InvokeAI]: Downloading https://files.pythonhosted.org/packages/33/c8/43c5e89597eecb2fca51d8fd32b886aeb0cbbb1a8dd35392333bb0b0ee2c/InvokeAI-4.0.2.tar.gz
+[2024-04-05 08:18:45] WARNING root fetch - processPackages [InvokeAI]: Timeout reached during download
+[2024-04-05 08:18:45] INFO root fetch - processPackages [InvokeAI]: executing diffoscope
+[2024-04-05 08:18:45] INFO root fetch - processPackages [InvokeAI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/InvokeAI-4.0.1.tar.gz tmp/InvokeAI-4.0.2.tar.gz --markdown 20240405/I/InvokeAI/4.0.1-4.0.2/diff.md --exclude *.pyd
+[2024-04-05 08:18:46] INFO root fetch - processPackages [sleipnirgroup-jormungandr]: Remove: archive file [/home/abi/fetcher/tmp/sleipnirgroup_jormungandr-0.0.1.dev98.tar.gz]
+[2024-04-05 08:18:46] INFO root fetch - processPackages [sleipnirgroup-jormungandr]: Remove: archive file [/home/abi/fetcher/tmp/sleipnirgroup_jormungandr-0.0.1.dev99.tar.gz]
+[2024-04-05 08:18:46] INFO root fetch - main [MainThread]: End processing [sleipnirgroup-jormungandr]: success
+[2024-04-05 08:18:46] INFO root fetch - processPackages [napalm-s350]: Remove: archive file [/home/abi/fetcher/tmp/napalm-s350-0.4.1.tar.gz]
+[2024-04-05 08:18:46] INFO root fetch - processPackages [napalm-s350]: Remove: archive file [/home/abi/fetcher/tmp/napalm-s350-0.4.1.1.tar.gz]
+[2024-04-05 08:18:46] INFO root fetch - main [MainThread]: End processing [napalm-s350]: success
+[2024-04-05 08:19:11] INFO root fetch - processPackages [InvokeAI]: Remove: archive file [/home/abi/fetcher/tmp/InvokeAI-4.0.1.tar.gz]
+[2024-04-05 08:19:11] INFO root fetch - processPackages [InvokeAI]: Remove: archive file [/home/abi/fetcher/tmp/InvokeAI-4.0.2.tar.gz]
+[2024-04-05 08:19:11] INFO root fetch - main [MainThread]: End processing [InvokeAI]: success
+[2024-04-05 08:19:11] INFO root fetch - main [MainThread]: Store serial: [22632407]
