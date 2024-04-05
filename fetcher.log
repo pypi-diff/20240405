@@ -17075,3 +17075,33 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2024-04-05 11:06:24] INFO root fetch - processPackages [autogluon.multimodal]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.multimodal-1.0.1b20240404.tar.gz]
 [2024-04-05 11:06:24] INFO root fetch - main [MainThread]: End processing [autogluon.multimodal]: success
 [2024-04-05 11:06:24] INFO root fetch - main [MainThread]: Store serial: [22633823]
+[2024-04-05 11:08:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22633823]
+[2024-04-05 11:08:33] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-05 11:08:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: murfey
+[2024-04-05 11:08:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: CandyCrunch
+[2024-04-05 11:08:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: zerohertzLib
+[2024-04-05 11:08:33] INFO root fetch - processPackages [CandyCrunch]: New version: [0.4.0] Old Version: [0.3.0]
+[2024-04-05 11:08:33] INFO root fetch - processPackages [zerohertzLib]: New version: [1.0.4] Old Version: [1.0.3]
+[2024-04-05 11:08:33] INFO root fetch - processPackages [murfey]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-04-05 11:08:33] INFO root fetch - processPackages [CandyCrunch]: Downloading https://files.pythonhosted.org/packages/6d/f5/dc0c088c12d9a9217c571c1f2bf1b8bd96ab40527c771a4fdad054df48cb/CandyCrunch-0.3.0.tar.gz
+[2024-04-05 11:08:33] INFO root fetch - processPackages [murfey]: Downloading https://files.pythonhosted.org/packages/80/b3/2a63cf17e883ec2bfb25a7e07bb4b569260172bd03d466bebbbd1c1b2545/murfey-0.9.8.tar.gz
+[2024-04-05 11:08:33] INFO root fetch - processPackages [zerohertzLib]: Downloading https://files.pythonhosted.org/packages/e7/49/747e8412b8e92e3e23f48c09282aa1ec75a49bf2e0a3e3b758aa9e401c65/zerohertzLib-1.0.3.tar.gz
+[2024-04-05 11:08:34] WARNING root fetch - processPackages [murfey]: Timeout reached during download
+[2024-04-05 11:08:34] WARNING root fetch - processPackages [CandyCrunch]: Skipping package: exceeds size limit 45765103>=10485760
+[2024-04-05 11:08:34] INFO root fetch - main [MainThread]: End processing [CandyCrunch] error
+[2024-04-05 11:08:34] INFO root fetch - processPackages [murfey]: Downloading https://files.pythonhosted.org/packages/41/36/17b8c3b4dd1ba8e5f1dccd6d6eaa0ccf95a84030a1a9869912aada70795e/murfey-0.9.9.tar.gz
+[2024-04-05 11:08:34] WARNING root fetch - processPackages [zerohertzLib]: Timeout reached during download
+[2024-04-05 11:08:34] WARNING root fetch - processPackages [murfey]: Timeout reached during download
+[2024-04-05 11:08:34] INFO root fetch - processPackages [murfey]: executing diffoscope
+[2024-04-05 11:08:34] INFO root fetch - processPackages [murfey]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/murfey-0.9.8.tar.gz tmp/murfey-0.9.9.tar.gz --markdown 20240405/m/murfey/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2024-04-05 11:08:34] INFO root fetch - processPackages [zerohertzLib]: Downloading https://files.pythonhosted.org/packages/57/9a/7f0156d43b5043160e1160bd6153edd5008e91594cd2d3e4a1762c61c1b9/zerohertzLib-1.0.4.tar.gz
+[2024-04-05 11:08:35] INFO root fetch - processPackages [murfey]: Remove: archive file [/home/abi/fetcher/tmp/murfey-0.9.8.tar.gz]
+[2024-04-05 11:08:35] INFO root fetch - processPackages [murfey]: Remove: archive file [/home/abi/fetcher/tmp/murfey-0.9.9.tar.gz]
+[2024-04-05 11:08:35] INFO root fetch - main [MainThread]: End processing [murfey]: success
+[2024-04-05 11:08:35] WARNING root fetch - processPackages [zerohertzLib]: Timeout reached during download
+[2024-04-05 11:08:35] INFO root fetch - processPackages [zerohertzLib]: executing diffoscope
+[2024-04-05 11:08:35] INFO root fetch - processPackages [zerohertzLib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zerohertzLib-1.0.3.tar.gz tmp/zerohertzLib-1.0.4.tar.gz --markdown 20240405/z/zerohertzLib/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2024-04-05 11:08:36] INFO root fetch - processPackages [zerohertzLib]: Remove: archive file [/home/abi/fetcher/tmp/zerohertzLib-1.0.3.tar.gz]
+[2024-04-05 11:08:36] INFO root fetch - processPackages [zerohertzLib]: Remove: archive file [/home/abi/fetcher/tmp/zerohertzLib-1.0.4.tar.gz]
+[2024-04-05 11:08:36] INFO root fetch - main [MainThread]: End processing [zerohertzLib]: success
+[2024-04-05 11:08:36] INFO root fetch - main [MainThread]: Store serial: [22633834]
