@@ -18460,3 +18460,42 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2024-04-05 11:59:22] INFO root fetch - processPackages [weas-widget]: Remove: archive file [/home/abi/fetcher/tmp/weas_widget-0.1.0a0.tar.gz]
 [2024-04-05 11:59:22] INFO root fetch - main [MainThread]: End processing [weas-widget]: success
 [2024-04-05 11:59:22] INFO root fetch - main [MainThread]: Store serial: [22634300]
+[2024-04-05 12:01:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22634300]
+[2024-04-05 12:01:31] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-05 12:01:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: wagtail-modeltranslation
+[2024-04-05 12:01:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mlipy
+[2024-04-05 12:01:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cyrix86
+[2024-04-05 12:01:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: laoshi
+[2024-04-05 12:01:31] WARNING root fetch - processPackages [laoshi]: Skipping, unable to determine old version
+[2024-04-05 12:01:31] INFO root fetch - main [MainThread]: End processing [laoshi] error
+[2024-04-05 12:01:31] INFO root fetch - processPackages [wagtail-modeltranslation]: New version: [0.9.0] Old Version: [0.8a1]
+[2024-04-05 12:01:31] INFO root fetch - processPackages [cyrix86]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-04-05 12:01:31] INFO root fetch - processPackages [mlipy]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-05 12:01:31] INFO root fetch - processPackages [mlipy]: Downloading https://files.pythonhosted.org/packages/ed/fa/dddfc94dc060787f3f456677f01a46aa640bd2bb6dee0cf9533ed7df0a82/mlipy-0.1.8.tar.gz
+[2024-04-05 12:01:31] INFO root fetch - processPackages [wagtail-modeltranslation]: Downloading https://files.pythonhosted.org/packages/09/d3/d46534f2031b5ebe94fc421e9a77ee39901e3e79653c818b4c0e4ecc9b54/wagtail-modeltranslation-0.8a1.tar.gz
+[2024-04-05 12:01:31] INFO root fetch - processPackages [cyrix86]: Downloading https://files.pythonhosted.org/packages/e0/2c/9d68aa7618524b66ac5fcc7dbed75697338d4750763861078293c6da9a3d/cyrix86-0.0.1.tar.gz
+[2024-04-05 12:01:31] WARNING root fetch - processPackages [mlipy]: Timeout reached during download
+[2024-04-05 12:01:31] WARNING root fetch - processPackages [wagtail-modeltranslation]: Timeout reached during download
+[2024-04-05 12:01:32] INFO root fetch - processPackages [mlipy]: Downloading https://files.pythonhosted.org/packages/50/37/99813a7b2b4baa323b9788624a5fa2104d355ae37d9ff025232583581a83/mlipy-0.1.9.tar.gz
+[2024-04-05 12:01:32] WARNING root fetch - processPackages [cyrix86]: Timeout reached during download
+[2024-04-05 12:01:32] INFO root fetch - processPackages [wagtail-modeltranslation]: Downloading https://files.pythonhosted.org/packages/cf/f7/2cf6c6d77f50f9dd3985e8615a1f59c659387567a9a8b77fa9acbc073a19/wagtail-modeltranslation-0.9.0.tar.gz
+[2024-04-05 12:01:32] WARNING root fetch - processPackages [mlipy]: Timeout reached during download
+[2024-04-05 12:01:32] INFO root fetch - processPackages [mlipy]: executing diffoscope
+[2024-04-05 12:01:32] INFO root fetch - processPackages [mlipy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mlipy-0.1.8.tar.gz tmp/mlipy-0.1.9.tar.gz --markdown 20240405/m/mlipy/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2024-04-05 12:01:32] WARNING root fetch - processPackages [wagtail-modeltranslation]: Timeout reached during download
+[2024-04-05 12:01:32] INFO root fetch - processPackages [wagtail-modeltranslation]: executing diffoscope
+[2024-04-05 12:01:32] INFO root fetch - processPackages [wagtail-modeltranslation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wagtail-modeltranslation-0.8a1.tar.gz tmp/wagtail-modeltranslation-0.9.0.tar.gz --markdown 20240405/w/wagtail-modeltranslation/0.8a1-0.9.0/diff.md --exclude *.pyd
+[2024-04-05 12:01:32] INFO root fetch - processPackages [cyrix86]: Downloading https://files.pythonhosted.org/packages/f1/cb/9af35aef14a971f1430fb0e629d87522fd14481eca7c4790835451314a98/cyrix86-0.0.2.tar.gz
+[2024-04-05 12:01:32] WARNING root fetch - processPackages [cyrix86]: Timeout reached during download
+[2024-04-05 12:01:32] INFO root fetch - processPackages [cyrix86]: executing diffoscope
+[2024-04-05 12:01:32] INFO root fetch - processPackages [cyrix86]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cyrix86-0.0.1.tar.gz tmp/cyrix86-0.0.2.tar.gz --markdown 20240405/c/cyrix86/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2024-04-05 12:01:32] INFO root fetch - processPackages [mlipy]: Remove: archive file [/home/abi/fetcher/tmp/mlipy-0.1.8.tar.gz]
+[2024-04-05 12:01:32] INFO root fetch - processPackages [mlipy]: Remove: archive file [/home/abi/fetcher/tmp/mlipy-0.1.9.tar.gz]
+[2024-04-05 12:01:32] INFO root fetch - main [MainThread]: End processing [mlipy]: success
+[2024-04-05 12:01:32] INFO root fetch - processPackages [cyrix86]: Remove: archive file [/home/abi/fetcher/tmp/cyrix86-0.0.1.tar.gz]
+[2024-04-05 12:01:32] INFO root fetch - processPackages [cyrix86]: Remove: archive file [/home/abi/fetcher/tmp/cyrix86-0.0.2.tar.gz]
+[2024-04-05 12:01:32] INFO root fetch - main [MainThread]: End processing [cyrix86]: success
+[2024-04-05 12:01:32] INFO root fetch - processPackages [wagtail-modeltranslation]: Remove: archive file [/home/abi/fetcher/tmp/wagtail-modeltranslation-0.8a1.tar.gz]
+[2024-04-05 12:01:32] INFO root fetch - processPackages [wagtail-modeltranslation]: Remove: archive file [/home/abi/fetcher/tmp/wagtail-modeltranslation-0.9.0.tar.gz]
+[2024-04-05 12:01:32] INFO root fetch - main [MainThread]: End processing [wagtail-modeltranslation]: success
+[2024-04-05 12:01:32] INFO root fetch - main [MainThread]: Store serial: [22634313]
