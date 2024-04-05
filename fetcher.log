@@ -24070,3 +24070,61 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2024-04-05 15:19:55] INFO root fetch - main [MainThread]: End processing [fractal-server]: success
 [2024-04-05 15:19:55] INFO root fetch - main [MainThread]: End processing [fractal-server]: success
 [2024-04-05 15:19:55] INFO root fetch - main [MainThread]: Store serial: [22636570]
+[2024-04-05 15:21:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22636570]
+[2024-04-05 15:22:04] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-05 15:22:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lenstronomy
+[2024-04-05 15:22:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: oarepo-vocabularies
+[2024-04-05 15:22:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: vios
+[2024-04-05 15:22:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: aiohttp-s3-client
+[2024-04-05 15:22:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: jijmodeling-transpiler
+[2024-04-05 15:22:04] INFO root fetch - processPackages [aiohttp-s3-client]: New version: [0.9.8] Old Version: [0.9.5]
+[2024-04-05 15:22:04] INFO root fetch - processPackages [lenstronomy]: New version: [1.9.3] Old Version: [1.9.2]
+[2024-04-05 15:22:04] INFO root fetch - processPackages [vios]: New version: [2.2.8] Old Version: [2.2.7]
+[2024-04-05 15:22:04] INFO root fetch - processPackages [oarepo-vocabularies]: New version: [2.0.83] Old Version: [2.0.82]
+[2024-04-05 15:22:04] INFO root fetch - processPackages [jijmodeling-transpiler]: New version: [0.6.8] Old Version: [0.6.7]
+[2024-04-05 15:22:04] INFO root fetch - processPackages [lenstronomy]: Downloading https://files.pythonhosted.org/packages/d1/32/9cc79940ccc67402b3f1f614174d112f665ff64eda711ed9917dd941bc3c/lenstronomy-1.9.2.tar.gz
+[2024-04-05 15:22:04] INFO root fetch - processPackages [oarepo-vocabularies]: Downloading https://files.pythonhosted.org/packages/40/cd/3b3239fc5a8ad7f78d28a609332bc079aaedb5891dfe2ca574d893538dab/oarepo-vocabularies-2.0.82.tar.gz
+[2024-04-05 15:22:04] INFO root fetch - processPackages [vios]: Downloading https://files.pythonhosted.org/packages/1e/08/ba146fdc9b2293fb3d4feaf52b7ca6f7abf19082347ebf65340bb7d0817d/vios-2.2.7-py3-none-any.whl
+[2024-04-05 15:22:04] INFO root fetch - processPackages [aiohttp-s3-client]: Downloading https://files.pythonhosted.org/packages/29/cb/0d6a5598b242c90a51c4a37c2ecb826a55008ea210566c72df6aba0a98ee/aiohttp_s3_client-0.9.5.tar.gz
+[2024-04-05 15:22:04] WARNING root fetch - processPackages [oarepo-vocabularies]: Timeout reached during download
+[2024-04-05 15:22:04] WARNING root fetch - processPackages [vios]: Timeout reached during download
+[2024-04-05 15:22:04] WARNING root fetch - processPackages [aiohttp-s3-client]: Timeout reached during download
+[2024-04-05 15:22:04] INFO root fetch - processPackages [jijmodeling-transpiler]: Downloading https://files.pythonhosted.org/packages/25/28/e0f1656cf6189df787b2edd89afa4063017c1a7404b0f1411e4a02f3e2e8/jijmodeling_transpiler-0.6.7-cp39-cp39-win_amd64.whl
+[2024-04-05 15:22:04] INFO root fetch - processPackages [oarepo-vocabularies]: Downloading https://files.pythonhosted.org/packages/29/b8/25d5c39de00e9707b02a10c4063bd0bbebf1533f4eb3ca07614e4543f763/oarepo-vocabularies-2.0.83.tar.gz
+[2024-04-05 15:22:05] INFO root fetch - processPackages [aiohttp-s3-client]: Downloading https://files.pythonhosted.org/packages/a0/dd/9b216e9977efbc2625c19be75402a976691245f539266b268689236f7a48/aiohttp_s3_client-0.9.8.tar.gz
+[2024-04-05 15:22:05] INFO root fetch - processPackages [vios]: Downloading https://files.pythonhosted.org/packages/3f/8d/a61940198a5778f2a3a27d815b4274a6dbd826a7780fe9f8bf0b9802cae4/vios-2.2.8-py3-none-any.whl
+[2024-04-05 15:22:05] WARNING root fetch - processPackages [oarepo-vocabularies]: Timeout reached during download
+[2024-04-05 15:22:05] INFO root fetch - processPackages [oarepo-vocabularies]: executing diffoscope
+[2024-04-05 15:22:05] INFO root fetch - processPackages [oarepo-vocabularies]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oarepo-vocabularies-2.0.82.tar.gz tmp/oarepo-vocabularies-2.0.83.tar.gz --markdown 20240405/o/oarepo-vocabularies/2.0.82-2.0.83/diff.md --exclude *.pyd
+[2024-04-05 15:22:05] WARNING root fetch - processPackages [aiohttp-s3-client]: Timeout reached during download
+[2024-04-05 15:22:05] INFO root fetch - processPackages [aiohttp-s3-client]: executing diffoscope
+[2024-04-05 15:22:05] INFO root fetch - processPackages [aiohttp-s3-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiohttp_s3_client-0.9.5.tar.gz tmp/aiohttp_s3_client-0.9.8.tar.gz --markdown 20240405/a/aiohttp-s3-client/0.9.5-0.9.8/diff.md --exclude *.pyd
+[2024-04-05 15:22:05] WARNING root fetch - processPackages [vios]: Timeout reached during download
+[2024-04-05 15:22:05] INFO root fetch - processPackages [vios]: executing diffoscope
+[2024-04-05 15:22:05] INFO root fetch - processPackages [vios]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vios-2.2.7-py3-none-any.whl.zip tmp/vios-2.2.8-py3-none-any.whl.zip --markdown 20240405/v/vios/2.2.7-2.2.8/diff.md --exclude *.pyd
+[2024-04-05 15:22:05] WARNING root fetch - processPackages [jijmodeling-transpiler]: Timeout reached during download
+[2024-04-05 15:22:05] INFO root fetch - processPackages [aiohttp-s3-client]: Remove: archive file [/home/abi/fetcher/tmp/aiohttp_s3_client-0.9.5.tar.gz]
+[2024-04-05 15:22:05] INFO root fetch - processPackages [aiohttp-s3-client]: Remove: archive file [/home/abi/fetcher/tmp/aiohttp_s3_client-0.9.8.tar.gz]
+[2024-04-05 15:22:05] INFO root fetch - main [MainThread]: End processing [aiohttp-s3-client]: success
+[2024-04-05 15:22:05] INFO root fetch - processPackages [vios]: Remove: archive file [/home/abi/fetcher/tmp/vios-2.2.7-py3-none-any.whl.zip]
+[2024-04-05 15:22:05] INFO root fetch - processPackages [vios]: Remove: archive file [/home/abi/fetcher/tmp/vios-2.2.8-py3-none-any.whl.zip]
+[2024-04-05 15:22:05] INFO root fetch - main [MainThread]: End processing [vios]: success
+[2024-04-05 15:22:05] WARNING root fetch - processPackages [lenstronomy]: Timeout reached during download
+[2024-04-05 15:22:06] INFO root fetch - processPackages [jijmodeling-transpiler]: Downloading https://files.pythonhosted.org/packages/8d/33/543e8e35e0a3f10abdb3f5b970ec6137055223ed1ee06e5fba9bd3e74a30/jijmodeling_transpiler-0.6.8-cp39-cp39-win_amd64.whl
+[2024-04-05 15:22:06] INFO root fetch - processPackages [oarepo-vocabularies]: Remove: archive file [/home/abi/fetcher/tmp/oarepo-vocabularies-2.0.82.tar.gz]
+[2024-04-05 15:22:06] INFO root fetch - processPackages [oarepo-vocabularies]: Remove: archive file [/home/abi/fetcher/tmp/oarepo-vocabularies-2.0.83.tar.gz]
+[2024-04-05 15:22:06] INFO root fetch - main [MainThread]: End processing [oarepo-vocabularies]: success
+[2024-04-05 15:22:06] INFO root fetch - processPackages [lenstronomy]: Downloading https://files.pythonhosted.org/packages/d1/78/0ed3602184c331fc601896ff8cb0949ff592c6a26558a3bd74dee51b5c06/lenstronomy-1.9.3.tar.gz
+[2024-04-05 15:22:06] WARNING root fetch - processPackages [jijmodeling-transpiler]: Timeout reached during download
+[2024-04-05 15:22:06] INFO root fetch - processPackages [jijmodeling-transpiler]: executing diffoscope
+[2024-04-05 15:22:06] INFO root fetch - processPackages [jijmodeling-transpiler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jijmodeling_transpiler-0.6.7-cp39-cp39-win_amd64.whl.zip tmp/jijmodeling_transpiler-0.6.8-cp39-cp39-win_amd64.whl.zip --markdown 20240405/j/jijmodeling-transpiler/0.6.7-0.6.8/diff.md --exclude *.pyd
+[2024-04-05 15:22:07] INFO root fetch - processPackages [jijmodeling-transpiler]: Remove: archive file [/home/abi/fetcher/tmp/jijmodeling_transpiler-0.6.7-cp39-cp39-win_amd64.whl.zip]
+[2024-04-05 15:22:07] INFO root fetch - processPackages [jijmodeling-transpiler]: Remove: archive file [/home/abi/fetcher/tmp/jijmodeling_transpiler-0.6.8-cp39-cp39-win_amd64.whl.zip]
+[2024-04-05 15:22:07] INFO root fetch - main [MainThread]: End processing [jijmodeling-transpiler]: success
+[2024-04-05 15:22:08] WARNING root fetch - processPackages [lenstronomy]: Timeout reached during download
+[2024-04-05 15:22:08] INFO root fetch - processPackages [lenstronomy]: executing diffoscope
+[2024-04-05 15:22:08] INFO root fetch - processPackages [lenstronomy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lenstronomy-1.9.2.tar.gz tmp/lenstronomy-1.9.3.tar.gz --markdown 20240405/l/lenstronomy/1.9.2-1.9.3/diff.md --exclude *.pyd
+[2024-04-05 15:22:12] INFO root fetch - processPackages [lenstronomy]: Remove: archive file [/home/abi/fetcher/tmp/lenstronomy-1.9.2.tar.gz]
+[2024-04-05 15:22:12] INFO root fetch - processPackages [lenstronomy]: Remove: archive file [/home/abi/fetcher/tmp/lenstronomy-1.9.3.tar.gz]
+[2024-04-05 15:22:12] INFO root fetch - main [MainThread]: End processing [lenstronomy]: success
+[2024-04-05 15:22:12] INFO root fetch - main [MainThread]: Store serial: [22636586]
