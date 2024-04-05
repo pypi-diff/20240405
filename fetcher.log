@@ -9093,3 +9093,20 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2024-04-05 04:00:05] INFO root fetch - processPackages [localconfig]: Remove: archive file [/home/abi/fetcher/tmp/localconfig-1.1.4.tar.gz]
 [2024-04-05 04:00:05] INFO root fetch - main [MainThread]: End processing [localconfig]: success
 [2024-04-05 04:00:05] INFO root fetch - main [MainThread]: Store serial: [22631032]
+[2024-04-05 04:02:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22631032]
+[2024-04-05 04:02:19] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-05 04:02:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: unittestreport-yami
+[2024-04-05 04:02:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: langchain-weaviate
+[2024-04-05 04:02:19] INFO root fetch - processPackages [langchain-weaviate]: New version: [0.0.1rc6] Old Version: [0.0.1rc5]
+[2024-04-05 04:02:19] INFO root fetch - processPackages [langchain-weaviate]: Downloading https://files.pythonhosted.org/packages/7d/62/695ca94ea7e2e1530af2edb219885d80a262f081496d0c7added239bc0df/langchain_weaviate-0.0.1rc5.tar.gz
+[2024-04-05 04:02:19] WARNING root fetch - processPackages [unittestreport-yami]: Skipping, unable to determine old version
+[2024-04-05 04:02:19] INFO root fetch - main [MainThread]: End processing [unittestreport-yami] error
+[2024-04-05 04:02:19] WARNING root fetch - processPackages [langchain-weaviate]: Timeout reached during download
+[2024-04-05 04:02:19] INFO root fetch - processPackages [langchain-weaviate]: Downloading https://files.pythonhosted.org/packages/b6/e2/7d7cae08f5f2ccdef56570b131cf79e282fd8d5cb176e14b5e72f5087cec/langchain_weaviate-0.0.1rc6.tar.gz
+[2024-04-05 04:02:19] WARNING root fetch - processPackages [langchain-weaviate]: Timeout reached during download
+[2024-04-05 04:02:19] INFO root fetch - processPackages [langchain-weaviate]: executing diffoscope
+[2024-04-05 04:02:19] INFO root fetch - processPackages [langchain-weaviate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langchain_weaviate-0.0.1rc5.tar.gz tmp/langchain_weaviate-0.0.1rc6.tar.gz --markdown 20240405/l/langchain-weaviate/0.0.1rc5-0.0.1rc6/diff.md --exclude *.pyd
+[2024-04-05 04:02:20] INFO root fetch - processPackages [langchain-weaviate]: Remove: archive file [/home/abi/fetcher/tmp/langchain_weaviate-0.0.1rc5.tar.gz]
+[2024-04-05 04:02:20] INFO root fetch - processPackages [langchain-weaviate]: Remove: archive file [/home/abi/fetcher/tmp/langchain_weaviate-0.0.1rc6.tar.gz]
+[2024-04-05 04:02:20] INFO root fetch - main [MainThread]: End processing [langchain-weaviate]: success
+[2024-04-05 04:02:20] INFO root fetch - main [MainThread]: Store serial: [22631044]
