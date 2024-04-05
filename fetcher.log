@@ -17152,3 +17152,61 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2024-04-05 11:10:47] INFO root fetch - processPackages [nonebot-plugin-bilichat]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_bilichat-5.3.0.tar.gz]
 [2024-04-05 11:10:47] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-bilichat]: success
 [2024-04-05 11:10:47] INFO root fetch - main [MainThread]: Store serial: [22633846]
+[2024-04-05 11:12:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22633846]
+[2024-04-05 11:12:56] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-05 11:12:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: aioairzone-cloud
+[2024-04-05 11:12:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: i2
+[2024-04-05 11:12:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: lusid-drive-sdk
+[2024-04-05 11:12:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cbig_network_correspondence
+[2024-04-05 11:12:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: playmolecule
+[2024-04-05 11:12:56] INFO root fetch - processPackages [cbig_network_correspondence]: New version: [0.2.0] Old Version: [0.1.4]
+[2024-04-05 11:12:56] INFO root fetch - processPackages [i2]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-05 11:12:56] INFO root fetch - processPackages [aioairzone-cloud]: New version: [0.5.0] Old Version: [0.4.7]
+[2024-04-05 11:12:56] INFO root fetch - processPackages [playmolecule]: New version: [2.4.9] Old Version: [2.4.8]
+[2024-04-05 11:12:56] INFO root fetch - processPackages [lusid-drive-sdk]: New version: [2.0.9] Old Version: [2.0.8]
+[2024-04-05 11:12:56] INFO root fetch - processPackages [i2]: Downloading https://files.pythonhosted.org/packages/4a/4a/1ffdf98d10939d4cd6bec3b8f185847b0bc1829532579cafe4333f053ec6/i2-0.1.8.tar.gz
+[2024-04-05 11:12:56] INFO root fetch - processPackages [cbig_network_correspondence]: Downloading https://files.pythonhosted.org/packages/dd/0c/5afe45a5b946ed951003d2d56ae68adc866635b08b50bf6068bec8e9c010/cbig_network_correspondence-0.1.4.tar.gz
+[2024-04-05 11:12:56] INFO root fetch - processPackages [aioairzone-cloud]: Downloading https://files.pythonhosted.org/packages/14/27/a4353eaf17f9941d6ff74df9ec01345514685cbd3f32ccd28362a31b7537/aioairzone-cloud-0.4.7.tar.gz
+[2024-04-05 11:12:56] INFO root fetch - processPackages [playmolecule]: Downloading https://files.pythonhosted.org/packages/64/b0/bfc18e7eb81d52b6e6f077f79370a1f7695b7f0778851e66d68186b30be0/playmolecule-2.4.8.tar.gz
+[2024-04-05 11:12:56] INFO root fetch - processPackages [lusid-drive-sdk]: Downloading https://files.pythonhosted.org/packages/f4/a1/95ed20171b4553290b9cc6ac102b80e8dcbb6bbc79624e6c14d4e1b07f0a/lusid_drive_sdk-2.0.8.tar.gz
+[2024-04-05 11:12:56] WARNING root fetch - processPackages [cbig_network_correspondence]: Timeout reached during download
+[2024-04-05 11:12:56] WARNING root fetch - processPackages [aioairzone-cloud]: Timeout reached during download
+[2024-04-05 11:12:56] WARNING root fetch - processPackages [i2]: Timeout reached during download
+[2024-04-05 11:12:56] WARNING root fetch - processPackages [lusid-drive-sdk]: Timeout reached during download
+[2024-04-05 11:12:57] INFO root fetch - processPackages [cbig_network_correspondence]: Downloading https://files.pythonhosted.org/packages/13/53/3b82e6dbbdfc198b4d1bb1eeb20e69667b8c361c5776e6751e79988fe23c/cbig_network_correspondence-0.2.0.tar.gz
+[2024-04-05 11:12:57] INFO root fetch - processPackages [i2]: Downloading https://files.pythonhosted.org/packages/3d/39/ec371b8193ff958bddd94f50dc3a9b618532a2030ba835bd063033c39977/i2-0.1.9.tar.gz
+[2024-04-05 11:12:57] INFO root fetch - processPackages [aioairzone-cloud]: Downloading https://files.pythonhosted.org/packages/a5/83/a8632862a0624d8c4f949c13ccfb1b459a7836103f794bc8c489137ca641/aioairzone-cloud-0.5.0.tar.gz
+[2024-04-05 11:12:57] INFO root fetch - processPackages [lusid-drive-sdk]: Downloading https://files.pythonhosted.org/packages/7d/67/970d29fd9f0d3a1595e563d2cbb924002e97a117252a8523efd70efd0380/lusid_drive_sdk-2.0.9.tar.gz
+[2024-04-05 11:12:57] WARNING root fetch - processPackages [cbig_network_correspondence]: Timeout reached during download
+[2024-04-05 11:12:57] INFO root fetch - processPackages [cbig_network_correspondence]: executing diffoscope
+[2024-04-05 11:12:57] INFO root fetch - processPackages [cbig_network_correspondence]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cbig_network_correspondence-0.1.4.tar.gz tmp/cbig_network_correspondence-0.2.0.tar.gz --markdown 20240405/c/cbig_network_correspondence/0.1.4-0.2.0/diff.md --exclude *.pyd
+[2024-04-05 11:12:57] WARNING root fetch - processPackages [playmolecule]: Timeout reached during download
+[2024-04-05 11:12:57] WARNING root fetch - processPackages [aioairzone-cloud]: Timeout reached during download
+[2024-04-05 11:12:57] INFO root fetch - processPackages [aioairzone-cloud]: executing diffoscope
+[2024-04-05 11:12:57] INFO root fetch - processPackages [aioairzone-cloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aioairzone-cloud-0.4.7.tar.gz tmp/aioairzone-cloud-0.5.0.tar.gz --markdown 20240405/a/aioairzone-cloud/0.4.7-0.5.0/diff.md --exclude *.pyd
+[2024-04-05 11:12:57] WARNING root fetch - processPackages [i2]: Timeout reached during download
+[2024-04-05 11:12:57] INFO root fetch - processPackages [i2]: executing diffoscope
+[2024-04-05 11:12:57] INFO root fetch - processPackages [i2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/i2-0.1.8.tar.gz tmp/i2-0.1.9.tar.gz --markdown 20240405/i/i2/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2024-04-05 11:12:57] WARNING root fetch - processPackages [lusid-drive-sdk]: Timeout reached during download
+[2024-04-05 11:12:57] INFO root fetch - processPackages [lusid-drive-sdk]: executing diffoscope
+[2024-04-05 11:12:57] INFO root fetch - processPackages [lusid-drive-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lusid_drive_sdk-2.0.8.tar.gz tmp/lusid_drive_sdk-2.0.9.tar.gz --markdown 20240405/l/lusid-drive-sdk/2.0.8-2.0.9/diff.md --exclude *.pyd
+[2024-04-05 11:12:57] INFO root fetch - processPackages [playmolecule]: Downloading https://files.pythonhosted.org/packages/f4/32/91c078a0b892421b5797977c4fe473b624a5babecf8f1b20496273257880/playmolecule-2.4.9.tar.gz
+[2024-04-05 11:12:57] WARNING root fetch - processPackages [playmolecule]: Timeout reached during download
+[2024-04-05 11:12:57] INFO root fetch - processPackages [playmolecule]: executing diffoscope
+[2024-04-05 11:12:57] INFO root fetch - processPackages [playmolecule]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/playmolecule-2.4.8.tar.gz tmp/playmolecule-2.4.9.tar.gz --markdown 20240405/p/playmolecule/2.4.8-2.4.9/diff.md --exclude *.pyd
+[2024-04-05 11:12:57] INFO root fetch - processPackages [cbig_network_correspondence]: Remove: archive file [/home/abi/fetcher/tmp/cbig_network_correspondence-0.1.4.tar.gz]
+[2024-04-05 11:12:57] INFO root fetch - processPackages [cbig_network_correspondence]: Remove: archive file [/home/abi/fetcher/tmp/cbig_network_correspondence-0.2.0.tar.gz]
+[2024-04-05 11:12:57] INFO root fetch - main [MainThread]: End processing [cbig_network_correspondence]: success
+[2024-04-05 11:12:58] INFO root fetch - processPackages [aioairzone-cloud]: Remove: archive file [/home/abi/fetcher/tmp/aioairzone-cloud-0.4.7.tar.gz]
+[2024-04-05 11:12:58] INFO root fetch - processPackages [aioairzone-cloud]: Remove: archive file [/home/abi/fetcher/tmp/aioairzone-cloud-0.5.0.tar.gz]
+[2024-04-05 11:12:58] INFO root fetch - main [MainThread]: End processing [aioairzone-cloud]: success
+[2024-04-05 11:12:58] INFO root fetch - processPackages [i2]: Remove: archive file [/home/abi/fetcher/tmp/i2-0.1.8.tar.gz]
+[2024-04-05 11:12:58] INFO root fetch - processPackages [i2]: Remove: archive file [/home/abi/fetcher/tmp/i2-0.1.9.tar.gz]
+[2024-04-05 11:12:58] INFO root fetch - main [MainThread]: End processing [i2]: success
+[2024-04-05 11:12:58] INFO root fetch - processPackages [lusid-drive-sdk]: Remove: archive file [/home/abi/fetcher/tmp/lusid_drive_sdk-2.0.8.tar.gz]
+[2024-04-05 11:12:58] INFO root fetch - processPackages [lusid-drive-sdk]: Remove: archive file [/home/abi/fetcher/tmp/lusid_drive_sdk-2.0.9.tar.gz]
+[2024-04-05 11:12:58] INFO root fetch - main [MainThread]: End processing [lusid-drive-sdk]: success
+[2024-04-05 11:12:58] INFO root fetch - processPackages [playmolecule]: Remove: archive file [/home/abi/fetcher/tmp/playmolecule-2.4.8.tar.gz]
+[2024-04-05 11:12:58] INFO root fetch - processPackages [playmolecule]: Remove: archive file [/home/abi/fetcher/tmp/playmolecule-2.4.9.tar.gz]
+[2024-04-05 11:12:58] INFO root fetch - main [MainThread]: End processing [playmolecule]: success
+[2024-04-05 11:12:58] INFO root fetch - main [MainThread]: Store serial: [22633860]
