@@ -14525,3 +14525,31 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2024-04-05 09:11:30] INFO root fetch - processPackages [rime-sdk]: Remove: archive file [/home/abi/fetcher/tmp/rime_sdk-2.8.0rc0.tar.gz]
 [2024-04-05 09:11:30] INFO root fetch - main [MainThread]: End processing [rime-sdk]: success
 [2024-04-05 09:11:30] INFO root fetch - main [MainThread]: Store serial: [22632737]
+[2024-04-05 09:13:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22632737]
+[2024-04-05 09:13:38] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-05 09:13:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: django-login-email
+[2024-04-05 09:13:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: spaceone-identity
+[2024-04-05 09:13:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: unblob
+[2024-04-05 09:13:39] WARNING root fetch - processPackages [django-login-email]: Skipping, unable to determine old version
+[2024-04-05 09:13:39] INFO root fetch - main [MainThread]: End processing [django-login-email] error
+[2024-04-05 09:13:39] INFO root fetch - processPackages [spaceone-identity]: New version: [2.0.dev99] Old Version: [2.0.dev98]
+[2024-04-05 09:13:39] INFO root fetch - processPackages [unblob]: New version: [24.4.5] Old Version: [24.2.20]
+[2024-04-05 09:13:39] INFO root fetch - processPackages [spaceone-identity]: Downloading https://files.pythonhosted.org/packages/f6/06/1de9a43d552682ae8e4a18d4660a13662795d5389a0b6cfde31e31aeb9c0/spaceone-identity-2.0.dev98.tar.gz
+[2024-04-05 09:13:39] WARNING root fetch - processPackages [spaceone-identity]: Timeout reached during download
+[2024-04-05 09:13:39] INFO root fetch - processPackages [unblob]: Downloading https://files.pythonhosted.org/packages/c6/70/b0f621250032edeb93c73ce263627387943e2ee145fa1e7d8f2b0f67ce35/unblob-24.2.20.tar.gz
+[2024-04-05 09:13:39] INFO root fetch - processPackages [spaceone-identity]: Downloading https://files.pythonhosted.org/packages/3a/f9/802fb8123677b99c90a587b67faa5443d403022fbbd70d8bff1c49920e02/spaceone-identity-2.0.dev99.tar.gz
+[2024-04-05 09:13:39] WARNING root fetch - processPackages [unblob]: Timeout reached during download
+[2024-04-05 09:13:39] WARNING root fetch - processPackages [spaceone-identity]: Timeout reached during download
+[2024-04-05 09:13:39] INFO root fetch - processPackages [spaceone-identity]: executing diffoscope
+[2024-04-05 09:13:39] INFO root fetch - processPackages [spaceone-identity]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spaceone-identity-2.0.dev98.tar.gz tmp/spaceone-identity-2.0.dev99.tar.gz --markdown 20240405/s/spaceone-identity/2.0.dev98-2.0.dev99/diff.md --exclude *.pyd
+[2024-04-05 09:13:39] INFO root fetch - processPackages [unblob]: Downloading https://files.pythonhosted.org/packages/43/34/378ba6a8e8e8f130ec336a4610fc323a4f3568b0b428daa156f00e0a3263/unblob-24.4.5.tar.gz
+[2024-04-05 09:13:39] WARNING root fetch - processPackages [unblob]: Timeout reached during download
+[2024-04-05 09:13:39] INFO root fetch - processPackages [unblob]: executing diffoscope
+[2024-04-05 09:13:39] INFO root fetch - processPackages [unblob]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unblob-24.2.20.tar.gz tmp/unblob-24.4.5.tar.gz --markdown 20240405/u/unblob/24.2.20-24.4.5/diff.md --exclude *.pyd
+[2024-04-05 09:13:40] INFO root fetch - processPackages [spaceone-identity]: Remove: archive file [/home/abi/fetcher/tmp/spaceone-identity-2.0.dev98.tar.gz]
+[2024-04-05 09:13:40] INFO root fetch - processPackages [spaceone-identity]: Remove: archive file [/home/abi/fetcher/tmp/spaceone-identity-2.0.dev99.tar.gz]
+[2024-04-05 09:13:40] INFO root fetch - main [MainThread]: End processing [spaceone-identity]: success
+[2024-04-05 09:13:40] INFO root fetch - processPackages [unblob]: Remove: archive file [/home/abi/fetcher/tmp/unblob-24.2.20.tar.gz]
+[2024-04-05 09:13:40] INFO root fetch - processPackages [unblob]: Remove: archive file [/home/abi/fetcher/tmp/unblob-24.4.5.tar.gz]
+[2024-04-05 09:13:40] INFO root fetch - main [MainThread]: End processing [unblob]: success
+[2024-04-05 09:13:40] INFO root fetch - main [MainThread]: Store serial: [22632749]
