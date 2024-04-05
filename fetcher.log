@@ -19102,3 +19102,53 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2024-04-05 12:24:51] INFO root fetch - processPackages [Fragmenstein]: Remove: archive file [/home/abi/fetcher/tmp/Fragmenstein-1.0.2.tar.gz]
 [2024-04-05 12:24:51] INFO root fetch - main [MainThread]: End processing [Fragmenstein]: success
 [2024-04-05 12:24:51] INFO root fetch - main [MainThread]: Store serial: [22634521]
+[2024-04-05 12:26:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22634521]
+[2024-04-05 12:27:02] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-05 12:27:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: finbourne-horizon-sdk
+[2024-04-05 12:27:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nucliadb-node-binding
+[2024-04-05 12:27:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nucliadb-node-binding
+[2024-04-05 12:27:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dokos-cli
+[2024-04-05 12:27:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: arkindex-base-worker
+[2024-04-05 12:27:02] INFO root fetch - processPackages [dokos-cli]: New version: [2.8.1] Old Version: [2.8.0]
+[2024-04-05 12:27:02] INFO root fetch - processPackages [finbourne-horizon-sdk]: New version: [2.0.99] Old Version: [2.0.98]
+[2024-04-05 12:27:03] INFO root fetch - processPackages [arkindex-base-worker]: New version: [0.3.7rc8] Old Version: [0.3.7rc7]
+[2024-04-05 12:27:03] INFO root fetch - processPackages [finbourne-horizon-sdk]: Downloading https://files.pythonhosted.org/packages/06/c9/47ee3aea0e17410b358d1981bc3457d72efa489b5bd7cdfd8e0dae8d1e99/finbourne_horizon_sdk-2.0.98.tar.gz
+[2024-04-05 12:27:03] INFO root fetch - processPackages [dokos-cli]: Downloading https://files.pythonhosted.org/packages/c7/20/bc0c3299ac9a569ecf7004d23572f096079f0a2a9fe72ee13df1717ff5d1/dokos_cli-2.8.0.tar.gz
+[2024-04-05 12:27:03] INFO root fetch - processPackages [arkindex-base-worker]: Downloading https://files.pythonhosted.org/packages/3f/9d/d1a77ead0d23bd129bda8f9f83fd00f4a6bc80253bb5634a086fe53618ae/arkindex-base-worker-0.3.7rc7.tar.gz
+[2024-04-05 12:27:03] WARNING root fetch - processPackages [finbourne-horizon-sdk]: Timeout reached during download
+[2024-04-05 12:27:03] WARNING root fetch - processPackages [dokos-cli]: Timeout reached during download
+[2024-04-05 12:27:03] INFO root fetch - processPackages [finbourne-horizon-sdk]: Downloading https://files.pythonhosted.org/packages/00/39/af6f8e607b0c244600f9bbe82842b5739b5f5bbd08171e54da6ba158fc09/finbourne_horizon_sdk-2.0.99.tar.gz
+[2024-04-05 12:27:03] WARNING root fetch - processPackages [arkindex-base-worker]: Timeout reached during download
+[2024-04-05 12:27:03] INFO root fetch - processPackages [nucliadb-node-binding]: New version: [2.46.1.post1102] Old Version: [2.46.1.post1101]
+[2024-04-05 12:27:03] INFO root fetch - processPackages [nucliadb-node-binding]: New version: [2.46.1.post1102] Old Version: [2.46.1.post1101]
+[2024-04-05 12:27:03] INFO root fetch - processPackages [dokos-cli]: Downloading https://files.pythonhosted.org/packages/b6/10/ea0f3fda022d97b2c7ee6c94c9977bca7bfa8e57bd3fce1e87df2f8399a7/dokos_cli-2.8.1.tar.gz
+[2024-04-05 12:27:03] WARNING root fetch - processPackages [finbourne-horizon-sdk]: Timeout reached during download
+[2024-04-05 12:27:03] INFO root fetch - processPackages [finbourne-horizon-sdk]: executing diffoscope
+[2024-04-05 12:27:03] INFO root fetch - processPackages [finbourne-horizon-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/finbourne_horizon_sdk-2.0.98.tar.gz tmp/finbourne_horizon_sdk-2.0.99.tar.gz --markdown 20240405/f/finbourne-horizon-sdk/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2024-04-05 12:27:03] INFO root fetch - processPackages [nucliadb-node-binding]: Downloading https://files.pythonhosted.org/packages/89/00/084e757c1c33806f8204551c8adb111742460226408d2e6b7c2c851c51af/nucliadb_node_binding-2.46.1.post1101.tar.gz
+[2024-04-05 12:27:03] INFO root fetch - processPackages [nucliadb-node-binding]: Downloading https://files.pythonhosted.org/packages/89/00/084e757c1c33806f8204551c8adb111742460226408d2e6b7c2c851c51af/nucliadb_node_binding-2.46.1.post1101.tar.gz
+[2024-04-05 12:27:03] INFO root fetch - processPackages [arkindex-base-worker]: Downloading https://files.pythonhosted.org/packages/11/21/1d338c8e4239e3ea544971025abf19aba0e02b5a597b507f6125d3b2322f/arkindex_base_worker-0.3.7rc8-py3-none-any.whl
+[2024-04-05 12:27:03] WARNING root fetch - processPackages [dokos-cli]: Timeout reached during download
+[2024-04-05 12:27:03] INFO root fetch - processPackages [dokos-cli]: executing diffoscope
+[2024-04-05 12:27:03] INFO root fetch - processPackages [dokos-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dokos_cli-2.8.0.tar.gz tmp/dokos_cli-2.8.1.tar.gz --markdown 20240405/d/dokos-cli/2.8.0-2.8.1/diff.md --exclude *.pyd
+[2024-04-05 12:27:03] WARNING root fetch - processPackages [nucliadb-node-binding]: Timeout reached during download
+[2024-04-05 12:27:03] WARNING root fetch - processPackages [nucliadb-node-binding]: Timeout reached during download
+[2024-04-05 12:27:04] WARNING root fetch - processPackages [arkindex-base-worker]: Timeout reached during download
+[2024-04-05 12:27:04] INFO root fetch - processPackages [arkindex-base-worker]: executing diffoscope
+[2024-04-05 12:27:04] INFO root fetch - processPackages [arkindex-base-worker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arkindex-base-worker-0.3.7rc7.tar.gz tmp/arkindex_base_worker-0.3.7rc8-py3-none-any.whl.zip --markdown 20240405/a/arkindex-base-worker/0.3.7rc7-0.3.7rc8/diff.md --exclude *.pyd
+[2024-04-05 12:27:04] INFO root fetch - processPackages [nucliadb-node-binding]: Downloading https://files.pythonhosted.org/packages/a0/d0/fd237196fc866c5f895865204981356c78de30dfa186f9143a6c69b67ba3/nucliadb_node_binding-2.46.1.post1102-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-04-05 12:27:04] INFO root fetch - processPackages [nucliadb-node-binding]: Downloading https://files.pythonhosted.org/packages/a0/d0/fd237196fc866c5f895865204981356c78de30dfa186f9143a6c69b67ba3/nucliadb_node_binding-2.46.1.post1102-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-04-05 12:27:04] INFO root fetch - processPackages [finbourne-horizon-sdk]: Remove: archive file [/home/abi/fetcher/tmp/finbourne_horizon_sdk-2.0.98.tar.gz]
+[2024-04-05 12:27:04] INFO root fetch - processPackages [finbourne-horizon-sdk]: Remove: archive file [/home/abi/fetcher/tmp/finbourne_horizon_sdk-2.0.99.tar.gz]
+[2024-04-05 12:27:04] INFO root fetch - main [MainThread]: End processing [finbourne-horizon-sdk]: success
+[2024-04-05 12:27:04] INFO root fetch - processPackages [arkindex-base-worker]: Remove: archive file [/home/abi/fetcher/tmp/arkindex-base-worker-0.3.7rc7.tar.gz]
+[2024-04-05 12:27:04] INFO root fetch - processPackages [arkindex-base-worker]: Remove: archive file [/home/abi/fetcher/tmp/arkindex_base_worker-0.3.7rc8-py3-none-any.whl.zip]
+[2024-04-05 12:27:04] INFO root fetch - main [MainThread]: End processing [arkindex-base-worker]: success
+[2024-04-05 12:27:04] INFO root fetch - processPackages [dokos-cli]: Remove: archive file [/home/abi/fetcher/tmp/dokos_cli-2.8.0.tar.gz]
+[2024-04-05 12:27:04] INFO root fetch - processPackages [dokos-cli]: Remove: archive file [/home/abi/fetcher/tmp/dokos_cli-2.8.1.tar.gz]
+[2024-04-05 12:27:04] INFO root fetch - main [MainThread]: End processing [dokos-cli]: success
+[2024-04-05 12:27:05] WARNING root fetch - processPackages [nucliadb-node-binding]: Skipping package: exceeds size limit 11630928>=10485760
+[2024-04-05 12:27:05] WARNING root fetch - processPackages [nucliadb-node-binding]: Skipping package: exceeds size limit 11630928>=10485760
+[2024-04-05 12:27:05] INFO root fetch - main [MainThread]: End processing [nucliadb-node-binding] error
+[2024-04-05 12:27:05] INFO root fetch - main [MainThread]: End processing [nucliadb-node-binding] error
+[2024-04-05 12:27:05] INFO root fetch - main [MainThread]: Store serial: [22634566]
