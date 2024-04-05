@@ -14464,3 +14464,64 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2024-04-05 09:09:17] INFO root fetch - processPackages [shimoku-browser]: Remove: archive file [/home/abi/fetcher/tmp/shimoku-browser-2.2.3.tar.gz]
 [2024-04-05 09:09:17] INFO root fetch - main [MainThread]: End processing [shimoku-browser]: success
 [2024-04-05 09:09:17] INFO root fetch - main [MainThread]: Store serial: [22632716]
+[2024-04-05 09:11:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22632716]
+[2024-04-05 09:11:26] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-05 09:11:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gammarer.aws-secure-cloudfront-origin-bucket
+[2024-04-05 09:11:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: rime-sdk
+[2024-04-05 09:11:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: politely
+[2024-04-05 09:11:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: razorbill
+[2024-04-05 09:11:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nonebot-adapter-minecraft
+[2024-04-05 09:11:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: youtube-selenium-py
+[2024-04-05 09:11:27] INFO root fetch - processPackages [politely]: New version: [4.0.1] Old Version: [4.0.0a1]
+[2024-04-05 09:11:27] INFO root fetch - processPackages [politely]: Downloading https://files.pythonhosted.org/packages/3c/c5/a6017bde896a95b3233540f102999558eda61756913d9d7bf880b7e2fb6e/politely-4.0.0a1.tar.gz
+[2024-04-05 09:11:27] INFO root fetch - processPackages [gammarer.aws-secure-cloudfront-origin-bucket]: New version: [1.4.0] Old Version: [1.3.3]
+[2024-04-05 09:11:27] INFO root fetch - processPackages [razorbill]: New version: [0.2.9] Old Version: [0.2.7]
+[2024-04-05 09:11:27] WARNING root fetch - processPackages [youtube-selenium-py]: Skipping, unable to determine old version
+[2024-04-05 09:11:27] INFO root fetch - main [MainThread]: End processing [youtube-selenium-py] error
+[2024-04-05 09:11:27] INFO root fetch - processPackages [nonebot-adapter-minecraft]: New version: [1.0.8.post4] Old Version: [1.0.8.post3]
+[2024-04-05 09:11:27] INFO root fetch - processPackages [rime-sdk]: New version: [2.8.0rc0] Old Version: [2.7.2]
+[2024-04-05 09:11:27] WARNING root fetch - processPackages [politely]: Timeout reached during download
+[2024-04-05 09:11:27] INFO root fetch - processPackages [gammarer.aws-secure-cloudfront-origin-bucket]: Downloading https://files.pythonhosted.org/packages/ce/e0/4cf56913e330f7c602cdf15081f0316ae4a61c1c720a96b8f59459939d94/gammarer.aws-secure-cloudfront-origin-bucket-1.3.3.tar.gz
+[2024-04-05 09:11:27] INFO root fetch - processPackages [razorbill]: Downloading https://files.pythonhosted.org/packages/e0/66/1d55e79e854df3742864a06e7eaae82342d148d510a147c0f3ca6ce6d782/razorbill-0.2.7.tar.gz
+[2024-04-05 09:11:27] INFO root fetch - processPackages [rime-sdk]: Downloading https://files.pythonhosted.org/packages/80/c2/c7d693a3246b5de0833e01df3c6ead1307bbaf60742384d556f2935f6e86/rime_sdk-2.7.2.tar.gz
+[2024-04-05 09:11:27] INFO root fetch - processPackages [nonebot-adapter-minecraft]: Downloading https://files.pythonhosted.org/packages/0f/78/363755b37cfc27cd546241b890969c14e759826cbff3d8eeb917f8e74db6/nonebot_adapter_minecraft-1.0.8.post3.tar.gz
+[2024-04-05 09:11:27] WARNING root fetch - processPackages [gammarer.aws-secure-cloudfront-origin-bucket]: Timeout reached during download
+[2024-04-05 09:11:27] WARNING root fetch - processPackages [razorbill]: Timeout reached during download
+[2024-04-05 09:11:27] WARNING root fetch - processPackages [nonebot-adapter-minecraft]: Timeout reached during download
+[2024-04-05 09:11:27] INFO root fetch - processPackages [politely]: Downloading https://files.pythonhosted.org/packages/e5/ec/24177409ceb55ed181d6eb17df92bfb26d1609f88e5285ea5f2dffc5c3ce/politely-4.0.1.tar.gz
+[2024-04-05 09:11:27] WARNING root fetch - processPackages [rime-sdk]: Timeout reached during download
+[2024-04-05 09:11:27] WARNING root fetch - processPackages [politely]: Timeout reached during download
+[2024-04-05 09:11:27] INFO root fetch - processPackages [politely]: executing diffoscope
+[2024-04-05 09:11:27] INFO root fetch - processPackages [politely]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/politely-4.0.0a1.tar.gz tmp/politely-4.0.1.tar.gz --markdown 20240405/p/politely/4.0.0a1-4.0.1/diff.md --exclude *.pyd
+[2024-04-05 09:11:27] INFO root fetch - processPackages [gammarer.aws-secure-cloudfront-origin-bucket]: Downloading https://files.pythonhosted.org/packages/f9/af/bb62410a3bb9483e1ce68dec41cc95706f02a6f45757b74a3d274068a0ec/gammarer.aws-secure-cloudfront-origin-bucket-1.4.0.tar.gz
+[2024-04-05 09:11:27] INFO root fetch - processPackages [razorbill]: Downloading https://files.pythonhosted.org/packages/0f/ee/947fddbeea4490c41d6a451ac1be0bd86958bedaaedcc87d41fe2f3b581c/razorbill-0.2.9.tar.gz
+[2024-04-05 09:11:27] INFO root fetch - processPackages [nonebot-adapter-minecraft]: Downloading https://files.pythonhosted.org/packages/48/13/a2f5943633b8268c9f5c7e110c3446018df885b445cb0942e2888003ad23/nonebot_adapter_minecraft-1.0.8.post4.tar.gz
+[2024-04-05 09:11:27] INFO root fetch - processPackages [rime-sdk]: Downloading https://files.pythonhosted.org/packages/9b/0f/6e676870b3338c7abb2534348e0cca0e07f09eda0ff7f8234e0875df0af0/rime_sdk-2.8.0rc0.tar.gz
+[2024-04-05 09:11:27] WARNING root fetch - processPackages [gammarer.aws-secure-cloudfront-origin-bucket]: Timeout reached during download
+[2024-04-05 09:11:27] INFO root fetch - processPackages [gammarer.aws-secure-cloudfront-origin-bucket]: executing diffoscope
+[2024-04-05 09:11:27] INFO root fetch - processPackages [gammarer.aws-secure-cloudfront-origin-bucket]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gammarer.aws-secure-cloudfront-origin-bucket-1.3.3.tar.gz tmp/gammarer.aws-secure-cloudfront-origin-bucket-1.4.0.tar.gz --markdown 20240405/g/gammarer.aws-secure-cloudfront-origin-bucket/1.3.3-1.4.0/diff.md --exclude *.pyd
+[2024-04-05 09:11:27] WARNING root fetch - processPackages [razorbill]: Timeout reached during download
+[2024-04-05 09:11:27] INFO root fetch - processPackages [razorbill]: executing diffoscope
+[2024-04-05 09:11:27] INFO root fetch - processPackages [razorbill]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/razorbill-0.2.7.tar.gz tmp/razorbill-0.2.9.tar.gz --markdown 20240405/r/razorbill/0.2.7-0.2.9/diff.md --exclude *.pyd
+[2024-04-05 09:11:27] WARNING root fetch - processPackages [nonebot-adapter-minecraft]: Timeout reached during download
+[2024-04-05 09:11:27] INFO root fetch - processPackages [nonebot-adapter-minecraft]: executing diffoscope
+[2024-04-05 09:11:27] INFO root fetch - processPackages [nonebot-adapter-minecraft]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_adapter_minecraft-1.0.8.post3.tar.gz tmp/nonebot_adapter_minecraft-1.0.8.post4.tar.gz --markdown 20240405/n/nonebot-adapter-minecraft/1.0.8.post3-1.0.8.post4/diff.md --exclude *.pyd
+[2024-04-05 09:11:28] WARNING root fetch - processPackages [rime-sdk]: Timeout reached during download
+[2024-04-05 09:11:28] INFO root fetch - processPackages [rime-sdk]: executing diffoscope
+[2024-04-05 09:11:28] INFO root fetch - processPackages [rime-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rime_sdk-2.7.2.tar.gz tmp/rime_sdk-2.8.0rc0.tar.gz --markdown 20240405/r/rime-sdk/2.7.2-2.8.0rc0/diff.md --exclude *.pyd
+[2024-04-05 09:11:28] INFO root fetch - processPackages [politely]: Remove: archive file [/home/abi/fetcher/tmp/politely-4.0.0a1.tar.gz]
+[2024-04-05 09:11:28] INFO root fetch - processPackages [politely]: Remove: archive file [/home/abi/fetcher/tmp/politely-4.0.1.tar.gz]
+[2024-04-05 09:11:28] INFO root fetch - main [MainThread]: End processing [politely]: success
+[2024-04-05 09:11:28] INFO root fetch - processPackages [gammarer.aws-secure-cloudfront-origin-bucket]: Remove: archive file [/home/abi/fetcher/tmp/gammarer.aws-secure-cloudfront-origin-bucket-1.3.3.tar.gz]
+[2024-04-05 09:11:28] INFO root fetch - processPackages [gammarer.aws-secure-cloudfront-origin-bucket]: Remove: archive file [/home/abi/fetcher/tmp/gammarer.aws-secure-cloudfront-origin-bucket-1.4.0.tar.gz]
+[2024-04-05 09:11:28] INFO root fetch - main [MainThread]: End processing [gammarer.aws-secure-cloudfront-origin-bucket]: success
+[2024-04-05 09:11:28] INFO root fetch - processPackages [nonebot-adapter-minecraft]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_adapter_minecraft-1.0.8.post3.tar.gz]
+[2024-04-05 09:11:28] INFO root fetch - processPackages [nonebot-adapter-minecraft]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_adapter_minecraft-1.0.8.post4.tar.gz]
+[2024-04-05 09:11:28] INFO root fetch - main [MainThread]: End processing [nonebot-adapter-minecraft]: success
+[2024-04-05 09:11:28] INFO root fetch - processPackages [razorbill]: Remove: archive file [/home/abi/fetcher/tmp/razorbill-0.2.7.tar.gz]
+[2024-04-05 09:11:28] INFO root fetch - processPackages [razorbill]: Remove: archive file [/home/abi/fetcher/tmp/razorbill-0.2.9.tar.gz]
+[2024-04-05 09:11:28] INFO root fetch - main [MainThread]: End processing [razorbill]: success
+[2024-04-05 09:11:30] INFO root fetch - processPackages [rime-sdk]: Remove: archive file [/home/abi/fetcher/tmp/rime_sdk-2.7.2.tar.gz]
+[2024-04-05 09:11:30] INFO root fetch - processPackages [rime-sdk]: Remove: archive file [/home/abi/fetcher/tmp/rime_sdk-2.8.0rc0.tar.gz]
+[2024-04-05 09:11:30] INFO root fetch - main [MainThread]: End processing [rime-sdk]: success
+[2024-04-05 09:11:30] INFO root fetch - main [MainThread]: Store serial: [22632737]
