@@ -12263,3 +12263,20 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2024-04-05 07:19:32] INFO root fetch - processPackages [rummage]: Remove: archive file [/home/abi/fetcher/tmp/rummage-4.9.tar.gz]
 [2024-04-05 07:19:32] INFO root fetch - main [MainThread]: End processing [rummage]: success
 [2024-04-05 07:19:32] INFO root fetch - main [MainThread]: Store serial: [22631960]
+[2024-04-05 07:21:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22631960]
+[2024-04-05 07:21:41] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-05 07:21:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: marioutils
+[2024-04-05 07:21:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: RAG-metrics-2
+[2024-04-05 07:21:41] INFO root fetch - processPackages [marioutils]: New version: [1.1.2] Old Version: [1.1.1]
+[2024-04-05 07:21:41] INFO root fetch - processPackages [marioutils]: Downloading https://files.pythonhosted.org/packages/03/da/119fdd6848c2a92ea6d65890247fdfe638f88f5bbe00b05005d151354929/marioutils-1.1.1.tar.gz
+[2024-04-05 07:21:41] WARNING root fetch - processPackages [RAG-metrics-2]: Skipping, unable to determine old version
+[2024-04-05 07:21:41] INFO root fetch - main [MainThread]: End processing [RAG-metrics-2] error
+[2024-04-05 07:21:41] WARNING root fetch - processPackages [marioutils]: Timeout reached during download
+[2024-04-05 07:21:41] INFO root fetch - processPackages [marioutils]: Downloading https://files.pythonhosted.org/packages/7a/43/94cf28b7d1471aabe27356703943009478ab1082ee7184bd074101b39002/marioutils-1.1.2.tar.gz
+[2024-04-05 07:21:42] WARNING root fetch - processPackages [marioutils]: Timeout reached during download
+[2024-04-05 07:21:42] INFO root fetch - processPackages [marioutils]: executing diffoscope
+[2024-04-05 07:21:42] INFO root fetch - processPackages [marioutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/marioutils-1.1.1.tar.gz tmp/marioutils-1.1.2.tar.gz --markdown 20240405/m/marioutils/1.1.1-1.1.2/diff.md --exclude *.pyd
+[2024-04-05 07:21:42] INFO root fetch - processPackages [marioutils]: Remove: archive file [/home/abi/fetcher/tmp/marioutils-1.1.1.tar.gz]
+[2024-04-05 07:21:42] INFO root fetch - processPackages [marioutils]: Remove: archive file [/home/abi/fetcher/tmp/marioutils-1.1.2.tar.gz]
+[2024-04-05 07:21:42] INFO root fetch - main [MainThread]: End processing [marioutils]: success
+[2024-04-05 07:21:42] INFO root fetch - main [MainThread]: Store serial: [22631967]
