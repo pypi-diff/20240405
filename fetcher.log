@@ -11052,3 +11052,65 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2024-04-05 05:58:08] INFO root fetch - processPackages [advcalc]: Remove: archive file [/home/abi/fetcher/tmp/advcalc-0.1.3.tar.gz]
 [2024-04-05 05:58:08] INFO root fetch - main [MainThread]: End processing [advcalc]: success
 [2024-04-05 05:58:08] INFO root fetch - main [MainThread]: Store serial: [22631615]
+[2024-04-05 06:00:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22631615]
+[2024-04-05 06:00:17] INFO root fetch - main [MainThread]: No changed packages found
+[2024-04-05 06:02:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22631615]
+[2024-04-05 06:02:23] INFO root fetch - main [MainThread]: No changed packages found
+[2024-04-05 06:04:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22631615]
+[2024-04-05 06:04:28] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-05 06:04:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyaffalddk
+[2024-04-05 06:04:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dustgoggles
+[2024-04-05 06:04:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: rdot
+[2024-04-05 06:04:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: fplab
+[2024-04-05 06:04:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo12-addon-website-event-crm
+[2024-04-05 06:04:28] INFO root fetch - processPackages [dustgoggles]: New version: [0.7.5] Old Version: [0.7.4]
+[2024-04-05 06:04:28] INFO root fetch - processPackages [pyaffalddk]: New version: [2.0.21] Old Version: [2.0.20]
+[2024-04-05 06:04:28] INFO root fetch - processPackages [rdot]: New version: [0.0.24] Old Version: [0.0.23]
+[2024-04-05 06:04:28] INFO root fetch - processPackages [fplab]: New version: [0.0.1.3] Old Version: [0.0.1.2]
+[2024-04-05 06:04:29] INFO root fetch - processPackages [odoo12-addon-website-event-crm]: New version: [12.0.1.0.2.99.dev9] Old Version: [12.0.1.0.2.99.dev8]
+[2024-04-05 06:04:29] INFO root fetch - processPackages [pyaffalddk]: Downloading https://files.pythonhosted.org/packages/ad/8b/ecb049d7d3644179c68f9c3397efa1c208af844ce2f89324639d5809868c/pyaffalddk-2.0.20.tar.gz
+[2024-04-05 06:04:29] INFO root fetch - processPackages [dustgoggles]: Downloading https://files.pythonhosted.org/packages/96/db/6128b154a7990aaa3aff67548d7f629b16b6335cde6db807b13b3f230851/dustgoggles-0.7.4.tar.gz
+[2024-04-05 06:04:29] INFO root fetch - processPackages [rdot]: Downloading https://files.pythonhosted.org/packages/3b/4d/06d44dfed8c54c07d10c6fb9930e7bb3f87ad72b35caf87be5355d7406ee/rdot-0.0.23.tar.gz
+[2024-04-05 06:04:29] INFO root fetch - processPackages [odoo12-addon-website-event-crm]: Downloading https://files.pythonhosted.org/packages/ef/a8/923a464108c6d3822921775511ea0a858bc68bb5b2653c91722716d202b9/odoo12_addon_website_event_crm-12.0.1.0.2.99.dev8-py3-none-any.whl
+[2024-04-05 06:04:29] INFO root fetch - processPackages [fplab]: Downloading https://files.pythonhosted.org/packages/81/aa/1257aaafd3857f5b3a31f90321990e712fddeef95e5e740903fb86da1659/fplab-0.0.1.2.tar.gz
+[2024-04-05 06:04:29] WARNING root fetch - processPackages [pyaffalddk]: Timeout reached during download
+[2024-04-05 06:04:29] WARNING root fetch - processPackages [fplab]: Timeout reached during download
+[2024-04-05 06:04:29] WARNING root fetch - processPackages [rdot]: Timeout reached during download
+[2024-04-05 06:04:29] WARNING root fetch - processPackages [dustgoggles]: Timeout reached during download
+[2024-04-05 06:04:29] WARNING root fetch - processPackages [odoo12-addon-website-event-crm]: Timeout reached during download
+[2024-04-05 06:04:29] INFO root fetch - processPackages [pyaffalddk]: Downloading https://files.pythonhosted.org/packages/5f/9b/3f16e514eadb640c608ce8376e26baa64c669c60777e1d9be51c4c72e86c/pyaffalddk-2.0.21.tar.gz
+[2024-04-05 06:04:29] INFO root fetch - processPackages [rdot]: Downloading https://files.pythonhosted.org/packages/e4/27/084aa86b3f9e38567b0c77f6c4111c35d1189614ee15f84597d0e7ad031c/rdot-0.0.24.tar.gz
+[2024-04-05 06:04:29] INFO root fetch - processPackages [fplab]: Downloading https://files.pythonhosted.org/packages/ea/81/a56d29e18347d91d6e07495e886759976613cfb3ad516187cb0d84616abc/fplab-0.0.1.3.tar.gz
+[2024-04-05 06:04:29] INFO root fetch - processPackages [dustgoggles]: Downloading https://files.pythonhosted.org/packages/6e/1f/8c4ed181a7d9f242eaf6c7cfda52b266aec12e54e39918733c2003541333/dustgoggles-0.7.5.tar.gz
+[2024-04-05 06:04:29] INFO root fetch - processPackages [odoo12-addon-website-event-crm]: Downloading https://files.pythonhosted.org/packages/3e/17/524cce2ac809fb09d00096a5930a30e7c4ac47b231472ce1bc653c830471/odoo12_addon_website_event_crm-12.0.1.0.2.99.dev9-py3-none-any.whl
+[2024-04-05 06:04:29] WARNING root fetch - processPackages [pyaffalddk]: Timeout reached during download
+[2024-04-05 06:04:29] INFO root fetch - processPackages [pyaffalddk]: executing diffoscope
+[2024-04-05 06:04:29] INFO root fetch - processPackages [pyaffalddk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyaffalddk-2.0.20.tar.gz tmp/pyaffalddk-2.0.21.tar.gz --markdown 20240405/p/pyaffalddk/2.0.20-2.0.21/diff.md --exclude *.pyd
+[2024-04-05 06:04:29] WARNING root fetch - processPackages [rdot]: Timeout reached during download
+[2024-04-05 06:04:29] INFO root fetch - processPackages [rdot]: executing diffoscope
+[2024-04-05 06:04:29] INFO root fetch - processPackages [rdot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rdot-0.0.23.tar.gz tmp/rdot-0.0.24.tar.gz --markdown 20240405/r/rdot/0.0.23-0.0.24/diff.md --exclude *.pyd
+[2024-04-05 06:04:29] WARNING root fetch - processPackages [fplab]: Timeout reached during download
+[2024-04-05 06:04:29] WARNING root fetch - processPackages [dustgoggles]: Timeout reached during download
+[2024-04-05 06:04:29] INFO root fetch - processPackages [fplab]: executing diffoscope
+[2024-04-05 06:04:29] INFO root fetch - processPackages [fplab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fplab-0.0.1.2.tar.gz tmp/fplab-0.0.1.3.tar.gz --markdown 20240405/f/fplab/0.0.1.2-0.0.1.3/diff.md --exclude *.pyd
+[2024-04-05 06:04:29] INFO root fetch - processPackages [dustgoggles]: executing diffoscope
+[2024-04-05 06:04:29] INFO root fetch - processPackages [dustgoggles]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dustgoggles-0.7.4.tar.gz tmp/dustgoggles-0.7.5.tar.gz --markdown 20240405/d/dustgoggles/0.7.4-0.7.5/diff.md --exclude *.pyd
+[2024-04-05 06:04:29] WARNING root fetch - processPackages [odoo12-addon-website-event-crm]: Timeout reached during download
+[2024-04-05 06:04:29] INFO root fetch - processPackages [odoo12-addon-website-event-crm]: executing diffoscope
+[2024-04-05 06:04:29] INFO root fetch - processPackages [odoo12-addon-website-event-crm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo12_addon_website_event_crm-12.0.1.0.2.99.dev8-py3-none-any.whl.zip tmp/odoo12_addon_website_event_crm-12.0.1.0.2.99.dev9-py3-none-any.whl.zip --markdown 20240405/o/odoo12-addon-website-event-crm/12.0.1.0.2.99.dev8-12.0.1.0.2.99.dev9/diff.md --exclude *.pyd
+[2024-04-05 06:04:30] INFO root fetch - processPackages [rdot]: Remove: archive file [/home/abi/fetcher/tmp/rdot-0.0.23.tar.gz]
+[2024-04-05 06:04:30] INFO root fetch - processPackages [rdot]: Remove: archive file [/home/abi/fetcher/tmp/rdot-0.0.24.tar.gz]
+[2024-04-05 06:04:30] INFO root fetch - main [MainThread]: End processing [rdot]: success
+[2024-04-05 06:04:30] INFO root fetch - processPackages [fplab]: Remove: archive file [/home/abi/fetcher/tmp/fplab-0.0.1.2.tar.gz]
+[2024-04-05 06:04:30] INFO root fetch - processPackages [fplab]: Remove: archive file [/home/abi/fetcher/tmp/fplab-0.0.1.3.tar.gz]
+[2024-04-05 06:04:30] INFO root fetch - main [MainThread]: End processing [fplab]: success
+[2024-04-05 06:04:30] INFO root fetch - processPackages [pyaffalddk]: Remove: archive file [/home/abi/fetcher/tmp/pyaffalddk-2.0.20.tar.gz]
+[2024-04-05 06:04:30] INFO root fetch - processPackages [pyaffalddk]: Remove: archive file [/home/abi/fetcher/tmp/pyaffalddk-2.0.21.tar.gz]
+[2024-04-05 06:04:30] INFO root fetch - main [MainThread]: End processing [pyaffalddk]: success
+[2024-04-05 06:04:30] INFO root fetch - processPackages [dustgoggles]: Remove: archive file [/home/abi/fetcher/tmp/dustgoggles-0.7.4.tar.gz]
+[2024-04-05 06:04:30] INFO root fetch - processPackages [dustgoggles]: Remove: archive file [/home/abi/fetcher/tmp/dustgoggles-0.7.5.tar.gz]
+[2024-04-05 06:04:30] INFO root fetch - main [MainThread]: End processing [dustgoggles]: success
+[2024-04-05 06:04:30] INFO root fetch - processPackages [odoo12-addon-website-event-crm]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addon_website_event_crm-12.0.1.0.2.99.dev8-py3-none-any.whl.zip]
+[2024-04-05 06:04:30] INFO root fetch - processPackages [odoo12-addon-website-event-crm]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addon_website_event_crm-12.0.1.0.2.99.dev9-py3-none-any.whl.zip]
+[2024-04-05 06:04:30] INFO root fetch - main [MainThread]: End processing [odoo12-addon-website-event-crm]: success
+[2024-04-05 06:04:30] INFO root fetch - main [MainThread]: Store serial: [22631628]
