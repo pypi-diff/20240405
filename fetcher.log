@@ -20704,3 +20704,48 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2024-04-05 13:19:08] INFO root fetch - processPackages [ARCtrl]: Remove: archive file [/home/abi/fetcher/tmp/arctrl-2.0.0a1.tar.gz]
 [2024-04-05 13:19:08] INFO root fetch - main [MainThread]: End processing [ARCtrl]: success
 [2024-04-05 13:19:08] INFO root fetch - main [MainThread]: Store serial: [22635178]
+[2024-04-05 13:21:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22635178]
+[2024-04-05 13:21:19] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-05 13:21:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: energy-base
+[2024-04-05 13:21:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tracebloc-package-dev
+[2024-04-05 13:21:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cyrix86
+[2024-04-05 13:21:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ganga
+[2024-04-05 13:21:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: rustyrs
+[2024-04-05 13:21:19] INFO root fetch - processPackages [cyrix86]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-04-05 13:21:19] INFO root fetch - processPackages [energy-base]: New version: [1.6.3] Old Version: [1.6.2]
+[2024-04-05 13:21:19] INFO root fetch - processPackages [cyrix86]: Downloading https://files.pythonhosted.org/packages/f1/cb/9af35aef14a971f1430fb0e629d87522fd14481eca7c4790835451314a98/cyrix86-0.0.2.tar.gz
+[2024-04-05 13:21:19] INFO root fetch - processPackages [energy-base]: Downloading https://files.pythonhosted.org/packages/df/c8/a967471f639f442127e4022a24d9954b0f38a579ab18579d8737c4e67c3a/energy_base-1.6.2.tar.gz
+[2024-04-05 13:21:19] INFO root fetch - processPackages [tracebloc-package-dev]: New version: [0.5.9] Old Version: [0.5.8]
+[2024-04-05 13:21:19] INFO root fetch - processPackages [ganga]: New version: [8.7.5] Old Version: [8.7.4]
+[2024-04-05 13:21:19] WARNING root fetch - processPackages [rustyrs]: Skipping, unable to determine old version
+[2024-04-05 13:21:19] INFO root fetch - main [MainThread]: End processing [rustyrs] error
+[2024-04-05 13:21:19] WARNING root fetch - processPackages [cyrix86]: Timeout reached during download
+[2024-04-05 13:21:19] INFO root fetch - processPackages [tracebloc-package-dev]: Downloading https://files.pythonhosted.org/packages/f5/c8/13a696d72bb172c25134ff8497e2a33abae28952aaf6027b69f19e6020ba/tracebloc_package-dev-0.5.8.tar.gz
+[2024-04-05 13:21:19] WARNING root fetch - processPackages [energy-base]: Timeout reached during download
+[2024-04-05 13:21:19] INFO root fetch - processPackages [ganga]: Downloading https://files.pythonhosted.org/packages/ad/4b/5b883b8942a63f72fe19656fb41995c48e5b25b76e5d4a9431ce01c459b5/ganga-8.7.4.tar.gz
+[2024-04-05 13:21:19] ERROR root fetch - processPackages [cyrix86]: Unable to fetch info: No such project/version 'cyrix86' 0.0.3
+[2024-04-05 13:21:19] INFO root fetch - main [MainThread]: End processing [cyrix86] error
+[2024-04-05 13:21:19] INFO root fetch - processPackages [energy-base]: Downloading https://files.pythonhosted.org/packages/bd/3e/ceade1ccf38e59317e51a65097bc80f6457e852671aac6b35e6ab933f76e/energy_base-1.6.3.tar.gz
+[2024-04-05 13:21:19] WARNING root fetch - processPackages [tracebloc-package-dev]: Timeout reached during download
+[2024-04-05 13:21:19] INFO root fetch - processPackages [tracebloc-package-dev]: Downloading https://files.pythonhosted.org/packages/29/74/ba081cbca75b4aef7de5e023ed946f224d93c52d8874131c97fc1c3a2682/tracebloc_package-dev-0.5.9.tar.gz
+[2024-04-05 13:21:19] WARNING root fetch - processPackages [energy-base]: Timeout reached during download
+[2024-04-05 13:21:19] INFO root fetch - processPackages [energy-base]: executing diffoscope
+[2024-04-05 13:21:19] INFO root fetch - processPackages [energy-base]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/energy_base-1.6.2.tar.gz tmp/energy_base-1.6.3.tar.gz --markdown 20240405/e/energy-base/1.6.2-1.6.3/diff.md --exclude *.pyd
+[2024-04-05 13:21:19] WARNING root fetch - processPackages [tracebloc-package-dev]: Timeout reached during download
+[2024-04-05 13:21:19] INFO root fetch - processPackages [tracebloc-package-dev]: executing diffoscope
+[2024-04-05 13:21:19] INFO root fetch - processPackages [tracebloc-package-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tracebloc_package-dev-0.5.8.tar.gz tmp/tracebloc_package-dev-0.5.9.tar.gz --markdown 20240405/t/tracebloc-package-dev/0.5.8-0.5.9/diff.md --exclude *.pyd
+[2024-04-05 13:21:20] INFO root fetch - processPackages [energy-base]: Remove: archive file [/home/abi/fetcher/tmp/energy_base-1.6.2.tar.gz]
+[2024-04-05 13:21:20] INFO root fetch - processPackages [energy-base]: Remove: archive file [/home/abi/fetcher/tmp/energy_base-1.6.3.tar.gz]
+[2024-04-05 13:21:20] INFO root fetch - main [MainThread]: End processing [energy-base]: success
+[2024-04-05 13:21:20] INFO root fetch - processPackages [tracebloc-package-dev]: Remove: archive file [/home/abi/fetcher/tmp/tracebloc_package-dev-0.5.8.tar.gz]
+[2024-04-05 13:21:20] INFO root fetch - processPackages [tracebloc-package-dev]: Remove: archive file [/home/abi/fetcher/tmp/tracebloc_package-dev-0.5.9.tar.gz]
+[2024-04-05 13:21:20] INFO root fetch - main [MainThread]: End processing [tracebloc-package-dev]: success
+[2024-04-05 13:21:21] WARNING root fetch - processPackages [ganga]: Timeout reached during download
+[2024-04-05 13:21:21] INFO root fetch - processPackages [ganga]: Downloading https://files.pythonhosted.org/packages/b7/8d/7910803a8a9f6d919b3628405d1e00ea1d149c71aaabbf8488dbc04840c4/ganga-8.7.5.tar.gz
+[2024-04-05 13:21:21] WARNING root fetch - processPackages [ganga]: Timeout reached during download
+[2024-04-05 13:21:21] INFO root fetch - processPackages [ganga]: executing diffoscope
+[2024-04-05 13:21:21] INFO root fetch - processPackages [ganga]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ganga-8.7.4.tar.gz tmp/ganga-8.7.5.tar.gz --markdown 20240405/g/ganga/8.7.4-8.7.5/diff.md --exclude *.pyd
+[2024-04-05 13:21:25] INFO root fetch - processPackages [ganga]: Remove: archive file [/home/abi/fetcher/tmp/ganga-8.7.4.tar.gz]
+[2024-04-05 13:21:25] INFO root fetch - processPackages [ganga]: Remove: archive file [/home/abi/fetcher/tmp/ganga-8.7.5.tar.gz]
+[2024-04-05 13:21:25] INFO root fetch - main [MainThread]: End processing [ganga]: success
+[2024-04-05 13:21:25] INFO root fetch - main [MainThread]: Store serial: [22635194]
