@@ -18242,3 +18242,113 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2024-04-05 11:52:44] INFO root fetch - processPackages [aibridge-test]: Remove: archive file [/home/abi/fetcher/tmp/aibridge_test-0.2.7.tar.gz]
 [2024-04-05 11:52:44] INFO root fetch - main [MainThread]: End processing [aibridge-test]: success
 [2024-04-05 11:52:44] INFO root fetch - main [MainThread]: Store serial: [22634240]
+[2024-04-05 11:54:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22634240]
+[2024-04-05 11:54:54] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2024-04-05 11:54:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: crosslab-api-client
+[2024-04-05 11:54:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: crosslab-soa-client
+[2024-04-05 11:54:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: crosslab-soa-service-electrical
+[2024-04-05 11:54:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: FastTrackML
+[2024-04-05 11:54:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: crosslab-soa-service-file
+[2024-04-05 11:54:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nbresult
+[2024-04-05 11:54:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: tactacai
+[2024-04-05 11:54:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: crosslab-soa-service-message
+[2024-04-05 11:54:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: crosslab-soa-service-parameter
+[2024-04-05 11:54:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: crosslab-soa-service-webcam
+[2024-04-05 11:54:54] INFO root fetch - processPackages [crosslab-soa-client]: New version: [0.2.7] Old Version: [0.2.6]
+[2024-04-05 11:54:54] INFO root fetch - processPackages [crosslab-soa-service-electrical]: New version: [0.2.7] Old Version: [0.2.6]
+[2024-04-05 11:54:54] INFO root fetch - processPackages [crosslab-api-client]: New version: [0.2.7] Old Version: [0.2.6]
+[2024-04-05 11:54:54] INFO root fetch - processPackages [crosslab-soa-service-file]: New version: [0.2.7] Old Version: [0.2.6]
+[2024-04-05 11:54:54] INFO root fetch - processPackages [crosslab-soa-service-parameter]: New version: [0.2.7] Old Version: [0.2.6]
+[2024-04-05 11:54:54] INFO root fetch - processPackages [crosslab-soa-service-message]: New version: [0.2.7] Old Version: [0.2.6]
+[2024-04-05 11:54:54] INFO root fetch - processPackages [crosslab-soa-service-webcam]: New version: [0.2.7] Old Version: [0.2.6]
+[2024-04-05 11:54:54] WARNING root fetch - processPackages [tactacai]: Skipping, unable to determine old version
+[2024-04-05 11:54:54] INFO root fetch - processPackages [tactacai]: Start processing: quickgrpc
+[2024-04-05 11:54:54] INFO root fetch - main [MainThread]: End processing [tactacai] error
+[2024-04-05 11:54:54] INFO root fetch - processPackages [nbresult]: New version: [0.1.0] Old Version: [0.0.9]
+[2024-04-05 11:54:54] INFO root fetch - processPackages [FastTrackML]: New version: [0.5.1] Old Version: [0.5.0b3]
+[2024-04-05 11:54:54] INFO root fetch - processPackages [crosslab-soa-client]: Downloading https://files.pythonhosted.org/packages/26/04/fea4ad0fa20044a2e07cf9e705ce59860d790fa35430bfa736c618bdcd48/crosslab_soa_client-0.2.6.tar.gz
+[2024-04-05 11:54:55] INFO root fetch - processPackages [quickgrpc]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-05 11:54:55] INFO root fetch - processPackages [crosslab-soa-service-electrical]: Downloading https://files.pythonhosted.org/packages/e0/c5/72f36896ea240dab6bad5795916c9fa1f9624e6514d9ac87941dd9d12b2b/crosslab_soa_service_electrical-0.2.6.tar.gz
+[2024-04-05 11:54:55] INFO root fetch - processPackages [crosslab-api-client]: Downloading https://files.pythonhosted.org/packages/b8/2d/183d20584aed99881d4e14d596d8ddc11e169259f9da19c012f3a68db58d/crosslab_api_client-0.2.6.tar.gz
+[2024-04-05 11:54:55] INFO root fetch - processPackages [crosslab-soa-service-file]: Downloading https://files.pythonhosted.org/packages/00/23/8ba3380d80b35a4396cef8d9c340e3918a9e0ffb6f5fabc993a1ad5cafd0/crosslab_soa_service_file-0.2.6.tar.gz
+[2024-04-05 11:54:55] INFO root fetch - processPackages [crosslab-soa-service-parameter]: Downloading https://files.pythonhosted.org/packages/e8/94/ea8176866e3a362eb6765cec0ec7a6f5bf05bd0353251ccc628b58d009c5/crosslab_soa_service_parameter-0.2.6.tar.gz
+[2024-04-05 11:54:55] INFO root fetch - processPackages [crosslab-soa-service-webcam]: Downloading https://files.pythonhosted.org/packages/73/5a/e585f914679d99dc0de97e4d99402088eb65b05b09117086742fc0a1d545/crosslab_soa_service_webcam-0.2.6.tar.gz
+[2024-04-05 11:54:55] INFO root fetch - processPackages [nbresult]: Downloading https://files.pythonhosted.org/packages/04/ed/8424bd76513968b3e37f9851bbe95ede3a73091724e8d2af8edbf98a5f3b/nbresult-0.0.9.tar.gz
+[2024-04-05 11:54:55] INFO root fetch - processPackages [crosslab-soa-service-message]: Downloading https://files.pythonhosted.org/packages/4e/28/40c537888c597be2e4752b93ee429b47d000e055953ec466a9541fc8fa65/crosslab_soa_service_message-0.2.6.tar.gz
+[2024-04-05 11:54:55] INFO root fetch - processPackages [FastTrackML]: Downloading https://files.pythonhosted.org/packages/ce/9a/ca1dd590ab4be22bb32e8d761e218d9e0002a04215ee11698ea6e43fefb4/FastTrackML-0.5.0b3-py3-none-win_amd64.whl
+[2024-04-05 11:54:55] WARNING root fetch - processPackages [crosslab-soa-client]: Timeout reached during download
+[2024-04-05 11:54:55] WARNING root fetch - processPackages [crosslab-soa-service-electrical]: Timeout reached during download
+[2024-04-05 11:54:55] WARNING root fetch - processPackages [crosslab-api-client]: Timeout reached during download
+[2024-04-05 11:54:55] INFO root fetch - processPackages [quickgrpc]: Downloading https://files.pythonhosted.org/packages/63/68/d9d64067b44af00e73b513e3acc8b57be9c86ef793a8ab3ae97023cad94f/quickgrpc-0.0.8.tar.gz
+[2024-04-05 11:54:55] WARNING root fetch - processPackages [crosslab-soa-service-webcam]: Timeout reached during download
+[2024-04-05 11:54:55] WARNING root fetch - processPackages [FastTrackML]: Skipping package: exceeds size limit 23390400>=10485760
+[2024-04-05 11:54:55] INFO root fetch - main [MainThread]: End processing [FastTrackML] error
+[2024-04-05 11:54:55] WARNING root fetch - processPackages [crosslab-soa-service-file]: Timeout reached during download
+[2024-04-05 11:54:55] WARNING root fetch - processPackages [crosslab-soa-service-parameter]: Timeout reached during download
+[2024-04-05 11:54:55] WARNING root fetch - processPackages [crosslab-soa-service-message]: Timeout reached during download
+[2024-04-05 11:54:55] INFO root fetch - processPackages [crosslab-soa-client]: Downloading https://files.pythonhosted.org/packages/87/f6/0713b4a3f3f17acb664f4172372f1322e816f60e9761828aadbc086347e5/crosslab_soa_client-0.2.7.tar.gz
+[2024-04-05 11:54:55] WARNING root fetch - processPackages [nbresult]: Timeout reached during download
+[2024-04-05 11:54:55] INFO root fetch - processPackages [crosslab-soa-service-electrical]: Downloading https://files.pythonhosted.org/packages/9b/ef/2c286341f604f6cc7eb07dbda8bf5ca318c06d7d7cdf4c86f6ea74035716/crosslab_soa_service_electrical-0.2.7.tar.gz
+[2024-04-05 11:54:55] INFO root fetch - processPackages [crosslab-api-client]: Downloading https://files.pythonhosted.org/packages/51/67/4e62a0c9056637a46e41ca9184364c39352e20dbdb025e2c37546a847279/crosslab_api_client-0.2.7.tar.gz
+[2024-04-05 11:54:55] INFO root fetch - processPackages [crosslab-soa-service-webcam]: Downloading https://files.pythonhosted.org/packages/30/d4/7a4307806bcb211ccaca447bfa800493f1fa0b432f084f80edb972017897/crosslab_soa_service_webcam-0.2.7.tar.gz
+[2024-04-05 11:54:55] WARNING root fetch - processPackages [quickgrpc]: Timeout reached during download
+[2024-04-05 11:54:55] WARNING root fetch - processPackages [crosslab-soa-client]: Timeout reached during download
+[2024-04-05 11:54:55] INFO root fetch - processPackages [crosslab-soa-client]: executing diffoscope
+[2024-04-05 11:54:55] INFO root fetch - processPackages [crosslab-soa-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crosslab_soa_client-0.2.6.tar.gz tmp/crosslab_soa_client-0.2.7.tar.gz --markdown 20240405/c/crosslab-soa-client/0.2.6-0.2.7/diff.md --exclude *.pyd
+[2024-04-05 11:54:55] INFO root fetch - processPackages [crosslab-soa-service-file]: Downloading https://files.pythonhosted.org/packages/16/4e/99099fd37995b80bf703a953826f1d537fd031e26b06f35128886d318169/crosslab_soa_service_file-0.2.7.tar.gz
+[2024-04-05 11:54:55] INFO root fetch - processPackages [crosslab-soa-service-parameter]: Downloading https://files.pythonhosted.org/packages/ad/7d/ff783b88e8c18beb5ae98f3a281ca338580fc15f48dd4ced39ee34599aee/crosslab_soa_service_parameter-0.2.7.tar.gz
+[2024-04-05 11:54:55] INFO root fetch - processPackages [crosslab-soa-service-message]: Downloading https://files.pythonhosted.org/packages/e9/b1/366583e3efd13193e597d8b981c923cd2148aae4c9e2744cada4d3b074b5/crosslab_soa_service_message-0.2.7.tar.gz
+[2024-04-05 11:54:55] WARNING root fetch - processPackages [crosslab-soa-service-electrical]: Timeout reached during download
+[2024-04-05 11:54:55] INFO root fetch - processPackages [crosslab-soa-service-electrical]: executing diffoscope
+[2024-04-05 11:54:55] INFO root fetch - processPackages [crosslab-soa-service-electrical]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crosslab_soa_service_electrical-0.2.6.tar.gz tmp/crosslab_soa_service_electrical-0.2.7.tar.gz --markdown 20240405/c/crosslab-soa-service-electrical/0.2.6-0.2.7/diff.md --exclude *.pyd
+[2024-04-05 11:54:55] INFO root fetch - processPackages [nbresult]: Downloading https://files.pythonhosted.org/packages/b5/bc/93769883ec2a715ed6c08b508774a6697fb9bfa9d0cb3bf8d6b4ca9bdda1/nbresult-0.1.0.tar.gz
+[2024-04-05 11:54:55] WARNING root fetch - processPackages [crosslab-api-client]: Timeout reached during download
+[2024-04-05 11:54:55] INFO root fetch - processPackages [crosslab-api-client]: executing diffoscope
+[2024-04-05 11:54:55] INFO root fetch - processPackages [crosslab-api-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crosslab_api_client-0.2.6.tar.gz tmp/crosslab_api_client-0.2.7.tar.gz --markdown 20240405/c/crosslab-api-client/0.2.6-0.2.7/diff.md --exclude *.pyd
+[2024-04-05 11:54:55] WARNING root fetch - processPackages [crosslab-soa-service-webcam]: Timeout reached during download
+[2024-04-05 11:54:55] INFO root fetch - processPackages [crosslab-soa-service-webcam]: executing diffoscope
+[2024-04-05 11:54:55] INFO root fetch - processPackages [crosslab-soa-service-webcam]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crosslab_soa_service_webcam-0.2.6.tar.gz tmp/crosslab_soa_service_webcam-0.2.7.tar.gz --markdown 20240405/c/crosslab-soa-service-webcam/0.2.6-0.2.7/diff.md --exclude *.pyd
+[2024-04-05 11:54:55] WARNING root fetch - processPackages [crosslab-soa-service-file]: Timeout reached during download
+[2024-04-05 11:54:55] INFO root fetch - processPackages [crosslab-soa-service-file]: executing diffoscope
+[2024-04-05 11:54:55] INFO root fetch - processPackages [crosslab-soa-service-file]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crosslab_soa_service_file-0.2.6.tar.gz tmp/crosslab_soa_service_file-0.2.7.tar.gz --markdown 20240405/c/crosslab-soa-service-file/0.2.6-0.2.7/diff.md --exclude *.pyd
+[2024-04-05 11:54:55] WARNING root fetch - processPackages [crosslab-soa-service-parameter]: Timeout reached during download
+[2024-04-05 11:54:55] INFO root fetch - processPackages [crosslab-soa-service-parameter]: executing diffoscope
+[2024-04-05 11:54:55] INFO root fetch - processPackages [crosslab-soa-service-parameter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crosslab_soa_service_parameter-0.2.6.tar.gz tmp/crosslab_soa_service_parameter-0.2.7.tar.gz --markdown 20240405/c/crosslab-soa-service-parameter/0.2.6-0.2.7/diff.md --exclude *.pyd
+[2024-04-05 11:54:55] WARNING root fetch - processPackages [crosslab-soa-service-message]: Timeout reached during download
+[2024-04-05 11:54:55] INFO root fetch - processPackages [crosslab-soa-service-message]: executing diffoscope
+[2024-04-05 11:54:55] INFO root fetch - processPackages [crosslab-soa-service-message]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crosslab_soa_service_message-0.2.6.tar.gz tmp/crosslab_soa_service_message-0.2.7.tar.gz --markdown 20240405/c/crosslab-soa-service-message/0.2.6-0.2.7/diff.md --exclude *.pyd
+[2024-04-05 11:54:55] INFO root fetch - processPackages [quickgrpc]: Downloading https://files.pythonhosted.org/packages/f2/b0/3639181453421b276d10dbf0a06cd78b0cdebb2418eef0c0065aa3511322/quickgrpc-0.0.9.tar.gz
+[2024-04-05 11:54:55] WARNING root fetch - processPackages [nbresult]: Timeout reached during download
+[2024-04-05 11:54:55] INFO root fetch - processPackages [nbresult]: executing diffoscope
+[2024-04-05 11:54:55] INFO root fetch - processPackages [nbresult]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbresult-0.0.9.tar.gz tmp/nbresult-0.1.0.tar.gz --markdown 20240405/n/nbresult/0.0.9-0.1.0/diff.md --exclude *.pyd
+[2024-04-05 11:54:55] WARNING root fetch - processPackages [quickgrpc]: Timeout reached during download
+[2024-04-05 11:54:55] INFO root fetch - processPackages [quickgrpc]: executing diffoscope
+[2024-04-05 11:54:55] INFO root fetch - processPackages [quickgrpc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quickgrpc-0.0.8.tar.gz tmp/quickgrpc-0.0.9.tar.gz --markdown 20240405/q/quickgrpc/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2024-04-05 11:54:56] INFO root fetch - processPackages [crosslab-soa-service-file]: Remove: archive file [/home/abi/fetcher/tmp/crosslab_soa_service_file-0.2.6.tar.gz]
+[2024-04-05 11:54:56] INFO root fetch - processPackages [crosslab-soa-service-file]: Remove: archive file [/home/abi/fetcher/tmp/crosslab_soa_service_file-0.2.7.tar.gz]
+[2024-04-05 11:54:56] INFO root fetch - main [MainThread]: End processing [crosslab-soa-service-file]: success
+[2024-04-05 11:54:56] INFO root fetch - processPackages [crosslab-soa-client]: Remove: archive file [/home/abi/fetcher/tmp/crosslab_soa_client-0.2.6.tar.gz]
+[2024-04-05 11:54:56] INFO root fetch - processPackages [crosslab-soa-client]: Remove: archive file [/home/abi/fetcher/tmp/crosslab_soa_client-0.2.7.tar.gz]
+[2024-04-05 11:54:56] INFO root fetch - main [MainThread]: End processing [crosslab-soa-client]: success
+[2024-04-05 11:54:56] INFO root fetch - processPackages [crosslab-soa-service-webcam]: Remove: archive file [/home/abi/fetcher/tmp/crosslab_soa_service_webcam-0.2.6.tar.gz]
+[2024-04-05 11:54:56] INFO root fetch - processPackages [crosslab-soa-service-webcam]: Remove: archive file [/home/abi/fetcher/tmp/crosslab_soa_service_webcam-0.2.7.tar.gz]
+[2024-04-05 11:54:56] INFO root fetch - main [MainThread]: End processing [crosslab-soa-service-webcam]: success
+[2024-04-05 11:54:56] INFO root fetch - processPackages [nbresult]: Remove: archive file [/home/abi/fetcher/tmp/nbresult-0.0.9.tar.gz]
+[2024-04-05 11:54:56] INFO root fetch - processPackages [nbresult]: Remove: archive file [/home/abi/fetcher/tmp/nbresult-0.1.0.tar.gz]
+[2024-04-05 11:54:56] INFO root fetch - main [MainThread]: End processing [nbresult]: success
+[2024-04-05 11:54:56] INFO root fetch - processPackages [crosslab-soa-service-electrical]: Remove: archive file [/home/abi/fetcher/tmp/crosslab_soa_service_electrical-0.2.6.tar.gz]
+[2024-04-05 11:54:56] INFO root fetch - processPackages [crosslab-soa-service-electrical]: Remove: archive file [/home/abi/fetcher/tmp/crosslab_soa_service_electrical-0.2.7.tar.gz]
+[2024-04-05 11:54:56] INFO root fetch - main [MainThread]: End processing [crosslab-soa-service-electrical]: success
+[2024-04-05 11:54:56] INFO root fetch - processPackages [crosslab-api-client]: Remove: archive file [/home/abi/fetcher/tmp/crosslab_api_client-0.2.6.tar.gz]
+[2024-04-05 11:54:56] INFO root fetch - processPackages [crosslab-api-client]: Remove: archive file [/home/abi/fetcher/tmp/crosslab_api_client-0.2.7.tar.gz]
+[2024-04-05 11:54:56] INFO root fetch - main [MainThread]: End processing [crosslab-api-client]: success
+[2024-04-05 11:54:56] INFO root fetch - processPackages [quickgrpc]: Remove: archive file [/home/abi/fetcher/tmp/quickgrpc-0.0.8.tar.gz]
+[2024-04-05 11:54:56] INFO root fetch - processPackages [quickgrpc]: Remove: archive file [/home/abi/fetcher/tmp/quickgrpc-0.0.9.tar.gz]
+[2024-04-05 11:54:56] INFO root fetch - main [MainThread]: End processing [quickgrpc]: success
+[2024-04-05 11:54:56] INFO root fetch - processPackages [crosslab-soa-service-parameter]: Remove: archive file [/home/abi/fetcher/tmp/crosslab_soa_service_parameter-0.2.6.tar.gz]
+[2024-04-05 11:54:56] INFO root fetch - processPackages [crosslab-soa-service-parameter]: Remove: archive file [/home/abi/fetcher/tmp/crosslab_soa_service_parameter-0.2.7.tar.gz]
+[2024-04-05 11:54:56] INFO root fetch - main [MainThread]: End processing [crosslab-soa-service-parameter]: success
+[2024-04-05 11:54:57] INFO root fetch - processPackages [crosslab-soa-service-message]: Remove: archive file [/home/abi/fetcher/tmp/crosslab_soa_service_message-0.2.6.tar.gz]
+[2024-04-05 11:54:57] INFO root fetch - processPackages [crosslab-soa-service-message]: Remove: archive file [/home/abi/fetcher/tmp/crosslab_soa_service_message-0.2.7.tar.gz]
+[2024-04-05 11:54:57] INFO root fetch - main [MainThread]: End processing [crosslab-soa-service-message]: success
+[2024-04-05 11:54:57] INFO root fetch - main [MainThread]: Store serial: [22634271]
