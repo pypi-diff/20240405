@@ -3189,3 +3189,86 @@
 [2024-04-05 02:27:42] INFO root fetch - processPackages [stripe]: Remove: archive file [/home/abi/fetcher/tmp/stripe-8.9.0b1.tar.gz]
 [2024-04-05 02:27:42] INFO root fetch - main [MainThread]: End processing [stripe]: success
 [2024-04-05 02:27:42] INFO root fetch - main [MainThread]: Store serial: [22629239]
+[2024-04-05 02:29:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22629239]
+[2024-04-05 02:29:50] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-05 02:29:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cdk-gitlab-runner
+[2024-04-05 02:29:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cdk-certbot-dns-route53
+[2024-04-05 02:29:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: syncsketch
+[2024-04-05 02:29:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cdk-aurora-globaldatabase
+[2024-04-05 02:29:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: crim_intervals
+[2024-04-05 02:29:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ecoviewer
+[2024-04-05 02:29:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pixi-kernel
+[2024-04-05 02:29:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: aeppl-nightly
+[2024-04-05 02:29:50] INFO root fetch - processPackages [syncsketch]: New version: [1.0.9.0] Old Version: [1.0.8.9]
+[2024-04-05 02:29:50] WARNING root fetch - processPackages [pixi-kernel]: Skipping, unable to determine old version
+[2024-04-05 02:29:50] INFO root fetch - main [MainThread]: End processing [pixi-kernel] error
+[2024-04-05 02:29:50] INFO root fetch - processPackages [ecoviewer]: New version: [0.0.6] Old Version: [0.0.5]
+[2024-04-05 02:29:50] INFO root fetch - processPackages [crim_intervals]: New version: [2.0.9] Old Version: [2.0.8]
+[2024-04-05 02:29:50] INFO root fetch - processPackages [cdk-gitlab-runner]: New version: [2.2.99] Old Version: [2.2.98]
+[2024-04-05 02:29:50] INFO root fetch - processPackages [cdk-certbot-dns-route53]: New version: [2.4.96] Old Version: [2.4.95]
+[2024-04-05 02:29:50] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: New version: [2.3.99] Old Version: [2.3.98]
+[2024-04-05 02:29:50] INFO root fetch - processPackages [syncsketch]: Downloading https://files.pythonhosted.org/packages/59/ad/7ca31e7fdbd472c37955c28586dba8edb111f756e353b5803c998dc824c0/syncsketch-1.0.8.9.tar.gz
+[2024-04-05 02:29:50] INFO root fetch - processPackages [cdk-gitlab-runner]: Downloading https://files.pythonhosted.org/packages/07/29/9f2cc8590770873b6073743e94ff15a2a7913eb0de3e6a4d2fc133008f62/cdk-gitlab-runner-2.2.98.tar.gz
+[2024-04-05 02:29:50] INFO root fetch - processPackages [ecoviewer]: Downloading https://files.pythonhosted.org/packages/2e/00/5da4d54cb95e9f2e88d386ce85fa19f42a706e56568fc26f502ef6e6d131/ecoviewer-0.0.5.tar.gz
+[2024-04-05 02:29:50] INFO root fetch - processPackages [crim_intervals]: Downloading https://files.pythonhosted.org/packages/14/10/db1639610adea92e48bee314e4539d2ae8c2d70f743cf00f19636fa93fae/crim_intervals-2.0.8.tar.gz
+[2024-04-05 02:29:50] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: Downloading https://files.pythonhosted.org/packages/e4/39/e997b5acac972df8d777c4a4ad6dfd9f51e03e75fc8e23c973a7772267d5/cdk-aurora-globaldatabase-2.3.98.tar.gz
+[2024-04-05 02:29:50] INFO root fetch - processPackages [cdk-certbot-dns-route53]: Downloading https://files.pythonhosted.org/packages/5a/43/6a3087075fd8e2955514c214dd40f8015ff468cb9344a44e9ccc7e1d88be/cdk-certbot-dns-route53-2.4.95.tar.gz
+[2024-04-05 02:29:50] WARNING root fetch - processPackages [syncsketch]: Timeout reached during download
+[2024-04-05 02:29:50] INFO root fetch - processPackages [aeppl-nightly]: New version: [0.1.5.dev20240405] Old Version: [0.1.5.dev20240404]
+[2024-04-05 02:29:50] WARNING root fetch - processPackages [cdk-gitlab-runner]: Timeout reached during download
+[2024-04-05 02:29:50] WARNING root fetch - processPackages [ecoviewer]: Timeout reached during download
+[2024-04-05 02:29:50] WARNING root fetch - processPackages [crim_intervals]: Timeout reached during download
+[2024-04-05 02:29:50] WARNING root fetch - processPackages [cdk-aurora-globaldatabase]: Timeout reached during download
+[2024-04-05 02:29:50] WARNING root fetch - processPackages [cdk-certbot-dns-route53]: Timeout reached during download
+[2024-04-05 02:29:50] INFO root fetch - processPackages [syncsketch]: Downloading https://files.pythonhosted.org/packages/18/cd/6deeb1451ef5e6eeaa06c7ee7c2e5131d0f2ff1675943c1f940e11008bfa/syncsketch-1.0.9.0.tar.gz
+[2024-04-05 02:29:51] INFO root fetch - processPackages [cdk-gitlab-runner]: Downloading https://files.pythonhosted.org/packages/16/61/e9f00b4e877a6352bd641de360f7577c27548fbcedc3aab19b1cf3852b9a/cdk-gitlab-runner-2.2.99.tar.gz
+[2024-04-05 02:29:51] INFO root fetch - processPackages [crim_intervals]: Downloading https://files.pythonhosted.org/packages/36/f0/00176e039f8e2b2fdea7dd3a42ec3c2f1bd95c9baed349d57619592266e6/crim_intervals-2.0.9.tar.gz
+[2024-04-05 02:29:51] INFO root fetch - processPackages [ecoviewer]: Downloading https://files.pythonhosted.org/packages/87/33/15e9d2f0d44f1198f4193ea9b90c71f2a2e7d417647b0071fe424969e32b/ecoviewer-0.0.6.tar.gz
+[2024-04-05 02:29:51] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: Downloading https://files.pythonhosted.org/packages/51/53/0158facaec2becec86707148eb931de78a7ad1c2b63f80b9911a53e4c17b/cdk-aurora-globaldatabase-2.3.99.tar.gz
+[2024-04-05 02:29:51] INFO root fetch - processPackages [cdk-certbot-dns-route53]: Downloading https://files.pythonhosted.org/packages/b5/0c/5e660fa0008a937989f3a92d3b186ea23efb5ba18178d035adcfec4f6148/cdk-certbot-dns-route53-2.4.96.tar.gz
+[2024-04-05 02:29:51] INFO root fetch - processPackages [aeppl-nightly]: Downloading https://files.pythonhosted.org/packages/1e/48/99deb6c7a6f593f989385ea96d68050dcbaf4d66a9eb11e31c3d1480f3fb/aeppl-nightly-0.1.5.dev20240404.tar.gz
+[2024-04-05 02:29:51] WARNING root fetch - processPackages [syncsketch]: Timeout reached during download
+[2024-04-05 02:29:51] INFO root fetch - processPackages [syncsketch]: executing diffoscope
+[2024-04-05 02:29:51] INFO root fetch - processPackages [syncsketch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/syncsketch-1.0.8.9.tar.gz tmp/syncsketch-1.0.9.0.tar.gz --markdown 20240405/s/syncsketch/1.0.8.9-1.0.9.0/diff.md --exclude *.pyd
+[2024-04-05 02:29:51] WARNING root fetch - processPackages [cdk-gitlab-runner]: Timeout reached during download
+[2024-04-05 02:29:51] INFO root fetch - processPackages [cdk-gitlab-runner]: executing diffoscope
+[2024-04-05 02:29:51] INFO root fetch - processPackages [cdk-gitlab-runner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-gitlab-runner-2.2.98.tar.gz tmp/cdk-gitlab-runner-2.2.99.tar.gz --markdown 20240405/c/cdk-gitlab-runner/2.2.98-2.2.99/diff.md --exclude *.pyd
+[2024-04-05 02:29:51] WARNING root fetch - processPackages [crim_intervals]: Timeout reached during download
+[2024-04-05 02:29:51] INFO root fetch - processPackages [crim_intervals]: executing diffoscope
+[2024-04-05 02:29:51] INFO root fetch - processPackages [crim_intervals]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crim_intervals-2.0.8.tar.gz tmp/crim_intervals-2.0.9.tar.gz --markdown 20240405/c/crim_intervals/2.0.8-2.0.9/diff.md --exclude *.pyd
+[2024-04-05 02:29:51] WARNING root fetch - processPackages [cdk-aurora-globaldatabase]: Timeout reached during download
+[2024-04-05 02:29:51] WARNING root fetch - processPackages [ecoviewer]: Timeout reached during download
+[2024-04-05 02:29:51] INFO root fetch - processPackages [ecoviewer]: executing diffoscope
+[2024-04-05 02:29:51] INFO root fetch - processPackages [ecoviewer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ecoviewer-0.0.5.tar.gz tmp/ecoviewer-0.0.6.tar.gz --markdown 20240405/e/ecoviewer/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2024-04-05 02:29:51] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: executing diffoscope
+[2024-04-05 02:29:51] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-aurora-globaldatabase-2.3.98.tar.gz tmp/cdk-aurora-globaldatabase-2.3.99.tar.gz --markdown 20240405/c/cdk-aurora-globaldatabase/2.3.98-2.3.99/diff.md --exclude *.pyd
+[2024-04-05 02:29:51] WARNING root fetch - processPackages [cdk-certbot-dns-route53]: Timeout reached during download
+[2024-04-05 02:29:51] INFO root fetch - processPackages [cdk-certbot-dns-route53]: executing diffoscope
+[2024-04-05 02:29:51] INFO root fetch - processPackages [cdk-certbot-dns-route53]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-certbot-dns-route53-2.4.95.tar.gz tmp/cdk-certbot-dns-route53-2.4.96.tar.gz --markdown 20240405/c/cdk-certbot-dns-route53/2.4.95-2.4.96/diff.md --exclude *.pyd
+[2024-04-05 02:29:51] WARNING root fetch - processPackages [aeppl-nightly]: Timeout reached during download
+[2024-04-05 02:29:51] INFO root fetch - processPackages [aeppl-nightly]: Downloading https://files.pythonhosted.org/packages/43/af/c0852a5f62b77c970bf0c0a2e613f7b8545b54cf3041901156e395e3dc24/aeppl-nightly-0.1.5.dev20240405.tar.gz
+[2024-04-05 02:29:51] INFO root fetch - processPackages [syncsketch]: Remove: archive file [/home/abi/fetcher/tmp/syncsketch-1.0.8.9.tar.gz]
+[2024-04-05 02:29:51] INFO root fetch - processPackages [syncsketch]: Remove: archive file [/home/abi/fetcher/tmp/syncsketch-1.0.9.0.tar.gz]
+[2024-04-05 02:29:51] INFO root fetch - main [MainThread]: End processing [syncsketch]: success
+[2024-04-05 02:29:51] INFO root fetch - processPackages [cdk-gitlab-runner]: Remove: archive file [/home/abi/fetcher/tmp/cdk-gitlab-runner-2.2.98.tar.gz]
+[2024-04-05 02:29:51] INFO root fetch - processPackages [cdk-gitlab-runner]: Remove: archive file [/home/abi/fetcher/tmp/cdk-gitlab-runner-2.2.99.tar.gz]
+[2024-04-05 02:29:51] INFO root fetch - main [MainThread]: End processing [cdk-gitlab-runner]: success
+[2024-04-05 02:29:51] INFO root fetch - processPackages [ecoviewer]: Remove: archive file [/home/abi/fetcher/tmp/ecoviewer-0.0.5.tar.gz]
+[2024-04-05 02:29:51] INFO root fetch - processPackages [ecoviewer]: Remove: archive file [/home/abi/fetcher/tmp/ecoviewer-0.0.6.tar.gz]
+[2024-04-05 02:29:51] INFO root fetch - main [MainThread]: End processing [ecoviewer]: success
+[2024-04-05 02:29:52] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: Remove: archive file [/home/abi/fetcher/tmp/cdk-aurora-globaldatabase-2.3.98.tar.gz]
+[2024-04-05 02:29:52] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: Remove: archive file [/home/abi/fetcher/tmp/cdk-aurora-globaldatabase-2.3.99.tar.gz]
+[2024-04-05 02:29:52] INFO root fetch - main [MainThread]: End processing [cdk-aurora-globaldatabase]: success
+[2024-04-05 02:29:52] INFO root fetch - processPackages [crim_intervals]: Remove: archive file [/home/abi/fetcher/tmp/crim_intervals-2.0.8.tar.gz]
+[2024-04-05 02:29:52] INFO root fetch - processPackages [crim_intervals]: Remove: archive file [/home/abi/fetcher/tmp/crim_intervals-2.0.9.tar.gz]
+[2024-04-05 02:29:52] INFO root fetch - main [MainThread]: End processing [crim_intervals]: success
+[2024-04-05 02:29:52] WARNING root fetch - processPackages [aeppl-nightly]: Timeout reached during download
+[2024-04-05 02:29:52] INFO root fetch - processPackages [aeppl-nightly]: executing diffoscope
+[2024-04-05 02:29:52] INFO root fetch - processPackages [aeppl-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aeppl-nightly-0.1.5.dev20240404.tar.gz tmp/aeppl-nightly-0.1.5.dev20240405.tar.gz --markdown 20240405/a/aeppl-nightly/0.1.5.dev20240404-0.1.5.dev20240405/diff.md --exclude *.pyd
+[2024-04-05 02:29:52] INFO root fetch - processPackages [cdk-certbot-dns-route53]: Remove: archive file [/home/abi/fetcher/tmp/cdk-certbot-dns-route53-2.4.95.tar.gz]
+[2024-04-05 02:29:52] INFO root fetch - processPackages [cdk-certbot-dns-route53]: Remove: archive file [/home/abi/fetcher/tmp/cdk-certbot-dns-route53-2.4.96.tar.gz]
+[2024-04-05 02:29:52] INFO root fetch - main [MainThread]: End processing [cdk-certbot-dns-route53]: success
+[2024-04-05 02:29:53] INFO root fetch - processPackages [aeppl-nightly]: Remove: archive file [/home/abi/fetcher/tmp/aeppl-nightly-0.1.5.dev20240404.tar.gz]
+[2024-04-05 02:29:53] INFO root fetch - processPackages [aeppl-nightly]: Remove: archive file [/home/abi/fetcher/tmp/aeppl-nightly-0.1.5.dev20240405.tar.gz]
+[2024-04-05 02:29:53] INFO root fetch - main [MainThread]: End processing [aeppl-nightly]: success
+[2024-04-05 02:29:53] INFO root fetch - main [MainThread]: Store serial: [22629260]
