@@ -14083,3 +14083,50 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2024-04-05 08:54:04] INFO root fetch - processPackages [odoo-addon-shipment-advice]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_shipment_advice-16.0.1.4.1.3-py3-none-any.whl.zip]
 [2024-04-05 08:54:04] INFO root fetch - main [MainThread]: End processing [odoo-addon-shipment-advice]: success
 [2024-04-05 08:54:04] INFO root fetch - main [MainThread]: Store serial: [22632635]
+[2024-04-05 08:56:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22632635]
+[2024-04-05 08:56:12] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-05 08:56:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: torchseal
+[2024-04-05 08:56:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: superb-ai-apps
+[2024-04-05 08:56:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: QEasyWidgets
+[2024-04-05 08:56:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: valmi-connector-lib
+[2024-04-05 08:56:12] INFO root fetch - processPackages [superb-ai-apps]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-04-05 08:56:12] INFO root fetch - processPackages [valmi-connector-lib]: New version: [0.1.99] Old Version: [0.1.98]
+[2024-04-05 08:56:12] INFO root fetch - processPackages [QEasyWidgets]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-04-05 08:56:12] INFO root fetch - processPackages [torchseal]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-04-05 08:56:12] INFO root fetch - processPackages [valmi-connector-lib]: Downloading https://files.pythonhosted.org/packages/68/54/062a20f75076aa53427ddf933f64d2177adabaa9c1f4507ee0d9d30b8b03/valmi_connector_lib-0.1.98.tar.gz
+[2024-04-05 08:56:12] INFO root fetch - processPackages [superb-ai-apps]: Downloading https://files.pythonhosted.org/packages/97/df/adbc66c3abe75fd96032752cf24a04b9463b951a78d934ffa1785799f264/superb-ai-apps-0.0.1.tar.gz
+[2024-04-05 08:56:12] WARNING root fetch - processPackages [valmi-connector-lib]: Timeout reached during download
+[2024-04-05 08:56:12] INFO root fetch - processPackages [QEasyWidgets]: Downloading https://files.pythonhosted.org/packages/60/4d/52ce17b364a8d9d040bf7cdce24c2b133b94f0f2ee785b382dcd20e658b9/QEasyWidgets-0.1.0.tar.gz
+[2024-04-05 08:56:12] INFO root fetch - processPackages [torchseal]: Downloading https://files.pythonhosted.org/packages/b2/a4/5f07051d8dc8fbef518327f508c33da584a78c4cfaf599c7a4f3ff8ecf98/torchseal-0.1.1.tar.gz
+[2024-04-05 08:56:12] WARNING root fetch - processPackages [superb-ai-apps]: Timeout reached during download
+[2024-04-05 08:56:13] INFO root fetch - processPackages [valmi-connector-lib]: Downloading https://files.pythonhosted.org/packages/2f/47/8fb8bac8016bd8f46ec3d29fa7fc0e2cdc40845d8dce82ba52e668672ab8/valmi_connector_lib-0.1.99.tar.gz
+[2024-04-05 08:56:13] WARNING root fetch - processPackages [QEasyWidgets]: Timeout reached during download
+[2024-04-05 08:56:13] WARNING root fetch - processPackages [valmi-connector-lib]: Timeout reached during download
+[2024-04-05 08:56:13] INFO root fetch - processPackages [valmi-connector-lib]: executing diffoscope
+[2024-04-05 08:56:13] INFO root fetch - processPackages [valmi-connector-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/valmi_connector_lib-0.1.98.tar.gz tmp/valmi_connector_lib-0.1.99.tar.gz --markdown 20240405/v/valmi-connector-lib/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2024-04-05 08:56:13] INFO root fetch - processPackages [superb-ai-apps]: Downloading https://files.pythonhosted.org/packages/66/42/70968b616b594bc9bd83a56a3941c5326d0a54f319b77a41677830ce335a/superb-ai-apps-0.0.2.tar.gz
+[2024-04-05 08:56:13] WARNING root fetch - processPackages [torchseal]: Timeout reached during download
+[2024-04-05 08:56:13] INFO root fetch - processPackages [QEasyWidgets]: Downloading https://files.pythonhosted.org/packages/6d/00/d3f82e3c615ccfb9f15f9832941e0ad8f89368ae903b67f8b7085fbf72e0/QEasyWidgets-0.1.1.tar.gz
+[2024-04-05 08:56:13] WARNING root fetch - processPackages [superb-ai-apps]: Timeout reached during download
+[2024-04-05 08:56:13] INFO root fetch - processPackages [superb-ai-apps]: executing diffoscope
+[2024-04-05 08:56:13] INFO root fetch - processPackages [superb-ai-apps]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/superb-ai-apps-0.0.1.tar.gz tmp/superb-ai-apps-0.0.2.tar.gz --markdown 20240405/s/superb-ai-apps/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2024-04-05 08:56:13] INFO root fetch - processPackages [torchseal]: Downloading https://files.pythonhosted.org/packages/43/14/ec2dab75f2e7972bdbd38f0a45e14ab74e0e7c2385adb1998e20722d4ac7/torchseal-0.1.2.tar.gz
+[2024-04-05 08:56:13] WARNING root fetch - processPackages [QEasyWidgets]: Timeout reached during download
+[2024-04-05 08:56:13] INFO root fetch - processPackages [QEasyWidgets]: executing diffoscope
+[2024-04-05 08:56:13] INFO root fetch - processPackages [QEasyWidgets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/QEasyWidgets-0.1.0.tar.gz tmp/QEasyWidgets-0.1.1.tar.gz --markdown 20240405/Q/QEasyWidgets/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2024-04-05 08:56:13] WARNING root fetch - processPackages [torchseal]: Timeout reached during download
+[2024-04-05 08:56:13] INFO root fetch - processPackages [torchseal]: executing diffoscope
+[2024-04-05 08:56:13] INFO root fetch - processPackages [torchseal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchseal-0.1.1.tar.gz tmp/torchseal-0.1.2.tar.gz --markdown 20240405/t/torchseal/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2024-04-05 08:56:13] INFO root fetch - processPackages [valmi-connector-lib]: Remove: archive file [/home/abi/fetcher/tmp/valmi_connector_lib-0.1.98.tar.gz]
+[2024-04-05 08:56:13] INFO root fetch - processPackages [valmi-connector-lib]: Remove: archive file [/home/abi/fetcher/tmp/valmi_connector_lib-0.1.99.tar.gz]
+[2024-04-05 08:56:13] INFO root fetch - main [MainThread]: End processing [valmi-connector-lib]: success
+[2024-04-05 08:56:13] INFO root fetch - processPackages [superb-ai-apps]: Remove: archive file [/home/abi/fetcher/tmp/superb-ai-apps-0.0.1.tar.gz]
+[2024-04-05 08:56:13] INFO root fetch - processPackages [superb-ai-apps]: Remove: archive file [/home/abi/fetcher/tmp/superb-ai-apps-0.0.2.tar.gz]
+[2024-04-05 08:56:13] INFO root fetch - main [MainThread]: End processing [superb-ai-apps]: success
+[2024-04-05 08:56:14] INFO root fetch - processPackages [QEasyWidgets]: Remove: archive file [/home/abi/fetcher/tmp/QEasyWidgets-0.1.0.tar.gz]
+[2024-04-05 08:56:14] INFO root fetch - processPackages [QEasyWidgets]: Remove: archive file [/home/abi/fetcher/tmp/QEasyWidgets-0.1.1.tar.gz]
+[2024-04-05 08:56:14] INFO root fetch - main [MainThread]: End processing [QEasyWidgets]: success
+[2024-04-05 08:56:14] INFO root fetch - processPackages [torchseal]: Remove: archive file [/home/abi/fetcher/tmp/torchseal-0.1.1.tar.gz]
+[2024-04-05 08:56:14] INFO root fetch - processPackages [torchseal]: Remove: archive file [/home/abi/fetcher/tmp/torchseal-0.1.2.tar.gz]
+[2024-04-05 08:56:14] INFO root fetch - main [MainThread]: End processing [torchseal]: success
+[2024-04-05 08:56:14] INFO root fetch - main [MainThread]: Store serial: [22632646]
