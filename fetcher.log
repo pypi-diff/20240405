@@ -9238,3 +9238,28 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2024-04-05 04:08:53] INFO root fetch - processPackages [quakemigrate]: Remove: archive file [/home/abi/fetcher/tmp/quakemigrate-1.0.3.tar.gz]
 [2024-04-05 04:08:53] INFO root fetch - main [MainThread]: End processing [quakemigrate]: success
 [2024-04-05 04:08:53] INFO root fetch - main [MainThread]: Store serial: [22631094]
+[2024-04-05 04:10:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22631094]
+[2024-04-05 04:11:02] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-05 04:11:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: py-netty
+[2024-04-05 04:11:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lockhart-serial
+[2024-04-05 04:11:02] INFO root fetch - processPackages [py-netty]: New version: [1.0.0] Old Version: [0.0.9]
+[2024-04-05 04:11:02] INFO root fetch - processPackages [lockhart-serial]: New version: [1.0.3] Old Version: [0.0.1]
+[2024-04-05 04:11:02] INFO root fetch - processPackages [lockhart-serial]: Downloading https://files.pythonhosted.org/packages/bd/63/ac27f10ded49b3e950fd60045647ead14310b9e4b4a0b009934f2e50b9e9/lockhart-serial-0.0.1.tar.gz
+[2024-04-05 04:11:02] INFO root fetch - processPackages [py-netty]: Downloading https://files.pythonhosted.org/packages/d1/35/d9c06b6a1c1059f349ca36d022c3e86f3e46dfd1563977d6835f444b566d/py-netty-0.0.9.tar.gz
+[2024-04-05 04:11:02] WARNING root fetch - processPackages [lockhart-serial]: Timeout reached during download
+[2024-04-05 04:11:02] WARNING root fetch - processPackages [py-netty]: Timeout reached during download
+[2024-04-05 04:11:02] INFO root fetch - processPackages [lockhart-serial]: Downloading https://files.pythonhosted.org/packages/b1/b1/bf07ce84cbafee4a69fee1854f3970297153e86bd0bd2558d5ccd2852fe0/lockhart_serial-1.0.3.tar.gz
+[2024-04-05 04:11:02] INFO root fetch - processPackages [py-netty]: Downloading https://files.pythonhosted.org/packages/29/cc/6e7f469771c16a8d8940d141086b159e15b25c05f297c4f7247f61b3f786/py-netty-1.0.0.tar.gz
+[2024-04-05 04:11:02] WARNING root fetch - processPackages [py-netty]: Timeout reached during download
+[2024-04-05 04:11:02] INFO root fetch - processPackages [py-netty]: executing diffoscope
+[2024-04-05 04:11:02] INFO root fetch - processPackages [py-netty]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py-netty-0.0.9.tar.gz tmp/py-netty-1.0.0.tar.gz --markdown 20240405/p/py-netty/0.0.9-1.0.0/diff.md --exclude *.pyd
+[2024-04-05 04:11:02] WARNING root fetch - processPackages [lockhart-serial]: Timeout reached during download
+[2024-04-05 04:11:02] INFO root fetch - processPackages [lockhart-serial]: executing diffoscope
+[2024-04-05 04:11:02] INFO root fetch - processPackages [lockhart-serial]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lockhart-serial-0.0.1.tar.gz tmp/lockhart_serial-1.0.3.tar.gz --markdown 20240405/l/lockhart-serial/0.0.1-1.0.3/diff.md --exclude *.pyd
+[2024-04-05 04:11:03] INFO root fetch - processPackages [lockhart-serial]: Remove: archive file [/home/abi/fetcher/tmp/lockhart-serial-0.0.1.tar.gz]
+[2024-04-05 04:11:03] INFO root fetch - processPackages [lockhart-serial]: Remove: archive file [/home/abi/fetcher/tmp/lockhart_serial-1.0.3.tar.gz]
+[2024-04-05 04:11:03] INFO root fetch - main [MainThread]: End processing [lockhart-serial]: success
+[2024-04-05 04:11:03] INFO root fetch - processPackages [py-netty]: Remove: archive file [/home/abi/fetcher/tmp/py-netty-0.0.9.tar.gz]
+[2024-04-05 04:11:03] INFO root fetch - processPackages [py-netty]: Remove: archive file [/home/abi/fetcher/tmp/py-netty-1.0.0.tar.gz]
+[2024-04-05 04:11:03] INFO root fetch - main [MainThread]: End processing [py-netty]: success
+[2024-04-05 04:11:03] INFO root fetch - main [MainThread]: Store serial: [22631101]
