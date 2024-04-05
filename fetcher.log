@@ -16434,3 +16434,50 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2024-04-05 10:35:42] INFO root fetch - processPackages [mpflash]: Remove: archive file [/home/abi/fetcher/tmp/mpflash-0.5.0.tar.gz]
 [2024-04-05 10:35:42] INFO root fetch - main [MainThread]: End processing [mpflash]: success
 [2024-04-05 10:35:42] INFO root fetch - main [MainThread]: Store serial: [22633457]
+[2024-04-05 10:37:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22633457]
+[2024-04-05 10:37:51] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-05 10:37:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mpflash
+[2024-04-05 10:37:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: moto
+[2024-04-05 10:37:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: struqture-py
+[2024-04-05 10:37:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: trmnl-colors
+[2024-04-05 10:37:52] INFO root fetch - processPackages [mpflash]: New version: [0.5.0] Old Version: [0.4.2]
+[2024-04-05 10:37:52] INFO root fetch - processPackages [moto]: New version: [5.0.5.dev9] Old Version: [5.0.5.dev8]
+[2024-04-05 10:37:52] INFO root fetch - processPackages [trmnl-colors]: New version: [4.0.9] Old Version: [4.0.8]
+[2024-04-05 10:37:52] INFO root fetch - processPackages [mpflash]: Downloading https://files.pythonhosted.org/packages/a8/4a/b56c06c88d6f2943e58d53c20ddbe32ead6ff728935484c5c510e8656f9a/mpflash-0.4.2.tar.gz
+[2024-04-05 10:37:52] INFO root fetch - processPackages [struqture-py]: New version: [2.0.0a0] Old Version: [1.6.1]
+[2024-04-05 10:37:52] INFO root fetch - processPackages [moto]: Downloading https://files.pythonhosted.org/packages/ed/46/2a9361da84c96246dd0cc47567b9cdc7059baf5a4a390c4c1f43decbed34/moto-5.0.5.dev8.tar.gz
+[2024-04-05 10:37:52] WARNING root fetch - processPackages [mpflash]: Timeout reached during download
+[2024-04-05 10:37:52] INFO root fetch - processPackages [trmnl-colors]: Downloading https://files.pythonhosted.org/packages/7c/79/99c6afe7cb61a664d82fa44dc7ef911ad2869a0d4a3f9542c4c65e7a901b/trmnl-colors-4.0.8.tar.gz
+[2024-04-05 10:37:52] INFO root fetch - processPackages [struqture-py]: Downloading https://files.pythonhosted.org/packages/80/15/d9bfa26fab39f49bb93bcdb77cc0aae200483b94aef3fa0166e676542c6e/struqture_py-1.6.1.tar.gz
+[2024-04-05 10:37:52] INFO root fetch - processPackages [mpflash]: Downloading https://files.pythonhosted.org/packages/0f/30/db80e391ac780e1dc7d0badec15fdad093095345d8aad2254ec8e3364e97/mpflash-0.5.0.tar.gz
+[2024-04-05 10:37:52] WARNING root fetch - processPackages [trmnl-colors]: Timeout reached during download
+[2024-04-05 10:37:52] WARNING root fetch - processPackages [mpflash]: Timeout reached during download
+[2024-04-05 10:37:52] INFO root fetch - processPackages [mpflash]: executing diffoscope
+[2024-04-05 10:37:52] INFO root fetch - processPackages [mpflash]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mpflash-0.4.2.tar.gz tmp/mpflash-0.5.0.tar.gz --markdown 20240405/m/mpflash/0.4.2-0.5.0/diff.md --exclude *.pyd
+[2024-04-05 10:37:52] WARNING root fetch - processPackages [struqture-py]: Timeout reached during download
+[2024-04-05 10:37:52] INFO root fetch - processPackages [trmnl-colors]: Downloading https://files.pythonhosted.org/packages/ab/56/c6abd94ab413d57df236f31c86d0a90bf05fd06a3e2b1eca81cc7eb16b2c/trmnl-colors-4.0.9.tar.gz
+[2024-04-05 10:37:52] WARNING root fetch - processPackages [trmnl-colors]: Timeout reached during download
+[2024-04-05 10:37:52] INFO root fetch - processPackages [trmnl-colors]: executing diffoscope
+[2024-04-05 10:37:52] INFO root fetch - processPackages [trmnl-colors]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trmnl-colors-4.0.8.tar.gz tmp/trmnl-colors-4.0.9.tar.gz --markdown 20240405/t/trmnl-colors/4.0.8-4.0.9/diff.md --exclude *.pyd
+[2024-04-05 10:37:52] INFO root fetch - processPackages [struqture-py]: Downloading https://files.pythonhosted.org/packages/ce/3e/064c210dfea76477b77e0ea75d9398b4314ce0df53e73ceca72c08711c04/struqture_py-2.0.0a0.tar.gz
+[2024-04-05 10:37:53] WARNING root fetch - processPackages [struqture-py]: Timeout reached during download
+[2024-04-05 10:37:53] INFO root fetch - processPackages [struqture-py]: executing diffoscope
+[2024-04-05 10:37:53] INFO root fetch - processPackages [struqture-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/struqture_py-1.6.1.tar.gz tmp/struqture_py-2.0.0a0.tar.gz --markdown 20240405/s/struqture-py/1.6.1-2.0.0a0/diff.md --exclude *.pyd
+[2024-04-05 10:37:53] WARNING root fetch - processPackages [moto]: Timeout reached during download
+[2024-04-05 10:37:53] INFO root fetch - processPackages [mpflash]: Remove: archive file [/home/abi/fetcher/tmp/mpflash-0.4.2.tar.gz]
+[2024-04-05 10:37:53] INFO root fetch - processPackages [mpflash]: Remove: archive file [/home/abi/fetcher/tmp/mpflash-0.5.0.tar.gz]
+[2024-04-05 10:37:53] INFO root fetch - main [MainThread]: End processing [mpflash]: success
+[2024-04-05 10:37:53] INFO root fetch - processPackages [moto]: Downloading https://files.pythonhosted.org/packages/08/c1/f93b75265b5128856f763bdb046a348f3952cca0dc9de2e9c1268050b7ba/moto-5.0.5.dev9.tar.gz
+[2024-04-05 10:37:53] INFO root fetch - processPackages [trmnl-colors]: Remove: archive file [/home/abi/fetcher/tmp/trmnl-colors-4.0.8.tar.gz]
+[2024-04-05 10:37:53] INFO root fetch - processPackages [trmnl-colors]: Remove: archive file [/home/abi/fetcher/tmp/trmnl-colors-4.0.9.tar.gz]
+[2024-04-05 10:37:53] INFO root fetch - main [MainThread]: End processing [trmnl-colors]: success
+[2024-04-05 10:37:53] WARNING root fetch - processPackages [moto]: Timeout reached during download
+[2024-04-05 10:37:53] INFO root fetch - processPackages [moto]: executing diffoscope
+[2024-04-05 10:37:53] INFO root fetch - processPackages [moto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moto-5.0.5.dev8.tar.gz tmp/moto-5.0.5.dev9.tar.gz --markdown 20240405/m/moto/5.0.5.dev8-5.0.5.dev9/diff.md --exclude *.pyd
+[2024-04-05 10:37:55] INFO root fetch - processPackages [struqture-py]: Remove: archive file [/home/abi/fetcher/tmp/struqture_py-1.6.1.tar.gz]
+[2024-04-05 10:37:55] INFO root fetch - processPackages [struqture-py]: Remove: archive file [/home/abi/fetcher/tmp/struqture_py-2.0.0a0.tar.gz]
+[2024-04-05 10:37:55] INFO root fetch - main [MainThread]: End processing [struqture-py]: success
+[2024-04-05 10:38:05] INFO root fetch - processPackages [moto]: Remove: archive file [/home/abi/fetcher/tmp/moto-5.0.5.dev8.tar.gz]
+[2024-04-05 10:38:05] INFO root fetch - processPackages [moto]: Remove: archive file [/home/abi/fetcher/tmp/moto-5.0.5.dev9.tar.gz]
+[2024-04-05 10:38:05] INFO root fetch - main [MainThread]: End processing [moto]: success
+[2024-04-05 10:38:05] INFO root fetch - main [MainThread]: Store serial: [22633486]
