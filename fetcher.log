@@ -22002,3 +22002,105 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2024-04-05 14:18:39] INFO root fetch - processPackages [pyguiadapter]: Remove: archive file [/home/abi/fetcher/tmp/pyguiadapter-0.2.9.tar.gz]
 [2024-04-05 14:18:39] INFO root fetch - main [MainThread]: End processing [pyguiadapter]: success
 [2024-04-05 14:18:39] INFO root fetch - main [MainThread]: Store serial: [22635771]
+[2024-04-05 14:20:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22635771]
+[2024-04-05 14:20:48] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-04-05 14:20:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cdk8s-cdktf-resolver
+[2024-04-05 14:20:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: autohelper
+[2024-04-05 14:20:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: phdu
+[2024-04-05 14:20:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: imagery-mapilio
+[2024-04-05 14:20:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pulumi-cloudamqp
+[2024-04-05 14:20:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: fastexcel
+[2024-04-05 14:20:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pybiolib
+[2024-04-05 14:20:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: SimplHDL
+[2024-04-05 14:20:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: tempsdb
+[2024-04-05 14:20:48] INFO root fetch - processPackages [autohelper]: New version: [0.0.6] Old Version: [0.0.5]
+[2024-04-05 14:20:48] INFO root fetch - processPackages [phdu]: New version: [2.3.1] Old Version: [2.2b9]
+[2024-04-05 14:20:48] INFO root fetch - processPackages [autohelper]: Downloading https://files.pythonhosted.org/packages/85/6b/c4c407e4d7765ac782e10c138d0a23b5a36410b54e22cf9db8dbc1795a42/autohelper-0.0.5.tar.gz
+[2024-04-05 14:20:48] INFO root fetch - processPackages [cdk8s-cdktf-resolver]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-05 14:20:48] INFO root fetch - processPackages [phdu]: Downloading https://files.pythonhosted.org/packages/97/31/499d62b57601644ca8f89b9390e118d0bcbc4fad516d2f0ffae5421ff00c/phdu-2.2b9.tar.gz
+[2024-04-05 14:20:48] INFO root fetch - processPackages [imagery-mapilio]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-05 14:20:48] INFO root fetch - processPackages [tempsdb]: New version: [0.6.5] Old Version: [0.6.4]
+[2024-04-05 14:20:48] INFO root fetch - processPackages [pulumi-cloudamqp]: New version: [3.9.2] Old Version: [3.9.1]
+[2024-04-05 14:20:48] INFO root fetch - processPackages [SimplHDL]: New version: [0.0.3] Old Version: [0.0.1]
+[2024-04-05 14:20:48] INFO root fetch - processPackages [fastexcel]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-04-05 14:20:48] INFO root fetch - processPackages [pybiolib]: New version: [1.1.999] Old Version: [1.1.997]
+[2024-04-05 14:20:48] WARNING root fetch - processPackages [phdu]: Timeout reached during download
+[2024-04-05 14:20:48] WARNING root fetch - processPackages [autohelper]: Timeout reached during download
+[2024-04-05 14:20:48] INFO root fetch - processPackages [cdk8s-cdktf-resolver]: Downloading https://files.pythonhosted.org/packages/d0/7b/6e241c141aee876e6231c607ad885acbb3d93f3e8d6215bf20ad4718a568/cdk8s-cdktf-resolver-0.0.8.tar.gz
+[2024-04-05 14:20:48] INFO root fetch - processPackages [imagery-mapilio]: Downloading https://files.pythonhosted.org/packages/66/0d/7455cd07a6a1cfdf2585c532421203e674220a913890f1b06ff4a563828e/imagery-mapilio-0.0.8.tar.gz
+[2024-04-05 14:20:48] INFO root fetch - processPackages [pulumi-cloudamqp]: Downloading https://files.pythonhosted.org/packages/11/e9/21f7b016e33dfe37759f872bc35e5859819c933ab5e3b90a1a659ab49314/pulumi_cloudamqp-3.9.1.tar.gz
+[2024-04-05 14:20:48] INFO root fetch - processPackages [fastexcel]: Downloading https://files.pythonhosted.org/packages/b6/df/f058406c7fbf049e9b8ebaa41d730577258a3d4f2cf652dcae643c862da6/fastexcel-0.9.0-cp39-none-win_amd64.whl
+[2024-04-05 14:20:48] INFO root fetch - processPackages [phdu]: Downloading https://files.pythonhosted.org/packages/b8/e4/c6e896dca11ddb45e4c6b46c5e3e8323a32e6123c1e590aeeee4b4ef1ed6/phdu-2.3.1.tar.gz
+[2024-04-05 14:20:48] INFO root fetch - processPackages [tempsdb]: Downloading https://files.pythonhosted.org/packages/1a/24/55f54678fe2f041cbbcabfb7ac8999bc214068d1e2449cfc77d9c54524c8/tempsdb-0.6.4.tar.gz
+[2024-04-05 14:20:48] INFO root fetch - processPackages [pybiolib]: Downloading https://files.pythonhosted.org/packages/3a/9a/8d08460188d169ab51c67693f2c3b0bab2c3fa9157e378bd6b8de3c94c22/pybiolib-1.1.997.tar.gz
+[2024-04-05 14:20:48] INFO root fetch - processPackages [SimplHDL]: Downloading https://files.pythonhosted.org/packages/13/71/0db4f3648d9be0d85e93fc6300f59f9c9d3b65c494eb216f26076ef54110/SimplHDL-0.0.1.tar.gz
+[2024-04-05 14:20:48] INFO root fetch - processPackages [autohelper]: Downloading https://files.pythonhosted.org/packages/fe/ac/8adfa9c1128ea230d767b05a6163c4dfd2020a04a0997910d38f98792727/autohelper-0.0.6.tar.gz
+[2024-04-05 14:20:49] WARNING root fetch - processPackages [cdk8s-cdktf-resolver]: Timeout reached during download
+[2024-04-05 14:20:49] WARNING root fetch - processPackages [pulumi-cloudamqp]: Timeout reached during download
+[2024-04-05 14:20:49] WARNING root fetch - processPackages [phdu]: Timeout reached during download
+[2024-04-05 14:20:49] INFO root fetch - processPackages [phdu]: executing diffoscope
+[2024-04-05 14:20:49] INFO root fetch - processPackages [phdu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/phdu-2.2b9.tar.gz tmp/phdu-2.3.1.tar.gz --markdown 20240405/p/phdu/2.2b9-2.3.1/diff.md --exclude *.pyd
+[2024-04-05 14:20:49] WARNING root fetch - processPackages [imagery-mapilio]: Timeout reached during download
+[2024-04-05 14:20:49] WARNING root fetch - processPackages [SimplHDL]: Timeout reached during download
+[2024-04-05 14:20:49] WARNING root fetch - processPackages [pybiolib]: Timeout reached during download
+[2024-04-05 14:20:49] WARNING root fetch - processPackages [autohelper]: Timeout reached during download
+[2024-04-05 14:20:49] INFO root fetch - processPackages [autohelper]: executing diffoscope
+[2024-04-05 14:20:49] INFO root fetch - processPackages [autohelper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autohelper-0.0.5.tar.gz tmp/autohelper-0.0.6.tar.gz --markdown 20240405/a/autohelper/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2024-04-05 14:20:49] WARNING root fetch - processPackages [fastexcel]: Timeout reached during download
+[2024-04-05 14:20:49] INFO root fetch - processPackages [cdk8s-cdktf-resolver]: Downloading https://files.pythonhosted.org/packages/17/4d/78b8350a2cb674183d85f673cae768cba8891cc6c1031b4c61aa54af2f42/cdk8s-cdktf-resolver-0.0.9.tar.gz
+[2024-04-05 14:20:49] INFO root fetch - processPackages [pulumi-cloudamqp]: Downloading https://files.pythonhosted.org/packages/af/5a/e693fc66be78e5b911198861afba3393be3d0c49d5f64c45c63abd861205/pulumi_cloudamqp-3.9.2.tar.gz
+[2024-04-05 14:20:49] INFO root fetch - processPackages [imagery-mapilio]: Downloading https://files.pythonhosted.org/packages/8b/6b/dd38ca119ad3c65b7ac7001ffce7d6e56c3cc46c9875b7f0c83f64f71cdf/imagery-mapilio-0.0.9.tar.gz
+[2024-04-05 14:20:49] INFO root fetch - processPackages [SimplHDL]: Downloading https://files.pythonhosted.org/packages/f2/11/43a67636cc9ccc52a6211b85db3d97883c74585dd52e426cc61183e98e6a/SimplHDL-0.0.3.tar.gz
+[2024-04-05 14:20:49] INFO root fetch - processPackages [pybiolib]: Downloading https://files.pythonhosted.org/packages/63/4d/ccfc9f32e5d27ecd72b00bec47623fd00317dfdd6724e0fa9865b2f036d3/pybiolib-1.1.999.tar.gz
+[2024-04-05 14:20:49] WARNING root fetch - processPackages [imagery-mapilio]: Timeout reached during download
+[2024-04-05 14:20:49] INFO root fetch - processPackages [imagery-mapilio]: executing diffoscope
+[2024-04-05 14:20:49] INFO root fetch - processPackages [imagery-mapilio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/imagery-mapilio-0.0.8.tar.gz tmp/imagery-mapilio-0.0.9.tar.gz --markdown 20240405/i/imagery-mapilio/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2024-04-05 14:20:49] WARNING root fetch - processPackages [tempsdb]: Timeout reached during download
+[2024-04-05 14:20:49] INFO root fetch - processPackages [fastexcel]: Downloading https://files.pythonhosted.org/packages/46/c7/6bcc5fd464b5557c36ac2f45d6ff5e1b3557fedafd28a302eb66bfcad1a3/fastexcel-0.9.1-cp39-none-win_amd64.whl
+[2024-04-05 14:20:49] WARNING root fetch - processPackages [cdk8s-cdktf-resolver]: Timeout reached during download
+[2024-04-05 14:20:49] INFO root fetch - processPackages [cdk8s-cdktf-resolver]: executing diffoscope
+[2024-04-05 14:20:49] INFO root fetch - processPackages [cdk8s-cdktf-resolver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-cdktf-resolver-0.0.8.tar.gz tmp/cdk8s-cdktf-resolver-0.0.9.tar.gz --markdown 20240405/c/cdk8s-cdktf-resolver/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2024-04-05 14:20:49] WARNING root fetch - processPackages [pybiolib]: Timeout reached during download
+[2024-04-05 14:20:49] INFO root fetch - processPackages [pybiolib]: executing diffoscope
+[2024-04-05 14:20:49] INFO root fetch - processPackages [pybiolib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pybiolib-1.1.997.tar.gz tmp/pybiolib-1.1.999.tar.gz --markdown 20240405/p/pybiolib/1.1.997-1.1.999/diff.md --exclude *.pyd
+[2024-04-05 14:20:49] WARNING root fetch - processPackages [pulumi-cloudamqp]: Timeout reached during download
+[2024-04-05 14:20:49] INFO root fetch - processPackages [pulumi-cloudamqp]: executing diffoscope
+[2024-04-05 14:20:49] INFO root fetch - processPackages [pulumi-cloudamqp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_cloudamqp-3.9.1.tar.gz tmp/pulumi_cloudamqp-3.9.2.tar.gz --markdown 20240405/p/pulumi-cloudamqp/3.9.1-3.9.2/diff.md --exclude *.pyd
+[2024-04-05 14:20:49] WARNING root fetch - processPackages [SimplHDL]: Timeout reached during download
+[2024-04-05 14:20:49] INFO root fetch - processPackages [SimplHDL]: executing diffoscope
+[2024-04-05 14:20:49] INFO root fetch - processPackages [SimplHDL]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SimplHDL-0.0.1.tar.gz tmp/SimplHDL-0.0.3.tar.gz --markdown 20240405/S/SimplHDL/0.0.1-0.0.3/diff.md --exclude *.pyd
+[2024-04-05 14:20:49] INFO root fetch - processPackages [tempsdb]: Downloading https://files.pythonhosted.org/packages/7d/7d/9a3550fc2c6536f42798a3dbb7bf0dc942a0f6609a91dbf3c83294acfc5d/tempsdb-0.6.5-cp39-cp39-manylinux2014_x86_64.whl
+[2024-04-05 14:20:49] WARNING root fetch - processPackages [fastexcel]: Timeout reached during download
+[2024-04-05 14:20:49] INFO root fetch - processPackages [fastexcel]: executing diffoscope
+[2024-04-05 14:20:49] INFO root fetch - processPackages [fastexcel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastexcel-0.9.0-cp39-none-win_amd64.whl.zip tmp/fastexcel-0.9.1-cp39-none-win_amd64.whl.zip --markdown 20240405/f/fastexcel/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2024-04-05 14:20:49] INFO root fetch - processPackages [phdu]: Remove: archive file [/home/abi/fetcher/tmp/phdu-2.2b9.tar.gz]
+[2024-04-05 14:20:49] INFO root fetch - processPackages [phdu]: Remove: archive file [/home/abi/fetcher/tmp/phdu-2.3.1.tar.gz]
+[2024-04-05 14:20:49] INFO root fetch - main [MainThread]: End processing [phdu]: success
+[2024-04-05 14:20:50] INFO root fetch - processPackages [autohelper]: Remove: archive file [/home/abi/fetcher/tmp/autohelper-0.0.5.tar.gz]
+[2024-04-05 14:20:50] INFO root fetch - processPackages [autohelper]: Remove: archive file [/home/abi/fetcher/tmp/autohelper-0.0.6.tar.gz]
+[2024-04-05 14:20:50] INFO root fetch - main [MainThread]: End processing [autohelper]: success
+[2024-04-05 14:20:50] INFO root fetch - processPackages [imagery-mapilio]: Remove: archive file [/home/abi/fetcher/tmp/imagery-mapilio-0.0.8.tar.gz]
+[2024-04-05 14:20:50] INFO root fetch - processPackages [imagery-mapilio]: Remove: archive file [/home/abi/fetcher/tmp/imagery-mapilio-0.0.9.tar.gz]
+[2024-04-05 14:20:50] INFO root fetch - main [MainThread]: End processing [imagery-mapilio]: success
+[2024-04-05 14:20:50] INFO root fetch - processPackages [cdk8s-cdktf-resolver]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-cdktf-resolver-0.0.8.tar.gz]
+[2024-04-05 14:20:50] INFO root fetch - processPackages [cdk8s-cdktf-resolver]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-cdktf-resolver-0.0.9.tar.gz]
+[2024-04-05 14:20:50] INFO root fetch - main [MainThread]: End processing [cdk8s-cdktf-resolver]: success
+[2024-04-05 14:20:50] INFO root fetch - processPackages [SimplHDL]: Remove: archive file [/home/abi/fetcher/tmp/SimplHDL-0.0.1.tar.gz]
+[2024-04-05 14:20:50] INFO root fetch - processPackages [SimplHDL]: Remove: archive file [/home/abi/fetcher/tmp/SimplHDL-0.0.3.tar.gz]
+[2024-04-05 14:20:50] INFO root fetch - main [MainThread]: End processing [SimplHDL]: success
+[2024-04-05 14:20:50] INFO root fetch - processPackages [fastexcel]: Remove: archive file [/home/abi/fetcher/tmp/fastexcel-0.9.0-cp39-none-win_amd64.whl.zip]
+[2024-04-05 14:20:50] INFO root fetch - processPackages [fastexcel]: Remove: archive file [/home/abi/fetcher/tmp/fastexcel-0.9.1-cp39-none-win_amd64.whl.zip]
+[2024-04-05 14:20:50] INFO root fetch - main [MainThread]: End processing [fastexcel]: success
+[2024-04-05 14:20:50] INFO root fetch - processPackages [pybiolib]: Remove: archive file [/home/abi/fetcher/tmp/pybiolib-1.1.997.tar.gz]
+[2024-04-05 14:20:50] INFO root fetch - processPackages [pybiolib]: Remove: archive file [/home/abi/fetcher/tmp/pybiolib-1.1.999.tar.gz]
+[2024-04-05 14:20:50] INFO root fetch - main [MainThread]: End processing [pybiolib]: success
+[2024-04-05 14:20:50] INFO root fetch - processPackages [pulumi-cloudamqp]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_cloudamqp-3.9.1.tar.gz]
+[2024-04-05 14:20:50] INFO root fetch - processPackages [pulumi-cloudamqp]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_cloudamqp-3.9.2.tar.gz]
+[2024-04-05 14:20:50] INFO root fetch - main [MainThread]: End processing [pulumi-cloudamqp]: success
+[2024-04-05 14:20:50] WARNING root fetch - processPackages [tempsdb]: Timeout reached during download
+[2024-04-05 14:20:50] INFO root fetch - processPackages [tempsdb]: executing diffoscope
+[2024-04-05 14:20:50] INFO root fetch - processPackages [tempsdb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tempsdb-0.6.4.tar.gz tmp/tempsdb-0.6.5-cp39-cp39-manylinux2014_x86_64.whl.zip --markdown 20240405/t/tempsdb/0.6.4-0.6.5/diff.md --exclude *.pyd
+[2024-04-05 14:20:51] INFO root fetch - processPackages [tempsdb]: Remove: archive file [/home/abi/fetcher/tmp/tempsdb-0.6.4.tar.gz]
+[2024-04-05 14:20:51] INFO root fetch - processPackages [tempsdb]: Remove: archive file [/home/abi/fetcher/tmp/tempsdb-0.6.5-cp39-cp39-manylinux2014_x86_64.whl.zip]
+[2024-04-05 14:20:51] INFO root fetch - main [MainThread]: End processing [tempsdb]: success
+[2024-04-05 14:20:51] INFO root fetch - main [MainThread]: Store serial: [22635799]
