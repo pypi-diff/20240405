@@ -14937,3 +14937,45 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2024-04-05 09:33:22] INFO root fetch - processPackages [langroid]: Remove: archive file [/home/abi/fetcher/tmp/langroid-0.1.99.tar.gz]
 [2024-04-05 09:33:22] INFO root fetch - main [MainThread]: End processing [langroid]: success
 [2024-04-05 09:33:22] INFO root fetch - main [MainThread]: Store serial: [22632873]
+[2024-04-05 09:35:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22632873]
+[2024-04-05 09:35:31] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-05 09:35:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: jao-py
+[2024-04-05 09:35:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addon-helpdesk-type
+[2024-04-05 09:35:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: PyClinet
+[2024-04-05 09:35:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dash-nivo-charts
+[2024-04-05 09:35:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nrobo
+[2024-04-05 09:35:31] INFO root fetch - processPackages [nrobo]: New version: [2024.39.2] Old Version: [2024.39.1]
+[2024-04-05 09:35:31] WARNING root fetch - processPackages [dash-nivo-charts]: Skipping, unable to determine old version
+[2024-04-05 09:35:31] INFO root fetch - main [MainThread]: End processing [dash-nivo-charts] error
+[2024-04-05 09:35:31] INFO root fetch - processPackages [nrobo]: Downloading https://files.pythonhosted.org/packages/43/85/515b1200ad1852371fca62c8c9cad1bd9bab045effd293bbaca1f521c493/nrobo-2024.39.1.tar.gz
+[2024-04-05 09:35:31] WARNING root fetch - processPackages [PyClinet]: Skipping, unable to determine old version
+[2024-04-05 09:35:31] INFO root fetch - processPackages [odoo-addon-helpdesk-type]: New version: [16.0.1.0.0.6] Old Version: [16.0.1.0.0.4]
+[2024-04-05 09:35:31] INFO root fetch - main [MainThread]: End processing [PyClinet] error
+[2024-04-05 09:35:31] INFO root fetch - processPackages [jao-py]: New version: [0.4.5] Old Version: [0.4.4]
+[2024-04-05 09:35:31] WARNING root fetch - processPackages [nrobo]: Timeout reached during download
+[2024-04-05 09:35:31] INFO root fetch - processPackages [odoo-addon-helpdesk-type]: Downloading https://files.pythonhosted.org/packages/38/0e/b1d08685b765cb21b461a1e063e872e2e3028f4fafc8a87cd4a91e500341/odoo_addon_helpdesk_type-16.0.1.0.0.4-py3-none-any.whl
+[2024-04-05 09:35:31] INFO root fetch - processPackages [jao-py]: Downloading https://files.pythonhosted.org/packages/1f/05/7ec6f5c41e9a0d777a26cb672c3343ece6ba42e61bc359a91040aa73b92e/jao-py-0.4.4.tar.gz
+[2024-04-05 09:35:31] INFO root fetch - processPackages [nrobo]: Downloading https://files.pythonhosted.org/packages/3f/98/8831da1745ef9e569307c21aa62e6299d0e04cb66414d1438487f65cbd8b/nrobo-2024.39.2.tar.gz
+[2024-04-05 09:35:31] WARNING root fetch - processPackages [jao-py]: Timeout reached during download
+[2024-04-05 09:35:31] WARNING root fetch - processPackages [odoo-addon-helpdesk-type]: Timeout reached during download
+[2024-04-05 09:35:31] WARNING root fetch - processPackages [nrobo]: Timeout reached during download
+[2024-04-05 09:35:31] INFO root fetch - processPackages [nrobo]: executing diffoscope
+[2024-04-05 09:35:31] INFO root fetch - processPackages [nrobo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nrobo-2024.39.1.tar.gz tmp/nrobo-2024.39.2.tar.gz --markdown 20240405/n/nrobo/2024.39.1-2024.39.2/diff.md --exclude *.pyd
+[2024-04-05 09:35:31] INFO root fetch - processPackages [jao-py]: Downloading https://files.pythonhosted.org/packages/ec/6d/b3bd6fb9b4b434c87fc7d3145e8796b7fff91f4b0fde69bdcbf44d0ca0ba/jao-py-0.4.5.tar.gz
+[2024-04-05 09:35:31] INFO root fetch - processPackages [odoo-addon-helpdesk-type]: Downloading https://files.pythonhosted.org/packages/ff/59/d7a7b20921e9a72458406be7ade75144910aaaab4117cea061c50e6be036/odoo_addon_helpdesk_type-16.0.1.0.0.6-py3-none-any.whl
+[2024-04-05 09:35:32] WARNING root fetch - processPackages [jao-py]: Timeout reached during download
+[2024-04-05 09:35:32] INFO root fetch - processPackages [jao-py]: executing diffoscope
+[2024-04-05 09:35:32] INFO root fetch - processPackages [jao-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jao-py-0.4.4.tar.gz tmp/jao-py-0.4.5.tar.gz --markdown 20240405/j/jao-py/0.4.4-0.4.5/diff.md --exclude *.pyd
+[2024-04-05 09:35:32] WARNING root fetch - processPackages [odoo-addon-helpdesk-type]: Timeout reached during download
+[2024-04-05 09:35:32] INFO root fetch - processPackages [odoo-addon-helpdesk-type]: executing diffoscope
+[2024-04-05 09:35:32] INFO root fetch - processPackages [odoo-addon-helpdesk-type]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_helpdesk_type-16.0.1.0.0.4-py3-none-any.whl.zip tmp/odoo_addon_helpdesk_type-16.0.1.0.0.6-py3-none-any.whl.zip --markdown 20240405/o/odoo-addon-helpdesk-type/16.0.1.0.0.4-16.0.1.0.0.6/diff.md --exclude *.pyd
+[2024-04-05 09:35:32] INFO root fetch - processPackages [nrobo]: Remove: archive file [/home/abi/fetcher/tmp/nrobo-2024.39.1.tar.gz]
+[2024-04-05 09:35:32] INFO root fetch - processPackages [nrobo]: Remove: archive file [/home/abi/fetcher/tmp/nrobo-2024.39.2.tar.gz]
+[2024-04-05 09:35:32] INFO root fetch - main [MainThread]: End processing [nrobo]: success
+[2024-04-05 09:35:32] INFO root fetch - processPackages [jao-py]: Remove: archive file [/home/abi/fetcher/tmp/jao-py-0.4.4.tar.gz]
+[2024-04-05 09:35:32] INFO root fetch - processPackages [jao-py]: Remove: archive file [/home/abi/fetcher/tmp/jao-py-0.4.5.tar.gz]
+[2024-04-05 09:35:32] INFO root fetch - main [MainThread]: End processing [jao-py]: success
+[2024-04-05 09:35:32] INFO root fetch - processPackages [odoo-addon-helpdesk-type]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_helpdesk_type-16.0.1.0.0.4-py3-none-any.whl.zip]
+[2024-04-05 09:35:32] INFO root fetch - processPackages [odoo-addon-helpdesk-type]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_helpdesk_type-16.0.1.0.0.6-py3-none-any.whl.zip]
+[2024-04-05 09:35:32] INFO root fetch - main [MainThread]: End processing [odoo-addon-helpdesk-type]: success
+[2024-04-05 09:35:32] INFO root fetch - main [MainThread]: Store serial: [22632892]
