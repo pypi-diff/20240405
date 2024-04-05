@@ -19038,3 +19038,67 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2024-04-05 12:22:38] INFO root fetch - processPackages [libcnmc]: Remove: archive file [/home/abi/fetcher/tmp/libcnmc-24.8.2.tar.gz]
 [2024-04-05 12:22:38] INFO root fetch - main [MainThread]: End processing [libcnmc]: success
 [2024-04-05 12:22:38] INFO root fetch - main [MainThread]: Store serial: [22634482]
+[2024-04-05 12:24:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22634482]
+[2024-04-05 12:24:47] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-05 12:24:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: Fragmenstein
+[2024-04-05 12:24:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: minijson
+[2024-04-05 12:24:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: spatialaudiometrics
+[2024-04-05 12:24:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ignutils
+[2024-04-05 12:24:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: twitch-utils
+[2024-04-05 12:24:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: portkey-ai
+[2024-04-05 12:24:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: qoqo-quest
+[2024-04-05 12:24:47] INFO root fetch - processPackages [Fragmenstein]: New version: [1.0.2] Old Version: [1.0.1]
+[2024-04-05 12:24:47] INFO root fetch - processPackages [portkey-ai]: New version: [1.2.3] Old Version: [1.2.2]
+[2024-04-05 12:24:47] WARNING root fetch - processPackages [ignutils]: Skipping, unable to determine old version
+[2024-04-05 12:24:47] INFO root fetch - main [MainThread]: End processing [ignutils] error
+[2024-04-05 12:24:47] INFO root fetch - processPackages [minijson]: New version: [3.0] Old Version: [2.9]
+[2024-04-05 12:24:47] WARNING root fetch - processPackages [twitch-utils]: Skipping, unable to determine old version
+[2024-04-05 12:24:47] INFO root fetch - main [MainThread]: End processing [twitch-utils] error
+[2024-04-05 12:24:47] INFO root fetch - processPackages [spatialaudiometrics]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-04-05 12:24:47] INFO root fetch - processPackages [qoqo-quest]: New version: [0.9.1] Old Version: [0.9.0a2]
+[2024-04-05 12:24:47] INFO root fetch - processPackages [Fragmenstein]: Downloading https://files.pythonhosted.org/packages/68/5b/7d2c66deaf6ace6c6261d14320e0b7a15edbd4b7ca705a663858c403f2af/Fragmenstein-1.0.1.tar.gz
+[2024-04-05 12:24:47] INFO root fetch - processPackages [portkey-ai]: Downloading https://files.pythonhosted.org/packages/c0/ce/25b5b69f87d72a3c0c45df51e68f046337c2fcf8be9b4c48e623f2f95fa4/portkey_ai-1.2.2-py3-none-any.whl
+[2024-04-05 12:24:47] INFO root fetch - processPackages [spatialaudiometrics]: Downloading https://files.pythonhosted.org/packages/51/a0/5c699f8f619020f205d83c87939aed4279f9121705e8c76e6042d2deabd8/spatialaudiometrics-0.0.3.tar.gz
+[2024-04-05 12:24:47] INFO root fetch - processPackages [minijson]: Downloading https://files.pythonhosted.org/packages/e0/f0/c61f00a34193bcfed4fe25a6d70b7c7644b8ba47046dab1510720d16f90f/minijson-2.9.tar.gz
+[2024-04-05 12:24:48] INFO root fetch - processPackages [qoqo-quest]: Downloading https://files.pythonhosted.org/packages/b7/fb/aa5063f6366dc8c6c3d39350b423986abf45c2cf71cd3ae2281c765a126a/qoqo_quest-0.9.0a2.tar.gz
+[2024-04-05 12:24:48] WARNING root fetch - processPackages [Fragmenstein]: Timeout reached during download
+[2024-04-05 12:24:48] WARNING root fetch - processPackages [portkey-ai]: Timeout reached during download
+[2024-04-05 12:24:48] WARNING root fetch - processPackages [minijson]: Timeout reached during download
+[2024-04-05 12:24:48] INFO root fetch - processPackages [Fragmenstein]: Downloading https://files.pythonhosted.org/packages/9f/b2/d6ae28ae365a6139a45c9334161d63a5575e5df0edc3d40cae6125dc0c38/Fragmenstein-1.0.2.tar.gz
+[2024-04-05 12:24:48] INFO root fetch - processPackages [portkey-ai]: Downloading https://files.pythonhosted.org/packages/0c/3d/f2122ff888bb20a3b3a27a0e0857aca86ef1850e33c7862072f996cd08b9/portkey_ai-1.2.3-py3-none-any.whl
+[2024-04-05 12:24:48] INFO root fetch - processPackages [minijson]: Downloading https://files.pythonhosted.org/packages/9e/47/40a75b160ae522470d6eefb271ac7afc7c5fec925a173c2e293bafa8e1ee/minijson-3.0.tar.gz
+[2024-04-05 12:24:48] WARNING root fetch - processPackages [qoqo-quest]: Timeout reached during download
+[2024-04-05 12:24:48] WARNING root fetch - processPackages [spatialaudiometrics]: Timeout reached during download
+[2024-04-05 12:24:48] WARNING root fetch - processPackages [portkey-ai]: Timeout reached during download
+[2024-04-05 12:24:48] INFO root fetch - processPackages [portkey-ai]: executing diffoscope
+[2024-04-05 12:24:48] INFO root fetch - processPackages [portkey-ai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/portkey_ai-1.2.2-py3-none-any.whl.zip tmp/portkey_ai-1.2.3-py3-none-any.whl.zip --markdown 20240405/p/portkey-ai/1.2.2-1.2.3/diff.md --exclude *.pyd
+[2024-04-05 12:24:48] WARNING root fetch - processPackages [Fragmenstein]: Timeout reached during download
+[2024-04-05 12:24:48] INFO root fetch - processPackages [Fragmenstein]: executing diffoscope
+[2024-04-05 12:24:48] INFO root fetch - processPackages [Fragmenstein]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Fragmenstein-1.0.1.tar.gz tmp/Fragmenstein-1.0.2.tar.gz --markdown 20240405/F/Fragmenstein/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2024-04-05 12:24:48] WARNING root fetch - processPackages [minijson]: Timeout reached during download
+[2024-04-05 12:24:48] INFO root fetch - processPackages [minijson]: executing diffoscope
+[2024-04-05 12:24:48] INFO root fetch - processPackages [minijson]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/minijson-2.9.tar.gz tmp/minijson-3.0.tar.gz --markdown 20240405/m/minijson/2.9-3.0/diff.md --exclude *.pyd
+[2024-04-05 12:24:48] INFO root fetch - processPackages [spatialaudiometrics]: Downloading https://files.pythonhosted.org/packages/dc/35/847a5117742b0e5725f7929815398d743950eaedbd616f34b0b4dda8218e/spatialaudiometrics-0.0.4.tar.gz
+[2024-04-05 12:24:48] INFO root fetch - processPackages [qoqo-quest]: Downloading https://files.pythonhosted.org/packages/ad/89/c2c3b72abec9a727687852135d8dfff1143811314cf40458f2a4c5d08fb2/qoqo_quest-0.9.1.tar.gz
+[2024-04-05 12:24:48] WARNING root fetch - processPackages [qoqo-quest]: Timeout reached during download
+[2024-04-05 12:24:48] INFO root fetch - processPackages [qoqo-quest]: executing diffoscope
+[2024-04-05 12:24:48] INFO root fetch - processPackages [qoqo-quest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qoqo_quest-0.9.0a2.tar.gz tmp/qoqo_quest-0.9.1.tar.gz --markdown 20240405/q/qoqo-quest/0.9.0a2-0.9.1/diff.md --exclude *.pyd
+[2024-04-05 12:24:49] WARNING root fetch - processPackages [spatialaudiometrics]: Timeout reached during download
+[2024-04-05 12:24:49] INFO root fetch - processPackages [spatialaudiometrics]: executing diffoscope
+[2024-04-05 12:24:49] INFO root fetch - processPackages [spatialaudiometrics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spatialaudiometrics-0.0.3.tar.gz tmp/spatialaudiometrics-0.0.4.tar.gz --markdown 20240405/s/spatialaudiometrics/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2024-04-05 12:24:49] INFO root fetch - processPackages [minijson]: Remove: archive file [/home/abi/fetcher/tmp/minijson-2.9.tar.gz]
+[2024-04-05 12:24:49] INFO root fetch - processPackages [minijson]: Remove: archive file [/home/abi/fetcher/tmp/minijson-3.0.tar.gz]
+[2024-04-05 12:24:49] INFO root fetch - main [MainThread]: End processing [minijson]: success
+[2024-04-05 12:24:49] INFO root fetch - processPackages [portkey-ai]: Remove: archive file [/home/abi/fetcher/tmp/portkey_ai-1.2.2-py3-none-any.whl.zip]
+[2024-04-05 12:24:49] INFO root fetch - processPackages [portkey-ai]: Remove: archive file [/home/abi/fetcher/tmp/portkey_ai-1.2.3-py3-none-any.whl.zip]
+[2024-04-05 12:24:49] INFO root fetch - main [MainThread]: End processing [portkey-ai]: success
+[2024-04-05 12:24:49] INFO root fetch - processPackages [spatialaudiometrics]: Remove: archive file [/home/abi/fetcher/tmp/spatialaudiometrics-0.0.3.tar.gz]
+[2024-04-05 12:24:49] INFO root fetch - processPackages [spatialaudiometrics]: Remove: archive file [/home/abi/fetcher/tmp/spatialaudiometrics-0.0.4.tar.gz]
+[2024-04-05 12:24:49] INFO root fetch - main [MainThread]: End processing [spatialaudiometrics]: success
+[2024-04-05 12:24:50] INFO root fetch - processPackages [qoqo-quest]: Remove: archive file [/home/abi/fetcher/tmp/qoqo_quest-0.9.0a2.tar.gz]
+[2024-04-05 12:24:50] INFO root fetch - processPackages [qoqo-quest]: Remove: archive file [/home/abi/fetcher/tmp/qoqo_quest-0.9.1.tar.gz]
+[2024-04-05 12:24:50] INFO root fetch - main [MainThread]: End processing [qoqo-quest]: success
+[2024-04-05 12:24:51] INFO root fetch - processPackages [Fragmenstein]: Remove: archive file [/home/abi/fetcher/tmp/Fragmenstein-1.0.1.tar.gz]
+[2024-04-05 12:24:51] INFO root fetch - processPackages [Fragmenstein]: Remove: archive file [/home/abi/fetcher/tmp/Fragmenstein-1.0.2.tar.gz]
+[2024-04-05 12:24:51] INFO root fetch - main [MainThread]: End processing [Fragmenstein]: success
+[2024-04-05 12:24:51] INFO root fetch - main [MainThread]: Store serial: [22634521]
