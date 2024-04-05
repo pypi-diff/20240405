@@ -9840,3 +9840,55 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2024-04-05 04:41:27] INFO root fetch - processPackages [odoo11-addon-account-asset-management]: Remove: archive file [/home/abi/fetcher/tmp/odoo11_addon_account_asset_management-11.0.1.0.3.99.dev9-py2.py3-none-any.whl.zip]
 [2024-04-05 04:41:27] INFO root fetch - main [MainThread]: End processing [odoo11-addon-account-asset-management]: success
 [2024-04-05 04:41:27] INFO root fetch - main [MainThread]: Store serial: [22631264]
+[2024-04-05 04:43:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22631264]
+[2024-04-05 04:43:36] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-05 04:43:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: litellm
+[2024-04-05 04:43:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gokart
+[2024-04-05 04:43:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: taxcalc
+[2024-04-05 04:43:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sqlx-orm
+[2024-04-05 04:43:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: advcalc
+[2024-04-05 04:43:36] INFO root fetch - processPackages [advcalc]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-04-05 04:43:36] INFO root fetch - processPackages [litellm]: New version: [1.9.dev0] Old Version: [1.9.5]
+[2024-04-05 04:43:36] INFO root fetch - processPackages [taxcalc]: New version: [3.5.3] Old Version: [3.5.2]
+[2024-04-05 04:43:36] INFO root fetch - processPackages [advcalc]: Downloading https://files.pythonhosted.org/packages/93/7a/2c60ff02577765caed5392879112323e23d50698f2256c927f3f593dac93/advcalc-0.0.3.tar.gz
+[2024-04-05 04:43:36] INFO root fetch - processPackages [sqlx-orm]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-04-05 04:43:36] INFO root fetch - processPackages [gokart]: New version: [1.2.9] Old Version: [1.2.8]
+[2024-04-05 04:43:36] WARNING root fetch - processPackages [advcalc]: Timeout reached during download
+[2024-04-05 04:43:36] INFO root fetch - processPackages [litellm]: Downloading https://files.pythonhosted.org/packages/38/f3/1cbeaf4074e7b284cd140263ff165948d8f4cc8f5dd72c89be43a0469387/litellm-1.9.5.tar.gz
+[2024-04-05 04:43:36] INFO root fetch - processPackages [taxcalc]: Downloading https://files.pythonhosted.org/packages/e1/2b/caa519a70be50912d42d8573f9ca4b89a502f13417ac4675a92a30196b71/taxcalc-3.5.2.tar.gz
+[2024-04-05 04:43:36] INFO root fetch - processPackages [advcalc]: Downloading https://files.pythonhosted.org/packages/31/9b/358a91bb4d529ca5a2ddf93c3d56981c1c039202a9e307d6a2c1c40e2d3b/advcalc-0.0.4.tar.gz
+[2024-04-05 04:43:36] INFO root fetch - processPackages [sqlx-orm]: Downloading https://files.pythonhosted.org/packages/0c/b1/52ca8c0c8d3e99479e73c598aab170565a28f562ba9ddf18049117e3bfdd/sqlx-orm-0.0.2.tar.gz
+[2024-04-05 04:43:36] INFO root fetch - processPackages [gokart]: Downloading https://files.pythonhosted.org/packages/2e/c5/a439ccd733c029d1e56e95396d1c8a21dd08db3c1f30626c2b0754c93f71/gokart-1.2.8.tar.gz
+[2024-04-05 04:43:36] WARNING root fetch - processPackages [advcalc]: Timeout reached during download
+[2024-04-05 04:43:36] INFO root fetch - processPackages [advcalc]: executing diffoscope
+[2024-04-05 04:43:36] INFO root fetch - processPackages [advcalc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/advcalc-0.0.3.tar.gz tmp/advcalc-0.0.4.tar.gz --markdown 20240405/a/advcalc/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2024-04-05 04:43:36] WARNING root fetch - processPackages [sqlx-orm]: Timeout reached during download
+[2024-04-05 04:43:36] WARNING root fetch - processPackages [taxcalc]: Skipping package: exceeds size limit 34790360>=10485760
+[2024-04-05 04:43:36] INFO root fetch - main [MainThread]: End processing [taxcalc] error
+[2024-04-05 04:43:36] WARNING root fetch - processPackages [litellm]: Timeout reached during download
+[2024-04-05 04:43:36] WARNING root fetch - processPackages [gokart]: Timeout reached during download
+[2024-04-05 04:43:36] INFO root fetch - processPackages [sqlx-orm]: Downloading https://files.pythonhosted.org/packages/d5/be/23726251bc86a97a73d7f7c817e6abab6df01de38d0b62de0b84fdb93e85/sqlx-orm-0.0.3.tar.gz
+[2024-04-05 04:43:36] INFO root fetch - processPackages [gokart]: Downloading https://files.pythonhosted.org/packages/d6/f6/d7ea9827c19d12f8d279d5bf0fbcaf840eccffbd68977de9c93d30e16009/gokart-1.2.9.tar.gz
+[2024-04-05 04:43:36] INFO root fetch - processPackages [litellm]: Downloading https://files.pythonhosted.org/packages/ad/6c/162b83e9cf68f5a94c30153e835414c3ee11c8602ffaacc9a032851dfa26/litellm-1.9.dev0.tar.gz
+[2024-04-05 04:43:36] WARNING root fetch - processPackages [sqlx-orm]: Timeout reached during download
+[2024-04-05 04:43:36] INFO root fetch - processPackages [sqlx-orm]: executing diffoscope
+[2024-04-05 04:43:36] INFO root fetch - processPackages [sqlx-orm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqlx-orm-0.0.2.tar.gz tmp/sqlx-orm-0.0.3.tar.gz --markdown 20240405/s/sqlx-orm/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2024-04-05 04:43:37] WARNING root fetch - processPackages [gokart]: Timeout reached during download
+[2024-04-05 04:43:37] INFO root fetch - processPackages [gokart]: executing diffoscope
+[2024-04-05 04:43:37] INFO root fetch - processPackages [gokart]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gokart-1.2.8.tar.gz tmp/gokart-1.2.9.tar.gz --markdown 20240405/g/gokart/1.2.8-1.2.9/diff.md --exclude *.pyd
+[2024-04-05 04:43:37] INFO root fetch - processPackages [advcalc]: Remove: archive file [/home/abi/fetcher/tmp/advcalc-0.0.3.tar.gz]
+[2024-04-05 04:43:37] INFO root fetch - processPackages [advcalc]: Remove: archive file [/home/abi/fetcher/tmp/advcalc-0.0.4.tar.gz]
+[2024-04-05 04:43:37] INFO root fetch - main [MainThread]: End processing [advcalc]: success
+[2024-04-05 04:43:37] INFO root fetch - processPackages [sqlx-orm]: Remove: archive file [/home/abi/fetcher/tmp/sqlx-orm-0.0.2.tar.gz]
+[2024-04-05 04:43:37] INFO root fetch - processPackages [sqlx-orm]: Remove: archive file [/home/abi/fetcher/tmp/sqlx-orm-0.0.3.tar.gz]
+[2024-04-05 04:43:37] INFO root fetch - main [MainThread]: End processing [sqlx-orm]: success
+[2024-04-05 04:43:37] INFO root fetch - processPackages [gokart]: Remove: archive file [/home/abi/fetcher/tmp/gokart-1.2.8.tar.gz]
+[2024-04-05 04:43:37] INFO root fetch - processPackages [gokart]: Remove: archive file [/home/abi/fetcher/tmp/gokart-1.2.9.tar.gz]
+[2024-04-05 04:43:37] INFO root fetch - main [MainThread]: End processing [gokart]: success
+[2024-04-05 04:43:37] WARNING root fetch - processPackages [litellm]: Timeout reached during download
+[2024-04-05 04:43:37] INFO root fetch - processPackages [litellm]: executing diffoscope
+[2024-04-05 04:43:37] INFO root fetch - processPackages [litellm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/litellm-1.9.5.tar.gz tmp/litellm-1.9.dev0.tar.gz --markdown 20240405/l/litellm/1.9.5-1.9.dev0/diff.md --exclude *.pyd
+[2024-04-05 04:43:39] INFO root fetch - processPackages [litellm]: Remove: archive file [/home/abi/fetcher/tmp/litellm-1.9.5.tar.gz]
+[2024-04-05 04:43:39] INFO root fetch - processPackages [litellm]: Remove: archive file [/home/abi/fetcher/tmp/litellm-1.9.dev0.tar.gz]
+[2024-04-05 04:43:39] INFO root fetch - main [MainThread]: End processing [litellm]: success
+[2024-04-05 04:43:39] INFO root fetch - main [MainThread]: Store serial: [22631277]
