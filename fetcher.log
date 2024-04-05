@@ -13249,3 +13249,108 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2024-04-05 08:14:17] INFO root fetch - processPackages [pretext]: Remove: archive file [/home/abi/fetcher/tmp/pretext-2.3.9.dev20240302.tar.gz]
 [2024-04-05 08:14:17] INFO root fetch - main [MainThread]: End processing [pretext]: success
 [2024-04-05 08:14:17] INFO root fetch - main [MainThread]: Store serial: [22632355]
+[2024-04-05 08:16:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22632355]
+[2024-04-05 08:16:25] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-04-05 08:16:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: langtrace-python-sdk
+[2024-04-05 08:16:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: fake-bpy-module-latest
+[2024-04-05 08:16:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: liulianmao
+[2024-04-05 08:16:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: plotly3d
+[2024-04-05 08:16:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: fake-bpy-module
+[2024-04-05 08:16:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: bota
+[2024-04-05 08:16:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: mov-cli
+[2024-04-05 08:16:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: PyLLSM5DTools
+[2024-04-05 08:16:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: icutil-IGNchinmay
+[2024-04-05 08:16:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pylitterbot
+[2024-04-05 08:16:25] INFO root fetch - processPackages [plotly3d]: New version: [0.3.6] Old Version: [0.3.5]
+[2024-04-05 08:16:26] INFO root fetch - processPackages [langtrace-python-sdk]: New version: [1.2.9] Old Version: [1.2.8]
+[2024-04-05 08:16:26] WARNING root fetch - processPackages [icutil-IGNchinmay]: Skipping, unable to determine old version
+[2024-04-05 08:16:26] INFO root fetch - main [MainThread]: End processing [icutil-IGNchinmay] error
+[2024-04-05 08:16:26] INFO root fetch - processPackages [bota]: New version: [4.0.9] Old Version: [4.0.8]
+[2024-04-05 08:16:26] INFO root fetch - processPackages [plotly3d]: Downloading https://files.pythonhosted.org/packages/87/ce/6e8575dc4983794487aa1c43a9d62e5e263fee9d1e369c69d49d7f53baea/plotly3d-0.3.5.tar.gz
+[2024-04-05 08:16:26] INFO root fetch - processPackages [pylitterbot]: New version: [2023.4.9] Old Version: [2023.4.8]
+[2024-04-05 08:16:26] INFO root fetch - processPackages [bota]: Downloading https://files.pythonhosted.org/packages/20/a9/4f637666fa83c508695967d807e33c729d659786a5de468b4289f5bff8b4/bota-4.0.8.tar.gz
+[2024-04-05 08:16:26] INFO root fetch - processPackages [liulianmao]: New version: [1.1.0] Old Version: [1.0.0]
+[2024-04-05 08:16:26] INFO root fetch - processPackages [PyLLSM5DTools]: New version: [1.0.2] Old Version: [1.0.1]
+[2024-04-05 08:16:26] INFO root fetch - processPackages [mov-cli]: New version: [4.2.9] Old Version: [4.2.8]
+[2024-04-05 08:16:26] INFO root fetch - processPackages [fake-bpy-module]: New version: [20240405] Old Version: [20240404]
+[2024-04-05 08:16:26] INFO root fetch - processPackages [fake-bpy-module-latest]: New version: [20240405] Old Version: [20240404]
+[2024-04-05 08:16:26] WARNING root fetch - processPackages [plotly3d]: Timeout reached during download
+[2024-04-05 08:16:26] WARNING root fetch - processPackages [bota]: Timeout reached during download
+[2024-04-05 08:16:26] INFO root fetch - processPackages [langtrace-python-sdk]: Downloading https://files.pythonhosted.org/packages/a4/ef/481e0ed40325edb8017528b343798616b10c4cdd501969ba15e16d95d4db/langtrace_python_sdk-1.2.8.tar.gz
+[2024-04-05 08:16:26] INFO root fetch - processPackages [bota]: Downloading https://files.pythonhosted.org/packages/a4/5f/24c14d0a7d609507557baf5369feaca8b3459d111f35e9258e9d0396f9a8/bota-4.0.9.tar.gz
+[2024-04-05 08:16:26] INFO root fetch - processPackages [plotly3d]: Downloading https://files.pythonhosted.org/packages/8e/27/45ad751e2dea171d847f35f8cdd00f03fb7202fd660b739c64af3170e75b/plotly3d-0.3.6.tar.gz
+[2024-04-05 08:16:26] INFO root fetch - processPackages [PyLLSM5DTools]: Downloading https://files.pythonhosted.org/packages/f3/4c/b970e4b19fc09ba792a93bd563f38f6e783d2f21cbb93d86a93ece171385/PyLLSM5DTools-1.0.1.tar.gz
+[2024-04-05 08:16:26] INFO root fetch - processPackages [mov-cli]: Downloading https://files.pythonhosted.org/packages/08/74/049ea936bb5c009d20a77230d35901c514c88f73635a7367dafa29431573/mov-cli-4.2.8.tar.gz
+[2024-04-05 08:16:26] INFO root fetch - processPackages [fake-bpy-module]: Downloading https://files.pythonhosted.org/packages/24/40/f1238ca769de4d2f5aa906fbb2d6afd73de182fe375b783924c83392227b/fake-bpy-module-20240404.tar.gz
+[2024-04-05 08:16:26] INFO root fetch - processPackages [liulianmao]: Downloading https://files.pythonhosted.org/packages/03/5b/b9a75d15651fcd5376b90459b25188309a8adfeed9b9ee38ccb53d3a4f8e/liulianmao-1.0.0.tar.gz
+[2024-04-05 08:16:26] INFO root fetch - processPackages [pylitterbot]: Downloading https://files.pythonhosted.org/packages/0c/6e/ea5a0eef8fc38e876c826fc73802f9ecefe672422beafb6cd90b4d2e3fed/pylitterbot-2023.4.8.tar.gz
+[2024-04-05 08:16:26] WARNING root fetch - processPackages [langtrace-python-sdk]: Timeout reached during download
+[2024-04-05 08:16:26] INFO root fetch - processPackages [fake-bpy-module-latest]: Downloading https://files.pythonhosted.org/packages/50/32/98dc4238737159440ceff2e8bb8496bef31740ca7a549cdf7e7ac35140f9/fake-bpy-module-latest-20240404.tar.gz
+[2024-04-05 08:16:26] WARNING root fetch - processPackages [bota]: Timeout reached during download
+[2024-04-05 08:16:26] INFO root fetch - processPackages [bota]: executing diffoscope
+[2024-04-05 08:16:26] INFO root fetch - processPackages [bota]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bota-4.0.8.tar.gz tmp/bota-4.0.9.tar.gz --markdown 20240405/b/bota/4.0.8-4.0.9/diff.md --exclude *.pyd
+[2024-04-05 08:16:26] WARNING root fetch - processPackages [mov-cli]: Timeout reached during download
+[2024-04-05 08:16:26] WARNING root fetch - processPackages [PyLLSM5DTools]: Timeout reached during download
+[2024-04-05 08:16:26] WARNING root fetch - processPackages [liulianmao]: Timeout reached during download
+[2024-04-05 08:16:26] WARNING root fetch - processPackages [plotly3d]: Timeout reached during download
+[2024-04-05 08:16:26] INFO root fetch - processPackages [plotly3d]: executing diffoscope
+[2024-04-05 08:16:26] INFO root fetch - processPackages [plotly3d]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/plotly3d-0.3.5.tar.gz tmp/plotly3d-0.3.6.tar.gz --markdown 20240405/p/plotly3d/0.3.5-0.3.6/diff.md --exclude *.pyd
+[2024-04-05 08:16:26] INFO root fetch - processPackages [langtrace-python-sdk]: Downloading https://files.pythonhosted.org/packages/c1/d6/f58d5bf271b0dd4701d47b4b17041a9bc5e9129514abef119cd8be7fbb48/langtrace_python_sdk-1.2.9.tar.gz
+[2024-04-05 08:16:26] WARNING root fetch - processPackages [pylitterbot]: Timeout reached during download
+[2024-04-05 08:16:26] WARNING root fetch - processPackages [fake-bpy-module]: Timeout reached during download
+[2024-04-05 08:16:26] WARNING root fetch - processPackages [fake-bpy-module-latest]: Timeout reached during download
+[2024-04-05 08:16:26] INFO root fetch - processPackages [PyLLSM5DTools]: Downloading https://files.pythonhosted.org/packages/fa/4d/417d5a6142843a715176d6189db3e7d141d7d5b87384d0528ba13ded9876/PyLLSM5DTools-1.0.2.tar.gz
+[2024-04-05 08:16:26] WARNING root fetch - processPackages [langtrace-python-sdk]: Timeout reached during download
+[2024-04-05 08:16:26] INFO root fetch - processPackages [langtrace-python-sdk]: executing diffoscope
+[2024-04-05 08:16:26] INFO root fetch - processPackages [langtrace-python-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langtrace_python_sdk-1.2.8.tar.gz tmp/langtrace_python_sdk-1.2.9.tar.gz --markdown 20240405/l/langtrace-python-sdk/1.2.8-1.2.9/diff.md --exclude *.pyd
+[2024-04-05 08:16:26] INFO root fetch - processPackages [liulianmao]: Downloading https://files.pythonhosted.org/packages/ec/12/9922d22d7d8722d5f42250392db8772bdc0231be15a773a27403dc5c409a/liulianmao-1.1.0.tar.gz
+[2024-04-05 08:16:26] INFO root fetch - processPackages [mov-cli]: Downloading https://files.pythonhosted.org/packages/50/fd/7415356b93530e0f35b03e1344ccca112ede6501207f15f8705de808e559/mov-cli-4.2.9.tar.gz
+[2024-04-05 08:16:26] INFO root fetch - processPackages [fake-bpy-module]: Downloading https://files.pythonhosted.org/packages/d7/23/fefe145f78dd1ea70d1c0eede5473135e22cde4ad56db32aa316be87949c/fake-bpy-module-20240405.tar.gz
+[2024-04-05 08:16:26] INFO root fetch - processPackages [pylitterbot]: Downloading https://files.pythonhosted.org/packages/59/e3/469dec64e7307775597f434ebf5fa17f7d9be8be1378ee18041311633112/pylitterbot-2023.4.9.tar.gz
+[2024-04-05 08:16:27] WARNING root fetch - processPackages [PyLLSM5DTools]: Timeout reached during download
+[2024-04-05 08:16:27] INFO root fetch - processPackages [PyLLSM5DTools]: executing diffoscope
+[2024-04-05 08:16:27] INFO root fetch - processPackages [PyLLSM5DTools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyLLSM5DTools-1.0.1.tar.gz tmp/PyLLSM5DTools-1.0.2.tar.gz --markdown 20240405/P/PyLLSM5DTools/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2024-04-05 08:16:27] WARNING root fetch - processPackages [liulianmao]: Timeout reached during download
+[2024-04-05 08:16:27] INFO root fetch - processPackages [liulianmao]: executing diffoscope
+[2024-04-05 08:16:27] INFO root fetch - processPackages [liulianmao]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/liulianmao-1.0.0.tar.gz tmp/liulianmao-1.1.0.tar.gz --markdown 20240405/l/liulianmao/1.0.0-1.1.0/diff.md --exclude *.pyd
+[2024-04-05 08:16:27] INFO root fetch - processPackages [fake-bpy-module-latest]: Downloading https://files.pythonhosted.org/packages/b3/b2/d476a0dd0453e0d2c92d0166a072c03595830a4e35082752f77a42fb41a1/fake-bpy-module-latest-20240405.tar.gz
+[2024-04-05 08:16:27] WARNING root fetch - processPackages [mov-cli]: Timeout reached during download
+[2024-04-05 08:16:27] INFO root fetch - processPackages [mov-cli]: executing diffoscope
+[2024-04-05 08:16:27] INFO root fetch - processPackages [mov-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mov-cli-4.2.8.tar.gz tmp/mov-cli-4.2.9.tar.gz --markdown 20240405/m/mov-cli/4.2.8-4.2.9/diff.md --exclude *.pyd
+[2024-04-05 08:16:27] WARNING root fetch - processPackages [pylitterbot]: Timeout reached during download
+[2024-04-05 08:16:27] INFO root fetch - processPackages [pylitterbot]: executing diffoscope
+[2024-04-05 08:16:27] INFO root fetch - processPackages [pylitterbot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pylitterbot-2023.4.8.tar.gz tmp/pylitterbot-2023.4.9.tar.gz --markdown 20240405/p/pylitterbot/2023.4.8-2023.4.9/diff.md --exclude *.pyd
+[2024-04-05 08:16:27] WARNING root fetch - processPackages [fake-bpy-module-latest]: Timeout reached during download
+[2024-04-05 08:16:27] INFO root fetch - processPackages [fake-bpy-module-latest]: executing diffoscope
+[2024-04-05 08:16:27] INFO root fetch - processPackages [fake-bpy-module-latest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fake-bpy-module-latest-20240404.tar.gz tmp/fake-bpy-module-latest-20240405.tar.gz --markdown 20240405/f/fake-bpy-module-latest/20240404-20240405/diff.md --exclude *.pyd
+[2024-04-05 08:16:27] INFO root fetch - processPackages [bota]: Remove: archive file [/home/abi/fetcher/tmp/bota-4.0.8.tar.gz]
+[2024-04-05 08:16:27] INFO root fetch - processPackages [bota]: Remove: archive file [/home/abi/fetcher/tmp/bota-4.0.9.tar.gz]
+[2024-04-05 08:16:27] INFO root fetch - main [MainThread]: End processing [bota]: success
+[2024-04-05 08:16:27] WARNING root fetch - processPackages [fake-bpy-module]: Timeout reached during download
+[2024-04-05 08:16:27] INFO root fetch - processPackages [fake-bpy-module]: executing diffoscope
+[2024-04-05 08:16:27] INFO root fetch - processPackages [fake-bpy-module]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fake-bpy-module-20240404.tar.gz tmp/fake-bpy-module-20240405.tar.gz --markdown 20240405/f/fake-bpy-module/20240404-20240405/diff.md --exclude *.pyd
+[2024-04-05 08:16:27] INFO root fetch - processPackages [plotly3d]: Remove: archive file [/home/abi/fetcher/tmp/plotly3d-0.3.5.tar.gz]
+[2024-04-05 08:16:27] INFO root fetch - processPackages [plotly3d]: Remove: archive file [/home/abi/fetcher/tmp/plotly3d-0.3.6.tar.gz]
+[2024-04-05 08:16:27] INFO root fetch - main [MainThread]: End processing [plotly3d]: success
+[2024-04-05 08:16:27] INFO root fetch - processPackages [langtrace-python-sdk]: Remove: archive file [/home/abi/fetcher/tmp/langtrace_python_sdk-1.2.8.tar.gz]
+[2024-04-05 08:16:27] INFO root fetch - processPackages [langtrace-python-sdk]: Remove: archive file [/home/abi/fetcher/tmp/langtrace_python_sdk-1.2.9.tar.gz]
+[2024-04-05 08:16:27] INFO root fetch - main [MainThread]: End processing [langtrace-python-sdk]: success
+[2024-04-05 08:16:27] INFO root fetch - processPackages [liulianmao]: Remove: archive file [/home/abi/fetcher/tmp/liulianmao-1.0.0.tar.gz]
+[2024-04-05 08:16:27] INFO root fetch - processPackages [liulianmao]: Remove: archive file [/home/abi/fetcher/tmp/liulianmao-1.1.0.tar.gz]
+[2024-04-05 08:16:27] INFO root fetch - main [MainThread]: End processing [liulianmao]: success
+[2024-04-05 08:16:27] INFO root fetch - processPackages [mov-cli]: Remove: archive file [/home/abi/fetcher/tmp/mov-cli-4.2.8.tar.gz]
+[2024-04-05 08:16:27] INFO root fetch - processPackages [mov-cli]: Remove: archive file [/home/abi/fetcher/tmp/mov-cli-4.2.9.tar.gz]
+[2024-04-05 08:16:27] INFO root fetch - main [MainThread]: End processing [mov-cli]: success
+[2024-04-05 08:16:27] INFO root fetch - processPackages [PyLLSM5DTools]: Remove: archive file [/home/abi/fetcher/tmp/PyLLSM5DTools-1.0.1.tar.gz]
+[2024-04-05 08:16:27] INFO root fetch - processPackages [PyLLSM5DTools]: Remove: archive file [/home/abi/fetcher/tmp/PyLLSM5DTools-1.0.2.tar.gz]
+[2024-04-05 08:16:27] INFO root fetch - main [MainThread]: End processing [PyLLSM5DTools]: success
+[2024-04-05 08:16:28] INFO root fetch - processPackages [pylitterbot]: Remove: archive file [/home/abi/fetcher/tmp/pylitterbot-2023.4.8.tar.gz]
+[2024-04-05 08:16:28] INFO root fetch - processPackages [pylitterbot]: Remove: archive file [/home/abi/fetcher/tmp/pylitterbot-2023.4.9.tar.gz]
+[2024-04-05 08:16:28] INFO root fetch - main [MainThread]: End processing [pylitterbot]: success
+[2024-04-05 08:16:31] INFO root fetch - processPackages [fake-bpy-module]: Remove: archive file [/home/abi/fetcher/tmp/fake-bpy-module-20240404.tar.gz]
+[2024-04-05 08:16:31] INFO root fetch - processPackages [fake-bpy-module]: Remove: archive file [/home/abi/fetcher/tmp/fake-bpy-module-20240405.tar.gz]
+[2024-04-05 08:16:31] INFO root fetch - main [MainThread]: End processing [fake-bpy-module]: success
+[2024-04-05 08:16:31] INFO root fetch - processPackages [fake-bpy-module-latest]: Remove: archive file [/home/abi/fetcher/tmp/fake-bpy-module-latest-20240404.tar.gz]
+[2024-04-05 08:16:31] INFO root fetch - processPackages [fake-bpy-module-latest]: Remove: archive file [/home/abi/fetcher/tmp/fake-bpy-module-latest-20240405.tar.gz]
+[2024-04-05 08:16:31] INFO root fetch - main [MainThread]: End processing [fake-bpy-module-latest]: success
+[2024-04-05 08:16:31] INFO root fetch - main [MainThread]: Store serial: [22632384]
