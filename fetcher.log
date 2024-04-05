@@ -10136,3 +10136,50 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2024-04-05 05:03:09] INFO root fetch - processPackages [monai]: Remove: archive file [/home/abi/fetcher/tmp/monai-1.3.1rc1.tar.gz]
 [2024-04-05 05:03:09] INFO root fetch - main [MainThread]: End processing [monai]: success
 [2024-04-05 05:03:09] INFO root fetch - main [MainThread]: Store serial: [22631344]
+[2024-04-05 05:05:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22631344]
+[2024-04-05 05:05:23] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-05 05:05:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo-addon-account-mass-reconcile
+[2024-04-05 05:05:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addon-account-move-line-reconcile-manual
+[2024-04-05 05:05:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addon-account-move-so-import
+[2024-04-05 05:05:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo-addon-account-reconcile-oca
+[2024-04-05 05:05:23] INFO root fetch - processPackages [odoo-addon-account-reconcile-oca]: New version: [16.0.1.2.9] Old Version: [16.0.1.2.8.4]
+[2024-04-05 05:05:23] INFO root fetch - processPackages [odoo-addon-account-move-line-reconcile-manual]: New version: [16.0.2.0.0.8] Old Version: [16.0.2.0.0.7]
+[2024-04-05 05:05:23] INFO root fetch - processPackages [odoo-addon-account-move-so-import]: New version: [16.0.1.0.0.2] Old Version: [16.0.1.0.0.1]
+[2024-04-05 05:05:23] INFO root fetch - processPackages [odoo-addon-account-mass-reconcile]: New version: [17.0.1.0.0.7] Old Version: [17.0.1.0.0.6]
+[2024-04-05 05:05:24] INFO root fetch - processPackages [odoo-addon-account-move-line-reconcile-manual]: Downloading https://files.pythonhosted.org/packages/0e/84/7dd58f51b8dc0c76f5172198e7266b13c353ffaaea47223c0ad6b0bf31bc/odoo_addon_account_move_line_reconcile_manual-16.0.2.0.0.7-py3-none-any.whl
+[2024-04-05 05:05:24] INFO root fetch - processPackages [odoo-addon-account-reconcile-oca]: Downloading https://files.pythonhosted.org/packages/07/47/3301720faf6ec7397d28882f4c13a5f269cc547ed86d3bcf1faa6cd72025/odoo_addon_account_reconcile_oca-16.0.1.2.8.4-py3-none-any.whl
+[2024-04-05 05:05:24] INFO root fetch - processPackages [odoo-addon-account-mass-reconcile]: Downloading https://files.pythonhosted.org/packages/d0/17/fb7e59992b9e5a5020f334f0b0d6504d396803e5ec4ee4f810fda346e1f5/odoo_addon_account_mass_reconcile-17.0.1.0.0.6-py3-none-any.whl
+[2024-04-05 05:05:24] INFO root fetch - processPackages [odoo-addon-account-move-so-import]: Downloading https://files.pythonhosted.org/packages/c8/cf/679f5a0dc5b1fbf6ef98477962446e5459a31ef07735caf101dc7c606413/odoo_addon_account_move_so_import-16.0.1.0.0.1-py3-none-any.whl
+[2024-04-05 05:05:24] WARNING root fetch - processPackages [odoo-addon-account-reconcile-oca]: Timeout reached during download
+[2024-04-05 05:05:24] WARNING root fetch - processPackages [odoo-addon-account-move-line-reconcile-manual]: Timeout reached during download
+[2024-04-05 05:05:24] WARNING root fetch - processPackages [odoo-addon-account-mass-reconcile]: Timeout reached during download
+[2024-04-05 05:05:24] WARNING root fetch - processPackages [odoo-addon-account-move-so-import]: Timeout reached during download
+[2024-04-05 05:05:24] INFO root fetch - processPackages [odoo-addon-account-move-line-reconcile-manual]: Downloading https://files.pythonhosted.org/packages/a1/8e/ded6477abc1641aefa97d63910c82613e811293439a84a605090d00fecab/odoo_addon_account_move_line_reconcile_manual-16.0.2.0.0.8-py3-none-any.whl
+[2024-04-05 05:05:24] INFO root fetch - processPackages [odoo-addon-account-mass-reconcile]: Downloading https://files.pythonhosted.org/packages/21/6b/b5722b3bb00475493f2879dd9c82f52f75865136a0055eab8046468e2bf1/odoo_addon_account_mass_reconcile-17.0.1.0.0.7-py3-none-any.whl
+[2024-04-05 05:05:24] INFO root fetch - processPackages [odoo-addon-account-move-so-import]: Downloading https://files.pythonhosted.org/packages/ae/27/7d5fd5333dc2c62dcd2a7c869fbdc787aae668cde623f656b2ba0a204d59/odoo_addon_account_move_so_import-16.0.1.0.0.2-py3-none-any.whl
+[2024-04-05 05:05:24] INFO root fetch - processPackages [odoo-addon-account-reconcile-oca]: Downloading https://files.pythonhosted.org/packages/53/5f/42e9047f73576c856db6492ae0ad0ee9ad2b1a8debd058d7f71a894e3c5b/odoo_addon_account_reconcile_oca-16.0.1.2.9-py3-none-any.whl
+[2024-04-05 05:05:24] WARNING root fetch - processPackages [odoo-addon-account-move-line-reconcile-manual]: Timeout reached during download
+[2024-04-05 05:05:24] INFO root fetch - processPackages [odoo-addon-account-move-line-reconcile-manual]: executing diffoscope
+[2024-04-05 05:05:24] INFO root fetch - processPackages [odoo-addon-account-move-line-reconcile-manual]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_account_move_line_reconcile_manual-16.0.2.0.0.7-py3-none-any.whl.zip tmp/odoo_addon_account_move_line_reconcile_manual-16.0.2.0.0.8-py3-none-any.whl.zip --markdown 20240405/o/odoo-addon-account-move-line-reconcile-manual/16.0.2.0.0.7-16.0.2.0.0.8/diff.md --exclude *.pyd
+[2024-04-05 05:05:24] WARNING root fetch - processPackages [odoo-addon-account-mass-reconcile]: Timeout reached during download
+[2024-04-05 05:05:24] INFO root fetch - processPackages [odoo-addon-account-mass-reconcile]: executing diffoscope
+[2024-04-05 05:05:24] INFO root fetch - processPackages [odoo-addon-account-mass-reconcile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_account_mass_reconcile-17.0.1.0.0.6-py3-none-any.whl.zip tmp/odoo_addon_account_mass_reconcile-17.0.1.0.0.7-py3-none-any.whl.zip --markdown 20240405/o/odoo-addon-account-mass-reconcile/17.0.1.0.0.6-17.0.1.0.0.7/diff.md --exclude *.pyd
+[2024-04-05 05:05:24] WARNING root fetch - processPackages [odoo-addon-account-move-so-import]: Timeout reached during download
+[2024-04-05 05:05:24] INFO root fetch - processPackages [odoo-addon-account-move-so-import]: executing diffoscope
+[2024-04-05 05:05:24] INFO root fetch - processPackages [odoo-addon-account-move-so-import]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_account_move_so_import-16.0.1.0.0.1-py3-none-any.whl.zip tmp/odoo_addon_account_move_so_import-16.0.1.0.0.2-py3-none-any.whl.zip --markdown 20240405/o/odoo-addon-account-move-so-import/16.0.1.0.0.1-16.0.1.0.0.2/diff.md --exclude *.pyd
+[2024-04-05 05:05:24] WARNING root fetch - processPackages [odoo-addon-account-reconcile-oca]: Timeout reached during download
+[2024-04-05 05:05:24] INFO root fetch - processPackages [odoo-addon-account-reconcile-oca]: executing diffoscope
+[2024-04-05 05:05:24] INFO root fetch - processPackages [odoo-addon-account-reconcile-oca]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_account_reconcile_oca-16.0.1.2.8.4-py3-none-any.whl.zip tmp/odoo_addon_account_reconcile_oca-16.0.1.2.9-py3-none-any.whl.zip --markdown 20240405/o/odoo-addon-account-reconcile-oca/16.0.1.2.8.4-16.0.1.2.9/diff.md --exclude *.pyd
+[2024-04-05 05:05:25] INFO root fetch - processPackages [odoo-addon-account-move-line-reconcile-manual]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_move_line_reconcile_manual-16.0.2.0.0.7-py3-none-any.whl.zip]
+[2024-04-05 05:05:25] INFO root fetch - processPackages [odoo-addon-account-move-line-reconcile-manual]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_move_line_reconcile_manual-16.0.2.0.0.8-py3-none-any.whl.zip]
+[2024-04-05 05:05:25] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-move-line-reconcile-manual]: success
+[2024-04-05 05:05:25] INFO root fetch - processPackages [odoo-addon-account-move-so-import]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_move_so_import-16.0.1.0.0.1-py3-none-any.whl.zip]
+[2024-04-05 05:05:25] INFO root fetch - processPackages [odoo-addon-account-move-so-import]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_move_so_import-16.0.1.0.0.2-py3-none-any.whl.zip]
+[2024-04-05 05:05:25] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-move-so-import]: success
+[2024-04-05 05:05:25] INFO root fetch - processPackages [odoo-addon-account-reconcile-oca]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_reconcile_oca-16.0.1.2.8.4-py3-none-any.whl.zip]
+[2024-04-05 05:05:25] INFO root fetch - processPackages [odoo-addon-account-reconcile-oca]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_reconcile_oca-16.0.1.2.9-py3-none-any.whl.zip]
+[2024-04-05 05:05:25] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-reconcile-oca]: success
+[2024-04-05 05:05:25] INFO root fetch - processPackages [odoo-addon-account-mass-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_mass_reconcile-17.0.1.0.0.6-py3-none-any.whl.zip]
+[2024-04-05 05:05:25] INFO root fetch - processPackages [odoo-addon-account-mass-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_mass_reconcile-17.0.1.0.0.7-py3-none-any.whl.zip]
+[2024-04-05 05:05:25] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-mass-reconcile]: success
+[2024-04-05 05:05:25] INFO root fetch - main [MainThread]: Store serial: [22631352]
