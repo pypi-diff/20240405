@@ -12866,3 +12866,64 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2024-04-05 07:59:01] INFO root fetch - processPackages [odoo-addon-project-timeline]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_project_timeline-16.0.1.4.1.2-py3-none-any.whl.zip]
 [2024-04-05 07:59:01] INFO root fetch - main [MainThread]: End processing [odoo-addon-project-timeline]: success
 [2024-04-05 07:59:01] INFO root fetch - main [MainThread]: Store serial: [22632248]
+[2024-04-05 08:01:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22632248]
+[2024-04-05 08:01:09] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-05 08:01:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: asepyte
+[2024-04-05 08:01:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mov-cli-files
+[2024-04-05 08:01:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ai-model-dispatcher
+[2024-04-05 08:01:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bota
+[2024-04-05 08:01:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dotlocalslashbin
+[2024-04-05 08:01:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo14-addon-product-form-purchase-link
+[2024-04-05 08:01:09] INFO root fetch - processPackages [bota]: New version: [4.0.9] Old Version: [4.0.8]
+[2024-04-05 08:01:09] WARNING root fetch - processPackages [mov-cli-files]: Skipping, unable to determine old version
+[2024-04-05 08:01:09] INFO root fetch - main [MainThread]: End processing [mov-cli-files] error
+[2024-04-05 08:01:09] INFO root fetch - processPackages [ai-model-dispatcher]: New version: [0.0.1.dev3] Old Version: [0.0.1.dev2]
+[2024-04-05 08:01:09] INFO root fetch - processPackages [bota]: Downloading https://files.pythonhosted.org/packages/20/a9/4f637666fa83c508695967d807e33c729d659786a5de468b4289f5bff8b4/bota-4.0.8.tar.gz
+[2024-04-05 08:01:09] INFO root fetch - processPackages [dotlocalslashbin]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-04-05 08:01:09] INFO root fetch - processPackages [asepyte]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-04-05 08:01:09] INFO root fetch - processPackages [odoo14-addon-product-form-purchase-link]: New version: [14.0.2.2.1.dev8] Old Version: [14.0.2.2.1.dev7]
+[2024-04-05 08:01:09] WARNING root fetch - processPackages [bota]: Timeout reached during download
+[2024-04-05 08:01:09] INFO root fetch - processPackages [asepyte]: Downloading https://files.pythonhosted.org/packages/cf/09/db8860adcf439346402f7d661612367c126fd76a6fa35fdde0db18963614/asepyte-0.0.4-py3-none-any.whl
+[2024-04-05 08:01:10] INFO root fetch - processPackages [bota]: Downloading https://files.pythonhosted.org/packages/a4/5f/24c14d0a7d609507557baf5369feaca8b3459d111f35e9258e9d0396f9a8/bota-4.0.9.tar.gz
+[2024-04-05 08:01:10] INFO root fetch - processPackages [ai-model-dispatcher]: Downloading https://files.pythonhosted.org/packages/bc/10/0cb8d75d74361cf6a7e170003f5713d91198288b210a128d0bdb6dfbed63/ai_model_dispatcher-0.0.1.dev2.tar.gz
+[2024-04-05 08:01:10] INFO root fetch - processPackages [dotlocalslashbin]: Downloading https://files.pythonhosted.org/packages/89/be/add6289e6aa6206fdd76f2374f17cff52ba8620ccdad954a00787848bb38/dotlocalslashbin-0.0.2.tar.gz
+[2024-04-05 08:01:10] INFO root fetch - processPackages [odoo14-addon-product-form-purchase-link]: Downloading https://files.pythonhosted.org/packages/af/bf/1b9fcc2a1135c854dcf60e93663d73da1d9b65a559dbaabac9f3be24f0cb/odoo14_addon_product_form_purchase_link-14.0.2.2.1.dev7-py3-none-any.whl
+[2024-04-05 08:01:10] WARNING root fetch - processPackages [asepyte]: Timeout reached during download
+[2024-04-05 08:01:10] WARNING root fetch - processPackages [bota]: Timeout reached during download
+[2024-04-05 08:01:10] INFO root fetch - processPackages [bota]: executing diffoscope
+[2024-04-05 08:01:10] INFO root fetch - processPackages [bota]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bota-4.0.8.tar.gz tmp/bota-4.0.9.tar.gz --markdown 20240405/b/bota/4.0.8-4.0.9/diff.md --exclude *.pyd
+[2024-04-05 08:01:10] WARNING root fetch - processPackages [ai-model-dispatcher]: Timeout reached during download
+[2024-04-05 08:01:10] WARNING root fetch - processPackages [dotlocalslashbin]: Timeout reached during download
+[2024-04-05 08:01:10] WARNING root fetch - processPackages [odoo14-addon-product-form-purchase-link]: Timeout reached during download
+[2024-04-05 08:01:10] INFO root fetch - processPackages [asepyte]: Downloading https://files.pythonhosted.org/packages/44/60/38ea8ef6b59daf8d595f79994a1821e992d7ba9bec8465806793f9d4f371/asepyte-0.0.5-py3-none-any.whl
+[2024-04-05 08:01:10] INFO root fetch - processPackages [ai-model-dispatcher]: Downloading https://files.pythonhosted.org/packages/a6/43/d093c325a0bf7571a08549d07012a2ade6f85871038aef514693195f815e/ai_model_dispatcher-0.0.1.dev3.tar.gz
+[2024-04-05 08:01:10] INFO root fetch - processPackages [dotlocalslashbin]: Downloading https://files.pythonhosted.org/packages/0f/6b/5c6c01acc13fade700d8cddc0e0e854e19cf79ff44acd32410b7990066fd/dotlocalslashbin-0.0.3.tar.gz
+[2024-04-05 08:01:10] INFO root fetch - processPackages [odoo14-addon-product-form-purchase-link]: Downloading https://files.pythonhosted.org/packages/89/a2/8ef06246abc08c7d4c719c0f34c47bf4241753e4036cca8a238539cc4ee5/odoo14_addon_product_form_purchase_link-14.0.2.2.1.dev8-py3-none-any.whl
+[2024-04-05 08:01:10] WARNING root fetch - processPackages [asepyte]: Timeout reached during download
+[2024-04-05 08:01:10] INFO root fetch - processPackages [asepyte]: executing diffoscope
+[2024-04-05 08:01:10] INFO root fetch - processPackages [asepyte]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/asepyte-0.0.4-py3-none-any.whl.zip tmp/asepyte-0.0.5-py3-none-any.whl.zip --markdown 20240405/a/asepyte/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2024-04-05 08:01:10] WARNING root fetch - processPackages [ai-model-dispatcher]: Timeout reached during download
+[2024-04-05 08:01:10] INFO root fetch - processPackages [ai-model-dispatcher]: executing diffoscope
+[2024-04-05 08:01:10] INFO root fetch - processPackages [ai-model-dispatcher]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ai_model_dispatcher-0.0.1.dev2.tar.gz tmp/ai_model_dispatcher-0.0.1.dev3.tar.gz --markdown 20240405/a/ai-model-dispatcher/0.0.1.dev2-0.0.1.dev3/diff.md --exclude *.pyd
+[2024-04-05 08:01:10] WARNING root fetch - processPackages [dotlocalslashbin]: Timeout reached during download
+[2024-04-05 08:01:10] INFO root fetch - processPackages [dotlocalslashbin]: executing diffoscope
+[2024-04-05 08:01:10] INFO root fetch - processPackages [dotlocalslashbin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dotlocalslashbin-0.0.2.tar.gz tmp/dotlocalslashbin-0.0.3.tar.gz --markdown 20240405/d/dotlocalslashbin/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2024-04-05 08:01:10] WARNING root fetch - processPackages [odoo14-addon-product-form-purchase-link]: Timeout reached during download
+[2024-04-05 08:01:10] INFO root fetch - processPackages [odoo14-addon-product-form-purchase-link]: executing diffoscope
+[2024-04-05 08:01:10] INFO root fetch - processPackages [odoo14-addon-product-form-purchase-link]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_product_form_purchase_link-14.0.2.2.1.dev7-py3-none-any.whl.zip tmp/odoo14_addon_product_form_purchase_link-14.0.2.2.1.dev8-py3-none-any.whl.zip --markdown 20240405/o/odoo14-addon-product-form-purchase-link/14.0.2.2.1.dev7-14.0.2.2.1.dev8/diff.md --exclude *.pyd
+[2024-04-05 08:01:10] INFO root fetch - processPackages [bota]: Remove: archive file [/home/abi/fetcher/tmp/bota-4.0.8.tar.gz]
+[2024-04-05 08:01:10] INFO root fetch - processPackages [bota]: Remove: archive file [/home/abi/fetcher/tmp/bota-4.0.9.tar.gz]
+[2024-04-05 08:01:10] INFO root fetch - main [MainThread]: End processing [bota]: success
+[2024-04-05 08:01:11] INFO root fetch - processPackages [asepyte]: Remove: archive file [/home/abi/fetcher/tmp/asepyte-0.0.4-py3-none-any.whl.zip]
+[2024-04-05 08:01:11] INFO root fetch - processPackages [asepyte]: Remove: archive file [/home/abi/fetcher/tmp/asepyte-0.0.5-py3-none-any.whl.zip]
+[2024-04-05 08:01:11] INFO root fetch - main [MainThread]: End processing [asepyte]: success
+[2024-04-05 08:01:11] INFO root fetch - processPackages [ai-model-dispatcher]: Remove: archive file [/home/abi/fetcher/tmp/ai_model_dispatcher-0.0.1.dev2.tar.gz]
+[2024-04-05 08:01:11] INFO root fetch - processPackages [ai-model-dispatcher]: Remove: archive file [/home/abi/fetcher/tmp/ai_model_dispatcher-0.0.1.dev3.tar.gz]
+[2024-04-05 08:01:11] INFO root fetch - main [MainThread]: End processing [ai-model-dispatcher]: success
+[2024-04-05 08:01:11] INFO root fetch - processPackages [dotlocalslashbin]: Remove: archive file [/home/abi/fetcher/tmp/dotlocalslashbin-0.0.2.tar.gz]
+[2024-04-05 08:01:11] INFO root fetch - processPackages [dotlocalslashbin]: Remove: archive file [/home/abi/fetcher/tmp/dotlocalslashbin-0.0.3.tar.gz]
+[2024-04-05 08:01:11] INFO root fetch - main [MainThread]: End processing [dotlocalslashbin]: success
+[2024-04-05 08:01:11] INFO root fetch - processPackages [odoo14-addon-product-form-purchase-link]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_product_form_purchase_link-14.0.2.2.1.dev7-py3-none-any.whl.zip]
+[2024-04-05 08:01:11] INFO root fetch - processPackages [odoo14-addon-product-form-purchase-link]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_product_form_purchase_link-14.0.2.2.1.dev8-py3-none-any.whl.zip]
+[2024-04-05 08:01:11] INFO root fetch - main [MainThread]: End processing [odoo14-addon-product-form-purchase-link]: success
+[2024-04-05 08:01:11] INFO root fetch - main [MainThread]: Store serial: [22632265]
