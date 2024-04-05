@@ -23284,3 +23284,61 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2024-04-05 14:56:00] INFO root fetch - processPackages [kuzu]: Remove: archive file [/home/abi/fetcher/tmp/kuzu-0.3.3.dev9.tar.gz]
 [2024-04-05 14:56:00] INFO root fetch - main [MainThread]: End processing [kuzu]: success
 [2024-04-05 14:56:00] INFO root fetch - main [MainThread]: Store serial: [22636207]
+[2024-04-05 14:58:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22636207]
+[2024-04-05 14:58:09] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-05 14:58:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: padmy
+[2024-04-05 14:58:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bota
+[2024-04-05 14:58:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bionty-base
+[2024-04-05 14:58:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: finbourne-horizon-sdk
+[2024-04-05 14:58:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dataskillhub
+[2024-04-05 14:58:10] INFO root fetch - processPackages [dataskillhub]: New version: [1.6.2] Old Version: [1.6.1]
+[2024-04-05 14:58:10] INFO root fetch - processPackages [bota]: New version: [4.0.9] Old Version: [4.0.8]
+[2024-04-05 14:58:10] INFO root fetch - processPackages [finbourne-horizon-sdk]: New version: [2.0.99] Old Version: [2.0.98]
+[2024-04-05 14:58:10] INFO root fetch - processPackages [bionty-base]: New version: [0.37.2] Old Version: [0.37.1]
+[2024-04-05 14:58:10] INFO root fetch - processPackages [dataskillhub]: Downloading https://files.pythonhosted.org/packages/26/d0/9ef1cd6ed91cddb07f626f52c9d5481812e8a2f493c172ecb6b330b5cb0f/dataskillhub-1.6.1-py3-none-any.whl
+[2024-04-05 14:58:10] INFO root fetch - processPackages [bota]: Downloading https://files.pythonhosted.org/packages/20/a9/4f637666fa83c508695967d807e33c729d659786a5de468b4289f5bff8b4/bota-4.0.8.tar.gz
+[2024-04-05 14:58:10] INFO root fetch - processPackages [padmy]: New version: [0.9.0] Old Version: [0.8.2]
+[2024-04-05 14:58:10] INFO root fetch - processPackages [finbourne-horizon-sdk]: Downloading https://files.pythonhosted.org/packages/06/c9/47ee3aea0e17410b358d1981bc3457d72efa489b5bd7cdfd8e0dae8d1e99/finbourne_horizon_sdk-2.0.98.tar.gz
+[2024-04-05 14:58:10] WARNING root fetch - processPackages [bota]: Timeout reached during download
+[2024-04-05 14:58:10] WARNING root fetch - processPackages [dataskillhub]: Timeout reached during download
+[2024-04-05 14:58:10] WARNING root fetch - processPackages [finbourne-horizon-sdk]: Timeout reached during download
+[2024-04-05 14:58:10] INFO root fetch - processPackages [bionty-base]: Downloading https://files.pythonhosted.org/packages/7c/6d/8b4e1ab84f025df8cb30e9cf725e19575cf7533456fcc186fec0e11c2fff/bionty_base-0.37.1.tar.gz
+[2024-04-05 14:58:10] INFO root fetch - processPackages [padmy]: Downloading https://files.pythonhosted.org/packages/e5/46/c241ef643ace4272ba852e73a4c3b1e0713de0163c39f03ef0993b066aba/padmy-0.8.2.tar.gz
+[2024-04-05 14:58:10] INFO root fetch - processPackages [bota]: Downloading https://files.pythonhosted.org/packages/a4/5f/24c14d0a7d609507557baf5369feaca8b3459d111f35e9258e9d0396f9a8/bota-4.0.9.tar.gz
+[2024-04-05 14:58:10] INFO root fetch - processPackages [finbourne-horizon-sdk]: Downloading https://files.pythonhosted.org/packages/00/39/af6f8e607b0c244600f9bbe82842b5739b5f5bbd08171e54da6ba158fc09/finbourne_horizon_sdk-2.0.99.tar.gz
+[2024-04-05 14:58:10] WARNING root fetch - processPackages [bionty-base]: Timeout reached during download
+[2024-04-05 14:58:10] INFO root fetch - processPackages [dataskillhub]: Downloading https://files.pythonhosted.org/packages/3f/c1/512908450afe338d19954b2d07df96636278871b2cd86b2a383a3299d9b2/dataskillhub-1.6.2-py3-none-any.whl
+[2024-04-05 14:58:10] WARNING root fetch - processPackages [padmy]: Timeout reached during download
+[2024-04-05 14:58:10] WARNING root fetch - processPackages [bota]: Timeout reached during download
+[2024-04-05 14:58:10] INFO root fetch - processPackages [bota]: executing diffoscope
+[2024-04-05 14:58:10] INFO root fetch - processPackages [bota]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bota-4.0.8.tar.gz tmp/bota-4.0.9.tar.gz --markdown 20240405/b/bota/4.0.8-4.0.9/diff.md --exclude *.pyd
+[2024-04-05 14:58:10] WARNING root fetch - processPackages [finbourne-horizon-sdk]: Timeout reached during download
+[2024-04-05 14:58:10] INFO root fetch - processPackages [finbourne-horizon-sdk]: executing diffoscope
+[2024-04-05 14:58:10] INFO root fetch - processPackages [finbourne-horizon-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/finbourne_horizon_sdk-2.0.98.tar.gz tmp/finbourne_horizon_sdk-2.0.99.tar.gz --markdown 20240405/f/finbourne-horizon-sdk/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2024-04-05 14:58:10] WARNING root fetch - processPackages [dataskillhub]: Timeout reached during download
+[2024-04-05 14:58:10] INFO root fetch - processPackages [dataskillhub]: executing diffoscope
+[2024-04-05 14:58:10] INFO root fetch - processPackages [dataskillhub]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dataskillhub-1.6.1-py3-none-any.whl.zip tmp/dataskillhub-1.6.2-py3-none-any.whl.zip --markdown 20240405/d/dataskillhub/1.6.1-1.6.2/diff.md --exclude *.pyd
+[2024-04-05 14:58:10] INFO root fetch - processPackages [bionty-base]: Downloading https://files.pythonhosted.org/packages/7b/10/b534d43dd3edd1e5a4ee0547f5a4fb683bce7e29e62b01a9dbb527d91401/bionty-base-0.37.2.tar.gz
+[2024-04-05 14:58:10] INFO root fetch - processPackages [padmy]: Downloading https://files.pythonhosted.org/packages/d8/be/e6040863caa59282e6c5767d32162197f4e4d1e407a1e42e7a93643aec6a/padmy-0.9.0.tar.gz
+[2024-04-05 14:58:10] WARNING root fetch - processPackages [bionty-base]: Timeout reached during download
+[2024-04-05 14:58:10] WARNING root fetch - processPackages [padmy]: Timeout reached during download
+[2024-04-05 14:58:10] INFO root fetch - processPackages [bionty-base]: executing diffoscope
+[2024-04-05 14:58:10] INFO root fetch - processPackages [bionty-base]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bionty_base-0.37.1.tar.gz tmp/bionty-base-0.37.2.tar.gz --markdown 20240405/b/bionty-base/0.37.1-0.37.2/diff.md --exclude *.pyd
+[2024-04-05 14:58:10] INFO root fetch - processPackages [padmy]: executing diffoscope
+[2024-04-05 14:58:10] INFO root fetch - processPackages [padmy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/padmy-0.8.2.tar.gz tmp/padmy-0.9.0.tar.gz --markdown 20240405/p/padmy/0.8.2-0.9.0/diff.md --exclude *.pyd
+[2024-04-05 14:58:11] INFO root fetch - processPackages [bota]: Remove: archive file [/home/abi/fetcher/tmp/bota-4.0.8.tar.gz]
+[2024-04-05 14:58:11] INFO root fetch - processPackages [bota]: Remove: archive file [/home/abi/fetcher/tmp/bota-4.0.9.tar.gz]
+[2024-04-05 14:58:11] INFO root fetch - main [MainThread]: End processing [bota]: success
+[2024-04-05 14:58:11] INFO root fetch - processPackages [dataskillhub]: Remove: archive file [/home/abi/fetcher/tmp/dataskillhub-1.6.1-py3-none-any.whl.zip]
+[2024-04-05 14:58:11] INFO root fetch - processPackages [dataskillhub]: Remove: archive file [/home/abi/fetcher/tmp/dataskillhub-1.6.2-py3-none-any.whl.zip]
+[2024-04-05 14:58:11] INFO root fetch - main [MainThread]: End processing [dataskillhub]: success
+[2024-04-05 14:58:11] INFO root fetch - processPackages [padmy]: Remove: archive file [/home/abi/fetcher/tmp/padmy-0.8.2.tar.gz]
+[2024-04-05 14:58:11] INFO root fetch - processPackages [padmy]: Remove: archive file [/home/abi/fetcher/tmp/padmy-0.9.0.tar.gz]
+[2024-04-05 14:58:11] INFO root fetch - main [MainThread]: End processing [padmy]: success
+[2024-04-05 14:58:11] INFO root fetch - processPackages [finbourne-horizon-sdk]: Remove: archive file [/home/abi/fetcher/tmp/finbourne_horizon_sdk-2.0.98.tar.gz]
+[2024-04-05 14:58:11] INFO root fetch - processPackages [finbourne-horizon-sdk]: Remove: archive file [/home/abi/fetcher/tmp/finbourne_horizon_sdk-2.0.99.tar.gz]
+[2024-04-05 14:58:11] INFO root fetch - main [MainThread]: End processing [finbourne-horizon-sdk]: success
+[2024-04-05 14:58:11] INFO root fetch - processPackages [bionty-base]: Remove: archive file [/home/abi/fetcher/tmp/bionty_base-0.37.1.tar.gz]
+[2024-04-05 14:58:11] INFO root fetch - processPackages [bionty-base]: Remove: archive file [/home/abi/fetcher/tmp/bionty-base-0.37.2.tar.gz]
+[2024-04-05 14:58:11] INFO root fetch - main [MainThread]: End processing [bionty-base]: success
+[2024-04-05 14:58:11] INFO root fetch - main [MainThread]: Store serial: [22636236]
