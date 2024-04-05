@@ -13876,3 +13876,28 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2024-04-05 08:43:11] INFO root fetch - processPackages [unstructured]: Remove: archive file [/home/abi/fetcher/tmp/unstructured-0.9.3.tar.gz]
 [2024-04-05 08:43:11] INFO root fetch - main [MainThread]: End processing [unstructured]: success
 [2024-04-05 08:43:11] INFO root fetch - main [MainThread]: Store serial: [22632576]
+[2024-04-05 08:45:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22632576]
+[2024-04-05 08:45:19] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-05 08:45:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: raypyng
+[2024-04-05 08:45:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: khoj-assistant
+[2024-04-05 08:45:20] INFO root fetch - processPackages [raypyng]: New version: [1.2.5] Old Version: [1.2.4]
+[2024-04-05 08:45:20] INFO root fetch - processPackages [khoj-assistant]: New version: [1.8.1.dev58] Old Version: [1.8.1.dev56]
+[2024-04-05 08:45:20] INFO root fetch - processPackages [raypyng]: Downloading https://files.pythonhosted.org/packages/ff/73/7c2197efe2c98fb105fed460dff9464634add0e9131b782c22470f4f26c3/raypyng-1.2.4.tar.gz
+[2024-04-05 08:45:20] INFO root fetch - processPackages [khoj-assistant]: Downloading https://files.pythonhosted.org/packages/96/52/c950e54de1ef044ca1e09acf6cda68bf56e460dd13506940530e633f00ad/khoj_assistant-1.8.1.dev56.tar.gz
+[2024-04-05 08:45:20] WARNING root fetch - processPackages [raypyng]: Timeout reached during download
+[2024-04-05 08:45:20] INFO root fetch - processPackages [raypyng]: Downloading https://files.pythonhosted.org/packages/82/2a/84a3d42115418bdca3c0afe262adfd2e166ab2e788621d7e61b30ce5c690/raypyng-1.2.5.tar.gz
+[2024-04-05 08:45:20] WARNING root fetch - processPackages [khoj-assistant]: Timeout reached during download
+[2024-04-05 08:45:20] WARNING root fetch - processPackages [raypyng]: Timeout reached during download
+[2024-04-05 08:45:20] INFO root fetch - processPackages [raypyng]: executing diffoscope
+[2024-04-05 08:45:20] INFO root fetch - processPackages [raypyng]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/raypyng-1.2.4.tar.gz tmp/raypyng-1.2.5.tar.gz --markdown 20240405/r/raypyng/1.2.4-1.2.5/diff.md --exclude *.pyd
+[2024-04-05 08:45:20] INFO root fetch - processPackages [khoj-assistant]: Downloading https://files.pythonhosted.org/packages/59/53/d65398230a3bdf881998f9e234f9e890f31a0cf472cbd0e4e42063ea7b43/khoj_assistant-1.8.1.dev58.tar.gz
+[2024-04-05 08:45:21] WARNING root fetch - processPackages [khoj-assistant]: Timeout reached during download
+[2024-04-05 08:45:21] INFO root fetch - processPackages [khoj-assistant]: executing diffoscope
+[2024-04-05 08:45:21] INFO root fetch - processPackages [khoj-assistant]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/khoj_assistant-1.8.1.dev56.tar.gz tmp/khoj_assistant-1.8.1.dev58.tar.gz --markdown 20240405/k/khoj-assistant/1.8.1.dev56-1.8.1.dev58/diff.md --exclude *.pyd
+[2024-04-05 08:45:21] INFO root fetch - processPackages [raypyng]: Remove: archive file [/home/abi/fetcher/tmp/raypyng-1.2.4.tar.gz]
+[2024-04-05 08:45:21] INFO root fetch - processPackages [raypyng]: Remove: archive file [/home/abi/fetcher/tmp/raypyng-1.2.5.tar.gz]
+[2024-04-05 08:45:21] INFO root fetch - main [MainThread]: End processing [raypyng]: success
+[2024-04-05 08:45:22] INFO root fetch - processPackages [khoj-assistant]: Remove: archive file [/home/abi/fetcher/tmp/khoj_assistant-1.8.1.dev56.tar.gz]
+[2024-04-05 08:45:22] INFO root fetch - processPackages [khoj-assistant]: Remove: archive file [/home/abi/fetcher/tmp/khoj_assistant-1.8.1.dev58.tar.gz]
+[2024-04-05 08:45:22] INFO root fetch - main [MainThread]: End processing [khoj-assistant]: success
+[2024-04-05 08:45:22] INFO root fetch - main [MainThread]: Store serial: [22632582]
