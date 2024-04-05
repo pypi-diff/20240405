@@ -8695,3 +8695,171 @@
 [2024-04-05 03:40:33] INFO root fetch - processPackages [iso-standards]: Remove: archive file [/home/abi/fetcher/tmp/iso_standards-0.1.2.tar.gz]
 [2024-04-05 03:40:33] INFO root fetch - main [MainThread]: End processing [iso-standards]: success
 [2024-04-05 03:40:33] INFO root fetch - main [MainThread]: Store serial: [22630901]
+[2024-04-05 03:42:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22630901]
+[2024-04-05 03:42:42] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-05 03:42:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: autodailycheckin
+[2024-04-05 03:42:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: project.sten
+[2024-04-05 03:42:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mojo-config
+[2024-04-05 03:42:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: relari
+[2024-04-05 03:42:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: prodvana
+[2024-04-05 03:42:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dragonfly-energy
+[2024-04-05 03:42:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: dragonfly-uwg
+[2024-04-05 03:42:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: RegexRiot
+[2024-04-05 03:42:42] INFO root fetch - processPackages [dragonfly-uwg]: New version: [0.5.99] Old Version: [0.5.98]
+[2024-04-05 03:42:42] INFO root fetch - processPackages [dragonfly-energy]: New version: [1.9.9] Old Version: [1.9.8]
+[2024-04-05 03:42:42] INFO root fetch - processPackages [autodailycheckin]: New version: [0.1.5] Old Version: [0.1.4]
+[2024-04-05 03:42:42] INFO root fetch - processPackages [prodvana]: New version: [0.3.9] Old Version: [0.3.8]
+[2024-04-05 03:42:42] INFO root fetch - processPackages [relari]: New version: [0.1.3] Old Version: [0.1.1]
+[2024-04-05 03:42:42] INFO root fetch - processPackages [project.sten]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-05 03:42:42] INFO root fetch - processPackages [mojo-config]: New version: [1.3.9] Old Version: [1.3.8]
+[2024-04-05 03:42:42] WARNING root fetch - processPackages [RegexRiot]: Skipping, unable to determine old version
+[2024-04-05 03:42:42] INFO root fetch - main [MainThread]: End processing [RegexRiot] error
+[2024-04-05 03:42:42] INFO root fetch - processPackages [dragonfly-energy]: Downloading https://files.pythonhosted.org/packages/20/4e/115840f938ee254b23bd515351ba786228441464717f8557431f914e75f4/dragonfly-energy-1.9.8.tar.gz
+[2024-04-05 03:42:42] INFO root fetch - processPackages [dragonfly-uwg]: Downloading https://files.pythonhosted.org/packages/a6/3c/7afbd082f170d8d51ed57abdf8bb67058ca404ede70f9d982fd95c8bb807/dragonfly-uwg-0.5.98.tar.gz
+[2024-04-05 03:42:42] INFO root fetch - processPackages [relari]: Downloading https://files.pythonhosted.org/packages/23/f6/5b38a88aa03a82f2e7af46f65075f059b91a2ae1df2b8b05fc5e3a33f70f/relari-0.1.1.tar.gz
+[2024-04-05 03:42:42] INFO root fetch - processPackages [autodailycheckin]: Downloading https://files.pythonhosted.org/packages/ed/35/cb28e09ee541daf7e2708040bacf19aa712afc6cabca3dcde09e470c7ce2/autodailycheckin-0.1.4-py3-none-any.whl
+[2024-04-05 03:42:42] WARNING root fetch - processPackages [dragonfly-uwg]: Timeout reached during download
+[2024-04-05 03:42:42] WARNING root fetch - processPackages [dragonfly-energy]: Timeout reached during download
+[2024-04-05 03:42:42] INFO root fetch - processPackages [prodvana]: Downloading https://files.pythonhosted.org/packages/05/29/b305e83e3145ff688dc20fcaf7e9acc6387d8bcb0be66a1bad5781bb7543/prodvana-0.3.8.tar.gz
+[2024-04-05 03:42:43] INFO root fetch - processPackages [project.sten]: Downloading https://files.pythonhosted.org/packages/77/d2/903ebfdc15ee4fc66e38130b73f8fbd620ef3fbc7b8331d265ce4365b2af/project.sten-0.0.8.tar.gz
+[2024-04-05 03:42:43] INFO root fetch - processPackages [mojo-config]: Downloading https://files.pythonhosted.org/packages/a4/cc/2ca4b4e6a03640f1f240e3e4a12356d8ad8fe7320294cac819d54a345cdb/mojo_config-1.3.8.tar.gz
+[2024-04-05 03:42:43] INFO root fetch - processPackages [dragonfly-uwg]: Downloading https://files.pythonhosted.org/packages/55/b3/3f9a36d82b87f343d4e196e93a8cf3e838b9c80b0849f927d4f3505355af/dragonfly-uwg-0.5.99.tar.gz
+[2024-04-05 03:42:43] INFO root fetch - processPackages [dragonfly-energy]: Downloading https://files.pythonhosted.org/packages/09/b6/c12f13159c5beb3b855a32f792faef162ad37358d2e0d3311cbd68a969db/dragonfly-energy-1.9.9.tar.gz
+[2024-04-05 03:42:43] WARNING root fetch - processPackages [autodailycheckin]: Timeout reached during download
+[2024-04-05 03:42:43] WARNING root fetch - processPackages [relari]: Timeout reached during download
+[2024-04-05 03:42:43] WARNING root fetch - processPackages [project.sten]: Timeout reached during download
+[2024-04-05 03:42:43] WARNING root fetch - processPackages [prodvana]: Timeout reached during download
+[2024-04-05 03:42:43] WARNING root fetch - processPackages [mojo-config]: Timeout reached during download
+[2024-04-05 03:42:43] WARNING root fetch - processPackages [dragonfly-energy]: Timeout reached during download
+[2024-04-05 03:42:43] INFO root fetch - processPackages [dragonfly-energy]: executing diffoscope
+[2024-04-05 03:42:43] INFO root fetch - processPackages [dragonfly-energy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dragonfly-energy-1.9.8.tar.gz tmp/dragonfly-energy-1.9.9.tar.gz --markdown 20240405/d/dragonfly-energy/1.9.8-1.9.9/diff.md --exclude *.pyd
+[2024-04-05 03:42:43] WARNING root fetch - processPackages [dragonfly-uwg]: Timeout reached during download
+[2024-04-05 03:42:43] INFO root fetch - processPackages [dragonfly-uwg]: executing diffoscope
+[2024-04-05 03:42:43] INFO root fetch - processPackages [dragonfly-uwg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dragonfly-uwg-0.5.98.tar.gz tmp/dragonfly-uwg-0.5.99.tar.gz --markdown 20240405/d/dragonfly-uwg/0.5.98-0.5.99/diff.md --exclude *.pyd
+[2024-04-05 03:42:43] INFO root fetch - processPackages [relari]: Downloading https://files.pythonhosted.org/packages/ac/a7/b2132c73a63f0778e0cece6555f96f5e31ef6d096226a1aba9b193308417/relari-0.1.3.tar.gz
+[2024-04-05 03:42:43] INFO root fetch - processPackages [project.sten]: Downloading https://files.pythonhosted.org/packages/16/4c/2a46c6c534c06825155c321813021c2dafe725e0c2ec3b2560e62e7cb77d/project.sten-0.0.9.tar.gz
+[2024-04-05 03:42:43] INFO root fetch - processPackages [autodailycheckin]: Downloading https://files.pythonhosted.org/packages/f0/06/874fa591c55b5008ffabd05e314febaafb292b5967109e88a35bc7aa3bdf/autodailycheckin-0.1.5-py3-none-any.whl
+[2024-04-05 03:42:43] INFO root fetch - processPackages [prodvana]: Downloading https://files.pythonhosted.org/packages/b2/62/1999f7e3eed16a266b39c7205e01fda3f018d873f514114d86cdf999983b/prodvana-0.3.9.tar.gz
+[2024-04-05 03:42:43] INFO root fetch - processPackages [mojo-config]: Downloading https://files.pythonhosted.org/packages/2d/77/59ae99bdaf8ff23d580a64c62212f3a16bb49ad2cd8d08d9dbab4c159829/mojo_config-1.3.9.tar.gz
+[2024-04-05 03:42:43] WARNING root fetch - processPackages [relari]: Timeout reached during download
+[2024-04-05 03:42:43] INFO root fetch - processPackages [relari]: executing diffoscope
+[2024-04-05 03:42:43] INFO root fetch - processPackages [relari]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/relari-0.1.1.tar.gz tmp/relari-0.1.3.tar.gz --markdown 20240405/r/relari/0.1.1-0.1.3/diff.md --exclude *.pyd
+[2024-04-05 03:42:43] WARNING root fetch - processPackages [autodailycheckin]: Timeout reached during download
+[2024-04-05 03:42:43] INFO root fetch - processPackages [autodailycheckin]: executing diffoscope
+[2024-04-05 03:42:43] INFO root fetch - processPackages [autodailycheckin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autodailycheckin-0.1.4-py3-none-any.whl.zip tmp/autodailycheckin-0.1.5-py3-none-any.whl.zip --markdown 20240405/a/autodailycheckin/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2024-04-05 03:42:43] WARNING root fetch - processPackages [project.sten]: Timeout reached during download
+[2024-04-05 03:42:43] INFO root fetch - processPackages [project.sten]: executing diffoscope
+[2024-04-05 03:42:43] INFO root fetch - processPackages [project.sten]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/project.sten-0.0.8.tar.gz tmp/project.sten-0.0.9.tar.gz --markdown 20240405/p/project.sten/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2024-04-05 03:42:43] WARNING root fetch - processPackages [prodvana]: Timeout reached during download
+[2024-04-05 03:42:43] INFO root fetch - processPackages [prodvana]: executing diffoscope
+[2024-04-05 03:42:43] INFO root fetch - processPackages [prodvana]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prodvana-0.3.8.tar.gz tmp/prodvana-0.3.9.tar.gz --markdown 20240405/p/prodvana/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2024-04-05 03:42:43] WARNING root fetch - processPackages [mojo-config]: Timeout reached during download
+[2024-04-05 03:42:43] INFO root fetch - processPackages [mojo-config]: executing diffoscope
+[2024-04-05 03:42:43] INFO root fetch - processPackages [mojo-config]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mojo_config-1.3.8.tar.gz tmp/mojo_config-1.3.9.tar.gz --markdown 20240405/m/mojo-config/1.3.8-1.3.9/diff.md --exclude *.pyd
+[2024-04-05 03:42:44] INFO root fetch - processPackages [project.sten]: Remove: archive file [/home/abi/fetcher/tmp/project.sten-0.0.8.tar.gz]
+[2024-04-05 03:42:44] INFO root fetch - processPackages [project.sten]: Remove: archive file [/home/abi/fetcher/tmp/project.sten-0.0.9.tar.gz]
+[2024-04-05 03:42:44] INFO root fetch - main [MainThread]: End processing [project.sten]: success
+[2024-04-05 03:42:44] INFO root fetch - processPackages [dragonfly-energy]: Remove: archive file [/home/abi/fetcher/tmp/dragonfly-energy-1.9.8.tar.gz]
+[2024-04-05 03:42:44] INFO root fetch - processPackages [dragonfly-energy]: Remove: archive file [/home/abi/fetcher/tmp/dragonfly-energy-1.9.9.tar.gz]
+[2024-04-05 03:42:44] INFO root fetch - main [MainThread]: End processing [dragonfly-energy]: success
+[2024-04-05 03:42:44] ERROR root fetch - processPackages [autodailycheckin]: Diffoscope failed: time="2024-04-05T03:42:43+02:00" level=error msg="User-selected graph driver \"vfs\" overwritten by graph driver \"overlay\" from database - delete libpod local files to resolve.  May prevent use of images created by other tools"
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/diff.py", line 334, in diff
+    with FIFOFeeder(feeder1, fifo1_path) as fifo1, FIFOFeeder(
+  File "/srv/diffoscope/diffoscope/diff.py", line 225, in __exit__
+    self.join()
+  File "/srv/diffoscope/diffoscope/diff.py", line 258, in join
+    raise self._exception
+  File "/srv/diffoscope/diffoscope/diff.py", line 249, in run
+    end_nl = self.feeder(fifo)
+             ^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 126, in feeder
+    end_nl = feeder(out_file)
+             ^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 81, in feeder
+    out = filter_reader(buf, filter)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 47, in filter_reader
+    buf = additional_filter(buf)
+          ^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 57, in filter
+    m = self.re_strip_path.match(line.decode("utf-8"))
+                                 ^^^^^^^^^^^^^^^^^^^^
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid continuation byte
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/main.py", line 767, in main
+    sys.exit(run_diffoscope(parsed_args))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/main.py", line 718, in run_diffoscope
+    difference = compare_root_paths(path1, path2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 69, in compare_root_paths
+    difference = compare_files(file1, file2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 217, in compare
+    x = super().compare(other, source)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 532, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 433, in _compare_using_details
+    details.extend(self.compare_details(other, source))
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 252, in compare_details
+    differences.extend(zipinfo_differences(self, other))
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 127, in zipinfo_differences
+    zipinfo = Difference.from_operation(Zipinfo, file.path, other.path)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 267, in from_operation
+    return Difference.from_operation_exc(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 316, in from_operation_exc
+    difference = Difference.from_feeder(
+                 ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 214, in from_feeder
+    unified_diff = diff(feeder1, feeder2)
+                   ^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/diff.py", line 334, in diff
+    with FIFOFeeder(feeder1, fifo1_path) as fifo1, FIFOFeeder(
+  File "/srv/diffoscope/diffoscope/diff.py", line 225, in __exit__
+    self.join()
+  File "/srv/diffoscope/diffoscope/diff.py", line 258, in join
+    raise self._exception
+  File "/srv/diffoscope/diffoscope/diff.py", line 249, in run
+    end_nl = self.feeder(fifo)
+             ^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 126, in feeder
+    end_nl = feeder(out_file)
+             ^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 81, in feeder
+    out = filter_reader(buf, filter)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 47, in filter_reader
+    buf = additional_filter(buf)
+          ^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 57, in filter
+    m = self.re_strip_path.match(line.decode("utf-8"))
+                                 ^^^^^^^^^^^^^^^^^^^^
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid continuation byte
+
+[2024-04-05 03:42:44] INFO root fetch - main [MainThread]: End processing [autodailycheckin] error
+[2024-04-05 03:42:44] INFO root fetch - processPackages [relari]: Remove: archive file [/home/abi/fetcher/tmp/relari-0.1.1.tar.gz]
+[2024-04-05 03:42:44] INFO root fetch - processPackages [relari]: Remove: archive file [/home/abi/fetcher/tmp/relari-0.1.3.tar.gz]
+[2024-04-05 03:42:44] INFO root fetch - main [MainThread]: End processing [relari]: success
+[2024-04-05 03:42:44] INFO root fetch - processPackages [dragonfly-uwg]: Remove: archive file [/home/abi/fetcher/tmp/dragonfly-uwg-0.5.98.tar.gz]
+[2024-04-05 03:42:44] INFO root fetch - processPackages [dragonfly-uwg]: Remove: archive file [/home/abi/fetcher/tmp/dragonfly-uwg-0.5.99.tar.gz]
+[2024-04-05 03:42:44] INFO root fetch - main [MainThread]: End processing [dragonfly-uwg]: success
+[2024-04-05 03:42:44] INFO root fetch - processPackages [mojo-config]: Remove: archive file [/home/abi/fetcher/tmp/mojo_config-1.3.8.tar.gz]
+[2024-04-05 03:42:44] INFO root fetch - processPackages [mojo-config]: Remove: archive file [/home/abi/fetcher/tmp/mojo_config-1.3.9.tar.gz]
+[2024-04-05 03:42:44] INFO root fetch - main [MainThread]: End processing [mojo-config]: success
+[2024-04-05 03:42:44] INFO root fetch - processPackages [prodvana]: Remove: archive file [/home/abi/fetcher/tmp/prodvana-0.3.8.tar.gz]
+[2024-04-05 03:42:44] INFO root fetch - processPackages [prodvana]: Remove: archive file [/home/abi/fetcher/tmp/prodvana-0.3.9.tar.gz]
+[2024-04-05 03:42:44] INFO root fetch - main [MainThread]: End processing [prodvana]: success
+[2024-04-05 03:42:44] INFO root fetch - main [MainThread]: Store serial: [22630928]
