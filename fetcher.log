@@ -18557,3 +18557,28 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2024-04-05 12:03:58] INFO root fetch - processPackages [nucliadb-admin-assets]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_admin_assets-1.0.0.post1467-py3-none-any.whl.zip]
 [2024-04-05 12:03:58] INFO root fetch - main [MainThread]: End processing [nucliadb-admin-assets]: success
 [2024-04-05 12:03:58] INFO root fetch - main [MainThread]: Store serial: [22634337]
+[2024-04-05 12:06:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22634337]
+[2024-04-05 12:06:08] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-05 12:06:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: fastf1
+[2024-04-05 12:06:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: vision_oslo_extension
+[2024-04-05 12:06:08] INFO root fetch - processPackages [fastf1]: New version: [3.3.3] Old Version: [3.3.2]
+[2024-04-05 12:06:08] INFO root fetch - processPackages [vision_oslo_extension]: New version: [1.0.0] Old Version: [0.7.3]
+[2024-04-05 12:06:09] INFO root fetch - processPackages [fastf1]: Downloading https://files.pythonhosted.org/packages/3d/35/9da5e4a20a8341a29f55305829a6248bdec10aa83cc1328d1154d98aab46/fastf1-3.3.2.tar.gz
+[2024-04-05 12:06:09] INFO root fetch - processPackages [vision_oslo_extension]: Downloading https://files.pythonhosted.org/packages/c8/80/fc959e6f0913b6caf061728dae53366467813ed35c8c25fd41e145b8716b/vision_oslo_extension-0.7.3.tar.gz
+[2024-04-05 12:06:09] WARNING root fetch - processPackages [fastf1]: Timeout reached during download
+[2024-04-05 12:06:09] INFO root fetch - processPackages [fastf1]: Downloading https://files.pythonhosted.org/packages/25/97/5b61f82b0f346d001c6c502cdcb999113424d4e359ecdcf914ab349a3943/fastf1-3.3.3.tar.gz
+[2024-04-05 12:06:09] WARNING root fetch - processPackages [fastf1]: Timeout reached during download
+[2024-04-05 12:06:09] INFO root fetch - processPackages [fastf1]: executing diffoscope
+[2024-04-05 12:06:09] INFO root fetch - processPackages [fastf1]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastf1-3.3.2.tar.gz tmp/fastf1-3.3.3.tar.gz --markdown 20240405/f/fastf1/3.3.2-3.3.3/diff.md --exclude *.pyd
+[2024-04-05 12:06:09] WARNING root fetch - processPackages [vision_oslo_extension]: Timeout reached during download
+[2024-04-05 12:06:09] INFO root fetch - processPackages [vision_oslo_extension]: Downloading https://files.pythonhosted.org/packages/21/e8/2ab2a076032be1561dabf3383b60491609ee3efb26d894bdc129006278b3/vision_oslo_extension-1.0.0.tar.gz
+[2024-04-05 12:06:10] INFO root fetch - processPackages [fastf1]: Remove: archive file [/home/abi/fetcher/tmp/fastf1-3.3.2.tar.gz]
+[2024-04-05 12:06:10] INFO root fetch - processPackages [fastf1]: Remove: archive file [/home/abi/fetcher/tmp/fastf1-3.3.3.tar.gz]
+[2024-04-05 12:06:10] INFO root fetch - main [MainThread]: End processing [fastf1]: success
+[2024-04-05 12:06:10] WARNING root fetch - processPackages [vision_oslo_extension]: Timeout reached during download
+[2024-04-05 12:06:10] INFO root fetch - processPackages [vision_oslo_extension]: executing diffoscope
+[2024-04-05 12:06:10] INFO root fetch - processPackages [vision_oslo_extension]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vision_oslo_extension-0.7.3.tar.gz tmp/vision_oslo_extension-1.0.0.tar.gz --markdown 20240405/v/vision_oslo_extension/0.7.3-1.0.0/diff.md --exclude *.pyd
+[2024-04-05 12:06:11] INFO root fetch - processPackages [vision_oslo_extension]: Remove: archive file [/home/abi/fetcher/tmp/vision_oslo_extension-0.7.3.tar.gz]
+[2024-04-05 12:06:11] INFO root fetch - processPackages [vision_oslo_extension]: Remove: archive file [/home/abi/fetcher/tmp/vision_oslo_extension-1.0.0.tar.gz]
+[2024-04-05 12:06:11] INFO root fetch - main [MainThread]: End processing [vision_oslo_extension]: success
+[2024-04-05 12:06:11] INFO root fetch - main [MainThread]: Store serial: [22634343]
