@@ -20616,3 +20616,91 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2024-04-05 13:16:56] INFO root fetch - processPackages [nucliadb-utils]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_utils-2.9.0.post267-py3-none-any.whl.zip]
 [2024-04-05 13:16:56] INFO root fetch - main [MainThread]: End processing [nucliadb-utils]: success
 [2024-04-05 13:16:56] INFO root fetch - main [MainThread]: Store serial: [22635124]
+[2024-04-05 13:19:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22635124]
+[2024-04-05 13:19:05] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-04-05 13:19:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: kafka-broker
+[2024-04-05 13:19:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: LyPythonToolbox
+[2024-04-05 13:19:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: lidipy
+[2024-04-05 13:19:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nucliadb-node-binding
+[2024-04-05 13:19:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: bigdl-core-xe
+[2024-04-05 13:19:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: youtube-selenium-py
+[2024-04-05 13:19:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ARCtrl
+[2024-04-05 13:19:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: salebox-django
+[2024-04-05 13:19:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: nonebot-plugin-fishing
+[2024-04-05 13:19:05] INFO root fetch - processPackages [youtube-selenium-py]: New version: [1.0.5] Old Version: [1.0.4]
+[2024-04-05 13:19:05] INFO root fetch - processPackages [kafka-broker]: New version: [0.3.4] Old Version: [0.3.3]
+[2024-04-05 13:19:05] INFO root fetch - processPackages [youtube-selenium-py]: Downloading https://files.pythonhosted.org/packages/43/5b/371474f1abefc6ddb7dbfe25019309a969e96ced888991e75aefcca77643/youtube_selenium_py-1.0.4.tar.gz
+[2024-04-05 13:19:05] INFO root fetch - processPackages [ARCtrl]: New version: [2.0.0a1] Old Version: [1.2.0]
+[2024-04-05 13:19:05] INFO root fetch - processPackages [nonebot-plugin-fishing]: New version: [0.2.2a3] Old Version: [0.2.2a2]
+[2024-04-05 13:19:05] INFO root fetch - processPackages [lidipy]: New version: [0.2.0] Old Version: [0.1.1]
+[2024-04-05 13:19:05] WARNING root fetch - processPackages [LyPythonToolbox]: Skipping, unable to determine old version
+[2024-04-05 13:19:05] INFO root fetch - main [MainThread]: End processing [LyPythonToolbox] error
+[2024-04-05 13:19:05] INFO root fetch - processPackages [bigdl-core-xe]: New version: [2.5.0b20240405] Old Version: [2.5.0b20240404]
+[2024-04-05 13:19:05] INFO root fetch - processPackages [salebox-django]: New version: [0.0.99] Old Version: [0.0.98]
+[2024-04-05 13:19:05] INFO root fetch - processPackages [kafka-broker]: Downloading https://files.pythonhosted.org/packages/30/37/dfc77af2d576c50a02f541536f24e5e53d161b4ad7b2d6248a65e2c69ef1/kafka-broker-0.3.3.tar.gz
+[2024-04-05 13:19:05] WARNING root fetch - processPackages [youtube-selenium-py]: Timeout reached during download
+[2024-04-05 13:19:05] WARNING root fetch - processPackages [kafka-broker]: Timeout reached during download
+[2024-04-05 13:19:05] INFO root fetch - processPackages [lidipy]: Downloading https://files.pythonhosted.org/packages/a0/9f/cef11acec57f2ba3e77f2b23059c13f9dc72ad70bbf9c354ed0f4a7adc01/lidipy-0.1.1.tar.gz
+[2024-04-05 13:19:05] INFO root fetch - processPackages [ARCtrl]: Downloading https://files.pythonhosted.org/packages/60/0c/a1827b446e2c90f408b5e75a4bb367b2d21e82cd853bb98496176de021f0/arctrl-1.2.0.tar.gz
+[2024-04-05 13:19:05] INFO root fetch - processPackages [nucliadb-node-binding]: New version: [2.46.1.post1103] Old Version: [2.46.1.post1102]
+[2024-04-05 13:19:05] INFO root fetch - processPackages [bigdl-core-xe]: Downloading https://files.pythonhosted.org/packages/aa/92/c7202a7b434997548a3f6428e69d129aef26211e574df1fa9c7138882911/bigdl_core_xe-2.5.0b20240404-cp39-cp39-manylinux2010_x86_64.whl
+[2024-04-05 13:19:06] INFO root fetch - processPackages [nonebot-plugin-fishing]: Downloading https://files.pythonhosted.org/packages/dc/02/7718aa4e890b04c822a2a3923aec7e767f0eee86b99d2e7479307dd3b5f9/nonebot-plugin-fishing-0.2.2a2.tar.gz
+[2024-04-05 13:19:06] INFO root fetch - processPackages [salebox-django]: Downloading https://files.pythonhosted.org/packages/fd/2e/43c58d9ec2da0e8278438b99de4884789d7e7c37c482790cde53f0199c9d/salebox-django-0.0.98.tar.gz
+[2024-04-05 13:19:06] INFO root fetch - processPackages [youtube-selenium-py]: Downloading https://files.pythonhosted.org/packages/9f/2d/1bd40b8898d6185ebdb78427ba63ccd35959bec010227b75e66a013a36f1/youtube_selenium_py-1.0.5.tar.gz
+[2024-04-05 13:19:06] WARNING root fetch - processPackages [bigdl-core-xe]: Skipping package: exceeds size limit 95050103>=10485760
+[2024-04-05 13:19:06] INFO root fetch - main [MainThread]: End processing [bigdl-core-xe] error
+[2024-04-05 13:19:06] INFO root fetch - processPackages [kafka-broker]: Downloading https://files.pythonhosted.org/packages/41/a4/f04155c6cb61f56eb30dd9bb14f9c3caa8eb3108fd0f8f18dc0c55552046/kafka-broker-0.3.4.tar.gz
+[2024-04-05 13:19:06] WARNING root fetch - processPackages [ARCtrl]: Timeout reached during download
+[2024-04-05 13:19:06] WARNING root fetch - processPackages [youtube-selenium-py]: Timeout reached during download
+[2024-04-05 13:19:06] WARNING root fetch - processPackages [salebox-django]: Timeout reached during download
+[2024-04-05 13:19:06] WARNING root fetch - processPackages [lidipy]: Timeout reached during download
+[2024-04-05 13:19:06] INFO root fetch - processPackages [youtube-selenium-py]: executing diffoscope
+[2024-04-05 13:19:06] INFO root fetch - processPackages [youtube-selenium-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/youtube_selenium_py-1.0.4.tar.gz tmp/youtube_selenium_py-1.0.5.tar.gz --markdown 20240405/y/youtube-selenium-py/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2024-04-05 13:19:06] INFO root fetch - processPackages [nucliadb-node-binding]: Downloading https://files.pythonhosted.org/packages/8f/6f/1282e36513219e92098efe2f69ca22e3d491d38f7c3e9be30da6b7e674d4/nucliadb_node_binding-2.46.1.post1102.tar.gz
+[2024-04-05 13:19:06] WARNING root fetch - processPackages [nonebot-plugin-fishing]: Timeout reached during download
+[2024-04-05 13:19:06] WARNING root fetch - processPackages [kafka-broker]: Timeout reached during download
+[2024-04-05 13:19:06] INFO root fetch - processPackages [kafka-broker]: executing diffoscope
+[2024-04-05 13:19:06] INFO root fetch - processPackages [kafka-broker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kafka-broker-0.3.3.tar.gz tmp/kafka-broker-0.3.4.tar.gz --markdown 20240405/k/kafka-broker/0.3.3-0.3.4/diff.md --exclude *.pyd
+[2024-04-05 13:19:06] WARNING root fetch - processPackages [nucliadb-node-binding]: Timeout reached during download
+[2024-04-05 13:19:06] INFO root fetch - processPackages [ARCtrl]: Downloading https://files.pythonhosted.org/packages/6e/6a/0f4bb02ef9bad02478114ce2976e394ac156842ba329070bd0c2af6017f2/arctrl-2.0.0a1.tar.gz
+[2024-04-05 13:19:06] INFO root fetch - processPackages [lidipy]: Downloading https://files.pythonhosted.org/packages/41/c1/6a5bcd823f2fdc1f3bb71cdab224747c5105fc2bcbfd5bd146d50baed180/lidipy-0.2.0.tar.gz
+[2024-04-05 13:19:06] INFO root fetch - processPackages [nonebot-plugin-fishing]: Downloading https://files.pythonhosted.org/packages/1d/3a/b872b851903eaff2f42e22690e987c7d1f02135eb34824e50c232002777d/nonebot-plugin-fishing-0.2.2a3.tar.gz
+[2024-04-05 13:19:06] INFO root fetch - processPackages [salebox-django]: Downloading https://files.pythonhosted.org/packages/69/4b/94b7285fb4a0796666dd186b2e4183ad17e38a66ab79ca823f9b4b2d18be/salebox-django-0.0.99.tar.gz
+[2024-04-05 13:19:06] WARNING root fetch - processPackages [lidipy]: Timeout reached during download
+[2024-04-05 13:19:06] INFO root fetch - processPackages [lidipy]: executing diffoscope
+[2024-04-05 13:19:06] INFO root fetch - processPackages [lidipy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lidipy-0.1.1.tar.gz tmp/lidipy-0.2.0.tar.gz --markdown 20240405/l/lidipy/0.1.1-0.2.0/diff.md --exclude *.pyd
+[2024-04-05 13:19:06] INFO root fetch - processPackages [nucliadb-node-binding]: Downloading https://files.pythonhosted.org/packages/29/c0/673d998e18af3e05e108f6d03f1449eddca6332f31a6f952ba983c2890db/nucliadb_node_binding-2.46.1.post1103.tar.gz
+[2024-04-05 13:19:06] WARNING root fetch - processPackages [ARCtrl]: Timeout reached during download
+[2024-04-05 13:19:06] INFO root fetch - processPackages [ARCtrl]: executing diffoscope
+[2024-04-05 13:19:06] INFO root fetch - processPackages [ARCtrl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arctrl-1.2.0.tar.gz tmp/arctrl-2.0.0a1.tar.gz --markdown 20240405/A/ARCtrl/1.2.0-2.0.0a1/diff.md --exclude *.pyd
+[2024-04-05 13:19:06] WARNING root fetch - processPackages [nonebot-plugin-fishing]: Timeout reached during download
+[2024-04-05 13:19:06] INFO root fetch - processPackages [nonebot-plugin-fishing]: executing diffoscope
+[2024-04-05 13:19:06] INFO root fetch - processPackages [nonebot-plugin-fishing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot-plugin-fishing-0.2.2a2.tar.gz tmp/nonebot-plugin-fishing-0.2.2a3.tar.gz --markdown 20240405/n/nonebot-plugin-fishing/0.2.2a2-0.2.2a3/diff.md --exclude *.pyd
+[2024-04-05 13:19:06] WARNING root fetch - processPackages [salebox-django]: Timeout reached during download
+[2024-04-05 13:19:06] INFO root fetch - processPackages [salebox-django]: executing diffoscope
+[2024-04-05 13:19:06] INFO root fetch - processPackages [salebox-django]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/salebox-django-0.0.98.tar.gz tmp/salebox-django-0.0.99.tar.gz --markdown 20240405/s/salebox-django/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2024-04-05 13:19:06] WARNING root fetch - processPackages [nucliadb-node-binding]: Timeout reached during download
+[2024-04-05 13:19:06] INFO root fetch - processPackages [nucliadb-node-binding]: executing diffoscope
+[2024-04-05 13:19:06] INFO root fetch - processPackages [nucliadb-node-binding]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_node_binding-2.46.1.post1102.tar.gz tmp/nucliadb_node_binding-2.46.1.post1103.tar.gz --markdown 20240405/n/nucliadb-node-binding/2.46.1.post1102-2.46.1.post1103/diff.md --exclude *.pyd
+[2024-04-05 13:19:07] INFO root fetch - processPackages [kafka-broker]: Remove: archive file [/home/abi/fetcher/tmp/kafka-broker-0.3.3.tar.gz]
+[2024-04-05 13:19:07] INFO root fetch - processPackages [kafka-broker]: Remove: archive file [/home/abi/fetcher/tmp/kafka-broker-0.3.4.tar.gz]
+[2024-04-05 13:19:07] INFO root fetch - main [MainThread]: End processing [kafka-broker]: success
+[2024-04-05 13:19:07] INFO root fetch - processPackages [youtube-selenium-py]: Remove: archive file [/home/abi/fetcher/tmp/youtube_selenium_py-1.0.4.tar.gz]
+[2024-04-05 13:19:07] INFO root fetch - processPackages [youtube-selenium-py]: Remove: archive file [/home/abi/fetcher/tmp/youtube_selenium_py-1.0.5.tar.gz]
+[2024-04-05 13:19:07] INFO root fetch - main [MainThread]: End processing [youtube-selenium-py]: success
+[2024-04-05 13:19:07] INFO root fetch - processPackages [lidipy]: Remove: archive file [/home/abi/fetcher/tmp/lidipy-0.1.1.tar.gz]
+[2024-04-05 13:19:07] INFO root fetch - processPackages [lidipy]: Remove: archive file [/home/abi/fetcher/tmp/lidipy-0.2.0.tar.gz]
+[2024-04-05 13:19:07] INFO root fetch - main [MainThread]: End processing [lidipy]: success
+[2024-04-05 13:19:07] INFO root fetch - processPackages [nonebot-plugin-fishing]: Remove: archive file [/home/abi/fetcher/tmp/nonebot-plugin-fishing-0.2.2a2.tar.gz]
+[2024-04-05 13:19:07] INFO root fetch - processPackages [nonebot-plugin-fishing]: Remove: archive file [/home/abi/fetcher/tmp/nonebot-plugin-fishing-0.2.2a3.tar.gz]
+[2024-04-05 13:19:07] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-fishing]: success
+[2024-04-05 13:19:07] INFO root fetch - processPackages [salebox-django]: Remove: archive file [/home/abi/fetcher/tmp/salebox-django-0.0.98.tar.gz]
+[2024-04-05 13:19:07] INFO root fetch - processPackages [salebox-django]: Remove: archive file [/home/abi/fetcher/tmp/salebox-django-0.0.99.tar.gz]
+[2024-04-05 13:19:07] INFO root fetch - main [MainThread]: End processing [salebox-django]: success
+[2024-04-05 13:19:08] INFO root fetch - processPackages [nucliadb-node-binding]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_node_binding-2.46.1.post1102.tar.gz]
+[2024-04-05 13:19:08] INFO root fetch - processPackages [nucliadb-node-binding]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_node_binding-2.46.1.post1103.tar.gz]
+[2024-04-05 13:19:08] INFO root fetch - main [MainThread]: End processing [nucliadb-node-binding]: success
+[2024-04-05 13:19:08] INFO root fetch - processPackages [ARCtrl]: Remove: archive file [/home/abi/fetcher/tmp/arctrl-1.2.0.tar.gz]
+[2024-04-05 13:19:08] INFO root fetch - processPackages [ARCtrl]: Remove: archive file [/home/abi/fetcher/tmp/arctrl-2.0.0a1.tar.gz]
+[2024-04-05 13:19:08] INFO root fetch - main [MainThread]: End processing [ARCtrl]: success
+[2024-04-05 13:19:08] INFO root fetch - main [MainThread]: Store serial: [22635178]
