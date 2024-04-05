@@ -14702,3 +14702,64 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2024-04-05 09:22:22] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip]
 [2024-04-05 09:22:22] INFO root fetch - main [MainThread]: End processing [qontract-reconcile]: success
 [2024-04-05 09:22:22] INFO root fetch - main [MainThread]: Store serial: [22632805]
+[2024-04-05 09:24:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22632805]
+[2024-04-05 09:24:31] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-05 09:24:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: breeze-connect
+[2024-04-05 09:24:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: test-RAG-X
+[2024-04-05 09:24:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: flask-minijson
+[2024-04-05 09:24:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ennemi
+[2024-04-05 09:24:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: test-esmf-loader
+[2024-04-05 09:24:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: py-valid-proxy
+[2024-04-05 09:24:31] WARNING root fetch - processPackages [test-RAG-X]: Skipping, unable to determine old version
+[2024-04-05 09:24:31] INFO root fetch - main [MainThread]: End processing [test-RAG-X] error
+[2024-04-05 09:24:31] INFO root fetch - processPackages [py-valid-proxy]: New version: [0.3.0] Old Version: [0.2.9]
+[2024-04-05 09:24:31] INFO root fetch - processPackages [test-esmf-loader]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-04-05 09:24:31] INFO root fetch - processPackages [ennemi]: New version: [1.4.0] Old Version: [1.3.0]
+[2024-04-05 09:24:31] INFO root fetch - processPackages [flask-minijson]: New version: [0.3] Old Version: [0.2]
+[2024-04-05 09:24:31] INFO root fetch - processPackages [breeze-connect]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-05 09:24:31] INFO root fetch - processPackages [flask-minijson]: Downloading https://files.pythonhosted.org/packages/7e/91/f1c915c73ade80473ddf3dd8e6b62b9398615e6cff793637c656eb395651/flask-minijson-0.2.tar.gz
+[2024-04-05 09:24:31] INFO root fetch - processPackages [breeze-connect]: Downloading https://files.pythonhosted.org/packages/eb/38/10bd4db4bbc0b15976ae792c12746686d284a9fc380eb2e473a18c8cf40a/breeze_connect-1.0.8.tar.gz
+[2024-04-05 09:24:31] INFO root fetch - processPackages [py-valid-proxy]: Downloading https://files.pythonhosted.org/packages/d8/03/1578dbda2c0dae501261ed8e556d51d124a855f33b6255e5bd3181a45d11/py_valid_proxy-0.2.9.tar.gz
+[2024-04-05 09:24:31] INFO root fetch - processPackages [ennemi]: Downloading https://files.pythonhosted.org/packages/62/c1/342b245622c7f9fe3eb297b2e7a7e3b8f851c449ef26f525e85a7eab0cc2/ennemi-1.3.0.tar.gz
+[2024-04-05 09:24:31] INFO root fetch - processPackages [test-esmf-loader]: Downloading https://files.pythonhosted.org/packages/c5/d0/a0c2870babcc51263df8815cc758147a28bbdb6476295aed2f2256a7494f/test_esmf_loader-0.0.1.tar.gz
+[2024-04-05 09:24:32] WARNING root fetch - processPackages [flask-minijson]: Timeout reached during download
+[2024-04-05 09:24:32] WARNING root fetch - processPackages [breeze-connect]: Timeout reached during download
+[2024-04-05 09:24:32] WARNING root fetch - processPackages [ennemi]: Timeout reached during download
+[2024-04-05 09:24:32] WARNING root fetch - processPackages [test-esmf-loader]: Timeout reached during download
+[2024-04-05 09:24:32] INFO root fetch - processPackages [flask-minijson]: Downloading https://files.pythonhosted.org/packages/cf/71/41b483b9e2b57915a7074b9f2fcfb091219c12219d5b5e94e614ea920884/flask-minijson-0.3.tar.gz
+[2024-04-05 09:24:32] INFO root fetch - processPackages [breeze-connect]: Downloading https://files.pythonhosted.org/packages/4c/42/710b1f5e8f9fd52127641623d4bd1c641247bcf346c97a3bb5c022588e32/breeze_connect-1.0.9.tar.gz
+[2024-04-05 09:24:32] INFO root fetch - processPackages [ennemi]: Downloading https://files.pythonhosted.org/packages/dc/4f/2d8c813add5bc8731adfd1645b10ed3478a81967d5b37844586418506585/ennemi-1.4.0.tar.gz
+[2024-04-05 09:24:32] WARNING root fetch - processPackages [py-valid-proxy]: Timeout reached during download
+[2024-04-05 09:24:32] INFO root fetch - processPackages [test-esmf-loader]: Downloading https://files.pythonhosted.org/packages/9e/1b/1611969ebe34bf2c584a1f46e80550af02861d3bf98d11cb9aaabc528376/test_esmf_loader-0.0.2.tar.gz
+[2024-04-05 09:24:32] WARNING root fetch - processPackages [breeze-connect]: Timeout reached during download
+[2024-04-05 09:24:32] INFO root fetch - processPackages [breeze-connect]: executing diffoscope
+[2024-04-05 09:24:32] INFO root fetch - processPackages [breeze-connect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/breeze_connect-1.0.8.tar.gz tmp/breeze_connect-1.0.9.tar.gz --markdown 20240405/b/breeze-connect/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2024-04-05 09:24:32] WARNING root fetch - processPackages [flask-minijson]: Timeout reached during download
+[2024-04-05 09:24:32] INFO root fetch - processPackages [flask-minijson]: executing diffoscope
+[2024-04-05 09:24:32] INFO root fetch - processPackages [flask-minijson]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flask-minijson-0.2.tar.gz tmp/flask-minijson-0.3.tar.gz --markdown 20240405/f/flask-minijson/0.2-0.3/diff.md --exclude *.pyd
+[2024-04-05 09:24:32] WARNING root fetch - processPackages [ennemi]: Timeout reached during download
+[2024-04-05 09:24:32] INFO root fetch - processPackages [ennemi]: executing diffoscope
+[2024-04-05 09:24:32] INFO root fetch - processPackages [ennemi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ennemi-1.3.0.tar.gz tmp/ennemi-1.4.0.tar.gz --markdown 20240405/e/ennemi/1.3.0-1.4.0/diff.md --exclude *.pyd
+[2024-04-05 09:24:32] WARNING root fetch - processPackages [test-esmf-loader]: Timeout reached during download
+[2024-04-05 09:24:32] INFO root fetch - processPackages [test-esmf-loader]: executing diffoscope
+[2024-04-05 09:24:32] INFO root fetch - processPackages [test-esmf-loader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/test_esmf_loader-0.0.1.tar.gz tmp/test_esmf_loader-0.0.2.tar.gz --markdown 20240405/t/test-esmf-loader/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2024-04-05 09:24:32] INFO root fetch - processPackages [py-valid-proxy]: Downloading https://files.pythonhosted.org/packages/55/80/2ba88a7b95ce6935c971ad1afc688b093d8fde2be5bea96c9614c2b4d16b/py_valid_proxy-0.3.0.tar.gz
+[2024-04-05 09:24:32] WARNING root fetch - processPackages [py-valid-proxy]: Timeout reached during download
+[2024-04-05 09:24:32] INFO root fetch - processPackages [py-valid-proxy]: executing diffoscope
+[2024-04-05 09:24:32] INFO root fetch - processPackages [py-valid-proxy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py_valid_proxy-0.2.9.tar.gz tmp/py_valid_proxy-0.3.0.tar.gz --markdown 20240405/p/py-valid-proxy/0.2.9-0.3.0/diff.md --exclude *.pyd
+[2024-04-05 09:24:33] INFO root fetch - processPackages [breeze-connect]: Remove: archive file [/home/abi/fetcher/tmp/breeze_connect-1.0.8.tar.gz]
+[2024-04-05 09:24:33] INFO root fetch - processPackages [breeze-connect]: Remove: archive file [/home/abi/fetcher/tmp/breeze_connect-1.0.9.tar.gz]
+[2024-04-05 09:24:33] INFO root fetch - main [MainThread]: End processing [breeze-connect]: success
+[2024-04-05 09:24:33] INFO root fetch - processPackages [ennemi]: Remove: archive file [/home/abi/fetcher/tmp/ennemi-1.3.0.tar.gz]
+[2024-04-05 09:24:33] INFO root fetch - processPackages [ennemi]: Remove: archive file [/home/abi/fetcher/tmp/ennemi-1.4.0.tar.gz]
+[2024-04-05 09:24:33] INFO root fetch - main [MainThread]: End processing [ennemi]: success
+[2024-04-05 09:24:33] INFO root fetch - processPackages [flask-minijson]: Remove: archive file [/home/abi/fetcher/tmp/flask-minijson-0.2.tar.gz]
+[2024-04-05 09:24:33] INFO root fetch - processPackages [flask-minijson]: Remove: archive file [/home/abi/fetcher/tmp/flask-minijson-0.3.tar.gz]
+[2024-04-05 09:24:33] INFO root fetch - main [MainThread]: End processing [flask-minijson]: success
+[2024-04-05 09:24:33] INFO root fetch - processPackages [test-esmf-loader]: Remove: archive file [/home/abi/fetcher/tmp/test_esmf_loader-0.0.1.tar.gz]
+[2024-04-05 09:24:33] INFO root fetch - processPackages [test-esmf-loader]: Remove: archive file [/home/abi/fetcher/tmp/test_esmf_loader-0.0.2.tar.gz]
+[2024-04-05 09:24:33] INFO root fetch - main [MainThread]: End processing [test-esmf-loader]: success
+[2024-04-05 09:24:33] INFO root fetch - processPackages [py-valid-proxy]: Remove: archive file [/home/abi/fetcher/tmp/py_valid_proxy-0.2.9.tar.gz]
+[2024-04-05 09:24:33] INFO root fetch - processPackages [py-valid-proxy]: Remove: archive file [/home/abi/fetcher/tmp/py_valid_proxy-0.3.0.tar.gz]
+[2024-04-05 09:24:33] INFO root fetch - main [MainThread]: End processing [py-valid-proxy]: success
+[2024-04-05 09:24:33] INFO root fetch - main [MainThread]: Store serial: [22632823]
