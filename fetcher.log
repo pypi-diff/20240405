@@ -8549,3 +8549,50 @@
 [2024-04-05 03:27:30] INFO root fetch - processPackages [geeViz]: Remove: archive file [/home/abi/fetcher/tmp/geeViz-2024.4.1.tar.gz]
 [2024-04-05 03:27:30] INFO root fetch - main [MainThread]: End processing [geeViz]: success
 [2024-04-05 03:27:30] INFO root fetch - main [MainThread]: Store serial: [22630754]
+[2024-04-05 03:29:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22630754]
+[2024-04-05 03:29:39] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-05 03:29:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: NUGigSkillNER
+[2024-04-05 03:29:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyAgrum-nightly
+[2024-04-05 03:29:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dragonfly-core
+[2024-04-05 03:29:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: GraphSL
+[2024-04-05 03:29:39] INFO root fetch - processPackages [NUGigSkillNER]: New version: [2.0.2] Old Version: [2.0.1]
+[2024-04-05 03:29:39] INFO root fetch - processPackages [NUGigSkillNER]: Downloading https://files.pythonhosted.org/packages/82/b8/14b26034a554075912f126041c18c825be2c493d87b7d2e88c1c73ae072c/NUGigSkillNER-2.0.1.tar.gz
+[2024-04-05 03:29:39] INFO root fetch - processPackages [GraphSL]: New version: [0.8] Old Version: [0.7]
+[2024-04-05 03:29:39] INFO root fetch - processPackages [dragonfly-core]: New version: [1.9.0] Old Version: [1.8.1]
+[2024-04-05 03:29:39] WARNING root fetch - processPackages [NUGigSkillNER]: Timeout reached during download
+[2024-04-05 03:29:39] INFO root fetch - processPackages [dragonfly-core]: Downloading https://files.pythonhosted.org/packages/93/fd/7cad9d4c9406e421f7ce31b725936bb32ec8a421f9b143e829c33cae55dd/dragonfly-core-1.8.1.tar.gz
+[2024-04-05 03:29:39] INFO root fetch - processPackages [GraphSL]: Downloading https://files.pythonhosted.org/packages/ff/31/e0eba85372c400aa45f4cea751aec0c87c9d2cfbfaec9d7d970a05b082ef/GraphSL-0.7.tar.gz
+[2024-04-05 03:29:39] WARNING root fetch - processPackages [dragonfly-core]: Timeout reached during download
+[2024-04-05 03:29:39] INFO root fetch - processPackages [dragonfly-core]: Downloading https://files.pythonhosted.org/packages/75/cb/4a1ce4726a070a188305b8d5343b4300bf24190845d85c8718cc31aa3e53/dragonfly-core-1.9.0.tar.gz
+[2024-04-05 03:29:39] INFO root fetch - processPackages [NUGigSkillNER]: Downloading https://files.pythonhosted.org/packages/ec/73/051b1489fd1733b4b36d68d24789fb5a0f79045e217fe34501ab7a6cbc4e/NUGigSkillNER-2.0.2.tar.gz
+[2024-04-05 03:29:39] WARNING root fetch - processPackages [GraphSL]: Timeout reached during download
+[2024-04-05 03:29:40] WARNING root fetch - processPackages [dragonfly-core]: Timeout reached during download
+[2024-04-05 03:29:40] INFO root fetch - processPackages [dragonfly-core]: executing diffoscope
+[2024-04-05 03:29:40] INFO root fetch - processPackages [dragonfly-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dragonfly-core-1.8.1.tar.gz tmp/dragonfly-core-1.9.0.tar.gz --markdown 20240405/d/dragonfly-core/1.8.1-1.9.0/diff.md --exclude *.pyd
+[2024-04-05 03:29:40] WARNING root fetch - processPackages [NUGigSkillNER]: Timeout reached during download
+[2024-04-05 03:29:40] INFO root fetch - processPackages [NUGigSkillNER]: executing diffoscope
+[2024-04-05 03:29:40] INFO root fetch - processPackages [NUGigSkillNER]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/NUGigSkillNER-2.0.1.tar.gz tmp/NUGigSkillNER-2.0.2.tar.gz --markdown 20240405/N/NUGigSkillNER/2.0.1-2.0.2/diff.md --exclude *.pyd
+[2024-04-05 03:29:40] INFO root fetch - processPackages [pyAgrum-nightly]: New version: [1.9.0.9.dev202310191697564854] Old Version: [1.9.0.9.dev202310181697564854]
+[2024-04-05 03:29:40] INFO root fetch - processPackages [GraphSL]: Downloading https://files.pythonhosted.org/packages/dd/f2/869ce786e399cfbe7b322552f70990b23c74dfd6ae47d63f62c629c18fc7/GraphSL-0.8.tar.gz
+[2024-04-05 03:29:40] WARNING root fetch - processPackages [GraphSL]: Timeout reached during download
+[2024-04-05 03:29:40] INFO root fetch - processPackages [GraphSL]: executing diffoscope
+[2024-04-05 03:29:40] INFO root fetch - processPackages [GraphSL]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/GraphSL-0.7.tar.gz tmp/GraphSL-0.8.tar.gz --markdown 20240405/G/GraphSL/0.7-0.8/diff.md --exclude *.pyd
+[2024-04-05 03:29:40] INFO root fetch - processPackages [pyAgrum-nightly]: Downloading https://files.pythonhosted.org/packages/64/23/4308469c4be3abcfc53ec2ccbd7dcca1618077035522cae4b364a9c6cc56/pyAgrum_nightly-1.9.0.9.dev202310181697564854-cp39-cp39-win_amd64.whl
+[2024-04-05 03:29:40] WARNING root fetch - processPackages [pyAgrum-nightly]: Timeout reached during download
+[2024-04-05 03:29:40] INFO root fetch - processPackages [NUGigSkillNER]: Remove: archive file [/home/abi/fetcher/tmp/NUGigSkillNER-2.0.1.tar.gz]
+[2024-04-05 03:29:40] INFO root fetch - processPackages [NUGigSkillNER]: Remove: archive file [/home/abi/fetcher/tmp/NUGigSkillNER-2.0.2.tar.gz]
+[2024-04-05 03:29:40] INFO root fetch - main [MainThread]: End processing [NUGigSkillNER]: success
+[2024-04-05 03:29:40] INFO root fetch - processPackages [GraphSL]: Remove: archive file [/home/abi/fetcher/tmp/GraphSL-0.7.tar.gz]
+[2024-04-05 03:29:40] INFO root fetch - processPackages [GraphSL]: Remove: archive file [/home/abi/fetcher/tmp/GraphSL-0.8.tar.gz]
+[2024-04-05 03:29:40] INFO root fetch - main [MainThread]: End processing [GraphSL]: success
+[2024-04-05 03:29:40] INFO root fetch - processPackages [dragonfly-core]: Remove: archive file [/home/abi/fetcher/tmp/dragonfly-core-1.8.1.tar.gz]
+[2024-04-05 03:29:40] INFO root fetch - processPackages [dragonfly-core]: Remove: archive file [/home/abi/fetcher/tmp/dragonfly-core-1.9.0.tar.gz]
+[2024-04-05 03:29:40] INFO root fetch - main [MainThread]: End processing [dragonfly-core]: success
+[2024-04-05 03:29:40] INFO root fetch - processPackages [pyAgrum-nightly]: Downloading https://files.pythonhosted.org/packages/84/cc/6d2d3b13a2080cfbfa9792321774075d119b4fa37902c5a9d93d8eccf13d/pyAgrum_nightly-1.9.0.9.dev202310191697564854-cp39-cp39-win_amd64.whl
+[2024-04-05 03:29:41] WARNING root fetch - processPackages [pyAgrum-nightly]: Timeout reached during download
+[2024-04-05 03:29:41] INFO root fetch - processPackages [pyAgrum-nightly]: executing diffoscope
+[2024-04-05 03:29:41] INFO root fetch - processPackages [pyAgrum-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyAgrum_nightly-1.9.0.9.dev202310181697564854-cp39-cp39-win_amd64.whl.zip tmp/pyAgrum_nightly-1.9.0.9.dev202310191697564854-cp39-cp39-win_amd64.whl.zip --markdown 20240405/p/pyAgrum-nightly/1.9.0.9.dev202310181697564854-1.9.0.9.dev202310191697564854/diff.md --exclude *.pyd
+[2024-04-05 03:29:41] INFO root fetch - processPackages [pyAgrum-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pyAgrum_nightly-1.9.0.9.dev202310181697564854-cp39-cp39-win_amd64.whl.zip]
+[2024-04-05 03:29:41] INFO root fetch - processPackages [pyAgrum-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pyAgrum_nightly-1.9.0.9.dev202310191697564854-cp39-cp39-win_amd64.whl.zip]
+[2024-04-05 03:29:41] INFO root fetch - main [MainThread]: End processing [pyAgrum-nightly]: success
+[2024-04-05 03:29:41] INFO root fetch - main [MainThread]: Store serial: [22630835]
