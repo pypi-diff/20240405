@@ -13774,3 +13774,105 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2024-04-05 08:40:59] INFO root fetch - processPackages [odoo13-addon-base-import-odoo]: Remove: archive file [/home/abi/fetcher/tmp/odoo13_addon_base_import_odoo-13.0.1.0.1.dev9-py3-none-any.whl.zip]
 [2024-04-05 08:40:59] INFO root fetch - main [MainThread]: End processing [odoo13-addon-base-import-odoo]: success
 [2024-04-05 08:40:59] INFO root fetch - main [MainThread]: Store serial: [22632555]
+[2024-04-05 08:43:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22632555]
+[2024-04-05 08:43:08] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-04-05 08:43:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: httpx-ws
+[2024-04-05 08:43:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cpg-workflows
+[2024-04-05 08:43:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: unstructured
+[2024-04-05 08:43:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo14-addons-oca-server-tools
+[2024-04-05 08:43:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo-addon-attachment-queue
+[2024-04-05 08:43:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo-addon-excel-import-export
+[2024-04-05 08:43:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: odoo-addon-attachment-synchronize
+[2024-04-05 08:43:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: odoo-addon-rpc-helper
+[2024-04-05 08:43:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: ceasylog
+[2024-04-05 08:43:08] INFO root fetch - processPackages [unstructured]: New version: [0.9.3] Old Version: [0.9.2]
+[2024-04-05 08:43:08] INFO root fetch - processPackages [cpg-workflows]: New version: [1.9.1] Old Version: [1.9.0]
+[2024-04-05 08:43:08] INFO root fetch - processPackages [httpx-ws]: New version: [0.6.0] Old Version: [0.5.2]
+[2024-04-05 08:43:08] INFO root fetch - processPackages [odoo-addon-attachment-queue]: New version: [16.0.1.2.0.2] Old Version: [16.0.1.2.0.1]
+[2024-04-05 08:43:08] INFO root fetch - processPackages [odoo14-addons-oca-server-tools]: New version: [14.0.20240404.0] Old Version: [14.0.20240223.0]
+[2024-04-05 08:43:08] INFO root fetch - processPackages [odoo-addon-excel-import-export]: New version: [16.0.1.1.0.9] Old Version: [16.0.1.1.0.8]
+[2024-04-05 08:43:08] INFO root fetch - processPackages [cpg-workflows]: Downloading https://files.pythonhosted.org/packages/97/85/ebcf50223506f96abcfa077315ab244e192faa632ed400789582dcf565e0/cpg-workflows-1.9.0.tar.gz
+[2024-04-05 08:43:08] INFO root fetch - processPackages [ceasylog]: New version: [1.2.2] Old Version: [1.2.1]
+[2024-04-05 08:43:08] INFO root fetch - processPackages [odoo-addon-rpc-helper]: New version: [16.0.1.0.0.9] Old Version: [16.0.1.0.0.8]
+[2024-04-05 08:43:08] INFO root fetch - processPackages [unstructured]: Downloading https://files.pythonhosted.org/packages/2b/07/65dbf266473566e0ec468de7b1dde0f34f9ec418de3f2fd0a36ec1c81a29/unstructured-0.9.2.tar.gz
+[2024-04-05 08:43:08] INFO root fetch - processPackages [httpx-ws]: Downloading https://files.pythonhosted.org/packages/27/73/e079fab2ffe3e975b9b917425dac4411591e324a36c21c2b5be1101093f2/httpx_ws-0.5.2.tar.gz
+[2024-04-05 08:43:08] INFO root fetch - processPackages [odoo-addon-attachment-synchronize]: New version: [16.0.1.0.0.8] Old Version: [16.0.1.0.0.7]
+[2024-04-05 08:43:08] INFO root fetch - processPackages [odoo-addon-attachment-queue]: Downloading https://files.pythonhosted.org/packages/f9/eb/48c139d71561a4fef57314e56efa1f671a3060abe13f16a4d19f12a14768/odoo_addon_attachment_queue-16.0.1.2.0.1-py3-none-any.whl
+[2024-04-05 08:43:08] WARNING root fetch - processPackages [cpg-workflows]: Timeout reached during download
+[2024-04-05 08:43:08] INFO root fetch - processPackages [odoo14-addons-oca-server-tools]: Downloading https://files.pythonhosted.org/packages/74/8b/5958f7c2214cae7bacfcc2523aefdd01ffb98807eabf8947eab999012fab/odoo14_addons_oca_server_tools-14.0.20240223.0-py3-none-any.whl
+[2024-04-05 08:43:08] INFO root fetch - processPackages [odoo-addon-excel-import-export]: Downloading https://files.pythonhosted.org/packages/de/1f/56609dea8fd149cb7f0cc70b890ebaccdff2a0a81993ab488eea5aa49ff2/odoo_addon_excel_import_export-16.0.1.1.0.8-py3-none-any.whl
+[2024-04-05 08:43:08] INFO root fetch - processPackages [odoo-addon-rpc-helper]: Downloading https://files.pythonhosted.org/packages/cb/bd/f97a3fd08ab3dd69381e7e8fba5f5bbc9bbf6a8d1a7daffd85074630d934/odoo_addon_rpc_helper-16.0.1.0.0.8-py3-none-any.whl
+[2024-04-05 08:43:08] INFO root fetch - processPackages [ceasylog]: Downloading https://files.pythonhosted.org/packages/3d/ac/73aa40aefb178a5a7f151457acc1ed1995b11958730e42def3718a8a9e9e/ceasylog-1.2.1.tar.gz
+[2024-04-05 08:43:08] WARNING root fetch - processPackages [httpx-ws]: Timeout reached during download
+[2024-04-05 08:43:08] INFO root fetch - processPackages [odoo-addon-attachment-synchronize]: Downloading https://files.pythonhosted.org/packages/c5/9b/3ab34383444ab87371d6078b7080f36e95f33f8bed61b5da6bdbc072d91d/odoo_addon_attachment_synchronize-16.0.1.0.0.7-py3-none-any.whl
+[2024-04-05 08:43:09] WARNING root fetch - processPackages [odoo14-addons-oca-server-tools]: Timeout reached during download
+[2024-04-05 08:43:09] WARNING root fetch - processPackages [odoo-addon-excel-import-export]: Timeout reached during download
+[2024-04-05 08:43:09] WARNING root fetch - processPackages [odoo-addon-attachment-queue]: Timeout reached during download
+[2024-04-05 08:43:09] WARNING root fetch - processPackages [odoo-addon-rpc-helper]: Timeout reached during download
+[2024-04-05 08:43:09] WARNING root fetch - processPackages [ceasylog]: Timeout reached during download
+[2024-04-05 08:43:09] WARNING root fetch - processPackages [unstructured]: Timeout reached during download
+[2024-04-05 08:43:09] INFO root fetch - processPackages [cpg-workflows]: Downloading https://files.pythonhosted.org/packages/0d/82/bd0cb905c3b340f5cd9b1eb95911c5444e8ba0f6369afc3c60336fed7e14/cpg-workflows-1.9.1.tar.gz
+[2024-04-05 08:43:09] INFO root fetch - processPackages [httpx-ws]: Downloading https://files.pythonhosted.org/packages/71/ec/a726359cebb1ab2a4a73c269e5cffa197b64004a63aa92acaa674c1bc182/httpx_ws-0.6.0.tar.gz
+[2024-04-05 08:43:09] WARNING root fetch - processPackages [odoo-addon-attachment-synchronize]: Timeout reached during download
+[2024-04-05 08:43:09] INFO root fetch - processPackages [unstructured]: Downloading https://files.pythonhosted.org/packages/ac/a9/a2a4960862c51f378935fe68784e0e92c49da56872740acd70e6c10853e0/unstructured-0.9.3.tar.gz
+[2024-04-05 08:43:09] INFO root fetch - processPackages [odoo14-addons-oca-server-tools]: Downloading https://files.pythonhosted.org/packages/25/c6/49ad2b1fec6fa89dab401860942ef0dd013a02355ec295de7a614be38788/odoo14_addons_oca_server_tools-14.0.20240404.0-py3-none-any.whl
+[2024-04-05 08:43:09] INFO root fetch - processPackages [odoo-addon-excel-import-export]: Downloading https://files.pythonhosted.org/packages/49/d9/e2d3633b5685af1ec1852772cdee9283d48e9fd1152b6dee75e703468f2a/odoo_addon_excel_import_export-16.0.1.1.0.9-py3-none-any.whl
+[2024-04-05 08:43:09] INFO root fetch - processPackages [ceasylog]: Downloading https://files.pythonhosted.org/packages/e5/4a/527e332388ab7c604da2d92741bfe8e5049e2b0d1682a9b70b7018fc1114/ceasylog-1.2.2.tar.gz
+[2024-04-05 08:43:09] INFO root fetch - processPackages [odoo-addon-rpc-helper]: Downloading https://files.pythonhosted.org/packages/16/b9/20bf3edaa7666d526ee1d61b6c8b13d9ea1746663f3b7236a6284be580dc/odoo_addon_rpc_helper-16.0.1.0.0.9-py3-none-any.whl
+[2024-04-05 08:43:09] WARNING root fetch - processPackages [httpx-ws]: Timeout reached during download
+[2024-04-05 08:43:09] WARNING root fetch - processPackages [cpg-workflows]: Timeout reached during download
+[2024-04-05 08:43:09] INFO root fetch - processPackages [httpx-ws]: executing diffoscope
+[2024-04-05 08:43:09] INFO root fetch - processPackages [httpx-ws]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/httpx_ws-0.5.2.tar.gz tmp/httpx_ws-0.6.0.tar.gz --markdown 20240405/h/httpx-ws/0.5.2-0.6.0/diff.md --exclude *.pyd
+[2024-04-05 08:43:09] INFO root fetch - processPackages [cpg-workflows]: executing diffoscope
+[2024-04-05 08:43:09] INFO root fetch - processPackages [cpg-workflows]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cpg-workflows-1.9.0.tar.gz tmp/cpg-workflows-1.9.1.tar.gz --markdown 20240405/c/cpg-workflows/1.9.0-1.9.1/diff.md --exclude *.pyd
+[2024-04-05 08:43:09] INFO root fetch - processPackages [odoo-addon-attachment-queue]: Downloading https://files.pythonhosted.org/packages/8f/15/9d210c7d97188f95ea8ebba68aa90092d3ca5756594f650dd9b43d905a68/odoo_addon_attachment_queue-16.0.1.2.0.2-py3-none-any.whl
+[2024-04-05 08:43:09] INFO root fetch - processPackages [odoo-addon-attachment-synchronize]: Downloading https://files.pythonhosted.org/packages/37/fa/adedd125ac6f3b2de9ca38d53fd5e2f8a496e51f3b8e0f64a28761d2b90e/odoo_addon_attachment_synchronize-16.0.1.0.0.8-py3-none-any.whl
+[2024-04-05 08:43:09] WARNING root fetch - processPackages [odoo14-addons-oca-server-tools]: Timeout reached during download
+[2024-04-05 08:43:09] INFO root fetch - processPackages [odoo14-addons-oca-server-tools]: executing diffoscope
+[2024-04-05 08:43:09] INFO root fetch - processPackages [odoo14-addons-oca-server-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addons_oca_server_tools-14.0.20240223.0-py3-none-any.whl.zip tmp/odoo14_addons_oca_server_tools-14.0.20240404.0-py3-none-any.whl.zip --markdown 20240405/o/odoo14-addons-oca-server-tools/14.0.20240223.0-14.0.20240404.0/diff.md --exclude *.pyd
+[2024-04-05 08:43:09] WARNING root fetch - processPackages [odoo-addon-excel-import-export]: Timeout reached during download
+[2024-04-05 08:43:09] INFO root fetch - processPackages [odoo-addon-excel-import-export]: executing diffoscope
+[2024-04-05 08:43:09] INFO root fetch - processPackages [odoo-addon-excel-import-export]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_excel_import_export-16.0.1.1.0.8-py3-none-any.whl.zip tmp/odoo_addon_excel_import_export-16.0.1.1.0.9-py3-none-any.whl.zip --markdown 20240405/o/odoo-addon-excel-import-export/16.0.1.1.0.8-16.0.1.1.0.9/diff.md --exclude *.pyd
+[2024-04-05 08:43:09] WARNING root fetch - processPackages [ceasylog]: Timeout reached during download
+[2024-04-05 08:43:09] INFO root fetch - processPackages [ceasylog]: executing diffoscope
+[2024-04-05 08:43:09] INFO root fetch - processPackages [ceasylog]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ceasylog-1.2.1.tar.gz tmp/ceasylog-1.2.2.tar.gz --markdown 20240405/c/ceasylog/1.2.1-1.2.2/diff.md --exclude *.pyd
+[2024-04-05 08:43:09] WARNING root fetch - processPackages [odoo-addon-rpc-helper]: Timeout reached during download
+[2024-04-05 08:43:09] INFO root fetch - processPackages [odoo-addon-rpc-helper]: executing diffoscope
+[2024-04-05 08:43:09] INFO root fetch - processPackages [odoo-addon-rpc-helper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_rpc_helper-16.0.1.0.0.8-py3-none-any.whl.zip tmp/odoo_addon_rpc_helper-16.0.1.0.0.9-py3-none-any.whl.zip --markdown 20240405/o/odoo-addon-rpc-helper/16.0.1.0.0.8-16.0.1.0.0.9/diff.md --exclude *.pyd
+[2024-04-05 08:43:09] WARNING root fetch - processPackages [odoo-addon-attachment-queue]: Timeout reached during download
+[2024-04-05 08:43:09] INFO root fetch - processPackages [odoo-addon-attachment-queue]: executing diffoscope
+[2024-04-05 08:43:09] INFO root fetch - processPackages [odoo-addon-attachment-queue]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_attachment_queue-16.0.1.2.0.1-py3-none-any.whl.zip tmp/odoo_addon_attachment_queue-16.0.1.2.0.2-py3-none-any.whl.zip --markdown 20240405/o/odoo-addon-attachment-queue/16.0.1.2.0.1-16.0.1.2.0.2/diff.md --exclude *.pyd
+[2024-04-05 08:43:09] WARNING root fetch - processPackages [odoo-addon-attachment-synchronize]: Timeout reached during download
+[2024-04-05 08:43:09] INFO root fetch - processPackages [odoo-addon-attachment-synchronize]: executing diffoscope
+[2024-04-05 08:43:09] INFO root fetch - processPackages [odoo-addon-attachment-synchronize]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_attachment_synchronize-16.0.1.0.0.7-py3-none-any.whl.zip tmp/odoo_addon_attachment_synchronize-16.0.1.0.0.8-py3-none-any.whl.zip --markdown 20240405/o/odoo-addon-attachment-synchronize/16.0.1.0.0.7-16.0.1.0.0.8/diff.md --exclude *.pyd
+[2024-04-05 08:43:09] WARNING root fetch - processPackages [unstructured]: Timeout reached during download
+[2024-04-05 08:43:09] INFO root fetch - processPackages [unstructured]: executing diffoscope
+[2024-04-05 08:43:09] INFO root fetch - processPackages [unstructured]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unstructured-0.9.2.tar.gz tmp/unstructured-0.9.3.tar.gz --markdown 20240405/u/unstructured/0.9.2-0.9.3/diff.md --exclude *.pyd
+[2024-04-05 08:43:10] INFO root fetch - processPackages [odoo14-addons-oca-server-tools]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addons_oca_server_tools-14.0.20240223.0-py3-none-any.whl.zip]
+[2024-04-05 08:43:10] INFO root fetch - processPackages [odoo14-addons-oca-server-tools]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addons_oca_server_tools-14.0.20240404.0-py3-none-any.whl.zip]
+[2024-04-05 08:43:10] INFO root fetch - main [MainThread]: End processing [odoo14-addons-oca-server-tools]: success
+[2024-04-05 08:43:10] INFO root fetch - processPackages [ceasylog]: Remove: archive file [/home/abi/fetcher/tmp/ceasylog-1.2.1.tar.gz]
+[2024-04-05 08:43:10] INFO root fetch - processPackages [ceasylog]: Remove: archive file [/home/abi/fetcher/tmp/ceasylog-1.2.2.tar.gz]
+[2024-04-05 08:43:10] INFO root fetch - main [MainThread]: End processing [ceasylog]: success
+[2024-04-05 08:43:10] INFO root fetch - processPackages [httpx-ws]: Remove: archive file [/home/abi/fetcher/tmp/httpx_ws-0.5.2.tar.gz]
+[2024-04-05 08:43:10] INFO root fetch - processPackages [httpx-ws]: Remove: archive file [/home/abi/fetcher/tmp/httpx_ws-0.6.0.tar.gz]
+[2024-04-05 08:43:10] INFO root fetch - main [MainThread]: End processing [httpx-ws]: success
+[2024-04-05 08:43:10] INFO root fetch - processPackages [odoo-addon-rpc-helper]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_rpc_helper-16.0.1.0.0.8-py3-none-any.whl.zip]
+[2024-04-05 08:43:10] INFO root fetch - processPackages [odoo-addon-rpc-helper]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_rpc_helper-16.0.1.0.0.9-py3-none-any.whl.zip]
+[2024-04-05 08:43:10] INFO root fetch - main [MainThread]: End processing [odoo-addon-rpc-helper]: success
+[2024-04-05 08:43:10] INFO root fetch - processPackages [odoo-addon-attachment-synchronize]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_attachment_synchronize-16.0.1.0.0.7-py3-none-any.whl.zip]
+[2024-04-05 08:43:10] INFO root fetch - processPackages [odoo-addon-attachment-synchronize]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_attachment_synchronize-16.0.1.0.0.8-py3-none-any.whl.zip]
+[2024-04-05 08:43:10] INFO root fetch - main [MainThread]: End processing [odoo-addon-attachment-synchronize]: success
+[2024-04-05 08:43:10] INFO root fetch - processPackages [odoo-addon-attachment-queue]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_attachment_queue-16.0.1.2.0.1-py3-none-any.whl.zip]
+[2024-04-05 08:43:10] INFO root fetch - processPackages [odoo-addon-attachment-queue]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_attachment_queue-16.0.1.2.0.2-py3-none-any.whl.zip]
+[2024-04-05 08:43:10] INFO root fetch - main [MainThread]: End processing [odoo-addon-attachment-queue]: success
+[2024-04-05 08:43:10] INFO root fetch - processPackages [cpg-workflows]: Remove: archive file [/home/abi/fetcher/tmp/cpg-workflows-1.9.0.tar.gz]
+[2024-04-05 08:43:10] INFO root fetch - processPackages [cpg-workflows]: Remove: archive file [/home/abi/fetcher/tmp/cpg-workflows-1.9.1.tar.gz]
+[2024-04-05 08:43:10] INFO root fetch - main [MainThread]: End processing [cpg-workflows]: success
+[2024-04-05 08:43:10] INFO root fetch - processPackages [odoo-addon-excel-import-export]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_excel_import_export-16.0.1.1.0.8-py3-none-any.whl.zip]
+[2024-04-05 08:43:10] INFO root fetch - processPackages [odoo-addon-excel-import-export]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_excel_import_export-16.0.1.1.0.9-py3-none-any.whl.zip]
+[2024-04-05 08:43:10] INFO root fetch - main [MainThread]: End processing [odoo-addon-excel-import-export]: success
+[2024-04-05 08:43:11] INFO root fetch - processPackages [unstructured]: Remove: archive file [/home/abi/fetcher/tmp/unstructured-0.9.2.tar.gz]
+[2024-04-05 08:43:11] INFO root fetch - processPackages [unstructured]: Remove: archive file [/home/abi/fetcher/tmp/unstructured-0.9.3.tar.gz]
+[2024-04-05 08:43:11] INFO root fetch - main [MainThread]: End processing [unstructured]: success
+[2024-04-05 08:43:11] INFO root fetch - main [MainThread]: Store serial: [22632576]
