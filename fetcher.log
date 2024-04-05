@@ -23001,3 +23001,70 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2024-04-05 14:49:20] INFO root fetch - processPackages [flowtask]: Remove: archive file [/home/abi/fetcher/tmp/flowtask-5.2.9-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
 [2024-04-05 14:49:20] INFO root fetch - main [MainThread]: End processing [flowtask]: success
 [2024-04-05 14:49:20] INFO root fetch - main [MainThread]: Store serial: [22636095]
+[2024-04-05 14:51:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22636095]
+[2024-04-05 14:51:29] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-05 14:51:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyais
+[2024-04-05 14:51:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: stringx
+[2024-04-05 14:51:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: saucelabs-visual
+[2024-04-05 14:51:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: lwviewv2
+[2024-04-05 14:51:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: geodynamic
+[2024-04-05 14:51:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: riptide-cli
+[2024-04-05 14:51:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ts-soup
+[2024-04-05 14:51:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: syncmodels
+[2024-04-05 14:51:30] WARNING root fetch - processPackages [ts-soup]: Skipping, unable to determine old version
+[2024-04-05 14:51:30] INFO root fetch - main [MainThread]: End processing [ts-soup] error
+[2024-04-05 14:51:30] INFO root fetch - processPackages [lwviewv2]: New version: [1.2.0] Old Version: [1.1.0]
+[2024-04-05 14:51:30] WARNING root fetch - processPackages [saucelabs-visual]: Skipping, unable to determine old version
+[2024-04-05 14:51:30] INFO root fetch - main [MainThread]: End processing [saucelabs-visual] error
+[2024-04-05 14:51:30] INFO root fetch - processPackages [riptide-cli]: New version: [0.8.2] Old Version: [0.8.1]
+[2024-04-05 14:51:30] WARNING root fetch - processPackages [geodynamic]: Skipping, unable to determine old version
+[2024-04-05 14:51:30] INFO root fetch - main [MainThread]: End processing [geodynamic] error
+[2024-04-05 14:51:30] INFO root fetch - processPackages [stringx]: New version: [0.4.0] Old Version: [0.3.0]
+[2024-04-05 14:51:30] INFO root fetch - processPackages [syncmodels]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-05 14:51:30] INFO root fetch - processPackages [pyais]: New version: [2.6.3] Old Version: [2.6.2]
+[2024-04-05 14:51:30] INFO root fetch - processPackages [lwviewv2]: Downloading https://files.pythonhosted.org/packages/7d/8b/867d6dd57d9751297e8f8747a4f5631295c51ecb57f7afb68a164f3cba79/lwviewv2-1.1.0.tar.gz
+[2024-04-05 14:51:30] INFO root fetch - processPackages [stringx]: Downloading https://files.pythonhosted.org/packages/79/a1/822ee4830d2aa607f24779cfabf25ae691e63df975e995329bf6382febf4/stringx-0.3.0.tar.gz
+[2024-04-05 14:51:30] INFO root fetch - processPackages [pyais]: Downloading https://files.pythonhosted.org/packages/6d/e6/ac2b55bce23efdd33392fc9aaea92ff96fe835ae7d2b0f1b712d7a9d6905/pyais-2.6.2.tar.gz
+[2024-04-05 14:51:30] INFO root fetch - processPackages [riptide-cli]: Downloading https://files.pythonhosted.org/packages/25/2a/518bb49b1c39a5efb7a5c7ba2721b458abf71660bec369fc2dca8d2d0f87/riptide_cli-0.8.1-py3-none-any.whl
+[2024-04-05 14:51:30] WARNING root fetch - processPackages [lwviewv2]: Timeout reached during download
+[2024-04-05 14:51:30] INFO root fetch - processPackages [syncmodels]: Downloading https://files.pythonhosted.org/packages/09/13/db4988a642af43523190154e2a5fc392ebeed8a8fa626973e593b7c6b635/syncmodels-0.1.8-py2.py3-none-any.whl
+[2024-04-05 14:51:30] WARNING root fetch - processPackages [riptide-cli]: Timeout reached during download
+[2024-04-05 14:51:30] WARNING root fetch - processPackages [pyais]: Timeout reached during download
+[2024-04-05 14:51:30] WARNING root fetch - processPackages [syncmodels]: Timeout reached during download
+[2024-04-05 14:51:30] WARNING root fetch - processPackages [stringx]: Timeout reached during download
+[2024-04-05 14:51:30] INFO root fetch - processPackages [lwviewv2]: Downloading https://files.pythonhosted.org/packages/bc/6f/4076d087b4c6a1ee4576506619e1f090d62d0b3b7d80297e0fcd6dd2b3b5/lwviewv2-1.2.0.tar.gz
+[2024-04-05 14:51:30] INFO root fetch - processPackages [riptide-cli]: Downloading https://files.pythonhosted.org/packages/43/b1/92aebd461a0e691ac9e80353ef4d17fa1bc39785a8e67aab7d429f586e72/riptide_cli-0.8.2-py3-none-any.whl
+[2024-04-05 14:51:30] WARNING root fetch - processPackages [lwviewv2]: Timeout reached during download
+[2024-04-05 14:51:30] INFO root fetch - processPackages [lwviewv2]: executing diffoscope
+[2024-04-05 14:51:30] INFO root fetch - processPackages [lwviewv2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lwviewv2-1.1.0.tar.gz tmp/lwviewv2-1.2.0.tar.gz --markdown 20240405/l/lwviewv2/1.1.0-1.2.0/diff.md --exclude *.pyd
+[2024-04-05 14:51:30] INFO root fetch - processPackages [pyais]: Downloading https://files.pythonhosted.org/packages/51/86/564725ae79e79a9fd34b6330b5fbd7a13a4a58f1d7584f0c70fe8e205514/pyais-2.6.3.tar.gz
+[2024-04-05 14:51:30] INFO root fetch - processPackages [stringx]: Downloading https://files.pythonhosted.org/packages/52/fa/989224db35cd68bb4ac1fcfda87c13a08e1d1106178851cb305c645e240e/stringx-0.4.0.tar.gz
+[2024-04-05 14:51:30] INFO root fetch - processPackages [syncmodels]: Downloading https://files.pythonhosted.org/packages/fa/f6/eeeb0b12fc045f5917cfc3967317eddb0f896b12df99ee9cb26dd42b0529/syncmodels-0.1.9-py2.py3-none-any.whl
+[2024-04-05 14:51:31] WARNING root fetch - processPackages [riptide-cli]: Timeout reached during download
+[2024-04-05 14:51:31] INFO root fetch - processPackages [riptide-cli]: executing diffoscope
+[2024-04-05 14:51:31] INFO root fetch - processPackages [riptide-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/riptide_cli-0.8.1-py3-none-any.whl.zip tmp/riptide_cli-0.8.2-py3-none-any.whl.zip --markdown 20240405/r/riptide-cli/0.8.1-0.8.2/diff.md --exclude *.pyd
+[2024-04-05 14:51:31] WARNING root fetch - processPackages [stringx]: Timeout reached during download
+[2024-04-05 14:51:31] INFO root fetch - processPackages [stringx]: executing diffoscope
+[2024-04-05 14:51:31] INFO root fetch - processPackages [stringx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stringx-0.3.0.tar.gz tmp/stringx-0.4.0.tar.gz --markdown 20240405/s/stringx/0.3.0-0.4.0/diff.md --exclude *.pyd
+[2024-04-05 14:51:31] WARNING root fetch - processPackages [pyais]: Timeout reached during download
+[2024-04-05 14:51:31] INFO root fetch - processPackages [pyais]: executing diffoscope
+[2024-04-05 14:51:31] INFO root fetch - processPackages [pyais]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyais-2.6.2.tar.gz tmp/pyais-2.6.3.tar.gz --markdown 20240405/p/pyais/2.6.2-2.6.3/diff.md --exclude *.pyd
+[2024-04-05 14:51:31] WARNING root fetch - processPackages [syncmodels]: Timeout reached during download
+[2024-04-05 14:51:31] INFO root fetch - processPackages [syncmodels]: executing diffoscope
+[2024-04-05 14:51:31] INFO root fetch - processPackages [syncmodels]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/syncmodels-0.1.8-py2.py3-none-any.whl.zip tmp/syncmodels-0.1.9-py2.py3-none-any.whl.zip --markdown 20240405/s/syncmodels/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2024-04-05 14:51:31] INFO root fetch - processPackages [lwviewv2]: Remove: archive file [/home/abi/fetcher/tmp/lwviewv2-1.1.0.tar.gz]
+[2024-04-05 14:51:31] INFO root fetch - processPackages [lwviewv2]: Remove: archive file [/home/abi/fetcher/tmp/lwviewv2-1.2.0.tar.gz]
+[2024-04-05 14:51:31] INFO root fetch - main [MainThread]: End processing [lwviewv2]: success
+[2024-04-05 14:51:31] INFO root fetch - processPackages [stringx]: Remove: archive file [/home/abi/fetcher/tmp/stringx-0.3.0.tar.gz]
+[2024-04-05 14:51:31] INFO root fetch - processPackages [stringx]: Remove: archive file [/home/abi/fetcher/tmp/stringx-0.4.0.tar.gz]
+[2024-04-05 14:51:31] INFO root fetch - main [MainThread]: End processing [stringx]: success
+[2024-04-05 14:51:31] INFO root fetch - processPackages [syncmodels]: Remove: archive file [/home/abi/fetcher/tmp/syncmodels-0.1.8-py2.py3-none-any.whl.zip]
+[2024-04-05 14:51:31] INFO root fetch - processPackages [syncmodels]: Remove: archive file [/home/abi/fetcher/tmp/syncmodels-0.1.9-py2.py3-none-any.whl.zip]
+[2024-04-05 14:51:31] INFO root fetch - main [MainThread]: End processing [syncmodels]: success
+[2024-04-05 14:51:31] INFO root fetch - processPackages [riptide-cli]: Remove: archive file [/home/abi/fetcher/tmp/riptide_cli-0.8.1-py3-none-any.whl.zip]
+[2024-04-05 14:51:31] INFO root fetch - processPackages [riptide-cli]: Remove: archive file [/home/abi/fetcher/tmp/riptide_cli-0.8.2-py3-none-any.whl.zip]
+[2024-04-05 14:51:31] INFO root fetch - main [MainThread]: End processing [riptide-cli]: success
+[2024-04-05 14:51:31] INFO root fetch - processPackages [pyais]: Remove: archive file [/home/abi/fetcher/tmp/pyais-2.6.2.tar.gz]
+[2024-04-05 14:51:31] INFO root fetch - processPackages [pyais]: Remove: archive file [/home/abi/fetcher/tmp/pyais-2.6.3.tar.gz]
+[2024-04-05 14:51:31] INFO root fetch - main [MainThread]: End processing [pyais]: success
+[2024-04-05 14:51:31] INFO root fetch - main [MainThread]: Store serial: [22636122]
