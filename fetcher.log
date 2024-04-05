@@ -21382,3 +21382,77 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2024-04-05 13:49:58] INFO root fetch - processPackages [khoj-assistant]: Remove: archive file [/home/abi/fetcher/tmp/khoj_assistant-1.8.1.dev63.tar.gz]
 [2024-04-05 13:49:58] INFO root fetch - main [MainThread]: End processing [khoj-assistant]: success
 [2024-04-05 13:49:58] INFO root fetch - main [MainThread]: Store serial: [22635512]
+[2024-04-05 13:52:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22635512]
+[2024-04-05 13:52:07] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-05 13:52:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: specsanalyzer
+[2024-04-05 13:52:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: reproject
+[2024-04-05 13:52:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: certora-cli-alpha-master
+[2024-04-05 13:52:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tequila-basic
+[2024-04-05 13:52:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: fenics-beat
+[2024-04-05 13:52:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: chexus
+[2024-04-05 13:52:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: kafka-broker
+[2024-04-05 13:52:07] INFO root fetch - processPackages [certora-cli-alpha-master]: New version: [20240405.6.48.900258] Old Version: [20240405.10.27.914541]
+[2024-04-05 13:52:07] INFO root fetch - processPackages [kafka-broker]: New version: [0.3.4] Old Version: [0.3.3]
+[2024-04-05 13:52:07] INFO root fetch - processPackages [reproject]: New version: [0.9.1] Old Version: [0.9]
+[2024-04-05 13:52:07] INFO root fetch - processPackages [kafka-broker]: Downloading https://files.pythonhosted.org/packages/30/37/dfc77af2d576c50a02f541536f24e5e53d161b4ad7b2d6248a65e2c69ef1/kafka-broker-0.3.3.tar.gz
+[2024-04-05 13:52:07] INFO root fetch - processPackages [fenics-beat]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-04-05 13:52:07] INFO root fetch - processPackages [specsanalyzer]: New version: [0.1.6a0] Old Version: [0.1.5a0]
+[2024-04-05 13:52:07] INFO root fetch - processPackages [chexus]: New version: [24.4.0] Old Version: [23.12.0]
+[2024-04-05 13:52:07] INFO root fetch - processPackages [tequila-basic]: New version: [1.9.5] Old Version: [1.9.4]
+[2024-04-05 13:52:07] INFO root fetch - processPackages [certora-cli-alpha-master]: Downloading https://files.pythonhosted.org/packages/25/7a/d709d00093baf70bb18b079f49fcfaabaaffc8c17c0009d1e1b51a772e77/certora-cli-alpha-master-20240405.10.27.914541.tar.gz
+[2024-04-05 13:52:07] WARNING root fetch - processPackages [kafka-broker]: Timeout reached during download
+[2024-04-05 13:52:07] INFO root fetch - processPackages [reproject]: Downloading https://files.pythonhosted.org/packages/3d/12/ce03b72a5e620a0c37b7f6f5fd0aae7bf75d451897efbd6373c0f1748684/reproject-0.9.tar.gz
+[2024-04-05 13:52:07] INFO root fetch - processPackages [chexus]: Downloading https://files.pythonhosted.org/packages/e2/2c/8466d2fc05ad2770f9b6526547b8eea83264f4339587dce6315dd8fc9a44/chexus-23.12.0.tar.gz
+[2024-04-05 13:52:07] INFO root fetch - processPackages [fenics-beat]: Downloading https://files.pythonhosted.org/packages/9c/01/06025227901c03acf42faaa88fb75b917b31bacf84d7e87fe2354d7d77bd/fenics-beat-0.0.2.tar.gz
+[2024-04-05 13:52:08] WARNING root fetch - processPackages [certora-cli-alpha-master]: Skipping package: exceeds size limit 14476236>=10485760
+[2024-04-05 13:52:08] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-master] error
+[2024-04-05 13:52:08] INFO root fetch - processPackages [specsanalyzer]: Downloading https://files.pythonhosted.org/packages/12/4a/1aae756ec3d13f0f2b715572eabcecfdd654248c5233e18d884e7ca7b331/specsanalyzer-0.1.5a0.tar.gz
+[2024-04-05 13:52:08] INFO root fetch - processPackages [kafka-broker]: Downloading https://files.pythonhosted.org/packages/41/a4/f04155c6cb61f56eb30dd9bb14f9c3caa8eb3108fd0f8f18dc0c55552046/kafka-broker-0.3.4.tar.gz
+[2024-04-05 13:52:08] INFO root fetch - processPackages [tequila-basic]: Downloading https://files.pythonhosted.org/packages/e5/c6/0be5f6e108f2b58e75dc62f296e9395779f3301a97e897b787fc69d49917/tequila-basic-1.9.4.tar.gz
+[2024-04-05 13:52:08] WARNING root fetch - processPackages [kafka-broker]: Timeout reached during download
+[2024-04-05 13:52:08] INFO root fetch - processPackages [kafka-broker]: executing diffoscope
+[2024-04-05 13:52:08] INFO root fetch - processPackages [kafka-broker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kafka-broker-0.3.3.tar.gz tmp/kafka-broker-0.3.4.tar.gz --markdown 20240405/k/kafka-broker/0.3.3-0.3.4/diff.md --exclude *.pyd
+[2024-04-05 13:52:08] WARNING root fetch - processPackages [chexus]: Timeout reached during download
+[2024-04-05 13:52:08] WARNING root fetch - processPackages [fenics-beat]: Timeout reached during download
+[2024-04-05 13:52:08] WARNING root fetch - processPackages [reproject]: Timeout reached during download
+[2024-04-05 13:52:08] WARNING root fetch - processPackages [specsanalyzer]: Timeout reached during download
+[2024-04-05 13:52:08] WARNING root fetch - processPackages [tequila-basic]: Timeout reached during download
+[2024-04-05 13:52:08] INFO root fetch - processPackages [chexus]: Downloading https://files.pythonhosted.org/packages/a8/e9/40a23f9a18abc28a1c0d73effa802f28fee730dfb4bf436fe9e31bccd73e/chexus-24.4.0.tar.gz
+[2024-04-05 13:52:08] INFO root fetch - processPackages [fenics-beat]: Downloading https://files.pythonhosted.org/packages/19/ac/2ae73b667b19b5e0312efe936a6257be805227d8e03cbe69f59d78477f49/fenics-beat-0.0.3.tar.gz
+[2024-04-05 13:52:08] INFO root fetch - processPackages [reproject]: Downloading https://files.pythonhosted.org/packages/ce/b5/791fdc6d0ac0ffc5cfcced205d173214bce918ef55505809c5bd00c71c2c/reproject-0.9.1.tar.gz
+[2024-04-05 13:52:08] INFO root fetch - processPackages [specsanalyzer]: Downloading https://files.pythonhosted.org/packages/38/f1/f1121adc7f12fa9e5402f1b9bfb245c45e505627c56972dfc114ccc54ee9/specsanalyzer-0.1.6a0.tar.gz
+[2024-04-05 13:52:08] INFO root fetch - processPackages [tequila-basic]: Downloading https://files.pythonhosted.org/packages/05/2e/4abe93d45d2142ebc40ae14b135ea2a11b75dcbedaf3c882e34b6b98093d/tequila-basic-1.9.5.tar.gz
+[2024-04-05 13:52:08] WARNING root fetch - processPackages [chexus]: Timeout reached during download
+[2024-04-05 13:52:08] INFO root fetch - processPackages [chexus]: executing diffoscope
+[2024-04-05 13:52:08] INFO root fetch - processPackages [chexus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chexus-23.12.0.tar.gz tmp/chexus-24.4.0.tar.gz --markdown 20240405/c/chexus/23.12.0-24.4.0/diff.md --exclude *.pyd
+[2024-04-05 13:52:08] WARNING root fetch - processPackages [fenics-beat]: Timeout reached during download
+[2024-04-05 13:52:08] INFO root fetch - processPackages [fenics-beat]: executing diffoscope
+[2024-04-05 13:52:08] INFO root fetch - processPackages [fenics-beat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fenics-beat-0.0.2.tar.gz tmp/fenics-beat-0.0.3.tar.gz --markdown 20240405/f/fenics-beat/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2024-04-05 13:52:08] WARNING root fetch - processPackages [specsanalyzer]: Timeout reached during download
+[2024-04-05 13:52:08] INFO root fetch - processPackages [specsanalyzer]: executing diffoscope
+[2024-04-05 13:52:08] INFO root fetch - processPackages [specsanalyzer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/specsanalyzer-0.1.5a0.tar.gz tmp/specsanalyzer-0.1.6a0.tar.gz --markdown 20240405/s/specsanalyzer/0.1.5a0-0.1.6a0/diff.md --exclude *.pyd
+[2024-04-05 13:52:08] INFO root fetch - processPackages [kafka-broker]: Remove: archive file [/home/abi/fetcher/tmp/kafka-broker-0.3.3.tar.gz]
+[2024-04-05 13:52:08] INFO root fetch - processPackages [kafka-broker]: Remove: archive file [/home/abi/fetcher/tmp/kafka-broker-0.3.4.tar.gz]
+[2024-04-05 13:52:08] INFO root fetch - main [MainThread]: End processing [kafka-broker]: success
+[2024-04-05 13:52:08] WARNING root fetch - processPackages [tequila-basic]: Timeout reached during download
+[2024-04-05 13:52:08] INFO root fetch - processPackages [tequila-basic]: executing diffoscope
+[2024-04-05 13:52:08] INFO root fetch - processPackages [tequila-basic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tequila-basic-1.9.4.tar.gz tmp/tequila-basic-1.9.5.tar.gz --markdown 20240405/t/tequila-basic/1.9.4-1.9.5/diff.md --exclude *.pyd
+[2024-04-05 13:52:09] WARNING root fetch - processPackages [reproject]: Timeout reached during download
+[2024-04-05 13:52:09] INFO root fetch - processPackages [reproject]: executing diffoscope
+[2024-04-05 13:52:09] INFO root fetch - processPackages [reproject]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reproject-0.9.tar.gz tmp/reproject-0.9.1.tar.gz --markdown 20240405/r/reproject/0.9-0.9.1/diff.md --exclude *.pyd
+[2024-04-05 13:52:09] INFO root fetch - processPackages [specsanalyzer]: Remove: archive file [/home/abi/fetcher/tmp/specsanalyzer-0.1.5a0.tar.gz]
+[2024-04-05 13:52:09] INFO root fetch - processPackages [specsanalyzer]: Remove: archive file [/home/abi/fetcher/tmp/specsanalyzer-0.1.6a0.tar.gz]
+[2024-04-05 13:52:09] INFO root fetch - main [MainThread]: End processing [specsanalyzer]: success
+[2024-04-05 13:52:09] INFO root fetch - processPackages [chexus]: Remove: archive file [/home/abi/fetcher/tmp/chexus-23.12.0.tar.gz]
+[2024-04-05 13:52:09] INFO root fetch - processPackages [chexus]: Remove: archive file [/home/abi/fetcher/tmp/chexus-24.4.0.tar.gz]
+[2024-04-05 13:52:09] INFO root fetch - main [MainThread]: End processing [chexus]: success
+[2024-04-05 13:52:09] INFO root fetch - processPackages [fenics-beat]: Remove: archive file [/home/abi/fetcher/tmp/fenics-beat-0.0.2.tar.gz]
+[2024-04-05 13:52:09] INFO root fetch - processPackages [fenics-beat]: Remove: archive file [/home/abi/fetcher/tmp/fenics-beat-0.0.3.tar.gz]
+[2024-04-05 13:52:09] INFO root fetch - main [MainThread]: End processing [fenics-beat]: success
+[2024-04-05 13:52:09] INFO root fetch - processPackages [tequila-basic]: Remove: archive file [/home/abi/fetcher/tmp/tequila-basic-1.9.4.tar.gz]
+[2024-04-05 13:52:09] INFO root fetch - processPackages [tequila-basic]: Remove: archive file [/home/abi/fetcher/tmp/tequila-basic-1.9.5.tar.gz]
+[2024-04-05 13:52:09] INFO root fetch - main [MainThread]: End processing [tequila-basic]: success
+[2024-04-05 13:52:10] INFO root fetch - processPackages [reproject]: Remove: archive file [/home/abi/fetcher/tmp/reproject-0.9.tar.gz]
+[2024-04-05 13:52:10] INFO root fetch - processPackages [reproject]: Remove: archive file [/home/abi/fetcher/tmp/reproject-0.9.1.tar.gz]
+[2024-04-05 13:52:10] INFO root fetch - main [MainThread]: End processing [reproject]: success
+[2024-04-05 13:52:10] INFO root fetch - main [MainThread]: Store serial: [22635550]
