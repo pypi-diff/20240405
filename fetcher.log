@@ -22311,3 +22311,42 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2024-04-05 14:31:45] INFO root fetch - processPackages [pyotb]: Remove: archive file [/home/abi/fetcher/tmp/pyotb-2.0.2.tar.gz]
 [2024-04-05 14:31:45] INFO root fetch - main [MainThread]: End processing [pyotb]: success
 [2024-04-05 14:31:45] INFO root fetch - main [MainThread]: Store serial: [22635879]
+[2024-04-05 14:33:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22635879]
+[2024-04-05 14:33:53] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-05 14:33:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ansys-grantami-bomanalytics-openapi
+[2024-04-05 14:33:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: upscayl
+[2024-04-05 14:33:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dataskillhub
+[2024-04-05 14:33:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sarus-data-spec-public
+[2024-04-05 14:33:53] INFO root fetch - processPackages [ansys-grantami-bomanalytics-openapi]: New version: [3.0.0a1] Old Version: [3.0.0a0]
+[2024-04-05 14:33:53] WARNING root fetch - processPackages [upscayl]: Skipping, unable to determine old version
+[2024-04-05 14:33:53] INFO root fetch - main [MainThread]: End processing [upscayl] error
+[2024-04-05 14:33:53] INFO root fetch - processPackages [dataskillhub]: New version: [1.6.1] Old Version: [1.6.0]
+[2024-04-05 14:33:53] INFO root fetch - processPackages [sarus-data-spec-public]: New version: [3.9.2.dev0] Old Version: [3.9.1.dev1]
+[2024-04-05 14:33:53] INFO root fetch - processPackages [ansys-grantami-bomanalytics-openapi]: Downloading https://files.pythonhosted.org/packages/0b/e3/45382c7e8667cfac0e81ead3cbea6b836e90bf62579a7b9e8934531df06c/ansys_grantami_bomanalytics_openapi-3.0.0a0-py3-none-any.whl
+[2024-04-05 14:33:53] INFO root fetch - processPackages [dataskillhub]: Downloading https://files.pythonhosted.org/packages/e9/94/1bd58b75522dfb2ef304523faf1e71bbf3c7d638cfe7bfe73bd3ceda8a40/dataskillhub-1.6.0-py3-none-any.whl
+[2024-04-05 14:33:54] INFO root fetch - processPackages [sarus-data-spec-public]: Downloading https://files.pythonhosted.org/packages/5a/48/3aff6730d3ff2bdc16ff047e6dcaa9b8d9f07de9557a724e7659544180c5/sarus_data_spec_public-3.9.1.dev1.tar.gz
+[2024-04-05 14:33:54] WARNING root fetch - processPackages [ansys-grantami-bomanalytics-openapi]: Timeout reached during download
+[2024-04-05 14:33:54] WARNING root fetch - processPackages [sarus-data-spec-public]: Timeout reached during download
+[2024-04-05 14:33:54] WARNING root fetch - processPackages [dataskillhub]: Timeout reached during download
+[2024-04-05 14:33:54] INFO root fetch - processPackages [ansys-grantami-bomanalytics-openapi]: Downloading https://files.pythonhosted.org/packages/ac/e0/c85360d55cb4eadb6ada533c839dfe6c330e58988d7252d3817e29b3990d/ansys_grantami_bomanalytics_openapi-3.0.0a1-py3-none-any.whl
+[2024-04-05 14:33:54] INFO root fetch - processPackages [sarus-data-spec-public]: Downloading https://files.pythonhosted.org/packages/09/66/b47ab90fb871ff7cf26b1a333e6d6017119f477ca0eb3d92c9c5722d4867/sarus_data_spec_public-3.9.2.dev0.tar.gz
+[2024-04-05 14:33:54] INFO root fetch - processPackages [dataskillhub]: Downloading https://files.pythonhosted.org/packages/26/d0/9ef1cd6ed91cddb07f626f52c9d5481812e8a2f493c172ecb6b330b5cb0f/dataskillhub-1.6.1-py3-none-any.whl
+[2024-04-05 14:33:54] WARNING root fetch - processPackages [ansys-grantami-bomanalytics-openapi]: Timeout reached during download
+[2024-04-05 14:33:54] INFO root fetch - processPackages [ansys-grantami-bomanalytics-openapi]: executing diffoscope
+[2024-04-05 14:33:54] INFO root fetch - processPackages [ansys-grantami-bomanalytics-openapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ansys_grantami_bomanalytics_openapi-3.0.0a0-py3-none-any.whl.zip tmp/ansys_grantami_bomanalytics_openapi-3.0.0a1-py3-none-any.whl.zip --markdown 20240405/a/ansys-grantami-bomanalytics-openapi/3.0.0a0-3.0.0a1/diff.md --exclude *.pyd
+[2024-04-05 14:33:54] WARNING root fetch - processPackages [sarus-data-spec-public]: Timeout reached during download
+[2024-04-05 14:33:54] INFO root fetch - processPackages [sarus-data-spec-public]: executing diffoscope
+[2024-04-05 14:33:54] INFO root fetch - processPackages [sarus-data-spec-public]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sarus_data_spec_public-3.9.1.dev1.tar.gz tmp/sarus_data_spec_public-3.9.2.dev0.tar.gz --markdown 20240405/s/sarus-data-spec-public/3.9.1.dev1-3.9.2.dev0/diff.md --exclude *.pyd
+[2024-04-05 14:33:54] WARNING root fetch - processPackages [dataskillhub]: Timeout reached during download
+[2024-04-05 14:33:54] INFO root fetch - processPackages [dataskillhub]: executing diffoscope
+[2024-04-05 14:33:54] INFO root fetch - processPackages [dataskillhub]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dataskillhub-1.6.0-py3-none-any.whl.zip tmp/dataskillhub-1.6.1-py3-none-any.whl.zip --markdown 20240405/d/dataskillhub/1.6.0-1.6.1/diff.md --exclude *.pyd
+[2024-04-05 14:33:55] INFO root fetch - processPackages [dataskillhub]: Remove: archive file [/home/abi/fetcher/tmp/dataskillhub-1.6.0-py3-none-any.whl.zip]
+[2024-04-05 14:33:55] INFO root fetch - processPackages [dataskillhub]: Remove: archive file [/home/abi/fetcher/tmp/dataskillhub-1.6.1-py3-none-any.whl.zip]
+[2024-04-05 14:33:55] INFO root fetch - main [MainThread]: End processing [dataskillhub]: success
+[2024-04-05 14:33:55] INFO root fetch - processPackages [ansys-grantami-bomanalytics-openapi]: Remove: archive file [/home/abi/fetcher/tmp/ansys_grantami_bomanalytics_openapi-3.0.0a0-py3-none-any.whl.zip]
+[2024-04-05 14:33:55] INFO root fetch - processPackages [ansys-grantami-bomanalytics-openapi]: Remove: archive file [/home/abi/fetcher/tmp/ansys_grantami_bomanalytics_openapi-3.0.0a1-py3-none-any.whl.zip]
+[2024-04-05 14:33:55] INFO root fetch - main [MainThread]: End processing [ansys-grantami-bomanalytics-openapi]: success
+[2024-04-05 14:33:55] INFO root fetch - processPackages [sarus-data-spec-public]: Remove: archive file [/home/abi/fetcher/tmp/sarus_data_spec_public-3.9.1.dev1.tar.gz]
+[2024-04-05 14:33:55] INFO root fetch - processPackages [sarus-data-spec-public]: Remove: archive file [/home/abi/fetcher/tmp/sarus_data_spec_public-3.9.2.dev0.tar.gz]
+[2024-04-05 14:33:55] INFO root fetch - main [MainThread]: End processing [sarus-data-spec-public]: success
+[2024-04-05 14:33:55] INFO root fetch - main [MainThread]: Store serial: [22635892]
