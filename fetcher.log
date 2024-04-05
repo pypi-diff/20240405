@@ -11400,3 +11400,17 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2024-04-05 06:21:54] INFO root fetch - processPackages [sciline]: Remove: archive file [/home/abi/fetcher/tmp/sciline-24.4.1.tar.gz]
 [2024-04-05 06:21:54] INFO root fetch - main [MainThread]: End processing [sciline]: success
 [2024-04-05 06:21:54] INFO root fetch - main [MainThread]: Store serial: [22631693]
+[2024-04-05 06:23:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22631693]
+[2024-04-05 06:24:04] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-04-05 06:24:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo-addon-hr-personal-equipment-request
+[2024-04-05 06:24:04] INFO root fetch - processPackages [odoo-addon-hr-personal-equipment-request]: New version: [17.0.1.0.0.2] Old Version: [16.0.1.0.0.9]
+[2024-04-05 06:24:05] INFO root fetch - processPackages [odoo-addon-hr-personal-equipment-request]: Downloading https://files.pythonhosted.org/packages/58/1c/9c21019358cc02e718b8a06ce1f42e41fc506875c59d8464adfaf4fdb12d/odoo_addon_hr_personal_equipment_request-16.0.1.0.0.9-py3-none-any.whl
+[2024-04-05 06:24:05] WARNING root fetch - processPackages [odoo-addon-hr-personal-equipment-request]: Timeout reached during download
+[2024-04-05 06:24:05] INFO root fetch - processPackages [odoo-addon-hr-personal-equipment-request]: Downloading https://files.pythonhosted.org/packages/30/9e/eb04a8f58b26e4cf5e5c88e7ad19f1a3c36470c99ecd810d94204dcecee2/odoo_addon_hr_personal_equipment_request-17.0.1.0.0.2-py3-none-any.whl
+[2024-04-05 06:24:05] WARNING root fetch - processPackages [odoo-addon-hr-personal-equipment-request]: Timeout reached during download
+[2024-04-05 06:24:05] INFO root fetch - processPackages [odoo-addon-hr-personal-equipment-request]: executing diffoscope
+[2024-04-05 06:24:05] INFO root fetch - processPackages [odoo-addon-hr-personal-equipment-request]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_hr_personal_equipment_request-16.0.1.0.0.9-py3-none-any.whl.zip tmp/odoo_addon_hr_personal_equipment_request-17.0.1.0.0.2-py3-none-any.whl.zip --markdown 20240405/o/odoo-addon-hr-personal-equipment-request/16.0.1.0.0.9-17.0.1.0.0.2/diff.md --exclude *.pyd
+[2024-04-05 06:24:06] INFO root fetch - processPackages [odoo-addon-hr-personal-equipment-request]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_hr_personal_equipment_request-16.0.1.0.0.9-py3-none-any.whl.zip]
+[2024-04-05 06:24:06] INFO root fetch - processPackages [odoo-addon-hr-personal-equipment-request]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_hr_personal_equipment_request-17.0.1.0.0.2-py3-none-any.whl.zip]
+[2024-04-05 06:24:06] INFO root fetch - main [MainThread]: End processing [odoo-addon-hr-personal-equipment-request]: success
+[2024-04-05 06:24:06] INFO root fetch - main [MainThread]: Store serial: [22631695]
