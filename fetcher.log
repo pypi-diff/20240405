@@ -16901,3 +16901,72 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2024-04-05 11:01:59] INFO root fetch - processPackages [pybricks]: Remove: archive file [/home/abi/fetcher/tmp/pybricks-3.5.0b1.tar.gz]
 [2024-04-05 11:01:59] INFO root fetch - main [MainThread]: End processing [pybricks]: success
 [2024-04-05 11:01:59] INFO root fetch - main [MainThread]: Store serial: [22633766]
+[2024-04-05 11:04:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22633766]
+[2024-04-05 11:04:08] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-05 11:04:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: streamlit-nivo-charts-custom
+[2024-04-05 11:04:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nr-oaipmh-harvesters
+[2024-04-05 11:04:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: graas-observability-utility
+[2024-04-05 11:04:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: prem-utils
+[2024-04-05 11:04:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: owlready2
+[2024-04-05 11:04:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: autogluon.common
+[2024-04-05 11:04:08] INFO root fetch - processPackages [streamlit-nivo-charts-custom]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-05 11:04:08] INFO root fetch - processPackages [graas-observability-utility]: New version: [1.5.8] Old Version: [1.5.7]
+[2024-04-05 11:04:08] INFO root fetch - processPackages [autogluon.common]: New version: [1.0.1b20240404] Old Version: [1.0.1b20240403]
+[2024-04-05 11:04:08] INFO root fetch - processPackages [nr-oaipmh-harvesters]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-05 11:04:08] INFO root fetch - processPackages [prem-utils]: New version: [0.0.8] Old Version: [0.0.7]
+[2024-04-05 11:04:08] INFO root fetch - processPackages [streamlit-nivo-charts-custom]: Downloading https://files.pythonhosted.org/packages/79/71/33830bb0657a300e5a30431719d5fbdf3210c9b55776f641c9332f702047/streamlit-nivo-charts-custom-0.0.8.tar.gz
+[2024-04-05 11:04:08] INFO root fetch - processPackages [owlready2]: New version: [0.9] Old Version: [0.8]
+[2024-04-05 11:04:08] INFO root fetch - processPackages [graas-observability-utility]: Downloading https://files.pythonhosted.org/packages/8b/7b/ad0d16190e9d8f781c3e39009a3522f2f253dfed19b1064f86d82804a113/graas-observability-utility-1.5.7.tar.gz
+[2024-04-05 11:04:08] WARNING root fetch - processPackages [streamlit-nivo-charts-custom]: Timeout reached during download
+[2024-04-05 11:04:08] INFO root fetch - processPackages [nr-oaipmh-harvesters]: Downloading https://files.pythonhosted.org/packages/5f/ff/d48a65c48f95775ff225667f3952e7acfc5cb46a1c81b84c6111cb3b5dc3/nr-oaipmh-harvesters-1.0.8.tar.gz
+[2024-04-05 11:04:08] INFO root fetch - processPackages [autogluon.common]: Downloading https://files.pythonhosted.org/packages/7f/a6/6ed86739633ec6fe888b9fe9abc3323eac039e23c4381f71cd23a6ee33dd/autogluon.common-1.0.1b20240403.tar.gz
+[2024-04-05 11:04:08] WARNING root fetch - processPackages [graas-observability-utility]: Timeout reached during download
+[2024-04-05 11:04:08] INFO root fetch - processPackages [prem-utils]: Downloading https://files.pythonhosted.org/packages/0b/c2/ef6412c36b4879b14a69ad4cafc10a7cc7f017db696d2d8e7e978238aaa9/prem-utils-0.0.7.tar.gz
+[2024-04-05 11:04:08] INFO root fetch - processPackages [owlready2]: Downloading https://files.pythonhosted.org/packages/2b/b2/2404c5c9411bed82b96c2ad54c1112105f31e26c0db40f181c77ef4739c2/Owlready2-0.8.tar.gz
+[2024-04-05 11:04:08] INFO root fetch - processPackages [graas-observability-utility]: Downloading https://files.pythonhosted.org/packages/b9/9c/ea3c599fbacd44f060ebbc7fbfbc76acf7022b86e48ea3eabd7cd54196af/graas-observability-utility-1.5.8.tar.gz
+[2024-04-05 11:04:08] WARNING root fetch - processPackages [nr-oaipmh-harvesters]: Timeout reached during download
+[2024-04-05 11:04:08] WARNING root fetch - processPackages [autogluon.common]: Timeout reached during download
+[2024-04-05 11:04:08] INFO root fetch - processPackages [streamlit-nivo-charts-custom]: Downloading https://files.pythonhosted.org/packages/b8/a3/75f60964996a90df85807ae6b0caf68b4ddf330c327372bd3b4156851637/streamlit-nivo-charts-custom-0.0.9.tar.gz
+[2024-04-05 11:04:08] WARNING root fetch - processPackages [graas-observability-utility]: Timeout reached during download
+[2024-04-05 11:04:08] INFO root fetch - processPackages [graas-observability-utility]: executing diffoscope
+[2024-04-05 11:04:08] INFO root fetch - processPackages [graas-observability-utility]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/graas-observability-utility-1.5.7.tar.gz tmp/graas-observability-utility-1.5.8.tar.gz --markdown 20240405/g/graas-observability-utility/1.5.7-1.5.8/diff.md --exclude *.pyd
+[2024-04-05 11:04:09] INFO root fetch - processPackages [nr-oaipmh-harvesters]: Downloading https://files.pythonhosted.org/packages/3c/5e/94e9ea7ba8aa30eebb11ed17f79847200e3892f0e48c732d987f1e8e3a40/nr-oaipmh-harvesters-1.0.9.tar.gz
+[2024-04-05 11:04:09] INFO root fetch - processPackages [autogluon.common]: Downloading https://files.pythonhosted.org/packages/03/7f/90bcc9999fb284c2c3253d0803221d444ab89aa2cbc3f8a4ed81be238ad8/autogluon.common-1.0.1b20240404.tar.gz
+[2024-04-05 11:04:09] WARNING root fetch - processPackages [nr-oaipmh-harvesters]: Timeout reached during download
+[2024-04-05 11:04:09] INFO root fetch - processPackages [nr-oaipmh-harvesters]: executing diffoscope
+[2024-04-05 11:04:09] INFO root fetch - processPackages [nr-oaipmh-harvesters]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nr-oaipmh-harvesters-1.0.8.tar.gz tmp/nr-oaipmh-harvesters-1.0.9.tar.gz --markdown 20240405/n/nr-oaipmh-harvesters/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2024-04-05 11:04:09] WARNING root fetch - processPackages [prem-utils]: Timeout reached during download
+[2024-04-05 11:04:09] WARNING root fetch - processPackages [autogluon.common]: Timeout reached during download
+[2024-04-05 11:04:09] INFO root fetch - processPackages [autogluon.common]: executing diffoscope
+[2024-04-05 11:04:09] INFO root fetch - processPackages [autogluon.common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autogluon.common-1.0.1b20240403.tar.gz tmp/autogluon.common-1.0.1b20240404.tar.gz --markdown 20240405/a/autogluon.common/1.0.1b20240403-1.0.1b20240404/diff.md --exclude *.pyd
+[2024-04-05 11:04:09] WARNING root fetch - processPackages [streamlit-nivo-charts-custom]: Timeout reached during download
+[2024-04-05 11:04:09] INFO root fetch - processPackages [streamlit-nivo-charts-custom]: executing diffoscope
+[2024-04-05 11:04:09] INFO root fetch - processPackages [streamlit-nivo-charts-custom]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streamlit-nivo-charts-custom-0.0.8.tar.gz tmp/streamlit-nivo-charts-custom-0.0.9.tar.gz --markdown 20240405/s/streamlit-nivo-charts-custom/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2024-04-05 11:04:09] INFO root fetch - processPackages [prem-utils]: Downloading https://files.pythonhosted.org/packages/33/0f/fc806fe5db50f59926c6cd92925e6ccc6665f01f20e6ba25faabe2d2211d/prem-utils-0.0.8.tar.gz
+[2024-04-05 11:04:09] WARNING root fetch - processPackages [owlready2]: Timeout reached during download
+[2024-04-05 11:04:09] WARNING root fetch - processPackages [prem-utils]: Timeout reached during download
+[2024-04-05 11:04:09] INFO root fetch - processPackages [prem-utils]: executing diffoscope
+[2024-04-05 11:04:09] INFO root fetch - processPackages [prem-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prem-utils-0.0.7.tar.gz tmp/prem-utils-0.0.8.tar.gz --markdown 20240405/p/prem-utils/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2024-04-05 11:04:09] INFO root fetch - processPackages [graas-observability-utility]: Remove: archive file [/home/abi/fetcher/tmp/graas-observability-utility-1.5.7.tar.gz]
+[2024-04-05 11:04:09] INFO root fetch - processPackages [graas-observability-utility]: Remove: archive file [/home/abi/fetcher/tmp/graas-observability-utility-1.5.8.tar.gz]
+[2024-04-05 11:04:09] INFO root fetch - main [MainThread]: End processing [graas-observability-utility]: success
+[2024-04-05 11:04:09] INFO root fetch - processPackages [owlready2]: Downloading https://files.pythonhosted.org/packages/f4/de/6ce537d6da10f48e9fe8b37cbd403961767e87e0e48ad5ef94346d359c98/Owlready2-0.9.tar.gz
+[2024-04-05 11:04:09] INFO root fetch - processPackages [nr-oaipmh-harvesters]: Remove: archive file [/home/abi/fetcher/tmp/nr-oaipmh-harvesters-1.0.8.tar.gz]
+[2024-04-05 11:04:09] INFO root fetch - processPackages [nr-oaipmh-harvesters]: Remove: archive file [/home/abi/fetcher/tmp/nr-oaipmh-harvesters-1.0.9.tar.gz]
+[2024-04-05 11:04:09] INFO root fetch - main [MainThread]: End processing [nr-oaipmh-harvesters]: success
+[2024-04-05 11:04:09] INFO root fetch - processPackages [autogluon.common]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.common-1.0.1b20240403.tar.gz]
+[2024-04-05 11:04:09] INFO root fetch - processPackages [autogluon.common]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.common-1.0.1b20240404.tar.gz]
+[2024-04-05 11:04:09] INFO root fetch - main [MainThread]: End processing [autogluon.common]: success
+[2024-04-05 11:04:10] INFO root fetch - processPackages [streamlit-nivo-charts-custom]: Remove: archive file [/home/abi/fetcher/tmp/streamlit-nivo-charts-custom-0.0.8.tar.gz]
+[2024-04-05 11:04:10] INFO root fetch - processPackages [streamlit-nivo-charts-custom]: Remove: archive file [/home/abi/fetcher/tmp/streamlit-nivo-charts-custom-0.0.9.tar.gz]
+[2024-04-05 11:04:10] INFO root fetch - main [MainThread]: End processing [streamlit-nivo-charts-custom]: success
+[2024-04-05 11:04:10] WARNING root fetch - processPackages [owlready2]: Timeout reached during download
+[2024-04-05 11:04:10] INFO root fetch - processPackages [owlready2]: executing diffoscope
+[2024-04-05 11:04:10] INFO root fetch - processPackages [owlready2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Owlready2-0.8.tar.gz tmp/Owlready2-0.9.tar.gz --markdown 20240405/o/owlready2/0.8-0.9/diff.md --exclude *.pyd
+[2024-04-05 11:04:10] INFO root fetch - processPackages [prem-utils]: Remove: archive file [/home/abi/fetcher/tmp/prem-utils-0.0.7.tar.gz]
+[2024-04-05 11:04:10] INFO root fetch - processPackages [prem-utils]: Remove: archive file [/home/abi/fetcher/tmp/prem-utils-0.0.8.tar.gz]
+[2024-04-05 11:04:10] INFO root fetch - main [MainThread]: End processing [prem-utils]: success
+[2024-04-05 11:04:12] INFO root fetch - processPackages [owlready2]: Remove: archive file [/home/abi/fetcher/tmp/Owlready2-0.8.tar.gz]
+[2024-04-05 11:04:12] INFO root fetch - processPackages [owlready2]: Remove: archive file [/home/abi/fetcher/tmp/Owlready2-0.9.tar.gz]
+[2024-04-05 11:04:12] INFO root fetch - main [MainThread]: End processing [owlready2]: success
+[2024-04-05 11:04:12] INFO root fetch - main [MainThread]: Store serial: [22633793]
