@@ -11784,3 +11784,68 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2024-04-05 06:50:54] INFO root fetch - processPackages [openparse]: Remove: archive file [/home/abi/fetcher/tmp/openparse-0.4.0.tar.gz]
 [2024-04-05 06:50:54] INFO root fetch - main [MainThread]: End processing [openparse]: success
 [2024-04-05 06:50:54] INFO root fetch - main [MainThread]: Store serial: [22631799]
+[2024-04-05 06:52:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22631799]
+[2024-04-05 06:53:04] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-05 06:53:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: monsgrams
+[2024-04-05 06:53:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: quickstart-vdk
+[2024-04-05 06:53:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mystmd
+[2024-04-05 06:53:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nonebot-plugin-diffsinger
+[2024-04-05 06:53:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: simply-cli
+[2024-04-05 06:53:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: netops
+[2024-04-05 06:53:04] INFO root fetch - processPackages [monsgrams]: New version: [0.9] Old Version: [0.8]
+[2024-04-05 06:53:04] INFO root fetch - processPackages [nonebot-plugin-diffsinger]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-05 06:53:04] INFO root fetch - processPackages [monsgrams]: Downloading https://files.pythonhosted.org/packages/92/5a/9a4d511f050069363f97e0a607c34ad908d832fc31b3d0a904e3952ed15e/monsgrams-0.8.tar.gz
+[2024-04-05 06:53:04] INFO root fetch - processPackages [simply-cli]: New version: [0.1.0] Old Version: [0.0.9]
+[2024-04-05 06:53:04] INFO root fetch - processPackages [netops]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-04-05 06:53:04] INFO root fetch - processPackages [nonebot-plugin-diffsinger]: Downloading https://files.pythonhosted.org/packages/fa/96/c7a88f30ef6e911a0cf9e432f33a58ce841a6496d36045340e062f50f0c3/nonebot_plugin_diffsinger-0.1.8.tar.gz
+[2024-04-05 06:53:04] INFO root fetch - processPackages [quickstart-vdk]: New version: [0.2.999091100.dev13356] Old Version: [0.2.998635022.dev13355]
+[2024-04-05 06:53:04] INFO root fetch - processPackages [mystmd]: New version: [1.1.9] Old Version: [1.1.7]
+[2024-04-05 06:53:04] WARNING root fetch - processPackages [monsgrams]: Timeout reached during download
+[2024-04-05 06:53:04] WARNING root fetch - processPackages [nonebot-plugin-diffsinger]: Timeout reached during download
+[2024-04-05 06:53:04] INFO root fetch - processPackages [simply-cli]: Downloading https://files.pythonhosted.org/packages/e2/07/c2a332045b695efaff91c4fe520fc26b15fd1a92037d25da6b98e358c831/simply_cli-0.0.9.tar.gz
+[2024-04-05 06:53:04] INFO root fetch - processPackages [netops]: Downloading https://files.pythonhosted.org/packages/03/28/886c0c747df076875bc71f9d881a61e7fa1f48bb062538a5cf8aed216445/netops-0.2.8.tar.gz
+[2024-04-05 06:53:04] INFO root fetch - processPackages [mystmd]: Downloading https://files.pythonhosted.org/packages/7a/c3/d50a03a8e2015a7e02b98296e34aa4c8adfef17e5a98fc06871f9e2a2dee/mystmd-1.1.7.tar.gz
+[2024-04-05 06:53:04] INFO root fetch - processPackages [nonebot-plugin-diffsinger]: Downloading https://files.pythonhosted.org/packages/88/29/88246290f884fd31f810fd560a05062626cf8f22a185a5e1fcff5ab10fef/nonebot_plugin_diffsinger-0.1.9.tar.gz
+[2024-04-05 06:53:04] INFO root fetch - processPackages [quickstart-vdk]: Downloading https://files.pythonhosted.org/packages/e3/a6/b7424a3be777980068df32f41ef9085422b79289fef725cba5cabf2b502e/quickstart-vdk-0.2.998635022.dev13355.tar.gz
+[2024-04-05 06:53:04] INFO root fetch - processPackages [monsgrams]: Downloading https://files.pythonhosted.org/packages/74/e5/afd1d3fc72f146f7b4086ad643a9f56dc902dba5073c690ea159cfc0a1f0/monsgrams-0.9.tar.gz
+[2024-04-05 06:53:04] WARNING root fetch - processPackages [nonebot-plugin-diffsinger]: Timeout reached during download
+[2024-04-05 06:53:04] INFO root fetch - processPackages [nonebot-plugin-diffsinger]: executing diffoscope
+[2024-04-05 06:53:04] INFO root fetch - processPackages [nonebot-plugin-diffsinger]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_diffsinger-0.1.8.tar.gz tmp/nonebot_plugin_diffsinger-0.1.9.tar.gz --markdown 20240405/n/nonebot-plugin-diffsinger/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2024-04-05 06:53:04] WARNING root fetch - processPackages [quickstart-vdk]: Timeout reached during download
+[2024-04-05 06:53:04] WARNING root fetch - processPackages [netops]: Timeout reached during download
+[2024-04-05 06:53:05] WARNING root fetch - processPackages [monsgrams]: Timeout reached during download
+[2024-04-05 06:53:05] INFO root fetch - processPackages [monsgrams]: executing diffoscope
+[2024-04-05 06:53:05] INFO root fetch - processPackages [monsgrams]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/monsgrams-0.8.tar.gz tmp/monsgrams-0.9.tar.gz --markdown 20240405/m/monsgrams/0.8-0.9/diff.md --exclude *.pyd
+[2024-04-05 06:53:05] INFO root fetch - processPackages [quickstart-vdk]: Downloading https://files.pythonhosted.org/packages/fa/72/2a48eb94b876fa0c01eda0450a3e80c80101dd5fdfe10124d5474b64f5fd/quickstart-vdk-0.2.999091100.dev13356.tar.gz
+[2024-04-05 06:53:05] INFO root fetch - processPackages [netops]: Downloading https://files.pythonhosted.org/packages/0c/a5/64775fa07e603f414080008f021522ef189098e287b65330d952a0015ebf/netops-0.2.9.tar.gz
+[2024-04-05 06:53:05] WARNING root fetch - processPackages [quickstart-vdk]: Timeout reached during download
+[2024-04-05 06:53:05] INFO root fetch - processPackages [quickstart-vdk]: executing diffoscope
+[2024-04-05 06:53:05] INFO root fetch - processPackages [quickstart-vdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quickstart-vdk-0.2.998635022.dev13355.tar.gz tmp/quickstart-vdk-0.2.999091100.dev13356.tar.gz --markdown 20240405/q/quickstart-vdk/0.2.998635022.dev13355-0.2.999091100.dev13356/diff.md --exclude *.pyd
+[2024-04-05 06:53:05] WARNING root fetch - processPackages [netops]: Timeout reached during download
+[2024-04-05 06:53:05] INFO root fetch - processPackages [netops]: executing diffoscope
+[2024-04-05 06:53:05] INFO root fetch - processPackages [netops]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/netops-0.2.8.tar.gz tmp/netops-0.2.9.tar.gz --markdown 20240405/n/netops/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2024-04-05 06:53:05] WARNING root fetch - processPackages [simply-cli]: Timeout reached during download
+[2024-04-05 06:53:05] INFO root fetch - processPackages [nonebot-plugin-diffsinger]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_diffsinger-0.1.8.tar.gz]
+[2024-04-05 06:53:05] INFO root fetch - processPackages [nonebot-plugin-diffsinger]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_diffsinger-0.1.9.tar.gz]
+[2024-04-05 06:53:05] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-diffsinger]: success
+[2024-04-05 06:53:05] INFO root fetch - processPackages [monsgrams]: Remove: archive file [/home/abi/fetcher/tmp/monsgrams-0.8.tar.gz]
+[2024-04-05 06:53:05] INFO root fetch - processPackages [monsgrams]: Remove: archive file [/home/abi/fetcher/tmp/monsgrams-0.9.tar.gz]
+[2024-04-05 06:53:05] INFO root fetch - main [MainThread]: End processing [monsgrams]: success
+[2024-04-05 06:53:05] INFO root fetch - processPackages [simply-cli]: Downloading https://files.pythonhosted.org/packages/5b/a9/96c26502ecb142651c5defe67f12e7d19afae64d62b6ec04002ffc2c4319/simply_cli-0.1.0.tar.gz
+[2024-04-05 06:53:05] WARNING root fetch - processPackages [mystmd]: Timeout reached during download
+[2024-04-05 06:53:05] WARNING root fetch - processPackages [simply-cli]: Skipping package: exceeds size limit 19380884>=10485760
+[2024-04-05 06:53:05] INFO root fetch - main [MainThread]: End processing [simply-cli] error
+[2024-04-05 06:53:05] INFO root fetch - processPackages [quickstart-vdk]: Remove: archive file [/home/abi/fetcher/tmp/quickstart-vdk-0.2.998635022.dev13355.tar.gz]
+[2024-04-05 06:53:05] INFO root fetch - processPackages [quickstart-vdk]: Remove: archive file [/home/abi/fetcher/tmp/quickstart-vdk-0.2.999091100.dev13356.tar.gz]
+[2024-04-05 06:53:05] INFO root fetch - main [MainThread]: End processing [quickstart-vdk]: success
+[2024-04-05 06:53:05] INFO root fetch - processPackages [mystmd]: Downloading https://files.pythonhosted.org/packages/fe/ca/67f015b4a726a6b31f4300f946fdd248881d9d144883f9be9a3486ad8ee8/mystmd-1.1.9.tar.gz
+[2024-04-05 06:53:06] INFO root fetch - processPackages [netops]: Remove: archive file [/home/abi/fetcher/tmp/netops-0.2.8.tar.gz]
+[2024-04-05 06:53:06] INFO root fetch - processPackages [netops]: Remove: archive file [/home/abi/fetcher/tmp/netops-0.2.9.tar.gz]
+[2024-04-05 06:53:06] INFO root fetch - main [MainThread]: End processing [netops]: success
+[2024-04-05 06:53:06] WARNING root fetch - processPackages [mystmd]: Timeout reached during download
+[2024-04-05 06:53:06] INFO root fetch - processPackages [mystmd]: executing diffoscope
+[2024-04-05 06:53:06] INFO root fetch - processPackages [mystmd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mystmd-1.1.7.tar.gz tmp/mystmd-1.1.9.tar.gz --markdown 20240405/m/mystmd/1.1.7-1.1.9/diff.md --exclude *.pyd
+[2024-04-05 06:53:14] INFO root fetch - processPackages [mystmd]: Remove: archive file [/home/abi/fetcher/tmp/mystmd-1.1.7.tar.gz]
+[2024-04-05 06:53:14] INFO root fetch - processPackages [mystmd]: Remove: archive file [/home/abi/fetcher/tmp/mystmd-1.1.9.tar.gz]
+[2024-04-05 06:53:14] INFO root fetch - main [MainThread]: End processing [mystmd]: success
+[2024-04-05 06:53:14] INFO root fetch - main [MainThread]: Store serial: [22631817]
