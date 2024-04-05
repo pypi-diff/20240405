@@ -19613,3 +19613,83 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2024-04-05 12:40:22] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202404051038.tar.gz]
 [2024-04-05 12:40:22] INFO root fetch - main [MainThread]: End processing [kcli]: success
 [2024-04-05 12:40:22] INFO root fetch - main [MainThread]: Store serial: [22634707]
+[2024-04-05 12:42:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22634707]
+[2024-04-05 12:42:33] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-05 12:42:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: skypilot-nightly
+[2024-04-05 12:42:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: youtube-selenium-py
+[2024-04-05 12:42:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: kfish
+[2024-04-05 12:42:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: so-ml-tools
+[2024-04-05 12:42:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: liblet
+[2024-04-05 12:42:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: few-shot-priming
+[2024-04-05 12:42:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: Oasys.REPORTER
+[2024-04-05 12:42:33] INFO root fetch - processPackages [youtube-selenium-py]: New version: [1.0.2] Old Version: [1.0.1]
+[2024-04-05 12:42:33] INFO root fetch - processPackages [so-ml-tools]: New version: [0.1.99] Old Version: [0.1.98]
+[2024-04-05 12:42:33] INFO root fetch - processPackages [kfish]: New version: [99.0.202404041721] Old Version: [99.0.202404041527]
+[2024-04-05 12:42:33] INFO root fetch - processPackages [youtube-selenium-py]: Downloading https://files.pythonhosted.org/packages/f4/96/5e2689c70524897b748d2e8fcb01b2436f53f88d1ee8219736dcd5f0aa3b/youtube_selenium_py-1.0.1.tar.gz
+[2024-04-05 12:42:33] INFO root fetch - processPackages [liblet]: New version: [1.7.3] Old Version: [1.7.1]
+[2024-04-05 12:42:33] INFO root fetch - processPackages [Oasys.REPORTER]: New version: [21.0.0b9] Old Version: [21.0.0b8]
+[2024-04-05 12:42:33] INFO root fetch - processPackages [skypilot-nightly]: New version: [1.0.0.dev20240405] Old Version: [1.0.0.dev20240404]
+[2024-04-05 12:42:33] INFO root fetch - processPackages [few-shot-priming]: New version: [0.3.99] Old Version: [0.3.98]
+[2024-04-05 12:42:33] INFO root fetch - processPackages [liblet]: Downloading https://files.pythonhosted.org/packages/dc/6a/09a7fa1841a02b46cea0ea832d4f4f4875252d1d97200ada3f72bf686dc2/liblet-1.7.1.tar.gz
+[2024-04-05 12:42:33] WARNING root fetch - processPackages [youtube-selenium-py]: Timeout reached during download
+[2024-04-05 12:42:33] INFO root fetch - processPackages [so-ml-tools]: Downloading https://files.pythonhosted.org/packages/fc/30/cfb5b7cf1b6c3d4b7759e52aaf120234d88b23cda57cfa671f342c8928d9/so-ml-tools-0.1.98.tar.gz
+[2024-04-05 12:42:33] INFO root fetch - processPackages [kfish]: Downloading https://files.pythonhosted.org/packages/f9/71/775f7d87de52641de33145ddd9653a96fe4870feacbad2ce2340899e3065/kfish-99.0.202404041527-py3-none-any.whl
+[2024-04-05 12:42:33] INFO root fetch - processPackages [skypilot-nightly]: Downloading https://files.pythonhosted.org/packages/df/36/ff08815c1f136d79faf1b6b69df22371754e9620b4393206464de01701df/skypilot-nightly-1.0.0.dev20240404.tar.gz
+[2024-04-05 12:42:33] INFO root fetch - processPackages [Oasys.REPORTER]: Downloading https://files.pythonhosted.org/packages/a4/f3/5117684118a98d1ba13fa34e24840e27ad1c1b9417a9b00152801a3e47d8/Oasys.REPORTER-21.0.0b8.tar.gz
+[2024-04-05 12:42:33] INFO root fetch - processPackages [few-shot-priming]: Downloading https://files.pythonhosted.org/packages/eb/67/d15b11d0bfb57369fa16ba7f8c97cd3ddec8f771e6da8f11a3d819004b69/few_shot_priming-0.3.98-py3-none-any.whl
+[2024-04-05 12:42:33] WARNING root fetch - processPackages [kfish]: Timeout reached during download
+[2024-04-05 12:42:33] WARNING root fetch - processPackages [so-ml-tools]: Timeout reached during download
+[2024-04-05 12:42:33] INFO root fetch - processPackages [youtube-selenium-py]: Downloading https://files.pythonhosted.org/packages/9b/f0/beb0482f9e3bc3ce7e67941782ee2a87c9bf12b3f071be72105df33899f2/youtube_selenium_py-1.0.2.tar.gz
+[2024-04-05 12:42:33] WARNING root fetch - processPackages [liblet]: Timeout reached during download
+[2024-04-05 12:42:33] INFO root fetch - processPackages [so-ml-tools]: Downloading https://files.pythonhosted.org/packages/81/44/0ba41cd45b341c34829d9698a1a7295a871d04bec34718944a8d469046a7/so-ml-tools-0.1.99.tar.gz
+[2024-04-05 12:42:33] WARNING root fetch - processPackages [Oasys.REPORTER]: Timeout reached during download
+[2024-04-05 12:42:33] WARNING root fetch - processPackages [skypilot-nightly]: Timeout reached during download
+[2024-04-05 12:42:34] WARNING root fetch - processPackages [youtube-selenium-py]: Timeout reached during download
+[2024-04-05 12:42:34] INFO root fetch - processPackages [youtube-selenium-py]: executing diffoscope
+[2024-04-05 12:42:34] INFO root fetch - processPackages [youtube-selenium-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/youtube_selenium_py-1.0.1.tar.gz tmp/youtube_selenium_py-1.0.2.tar.gz --markdown 20240405/y/youtube-selenium-py/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2024-04-05 12:42:34] INFO root fetch - processPackages [kfish]: Downloading https://files.pythonhosted.org/packages/26/ae/88f76623675678171ec399a3a5c27414f3943d1efa1aeb8b63ab230b07c3/kfish-99.0.202404041721-py3-none-any.whl
+[2024-04-05 12:42:34] WARNING root fetch - processPackages [so-ml-tools]: Timeout reached during download
+[2024-04-05 12:42:34] INFO root fetch - processPackages [so-ml-tools]: executing diffoscope
+[2024-04-05 12:42:34] INFO root fetch - processPackages [so-ml-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/so-ml-tools-0.1.98.tar.gz tmp/so-ml-tools-0.1.99.tar.gz --markdown 20240405/s/so-ml-tools/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2024-04-05 12:42:34] INFO root fetch - processPackages [liblet]: Downloading https://files.pythonhosted.org/packages/8b/36/1d22439ed63227ee6da8cf2c74922c79078586e3f22feae185a47e37de2b/liblet-1.7.3.tar.gz
+[2024-04-05 12:42:34] INFO root fetch - processPackages [skypilot-nightly]: Downloading https://files.pythonhosted.org/packages/ec/57/7a69be5ab1a9bc2a111161fb8b39ef55f9d7bf04db924bd51f603318cbde/skypilot-nightly-1.0.0.dev20240405.tar.gz
+[2024-04-05 12:42:34] WARNING root fetch - processPackages [kfish]: Timeout reached during download
+[2024-04-05 12:42:34] INFO root fetch - processPackages [kfish]: executing diffoscope
+[2024-04-05 12:42:34] INFO root fetch - processPackages [kfish]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kfish-99.0.202404041527-py3-none-any.whl.zip tmp/kfish-99.0.202404041721-py3-none-any.whl.zip --markdown 20240405/k/kfish/99.0.202404041527-99.0.202404041721/diff.md --exclude *.pyd
+[2024-04-05 12:42:34] INFO root fetch - processPackages [Oasys.REPORTER]: Downloading https://files.pythonhosted.org/packages/96/d8/d022b12c4ac4b1b7c460bde4c5bf2d8a3595e06c429c4aa21ad977db6202/Oasys.REPORTER-21.0.0b9.tar.gz
+[2024-04-05 12:42:34] WARNING root fetch - processPackages [skypilot-nightly]: Timeout reached during download
+[2024-04-05 12:42:34] INFO root fetch - processPackages [skypilot-nightly]: executing diffoscope
+[2024-04-05 12:42:34] INFO root fetch - processPackages [skypilot-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/skypilot-nightly-1.0.0.dev20240404.tar.gz tmp/skypilot-nightly-1.0.0.dev20240405.tar.gz --markdown 20240405/s/skypilot-nightly/1.0.0.dev20240404-1.0.0.dev20240405/diff.md --exclude *.pyd
+[2024-04-05 12:42:34] WARNING root fetch - processPackages [Oasys.REPORTER]: Timeout reached during download
+[2024-04-05 12:42:34] INFO root fetch - processPackages [Oasys.REPORTER]: executing diffoscope
+[2024-04-05 12:42:34] INFO root fetch - processPackages [Oasys.REPORTER]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Oasys.REPORTER-21.0.0b8.tar.gz tmp/Oasys.REPORTER-21.0.0b9.tar.gz --markdown 20240405/O/Oasys.REPORTER/21.0.0b8-21.0.0b9/diff.md --exclude *.pyd
+[2024-04-05 12:42:34] WARNING root fetch - processPackages [liblet]: Timeout reached during download
+[2024-04-05 12:42:34] INFO root fetch - processPackages [liblet]: executing diffoscope
+[2024-04-05 12:42:34] INFO root fetch - processPackages [liblet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/liblet-1.7.1.tar.gz tmp/liblet-1.7.3.tar.gz --markdown 20240405/l/liblet/1.7.1-1.7.3/diff.md --exclude *.pyd
+[2024-04-05 12:42:34] WARNING root fetch - processPackages [few-shot-priming]: Timeout reached during download
+[2024-04-05 12:42:34] INFO root fetch - processPackages [kfish]: Remove: archive file [/home/abi/fetcher/tmp/kfish-99.0.202404041527-py3-none-any.whl.zip]
+[2024-04-05 12:42:34] INFO root fetch - processPackages [kfish]: Remove: archive file [/home/abi/fetcher/tmp/kfish-99.0.202404041721-py3-none-any.whl.zip]
+[2024-04-05 12:42:34] INFO root fetch - main [MainThread]: End processing [kfish]: success
+[2024-04-05 12:42:34] INFO root fetch - processPackages [youtube-selenium-py]: Remove: archive file [/home/abi/fetcher/tmp/youtube_selenium_py-1.0.1.tar.gz]
+[2024-04-05 12:42:34] INFO root fetch - processPackages [youtube-selenium-py]: Remove: archive file [/home/abi/fetcher/tmp/youtube_selenium_py-1.0.2.tar.gz]
+[2024-04-05 12:42:34] INFO root fetch - main [MainThread]: End processing [youtube-selenium-py]: success
+[2024-04-05 12:42:34] INFO root fetch - processPackages [so-ml-tools]: Remove: archive file [/home/abi/fetcher/tmp/so-ml-tools-0.1.98.tar.gz]
+[2024-04-05 12:42:34] INFO root fetch - processPackages [so-ml-tools]: Remove: archive file [/home/abi/fetcher/tmp/so-ml-tools-0.1.99.tar.gz]
+[2024-04-05 12:42:35] INFO root fetch - main [MainThread]: End processing [so-ml-tools]: success
+[2024-04-05 12:42:35] INFO root fetch - processPackages [few-shot-priming]: Downloading https://files.pythonhosted.org/packages/ff/11/548f6e96803602e6431dc610d736d401b20fde986f85c35c8ad19a6d0958/few_shot_priming-0.3.99-py3-none-any.whl
+[2024-04-05 12:42:35] INFO root fetch - processPackages [Oasys.REPORTER]: Remove: archive file [/home/abi/fetcher/tmp/Oasys.REPORTER-21.0.0b8.tar.gz]
+[2024-04-05 12:42:35] INFO root fetch - processPackages [Oasys.REPORTER]: Remove: archive file [/home/abi/fetcher/tmp/Oasys.REPORTER-21.0.0b9.tar.gz]
+[2024-04-05 12:42:35] INFO root fetch - main [MainThread]: End processing [Oasys.REPORTER]: success
+[2024-04-05 12:42:35] INFO root fetch - processPackages [liblet]: Remove: archive file [/home/abi/fetcher/tmp/liblet-1.7.1.tar.gz]
+[2024-04-05 12:42:35] INFO root fetch - processPackages [liblet]: Remove: archive file [/home/abi/fetcher/tmp/liblet-1.7.3.tar.gz]
+[2024-04-05 12:42:35] INFO root fetch - main [MainThread]: End processing [liblet]: success
+[2024-04-05 12:42:35] WARNING root fetch - processPackages [few-shot-priming]: Timeout reached during download
+[2024-04-05 12:42:35] INFO root fetch - processPackages [few-shot-priming]: executing diffoscope
+[2024-04-05 12:42:35] INFO root fetch - processPackages [few-shot-priming]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/few_shot_priming-0.3.98-py3-none-any.whl.zip tmp/few_shot_priming-0.3.99-py3-none-any.whl.zip --markdown 20240405/f/few-shot-priming/0.3.98-0.3.99/diff.md --exclude *.pyd
+[2024-04-05 12:42:36] INFO root fetch - processPackages [skypilot-nightly]: Remove: archive file [/home/abi/fetcher/tmp/skypilot-nightly-1.0.0.dev20240404.tar.gz]
+[2024-04-05 12:42:36] INFO root fetch - processPackages [skypilot-nightly]: Remove: archive file [/home/abi/fetcher/tmp/skypilot-nightly-1.0.0.dev20240405.tar.gz]
+[2024-04-05 12:42:36] INFO root fetch - main [MainThread]: End processing [skypilot-nightly]: success
+[2024-04-05 12:42:36] INFO root fetch - processPackages [few-shot-priming]: Remove: archive file [/home/abi/fetcher/tmp/few_shot_priming-0.3.98-py3-none-any.whl.zip]
+[2024-04-05 12:42:36] INFO root fetch - processPackages [few-shot-priming]: Remove: archive file [/home/abi/fetcher/tmp/few_shot_priming-0.3.99-py3-none-any.whl.zip]
+[2024-04-05 12:42:36] INFO root fetch - main [MainThread]: End processing [few-shot-priming]: success
+[2024-04-05 12:42:36] INFO root fetch - main [MainThread]: Store serial: [22634732]
