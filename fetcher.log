@@ -13514,3 +13514,44 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2024-04-05 08:25:46] INFO root fetch - processPackages [phonenumbers]: Remove: archive file [/home/abi/fetcher/tmp/phonenumbers-8.9.9.tar.gz]
 [2024-04-05 08:25:46] INFO root fetch - main [MainThread]: End processing [phonenumbers]: success
 [2024-04-05 08:25:46] INFO root fetch - main [MainThread]: Store serial: [22632461]
+[2024-04-05 08:27:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22632461]
+[2024-04-05 08:27:55] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-05 08:27:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: apconfig
+[2024-04-05 08:27:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: codex
+[2024-04-05 08:27:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: quantplay
+[2024-04-05 08:27:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mstk
+[2024-04-05 08:27:55] INFO root fetch - processPackages [mstk]: New version: [0.3.9] Old Version: [0.3.8]
+[2024-04-05 08:27:55] INFO root fetch - processPackages [apconfig]: New version: [0.0.102] Old Version: [0.0.101]
+[2024-04-05 08:27:55] INFO root fetch - processPackages [quantplay]: New version: [1.5.9] Old Version: [1.5.8]
+[2024-04-05 08:27:56] INFO root fetch - processPackages [apconfig]: Downloading https://files.pythonhosted.org/packages/30/c5/f4583e14843eb8bf72ebdd21405c85b05ba5166e3b91b22bfe82a8c47f7e/apconfig-0.0.101.tar.gz
+[2024-04-05 08:27:56] INFO root fetch - processPackages [mstk]: Downloading https://files.pythonhosted.org/packages/03/68/bedd17712c193cb037aa5c78650b3379c29a9b286923f180940859a2ec50/mstk-0.3.8.tar.gz
+[2024-04-05 08:27:56] INFO root fetch - processPackages [codex]: New version: [1.5.9] Old Version: [1.5.8]
+[2024-04-05 08:27:56] INFO root fetch - processPackages [quantplay]: Downloading https://files.pythonhosted.org/packages/71/23/85a802491d69beb714dd8831f123c9440301eb94caca43392e50be63fff6/quantplay-1.5.8.tar.gz
+[2024-04-05 08:27:56] WARNING root fetch - processPackages [apconfig]: Timeout reached during download
+[2024-04-05 08:27:56] WARNING root fetch - processPackages [quantplay]: Timeout reached during download
+[2024-04-05 08:27:56] INFO root fetch - processPackages [codex]: Downloading https://files.pythonhosted.org/packages/0c/6f/7c4b25c7a3f59e29de3052fd98dcb78a9ee044406464991bc45a1fd4a48f/codex-1.5.8.tar.gz
+[2024-04-05 08:27:56] WARNING root fetch - processPackages [codex]: Skipping package: exceeds size limit 18232846>=10485760
+[2024-04-05 08:27:56] INFO root fetch - main [MainThread]: End processing [codex] error
+[2024-04-05 08:27:56] WARNING root fetch - processPackages [mstk]: Timeout reached during download
+[2024-04-05 08:27:56] INFO root fetch - processPackages [apconfig]: Downloading https://files.pythonhosted.org/packages/fe/81/973d9f91f32c85bb3227234d6811b38fa97814fdf7061b739c9c4fd34646/apconfig-0.0.102.tar.gz
+[2024-04-05 08:27:56] INFO root fetch - processPackages [quantplay]: Downloading https://files.pythonhosted.org/packages/29/44/bc619a0a4e2ecba52ee7f6eac8f51f600a1d90bb67f88a28638d7d9f9c62/quantplay-1.5.9.tar.gz
+[2024-04-05 08:27:56] WARNING root fetch - processPackages [apconfig]: Timeout reached during download
+[2024-04-05 08:27:56] INFO root fetch - processPackages [apconfig]: executing diffoscope
+[2024-04-05 08:27:56] INFO root fetch - processPackages [apconfig]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apconfig-0.0.101.tar.gz tmp/apconfig-0.0.102.tar.gz --markdown 20240405/a/apconfig/0.0.101-0.0.102/diff.md --exclude *.pyd
+[2024-04-05 08:27:56] INFO root fetch - processPackages [mstk]: Downloading https://files.pythonhosted.org/packages/36/91/b3806564c9f06ba7b764985f55bac1706d1dd4d974701f0bdf9e0c4098a8/mstk-0.3.9.tar.gz
+[2024-04-05 08:27:56] WARNING root fetch - processPackages [quantplay]: Timeout reached during download
+[2024-04-05 08:27:56] INFO root fetch - processPackages [quantplay]: executing diffoscope
+[2024-04-05 08:27:56] INFO root fetch - processPackages [quantplay]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quantplay-1.5.8.tar.gz tmp/quantplay-1.5.9.tar.gz --markdown 20240405/q/quantplay/1.5.8-1.5.9/diff.md --exclude *.pyd
+[2024-04-05 08:27:56] WARNING root fetch - processPackages [mstk]: Timeout reached during download
+[2024-04-05 08:27:56] INFO root fetch - processPackages [mstk]: executing diffoscope
+[2024-04-05 08:27:56] INFO root fetch - processPackages [mstk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mstk-0.3.8.tar.gz tmp/mstk-0.3.9.tar.gz --markdown 20240405/m/mstk/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2024-04-05 08:27:57] INFO root fetch - processPackages [apconfig]: Remove: archive file [/home/abi/fetcher/tmp/apconfig-0.0.101.tar.gz]
+[2024-04-05 08:27:57] INFO root fetch - processPackages [apconfig]: Remove: archive file [/home/abi/fetcher/tmp/apconfig-0.0.102.tar.gz]
+[2024-04-05 08:27:57] INFO root fetch - main [MainThread]: End processing [apconfig]: success
+[2024-04-05 08:27:57] INFO root fetch - processPackages [quantplay]: Remove: archive file [/home/abi/fetcher/tmp/quantplay-1.5.8.tar.gz]
+[2024-04-05 08:27:57] INFO root fetch - processPackages [quantplay]: Remove: archive file [/home/abi/fetcher/tmp/quantplay-1.5.9.tar.gz]
+[2024-04-05 08:27:57] INFO root fetch - main [MainThread]: End processing [quantplay]: success
+[2024-04-05 08:27:57] INFO root fetch - processPackages [mstk]: Remove: archive file [/home/abi/fetcher/tmp/mstk-0.3.8.tar.gz]
+[2024-04-05 08:27:57] INFO root fetch - processPackages [mstk]: Remove: archive file [/home/abi/fetcher/tmp/mstk-0.3.9.tar.gz]
+[2024-04-05 08:27:57] INFO root fetch - main [MainThread]: End processing [mstk]: success
+[2024-04-05 08:27:57] INFO root fetch - main [MainThread]: Store serial: [22632475]
