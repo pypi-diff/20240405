@@ -11849,3 +11849,28 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2024-04-05 06:53:14] INFO root fetch - processPackages [mystmd]: Remove: archive file [/home/abi/fetcher/tmp/mystmd-1.1.9.tar.gz]
 [2024-04-05 06:53:14] INFO root fetch - main [MainThread]: End processing [mystmd]: success
 [2024-04-05 06:53:14] INFO root fetch - main [MainThread]: Store serial: [22631817]
+[2024-04-05 06:55:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22631817]
+[2024-04-05 06:55:28] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-05 06:55:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: monsgrams
+[2024-04-05 06:55:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: custom-cytomine-client
+[2024-04-05 06:55:28] INFO root fetch - processPackages [monsgrams]: New version: [1.1] Old Version: [0.9]
+[2024-04-05 06:55:28] INFO root fetch - processPackages [custom-cytomine-client]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-05 06:55:28] INFO root fetch - processPackages [monsgrams]: Downloading https://files.pythonhosted.org/packages/74/e5/afd1d3fc72f146f7b4086ad643a9f56dc902dba5073c690ea159cfc0a1f0/monsgrams-0.9.tar.gz
+[2024-04-05 06:55:28] WARNING root fetch - processPackages [monsgrams]: Timeout reached during download
+[2024-04-05 06:55:28] INFO root fetch - processPackages [custom-cytomine-client]: Downloading https://files.pythonhosted.org/packages/eb/97/67b2259f8b07490c98a4fdfe69831bcd836ec858f54b82f7680b3014ca34/custom_cytomine_client-0.0.8.tar.gz
+[2024-04-05 06:55:28] INFO root fetch - processPackages [monsgrams]: Downloading https://files.pythonhosted.org/packages/1e/f9/3c6f10d0bca8b473a0f6f3814ed34122a987853dd683c4e9ce4d225a6ffa/monsgrams-1.1.tar.gz
+[2024-04-05 06:55:28] WARNING root fetch - processPackages [custom-cytomine-client]: Timeout reached during download
+[2024-04-05 06:55:28] WARNING root fetch - processPackages [monsgrams]: Timeout reached during download
+[2024-04-05 06:55:28] INFO root fetch - processPackages [monsgrams]: executing diffoscope
+[2024-04-05 06:55:28] INFO root fetch - processPackages [monsgrams]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/monsgrams-0.9.tar.gz tmp/monsgrams-1.1.tar.gz --markdown 20240405/m/monsgrams/0.9-1.1/diff.md --exclude *.pyd
+[2024-04-05 06:55:28] INFO root fetch - processPackages [custom-cytomine-client]: Downloading https://files.pythonhosted.org/packages/e8/28/8ba19c33ff5ca6fe46c094f805535862c39b806f65eb782505d0e8f6facd/custom_cytomine_client-0.0.9.tar.gz
+[2024-04-05 06:55:29] WARNING root fetch - processPackages [custom-cytomine-client]: Timeout reached during download
+[2024-04-05 06:55:29] INFO root fetch - processPackages [custom-cytomine-client]: executing diffoscope
+[2024-04-05 06:55:29] INFO root fetch - processPackages [custom-cytomine-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240405:/home/abi/fetcher/20240405:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/custom_cytomine_client-0.0.8.tar.gz tmp/custom_cytomine_client-0.0.9.tar.gz --markdown 20240405/c/custom-cytomine-client/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2024-04-05 06:55:29] INFO root fetch - processPackages [monsgrams]: Remove: archive file [/home/abi/fetcher/tmp/monsgrams-0.9.tar.gz]
+[2024-04-05 06:55:29] INFO root fetch - processPackages [monsgrams]: Remove: archive file [/home/abi/fetcher/tmp/monsgrams-1.1.tar.gz]
+[2024-04-05 06:55:29] INFO root fetch - main [MainThread]: End processing [monsgrams]: success
+[2024-04-05 06:55:29] INFO root fetch - processPackages [custom-cytomine-client]: Remove: archive file [/home/abi/fetcher/tmp/custom_cytomine_client-0.0.8.tar.gz]
+[2024-04-05 06:55:29] INFO root fetch - processPackages [custom-cytomine-client]: Remove: archive file [/home/abi/fetcher/tmp/custom_cytomine_client-0.0.9.tar.gz]
+[2024-04-05 06:55:29] INFO root fetch - main [MainThread]: End processing [custom-cytomine-client]: success
+[2024-04-05 06:55:29] INFO root fetch - main [MainThread]: Store serial: [22631821]
